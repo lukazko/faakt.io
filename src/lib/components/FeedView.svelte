@@ -80,7 +80,7 @@
 {#if loading}
 	<div class="loading-screen">
 		<div class="spinner"></div>
-		<p>Načítám myšlenky...</p>
+		<p>Načítám všechnu moudrost světa...</p>
 	</div>
 {:else if error}
 	<div class="error-screen">
@@ -92,7 +92,7 @@
 		<!-- App header -->
 		<header class="app-header">
 			<span class="app-logo">faakt.io</span>
-			<span class="app-tagline">myšlenky, které stojí za to</span>
+			<span class="app-tagline">doomscrolling, který má smysl</span>
 		</header>
 
 		<div class="feed-stack">

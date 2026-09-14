@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>faakt.io — myšlenky, které stojí za to</title>
+	<title>faakt.io — doomscrolling, který má smysl</title>
 </svelte:head>
 
 <FeedView />
