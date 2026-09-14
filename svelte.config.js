@@ -15,6 +15,9 @@ const config = {
 		}),
 		paths: {
 			base: '/faakt.io'
+		},
+		prerender: {
+			handleHttpError: 'warn'
 		}
 	}
 };
