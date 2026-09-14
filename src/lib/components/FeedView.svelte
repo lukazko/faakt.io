@@ -12,7 +12,7 @@
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
-	let base = $state(import.meta.env.BASE_URL || '');
+	let base = $state((import.meta.env.BASE_URL || '').replace(/\/$/, ''));
 
 	/**
 	 * Fisher-Yates shuffle — každý uživatel vidí myšlenky v jiném pořadí.
@@ -36,7 +36,7 @@
 
 	async function loadPosts() {
 		try {
-			const res = await fetch(`${base}data/posts.json`);
+			const res = await fetch(`${base}/data/posts.json`);
 			if (!res.ok) throw new Error('Nepodařilo se načíst příspěvky');
 			const raw = await res.json();
 			posts = shufflePosts(raw, targetPostId);
@@ -63,14 +63,14 @@
 			// Update URL hash to match current post
 			const post = posts[idx];
 			if (post) {
-				const url = `${window.location.origin}${base}post/${post.id}`;
+				const url = `${window.location.origin}${base}/post/${post.id}`;
 				window.history.replaceState({}, '', url);
 			}
 		}
 	}
 
 	async function sharePost(post) {
-		const url = `${window.location.origin}${base}post/${post.id}`;
+		const url = `${window.location.origin}${base}/post/${post.id}`;
 		if (navigator.share) {
 			try {
 				await navigator.share({
