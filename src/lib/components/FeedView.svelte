@@ -73,19 +73,15 @@
 		const url = `${window.location.origin}${base}/post/${post.id}`;
 		if (navigator.share) {
 			try {
-				await navigator.share({
-					title: post.title,
-					text: `${post.title}\n\n${post.content}`,
-					url: url
-				});
+				await navigator.share({ url: url });
 			} catch (err) {
 				// user cancelled
 			}
 		} else {
-			// Fallback: copy to clipboard
+			// Fallback: copy just the URL to clipboard
 			try {
-				await navigator.clipboard.writeText(`${post.title}\n\n${post.content}\n\n${url}`);
-				showToast('Text zkopírován do schránky');
+				await navigator.clipboard.writeText(url);
+				showToast('Odkaz zkopírován do schránky');
 			} catch {
 				showToast('Sdílení není podporováno');
 			}
@@ -222,7 +218,6 @@
 	.app-logo {
 		font-size: 1.3rem;
 		font-weight: 900;
-		font-style: italic;
 		letter-spacing: -0.02em;
 		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
 		-webkit-background-clip: text;
@@ -242,6 +237,7 @@
 
 	.app-tagline {
 		font-size: 0.65rem;
+		font-style: italic;
 		color: #555;
 		font-weight: 400;
 		letter-spacing: 0.03em;
