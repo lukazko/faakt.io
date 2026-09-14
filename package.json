@@ -1,0 +1,21 @@
+{
+  "name": "faakt.io",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Myšlenky, které stojí za to — TikTok pro tvou mysl",
+  "scripts": {
+    "dev": "vite dev",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate": "node scripts/generate-posts.mjs",
+    "deploy": "node scripts/deploy-gh-pages.mjs"
+  },
+  "devDependencies": {
+    "@sveltejs/adapter-static": "^3.0.10",
+    "@sveltejs/kit": "^2.70.3",
+    "@sveltejs/vite-plugin-svelte": "^5.1.1",
+    "svelte": "^5.57.0",
+    "vite": "^6.4.3"
+  }
+}
