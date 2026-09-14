@@ -1,8 +1,11 @@
 <script>
 	/**
 	 * FeedView — hlavní komponenta pro scrollování příspěvky
+	 * @param {string} [targetPostId] — pokud je uvedeno, tato myšlenka se zobrazí jako první
 	 */
 	import PostCard from './PostCard.svelte';
+
+	let { targetPostId } = $props();
 
 	let posts = $state([]);
 	let loading = $state(true);
@@ -11,13 +14,38 @@
 	let error = $state(null);
 	let base = $state(import.meta.env.BASE_URL || '');
 
+	/**
+	 * Fisher-Yates shuffle — každý uživatel vidí myšlenky v jiném pořadí.
+	 * Pokud je zadáno targetPostId, daná myšlenka bude první.
+	 */
+	function shufflePosts(arr, targetId) {
+		const shuffled = [...arr];
+		for (let i = shuffled.length - 1; i > 0; i--) {
+			const j = Math.floor(Math.random() * (i + 1));
+			[shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+		}
+		if (targetId) {
+			const idx = shuffled.findIndex(p => p.id === targetId);
+			if (idx !== -1) {
+				const target = shuffled.splice(idx, 1)[0];
+				shuffled.unshift(target);
+			}
+		}
+		return shuffled;
+	}
+
 	async function loadPosts() {
 		try {
 			const res = await fetch(`${base}data/posts.json`);
 			if (!res.ok) throw new Error('Nepodařilo se načíst příspěvky');
-			const data = await res.json();
-			posts = data;
-			totalPosts = data.length;
+			const raw = await res.json();
+			posts = shufflePosts(raw, targetPostId);
+			totalPosts = posts.length;
+			// Scroll to top after data loads so the first post is visible
+			requestAnimationFrame(() => {
+				const container = document.querySelector('.feed-container');
+				if (container) container.scrollTop = 0;
+			});
 		} catch (e) {
 			error = e.message;
 		} finally {
@@ -32,16 +60,23 @@
 		const idx = Math.round(scrollTop / cardHeight);
 		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
 			currentIndex = idx;
+			// Update URL hash to match current post
+			const post = posts[idx];
+			if (post) {
+				const url = `${window.location.origin}${base}post/${post.id}`;
+				window.history.replaceState({}, '', url);
+			}
 		}
 	}
 
 	async function sharePost(post) {
+		const url = `${window.location.origin}${base}post/${post.id}`;
 		if (navigator.share) {
 			try {
 				await navigator.share({
 					title: post.title,
 					text: `${post.title}\n\n${post.content}`,
-					url: window.location.href
+					url: url
 				});
 			} catch (err) {
 				// user cancelled
@@ -49,7 +84,7 @@
 		} else {
 			// Fallback: copy to clipboard
 			try {
-				await navigator.clipboard.writeText(`${post.title}\n\n${post.content}`);
+				await navigator.clipboard.writeText(`${post.title}\n\n${post.content}\n\n${url}`);
 				showToast('Text zkopírován do schránky');
 			} catch {
 				showToast('Sdílení není podporováno');
@@ -187,7 +222,8 @@
 	.app-logo {
 		font-size: 1.3rem;
 		font-weight: 900;
-		letter-spacing: -0.04em;
+		font-style: italic;
+		letter-spacing: -0.02em;
 		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
