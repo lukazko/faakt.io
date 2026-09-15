@@ -167,7 +167,7 @@
 		<!-- App header -->
 		<header class="app-header">
 			<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
-			<span class="app-tagline">doomscrolling, který má smysl</span>
+			<span class="app-tagline">doomscrolling, ale lepší</span>
 		</header>
 
 		<div class="feed-stack">

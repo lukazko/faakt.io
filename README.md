@@ -1,6 +1,6 @@
 # faakt.io
 
-Doomscrolling, který má smysl — scrollovací feed s historickými fakty, filozofií, vědou a uměním.
+Doomscrolling, ale lepší — scrollovací feed s historickými fakty, filozofií, vědou a uměním.
 
 ## Lokální spuštění
 

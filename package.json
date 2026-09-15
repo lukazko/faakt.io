@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "type": "module",
-  "description": "doomscrolling, který má smysl — TikTok pro tvou mysl",
+  "description": "doomscrolling, ale lepší — TikTok pro tvou mysl",
   "scripts": {
     "dev": "vite dev",
     "build": "vite build",
