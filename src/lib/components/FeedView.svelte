@@ -212,7 +212,7 @@
 					<p class="end-card-text">Nesedíš už na tom záchodě moc dlouho?</p>
 					<button class="load-more-btn" onclick={loadMore}>
 						<span class="load-more-icon">+</span>
-						Nee, chci přidat
+						Nee, dej mi víc!
 					</button>
 				</div>
 			{/if}
