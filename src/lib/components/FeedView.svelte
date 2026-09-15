@@ -12,6 +12,7 @@
 	let posts = $state([]);
 	let visibleCount = $state(PAGE_SIZE);
 	let loading = $state(true);
+	let loadingMore = $state(false);
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
@@ -64,7 +65,6 @@
 		const idx = Math.round(scrollTop / cardHeight);
 		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
 			currentIndex = idx;
-			// Update URL hash to match current post
 			const post = posts[idx];
 			if (post) {
 				const url = `${window.location.origin}${base}/post/${post.id}`;
@@ -73,18 +73,31 @@
 		}
 	}
 
-	function loadMore() {
+	async function loadMore() {
 		const oldCount = visibleCount;
+		loadingMore = true;
 		visibleCount += PAGE_SIZE;
-		// Počkáme na překreslení DOM s novými příspěvky, pak scrollneme na první nový
-		tick().then(() => {
-			const container = document.querySelector('.feed-container');
-			if (!container) return;
-			const cardHeight = container.clientHeight;
-			container.scrollTo({
-				top: oldCount * cardHeight,
-				behavior: 'smooth'
-			});
+		await tick();
+		// Počkáme na vykreslení loading overlay, aby nebylo vidět žádné scrollování
+		await new Promise(resolve => requestAnimationFrame(resolve));
+		const container = document.querySelector('.feed-container');
+		if (!container) return;
+		const cardHeight = container.clientHeight;
+		// Dočasně vypneme scroll-snap a smooth-scroll, aby skok byl okamžitý
+		container.style.scrollSnapType = 'none';
+		container.style.scrollBehavior = 'auto';
+		container.scrollTop = oldCount * cardHeight;
+		currentIndex = oldCount;
+		const post = posts[oldCount];
+		if (post) {
+			const url = `${window.location.origin}${base}/post/${post.id}`;
+			window.history.replaceState({}, '', url);
+		}
+		// V next frame obnovíme scroll-snap a zároveň skryjeme overlay
+		requestAnimationFrame(() => {
+			container.style.scrollSnapType = '';
+			container.style.scrollBehavior = '';
+			loadingMore = false;
 		});
 	}
 
@@ -142,7 +155,7 @@
 	<div class="feed-container" onscroll={handleScroll}>
 		<!-- App header -->
 		<header class="app-header">
-			<span class="app-logo">faakt.io</span>
+			<a href={base} data-sveltekit-reload class="app-logo">faakt.io</a>
 			<span class="app-tagline">doomscrolling, který má smysl</span>
 		</header>
 
@@ -179,6 +192,14 @@
 
 	<!-- Progress bar -->
 	<div class="progress-bar" style="width: {getProgress()}%"></div>
+
+	<!-- Loading overlay for loadMore -->
+	{#if loadingMore}
+		<div class="loading-overlay">
+			<div class="spinner"></div>
+			<p>Načítám další...</p>
+		</div>
+	{/if}
 
 	<!-- Toast -->
 	<div id="toast" class="toast"></div>
@@ -249,11 +270,14 @@
 		font-size: 1.3rem;
 		font-weight: 900;
 		letter-spacing: -0.02em;
+		position: relative;
+		cursor: pointer;
+		pointer-events: auto;
+		text-decoration: none;
 		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
-		position: relative;
 	}
 
 	.app-logo::before {
@@ -355,6 +379,21 @@
 		font-size: 1.3rem;
 		font-weight: 300;
 		line-height: 1;
+	}
+
+	/* Loading overlay */
+	.loading-overlay {
+		position: fixed;
+		inset: 0;
+		z-index: 300;
+		background: var(--bg);
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 16px;
+		color: var(--text-muted);
+		font-size: 1rem;
 	}
 
 	.progress-bar {
