@@ -5,6 +5,7 @@
 	const PAGE_SIZE = 20;
 	let posts = $state([]);
 	let visibleCount = $state(PAGE_SIZE);
+	let activeMenu = $state(null); // post id, or null
 	let loading = $state(true);
 	let loadingMore = $state(false);
 	let currentIndex = $state(0);
@@ -115,6 +116,21 @@
 		}
 	}
 
+	function reportPost(post) {
+		const url = getShareUrl(post.id);
+		const title = encodeURIComponent(post.title.slice(0, 80));
+		const body = encodeURIComponent(
+			'**ID příspěvku:** ' + post.id + '\n' +
+			'**Titulek:** ' + post.title + '\n' +
+			'**Kategorie:** ' + post.category + '\n' +
+			'**Odkaz:** ' + url + '\n\n' +
+			'**Popis problému:\n' +
+			'(doplň, co je špatně)\n' +
+			'(fakta, datum, zdroje...)'
+		);
+		window.open('https://github.com/lukazko/faakt.io/issues/new?template=report-post.yml&title=Nahlášení+problému:+ ' + title + '&body=' + body, '_blank');
+	}
+
 	let toastTimeout;
 	function showToast(msg) {
 		const el = document.getElementById('toast');
@@ -159,17 +175,35 @@
 				<div class="card-wrapper">
 					<PostCard {post} />
 
-					<!-- Share button overlay -->
+					<!-- Action button -->
 					<button
-						class="share-btn"
-						aria-label="Sdílet příspěvek"
-						onclick={() => sharePost(post)}
+						class="action-btn"
+						aria-label="Akce"
+						onclick={() => activeMenu = activeMenu === post.id ? null : post.id}
 					>
-						<svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-							<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+						<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+							<circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/>
 						</svg>
 					</button>
+					<!-- Action menu -->
+					{#if activeMenu === post.id}
+						<div class="action-menu" onclick={() => activeMenu = null}>
+							<button class="action-item" onclick={(e) => { e.stopPropagation(); sharePost(post); activeMenu = null; }}>
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+									<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+									<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+								</svg>
+								Sdílet
+							</button>
+							<button class="action-item" onclick={(e) => { e.stopPropagation(); reportPost(post); activeMenu = null; }}>
+								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+									<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
+									<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
+								</svg>
+								Nahlásit problém
+							</button>
+						</div>
+					{/if}
 				</div>
 			{/each}
 
@@ -302,15 +336,15 @@
 		position: relative;
 	}
 
-	.share-btn {
+	.action-btn {
 		position: absolute;
-		bottom: 32px;
+		bottom: 24px;
 		right: 20px;
 		width: 48px;
 		height: 48px;
 		border-radius: 50%;
 		border: 1px solid #333;
-		background: rgba(20, 20, 20, 0.8);
+		background: rgba(20, 20, 20, 0.85);
 		backdrop-filter: blur(8px);
 		color: var(--text-muted);
 		display: flex;
@@ -321,11 +355,59 @@
 		z-index: 10;
 	}
 
-	.share-btn:active {
+	.action-btn:active {
 		transform: scale(0.9);
 		background: var(--accent);
 		color: var(--bg);
 		border-color: var(--accent);
+	}
+
+	.action-menu {
+		position: absolute;
+		bottom: 80px;
+		right: 20px;
+		background: rgba(24, 24, 24, 0.95);
+		backdrop-filter: blur(12px);
+		border: 1px solid #333;
+		border-radius: 14px;
+		padding: 6px;
+		display: flex;
+		flex-direction: column;
+		gap: 2px;
+		z-index: 20;
+		min-width: 160px;
+		animation: menuIn 0.2s ease-out;
+	}
+
+	@keyframes menuIn {
+		from { opacity: 0; transform: translateY(8px) scale(0.95); }
+		to { opacity: 1; transform: translateY(0) scale(1); }
+	}
+
+	.action-item {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+		width: 100%;
+		padding: 10px 14px;
+		border: none;
+		background: transparent;
+		color: var(--text-muted);
+		font-size: 0.85rem;
+		cursor: pointer;
+		border-radius: 10px;
+		transition: all 0.15s;
+		white-space: nowrap;
+	}
+
+	.action-item:hover {
+		background: rgba(255, 255, 255, 0.06);
+		color: var(--text);
+	}
+
+	.action-item:active {
+		background: var(--accent);
+		color: var(--bg);
 	}
 
 	/* End card (load more) */

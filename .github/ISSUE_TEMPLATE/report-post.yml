@@ -1,0 +1,43 @@
+name: Nahlášení problému v příspěvku
+description: Nahlaste chybu, nepřesnost nebo problém v konkrétním příspěvku
+title: "[Chyba v obsahu] — "
+labels: ["obsah"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Děkujeme, že pomáháš vylepšovat faakt.io! Vyplň prosím co nefunguje.
+
+  - type: input
+    id: post-id
+    attributes:
+      label: ID příspěvku
+      description: ID číslo příspěvku (např. 042)
+      placeholder: "042"
+    validations:
+      required: true
+
+  - type: input
+    id: post-title
+    attributes:
+      label: Titulek
+      description: Titulek příspěvku
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue-description
+    attributes:
+      label: Popis problému
+      description: Co je špatně? Nepřesné datum, smyšlené tvrzení, chybný zdroj, překlep…?
+      placeholder: "Např.: Datum bitvy u Marathonu je uvedeno 492 př. n. l., správně je 490 př. n. l."
+    validations:
+      required: true
+
+  - type: input
+    id: source
+    attributes:
+      label: Zdroj správné informace (volitelný)
+      description: Pokud máš odkaz na správnou informaci
+      placeholder: "https://..."
