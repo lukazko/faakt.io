@@ -259,7 +259,7 @@
 	}
 
 	.app-logo {
-		font-size: 1.3rem;
+		font-size: 1.5rem;
 		font-weight: 900;
 		letter-spacing: -0.02em;
 		position: relative;
