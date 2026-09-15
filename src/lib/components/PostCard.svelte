@@ -20,7 +20,12 @@
 		'politika':    { label: 'Politika',    color: 'var(--cat-politika)' },
 		'fyzika':      { label: 'Fyzika',      color: 'var(--cat-fyzika)' },
 		'astronomie':  { label: 'Astronomie',  color: 'var(--cat-astronomie)' },
-		'zajimavost':  { label: 'Zajímavost',  color: 'var(--cat-zajimavost)' }
+		'zajimavost':  { label: 'Zajímavost',  color: 'var(--cat-zajimavost)' },
+			'ekonomie':    { label: 'Ekonomie',    color: 'var(--cat-ekonomie)' },
+			'psychologie': { label: 'Psychologie', color: 'var(--cat-psychologie)' },
+			'filmy':       { label: 'Filmy',       color: 'var(--cat-filmy)' },
+			'matematika':  { label: 'Matematika',  color: 'var(--cat-matematika)' },
+			'pocitacove-vedy': { label: 'Počítačové vědy', color: 'var(--cat-pocitacove-vedy)' }
 	};
 
 	let cat = $derived(categoryMeta[post.category] || { label: post.category, color: 'var(--text-muted)' });
@@ -31,7 +36,7 @@
 	<div class="card-content">
 		<span class="category-badge" style="--cat-color: {cat.color}">{cat.label}</span>
 		<h2 class="title">{post.title}</h2>
-		<p class="content">{post.content}</p>
+		<div class="content">{@html post.content}</div>
 
 		{#if hasSources}
 			<div class="sources">
@@ -106,6 +111,39 @@
 		line-height: 1.7;
 		color: var(--text-muted);
 	}
+
+	.content :global(p) {
+		margin-bottom: 10px;
+	}
+
+	.content :global(p:last-child) {
+		margin-bottom: 0;
+	}
+
+	.content :global(strong) {
+		color: var(--text);
+		font-weight: 700;
+	}
+
+	.content :global(ul) {
+		list-style: none;
+		padding-left: 0;
+		margin: 8px 0;
+	}
+
+	.content :global(ul li) {
+		padding: 4px 0 4px 20px;
+		position: relative;
+	}
+
+	.content :global(ul li::before) {
+		content: '—';
+		position: absolute;
+		left: 0;
+		color: var(--accent);
+	}
+
+	.content :global(em) { font-style: italic; color: var(--text-muted); }
 
 	/* Sources */
 	.sources {
