@@ -1,7 +1,4 @@
 <script>
-	/**
-	 * FeedView — hlavní komponenta pro scrollování příspěvky
-	 */
 	import { tick } from 'svelte';
 	import PostCard from './PostCard.svelte';
 
@@ -13,12 +10,7 @@
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
-	let base = $state((import.meta.env.BASE_URL || '/').replace(/\/$/, ''));
 
-	/**
-	 * Fisher-Yates shuffle — každý uživatel vidí myšlenky v jiném pořadí.
-	 * Pokud je zadáno targetId, daná myšlenka bude první.
-	 */
 	function shufflePosts(arr, targetId) {
 		const shuffled = [...arr];
 		for (let i = shuffled.length - 1; i > 0; i--) {
@@ -35,21 +27,30 @@
 		return shuffled;
 	}
 
-	/** Vrátí ID příspěvku z URL — buď z query (?post=XXX), nebo z cesty (/post/XXX) */
+	/**
+	 * Vrátí ID příspěvku z URL query parametru (?post=XXX)
+	 */
 	function getPostIdFromUrl() {
 		if (typeof window === 'undefined') return null;
 		const params = new URLSearchParams(window.location.search);
-		const fromQuery = params.get('post');
-		if (fromQuery) return fromQuery;
-		const match = window.location.pathname.match(/\/post\/(\w+)/);
-		return match ? match[1] : null;
+		return params.get('post');
+	}
+
+	/**
+	 * Vrátí správné URL pro sdílení, nezávisle na BASE_URL
+	 * Pracuje stejně na localhost i GitHub Pages
+	 */
+	function getShareUrl(postId) {
+		const baseUrl = window.location.origin + window.location.pathname.replace(/\/$/, '');
+		return `${baseUrl}/?post=${postId}`;
 	}
 
 	async function loadPosts() {
 		try {
-			const res = await fetch(`${base}/data/posts.json`);
-			if (!res.ok) throw new Error(`Nepodařilo se načíst příspěvky (${res.status})`);
-			const raw = await res.json();
+			// Dynamicky načti posts.json relativně ke current location
+			const response = await fetch('data/posts.json');
+			if (!response.ok) throw new Error(`Nepodařilo se načíst příspěvky (${response.status})`);
+			const raw = await response.json();
 			const targetId = getPostIdFromUrl();
 			posts = shufflePosts(raw, targetId);
 			totalPosts = posts.length;
@@ -60,6 +61,7 @@
 			});
 		} catch (e) {
 			error = e.message;
+			console.error('❌ Chyba:', e);
 		} finally {
 			loading = false;
 		}
@@ -95,10 +97,11 @@
 	}
 
 	async function sharePost(post) {
-		const url = `${window.location.origin}${base}/?post=${post.id}`;
+		const url = getShareUrl(post.id);
+		console.log('🔗 Share URL:', url);
 		if (navigator.share) {
 			try {
-				await navigator.share({ url });
+				await navigator.share({ url, title: post.title });
 			} catch (err) {
 				// user cancelled
 			}
@@ -147,7 +150,7 @@
 	<div class="feed-container" onscroll={handleScroll}>
 		<!-- App header -->
 		<header class="app-header">
-			<a href={base} data-sveltekit-reload class="app-logo">faakt.io</a>
+			<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
 			<span class="app-tagline">doomscrolling, který má smysl</span>
 		</header>
 
