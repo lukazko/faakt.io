@@ -1,0 +1,1 @@
+import"../chunks/BQPTFMtb.js";import"../chunks/CGlQULNv.js";import{l as t,$ as e}from"../chunks/w0MbqSU8.js";import{h as m,F as a}from"../chunks/ZfTf35mH.js";function p(o){m("1sv6dbf",r=>{t(()=>{e.title="faakt.io — doomscrolling, který má smysl"})}),a(o,{})}export{p as component};

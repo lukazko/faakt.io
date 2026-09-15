@@ -1,12 +1,9 @@
 <script>
 	/**
 	 * FeedView — hlavní komponenta pro scrollování příspěvky
-	 * @param {string} [targetPostId] — pokud je uvedeno, tato myšlenka se zobrazí jako první
 	 */
 	import { tick } from 'svelte';
 	import PostCard from './PostCard.svelte';
-
-	let { targetPostId } = $props();
 
 	const PAGE_SIZE = 20;
 	let posts = $state([]);
@@ -20,7 +17,7 @@
 
 	/**
 	 * Fisher-Yates shuffle — každý uživatel vidí myšlenky v jiném pořadí.
-	 * Pokud je zadáno targetPostId, daná myšlenka bude první.
+	 * Pokud je zadáno targetId, daná myšlenka bude první.
 	 */
 	function shufflePosts(arr, targetId) {
 		const shuffled = [...arr];
@@ -38,24 +35,31 @@
 		return shuffled;
 	}
 
+	/** Vrátí ID příspěvku z URL — buď z query (?post=XXX), nebo z cesty (/post/XXX) */
+	function getPostIdFromUrl() {
+		if (typeof window === 'undefined') return null;
+		const params = new URLSearchParams(window.location.search);
+		const fromQuery = params.get('post');
+		if (fromQuery) return fromQuery;
+		const match = window.location.pathname.match(/\/post\/(\w+)/);
+		return match ? match[1] : null;
+	}
+
 	async function loadPosts() {
 		try {
-			const url = `${base}/data/posts.json`;
-			console.log('🔍 Fetching from:', url);
-			const res = await fetch(url);
+			const res = await fetch(`${base}/data/posts.json`);
 			if (!res.ok) throw new Error(`Nepodařilo se načíst příspěvky (${res.status})`);
 			const raw = await res.json();
-			posts = shufflePosts(raw, targetPostId);
+			const targetId = getPostIdFromUrl();
+			posts = shufflePosts(raw, targetId);
 			totalPosts = posts.length;
 			visibleCount = PAGE_SIZE;
-			// Scroll to top after data loads so the first post is visible
 			requestAnimationFrame(() => {
 				const container = document.querySelector('.feed-container');
 				if (container) container.scrollTop = 0;
 			});
 		} catch (e) {
 			error = e.message;
-			console.error('❌ Error loading posts:', e);
 		} finally {
 			loading = false;
 		}
@@ -68,62 +72,37 @@
 		const idx = Math.round(scrollTop / cardHeight);
 		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
 			currentIndex = idx;
-			const post = posts[idx];
-			if (post) {
-				const url = `${window.location.origin}${base}/post/${post.id}`;
-				try {
-					window.history.replaceState({}, '', url);
-				} catch (e) {
-					console.warn('⚠️ Cannot update URL:', e.message);
-				}
-			}
 		}
 	}
 
 	async function loadMore() {
-		try {
-			const oldCount = visibleCount;
-			loadingMore = true;
-			visibleCount += PAGE_SIZE;
-			await tick();
-			// Počkáme na vykreslení loading overlay, aby nebylo vidět žádné scrollování
-			await new Promise(resolve => requestAnimationFrame(resolve));
-			const container = document.querySelector('.feed-container');
-			if (container) {
-				const cardHeight = container.clientHeight;
-				// Dočasně vypneme scroll-snap a smooth-scroll, aby skok byl okamžitý
-				container.style.scrollSnapType = 'none';
-				container.style.scrollBehavior = 'auto';
-				container.scrollTop = oldCount * cardHeight;
-				// Obnovíme scroll-snap a smooth-scroll
-				container.style.scrollSnapType = '';
-				container.style.scrollBehavior = '';
-			}
-			currentIndex = oldCount;
-			const post = posts[oldCount];
-			if (post) {
-				const url = `${window.location.origin}${base}/post/${post.id}`;
-				try {
-					window.history.replaceState({}, '', url);
-				} catch (e) {
-					console.warn('⚠️ Cannot update URL:', e.message);
-				}
-			}
-		} finally {
-			loadingMore = false;
+		const oldCount = visibleCount;
+		loadingMore = true;
+		visibleCount += PAGE_SIZE;
+		await tick();
+		await new Promise(resolve => requestAnimationFrame(resolve));
+		const container = document.querySelector('.feed-container');
+		if (container) {
+			const cardHeight = container.clientHeight;
+			container.style.scrollSnapType = 'none';
+			container.style.scrollBehavior = 'auto';
+			container.scrollTop = oldCount * cardHeight;
+			container.style.scrollSnapType = '';
+			container.style.scrollBehavior = '';
 		}
+		currentIndex = oldCount;
+		loadingMore = false;
 	}
 
 	async function sharePost(post) {
-		const url = `${window.location.origin}${base}/post/${post.id}`;
+		const url = `${window.location.origin}${base}/?post=${post.id}`;
 		if (navigator.share) {
 			try {
-				await navigator.share({ url: url });
+				await navigator.share({ url });
 			} catch (err) {
 				// user cancelled
 			}
 		} else {
-			// Fallback: copy just the URL to clipboard
 			try {
 				await navigator.clipboard.writeText(url);
 				showToast('Odkaz zkopírován do schránky');
