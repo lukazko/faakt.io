@@ -130,7 +130,7 @@
 	{
 		"id": "009",
 		"title": "Buridanův osel — paradox volby",
-		"content": "Jan Buridan, středověký filozof (14. století), popsal paradox: osla postavíte mezi dva stejně velké a stejně vzdálené kupky sena. Osel nemá důvod vybrat si jednu před druhou — a tak uhyne hlady. Ačkoli je tento paradox připisován Buridanovi, nenajdeme ho přímo v jeho spisech — poprvé ho formuloval až Aristotelés. V moderní psychologii se podobný jev nazývá „analysis paralysis“.",
+		"content": "Paradox osla mezi dvěma kupkami sena, který zemře hlady, protože se nedokáže rozhodnout, bývá připisován středověkému filozofu Janu Buridanovi (14. století). Ve skutečnosti ho však známe už od Aristotela, který ho použil jako argument proti determinismu. V moderní psychologii se podobný jev nazývá „analysis paralysis“ — neschopnost rozhodnout se při příliš vyrovnaných možnostech.",
 		"category": "filozofie",
 		"sources": [
 			{
@@ -1596,6 +1596,646 @@
 			{
 				"label": "Wikipedia — Fall of Constantinople",
 				"url": "https://en.wikipedia.org/wiki/Fall_of_Constantinople"
+			}
+		]
+	},
+	{
+		"id": "101",
+		"title": "Řeka, do které nikdy nevstoupíš dvakrát",
+		"content": "Hérakleitos z Efesu, řecký filozof žijící kolem roku 500 př. n. l., tvrdil, že vše je v neustálém pohybu — panta rhei. Voda v řece se mění každým okamžikem, takže při druhém vstupu už vstupujete do jiné řeky. Myšlenka o neustálé proměně světa dodnes ovlivňuje filozofii i fyziku.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Heraclitus",
+				"url": "https://plato.stanford.edu/entries/heraclitus/"
+			},
+			{
+				"label": "Wikipedia — Hérakleitos",
+				"url": "https://cs.wikipedia.org/wiki/Hérakleitos"
+			}
+		]
+	},
+	{
+		"id": "102",
+		"title": "Proč se podle Epikúra nemusíme bát smrti",
+		"content": "Řecký filozof Epikúros (341–270 př. n. l.) učil, že smrt se nás vůbec netýká — pokud existujeme, smrt tu není, a když nastane smrt, my už tu nejsme. Tuto myšlenku popsal ve svém Dopisu Menoikovi jako lék proti strachu, který lidem brání žít šťastný život.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Epicurus",
+				"url": "https://plato.stanford.edu/entries/epicurus/"
+			},
+			{
+				"label": "Wikipedia — Epicurus",
+				"url": "https://en.wikipedia.org/wiki/Epicurus"
+			}
+		]
+	},
+	{
+		"id": "103",
+		"title": "Umění nedělat nic a přesto dosáhnout všeho",
+		"content": "Čínský mudrc Lao-c', tradičně spojovaný s 6. stoletím př. n. l., popsal v knize Tao te ching koncept wu-wei — jednání v souladu s přirozeným tokem věcí bez zbytečného vzpírání se. Nejde o pasivitu, ale o efektivitu bez boje proti přirozenosti, jako když voda obtéká kámen.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Britannica — Wu wei",
+				"url": "https://www.britannica.com/topic/wuwei"
+			},
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Laozi",
+				"url": "https://plato.stanford.edu/entries/laozi/"
+			}
+		]
+	},
+	{
+		"id": "104",
+		"title": "Proč loď nepotopíte jen tak — Archimédův zákon",
+		"content": "Archimédés ze Syrakus (kolem 287–212 př. n. l.) objevil, že těleso ponořené do kapaliny je nadlehčováno silou rovnou váze vytlačené kapaliny. Podle legendy na to přišel ve vaně a s výkřikem 'Eureka' vyběhl nahý do ulic Syrakus. Princip dodnes vysvětluje, proč obrovské ocelové lodě plavou.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Britannica — Archimedes' principle",
+				"url": "https://www.britannica.com/science/Archimedes-principle"
+			},
+			{
+				"label": "Wikipedia — Archimédés",
+				"url": "https://cs.wikipedia.org/wiki/Archimédés"
+			}
+		]
+	},
+	{
+		"id": "105",
+		"title": "Zlaté pravidlo dřív, než ho znal západní svět",
+		"content": "Čínský myslitel Konfucius (kolem 551–479 př. n. l.) formuloval v Analektech pravidlo: 'Co nechceš, aby ti dělali druzí, nedělej ty jim.' Tato etická zásada vzájemnosti, později přezdívaná zlaté pravidlo, se objevuje nezávisle i v jiných starověkých tradicích po celém světě.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Confucius",
+				"url": "https://plato.stanford.edu/entries/confucius/"
+			},
+			{
+				"label": "Britannica — Golden Rule",
+				"url": "https://www.britannica.com/topic/golden-rule"
+			}
+		]
+	},
+	{
+		"id": "106",
+		"title": "Čtyři pravdy, které podle Buddhy vysvětlují utrpení",
+		"content": "Siddhártha Gautama, později známý jako Buddha, žil kolem 5. století př. n. l. a formuloval čtyři vznešené pravdy: existuje utrpení, má příčinu v touze, lze ho ukončit a cesta k tomu vede přes osminásobnou stezku. Tento rámec zůstává jádrem buddhistické filozofie dodnes.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Britannica — Four Noble Truths",
+				"url": "https://www.britannica.com/topic/Four-Noble-Truths"
+			},
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Buddha",
+				"url": "https://plato.stanford.edu/entries/buddha/"
+			}
+		]
+	},
+	{
+		"id": "107",
+		"title": "Achilles nikdy nedoběhne želvu, tvrdil starověký paradox",
+		"content": "Řecký filozof Zenón z Elie, žijící kolem roku 450 př. n. l., sestavil paradox, podle kterého rychlý Achilles nemůže dostihnout pomalou želvu s náskokem — než doběhne na její místo, ona popoleze dál. Paradox odhalil hluboké problémy s chápáním nekonečna a pohybu, které matematici vyřešili až o tisíce let později pomocí infinitezimálního počtu.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Zeno's Paradoxes",
+				"url": "https://plato.stanford.edu/entries/paradox-zeno/"
+			},
+			{
+				"label": "Britannica — Zeno's paradoxes",
+				"url": "https://www.britannica.com/topic/Zenos-paradoxes"
+			}
+		]
+	},
+	{
+		"id": "108",
+		"title": "Vojevůdce, jehož strategie funguje i v obchodě",
+		"content": "Čínský stratég Sun-c', pravděpodobně žijící kolem 5. století př. n. l., napsal traktát Umění války, kde radí, že vítěz nejprve zná sám sebe a svého nepřítele. Jeho zásady o strategii a přípravě se dnes vyučují nejen na vojenských akademiích, ale i v manažerských kurzech.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Britannica — The Art of War",
+				"url": "https://www.britannica.com/topic/The-Art-of-War"
+			},
+			{
+				"label": "Wikipedia — Sun-c'",
+				"url": "https://cs.wikipedia.org/wiki/Sun-c%27"
+			}
+		]
+	},
+	{
+		"id": "109",
+		"title": "Proč vojenští inženýři skoro poslali piloty na smrt",
+		"content": "Za druhé světové války chtěla americká armáda pancéřovat místa na letadlech, kde se vracející stroje nejvíce poškozovaly. Statistik Abraham Wald ale ukázal, že je třeba chránit místa bez zásahů — protože letadla zasažená tam se už nikdy nevrátila. Tento omyl v uvažování se dnes nazývá survivorship bias, zkreslení přeživších.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Britannica — Survivorship bias",
+				"url": "https://www.britannica.com/topic/survivorship-bias"
+			},
+			{
+				"label": "JSTOR — Wald's memorandum on aircraft survivability",
+				"url": "https://www.jstor.org/stable/2280278"
+			}
+		]
+	},
+	{
+		"id": "110",
+		"title": "Proč se rozbité vejce nikdy nevrátí do skořápky",
+		"content": "Entropie, pojem zavedený německým fyzikem Rudolfem Clausiem v roce 1865, popisuje míru neuspořádanosti systému. Druhý zákon termodynamiky říká, že celková entropie uzavřeného systému se v čase může jen zvyšovat, nikdy ne snižovat — proto se rozbité vejce nikdy samo nevrátí do původního stavu.",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Britannica — Entropy",
+				"url": "https://www.britannica.com/science/entropy-physics"
+			},
+			{
+				"label": "Wikipedia — Second law of thermodynamics",
+				"url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
+			}
+		]
+	},
+	{
+		"id": "111",
+		"title": "Proč Sokrates raději klál otázky, než dával odpovědi?",
+		"content": "Sokrates nikdy nenapsal žádný text, jeho metodu známe jen z Platónových dialogů. Elenchus spočíval v postupném pokládání otázek, které odhalily rozpory v odpovědích partnera a donutily ho přiznat vlastní neznalost. Tento postup je základem dnešní 'sokratovské metody' používané i v právnickém vzdělávání.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Socrates",
+				"url": "https://plato.stanford.edu/entries/socrates/"
+			},
+			{
+				"label": "Wikipedia — Socratic method",
+				"url": "https://en.wikipedia.org/wiki/Socratic_method"
+			}
+		]
+	},
+	{
+		"id": "112",
+		"title": "Odvaha není bezhlavost, tvrdil Aristotelés",
+		"content": "Aristotelés v Etice Nikomachově popsal ctnost jako střední cestu mezi dvěma extrémy — odvaha tak leží mezi zbabělostí a bezohlednou riskantností. Tento princip zlatého středu (mesotes) učil, že správné jednání závisí na kontextu situace, ne na neměnných pravidlech.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Aristotle's Ethics",
+				"url": "https://plato.stanford.edu/entries/aristotle-ethics/"
+			},
+			{
+				"label": "Britannica — Golden mean (philosophy)",
+				"url": "https://www.britannica.com/topic/golden-mean-philosophy"
+			}
+		]
+	},
+	{
+		"id": "113",
+		"title": "Kdo byl podle Konfucia 'šlechetný muž'?",
+		"content": "V Rozmluvách (Lun-jü) Konfucius popisuje ideál junzi — člověka, který jedná podle morálních zásad a lidskosti (ren) bez ohledu na své společenské postavení. Tento koncept ovlivnil čínskou etiku a vzdělávací systém po více než dva tisíce let.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Confucius",
+				"url": "https://plato.stanford.edu/entries/confucius/"
+			},
+			{
+				"label": "Britannica — Analects (Lunyu)",
+				"url": "https://www.britannica.com/topic/Lunyu"
+			}
+		]
+	},
+	{
+		"id": "114",
+		"title": "Deník římského císaře, který nikdy neměl vyjít",
+		"content": "Marcus Aurelius si psal Meditace jen pro sebe, během vojenských tažení, jako osobní stoické cvičení. Kniha učí soustředit se jen na to, co je v naší moci — vlastní myšlenky a činy — a přijímat vše ostatní s klidem.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Wikipedia — Meditations",
+				"url": "https://en.wikipedia.org/wiki/Meditations"
+			},
+			{
+				"label": "Britannica — Marcus Aurelius",
+				"url": "https://www.britannica.com/biography/Marcus-Aurelius-Roman-emperor"
+			}
+		]
+	},
+	{
+		"id": "115",
+		"title": "Pythagoras slyšel ve strunách harmonii vesmíru",
+		"content": "Pythagoras zjistil, že hudební tóny odpovídají jednoduchým matematickým poměrům délek strun, například oktáva poměru 2:1. Z toho odvodil myšlenku, že celý vesmír je uspořádán podle čísel — koncept později známý jako 'hudba sfér'.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Britannica — Pythagoras",
+				"url": "https://www.britannica.com/biography/Pythagoras"
+			},
+			{
+				"label": "Wikipedia — Musica universalis",
+				"url": "https://en.wikipedia.org/wiki/Musica_universalis"
+			}
+		]
+	},
+	{
+		"id": "116",
+		"title": "Atomy, které si starověký Řek představil bez mikroskopu",
+		"content": "Démokritos kolem roku 400 př. n. l. tvrdil, že veškerá hmota se skládá z nedělitelných částic — atomů — pohybujících se v prázdnotě. Tuto myšlenku převzala až o dvě tisíciletí později moderní chemie, přestože ji Démokritos odvodil čistě z úvahy, ne z pozorování.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Democritus",
+				"url": "https://plato.stanford.edu/entries/democritus/"
+			},
+			{
+				"label": "Britannica — Democritus",
+				"url": "https://www.britannica.com/biography/Democritus"
+			}
+		]
+	},
+	{
+		"id": "117",
+		"title": "Jak Eratosthenés změřil Zemi bez satelitu",
+		"content": "Kolem roku 240 př. n. l. Eratosthenés porovnal délku stínu v Alexandrii a Syéné v pravé poledne a z rozdílu úhlů vypočítal obvod Země. Jeho odhad se od skutečné hodnoty lišil jen o několik procent.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Wikipedia — Eratosthenes",
+				"url": "https://en.wikipedia.org/wiki/Eratosthenes"
+			},
+			{
+				"label": "Britannica — Eratosthenes",
+				"url": "https://www.britannica.com/biography/Eratosthenes"
+			}
+		]
+	},
+	{
+		"id": "118",
+		"title": "Sníval Čuang-c', že je motýl, nebo je motýl, který sní o Čuang-c'?",
+		"content": "Čínský filozof Čuang-c' popsal slavný sen, v němž byl motýlem, a po probuzení si nebyl jistý, zda je člověkem, který snil o motýlovi, nebo motýlem, který sní o člověku. Tento příběh z knihy Čuang-c' zpochybňuje pevnou hranici mezi realitou a snem.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Zhuangzi",
+				"url": "https://plato.stanford.edu/entries/zhuangzi/"
+			},
+			{
+				"label": "Wikipedia — Zhuangzi (book)",
+				"url": "https://en.wikipedia.org/wiki/Zhuangzi_(book)"
+			}
+		]
+	},
+	{
+		"id": "119",
+		"title": "Je to stále stejná loď, když vyměníte každé prkno?",
+		"content": "Starověký paradox lodi Thésea, popsaný řeckým historikem Plutarchem, se ptá, zda objekt zůstává stejný, pokud jsou postupně nahrazeny všechny jeho části. Otázka se dodnes používá k diskusi o identitě lidí i firem, jejichž buňky nebo zaměstnanci se v čase obmění.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Wikipedia — Ship of Theseus",
+				"url": "https://en.wikipedia.org/wiki/Ship_of_Theseus"
+			},
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Personal Identity",
+				"url": "https://plato.stanford.edu/entries/identity-personal/"
+			}
+		]
+	},
+	{
+		"id": "120",
+		"title": "Kolik zrnek písku ještě tvoří hromadu?",
+		"content": "Sorites paradox, formulovaný řeckým filozofem Eubúlidem z Milétu, ukazuje, že odebrání jednoho zrnka z hromady písku ji nikdy neudělá 'ne-hromadou' — a přesto jedno zrnko hromadou není. Paradox odhaluje potíže jazyka s vágními pojmy a je dodnes studován v logice a filozofii jazyka.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Sorites Paradox",
+				"url": "https://plato.stanford.edu/entries/sorites-paradox/"
+			},
+			{
+				"label": "Wikipedia — Sorites paradox",
+				"url": "https://en.wikipedia.org/wiki/Sorites_paradox"
+			}
+		]
+	},
+	{
+		"id": "121",
+		"title": "Život není krátký, promarňujeme ho, tvrdil Seneca",
+		"content": "Ve spise De Brevitate Vitae římský stoik Seneca psal, že si lidé nestěžují na krátkost života oprávněně — problém je, že jeho většinu utrácíme za marnosti a odkládáme skutečný život na později. Radil žít vědomě přítomností, ne čekat na nikdy nepřicházející 'zítra'.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Seneca",
+				"url": "https://plato.stanford.edu/entries/seneca/"
+			},
+			{
+				"label": "Wikipedia — De Brevitate Vitae",
+				"url": "https://en.wikipedia.org/wiki/De_Brevitate_Vitae"
+			}
+		]
+	},
+	{
+		"id": "122",
+		"title": "Co je v naší moci a co ne? Epiktétova lekce klidu",
+		"content": "Řecký stoik Epiktétos ve spisu Enchiridion učil takzvanou dichotomii kontroly — rozlišení mezi tím, co ovládáme (naše myšlenky a úsudky), a tím, co ne (zdraví, majetek, mínění druhých). Klid podle něj přichází, když přestaneme trápit se věcmi mimo naši moc.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Epictetus",
+				"url": "https://plato.stanford.edu/entries/epictetus/"
+			},
+			{
+				"label": "Wikipedia — Enchiridion of Epictetus",
+				"url": "https://en.wikipedia.org/wiki/Enchiridion_of_Epictetus"
+			}
+		]
+	},
+	{
+		"id": "123",
+		"title": "Svět kolem nás je jen stín pravé reality, tvrdil Platón",
+		"content": "Platón kolem 4. století př. n. l. rozvinul teorii idejí — tvrdil, že vedle proměnlivého světa, který vnímáme smysly, existuje neměnný svět idejí (forem), jako je Dobro nebo Krása, a věci okolo nás jsou jen jejich nedokonalé kopie. Poznání skutečné pravdy je proto podle něj úkolem rozumu, ne smyslů.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Plato's Theory of Forms",
+				"url": "https://plato.stanford.edu/entries/plato/"
+			},
+			{
+				"label": "Britannica — Theory of Forms",
+				"url": "https://www.britannica.com/topic/Forms-Platonic"
+			}
+		]
+	},
+	{
+		"id": "124",
+		"title": "Lékař, který vyhnal bohy z nemocničního lůžka",
+		"content": "Hippokratés žil kolem 5. století př. n. l. na ostrově Kós a jako první systematicky odmítal názor, že nemoci způsobují bohové nebo duchové — hledal přirozené, tělesné příčiny. Jeho škola stojí za Hippokratovou přísahou, která dodnes formuje lékařskou etiku.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Britannica — Hippocrates",
+				"url": "https://www.britannica.com/biography/Hippocrates"
+			},
+			{
+				"label": "Wikipedia — Hippocrates",
+				"url": "https://en.wikipedia.org/wiki/Hippocrates"
+			}
+		]
+	},
+	{
+		"id": "125",
+		"title": "Pár vět, ze kterých vznikla celá geometrie",
+		"content": "Eukleidés kolem roku 300 př. n. l. napsal Základy (Elements) — dílo, v němž z pouhých pěti axiomů logicky odvodil stovky geometrických vět. Jeho axiomatická metoda se stala vzorem pro matematiku i vědecké myšlení na dalších více než dva tisíce let.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Britannica — Euclid's Elements",
+				"url": "https://www.britannica.com/topic/Elements-Euclid"
+			},
+			{
+				"label": "Wikipedia — Euclid's Elements",
+				"url": "https://en.wikipedia.org/wiki/Euclid%27s_Elements"
+			}
+		]
+	},
+	{
+		"id": "126",
+		"title": "Zákon nadřazený zákonům — Ciceronova idea spravedlnosti",
+		"content": "Římský řečník a filozof Cicero v 1. století př. n. l. rozvíjel koncept přirozeného zákona (lex naturalis) — myšlenku, že existuje univerzální morální řád daný rozumem, kterému by se měly podřídit i lidské zákony. Tato idea později ovlivnila středověké i moderní právní teorie.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Cicero",
+				"url": "https://plato.stanford.edu/entries/cicero/"
+			},
+			{
+				"label": "Wikipedia — Natural law",
+				"url": "https://en.wikipedia.org/wiki/Natural_law"
+			}
+		]
+	},
+	{
+		"id": "127",
+		"title": "Proč Galénos pitval opice, aby pochopil člověka",
+		"content": "Řecký lékař Galénos působil ve 2. století n. l. v Římě, kde byly pitvy lidských těl zakázány, a tak zkoumal anatomii na opicích a prasatech. Jeho závěry, i s omylem přenesenými z opičí anatomie na člověka, ovlivňovaly medicínu více než tisíc let.",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Britannica — Galen",
+				"url": "https://www.britannica.com/biography/Galen"
+			},
+			{
+				"label": "Wikipedia — Galen",
+				"url": "https://en.wikipedia.org/wiki/Galen"
+			}
+		]
+	},
+	{
+		"id": "128",
+		"title": "Filozofická škola pojmenovaná po sloupořadí na tržnici",
+		"content": "Zenón z Kitia založil kolem roku 300 př. n. l. v Aténách stoicismus — název pochází od Stoa Poikilé, malovaného sloupořadí, kde se svými žáky přednášel. Učil, že klidná mysl a ctnost jsou jediné skutečné dobro, zatímco vnější okolnosti jsou nám lhostejné.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Stoicism",
+				"url": "https://plato.stanford.edu/entries/stoicism/"
+			},
+			{
+				"label": "Wikipedia — Zeno of Citium",
+				"url": "https://en.wikipedia.org/wiki/Zeno_of_Citium"
+			}
+		]
+	},
+	{
+		"id": "129",
+		"title": "Proč přeživší lodě nevypovídají celý příběh",
+		"content": "Survivorship bias (zkreslení přeživších) je mentální chyba, kdy se soustředíme jen na úspěšné případy a přehlížíme ty, co nepřežily. Klasickým příkladem je matematik Abraham Wald a jeho analýza poškozených letadel za druhé světové války — pancíř navrhl přidat tam, kde na vrácených letounech díry chyběly, protože právě zásahy tam sestřelené stroje nikdy nedoletěly domů.",
+		"category": "zajimavost",
+		"sources": [
+			{
+				"label": "Wikipedia — Survivorship bias",
+				"url": "https://en.wikipedia.org/wiki/Survivorship_bias"
+			},
+			{
+				"label": "Wikipedia — Abraham Wald",
+				"url": "https://en.wikipedia.org/wiki/Abraham_Wald"
+			}
+		]
+	},
+	{
+		"id": "130",
+		"title": "Proč se rozlitá káva nikdy sama nevrátí do šálku",
+		"content": "Entropie podle druhého zákona termodynamiky popisuje míru neuspořádanosti systému, a ta v uzavřeném systému může jen růst nebo zůstat stejná, nikdy neklesá. Proto se rozlitá káva sama nevrátí do šálku a led sám neztuhne v teplém pokoji — příroda vždy směřuje od pořádku k nepořádku.",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Britannica — Entropy",
+				"url": "https://www.britannica.com/science/entropy-physics"
+			},
+			{
+				"label": "Wikipedia — Second law of thermodynamics",
+				"url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
+			}
+		]
+	},
+	{
+		"id": "131",
+		"title": "Proč je podle Hérakleita svět plný válčících protikladů",
+		"content": "Hérakleitos z Efesu (kolem 535–475 př. n. l.) tvrdil, že svět funguje díky napětí mezi protiklady – den a noc, život a smrt se navzájem podmiňují. Tento neustálý konflikt řídí kosmický řád, který nazval logos.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Heraclitus",
+				"url": "https://plato.stanford.edu/entries/heraclitus/"
+			},
+			{
+				"label": "Wikipedia — Heraclitus",
+				"url": "https://en.wikipedia.org/wiki/Heraclitus"
+			}
+		]
+	},
+	{
+		"id": "132",
+		"title": "Zenón z Kitia: cíl života je žít v souladu s přírodou",
+		"content": "Zenón z Kitia, zakladatel stoicismu (kolem 334–262 př. n. l.), učil, že štěstí spočívá v životě podle rozumu a přírody, nikoli v honbě za majetkem nebo slávou. Klíčovou ctností je apatheia — vnitřní klid nezávislý na vnějších okolnostech.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Stoicism",
+				"url": "https://plato.stanford.edu/entries/stoicism/"
+			},
+			{
+				"label": "Wikipedia — Zeno of Citium",
+				"url": "https://en.wikipedia.org/wiki/Zeno_of_Citium"
+			}
+		]
+	},
+	{
+		"id": "133",
+		"title": "Muž, který proměnil stoicismus v systém logiky",
+		"content": "Chrysippos z Sol (kolem 279–206 př. n. l.) byl třetím vedoucím stoické školy a je považován za jednoho ze zakladatelů výrokové logiky. Vytvořil systém logických argumentů založených na podmínkových větách, ale z jeho zhruba 700 spisů se dochovaly jen zlomky.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Chrysippus",
+				"url": "https://plato.stanford.edu/entries/chrysippus/"
+			},
+			{
+				"label": "Wikipedia — Chrysippus",
+				"url": "https://en.wikipedia.org/wiki/Chrysippus"
+			}
+		]
+	},
+	{
+		"id": "134",
+		"title": "Nejlepší vítězství je to, které nevyžaduje boj",
+		"content": "Čínský stratég Sun-c' (žil pravděpodobně kolem 5. století př. n. l.) v díle Umění války tvrdil, že nejvyšší forma válečného umění je porazit nepřítele bez jediné bitvy, například diplomacií nebo psychologickým nátlakem. Otevřený boj považoval za znak nedokonalé strategie.",
+		"category": "historie",
+		"sources": [
+			{
+				"label": "Britannica — Sun Tzu",
+				"url": "https://www.britannica.com/biography/Sunzi"
+			},
+			{
+				"label": "Wikipedia — The Art of War",
+				"url": "https://en.wikipedia.org/wiki/The_Art_of_War"
+			}
+		]
+	},
+	{
+		"id": "135",
+		"title": "Jednej, ale nelpi na výsledku, učí Bhagavadgíta",
+		"content": "Bhagavadgíta, vzniklá pravděpodobně mezi 2. stoletím př. n. l. a 2. stoletím n. l., učí koncept karma jógy — je třeba plnit své povinnosti (dharmu) bez lpění na výsledcích svého jednání. Krišna tak vysvětluje Ardžunovi, že vnitřní svoboda spočívá v odpoutání od plodů činů, nikoli v nečinnosti.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Britannica — Bhagavad Gita",
+				"url": "https://www.britannica.com/topic/Bhagavad-Gita"
+			},
+			{
+				"label": "Wikipedia — Bhagavad Gita",
+				"url": "https://en.wikipedia.org/wiki/Bhagavad_Gita"
+			}
+		]
+	},
+	{
+		"id": "136",
+		"title": "Čtyři tělní tekutiny, které podle Hippokrata řídily zdraví",
+		"content": "Hippokratés (kolem 460–370 př. n. l.) a jeho škola věřili, že lidské zdraví závisí na rovnováze čtyř tělních tekutin – krve, hlenu, žluči a černé žluči. Tato humorální teorie dominovala evropské medicíně více než dva tisíce let, přestože je dnes vědecky vyvrácena.",
+		"category": "historie",
+		"sources": [
+			{
+				"label": "Britannica — Humourism",
+				"url": "https://www.britannica.com/science/humourism"
+			},
+			{
+				"label": "Wikipedia — Hippocrates",
+				"url": "https://en.wikipedia.org/wiki/Hippocrates"
+			}
+		]
+	},
+	{
+		"id": "137",
+		"title": "Démokritos: štěstí není v majetku, ale v klidu duše",
+		"content": "Démokritos z Abdéry (kolem 460–370 př. n. l.), známý svou atomovou teorií, také učil, že skutečné štěstí (euthymia) pramení z vnitřního klidu a mírnosti, nikoli z bohatství nebo slávy. Tato myšlenka výrazně ovlivnila pozdější epikurejskou i stoickou etiku.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Democritus",
+				"url": "https://plato.stanford.edu/entries/democritus/"
+			},
+			{
+				"label": "Wikipedia — Democritus",
+				"url": "https://en.wikipedia.org/wiki/Democritus"
+			}
+		]
+	},
+	{
+		"id": "138",
+		"title": "Epikúros: přátelství je základ šťastného života",
+		"content": "Epikúros (341–270 př. n. l.) učil, že mezi největší zdroje lidského štěstí patří přátelství, spolu se skromností a absencí bolesti. Ve své zahradní komunitě v Athénách žil se svými žáky v duchu vzájemné podpory, což považoval za praktickou realizaci své filozofie.",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy — Epicurus",
+				"url": "https://plato.stanford.edu/entries/epicurus/"
+			},
+			{
+				"label": "Wikipedia — Epicurus",
+				"url": "https://en.wikipedia.org/wiki/Epicurus"
+			}
+		]
+	},
+	{
+		"id": "139",
+		"title": "Proč nekompetentní lidé přeceňují své schopnosti",
+		"content": "Dunning-Krugerův efekt popisuje kognitivní zkreslení, při kterém lidé s nízkými znalostmi v určité oblasti přeceňují své schopnosti, protože jim chybí i schopnost rozpoznat vlastní neznalost. Poprvé jej experimentálně popsali psychologové David Dunning a Justin Kruger v roce 1999.",
+		"category": "zajimavost",
+		"sources": [
+			{
+				"label": "Britannica — Dunning-Kruger effect",
+				"url": "https://www.britannica.com/science/Dunning-Kruger-effect"
+			},
+			{
+				"label": "Wikipedia — Dunning–Kruger effect",
+				"url": "https://en.wikipedia.org/wiki/Dunning%E2%80%93Kruger_effect"
+			}
+		]
+	},
+	{
+		"id": "140",
+		"title": "Entropie: proč se věci samy rozpadají, ale nikdy neskládají",
+		"content": "Entropie je fyzikální veličina popisující míru neuspořádanosti systému. Druhý zákon termodynamiky říká, že celková entropie uzavřeného systému může jen růst, což vysvětluje, proč se teplo šíří z teplého místa do chladného, ale nikdy ne samo od sebe naopak.",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Britannica — Entropy",
+				"url": "https://www.britannica.com/science/entropy-physics"
+			},
+			{
+				"label": "Wikipedia — Second law of thermodynamics",
+				"url": "https://en.wikipedia.org/wiki/Second_law_of_thermodynamics"
 			}
 		]
 	}

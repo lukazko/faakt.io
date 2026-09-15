@@ -3,6 +3,7 @@
 	 * FeedView — hlavní komponenta pro scrollování příspěvky
 	 * @param {string} [targetPostId] — pokud je uvedeno, tato myšlenka se zobrazí jako první
 	 */
+	import { tick } from 'svelte';
 	import PostCard from './PostCard.svelte';
 
 	let { targetPostId } = $props();
@@ -73,7 +74,18 @@
 	}
 
 	function loadMore() {
+		const oldCount = visibleCount;
 		visibleCount += PAGE_SIZE;
+		// Počkáme na překreslení DOM s novými příspěvky, pak scrollneme na první nový
+		tick().then(() => {
+			const container = document.querySelector('.feed-container');
+			if (!container) return;
+			const cardHeight = container.clientHeight;
+			container.scrollTo({
+				top: oldCount * cardHeight,
+				behavior: 'smooth'
+			});
+		});
 	}
 
 	async function sharePost(post) {
@@ -158,7 +170,7 @@
 					<p class="end-card-text">Nesedíš už na tom záchodě moc dlouho?</p>
 					<button class="load-more-btn" onclick={loadMore}>
 						<span class="load-more-icon">+</span>
-						Chci přidat
+						Nee, chci přidat
 					</button>
 				</div>
 			{/if}

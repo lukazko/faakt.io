@@ -68,6 +68,8 @@ Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 2. **Každý příspěvek musí mít 2-3 zdroje** s reálnými URL
 3. **Žádné smyšlené citáty**, přibližné letopočty nebo „lidé říkají“
 4. Databáze **jen roste**, staré příspěvky se nikdy nemažou
+5. **Chronologická konzistence**: nikdy nemíchej období — starověcí nemohli používat středověké technologie a naopak
+6. **Generování nových dávek**: preferovat starověké myslitele (70+ %) — řecké, římské, čínské, indické — a vysvětlení konceptů ve stylu Deepstash (mentální modely, kognitivní zkreslení, vědecké principy)
 
 ## Skripty
 ```bash
