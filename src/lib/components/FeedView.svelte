@@ -40,8 +40,10 @@
 
 	async function loadPosts() {
 		try {
-			const res = await fetch(`${base}/data/posts.json`);
-			if (!res.ok) throw new Error('Nepodařilo se načíst příspěvky');
+			const url = `${base}/data/posts.json`;
+			console.log('🔍 Fetching from:', url);
+			const res = await fetch(url);
+			if (!res.ok) throw new Error(`Nepodařilo se načíst příspěvky (${res.status})`);
 			const raw = await res.json();
 			posts = shufflePosts(raw, targetPostId);
 			totalPosts = posts.length;
@@ -53,6 +55,7 @@
 			});
 		} catch (e) {
 			error = e.message;
+			console.error('❌ Error loading posts:', e);
 		} finally {
 			loading = false;
 		}
