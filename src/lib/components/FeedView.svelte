@@ -65,7 +65,6 @@
 		const idx = Math.round(scrollTop / cardHeight);
 		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
 			currentIndex = idx;
-			// Update URL hash to match current post
 			const post = posts[idx];
 			if (post) {
 				const url = `${window.location.origin}${base}/post/${post.id}`;
@@ -79,9 +78,14 @@
 		loadingMore = true;
 		visibleCount += PAGE_SIZE;
 		await tick();
+		// Počkáme na vykreslení loading overlay, aby nebylo vidět žádné scrollování
+		await new Promise(resolve => requestAnimationFrame(resolve));
 		const container = document.querySelector('.feed-container');
 		if (!container) return;
 		const cardHeight = container.clientHeight;
+		// Dočasně vypneme scroll-snap a smooth-scroll, aby skok byl okamžitý
+		container.style.scrollSnapType = 'none';
+		container.style.scrollBehavior = 'auto';
 		container.scrollTop = oldCount * cardHeight;
 		currentIndex = oldCount;
 		const post = posts[oldCount];
@@ -89,7 +93,12 @@
 			const url = `${window.location.origin}${base}/post/${post.id}`;
 			window.history.replaceState({}, '', url);
 		}
-		loadingMore = false;
+		// V next frame obnovíme scroll-snap a zároveň skryjeme overlay
+		requestAnimationFrame(() => {
+			container.style.scrollSnapType = '';
+			container.style.scrollBehavior = '';
+			loadingMore = false;
+		});
 	}
 
 	async function sharePost(post) {
@@ -146,7 +155,7 @@
 	<div class="feed-container" onscroll={handleScroll}>
 		<!-- App header -->
 		<header class="app-header">
-			<span class="app-logo">faakt.io</span>
+			<a href={base} data-sveltekit-reload class="app-logo">faakt.io</a>
 			<span class="app-tagline">doomscrolling, který má smysl</span>
 		</header>
 
@@ -261,11 +270,14 @@
 		font-size: 1.3rem;
 		font-weight: 900;
 		letter-spacing: -0.02em;
+		position: relative;
+		cursor: pointer;
+		pointer-events: auto;
+		text-decoration: none;
 		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
 		-webkit-background-clip: text;
 		-webkit-text-fill-color: transparent;
 		background-clip: text;
-		position: relative;
 	}
 
 	.app-logo::before {
