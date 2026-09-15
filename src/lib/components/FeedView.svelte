@@ -71,36 +71,47 @@
 			const post = posts[idx];
 			if (post) {
 				const url = `${window.location.origin}${base}/post/${post.id}`;
-				window.history.replaceState({}, '', url);
+				try {
+					window.history.replaceState({}, '', url);
+				} catch (e) {
+					console.warn('⚠️ Cannot update URL:', e.message);
+				}
 			}
 		}
 	}
 
 	async function loadMore() {
-		const oldCount = visibleCount;
-		loadingMore = true;
-		visibleCount += PAGE_SIZE;
-		await tick();
-		// Počkáme na vykreslení loading overlay, aby nebylo vidět žádné scrollování
-		await new Promise(resolve => requestAnimationFrame(resolve));
-		const container = document.querySelector('.feed-container');
-		if (container) {
-			const cardHeight = container.clientHeight;
-			// Dočasně vypneme scroll-snap a smooth-scroll, aby skok byl okamžitý
-			container.style.scrollSnapType = 'none';
-			container.style.scrollBehavior = 'auto';
-			container.scrollTop = oldCount * cardHeight;
-			// Obnovíme scroll-snap a smooth-scroll
-			container.style.scrollSnapType = '';
-			container.style.scrollBehavior = '';
+		try {
+			const oldCount = visibleCount;
+			loadingMore = true;
+			visibleCount += PAGE_SIZE;
+			await tick();
+			// Počkáme na vykreslení loading overlay, aby nebylo vidět žádné scrollování
+			await new Promise(resolve => requestAnimationFrame(resolve));
+			const container = document.querySelector('.feed-container');
+			if (container) {
+				const cardHeight = container.clientHeight;
+				// Dočasně vypneme scroll-snap a smooth-scroll, aby skok byl okamžitý
+				container.style.scrollSnapType = 'none';
+				container.style.scrollBehavior = 'auto';
+				container.scrollTop = oldCount * cardHeight;
+				// Obnovíme scroll-snap a smooth-scroll
+				container.style.scrollSnapType = '';
+				container.style.scrollBehavior = '';
+			}
+			currentIndex = oldCount;
+			const post = posts[oldCount];
+			if (post) {
+				const url = `${window.location.origin}${base}/post/${post.id}`;
+				try {
+					window.history.replaceState({}, '', url);
+				} catch (e) {
+					console.warn('⚠️ Cannot update URL:', e.message);
+				}
+			}
+		} finally {
+			loadingMore = false;
 		}
-		currentIndex = oldCount;
-		const post = posts[oldCount];
-		if (post) {
-			const url = `${window.location.origin}${base}/post/${post.id}`;
-			window.history.replaceState({}, '', url);
-		}
-		loadingMore = false;
 	}
 
 	async function sharePost(post) {
