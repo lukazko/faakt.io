@@ -13,7 +13,7 @@
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
-	let base = $state((import.meta.env.BASE_URL || '').replace(/\/$/, ''));
+	let base = $state((import.meta.env.BASE_URL || '/').replace(/\/$/, ''));
 
 	/**
 	 * Fisher-Yates shuffle — každý uživatel vidí myšlenky v jiném pořadí.
