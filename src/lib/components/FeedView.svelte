@@ -218,6 +218,7 @@
 		margin-top: 8px;
 		padding: 8px 20px;
 		border: 1px solid var(--accent);
+			box-shadow: 0 1px 8px rgba(194,65,12,0.2);
 		border-radius: 999px;
 		background: transparent;
 		color: var(--accent);
@@ -279,7 +280,7 @@
 		content: '';
 		position: absolute;
 		inset: -6px -10px;
-		background: radial-gradient(ellipse, rgba(167,139,250,0.12) 0%, transparent 70%);
+		background: radial-gradient(ellipse, rgba(251,146,60,0.15) 0%, transparent 70%);
 		z-index: -1;
 		pointer-events: none;
 	}
@@ -362,12 +363,12 @@
 		font-weight: 700;
 		cursor: pointer;
 		transition: transform 0.15s, box-shadow 0.15s;
-		box-shadow: 0 4px 20px rgba(139, 92, 246, 0.25);
+		box-shadow: 0 4px 20px rgba(217, 119, 6, 0.25);
 	}
 
 	.load-more-btn:active {
 		transform: scale(0.95);
-		box-shadow: 0 2px 10px rgba(139, 92, 246, 0.4);
+		box-shadow: 0 2px 10px rgba(217, 119, 6, 0.4);
 	}
 
 	.load-more-icon {
