@@ -1790,5 +1790,805 @@
 				"url": "https://cs.wikipedia.org/wiki/Tragédie_společných_zdrojů"
 			}
 		]
+	},
+	{
+		"id": "113",
+		"title": "Marie Curie: jediná osoba, která získala Nobelovu cenu ve dvou vědách",
+		"content": "<p>Polská rodačka <strong>Marie Curie-Skłodowská</strong> spolu s manželem Pierrem objevila na konci 19. století dva nové chemické prvky – polonium a radium.</p><p>Za výzkum radioaktivity, pojmu, který sama zavedla, získala v roce 1903 Nobelovu cenu za fyziku, kterou sdílela s manželem a Henrim Becquerelem.</p><p>V roce 1911 přišla druhá Nobelova cena, tentokrát za chemii, za izolaci čistého radia. Stala se tak první osobou v historii, která obdržela Nobelovu cenu ve dvou různých vědních oborech.</p><p>Celoživotní práce s radioaktivními látkami bez ochranných pomůcek jí pravděpodobně přivodila leukémii, na kterou v roce 1934 zemřela.</p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Nobel Prize – Marie Curie 1903",
+				"url": "https://www.nobelprize.org/prizes/physics/1903/marie-curie/facts/"
+			},
+			{
+				"label": "Nobel Prize – Marie Curie 1911",
+				"url": "https://www.nobelprize.org/prizes/chemistry/1911/marie-curie/facts/"
+			}
+		]
+	},
+	{
+		"id": "114",
+		"title": "J. J. Thomson a objev elektronu, který rozbil nedělitelný atom",
+		"content": "<p>Do konce 19. století platil atom za nejmenší a nedělitelnou jednotku hmoty – ostatně jeho řecký název to znamená doslova.</p><p>Britský fyzik <strong>J. J. Thomson</strong> v roce 1897 při pokusech s katodovými paprsky zjistil, že z atomů lze vytrhnout ještě menší, záporně nabité částice. Nazval je elektrony.</p><p>Poprvé tak dokázal, že atom má vnitřní strukturu a není nedělitelný, jak si mysleli i staří řečtí filozofové.</p><p>Za tento objev získal v roce 1906 Nobelovu cenu za fyziku a otevřel cestu k pozdějším modelům atomu, včetně objevu jádra jeho žákem Ernestem Rutherfordem.</p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Nobel Prize – J. J. Thomson",
+				"url": "https://www.nobelprize.org/prizes/physics/1906/thomson/facts/"
+			},
+			{
+				"label": "Britannica – J. J. Thomson",
+				"url": "https://www.britannica.com/biography/J-J-Thomson"
+			}
+		]
+	},
+	{
+		"id": "115",
+		"title": "Apollo 11: den, kdy člověk poprvé vkročil na jiné těleso",
+		"content": "<p>20. července 1969 vystoupil americký astronaut <strong>Neil Armstrong</strong> z lunárního modulu Eagle a jako první člověk v historii se dotkl povrchu jiného vesmírného tělesa než Země.</p><p>Krátce po něm ho následoval Buzz Aldrin, zatímco třetí člen posádky Michael Collins zůstal na oběžné dráze v řídicím modulu Columbia.</p><p>Mise Apollo 11 byla vyvrcholením amerického vesmírného programu spuštěného po slibu prezidenta Johna F. Kennedyho z roku 1961, že USA dopraví člověka na Měsíc do konce dekády.</p><p>Astronauti na Zemi přivezli přes 21 kilogramů měsíčních hornin a na povrchu Měsíce strávili přibližně 21 hodin, než se bezpečně vrátili domů.</p>",
+		"category": "astronomie",
+		"sources": [
+			{
+				"label": "NASA – Apollo 11",
+				"url": "https://www.nasa.gov/mission/apollo-11/"
+			},
+			{
+				"label": "Smithsonian – Apollo 11",
+				"url": "https://airandspace.si.edu/explore/stories/apollo-11"
+			}
+		]
+	},
+	{
+		"id": "116",
+		"title": "Fermatova poslední věta čekala na důkaz 358 let",
+		"content": "<p>Francouzský matematik <strong>Pierre de Fermat</strong> si kolem roku 1637 na okraj knihy poznamenal tvrzení, že rovnice x^n + y^n = z^n nemá řešení v celých kladných číslech pro n větší než 2.</p><p>Dodal, že má „opravdu úžasný důkaz“, ale že se na okraj nevejde. Tento důkaz se nikdy nenašel a stal se jednou z nejslavnějších nevyřešených matematických hádanek.</p><p>Teprve britský matematik <em>Andrew Wiles</em> v roce 1994 po sedmi letech tajné práce předložil platný důkaz využívající moderní nástroje z teorie eliptických křivek, jež Fermat neznal.</p><p>Wiles za svůj výkon získal řadu ocenění a jeho práce definitivně uzavřela hádanku starou 358 let.</p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Fermat's Last Theorem",
+				"url": "https://www.britannica.com/science/Fermats-last-theorem"
+			},
+			{
+				"label": "MacTutor – Fermat's Last Theorem",
+				"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Fermat's_last_theorem/"
+			}
+		]
+	},
+	{
+		"id": "117",
+		"title": "Tim Berners-Lee a vynález, který proměnil internet ve web",
+		"content": "<p>Internet jako propojená síť počítačů existoval už od 60. let, ale chyběl mu jednoduchý způsob, jak se v obsahu orientovat.</p><p>Britský informatik <strong>Tim Berners-Lee</strong>, pracující v laboratoři CERN ve Švýcarsku, v roce 1989 navrhl systém hypertextových odkazů, který nazval World Wide Web.</p><p>V roce 1990 vytvořil první webový server, první webovou stránku i první prohlížeč. Adresa první stránky patřila samotnému projektu CERN.</p><p>Berners-Lee se rozhodl svůj vynález nepatentovat a zpřístupnit ho zdarma celému světu, což umožnilo jeho raketový růst v následujících desetiletích.</p>",
+		"category": "pocitacove-vedy",
+		"sources": [
+			{
+				"label": "CERN – The birth of the Web",
+				"url": "https://home.cern/science/computing/birth-web"
+			},
+			{
+				"label": "W3C – Tim Berners-Lee",
+				"url": "https://www.w3.org/People/Berners-Lee/"
+			}
+		]
+	},
+	{
+		"id": "118",
+		"title": "Marshallův plán: americké miliardy, které obnovily poválečnou Evropu",
+		"content": "<p>Po druhé světové válce ležela velká část evropské infrastruktury v troskách a hrozil hospodářský kolaps i politická nestabilita.</p><p>Americký ministr zahraničí <strong>George Marshall</strong> v roce 1947 navrhl program hospodářské pomoci, oficiálně nazvaný Evropský program obnovy.</p><p>Mezi lety 1948 a 1951 poslaly Spojené státy evropským zemím pomoc v hodnotě přibližně 13 miliard tehdejších dolarů na obnovu průmyslu, infrastruktury a obchodu.</p><p>Plán přijalo šestnáct západoevropských zemí, zatímco komunistický blok pod tlakem Sovětského svazu pomoc odmítl. Marshall za tuto iniciativu v roce 1953 získal Nobelovu cenu míru.</p>",
+		"category": "ekonomie",
+		"sources": [
+			{
+				"label": "Britannica – Marshall Plan",
+				"url": "https://www.britannica.com/event/Marshall-Plan"
+			},
+			{
+				"label": "US Department of State – Marshall Plan",
+				"url": "https://history.state.gov/milestones/1945-1952/marshall-plan"
+			}
+		]
+	},
+	{
+		"id": "119",
+		"title": "Pavlovův pes: jak slina prozradila mechanismus učení",
+		"content": "<p>Proč se vám sbíhají sliny, když ucítíte vůni oblíbeného jídla, i když ho ještě nevidíte?</p><p>Ruský fyziolog <strong>Ivan Pavlov</strong> na konci 19. století zkoumal trávicí procesy u psů a všiml si, že jim sliny začínají téct už při zvuku kroků laboranta, který je krmil.</p><p>V sérii experimentů spojil neutrální podnět, zvonek, s podáním jídla. Po opakování zvonek sám vyvolal slinění, i bez přítomnosti potravy.</p><p>Tento jev nazval <strong>klasické podmiňování</strong> a jeho objev, za který v roce 1904 získal Nobelovu cenu za fyziologii, položil základ celé behaviorální psychologie.</p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "Nobel Prize – Ivan Pavlov",
+				"url": "https://www.nobelprize.org/prizes/medicine/1904/pavlov/biographical/"
+			},
+			{
+				"label": "Simply Psychology – Classical Conditioning",
+				"url": "https://www.simplypsychology.org/classical-conditioning.html"
+			}
+		]
+	},
+	{
+		"id": "120",
+		"title": "Krádež Mony Lisy, která ji proslavila po celém světě",
+		"content": "<p>21. srpna 1911 si italský zaměstnanec pařížského Louvru <strong>Vincenzo Peruggia</strong> schoval obraz Mony Lisy pod kabát a odešel s ním z muzea, aniž si toho kdokoli hned všiml.</p><p>Krádeže si veřejnost všimla až druhý den, kdy návštěvníci zjistili prázdné místo na zdi. Vyšetřování se zpočátku zaměřilo i na básníka Guillauma Apollinaira a malíře Pabla Picassa, kteří byli krátce vyslechnuti.</p><p>Obraz se objevil až o dva roky později, v roce 1913, kdy se ho Peruggia pokusil prodat florentskému obchodníkovi s uměním.</p><p>Krádež a mediální rozruch kolem ní proměnily dosud spíše nenápadné dílo v nejslavnější obraz na světě.</p>",
+		"category": "umeni",
+		"sources": [
+			{
+				"label": "Louvre – The theft of the Mona Lisa",
+				"url": "https://www.louvre.fr/en/explore/the-palace/the-theft-of-the-mona-lisa"
+			},
+			{
+				"label": "Britannica – Mona Lisa theft of 1911",
+				"url": "https://www.britannica.com/topic/Mona-Lisa-theft-of-1911"
+			}
+		]
+	},
+	{
+		"id": "121",
+		"title": "Don Quijote: rytíř, kterého historikové považují za první moderní román",
+		"content": "<p>Španělský spisovatel <strong>Miguel de Cervantes</strong> vydal první díl <em>Důmyslného rytíře Dona Quijota de la Mancha</em> v roce 1605, druhý díl následoval v roce 1615.</p><p>Příběh šlechtice, kterého čtení rytířských románů přivede k šílenství natolik, že se sám vydá na výpravu jako potulný rytíř, kombinuje komiku s hlubokou úvahou o realitě a iluzi.</p><p>Literární historikové dílo často označují za první moderní román díky psychologicky propracované postavě a ironickému odstupu vypravěče od vlastního příběhu.</p><p>Kniha se dodnes řadí mezi nejprodávanější beletristická díla všech dob a inspirovala nesčetné adaptace, včetně muzikálu Muž z La Manchy.</p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – Don Quixote",
+				"url": "https://www.britannica.com/topic/Don-Quixote-novel"
+			},
+			{
+				"label": "Wikipedia – Don Quijote",
+				"url": "https://cs.wikipedia.org/wiki/Don_Quijote"
+			}
+		]
+	},
+	{
+		"id": "122",
+		"title": "Descartes a jediná jistota, kterou nešlo zpochybnit",
+		"content": "<p>Co kdybyste mohli pochybovat úplně o všem – o svém těle, o okolním světě, i o tom, že vůbec existujete?</p><p>Francouzský filozof a matematik <strong>René Descartes</strong> se v 17. století rozhodl zpochybnit veškeré poznání, kterému nemohl bezpečně věřit, včetně vlastních smyslů.</p><p>Došel k závěru, že jedinou věc nelze zpochybnit – samotný akt pochybování je důkazem myšlení, a myšlení dokazuje existenci. Ve svém díle z roku 1637 to shrnul větou <em>„Cogito, ergo sum“</em> – myslím, tedy jsem.</p><p>Tato jediná jistota se měla stát základem, na kterém chtěl Descartes vybudovat celou novou filozofii založenou na rozumu, nikoli na tradici či autoritě.</p>",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy – Descartes",
+				"url": "https://plato.stanford.edu/entries/descartes/"
+			},
+			{
+				"label": "Britannica – René Descartes",
+				"url": "https://www.britannica.com/biography/Rene-Descartes"
+			}
+		]
+	},
+	{
+		"id": "123",
+		"title": "Pád Bastily 1789: den, kdy začala Francouzská revoluce",
+		"content": "<p>14. července 1789 zaútočil rozhněvaný dav pařížských obyvatel na pevnost Bastilu, symbol absolutistické moci francouzských králů, kde tehdy bylo vězněno jen sedm lidí.</p><p>Útočníci hledali hlavně zásoby střelného prachu potřebné k obraně proti očekávanému zásahu královských vojsk. Po několikahodinovém boji se posádka pevnosti vzdala.</p><p>Pád Bastily se stal symbolickým počátkem Francouzské revoluce, která během několika let smetla staletí trvající feudální řád a vedla k popravě krále Ludvíka XVI. v roce 1793.</p><p>Datum 14. července se ve Francii dodnes slaví jako státní svátek, známý jako Den vzetí Bastily.</p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "Britannica – Fall of the Bastille",
+				"url": "https://www.britannica.com/event/fall-of-the-Bastille"
+			},
+			{
+				"label": "Wikipedia – Dobytí Bastily",
+				"url": "https://cs.wikipedia.org/wiki/Dobytí_Bastily"
+			}
+		]
+	},
+	{
+		"id": "124",
+		"title": "Proč med v archeologických nálezech vydržel tisíce let",
+		"content": "<p>Archeologové v egyptských hrobkách opakovaně nacházejí nádoby s medem starým i více než 3 000 let, který je stále chemicky jedlý.</p><p>Důvodem je kombinace vlastností medu: má velmi nízký obsah vody, vysokou kyselost a obsahuje peroxid vodíku vznikající činností včelích enzymů. Tyto podmínky znemožňují růst bakterií a plísní.</p><p>Pokud je nádoba dobře uzavřená a chráněná před vlhkostí, med se prakticky nekazí, i když může časem zkrystalizovat nebo změnit barvu.</p><p>Med je tak jedním z mála potravinářských produktů, u kterých má datum spotřeby prakticky jen formální význam.</p>",
+		"category": "zajimavost",
+		"sources": [
+			{
+				"label": "Smithsonian Magazine – Honey's shelf life",
+				"url": "https://www.smithsonianmag.com/science-nature/the-science-behind-honeys-eternal-shelf-life-1218690/"
+			},
+			{
+				"label": "BBC Future – The food that never goes off",
+				"url": "https://www.bbc.com/future/article/20180809-the-food-that-never-goes-off"
+			}
+		]
+	},
+	{
+		"id": "125",
+		"title": "Experiment, který nenašel neviditelný éter a změnil fyziku",
+		"content": "<p>Fyzici 19. století věřili, že vesmír je vyplněn neviditelnou látkou zvanou éter, skrze kterou se šíří světlo, podobně jako zvuk potřebuje vzduch.</p><p>Američtí vědci <strong>Albert Michelson</strong> a <strong>Edward Morley</strong> v roce 1887 sestrojili citlivý přístroj, který měl zachytit rozdíl v rychlosti světla způsobený pohybem Země éterem.</p><p>Žádný takový rozdíl nenaměřili, ať měřili v jakémkoli směru. Výsledek byl tehdy natolik nečekaný, že se mu říkalo „nejslavnější neúspěšný experiment v historii fyziky“.</p><p>Vysvětlení přinesl až Albert Einstein v roce 1905 svou speciální teorií relativity, která existenci éteru zcela vyloučila.</p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Nobel Prize – Albert Michelson",
+				"url": "https://www.nobelprize.org/prizes/physics/1907/michelson/facts/"
+			},
+			{
+				"label": "Britannica – Michelson-Morley experiment",
+				"url": "https://www.britannica.com/science/Michelson-Morley-experiment"
+			}
+		]
+	},
+	{
+		"id": "126",
+		"title": "Edwin Hubble a objev, že se vesmír neustále rozpíná",
+		"content": "<p>Do 20. let 20. století panovala představa, že vesmír je statický a neměnný.</p><p>Americký astronom <strong>Edwin Hubble</strong> pozoroval pomocí dalekohledu na observatoři Mount Wilson vzdálené galaxie a zjistil, že jejich světlo je systematicky posunuto směrem k červené barvě spektra.</p><p>V roce 1929 publikoval zjištění, že čím dál je galaxie od nás, tím rychleji se od nás vzdaluje – vztah dnes známý jako Hubbleův zákon.</p><p>Tento objev poskytl první přímý důkaz, že se vesmír rozpíná, a stal se jedním z pilířů teorie velkého třesku. Na jeho počest byl pojmenován Hubbleův vesmírný dalekohled vypuštěný v roce 1990.</p>",
+		"category": "astronomie",
+		"sources": [
+			{
+				"label": "NASA – Edwin Hubble and the expanding universe",
+				"url": "https://www.nasa.gov/history/edwin-hubble-and-the-expanding-universe/"
+			},
+			{
+				"label": "Britannica – Edwin Hubble",
+				"url": "https://www.britannica.com/biography/Edwin-Hubble"
+			}
+		]
+	},
+	{
+		"id": "127",
+		"title": "Kryštof Kolumbus a plavba, která omylem objevila nový kontinent",
+		"content": "<p>Janovský mořeplavec <strong>Kryštof Kolumbus</strong> vyplul 3. srpna 1492 s podporou španělské koruny na západ přes Atlantik s cílem najít novou obchodní cestu do Asie.</p><p>12. října 1492 jeho výprava dosáhla ostrova v Karibiku, který Kolumbus pojmenoval San Salvador. Byl přesvědčen, že dorazil k pobřeží Indie, proto místní obyvatele nazval Indiány.</p><p>Kolumbus uskutečnil celkem čtyři výpravy do Ameriky, ale až do své smrti v roce 1506 odmítal přijmout, že objevil dosud Evropanům neznámý kontinent.</p><p>Jeho plavby odstartovaly éru evropské kolonizace Ameriky s dalekosáhlými, často tragickými důsledky pro původní obyvatelstvo.</p>",
+		"category": "historie",
+		"sources": [
+			{
+				"label": "Library of Congress – Columbus",
+				"url": "https://www.loc.gov/collections/christopher-columbus-and-the-age-of-exploration/"
+			},
+			{
+				"label": "Britannica – Christopher Columbus",
+				"url": "https://www.britannica.com/biography/Christopher-Columbus"
+			}
+		]
+	},
+	{
+		"id": "128",
+		"title": "Černý čtvrtek 1929: den, kdy se zhroutila newyorská burza",
+		"content": "<p>24. října 1929 propadly ceny akcií na newyorské burze tak prudce, že se tomuto dni dodnes říká <strong>Černý čtvrtek</strong>.</p><p>Během předchozích let ceny akcií rostly z velké části na dluh a spekulacích, aniž by odpovídaly skutečné hodnotě firem. Když důvěra investorů opadla, spustila se vlna hromadného prodeje.</p><p>Následující týden, zejména 29. října nazývaný Černé úterý, propad pokračoval a burza ztratila během několika dní obrovskou část své hodnoty.</p><p>Krach na burze odstartoval Velkou hospodářskou krizi, která ve Spojených státech vedla k masové nezaměstnanosti a postupně zasáhla ekonomiky po celém světě.</p>",
+		"category": "ekonomie",
+		"sources": [
+			{
+				"label": "Federal Reserve History – Stock Market Crash of 1929",
+				"url": "https://www.federalreservehistory.org/essays/stock-market-crash-of-1929"
+			},
+			{
+				"label": "Britannica – Stock market crash of 1929",
+				"url": "https://www.britannica.com/event/stock-market-crash-of-1929"
+			}
+		]
+	},
+	{
+		"id": "129",
+		"title": "Malý Albert: experiment, který naučil dítě bát se chlupaté myši",
+		"content": "<p>Lze naučit malé dítě strachu z něčeho, čeho se předtím vůbec nebálo?</p><p>Americký psycholog <strong>John B. Watson</strong> se svou asistentkou Rosalie Raynerovou to v roce 1920 vyzkoušeli na devítiměsíčním chlapci, kterého ve studii označili jako „Malý Albert“.</p><p>Chlapci nejprve ukazovali bílou laboratorní myš, ke které necítil žádný strach. Poté vždy při jejím objevení pustili hlasitý úlekový zvuk. Po několika opakováních začal Albert plakat už jen při pohledu na myš, aniž by zvuk zazněl.</p><p>Strach se navíc přenesl i na podobné chlupaté předměty. Experiment, dnes považovaný za eticky problematický, dokázal, že i emoční reakce lze podmiňovat stejně jako reflexy.</p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "Simply Psychology – Little Albert",
+				"url": "https://www.simplypsychology.org/little-albert.html"
+			},
+			{
+				"label": "APA – Little Albert regains his identity",
+				"url": "https://www.apa.org/monitor/2010/07-08/little-albert"
+			}
+		]
+	},
+	{
+		"id": "130",
+		"title": "Salvador Dalí a hodiny, které se rozplývají jako sýr",
+		"content": "<p>Obraz s rozplývajícími se hodinami zná i mnoho lidí, kteří se o umění příliš nezajímají.</p><p>Španělský malíř <strong>Salvador Dalí</strong> namaloval <em>Persistenci paměti</em> v roce 1931. Podle vlastních slov ho k měkkým hodinám inspiroval pohled na tající camembertový sýr jednoho horkého večera.</p><p>Obraz zobrazuje pusté pobřeží s roztavenými hodinami visícími na větvi stromu, hraně stolu a podivné organické formě, kterou historici umění spojují s Dalího vlastní podobou.</p><p>Dílo patří k nejznámějším ukázkám surrealismu a dnes je trvale vystaveno v newyorském Museu moderního umění (MoMA), kam se dostalo v roce 1934.</p>",
+		"category": "umeni",
+		"sources": [
+			{
+				"label": "MoMA – The Persistence of Memory",
+				"url": "https://www.moma.org/collection/works/79018"
+			},
+			{
+				"label": "Britannica – The Persistence of Memory",
+				"url": "https://www.britannica.com/topic/The-Persistence-of-Memory"
+			}
+		]
+	},
+	{
+		"id": "131",
+		"title": "1984: román, který napsal umírající muž jako varování",
+		"content": "<p>Britský spisovatel <strong>George Orwell</strong> psal svůj nejslavnější román na skotském ostrově Jura v letech 1947 až 1948, zatímco vážně nemocný tuberkulózou bojoval o dokončení díla.</p><p>Kniha <em>1984</em>, vydaná v roce 1949, popisuje totalitní stát, kde vládnoucí strana kontroluje myšlení občanů, přepisuje historii a sleduje je prostřednictvím takzvaných teleobrazovek.</p><p>Orwell dílo napsal jako varování před totalitarismem, inspirované jak stalinským Sovětským svazem, tak nacistickým Německem, jejichž praktiky pozoroval během svého života.</p><p>Pojmy jako „velký bratr“ nebo „newspeak“ z knihy dodnes běžně používáme v souvislosti s propagandou a sledováním. Orwell zemřel na tuberkulózu jen rok po vydání románu.</p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – Nineteen Eighty-four",
+				"url": "https://www.britannica.com/topic/Nineteen-Eighty-four"
+			},
+			{
+				"label": "The Orwell Foundation – Nineteen Eighty-Four",
+				"url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/nineteen-eighty-four/"
+			}
+		]
+	},
+	{
+		"id": "132",
+		"title": "Nietzsche a věta „Bůh je mrtev“, kterou svět nepochopil",
+		"content": "<p>Německý filozof <strong>Friedrich Nietzsche</strong> vložil do úst šílenému muži v knize <em>Radostná věda</em> z roku 1882 výrok „Bůh je mrtev“, který se stal jedním z nejcitovanějších a nejzkomolenějších tvrzení filozofie.</p><p>Nešlo o triumfální oslavu ateismu. Nietzsche tím popisoval krizi hodnot moderní západní civilizace, ve které náboženská a metafyzická jistota, jež po staletí dávala životu smysl, přestala být pro mnoho lidí věrohodná.</p><p>Bez tohoto sdíleného základu podle Nietzscheho hrozí <strong>nihilismus</strong> – pocit, že nic nemá smysl. Vyzýval proto k vytvoření nových hodnot na základě lidské tvořivosti, nikoli vnější autority.</p><p>Věta se dnes často cituje bez kontextu, přestože Nietzsche ji míní spíše jako diagnózu doby než jako výzvu k triumfu.</p>",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy – Nietzsche",
+				"url": "https://plato.stanford.edu/entries/nietzsche/"
+			},
+			{
+				"label": "Britannica – Friedrich Nietzsche",
+				"url": "https://www.britannica.com/biography/Friedrich-Nietzsche"
+			}
+		]
+	},
+	{
+		"id": "133",
+		"title": "Eukleidovy Základy: učebnice geometrie platná dva tisíce let",
+		"content": "<p>Řecký matematik <strong>Eukleidés</strong> sepsal kolem roku 300 př. n. l. v Alexandrii dílo <em>Základy</em>, sbírku třinácti knih shrnujících tehdejší poznatky geometrie a teorie čísel.</p><p>Dílo bylo revoluční svou strukturou: vycházelo z malého počtu axiomů, samozřejmých tvrzení přijatých bez důkazu, ze kterých logicky odvozovalo všechny další věty.</p><p>Tento přístup, dnes nazývaný axiomatická metoda, se stal vzorem pro veškerou další matematiku a formální logiku.</p><p>Základy se používaly jako standardní učebnice geometrie po více než dva tisíce let, ještě na počátku 20. století se z nich učilo na mnoha evropských školách.</p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Elements (Euclid)",
+				"url": "https://www.britannica.com/topic/Elements-Euclid"
+			},
+			{
+				"label": "MacTutor – Euclid",
+				"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euclid/"
+			}
+		]
+	},
+	{
+		"id": "134",
+		"title": "Alan Turing a stroj, který zkrátil válku o roky",
+		"content": "<p>Za druhé světové války používalo nacistické Německo k šifrování vojenských zpráv stroj <strong>Enigma</strong>, jehož miliardy možných nastavení tehdy platily za prakticky neprolomitelné.</p><p>Britský matematik <strong>Alan Turing</strong> vedl v tajné šifrovací stanici Bletchley Park tým, který navrhl elektromechanický stroj zvaný Bombe, schopný postupně vyloučit nesprávná nastavení Enigmy a odhalit denní šifrovací klíč.</p><p>Rozluštěné zprávy, souhrnně označované krycím jménem Ultra, poskytovaly spojencům klíčové informace o pohybu německých ponorek a vojsk.</p><p>Podle odhadů historiků toto rozluštění zkrátilo válku o dva až čtyři roky a zachránilo miliony životů, přestože práce Bletchley Parku zůstala tajná ještě desetiletí po válce.</p>",
+		"category": "pocitacove-vedy",
+		"sources": [
+			{
+				"label": "Bletchley Park – Enigma and the Bombe",
+				"url": "https://bletchleypark.org.uk/our-story/enigma-and-the-bombe/"
+			},
+			{
+				"label": "Imperial War Museum – Alan Turing cracked Enigma",
+				"url": "https://www.iwm.org.uk/history/how-alan-turing-cracked-the-enigma-code"
+			}
+		]
+	},
+	{
+		"id": "135",
+		"title": "Berlínská zeď: bariéra postavená přes noc, která rozdělila město",
+		"content": "<p>V noci na 13. srpna 1961 začaly východoněmecké jednotky stavět bariéru z ostnatého drátu podél hranice mezi východním a západním Berlínem.</p><p>Obyvatelé se probudili do rozděleného města – rodiny, přátelé i pracovní kolegové byli náhle odděleni, mnozí navždy. Provizorní bariéra se postupně proměnila v betonovou zeď dlouhou přes 155 kilometrů.</p><p>Zeď měla zastavit masový únik obyvatel z komunistické Německé demokratické republiky do svobodnějšího západního Berlína, kudy do té doby odešly statisíce lidí.</p><p>Zeď padla 9. listopadu 1989 poté, co východoněmecký úředník na tiskové konferenci omylem oznámil okamžité otevření hranic, což vyvolalo spontánní oslavy na obou stranách.</p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "Britannica – Berlin Wall",
+				"url": "https://www.britannica.com/topic/Berlin-Wall"
+			},
+			{
+				"label": "National Archives – The Fall of the Berlin Wall",
+				"url": "https://www.archives.gov/publications/prologue/2011/fall/berlinwall.html"
+			}
+		]
+	},
+	{
+		"id": "136",
+		"title": "Eiffelova věž je v létě o kus vyšší než v zimě",
+		"content": "<p>Pařížská Eiffelova věž, dokončená v roce 1889, není po celý rok stejně vysoká.</p><p>Její konstrukce je vyrobena z tepelně roztažného kovu – železa, které se při vyšších teplotách rozpíná a při chladu naopak smršťuje.</p><p>Podle údajů společnosti spravující věž může teplotní rozdíl mezi horkým létem a mrazivou zimou způsobit změnu výšky až o 15 centimetrů.</p><p>Kromě toho se věž mírně naklání směrem od Slunce, protože osvětlená strana konstrukce se ohřívá a rozpíná rychleji než strana ve stínu – drobný, ale měřitelný jev, který inženýři u podobných ocelových konstrukcí musí brát v úvahu.</p>",
+		"category": "zajimavost",
+		"sources": [
+			{
+				"label": "Official Eiffel Tower – Does the tower lean?",
+				"url": "https://www.toureiffel.paris/en/news/history/does-eiffel-tower-lean"
+			},
+			{
+				"label": "Britannica – Eiffel Tower",
+				"url": "https://www.britannica.com/topic/Eiffel-Tower"
+			}
+		]
+	},
+	{
+		"id": "137",
+		"title": "Objev inzulinu, který proměnil cukrovku ze smrtelné nemoci v léčitelnou",
+		"content": "<p>Před rokem 1921 znamenala diagnóza cukrovky prvního typu u dětí prakticky jistou smrt během několika měsíců až let.</p><p>Kanadský chirurg <strong>Frederick Banting</strong> a student medicíny <strong>Charles Best</strong> na univerzitě v Torontu v létě 1921 izolovali z psí slinivky hormon, který dokázal snižovat hladinu cukru v krvi.</p><p>V lednu 1922 podali látku poprvé čtrnáctiletému chlapci umírajícímu na cukrovku a jeho stav se dramaticky zlepšil. V roce 1923 získali Banting a fyziolog John Macleod za tento objev Nobelovu cenu.</p><p>Banting se s cenou rozdělil se svým asistentem Bestem, protože měl pocit, že si ji zaslouží stejnou měrou. Inzulin od té doby zachránil odhadem desítky milionů životů.</p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Nobel Prize – Frederick Banting",
+				"url": "https://www.nobelprize.org/prizes/medicine/1923/banting/facts/"
+			},
+			{
+				"label": "University of Toronto – Discovery of insulin",
+				"url": "https://www.utoronto.ca/news/discovery-insulin-u-t-1921"
+			}
+		]
+	},
+	{
+		"id": "138",
+		"title": "Rutherfordův experiment se zlatou fólií odhalil jádro atomu",
+		"content": "<p>Do roku 1911 vědci věřili, že atom je rovnoměrně vyplněná koule kladného náboje s elektrony rozptýlenými jako rozinky v pudinku.</p><p>Novozélandský fyzik <strong>Ernest Rutherford</strong> nechal svými asistenty ostřelovat tenkou zlatou fólii alfa částicemi a očekával, že projdou téměř bez odchylky.</p><p>Naprostá většina částic skutečně prošla, ale malá část se odrazila zpět nebo se výrazně vychýlila – jev, který Rutherford později přirovnal k situaci, kdy dělová koule odrazí od kusu hedvábného papíru.</p><p>Z toho usoudil, že atom obsahuje malé, husté a kladně nabité jádro, kolem kterého obíhají elektrony ve velké prázdné vzdálenosti. Tento model položil základ moderní jaderné fyzice.</p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Nobel Prize – Ernest Rutherford",
+				"url": "https://www.nobelprize.org/prizes/chemistry/1908/rutherford/biographical/"
+			},
+			{
+				"label": "Britannica – Rutherford atomic model",
+				"url": "https://www.britannica.com/science/Rutherford-atomic-model"
+			}
+		]
+	},
+	{
+		"id": "139",
+		"title": "Clyde Tombaugh a objev Pluta v roce 1930",
+		"content": "<p>Americký astronom <strong>Clyde Tombaugh</strong>, tehdy třiadvacetiletý samouk bez univerzitního vzdělání, pracoval na observatoři Lowell v Arizoně na hledání hypotetické „Planety X“.</p><p>18. února 1930 při pečlivém porovnávání fotografických desek noční oblohy objevil malý pohybující se bod světla, který se ukázal být novým tělesem sluneční soustavy.</p><p>Objev byl oznámen 13. března 1930 a nové těleso dostalo název Pluto, navržený jedenáctiletou britskou dívkou Venetií Burneyovou podle římského boha podsvětí.</p><p>Pluto bylo po sedmdesát šest let označováno za devátou planetu sluneční soustavy, než ho Mezinárodní astronomická unie v roce 2006 překlasifikovala na trpasličí planetu.</p>",
+		"category": "astronomie",
+		"sources": [
+			{
+				"label": "NASA – Pluto",
+				"url": "https://science.nasa.gov/dwarf-planets/pluto/"
+			},
+			{
+				"label": "Lowell Observatory – Discovery of Pluto",
+				"url": "https://lowell.edu/discovery-of-pluto/"
+			}
+		]
+	},
+	{
+		"id": "140",
+		"title": "Rok 476: symbolický konec Západořímské říše",
+		"content": "<p>Historici tradičně označují rok 476 n. l. za konec Západořímské říše, přestože samotný pád byl spíše postupným procesem trvajícím desítky let.</p><p>V roce 476 germánský vojevůdce <strong>Odoaker</strong> sesadil posledního západořímského císaře, mladého Romula Augustula, a odeslal císařské insignie do Konstantinopole s tím, že Západ už samostatného vládce nepotřebuje.</p><p>Ve skutečnosti se říše rozpadala už desítky let předtím kvůli vnitřním krizím, hospodářským problémům a opakovaným vpádům germánských kmenů, jako byli Vizigóti, kteří vyplenili Řím už v roce 410.</p><p>Východořímská, byzantská říše naproti tomu přežila ještě dalších téměř tisíc let, až do pádu Konstantinopole v roce 1453.</p>",
+		"category": "historie",
+		"sources": [
+			{
+				"label": "Britannica – Fall of Rome",
+				"url": "https://www.britannica.com/event/fall-of-Rome"
+			},
+			{
+				"label": "Wikipedia – Zánik Západořímské říše",
+				"url": "https://cs.wikipedia.org/wiki/Zánik_Západořímské_říše"
+			}
+		]
+	},
+	{
+		"id": "141",
+		"title": "Bretton Woods: dohoda, která na třicet let ukotvila světové měny ke zlatu",
+		"content": "<p>V červenci 1944 se v americkém letovisku Bretton Woods sešli zástupci 44 spojeneckých zemí, aby navrhli nový mezinárodní měnový systém pro poválečný svět.</p><p>Dohodli se, že hodnota amerického dolaru bude pevně vázána na zlato, konkrétně 35 dolarů za trojskou unci, zatímco ostatní měny budou vázány k dolaru s fixním, jen výjimečně upravitelným kurzem.</p><p>Systém vytvořil i dvě nové instituce, které fungují dodnes – Mezinárodní měnový fond a Světovou banku, určené k podpoře finanční stability a obnovy.</p><p>Systém fungoval do roku 1971, kdy prezident Richard Nixon jednostranně zrušil směnitelnost dolaru za zlato, čímž bretton-woodský systém definitivně skončil.</p>",
+		"category": "ekonomie",
+		"sources": [
+			{
+				"label": "Federal Reserve History – Bretton Woods Agreement",
+				"url": "https://www.federalreservehistory.org/essays/bretton-woods-agreement"
+			},
+			{
+				"label": "IMF – The end of the Bretton Woods System",
+				"url": "https://www.imf.org/en/About/history/the-end-of-the-bretton-woods-system"
+			}
+		]
+	},
+	{
+		"id": "142",
+		"title": "Vražda Kitty Genovese a vznik pojmu „efekt přihlížejícího“",
+		"content": "<p>V noci 13. března 1964 byla v newyorském Queensu napadena a zavražděna mladá žena Kitty Genovese. Dobová zpráva v New York Times tvrdila, že útok sledovaly desítky sousedů, kteří nezasáhli ani nezavolali policii.</p><p>Pozdější výzkumy zpochybnily přesný počet svědků i to, jak jasně si uvědomovali závažnost situace, ale případ inspiroval psychology <strong>Billa Latanéa</strong> a <strong>Johna Darleyho</strong> k výzkumu chování ve skupinách.</p><p>Jejich experimenty v 60. letech prokázaly reálný jev, dnes nazývaný <em>efekt přihlížejícího</em>: čím více lidí je svědkem nouzové situace, tím nižší je pravděpodobnost, že kdokoli z nich zasáhne, protože zodpovědnost se ve skupině rozmělní.</p><p>Případ i následný výzkum výrazně ovlivnily to, jak dnes chápeme chování davu v krizových situacích.</p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "Britannica – Bystander effect",
+				"url": "https://www.britannica.com/topic/bystander-effect"
+			},
+			{
+				"label": "APA – Kitty Genovese case",
+				"url": "https://www.apa.org/monitor/2018/06/tia-genovese"
+			}
+		]
+	},
+	{
+		"id": "143",
+		"title": "Rembrandtova Noční hlídka: obraz, který ve skutečnosti nezobrazuje noc",
+		"content": "<p>Nizozemský malíř <strong>Rembrandt van Rijn</strong> dokončil v roce 1642 monumentální skupinový portrét amsterdamské městské stráže, dnes známý jako <em>Noční hlídka</em>.</p><p>Název ale vznikl až o staletí později – vrstvy tmavého laku a špíny na povrchu obrazu ho postupně ztmavily natolik, že vypadal jako noční scéna. Po restaurování ve 20. století se ukázalo, že děj se odehrává za denního světla.</p><p>Rembrandt se odklonil od tehdejší konvence statických skupinových portrétů a zachytil stráž v dynamickém pohybu, jako by právě vyrážela do akce, s dramatickým světlem a stínem.</p><p>Obraz dodnes visí v amsterdamském Rijksmuseu a patří k nejcennějším a nejchráněnějším uměleckým dílům na světě.</p>",
+		"category": "umeni",
+		"sources": [
+			{
+				"label": "Rijksmuseum – The Night Watch",
+				"url": "https://www.rijksmuseum.nl/en/rijksstudio/artists/rembrandt-van-rijn/object-page/SK-C-5"
+			},
+			{
+				"label": "Britannica – The Night Watch",
+				"url": "https://www.britannica.com/topic/The-Night-Watch"
+			}
+		]
+	},
+	{
+		"id": "144",
+		"title": "Ílias a Odyssea: eposy, jejichž autora dodnes historikové hledají",
+		"content": "<p>Řecké eposy <strong>Ílias</strong> a <strong>Odyssea</strong>, tradičně přisuzované básníkovi jménem Homér, vznikly pravděpodobně kolem 8. století př. n. l., přestože líčí události trojské války odehrávající se o staletí dříve.</p><p>Ílias vypráví o hněvu hrdiny Achillea během posledních týdnů desetiletého obležení Tróje, zatímco Odyssea popisuje strastiplnou desetiletou cestu krále Odyssea domů po skončení války.</p><p>Historikové se dodnes přou, zda byl Homér skutečnou historickou osobou, nebo jde o jméno spojující ústní tradici více vypravěčů, kteří příběhy po generace předávali zpaměti, než byly zapsány.</p><p>Oba eposy tvoří základ celé západní literární tradice a jejich vliv je patrný od antického dramatu až po moderní romány a filmy.</p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – Iliad",
+				"url": "https://www.britannica.com/topic/Iliad"
+			},
+			{
+				"label": "Wikipedia – Homér",
+				"url": "https://cs.wikipedia.org/wiki/Homér"
+			}
+		]
+	},
+	{
+		"id": "145",
+		"title": "John Locke a mysl jako nepopsaná deska při narození",
+		"content": "<p>Rodíme se s vrozenými myšlenkami, nebo je naše mysl při narození prázdná?</p><p>Anglický filozof <strong>John Locke</strong> ve svém díle <em>Esej o lidském rozumu</em> z roku 1689 odmítl tehdy rozšířenou představu vrozených idejí. Tvrdil, že mysl novorozence je jako <strong>tabula rasa</strong> – nepopsaná deska.</p><p>Veškeré poznání podle Locka pochází ze zkušenosti, buď ze smyslového vnímání vnějšího světa, nebo z vnitřní reflexe vlastních myšlenkových procesů.</p><p>Tato myšlenka měla dalekosáhlé politické i sociální důsledky: pokud lidé nemají vrozené předurčení, jsou v zásadě rovni a formuje je hlavně výchova a prostředí. Lockeho empirismus výrazně ovlivnil pozdější osvícenské myšlení i moderní pedagogiku.</p>",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy – John Locke",
+				"url": "https://plato.stanford.edu/entries/locke/"
+			},
+			{
+				"label": "Britannica – John Locke",
+				"url": "https://www.britannica.com/biography/John-Locke"
+			}
+		]
+	},
+	{
+		"id": "146",
+		"title": "Nula: indický vynález, který dobyl matematiku celého světa",
+		"content": "<p>Bez čísla nula by nebyl možný moderní zápis čísel, natož počítače, které dnes tento text zobrazují.</p><p>Koncept nuly jako plnohodnotného čísla, se kterým lze počítat, rozvinuli indičtí matematici, mimo jiné <strong>Brahmagupta</strong>, který kolem roku 628 n. l. jako první formuloval pravidla pro počítání s nulou a zápornými čísly.</p><p>Z Indie se nula rozšířila přes arabský svět, kde ji matematici jako al-Chwárizmí dále rozvinuli, a do Evropy dorazila ve středověku, mimo jiné díky italskému matematikovi Fibonaccimu.</p><p>Starověcí Řekové a Římané, přestože v matematice dosáhli mnoha pokroků, koncept nuly jako čísla samostatně nerozvinuli, což jejich početní systémy výrazně komplikovalo.</p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Zero and the decimal system",
+				"url": "https://www.britannica.com/topic/mathematics/Zero-and-the-decimal-system"
+			},
+			{
+				"label": "MacTutor – A history of Zero",
+				"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Zero/"
+			}
+		]
+	},
+	{
+		"id": "147",
+		"title": "ENIAC: první elektronický počítač vážil 27 tun",
+		"content": "<p>Americký počítač <strong>ENIAC</strong>, dokončený v roce 1945 na University of Pennsylvania, byl jedním z prvních elektronických, plně programovatelných počítačů obecného určení.</p><p>Zabíral plochu přibližně 167 metrů čtverečních, vážil přes 27 tun a obsahoval téměř 18 000 elektronek, které se často přepalovaly a vyžadovaly neustálou údržbu.</p><p>Stroj byl navržen primárně pro výpočty dělostřeleckých tabulek pro americkou armádu, ale díky své univerzálnosti zvládal i další složité matematické úlohy.</p><p>Programování probíhalo ručně přepojováním kabelů a přepínačů, což mohlo trvat i několik dní – tuto náročnou práci vykonávaly převážně ženy, dnes označované jako „ENIAC programátorky“.</p>",
+		"category": "pocitacove-vedy",
+		"sources": [
+			{
+				"label": "University of Pennsylvania – ENIAC",
+				"url": "https://www.seas.upenn.edu/about/history-heritage/eniac/"
+			},
+			{
+				"label": "Smithsonian – ENIAC",
+				"url": "https://americanhistory.si.edu/collections/object/nmah_334857"
+			}
+		]
+	},
+	{
+		"id": "148",
+		"title": "Cesta na Měsíc: film z roku 1902, který vynalezl filmové triky",
+		"content": "<p>Francouzský filmař <strong>Georges Méliès</strong>, původně profesionální kouzelník, natočil v roce 1902 čtrnáctiminutový film <em>Cesta na Měsíc</em>, dnes považovaný za jedno z prvních děl sci-fi žánru.</p><p>Film ukazuje skupinu vědců, kteří vystřelí z obřího děla kabinu s posádkou na Měsíc, kde narazí na obyvatele zvané Selenité. Nejznámějším záběrem je dělová koule zabodnutá do oka antropomorfizovaného Měsíce.</p><p>Méliès při natáčení vynalezl řadu technik, které se staly základem filmových triků, včetně vícenásobné expozice, rozpouštění záběrů a ručně malovaného kolorování políček filmu.</p><p>Přestože byl film v době vydání komerčně pirátsky kopírován v USA bez Méliésova svolení, dodnes patří k nejvlivnějším dílům rané kinematografie.</p>",
+		"category": "filmy",
+		"sources": [
+			{
+				"label": "MoMA – A Trip to the Moon",
+				"url": "https://www.moma.org/collection/works/89563"
+			},
+			{
+				"label": "Britannica – A Trip to the Moon",
+				"url": "https://www.britannica.com/topic/A-Trip-to-the-Moon"
+			}
+		]
+	},
+	{
+		"id": "149",
+		"title": "Jazzový zpěvák: film, který ukončil éru němého filmu",
+		"content": "<p>Do roku 1927 byly filmy prakticky výhradně němé, doprovázené jen živou hudbou v kině.</p><p>Americké studio Warner Bros. toho roku uvedlo film <em>Jazzový zpěvák</em> (The Jazz Singer), který jako první celovečerní film obsahoval synchronizované mluvené dialogy a zpěv díky technologii Vitaphone.</p><p>Většina filmu byla stále němá s titulky, ale několik scén, včetně hlavní hercovy repliky „Ještě jste nic neslyšeli“, diváky ohromilo natolik, že film odstartoval rychlý přechod celého Hollywoodu ke zvukovým filmům.</p><p>Do konce 20. let 20. století se němé filmy staly prakticky historií a filmový průmysl prošel jednou z nejrychlejších technologických proměn ve své historii.</p>",
+		"category": "filmy",
+		"sources": [
+			{
+				"label": "Library of Congress – National Film Registry",
+				"url": "https://www.loc.gov/programs/national-film-preservation-board/film-registry/complete-national-film-registry-listing/"
+			},
+			{
+				"label": "Britannica – The Jazz Singer",
+				"url": "https://www.britannica.com/topic/The-Jazz-Singer"
+			}
+		]
+	},
+	{
+		"id": "150",
+		"title": "Psycho: jak Hitchcock přiměl diváky bát se sprchy",
+		"content": "<p>Britský režisér <strong>Alfred Hitchcock</strong> natočil v roce 1960 thriller <em>Psycho</em> s poměrně nízkým rozpočtem, částečně i s vlastním televizním štábem, aby ušetřil náklady studia.</p><p>Nejslavnější scéna filmu, vražda ve sprše, trvá na plátně necelé tři minuty, ale její natočení zabralo štábu přibližně sedm dní a obsahuje přes sedmdesát různých kamerových záběrů.</p><p>Hitchcock trval na tom, aby diváci do kina nesměli po začátku promítání, čímž tehdy porušil zavedenou konvenci pozdních příchodů, a vytvořil tak jeden z prvních marketingových triků moderní kinematografie.</p><p>Film je dodnes považován za jeden z nejvlivnějších hororových a thrillerových snímků historie a ovlivnil generace filmařů.</p>",
+		"category": "filmy",
+		"sources": [
+			{
+				"label": "BFI – Psycho facts",
+				"url": "https://www.bfi.org.uk/features/alfred-hitchcock-psycho-facts"
+			},
+			{
+				"label": "Britannica – Psycho",
+				"url": "https://www.britannica.com/topic/Psycho-film-by-Hitchcock"
+			}
+		]
+	},
+	{
+		"id": "151",
+		"title": "Banán je botanicky bobule, jahoda naopak ne",
+		"content": "<p>Botanická klasifikace ovoce se často liší od toho, jak ovoce běžně nazýváme v kuchyni.</p><p>Podle botanické definice je <strong>bobule</strong> plod vzniklý z jediného pestíku, který má dužnatou stěnu a semena uložená uvnitř dužniny. Banán, ale i rajče, paprika nebo avokádo tuto definici splňují.</p><p>Jahoda naopak botanickou definici bobule nesplňuje. Jde o takzvaný nepravý plod, u kterého jsou skutečná semena ty drobné žluté tečky na povrchu, zatímco červená dužina vznikla ze zduřelého květního lůžka.</p><p>Podobně paradoxně vychází i klasifikace malin nebo ostružin, které jsou botanicky souplodí drobných peckoviček, nikoli bobule ani jednoduché plody.</p>",
+		"category": "zajimavost",
+		"sources": [
+			{
+				"label": "Britannica – Berry (fruit)",
+				"url": "https://www.britannica.com/science/berry-fruit"
+			},
+			{
+				"label": "Smithsonian Magazine – Why a banana is a berry",
+				"url": "https://www.smithsonianmag.com/science-nature/why-a-banana-is-a-berry-but-a-strawberry-isnt-180968235/"
+			}
+		]
+	},
+	{
+		"id": "152",
+		"title": "Chobotnice mají tři srdce a modrou krev",
+		"content": "<p>Oběhová soustava chobotnic funguje zcela jinak než u obratlovců, včetně člověka.</p><p>Chobotnice mají <strong>tři srdce</strong>: dvě žaberní srdce pumpují krev skrze žábry, kde se okysličuje, a jedno systémové srdce rozvádí okysličenou krev do zbytku těla.</p><p>Jejich krev navíc není červená, ale modrá, protože kyslík v ní přenáší měď obsahující bílkovina hemocyanin místo železa obsahujícího hemoglobinu, který dává barvu krvi obratlovců.</p><p>Zajímavostí je i to, že při plavání se systémové srdce chobotnice dočasně zastavuje, což je jeden z důvodů, proč se chobotnice raději plazí po dně, než aby neustále plavaly – plavání je pro ně energeticky velmi náročné.</p>",
+		"category": "zajimavost",
+		"sources": [
+			{
+				"label": "Smithsonian Ocean – Octopus",
+				"url": "https://ocean.si.edu/ocean-life/invertebrates/octopus-eight-armed-wonder"
+			},
+			{
+				"label": "National Geographic – Common octopus",
+				"url": "https://www.nationalgeographic.com/animals/invertebrates/facts/common-octopus"
+			}
+		]
+	},
+	{
+		"id": "153",
+		"title": "Alexander Graham Bell a telefonát, který odstartoval novou éru",
+		"content": "<p>10. března 1876 pronesl skotsko-americký vynálezce <strong>Alexander Graham Bell</strong> do svého experimentálního přístroje větu určenou asistentovi ve vedlejší místnosti: „Pane Watsone, pojďte sem, potřebuji vás.“</p><p>Watson větu skutečně slyšel přes drát, což se stalo prvním úspěšným přenosem srozumitelné lidské řeči na dálku pomocí elektrického signálu.</p><p>Bell podal patent na telefon jen několik hodin před svým konkurentem Elishou Grayem, což později vedlo k dlouholetým soudním sporům o prvenství vynálezu.</p><p>Během několika desetiletí se telefon rozšířil po celém světě a zásadně změnil způsob, jakým lidé komunikují na dálku.</p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Library of Congress – Bell and the telephone",
+				"url": "https://www.loc.gov/collections/alexander-graham-bell-papers/articles-and-essays/telephone/"
+			},
+			{
+				"label": "Britannica – Alexander Graham Bell",
+				"url": "https://www.britannica.com/biography/Alexander-Graham-Bell"
+			}
+		]
+	},
+	{
+		"id": "154",
+		"title": "Objev supravodivosti: kov, který ztratil veškerý elektrický odpor",
+		"content": "<p>Nizozemský fyzik <strong>Heike Kamerlingh Onnes</strong> se v roce 1908 jako první podařilo zkapalnit helium, což mu otevřelo cestu ke zkoumání vlastností materiálů při teplotách blízkých absolutní nule.</p><p>V roce 1911 při experimentech se rtutí zjistil, že při ochlazení na teplotu kolem 4,2 kelvinu (přibližně mínus 269 stupňů Celsia) elektrický odpor rtuti náhle úplně zmizel.</p><p>Tento jev, dnes nazývaný <strong>supravodivost</strong>, umožňuje, aby elektrický proud protékal materiálem bez jakýchkoli ztrát energie.</p><p>Za výzkum vlastností látek při nízkých teplotách získal Kamerlingh Onnes v roce 1913 Nobelovu cenu za fyziku. Supravodiče se dnes využívají například v magnetech pro lékařské přístroje MRI.</p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Nobel Prize – Heike Kamerlingh Onnes",
+				"url": "https://www.nobelprize.org/prizes/physics/1913/onnes/facts/"
+			},
+			{
+				"label": "Britannica – Superconductivity",
+				"url": "https://www.britannica.com/science/superconductivity"
+			}
+		]
+	},
+	{
+		"id": "155",
+		"title": "James Webb: teleskop, který vidí nejstarší galaxie vesmíru",
+		"content": "<p>Vesmírný dalekohled <strong>James Webb</strong> byl vypuštěn 25. prosince 2021 a umístěn do vzdálenosti asi 1,5 milionu kilometrů od Země, v takzvaném Lagrangeově bodě L2.</p><p>Na rozdíl od svého předchůdce, Hubbleova teleskopu, pozoruje Webb vesmír především v infračerveném spektru, což mu umožňuje vidět skrz oblaka prachu a zachytit světlo velmi vzdálených a tedy i velmi starých galaxií.</p><p>V červenci 2022 zveřejnila NASA první ostré snímky, včetně hlubokého pole vesmíru s tisíci galaxiemi, z nichž některé vznikly už několik set milionů let po velkém třesku.</p><p>Teleskop, vyvíjený přes dvacet let za náklady přesahující 10 miliard dolarů, dnes patří k nejvýkonnějším vědeckým nástrojům, jaké lidstvo kdy vytvořilo.</p>",
+		"category": "astronomie",
+		"sources": [
+			{
+				"label": "NASA – James Webb Space Telescope",
+				"url": "https://webb.nasa.gov/"
+			},
+			{
+				"label": "ESA – Webb",
+				"url": "https://www.esa.int/Science_Exploration/Space_Science/Webb"
+			}
+		]
+	},
+	{
+		"id": "156",
+		"title": "D-Day 1944: největší námořní invaze v dějinách",
+		"content": "<p>6. června 1944, v den označovaný jako <strong>D-Day</strong>, zahájily spojenecké síly rozsáhlou invazi na pláže francouzské Normandie okupované nacistickým Německem.</p><p>Na pěti plážích s krycími názvy Utah, Omaha, Gold, Juno a Sword vylodilo během jediného dne přes 150 000 vojáků za podpory téměř 7 000 lodí a více než 11 000 letadel.</p><p>Boje byly obzvlášť krvavé na pláži Omaha, kde němečtí obránci způsobili spojencům tisíce obětí ještě před tím, než se podařilo prolomit obranné linie.</p><p>Invaze otevřela na západě druhou frontu proti Německu a stala se rozhodujícím krokem k jeho porážce o necelý rok později, v květnu 1945.</p>",
+		"category": "historie",
+		"sources": [
+			{
+				"label": "National WWII Museum – D-Day",
+				"url": "https://www.nationalww2museum.org/war/topics/d-day"
+			},
+			{
+				"label": "Britannica – D-Day",
+				"url": "https://www.britannica.com/event/D-Day"
+			}
+		]
+	},
+	{
+		"id": "157",
+		"title": "Adam Smith a továrna na špendlíky, která vysvětlila dělbu práce",
+		"content": "<p>Kolik špendlíků dokáže vyrobit jeden zručný dělník za den, když dělá úplně vše sám? Podle odhadu skotského ekonoma Adama Smithe možná jen jeden, možná ani to ne.</p><p>Smith ve svém díle <em>Bohatství národů</em> z roku 1776 popsal manufakturu na výrobu špendlíků, kde bylo místo jediného řemeslníka rozděleno osmnáct dílčích úkonů mezi deset dělníků.</p><p>Jeden dělník tak natahoval drát, druhý ho rovnal, třetí řezal, čtvrtý brousil hrot a tak dál. Výsledkem bylo, že společně dokázali vyrobit přes 48 000 špendlíků denně, tedy tisíce na jednoho pracovníka.</p><p>Tímto příkladem Smith ilustroval princip <strong>dělby práce</strong> – specializace jednotlivých úkonů dramaticky zvyšuje celkovou produktivitu, což se stalo jedním ze základních principů moderního průmyslu.</p>",
+		"category": "ekonomie",
+		"sources": [
+			{
+				"label": "Econlib – Wealth of Nations, Book I",
+				"url": "https://www.econlib.org/library/Smith/smWN1.html"
+			},
+			{
+				"label": "Britannica – Division of labour",
+				"url": "https://www.britannica.com/topic/division-of-labour"
+			}
+		]
+	},
+	{
+		"id": "158",
+		"title": "Harlowovy opičky: pokus, který dokázal, že láska není jen o jídle",
+		"content": "<p>Do 50. let 20. století převládal názor, že dítě si k rodiči vytváří vazbu především proto, že ho krmí.</p><p>Americký psycholog <strong>Harry Harlow</strong> to zpochybnil sérií experimentů s mláďaty makaků rhesus, kterým nabídl dvě umělé „matky“ – jednu z drátu vybavenou lahví s mlékem a druhou potaženou měkkou látkou, ale bez jídla.</p><p>Mláďata trávila drtivou většinu času objímáním měkké látkové matky a k drátěné se přesouvala jen na dobu nezbytně nutnou k nakrmení, i když jim hrozil hlad.</p><p>Harlow z toho vyvodil, že tělesný kontakt a pocit bezpečí jsou pro vývoj vazby přinejmenším stejně důležité jako samotné krmení – závěr, který výrazně ovlivnil pozdější přístup k péči o kojence a malé děti.</p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "APA – Harry Harlow's studies on affection",
+				"url": "https://www.apa.org/monitor/2018/06/tia-harlow"
+			},
+			{
+				"label": "Simply Psychology – Harlow's Monkey Experiment",
+				"url": "https://www.simplypsychology.org/harlow-monkey.html"
+			}
+		]
+	},
+	{
+		"id": "159",
+		"title": "Poslední večeře: freska, kterou Leonardo maloval nesprávnou technikou",
+		"content": "<p>Italský umělec <strong>Leonardo da Vinci</strong> maloval <em>Poslední večeři</em> na zeď refektáře kláštera Santa Maria delle Grazie v Miláně mezi lety 1495 a 1498.</p><p>Namísto tradiční techniky fresky, kdy se barvy nanášejí na čerstvou vlhkou omítku, Leonardo experimentoval s temperovými barvami na suché zdi, což mu umožnilo pracovat pomaleji a s větším detailem.</p><p>Tato volba se ale ukázala jako technická chyba – barva se začala od zdi odlupovat už během několika desetiletí po dokončení, a dílo tak muselo projít mnoha náročnými restaurováními, naposledy velkým projektem dokončeným v roce 1999.</p><p>Přesto obraz zachycující okamžik, kdy Ježíš oznamuje, že jej jeden z apoštolů zradí, patří dodnes k nejobdivovanějším a nejanalyzovanějším uměleckým dílům historie.</p>",
+		"category": "umeni",
+		"sources": [
+			{
+				"label": "Britannica – The Last Supper",
+				"url": "https://www.britannica.com/topic/The-Last-Supper-fresco-by-Leonardo-da-Vinci"
+			},
+			{
+				"label": "Wikipedia – Poslední večeře (Leonardo)",
+				"url": "https://cs.wikipedia.org/wiki/Poslední_večeře_(Leonardo_da_Vinci)"
+			}
+		]
+	},
+	{
+		"id": "160",
+		"title": "Božská komedie: cesta peklem, kterou Dante napsal ve vyhnanství",
+		"content": "<p>Italský básník <strong>Dante Alighieri</strong> napsal <em>Božskou komedii</em> mezi lety 1308 a 1320, poté co byl z rodné Florencie vypovězen z politických důvodů a už se do ní nikdy nesměl vrátit.</p><p>Dílo popisuje básníkovu imaginární cestu peklem, očistcem a rájem, provázenou nejprve římským básníkem Vergiliem a později jeho idealizovanou láskou Beatrice.</p><p>Dante psal dílo italsky, nikoli latinsky, jak bylo v učené literatuře tehdy zvykem, čímž výrazně přispěl ke vzniku moderního spisovného italského jazyka.</p><p>Báseň je rozdělena do tří částí po třiceti třech zpěvech s propracovanou symbolikou čísel a dodnes patří k nejvlivnějším dílům světové literatury.</p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – The Divine Comedy",
+				"url": "https://www.britannica.com/topic/The-Divine-Comedy"
+			},
+			{
+				"label": "Wikipedia – Božská komedie",
+				"url": "https://cs.wikipedia.org/wiki/Božská_komedie"
+			}
+		]
+	},
+	{
+		"id": "161",
+		"title": "Hannah Arendtová a banalita zla u byrokrata, ne netvora",
+		"content": "<p>Jak vypadá člověk zodpovědný za organizaci masových vražd? Filozofka <strong>Hannah Arendtová</strong> čekala netvora. Místo toho v jeruzalémském soudním sále v roce 1961 sledovala nenápadného úředníka.</p><p>Arendtová jako novinářka sledovala proces s nacistickým zločincem Adolfem Eichmannem, organizátorem deportací Židů do koncentračních táborů, a své postřehy shrnula v knize <em>Eichmann v Jeruzalémě</em> z roku 1963.</p><p>Eichmann podle ní nepůsobil jako fanatický ideolog, ale jako obyčejný, poslušný byrokrat, který se hájil tím, že jen plnil rozkazy a nepřemýšlel o jejich morálních důsledcích.</p><p>Z toho Arendtová odvodila pojem <strong>banalita zla</strong> – myšlenku, že k nejhorším zločinům historie nemusí vést fanatismus, ale bezmyšlenkovitá poslušnost a neschopnost samostatně morálně uvažovat.</p>",
+		"category": "filozofie",
+		"sources": [
+			{
+				"label": "Stanford Encyclopedia of Philosophy – Hannah Arendt",
+				"url": "https://plato.stanford.edu/entries/arendt/"
+			},
+			{
+				"label": "Britannica – Hannah Arendt",
+				"url": "https://www.britannica.com/biography/Hannah-Arendt"
+			}
+		]
+	},
+	{
+		"id": "162",
+		"title": "Odmocnina ze dvou: iracionální číslo, které prý stálo objevitele život",
+		"content": "<p>Pythagorejci ve starověkém Řecku věřili, že celý vesmír lze vyjádřit poměry celých čísel.</p><p>Jeden z členů školy, podle tradice matematik <strong>Hippasos z Metapontu</strong>, kolem 5. století př. n. l. dokázal, že délka úhlopříčky čtverce o straně jedna, tedy odmocnina ze dvou, se nedá vyjádřit jako zlomek dvou celých čísel.</p><p>Toto číslo, dnes nazývané <strong>iracionální</strong>, přímo odporovalo základní pythagorejské víře v harmonii čísel a podle legendy měl být Hippasos za zveřejnění tohoto objevu utopen svými spolužáky v moři.</p><p>Historická přesnost legendy o jeho smrti je nejistá, ale objev iracionálních čísel je považován za jeden z prvních důkazů, že intuice a matematická logika si mohou zásadně odporovat.</p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "MacTutor – Hippasus",
+				"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hippasus/"
+			},
+			{
+				"label": "Britannica – Irrational number",
+				"url": "https://www.britannica.com/science/irrational-number"
+			}
+		]
 	}
 ]
