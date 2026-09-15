@@ -7,7 +7,9 @@
 
 	let { targetPostId } = $props();
 
+	const PAGE_SIZE = 20;
 	let posts = $state([]);
+	let visibleCount = $state(PAGE_SIZE);
 	let loading = $state(true);
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
@@ -41,6 +43,7 @@
 			const raw = await res.json();
 			posts = shufflePosts(raw, targetPostId);
 			totalPosts = posts.length;
+			visibleCount = PAGE_SIZE;
 			// Scroll to top after data loads so the first post is visible
 			requestAnimationFrame(() => {
 				const container = document.querySelector('.feed-container');
@@ -67,6 +70,10 @@
 				window.history.replaceState({}, '', url);
 			}
 		}
+	}
+
+	function loadMore() {
+		visibleCount += PAGE_SIZE;
 	}
 
 	async function sharePost(post) {
@@ -99,8 +106,9 @@
 	}
 
 	function getProgress() {
-		if (totalPosts === 0) return 0;
-		return Math.round((currentIndex / totalPosts) * 100);
+		const denom = Math.min(visibleCount, totalPosts);
+		if (denom === 0) return 0;
+		return Math.round((Math.min(currentIndex, denom - 1) / denom) * 100);
 	}
 
 	$effect(() => {
@@ -127,7 +135,7 @@
 		</header>
 
 		<div class="feed-stack">
-			{#each posts as post, i (post.id)}
+			{#each posts.slice(0, visibleCount) as post, i (post.id)}
 				<div class="card-wrapper">
 					<PostCard {post} />
 
@@ -144,6 +152,16 @@
 					</button>
 				</div>
 			{/each}
+
+			{#if visibleCount < totalPosts}
+				<div class="end-card">
+					<p class="end-card-text">Nesedíš už na tom záchodě moc dlouho?</p>
+					<button class="load-more-btn" onclick={loadMore}>
+						<span class="load-more-icon">+</span>
+						Chci přidat
+					</button>
+				</div>
+			{/if}
 		</div>
 	</div>
 
@@ -276,6 +294,55 @@
 		background: var(--accent);
 		color: var(--bg);
 		border-color: var(--accent);
+	}
+
+	/* End card (load more) */
+	.end-card {
+		height: 100vh;
+		height: 100dvh;
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		gap: 24px;
+		padding: 24px 20px;
+		scroll-snap-align: start;
+		text-align: center;
+	}
+
+	.end-card-text {
+		font-size: 1.1rem;
+		font-style: italic;
+		color: var(--text-muted);
+		line-height: 1.5;
+		max-width: 320px;
+	}
+
+	.load-more-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 10px;
+		padding: 14px 32px;
+		border: none;
+		border-radius: 999px;
+		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+		color: var(--bg);
+		font-size: 1rem;
+		font-weight: 700;
+		cursor: pointer;
+		transition: transform 0.15s, box-shadow 0.15s;
+		box-shadow: 0 4px 20px rgba(139, 92, 246, 0.25);
+	}
+
+	.load-more-btn:active {
+		transform: scale(0.95);
+		box-shadow: 0 2px 10px rgba(139, 92, 246, 0.4);
+	}
+
+	.load-more-icon {
+		font-size: 1.3rem;
+		font-weight: 300;
+		line-height: 1;
 	}
 
 	.progress-bar {
