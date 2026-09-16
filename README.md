@@ -53,6 +53,8 @@ npm run generate --count=50
 Požadavky na generování:
 - **100% reálná fakta** — žádné AI výmysly
 - **Ověřitelné zdroje** — každý příspěvek obsahuje 2–3 odkazy
+- **Obsah před životopisem** — u lidí se soustřeď na hlavní myšlenku, objev, dílo nebo událost; biografické údaje uváděj jen tehdy, když jsou pro vysvětlení podstatné
+- **Titulek nemusí obsahovat jméno** — může být postavený na principu, objevu, díle nebo důsledku
 - **Kategorie**: historie, filozofie, věda, umění, literatura, politika, fyzika, astronomie, zajímavost
 
 ## Nasazení
