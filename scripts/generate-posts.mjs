@@ -43,7 +43,7 @@ function getPrompt(batchSize, existingPosts) {
 
 TÉMATA napříč všemi 14 kategoriemi:
 
-- Starověcí myslitelé (~30 %): Řekové, Římané, Číňané, Indové — vysvětli jejich učení a proč je to dodnes relevantní. (Sokrates, Platón, Aristotelés, Hérakleitos, Démokritos, Epikúros, Pythagoras, stoici, Konfucius, Lao-c', Buddha, Archimédés ad.)
+- Starověcí myslitelé (~30 %): Řekové, Římané, Číňané, Indové — vysvětli jejich učení a proč je to dodnes relevantní. (Sokrates, Platón, Aristotelés, Hérakleitos, Démokritos, Epikúros, Pythagoras, stoici, Konfucius, Lao-c', Buddha, Archimédés ad.) Osobnost použij jen tehdy, když je pro hlavní myšlenku skutečně důležitá.
 - Historie: události, osobnosti, zajímavosti z historie
 - Ekonomie: ekonomické koncepty, Adam Smith, Keynes, nabídka a poptávka, inflace
 - Psychologie: kognitivní zkreslení, experimenty, Jung, Freud, mentální modely
@@ -75,6 +75,8 @@ DŮLEŽITÉ: tahle struktura je IDEÁL, ne šablona. Historická fakta, vědeck�
 
 PRAVIDLA:
 - 1 příspěvek = 1 myšlenka
+- Nezpracovávej lidi jako životopisné medailonky. Biografické údaje (narození, studium, kariéra, rodina, úmrtí) uváděj jen tehdy, když přímo vysvětlují hlavní myšlenku; jinak se soustřeď na samotný princip, objev, dílo nebo událost.
+- Titulek nemusí obsahovat jméno člověka. U osobností dávej přednost titulku postavenému na jejich myšlence, objevu, díle nebo důsledku, například „Proč se naše rozhodnutí řídí prvním číslem, které uslyšíme“ místo titulku se jménem autora.
 - Piš jednoduché HTML: <p> pro odstavce, občas <strong> pro důraz, <em> pro kurzívu
 - Krátké odstavce (1-3 věty), přirozená čeština
 - Žádné nadpisy, žádné # hashtagy, žádné speciální CSS třídy v HTML
