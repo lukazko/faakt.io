@@ -202,6 +202,7 @@
 								</svg>
 								Nahlásit problém
 							</button>
+							<div class="app-build-info">v{__APP_VERSION__} · build {__APP_BUILD_ID__}</div>
 						</div>
 					{/if}
 				</div>
@@ -408,6 +409,16 @@
 	.action-item:active {
 		background: var(--accent);
 		color: var(--bg);
+	}
+
+	.app-build-info {
+		padding: 7px 10px 4px;
+		border-top: 1px solid rgba(255, 255, 255, 0.08);
+		color: #666;
+		font-size: 0.62rem;
+		letter-spacing: 0.03em;
+		text-align: center;
+		white-space: nowrap;
 	}
 
 	/* End card (load more) */
