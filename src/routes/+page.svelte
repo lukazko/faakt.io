@@ -3,7 +3,7 @@
 </script>
 
 <svelte:head>
-	<title>faakt.io — doomscrolling, ale lepší</title>
+	<title>Doomscrolling, ale lepší</title>
 </svelte:head>
 
 <FeedView />

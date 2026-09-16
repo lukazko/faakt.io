@@ -1,1 +1,1 @@
-import"../chunks/CanRAdH1.js";import"../chunks/CkLG34Q8.js";import{l as e,$ as t}from"../chunks/Bq-ssn8n.js";import{h as a,F as i}from"../chunks/BELfbNos.js";function s(o){a("1sv6dbf",m=>{e(()=>{t.title="faakt.io — doomscrolling, ale lepší"})}),i(o,{})}export{s as component};
+import"../chunks/CanRAdH1.js";import"../chunks/CkLG34Q8.js";import{l as e,$ as t}from"../chunks/Bq-ssn8n.js";import{h as a,F as i}from"../chunks/BELfbNos.js";function s(o){a("1sv6dbf",m=>{e(()=>{t.title="Doomscrolling, ale lepší"})}),i(o,{})}export{s as component};
