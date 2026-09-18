@@ -59,7 +59,7 @@ interface Post {
 ```
 
 ## Kategorie
-`historie`, `filozofie`, `veda`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `zajimavost`
+`historie`, `filozofie`, `veda`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `zajimavost`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`, `ekonomie`, `psychologie`, `filmy`
 
 Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 
@@ -69,7 +69,9 @@ Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 3. **Žádné smyšlené citáty**, přibližné letopočty nebo „lidé říkají“
 4. Databáze **jen roste**, staré příspěvky se nikdy nemažou
 5. **Chronologická konzistence**: nikdy nemíchej období — starověcí nemohli používat středověké technologie a naopak
-6. **Generování nových dávek**: preferovat starověké myslitele (70+ %) — řecké, římské, čínské, indické — a vysvětlení konceptů ve stylu Deepstash (mentální modely, kognitivní zkreslení, vědecké principy)
+6. **Generování nových dávek**: ~30 % starověkých myslitelů (řečtí, římští, čínští, indičtí), zbytek napříč všemi kategoriemi. Vysvětlení konceptů (mentální modely, kognitivní zkreslení, vědecké principy).
+7. **Formát obsahu**: doporučená struktura HOOK → PROBLÉM → NAPĚTÍ → OBRAT → ROZBALENÍ → KONTRAST → POINTA → APLIKACE. Není povinná — historická fakta, vědecké objevy a zajímavosti se řídí vlastním tempem. Důležité: 1 myšlenka = 1 příspěvek, krátké odstavce, přirozená čeština. Otázku na závěr používej jen když dává smysl (paradox, dilema) — u faktických faktů ji nevnucuj.
+8. **Správná čeština**: důsledně dbej na gramatiku, skloňování, shodu přísudku s podmětem, interpunkci. Žádné hovorové nebo nespisovné výrazy. Text musí být čtivý a gramaticky bezchybný.
 
 ## Skripty
 ```bash
