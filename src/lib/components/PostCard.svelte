@@ -26,7 +26,7 @@
 				class="category-badge"
 				style="--cat-color: {cat.color}"
 				title={`Zobrazit jen kategorii ${cat.label}`}
-				onclick={() => onCategoryToggle?.(post.category)}
+				onclick={() => onCategoryToggle?.(post.category, post.id)}
 			>
 				{cat.label}
 			</button>

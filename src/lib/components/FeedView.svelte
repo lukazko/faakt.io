@@ -83,13 +83,14 @@
 
 	/**
 	 * Zapíše aktivní kategorii do URL (shallow routing — bez reloadu).
-	 * Zachová ostatní query parametry kromě `post`, který při přepnutí kategorií zrušíme.
+	 * `post` drží příspěvek, kterým feed začíná, aby refresh i odkaz vrátily stejný stav.
 	 */
-	function syncCategoryUrl(category) {
+	function syncCategoryUrl(category, targetId = null) {
 		const url = new URL(page.url);
 		if (category) url.searchParams.set('category', category);
 		else url.searchParams.delete('category');
-		url.searchParams.delete('post');
+		if (targetId) url.searchParams.set('post', targetId);
+		else url.searchParams.delete('post');
 		pushState(url, {});
 	}
 
@@ -109,17 +110,18 @@
 
 	function applyCategory(category, { syncUrl = true, targetId = null } = {}) {
 		applyFeed(category, targetId);
-		if (syncUrl) syncCategoryUrl(category);
+		if (syncUrl) syncCategoryUrl(category, targetId);
 		resetScroll();
 	}
 
 	/**
-	 * Klik na category label: aktivní kategorii zruší, jinak na ni přepne.
+	 * Klik na category label: přepne na category feed, který začíná příspěvkem,
+	 * na kterém uživatel kliknul.
 	 */
-	function handleCategoryToggle(slug) {
+	function handleCategoryToggle(slug, postId = null) {
 		const next = normalizeCategory(slug);
-		if (!next) return;
-		applyCategory(activeCategory === next ? null : next);
+		if (!next || activeCategory === next) return;
+		applyCategory(next, { targetId: postId });
 	}
 
 	/**
