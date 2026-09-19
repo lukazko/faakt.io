@@ -462,6 +462,7 @@
 		position: relative;
 		display: inline-flex;
 		align-items: center;
+		align-self: center;
 		gap: 6px;
 		max-width: 55vw;
 		padding: 4px 10px 4px 12px;
