@@ -261,9 +261,17 @@
 		<header class="app-header">
 			<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
 			{#if activeCategoryMeta}
-				<span class="app-tagline cat" style="--cat-color: {activeCategoryMeta.color}">
-					{activeCategoryMeta.label}
-				</span>
+				<button
+					type="button"
+					class="header-category"
+					style="--cat-color: {activeCategoryMeta.color}"
+					title="Zrušit filtr kategorie"
+					aria-label={`Zrušit filtr kategorie ${activeCategoryMeta.label}`}
+					onclick={() => applyCategory(null)}
+				>
+					<span class="header-category-label">{activeCategoryMeta.label}</span>
+					<span class="header-category-close" aria-hidden="true">×</span>
+				</button>
 			{:else}
 				<span class="app-tagline">doomscrolling, ale lepší</span>
 			{/if}
@@ -272,7 +280,11 @@
 		<div class="feed-stack">
 			{#each posts.slice(0, visibleCount) as post, i (post.id)}
 				<div class="card-wrapper">
-					<PostCard {post} {activeCategory} onCategoryToggle={handleCategoryToggle} />
+					<PostCard
+						{post}
+						categoryFilterActive={!!activeCategory}
+						onCategoryToggle={handleCategoryToggle}
+					/>
 
 					<!-- Action button -->
 					<button
@@ -417,6 +429,7 @@
 		font-weight: 900;
 		letter-spacing: -0.02em;
 		position: relative;
+		flex: none;
 		cursor: pointer;
 		pointer-events: auto;
 		text-decoration: none;
@@ -443,14 +456,52 @@
 		letter-spacing: 0.03em;
 	}
 
-	/* Subtilní indikace aktivní kategorie v hlavičce */
-	.app-tagline.cat {
-		font-style: normal;
-		text-transform: uppercase;
-		letter-spacing: 0.08em;
-		font-weight: 600;
+	/* Aktivní kategorie v hlavičce — zároveň jediné místo pro zrušení filtru */
+	.header-category {
+		pointer-events: auto;
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
+		max-width: 55vw;
+		padding: 4px 10px 4px 12px;
+		border: 1px solid var(--cat-color);
+		border-radius: 999px;
+		background: rgba(0, 0, 0, 0.3);
+		background: color-mix(in srgb, var(--cat-color) 14%, transparent);
 		color: var(--cat-color);
+		font-family: inherit;
+		font-size: 0.65rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		transition: background 0.15s, transform 0.1s;
+	}
+
+	.header-category:active {
+		transform: scale(0.95);
+	}
+
+	.header-category-label {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.header-category-close {
+		flex: none;
+		font-size: 0.9rem;
+		line-height: 1;
 		opacity: 0.85;
+	}
+
+	/* Větší dotyková plocha na mobilu — vzhled zůstává stejný */
+	.header-category::after {
+		content: '';
+		position: absolute;
+		inset: -8px -4px;
 	}
 
 	.feed-stack {

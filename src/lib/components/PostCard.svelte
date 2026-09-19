@@ -10,28 +10,27 @@
 	 */
 	import { getCategoryMeta } from '$lib/categories.js';
 
-	let { post, activeCategory = null, onCategoryToggle = null } = $props();
+	let { post, categoryFilterActive = false, onCategoryToggle = null } = $props();
 	let expanded = $state(false);
 
 	let cat = $derived(getCategoryMeta(post.category));
 	let hasSources = $derived(post.sources && post.sources.length > 0);
-	let isActive = $derived(activeCategory === post.category);
 </script>
 
 <article class="post-card">
 	<div class="card-content">
-		<button
-			type="button"
-			class="category-badge"
-			class:active={isActive}
-			style="--cat-color: {cat.color}"
-			aria-pressed={isActive}
-			title={isActive ? 'Zrušit filtr kategorie' : `Zobrazit jen kategorii ${cat.label}`}
-			onclick={() => onCategoryToggle?.(post.category)}
-		>
-			{cat.label}
-			{#if isActive}<span class="badge-close" aria-hidden="true">×</span>{/if}
-		</button>
+		<!-- V category feedu se label nezobrazuje — kategorii drží hlavička -->
+		{#if !categoryFilterActive}
+			<button
+				type="button"
+				class="category-badge"
+				style="--cat-color: {cat.color}"
+				title={`Zobrazit jen kategorii ${cat.label}`}
+				onclick={() => onCategoryToggle?.(post.category)}
+			>
+				{cat.label}
+			</button>
+		{/if}
 		<h2 class="title">{post.title}</h2>
 		<div class="content">{@html post.content}</div>
 
@@ -112,19 +111,6 @@
 		content: '';
 		position: absolute;
 		inset: -10px;
-	}
-
-	.category-badge.active {
-		background: rgba(255, 255, 255, 0.08);
-		background: color-mix(in srgb, var(--cat-color) 18%, transparent);
-		box-shadow: 0 0 0 1px var(--cat-color), 0 0 12px -2px var(--cat-color);
-	}
-
-	.badge-close {
-		font-size: 0.85rem;
-		line-height: 1;
-		opacity: 0.8;
-		margin-right: -2px;
 	}
 
 	.title {
