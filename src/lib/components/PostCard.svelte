@@ -8,33 +8,30 @@
 	 *   sources: Array<{ label: string, url: string }>
 	 * }}
 	 */
-	let { post } = $props();
+	import { getCategoryMeta } from '$lib/categories.js';
+
+	let { post, activeCategory = null, onCategoryToggle = null } = $props();
 	let expanded = $state(false);
 
-	const categoryMeta = {
-		'historie':    { label: 'Historie',    color: 'var(--cat-historie)' },
-		'filozofie':   { label: 'Filozofie',   color: 'var(--cat-filozofie)' },
-		'veda':        { label: 'Věda',        color: 'var(--cat-veda)' },
-		'umeni':       { label: 'Umění',       color: 'var(--cat-umeni)' },
-		'literatura':  { label: 'Literatura',  color: 'var(--cat-literatura)' },
-		'politika':    { label: 'Politika',    color: 'var(--cat-politika)' },
-		'fyzika':      { label: 'Fyzika',      color: 'var(--cat-fyzika)' },
-		'astronomie':  { label: 'Astronomie',  color: 'var(--cat-astronomie)' },
-		'zajimavost':  { label: 'Zajímavost',  color: 'var(--cat-zajimavost)' },
-			'ekonomie':    { label: 'Ekonomie',    color: 'var(--cat-ekonomie)' },
-			'psychologie': { label: 'Psychologie', color: 'var(--cat-psychologie)' },
-			'filmy':       { label: 'Filmy',       color: 'var(--cat-filmy)' },
-			'matematika':  { label: 'Matematika',  color: 'var(--cat-matematika)' },
-			'pocitacove-vedy': { label: 'Počítačové vědy', color: 'var(--cat-pocitacove-vedy)' }
-	};
-
-	let cat = $derived(categoryMeta[post.category] || { label: post.category, color: 'var(--text-muted)' });
+	let cat = $derived(getCategoryMeta(post.category));
 	let hasSources = $derived(post.sources && post.sources.length > 0);
+	let isActive = $derived(activeCategory === post.category);
 </script>
 
 <article class="post-card">
 	<div class="card-content">
-		<span class="category-badge" style="--cat-color: {cat.color}">{cat.label}</span>
+		<button
+			type="button"
+			class="category-badge"
+			class:active={isActive}
+			style="--cat-color: {cat.color}"
+			aria-pressed={isActive}
+			title={isActive ? 'Zrušit filtr kategorie' : `Zobrazit jen kategorii ${cat.label}`}
+			onclick={() => onCategoryToggle?.(post.category)}
+		>
+			{cat.label}
+			{#if isActive}<span class="badge-close" aria-hidden="true">×</span>{/if}
+		</button>
 		<h2 class="title">{post.title}</h2>
 		<div class="content">{@html post.content}</div>
 
@@ -86,8 +83,11 @@
 	}
 
 	.category-badge {
-		display: inline-block;
+		display: inline-flex;
+		align-items: center;
+		gap: 6px;
 		font-size: 0.65rem;
+		font-family: inherit;
 		font-weight: 600;
 		letter-spacing: 0.08em;
 		text-transform: uppercase;
@@ -97,6 +97,25 @@
 		padding: 4px 12px;
 		width: fit-content;
 		background: rgba(0, 0, 0, 0.3);
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
+	}
+
+	.category-badge:active {
+		transform: scale(0.95);
+	}
+
+	.category-badge.active {
+		background: color-mix(in srgb, var(--cat-color) 18%, transparent);
+		box-shadow: 0 0 0 1px var(--cat-color), 0 0 12px -2px var(--cat-color);
+	}
+
+	.badge-close {
+		font-size: 0.85rem;
+		line-height: 1;
+		opacity: 0.8;
+		margin-right: -2px;
 	}
 
 	.title {

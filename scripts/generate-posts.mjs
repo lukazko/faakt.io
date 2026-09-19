@@ -12,6 +12,7 @@
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { CATEGORIES, normalizeCategory, getCategoryMeta } from '../src/lib/categories.js';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const DATA_DIR = path.resolve(__dirname, '..', 'static', 'data');
@@ -28,7 +29,16 @@ const countVal = countIndex !== -1 ? parseInt(process.argv[countIndex + 1], 10) 
 const countEq = process.argv.find(a => a.startsWith('--count='));
 const POSTS_TO_GENERATE = countVal || (countEq ? parseInt(countEq.split('=')[1], 10) : DEFAULT_COUNT);
 
-const CATEGORIES = ['historie', 'filozofie', 'veda', 'umeni', 'literatura', 'politika', 'fyzika', 'astronomie', 'zajimavost', 'ekonomie', 'psychologie', 'filmy', 'matematika', 'pocitacove-vedy'];
+// Parse CLI args: --category <slug> (volitelné) — generuje jen jednu kategorii
+const catIndex = process.argv.indexOf('--category');
+const catVal = catIndex !== -1 ? process.argv[catIndex + 1] : null;
+const catEq = process.argv.find(a => a.startsWith('--category='));
+const REQUESTED_CATEGORY = normalizeCategory(catVal || (catEq ? catEq.split('=')[1] : null));
+
+if ((catVal || catEq) && !REQUESTED_CATEGORY) {
+	console.error(`❌ Neznámá kategorie. Platné hodnoty: ${CATEGORIES.join(', ')}`);
+	process.exit(1);
+}
 
 const IS_OPENROUTER = API_KEY.startsWith('sk-or-');
 
@@ -37,11 +47,12 @@ function getPrompt(batchSize, existingPosts) {
 		? `\n\nToto jsou názvy existujících příspěvků (vyhni se podobným tématům):\n${existingPosts.slice(-30).map(p => `- "${p.title}"`).join('\n')}`
 		: '';
 
-	return `Generuj ${batchSize} krátkých, zajímavých textových příspěvků v češtině na formát JSON pole.
+	const topics = REQUESTED_CATEGORY
+		? `TÉMATA — POUZE JEDNA KATEGORIE: "${REQUESTED_CATEGORY}" (${getCategoryMeta(REQUESTED_CATEGORY).label})
 
-	Toto je APLIKACE PRO REÁLNÁ FAKTA — všechno musí být 100% PRAVDIVÉ a OVĚŘITELNÉ. ŽÁDNÉ výmysly, fabulace nebo přibližné informace. Každý příspěvek musí mít uvedené KONKRÉTNÍ ZDROJE.
-
-TÉMATA napříč všemi 14 kategoriemi:
+Všech ${batchSize} příspěvků musí mít "category": "${REQUESTED_CATEGORY}". Žádnou jinou kategorii nepoužívej.
+Témata čerpej výhradně z okruhu této kategorie, ale snaž se o rozmanitost — žádné dva příspěvky o stejné věci.`
+		: `TÉMATA napříč všemi 14 kategoriemi:
 
 - Starověcí myslitelé (~30 %): Řekové, Římané, Číňané, Indové — vysvětli jejich učení a proč je to dodnes relevantní. (Sokrates, Platón, Aristotelés, Hérakleitos, Démokritos, Epikúros, Pythagoras, stoici, Konfucius, Lao-c', Buddha, Archimédés ad.) Osobnost použij jen tehdy, když je pro hlavní myšlenku skutečně důležitá.
 - Historie: události, osobnosti, zajímavosti z historie
@@ -56,7 +67,13 @@ TÉMATA napříč všemi 14 kategoriemi:
 - Filmy: filmové zajímavosti, režiséři, filmová historie
 - Matematika: matematické koncepty, teorémy, zajímavé problémy, matematici
 - Počítačové vědy: informatika, algoritmy, programování, historie výpočetní techniky
-- Zajímavosti: cokoliv překvapivého, netušeného
+- Zajímavosti: cokoliv překvapivého, netušeného`;
+
+	return `Generuj ${batchSize} krátkých, zajímavých textových příspěvků v češtině na formát JSON pole.
+
+	Toto je APLIKACE PRO REÁLNÁ FAKTA — všechno musí být 100% PRAVDIVÉ a OVĚŘITELNÉ. ŽÁDNÉ výmysly, fabulace nebo přibližné informace. Každý příspěvek musí mít uvedené KONKRÉTNÍ ZDROJE.
+
+${topics}
 
 ---
 
@@ -98,7 +115,7 @@ Formát JSON:
   }
 ]
 
-KATEGORIE: jen jeden z: ${CATEGORIES.join(', ')}
+KATEGORIE: ${REQUESTED_CATEGORY ? `vždy "${REQUESTED_CATEGORY}"` : `jen jeden z: ${CATEGORIES.join(', ')}`}
 ZDROJE: vždy 2-3, reálná URL
 STAROVĚKÉ MYSLITELE: "kolem roku X př. n. l." — NIKDY přesně, pokud není doloženo
 ŽÁDNÉ smyšlené citáty${existing}`;
@@ -234,6 +251,7 @@ async function main() {
 	console.log(`🔧 faakt.io — generátor příspěvků`);
 	console.log(`   Cíl: ${POSTS_TO_GENERATE} příspěvků`);
 	console.log(`   Dávkování: ${BATCH_SIZE} / volání API`);
+	console.log(`   Režim: ${REQUESTED_CATEGORY ? `pouze kategorie "${REQUESTED_CATEGORY}"` : 'mixed (všechny kategorie)'}`);
 	console.log(`   API: ${IS_OPENROUTER ? 'OpenRouter' : 'Anthropic'} (${API_KEY.slice(0, 12)}...)`);
 	console.log('');
 
