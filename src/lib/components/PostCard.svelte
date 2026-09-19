@@ -97,6 +97,7 @@
 		padding: 4px 12px;
 		width: fit-content;
 		background: rgba(0, 0, 0, 0.3);
+		position: relative;
 		cursor: pointer;
 		-webkit-tap-highlight-color: transparent;
 		transition: background 0.15s, box-shadow 0.15s, transform 0.1s;
@@ -106,7 +107,15 @@
 		transform: scale(0.95);
 	}
 
+	/* Větší dotyková plocha na mobilu — vzhled zůstává stejný */
+	.category-badge::after {
+		content: '';
+		position: absolute;
+		inset: -10px;
+	}
+
 	.category-badge.active {
+		background: rgba(255, 255, 255, 0.08);
 		background: color-mix(in srgb, var(--cat-color) 18%, transparent);
 		box-shadow: 0 0 0 1px var(--cat-color), 0 0 12px -2px var(--cat-color);
 	}
