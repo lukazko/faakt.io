@@ -1,9 +1,14 @@
 <script>
 	import { tick } from 'svelte';
+	import { page } from '$app/state';
+	import { pushState } from '$app/navigation';
 	import PostCard from './PostCard.svelte';
+	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
 
 	const PAGE_SIZE = 20;
-	let posts = $state([]);
+	let allPosts = $state([]);      // celá databáze, neseřazená (zdroj pravdy)
+	let posts = $state([]);         // aktuální feed (mixed nebo category)
+	let activeCategory = $state(null);
 	let visibleCount = $state(PAGE_SIZE);
 	let activeMenu = $state(null); // post id, or null
 	let loading = $state(true);
@@ -11,6 +16,12 @@
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
+
+	// Nereaktivní zrcadlo activeCategory — kvůli porovnání v $effect bez smyčky
+	let appliedCategory = null;
+	let dataReady = $state(false);
+
+	let activeCategoryMeta = $derived(activeCategory ? getCategoryMeta(activeCategory) : null);
 
 	function shufflePosts(arr, targetId) {
 		const shuffled = [...arr];
@@ -38,6 +49,82 @@
 	}
 
 	/**
+	 * Vrátí slug kategorie z URL query parametru (?category=XXX)
+	 */
+	function getCategoryFromUrl() {
+		if (typeof window === 'undefined') return null;
+		const params = new URLSearchParams(window.location.search);
+		return normalizeCategory(params.get('category'));
+	}
+
+	/**
+	 * Sestaví feed pro danou kategorii z celé databáze (allPosts).
+	 * category = null → mixed feed (celá databáze).
+	 */
+	function buildFeed(category, targetId) {
+		const pool = category ? allPosts.filter(p => p.category === category) : allPosts;
+		return shufflePosts(pool, targetId);
+	}
+
+	/**
+	 * Reset pozice ve feedu na úplně první příspěvek (bez animace).
+	 */
+	function resetScroll() {
+		requestAnimationFrame(() => {
+			const container = document.querySelector('.feed-container');
+			if (!container) return;
+			container.style.scrollBehavior = 'auto';
+			container.style.scrollSnapType = 'none';
+			container.scrollTop = 0;
+			container.style.scrollBehavior = '';
+			container.style.scrollSnapType = '';
+		});
+	}
+
+	/**
+	 * Zapíše aktivní kategorii do URL (shallow routing — bez reloadu).
+	 * `post` drží příspěvek, kterým feed začíná, aby refresh i odkaz vrátily stejný stav.
+	 */
+	function syncCategoryUrl(category, targetId = null) {
+		const url = new URL(page.url);
+		if (category) url.searchParams.set('category', category);
+		else url.searchParams.delete('category');
+		if (targetId) url.searchParams.set('post', targetId);
+		else url.searchParams.delete('post');
+		pushState(url, {});
+	}
+
+	/**
+	 * Přepne feed na danou kategorii (nebo na mixed feed při null).
+	 * Sestaví nový feed z celé databáze, resetuje pozici i progress bar.
+	 */
+	function applyFeed(category, targetId) {
+		activeCategory = category;
+		appliedCategory = category;
+		posts = buildFeed(category, targetId);
+		totalPosts = posts.length;
+		visibleCount = PAGE_SIZE;
+		currentIndex = 0;
+		activeMenu = null;
+	}
+
+	function applyCategory(category, { syncUrl = true, targetId = null } = {}) {
+		applyFeed(category, targetId);
+		if (syncUrl) syncCategoryUrl(category, targetId);
+		resetScroll();
+	}
+
+	/**
+	 * Klik na category label: přepne na category feed, který začíná příspěvkem,
+	 * na kterém uživatel kliknul.
+	 */
+	function handleCategoryToggle(slug, postId = null) {
+		const next = normalizeCategory(slug);
+		if (!next || activeCategory === next) return;
+		applyCategory(next, { targetId: postId });
+	}
+
+	/**
 	 * Vrátí správné URL pro sdílení, nezávisle na BASE_URL
 	 * Pracuje stejně na localhost i GitHub Pages
 	 */
@@ -51,20 +138,18 @@
 			// Dynamicky načti posts.json relativně ke current location
 			const response = await fetch('data/posts.json');
 			if (!response.ok) throw new Error(`Nepodařilo se načíst příspěvky (${response.status})`);
-			const raw = await response.json();
-			const targetId = getPostIdFromUrl();
-			posts = shufflePosts(raw, targetId);
-			totalPosts = posts.length;
-			visibleCount = PAGE_SIZE;
-			requestAnimationFrame(() => {
-				const container = document.querySelector('.feed-container');
-				if (container) container.scrollTop = 0;
-			});
+			allPosts = await response.json();
+			dataReady = true;
+			// Respektuj ?category= i ?post= z URL (refresh i přímý odkaz).
+			// Feed sestavíme ještě před prvním vykreslením, ať neproblikne prázdný stav.
+			applyFeed(getCategoryFromUrl(), getPostIdFromUrl());
+			loading = false;
+			await tick();
+			resetScroll();
 		} catch (e) {
 			error = e.message;
-			console.error('❌ Chyba:', e);
-		} finally {
 			loading = false;
+			console.error('❌ Chyba:', e);
 		}
 	}
 
@@ -150,6 +235,16 @@
 	$effect(() => {
 		loadPosts();
 	});
+
+	// Sleduj URL — pokryje browser Back/Forward i ruční změnu query parametru.
+	// Vlastní přepnutí kategorie je synchronní, takže tady se nic nemění.
+	$effect(() => {
+		if (!dataReady) return;
+		const urlCategory = normalizeCategory(page.url.searchParams.get('category'));
+		if (urlCategory !== appliedCategory) {
+			applyCategory(urlCategory, { syncUrl: false });
+		}
+	});
 </script>
 
 {#if loading}
@@ -167,13 +262,31 @@
 		<!-- App header -->
 		<header class="app-header">
 			<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
-			<span class="app-tagline">doomscrolling, ale lepší</span>
+			{#if activeCategoryMeta}
+				<button
+					type="button"
+					class="header-category"
+					style="--cat-color: {activeCategoryMeta.color}"
+					title="Zrušit filtr kategorie"
+					aria-label={`Zrušit filtr kategorie ${activeCategoryMeta.label}`}
+					onclick={() => applyCategory(null)}
+				>
+					<span class="header-category-label">{activeCategoryMeta.label}</span>
+					<span class="header-category-close" aria-hidden="true">×</span>
+				</button>
+			{:else}
+				<span class="app-tagline">doomscrolling, ale lepší</span>
+			{/if}
 		</header>
 
 		<div class="feed-stack">
 			{#each posts.slice(0, visibleCount) as post, i (post.id)}
 				<div class="card-wrapper">
-					<PostCard {post} />
+					<PostCard
+						{post}
+						categoryFilterActive={!!activeCategory}
+						onCategoryToggle={handleCategoryToggle}
+					/>
 
 					<!-- Action button -->
 					<button
@@ -214,6 +327,22 @@
 					<button class="load-more-btn" onclick={loadMore}>
 						<span class="load-more-icon">+</span>
 						Nee, dej mi víc!
+					</button>
+				</div>
+			{:else if totalPosts === 0}
+				<div class="end-card">
+					<p class="end-card-text">
+						V této kategorii zatím žádné příspěvky nejsou.
+					</p>
+					<button class="load-more-btn" onclick={() => applyCategory(null)}>
+						Zpět na všechny kategorie
+					</button>
+				</div>
+			{:else if activeCategory}
+				<div class="end-card">
+					<p class="end-card-text">To je vše z této kategorie.</p>
+					<button class="load-more-btn" onclick={() => applyCategory(null)}>
+						Zpět na všechny kategorie
 					</button>
 				</div>
 			{/if}
@@ -302,6 +431,7 @@
 		font-weight: 900;
 		letter-spacing: -0.02em;
 		position: relative;
+		flex: none;
 		cursor: pointer;
 		pointer-events: auto;
 		text-decoration: none;
@@ -326,6 +456,55 @@
 		color: #555;
 		font-weight: 400;
 		letter-spacing: 0.03em;
+	}
+
+	/* Aktivní kategorie v hlavičce — zároveň jediné místo pro zrušení filtru */
+	.header-category {
+		pointer-events: auto;
+		position: relative;
+		display: inline-flex;
+		align-items: center;
+		align-self: center;
+		gap: 6px;
+		max-width: 55vw;
+		padding: 4px 10px 4px 12px;
+		border: 1px solid var(--cat-color);
+		border-radius: 999px;
+		background: rgba(0, 0, 0, 0.3);
+		background: color-mix(in srgb, var(--cat-color) 14%, transparent);
+		color: var(--cat-color);
+		font-family: inherit;
+		font-size: 0.65rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		transition: background 0.15s, transform 0.1s;
+	}
+
+	.header-category:active {
+		transform: scale(0.95);
+	}
+
+	.header-category-label {
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+
+	.header-category-close {
+		flex: none;
+		font-size: 0.9rem;
+		line-height: 1;
+		opacity: 0.85;
+	}
+
+	/* Větší dotyková plocha na mobilu — vzhled zůstává stejný */
+	.header-category::after {
+		content: '';
+		position: absolute;
+		inset: -8px -4px;
 	}
 
 	.feed-stack {
