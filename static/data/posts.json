@@ -8190,5 +8190,869 @@
 				"url": "https://iep.utm.edu/poststru/"
 			}
 		]
+	},
+	{
+		"id": "613",
+		"title": "Proč hurikány na severní polokouli vždy vírí proti směru hodinových ručiček",
+		"content": "<p>Rotace Země způsobuje, že pohybující se vzduch nebo voda nesledují přímou dráhu, ale zdánlivě se stáčejí stranou. Tomuto jevu se říká <strong>Coriolisova síla</strong>, popsaná francouzským inženýrem Gaspardem-Gustavem de Coriolis ve 30. letech 19. století.</p><p>Na severní polokouli se pohybující vzduch stáčí doprava, na jižní polokouli doleva. Proto hurikány na severní polokouli vždy rotují proti směru hodinových ručiček, zatímco na jižní polokouli po směru.</p><p>Síla je citelná jen u jevů velkého rozsahu a trvání, jako jsou tlakové systémy v atmosféře nebo mořské proudy. Na malé vzdálenosti, jako je odtok vody z umyvadla, je vliv Coriolisovy síly zcela zanedbatelný ve srovnání s tvarem nádoby a počátečním pohybem vody.</p><p><em>Rozšířená představa, že se voda ve výlevce stáčí jinak na severní a jižní polokouli, proto v praxi neplatí.</em></p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "NOAA – Coriolis effect",
+				"url": "https://www.noaa.gov/jetstream/ocean/coriolis-effect"
+			},
+			{
+				"label": "Britannica – Coriolis force",
+				"url": "https://www.britannica.com/science/Coriolis-force"
+			}
+		]
+	},
+	{
+		"id": "614",
+		"title": "Padající těleso nezrychluje donekonečna, protože ho brzdí vzduch",
+		"content": "<p>Ve vakuu by těleso padalo stále rychleji, bez ohledu na svou hmotnost nebo tvar, protože by na něj působila jen gravitace.</p><p>V atmosféře ale s rostoucí rychlostí roste i odpor vzduchu, dokud se nevyrovná síle gravitace. V tu chvíli se zrychlování zastaví a těleso dál padá konstantní rychlostí, nazývanou <strong>mezní rychlost</strong>.</p><p>Tato rychlost závisí na tvaru a hmotnosti tělesa. Padák dosahuje mezní rychlosti mnohem nižší než padající kámen, protože jeho velký povrch klade vzduchu mnohem větší odpor.</p><p>Volný pád člověka bez padáku se ustálí na rychlosti kolem 200 kilometrů v hodině, zatímco ve speciální poloze s nataženýma rukama a nohama lze rychlost dále snížit rozšířením plochy vystavené vzduchu.</p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "NASA – Terminal velocity",
+				"url": "https://www.grc.nasa.gov/www/k-12/airplane/termv.html"
+			},
+			{
+				"label": "Britannica – Terminal velocity",
+				"url": "https://www.britannica.com/science/terminal-velocity"
+			}
+		]
+	},
+	{
+		"id": "615",
+		"title": "Most se zřítil, protože vítr trefil přesně jeho vlastní kmitočet",
+		"content": "<p>Každý pružný objekt má svou <strong>vlastní frekvenci</strong>, na které kmitá nejsnáz. Pokud na něj působí opakovaná síla se stejnou frekvencí, kmity se s každým impulzem sčítají a jejich amplituda prudce roste, i když je každý jednotlivý impulz slabý.</p><p>Tomuto jevu se říká <strong>rezonance</strong>, a přesně on stál za zřícením mostu Tacoma Narrows ve státě Washington v roce 1940.</p><p>Vítr vanoucí přes most vyvolal vírové proudění, jehož frekvence se přiblížila vlastní kmitové frekvenci mostní konstrukce. Most se začal kroutit ve stále větších vlnách, až se po několika hodinách zřítil.</p><p><strong>Případ, zaznamenaný na dobovém filmu, se od té doby vyučuje jako klasická ukázka nebezpečí rezonance a ovlivnil pozdější aerodynamický návrh mostních konstrukcí.</strong></p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Britannica – Tacoma Narrows Bridge",
+				"url": "https://www.britannica.com/topic/Tacoma-Narrows-Bridge"
+			},
+			{
+				"label": "NIST – Resonance and structural failure",
+				"url": "https://www.nist.gov/topics/physics"
+			}
+		]
+	},
+	{
+		"id": "616",
+		"title": "Krasobruslař se roztočí rychleji jen tím, že přitáhne paže k tělu",
+		"content": "<p>Krasobruslař na začátku piruety rozpřáhne paže a roztočí se pomalu. Jakmile paže přitáhne k tělu, rotace se výrazně zrychlí, aniž by musel vynaložit další sílu.</p><p>Vysvětlením je <strong>zákon zachování momentu hybnosti</strong>. Moment hybnosti závisí na rozložení hmoty vůči ose otáčení a na úhlové rychlosti. Pokud se hmota přesune blíž k ose, jako když se paže přitáhnou k tělu, musí se úhlová rychlost zvýšit, aby zůstal moment hybnosti zachován.</p><p>Stejný princip funguje i obráceně: rozpažením se rotace zpomalí, čehož krasobruslaři využívají k plynulému vyjetí z piruety.</p><p><em>Tentýž zákon platí i v astronomii, kde vysvětluje, proč se hroutící se mračno plynu při formování hvězdy začne díky zmenšujícímu se poloměru točit stále rychleji.</em></p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Britannica – Conservation of angular momentum",
+				"url": "https://www.britannica.com/science/angular-momentum"
+			},
+			{
+				"label": "NASA – Angular momentum in the universe",
+				"url": "https://science.nasa.gov/universe/"
+			}
+		]
+	},
+	{
+		"id": "617",
+		"title": "Zrcadlo neotáčí stranu, kterou zdánlivě prohazuje pravou za levou",
+		"content": "<p>Postavíte se před zrcadlo a váš odraz zdvihne pravou ruku, zatímco vy jste zvedli levou. Zrcadlo přitom nijak nepřevrací nahoru a dolů, jen levou a pravou. Otázka, proč tomu tak je, patří k oblíbeným fyzikálním hádankám.</p><p>Skutečnost je, že zrcadlo neobrací ani levou a pravou stranu. Otáčí pouze směr dopředu a dozadu, tedy osu kolmou na svou plochu.</p><p>Dojem prohození stran vzniká tím, jak si sami definujeme svou levou a pravou ruku vzhledem k tomu, kam se otáčíme. Pokud byste se otočili čelem k zrcadlu tak, že byste se doopravdy postavili na místo svého odrazu, otočili byste se právě podél té osy, kterou zrcadlo obrátilo.</p><p><strong>Zdánlivé prohození stran je tedy důsledek naší vlastní představy otočení, ne vlastnosti samotného zrcadla.</strong></p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Britannica – Why do mirrors reverse left and right but not up and down?",
+				"url": "https://www.britannica.com/story/why-do-mirrors-reverse-left-and-right-but-not-up-and-down"
+			},
+			{
+				"label": "MIT Physics – Mirror reversal explained",
+				"url": "https://physics.mit.edu/"
+			}
+		]
+	},
+	{
+		"id": "618",
+		"title": "Rozdrcení tvrdého bonbonu ve tmě vyvolá krátký záblesk světla",
+		"content": "<p>Rozkousáte-li ve tmě tvrdý bonbon s příchutí zimolezu, na okamžik uvidíte slabé namodralé zablesknutí přímo v ústech.</p><p>Jev, nazývaný <strong>triboluminiscence</strong>, vzniká při rozlomení nebo rozdrcení určitých krystalických látek. Mechanické narušení krystalové mřížky uvolní elektrický náboj, který následně vybije v podobě krátkého záblesku, podobně jako menší verze blesku.</p><p>U zmíněného bonbonu tento efekt navíc zesiluje přítomná aromatická látka, která umí ultrafialovou složku záblesku přeměnit na viditelné modré světlo, jež je pak snadněji postřehnutelné.</p><p>Podobný, byť slabší jev lze pozorovat i při louskání některých druhů cukru nebo při odlepování lepicí pásky, což ukazuje, že mechanické narušení materiálu a elektřina spolu úzce souvisí.</p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "American Chemical Society – Triboluminescence explained",
+				"url": "https://www.acs.org/education/whatischemistry.html"
+			},
+			{
+				"label": "Britannica – Triboluminescence",
+				"url": "https://www.britannica.com/science/triboluminescence"
+			}
+		]
+	},
+	{
+		"id": "619",
+		"title": "Teoreticky předpovězená částice s jediným magnetickým pólem nebyla nikdy potvrzena",
+		"content": "<p>Rozlomíte-li tyčový magnet napůl, nezískáte samostatný severní a samostatný jižní pól. Místo toho vzniknou dva menší magnety, z nichž každý má opět oba póly.</p><p>Fyzik Paul Dirac v roce 1931 teoreticky ukázal, že by existence částice s jediným magnetickým pólem, takzvaného <strong>magnetického monopólu</strong>, dokonce elegantně vysvětlila, proč je elektrický náboj kvantovaný, tedy proč se vyskytuje jen v celočíselných násobcích základní jednotky.</p><p>Přes desítky let intenzivního hledání v laboratořích i v kosmickém záření nebyl žádný skutečný magnetický monopól nikdy prokazatelně zachycen.</p><p><strong>Zůstává tak jedním z mála teoreticky přitažlivých, ale experimentálně nepotvrzených konceptů moderní fyziky.</strong></p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "CERN – The search for magnetic monopoles",
+				"url": "https://home.cern/science/physics"
+			},
+			{
+				"label": "Britannica – Magnetic monopole",
+				"url": "https://www.britannica.com/science/magnetic-monopole"
+			}
+		]
+	},
+	{
+		"id": "620",
+		"title": "Hlasitý třesk za nadzvukovým letadlem je jen viditelný okraj neustálé vlny",
+		"content": "<p>Když letadlo letí rychleji, než se šíří zvuk, nedokáže zvukové vlny před sebou předběhnout. Ty se hromadí do úzké kuželovité rázové vlny táhnoucí se za letadlem.</p><p>Pozorovatel na zemi tuto rázovou vlnu nezaznamená jako postupné houstnutí zvuku, ale jako jediný náhlý a hlasitý třesk v okamžiku, kdy vlna prochází jeho polohou. Nejde přitom o jednorázovou událost vázanou jen na okamžik překonání rychlosti zvuku, letadlo generuje tuto vlnu po celou dobu nadzvukového letu.</p><p>Rychlost zvuku navíc není konstantní všude stejně, závisí na teplotě a hustotě vzduchu, a proto se v různých výškách mírně liší.</p><p><em>Právě hlučnost tohoto jevu nad obydlenými oblastmi byla jedním z hlavních důvodů, proč byl komerční nadzvukový let Concordu omezen jen na trasy nad oceánem.</em></p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "NASA – Sonic booms",
+				"url": "https://www.nasa.gov/aeronautics/sonic-booms/"
+			},
+			{
+				"label": "Britannica – Sonic boom",
+				"url": "https://www.britannica.com/science/sonic-boom"
+			}
+		]
+	},
+	{
+		"id": "621",
+		"title": "Stlačení určitých krystalů vyrobí elektřinu bez jakékoli baterie",
+		"content": "<p>Bratři Pierre a Jacques Curieovi objevili v roce 1880, že některé krystaly, například křemen, vytvářejí při mechanickém stlačení na svém povrchu elektrický náboj.</p><p>Tento <strong>piezoelektrický jev</strong> funguje i obráceně: přivedením elektrického napětí na takový krystal se jeho tvar nepatrně, ale velmi přesně a opakovatelně změní.</p><p>Právě této obrácené vlastnosti využívají křemenné hodinky. Elektřina z baterie rozkmitá křemenný krystal na mimořádně stabilní frekvenci, která pak řídí přesnost chodu hodin.</p><p>Piezoelektrický jev se dále využívá v zapalovačích, kde stisknutí tlačítka vytvoří jiskru, v mikrofonech, ultrazvukových sondách i v tiskových hlavách některých tiskáren.</p><p><strong>Objev pocházející z pozorování krystalů tak dnes pohání řadu běžných domácích zařízení.</strong></p>",
+		"category": "fyzika",
+		"sources": [
+			{
+				"label": "Britannica – Piezoelectricity",
+				"url": "https://www.britannica.com/science/piezoelectricity"
+			},
+			{
+				"label": "NIST – Piezoelectric materials",
+				"url": "https://www.nist.gov/programs-projects"
+			}
+		]
+	},
+	{
+		"id": "622",
+		"title": "Muž se jednoho rána probudí proměněný v obrovský hmyz a nikdo se neptá proč",
+		"content": "<p>Novela z roku 1915 začíná větou, ve které se obchodní cestující Řehoř Samsa probudí a zjistí, že se přes noc proměnil v obří hmyz. Text nikdy nevysvětluje, jak nebo proč se to stalo, a soustředí se místo toho na to, co následuje.</p><p>Rodina, závislá na Řehořově výdělku, reaguje zprvu se znepokojením, postupně ale s odporem a lhostejností, jak se jejich syn a bratr stává pro domácnost jen přítěží.</p><p>Kafka tímto groteskním obrazem ukazuje, jak snadno se lidská hodnota v očích blízkých redukuje na ekonomickou užitečnost.</p><p><strong>Text patří k nejrozšířenějším ukázkám takzvané kafkovské absurdity, spojující fantastickou událost s naprosto věcným, nedramatickým tónem vyprávění.</strong></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – The Metamorphosis",
+				"url": "https://www.britannica.com/topic/The-Metamorphosis"
+			},
+			{
+				"label": "Britannica – Franz Kafka",
+				"url": "https://www.britannica.com/biography/Franz-Kafka"
+			}
+		]
+	},
+	{
+		"id": "623",
+		"title": "Zvířata na farmě svrhnou člověka, aby si za pár let zvolila jinou tyranii",
+		"content": "<p>V alegorické novele z roku 1945 vyženou zvířata na farmě svého lidského majitele a pokusí se vybudovat společnost založenou na rovnosti všech zvířat.</p><p>Postupně ale prasata, jako nejchytřejší zvířata, přebírají vedení a začínají si přivlastňovat výhody, které kdysi kritizovala u lidí. Původní zásada, že všechna zvířata jsou si rovna, se v průběhu příběhu tiše přepisuje dodatkem, že některá zvířata jsou si rovnější než jiná.</p><p>Text je čitelnou alegorií na vývoj Sovětského svazu od revoluce po stalinismus, s jednotlivými postavami odpovídajícími konkrétním historickým osobnostem a událostem.</p><p><em>Díky jednoduchému, pohádkovému stylu zůstává příběh srozumitelný i bez znalosti historického kontextu, na který přímo naráží.</em></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – Animal Farm",
+				"url": "https://www.britannica.com/topic/Animal-Farm"
+			},
+			{
+				"label": "The Orwell Foundation – Animal Farm",
+				"url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/animal-farm/"
+			}
+		]
+	},
+	{
+		"id": "624",
+		"title": "Krátká pohádka pro děti obsahuje úvahy o dospělosti, které pochopí spíš dospělí",
+		"content": "<p>Francouzský spisovatel a letec Antoine de Saint-Exupéry vydal v roce 1943 krátký příběh o malém princi, který cestuje z planety na planetu a setkává se s dospělými posedlými mocí, obchodem nebo prestiží, aniž by chápali, co je v životě skutečně důležité.</p><p>Text je psán jednoduchým jazykem a doprovázen autorovými vlastními ilustracemi, což z něj dělá knihu na první pohled určenou dětem.</p><p>Přesto obsahuje úvahy o samotě, přátelství a odpovědnosti, které řada čtenářů plně ocení až v dospělosti, zejména slavnou myšlenku, že to nejdůležitější je očím neviditelné a je třeba to hledat srdcem.</p><p><strong>Kniha patří mezi nejpřekládanější díla světové literatury vůbec, s překlady do stovek jazyků a dialektů.</strong></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – The Little Prince",
+				"url": "https://www.britannica.com/topic/The-Little-Prince"
+			},
+			{
+				"label": "Britannica – Antoine de Saint-Exupéry",
+				"url": "https://www.britannica.com/biography/Antoine-de-Saint-Exupery"
+			}
+		]
+	},
+	{
+		"id": "625",
+		"title": "Pád do králičí nory vede do světa, kde logika funguje jinak, ale přesně",
+		"content": "<p>Anglický matematik a spisovatel Charles Lutwidge Dodgson, píšící pod pseudonymem Lewis Carroll, vydal v roce 1865 příběh o dívce, která spadne do králičí nory a ocitne se v podivné zemi plné mluvících zvířat a nesmyslných rozhovorů.</p><p>Zdánlivý nesmysl textu často není náhodný. Autor jako profesionální logik do dialogů postav vkládal skryté hříčky se slovní logikou, dvojznačnostmi a paradoxy, které fungují jako důsledné, byť neobvyklé uvažování podle jiných pravidel.</p><p>Postava Šílené čaje o klobouku nebo hádanka bez odpovědi, kterou položí Kloboučník, ilustrují, jak formálně správná logika může vést k naprosto absurdním závěrům, pokud vychází z podivných výchozích předpokladů.</p><p><em>Kniha se tak čte jako pohádka pro děti i jako hravé cvičení z logiky pro dospělé.</em></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – Alice's Adventures in Wonderland",
+				"url": "https://www.britannica.com/topic/Alices-Adventures-in-Wonderland"
+			},
+			{
+				"label": "Britannica – Lewis Carroll",
+				"url": "https://www.britannica.com/biography/Lewis-Carroll"
+			}
+		]
+	},
+	{
+		"id": "626",
+		"title": "Divadelní hra, ve které se po celou dobu čeká na někoho, kdo nikdy nepřijde",
+		"content": "<p>Hra irského dramatika Samuela Becketta z roku 1953 sleduje dva tuláky, kteří na opuštěné cestě u jediného stromu čekají na muže jménem Godot. Ten po celou hru, rozdělenou do dvou dějství, nikdy nedorazí.</p><p>Postavy si krátí čas nesmyslnými rozhovory, drobnými hádkami a opakujícími se rituály, aniž by se děj kamkoli posunul.</p><p>Právě tato absence tradičního dramatického vývoje z hry udělala jedno z klíčových děl takzvaného <strong>divadla absurdna</strong>, směru, který zobrazoval pocit bezvýchodnosti a nesmyslnosti lidské existence bez odvolání na jasný příběh nebo vyřešení.</p><p><strong>Slavný komentář, že jde o hru, ve které se dvakrát nic neděje, se stal běžným shrnutím jejího neobvyklého, na děj chudého tvaru.</strong></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – Waiting for Godot",
+				"url": "https://www.britannica.com/topic/Waiting-for-Godot"
+			},
+			{
+				"label": "Nobel Prize – Samuel Beckett",
+				"url": "https://www.nobelprize.org/prizes/literature/1969/beckett/facts/"
+			}
+		]
+	},
+	{
+		"id": "627",
+		"title": "Zelené světlo na konci mola symbolizuje touhu, která se nikdy nenaplní",
+		"content": "<p>V románu <em>Velký Gatsby</em> z roku 1925 hledí hlavní hrdina přes záliv na zelené světlo na konci mola u domu ženy, kterou kdysi miloval a stále doufá, že si ji získá zpět.</p><p>Světlo funguje jako symbol nedosažitelného cíle a touhy po minulosti, kterou nelze vrátit, přestože se o to hrdina snaží s obrovským, téměř posedlým úsilím a bohatstvím nabytým právě za tímto účelem.</p><p>Autor F. Scott Fitzgerald skrze tento příběh kriticky zobrazuje takzvaný americký sen jako zvenčí lákavý, ale zevnitř prázdný ideál, který nedokáže naplnit skutečnou touhu po smyslu a spojení s druhými.</p><p><em>Kniha při prvním vydání komerčně příliš neuspěla a jejího uznání coby klasického díla americké literatury se dočkala až o desítky let později.</em></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – The Great Gatsby",
+				"url": "https://www.britannica.com/topic/The-Great-Gatsby"
+			},
+			{
+				"label": "Britannica – F. Scott Fitzgerald",
+				"url": "https://www.britannica.com/biography/F-Scott-Fitzgerald"
+			}
+		]
+	},
+	{
+		"id": "628",
+		"title": "Ve světě, kde je čtení zakázané, hasiči zapalují knihy místo hašení požárů",
+		"content": "<p>Román <em>451 stupňů Fahrenheita</em> z roku 1953 zobrazuje společnost, ve které je vlastnictví a čtení knih zakázáno a úkolem hasičů je nalezené knihy spalovat, nikoli hasit ohně.</p><p>Název odkazuje na teplotu, při které se údajně vznítí papír, a symbolizuje samotné potlačování myšlenek plamenem.</p><p>Hlavní hrdina, sám hasič, postupně začíná pochybovat o smyslu své práce poté, co se setká s lidmi, kteří si navzdory zákazu knihy tajně pamatují zpaměti, aby jejich obsah nezanikl.</p><p>Autor Ray Bradbury později uváděl, že kniha není primárně o cenzuře ze strany státu, ale spíš o tom, jak si společnost sama, kvůli přílišnému zaujetí povrchní zábavou, dobrovolně odvykne hlubšímu čtení a přemýšlení.</p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – Fahrenheit 451",
+				"url": "https://www.britannica.com/topic/Fahrenheit-451-novel"
+			},
+			{
+				"label": "Britannica – Ray Bradbury",
+				"url": "https://www.britannica.com/biography/Ray-Bradbury"
+			}
+		]
+	},
+	{
+		"id": "629",
+		"title": "Skupina poutníků slíbí vyprávět příběhy, aby jim cesta rychleji uběhla",
+		"content": "<p>Anglický básník Geoffrey Chaucer psal na konci 14. století sbírku veršovaných příběhů, které vypráví skupina poutníků cestujících společně ke svatyni v Canterbury.</p><p>Aby si cestu zpříjemnili, dohodnou se, že si každý z nich bude vyprávět příběhy, a ten, jehož vyprávění bude nejlepší, dostane po návratu zaplacenou večeři od ostatních.</p><p>Tento rámec umožnil autorovi spojit do jednoho díla velmi rozmanité žánry a hlasy, od zbožných legend přes rytířské romance až po hrubě komické historky, podle toho, jaká postava zrovna vypráví.</p><p><strong>Dílo, psané ve středoanglickém jazyce, patří k prvním významným literárním textům psaným lidovým jazykem, nikoli latinsky, a výrazně přispělo k ustálení podoby dnešní angličtiny.</strong></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – The Canterbury Tales",
+				"url": "https://www.britannica.com/topic/The-Canterbury-Tales"
+			},
+			{
+				"label": "British Library – Geoffrey Chaucer",
+				"url": "https://www.bl.uk/medieval-literature/articles/geoffrey-chaucer-and-the-canterbury-tales"
+			}
+		]
+	},
+	{
+		"id": "630",
+		"title": "Slovo pro umělé pracovní síly pochází z divadelní hry napsané v Praze",
+		"content": "<p>Český spisovatel Karel Čapek uvedl v roce 1920 divadelní hru o továrně, která vyrábí umělé bytosti určené k vykonávání veškeré práce místo lidí.</p><p>Pro tyto bytosti potřeboval nové slovo. Podle pozdějšího svědectví autorova bratra, malíře Josefa Čapka, navrhl ono slovo právě on, odvozené od staročeského výrazu pro nucenou, robotní práci.</p><p>Hra se odehrává na pozadí vzpoury těchto bytostí proti svým tvůrcům a předjímá pozdější, dnes běžná témata science fiction o umělé inteligenci, která se obrátí proti lidem.</p><p><strong>Slovo <em>robot</em> se z divadelní hry rychle rozšířilo do většiny světových jazyků a stalo se běžným označením pro stroje vykonávající automatizovanou práci.</strong></p>",
+		"category": "literatura",
+		"sources": [
+			{
+				"label": "Britannica – R.U.R.",
+				"url": "https://www.britannica.com/topic/R-U-R"
+			},
+			{
+				"label": "Britannica – Karel Čapek",
+				"url": "https://www.britannica.com/biography/Karel-Capek"
+			}
+		]
+	},
+	{
+		"id": "631",
+		"title": "V molekule dědičnosti se dvě písmena vždy párují jen navzájem",
+		"content": "<p>Ještě před objevem struktury DNA analyzoval biochemik Erwin Chargaff na konci 40. let 20. století zastoupení jednotlivých dusíkatých bází v genetickém materiálu různých organismů.</p><p>Zjistil pravidelnost, která se dnes nazývá <strong>Chargaffova pravidla</strong>: množství báze adenin v molekule vždy odpovídá množství báze thymin, a podobně množství guaninu odpovídá množství cytosinu, bez ohledu na to, o jaký druh organismu jde.</p><p>V době zveřejnění nikdo přesně nevěděl, proč tato rovnost platí. Vysvětlení přišlo až v roce 1953, kdy James Watson a Francis Crick popsali strukturu dvoušroubovice DNA, ve které se báze párují přesně v těchto dvojicích napříč oběma vlákny.</p><p><em>Chargaffovo pozorování se tak zpětně ukázalo jako klíčový, byť tehdy nevysvětlený vodítko ke správné struktuře molekuly.</em></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Britannica – Chargaff's rules",
+				"url": "https://www.britannica.com/science/Chargaffs-rules"
+			},
+			{
+				"label": "Nature Education – DNA structure",
+				"url": "https://www.nature.com/scitable/topicpage/discovery-of-dna-structure-and-function-watson-397/"
+			}
+		]
+	},
+	{
+		"id": "632",
+		"title": "Enzym z horkého pramene umožnil kopírovat DNA v laboratoři",
+		"content": "<p>Metoda pro rychlé kopírování krátkých úseků DNA vyžaduje opakované zahřívání vzorku na vysokou teplotu, při které se obvykle bílkoviny nevratně poškodí.</p><p>Řešení nabídla bakterie <em>Thermus aquaticus</em>, objevená v horkých pramenech Yellowstonského národního parku, jejíž enzym kopírující DNA je uzpůsobený k přežití při extrémně vysokých teplotách.</p><p>Chemik Kary Mullis využil tento teplotně odolný enzym, nazvaný <strong>Taq polymeráza</strong>, při vývoji metody zvané polymerázová řetězová reakce, která umožňuje z nepatrného vzorku DNA vyrobit miliony kopií během několika hodin.</p><p>Za tuto metodu, dnes základní nástroj genetiky, forenzní analýzy i testování na infekční nemoci, získal Mullis v roce 1993 Nobelovu cenu za chemii.</p><p><em>Bez organismu přizpůsobeného extrémnímu prostředí by metoda nebyla možná.</em></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Nobel Prize – Kary B. Mullis",
+				"url": "https://www.nobelprize.org/prizes/chemistry/1993/mullis/facts/"
+			},
+			{
+				"label": "National Park Service – Thermus aquaticus",
+				"url": "https://www.nps.gov/yell/learn/nature/thermus-aquaticus.htm"
+			}
+		]
+	},
+	{
+		"id": "633",
+		"title": "Světlušky svítí díky chemické reakci, která téměř neztrácí energii jako teplo",
+		"content": "<p>Světlušky vytvářejí světlo pomocí chemické reakce mezi látkou zvanou luciferin a enzymem luciferázou, za přítomnosti kyslíku a molekuly ATP, která v buňkách slouží jako zdroj energie.</p><p>Zvláštností této reakce, nazývané <strong>bioluminiscence</strong>, je její mimořádná účinnost. Zatímco běžná žárovka přemění na světlo jen malý zlomek spotřebované energie a zbytek vyzáří jako teplo, u světlušek se na světlo přemění téměř veškerá uvolněná energie.</p><p>Světlušky tímto světlem komunikují s potenciálními partnery, přičemž vzor a rytmus záblesků se liší podle druhu, což zabraňuje páření mezi nepříbuznými druhy.</p><p><strong>Enzym luciferáza se dnes využívá i v laboratořích jako citlivý nástroj pro sledování aktivity genů, protože jeho reakci lze snadno měřit podle vyzářeného světla.</strong></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Smithsonian – How and why do fireflies light up?",
+				"url": "https://www.si.edu/spotlight/buginfo/firefly"
+			},
+			{
+				"label": "Britannica – Bioluminescence",
+				"url": "https://www.britannica.com/science/bioluminescence"
+			}
+		]
+	},
+	{
+		"id": "634",
+		"title": "Tělo si drží vlastní hodiny, které řídí spánek i teplotu i bez pohledu na slunce",
+		"content": "<p>Lidské tělo funguje podle vnitřního cyklu trvajícího zhruba čtyřiadvacet hodin, který ovlivňuje spánek, tělesnou teplotu, hladiny hormonů i trávení. Tento cyklus přetrvává v hrubých rysech i tehdy, když je člověk dlouhodobě izolován bez přístupu k dennímu světlu.</p><p>Vědci Jeffrey Hall, Michael Rosbash a Michael Young v 80. letech 20. století identifikovali u octomilek konkrétní geny, které tento <strong>cirkadiánní rytmus</strong> řídí, a popsali mechanismus, při kterém produkt jednoho genu v noci hromadí, aby přes den svou vlastní tvorbu opět potlačil.</p><p>Tento samoregulační cyklus na úrovni buněk se ukázal být podobný i u lidí.</p><p><strong>Za objev molekulárních mechanismů řídících tyto vnitřní hodiny obdrželi trojice vědců v roce 2017 Nobelovu cenu za fyziologii a medicínu.</strong></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Nobel Prize – Physiology or Medicine 2017",
+				"url": "https://www.nobelprize.org/prizes/medicine/2017/summary/"
+			},
+			{
+				"label": "National Institute of General Medical Sciences – Circadian rhythms",
+				"url": "https://www.nigms.nih.gov/education/fact-sheets/Pages/circadian-rhythms.aspx"
+			}
+		]
+	},
+	{
+		"id": "635",
+		"title": "Dostatečný podíl očkovaných lidí chrání nepřímo i ty, kteří očkovaní nejsou",
+		"content": "<p>Pokud se nakažlivá nemoc snaží šířit mezi populací, potřebuje najít dostatek vnímavých hostitelů, na které se přenese dál.</p><p>Pokud je ale dostatečně vysoký podíl lidí vůči nemoci imunní, ať už díky očkování, nebo prodělané nákaze, šance nakaženého jedince setkat se s další vnímavou osobou prudce klesá, a řetězec přenosu se přeruší dřív, než zasáhne celou populaci.</p><p>Tento jev se nazývá <strong>kolektivní imunita</strong> a nepřímo chrání i osoby, které z různých důvodů, například kvůli oslabené imunitě nebo věku, nemohou být samy očkovány.</p><p>Potřebný podíl imunních osob se liší podle nakažlivosti konkrétní nemoci: u vysoce nakažlivých nemocí, jako jsou spalničky, musí být imunní podstatně vyšší podíl populace než u méně nakažlivých onemocnění.</p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "WHO – Herd immunity, lockdowns and COVID-19",
+				"url": "https://www.who.int/news-room/questions-and-answers/item/herd-immunity-lockdowns-and-covid-19"
+			},
+			{
+				"label": "CDC – Community immunity",
+				"url": "https://www.cdc.gov/vaccines/index.html"
+			}
+		]
+	},
+	{
+		"id": "636",
+		"title": "Genetická analýza ukázala, že psi pocházejí z dávno vyhynulé linie vlků",
+		"content": "<p>Otázka, kdy a jak se pes stal prvním domestikovaným zvířetem, patří k dlouhodobě zkoumaným tématům archeologie i genetiky.</p><p>Rozbory DNA moderních psů i starých kosterních nálezů naznačují, že k domestikaci došlo už před desítkami tisíc let, tedy dávno předtím, než lidé přešli k zemědělství, a že dnešní psi nepocházejí přímo z dnešních vlků, ale ze společné, dnes již vyhynulé předchůdcovské linie.</p><p>Vědci se zatím neshodují, zda k domestikaci došlo jednou na jednom místě, nebo nezávisle na více místech Eurasie.</p><p>Jedna z hypotéz předpokládá, že proces zahájili sami vlci, kteří se přiblížili k lidským táborům kvůli zbytkům potravy, a postupný přirozený výběr zvýhodňoval jedince s menší bázlivostí vůči lidem.</p><p><em>Přesné datum a místo domestikace tak zůstávají předmětem trvajícího výzkumu.</em></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Smithsonian Magazine – The Story of Dog Domestication",
+				"url": "https://www.smithsonianmag.com/science-nature/story-dog-domestication-180970014/"
+			},
+			{
+				"label": "National Human Genome Research Institute – Dog genome",
+				"url": "https://www.genome.gov/"
+			}
+		]
+	},
+	{
+		"id": "637",
+		"title": "Lékař si nechal vypít bakterii, aby dokázal příčinu žaludečních vředů",
+		"content": "<p>Do 80. let 20. století panovalo přesvědčení, že žaludeční vředy způsobuje hlavně stres a kyselá strava, a léčily se proto úpravou životosprávy a léky snižujícími kyselost.</p><p>Australský lékař Barry Marshall spolu s kolegou Robinem Warrenem objevil v žaludcích pacientů s vředy přítomnost bakterie <em>Helicobacter pylori</em> a předpokládal, že právě ona je skutečnou příčinou onemocnění, což tehdejší lékařská obec odmítala jako nepravděpodobné, protože se soudilo, že žádná bakterie nemůže přežít v kyselém prostředí žaludku.</p><p>Aby svou hypotézu prokázal, vypil Marshall v roce 1984 vzorek s touto bakterií a u sebe následně vyvolal zánět žaludeční sliznice, který se po léčbě antibiotiky zhojil.</p><p><strong>Za objev souvislosti mezi bakterií a vředy získali Marshall s Warrenem v roce 2005 Nobelovu cenu za fyziologii a medicínu.</strong></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Nobel Prize – Barry J. Marshall",
+				"url": "https://www.nobelprize.org/prizes/medicine/2005/marshall/facts/"
+			},
+			{
+				"label": "Britannica – Helicobacter pylori",
+				"url": "https://www.britannica.com/science/Helicobacter-pylori"
+			}
+		]
+	},
+	{
+		"id": "638",
+		"title": "Slepé střevo bylo dlouho považováno za zbytečný pozůstatek evoluce",
+		"content": "<p>Malý červovitý výběžek na začátku tlustého střeva, známý jako slepé střevo neboli apendix, byl po desítky let označován za nefunkční evoluční pozůstatek, protože jeho odstranění zjevně nezpůsobovalo žádné bezprostřední zdravotní potíže.</p><p>Novější výzkum tento pohled částečně zpochybnil. Podle jedné hypotézy slouží apendix jako útočiště pro prospěšné střevní bakterie, které odtud mohou znovu osídlit střevo po závažném průjmovém onemocnění, jež běžnou střevní mikroflóru vyplaví.</p><p>Zůstává ale nejasné, jak velký je skutečný praktický přínos tohoto mechanismu u dnešního člověka a zda vyvažuje riziko zánětu apendixu, který bez léčby může být život ohrožující.</p><p><em>Spor o to, do jaké míry je orgán skutečně vestigiální, tedy funkčně přebytečný, tak zůstává v biologii otevřený.</em></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Scientific American – The Appendix",
+				"url": "https://www.scientificamerican.com/article/fact-or-fiction-the-appendix-is-useless/"
+			},
+			{
+				"label": "Duke Health – Appendix function research",
+				"url": "https://www.dukehealth.org/"
+			}
+		]
+	},
+	{
+		"id": "639",
+		"title": "Přerušení spojení mezi mozkovými hemisférami ukázalo, že máme dvě odlišná já",
+		"content": "<p>U pacientů s těžkou, jinak neléčitelnou epilepsií se v polovině 20. století začal chirurgicky přerušovat svazek nervových vláken spojující obě mozkové hemisféry, aby se zabránilo šíření záchvatu z jedné poloviny mozku do druhé.</p><p>Psycholog Roger Sperry následně u těchto pacientů zkoumal, jak fungují obě hemisféry, když spolu přestanou přímo komunikovat, a to pomocí experimentů, ve kterých byl obraz nebo předmět prezentován jen jednomu zornému poli, a tedy jen jedné polovině mozku.</p><p>Výsledky ukázaly, že obě hemisféry dokážou nezávisle zpracovávat informace a v některých ohledech i nezávisle jednat, aniž by o tom druhá polovina mozku měla přímé povědomí, protože si informace mezi sebou nemohly vyměnit.</p><p><strong>Za tento výzkum obdržel Sperry v roce 1981 Nobelovu cenu za fyziologii a medicínu.</strong></p>",
+		"category": "veda",
+		"sources": [
+			{
+				"label": "Nobel Prize – Roger W. Sperry",
+				"url": "https://www.nobelprize.org/prizes/medicine/1981/sperry/facts/"
+			},
+			{
+				"label": "Britannica – Split-brain",
+				"url": "https://www.britannica.com/science/split-brain"
+			}
+		]
+	},
+	{
+		"id": "640",
+		"title": "Špatná zpráva na nás působí silněji než stejně velká dobrá zpráva",
+		"content": "<p>Ztráta stokoruny nás rozladí víc, než nás potěší nález stejné částky. Kritika jednoho detailu v jinak skvělé práci nás trápí déle, než nás těší desítka pochval.</p><p>Psychologové tento vzorec, doložený v řadě studií z konce 20. století, nazvali <strong>negativitní zkreslení</strong>. Negativní informace, emoce a zkušenosti mají na naše myšlení, rozhodování i paměť soustavně silnější a trvalejší vliv než pozitivní protějšky srovnatelné intenzity.</p><p>Vysvětlení se hledá v evoluci. Přehlédnutí hrozby mohlo v minulosti stát život, zatímco přehlédnutí příležitosti k zisku bylo obvykle méně nákladné, takže citlivost na negativní podněty mohla být zvýhodněna přirozeným výběrem.</p><p><strong>Tento sklon dnes ovlivňuje i to, proč negativní zprávy v médiích přitahují více pozornosti než pozitivní.</strong></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "APA – Negativity bias",
+				"url": "https://www.apa.org/topics/journalism-facts/negativity-bias"
+			},
+			{
+				"label": "Britannica – Negativity bias",
+				"url": "https://www.britannica.com/science/negativity-bias"
+			}
+		]
+	},
+	{
+		"id": "641",
+		"title": "Čím víc lidí táhne za lano, tím méně síly vynaloží každý jednotlivec",
+		"content": "<p>Francouzský inženýr Max Ringelmann na konci 19. století měřil sílu, jakou lidé vyvíjejí při tahu za lano, a to jak jednotlivě, tak ve skupinách různé velikosti.</p><p>Zjistil, že celková síla skupiny sice s přibývajícími lidmi rostla, ale mnohem pomaleji, než by odpovídalo prostému součtu individuálních výkonů. Průměrný výkon na jednoho člověka se se zvětšující se skupinou snižoval.</p><p>Tento jev, dnes nazývaný <strong>sociální zahálení</strong>, se později potvrdil i u úkolů, kde nejde o fyzickou sílu, ale o duševní úsilí, jako je bouření nápadů ve skupině.</p><p>Vysvětlením je oslabený pocit osobní odpovědnosti za výsledek, pokud výkon jednotlivce v davu není snadno rozpoznatelný a hodnotitelný.</p><p><em>Znalost tohoto jevu se dnes využívá při navrhování týmové práce tak, aby byl příspěvek každého člena zřetelně viditelný.</em></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "Britannica – Social loafing",
+				"url": "https://www.britannica.com/science/social-loafing"
+			},
+			{
+				"label": "Simply Psychology – Social loafing",
+				"url": "https://www.simplypsychology.org/social-loafing.html"
+			}
+		]
+	},
+	{
+		"id": "642",
+		"title": "Rozdělení lidí do zcela nahodilých skupin stačí k tomu, aby zvýhodňovali vlastní skupinu",
+		"content": "<p>Psycholog Henri Tajfel v 70. letech 20. století rozdělil účastníky experimentu do dvou skupin na základě naprosto triviálního a nahodilého kritéria, například odhadu počtu teček na obrázku, aniž by účastníci vůbec věděli, s kým jsou do skupiny zařazeni.</p><p>Přesto, když měli následně rozdělovat drobné odměny mezi ostatní účastníky, systematicky zvýhodňovali členy své vlastní, jinak zcela náhodně vytvořené skupiny na úkor členů skupiny druhé.</p><p>Tento experiment, dnes nazývaný <strong>paradigma minimálních skupin</strong>, ukázal, že ke vzniku zaujatosti vůči vlastní a cizí skupině stačí i naprosto bezvýznamné a nahodilé rozdělení, aniž by musela existovat skutečná soutěž o zdroje nebo dlouhá historie sporů.</p><p><strong>Zjištění zásadně ovlivnilo psychologické chápání kořenů předsudků a skupinové solidarity.</strong></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "Simply Psychology – Minimal group paradigm",
+				"url": "https://www.simplypsychology.org/minimal-group-paradigm.html"
+			},
+			{
+				"label": "Britannica – Social identity theory",
+				"url": "https://www.britannica.com/science/social-identity-theory"
+			}
+		]
+	},
+	{
+		"id": "643",
+		"title": "Odhadujeme pravděpodobnost podle toho, jak snadno se nám vybaví příklad",
+		"content": "<p>Zeptáte-li se lidí, co je pravděpodobnější, zda zemřou při pádu letadla, nebo při dopravní nehodě na silnici, mnozí kvůli mediální pozornosti věnované leteckým neštěstím podceňují, o kolik je riziko silniční nehody ve skutečnosti vyšší.</p><p>Psychologové Amos Tversky a Daniel Kahneman v roce 1973 tento vzorec popsali jako <strong>heuristiku dostupnosti</strong>: při odhadu pravděpodobnosti se nespoléháme na skutečná statistická data, ale na to, jak snadno a rychle nás napadnou konkrétní příklady dané události.</p><p>Události, které jsou živé, nedávné, nebo hodně medializované, se nám vybavují snáz, a proto je nevědomky považujeme za častější, než ve skutečnosti jsou.</p><p><em>Tento sklon vysvětluje, proč lidé po zprávách o vzácném, ale dramatickém zločinu často přeceňují míru kriminality ve svém okolí.</em></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "APA PsycNet – Availability heuristic",
+				"url": "https://psycnet.apa.org/record/1974-10497-001"
+			},
+			{
+				"label": "Britannica – Availability heuristic",
+				"url": "https://www.britannica.com/science/availability-heuristic"
+			}
+		]
+	},
+	{
+		"id": "644",
+		"title": "Úspěšní lidé se často necítí kompetentní, i když jimi zjevně jsou",
+		"content": "<p>Psycholožky Pauline Clanceová a Suzanne Imesová popsaly v roce 1978 vzorec, který pozorovaly u řady jinak úspěšných a schopných žen: přetrvávající vnitřní pocit, že jejich úspěchy jsou výsledkem náhody, štěstí nebo klamání okolí, nikoli jejich skutečných schopností.</p><p>Tento jev, dnes nazývaný <strong>syndrom podvodníka</strong>, provází často i obava, že bude dotyčný člověk brzy odhalen jako nedostatečně kompetentní, přestože objektivní důkazy, jako jsou hodnocení, výsledky nebo posudky kolegů, tomuto strachu odporují.</p><p>Pozdější výzkumy ukázaly, že se jev netýká jen žen, ale objevuje se napříč pohlavími, obory i úrovněmi zkušenosti, včetně velmi zkušených odborníků.</p><p><strong>Znalost tohoto jevu pomáhá lidem rozeznat, že jde o rozšířený psychologický vzorec, nikoli o výjimečné vlastní selhání.</strong></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "APA – Impostor phenomenon",
+				"url": "https://www.apa.org/monitor/2013/11/fraud"
+			},
+			{
+				"label": "Britannica – Impostor syndrome",
+				"url": "https://www.britannica.com/science/impostor-syndrome"
+			}
+		]
+	},
+	{
+		"id": "645",
+		"title": "Po skončení zápasu si divák je jistý, že výsledek předem odhadl",
+		"content": "<p>Poté, co sportovní zápas nebo volby skončí, mnoho lidí tvrdí, že tušili, jak to dopadne, přestože jejich předchozí odhady, zaznamenané ještě před událostí, tomu často neodpovídaly.</p><p>Tomuto jevu se říká <strong>zkreslení zpětným pohledem</strong>, hovorově efekt já jsem to od začátku věděl. Jakmile známe výsledek, náš mozek jej zpětně zabuduje do vzpomínky na to, co jsme si mysleli předtím, a přehodnotí naši dřívější nejistotu jako menší, než skutečně byla.</p><p>Jev byl poprvé systematicky zkoumán v 70. letech 20. století a od té doby byl potvrzen u předpovědí politických, sportovních i lékařských výsledků.</p><p><strong>V praxi je nebezpečný zejména při hodnocení rozhodnutí druhých lidí po nehodě nebo neúspěchu, protože zkresluje odhad toho, jak předvídatelný byl výsledek v okamžiku rozhodování.</strong></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "Britannica – Hindsight bias",
+				"url": "https://www.britannica.com/science/hindsight-bias"
+			},
+			{
+				"label": "Simply Psychology – Hindsight bias",
+				"url": "https://www.simplypsychology.org/hindsight-bias.html"
+			}
+		]
+	},
+	{
+		"id": "646",
+		"title": "Sklon věřit, že si oběti neštěstí za své utrpení mohou svým způsobem sami",
+		"content": "<p>Psycholog Melvin Lerner v 60. letech 20. století zkoumal, proč pozorovatelé někdy obviňují oběti neštěstí nebo nespravedlnosti, i když sami s danou situací neměli nic společného.</p><p>Vysvětlením podle něj je hluboce zakořeněná potřeba věřit, že svět je v zásadě spravedlivé místo, kde dobří lidé bývají odměněni a špatní potrestáni. Této tendenci dal jméno <strong>hypotéza spravedlivého světa</strong>.</p><p>Když se s touto vírou střetne zpráva o utrpení zjevně nevinné oběti, vzniká nepříjemný pocit rozporu. Jedním ze způsobů, jak si tento rozpor vyřešit, aniž by člověk musel přiznat, že se špatné věci mohou stát komukoli bez ohledu na chování, je hledat na oběti nějakou chybu, kterou si neštěstí zasloužila.</p><p><em>Tento mechanismus se často projevuje například při reakcích na oběti trestných činů.</em></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "Britannica – Just-world hypothesis",
+				"url": "https://www.britannica.com/topic/just-world-hypothesis"
+			},
+			{
+				"label": "APA PsycNet – Belief in a just world",
+				"url": "https://psycnet.apa.org/record/1980-27633-001"
+			}
+		]
+	},
+	{
+		"id": "647",
+		"title": "Malá počáteční prosba zvyšuje šanci, že člověk souhlasí i s mnohem větší",
+		"content": "<p>Psychologové Jonathan Freedman a Scott Fraser v roce 1966 požádali obyvatele domů o umístění malé cedulky podporující bezpečnost silničního provozu na okno.</p><p>O několik týdnů později se jiní výzkumníci vrátili do stejných domácností s mnohem větší žádostí: umístit na trávník před domem velkou, neupravenou ceduli se stejným poselstvím. Lidé, kteří předtím souhlasili s malou cedulkou, souhlasili s tou velkou výrazně častěji než ti, kteří s první žádostí nebyli osloveni vůbec.</p><p>Tomuto principu se říká technika <strong>nohy ve dveřích</strong>: souhlas s malým, nenáročným požadavkem zvyšuje pravděpodobnost, že člověk později přijme i požadavek podstatně náročnější, protože si mezitím začal sám sebe vnímat jako osobu, která takové věci podporuje.</p><p><em>Technika se běžně využívá v prodeji, fundraisingu i politických kampaních.</em></p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "APA PsycNet – Compliance without pressure",
+				"url": "https://psycnet.apa.org/record/1967-05122-001"
+			},
+			{
+				"label": "Simply Psychology – Foot-in-the-door technique",
+				"url": "https://www.simplypsychology.org/foot-in-the-door-technique.html"
+			}
+		]
+	},
+	{
+		"id": "648",
+		"title": "Přijetí drobné laskavosti v nás vyvolá vnitřní tlak laskavost oplatit",
+		"content": "<p>Číšník, který k účtu přiloží bonbon nebo malý dárek, dostává podle výzkumů v průměru vyšší spropitné, přestože hodnota daného dárku je zanedbatelná ve srovnání s cenou celého jídla.</p><p>Psycholog Robert Cialdini popsal ve svých pracích z 80. let 20. století <strong>princip reciprocity</strong> jako jeden ze základních společenských mechanismů: přijetí daru, laskavosti nebo ústupku v nás vyvolává silný vnitřní pocit závazku danou laskavost nějakým způsobem oplatit.</p><p>Tento pocit funguje i tehdy, když o dar nebo laskavost člověk sám vůbec nežádal, a jeho síla je nezávislá na hodnotě samotného daru.</p><p>Princip reciprocity se hojně využívá v marketingu, kde bezplatné vzorky nebo drobné dárky často vedou k výraznému nárůstu prodejů daného produktu, i když samotný vzorek stojí jen zlomek ceny výsledného nákupu.</p>",
+		"category": "psychologie",
+		"sources": [
+			{
+				"label": "APA – The psychology of reciprocity",
+				"url": "https://www.apa.org/topics/journalism-facts"
+			},
+			{
+				"label": "Britannica – Reciprocity (social psychology)",
+				"url": "https://www.britannica.com/topic/reciprocity-social-behavior"
+			}
+		]
+	},
+	{
+		"id": "649",
+		"title": "Chlupatou kouli nelze učesat tak, aby na ní nezůstal aspoň jeden ochlup",
+		"content": "<p>Představte si kouli hustě pokrytou chlupy a snažíte se je všechny přičesat hladce podél povrchu, bez jediného trsu vyčnívajícího nahoru nebo víru.</p><p>Matematická věta, dnes nazývaná <strong>věta o chlupaté kouli</strong>, dokazuje, že to není možné. Na kterémkoli hladkém, koulovitém povrchu vždy zůstane nejméně jeden bod, kde chlup musí trčet kolmo vzhůru, nebo kde chlup zcela chybí.</p><p>Věta má i praktický důsledek mimo účesy. Vyplývá z ní, že na povrchu Země musí v kterémkoli okamžiku existovat aspoň jedno místo, kde vítr úplně ustane, protože směr větru na povrchu koule nelze definovat všude hladce a nenulově.</p><p><em>Podobný princip platí pro jakýkoli tvar topologicky rovnocenný kouli, ale neplatí například pro povrch koblihy, na kterém lze chlupy přičesat hladce všude.</em></p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Hairy ball theorem",
+				"url": "https://www.britannica.com/science/hairy-ball-theorem"
+			},
+			{
+				"label": "MacTutor – Topology history",
+				"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Topology_in_mathematics/"
+			}
+		]
+	},
+	{
+		"id": "650",
+		"title": "Tým, který vede lépe v každé jednotlivé skupině, může v celkovém součtu prohrávat",
+		"content": "<p>Nemocnice A má u obou typů zákroků nižší úmrtnost než nemocnice B. Přesto může mít nemocnice A vyšší celkovou úmrtnost, když se data obou typů zákroků sečtou dohromady.</p><p>Tento zdánlivý rozpor se nazývá <strong>Simpsonův paradox</strong> a vzniká, pokud jsou jednotlivé skupiny nerovnoměrně veliké. Nemocnice A například mohla léčit mnohem víc obtížnějších, rizikovějších případů, což zvýšilo její celkový průměr, přestože si u obou typů zákroků vedla lépe než druhá nemocnice.</p><p>Paradox ukazuje, že souhrnná statistika může skrývat opačný trend, než jaký platí v jednotlivých podskupinách, pokud tyto podskupiny nejsou rovnoměrně zastoupeny.</p><p><strong>Znalost tohoto jevu je zásadní při interpretaci statistik ve zdravotnictví, vzdělávání i při hodnocení diskriminace, kde může jednoduché sečtení dat vést k mylným závěrům.</strong></p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Simpson's paradox",
+				"url": "https://www.britannica.com/topic/Simpsons-paradox"
+			},
+			{
+				"label": "Stanford Encyclopedia of Philosophy – Simpson's Paradox",
+				"url": "https://plato.stanford.edu/entries/paradox-simpson/"
+			}
+		]
+	},
+	{
+		"id": "651",
+		"title": "Jediná dokonale bezpečná šifra vyžaduje klíč stejně dlouhý jako tajná zpráva",
+		"content": "<p>Většina moderních šifrovacích metod je bezpečná jen proto, že jejich prolomení by trvalo nepřijatelně dlouho, ne proto, že by bylo matematicky nemožné.</p><p>Existuje ale jedna výjimka. Pokud se zpráva zašifruje sečtením s naprosto náhodným klíčem přesně stejné délky, jaký se použije jen jednou a nikdy se neopakuje, je výsledná šifra podle matematického důkazu z roku 1949 dokonale nerozluštitelná, bez ohledu na výpočetní výkon útočníka.</p><p>Tato metoda, nazývaná <strong>šifra s jednorázovou tabulkou</strong>, má ale zásadní praktickou nevýhodu: klíč musí být stejně dlouhý jako zpráva samotná, použije se jen jednou a musí se bezpečně předat oběma stranám předem.</p><p><em>Kvůli těmto nárokům na distribuci klíče se metoda v běžné komunikaci prakticky nepoužívá, ale historicky sloužila u nejpřísněji utajovaných diplomatických spojení.</em></p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "NIST – One-time pad",
+				"url": "https://csrc.nist.gov/glossary/term/one_time_pad"
+			},
+			{
+				"label": "Britannica – Cryptology: One-time pads",
+				"url": "https://www.britannica.com/topic/cryptology"
+			}
+		]
+	},
+	{
+		"id": "652",
+		"title": "Na jakékoli dostatečně velké párty se vždy najdou tři lidé, kteří se navzájem znají, nebo tři, kteří se neznají",
+		"content": "<p>Vezměte skupinu alespoň šesti lidí, u kterých je o každé dvojici jasné, zda se navzájem znají, nebo ne. Matematická věta ukazuje, že mezi nimi vždy najdete buď trojici, ve které se všichni tři navzájem znají, nebo trojici, ve které se navzájem vůbec neznají.</p><p>Tento na první pohled překvapivý výsledek patří do oboru zvaného <strong>Ramseyho teorie</strong>, který zkoumá, jaký nejmenší rozsah systému stačí k tomu, aby se v něm nutně objevila určitá pravidelná struktura, ať je celý systém sestaven jakkoli.</p><p>Obecná myšlenka teorie zní, že naprostý chaos nad určitou velikostí není matematicky možný, protože při dostatečném množství prvků se v nich vždy nějaká pravidelnost musí objevit.</p><p><strong>Přesné hraniční hodnoty pro složitější varianty podobných úloh jsou dodnes u mnoha případů neznámé, přestože jde o zdánlivě jednoduše formulovaný problém.</strong></p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Ramsey theory",
+				"url": "https://www.britannica.com/science/Ramsey-theory"
+			},
+			{
+				"label": "MacTutor – Frank Ramsey",
+				"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Ramsey/"
+			}
+		]
+	},
+	{
+		"id": "653",
+		"title": "Hotel s nekonečným počtem pokojů má vždy místo i pro dalšího hosta",
+		"content": "<p>Matematik David Hilbert na počátku 20. století popsal myšlenkový experiment s hotelem, který má nekonečně mnoho očíslovaných pokojů, a všechny jsou právě obsazené.</p><p>Přijde nový host. Zdálo by se, že pro něj není místo, ale hotel má řešení: požádá hosta z pokoje číslo jedna, aby se přesunul do pokoje číslo dvě, hosta z pokoje dvě do pokoje tři, a tak dál donekonečna. Pokoj číslo jedna se tím uvolní pro nového hosta.</p><p>Podobným, jen složitějším přesunem by hotel dokázal ubytovat i nekonečně mnoho nových hostů najednou, přestože byl už předtím plně obsazen.</p><p><strong>Hilbertův hotel</strong> tímto zdánlivým paradoxem srozumitelně ilustruje neintuitivní vlastnosti nekonečných množin, které matematicky popsal Georg Cantor: nekonečno plus jedna zůstává stejně velkým nekonečnem.</p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Hilbert's paradox of the Grand Hotel",
+				"url": "https://www.britannica.com/science/Hilberts-paradox-of-the-Grand-Hotel"
+			},
+			{
+				"label": "MacTutor – David Hilbert",
+				"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hilbert/"
+			}
+		]
+	},
+	{
+		"id": "654",
+		"title": "Naplánovat nejkratší cestu přes všechna města je snadné zadat, ale extrémně těžké vyřešit",
+		"content": "<p>Obchodní cestující potřebuje navštívit určitý počet měst a vrátit se zpět domů. Úkolem je najít pořadí, ve kterém celková ujetá vzdálenost bude nejkratší možná.</p><p>Zadání úlohy je jednoduché, ale s rostoucím počtem měst počet možných tras roste extrémně rychle, faktoriálovým tempem. Už u pouhých dvaceti měst je možných tras víc, než by šlo kdy všechny vyzkoušet vyčerpávajícím výpočtem, i s pomocí nejrychlejších počítačů.</p><p><strong>Problém obchodního cestujícího</strong> patří mezi takzvané NP-těžké úlohy, pro které dosud nikdo nenašel algoritmus zaručeně nacházející nejlepší řešení v rozumném čase.</p><p>V praxi se proto používají přibližné metody, které nezaručují dokonale nejkratší trasu, ale najdou řešení dostatečně dobré, a to výrazně rychleji.</p><p><em>Úloha má široké praktické využití, od rozvozu zboží po návrh tras vrtání desek plošných spojů.</em></p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Traveling salesman problem",
+				"url": "https://www.britannica.com/science/traveling-salesman-problem"
+			},
+			{
+				"label": "Clay Mathematics Institute – P vs NP",
+				"url": "https://www.claymath.org/millennium/p-vs-np/"
+			}
+		]
+	},
+	{
+		"id": "655",
+		"title": "Dvě čísla si navzájem dělají laskavost svým součtem vlastních dělitelů",
+		"content": "<p>Sečtěte všechny dělitele čísla 220 menší než ono samo: výsledek je 284. Sečtěte teď všechny dělitele čísla 284 menší než ono samo: výsledek je přesně 220.</p><p>Taková dvojice čísel, kde součet vlastních dělitelů jednoho čísla dá to druhé a naopak, se nazývá <strong>spřátelená čísla</strong>. Tuto konkrétní dvojici znali už pythagorejci ve starověkém Řecku a přisuzovali jí symbolický význam přátelství a lásky.</p><p>Zvláštní podmnožinou jsou takzvaná <strong>dokonalá čísla</strong>, u kterých se součet vlastních dělitelů rovná číslu samotnému, jako u čísla 6, jehož dělitelé 1, 2 a 3 dají dohromady právě 6.</p><p>Dodnes není matematicky vyřešeno, zda existuje nekonečně mnoho dokonalých čísel, ani zda existuje jediné liché dokonalé číslo, přestože po žádném takovém dosud pátrání nenašlo příklad.</p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "MacTutor – Perfect numbers",
+				"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Perfect_numbers/"
+			},
+			{
+				"label": "Britannica – Amicable numbers",
+				"url": "https://www.britannica.com/science/amicable-numbers"
+			}
+		]
+	},
+	{
+		"id": "656",
+		"title": "Hazardní hráč s omezeným kapitálem nakonec téměř jistě přijde o všechno",
+		"content": "<p>Představte si hráče, který vsází stále stejnou částku a při každé sázce má stejnou pravděpodobnost výhry i prohry, a hraje proti protivníkovi s výrazně větším kapitálem, jako je kasino.</p><p>I když je hra spravedlivá v tom smyslu, že šance na výhru a prohru jsou vyrovnané, matematický rozbor <strong>problému hráčova úpadku</strong> ukazuje, že hráč s omezeným množstvím peněz nakonec téměř jistě přijde o vše, pokud hraje dostatečně dlouho proti soupeři s neomezeným kapitálem.</p><p>Důvodem je, že náhodná procházka výher a proher se dřív nebo později dotkne nuly, tedy hráčova úplného úpadku, a tento bod je nevratným koncem hry, zatímco bohatší strana může pokračovat dál bez ohledu na dočasné výkyvy.</p><p><strong>Tento matematický výsledek je jedním z důvodů, proč jsou dlouhodobě prodělečné i hry, které se na první pohled zdají spravedlivé.</strong></p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Gambler's ruin",
+				"url": "https://www.britannica.com/science/gamblers-ruin"
+			},
+			{
+				"label": "MacTutor – Probability theory history",
+				"url": "https://mathshistory.st-andrews.ac.uk/HistTopics/Probability_and_statistics/"
+			}
+		]
+	},
+	{
+		"id": "657",
+		"title": "Hodiny počítají čas tak, že po dvanácti se samy vrátí zpátky na jedničku",
+		"content": "<p>Ciferník hodin nepočítá donekonečna, po dvanáctce se vrací zpět k jedničce. Přesně tento princip formalizuje v matematice <strong>modulární aritmetika</strong>, kterou systematicky popsal na konci 18. století Carl Friedrich Gauss.</p><p>V tomto systému se čísla po dosažení určité hodnoty, zvané modul, vracejí zpátky k nule, podobně jako se ciferník vrací po dvanácti hodinách. Sedm hodin po osmé se proto nepočítá jako patnáctá, ale jako třetí hodina.</p><p>Tento na první pohled jednoduchý nástroj má daleko širší využití než jen měření času. Tvoří základ moderní kryptografie, protože mnohé šifrovací algoritmy, včetně těch chránících bankovní platby, stojí na výpočtech prováděných právě v modulární aritmetice s velmi vysokými moduly.</p><p><em>Bez tohoto zdánlivě obyčejného konceptu by dnešní zabezpečená komunikace nefungovala.</em></p>",
+		"category": "matematika",
+		"sources": [
+			{
+				"label": "Britannica – Modular arithmetic",
+				"url": "https://www.britannica.com/science/modular-arithmetic"
+			},
+			{
+				"label": "MacTutor – Carl Friedrich Gauss",
+				"url": "https://mathshistory.st-andrews.ac.uk/Biographies/Gauss/"
+			}
+		]
+	},
+	{
+		"id": "658",
+		"title": "Tvrdé podmínky uložené poraženému státu po sobě zanechaly hluboký pocit křivdy",
+		"content": "<p>Mírová smlouva podepsaná v roce 1919 ve Versailles formálně ukončila první světovou válku a uložila poraženému Německu rozsáhlé územní ztráty, omezení armády a povinnost platit válečné reparace.</p><p>Smlouva navíc obsahovala článek, podle kterého Německo a jeho spojenci nesli plnou odpovědnost za vypuknutí války, což bylo v zemi vnímáno jako ponižující a nespravedlivé, i mezi těmi, kteří s předchozím režimem nesouhlasili.</p><p>Ekonomické potíže spojené se splácením reparací, umocněné pozdější celosvětovou hospodářskou krizí, přispěly k politické nestabilitě Výmarské republiky.</p><p><strong>Historikové se dodnes neshodují na tom, do jaké míry přesně smlouva přispěla k pozdějšímu vzestupu nacismu, shodují se ale, že pocit křivdy z jejích podmínek byl nacistickou propagandou aktivně využíván.</strong></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "Britannica – Treaty of Versailles",
+				"url": "https://www.britannica.com/event/Treaty-of-Versailles-1919"
+			},
+			{
+				"label": "United States Holocaust Memorial Museum – Treaty of Versailles",
+				"url": "https://encyclopedia.ushmm.org/content/en/article/the-treaty-of-versailles"
+			}
+		]
+	},
+	{
+		"id": "659",
+		"title": "Tři vůdci se sešli, aby si předem rozdělili mapu poválečné Evropy",
+		"content": "<p>V únoru 1945, ještě před koncem druhé světové války v Evropě, se na krymském poloostrově sešli vůdci Spojených států, Velké Británie a Sovětského svazu, aby projednali uspořádání poválečného světa.</p><p>Dohodli se na rozdělení Německa do okupačních zón, na podmínkách vstupu Sovětského svazu do války proti Japonsku a na základních obrysech budoucí Organizace spojených národů.</p><p>Konference také fakticky uznala sovětský vliv nad velkou částí střední a východní Evropy, přestože formální dohoda hovořila o svobodných volbách v osvobozených zemích.</p><p><strong>Rozpor mezi těmito sliby a skutečným vývojem v následujících letech, kdy se v regionu prosadily komunistické režimy, se stal jedním ze zdrojů poválečné nedůvěry mezi bývalými spojenci a přispěl k nástupu studené války.</strong></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "Office of the Historian, US Department of State – The Yalta Conference",
+				"url": "https://history.state.gov/milestones/1937-1945/yalta-conf"
+			},
+			{
+				"label": "Britannica – Yalta Conference",
+				"url": "https://www.britannica.com/event/Yalta-Conference"
+			}
+		]
+	},
+	{
+		"id": "660",
+		"title": "Vězeň strávil desítky let v cele, aby se pak stal prezidentem země, která ho věznila",
+		"content": "<p>Jihoafrická republika po desetiletí uplatňovala systém <strong>apartheidu</strong>, tedy zákonné rasové segregace, který černošské většině obyvatel odpíral základní politická a občanská práva.</p><p>Aktivista Nelson Mandela byl v roce 1964 odsouzen k doživotnímu vězení za účast na odboji proti tomuto systému a strávil ve vězení sedmadvacet let.</p><p>Pod rostoucím mezinárodním tlakem a vnitřním napětím zahájila jihoafrická vláda na počátku 90. let jednání s opozicí, Mandela byl v roce 1990 propuštěn a následovala série vyjednávání, která vedla k prvním všeobecným volbám s účastí všech ras v roce 1994.</p><p><strong>Mandela se stal prvním černošským prezidentem země a společně s posledním prezidentem éry apartheidu obdržel v roce 1993 Nobelovu cenu míru za mírový přechod k demokracii.</strong></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "Nobel Prize – Nelson Mandela",
+				"url": "https://www.nobelprize.org/prizes/peace/1993/mandela/facts/"
+			},
+			{
+				"label": "Britannica – Apartheid",
+				"url": "https://www.britannica.com/topic/apartheid"
+			}
+		]
+	},
+	{
+		"id": "661",
+		"title": "Rozdělení britské kolonie na dva státy provázelo jedno z největších stěhování v dějinách",
+		"content": "<p>Po skončení druhé světové války britská vláda urychlila proces předání moci nad indickým subkontinentem, který byl po desetiletí pod britskou nadvládou.</p><p>V srpnu 1947 vznikly dva samostatné státy, převážně hinduistická Indie a muslimský Pákistán, přičemž hranice mezi nimi byla vytyčena jen několik týdnů před samotným datem předání moci.</p><p>Rozdělení, nazývané <strong>partition</strong>, vyvolalo masové přesuny obyvatelstva, protože se miliony hinduistů, muslimů a sikhů snažily přesunout na tu stranu nové hranice, kde tvořili náboženskou většinu.</p><p>Přesun byl provázen rozsáhlým násilím mezi komunitami a podle odhadů historiků si vyžádal statisíce až miliony obětí, přičemž přesná čísla zůstávají sporná.</p><p><em>Napětí vzniklé při rozdělení ovlivňuje vztahy mezi oběma zeměmi dodnes.</em></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "Britannica – Partition of India",
+				"url": "https://www.britannica.com/event/Partition-of-India"
+			},
+			{
+				"label": "British Library – Independence and partition",
+				"url": "https://www.bl.uk/asian-and-african-studies"
+			}
+		]
+	},
+	{
+		"id": "662",
+		"title": "Pět vítězných mocností si při založení nové organizace vyhradilo právo veta",
+		"content": "<p>Po selhání meziválečné Společnosti národů se zástupci vítězných spojeneckých mocností dohodli na založení nové mezinárodní organizace, jejímž cílem mělo být udržení míru a bezpečnosti.</p><p><strong>Organizace spojených národů</strong> byla ustavena v roce 1945 a jejím hlavním výkonným orgánem se stala Rada bezpečnosti.</p><p>Pět stálých členů rady, tehdejší hlavní vítězné mocnosti, si vyhradilo právo <strong>veta</strong>, tedy možnost samostatně zablokovat jakékoli rozhodnutí rady, i kdyby pro ně hlasovali všichni ostatní členové.</p><p>Toto ustanovení mělo zajistit, aby organizace nepřijímala rozhodnutí proti vůli některé z hlavních mocností, což by podle tvůrců mohlo ohrozit samotnou existenci organizace, jako se to stalo u jejího předchůdce.</p><p><em>Právo veta zároveň znamená, že rada je v mnoha konfliktech, kde jsou zapojeny zájmy stálých členů, prakticky ochromena.</em></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "United Nations – Security Council veto power",
+				"url": "https://www.un.org/en/about-us/security-council"
+			},
+			{
+				"label": "Britannica – United Nations Security Council",
+				"url": "https://www.britannica.com/topic/United-Nations-Security-Council"
+			}
+		]
+	},
+	{
+		"id": "663",
+		"title": "Vloupání do sídla opoziční strany nakonec stálo prezidenta jeho úřad",
+		"content": "<p>V červnu 1972 byli zadrženi muži, kteří se vloupali do sídla opoziční strany ve washingtonském komplexu Watergate, aby tam nainstalovali odposlouchávací zařízení.</p><p>Postupné vyšetřování novinářů a později i kongresu odhalilo, že se na krytí celé záležitosti podílel přímo Bílý dům, včetně prezidenta Richarda Nixona, který se pokoušel vyšetřování zablokovat.</p><p>Klíčovým důkazem se staly tajné nahrávky rozhovorů z prezidentovy kanceláře, jejichž vydání si kongres a soud vynutily navzdory prezidentovu odporu.</p><p>V roce 1974, tváří v tvář jisté ústavní obžalobě, se Nixon jako první a dosud jediný americký prezident v úřadu vzdal svého mandátu.</p><p><strong>Aféra se stala klíčovým precedentem pro princip, že ani nejvyšší představitel výkonné moci nestojí nad zákonem.</strong></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "National Archives – Watergate",
+				"url": "https://www.archives.gov/research/nixon/watergate"
+			},
+			{
+				"label": "Britannica – Watergate Scandal",
+				"url": "https://www.britannica.com/event/Watergate-Scandal"
+			}
+		]
+	},
+	{
+		"id": "664",
+		"title": "Zákon zakázal veřejnou i soukromou diskriminaci podle rasy nebo barvy pleti",
+		"content": "<p>Po letech rozsáhlého hnutí za občanská práva, provázeného masovými protesty a občanskou neposlušností, podepsal americký prezident v roce 1964 zákon, který formálně zakázal diskriminaci na základě rasy, barvy pleti, náboženství, pohlaví nebo národnostního původu.</p><p><strong>Zákon o občanských právech</strong> zakázal segregaci na veřejných místech, jako jsou restaurace, hotely nebo divadla, a diskriminaci při zaměstnávání.</p><p>O rok později doplnil právní rámec další zákon, který výslovně chránil volební právo, jehož výkon byl v některých jižních státech dlouhodobě fakticky znemožňován různými administrativními překážkami a zastrašováním.</p><p>Přijetí obou zákonů předcházely rozsáhlé kampaně občanské neposlušnosti, včetně pochodů a bojkotů organizovaných hnutím vedeným mimo jiné Martinem Lutherem Kingem.</p><p><em>Přijetí zákonů neznamenalo okamžitý konec diskriminace v praxi, ale vytvořilo právní základ pro její vymáhání.</em></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "National Archives – Civil Rights Act of 1964",
+				"url": "https://www.archives.gov/milestone-documents/civil-rights-act"
+			},
+			{
+				"label": "Britannica – Civil Rights Act",
+				"url": "https://www.britannica.com/topic/Civil-Rights-Act-United-States-1964"
+			}
+		]
+	},
+	{
+		"id": "665",
+		"title": "Dnešní politická unie začínala jako dohoda o společné správě uhlí a oceli",
+		"content": "<p>Po dvou ničivých válkách, ke kterým evropské mocnosti opakovaně sklouzly, navrhl francouzský politik Robert Schuman v roce 1950 nezvyklé řešení, jak zabránit dalšímu konfliktu mezi Francií a Německem.</p><p>Namísto politické dohody navrhl propojit hospodářské zdroje, které byly klíčové pro válečnou výrobu, konkrétně uhlí a ocel, pod společnou nadnárodní správou, do které se v roce 1951 zapojilo šest zakládajících států.</p><p>Myšlenkou bylo, že státy, jejichž klíčové suroviny pro zbrojení jsou spravovány společně a propojeně, si válku mezi sebou budou moci mnohem hůř dovolit, protože by poškodily i vlastní hospodářské zájmy.</p><p><strong>Toto <em>Evropské společenství uhlí a oceli</em> se v následujících desetiletích postupně rozšiřovalo o další oblasti spolupráce a nakonec se vyvinulo v dnešní Evropskou unii.</strong></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "European Union – History of the EU",
+				"url": "https://european-union.europa.eu/principles-countries-history/history-eu_en"
+			},
+			{
+				"label": "Britannica – European Coal and Steel Community",
+				"url": "https://www.britannica.com/topic/European-Coal-and-Steel-Community"
+			}
+		]
+	},
+	{
+		"id": "666",
+		"title": "Nezávislý úředník měl vyslechnout stížnosti občanů na vlastní úřady",
+		"content": "<p>Ve švédské ústavě z roku 1809 se objevila funkce úředníka, který měl být zcela nezávislý na vládě a jehož úkolem bylo přijímat a vyšetřovat stížnosti občanů na jednání státních úřadů.</p><p>Tato instituce, nazvaná švédským slovem <strong>ombudsman</strong>, měla řešit situace, kdy se občan cítí poškozen rozhodnutím úřadu, ale nemá dostatečné prostředky nebo znalosti k tomu, aby se úspěšně bránil soudní cestou.</p><p>Ombudsman nemá pravomoc přímo rušit rozhodnutí úřadů, ale může vyšetřovat, doporučovat nápravu a veřejně upozorňovat na systémové nedostatky ve fungování státní správy.</p><p>Model se od poloviny 20. století rozšířil z Skandinávie do mnoha dalších zemí, včetně instituce veřejného ochránce práv, jak ji zná i česká legislativa.</p><p><em>Cílem instituce zůstává vyrovnat nerovnováhu mezi jednotlivcem a byrokratickým aparátem státu.</em></p>",
+		"category": "politika",
+		"sources": [
+			{
+				"label": "Britannica – Ombudsman",
+				"url": "https://www.britannica.com/topic/ombudsman"
+			},
+			{
+				"label": "International Ombudsman Institute – History",
+				"url": "https://www.theioi.org/the-i-o-i/history"
+			}
+		]
 	}
 ]
