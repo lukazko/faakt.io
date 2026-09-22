@@ -9,12 +9,22 @@
 	 * }}
 	 */
 	import { getCategoryMeta } from '$lib/categories.js';
+	import { getTeaser } from '$lib/teaser.js';
 
 	let { post, categoryFilterActive = false, onCategoryToggle = null } = $props();
-	let expanded = $state(false);
+	let expanded = $state(false);        // rozbalené zdroje
+	let revealed = $state(false);        // odhalený celý text postu
+	let teaserHeight = $state(0);
+	let contentHeight = $state(0);
 
 	let cat = $derived(getCategoryMeta(post.category));
 	let hasSources = $derived(post.sources && post.sources.length > 0);
+	let teaser = $derived(getTeaser(post.content));
+
+	// Změřené výšky drží animaci přesnou — bez mrtvého času u max-height.
+	// Dokud teaser není změřený, max-height se neaplikuje, aby neproblikl.
+	let teaserMaxHeight = $derived(revealed ? '0px' : teaserHeight ? `${teaserHeight}px` : null);
+	let contentMaxHeight = $derived(revealed ? `${contentHeight || 1200}px` : '0px');
 </script>
 
 <article class="post-card">
@@ -32,26 +42,55 @@
 			</button>
 		{/if}
 		<h2 class="title">{post.title}</h2>
-		<div class="content">{@html post.content}</div>
 
-		{#if hasSources}
-			<div class="sources">
-				<button class="source-toggle" onclick={() => expanded = !expanded}>
-					<span class="source-icon">&#9432;</span>
-					Zdroje ({post.sources.length})
-					<span class="chevron" class:rotated={expanded}>&#9662;</span>
-				</button>
-				{#if expanded}
-					<ul class="source-list">
-						{#each post.sources as src}
-							<li>
-								<a href={src.url} target="_blank" rel="noopener noreferrer">{src.label}</a>
-							</li>
-						{/each}
-					</ul>
-				{/if}
+		<div class="body">
+			<!-- Teaser + CTA — po odhalení se plynule sbalí -->
+			<div
+				class="teaser-block"
+				class:collapsed={revealed}
+				style="max-height: {teaserMaxHeight}"
+				aria-hidden={revealed}
+			>
+				<div class="teaser-inner" bind:clientHeight={teaserHeight}>
+					<p class="teaser">{teaser}</p>
+					<button
+						type="button"
+						class="reveal-btn"
+						tabindex={revealed ? -1 : 0}
+						aria-expanded={revealed}
+						onclick={() => revealed = true}
+					>
+						Zjistit proč <span class="reveal-arrow" aria-hidden="true">→</span>
+					</button>
+				</div>
 			</div>
-		{/if}
+
+			<!-- Celý obsah postu — skrytý, dokud uživatel neklikne na CTA -->
+			<div class="content-reveal" class:open={revealed} style="max-height: {contentMaxHeight}">
+				<div class="reveal-inner" bind:clientHeight={contentHeight}>
+					<div class="content">{@html post.content}</div>
+
+					{#if hasSources}
+						<div class="sources">
+							<button class="source-toggle" onclick={() => expanded = !expanded}>
+								<span class="source-icon">&#9432;</span>
+								Zdroje ({post.sources.length})
+								<span class="chevron" class:rotated={expanded}>&#9662;</span>
+							</button>
+							{#if expanded}
+								<ul class="source-list">
+									{#each post.sources as src}
+										<li>
+											<a href={src.url} target="_blank" rel="noopener noreferrer">{src.label}</a>
+										</li>
+									{/each}
+								</ul>
+							{/if}
+						</div>
+					{/if}
+				</div>
+			</div>
+		</div>
 	</div>
 </article>
 
@@ -124,6 +163,88 @@
 		font-size: 0.95rem;
 		line-height: 1.7;
 		color: var(--text-muted);
+	}
+
+	/* Teaser a rozbalený obsah drží stejné rozestupy jako dřív obsah + zdroje */
+	.body {
+		display: flex;
+		flex-direction: column;
+	}
+
+	.teaser-block {
+		overflow: hidden;
+		opacity: 1;
+		transition: max-height 0.35s ease, opacity 0.22s ease;
+	}
+
+	.teaser-block.collapsed {
+		opacity: 0;
+		pointer-events: none;
+	}
+
+	.teaser-inner {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
+		padding-bottom: 16px;
+	}
+
+	.teaser {
+		font-size: 0.95rem;
+		line-height: 1.7;
+		color: var(--text-muted);
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
+	}
+
+	.reveal-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		align-self: flex-start;
+		min-height: 44px;
+		padding: 12px 24px;
+		border: none;
+		border-radius: 999px;
+		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+		color: var(--bg);
+		font-family: inherit;
+		font-size: 0.9rem;
+		font-weight: 700;
+		cursor: pointer;
+		transition: transform 0.15s, box-shadow 0.15s;
+		box-shadow: 0 4px 20px rgba(217, 119, 6, 0.25);
+	}
+
+	.reveal-btn:active {
+		transform: scale(0.95);
+		box-shadow: 0 2px 10px rgba(217, 119, 6, 0.4);
+	}
+
+	.reveal-arrow {
+		font-size: 1rem;
+		line-height: 1;
+	}
+
+	.content-reveal {
+		overflow: hidden;
+		opacity: 0;
+		transform: translateY(-6px);
+		transition: max-height 0.4s ease, opacity 0.3s ease, transform 0.4s ease;
+	}
+
+	.content-reveal.open {
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+	.reveal-inner {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 
 	.content :global(p) {
