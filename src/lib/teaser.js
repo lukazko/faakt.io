@@ -35,6 +35,8 @@ export function htmlToText(html) {
 		.replace(/<[^>]*>/g, ' ')
 		.replace(/&(#x?[0-9a-f]+|[a-z]+);/gi, (_, code) => decodeEntity(code))
 		.replace(/\s+/g, ' ')
+		// Česká typografie — mezera před interpunkcí se v textech občas vyskytne
+		.replace(/\s+([,.;:!?])/g, '$1')
 		.trim();
 }
 
@@ -123,8 +125,6 @@ function scoreHook(sentence, index) {
 
 	const length = sentence.length;
 	if (length >= 40 && length <= 140) score += 2;
-	else if (length < 40) score -= 2;
-	else if (length > 200) score -= 2;
 
 	// Čím dřív ve textu, tím přirozenější teaser
 	if (index === 0) score += 3;
@@ -134,8 +134,27 @@ function scoreHook(sentence, index) {
 }
 
 /**
+ * Vybere z kandidátů nejlépe hodnocenou větu.
+ */
+function pickBest(candidates) {
+	let best = candidates[0];
+	let bestScore = -Infinity;
+	candidates.forEach((sentence, index) => {
+		const score = scoreHook(sentence, index);
+		if (score > bestScore) {
+			bestScore = score;
+			best = sentence;
+		}
+	});
+	return best;
+}
+
+/**
  * Vybere hook z úvodu postu. Pointu (poslední odstavec a poslední větu)
  * nikdy nepoužije, aby teaser neprozradil rozuzlení.
+ *
+ * Hook je vždy celá věta — nikdy se neusekává uprostřed. Když se do
+ * preferované délky nic nevejde, povolí se delší věty, případně i krátké.
  * @param {string} html
  * @param {number} maxLength
  */
@@ -156,22 +175,19 @@ export function getHook(html, maxLength = 150) {
 
 	if (sentences.length === 0) return getTeaser(html, maxLength);
 
-	let best = sentences[0];
-	let bestScore = -Infinity;
-	sentences.forEach((sentence, index) => {
-		const score = scoreHook(sentence, index);
-		if (score > bestScore) {
-			bestScore = score;
-			best = sentence;
-		}
-	});
+	const minLength = 30;
+	const pools = [
+		sentences.filter(s => s.length >= minLength && s.length <= maxLength),
+		sentences.filter(s => s.length >= minLength && s.length <= maxLength * 1.5),
+		sentences.filter(s => s.length >= minLength)
+	];
 
-	if (best.length <= maxLength) return best;
+	for (const pool of pools) {
+		if (pool.length > 0) return pickBest(pool);
+	}
 
-	const cut = best.slice(0, maxLength);
-	const lastSpace = cut.lastIndexOf(' ');
-	const body = lastSpace > maxLength * 0.6 ? cut.slice(0, lastSpace) : cut;
-	return body.replace(/[\s,;:.!?–—-]+$/, '') + '…';
+	// Samé extrémně krátké věty — vezmi tu nejdelší, pořád celou
+	return sentences.reduce((a, b) => (b.length > a.length ? b : a));
 }
 
 // --- CTA ---

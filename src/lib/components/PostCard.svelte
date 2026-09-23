@@ -63,7 +63,7 @@
 						aria-expanded={revealed}
 						onclick={() => revealed = true}
 					>
-						{cta} <span class="reveal-arrow" aria-hidden="true">→</span>
+						{cta}
 					</button>
 				</div>
 			</div>
@@ -200,21 +200,16 @@
 		padding-bottom: 16px;
 	}
 
+	/* Bez ořezu na počet řádků — hook musí zůstat celou větou */
 	.teaser {
 		font-size: 0.95rem;
 		line-height: 1.7;
 		color: var(--text-muted);
-		display: -webkit-box;
-		-webkit-line-clamp: 3;
-		line-clamp: 3;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
 	}
 
 	.reveal-btn {
 		display: inline-flex;
 		align-items: center;
-		gap: 8px;
 		align-self: flex-start;
 		min-height: 44px;
 		padding: 12px 24px;
@@ -233,11 +228,6 @@
 	.reveal-btn:active {
 		transform: scale(0.95);
 		box-shadow: 0 2px 10px rgba(217, 119, 6, 0.4);
-	}
-
-	.reveal-arrow {
-		font-size: 1rem;
-		line-height: 1;
 	}
 
 	.content-reveal {
