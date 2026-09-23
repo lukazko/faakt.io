@@ -63,7 +63,7 @@
 						aria-expanded={revealed}
 						onclick={() => revealed = true}
 					>
-						{cta}
+						<span class="reveal-btn-text">{cta}</span>
 					</button>
 				</div>
 			</div>
@@ -196,8 +196,9 @@
 	.teaser-inner {
 		display: flex;
 		flex-direction: column;
-		gap: 16px;
-		padding-bottom: 16px;
+		/* Mezery drží stejný rytmus jako dřív — padding CTA se do nich započítává */
+		gap: 6px;
+		padding-bottom: 6px;
 	}
 
 	/* Bez ořezu na počet řádků — hook musí zůstat celou větou */
@@ -207,27 +208,44 @@
 		color: var(--text-muted);
 	}
 
+	/* CTA jako pokračování textu, ne tlačítko — zůstává <button> kvůli
+	   přístupnosti, ale bez pill tvaru, pozadí a stínu */
 	.reveal-btn {
 		display: inline-flex;
 		align-items: center;
 		align-self: flex-start;
 		min-height: 44px;
-		padding: 12px 24px;
+		padding: 10px 0;
 		border: none;
-		border-radius: 999px;
-		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
-		color: var(--bg);
+		background: none;
 		font-family: inherit;
-		font-size: 0.9rem;
-		font-weight: 700;
+		font-size: 0.95rem;
+		font-weight: 600;
 		cursor: pointer;
-		transition: transform 0.15s, box-shadow 0.15s;
-		box-shadow: 0 4px 20px rgba(217, 119, 6, 0.25);
+		-webkit-tap-highlight-color: transparent;
+		transition: opacity 0.15s;
 	}
 
 	.reveal-btn:active {
-		transform: scale(0.95);
-		box-shadow: 0 2px 10px rgba(217, 119, 6, 0.4);
+		opacity: 0.65;
+	}
+
+	/* Gradient i linka sedí na textu, ne na paddingu tlačítka */
+	.reveal-btn-text {
+		/* Stejný gradient jako logo */
+		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		color: var(--accent-secondary);
+		line-height: 1.3;
+		padding-bottom: 2px;
+		border-bottom: 1px solid rgba(245, 158, 11, 0.3);
+		transition: border-color 0.15s;
+	}
+
+	.reveal-btn:hover .reveal-btn-text {
+		border-color: var(--accent-secondary);
 	}
 
 	.content-reveal {
