@@ -78,8 +78,23 @@ const HOOK_STARTERS = new Set([
 	'co', 'proč', 'jak', 'kolik', 'kdo', 'kde', 'kdy', 'představte', 'představ'
 ]);
 
+// Slova, kterými věta odkazuje na něco, co zaznělo dřív.
+// Samotná věta „Tento vztah je výjimečný.“ nedává bez kontextu smysl.
+const BACKREF_STARTERS = new Set([
+	'tento', 'tato', 'toto', 'tyto', 'těchto', 'tito', 'onen', 'ona', 'ono',
+	'přesto', 'právě', 'proto', 'tím', 'tímto', 'navíc', 'naopak',
+	'dodal', 'dodala', 'dodali', 'dodává', 'uvedl', 'uvedla', 'řekl', 'řekla'
+]);
+
+// Strop pro hook složený ze dvou vět — delší už není teaser, ale celý post
+const PAIR_LIMIT = 320;
+
 function words(text) {
 	return text.toLowerCase().split(/[^\p{L}]+/u).filter(Boolean);
+}
+
+function firstWord(sentence) {
+	return words(sentence)[0] || '';
 }
 
 function matchesWords(text, exactWords, stems) {
@@ -134,16 +149,43 @@ function scoreHook(sentence, index) {
 }
 
 /**
- * Vybere z kandidátů nejlépe hodnocenou větu.
+ * Věta, která sama o sobě nedrží: ptá se, ale neodpovídá,
+ * nebo odkazuje na něco, co zaznělo dřív.
+ */
+function needsSupport(sentence) {
+	return sentence.includes('?') || BACKREF_STARTERS.has(firstWord(sentence));
+}
+
+/**
+ * Doplní k větě sousední větu, bez které by hook nedával smysl.
+ * Otázka potřebuje odpověď za sebou, odkazovací věta kontext před sebou.
+ * Poslední větu postu nikdy nepřidá — nesmí prozradit pointu.
+ * @param {string} sentence
+ * @param {number} index pozice ve `all`
+ * @param {string[]} all věty úvodu v pořadí
+ * @param {string | null} lastSentence
+ */
+function withSupport(sentence, index, all, lastSentence) {
+	if (!needsSupport(sentence)) return sentence;
+
+	const isQuestion = sentence.includes('?');
+	const neighbour = isQuestion ? all[index + 1] : all[index - 1];
+	if (!neighbour || neighbour === lastSentence) return sentence;
+
+	return isQuestion ? `${sentence} ${neighbour}` : `${neighbour} ${sentence}`;
+}
+
+/**
+ * Vybere z kandidátů nejlépe hodnocený hook.
  */
 function pickBest(candidates) {
 	let best = candidates[0];
 	let bestScore = -Infinity;
-	candidates.forEach((sentence, index) => {
-		const score = scoreHook(sentence, index);
+	candidates.forEach((candidate, index) => {
+		const score = scoreHook(candidate.sentence, index);
 		if (score > bestScore) {
 			bestScore = score;
-			best = sentence;
+			best = candidate;
 		}
 	});
 	return best;
@@ -164,30 +206,47 @@ export function getHook(html, maxLength = 150) {
 
 	// Kandidáti jen z úvodu — poslední odstavec (pointa) zůstává skrytý
 	const source = paragraphs.slice(0, Math.max(1, paragraphs.length - 1)).slice(0, 2);
-	const allSentences = htmlToText(html).split(SENTENCE_SPLIT);
-	const lastSentence = allSentences.length > 1 ? allSentences[allSentences.length - 1].trim() : null;
-
-	const sentences = source
+	const all = source
 		.flatMap(paragraph => paragraph.split(SENTENCE_SPLIT))
 		.map(s => s.trim())
-		.filter(Boolean)
-		.filter(s => s !== lastSentence);
+		.filter(Boolean);
 
-	if (sentences.length === 0) return getTeaser(html, maxLength);
+	const wholeText = htmlToText(html).split(SENTENCE_SPLIT);
+	const lastSentence = wholeText.length > 1 ? wholeText[wholeText.length - 1].trim() : null;
 
+	// `sentence` rozhoduje o výběru, `text` je to, co se zobrazí —
+	// u otázky a odkazovací věty je delší o větu, bez které nedrží
+	const hooks = all
+		.map((sentence, index) => ({
+			sentence,
+			text: withSupport(sentence, index, all, lastSentence)
+		}))
+		.filter(hook => hook.sentence !== lastSentence);
+
+	if (hooks.length === 0) return getTeaser(html, maxLength);
+
+	// Délka se poměřuje podle samotné věty, ne podle doplněného textu —
+	// doplnění je nutná oprava, ne stylistická volba
 	const minLength = 30;
 	const pools = [
-		sentences.filter(s => s.length >= minLength && s.length <= maxLength),
-		sentences.filter(s => s.length >= minLength && s.length <= maxLength * 1.5),
-		sentences.filter(s => s.length >= minLength)
+		hooks.filter(h => h.sentence.length >= minLength && h.sentence.length <= maxLength),
+		hooks.filter(h => h.sentence.length >= minLength && h.sentence.length <= maxLength * 1.5),
+		hooks.filter(h => h.sentence.length >= minLength)
 	];
 
+	// Nejdřív hooky, které i s doplněním zůstanou únosně dlouhé
 	for (const pool of pools) {
-		if (pool.length > 0) return pickBest(pool);
+		const fitting = pool.filter(hook => hook.text.length <= PAIR_LIMIT);
+		if (fitting.length > 0) return pickBest(fitting).text;
+	}
+
+	// Všechno přerostlo strop — radši delší hook než žádný
+	for (const pool of pools) {
+		if (pool.length > 0) return pickBest(pool).text;
 	}
 
 	// Samé extrémně krátké věty — vezmi tu nejdelší, pořád celou
-	return sentences.reduce((a, b) => (b.length > a.length ? b : a));
+	return hooks.reduce((a, b) => (b.text.length > a.text.length ? b : a)).text;
 }
 
 // --- CTA ---
