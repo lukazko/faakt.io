@@ -9,7 +9,7 @@
 	 * }}
 	 */
 	import { getCategoryMeta } from '$lib/categories.js';
-	import { getTeaser } from '$lib/teaser.js';
+	import { getHook, getCta, splitTakeaway } from '$lib/teaser.js';
 
 	let { post, categoryFilterActive = false, onCategoryToggle = null } = $props();
 	let expanded = $state(false);        // rozbalené zdroje
@@ -19,7 +19,10 @@
 
 	let cat = $derived(getCategoryMeta(post.category));
 	let hasSources = $derived(post.sources && post.sources.length > 0);
-	let teaser = $derived(getTeaser(post.content));
+
+	let hook = $derived(getHook(post.content));
+	let cta = $derived(getCta(post, hook));
+	let parts = $derived(splitTakeaway(post.content));
 
 	// Změřené výšky drží animaci přesnou — bez mrtvého času u max-height.
 	// Dokud teaser není změřený, max-height se neaplikuje, aby neproblikl.
@@ -52,7 +55,7 @@
 				aria-hidden={revealed}
 			>
 				<div class="teaser-inner" bind:clientHeight={teaserHeight}>
-					<p class="teaser">{teaser}</p>
+					<p class="teaser">{hook}</p>
 					<button
 						type="button"
 						class="reveal-btn"
@@ -60,7 +63,7 @@
 						aria-expanded={revealed}
 						onclick={() => revealed = true}
 					>
-						Zjistit proč <span class="reveal-arrow" aria-hidden="true">→</span>
+						{cta} <span class="reveal-arrow" aria-hidden="true">→</span>
 					</button>
 				</div>
 			</div>
@@ -68,7 +71,15 @@
 			<!-- Celý obsah postu — skrytý, dokud uživatel neklikne na CTA -->
 			<div class="content-reveal" class:open={revealed} style="max-height: {contentMaxHeight}">
 				<div class="reveal-inner" bind:clientHeight={contentHeight}>
-					<div class="content">{@html post.content}</div>
+					<div class="content">{@html parts.body}</div>
+
+					<!-- Závěrečný odstavec jako samostatný takeaway -->
+					{#if parts.takeaway}
+						<div class="takeaway">
+							<span class="takeaway-label">Takeaway</span>
+							<div class="takeaway-text">{@html parts.takeaway}</div>
+						</div>
+					{/if}
 
 					{#if hasSources}
 						<div class="sources">
@@ -248,7 +259,7 @@
 	}
 
 	.content :global(p) {
-		margin-bottom: 10px;
+		margin-bottom: 14px;
 	}
 
 	.content :global(p:last-child) {
@@ -279,6 +290,40 @@
 	}
 
 	.content :global(em) { font-style: italic; color: var(--text-muted); }
+
+	/* Takeaway — vizuálně oddělený závěr postu */
+	.takeaway {
+		display: flex;
+		flex-direction: column;
+		gap: 8px;
+		padding: 14px 16px;
+		border-left: 2px solid var(--accent);
+		border-radius: 0 10px 10px 0;
+		background: rgba(255, 255, 255, 0.03);
+	}
+
+	.takeaway-label {
+		font-size: 0.6rem;
+		font-weight: 700;
+		letter-spacing: 0.14em;
+		text-transform: uppercase;
+		color: var(--accent);
+		opacity: 0.85;
+	}
+
+	.takeaway-text {
+		font-size: 0.95rem;
+		line-height: 1.7;
+		color: var(--text);
+	}
+
+	.takeaway-text :global(p) {
+		margin: 0;
+	}
+
+	.takeaway-text :global(strong) {
+		font-weight: 700;
+	}
 
 	/* Sources */
 	.sources {
