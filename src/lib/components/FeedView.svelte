@@ -125,6 +125,15 @@
 	}
 
 	/**
+	 * Zrušení filtru z hlavičky: uživatel zůstane na příspěvku, na kterém stojí —
+	 * ten se posune na první místo a zbytek feedu se znovu zamíchá napříč kategoriemi.
+	 */
+	function clearCategory() {
+		const current = posts[currentIndex];
+		applyCategory(null, { targetId: current ? current.id : null });
+	}
+
+	/**
 	 * Vrátí správné URL pro sdílení, nezávisle na BASE_URL
 	 * Pracuje stejně na localhost i GitHub Pages
 	 */
@@ -269,7 +278,7 @@
 					style="--cat-color: {activeCategoryMeta.color}"
 					title="Zrušit filtr kategorie"
 					aria-label={`Zrušit filtr kategorie ${activeCategoryMeta.label}`}
-					onclick={() => applyCategory(null)}
+					onclick={clearCategory}
 				>
 					<span class="header-category-label">{activeCategoryMeta.label}</span>
 					<span class="header-category-close" aria-hidden="true">×</span>
