@@ -309,7 +309,16 @@
 					</button>
 					<!-- Action menu -->
 					{#if activeMenu === post.id}
-						<div class="action-menu" onclick={() => activeMenu = null}>
+						<!-- Neviditelný podklad přes celou obrazovku — tapnutí kamkoli mimo
+						     bublinu (i na tlačítko samotné) ji zavře. -->
+						<button
+							type="button"
+							class="action-backdrop"
+							tabindex="-1"
+							aria-hidden="true"
+							onclick={() => activeMenu = null}
+						></button>
+						<div class="action-menu">
 							<button class="action-item" onclick={(e) => { e.stopPropagation(); sharePost(post); activeMenu = null; }}>
 								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 									<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
@@ -529,12 +538,17 @@
 
 	.card-wrapper {
 		position: relative;
+		/* Tlačítko sedí v rohu, ale nikdy nepodleze gesture bar / home indicator.
+		   max() místo sčítání — v PWA se odsazení nepřičítá k základu, takže
+		   tlačítko zbytečně nevisí vysoko a obsah má víc místa. */
+		--action-bottom: max(24px, env(safe-area-inset-bottom, 0px));
+		--action-right: max(20px, env(safe-area-inset-right, 0px));
 	}
 
 	.action-btn {
 		position: absolute;
-		bottom: calc(24px + env(safe-area-inset-bottom, 0px));
-		right: calc(20px + env(safe-area-inset-right, 0px));
+		bottom: var(--action-bottom);
+		right: var(--action-right);
 		width: 48px;
 		height: 48px;
 		border-radius: 50%;
@@ -557,10 +571,23 @@
 		border-color: var(--accent);
 	}
 
+	/* Nad hlavičkou (z-index 50), aby tapnutí kamkoli mimo bublinu opravdu zavřelo */
+	.action-backdrop {
+		position: fixed;
+		inset: 0;
+		padding: 0;
+		border: none;
+		background: none;
+		z-index: 60;
+		cursor: default;
+		-webkit-tap-highlight-color: transparent;
+	}
+
 	.action-menu {
 		position: absolute;
-		bottom: calc(80px + env(safe-area-inset-bottom, 0px));
-		right: calc(20px + env(safe-area-inset-right, 0px));
+		/* Drží stejnou mezeru nad tlačítkem (48px výška + 8px odstup) */
+		bottom: calc(var(--action-bottom) + 56px);
+		right: var(--action-right);
 		background: rgba(24, 24, 24, 0.95);
 		backdrop-filter: blur(12px);
 		border: 1px solid #333;
@@ -569,7 +596,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 2px;
-		z-index: 20;
+		/* Výš než podklad (60), aby šly položky nabídky pořád klikat */
+		z-index: 70;
 		min-width: 160px;
 		animation: menuIn 0.2s ease-out;
 	}

@@ -112,12 +112,13 @@
 		display: flex;
 		align-items: center;
 		justify-content: center;
-		/* V PWA drží obsah mimo stavovou lištu, výřez a gesture bar */
+		/* V PWA drží obsah mimo stavovou lištu a výřez. Dole a po stranách stačí
+		   max() — sčítání by zbytečně zkracovalo obsah, i když tam nic nepřekáží. */
 		padding:
 			calc(24px + env(safe-area-inset-top, 0px))
-			calc(20px + env(safe-area-inset-right, 0px))
-			calc(24px + env(safe-area-inset-bottom, 0px))
-			calc(20px + env(safe-area-inset-left, 0px));
+			max(20px, env(safe-area-inset-right, 0px))
+			max(24px, env(safe-area-inset-bottom, 0px))
+			max(20px, env(safe-area-inset-left, 0px));
 		scroll-snap-align: start;
 		position: relative;
 	}
