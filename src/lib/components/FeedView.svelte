@@ -40,13 +40,19 @@
 	let cardsAtCenter = new Map();           // index → karta protínající střed obrazovky
 	let headersOnScreen = new SvelteSet();   // postId, jejichž hlavička je vidět
 	let revealed = new SvelteSet();          // postId rozbalených postů
-	let revealedOnScreen = new SvelteSet();  // z rozbalených ty, které jsou na obrazovce
+	let revealedTall = new SvelteSet();      // z rozbalených ty delší než obrazovka
+	let revealedOnScreen = new SvelteSet();  // z těch delších ty, co ještě přesahují pod lištu
 	let headerHeight = $state(0);
 	let observers = null;
 	let appliedHeaderOffset = 0;
 
 	const HEADER_GAP = 8;            // px — malá rezerva, ať kontext neproblikává
 	const DEFAULT_HEADER_HEIGHT = 56;
+	// Rozbalený dlouhý post se čte volně, ale jen dokud jeho konec nezačne
+	// utíkat pod horní lištu. Pás kousek pod lištou je hranice: jakmile přes
+	// něj přeteče následující post, snap se vrátí a stránkuje se zase ostře.
+	const SNAP_HANDOVER_TOP = 12;
+	const SNAP_HANDOVER_BOTTOM = 86;
 
 	/**
 	 * Střed obrazovky leží uvnitř právě jedné karty — ta je aktuální.
@@ -103,7 +109,12 @@
 			header: new IntersectionObserver(onHeaderChange, {
 				rootMargin: `-${appliedHeaderOffset}px 0px 0px 0px`
 			}),
-			reveal: new IntersectionObserver(onRevealedVisibility)
+			// Tenký pás pod sticky hlavičkou: hlásí se jen rozbalené posty delší
+			// než obrazovka a jen dokud jejich konec sahá pod tento pás. Ve chvíli,
+			// kdy ho přeteče, přebírá scrollování snap a další post se ukotví.
+			reveal: new IntersectionObserver(onRevealedVisibility, {
+				rootMargin: `-${SNAP_HANDOVER_TOP}% 0px -${SNAP_HANDOVER_BOTTOM}% 0px`
+			})
 		};
 	}
 
@@ -112,7 +123,7 @@
 		observers = createObservers();
 		for (const [id, el] of cardEls) {
 			observers.center.observe(el);
-			if (revealed.has(id)) observers.reveal.observe(el);
+			if (revealedTall.has(id)) observers.reveal.observe(el);
 		}
 		for (const el of headerEls.values()) observers.header.observe(el);
 		return observers;
@@ -134,12 +145,13 @@
 		cardEls.set(id, node);
 		const created = ensureObservers();
 		created?.center.observe(node);
-		if (revealed.has(id)) created?.reveal.observe(node);
+		if (revealedTall.has(id)) created?.reveal.observe(node);
 		return {
 			destroy() {
 				cardEls.delete(id);
 				// Odmountovaná karta nesmí nechat ve feedu viset svůj stav
 				revealed.delete(id);
+				revealedTall.delete(id);
 				revealedOnScreen.delete(id);
 				cardsAtCenter.delete(Number(node.dataset.index));
 				observers?.center.unobserve(node);
@@ -205,12 +217,17 @@
 		const card = cardEls.get(id);
 		if (isRevealed) {
 			revealed.add(id);
-			if (card) ensureObservers()?.reveal.observe(card);
-			// Kratší posty se vejdou i rozbalené — tam se neposouvá nic
-			if (metrics?.overflows && scrollToPostStart(id, metrics.contentInset)) holdSnap();
+			// Jen posty delší než obrazovka se čtou volně; kratší se vejdou i
+			// rozbalené, takže u nich snap zůstává zapnutý a stránkuje se dál
+			if (metrics?.overflows) {
+				revealedTall.add(id);
+				if (card) ensureObservers()?.reveal.observe(card);
+				if (scrollToPostStart(id, metrics.contentInset)) holdSnap();
+			}
 		} else {
 			const wasRevealed = revealed.has(id);
 			revealed.delete(id);
+			revealedTall.delete(id);
 			revealedOnScreen.delete(id);
 			if (card) observers?.reveal.unobserve(card);
 			if (wasRevealed && card?.isConnected && scrollToCardStart(id)) holdSnap();
@@ -229,10 +246,9 @@
 	let stickyTitle = $derived(stickyPost?.title ?? null);
 
 	// Povinný scroll-snap by rozbalený text delší než obrazovka vracel zpátky
-	// na začátek karty. Dokud je rozbalený post na obrazovce, feed se nestránkuje.
-	let freeScroll = $derived(
-		snapHold || revealedOnScreen.size > 0 || revealed.has(posts[currentIndex]?.id)
-	);
+	// na začátek karty. Volně se proto čte jen uvnitř takového postu — jakmile
+	// jeho konec uteče pod lištu, snap se vrátí a mezi posty se zase stránkuje.
+	let freeScroll = $derived(snapHold || revealedOnScreen.size > 0);
 
 	// Po sbalení se pohled vrací na začátek karty plynulým posunem — snap se
 	// proto na chvíli podrží, aby se nechytil uprostřed cesty.
@@ -703,8 +719,9 @@
 		overscroll-behavior: none;
 	}
 
-	/* Rozbalený post se čte volně — povinný snap by delší text než obrazovka
-	   vracel zpátky na začátek karty. */
+	/* Uvnitř rozbaleného postu se čte volně — povinný snap by delší text než
+	   obrazovka vracel zpátky na začátek karty. Jakmile ale konec postu přeteče
+	   pod lištu, snap se vrátí a další post se ukotví stejně ostře jako náhledy. */
 	.feed-container.free-scroll {
 		scroll-snap-type: none;
 	}
@@ -723,9 +740,9 @@
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		font-size: 0.78rem;
+		font-size: 0.75rem;
 		font-weight: 500;
-		color: #999;
+		color: #7a7a7a;
 	}
 
 	/* S kontextem se musí vejít i label filtru — nechá mu jen menší díl šířky */
@@ -751,9 +768,13 @@
 		padding:
 			calc(16px + env(safe-area-inset-top, 0px))
 			calc(20px + env(safe-area-inset-right, 0px))
-			20px
+			30px
 			calc(20px + env(safe-area-inset-left, 0px));
-		background: linear-gradient(to bottom, var(--bg) 60%, transparent);
+		/* Text postu má zmizet dřív, než se dostane k fixovanému textu: delší
+		   plná část a krátký přechod, ne pozvolné prolínání pod logem. */
+		background: linear-gradient(to bottom, var(--bg) 78%, transparent);
+		/* Tenká linka odděluje lištu od obsahu, který se pod ni podsouvá */
+		border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 		pointer-events: none;
 	}
 
