@@ -773,8 +773,6 @@
 		/* Text postu má zmizet dřív, než se dostane k fixovanému textu: delší
 		   plná část a krátký přechod, ne pozvolné prolínání pod logem. */
 		background: linear-gradient(to bottom, var(--bg) 78%, transparent);
-		/* Tenká linka odděluje lištu od obsahu, který se pod ni podsouvá */
-		border-bottom: 1px solid rgba(255, 255, 255, 0.07);
 		pointer-events: none;
 	}
 
