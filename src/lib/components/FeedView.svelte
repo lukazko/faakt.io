@@ -430,7 +430,13 @@
 		display: flex;
 		align-items: baseline;
 		gap: 10px;
-		padding: 16px 20px 20px;
+		/* V PWA (standalone) jde obsah pod stavovou lištu / výřez — odsazení
+		   drží logo pod nimi. V běžném prohlížeči jsou insety nulové. */
+		padding:
+			calc(16px + env(safe-area-inset-top, 0px))
+			calc(20px + env(safe-area-inset-right, 0px))
+			20px
+			calc(20px + env(safe-area-inset-left, 0px));
 		background: linear-gradient(to bottom, var(--bg) 60%, transparent);
 		pointer-events: none;
 	}
@@ -527,8 +533,8 @@
 
 	.action-btn {
 		position: absolute;
-		bottom: 24px;
-		right: 20px;
+		bottom: calc(24px + env(safe-area-inset-bottom, 0px));
+		right: calc(20px + env(safe-area-inset-right, 0px));
 		width: 48px;
 		height: 48px;
 		border-radius: 50%;
@@ -553,8 +559,8 @@
 
 	.action-menu {
 		position: absolute;
-		bottom: 80px;
-		right: 20px;
+		bottom: calc(80px + env(safe-area-inset-bottom, 0px));
+		right: calc(20px + env(safe-area-inset-right, 0px));
 		background: rgba(24, 24, 24, 0.95);
 		backdrop-filter: blur(12px);
 		border: 1px solid #333;
@@ -618,7 +624,11 @@
 		align-items: center;
 		justify-content: center;
 		gap: 24px;
-		padding: 24px 20px;
+		padding:
+			calc(24px + env(safe-area-inset-top, 0px))
+			calc(20px + env(safe-area-inset-right, 0px))
+			calc(24px + env(safe-area-inset-bottom, 0px))
+			calc(20px + env(safe-area-inset-left, 0px));
 		scroll-snap-align: start;
 		text-align: center;
 	}
@@ -675,7 +685,8 @@
 
 	.progress-bar {
 		position: fixed;
-		top: 0;
+		/* Pod stavovou lištou, aby nebyla v PWA schovaná za ní */
+		top: env(safe-area-inset-top, 0px);
 		left: 0;
 		height: 3px;
 		background: linear-gradient(90deg, var(--accent), var(--accent-secondary));
@@ -686,7 +697,7 @@
 
 	.toast {
 		position: fixed;
-		bottom: 80px;
+		bottom: calc(80px + env(safe-area-inset-bottom, 0px));
 		left: 50%;
 		transform: translateX(-50%) translateY(20px);
 		background: rgba(30, 30, 30, 0.95);
