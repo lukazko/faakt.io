@@ -1,0 +1,39 @@
+{
+	"name": "faakt.io — doomscrolling, ale lepší",
+	"short_name": "faakt.io",
+	"description": "Scrolluj zajímavými historickými fakty, filozofickými myšlenkami a příběhy. TikTok pro tvou mysl.",
+	"lang": "cs",
+	"dir": "ltr",
+	"start_url": "/faakt.io/",
+	"scope": "/faakt.io/",
+	"id": "/faakt.io/",
+	"display": "standalone",
+	"theme_color": "#0a0a0a",
+	"background_color": "#0a0a0a",
+	"icons": [
+		{
+			"src": "icons/icon-192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "icons/icon-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "any"
+		},
+		{
+			"src": "icons/icon-maskable-192.png",
+			"sizes": "192x192",
+			"type": "image/png",
+			"purpose": "maskable"
+		},
+		{
+			"src": "icons/icon-maskable-512.png",
+			"sizes": "512x512",
+			"type": "image/png",
+			"purpose": "maskable"
+		}
+	]
+}
