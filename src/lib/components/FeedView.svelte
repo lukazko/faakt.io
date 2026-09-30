@@ -138,6 +138,9 @@
 		return {
 			destroy() {
 				cardEls.delete(id);
+				// Odmountovaná karta nesmí nechat ve feedu viset svůj stav
+				revealed.delete(id);
+				revealedOnScreen.delete(id);
 				cardsAtCenter.delete(Number(node.dataset.index));
 				observers?.center.unobserve(node);
 				observers?.reveal.unobserve(node);
@@ -158,16 +161,59 @@
 		ensureObservers()?.header.observe(el);
 	}
 
-	/** Rozbalení/sbalení postu — volá PostCard */
-	function registerReveal(id, isRevealed) {
+	/**
+	 * Plynulý posun feedu na danou pozici. `scroll-behavior: smooth` v CSS
+	 * drží stejný jazyk jako zbytek scrollování; když je posun nepatrný,
+	 * neposouvá se vůbec nic.
+	 */
+	function scrollFeedTo(top) {
+		const container = document.querySelector('.feed-container');
+		if (!container) return false;
+		const target = Math.max(0, Math.round(top));
+		if (Math.abs(target - container.scrollTop) < 2) return false;
+		// Až v dalším framu — přepnutí snapu se musí stihnout propsat do DOM,
+		// jinak by povinný snap posun srazil zpátky na začátek karty
+		requestAnimationFrame(() => container.scrollTo({ top: target, behavior: 'smooth' }));
+		return true;
+	}
+
+	/**
+	 * Po rozbalení stojí začátek obsahu hned pod sticky hlavičkou — titulek
+	 * s kategorií tedy nezmizí za logem, i když je karta delší než obrazovka.
+	 * Posun startuje ve stejném okamžiku jako animace rozbalení, takže se
+	 * obsah jen plynule sune vzhůru, místo aby někam uskočil.
+	 */
+	function scrollToPostStart(id, contentInset) {
+		const cardTop = contentOffset(cardEls.get(id), document.querySelector('.feed-container'));
+		if (cardTop === null) return false;
+		return scrollFeedTo(cardTop + contentInset - (headerHeight + HEADER_GAP));
+	}
+
+	/** Sbalený post se vrací na začátek své karty, tedy na snap pozici */
+	function scrollToCardStart(id) {
+		const cardTop = contentOffset(cardEls.get(id), document.querySelector('.feed-container'));
+		if (cardTop === null) return false;
+		return scrollFeedTo(cardTop);
+	}
+
+	/**
+	 * Rozbalení/sbalení postu — volá PostCard. U rozbalených karet se vypíná
+	 * snap (řeší `freeScroll`), u sbalených se naopak chvíli podrží, aby posun
+	 * na začátek karty dojel dřív, než snap znovu převezme vládu.
+	 */
+	function registerReveal(id, isRevealed, metrics = null) {
 		const card = cardEls.get(id);
 		if (isRevealed) {
 			revealed.add(id);
 			if (card) ensureObservers()?.reveal.observe(card);
+			// Kratší posty se vejdou i rozbalené — tam se neposouvá nic
+			if (metrics?.overflows && scrollToPostStart(id, metrics.contentInset)) holdSnap();
 		} else {
+			const wasRevealed = revealed.has(id);
 			revealed.delete(id);
 			revealedOnScreen.delete(id);
 			if (card) observers?.reveal.unobserve(card);
+			if (wasRevealed && card?.isConnected && scrollToCardStart(id)) holdSnap();
 		}
 	}
 
@@ -185,8 +231,19 @@
 	// Povinný scroll-snap by rozbalený text delší než obrazovka vracel zpátky
 	// na začátek karty. Dokud je rozbalený post na obrazovce, feed se nestránkuje.
 	let freeScroll = $derived(
-		revealedOnScreen.size > 0 || revealed.has(posts[currentIndex]?.id)
+		snapHold || revealedOnScreen.size > 0 || revealed.has(posts[currentIndex]?.id)
 	);
+
+	// Po sbalení se pohled vrací na začátek karty plynulým posunem — snap se
+	// proto na chvíli podrží, aby se nechytil uprostřed cesty.
+	let snapHold = $state(false);
+	let snapHoldTimer;
+
+	function holdSnap() {
+		snapHold = true;
+		clearTimeout(snapHoldTimer);
+		snapHoldTimer = setTimeout(() => (snapHold = false), 600);
+	}
 
 	function shufflePosts(arr, targetId) {
 		const shuffled = [...arr];
@@ -425,6 +482,7 @@
 	});
 
 	$effect(() => () => {
+		clearTimeout(snapHoldTimer);
 		if (!observers) return;
 		observers.center.disconnect();
 		observers.header.disconnect();
@@ -638,6 +696,9 @@
 		overflow-y: scroll;
 		scroll-snap-type: y mandatory;
 		scroll-behavior: smooth;
+		/* Rozbalení mění výšku karty uprostřed obrazovky — automatické ukotvení
+		   prohlížeče by se hádalo s posunem na začátek postu, který řídíme sami */
+		overflow-anchor: none;
 		-webkit-overflow-scrolling: touch;
 		overscroll-behavior: none;
 	}

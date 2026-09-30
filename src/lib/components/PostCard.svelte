@@ -8,7 +8,7 @@
 	 *   sources: Array<{ label: string, url: string }>
 	 * }}
 	 */
-	import { untrack } from 'svelte';
+	import { tick, untrack } from 'svelte';
 	import { getCategoryMeta } from '$lib/categories.js';
 	import { getHook, getCta, splitTakeaway } from '$lib/teaser.js';
 
@@ -17,13 +17,16 @@
 		categoryFilterActive = false,
 		onCategoryToggle = null,
 		onHeaderEl = null,     // (postId, element) — FeedView si hlavičku pozoruje
-		onReveal = null        // (postId, rozbaleno) — FeedView podle toho vypíná snap
+		onReveal = null        // (postId, rozbaleno, rozměry) — FeedView podle toho
+		                       // vypíná snap a posouvá pohled na začátek postu
 	} = $props();
 	let expanded = $state(false);        // rozbalené zdroje
 	let revealed = $state(false);        // odhalený celý text postu
 	let teaserHeight = $state(0);
 	let contentHeight = $state(0);
 	let headerEl = $state(null);         // kategorie + titulek jako jeden blok
+	let cardEl = $state(null);           // celá karta
+	let ctaEl = $state(null);            // tlačítko, které post rozbalí
 
 	// FeedView potřebuje k pozorování samotný element hlavičky. `untrack`, aby
 	// se registrace nepřepočítávala při každé změně stavu ve FeedView.
@@ -34,15 +37,34 @@
 		return () => onHeaderEl?.(post.id, null);
 	});
 
-	// Odmountovaná karta nesmí nechat ve FeedView viset svůj stav
-	$effect(() => () => onReveal?.(post.id, false));
+	/**
+	 * Co FeedView potřebuje, aby pohled po rozbalení zůstal na začátku postu:
+	 * `contentInset` — kde začíná obsah od horního okraje karty (teprve tam
+	 * titulek po rozbalení je) a `overflows` — bude článek delší než obrazovka?
+	 * U kratších postů se obsah vejde i sbalený, takže se neposouvá nic.
+	 */
+	function revealMetrics() {
+		const inset = cardEl ? parseFloat(getComputedStyle(cardEl).paddingTop) || 0 : 0;
+		const overflows = (headerEl?.clientHeight ?? 0) + contentHeight + inset > window.innerHeight;
+		return { contentInset: inset, overflows };
+	}
 
 	function reveal() {
 		if (revealed) return;
 		revealed = true;
 		// Hlásí se synchronně s kliknutím — feed musí stihnout vypnout
 		// scroll-snap dřív, než se karta začne natahovat.
-		onReveal?.(post.id, true);
+		onReveal?.(post.id, true, revealMetrics());
+	}
+
+	/** Sbalení zpátky na teaser — karta se vrátí na jednu obrazovku */
+	async function collapse() {
+		if (!revealed) return;
+		revealed = false;
+		onReveal?.(post.id, false);
+		// Fokus by zůstal na tlačítku, které je rázem oříznuté mimo obraz
+		await tick();
+		ctaEl?.focus({ preventScroll: true });
 	}
 
 	let cat = $derived(getCategoryMeta(post.category));
@@ -58,7 +80,7 @@
 	let contentMaxHeight = $derived(revealed ? `${contentHeight || 1200}px` : '0px');
 </script>
 
-<article class="post-card">
+<article class="post-card" bind:this={cardEl}>
 	<div class="card-content">
 		<!-- Kategorie + titulek jako jeden blok — FeedView na něm pozná,
 		     že původní hlavička odscrollovala za sticky hlavičku -->
@@ -85,12 +107,14 @@
 				class:collapsed={revealed}
 				style="max-height: {teaserMaxHeight}"
 				aria-hidden={revealed}
+				inert={revealed}
 			>
 				<div class="teaser-inner" bind:clientHeight={teaserHeight}>
 					<p class="teaser">{hook}</p>
 					<button
 						type="button"
 						class="reveal-btn"
+						bind:this={ctaEl}
 						tabindex={revealed ? -1 : 0}
 						aria-expanded={revealed}
 						onclick={reveal}
@@ -101,7 +125,12 @@
 			</div>
 
 			<!-- Celý obsah postu — skrytý, dokud uživatel neklikne na CTA -->
-			<div class="content-reveal" class:open={revealed} style="max-height: {contentMaxHeight}">
+			<div
+				class="content-reveal"
+				class:open={revealed}
+				style="max-height: {contentMaxHeight}"
+				inert={!revealed}
+			>
 				<div class="reveal-inner" bind:clientHeight={contentHeight}>
 					<div class="content">{@html parts.body}</div>
 
@@ -131,6 +160,11 @@
 							{/if}
 						</div>
 					{/if}
+					<!-- Na konci článku jde post zase sbalit zpátky na teaser -->
+					<button type="button" class="collapse-btn" onclick={collapse}>
+						<span class="collapse-icon" aria-hidden="true">&#8593;</span>
+						Sbalit post
+					</button>
 				</div>
 			</div>
 		</div>
@@ -379,6 +413,41 @@
 
 	.takeaway-text :global(strong) {
 		font-weight: 700;
+	}
+
+	/* Sbalení na konci článku — tichý doplněk, ne další CTA */
+	.collapse-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		align-self: flex-start;
+		min-height: 44px;
+		margin-top: 4px;
+		padding: 10px 18px;
+		border: 1px solid #2e2e2e;
+		border-radius: 999px;
+		background: none;
+		font-family: inherit;
+		font-size: 0.78rem;
+		font-weight: 600;
+		color: var(--text-muted);
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		transition: border-color 0.15s, color 0.15s, transform 0.1s;
+	}
+
+	.collapse-btn:hover {
+		border-color: #4a4a4a;
+		color: var(--text);
+	}
+
+	.collapse-btn:active {
+		transform: scale(0.97);
+	}
+
+	.collapse-icon {
+		font-size: 0.85rem;
+		line-height: 1;
 	}
 
 	/* Sources */
