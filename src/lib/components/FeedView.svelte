@@ -5,7 +5,6 @@
 	import { SvelteSet } from 'svelte/reactivity';
 	import PostCard from './PostCard.svelte';
 	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
-	import { getHook } from '$lib/teaser.js';
 
 	const PAGE_SIZE = 20;
 	let allPosts = $state([]);      // celá databáze, neseřazená (zdroj pravdy)
@@ -180,14 +179,8 @@
 		return post;
 	});
 
-	let stickyContext = $derived.by(() => {
-		if (!stickyPost) return null;
-		return {
-			id: stickyPost.id,
-			category: getCategoryMeta(stickyPost.category),
-			hook: getHook(stickyPost.content)
-		};
-	});
+	// Do hlavičky patří jen nadpis postu — useknutý na jeden řádek
+	let stickyTitle = $derived(stickyPost?.title ?? null);
 
 	// Povinný scroll-snap by rozbalený text delší než obrazovka vracel zpátky
 	// na začátek karty. Dokud je rozbalený post na obrazovce, feed se nestránkuje.
@@ -465,7 +458,7 @@
 		<!-- App header -->
 		<header
 			class="app-header"
-			class:with-context={!!stickyContext}
+			class:with-context={!!stickyTitle}
 			bind:clientHeight={headerHeight}
 		>
 			<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
@@ -482,12 +475,11 @@
 					<span class="header-category-close" aria-hidden="true">×</span>
 				</button>
 			{/if}
-			{#if stickyContext}
-				<!-- Kontext rozbaleného postu: kategorie + useknutý hook. Vejde se
-				     do stejné výšky jako tagline, takže hlavička neroste. -->
-				<div class="header-context" style="--cat-color: {stickyContext.category.color}">
-					<span class="header-context-category">{stickyContext.category.label}</span>
-					<span class="header-context-hook">{stickyContext.hook}</span>
+			{#if stickyTitle}
+				<!-- Kontext rozbaleného postu: nadpis useknutý na jeden řádek.
+				     Sedí ve slotu tagline, takže hlavička neroste. -->
+				<div class="header-context">
+					<span class="header-context-title">{stickyTitle}</span>
 				</div>
 			{:else if !activeCategoryMeta}
 				<span class="app-tagline">doomscrolling, ale lepší</span>
@@ -657,40 +649,22 @@
 	}
 
 	/* Kontext rozbaleného postu — doplňuje se do stávající hlavičky, druhá
-	   sticky lišta nevzniká. Dvě krátké řádky ve stejné výšce jako tagline. */
+	   sticky lišta nevzniká. Jeden řádek ve stejné výšce jako tagline. */
 	.header-context {
-		display: flex;
-		flex-direction: column;
-		align-items: flex-end;
-		align-self: center;
-		gap: 2px;
 		flex: 1 1 auto;
 		min-width: 0;
-		text-align: right;
+		overflow: hidden;
 		animation: contextIn 0.15s ease-out;
 	}
 
-	.header-context-category {
-		max-width: 100%;
+	.header-context-title {
+		display: block;
 		overflow: hidden;
 		text-overflow: ellipsis;
 		white-space: nowrap;
-		font-size: 0.6rem;
-		font-weight: 600;
-		letter-spacing: 0.08em;
-		text-transform: uppercase;
-		color: var(--cat-color);
-		opacity: 0.9;
-	}
-
-	.header-context-hook {
-		max-width: 100%;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-		font-size: 0.72rem;
-		line-height: 1.3;
-		color: #777;
+		font-size: 0.78rem;
+		font-weight: 500;
+		color: #999;
 	}
 
 	/* S kontextem se musí vejít i label filtru — nechá mu jen menší díl šířky */
