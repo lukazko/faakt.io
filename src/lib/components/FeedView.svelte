@@ -1,9 +1,11 @@
 <script>
-	import { tick } from 'svelte';
+	import { tick, untrack } from 'svelte';
 	import { page } from '$app/state';
 	import { pushState } from '$app/navigation';
+	import { SvelteSet } from 'svelte/reactivity';
 	import PostCard from './PostCard.svelte';
 	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
+	import { getHook } from '$lib/teaser.js';
 
 	const PAGE_SIZE = 20;
 	let allPosts = $state([]);      // celá databáze, neseřazená (zdroj pravdy)
@@ -28,6 +30,170 @@
 	let dataReady = $state(false);
 
 	let activeCategoryMeta = $derived(activeCategory ? getCategoryMeta(activeCategory) : null);
+
+	// --- Sledování pozice ve feedu a kontextu rozbaleného postu ---------------
+	//
+	// Karty mají různou výšku (rozbalený text delší než obrazovka), takže se
+	// pozice nepočítá z výšky obrazovky. Všechny observers jsou sdílené pro
+	// celý feed — jeden na úlohu, ne jeden na kartu.
+	let cardEls = new Map();                 // postId → element karty
+	let headerEls = new Map();               // postId → element hlavičky postu
+	let cardsAtCenter = new Map();           // index → karta protínající střed obrazovky
+	let headersOnScreen = new SvelteSet();   // postId, jejichž hlavička je vidět
+	let revealed = new SvelteSet();          // postId rozbalených postů
+	let revealedOnScreen = new SvelteSet();  // z rozbalených ty, které jsou na obrazovce
+	let headerHeight = $state(0);
+	let observers = null;
+	let appliedHeaderOffset = 0;
+
+	const HEADER_GAP = 8;            // px — malá rezerva, ať kontext neproblikává
+	const DEFAULT_HEADER_HEIGHT = 56;
+
+	/**
+	 * Střed obrazovky leží uvnitř právě jedné karty — ta je aktuální.
+	 * Na hranici karet protínají střed obě, proto se bere ta s vyšším indexem.
+	 */
+	function pickCurrentCard() {
+		const center = window.innerHeight / 2;
+		let best = -1;
+		for (const [index, el] of cardsAtCenter) {
+			if (el.getBoundingClientRect().top > center) continue;
+			if (index > best) best = index;
+		}
+		if (best < 0 || best >= posts.length || best === currentIndex) return;
+		currentIndex = best;
+		menuOpen = false;
+	}
+
+	function onCenterChange(entries) {
+		for (const entry of entries) {
+			const index = Number(entry.target.dataset.index);
+			if (entry.isIntersecting) cardsAtCenter.set(index, entry.target);
+			else cardsAtCenter.delete(index);
+		}
+		pickCurrentCard();
+	}
+
+	/** Pás pozorování začíná pod sticky hlavičkou — teprve tam je titulek schovaný */
+	function onHeaderChange(entries) {
+		for (const entry of entries) {
+			const id = entry.target.dataset.postId;
+			if (entry.isIntersecting) headersOnScreen.add(id);
+			else headersOnScreen.delete(id);
+		}
+	}
+
+	function onRevealedVisibility(entries) {
+		for (const entry of entries) {
+			const id = entry.target.dataset.postId;
+			if (entry.isIntersecting) revealedOnScreen.add(id);
+			else revealedOnScreen.delete(id);
+		}
+	}
+
+	function createObservers() {
+		// untrack: pozorovatele vznikají i mimo effect (registrace karty), kde
+		// by čtení výšky hlavičky zbytečně navěsilo závislost
+		const measured = untrack(() => headerHeight);
+		appliedHeaderOffset = Math.round(measured || DEFAULT_HEADER_HEIGHT) + HEADER_GAP;
+		return {
+			// Úzký pás kolem středu obrazovky (ne přesná úsečka — nulová plocha
+			// se v některých prohlížečích nehlásí spolehlivě). Která karta je
+			// aktuální, rozhoduje stejně až geometrie v pickCurrentCard().
+			center: new IntersectionObserver(onCenterChange, { rootMargin: '-49% 0px -50% 0px' }),
+			header: new IntersectionObserver(onHeaderChange, {
+				rootMargin: `-${appliedHeaderOffset}px 0px 0px 0px`
+			}),
+			reveal: new IntersectionObserver(onRevealedVisibility)
+		};
+	}
+
+	function ensureObservers() {
+		if (observers || typeof IntersectionObserver === 'undefined') return observers;
+		observers = createObservers();
+		for (const [id, el] of cardEls) {
+			observers.center.observe(el);
+			if (revealed.has(id)) observers.reveal.observe(el);
+		}
+		for (const el of headerEls.values()) observers.header.observe(el);
+		return observers;
+	}
+
+	/** Výška hlavičky se změnila (měření po vykreslení, safe-area v PWA) */
+	function rebuildObservers() {
+		if (!observers) return;
+		observers.center.disconnect();
+		observers.header.disconnect();
+		observers.reveal.disconnect();
+		observers = null;
+		ensureObservers();
+	}
+
+	/** Registrace karty do pozorování — volá action na wrapperu */
+	function observeCard(node) {
+		const id = node.dataset.postId;
+		cardEls.set(id, node);
+		const created = ensureObservers();
+		created?.center.observe(node);
+		if (revealed.has(id)) created?.reveal.observe(node);
+		return {
+			destroy() {
+				cardEls.delete(id);
+				cardsAtCenter.delete(Number(node.dataset.index));
+				observers?.center.unobserve(node);
+				observers?.reveal.unobserve(node);
+			}
+		};
+	}
+
+	/** Registrace hlavičky postu — volá PostCard */
+	function registerHeader(id, el) {
+		const previous = headerEls.get(id);
+		if (previous && previous !== el) observers?.header.unobserve(previous);
+		if (!el) {
+			headerEls.delete(id);
+			headersOnScreen.delete(id);
+			return;
+		}
+		headerEls.set(id, el);
+		ensureObservers()?.header.observe(el);
+	}
+
+	/** Rozbalení/sbalení postu — volá PostCard */
+	function registerReveal(id, isRevealed) {
+		const card = cardEls.get(id);
+		if (isRevealed) {
+			revealed.add(id);
+			if (card) ensureObservers()?.reveal.observe(card);
+		} else {
+			revealed.delete(id);
+			revealedOnScreen.delete(id);
+			if (card) observers?.reveal.unobserve(card);
+		}
+	}
+
+	// Post, který se právě čte: je rozbalený a jeho titulek už odscrolloval
+	// pod sticky hlavičku. U sbalených postů se kontext nikdy neukazuje.
+	let stickyPost = $derived.by(() => {
+		const post = posts[currentIndex];
+		if (!post || !revealed.has(post.id) || headersOnScreen.has(post.id)) return null;
+		return post;
+	});
+
+	let stickyContext = $derived.by(() => {
+		if (!stickyPost) return null;
+		return {
+			id: stickyPost.id,
+			category: getCategoryMeta(stickyPost.category),
+			hook: getHook(stickyPost.content)
+		};
+	});
+
+	// Povinný scroll-snap by rozbalený text delší než obrazovka vracel zpátky
+	// na začátek karty. Dokud je rozbalený post na obrazovce, feed se nestránkuje.
+	let freeScroll = $derived(
+		revealedOnScreen.size > 0 || revealed.has(posts[currentIndex]?.id)
+	);
 
 	function shufflePosts(arr, targetId) {
 		const shuffled = [...arr];
@@ -112,6 +278,9 @@
 		visibleCount = PAGE_SIZE;
 		currentIndex = 0;
 		menuOpen = false;
+		// Nový feed = nové pozice karet; staré záznamy by ukazovaly na jiné
+		// indexy, než jaké karty mají po přemíchání
+		cardsAtCenter.clear();
 	}
 
 	function applyCategory(category, { syncUrl = true, targetId = null } = {}) {
@@ -168,30 +337,32 @@
 		}
 	}
 
-	function handleScroll(e) {
-		const el = e.target;
-		const cardHeight = el.clientHeight;
-		const scrollTop = el.scrollTop;
-		const idx = Math.round(scrollTop / cardHeight);
-		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
-			currentIndex = idx;
-			// Nabídka patří k příspěvku, na kterém uživatel stál — po posunu zavřít.
-			menuOpen = false;
-		}
+	// Index aktuálního příspěvku drží IntersectionObserver (karty mají různou
+	// výšku). Tady zbývá jen zavřít nabídku, která patří k jinému příspěvku.
+	function handleScroll() {
+		if (menuOpen) menuOpen = false;
+	}
+
+	/** Pozice prvku v obsahu scrollovaného kontejneru, nezávislá na scrollTop */
+	function contentOffset(el, container) {
+		if (!el || !container) return null;
+		return el.getBoundingClientRect().top - container.getBoundingClientRect().top + container.scrollTop;
 	}
 
 	async function loadMore() {
 		const oldCount = visibleCount;
 		loadingMore = true;
+		// Konec feedu před načtením je kotva, na kterou se po dotažení vrátíme.
+		// Měří se, nepočítá — karty nemají stejnou výšku (rozbalený post).
+		const container = document.querySelector('.feed-container');
+		const anchor = contentOffset(container?.querySelector('.end-card'), container);
 		visibleCount += PAGE_SIZE;
 		await tick();
 		await new Promise(resolve => requestAnimationFrame(resolve));
-		const container = document.querySelector('.feed-container');
 		if (container) {
-			const cardHeight = container.clientHeight;
 			container.style.scrollSnapType = 'none';
 			container.style.scrollBehavior = 'auto';
-			container.scrollTop = oldCount * cardHeight;
+			container.scrollTop = anchor ?? oldCount * container.clientHeight;
 			container.style.scrollSnapType = '';
 			container.style.scrollBehavior = '';
 		}
@@ -253,6 +424,21 @@
 		loadPosts();
 	});
 
+	// Výška hlavičky se měří až po vykreslení — pás, pod kterým je titulek
+	// schovaný, se podle ní musí posunout.
+	$effect(() => {
+		const offset = Math.round(headerHeight || DEFAULT_HEADER_HEIGHT) + HEADER_GAP;
+		if (observers && offset !== appliedHeaderOffset) rebuildObservers();
+	});
+
+	$effect(() => () => {
+		if (!observers) return;
+		observers.center.disconnect();
+		observers.header.disconnect();
+		observers.reveal.disconnect();
+		observers = null;
+	});
+
 	// Sleduj URL — pokryje browser Back/Forward i ruční změnu query parametru.
 	// Vlastní přepnutí kategorie je synchronní, takže tady se nic nemění.
 	$effect(() => {
@@ -275,9 +461,13 @@
 		<button onclick={loadPosts}>Zkusit znovu</button>
 	</div>
 {:else}
-	<div class="feed-container" onscroll={handleScroll}>
+	<div class="feed-container" class:free-scroll={freeScroll} onscroll={handleScroll}>
 		<!-- App header -->
-		<header class="app-header">
+		<header
+			class="app-header"
+			class:with-context={!!stickyContext}
+			bind:clientHeight={headerHeight}
+		>
 			<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
 			{#if activeCategoryMeta}
 				<button
@@ -291,18 +481,33 @@
 					<span class="header-category-label">{activeCategoryMeta.label}</span>
 					<span class="header-category-close" aria-hidden="true">×</span>
 				</button>
-			{:else}
+			{/if}
+			{#if stickyContext}
+				<!-- Kontext rozbaleného postu: kategorie + useknutý hook. Vejde se
+				     do stejné výšky jako tagline, takže hlavička neroste. -->
+				<div class="header-context" style="--cat-color: {stickyContext.category.color}">
+					<span class="header-context-category">{stickyContext.category.label}</span>
+					<span class="header-context-hook">{stickyContext.hook}</span>
+				</div>
+			{:else if !activeCategoryMeta}
 				<span class="app-tagline">doomscrolling, ale lepší</span>
 			{/if}
 		</header>
 
 		<div class="feed-stack">
 			{#each posts.slice(0, visibleCount) as post, i (post.id)}
-				<div class="card-wrapper">
+				<div
+					class="card-wrapper"
+					data-post-id={post.id}
+					data-index={i}
+					use:observeCard
+				>
 					<PostCard
 						{post}
 						categoryFilterActive={!!activeCategory}
 						onCategoryToggle={handleCategoryToggle}
+						onHeaderEl={registerHeader}
+						onReveal={registerReveal}
 					/>
 				</div>
 			{/each}
@@ -443,6 +648,59 @@
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
 		overscroll-behavior: none;
+	}
+
+	/* Rozbalený post se čte volně — povinný snap by delší text než obrazovka
+	   vracel zpátky na začátek karty. */
+	.feed-container.free-scroll {
+		scroll-snap-type: none;
+	}
+
+	/* Kontext rozbaleného postu — doplňuje se do stávající hlavičky, druhá
+	   sticky lišta nevzniká. Dvě krátké řádky ve stejné výšce jako tagline. */
+	.header-context {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+		align-self: center;
+		gap: 2px;
+		flex: 1 1 auto;
+		min-width: 0;
+		text-align: right;
+		animation: contextIn 0.15s ease-out;
+	}
+
+	.header-context-category {
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-size: 0.6rem;
+		font-weight: 600;
+		letter-spacing: 0.08em;
+		text-transform: uppercase;
+		color: var(--cat-color);
+		opacity: 0.9;
+	}
+
+	.header-context-hook {
+		max-width: 100%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+		font-size: 0.72rem;
+		line-height: 1.3;
+		color: #777;
+	}
+
+	/* S kontextem se musí vejít i label filtru — nechá mu jen menší díl šířky */
+	.app-header.with-context .header-category {
+		max-width: 30vw;
+	}
+
+	@keyframes contextIn {
+		from { opacity: 0; transform: translateY(-3px); }
+		to   { opacity: 1; transform: translateY(0); }
 	}
 
 	/* App header */

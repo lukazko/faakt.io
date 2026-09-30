@@ -8,14 +8,42 @@
 	 *   sources: Array<{ label: string, url: string }>
 	 * }}
 	 */
+	import { untrack } from 'svelte';
 	import { getCategoryMeta } from '$lib/categories.js';
 	import { getHook, getCta, splitTakeaway } from '$lib/teaser.js';
 
-	let { post, categoryFilterActive = false, onCategoryToggle = null } = $props();
+	let {
+		post,
+		categoryFilterActive = false,
+		onCategoryToggle = null,
+		onHeaderEl = null,     // (postId, element) — FeedView si hlavičku pozoruje
+		onReveal = null        // (postId, rozbaleno) — FeedView podle toho vypíná snap
+	} = $props();
 	let expanded = $state(false);        // rozbalené zdroje
 	let revealed = $state(false);        // odhalený celý text postu
 	let teaserHeight = $state(0);
 	let contentHeight = $state(0);
+	let headerEl = $state(null);         // kategorie + titulek jako jeden blok
+
+	// FeedView potřebuje k pozorování samotný element hlavičky. `untrack`, aby
+	// se registrace nepřepočítávala při každé změně stavu ve FeedView.
+	$effect(() => {
+		const el = headerEl;
+		if (!el) return;
+		untrack(() => onHeaderEl?.(post.id, el));
+		return () => onHeaderEl?.(post.id, null);
+	});
+
+	// Odmountovaná karta nesmí nechat ve FeedView viset svůj stav
+	$effect(() => () => onReveal?.(post.id, false));
+
+	function reveal() {
+		if (revealed) return;
+		revealed = true;
+		// Hlásí se synchronně s kliknutím — feed musí stihnout vypnout
+		// scroll-snap dřív, než se karta začne natahovat.
+		onReveal?.(post.id, true);
+	}
 
 	let cat = $derived(getCategoryMeta(post.category));
 	let hasSources = $derived(post.sources && post.sources.length > 0);
@@ -32,19 +60,23 @@
 
 <article class="post-card">
 	<div class="card-content">
-		<!-- V category feedu se label nezobrazuje — kategorii drží hlavička -->
-		{#if !categoryFilterActive}
-			<button
-				type="button"
-				class="category-badge"
-				style="--cat-color: {cat.color}"
-				title={`Zobrazit jen kategorii ${cat.label}`}
-				onclick={() => onCategoryToggle?.(post.category, post.id)}
-			>
-				{cat.label}
-			</button>
-		{/if}
-		<h2 class="title">{post.title}</h2>
+		<!-- Kategorie + titulek jako jeden blok — FeedView na něm pozná,
+		     že původní hlavička odscrollovala za sticky hlavičku -->
+		<div class="post-header" data-post-id={post.id} bind:this={headerEl}>
+			<!-- V category feedu se label nezobrazuje — kategorii drží hlavička -->
+			{#if !categoryFilterActive}
+				<button
+					type="button"
+					class="category-badge"
+					style="--cat-color: {cat.color}"
+					title={`Zobrazit jen kategorii ${cat.label}`}
+					onclick={() => onCategoryToggle?.(post.category, post.id)}
+				>
+					{cat.label}
+				</button>
+			{/if}
+			<h2 class="title">{post.title}</h2>
+		</div>
 
 		<div class="body">
 			<!-- Teaser + CTA — po odhalení se plynule sbalí -->
@@ -61,7 +93,7 @@
 						class="reveal-btn"
 						tabindex={revealed ? -1 : 0}
 						aria-expanded={revealed}
-						onclick={() => revealed = true}
+						onclick={reveal}
 					>
 						<span class="reveal-btn-text">{cta}</span>
 					</button>
@@ -106,9 +138,11 @@
 </article>
 
 <style>
+	/* min-height, ne height — rozbalený text delší než obrazovka musí kartu
+	   natáhnout, aby se dalo číst scrollováním (dřív přetékal přes další kartu) */
 	.post-card {
-		height: 100vh;
-		height: 100dvh;
+		min-height: 100vh;
+		min-height: 100dvh;
 		display: flex;
 		align-items: center;
 		justify-content: center;
@@ -167,6 +201,14 @@
 		content: '';
 		position: absolute;
 		inset: -10px;
+	}
+
+	/* Obal drží stejný rytmus jako dřív — badge a titulek byly přímé potomky
+	   `.card-content`, teď jsou spolu v jedné skupině se stejnou mezerou */
+	.post-header {
+		display: flex;
+		flex-direction: column;
+		gap: 16px;
 	}
 
 	.title {
