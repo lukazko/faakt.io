@@ -10,12 +10,18 @@
 	let posts = $state([]);         // aktuální feed (mixed nebo category)
 	let activeCategory = $state(null);
 	let visibleCount = $state(PAGE_SIZE);
-	let activeMenu = $state(null); // post id, or null
+	let menuOpen = $state(false);
 	let loading = $state(true);
 	let loadingMore = $state(false);
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
+
+	// Příspěvek, na kterém uživatel právě stojí. Akční tlačítko je fixní prvek
+	// obrazovky, takže se ptá na něj — ne na kartu, ve které by bydlelo.
+	// Na koncové kartě ("načíst další") žádný příspěvek není, proto se schová.
+	let activePost = $derived(posts[currentIndex] ?? null);
+	let showActions = $derived(!!activePost && currentIndex < visibleCount);
 
 	// Nereaktivní zrcadlo activeCategory — kvůli porovnání v $effect bez smyčky
 	let appliedCategory = null;
@@ -105,7 +111,7 @@
 		totalPosts = posts.length;
 		visibleCount = PAGE_SIZE;
 		currentIndex = 0;
-		activeMenu = null;
+		menuOpen = false;
 	}
 
 	function applyCategory(category, { syncUrl = true, targetId = null } = {}) {
@@ -169,6 +175,8 @@
 		const idx = Math.round(scrollTop / cardHeight);
 		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
 			currentIndex = idx;
+			// Nabídka patří k příspěvku, na kterém uživatel stál — po posunu zavřít.
+			menuOpen = false;
 		}
 	}
 
@@ -296,46 +304,6 @@
 						categoryFilterActive={!!activeCategory}
 						onCategoryToggle={handleCategoryToggle}
 					/>
-
-					<!-- Action button -->
-					<button
-						class="action-btn"
-						aria-label="Akce"
-						onclick={() => activeMenu = activeMenu === post.id ? null : post.id}
-					>
-						<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
-							<circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/>
-						</svg>
-					</button>
-					<!-- Action menu -->
-					{#if activeMenu === post.id}
-						<!-- Neviditelný podklad přes celou obrazovku — tapnutí kamkoli mimo
-						     bublinu (i na tlačítko samotné) ji zavře. -->
-						<button
-							type="button"
-							class="action-backdrop"
-							tabindex="-1"
-							aria-hidden="true"
-							onclick={() => activeMenu = null}
-						></button>
-						<div class="action-menu">
-							<button class="action-item" onclick={(e) => { e.stopPropagation(); sharePost(post); activeMenu = null; }}>
-								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-									<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-									<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-								</svg>
-								Sdílet
-							</button>
-							<button class="action-item" onclick={(e) => { e.stopPropagation(); reportPost(post); activeMenu = null; }}>
-								<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-									<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
-									<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
-								</svg>
-								Nahlásit problém
-							</button>
-							<div class="app-build-info">v{__APP_VERSION__} · build {__APP_BUILD_ID__}</div>
-						</div>
-					{/if}
 				</div>
 			{/each}
 
@@ -369,6 +337,52 @@
 
 	<!-- Progress bar -->
 	<div class="progress-bar" style="width: {getProgress()}%"></div>
+
+	<!-- Akce k právě zobrazenému příspěvku.
+	     Fixní prvek obrazovky — neposouvá se s obsahem a vždy míří na to,
+	     co uživatel vidí. -->
+	{#if showActions}
+		<button
+			class="action-btn"
+			aria-label="Další možnosti"
+			aria-haspopup="menu"
+			aria-expanded={menuOpen}
+			onclick={() => menuOpen = !menuOpen}
+		>
+			<svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+				<circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/>
+			</svg>
+		</button>
+
+		{#if menuOpen}
+			<!-- Neviditelný podklad přes celou obrazovku — tapnutí kamkoli mimo
+			     bublinu (i na tlačítko samotné) ji zavře. -->
+			<button
+				type="button"
+				class="action-backdrop"
+				tabindex="-1"
+				aria-hidden="true"
+				onclick={() => menuOpen = false}
+			></button>
+			<div class="action-menu" role="menu">
+				<button class="action-item" role="menuitem" onclick={() => { sharePost(activePost); menuOpen = false; }}>
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+						<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+						<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+					</svg>
+					Sdílet
+				</button>
+				<button class="action-item" role="menuitem" onclick={() => { reportPost(activePost); menuOpen = false; }}>
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+						<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
+						<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
+					</svg>
+					Nahlásit problém
+				</button>
+				<div class="app-build-info">v{__APP_VERSION__} · build {__APP_BUILD_ID__}</div>
+			</div>
+		{/if}
+	{/if}
 
 	<!-- Loading overlay for loadMore -->
 	{#if loadingMore}
@@ -538,17 +552,16 @@
 
 	.card-wrapper {
 		position: relative;
-		/* Tlačítko sedí v rohu, ale nikdy nepodleze gesture bar / home indicator.
-		   max() místo sčítání — v PWA se odsazení nepřičítá k základu, takže
-		   tlačítko zbytečně nevisí vysoko a obsah má víc místa. */
-		--action-bottom: max(24px, env(safe-area-inset-bottom, 0px));
-		--action-right: max(20px, env(safe-area-inset-right, 0px));
 	}
 
+	/* Fixní prvek obrazovky, ne součást karty — v rohu, ať už je zobrazený
+	   jakýkoli příspěvek. Odsazení záměrně ignoruje safe-area inset: ten je na
+	   iPhonu 34px a tlačítko by zbytečně viselo vysoko. Home indicator je
+	   úzký a uprostřed, do pravého rohu nezasahuje. */
 	.action-btn {
-		position: absolute;
-		bottom: var(--action-bottom);
-		right: var(--action-right);
+		position: fixed;
+		bottom: 16px;
+		right: 16px;
 		width: 48px;
 		height: 48px;
 		border-radius: 50%;
@@ -561,7 +574,9 @@
 		justify-content: center;
 		cursor: pointer;
 		transition: all 0.2s;
-		z-index: 10;
+		/* Nad hlavičkou (50), pod podkladem nabídky (60) — proto na tlačítko
+		   při otevřené bublině sedne podklad a tapnutí ji zavře. */
+		z-index: 55;
 	}
 
 	.action-btn:active {
@@ -584,10 +599,10 @@
 	}
 
 	.action-menu {
-		position: absolute;
-		/* Drží stejnou mezeru nad tlačítkem (48px výška + 8px odstup) */
-		bottom: calc(var(--action-bottom) + 56px);
-		right: var(--action-right);
+		position: fixed;
+		/* Drží stejnou mezeru nad tlačítkem: 16px odsazení + 48px výška + 8px */
+		bottom: 72px;
+		right: 16px;
 		background: rgba(24, 24, 24, 0.95);
 		backdrop-filter: blur(12px);
 		border: 1px solid #333;
