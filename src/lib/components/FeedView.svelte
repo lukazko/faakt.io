@@ -21,6 +21,32 @@
 	// Post otevřený v čtečce (sheet). Překryv nad feedem — pozice scrollování
 	// ve feedu se otevřením ani zavřením nemění.
 	let openPost = $state(null);
+	// Vstup do článku je zapsaný v historii, aby ho zavřelo i systémové Zpět.
+	let sheetInHistory = false;
+
+	/**
+	 * Otevře čtečku postu a zapíše vstup do historie — zpětné gesto
+	 * (tlačítko prohlížeče, systémové Zpět) tak vrátí čtenáře do feedu.
+	 */
+	function openSheet(post) {
+		openPost = post;
+		const url = new URL(page.url);
+		url.searchParams.set('post', post.id);
+		pushState(url, {});
+		sheetInHistory = true;
+	}
+
+	/**
+	 * Zavře čtečku. Feed se přitom nijak nemění — zůstává na stejné pozici.
+	 */
+	function closeSheet() {
+		if (!openPost) return;
+		openPost = null;
+		if (!sheetInHistory) return;
+		sheetInHistory = false;
+		// Uklidí i zápis v historii, jinak by Zpět zůstalo viset naprázdno.
+		history.back();
+	}
 
 	// Příspěvek, na kterém uživatel právě stojí. Akční tlačítko je fixní prvek
 	// obrazovky, takže se ptá na něj — ne na kartu, ve které by bydlelo.
@@ -271,6 +297,18 @@
 			applyCategory(urlCategory, { syncUrl: false });
 		}
 	});
+
+	// Zpět v prohlížeči zavírá čtečku. Vlastní zavření přes history.back()
+	// sem dorazí taky, ale openPost už je null, takže se nic neděje.
+	$effect(() => {
+		const onPop = () => {
+			if (!openPost) return;
+			openPost = null;
+			sheetInHistory = false;
+		};
+		window.addEventListener('popstate', onPop);
+		return () => window.removeEventListener('popstate', onPop);
+	});
 </script>
 
 {#if loading}
@@ -312,7 +350,7 @@
 						{post}
 						categoryFilterActive={!!activeCategory}
 						onCategoryToggle={handleCategoryToggle}
-						onOpen={(p) => openPost = p}
+						onOpen={openSheet}
 					/>
 				</div>
 			{/each}
@@ -405,7 +443,7 @@
 	<!-- Čtečka celého postu — mimo .feed-container, aby nijak nezasahovala
 	     do rozvržení ani scrollování feedu -->
 	{#if openPost}
-		<PostSheet post={openPost} onClose={() => openPost = null} />
+		<PostSheet post={openPost} onClose={closeSheet} />
 	{/if}
 
 	<!-- Toast -->
