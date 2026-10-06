@@ -128,7 +128,9 @@
 		border-color: var(--accent);
 	}
 
-	/* Obsah se posouvá samostatně — přesah se nepřenáší na feed za sheetem */
+	/* Obsah se posouvá samostatně — přesah se nepřenáší na feed za sheetem.
+	   Spodní odsazení drží konec textu nad plovoucím akčním tlačítkem
+	   v pravém dolním rohu (16px odsazení + 48px tlačítko + rezerva). */
 	.sheet-scroll {
 		flex: 1;
 		overflow-y: auto;
@@ -137,7 +139,7 @@
 		padding:
 			4px
 			calc(20px + env(safe-area-inset-right, 0px))
-			calc(40px + env(safe-area-inset-bottom, 0px))
+			calc(80px + env(safe-area-inset-bottom, 0px))
 			calc(20px + env(safe-area-inset-left, 0px));
 	}
 
@@ -177,7 +179,7 @@
 		}
 
 		.sheet-scroll {
-			padding: 4px 24px 32px;
+			padding: 4px 24px 80px;
 		}
 	}
 </style>

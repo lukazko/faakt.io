@@ -28,6 +28,10 @@
 	let activePost = $derived(posts[currentIndex] ?? null);
 	let showActions = $derived(!!activePost && currentIndex < visibleCount);
 
+	// Akce míří na to, co uživatel skutečně vidí: je-li otevřená čtečka,
+	// rozhoduje post v ní, jinak post, na kterém stojí ve feedu.
+	let actionTarget = $derived(openPost ?? activePost);
+
 	// Nereaktivní zrcadlo activeCategory — kvůli porovnání v $effect bez smyčky
 	let appliedCategory = null;
 	let dataReady = $state(false);
@@ -371,14 +375,14 @@
 				onclick={() => menuOpen = false}
 			></button>
 			<div class="action-menu" role="menu">
-				<button class="action-item" role="menuitem" onclick={() => { sharePost(activePost); menuOpen = false; }}>
+				<button class="action-item" role="menuitem" onclick={() => { sharePost(actionTarget); menuOpen = false; }}>
 					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
 						<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
 						<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
 					</svg>
 					Sdílet
 				</button>
-				<button class="action-item" role="menuitem" onclick={() => { reportPost(activePost); menuOpen = false; }}>
+				<button class="action-item" role="menuitem" onclick={() => { reportPost(actionTarget); menuOpen = false; }}>
 					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
 						<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
 						<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
@@ -586,9 +590,10 @@
 		justify-content: center;
 		cursor: pointer;
 		transition: all 0.2s;
-		/* Nad hlavičkou (50), pod podkladem nabídky (60) — proto na tlačítko
-		   při otevřené bublině sedne podklad a tapnutí ji zavře. */
-		z-index: 55;
+		/* Nad čtečkou postu (400), aby tlačítko zůstalo v rohu i nad detailem,
+		   ale pod podkladem nabídky (420) — při otevřené bublině na něj sedne
+		   podklad a tapnutí ji zavře. */
+		z-index: 410;
 	}
 
 	.action-btn:active {
@@ -598,14 +603,14 @@
 		border-color: var(--accent);
 	}
 
-	/* Nad hlavičkou (z-index 50), aby tapnutí kamkoli mimo bublinu opravdu zavřelo */
+	/* Nad tlačítkem (410), aby tapnutí kamkoli mimo bublinu opravdu zavřelo */
 	.action-backdrop {
 		position: fixed;
 		inset: 0;
 		padding: 0;
 		border: none;
 		background: none;
-		z-index: 60;
+		z-index: 420;
 		cursor: default;
 		-webkit-tap-highlight-color: transparent;
 	}
@@ -623,8 +628,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 2px;
-		/* Výš než podklad (60), aby šly položky nabídky pořád klikat */
-		z-index: 70;
+		/* Výš než podklad (420), aby šly položky nabídky pořád klikat */
+		z-index: 430;
 		min-width: 160px;
 		animation: menuIn 0.2s ease-out;
 	}
@@ -723,11 +728,12 @@
 		line-height: 1;
 	}
 
-	/* Loading overlay */
+	/* Loading overlay — blokující stav, proto nad čtečkou (400) i nad
+	   plovoucím akčním tlačítkem (410) */
 	.loading-overlay {
 		position: fixed;
 		inset: 0;
-		z-index: 300;
+		z-index: 500;
 		background: var(--bg);
 		display: flex;
 		flex-direction: column;
@@ -763,7 +769,9 @@
 		font-size: 0.85rem;
 		opacity: 0;
 		transition: all 0.3s ease;
-		z-index: 200;
+		/* Nad čtečkou (400) i nad nabídkou (430) — hláška o zkopírovaném
+		   odkazu musí být vidět i při sdílení z otevřeného detailu */
+		z-index: 450;
 		white-space: nowrap;
 		pointer-events: none;
 	}
