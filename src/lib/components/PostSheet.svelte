@@ -1,7 +1,7 @@
 <script>
 	/**
 	 * Čtečka celého postu jako spodní sheet.
-	 * Na mobilu zabírá celou obrazovku (článek, ne dialog), na větších
+	 * Na mobilu zabírá 90 % zorného pole (článek, ne dialog), na větších
 	 * displejích je vycentrovaný panel. Feed zůstává za ní nedotčený —
 	 * sheet je překryv, takže se pozice scrollování ve feedu nemění.
 	 * @type {{
@@ -257,13 +257,15 @@
 		-webkit-tap-highlight-color: transparent;
 	}
 
-	/* Mobil: celá obrazovka — čtečka článku, ne malý dialog */
+	/* Mobil: 90 % zorného pole — pruh feedu nahoře dá najevo, že čtečka
+	   je překryv a dá se odtud zavřít. Zbytek je pořád článek, ne dialog. */
 	.sheet {
 		position: relative;
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		height: 100%;
+		height: 90vh;
+		height: 90dvh;
 		background: var(--bg);
 		overflow: hidden;
 		will-change: transform;
@@ -277,12 +279,13 @@
 	}
 
 	/* Lišta s táhlem — drží se nad scrollovaným obsahem, je i místem
-	   pro tažení myší na desktopu */
+	   pro tažení myší na desktopu. Odsazení výřezu tu netřeba: horní hrana
+	   sheetu je vždy až 10 % pod okrajem displeje. */
 	.sheet-toolbar {
 		flex: none;
 		display: flex;
 		justify-content: center;
-		padding: calc(10px + env(safe-area-inset-top, 0px)) 0 10px;
+		padding: 10px 0;
 	}
 
 	.sheet-handle {
