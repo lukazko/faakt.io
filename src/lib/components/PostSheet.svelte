@@ -335,6 +335,15 @@
 		color: var(--text);
 	}
 
+	/* Nainstalovaná appka (PWA) je bez lišty prohlížeče — čtečka bere 80 %,
+	   takže je pruh feedu nad ní znatelnější. */
+	@media (display-mode: standalone) {
+		.sheet {
+			height: 80vh;
+			height: 80dvh;
+		}
+	}
+
 	/* Na větších displejích vycentrovaný panel místo celé obrazovky */
 	@media (min-width: 641px) {
 		.sheet-root {
