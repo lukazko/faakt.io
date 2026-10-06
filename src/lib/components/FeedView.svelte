@@ -1,6 +1,5 @@
 <script>
 	import { tick } from 'svelte';
-	import { page } from '$app/state';
 	import { pushState } from '$app/navigation';
 	import PostCard from './PostCard.svelte';
 	import PostSheet from './PostSheet.svelte';
@@ -30,7 +29,9 @@
 	 */
 	function openSheet(post) {
 		openPost = post;
-		const url = new URL(page.url);
+		// Adresa se čte z prohlížeče, ne z page.url — shallow pushState se do
+		// page.url nepropíše, takže by odtud vypadl filtr kategorie.
+		const url = new URL(window.location.href);
 		url.searchParams.set('post', post.id);
 		pushState(url, {});
 		sheetInHistory = true;
@@ -124,7 +125,8 @@
 	 * `post` drží příspěvek, kterým feed začíná, aby refresh i odkaz vrátily stejný stav.
 	 */
 	function syncCategoryUrl(category, targetId = null) {
-		const url = new URL(page.url);
+		// Ze stejného důvodu jako v openSheet — bere se skutečná adresa.
+		const url = new URL(window.location.href);
 		if (category) url.searchParams.set('category', category);
 		else url.searchParams.delete('category');
 		if (targetId) url.searchParams.set('post', targetId);
@@ -285,14 +287,23 @@
 		loadPosts();
 	});
 
-	// Sleduj URL — pokryje browser Back/Forward i ruční změnu query parametru.
-	// Vlastní přepnutí kategorie je synchronní, takže tady se nic nemění.
+	// Feed sleduje pohyb v historii prohlížeče — Zpět/Vpřed vrátí i podobu feedu.
+	// Schválně se nečte page.url: shallow pushState (čtečka postu, přepnutí
+	// kategorie) se do něj nepropíše a zůstává v něm adresa z posledního
+	// skutečného načtení. Efekt by pak po otevření čtečky viděl, že v adrese
+	// žádná kategorie není, a shodil by zvolený filtr. Rozhoduje proto
+	// skutečná adresa prohlížeče; vlastní přepnutí kategorie je synchronní,
+	// takže se sem vůbec nedostane.
 	$effect(() => {
 		if (!dataReady) return;
-		const urlCategory = normalizeCategory(page.url.searchParams.get('category'));
-		if (urlCategory !== appliedCategory) {
-			applyCategory(urlCategory, { syncUrl: false });
-		}
+		const onPop = () => {
+			const urlCategory = getCategoryFromUrl();
+			if (urlCategory !== appliedCategory) {
+				applyCategory(urlCategory, { syncUrl: false });
+			}
+		};
+		window.addEventListener('popstate', onPop);
+		return () => window.removeEventListener('popstate', onPop);
 	});
 
 	// Zpět v prohlížeči zavírá čtečku. Vlastní zavření přes history.back()
