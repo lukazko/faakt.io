@@ -246,19 +246,24 @@
 		justify-content: center;
 	}
 
+	/* Feed za čtečkou zůstává čitelný — díky tomu je vidět, že je pořád
+	   pod ní otevřený. Silné ztmavení z něj dělalo další černou plochu
+	   k nerozeznání od sheetu. */
 	.sheet-backdrop {
 		position: absolute;
 		inset: 0;
 		padding: 0;
 		border: none;
-		background: rgba(0, 0, 0, 0.6);
-		backdrop-filter: blur(2px);
+		background: rgba(0, 0, 0, 0.4);
+		backdrop-filter: blur(1.5px);
 		cursor: default;
 		-webkit-tap-highlight-color: transparent;
 	}
 
 	/* Mobil: 90 % zorného pole — pruh feedu nahoře dá najevo, že čtečka
-	   je překryv a dá se odtud zavřít. Zbytek je pořád článek, ne dialog. */
+	   je překryv a dá se odtud zavřít. Zbytek je pořád článek, ne dialog.
+	   Plocha je o stupeň světlejší než pozadí a má zaoblenou horní hranu
+	   s linkou a stínem — bez toho splývala s feedem do jedné černé. */
 	.sheet {
 		position: relative;
 		display: flex;
@@ -266,7 +271,12 @@
 		width: 100%;
 		height: 90vh;
 		height: 90dvh;
-		background: var(--bg);
+		background: #101010;
+		/* Stejná linka jako u ostatních plovoucích ploch (nabídka, panel
+		   na desktopu) — drží jednotný jazyk vrstev */
+		border-top: 1px solid #333;
+		border-radius: 18px 18px 0 0;
+		box-shadow: 0 -10px 40px rgba(0, 0, 0, 0.85);
 		overflow: hidden;
 		will-change: transform;
 		transition: transform 0.32s cubic-bezier(0.32, 0.72, 0, 1);
@@ -288,11 +298,13 @@
 		padding: 10px 0;
 	}
 
+	/* O stupeň světlejší než dřív — s linkou na horní hraně by táhlo
+	   jinak zaniklo a je to hlavní úchop pro zavření tažením */
 	.sheet-handle {
 		width: 40px;
 		height: 4px;
 		border-radius: 999px;
-		background: rgba(255, 255, 255, 0.16);
+		background: rgba(255, 255, 255, 0.22);
 	}
 
 	/* Obsah se posouvá samostatně — přesah se nepřenáší na feed za sheetem */
