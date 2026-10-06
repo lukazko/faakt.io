@@ -15,7 +15,6 @@
 	 *   onClose: () => void
 	 * }}
 	 */
-	import CategoryBadge from './CategoryBadge.svelte';
 	import PostBody from './PostBody.svelte';
 
 	let { post, onClose } = $props();
@@ -226,17 +225,10 @@
 	>
 		<div class="sheet-toolbar" onpointerdown={onHeaderPointerDown}>
 			<span class="sheet-handle" aria-hidden="true"></span>
-			<button type="button" class="sheet-back" aria-label="Zpět na feed" onclick={release}>
-				<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
-					<line x1="19" y1="12" x2="5" y2="12"/>
-					<polyline points="12 19 5 12 12 5"/>
-				</svg>
-			</button>
 		</div>
 
 		<div class="sheet-scroll" bind:this={scrollEl}>
 			<article class="sheet-article">
-				<CategoryBadge category={post.category} />
 				<h2 class="title">{post.title}</h2>
 				<PostBody {post} />
 			</article>
@@ -284,55 +276,23 @@
 		user-select: none;
 	}
 
-	/* Lišta s táhlem a zpět — nedrží se ve scrollovaném obsahu */
+	/* Lišta s táhlem — drží se nad scrollovaným obsahem, je i místem
+	   pro tažení myší na desktopu */
 	.sheet-toolbar {
 		flex: none;
-		position: relative;
 		display: flex;
-		align-items: center;
-		padding:
-			calc(10px + env(safe-area-inset-top, 0px))
-			calc(12px + env(safe-area-inset-right, 0px))
-			0
-			calc(12px + env(safe-area-inset-left, 0px));
+		justify-content: center;
+		padding: calc(10px + env(safe-area-inset-top, 0px)) 0 10px;
 	}
 
 	.sheet-handle {
-		position: absolute;
-		top: calc(10px + env(safe-area-inset-top, 0px));
-		left: 50%;
-		transform: translateX(-50%);
 		width: 40px;
 		height: 4px;
 		border-radius: 999px;
 		background: rgba(255, 255, 255, 0.16);
 	}
 
-	.sheet-back {
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		border: 1px solid #333;
-		background: rgba(20, 20, 20, 0.85);
-		backdrop-filter: blur(8px);
-		color: var(--text-muted);
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		cursor: pointer;
-		transition: all 0.2s;
-	}
-
-	.sheet-back:active {
-		transform: scale(0.9);
-		background: var(--accent);
-		color: var(--bg);
-		border-color: var(--accent);
-	}
-
-	/* Obsah se posouvá samostatně — přesah se nepřenáší na feed za sheetem.
-	   Spodní odsazení drží konec textu nad plovoucím akčním tlačítkem
-	   v pravém dolním rohu (16px odsazení + 48px tlačítko + rezerva). */
+	/* Obsah se posouvá samostatně — přesah se nepřenáší na feed za sheetem */
 	.sheet-scroll {
 		flex: 1;
 		overflow-y: auto;
@@ -341,7 +301,7 @@
 		padding:
 			4px
 			calc(20px + env(safe-area-inset-right, 0px))
-			calc(80px + env(safe-area-inset-bottom, 0px))
+			calc(28px + env(safe-area-inset-bottom, 0px))
 			calc(20px + env(safe-area-inset-left, 0px));
 	}
 
@@ -376,16 +336,8 @@
 			box-shadow: 0 24px 60px rgba(0, 0, 0, 0.6);
 		}
 
-		.sheet-toolbar {
-			padding: 10px 12px 0;
-		}
-
-		.sheet-handle {
-			top: 10px;
-		}
-
 		.sheet-scroll {
-			padding: 4px 24px 80px;
+			padding: 4px 24px 40px;
 		}
 	}
 </style>
