@@ -3,6 +3,7 @@
 	import { page } from '$app/state';
 	import { pushState } from '$app/navigation';
 	import PostCard from './PostCard.svelte';
+	import PostSheet from './PostSheet.svelte';
 	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
 
 	const PAGE_SIZE = 20;
@@ -16,6 +17,10 @@
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
+
+	// Post otevřený v čtečce (sheet). Překryv nad feedem — pozice scrollování
+	// ve feedu se otevřením ani zavřením nemění.
+	let openPost = $state(null);
 
 	// Příspěvek, na kterém uživatel právě stojí. Akční tlačítko je fixní prvek
 	// obrazovky, takže se ptá na něj — ne na kartu, ve které by bydlelo.
@@ -303,6 +308,7 @@
 						{post}
 						categoryFilterActive={!!activeCategory}
 						onCategoryToggle={handleCategoryToggle}
+						onOpen={(p) => openPost = p}
 					/>
 				</div>
 			{/each}
@@ -390,6 +396,12 @@
 			<div class="spinner"></div>
 			<p>Načítám další...</p>
 		</div>
+	{/if}
+
+	<!-- Čtečka celého postu — mimo .feed-container, aby nijak nezasahovala
+	     do rozvržení ani scrollování feedu -->
+	{#if openPost}
+		<PostSheet post={openPost} onClose={() => openPost = null} />
 	{/if}
 
 	<!-- Toast -->
