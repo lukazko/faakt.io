@@ -1,8 +1,8 @@
 <script>
 	import { tick } from 'svelte';
-	import { page } from '$app/state';
 	import { pushState } from '$app/navigation';
 	import PostCard from './PostCard.svelte';
+	import PostSheet from './PostSheet.svelte';
 	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
 
 	const PAGE_SIZE = 20;
@@ -17,11 +17,44 @@
 	let totalPosts = $state(0);
 	let error = $state(null);
 
+	// Post otevřený v čtečce (sheet). Překryv nad feedem — pozice scrollování
+	// ve feedu se otevřením ani zavřením nemění.
+	let openPost = $state(null);
+	// Vstup do článku je zapsaný v historii, aby ho zavřelo i systémové Zpět.
+	let sheetInHistory = false;
+
+	/**
+	 * Otevře čtečku postu a zapíše vstup do historie — zpětné gesto
+	 * (tlačítko prohlížeče, systémové Zpět) tak vrátí čtenáře do feedu.
+	 */
+	function openSheet(post) {
+		openPost = post;
+		// Adresa se čte z prohlížeče, ne z page.url — shallow pushState se do
+		// page.url nepropíše, takže by odtud vypadl filtr kategorie.
+		const url = new URL(window.location.href);
+		url.searchParams.set('post', post.id);
+		pushState(url, {});
+		sheetInHistory = true;
+	}
+
+	/**
+	 * Zavře čtečku. Feed se přitom nijak nemění — zůstává na stejné pozici.
+	 */
+	function closeSheet() {
+		if (!openPost) return;
+		openPost = null;
+		if (!sheetInHistory) return;
+		sheetInHistory = false;
+		// Uklidí i zápis v historii, jinak by Zpět zůstalo viset naprázdno.
+		history.back();
+	}
+
 	// Příspěvek, na kterém uživatel právě stojí. Akční tlačítko je fixní prvek
 	// obrazovky, takže se ptá na něj — ne na kartu, ve které by bydlelo.
 	// Na koncové kartě ("načíst další") žádný příspěvek není, proto se schová.
+	// Otevřená čtečka postu akční tlačítko schová — do sheetu nepatří.
 	let activePost = $derived(posts[currentIndex] ?? null);
-	let showActions = $derived(!!activePost && currentIndex < visibleCount);
+	let showActions = $derived(!!activePost && currentIndex < visibleCount && !openPost);
 
 	// Nereaktivní zrcadlo activeCategory — kvůli porovnání v $effect bez smyčky
 	let appliedCategory = null;
@@ -92,7 +125,8 @@
 	 * `post` drží příspěvek, kterým feed začíná, aby refresh i odkaz vrátily stejný stav.
 	 */
 	function syncCategoryUrl(category, targetId = null) {
-		const url = new URL(page.url);
+		// Ze stejného důvodu jako v openSheet — bere se skutečná adresa.
+		const url = new URL(window.location.href);
 		if (category) url.searchParams.set('category', category);
 		else url.searchParams.delete('category');
 		if (targetId) url.searchParams.set('post', targetId);
@@ -253,14 +287,35 @@
 		loadPosts();
 	});
 
-	// Sleduj URL — pokryje browser Back/Forward i ruční změnu query parametru.
-	// Vlastní přepnutí kategorie je synchronní, takže tady se nic nemění.
+	// Feed sleduje pohyb v historii prohlížeče — Zpět/Vpřed vrátí i podobu feedu.
+	// Schválně se nečte page.url: shallow pushState (čtečka postu, přepnutí
+	// kategorie) se do něj nepropíše a zůstává v něm adresa z posledního
+	// skutečného načtení. Efekt by pak po otevření čtečky viděl, že v adrese
+	// žádná kategorie není, a shodil by zvolený filtr. Rozhoduje proto
+	// skutečná adresa prohlížeče; vlastní přepnutí kategorie je synchronní,
+	// takže se sem vůbec nedostane.
 	$effect(() => {
 		if (!dataReady) return;
-		const urlCategory = normalizeCategory(page.url.searchParams.get('category'));
-		if (urlCategory !== appliedCategory) {
-			applyCategory(urlCategory, { syncUrl: false });
-		}
+		const onPop = () => {
+			const urlCategory = getCategoryFromUrl();
+			if (urlCategory !== appliedCategory) {
+				applyCategory(urlCategory, { syncUrl: false });
+			}
+		};
+		window.addEventListener('popstate', onPop);
+		return () => window.removeEventListener('popstate', onPop);
+	});
+
+	// Zpět v prohlížeči zavírá čtečku. Vlastní zavření přes history.back()
+	// sem dorazí taky, ale openPost už je null, takže se nic neděje.
+	$effect(() => {
+		const onPop = () => {
+			if (!openPost) return;
+			openPost = null;
+			sheetInHistory = false;
+		};
+		window.addEventListener('popstate', onPop);
+		return () => window.removeEventListener('popstate', onPop);
 	});
 </script>
 
@@ -303,6 +358,7 @@
 						{post}
 						categoryFilterActive={!!activeCategory}
 						onCategoryToggle={handleCategoryToggle}
+						onOpen={openSheet}
 					/>
 				</div>
 			{/each}
@@ -390,6 +446,12 @@
 			<div class="spinner"></div>
 			<p>Načítám další...</p>
 		</div>
+	{/if}
+
+	<!-- Čtečka celého postu — mimo .feed-container, aby nijak nezasahovala
+	     do rozvržení ani scrollování feedu -->
+	{#if openPost}
+		<PostSheet post={openPost} onClose={closeSheet} />
 	{/if}
 
 	<!-- Toast -->
@@ -574,8 +636,9 @@
 		justify-content: center;
 		cursor: pointer;
 		transition: all 0.2s;
-		/* Nad hlavičkou (50), pod podkladem nabídky (60) — proto na tlačítko
-		   při otevřené bublině sedne podklad a tapnutí ji zavře. */
+		/* Prvek feedu — čtečka postu (400) ho překrývá; při otevřené čtečce
+		   se navíc vůbec nevykresluje (showActions). Pod podkladem nabídky
+		   (60), aby tapnutí mimo bublinu opravdu zavřelo. */
 		z-index: 55;
 	}
 
@@ -586,7 +649,7 @@
 		border-color: var(--accent);
 	}
 
-	/* Nad hlavičkou (z-index 50), aby tapnutí kamkoli mimo bublinu opravdu zavřelo */
+	/* Nad tlačítkem (55), aby tapnutí kamkoli mimo bublinu opravdu zavřelo */
 	.action-backdrop {
 		position: fixed;
 		inset: 0;
@@ -711,11 +774,12 @@
 		line-height: 1;
 	}
 
-	/* Loading overlay */
+	/* Loading overlay — blokující stav, proto nad čtečkou (400) i nad
+	   plovoucím akčním tlačítkem (410) */
 	.loading-overlay {
 		position: fixed;
 		inset: 0;
-		z-index: 300;
+		z-index: 500;
 		background: var(--bg);
 		display: flex;
 		flex-direction: column;
@@ -751,7 +815,8 @@
 		font-size: 0.85rem;
 		opacity: 0;
 		transition: all 0.3s ease;
-		z-index: 200;
+		/* Nad vším včetně čtečky (400) — hláška musí být vidět vždy */
+		z-index: 450;
 		white-space: nowrap;
 		pointer-events: none;
 	}
