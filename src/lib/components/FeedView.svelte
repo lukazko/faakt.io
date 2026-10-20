@@ -542,8 +542,8 @@
 			calc(20px + env(safe-area-inset-right, 0px))
 			20px
 			calc(20px + env(safe-area-inset-left, 0px));
-		/* Neprůhledné pozadí schová horní okraj předchozí karty */
-		background: var(--bg);
+		/* Spodní část hlavičky je průhledná — pod ní prosvítá kus předchozí karty */
+		background: linear-gradient(to bottom, var(--bg) 60%, transparent);
 		pointer-events: none;
 	}
 

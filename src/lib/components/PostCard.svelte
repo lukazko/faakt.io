@@ -258,6 +258,7 @@
 	/* CTA zůstává textový odkaz, ne pill — drží vizuální jazyk feedu */
 	.flip-btn {
 		display: inline-flex;
+		outline: none;
 		align-items: center;
 		gap: 9px;
 		min-height: 44px;
@@ -303,6 +304,7 @@
 	.back-scroll {
 		flex: 1;
 		min-height: 0;
+		outline: none;
 		overflow-y: auto;
 		overscroll-behavior: contain;
 		touch-action: pan-y;
@@ -310,12 +312,6 @@
 		scrollbar-width: thin;
 		scrollbar-color: #333 transparent;
 		padding: clamp(16px, 2.8vh, 22px) clamp(18px, 5vw, 30px) clamp(22px, 4vh, 32px);
-	}
-
-	.back-scroll:focus-visible {
-		outline: 2px solid var(--accent-secondary);
-		outline-offset: -3px;
-		border-radius: 20px;
 	}
 
 	.back-inner {
@@ -335,12 +331,6 @@
 		font-weight: 700;
 		line-height: 1.3;
 		color: var(--text);
-	}
-
-	.flip-btn:focus-visible {
-		outline: 2px solid var(--accent-secondary);
-		outline-offset: 3px;
-		border-radius: 8px;
 	}
 
 	/* Nízký viewport (např. mobil na šířku) — méně řádků, aby zůstalo
