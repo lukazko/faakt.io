@@ -1,5 +1,11 @@
 <script>
 	/**
+	 * Oboustranná karta příspěvku.
+	 * Líc: hook, titulek, kategorie a CTA, které kartu otočí.
+	 * Rub: celý text a zdroje ve vlastní scrollovací ploše.
+	 *
+	 * Karta má pevnou výšku zvenčí (--card-height, počítá FeedView), takže
+	 * otočení ani délka obsahu nemění rozměry ani pozici ve feedu.
 	 * @type {{
 	 *   post: {
 	 *     id: string,
@@ -9,122 +15,286 @@
 	 *     sources: Array<{ label: string, url: string }>
 	 *   },
 	 *   categoryFilterActive?: boolean,
-	 *   onCategoryToggle?: ((slug: string, postId: string) => void) | null,
-	 *   onOpen?: ((post: object) => void) | null
+	 *   onCategoryToggle?: ((slug: string, postId: string) => void) | null
 	 * }}
 	 */
+	import { tick } from 'svelte';
 	import CategoryBadge from './CategoryBadge.svelte';
+	import PostBody from './PostBody.svelte';
 	import { getHook, getCta } from '$lib/teaser.js';
 
 	let {
 		post,
 		categoryFilterActive = false,
-		onCategoryToggle = null,
-		onOpen = null
+		onCategoryToggle = null
 	} = $props();
 
 	let hook = $derived(getHook(post.content));
 	let cta = $derived(getCta(post, hook));
+
+	// Stav otočení patří konkrétní kartě. Feed každou kartu klíčuje podle
+	// post.id, takže se nikdy nezobrazí rub u jiného příspěvku.
+	let flipped = $state(false);
+
+	let frontBtnEl = $state(null);
+	let backBtnEl = $state(null);
+
+	const frontId = $derived(`post-front-${post.id}`);
+	const backId = $derived(`post-back-${post.id}`);
+
+	async function flipToBack() {
+		if (flipped) return;
+		flipped = true;
+		// Fokus přechází na viditelnou stranu — klávesnicí se tak hned dá
+		// pokračovat ve čtení a skrytý líc nezůstane zaměřený.
+		await tick();
+		backBtnEl?.focus({ preventScroll: true });
+	}
+
+	async function flipToFront() {
+		if (!flipped) return;
+		flipped = false;
+		await tick();
+		frontBtnEl?.focus({ preventScroll: true });
+	}
+
+	function handleKeydown(event) {
+		if (event.key === 'Escape' && flipped) {
+			event.stopPropagation();
+			flipToFront();
+		}
+	}
 </script>
 
-<article class="post-card">
-	<div class="card-content">
-		<!-- V category feedu se label nezobrazuje — kategorii drží hlavička -->
-		{#if !categoryFilterActive}
-			<CategoryBadge
-				category={post.category}
-				postId={post.id}
-				onToggle={onCategoryToggle}
-			/>
-		{/if}
-		<h2 class="title">{post.title}</h2>
+<!-- perspective drží 3D otočení; fokus i čtečka vidí vždy jen jednu stranu -->
+<article class="post-card" class:flipped onkeydown={handleKeydown}>
+	<div class="card-stage">
+		<!-- LÍC -->
+		<section
+			id={frontId}
+			class="card-face card-front"
+			inert={flipped}
+			aria-hidden={flipped}
+			aria-labelledby="{frontId}-title"
+		>
+			<div class="front-inner">
+				<div class="front-top">
+					<!-- V category feedu se label nezobrazuje — kategorii drží hlavička -->
+					{#if !categoryFilterActive}
+						<CategoryBadge
+							category={post.category}
+							postId={post.id}
+							onToggle={onCategoryToggle}
+						/>
+					{/if}
+					<span class="flip-hint" aria-hidden="true">
+						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
+							<path d="M21 3v5h-5" />
+							<path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
+							<path d="M8 16H3v5" />
+						</svg>
+						celý text
+					</span>
+				</div>
 
-		<div class="body">
-			<!-- Teaser + CTA. CTA neotevírá text v kartě, ale čtečku (sheet) —
-			     karta zůstává na místě a nemění výšku. -->
-			<div class="teaser-inner">
-				<p class="teaser">{hook}</p>
-				<button
-					type="button"
-					class="reveal-btn"
-					aria-haspopup="dialog"
-					onclick={() => onOpen?.(post)}
-				>
-					<span class="reveal-btn-text">{cta}</span>
-				</button>
+				<div class="front-main">
+					<h2 id="{frontId}-title" class="title">{post.title}</h2>
+					<p class="teaser">{hook}</p>
+				</div>
+
+				<div class="front-footer">
+					<button
+						bind:this={frontBtnEl}
+						type="button"
+						class="flip-btn"
+						aria-controls={backId}
+						aria-expanded={flipped}
+						aria-label={`Otevřít celý text: ${post.title}`}
+						onclick={flipToBack}
+					>
+						<span class="flip-btn-text">{cta}</span>
+						<svg class="flip-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
+							<path d="M21 3v5h-5" />
+							<path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
+							<path d="M8 16H3v5" />
+						</svg>
+					</button>
+				</div>
 			</div>
-		</div>
+		</section>
+
+		<!-- RUB -->
+		<section
+			id={backId}
+			class="card-face card-back"
+			inert={!flipped}
+			aria-hidden={!flipped}
+			aria-labelledby="{backId}-title"
+		>
+			<!-- Lišta s návratem je mimo scrollovací plochu — je vidět vždy -->
+			<div class="back-toolbar">
+				<button
+					bind:this={backBtnEl}
+					type="button"
+					class="back-btn"
+					aria-controls={frontId}
+					aria-label={`Zpět na náhled: ${post.title}`}
+					onclick={flipToFront}
+				>
+					<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<path d="M19 12H5" />
+						<path d="M12 19l-7-7 7-7" />
+					</svg>
+					<span>Zpět na náhled</span>
+				</button>
+				<span class="back-kicker" aria-hidden="true">celý text</span>
+			</div>
+
+			<!-- Vlastní scrollovací plocha rubu. overscroll-behavior: contain
+			     brání tomu, aby scrollování článku omylem posunulo feed. -->
+			<div class="back-scroll" tabindex="0" aria-label={`Celý text: ${post.title}`}>
+				<div class="back-inner">
+					<div class="back-meta">
+						<CategoryBadge category={post.category} />
+					</div>
+					<h2 id="{backId}-title" class="back-title">{post.title}</h2>
+					<PostBody {post} sourcesExpanded />
+				</div>
+			</div>
+		</section>
 	</div>
 </article>
 
 <style>
 	.post-card {
-		height: 100vh;
-		height: 100dvh;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		/* V PWA drží obsah mimo stavovou lištu a výřez. Dole a po stranách stačí
-		   max() — sčítání by zbytečně zkracovalo obsah, i když tam nic nepřekáží. */
-		padding:
-			calc(24px + env(safe-area-inset-top, 0px))
-			max(20px, env(safe-area-inset-right, 0px))
-			max(24px, env(safe-area-inset-bottom, 0px))
-			max(20px, env(safe-area-inset-left, 0px));
-		scroll-snap-align: start;
 		position: relative;
+		/* Pevná výška z FeedView — nikdy se neřídí délkou obsahu */
+		height: var(--card-height, 70dvh);
+		width: 100%;
+		max-width: 520px;
+		margin: 0 auto;
+		perspective: 1600px;
+		-webkit-perspective: 1600px;
 	}
 
-	.card-content {
-		max-width: 500px;
+	.card-stage {
+		position: relative;
 		width: 100%;
+		height: 100%;
+		transform-style: preserve-3d;
+		transition: transform 0.42s cubic-bezier(0.2, 0.75, 0.25, 1);
+	}
+
+	.post-card.flipped .card-stage {
+		transform: rotateY(180deg);
+	}
+
+	.card-face {
+		position: absolute;
+		inset: 0;
 		display: flex;
 		flex-direction: column;
-		gap: 16px;
-		animation: fadeIn 0.4s ease-out;
+		min-height: 0;
+		overflow: hidden;
+		background: #101010;
+		background: linear-gradient(180deg, #141414 0%, #0d0d0d 100%);
+		border: 1px solid #262626;
+		border-radius: 22px;
+		box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	}
 
-	@keyframes fadeIn {
-		from { opacity: 0; transform: translateY(8px); }
-		to   { opacity: 1; transform: translateY(0); }
+	.card-back {
+		transform: rotateY(180deg);
+	}
+
+	/* Skrytá strana nesmí chytat tapnutí ani myš */
+	.post-card.flipped .card-front,
+	.post-card:not(.flipped) .card-back {
+		pointer-events: none;
+	}
+
+	/* --- Líc --- */
+	.front-inner {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+		height: 100%;
+		min-height: 0;
+		padding: clamp(18px, 3.4vh, 28px) clamp(18px, 5vw, 30px);
+	}
+
+	.front-top {
+		flex: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		min-height: 26px;
+	}
+
+	.flip-hint {
+		display: inline-flex;
+		align-items: center;
+		gap: 5px;
+		margin-left: auto;
+		font-size: 0.62rem;
+		letter-spacing: 0.06em;
+		color: #555;
+		white-space: nowrap;
+	}
+
+	/* Hook i titulek jsou omezené počtem řádků — dlouhý text nikdy
+	   neroztáhne kartu ani nepřekryje CTA. */
+	.front-main {
+		flex: 1 1 auto;
+		min-height: 0;
+		overflow: hidden;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		gap: 14px;
 	}
 
 	.title {
-		font-size: 1.25rem;
+		font-size: clamp(1.15rem, 1.05rem + 0.7vw, 1.45rem);
 		font-weight: 700;
-		line-height: 1.35;
+		line-height: 1.3;
 		color: var(--text);
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 	}
 
-	/* Teaser drží stejné rozestupy jako dřív obsah + zdroje */
-	.body {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.teaser-inner {
-		display: flex;
-		flex-direction: column;
-		/* Mezery drží stejný rytmus jako dřív — padding CTA se do nich započítává */
-		gap: 6px;
-		padding-bottom: 6px;
-	}
-
-	/* Bez ořezu na počet řádků — hook musí zůstat celou větou */
 	.teaser {
 		font-size: 0.95rem;
-		line-height: 1.7;
+		line-height: 1.68;
 		color: var(--text-muted);
+		display: -webkit-box;
+		-webkit-line-clamp: 6;
+		line-clamp: 6;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 	}
 
-	/* CTA jako pokračování textu, ne tlačítko — zůstává <button> kvůli
-	   přístupnosti, ale bez pill tvaru, pozadí a stínu */
-	.reveal-btn {
+	.front-footer {
+		flex: none;
+		display: flex;
+		align-items: center;
+	}
+
+	/* CTA zůstává textový odkaz, ne pill — drží vizuální jazyk feedu */
+	.flip-btn {
 		display: inline-flex;
 		align-items: center;
-		align-self: flex-start;
+		gap: 9px;
 		min-height: 44px;
-		padding: 10px 0;
+		padding: 8px 0;
 		border: none;
 		background: none;
 		font-family: inherit;
@@ -132,16 +302,9 @@
 		font-weight: 600;
 		cursor: pointer;
 		-webkit-tap-highlight-color: transparent;
-		transition: opacity 0.15s;
 	}
 
-	.reveal-btn:active {
-		opacity: 0.65;
-	}
-
-	/* Gradient i linka sedí na textu, ne na paddingu tlačítka */
-	.reveal-btn-text {
-		/* Stejný gradient jako logo */
+	.flip-btn-text {
 		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
 		-webkit-background-clip: text;
 		background-clip: text;
@@ -153,7 +316,140 @@
 		transition: border-color 0.15s;
 	}
 
-	.reveal-btn:hover .reveal-btn-text {
+	.flip-btn:hover .flip-btn-text {
 		border-color: var(--accent-secondary);
+	}
+
+	.flip-icon {
+		flex: none;
+		color: var(--accent-secondary);
+		opacity: 0.8;
+		transition: transform 0.3s;
+	}
+
+	.flip-btn:hover .flip-icon {
+		transform: rotate(180deg);
+	}
+
+	/* --- Rub --- */
+	.back-toolbar {
+		flex: none;
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 12px;
+		padding: 8px 14px 8px 8px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+	}
+
+	.back-btn {
+		display: inline-flex;
+		align-items: center;
+		gap: 8px;
+		min-height: 44px;
+		padding: 8px 14px 8px 10px;
+		border: none;
+		border-radius: 999px;
+		background: rgba(255, 255, 255, 0.04);
+		color: var(--text);
+		font-family: inherit;
+		font-size: 0.8rem;
+		font-weight: 600;
+		cursor: pointer;
+		-webkit-tap-highlight-color: transparent;
+		transition: background 0.15s;
+	}
+
+	.back-btn:hover {
+		background: rgba(255, 255, 255, 0.08);
+	}
+
+	.back-btn:active {
+		background: rgba(255, 255, 255, 0.12);
+	}
+
+	.back-kicker {
+		padding-right: 6px;
+		font-size: 0.62rem;
+		letter-spacing: 0.12em;
+		text-transform: uppercase;
+		color: #555;
+		white-space: nowrap;
+	}
+
+	/* Rub scrolluje sám; přesah se nepřenáší na feed pod kartou */
+	.back-scroll {
+		flex: 1;
+		min-height: 0;
+		overflow-y: auto;
+		overscroll-behavior: contain;
+		touch-action: pan-y;
+		-webkit-overflow-scrolling: touch;
+		scrollbar-width: thin;
+		scrollbar-color: #333 transparent;
+		padding: clamp(16px, 2.8vh, 22px) clamp(18px, 5vw, 30px) clamp(22px, 4vh, 32px);
+	}
+
+	.back-scroll:focus-visible {
+		outline: 2px solid var(--accent-secondary);
+		outline-offset: -3px;
+		border-radius: 0 0 20px 20px;
+	}
+
+	.back-inner {
+		display: flex;
+		flex-direction: column;
+		gap: 14px;
+	}
+
+	.back-meta {
+		display: flex;
+		align-items: center;
+		gap: 10px;
+	}
+
+	.back-title {
+		font-size: 1.2rem;
+		font-weight: 700;
+		line-height: 1.3;
+		color: var(--text);
+	}
+
+	.flip-btn:focus-visible,
+	.back-btn:focus-visible {
+		outline: 2px solid var(--accent-secondary);
+		outline-offset: 3px;
+		border-radius: 8px;
+	}
+
+	/* Nízký viewport (např. mobil na šířku) — méně řádků, aby zůstalo
+	   vidět CTA a karta nepůsobila přeplácaně */
+	@media (max-height: 560px) {
+		.front-inner {
+			gap: 10px;
+			padding-top: 16px;
+			padding-bottom: 16px;
+		}
+
+		.title {
+			-webkit-line-clamp: 2;
+			line-clamp: 2;
+		}
+
+		.teaser {
+			-webkit-line-clamp: 3;
+			line-clamp: 3;
+		}
+	}
+
+	/* Bez 3D animace, strana se jen okamžitě vymění */
+	@media (prefers-reduced-motion: reduce) {
+		.card-stage {
+			transition: none;
+		}
+
+		.flip-btn:hover .flip-icon {
+			transform: none;
+		}
 	}
 </style>

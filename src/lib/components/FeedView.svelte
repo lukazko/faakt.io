@@ -2,7 +2,6 @@
 	import { tick } from 'svelte';
 	import { pushState } from '$app/navigation';
 	import PostCard from './PostCard.svelte';
-	import PostSheet from './PostSheet.svelte';
 	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
 
 	const PAGE_SIZE = 20;
@@ -17,44 +16,55 @@
 	let totalPosts = $state(0);
 	let error = $state(null);
 
-	// Post otevřený v čtečce (sheet). Překryv nad feedem — pozice scrollování
-	// ve feedu se otevřením ani zavřením nemění.
-	let openPost = $state(null);
-	// Vstup do článku je zapsaný v historii, aby ho zavřelo i systémové Zpět.
-	let sheetInHistory = false;
-
-	/**
-	 * Otevře čtečku postu a zapíše vstup do historie — zpětné gesto
-	 * (tlačítko prohlížeče, systémové Zpět) tak vrátí čtenáře do feedu.
-	 */
-	function openSheet(post) {
-		openPost = post;
-		// Adresa se čte z prohlížeče, ne z page.url — shallow pushState se do
-		// page.url nepropíše, takže by odtud vypadl filtr kategorie.
-		const url = new URL(window.location.href);
-		url.searchParams.set('post', post.id);
-		pushState(url, {});
-		sheetInHistory = true;
-	}
-
-	/**
-	 * Zavře čtečku. Feed se přitom nijak nemění — zůstává na stejné pozici.
-	 */
-	function closeSheet() {
-		if (!openPost) return;
-		openPost = null;
-		if (!sheetInHistory) return;
-		sheetInHistory = false;
-		// Uklidí i zápis v historii, jinak by Zpět zůstalo viset naprázdno.
-		history.back();
-	}
-
 	// Příspěvek, na kterém uživatel právě stojí. Akční tlačítko je fixní prvek
 	// obrazovky, takže se ptá na něj — ne na kartu, ve které by bydlelo.
 	// Na koncové kartě ("načíst další") žádný příspěvek není, proto se schová.
-	// Otevřená čtečka postu akční tlačítko schová — do sheetu nepatří.
 	let activePost = $derived(posts[currentIndex] ?? null);
-	let showActions = $derived(!!activePost && currentIndex < visibleCount && !openPost);
+	let showActions = $derived(!!activePost && currentIndex < visibleCount);
+
+	// --- Rozměry karty ---------------------------------------------------
+	// Karta má pevnou výšku, kterou dopočítáme z reálného prostoru feedu:
+	// výřez se mění (mobilní chrome, PWA), takže 100vh by nestačilo.
+	// Pod kartou zůstává viditelný kus další karty jako pozvánka ke scrollu.
+	const CARD_GAP = 14;
+	const CARD_PEEK_RATIO = 0.09;
+	const CARD_PEEK_MIN = 52;
+	const CARD_PEEK_MAX = 96;
+	const CARD_MIN_HEIGHT = 240;
+
+	let feedEl = $state(null);
+	let headerEl = $state(null);
+	let cardStep = $state(0); // výška karty + mezera = krok scroll-snapu
+
+	/**
+	 * Změří dostupný prostor a nastaví CSS proměnné feedu.
+	 * Vychází z clientHeight scrollovacího kontejneru (100dvh), takže
+	 * respektuje dynamický chrome prohlížeče i safe-area v hlavičce.
+	 */
+	function measureFeed() {
+		const container = feedEl;
+		if (!container) return;
+
+		const viewport = container.clientHeight || window.innerHeight;
+		const headerHeight = headerEl?.offsetHeight ?? 0;
+		const topOffset = headerHeight + 6;
+		const peek = Math.min(
+			Math.max(viewport * CARD_PEEK_RATIO, CARD_PEEK_MIN),
+			CARD_PEEK_MAX
+		);
+		const cardHeight = Math.max(
+			CARD_MIN_HEIGHT,
+			viewport - topOffset - peek - CARD_GAP
+		);
+		const step = cardHeight + CARD_GAP;
+
+		container.style.setProperty('--feed-top', `${topOffset}px`);
+		container.style.setProperty('--feed-peek', `${peek}px`);
+		container.style.setProperty('--feed-gap', `${CARD_GAP}px`);
+		container.style.setProperty('--card-height', `${cardHeight}px`);
+		container.style.setProperty('--feed-step', `${step}px`);
+		cardStep = step;
+	}
 
 	// Nereaktivní zrcadlo activeCategory — kvůli porovnání v $effect bez smyčky
 	let appliedCategory = null;
@@ -125,7 +135,8 @@
 	 * `post` drží příspěvek, kterým feed začíná, aby refresh i odkaz vrátily stejný stav.
 	 */
 	function syncCategoryUrl(category, targetId = null) {
-		// Ze stejného důvodu jako v openSheet — bere se skutečná adresa.
+		// Bere se skutečná adresa prohlížeče — shallow pushState se do
+		// page.url nepropíše a odtud by vypadl filtr kategorie.
 		const url = new URL(window.location.href);
 		if (category) url.searchParams.set('category', category);
 		else url.searchParams.delete('category');
@@ -204,9 +215,9 @@
 
 	function handleScroll(e) {
 		const el = e.target;
-		const cardHeight = el.clientHeight;
+		const step = cardStep || el.clientHeight;
 		const scrollTop = el.scrollTop;
-		const idx = Math.round(scrollTop / cardHeight);
+		const idx = Math.round(scrollTop / step);
 		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
 			currentIndex = idx;
 			// Nabídka patří k příspěvku, na kterém uživatel stál — po posunu zavřít.
@@ -222,10 +233,12 @@
 		await new Promise(resolve => requestAnimationFrame(resolve));
 		const container = document.querySelector('.feed-container');
 		if (container) {
-			const cardHeight = container.clientHeight;
+			// Krok feedu = výška karty + mezera; na první novou kartu
+			// najedeme přesně, bez ohledu na výšku viewportu.
+			const step = cardStep || container.clientHeight;
 			container.style.scrollSnapType = 'none';
 			container.style.scrollBehavior = 'auto';
-			container.scrollTop = oldCount * cardHeight;
+			container.scrollTop = oldCount * step;
 			container.style.scrollSnapType = '';
 			container.style.scrollBehavior = '';
 		}
@@ -288,12 +301,10 @@
 	});
 
 	// Feed sleduje pohyb v historii prohlížeče — Zpět/Vpřed vrátí i podobu feedu.
-	// Schválně se nečte page.url: shallow pushState (čtečka postu, přepnutí
-	// kategorie) se do něj nepropíše a zůstává v něm adresa z posledního
-	// skutečného načtení. Efekt by pak po otevření čtečky viděl, že v adrese
-	// žádná kategorie není, a shodil by zvolený filtr. Rozhoduje proto
-	// skutečná adresa prohlížeče; vlastní přepnutí kategorie je synchronní,
-	// takže se sem vůbec nedostane.
+	// Schválně se nečte page.url: shallow pushState (přepnutí kategorie) se
+	// do něj nepropíše a zůstává v něm adresa z posledního skutečného načtení.
+	// Rozhoduje proto skutečná adresa prohlížeče; vlastní přepnutí kategorie
+	// je synchronní, takže se sem vůbec nedostane.
 	$effect(() => {
 		if (!dataReady) return;
 		const onPop = () => {
@@ -306,16 +317,30 @@
 		return () => window.removeEventListener('popstate', onPop);
 	});
 
-	// Zpět v prohlížeči zavírá čtečku. Vlastní zavření přes history.back()
-	// sem dorazí taky, ale openPost už je null, takže se nic neděje.
+	// Rozměry karty se přepočítají, když se změní viewport (otočení mobilu,
+	// vysunutí lišty prohlížeče, resize okna) nebo výška hlavičky (safe-area).
 	$effect(() => {
-		const onPop = () => {
-			if (!openPost) return;
-			openPost = null;
-			sheetInHistory = false;
+		const container = feedEl;
+		const header = headerEl;
+		if (!container || !header) return;
+
+		measureFeed();
+
+		const observer = new ResizeObserver(measureFeed);
+		observer.observe(header);
+		observer.observe(container);
+
+		const onResize = () => measureFeed();
+		window.addEventListener('resize', onResize);
+		window.addEventListener('orientationchange', onResize);
+		window.visualViewport?.addEventListener('resize', onResize);
+
+		return () => {
+			observer.disconnect();
+			window.removeEventListener('resize', onResize);
+			window.removeEventListener('orientationchange', onResize);
+			window.visualViewport?.removeEventListener('resize', onResize);
 		};
-		window.addEventListener('popstate', onPop);
-		return () => window.removeEventListener('popstate', onPop);
 	});
 </script>
 
@@ -330,27 +355,27 @@
 		<button onclick={loadPosts}>Zkusit znovu</button>
 	</div>
 {:else}
-	<div class="feed-container" onscroll={handleScroll}>
-		<!-- App header -->
-		<header class="app-header">
-			<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
-			{#if activeCategoryMeta}
-				<button
-					type="button"
-					class="header-category"
-					style="--cat-color: {activeCategoryMeta.color}"
-					title="Zrušit filtr kategorie"
-					aria-label={`Zrušit filtr kategorie ${activeCategoryMeta.label}`}
-					onclick={clearCategory}
-				>
-					<span class="header-category-label">{activeCategoryMeta.label}</span>
-					<span class="header-category-close" aria-hidden="true">×</span>
-				</button>
-			{:else}
-				<span class="app-tagline">doomscrolling, ale lepší</span>
-			{/if}
-		</header>
+	<!-- App header — fixní překryv, výška se započítává do rozměru karty -->
+	<header class="app-header" bind:this={headerEl}>
+		<a href="." data-sveltekit-reload class="app-logo">faakt.io</a>
+		{#if activeCategoryMeta}
+			<button
+				type="button"
+				class="header-category"
+				style="--cat-color: {activeCategoryMeta.color}"
+				title="Zrušit filtr kategorie"
+				aria-label={`Zrušit filtr kategorie ${activeCategoryMeta.label}`}
+				onclick={clearCategory}
+			>
+				<span class="header-category-label">{activeCategoryMeta.label}</span>
+				<span class="header-category-close" aria-hidden="true">×</span>
+			</button>
+		{:else}
+			<span class="app-tagline">doomscrolling, ale lepší</span>
+		{/if}
+	</header>
 
+	<div class="feed-container" bind:this={feedEl} onscroll={handleScroll}>
 		<div class="feed-stack">
 			{#each posts.slice(0, visibleCount) as post, i (post.id)}
 				<div class="card-wrapper">
@@ -358,7 +383,6 @@
 						{post}
 						categoryFilterActive={!!activeCategory}
 						onCategoryToggle={handleCategoryToggle}
-						onOpen={openSheet}
 					/>
 				</div>
 			{/each}
@@ -448,12 +472,6 @@
 		</div>
 	{/if}
 
-	<!-- Čtečka celého postu — mimo .feed-container, aby nijak nezasahovala
-	     do rozvržení ani scrollování feedu -->
-	{#if openPost}
-		<PostSheet post={openPost} onClose={closeSheet} />
-	{/if}
-
 	<!-- Toast -->
 	<div id="toast" class="toast"></div>
 {/if}
@@ -502,15 +520,20 @@
 		height: 100dvh;
 		overflow-y: scroll;
 		scroll-snap-type: y mandatory;
+		/* Snapport začíná pod hlavičkou — karta se zarovná přesně pod ni,
+		   ne pod její překryv. Hodnotu dopočítá measureFeed(). */
+		scroll-padding-top: var(--feed-top, 0px);
 		scroll-behavior: smooth;
 		-webkit-overflow-scrolling: touch;
 		overscroll-behavior: none;
 	}
 
-	/* App header */
+	/* App header — fixní překryv nad feedem; jeho výšku měří measureFeed() */
 	.app-header {
-		position: sticky;
+		position: fixed;
 		top: 0;
+		left: 0;
+		right: 0;
 		z-index: 50;
 		display: flex;
 		align-items: baseline;
@@ -610,10 +633,25 @@
 	.feed-stack {
 		display: flex;
 		flex-direction: column;
+		/* První karta začíná pod hlavičkou; stejná hodnota je i v
+		   scroll-padding-top, takže snap sedí na stejné místo. */
+		padding-top: var(--feed-top, 0px);
+		/* Poslední karta se dá doklouzlit až nahoru */
+		padding-bottom: var(--feed-peek, 0px);
 	}
 
+	/* Jeden krok feedu = karta + mezera. Pevná výška drží rytmus snapu
+	   i tehdy, když se obsah karty liší. */
 	.card-wrapper {
 		position: relative;
+		flex: none;
+		height: var(--feed-step, calc(70dvh + 14px));
+		padding:
+			0
+			max(16px, env(safe-area-inset-right, 0px))
+			0
+			max(16px, env(safe-area-inset-left, 0px));
+		scroll-snap-align: start;
 	}
 
 	/* Fixní prvek obrazovky, ne součást karty — v rohu, ať už je zobrazený
@@ -721,10 +759,10 @@
 		white-space: nowrap;
 	}
 
-	/* End card (load more) */
+	/* End card (load more) — stejný krok jako karta, ať snap neskáče */
 	.end-card {
-		height: 100vh;
-		height: 100dvh;
+		flex: none;
+		height: var(--feed-step, 100dvh);
 		display: flex;
 		flex-direction: column;
 		align-items: center;

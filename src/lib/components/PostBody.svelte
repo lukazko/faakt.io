@@ -1,7 +1,7 @@
 <script>
 	/**
 	 * Plné znění postu — tělo, takeaway a zdroje.
-	 * Sdílí ho čtečka postu (PostSheet); karta ve feedu z něj zobrazuje jen teaser.
+	 * Používá ho rub karty ve feedu (a dřív i čtečka postu).
 	 * @type {{
 	 *   post: {
 	 *     id: string,
@@ -9,14 +9,17 @@
 	 *     content: string,
 	 *     category: string,
 	 *     sources: Array<{ label: string, url: string }>
-	 *   }
+	 *   },
+	 *   sourcesExpanded?: boolean
 	 * }}
 	 */
 	import { splitTakeaway } from '$lib/teaser.js';
 
-	let { post } = $props();
+	// `sourcesExpanded` používá rub karty ve feedu — zdroje jsou tam rovnou
+	// vidět. Čtečka postu (PostSheet) nechává výchozí sbalený stav.
+	let { post, sourcesExpanded = false } = $props();
 
-	let sourcesOpen = $state(false);
+	let sourcesOpen = $state(sourcesExpanded);
 
 	let parts = $derived(splitTakeaway(post.content));
 	let hasSources = $derived(post.sources && post.sources.length > 0);
@@ -35,7 +38,12 @@
 
 	{#if hasSources}
 		<div class="sources">
-			<button class="source-toggle" onclick={() => sourcesOpen = !sourcesOpen}>
+			<button
+				type="button"
+				class="source-toggle"
+				aria-expanded={sourcesOpen}
+				onclick={() => sourcesOpen = !sourcesOpen}
+			>
 				<span class="source-icon">&#9432;</span>
 				Zdroje ({post.sources.length})
 				<span class="chevron" class:rotated={sourcesOpen}>&#9662;</span>
