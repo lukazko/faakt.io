@@ -14,30 +14,24 @@
 	 *     category: string,
 	 *     sources: Array<{ label: string, url: string }>
 	 *   },
-	 *   categoryFilterActive?: boolean,
 	 *   onCategoryToggle?: ((slug: string, postId: string) => void) | null
 	 * }}
 	 */
 	import { tick } from 'svelte';
 	import CategoryBadge from './CategoryBadge.svelte';
 	import PostBody from './PostBody.svelte';
-	import { getHook, getCta } from '$lib/teaser.js';
+	import { getHook } from '$lib/teaser.js';
 
-	let {
-		post,
-		categoryFilterActive = false,
-		onCategoryToggle = null
-	} = $props();
+	let { post, onCategoryToggle = null } = $props();
 
 	let hook = $derived(getHook(post.content));
-	let cta = $derived(getCta(post, hook));
 
 	// Stav otočení patří konkrétní kartě. Feed každou kartu klíčuje podle
 	// post.id, takže se nikdy nezobrazí rub u jiného příspěvku.
 	let flipped = $state(false);
 
 	let frontBtnEl = $state(null);
-	let backBtnEl = $state(null);
+	let backScrollEl = $state(null);
 
 	const frontId = $derived(`post-front-${post.id}`);
 	const backId = $derived(`post-back-${post.id}`);
@@ -48,7 +42,9 @@
 		// Fokus přechází na viditelnou stranu — klávesnicí se tak hned dá
 		// pokračovat ve čtení a skrytý líc nezůstane zaměřený.
 		await tick();
-		backBtnEl?.focus({ preventScroll: true });
+		// Na rubu není žádné tlačítko — fokus dostane scrollovací plocha,
+		// aby se klávesnicí dalo rovnou číst a Escape vrátil kartu zpět.
+		backScrollEl?.focus({ preventScroll: true });
 	}
 
 	async function flipToFront() {
@@ -64,10 +60,24 @@
 			flipToFront();
 		}
 	}
+
+	// Kliknutí kamkoli na kartu ji otočí. Ovládací prvky (tlačítka, odkazy)
+	// si klik řeší samy, stejně jako dokončený výběr textu.
+	function handleCardClick(event) {
+		const target = event.target;
+		if (!(target instanceof Element)) return;
+		if (target.closest('a, button, input, textarea, select, label, summary')) return;
+
+		const selection = window.getSelection();
+		if (selection && !selection.isCollapsed) return;
+
+		if (flipped) flipToFront();
+		else flipToBack();
+	}
 </script>
 
 <!-- perspective drží 3D otočení; fokus i čtečka vidí vždy jen jednu stranu -->
-<article class="post-card" class:flipped onkeydown={handleKeydown}>
+<article class="post-card" class:flipped onkeydown={handleKeydown} onclick={handleCardClick}>
 	<div class="card-stage">
 		<!-- LÍC -->
 		<section
@@ -79,23 +89,11 @@
 		>
 			<div class="front-inner">
 				<div class="front-top">
-					<!-- V category feedu se label nezobrazuje — kategorii drží hlavička -->
-					{#if !categoryFilterActive}
-						<CategoryBadge
-							category={post.category}
-							postId={post.id}
-							onToggle={onCategoryToggle}
-						/>
-					{/if}
-					<span class="flip-hint" aria-hidden="true">
-						<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-							<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
-							<path d="M21 3v5h-5" />
-							<path d="M21 12a9 9 0 0 1-9 9 9.75 9.75 0 0 1-6.74-2.74L3 16" />
-							<path d="M8 16H3v5" />
-						</svg>
-						celý text
-					</span>
+					<CategoryBadge
+						category={post.category}
+						postId={post.id}
+						onToggle={onCategoryToggle}
+					/>
 				</div>
 
 				<div class="front-main">
@@ -113,7 +111,7 @@
 						aria-label={`Otevřít celý text: ${post.title}`}
 						onclick={flipToBack}
 					>
-						<span class="flip-btn-text">{cta}</span>
+						<span class="flip-btn-text">celý text</span>
 						<svg class="flip-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 							<path d="M3 12a9 9 0 0 1 9-9 9.75 9.75 0 0 1 6.74 2.74L21 8" />
 							<path d="M21 3v5h-5" />
@@ -133,28 +131,9 @@
 			aria-hidden={!flipped}
 			aria-labelledby="{backId}-title"
 		>
-			<!-- Lišta s návratem je mimo scrollovací plochu — je vidět vždy -->
-			<div class="back-toolbar">
-				<button
-					bind:this={backBtnEl}
-					type="button"
-					class="back-btn"
-					aria-controls={frontId}
-					aria-label={`Zpět na náhled: ${post.title}`}
-					onclick={flipToFront}
-				>
-					<svg width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-						<path d="M19 12H5" />
-						<path d="M12 19l-7-7 7-7" />
-					</svg>
-					<span>Zpět na náhled</span>
-				</button>
-				<span class="back-kicker" aria-hidden="true">celý text</span>
-			</div>
-
 			<!-- Vlastní scrollovací plocha rubu. overscroll-behavior: contain
 			     brání tomu, aby scrollování článku omylem posunulo feed. -->
-			<div class="back-scroll" tabindex="0" aria-label={`Celý text: ${post.title}`}>
+			<div class="back-scroll" bind:this={backScrollEl} tabindex="0" aria-label={`Celý text: ${post.title}`} aria-keyshortcuts="Escape">
 				<div class="back-inner">
 					<div class="back-meta">
 						<CategoryBadge category={post.category} />
@@ -193,6 +172,7 @@
 
 	.card-face {
 		position: absolute;
+		cursor: pointer;
 		inset: 0;
 		display: flex;
 		flex-direction: column;
@@ -231,20 +211,7 @@
 		flex: none;
 		display: flex;
 		align-items: center;
-		justify-content: space-between;
-		gap: 12px;
 		min-height: 26px;
-	}
-
-	.flip-hint {
-		display: inline-flex;
-		align-items: center;
-		gap: 5px;
-		margin-left: auto;
-		font-size: 0.62rem;
-		letter-spacing: 0.06em;
-		color: #555;
-		white-space: nowrap;
 	}
 
 	/* Hook i titulek jsou omezené počtem řádků — dlouhý text nikdy
@@ -332,51 +299,6 @@
 	}
 
 	/* --- Rub --- */
-	.back-toolbar {
-		flex: none;
-		display: flex;
-		align-items: center;
-		justify-content: space-between;
-		gap: 12px;
-		padding: 8px 14px 8px 8px;
-		border-bottom: 1px solid rgba(255, 255, 255, 0.06);
-	}
-
-	.back-btn {
-		display: inline-flex;
-		align-items: center;
-		gap: 8px;
-		min-height: 44px;
-		padding: 8px 14px 8px 10px;
-		border: none;
-		border-radius: 999px;
-		background: rgba(255, 255, 255, 0.04);
-		color: var(--text);
-		font-family: inherit;
-		font-size: 0.8rem;
-		font-weight: 600;
-		cursor: pointer;
-		-webkit-tap-highlight-color: transparent;
-		transition: background 0.15s;
-	}
-
-	.back-btn:hover {
-		background: rgba(255, 255, 255, 0.08);
-	}
-
-	.back-btn:active {
-		background: rgba(255, 255, 255, 0.12);
-	}
-
-	.back-kicker {
-		padding-right: 6px;
-		font-size: 0.62rem;
-		letter-spacing: 0.12em;
-		text-transform: uppercase;
-		color: #555;
-		white-space: nowrap;
-	}
-
 	/* Rub scrolluje sám; přesah se nepřenáší na feed pod kartou */
 	.back-scroll {
 		flex: 1;
@@ -393,7 +315,7 @@
 	.back-scroll:focus-visible {
 		outline: 2px solid var(--accent-secondary);
 		outline-offset: -3px;
-		border-radius: 0 0 20px 20px;
+		border-radius: 20px;
 	}
 
 	.back-inner {
@@ -415,8 +337,7 @@
 		color: var(--text);
 	}
 
-	.flip-btn:focus-visible,
-	.back-btn:focus-visible {
+	.flip-btn:focus-visible {
 		outline: 2px solid var(--accent-secondary);
 		outline-offset: 3px;
 		border-radius: 8px;

@@ -379,11 +379,7 @@
 		<div class="feed-stack">
 			{#each posts.slice(0, visibleCount) as post, i (post.id)}
 				<div class="card-wrapper">
-					<PostCard
-						{post}
-						categoryFilterActive={!!activeCategory}
-						onCategoryToggle={handleCategoryToggle}
-					/>
+					<PostCard {post} onCategoryToggle={handleCategoryToggle} />
 				</div>
 			{/each}
 

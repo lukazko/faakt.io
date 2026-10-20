@@ -28,12 +28,9 @@
 <div class="post-body">
 	<div class="content">{@html parts.body}</div>
 
-	<!-- Závěrečný odstavec jako samostatný takeaway -->
+	<!-- Závěrečný odstavec je součástí textu, bez vlastního vizuálu -->
 	{#if parts.takeaway}
-		<div class="takeaway">
-			<span class="takeaway-label">Takeaway</span>
-			<div class="takeaway-text">{@html parts.takeaway}</div>
-		</div>
+		<div class="content">{@html parts.takeaway}</div>
 	{/if}
 
 	{#if hasSources}
@@ -106,40 +103,6 @@
 	}
 
 	.content :global(em) { font-style: italic; color: var(--text-muted); }
-
-	/* Takeaway — vizuálně oddělený závěr postu */
-	.takeaway {
-		display: flex;
-		flex-direction: column;
-		gap: 8px;
-		padding: 14px 16px;
-		border-left: 2px solid var(--accent);
-		border-radius: 0 10px 10px 0;
-		background: rgba(255, 255, 255, 0.03);
-	}
-
-	.takeaway-label {
-		font-size: 0.6rem;
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--accent);
-		opacity: 0.85;
-	}
-
-	.takeaway-text {
-		font-size: 0.95rem;
-		line-height: 1.7;
-		color: var(--text);
-	}
-
-	.takeaway-text :global(p) {
-		margin: 0;
-	}
-
-	.takeaway-text :global(strong) {
-		font-weight: 700;
-	}
 
 	/* Sources */
 	.sources {
