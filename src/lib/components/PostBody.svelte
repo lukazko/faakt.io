@@ -9,17 +9,15 @@
 	 *     content: string,
 	 *     category: string,
 	 *     sources: Array<{ label: string, url: string }>
-	 *   },
-	 *   sourcesExpanded?: boolean
+	 *   }
 	 * }}
 	 */
 	import { splitTakeaway } from '$lib/teaser.js';
 
-	// `sourcesExpanded` používá rub karty ve feedu — zdroje jsou tam rovnou
-	// vidět. Čtečka postu (PostSheet) nechává výchozí sbalený stav.
-	let { post, sourcesExpanded = false } = $props();
+	let { post } = $props();
 
-	let sourcesOpen = $state(sourcesExpanded);
+	// Zdroje jsou defaultně sbalené, rozbalí je až klik na přepínač.
+	let sourcesOpen = $state(false);
 
 	let parts = $derived(splitTakeaway(post.content));
 	let hasSources = $derived(post.sources && post.sources.length > 0);

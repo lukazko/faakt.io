@@ -25,11 +25,12 @@
 	// --- Rozměry karty ---------------------------------------------------
 	// Karta má pevnou výšku, kterou dopočítáme z reálného prostoru feedu:
 	// výřez se mění (mobilní chrome, PWA), takže 100vh by nestačilo.
-	// Pod kartou zůstává viditelný kus další karty jako pozvánka ke scrollu.
+	// Pod kartou zůstává jen tenký proužek horního okraje další karty —
+	// dost na pozvánku ke scrollu, ale bez badge kategorie.
 	const CARD_GAP = 14;
-	const CARD_PEEK_RATIO = 0.09;
-	const CARD_PEEK_MIN = 52;
-	const CARD_PEEK_MAX = 96;
+	const CARD_PEEK_RATIO = 0.025;
+	const CARD_PEEK_MIN = 14;
+	const CARD_PEEK_MAX = 20;
 	const CARD_MIN_HEIGHT = 240;
 
 	let feedEl = $state(null);
@@ -541,7 +542,8 @@
 			calc(20px + env(safe-area-inset-right, 0px))
 			20px
 			calc(20px + env(safe-area-inset-left, 0px));
-		background: linear-gradient(to bottom, var(--bg) 60%, transparent);
+		/* Neprůhledné pozadí schová horní okraj předchozí karty */
+		background: var(--bg);
 		pointer-events: none;
 	}
 

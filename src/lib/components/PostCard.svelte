@@ -139,7 +139,7 @@
 						<CategoryBadge category={post.category} />
 					</div>
 					<h2 id="{backId}-title" class="back-title">{post.title}</h2>
-					<PostBody {post} sourcesExpanded />
+					<PostBody {post} />
 				</div>
 			</div>
 		</section>
@@ -348,7 +348,7 @@
 	@media (max-height: 560px) {
 		.front-inner {
 			gap: 10px;
-			padding-top: 16px;
+			padding-top: 20px;
 			padding-bottom: 16px;
 		}
 
