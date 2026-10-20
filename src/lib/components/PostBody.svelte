@@ -1,7 +1,7 @@
 <script>
 	/**
 	 * Plné znění postu — tělo, takeaway a zdroje.
-	 * Sdílí ho čtečka postu (PostSheet); karta ve feedu z něj zobrazuje jen teaser.
+	 * Používá ho rub karty ve feedu (a dřív i čtečka postu).
 	 * @type {{
 	 *   post: {
 	 *     id: string,
@@ -16,6 +16,7 @@
 
 	let { post } = $props();
 
+	// Zdroje jsou defaultně sbalené, rozbalí je až klik na přepínač.
 	let sourcesOpen = $state(false);
 
 	let parts = $derived(splitTakeaway(post.content));
@@ -25,17 +26,19 @@
 <div class="post-body">
 	<div class="content">{@html parts.body}</div>
 
-	<!-- Závěrečný odstavec jako samostatný takeaway -->
+	<!-- Závěrečný odstavec je součástí textu, bez vlastního vizuálu -->
 	{#if parts.takeaway}
-		<div class="takeaway">
-			<span class="takeaway-label">Takeaway</span>
-			<div class="takeaway-text">{@html parts.takeaway}</div>
-		</div>
+		<div class="content">{@html parts.takeaway}</div>
 	{/if}
 
 	{#if hasSources}
 		<div class="sources">
-			<button class="source-toggle" onclick={() => sourcesOpen = !sourcesOpen}>
+			<button
+				type="button"
+				class="source-toggle"
+				aria-expanded={sourcesOpen}
+				onclick={() => sourcesOpen = !sourcesOpen}
+			>
 				<span class="source-icon">&#9432;</span>
 				Zdroje ({post.sources.length})
 				<span class="chevron" class:rotated={sourcesOpen}>&#9662;</span>
@@ -98,40 +101,6 @@
 	}
 
 	.content :global(em) { font-style: italic; color: var(--text-muted); }
-
-	/* Takeaway — vizuálně oddělený závěr postu */
-	.takeaway {
-		display: flex;
-		flex-direction: column;
-		gap: 8px;
-		padding: 14px 16px;
-		border-left: 2px solid var(--accent);
-		border-radius: 0 10px 10px 0;
-		background: rgba(255, 255, 255, 0.03);
-	}
-
-	.takeaway-label {
-		font-size: 0.6rem;
-		font-weight: 700;
-		letter-spacing: 0.14em;
-		text-transform: uppercase;
-		color: var(--accent);
-		opacity: 0.85;
-	}
-
-	.takeaway-text {
-		font-size: 0.95rem;
-		line-height: 1.7;
-		color: var(--text);
-	}
-
-	.takeaway-text :global(p) {
-		margin: 0;
-	}
-
-	.takeaway-text :global(strong) {
-		font-weight: 700;
-	}
 
 	/* Sources */
 	.sources {
