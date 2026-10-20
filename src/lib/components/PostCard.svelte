@@ -222,7 +222,9 @@
 		overflow: hidden;
 		display: flex;
 		flex-direction: column;
-		justify-content: center;
+		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
+		justify-content: flex-start;
+		padding-top: clamp(20px, 5vh, 44px);
 		gap: 14px;
 	}
 
@@ -340,6 +342,11 @@
 			gap: 10px;
 			padding-top: 20px;
 			padding-bottom: 16px;
+		}
+
+		/* V nízké kartě stačí menší odsazení, aby se text neusekl */
+		.front-main {
+			padding-top: 12px;
 		}
 
 		.title {
