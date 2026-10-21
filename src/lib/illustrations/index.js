@@ -38,6 +38,13 @@ export {
 export { MOTIFS, MOTIF_KEYS, MOTIF_BY_KEY, renderMotif, supportsForFamily } from './motifs.js';
 export { SEMANTIC_FAMILIES, SEMANTIC_FAMILY_BY_KEY } from './semantic-scenes.js';
 export { SYMBOLIC_FAMILIES } from './symbolic-scenes.js';
+export {
+	ATLAS_FAMILY_KEYS,
+	ATLAS_PAPER,
+	ATLAS_INK,
+	atlasPalette,
+	createAtlasIllustration
+} from './atlas.js';
 export { EXTRA_ABSTRACT_FAMILIES } from './abstract-extra.js';
 export { SYMBOLIC_MOTIFS } from './motifs-symbolic.js';
 export {

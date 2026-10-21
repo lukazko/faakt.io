@@ -10,11 +10,13 @@
 	import {
 		FAMILIES,
 		MOTIF_BY_KEY,
+		createAtlasIllustration,
 		createIllustration,
 		explainSelection,
 		selectIllustration,
 		validateElements
 	} from '$lib/illustrations/index.js';
+	import { PROTOTYPE_CASES } from './prototype-cases.js';
 
 	// Kategorie, ze které rodina bere paletu — drží galerii blízko reality.
 	const FAMILY_CATEGORY = {
@@ -59,6 +61,7 @@
 	let scale = $state(1);
 	let balance = $state(0);
 	let paletteSwap = $state(false);
+	let labStyle = $state('atlas');
 
 	let familyMeta = $derived(FAMILIES.find((item) => item.key === family));
 
@@ -69,17 +72,28 @@
 	});
 
 	let labSpec = $derived(
-		createIllustration({
-			family,
-			seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}:${paletteSwap}`,
-			category: FAMILY_CATEGORY[family] ?? 'zajimavost',
-			subject,
-			variant,
-			density,
-			scale,
-			balance,
-			paletteSwap
-		})
+		labStyle === 'atlas'
+			? createAtlasIllustration({
+					family,
+					seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}:atlas`,
+					category: FAMILY_CATEGORY[family] ?? 'zajimavost',
+					subject,
+					variant,
+					density,
+					scale,
+					balance
+				})
+			: createIllustration({
+					family,
+					seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}:${paletteSwap}`,
+					category: FAMILY_CATEGORY[family] ?? 'zajimavost',
+					subject,
+					variant,
+					density,
+					scale,
+					balance,
+					paletteSwap
+				})
 	);
 
 	let usage = $derived(
@@ -132,6 +146,24 @@
 		const spec = selectIllustration({ ...item, content: item.content });
 		return { ...item, spec, explanation: explainSelection(item) };
 	});
+
+	// --- Prototyp atlasového stylu ---
+	let prototypeStyle = $state('atlas');
+
+	const prototype = PROTOTYPE_CASES.map((item) => {
+		const atlas = createAtlasIllustration({
+			post: item,
+			family: item.family,
+			subject: item.subject
+		});
+		const classic = selectIllustration(item);
+		return {
+			...item,
+			atlas,
+			classic,
+			valid: validateElements(atlas.elements).ok
+		};
+	});
 </script>
 
 <svelte:head>
@@ -151,6 +183,76 @@
 		</p>
 	</header>
 
+	<section class="prototype" aria-labelledby="prototype-title">
+		<div class="prototype-head">
+			<div>
+				<h2 id="prototype-title">Prototyp: ilustrovaný atlas</h2>
+				<p class="section-note">
+					Sedm skutečných příspěvků. Teplý papír, inkoustová kresba a barva kategorie
+					jako akcent. Přepínač porovná stejné příspěvky s původním stylem.
+				</p>
+			</div>
+			<div class="segmented" role="group" aria-label="Styl prototypu">
+				<button class:active={prototypeStyle === 'atlas'} onclick={() => (prototypeStyle = 'atlas')}>
+					Atlas
+				</button>
+				<button class:active={prototypeStyle === 'classic'} onclick={() => (prototypeStyle = 'classic')}>
+					Klasický
+				</button>
+				<button class:active={prototypeStyle === 'compare'} onclick={() => (prototypeStyle = 'compare')}>
+					Porovnat
+				</button>
+			</div>
+		</div>
+
+		<div class="prototype-grid" class:compare={prototypeStyle === 'compare'}>
+			{#each prototype as item}
+				<article class="prototype-card">
+					<div class="prototype-label">
+						<span class="family-chip">{item.family}</span>
+						<span>ID {item.id} · {item.category}</span>
+					</div>
+
+					<div class="prototype-art">
+						{#if prototypeStyle !== 'classic'}
+							<figure class="tile">
+								<div class="card-surface">
+									<div class="card-art">
+										<PostIllustration spec={item.atlas} />
+									</div>
+								</div>
+								{#if prototypeStyle === 'compare'}
+									<figcaption>atlas</figcaption>
+								{/if}
+							</figure>
+						{/if}
+						{#if prototypeStyle !== 'atlas'}
+							<figure class="tile">
+								<div class="card-surface">
+									<div class="card-art">
+										<PostIllustration spec={item.classic} />
+									</div>
+								</div>
+								{#if prototypeStyle === 'compare'}
+									<figcaption>klasický</figcaption>
+								{/if}
+							</figure>
+						{/if}
+					</div>
+
+					<p class="real-title">{item.title}</p>
+					<figcaption>
+						{item.atlas.subject ?? 'krajinný řez'}
+						{#if item.atlas.supports.length}
+							+ {item.atlas.supports.join(', ')}
+						{/if}
+						{#if !item.valid}<span class="invalid">neplatná scéna</span>{/if}
+					</figcaption>
+				</article>
+			{/each}
+		</div>
+	</section>
+
 	<section class="lab" aria-labelledby="lab-title">
 		<div class="lab-preview">
 			<div class="card-surface">
@@ -163,6 +265,14 @@
 
 		<div class="lab-controls">
 			<h2 id="lab-title">Laboratoř</h2>
+
+			<div class="control">
+				<span>Styl</span>
+				<div class="segmented">
+					<button class:active={labStyle === 'atlas'} onclick={() => (labStyle = 'atlas')}>Atlas</button>
+					<button class:active={labStyle === 'classic'} onclick={() => (labStyle = 'classic')}>Klasický</button>
+				</div>
+			</div>
 
 			<label class="control">
 				<span>Rodina</span>
@@ -210,7 +320,8 @@
 			</label>
 
 			<p class="readout">
-				{labSpec.family} · {labSpec.elements.length} prvků · seed {labSpec.seedHash}
+				{labSpec.style === 'atlas' ? 'atlas' : 'klasický'} · {labSpec.family} ·
+				{labSpec.elements.length} prvků · seed {labSpec.seedHash}
 			</p>
 		</div>
 	</section>
@@ -382,6 +493,90 @@
 		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
 		font-size: 0.78em;
 		color: var(--accent-secondary);
+	}
+
+	/* --- Prototyp --- */
+	.prototype-head {
+		display: flex;
+		flex-wrap: wrap;
+		align-items: flex-start;
+		justify-content: space-between;
+		gap: 16px;
+	}
+
+	.prototype-grid {
+		display: grid;
+		grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+		gap: 22px;
+		margin-top: 20px;
+	}
+
+	.prototype-grid.compare {
+		grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
+	}
+
+	.prototype-card {
+		border: 1px solid #262626;
+		border-radius: 16px;
+		padding: 12px;
+		background: #0d0d0d;
+	}
+
+	.prototype-label {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		gap: 8px;
+		margin-bottom: 8px;
+		font-size: 0.64rem;
+		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+		color: #777;
+	}
+
+	.family-chip {
+		text-transform: uppercase;
+		letter-spacing: 0.08em;
+		color: var(--accent-secondary);
+	}
+
+	.prototype-art {
+		display: grid;
+		gap: 8px;
+	}
+
+	.prototype-grid.compare .prototype-art {
+		grid-template-columns: 1fr 1fr;
+	}
+
+	.prototype-card .real-title {
+		font-family: inherit;
+		font-size: 0.78rem;
+		margin-top: 8px;
+	}
+
+	.segmented {
+		display: inline-flex;
+		gap: 2px;
+		padding: 2px;
+		border: 1px solid #333;
+		border-radius: 8px;
+		background: #161616;
+	}
+
+	.segmented button {
+		border: 0;
+		border-radius: 6px;
+		padding: 6px 10px;
+		background: transparent;
+		color: var(--text-muted);
+		font-family: inherit;
+		font-size: 0.74rem;
+		cursor: pointer;
+	}
+
+	.segmented button.active {
+		background: #2a2a2a;
+		color: var(--text);
 	}
 
 	/* --- Laboratoř --- */
@@ -562,6 +757,15 @@
 		.family-art {
 			grid-template-columns: repeat(3, minmax(0, 1fr));
 			gap: 5px;
+		}
+
+		.prototype-grid,
+		.prototype-grid.compare {
+			grid-template-columns: minmax(0, 1fr);
+		}
+
+		.prototype-label {
+			flex-wrap: wrap;
 		}
 
 		.card-art {
