@@ -2,8 +2,8 @@
  * Veřejné rozhraní ilustračního systému.
  *
  * Používá se dvěma způsoby:
- * - `selectIllustration(post)` v kartě feedu — metadata + deterministický seed,
- * - `createIllustration({ family, ... })` v showcase a testech.
+ * - `createGeometricIllustration({ post })` v kartě feedu — hlavní vizuál,
+ * - `createIllustration({ family, ... })` v galerii a testech klasické vrstvy.
  *
  * Moduly jsou čisté (bez Svelte a DOM), takže je lze testovat přímo v Node.
  */
@@ -38,6 +38,12 @@ export {
 export { MOTIFS, MOTIF_KEYS, MOTIF_BY_KEY, renderMotif, supportsForFamily } from './motifs.js';
 export { SEMANTIC_FAMILIES, SEMANTIC_FAMILY_BY_KEY } from './semantic-scenes.js';
 export { SYMBOLIC_FAMILIES } from './symbolic-scenes.js';
+export {
+	GEOMETRIC_COLORS,
+	GEOMETRIC_FAMILY_KEYS,
+	geometricPalette,
+	createGeometricIllustration
+} from './geometric.js';
 export { EXTRA_ABSTRACT_FAMILIES } from './abstract-extra.js';
 export { SYMBOLIC_MOTIFS } from './motifs-symbolic.js';
 export {

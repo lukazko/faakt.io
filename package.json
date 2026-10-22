@@ -10,7 +10,7 @@
     "preview": "vite preview",
     "generate": "node scripts/generate-posts.mjs",
     "deploy": "node scripts/deploy-gh-pages.mjs",
-    "test": "node --test tests/illustrations.test.mjs"
+    "test": "node --test tests/illustrations.test.mjs tests/geometric.test.mjs"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",

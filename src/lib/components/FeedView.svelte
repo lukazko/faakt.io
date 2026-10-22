@@ -1,6 +1,7 @@
 <script>
 	import { tick } from 'svelte';
 	import { pushState } from '$app/navigation';
+	import { base } from '$app/paths';
 	import PostCard from './PostCard.svelte';
 	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
 
@@ -195,8 +196,8 @@
 
 	async function loadPosts() {
 		try {
-			// Dynamicky načti posts.json relativně ke current location
-			const response = await fetch('data/posts.json');
+			// Absolutní cesta včetně base path — funguje i na /post/[id]/.
+			const response = await fetch(`${base}/data/posts.json`);
 			if (!response.ok) throw new Error(`Nepodařilo se načíst příspěvky (${response.status})`);
 			allPosts = await response.json();
 			dataReady = true;
