@@ -10,7 +10,7 @@
 	import {
 		FAMILIES,
 		MOTIF_BY_KEY,
-		createAtlasIllustration,
+		createGeometricIllustration,
 		createIllustration,
 		explainSelection,
 		selectIllustration,
@@ -61,7 +61,7 @@
 	let scale = $state(1);
 	let balance = $state(0);
 	let paletteSwap = $state(false);
-	let labStyle = $state('atlas');
+	let labStyle = $state('geometric');
 
 	let familyMeta = $derived(FAMILIES.find((item) => item.key === family));
 
@@ -72,10 +72,10 @@
 	});
 
 	let labSpec = $derived(
-		labStyle === 'atlas'
-			? createAtlasIllustration({
+		labStyle === 'geometric'
+			? createGeometricIllustration({
 					family,
-					seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}:atlas`,
+					seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}:geometric`,
 					category: FAMILY_CATEGORY[family] ?? 'zajimavost',
 					subject,
 					variant,
@@ -147,11 +147,11 @@
 		return { ...item, spec, explanation: explainSelection(item) };
 	});
 
-	// --- Prototyp atlasového stylu ---
-	let prototypeStyle = $state('atlas');
+	// --- Prototyp geometrického stylu ---
+	let prototypeStyle = $state('geometric');
 
 	const prototype = PROTOTYPE_CASES.map((item) => {
-		const atlas = createAtlasIllustration({
+		const geometric = createGeometricIllustration({
 			post: item,
 			family: item.family,
 			subject: item.subject
@@ -159,9 +159,9 @@
 		const classic = selectIllustration(item);
 		return {
 			...item,
-			atlas,
+			geometric,
 			classic,
-			valid: validateElements(atlas.elements).ok
+			valid: validateElements(geometric.elements).ok
 		};
 	});
 </script>
@@ -186,15 +186,15 @@
 	<section class="prototype" aria-labelledby="prototype-title">
 		<div class="prototype-head">
 			<div>
-				<h2 id="prototype-title">Prototyp: ilustrovaný atlas</h2>
+				<h2 id="prototype-title">Prototyp: geometrické ilustrace</h2>
 				<p class="section-note">
-					Sedm skutečných příspěvků. Teplý papír, inkoustová kresba a barva kategorie
+					Čtrnáct skutečných příspěvků. Tmavé plochy, průhledné pozadí a barva kategorie
 					jako akcent. Přepínač porovná stejné příspěvky s původním stylem.
 				</p>
 			</div>
 			<div class="segmented" role="group" aria-label="Styl prototypu">
-				<button class:active={prototypeStyle === 'atlas'} onclick={() => (prototypeStyle = 'atlas')}>
-					Atlas
+				<button class:active={prototypeStyle === 'geometric'} onclick={() => (prototypeStyle = 'geometric')}>
+					Geometrický
 				</button>
 				<button class:active={prototypeStyle === 'classic'} onclick={() => (prototypeStyle = 'classic')}>
 					Klasický
@@ -218,15 +218,15 @@
 							<figure class="tile">
 								<div class="card-surface">
 									<div class="card-art">
-										<PostIllustration spec={item.atlas} />
+										<PostIllustration spec={item.geometric} />
 									</div>
 								</div>
 								{#if prototypeStyle === 'compare'}
-									<figcaption>atlas</figcaption>
+									<figcaption>geometrický</figcaption>
 								{/if}
 							</figure>
 						{/if}
-						{#if prototypeStyle !== 'atlas'}
+						{#if prototypeStyle !== 'geometric'}
 							<figure class="tile">
 								<div class="card-surface">
 									<div class="card-art">
@@ -242,9 +242,9 @@
 
 					<p class="real-title">{item.title}</p>
 					<figcaption>
-						{item.atlas.subject ?? 'krajinný řez'}
-						{#if item.atlas.supports.length}
-							+ {item.atlas.supports.join(', ')}
+						{item.geometric.subject ?? 'krajinný řez'}
+						{#if item.geometric.supports.length}
+							+ {item.geometric.supports.join(', ')}
 						{/if}
 						{#if !item.valid}<span class="invalid">neplatná scéna</span>{/if}
 					</figcaption>
@@ -269,7 +269,9 @@
 			<div class="control">
 				<span>Styl</span>
 				<div class="segmented">
-					<button class:active={labStyle === 'atlas'} onclick={() => (labStyle = 'atlas')}>Atlas</button>
+					<button class:active={labStyle === 'geometric'} onclick={() => (labStyle = 'geometric')}>
+						Geometrický
+					</button>
 					<button class:active={labStyle === 'classic'} onclick={() => (labStyle = 'classic')}>Klasický</button>
 				</div>
 			</div>
@@ -320,7 +322,7 @@
 			</label>
 
 			<p class="readout">
-				{labSpec.style === 'atlas' ? 'atlas' : 'klasický'} · {labSpec.family} ·
+				{labSpec.style === 'geometric' ? 'geometrický' : 'klasický'} · {labSpec.family} ·
 				{labSpec.elements.length} prvků · seed {labSpec.seedHash}
 			</p>
 		</div>
@@ -427,8 +429,15 @@
 </div>
 
 <style>
+	/* app.css zamyká html i body kvůli scroll-snap feedu; galerie potřebuje
+	   běžné stránkové rolování, takže obojí odemkneme. */
+	:global(html) {
+		height: auto;
+		overflow-y: auto;
+	}
+
 	:global(body) {
-		overflow: auto;
+		overflow: visible;
 		position: static;
 		height: auto;
 	}

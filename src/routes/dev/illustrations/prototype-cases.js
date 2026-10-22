@@ -1,7 +1,7 @@
 /**
- * Sedm skutečných příspěvků pro prototyp atlasového stylu.
- * Data jsou převzatá z `static/data/posts.json`; rodina je u dvou případů
- * zvolená ručně, aby šla porovnat abstraktní a přírodní kompozice.
+ * Čtrnáct skutečných příspěvků pro prototyp geometrického stylu.
+ * Data jsou převzatá z `static/data/posts.json`. Rodina a předmět jsou
+ * u případů s více možnostmi zvolené ručně, aby šla porovnat každá scéna.
  */
 
 export const PROTOTYPE_CASES = [
@@ -20,6 +20,14 @@ export const PROTOTYPE_CASES = [
     "family": "discovery"
   },
   {
+    "id": "155",
+    "title": "James Webb: teleskop, který vidí nejstarší galaxie vesmíru",
+    "category": "astronomie",
+    "content": "<p>Vesmírný dalekohled <strong>James Webb</strong> byl vypuštěn 25. prosince 2021 a umístěn do vzdálenosti asi 1,5 milionu kilometrů od Země, v takzvaném Lagrangeově bodě L2.</p><p>Na rozdíl od svého předchůdce, Hubbleova teleskopu, pozoruje Webb vesmír především v infračerveném spektru, což mu umožňuje vidět skrz oblaka prachu a zachytit světlo velmi vzdálených a tedy i velmi starých galaxií.</p><p>V červenci 2022 zveřejnila NASA první ostré snímky, včetně hlubokého pole vesmíru s tisíci galaxiemi, z nichž některé vznikly už několik set milionů let po velkém třesku.</p><p>Teleskop, vyvíjený přes dvacet let za náklady přesahující 10 miliard dolarů, dnes patří k nejvýkonnějším vědeckým nástrojům, jaké lidstvo kdy vytvořilo.</p>",
+    "family": "discovery",
+    "subject": "telescope"
+  },
+  {
     "id": "864",
     "title": "Proč jsou Grimmové víc než sběratelé pohádek",
     "category": "literatura",
@@ -34,11 +42,51 @@ export const PROTOTYPE_CASES = [
     "family": "metaphor"
   },
   {
+    "id": "051",
+    "title": "Milgramův experiment: jak snadno uposlechneme rozkaz ubližovat",
+    "category": "psychologie",
+    "content": "<p>Zmáčkli byste tlačítko, které někomu způsobí bolest, jen proto, že vám to řekl muž v bílém plášti?</p><p>Psycholog Stanley Milgram to v roce 1961 na Yaleově univerzitě skutečně testoval. Účastníci měli za falešné chyby udělovat elektrické šoky „studentovi“ v druhé místnosti — ve skutečnosti hercovi, kterému se nic nestalo.</p><p>Přestože herec křičel a prosil o zastavení, přibližně 65 procent účastníků pokračovalo až do nejvyšší, potenciálně smrtelné úrovně napětí, jen na základě verbálního nátlaku experimentátora.</p><p>Milgram chtěl porozumět tomu, jak mohli obyčejní lidé v nacistickém Německu páchat hrozné zločiny. Experiment ukázal, že autorita dokáže potlačit i základní morální zábrany.</p>",
+    "family": "metaphor",
+    "subject": "brain"
+  },
+  {
+    "id": "033",
+    "title": "Michelangelo strávil čtyři roky malováním stropu, na který se nemohl dívat zpříma",
+    "category": "umeni",
+    "content": "<p>Zkuste si na chvíli lehnout na záda a natáhnout ruce nad hlavu. Teď si představte, že v této pozici, na lešení pod klenbou, malujete čtyři roky.</p><p>Papež Julius II. pověřil Michelangela Buonarrotiho v roce 1508 výmalbou stropu Sixtinské kaple ve Vatikánu. Sochař, který malbu považoval za vedlejší disciplínu, nakonec vytvořil přes tři sta postav na ploše více než pěti set metrů čtverečních.</p><p>Michelangelo maloval vestoje s hlavou zvrácenou vzhůru na speciálně navrženém lešení, nikoli vleže, jak se často mylně tvrdí. Přesto si při práci trvale poškodil oči a krční páteř natolik, že podle dochovaných dopisů měl potíže číst dokumenty vzpřímeně ještě roky poté.</p><p>Výsledná freska Stvoření Adama se dnes stala jedním z nejrozpoznatelnějších obrazů v dějinách lidstva.</p>",
+    "family": "metaphor",
+    "subject": "palette"
+  },
+  {
+    "id": "053",
+    "title": "Gödel dokázal, že matematika nikdy nemůže dokázat úplně vše",
+    "category": "matematika",
+    "content": "<p>Může matematika dokázat naprosto všechno, co je pravdivé?</p><p>Rakouský logik Kurt Gödel na tuto otázku odpověděl v roce 1931 překvapivě: ne. Ve svých teorémech o neúplnosti dokázal, že v každém dostatečně silném formálním systému, jako je aritmetika, existují pravdivá tvrzení, která se v rámci tohoto systému nedají ani dokázat, ani vyvrátit.</p><p>Jinými slovy, žádný matematický systém nemůže být zároveň úplný a zaručeně bezesporný. Gödelovy věty otřásly snahou matematiků na počátku 20. století vybudovat jednotný, dokonale konzistentní základ celé matematiky.</p><p>Důsledky sahají i do filozofie a informatiky — ukazují na principiální hranice formálních systémů a algoritmického myšlení.</p>",
+    "family": "metaphor",
+    "subject": "polyhedron"
+  },
+  {
+    "id": "148",
+    "title": "Cesta na Měsíc: film z roku 1902, který vynalezl filmové triky",
+    "category": "filmy",
+    "content": "<p>Francouzský filmař <strong>Georges Méliès</strong>, původně profesionální kouzelník, natočil v roce 1902 čtrnáctiminutový film <em>Cesta na Měsíc</em>, dnes považovaný za jedno z prvních děl sci-fi žánru.</p><p>Film ukazuje skupinu vědců, kteří vystřelí z obřího děla kabinu s posádkou na Měsíc, kde narazí na obyvatele zvané Selenité. Nejznámějším záběrem je dělová koule zabodnutá do oka antropomorfizovaného Měsíce.</p><p>Méliès při natáčení vynalezl řadu technik, které se staly základem filmových triků, včetně vícenásobné expozice, rozpouštění záběrů a ručně malovaného kolorování políček filmu.</p><p>Přestože byl film v době vydání komerčně pirátsky kopírován v USA bez Méliésova svolení, dodnes patří k nejvlivnějším dílům rané kinematografie.</p>",
+    "family": "metaphor",
+    "subject": "film"
+  },
+  {
     "id": "111",
     "title": "Howard Carter otevřel hrobku, kterou 3245 let nikdo nespatřil",
     "category": "historie",
     "content": "<p>4. listopadu 1922 narazili dělníci v Údolí králů na schod vytesaný do skály. O tři týdny později stál britský archeolog Howard Carter před zapečetěnými dveřmi a jeho svíce odhalila místnost plnou zlata.</p><p>Byla to hrobka faraona <strong>Tutanchamona</strong>, který zemřel kolem roku 1323 př. n. l. a jehož poslední místo odpočinku zůstalo na rozdíl od většiny ostatních hrobek nevykradené.</p><p>Expedici financoval lord Carnarvon a nálezy — včetně proslulé zlaté masky — dodnes patří k nejcennějším artefaktům starého Egypta.</p><p>Mezi smrtí faraona a otevřením jeho hrobky uplynulo přesně tolik let, kolik dnes trvá zhruba 130 lidských generací.</p>",
     "family": "relic"
+  },
+  {
+    "id": "043",
+    "title": "Katedrála, která se staví už přes sto čtyřicet let",
+    "category": "umeni",
+    "content": "<p>Existuje stavba, kterou nikdo z jejích tvůrců neuvidí dokončenou. Barcelonská bazilika <strong>Sagrada Família</strong> se staví od roku 1882 a dodnes není hotová.</p><p>Architekt Antoni Gaudí na projektu pracoval přes čtyřicet let a věnoval mu poslední desetiletí svého života, přesto se dožil dokončení jen zlomku stavby. Zemřel v roce 1926, sražen tramvají.</p><p>Gaudí kombinoval gotické prvky s organickými tvary inspirovanými přírodou — sloupy připomínají stromy, věže krápníky.</p><p>Dokončení se dnes plánuje kolem roku 2026, u příležitosti sto let od Gaudího smrti, financování stavby přitom stále závisí hlavně na vstupním vstupném turistů.</p>",
+    "family": "relic",
+    "subject": "column"
   },
   {
     "id": "203",
@@ -47,6 +95,14 @@ export const PROTOTYPE_CASES = [
     "content": "<p>Kde se vezme dřevo, ze kterého je strom? Intuitivní odpověď zní, že si ho rostlina vytáhne z půdy. Skutečnost je jiná.</p><p>Při <strong>fotosyntéze</strong> rostlina pomocí energie světla váže oxid uhličitý ze vzduchu a vodu a vytváří z nich cukry. Uhlík, který tvoří většinu sušiny dřeva, tak pochází z atmosféry.</p><p>Vedlejším produktem tohoto procesu je kyslík. Právě díky němu se složení zemské atmosféry v dávné minulosti zásadně změnilo a umožnilo vznik dnešních forem života.</p><p>Půda dodává vodu a minerální živiny, které jsou nezbytné, ale hmotnostně tvoří jen menší část.</p><p><em>Strom je do velké míry vzduch, který se podařilo zachytit a zpevnit.</em></p>",
     "family": "nature",
     "subject": "tree"
+  },
+  {
+    "id": "152",
+    "title": "Chobotnice mají tři srdce a modrou krev",
+    "category": "zajimavost",
+    "content": "<p>Oběhová soustava chobotnic funguje zcela jinak než u obratlovců, včetně člověka.</p><p>Chobotnice mají <strong>tři srdce</strong>: dvě žaberní srdce pumpují krev skrze žábry, kde se okysličuje, a jedno systémové srdce rozvádí okysličenou krev do zbytku těla.</p><p>Jejich krev navíc není červená, ale modrá, protože kyslík v ní přenáší měď obsahující bílkovina hemocyanin místo železa obsahujícího hemoglobinu, který dává barvu krvi obratlovců.</p><p>Zajímavostí je i to, že při plavání se systémové srdce chobotnice dočasně zastavuje, což je jeden z důvodů, proč se chobotnice raději plazí po dně, než aby neustále plavaly – plavání je pro ně energeticky velmi náročné.</p>",
+    "family": "nature",
+    "subject": "octopus"
   },
   {
     "id": "207",
