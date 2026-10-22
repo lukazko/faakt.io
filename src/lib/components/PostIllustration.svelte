@@ -20,14 +20,14 @@
 	 *     content?: string,
 	 *     category?: string
 	 *   } | null,
-	 *   spec?: ReturnType<typeof selectIllustration> | null
+	 *   spec?: ReturnType<typeof createGeometricIllustration> | null
 	 * }}
 	 */
-	import { selectIllustration } from '$lib/illustrations/index.js';
+	import { createGeometricIllustration } from '$lib/illustrations/index.js';
 
 	let { post = null, spec: forcedSpec = null } = $props();
 
-	let spec = $derived(forcedSpec ?? selectIllustration(post));
+	let spec = $derived(forcedSpec ?? createGeometricIllustration({ post }));
 </script>
 
 <svg

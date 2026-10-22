@@ -2,8 +2,8 @@
  * Veřejné rozhraní ilustračního systému.
  *
  * Používá se dvěma způsoby:
- * - `selectIllustration(post)` v kartě feedu — metadata + deterministický seed,
- * - `createIllustration({ family, ... })` v showcase a testech.
+ * - `createGeometricIllustration({ post })` v kartě feedu — hlavní vizuál,
+ * - `createIllustration({ family, ... })` v galerii a testech klasické vrstvy.
  *
  * Moduly jsou čisté (bez Svelte a DOM), takže je lze testovat přímo v Node.
  */

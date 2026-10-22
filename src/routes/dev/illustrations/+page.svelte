@@ -243,9 +243,6 @@
 					<p class="real-title">{item.title}</p>
 					<figcaption>
 						{item.geometric.subject ?? 'krajinný řez'}
-						{#if item.geometric.supports.length}
-							+ {item.geometric.supports.join(', ')}
-						{/if}
 						{#if !item.valid}<span class="invalid">neplatná scéna</span>{/if}
 					</figcaption>
 				</article>
