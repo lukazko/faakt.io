@@ -7,6 +7,10 @@ Systém má **jedinou kreslicí vrstvu** — geometrickou. Analýza textu, metad
 předmětů, palety a PRNG jsou její součásti. Klasická vrstva byla odstraněna;
 v kapitole 12 je zaznamenáno, co a proč zmizelo.
 
+**Tento soubor je závazný popis aktuálního stavu.** Každá změna ilustrací,
+palety, motivů, kompozic, rendereru nebo vývojové galerie musí ve stejném
+commitu aktualizovat i tento dokument — počty, tabulky, mapování a testy.
+
 ## 0. Shrnutí v pěti bodech
 
 1. Ilustrace nejsou obrázky ani assety. Jsou to **SVG scény složené z primitiv**
@@ -192,8 +196,10 @@ v `families`.
 
 Doplňky (`supports`): další předměty se skóre ≥ 1,2, rolí `support`/`both`
 a stejnou rodinou, maximálně `maxSupports` (výchozí 2, `0` doplňky zakáže).
-Geometrická vrstva `supports` **nepoužívá** — ilustrace má nést jednu myšlenku.
-Pole zůstává v analýze pro galerii a budoucí rozšíření.
+Geometrická vrstva z `supports` odvodí `spec.secondary` (první doplněk, který
+po aliasu a zpřesnění není stejný jako hlavní motiv), ale **do scény ho zatím
+nekreslí** — ilustrace má nést jednu myšlenku. Pole zůstává v analýze pro
+galerii a budoucí rozšíření.
 
 ### 3.4 Chronologie
 
