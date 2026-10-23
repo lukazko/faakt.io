@@ -9,6 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "generate": "node scripts/generate-posts.mjs",
+    "og-image": "python scripts/generate-og-image.py",
     "deploy": "node scripts/deploy-gh-pages.mjs",
     "test": "node --test tests/analysis.test.mjs tests/geometry.test.mjs tests/selection.test.mjs"
   },
