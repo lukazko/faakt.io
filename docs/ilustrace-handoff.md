@@ -22,8 +22,8 @@ commitu aktualizovat i tento dokument — počty, tabulky, mapování a testy.
    předmětů s kmeny slov, skóre a vazbou na kategorii. Kategorie je záchranná
    síť, ne hlavní rozhodnutí.
 4. Analýza vybírá z **65 analytických rodin**; geometrická vrstva jich používá
-   **7 rodinných scén**, **84 kreslených motivů**, **8 kompozičních vzorů**
-   a **22 sémantických scén** — celkem **36 typů scén**. Mapování je
+   **7 rodinných scén**, **90 kreslených motivů**, **8 kompozičních vzorů**
+   a **32 sémantických scén** — celkem **46 typů scén**. Mapování je
    v `geometric/mapping.js`, vztah objektů v `geometric/composition.js`,
    významová pravidla v `geometric/selection.js`.
 5. Ilustrace je dekorativní (`aria-hidden`, `pointer-events: none`), sedí ve
@@ -36,7 +36,7 @@ commitu aktualizovat i tento dokument — počty, tabulky, mapování a testy.
 ```
 src/lib/illustrations/
 ├── index.js                 # jediné veřejné rozhraní knihovny
-├── subjects.js              # 96 předmětů: metadata a klíčová slova (bez kreslení)
+├── subjects.js              # 102 předmětů: metadata a klíčová slova (bez kreslení)
 ├── validate.js              # validateElements(), boundsOf() pro testy a galerii
 ├── palettes.js              # palety kategorií, materiálové barvy, mixHex
 ├── primitives.js            # rect, circle, ellipse, line, path, polyline,
@@ -47,9 +47,9 @@ src/lib/illustrations/
 │                            # explainSelection, normalizeText, wordsOf, countHits
 └── geometric/
     ├── index.js             # createGeometricIllustration()
-    ├── selection.js         # 22 sémantických scén: význam textu → scéna
-    ├── scenes.js            # 7 rodin + 8 kompozic + 22 sémantických scén
-    ├── heroes.js            # 84 kreslicích funkcí motivů
+    ├── selection.js         # 32 sémantických scén: význam textu → scéna
+    ├── scenes.js            # 7 rodin + 8 kompozic + 32 sémantických scén
+    ├── heroes.js            # 90 kreslicích funkcí motivů
     ├── mapping.js           # 65 rodin → 7 scén, aliasy předmětů
     ├── composition.js       # volba vzoru (dělení, konfrontace, proměna…)
     ├── refine.js            # zpřesnění obecného motivu podle textu
@@ -84,7 +84,7 @@ posts.json (766 příspěvků)
    │
    ├─ post.title + content + category ────► analyzePost()
    │                                           │
-   │                                           ├─ scoreMotifs()      96 předmětů × kmeny slov
+   │                                           ├─ scoreMotifs()      102 předmětů × kmeny slov
    │                                           ├─ detectChronology() časová osa
    │                                           ├─ ABSTRACT_TAGS      abstraktní rodiny
    │                                           └─ CATEGORY_FALLBACK  poslední záchrana
@@ -92,7 +92,7 @@ posts.json (766 příspěvků)
    │                     { family, subject, supports, concept, reason, scores }
    │                                           │
    │                                           ▼
-   │                                  selectScene()   22 sémantických pravidel
+   │                                  selectScene()   32 sémantických pravidel
    │                                           │      (požár knihovny, čas,
    │                                           │       písmo, stroj, plavba…)
    │                                           ▼
@@ -125,9 +125,9 @@ posts.json (766 příspěvků)
 - `analyzePost(post)` → `{ family, subject, supports, concept, reason, scores }`.
 - `selectScene({ post, analysis, family, category })` → `{ scene, subject, secondary, reason }`
   nebo `null`; čistě deterministická pravidla bez sítě a LLM.
-- `SCENE_TYPES` → všech 36 typů scén s `{ key, group, label, note }`, kde
+- `SCENE_TYPES` → všech 46 typů scén s `{ key, group, label, note }`, kde
   `group` je `family`, `composition` nebo `semantic`.
-- `SEMANTIC_SCENE_KEYS` → 22 klíčů sémantických scén v pořadí priorit.
+- `SEMANTIC_SCENE_KEYS` → 32 klíčů sémantických scén v pořadí priorit.
 - `explainSelection(post)` → totéž plus `subjectLabel` a `supportLabels`
   (používá galerie, v produkci se nevolá).
 - `validateElements(elements)` → `{ ok, errors }`; kontroluje tvary, konečná
@@ -188,7 +188,7 @@ shodu. Kmeny se normalizují stejnou funkcí, takže diakritika v datech nevadí
 
 ### 3.2 Skóre předmětů
 
-`scoreMotifs(post)` projde všech 96 předmětů:
+`scoreMotifs(post)` projde všech 102 předmětů:
 
 ```
 score = titleHits × 5 + min(contentHits, 4) × 1,2 + min(affinity, 3) × 0,35
@@ -266,7 +266,7 @@ Skóre je `titleHits × 5 + min(contentHits, 4) × 1,2` a práh opět 2,5.
 
 ---
 
-## 4. Metadata předmětů (96)
+## 4. Metadata předmětů (102)
 
 `subjects.js` obsahuje **jen metadata** — žádné kreslicí funkce:
 
@@ -283,7 +283,7 @@ Skóre je `titleHits × 5 + min(contentHits, 4) × 1,2` a práh opět 2,5.
 }
 ```
 
-Rozložení rolí: 52 × `subject`, 7 × `support`, 37 × `both`.
+Rozložení rolí: 57 × `subject`, 7 × `support`, 38 × `both`.
 Soubor exportuje `SUBJECTS`, `SUBJECT_BY_KEY`, `SUBJECT_KEYS`.
 
 Předměty jsou řazené symbolické a poté základní — toto pořadí je součást
@@ -295,10 +295,13 @@ Mezi novější patří `machine`, `ship`, `library`, `script`, `compass`, `loom
 `volcano`, `rain`, `thread`, `cycle`, `laurel`, `cat`, `mushroom`, `cocoon`,
 `crack` a `glacier`. Vznikly z auditních tříd textů, které dosud končily
 u obecného motivu (obchod, písmo, tkaní, obléhání, přírodní procesy).
+Nejnovější přírůstky z feedbacku jsou `mirror`, `elephant`, `car`, `chart`,
+`banana` a `numeralOne`; každý má vlastní kreslicí funkci a úzké kmeny slov,
+aby se nepletl s obecnými texty.
 
 ---
 
-## 5. Scény (7 + 8 + 22) a kompoziční vzory
+## 5. Scény (7 + 8 + 32) a kompoziční vzory
 
 Zdroj: `geometric/scenes.js`, konstanta `SCENES`.
 
@@ -347,7 +350,7 @@ o abstraktní text, ne o konkrétní věc.
 `GEOMETRIC_FAMILY_KEYS` je odvozené z `Object.keys(SCENES)`; pořadí je
 `portrait, discovery, storybook, relic, metaphor, nature, layers`.
 
-### 5.1 Sémantické scény (22)
+### 5.1 Sémantické scény (32)
 
 Zdroj: `geometric/selection.js` (pravidla) a `geometric/scenes.js` (kreslení).
 Rodina odpovídá na „jaký jazyk“, kompozice na „jaký vztah“, sémantická scéna
@@ -378,11 +381,33 @@ a první shoda vyhrává; každé vrací `{ scene, subject, secondary, reason }`
 | `orbitCycle` | prstenec + přesýpací hodiny, body | cykly, návraty, období |
 | `observatory` | dalekohled + konkrétní těleso, záměrná linie | pozorování oblohy |
 | `celestial` | jedno nebeské těleso + dráha, hvězdy | těleso je hlavní objekt titulku |
+| `mirrorScene` | oválné zrcadlo + dvě ruce, čárkovaná osa | zrcadlo a převrácení stran v textu |
+| `parable` | slon + pozorovací body a pohledy | podobenství o slepcích a slonovi |
+| `codex` | sloup + pergamen přes sebe | nejstarší zákoník, právo a zákon |
+| `response` | skupina lidí + dvě šipky a zpětná vazba | reakce lidí na pravidla a pobídky |
+| `digits` | číslice 1 + klesající sloupce | Benfordův zákon a rozdělení prvních číslic |
+| `crash` | osy + klesající křivka a sloupce | burzovní krach a propad |
+| `compression` | velký objekt → malý objekt, oblouk | komprese a zmenšení téhož objektu |
+| `spacecraft` | raketa + dráha a hvězdy | vesmírná loď, ne plachetnice |
+| `artificial` | jeden stroj + signální oblouky | Turingův test a stroj, který komunikuje |
+| `taxi` | auto + silnice a přerušovaná čára | taxík nebo auto jako nositelem textu |
 
 Priorita je záměrná: konkrétní událost (požár, plavba, obléhání) předchází
 obecnému tělesu a teprve potom rozhoduje rodina. Příklady regresí:
 `754` → `disruption/machine`, `085` → `solarSystem/sun`, `199` →
-`bookFire/library`, `417` → `timeFigure/figure`, `540` → `writing/script`.
+`bookFire/library`, `417` → `timeFigure/figure`, `540` → `writing/script`,
+`617` → `mirrorScene/mirror`, `176` → `parable/elephant`, `525` →
+`codex/scroll`, `479` → `response/crowd`, `303` → `digits/numeralOne`.
+
+Novější pravidla mají záměrně úzké podmínky, aby se nespustila na jediném
+slově: zrcadlo vyžaduje `zrcadl*` („odraz“ sám je i odraz míče) a vynechává
+optické přístroje; podobenství vyžaduje slona i slepce; zákoník vynechává
+Rosettskou desku a hieroglyfy; stroj, který mluví, vyžaduje Turinga, robota
+nebo umělou inteligenci, ne obecný program; komprese vyžaduje `kompres*`,
+`huffman*` nebo `kodovan*`, takže „zkrátil válku“ ji nespustí; číslice
+vyžadují Benforda nebo slovo „číslice“ v titulku. Negativní případy hlídají
+testy (`023` odraz od mola, `516` válečný slon, `029/069/104` Rosettská
+deska, `134` zkrácení války, `566` zrcadlo dalekohledu).
 
 Text `003` (hvězda) je `celestial/star`, i když obsah zmiňuje dalekohled —
 titulek jmenuje objekt, ne přístroj. Naopak `580` (měsíc Titanu) je
@@ -390,7 +415,7 @@ titulek jmenuje objekt, ne přístroj. Naopak `580` (měsíc Titanu) je
 
 ---
 
-## 6. Kreslené motivy (84)
+## 6. Kreslené motivy (90)
 
 Zdroj: `geometric/heroes.js`, konstanta `HEROES`.
 
@@ -411,6 +436,13 @@ Motivy přidané v rozšíření 0.6:
 `quill`, `script`, `magnifier`, `compass`, `lyre`, `candle`, `torch`,
 `volcano`, `rain`, `thread`, `cycle`, `laurel`, `cat`, `mushroom`, `cocoon`,
 `crack`, `glacier`.
+
+Motivy z iterace podle vizuálního feedbacku:
+
+`mirror`, `elephant`, `car`, `banana`, `chart`, `numeralOne`. Vznikly tam,
+kde dosavadní scéna mátla: zrcadlo místo knihy u textu o převrácení stran,
+slon u podobenství, žluté auto u taxíku, banán s částicemi u radioaktivity,
+klesající křivka u burzovního propadu a výrazná číslice 1 u Benfordova zákona.
 
 Nové motivy vznikly tam, kde analýza už rozlišovala předmět, ale geometrie ho
 slévala do obecného tvaru: astronomie (`comet`, `galaxy`, `blackhole`, `rocket`,
@@ -584,7 +616,7 @@ nebo přesunout mimo `src/routes`.
 - normalizace diakritiky, velikosti písmen a HTML,
 - deterministický fallback pro `null` a neznámou kategorii,
 - `explainSelection` odpovídá `analyzePost`,
-- konzistence metadat 96 předmětů (role, rodiny, tagy, žádné `build`).
+- konzistence metadat 102 předmětů (role, rodiny, tagy, žádné `build`).
 
 ### `tests/geometry.test.mjs`
 
@@ -609,6 +641,11 @@ nebo přesunout mimo `src/routes`.
 - pět zadaných regresí: inovace → `disruption/machine`, Slunce →
   `solarSystem/sun`, požár knihovny → `bookFire/library`, člověk a čas →
   `timeFigure/figure`, fénické písmo → `writing/script`;
+- jedenáct případů z vizuálního feedbacku: zrcadlo, slon, zákoník, reakce,
+  číslice, propad, komprese, stroj který mluví, vesmírná loď, taxík a banán;
+- negativní případy nových pravidel: odraz od mola, zrcadlo dalekohledu,
+  válečný slon, Rosettská deska, obecný program, zkrácení války a hodiny
+  vracející se k jedničce;
 - nebeská tělesa: Slunce nikdy jako Měsíc, Měsíc nikdy jako Slunce,
   hvězda v titulku před dalekohledem, Titan jako Měsíc i přes „sluneční soustavu“;
 - hranice krátkých řetězců: „dna“ uvnitř „prázdná“ nesmí změnit motiv;
@@ -635,8 +672,8 @@ produkce a vypíše:
 
 Užitečné přepínače: `--top`, `--limit`, `--scene`, `--family`, `--show`,
 `--json`, `--md`, `--rows`. Exit kód je nenulový, když některý regresní případ
-selže. Aktuální stav: 36 scén, 68 použitých motivů, 181 strukturálních scén,
-56 fallbacků (7,3 %), 91 varování, 5/5 regresí.
+selže. Aktuální stav: 46 scén, 74 použitých motivů, 196 strukturálních scén,
+56 fallbacků (7,3 %), 88 varování, 5/5 regresí, entropie motivů 0,888.
 
 ---
 
@@ -692,7 +729,7 @@ větev už není v klientském bundlu; největší JS chunk klesl z přibližně
 1. Napiš scénu v `geometric/scenes.js` a zaregistruj ji v `SCENES`.
 2. Doplň `DEFAULT_SUBJECT` a případně `FAMILY_FALLBACK`.
 3. Doplň popisek a kategorii do `SCENE_META`/`SCENE_CATEGORY` v galerii.
-4. Ověř validitu pro všech 84 motivů.
+4. Ověř validitu pro všech 90 motivů.
 
 **Nová sémantická scéna**
 

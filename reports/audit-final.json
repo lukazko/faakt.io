@@ -1,64 +1,74 @@
 {
-  "generatedAt": "2026-10-23T08:42:34.132Z",
+  "generatedAt": "2026-10-23T09:19:18.245Z",
   "posts": 766,
   "distinct": {
-    "scenes": 36,
-    "subjects": 68,
-    "structuralScenes": 181,
-    "combos": 193
+    "scenes": 46,
+    "subjects": 74,
+    "structuralScenes": 196,
+    "combos": 207
   },
   "concentration": {
     "topSubject": "bust",
     "topSubjectCount": 58,
     "topSubjectShare": 7.6,
-    "normalizedEntropy": 0.893
+    "normalizedEntropy": 0.888
   },
   "families": {
-    "metaphor": 255,
-    "discovery": 151,
-    "portrait": 126,
-    "relic": 89,
-    "storybook": 57,
-    "layers": 45,
-    "nature": 43
+    "metaphor": 261,
+    "discovery": 152,
+    "portrait": 125,
+    "relic": 88,
+    "storybook": 55,
+    "nature": 45,
+    "layers": 40
   },
   "scenes": {
-    "metaphor": 160,
-    "portrait": 97,
-    "relic": 39,
+    "metaphor": 156,
+    "portrait": 92,
     "laboratory": 38,
-    "discovery": 37,
-    "layers": 37,
-    "mechanism": 35,
+    "discovery": 36,
+    "mechanism": 34,
     "celestial": 32,
+    "layers": 32,
+    "relic": 32,
     "nature": 31,
-    "storybook": 31,
-    "transformation": 25,
-    "confrontation": 20,
+    "storybook": 27,
+    "codex": 23,
+    "transformation": 22,
     "solarSystem": 20,
-    "voyage": 20,
-    "writing": 18,
-    "orbitCycle": 14,
+    "voyage": 19,
+    "confrontation": 18,
+    "writing": 17,
+    "orbitCycle": 13,
     "theatre": 13,
     "connection": 10,
     "observatory": 10,
     "split": 10,
-    "mapScene": 9,
     "contrast": 8,
-    "procession": 7,
-    "ritual": 7,
+    "mapScene": 8,
+    "mirrorScene": 6,
+    "ritual": 6,
     "weave": 6,
     "metamorphosis": 5,
+    "procession": 5,
     "timeFigure": 4,
     "bookFire": 3,
-    "collapse": 3,
-    "disruption": 3,
+    "crash": 3,
     "measurement": 3,
     "monument": 3,
     "siege": 3,
+    "artificial": 2,
+    "collapse": 2,
+    "compression": 2,
+    "disruption": 2,
     "growth": 2,
     "seedGrowth": 2,
-    "labyrinth": 1
+    "digits": 1,
+    "labyrinth": 1,
+    "parable": 1,
+    "response": 1,
+    "spacecraft": 1,
+    "taxi": 1
   },
   "compositions": {
     "single": 651,
@@ -71,75 +81,81 @@
     "growth": 3
   },
   "reasons": {
-    "semantic": 651,
+    "semantic": 658,
     "category": 56,
-    "abstract": 49,
-    "chronology": 10
+    "abstract": 43,
+    "chronology": 9
   },
   "subjects": {
     "bust": 58,
-    "brain": 46,
+    "brain": 44,
     "machine": 38,
-    "(bez motivu)": 37,
-    "book": 37,
     "polyhedron": 37,
-    "palette": 25,
-    "atom": 24,
+    "book": 33,
+    "scroll": 33,
+    "(bez motivu)": 32,
     "sun": 24,
+    "atom": 23,
+    "palette": 23,
     "film": 22,
-    "ship": 21,
-    "crowd": 19,
-    "planet": 19,
-    "balance": 18,
-    "scroll": 18,
-    "figure": 17,
+    "ship": 20,
+    "planet": 18,
+    "balance": 17,
+    "crowd": 17,
     "flask": 17,
-    "script": 16,
+    "figure": 16,
+    "script": 15,
     "tree": 15,
-    "cycle": 14,
+    "cycle": 13,
     "mask": 13,
-    "gear": 12,
-    "map": 12,
     "microscope": 12,
-    "amphora": 10,
-    "crown": 10,
+    "gear": 11,
+    "map": 11,
     "star": 10,
     "telescope": 10,
-    "entropy": 9,
-    "candle": 7,
+    "crown": 9,
+    "entropy": 8,
+    "amphora": 7,
     "coin": 7,
     "octopus": 7,
     "temple": 7,
-    "throne": 7,
+    "candle": 6,
     "clock": 6,
     "dna": 6,
-    "eye": 6,
     "galaxy": 6,
-    "hand": 6,
+    "chart": 6,
     "loom": 6,
-    "wind": 6,
+    "mirror": 6,
     "butterfly": 5,
+    "hand": 5,
     "lyre": 5,
     "sword": 5,
+    "throne": 5,
     "wall": 5,
+    "wind": 5,
+    "eye": 4,
     "flame": 4,
     "heart": 4,
-    "infinity": 4,
     "moon": 4,
+    "car": 3,
     "castle": 3,
     "compass": 3,
+    "infinity": 3,
     "knot": 3,
+    "rocket": 3,
+    "banana": 2,
     "blackhole": 2,
     "bolt": 2,
+    "column": 2,
     "library": 2,
     "mountain": 2,
-    "rocket": 2,
+    "numeralOne": 2,
     "sprout": 2,
     "stele": 2,
     "bird": 1,
     "cat": 1,
-    "column": 1,
     "comet": 1,
+    "elephant": 1,
     "explosion": 1,
     "labyrinth": 1,
     "rain": 1,
@@ -148,30 +164,31 @@
     "snowflake": 1
   },
   "secondaries": {
-    "gear": 35,
+    "gear": 34,
     "microscope": 30,
-    "scroll": 28,
-    "compass": 27,
+    "scroll": 27,
+    "column": 25,
+    "compass": 25,
     "planet": 23,
-    "quill": 17,
     "figure": 16,
-    "hourglass": 14,
+    "quill": 16,
     "film": 13,
+    "hourglass": 13,
     "sword": 13,
-    "key": 12,
+    "key": 10,
     "flask": 8,
     "clock": 7,
     "crown": 7,
+    "hand": 7,
     "lyre": 7,
-    "temple": 7,
-    "torch": 7,
+    "temple": 6,
     "thread": 6,
     "cocoon": 5,
-    "coin": 5,
+    "chart": 5,
     "laurel": 5,
-    "column": 3,
+    "torch": 5,
+    "coin": 4,
     "flame": 3,
-    "ruin": 3,
     "shield": 3,
     "star": 3,
     "tree": 3,
@@ -179,6 +196,7 @@
     "castle": 2,
     "galaxy": 2,
     "map": 2,
+    "ruin": 2,
     "wolf": 2,
     "comet": 1,
     "magnifier": 1,
@@ -188,29 +206,29 @@
   },
   "topCombos": [
     {
-      "scene": "layers",
-      "subject": null,
-      "secondary": null,
-      "count": 37,
-      "ids": [
-        "030",
-        "040",
-        "128",
-        "164",
-        "183"
-      ]
-    },
-    {
       "scene": "mechanism",
       "subject": "machine",
       "secondary": "gear",
-      "count": 35,
+      "count": 34,
       "ids": [
         "005",
         "012",
         "059",
         "065",
         "095"
+      ]
+    },
+    {
+      "scene": "layers",
+      "subject": null,
+      "secondary": null,
+      "count": 32,
+      "ids": [
+        "030",
+        "040",
+        "164",
+        "183",
+        "222"
       ]
     },
     {
@@ -230,7 +248,7 @@
       "scene": "metaphor",
       "subject": "polyhedron",
       "secondary": null,
-      "count": 30,
+      "count": 28,
       "ids": [
         "021",
         "041",
@@ -243,13 +261,26 @@
       "scene": "metaphor",
       "subject": "brain",
       "secondary": null,
-      "count": 25,
+      "count": 23,
       "ids": [
         "009",
-        "061",
         "071",
         "082",
-        "093"
+        "093",
+        "106"
+      ]
+    },
+    {
+      "scene": "codex",
+      "subject": "scroll",
+      "secondary": "column",
+      "count": 22,
+      "ids": [
+        "013",
+        "035",
+        "171",
+        "261",
+        "283"
       ]
     },
     {
@@ -269,26 +300,13 @@
       "scene": "voyage",
       "subject": "ship",
       "secondary": "compass",
-      "count": 18,
+      "count": 17,
       "ids": [
         "023",
         "127",
         "156",
         "182",
         "195"
-      ]
-    },
-    {
-      "scene": "storybook",
-      "subject": "book",
-      "secondary": null,
-      "count": 18,
-      "ids": [
-        "131",
-        "144",
-        "160",
-        "176",
-        "225"
       ]
     },
     {
@@ -308,7 +326,7 @@
       "scene": "metaphor",
       "subject": "palette",
       "secondary": null,
-      "count": 16,
+      "count": 15,
       "ids": [
         "004",
         "011",
@@ -318,16 +336,16 @@
       ]
     },
     {
-      "scene": "writing",
-      "subject": "script",
-      "secondary": "quill",
+      "scene": "storybook",
+      "subject": "book",
+      "secondary": null,
       "count": 15,
       "ids": [
-        "029",
-        "233",
-        "264",
-        "312",
-        "415"
+        "131",
+        "144",
+        "160",
+        "225",
+        "255"
       ]
     },
     {
@@ -344,10 +362,23 @@
       ]
     },
     {
+      "scene": "writing",
+      "subject": "script",
+      "secondary": "quill",
+      "count": 14,
+      "ids": [
+        "029",
+        "233",
+        "264",
+        "312",
+        "415"
+      ]
+    },
+    {
       "scene": "orbitCycle",
       "subject": "cycle",
       "secondary": "hourglass",
-      "count": 14,
+      "count": 13,
       "ids": [
         "064",
         "217",
@@ -422,29 +453,16 @@
       ]
     },
     {
-      "scene": "relic",
-      "subject": "scroll",
-      "secondary": null,
+      "scene": "laboratory",
+      "subject": "flask",
+      "secondary": "microscope",
       "count": 9,
       "ids": [
-        "013",
-        "038",
-        "179",
-        "194",
-        "260"
-      ]
-    },
-    {
-      "scene": "storybook",
-      "subject": "book",
-      "secondary": "scroll",
-      "count": 9,
-      "ids": [
-        "015",
-        "025",
-        "177",
-        "191",
-        "253"
+        "042",
+        "113",
+        "129",
+        "158",
+        "493"
       ]
     }
   ],
@@ -465,7 +483,7 @@
     },
     {
       "signature": "79256460",
-      "count": 31,
+      "count": 29,
       "ids": [
         "002",
         "009",
@@ -478,22 +496,8 @@
       ]
     },
     {
-      "signature": "c80ca05d",
-      "count": 29,
-      "ids": [
-        "015",
-        "025",
-        "121",
-        "131",
-        "144",
-        "160",
-        "176",
-        "177"
-      ]
-    },
-    {
       "signature": "1f0709b2",
-      "count": 27,
+      "count": 26,
       "ids": [
         "040",
         "164",
@@ -503,6 +507,20 @@
         "237",
         "245",
         "263"
+      ]
+    },
+    {
+      "signature": "c80ca05d",
+      "count": 25,
+      "ids": [
+        "015",
+        "025",
+        "121",
+        "131",
+        "144",
+        "160",
+        "177",
+        "191"
       ]
     },
     {
@@ -577,16 +595,16 @@
     },
     {
       "signature": "648faf17",
-      "count": 14,
+      "count": 13,
       "ids": [
         "064",
         "217",
         "249",
         "271",
         "418",
-        "490",
         "498",
-        "526"
+        "526",
+        "629"
       ]
     }
   ],
@@ -787,15 +805,15 @@
         "category": "pocitacove-vedy",
         "family": "metaphor",
         "requestedFamily": "metaphor",
-        "scene": "metaphor",
+        "scene": "compression",
         "composition": "single",
-        "subject": "gear",
+        "subject": "polyhedron",
         "secondary": null,
         "reason": "category:pocitacove-vedy",
         "supports": [],
-        "signature": "l,p:MLLLLLLLLLLLLLLLZ,c,c,l,l,l,c",
-        "signatureHash": "c3e4b2c9",
-        "elementCount": 8,
+        "signature": "l,p:MLLLLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,l,l,l,c,p:MLLLLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,p:MLLZ,l,l,l,c,p:MQ,p:MLLZ,r,r,r,r,l,l",
+        "signatureHash": "f9fdf820",
+        "elementCount": 33,
         "analysisSubject": "gear"
       },
       {
@@ -1247,7 +1265,7 @@
       ]
     },
     "subject-not-in-text": {
-      "count": 35,
+      "count": 32,
       "examples": [
         {
           "type": "subject-not-in-text",
@@ -1260,18 +1278,6 @@
           "id": "136",
           "title": "Eiffelova věž je v létě o kus vyšší než v zimě",
           "detail": "motiv balance nemá v textu žádné vlastní slovo"
-        },
-        {
-          "type": "subject-not-in-text",
-          "id": "228",
-          "title": "Procházka po sedmi mostech dala vzniknout teorii grafů",
-          "detail": "motiv amphora nemá v textu žádné vlastní slovo"
-        },
-        {
-          "type": "subject-not-in-text",
-          "id": "230",
-          "title": "Informace se dá měřit a jednotkou je bit",
-          "detail": "motiv gear nemá v textu žádné vlastní slovo"
         },
         {
           "type": "subject-not-in-text",
@@ -1308,23 +1314,35 @@
           "id": "270",
           "title": "Dopisy z římské pevnosti řeší ponožky a pozvánku na oslavu",
           "detail": "motiv amphora nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "304",
+          "title": "Malá část příčin obvykle způsobí většinu následků",
+          "detail": "motiv balance nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "434",
+          "title": "Existují úlohy, u kterých počítač nikdy dopředu nepozná, že se zacyklí",
+          "detail": "motiv gear nemá v textu žádné vlastní slovo"
         }
       ]
     }
   },
-  "warningCount": 91,
+  "warningCount": 88,
   "comparison": {
     "scenes": {
       "before": 8,
-      "after": 36
+      "after": 46
     },
     "subjects": {
       "before": 51,
-      "after": 68
+      "after": 74
     },
     "structuralScenes": {
       "before": 146,
-      "after": 181
+      "after": 196
     },
     "fallbacks": {
       "before": 66,
@@ -1332,7 +1350,7 @@
     },
     "warnings": {
       "before": 127,
-      "after": 91
+      "after": 88
     },
     "topSubjectShare": {
       "before": 8.1,

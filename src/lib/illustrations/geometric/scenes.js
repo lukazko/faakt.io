@@ -1016,6 +1016,195 @@ function sceneCelestial(ctx) {
 	return out;
 }
 
+/** Zrcadlo a dvě ruce: osa, kterou zrcadlo skutečně obrací. */
+function sceneMirror(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	out.push(...drawHero(ctx, 'mirror', { x: 160, y: 94, scale: 1.05 }));
+	out.push(...drawHero(ctx, 'hand', { x: 74, y: 108, scale: 0.52, rotate: -8 }));
+	out.push(...drawHero(ctx, 'hand', { x: 246, y: 108, scale: 0.52, flip: true, rotate: 8 }));
+	out.push(line(160, 30, 160, 146, { ...stroke(p.amber, 1.2, 0.6), dash: '4 5' }));
+	out.push(circle(160, 30, 2.4, { fill: p.amber }), circle(160, 146, 2.4, { fill: p.amber }));
+	out.push(arcPath(160, 94, 66, 208, 332, { fill: 'none', stroke: p.teal, sw: 1.2, opacity: 0.55, dash: '3 6' }));
+	return out;
+}
+
+/** Podobenství: slon a tři místa, kterých se dotýkají různí pozorovatelé. */
+function sceneParable(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(...drawHero(ctx, 'elephant', { x: 170, y: 96, scale: 1.12 }));
+	const spots = [
+		[104, 74],
+		[148, 128],
+		[238, 72]
+	];
+	for (const [x, sy] of spots) {
+		out.push(circle(x, sy, 3, { fill: p.amber, opacity: 0.9 }));
+		out.push(line(x, sy, 170, 96, { ...stroke(p.amber, 0.9, 0.35), dash: '2 4' }));
+	}
+	out.push(...drawHero(ctx, 'hand', { x: 74, y: 122, scale: 0.32 }));
+	return out;
+}
+
+/** Zákoník: sloup antiky a přes něj pergamen se zákonem. */
+function sceneCodex(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y)];
+	out.push(...drawHero(ctx, 'column', { x: 150, y: y - 70, scale: 1.18 }));
+	out.push(...drawHero(ctx, 'scroll', { x: 168, y: 96, scale: 1.08, rotate: -9 }));
+	out.push(line(106, 118, 96, 132, { ...stroke(p.amber, 1.1, 0.5), dash: '3 4' }));
+	out.push(circle(96, 132, 2.2, { fill: p.amber }));
+	return out;
+}
+
+/** Reakce: skupina lidí a zpětnovazební šipka. */
+function sceneResponse(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y)];
+	out.push(...drawHero(ctx, 'crowd', { x: 96, y: y - 48, scale: 0.92 }));
+	out.push(...arrow(132, 234, 104, p, 0.9));
+	out.push(...arrow(126, 220, 72, p, 0.6));
+	out.push(
+		path('M 234 118 Q 260 138 234 142 Q 196 148 156 134', {
+			fill: 'none',
+			stroke: p.teal,
+			sw: 1.4,
+			opacity: 0.7,
+			dash: '4 4'
+		})
+	);
+	out.push(polygon([[156, 134], [166, 128], [165, 139]], { fill: p.teal, opacity: 0.8 }));
+	for (let i = 0; i < 3; i++) out.push(circle(198 + i * 12, 54 - i * 4, 1.8, { fill: p.amber, opacity: 0.7 }));
+	return out;
+}
+
+/** Rozdělení prvních číslic: velká jednička a klesající sloupce. */
+function sceneDigits(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y)];
+	out.push(...drawHero(ctx, 'numeralOne', { x: 82, y: 92, scale: 1.05 }));
+	const heights = [54, 38, 30, 25, 21, 18, 16, 14, 12];
+	for (let i = 0; i < heights.length; i++) {
+		const h = heights[i];
+		out.push(
+			rect(146 + i * 16, y - 8 - h, 10, h, {
+				fill: i === 0 ? p.accent : p.teal,
+				stroke: p.light,
+				sw: 0.8,
+				opacity: i === 0 ? 0.95 : 0.55 + (8 - i) * 0.04
+			})
+		);
+		out.push(line(146 + i * 16, y - 6, 156 + i * 16, y - 6, { ...stroke(p.light, 0.8, 0.35) }));
+	}
+	out.push(line(140, 62, 292, 62, { ...stroke(p.amber, 1, 0.3), dash: '2 5' }));
+	return out;
+}
+
+/** Propad: burzovní křivka padá, osy drží měřítko. */
+function sceneCrash(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(line(56, 38, 56, 142, { ...stroke(p.light, 1.4, 0.75) }));
+	out.push(line(56, 142, 288, 142, { ...stroke(p.light, 1.4, 0.75) }));
+	for (let i = 1; i < 4; i++) out.push(line(56, 142 - i * 24, 288, 142 - i * 24, { ...stroke(p.light, 0.6, 0.12) }));
+	out.push(
+		polyline(
+			[
+				[70, 52],
+				[96, 44],
+				[118, 62],
+				[140, 58],
+				[160, 86],
+				[184, 78],
+				[206, 108],
+				[232, 102],
+				[258, 132],
+				[278, 136]
+			],
+			{ ...stroke(p.terracotta, 2.6, 0.95) }
+		)
+	);
+	out.push(...arrow(238, 286, 128, p, 0.95));
+	for (let i = 0; i < 4; i++) {
+		const x = 84 + i * 34;
+		const h = 22 + i * 8;
+		out.push(rect(x, 142 - h, 12, h, { fill: p.forest, opacity: 0.38 }));
+	}
+	return out;
+}
+
+/** Komprese: tentýž objekt jednou velký, podruhé malý. */
+function sceneCompression(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	out.push(...drawHero(ctx, 'polyhedron', { x: 88, y: 96, scale: 1.12 }));
+	out.push(...drawHero(ctx, 'polyhedron', { x: 250, y: 104, scale: 0.42 }));
+	out.push(
+		path('M 134 88 Q 168 62 206 96', { fill: 'none', stroke: p.amber, sw: 1.6, opacity: 0.85, dash: '4 4' })
+	);
+	out.push(polygon([[206, 96], [195, 91], [199, 102]], { fill: p.amber, opacity: 0.9 }));
+	for (let i = 0; i < 4; i++) {
+		out.push(rect(140 + i * 12, 108 + (i % 2) * 6, 4, 4, { fill: p.teal, opacity: 0.7 }));
+	}
+	out.push(line(70, 140, 106, 140, { ...stroke(p.light, 0.9, 0.35) }));
+	out.push(line(236, 140, 264, 140, { ...stroke(p.light, 0.9, 0.35) }));
+	return out;
+}
+
+/** Vesmírná loď: raketa v prázdnu, žádné moře. */
+function sceneSpacecraft(ctx) {
+	const p = ctx.palette;
+	const out = [
+		ellipse(160, 96, 108, 54, { fill: 'none', stroke: p.sageDeep, sw: 1, opacity: 0.28, dash: '3 7' }),
+		...drawHero(ctx, 'rocket', { x: 160, y: 94, scale: 1.12 })
+	];
+	for (let i = 0; i < 7; i++) {
+		const angle = (Math.PI * 2 * i) / 7 + 0.3;
+		out.push(circle(160 + Math.cos(angle) * 112, 96 + Math.sin(angle) * 58, 1.7, { fill: p.amber, opacity: 0.65 }));
+	}
+	out.push(...arrow(96, 58, 122, p, 0.5));
+	return out;
+}
+
+/** Stroj, který mluví: jeden objekt a signál, nic dalšího. */
+function sceneArtificial(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	out.push(...drawHero(ctx, 'machine', { x: 154, y: y - 54, scale: 1.18 }));
+	for (let i = 0; i < 4; i++) {
+		out.push(
+			arcPath(214, 88, 16 + i * 12, -54, 54, {
+				fill: 'none',
+				stroke: p.teal,
+				sw: i === 0 ? 1.6 : 1.1,
+				opacity: 0.8 - i * 0.13
+			})
+		);
+	}
+	out.push(circle(80, 74, 2, { fill: p.amber, opacity: 0.7 }), circle(92, 60, 1.6, { fill: p.amber, opacity: 0.5 }));
+	return out;
+}
+
+/** Taxík: jedno auto a linka silnice. */
+function sceneTaxi(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [line(24, y, W - 24, y, { stroke: p.light, sw: 1.4, opacity: 0.4 })];
+	for (let i = 0; i < 6; i++) out.push(line(40 + i * 46, y + 8, 66 + i * 46, y + 8, { ...stroke(p.amber, 1.2, 0.45) }));
+	out.push(...drawHero(ctx, 'car', { x: 160, y: 98, scale: 1.14 }));
+	out.push(circle(282, 62, 2, { fill: p.amber, opacity: 0.7 }));
+	return out;
+}
+
 /** Všechny sémantické scény podle klíče. */
 export const SEMANTIC_SCENES = {
 	bookFire: sceneBookFire,
@@ -1039,7 +1228,17 @@ export const SEMANTIC_SCENES = {
 	measurement: sceneMeasurement,
 	orbitCycle: sceneOrbitCycle,
 	observatory: sceneObservatory,
-	celestial: sceneCelestial
+	celestial: sceneCelestial,
+	mirrorScene: sceneMirror,
+	parable: sceneParable,
+	codex: sceneCodex,
+	response: sceneResponse,
+	digits: sceneDigits,
+	crash: sceneCrash,
+	compression: sceneCompression,
+	spacecraft: sceneSpacecraft,
+	artificial: sceneArtificial,
+	taxi: sceneTaxi
 };
 
 /** Metadata scény pro galerii a dokumentaci. */
@@ -1065,7 +1264,17 @@ export const SEMANTIC_SCENE_META = {
 	measurement: { label: 'Měření', note: 'kompas, hodiny a stupnice' },
 	orbitCycle: { label: 'Cyklus', note: 'prstenec a přesýpací hodiny' },
 	observatory: { label: 'Pozorování', note: 'dalekohled a konkrétní objekt' },
-	celestial: { label: 'Nebeské těleso', note: 'jeden objekt s drahou' }
+	celestial: { label: 'Nebeské těleso', note: 'jeden objekt s drahou' },
+	mirrorScene: { label: 'Zrcadlo', note: 'odraz, dvě ruce a osa' },
+	parable: { label: 'Podobenství', note: 'slon a různé pohledy' },
+	codex: { label: 'Zákoník', note: 'sloup a pergamen se zákonem' },
+	response: { label: 'Reakce', note: 'skupina lidí a zpětná vazba' },
+	digits: { label: 'Rozdělení číslic', note: 'jednička a klesající sloupce' },
+	crash: { label: 'Propad', note: 'křivka pádu a osy' },
+	compression: { label: 'Komprese', note: 'velký objekt se zmenšuje' },
+	spacecraft: { label: 'Vesmírná loď', note: 'raketa bez moře' },
+	artificial: { label: 'Stroj, který mluví', note: 'jeden stroj a signál' },
+	taxi: { label: 'Taxík', note: 'auto, silnice, číslo' }
 };
 
 export const SCENES = {

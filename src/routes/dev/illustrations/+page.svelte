@@ -84,7 +84,17 @@
 		measurement: { family: 'discovery', category: 'veda', subject: 'compass', secondary: 'clock' },
 		orbitCycle: { family: 'discovery', category: 'astronomie', subject: 'cycle', secondary: 'hourglass' },
 		observatory: { family: 'discovery', category: 'astronomie', subject: 'telescope', secondary: 'star' },
-		celestial: { family: 'discovery', category: 'astronomie', subject: 'sun', secondary: null }
+		celestial: { family: 'discovery', category: 'astronomie', subject: 'sun', secondary: null },
+		mirrorScene: { family: 'discovery', category: 'fyzika', subject: 'mirror', secondary: 'hand' },
+		parable: { family: 'storybook', category: 'filozofie', subject: 'elephant', secondary: 'hand' },
+		codex: { family: 'relic', category: 'historie', subject: 'column', secondary: 'scroll' },
+		response: { family: 'metaphor', category: 'ekonomie', subject: 'crowd', secondary: null },
+		digits: { family: 'metaphor', category: 'matematika', subject: 'numeralOne', secondary: null },
+		crash: { family: 'metaphor', category: 'ekonomie', subject: 'chart', secondary: null },
+		compression: { family: 'metaphor', category: 'pocitacove-vedy', subject: 'polyhedron', secondary: null },
+		spacecraft: { family: 'discovery', category: 'filmy', subject: 'rocket', secondary: null },
+		artificial: { family: 'metaphor', category: 'pocitacove-vedy', subject: 'machine', secondary: null },
+		taxi: { family: 'metaphor', category: 'matematika', subject: 'car', secondary: null }
 	};
 
 	const SEEDS = ['eden', 'dva', 'tri'];

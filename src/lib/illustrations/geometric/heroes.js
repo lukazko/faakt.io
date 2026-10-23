@@ -1980,6 +1980,137 @@ function geoCocoon({ palette: p }) {
 	];
 }
 
+/** Zrcadlo — oválný rám, hladina a odlesk. */
+function geoMirror({ palette: p, variant }) {
+	const out = [
+		ellipse(0, 0, 34, 50, { ...shape(p.sageDeep, p.light, 1.6) }),
+		ellipse(0, 0, 27, 43, { fill: p.tealDeep, opacity: 0.9 }),
+		ellipse(0, 0, 23, 39, { fill: p.teal, opacity: 0.2 }),
+		path('M -14 -30 Q -2 -38 10 -32', { ...stroke(p.light, 1.4, 0.75) }),
+		path('M -18 24 Q -8 32 4 28', { ...stroke(p.light, 0.9, 0.35) }),
+		rect(-4, 48, 8, 6, { fill: p.forest, stroke: p.light, sw: 1 })
+	];
+	if (variant === 2) out.push(ellipse(0, 0, 12, 20, { fill: p.light, opacity: 0.06 }));
+	return out;
+}
+
+/** Slon — tělo, hlava, chobot a ucho. */
+function geoElephant({ palette: p, variant }) {
+	const out = [
+		ellipse(-2, 4, 44, 29, { ...shape(p.forest, p.light, 1.4) }),
+		ellipse(-42, -2, 21, 23, { ...shape(p.forest, p.light, 1.4) }),
+		ellipse(-45, 0, 13, 18, { fill: p.tealDeep, stroke: p.light, sw: 1.1 }),
+		path('M -58 10 Q -66 24 -60 38 Q -57 47 -49 43 Q -54 34 -51 24 L -50 12 Z', {
+			...shape(p.sage, p.light, 1.2)
+		}),
+		path('M -50 8 Q -58 12 -60 20', { ...stroke(p.light, 1.1, 0.7) }),
+		rect(-32, 26, 11, 22, { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		rect(-10, 28, 11, 20, { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		rect(16, 26, 11, 22, { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		rect(36, 24, 11, 24, { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		circle(-46, -8, 2.2, { fill: p.light }),
+		path('M 42 2 Q 50 -8 54 -2', { ...stroke(p.teal, 1.4, 0.8) })
+	];
+	if (variant !== 1) out.push(polygon([[-52, 14], [-44, 20], [-48, 26]], { fill: p.lightSoft, opacity: 0.9 }));
+	return out;
+}
+
+/** Taxík — žlutý vůz se střešní tabulkou. */
+function geoCar({ palette: p, variant }) {
+	const out = [
+		path('M -56 10 L -46 -10 L -24 -14 L -12 -30 L 20 -30 L 32 -14 L 50 -10 L 58 10 Z', {
+			...shape(p.amber, p.light, 1.5)
+		}),
+		path('M -20 -12 L -10 -26 L 18 -26 L 28 -12 Z', { fill: p.tealDeep, stroke: p.light, sw: 1.1 }),
+		line(-2, -26, -2, -12, { ...stroke(p.light, 0.9, 0.6) }),
+		rect(-12, -42, 26, 10, { fill: p.lightSoft, stroke: p.light, sw: 1.1, rx: 2 }),
+		line(-12, -37, 14, -37, { ...stroke(p.forestDeep, 0.8, 0.5) }),
+		circle(-30, 26, 10, { fill: p.forestDeep, stroke: p.light, sw: 1.2 }),
+		circle(-30, 26, 4, { fill: p.sageDeep }),
+		circle(32, 26, 10, { fill: p.forestDeep, stroke: p.light, sw: 1.2 }),
+		circle(32, 26, 4, { fill: p.sageDeep }),
+		rect(-56, 12, 114, 5, { fill: p.terracotta, opacity: 0.75 })
+	];
+	if (variant === 1) out.push(rect(-4, -2, 8, 8, { fill: p.forestDeep, opacity: 0.8 }));
+	if (variant === 2) out.push(line(58, 4, 66, 4, { ...stroke(p.light, 1.2, 0.7) }));
+	return out;
+}
+
+/** Banán — oblouk ovoce a slabé částice záření. */
+function geoBanana({ palette: p, variant }) {
+	const out = [
+		path('M -40 -36 Q -52 8 -24 34 Q 10 62 48 24 Q 26 44 4 32 Q -26 18 -20 -10 Q -17 -28 -40 -36 Z', {
+			...shape(p.amber, p.light, 1.4)
+		}),
+		path('M -30 -22 Q -38 8 -18 26', { ...stroke(p.light, 1.1, 0.5) }),
+		path('M 44 26 Q 36 36 24 38', { ...stroke(p.forestDeep, 1.3, 0.7) }),
+		line(-44, -36, -36, -40, { ...stroke(p.forestDeep, 1.5, 0.7) })
+	];
+	const sparks = variant === 2 ? 2 : 3;
+	for (let i = 0; i < sparks; i++) {
+		const x = -6 + i * 18;
+		const y = -50 - (i % 2) * 8;
+		out.push(circle(x, y, 2.2, { fill: p.teal, opacity: 0.85 }));
+		out.push(line(x, y + 5, x, y + 10, { ...stroke(p.teal, 1, 0.5) }));
+	}
+	return out;
+}
+
+/** Graf — osy, mřížka a lomená křivka. */
+function geoChart({ palette: p, variant }) {
+	const out = [
+		line(-46, -40, -46, 42, { ...stroke(p.light, 1.4, 0.8) }),
+		line(-46, 42, 50, 42, { ...stroke(p.light, 1.4, 0.8) }),
+		rect(-44, -40, 92, 80, { fill: p.light, fillOpacity: 0.03 })
+	];
+	for (let i = 1; i < 4; i++) {
+		out.push(line(-44, 42 - i * 20, 46, 42 - i * 20, { ...stroke(p.light, 0.6, 0.12) }));
+	}
+	out.push(
+		polyline(
+			[
+				[-40, 28],
+				[-26, 12],
+				[-12, 20],
+				[2, -6],
+				[16, 6],
+				[30, -22],
+				[46, -32]
+			],
+			{ ...stroke(p.terracotta, 2.4, 0.95) }
+		)
+	);
+	for (let i = 0; i < 5; i++) {
+		out.push(rect(-40 + i * 18, 36 - i * 3, 9, 6 + i * 3, { fill: p.teal, opacity: 0.6 }));
+	}
+	if (variant === 1) out.push(circle(46, -32, 3.4, { fill: p.amber }));
+	return out;
+}
+
+/** Číslice jedna — geometrická, bez textu. */
+function geoNumeralOne({ palette: p }) {
+	return [
+		polygon(
+			[
+				[-2, -52],
+				[-22, -40],
+				[-16, -28],
+				[-2, -36],
+				[-2, 32],
+				[-24, 32],
+				[-24, 46],
+				[26, 46],
+				[26, 32],
+				[10, 32],
+				[10, -52]
+			],
+			{ ...shape(p.lightSoft, p.light, 1.5) }
+		),
+		line(-2, -30, -2, 30, { ...stroke(p.forestDeep, 1, 0.35) }),
+		rect(-24, 40, 50, 6, { fill: p.accent, opacity: 0.85 })
+	];
+}
+
 // --- Scény ----------------------------------------------------------------
 
 export const HEROES = {
@@ -2067,7 +2198,13 @@ export const HEROES = {
 	mushroom: geoMushroom,
 	cocoon: geoCocoon,
 	crack: geoCrack,
-	glacier: geoGlacier
+	glacier: geoGlacier,
+	mirror: geoMirror,
+	elephant: geoElephant,
+	car: geoCar,
+	banana: geoBanana,
+	chart: geoChart,
+	numeralOne: geoNumeralOne
 };
 
 export const HERO_KEYS = Object.keys(HEROES);

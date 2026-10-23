@@ -53,6 +53,27 @@ const THEATRE = ['divadl*', 'maska*', 'masky*', 'herec*', 'inscenac*', 'predstav
 const FILM = ['film*', 'kino*', 'kamera*', 'reziser*'];
 const LAB = ['laborator*', 'experiment*', 'pokus*', 'mikroskop*', 'bunk*', 'zavod*', 'vyzkum*'];
 const CYCLE = ['cykl*', 'obdobi*', 'rocni*', 'sezona*', 'navrat*', 'presypac*', 'kyvadl*'];
+// Zrcadlo musí být v textu výslovně; „odraz“ sám je i odraz míče.
+const MIRROR = ['zrcadl*'];
+// Zrcadlo dalekohledu není zrcadlo člověka: u optických přístrojů scéna
+// s rukama a odrazem mate, patří jim vlastní motiv.
+const OPTICAL = ['teleskop*', 'dalekohled*', 'mikroskop*', 'optik*'];
+const ELEPHANT = ['slon*', 'slona*', 'slonem*'];
+const PARABLE = ['slep*', 'nevidom*', 'podobenstv*', 'hmat*', 'ohmatav*'];
+const TAXI = ['taxi*', 'taxik*'];
+const LEGAL = ['zakon*', 'zakonu*', 'zakonik*', 'pravidl*', 'pravni*', 'pravo*', 'desk*', 'ustav*'];
+const COLUMN = ['sloup*', 'sloupu*', 'sloupem*'];
+// Jen skutečné stroje, které komunikují; obecný „program“ nebo „test“ nestačí.
+const AI = ['turing*', 'robot*', 'chatbot*', 'umely*', 'umela*'];
+const AI_TEST = ['test*', 'konverzac*', 'mluv*', 'otazk*', 'napodob*', 'odpov*'];
+const CRASH = ['burz*', 'akcie*', 'akcii*', 'akciovy*', 'krach*', 'propad*'];
+const DIGIT = ['benford*', 'cislic*', 'cislice*'];
+const DIGIT_CONTEXT = ['rozdelen*', 'procent*', 'zacina*', 'cetnost*', 'pravdepodob*'];
+// „uspořádat“ není komprese; úspora musí být přesné slovo, ne prefix.
+const COMPRESSION = ['kompres*', 'huffman*', 'kodovan*', 'zkrat*', 'zmensen*', 'uspora', 'uspory', 'usporu', 'usporne'];
+const COMPRESSION_CORE = ['kompres*', 'huffman*', 'kodovan*'];
+const RESPONSE = ['reag*', 'ocekavan*', 'chovan*', 'reakc*', 'prizpusob*'];
+const SPACE_CRAFT = /vesmirn\w* (lod|plavidl|korab)|hvezdolet|starship/;
 
 /** Která nebeská tělesa text jmenuje — vrací klíče s počtem zásahů. */
 function celestialMentions(text) {
@@ -106,6 +127,82 @@ export function selectScene({ post, analysis, family, category } = {}) {
 	const machine = hits(text, MACHINE);
 	const decline = hits(text, DECLINE);
 	const lab = hits(text, LAB);
+
+	// 0. Zrcadlo: text řeší odraz, ne knihu.
+	if (hits(text, MIRROR) >= 1 && hits(text, OPTICAL) === 0) {
+		return { scene: 'mirrorScene', subject: 'mirror', secondary: 'hand', reason: 'scene:mirrorScene' };
+	}
+
+	// 0b. Podobenství o slepcích a slonovi. Slon bez podobenství zůstane
+	//     slonem (např. Hannibalovy válečné slony), ale scéna s rukama ne.
+	if (hits(text, ELEPHANT) >= 1 && hits(text, PARABLE) >= 1) {
+		return { scene: 'parable', subject: 'elephant', secondary: 'hand', reason: 'scene:parable' };
+	}
+
+	// 0c. Taxík: konkrétní auto, ne abstraktní mnohostěn.
+	if (hits(text, TAXI) >= 1) {
+		return { scene: 'taxi', subject: 'car', secondary: null, reason: 'scene:taxi' };
+	}
+
+	// 0d. Stroj, který komunikuje: jeden stroj a signál, ne zánik světa.
+	if (
+		hits(text, AI) >= 1 &&
+		hits(text, AI_TEST) >= 1 &&
+		['pocitacove-vedy', 'veda', 'filozofie'].includes(categoryKey)
+	) {
+		return { scene: 'artificial', subject: 'machine', secondary: null, reason: 'scene:artificial' };
+	}
+
+	// 0e. Vesmírná loď není plachetnice.
+	if (SPACE_CRAFT.test(text)) {
+		return { scene: 'spacecraft', subject: 'rocket', secondary: null, reason: 'scene:spacecraft' };
+	}
+
+	// 0f. Zákoník: právní text s antickým sloupem a pergamenem.
+	//     Rosettská deska je kámen s písmem, ne zákoník.
+	const legal = hits(text, LEGAL);
+	const rosetta = /rosetta|hieroglyf/.test(text) || selected === 'stele';
+	if (legal >= 2 && ['historie', 'politika'].includes(categoryKey) && !rosetta) {
+		const columnMentioned = hits(text, COLUMN) >= 1;
+		return {
+			scene: 'codex',
+			subject: columnMentioned ? 'column' : 'scroll',
+			secondary: columnMentioned ? 'scroll' : 'column',
+			reason: 'scene:codex'
+		};
+	}
+
+	// 0g. Burzovní propad: křivka dolů, ne geologické vrstvy.
+	if (hits(text, CRASH) >= 2 && ['ekonomie', 'politika'].includes(categoryKey)) {
+		return { scene: 'crash', subject: 'chart', secondary: null, reason: 'scene:crash' };
+	}
+
+	// 0h. Rozdělení prvních číslic: jednička a sloupce četností.
+	if (
+		hits(text, DIGIT) >= 1 &&
+		(hits(text, DIGIT_CONTEXT) >= 1 || categoryKey === 'matematika') &&
+		(hits(text, ['benford*']) >= 1 || hits(title, DIGIT) >= 1)
+	) {
+		return { scene: 'digits', subject: 'numeralOne', secondary: null, reason: 'scene:digits' };
+	}
+
+	// 0i. Komprese: velký objekt se zmenší, nezobrazuje se písmo.
+	//     „Zkrátil válku“ ani „uspořádal prvky“ není komprese.
+	if (
+		hits(text, COMPRESSION_CORE) >= 1 &&
+		hits(text, COMPRESSION) >= 2 &&
+		['pocitacove-vedy', 'veda', 'matematika'].includes(categoryKey)
+	) {
+		return { scene: 'compression', subject: 'polyhedron', secondary: null, reason: 'scene:compression' };
+	}
+
+	// 0j. Reakce na pravidla: lidé a zpětná vazba, ne abstraktní vrstvy.
+	if (
+		hits(text, RESPONSE) >= 2 &&
+		['ekonomie', 'politika'].includes(categoryKey)
+	) {
+		return { scene: 'response', subject: 'crowd', secondary: null, reason: 'scene:response' };
+	}
 
 	// 1. Požár knihovny: hořící vědění musí nést knihovna i plamen.
 	if (fire >= 1 && (library >= 1 || (book >= 1 && hits(title, ['knih*']) >= 1))) {
@@ -277,5 +374,15 @@ export const SEMANTIC_SCENE_KEYS = [
 	'measurement',
 	'orbitCycle',
 	'observatory',
-	'celestial'
+	'celestial',
+	'mirrorScene',
+	'parable',
+	'codex',
+	'response',
+	'digits',
+	'crash',
+	'compression',
+	'spacecraft',
+	'artificial',
+	'taxi'
 ];

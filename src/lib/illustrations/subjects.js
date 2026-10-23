@@ -888,6 +888,60 @@ export const SUBJECTS = [
 		families: ["metaphor", "ritual", "portrait"],
 		tags: ["hudb*", "hudeb*", "lyr*", "housl*", "klavir*", "klavír*", "not*", "melodi*", "rytmus*", "rytm*", "ton*", "skladatel*", "zpev*", "zpěv*", "orchestr*", "koncert*"],
 		categories: { "umeni": 2.5, "filozofie": 0.5, "zajimavost": 0.5 }
+	},
+	{
+		key: "mirror",
+		label: "Zrcadlo",
+		note: "odraz, symetrie, levá a pravá strana",
+		role: "subject",
+		families: ["discovery", "metaphor", "portrait"],
+		tags: ["zrcadl*", "odraz*", "odrazy*", "odrazu*"],
+		categories: { "fyzika": 2.5, "filozofie": 1, "psychologie": 1 }
+	},
+	{
+		key: "elephant",
+		label: "Slon",
+		note: "podobenství, slepci a slon, mnohostrannost",
+		role: "subject",
+		families: ["nature", "storybook", "portrait"],
+		tags: ["slon*", "slonu*", "slona*", "slonem*", "slonovi*"],
+		categories: { "filozofie": 2, "zajimavost": 1.5, "literatura": 0.5 }
+	},
+	{
+		key: "car",
+		label: "Taxík",
+		note: "auto, jízda, město",
+		role: "subject",
+		families: ["metaphor", "discovery", "structure"],
+		tags: ["taxi", "taxi*", "taxik*", "auto", "auta", "autu", "autem", "aute", "automobil*", "vuz", "vozu", "vozem", "vozid*"],
+		categories: { "matematika": 1, "zajimavost": 1, "ekonomie": 0.5 }
+	},
+	{
+		key: "chart",
+		label: "Graf",
+		note: "trh, burza, křivka, propad",
+		role: "both",
+		families: ["metaphor", "data", "structure"],
+		tags: ["burz*", "akcie*", "akcii*", "akciovy*", "index*", "graf*", "krivk*", "křivk*", "propad*", "krach*"],
+		categories: { "ekonomie": 2.5, "matematika": 1, "politika": 0.5 }
+	},
+	{
+		key: "banana",
+		label: "Banán",
+		note: "draslík, radioaktivita, každodenní míra",
+		role: "subject",
+		families: ["nature", "discovery"],
+		tags: ["banan*", "banán*"],
+		categories: { "zajimavost": 2.5, "veda": 1 }
+	},
+	{
+		key: "numeralOne",
+		label: "Číslice jedna",
+		note: "první číslice, Benfordův zákon, rozdělení",
+		role: "subject",
+		families: ["metaphor", "data"],
+		tags: ["benford*", "cislic*", "číslíc*", "cislice*", "jednick*", "jedničk*"],
+		categories: { "matematika": 2.5, "ekonomie": 0.5 }
 	}
 ];
 
