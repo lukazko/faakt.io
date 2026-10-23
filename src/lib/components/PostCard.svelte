@@ -332,7 +332,7 @@
 	.post-card:not(.flipped) .card-back .action-btn {
 		visibility: hidden;
 		transition: background 0.2s, transform 0.15s,
-			visibility 0s linear calc(var(--flip-duration) * 0.22);
+			visibility 0s linear calc(var(--flip-duration) * 0.16);
 	}
 
 	.action-btn:hover {
