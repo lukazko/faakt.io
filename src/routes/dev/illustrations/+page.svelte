@@ -2,103 +2,92 @@
 	/**
 	 * Vývojová galerie ilustrací.
 	 *
-	 * Není součástí feedu — slouží k vizuální kontrole všech rodin,
-	 * palet a hustot na skutečném tmavém pozadí karty. Vše se generuje
-	 * stejným rendererem jako ve feedu.
+	 * Není součástí feedu — slouží k vizuální kontrole všech scén, motivů
+	 * a palet na skutečném tmavém pozadí karty. Vše se generuje stejným
+	 * rendererem jako ve feedu.
 	 */
 	import PostIllustration from '$lib/components/PostIllustration.svelte';
 	import {
-		FAMILIES,
-		MOTIF_BY_KEY,
+		DEFAULT_SUBJECT,
+		GEOMETRIC_FAMILY_KEYS,
+		HERO_KEYS,
+		SUBJECT_BY_KEY,
 		createGeometricIllustration,
-		createIllustration,
 		explainSelection,
-		selectIllustration,
 		validateElements
 	} from '$lib/illustrations/index.js';
 	import { PROTOTYPE_CASES } from './prototype-cases.js';
 
-	// Kategorie, ze které rodina bere paletu — drží galerii blízko reality.
-	const FAMILY_CATEGORY = {
-		grid: 'umeni',
-		orbit: 'astronomie',
-		data: 'ekonomie',
-		timeline: 'historie',
-		network: 'pocitacove-vedy',
-		layers: 'veda',
-		signals: 'fyzika',
-		structure: 'politika',
-		contrast: 'filozofie',
-		organic: 'veda',
-		storybook: 'literatura',
+	// Popisky sedmi geometrických kompozic.
+	const SCENE_META = {
+		portrait: { label: 'Portrét', note: 'osobnosti, filozofie, psychologie' },
+		discovery: { label: 'Objev', note: 'věda, fyzika, astronomie' },
+		storybook: { label: 'Příběh', note: 'literatura, filmy' },
+		relic: { label: 'Artefakt', note: 'historie, politika, právo' },
+		metaphor: { label: 'Metafora', note: 'matematika, ekonomie, umění, počítače' },
+		nature: { label: 'Příroda', note: 'zajímavosti, biologie, krajina' },
+		layers: { label: 'Vrstvy', note: 'abstraktní texty, chronologie, geologie' }
+	};
+
+	// Kategorie, ze které scéna bere paletu — drží galerii blízko reality.
+	const SCENE_CATEGORY = {
 		portrait: 'filozofie',
 		discovery: 'veda',
+		storybook: 'literatura',
 		relic: 'historie',
+		metaphor: 'matematika',
 		nature: 'zajimavost',
-		metaphor: 'matematika'
+		layers: 'veda'
 	};
+
+	const HERO_LABELS = { heelix: 'Helix' };
+	const heroLabel = (key) => SUBJECT_BY_KEY[key]?.label ?? HERO_LABELS[key] ?? key;
 
 	const SEEDS = ['eden', 'dva', 'tri'];
 
-	const gallery = FAMILIES.map((family) => ({
-		...family,
-		category: FAMILY_CATEGORY[family.key],
+	const gallery = GEOMETRIC_FAMILY_KEYS.map((key) => ({
+		key,
+		...SCENE_META[key],
 		items: SEEDS.map((seed) => {
-			const spec = createIllustration({
-				family: family.key,
-				seed: `${family.key}:${seed}`,
-				category: FAMILY_CATEGORY[family.key]
+			const spec = createGeometricIllustration({
+				family: key,
+				seed: `${key}:${seed}`,
+				category: SCENE_CATEGORY[key]
 			});
 			return { seed, spec, valid: validateElements(spec.elements).ok };
 		})
 	}));
 
 	// --- Interaktivní laboratoř ---
-	let family = $state('storybook');
-	let subject = $state('book');
+	let family = $state('portrait');
+	let subject = $state(DEFAULT_SUBJECT.portrait);
 	let variant = $state(0);
 	let density = $state(0.7);
 	let scale = $state(1);
 	let balance = $state(0);
-	let paletteSwap = $state(false);
-	let labStyle = $state('geometric');
 
-	let familyMeta = $derived(FAMILIES.find((item) => item.key === family));
-
-	// Po změně rodiny se předmět srovná na její výchozí motiv.
+	// Po změně scény se předmět srovná na její výchozí motiv.
 	$effect(() => {
-		const allowed = familyMeta?.subjects ?? [];
-		if (!allowed.includes(subject)) subject = familyMeta?.defaultSubject ?? null;
+		const fallback = DEFAULT_SUBJECT[family];
+		if (fallback) subject = fallback;
 	});
 
 	let labSpec = $derived(
-		labStyle === 'geometric'
-			? createGeometricIllustration({
-					family,
-					seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}:geometric`,
-					category: FAMILY_CATEGORY[family] ?? 'zajimavost',
-					subject,
-					variant,
-					density,
-					scale,
-					balance
-				})
-			: createIllustration({
-					family,
-					seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}:${paletteSwap}`,
-					category: FAMILY_CATEGORY[family] ?? 'zajimavost',
-					subject,
-					variant,
-					density,
-					scale,
-					balance,
-					paletteSwap
-				})
+		createGeometricIllustration({
+			family,
+			seed: `lab:${family}:${subject}:${variant}:${density}:${scale}:${balance}`,
+			category: SCENE_CATEGORY[family] ?? 'zajimavost',
+			subject,
+			variant,
+			density,
+			scale,
+			balance
+		})
 	);
 
 	let usage = $derived(
 		gallery.reduce(
-			(sum, family) => sum + family.items.reduce((count, item) => count + item.spec.elements.length, 0),
+			(sum, scene) => sum + scene.items.reduce((count, item) => count + item.spec.elements.length, 0),
 			0
 		)
 	);
@@ -143,24 +132,20 @@
 			content: '<p>Chobotnice mají tři srdce a modrou krev. Žijí v moři a patří mezi hlavonožce.</p>'
 		}
 	].map((item) => {
-		const spec = selectIllustration({ ...item, content: item.content });
+		const spec = createGeometricIllustration({ post: item });
 		return { ...item, spec, explanation: explainSelection(item) };
 	});
 
-	// --- Prototyp geometrického stylu ---
-	let prototypeStyle = $state('geometric');
-
+	// --- Prototyp na skutečných příspěvcích ---
 	const prototype = PROTOTYPE_CASES.map((item) => {
 		const geometric = createGeometricIllustration({
 			post: item,
 			family: item.family,
 			subject: item.subject
 		});
-		const classic = selectIllustration(item);
 		return {
 			...item,
 			geometric,
-			classic,
 			valid: validateElements(geometric.elements).ok
 		};
 	});
@@ -175,11 +160,11 @@
 		<p class="eyebrow">faakt.io · vývoj</p>
 		<h1>Ilustrační systém</h1>
 		<p class="lede">
-			Šedesát čtyři rodin, sémantické motivy a deterministické varianty. Žádné externí assety. Všechno níže je
+			Sedm kompozic, třicet šest motivů a deterministické varianty. Žádné externí assety. Všechno níže je
 			stejná komponenta, která se vykresluje v kartách feedu.
 		</p>
 		<p class="note">
-			{usage} řádků ve scénách · viewBox 320 × 180 · seed = ID příspěvku
+			{usage} prvků ve scénách · viewBox 320 × 180 · seed = ID příspěvku
 		</p>
 	</header>
 
@@ -192,20 +177,9 @@
 					jako akcent. Přepínač porovná stejné příspěvky s původním stylem.
 				</p>
 			</div>
-			<div class="segmented" role="group" aria-label="Styl prototypu">
-				<button class:active={prototypeStyle === 'geometric'} onclick={() => (prototypeStyle = 'geometric')}>
-					Geometrický
-				</button>
-				<button class:active={prototypeStyle === 'classic'} onclick={() => (prototypeStyle = 'classic')}>
-					Klasický
-				</button>
-				<button class:active={prototypeStyle === 'compare'} onclick={() => (prototypeStyle = 'compare')}>
-					Porovnat
-				</button>
-			</div>
 		</div>
 
-		<div class="prototype-grid" class:compare={prototypeStyle === 'compare'}>
+		<div class="prototype-grid">
 			{#each prototype as item}
 				<article class="prototype-card">
 					<div class="prototype-label">
@@ -214,30 +188,13 @@
 					</div>
 
 					<div class="prototype-art">
-						{#if prototypeStyle !== 'classic'}
-							<figure class="tile">
-								<div class="card-surface">
-									<div class="card-art">
-										<PostIllustration spec={item.geometric} />
-									</div>
+						<figure class="tile">
+							<div class="card-surface">
+								<div class="card-art">
+									<PostIllustration spec={item.geometric} />
 								</div>
-								{#if prototypeStyle === 'compare'}
-									<figcaption>geometrický</figcaption>
-								{/if}
-							</figure>
-						{/if}
-						{#if prototypeStyle !== 'geometric'}
-							<figure class="tile">
-								<div class="card-surface">
-									<div class="card-art">
-										<PostIllustration spec={item.classic} />
-									</div>
-								</div>
-								{#if prototypeStyle === 'compare'}
-									<figcaption>klasický</figcaption>
-								{/if}
-							</figure>
-						{/if}
+							</div>
+						</figure>
 					</div>
 
 					<p class="real-title">{item.title}</p>
@@ -263,35 +220,23 @@
 		<div class="lab-controls">
 			<h2 id="lab-title">Laboratoř</h2>
 
-			<div class="control">
-				<span>Styl</span>
-				<div class="segmented">
-					<button class:active={labStyle === 'geometric'} onclick={() => (labStyle = 'geometric')}>
-						Geometrický
-					</button>
-					<button class:active={labStyle === 'classic'} onclick={() => (labStyle = 'classic')}>Klasický</button>
-				</div>
-			</div>
-
 			<label class="control">
-				<span>Rodina</span>
+				<span>Scéna</span>
 				<select bind:value={family}>
-					{#each FAMILIES as item}
-						<option value={item.key}>{item.label}</option>
+					{#each gallery as scene}
+						<option value={scene.key}>{scene.label}</option>
 					{/each}
 				</select>
 			</label>
 
-			{#if familyMeta?.subjects?.length}
-				<label class="control">
-					<span>Předmět</span>
-					<select bind:value={subject}>
-						{#each familyMeta.subjects as key}
-							<option value={key}>{MOTIF_BY_KEY[key]?.label ?? key}</option>
-						{/each}
-					</select>
-				</label>
-			{/if}
+			<label class="control">
+				<span>Předmět</span>
+				<select bind:value={subject} disabled={family === 'layers'}>
+					{#each HERO_KEYS as key}
+						<option value={key}>{heroLabel(key)}</option>
+					{/each}
+				</select>
+			</label>
 
 			<label class="control">
 				<span>Varianta <code>{variant}</code></span>
@@ -313,23 +258,18 @@
 				<input type="range" min="-1" max="1" step="0.01" bind:value={balance} />
 			</label>
 
-			<label class="check">
-				<input type="checkbox" bind:checked={paletteSwap} />
-				<span>Prohodit accent a secondary</span>
-			</label>
-
 			<p class="readout">
-				{labSpec.style === 'geometric' ? 'geometrický' : 'klasický'} · {labSpec.family} ·
-				{labSpec.elements.length} prvků · seed {labSpec.seedHash}
+				{labSpec.family} · {labSpec.subject ?? 'krajinný řez'} · {labSpec.elements.length} prvků
+				· seed {labSpec.seedHash}
 			</p>
 		</div>
 	</section>
 
 	<section class="families" aria-labelledby="families-title">
-		<h2 id="families-title">Všech šedesát čtyři rodin</h2>
+		<h2 id="families-title">Všech sedm kompozic</h2>
 		<p class="section-note">
-			Každá rodina se třemi seedy. Sémantické rodiny navíc ukazují svůj výchozí
-			předmět; kompozice se mění podle textu příspěvku, ne jen podle kategorie.
+			Každá scéna se třemi seedy. Výchozí předměty ukazují, co kompozice
+			obvykle nese; konkrétní motiv se mění podle textu příspěvku, ne jen podle kategorie.
 		</p>
 
 		<div class="grid">
@@ -392,8 +332,8 @@
 	<section class="palettes" aria-labelledby="palettes-title">
 		<h2 id="palettes-title">Palety a hustota</h2>
 		<p class="section-note">
-			Stejná rodina (<code>organic</code>) napříč paletami kategorií a hustotou
-			0,35 → 1. <code>primary</code> zůstává barvou kategorie, neutrály tmavé.
+			Stejná scéna (<code>metaphor</code>) napříč paletami kategorií a hustotou
+			0,35 → 1. Akcent zůstává barvou kategorie, plochy drží tmavý zeleno-petrolejový jazyk.
 		</p>
 		<div class="grid small">
 			{#each [
@@ -406,8 +346,8 @@
 				['psychologie', 0.7],
 				['pocitacove-vedy', 0.9]
 			] as [category, value], index}
-				{@const spec = createIllustration({
-					family: 'organic',
+				{@const spec = createGeometricIllustration({
+					family: 'metaphor',
 					seed: `palette:${category}:${index}`,
 					category,
 					density: value
@@ -517,11 +457,7 @@
 		margin-top: 20px;
 	}
 
-	.prototype-grid.compare {
-		grid-template-columns: repeat(auto-fit, minmax(420px, 1fr));
-	}
-
-	.prototype-card {
+		.prototype-card {
 		border: 1px solid #262626;
 		border-radius: 16px;
 		padding: 12px;
@@ -550,42 +486,13 @@
 		gap: 8px;
 	}
 
-	.prototype-grid.compare .prototype-art {
-		grid-template-columns: 1fr 1fr;
-	}
-
-	.prototype-card .real-title {
+		.prototype-card .real-title {
 		font-family: inherit;
 		font-size: 0.78rem;
 		margin-top: 8px;
 	}
 
-	.segmented {
-		display: inline-flex;
-		gap: 2px;
-		padding: 2px;
-		border: 1px solid #333;
-		border-radius: 8px;
-		background: #161616;
-	}
-
-	.segmented button {
-		border: 0;
-		border-radius: 6px;
-		padding: 6px 10px;
-		background: transparent;
-		color: var(--text-muted);
-		font-family: inherit;
-		font-size: 0.74rem;
-		cursor: pointer;
-	}
-
-	.segmented button.active {
-		background: #2a2a2a;
-		color: var(--text);
-	}
-
-	/* --- Laboratoř --- */
+		/* --- Laboratoř --- */
 	.lab {
 		display: grid;
 		grid-template-columns: minmax(0, 1.4fr) minmax(260px, 1fr);
@@ -638,19 +545,7 @@
 		accent-color: var(--accent-secondary);
 	}
 
-	.check {
-		display: flex;
-		align-items: center;
-		gap: 8px;
-		font-size: 0.78rem;
-		color: var(--text-muted);
-	}
-
-	.check input {
-		accent-color: var(--accent-secondary);
-	}
-
-	.readout {
+		.readout {
 		margin-top: 4px;
 		padding-top: 10px;
 		border-top: 1px solid #222;
@@ -765,8 +660,7 @@
 			gap: 5px;
 		}
 
-		.prototype-grid,
-		.prototype-grid.compare {
+		.prototype-grid {
 			grid-template-columns: minmax(0, 1fr);
 		}
 

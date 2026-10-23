@@ -12,7 +12,7 @@
  * silnější sémantický signál. Slouží jen jako vodítko a jako záchranná síť.
  */
 
-import { MOTIFS, MOTIF_BY_KEY } from './motifs.js';
+import { SUBJECTS, SUBJECT_BY_KEY } from '../subjects.js';
 
 const FALLBACK_SELECTION = {
 	family: 'structure',
@@ -230,7 +230,7 @@ export function countHits(words, stems) {
 	return hits;
 }
 
-const NORMALIZED_MOTIFS = MOTIFS.map((motif, index) => ({
+const NORMALIZED_SUBJECTS = SUBJECTS.map((motif, index) => ({
 	...motif,
 	index,
 	tags: motif.tags.map(normalizeStem),
@@ -254,7 +254,7 @@ export function scoreMotifs(post) {
 	const titleWords = wordsOf(post?.title);
 	const contentWords = wordsOf(post?.content);
 
-	return NORMALIZED_MOTIFS.map((motif) => {
+	return NORMALIZED_SUBJECTS.map((motif) => {
 		const titleHits = countHits(titleWords, motif.tags);
 		const contentHits = countHits(contentWords, motif.tags);
 		const affinity = motif.categories[category] || 0;
@@ -410,7 +410,7 @@ export function analyzePost(post) {
 
 	const fallback = CATEGORY_FALLBACK[category];
 	if (fallback) {
-		const subject = MOTIF_BY_KEY[fallback.subject] || null;
+		const subject = SUBJECT_BY_KEY[fallback.subject] || null;
 		return {
 			family: fallback.family,
 			subject: subject?.key || null,
@@ -430,10 +430,10 @@ export function analyzePost(post) {
  */
 export function explainSelection(post) {
 	const result = analyzePost(post);
-	const subject = result.subject ? MOTIF_BY_KEY[result.subject] : null;
+	const subject = result.subject ? SUBJECT_BY_KEY[result.subject] : null;
 	return {
 		...result,
 		subjectLabel: subject?.label || null,
-		supportLabels: result.supports.map((key) => MOTIF_BY_KEY[key]?.label || key)
+		supportLabels: result.supports.map((key) => SUBJECT_BY_KEY[key]?.label || key)
 	};
 }
