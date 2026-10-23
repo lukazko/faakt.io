@@ -116,6 +116,7 @@ Generování: `ANTHROPIC_API_KEY=sk-ant-... npm run generate --count=30`
 - Commituj pravidelně s popisem v češtině
 - Git commity končí: `Co-Authored-By: Claude Opus 5 (1M context) <noreply@anthropic.com>`
 - Po schválení merge do main, Actions nasadí automaticky
+- **Vizuální změny**: každá úprava ilustrací, palety, motivů, kompozic, rendereru nebo vývojové galerie musí ve stejném commitu aktualizovat `docs/ilustrace-handoff.md` — počty, tabulky, mapování, paletu, testy i zlaté otisky. Dokument popisuje aktuální stav, ne historii.
 
 ## Známé problémy
 - GitHub Pages ignoruje `_app/` → řeší `.nojekyll` v `static/`
