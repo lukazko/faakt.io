@@ -1,57 +1,62 @@
 /**
  * Veřejné rozhraní ilustračního systému.
  *
- * Používá se dvěma způsoby:
- * - `createGeometricIllustration({ post })` v kartě feedu — hlavní vizuál,
- * - `createIllustration({ family, ... })` v galerii a testech klasické vrstvy.
+ * Jediná kreslicí vrstva je geometrická. Analýza textu, metadata předmětů
+ * a palety jsou její součásti; žádná paralelní klasická implementace
+ * v projektu neexistuje.
  *
  * Moduly jsou čisté (bez Svelte a DOM), takže je lze testovat přímo v Node.
  */
 
 export {
-	FAMILIES,
-	ABSTRACT_FAMILIES,
-	FAMILY_BUILDERS,
-	FAMILY_KEYS,
-	VIEWBOX,
-	validateElements,
-	boundsOf
-} from './scenes.js';
-export {
-	FAMILY_BY_CATEGORY,
-	DEFAULT_FAMILY,
-	SEMANTIC_FAMILY_KEYS,
-	selectFamily,
+	FAMILY_FALLBACK,
+	GEOMETRIC_COLORS,
+	GEOMETRIC_FAMILY_KEYS,
+	HEROES,
+	HERO_KEYS,
+	SUBJECT_ALIAS,
+	DEFAULT_SUBJECT,
+	COMPOSITION_KEYS,
+	COMPOSITION_META,
+	REFINEMENTS,
+	SCENE_TYPES,
+	SEMANTIC_SCENE_KEYS,
+	CULTURES,
+	CULTURE_KEYS,
+	chooseComposition,
+	createGeometricIllustration,
+	cultureBackdrop,
+	detectCulture,
 	deriveSeed,
-	selectIllustration,
-	createIllustration,
-	normalizeText
-} from './select.js';
+	drawScene,
+	geometricPalette,
+	refineSubject,
+	selectScene
+} from './geometric/index.js';
+
 export {
 	analyzePost,
 	explainSelection,
 	scoreMotifs,
 	detectChronology,
+	normalizeText,
 	wordsOf,
 	countHits
-} from './concepts.js';
-export { MOTIFS, MOTIF_KEYS, MOTIF_BY_KEY, renderMotif, supportsForFamily } from './motifs.js';
-export { SEMANTIC_FAMILIES, SEMANTIC_FAMILY_BY_KEY } from './semantic-scenes.js';
-export { SYMBOLIC_FAMILIES } from './symbolic-scenes.js';
-export {
-	GEOMETRIC_COLORS,
-	GEOMETRIC_FAMILY_KEYS,
-	geometricPalette,
-	createGeometricIllustration
-} from './geometric.js';
-export { EXTRA_ABSTRACT_FAMILIES } from './abstract-extra.js';
-export { SYMBOLIC_MOTIFS } from './motifs-symbolic.js';
+} from './analysis/analyze.js';
+
+export { SUBJECTS, SUBJECT_BY_KEY, SUBJECT_KEYS } from './subjects.js';
+
+export { VIEWBOX } from './geometric/constants.js';
+
+export { validateElements, boundsOf } from './validate.js';
+
 export {
 	CATEGORY_PALETTES,
 	NEUTRALS,
 	MATERIALS,
 	FALLBACK_PALETTE,
 	paletteForCategory,
-	resolvePalette
+	mixHex
 } from './palettes.js';
-export { hashString, createRandom, clamp, lerp, round } from './prng.js';
+
+export { hashString, createRandom, clamp, round } from './prng.js';
