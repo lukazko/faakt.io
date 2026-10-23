@@ -59,6 +59,10 @@ export function getTeaser(html, maxLength = 150) {
 
 // --- Hook (teaser, který vzbudí zvědavost) ---
 
+// Dočasný přepínač: `true` = hookem je vždy první odstavec textu,
+// skórování vět níže se nepoužije.
+const HOOK_ALWAYS_FIRST_PARAGRAPH = true;
+
 // Dělící bod je jen tam, kde po interpunkci následuje nová věta (velké písmeno).
 // Jinak by se lámalo české datum — „Dne 23. května 1618 vtrhla…“.
 const SENTENCE_SPLIT = /(?<=[.!?])\s+(?=[A-ZÁČĎÉĚÍŇÓŘŠŤÚŮÝŽ0-9„"])/;
@@ -203,6 +207,10 @@ function pickBest(candidates) {
 export function getHook(html, maxLength = 150) {
 	const paragraphs = getParagraphs(html);
 	if (paragraphs.length === 0) return getTeaser(html, maxLength);
+
+	// DOČASNĚ: výběr hooku je zaslepený — hookem je vždy první odstavec.
+	// Přepnutím na `false` se vrátí původní skórování vět.
+	if (HOOK_ALWAYS_FIRST_PARAGRAPH) return paragraphs[0];
 
 	// Kandidáti jen z úvodu — poslední odstavec (pointa) zůstává skrytý
 	const source = paragraphs.slice(0, Math.max(1, paragraphs.length - 1)).slice(0, 2);

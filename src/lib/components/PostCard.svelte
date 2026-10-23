@@ -14,6 +14,7 @@
 	 *     category: string,
 	 *     sources: Array<{ label: string, url: string }>
 	 *   },
+	 *   active?: boolean,
 	 *   onCategoryToggle?: ((slug: string, postId: string) => void) | null,
 	 *   actionsOpen?: boolean,
 	 *   onToggleActions?: (() => void) | null,
@@ -30,6 +31,7 @@
 
 	let {
 		post,
+		active = true,
 		onCategoryToggle = null,
 		actionsOpen = false,
 		onToggleActions = null,
@@ -162,6 +164,7 @@
 <article
 	class="post-card"
 	class:flipped
+	class:is-active={active}
 	class:actions-open={actionsOpen}
 	onkeydown={handleKeydown}
 	onclick={handleCardClick}
@@ -333,6 +336,13 @@
 		visibility: hidden;
 		transition: background 0.2s, transform 0.15s,
 			visibility 0s linear calc(var(--flip-duration) * 0.16);
+	}
+
+	/* Tlačítko patří jen kartě, na které uživatel právě stojí. Karta nad ní
+	   prosvítá pod průhledným spodkem hlavičky jen jako náznak, že ve feedu
+	   je další — a nesmí u sebe mít vlastní akce. */
+	.post-card:not(.is-active) .action-btn {
+		visibility: hidden;
 	}
 
 	.action-btn:hover {

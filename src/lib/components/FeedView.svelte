@@ -382,6 +382,7 @@
 				<div class="card-wrapper">
 					<PostCard
 						{post}
+						active={activePost?.id === post.id}
 						onCategoryToggle={handleCategoryToggle}
 						actionsOpen={menuOpen && activePost?.id === post.id}
 						onToggleActions={() => (menuOpen = !menuOpen)}
