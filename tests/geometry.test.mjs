@@ -6,6 +6,8 @@ import { fileURLToPath } from 'node:url';
 
 import {
 	CATEGORY_PALETTES,
+	COMPOSITION_KEYS,
+	GEOMETRIC_COLORS,
 	GEOMETRIC_FAMILY_KEYS,
 	HERO_KEYS,
 	MATERIALS,
@@ -13,6 +15,7 @@ import {
 	createGeometricIllustration,
 	deriveSeed,
 	paletteForCategory,
+	refineSubject,
 	validateElements
 } from '../src/lib/illustrations/index.js';
 
@@ -34,14 +37,17 @@ const hashOf = (value) => createHash('sha256').update(value).digest('hex');
 
 // Zlaté otisky: scéna se nesmí změnit bez vědomého zásahu.
 // Hashe odpovídají stavu před sloučením vrstev.
+// Hashe odpovídají záměrnému přebarvení palety, novým motivům (stélé, DNA,
+// trůn, entropie…) a kompoziční vrstvě. Scény se nesmí změnit bez vysvětlení
+// v commitu — proto jsou tady pevné otisky, ne dopočítané hodnoty.
 const GOLDEN = {
-	'001': ['metaphor', 'balance', 'bbd9daff30946c2d99ea493c9da9186fb22acb98989eec8d530561d94fbbc826'],
-	'002': ['metaphor', 'brain', 'ed585e16a645a2cfe81c3c4e270567335940b20ff81d2259132b33ea6c56e648'],
-	'003': ['discovery', 'telescope', '9338e700e6154035c320be67063c2d4d02bdc249f8a96f35e1440d7fa54b7532'],
-	'010': ['discovery', 'flask', 'b78284005f3f05a2e1384b5b0ee206de666dfb1f66626c4f35e5900aa8046e47'],
-	'100': ['portrait', 'bust', '0c4d7606f579c9014dbcc2c4492754fbf158cb67da2a2a4ccd97c36ca4eef017'],
-	'200': ['discovery', 'planet', '0127e5429842566563763ec0b658f1de906422c2a5776006975fca9d3011853b'],
-	'500': ['metaphor', 'polyhedron', '9e4f84422ae70d612f4f18635ad800c5e61b2b10249361846431d1349d549757']
+	'001': ['metaphor', 'balance', '81b2ce0d50eaf8e97713496532fd8aa0894221d4809538ce717d27abea7bdf55'],
+	'002': ['metaphor', 'brain', '9105c822239be2be8bc6e1a3fdc53e9bfb5ef5dae56732376e82f99a61342716'],
+	'003': ['discovery', 'telescope', '4915925191cd5e547af6abd385dff8bbac83f442c1b522a33560bd29010ae87d'],
+	'010': ['discovery', 'dna', '044c8c84c0690ad281b5f7071eff30d5fbf009e7fe0b74397b50894424380a8e'],
+	'100': ['portrait', 'bust', '9638570e2a5db6d7e95364964bf1daa76fdfe386bf39970a91784f0d88c4576f'],
+	'200': ['discovery', 'planet', 'c894ed44497f52d79f77568a36c7b5a8b2f1d14f5d408290d7bb86637e7918c7'],
+	'500': ['metaphor', 'polyhedron', '4b864753c8c70866f073f81f1f6096b1c31aaae9e05369181b688ab56eda2cb2']
 };
 
 test('každý příspěvek dostane platnou scénu', () => {
@@ -88,7 +94,10 @@ test('pořadí vykreslení nemá vliv na výsledek', () => {
 test('předmět se překládá na existující motiv', () => {
 	const cases = [
 		[{ family: 'relic', subject: 'lawScroll' }, 'scroll'],
-		[{ family: 'metaphor', subject: 'entropy' }, 'clock'],
+		[{ family: 'metaphor', subject: 'entropy' }, 'entropy'],
+		[{ family: 'relic', subject: 'stele' }, 'stele'],
+		[{ family: 'relic', subject: 'throne' }, 'throne'],
+		[{ family: 'relic', subject: 'temple' }, 'temple'],
 		[{ family: 'relic', subject: 'sword' }, 'sword'],
 		[{ family: 'discovery', subject: 'telescope' }, 'telescope']
 	];
@@ -199,6 +208,62 @@ test('různé seedy dávají vizuálně odlišné scény', () => {
 	assert.equal(variants.size, 3, 'měly by se objevit všechny tři varianty');
 });
 
+test('kompozice se vybírá deterministicky a zůstává v povolených vzorech', () => {
+	const counts = Object.fromEntries(COMPOSITION_KEYS.map((key) => [key, 0]));
+
+	for (const post of posts) {
+		const spec = createGeometricIllustration({ post });
+		assert.ok(COMPOSITION_KEYS.includes(spec.composition), `${post.id}: ${spec.composition}`);
+		assert.deepEqual(createGeometricIllustration({ post }), spec, post.id);
+		counts[spec.composition] += 1;
+
+		if (spec.family === 'layers') assert.equal(spec.composition, 'single', post.id);
+	}
+
+	// Dynamické vzory mají nést menšinu scén, ne přebít klidný základ.
+	const dynamic = Object.entries(counts)
+		.filter(([key]) => key !== 'single')
+		.reduce((sum, [, count]) => sum + count, 0);
+	assert.ok(dynamic >= 80, `dynamických kompozic je jen ${dynamic}`);
+	assert.ok(counts.single > posts.length / 2, `single je jen ${counts.single}`);
+});
+
+test('textové signály rozliší konkrétní motiv místo generického objektu', () => {
+	assert.equal(refineSubject('telescope', { title: 'Kometa Halleyova', content: '' }), 'comet');
+	assert.equal(refineSubject('telescope', { title: 'Galaxie v Andromedě', content: '' }), 'galaxy');
+	assert.equal(refineSubject('telescope', { title: 'Sonda k Marsu', content: '' }), 'rocket');
+	assert.equal(refineSubject('clock', { title: 'Entropie a šipka času', content: '' }), 'entropy');
+	assert.equal(refineSubject('crown', { title: 'Trůn a korunovace', content: '' }), 'throne');
+	assert.equal(refineSubject('amphora', { title: 'Berlínská zeď', content: 'bariéra město' }), 'wall');
+	assert.equal(refineSubject('bust', { title: 'Sokrates', content: '' }), 'bust');
+	assert.equal(refineSubject(null, { title: 'Kometa', content: '' }), null);
+
+	const comet = createGeometricIllustration({
+		post: { id: 'kometa', title: 'Kometa, která se vrací', content: '', category: 'astronomie' }
+	});
+	assert.equal(comet.family, 'discovery');
+	assert.equal(comet.subject, 'comet');
+});
+
+test('kompozice staví víc objektů než klidný základ', () => {
+	const single = createGeometricIllustration({
+		post: { id: 'single', title: 'Neutrální', content: '', category: 'veda' }
+	});
+	const split = createGeometricIllustration({
+		post: {
+			id: 'split',
+			title: 'Berlínská zeď rozdělila město',
+			content: '',
+			category: 'politika'
+		}
+	});
+
+	assert.equal(single.composition, 'single');
+	assert.equal(split.composition, 'split');
+	assert.ok(split.elements.length > single.elements.length);
+	assert.ok(validateElements(split.elements).ok);
+});
+
 test('paleta vychází z barvy kategorie a akcent je stabilní', () => {
 	for (const [category, pair] of Object.entries(CATEGORY_PALETTES)) {
 		const palette = paletteForCategory(category);
@@ -213,7 +278,7 @@ test('paleta vychází z barvy kategorie a akcent je stabilní', () => {
 			});
 			// Barva kategorie zůstává akcentem, plochy drží jednotný jazyk scény.
 			assert.equal(spec.palette.accent, pair[0], `${category}/${seed}: accent`);
-			assert.equal(spec.palette.primary, '#E9E0CC', `${category}/${seed}: primary`);
+			assert.equal(spec.palette.primary, '#F2E8D5', `${category}/${seed}: primary`);
 		}
 	}
 
@@ -223,6 +288,27 @@ test('paleta vychází z barvy kategorie a akcent je stabilní', () => {
 	for (const [name, value] of Object.entries(MATERIALS)) {
 		assert.equal(paletteForCategory('historie')[name], value, name);
 	}
+});
+
+test('nová paleta není zelená a drží kontrast světlých obrysů', () => {
+	const channels = (hex) => [1, 3, 5].map((start) => Number.parseInt(hex.slice(start, start + 2), 16));
+	const surfaces = ['forest', 'forestDeep', 'teal', 'tealDeep', 'sage', 'sageDeep'];
+
+	for (const name of surfaces) {
+		const [r, g, b] = channels(GEOMETRIC_COLORS[name]);
+		assert.ok(b > r && b > g, `${name} (#${GEOMETRIC_COLORS[name]}) má modrou jako nosnou složku`);
+	}
+
+	const luminance = (hex) => {
+		const [r, g, b] = channels(hex).map((value) => {
+			const channel = value / 255;
+			return channel <= 0.03928 ? channel / 12.92 : ((channel + 0.055) / 1.055) ** 2.4;
+		});
+		return 0.2126 * r + 0.7152 * g + 0.0722 * b;
+	};
+	const light = luminance(GEOMETRIC_COLORS.light);
+	const deep = luminance(GEOMETRIC_COLORS.forestDeep);
+	assert.ok((light + 0.05) / (deep + 0.05) > 8, 'obrysy musí být na tmavé hmotě čitelné');
 });
 
 test('kompozice používají víc barev a nesou akcent kategorie', () => {

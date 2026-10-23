@@ -10,11 +10,15 @@ import { analyzePost } from '../analysis/analyze.js';
 import { geometricPalette } from './palette.js';
 import { geometricFamilyFor, resolveSubject } from './mapping.js';
 import { SCENES, GEOMETRIC_FAMILY_KEYS } from './scenes.js';
+import { chooseComposition, COMPOSITION_KEYS, COMPOSITION_META } from './composition.js';
+import { refineSubject } from './refine.js';
 import { deriveSeed } from './seed.js';
 
 export { GEOMETRIC_FAMILY_KEYS };
 export { GEOMETRIC_COLORS, geometricPalette } from './palette.js';
 export { DEFAULT_SUBJECT, SUBJECT_ALIAS, FAMILY_FALLBACK } from './mapping.js';
+export { COMPOSITION_KEYS, COMPOSITION_META, chooseComposition } from './composition.js';
+export { refineSubject, REFINEMENTS } from './refine.js';
 export { HEROES, HERO_KEYS } from './heroes.js';
 export { deriveSeed } from './seed.js';
 
@@ -31,7 +35,8 @@ export { deriveSeed } from './seed.js';
  *   variant?: number,
  *   density?: number,
  *   scale?: number,
- *   balance?: number
+ *   balance?: number,
+ *   composition?: string
  * }} [options]
  */
 export function createGeometricIllustration(options = {}) {
@@ -55,10 +60,29 @@ export function createGeometricIllustration(options = {}) {
 	if (subject === undefined) {
 		subject = analysis?.subject ?? null;
 	}
-	subject = family === 'layers' ? null : resolveSubject(family, subject);
+	// Motiv se nejdřív přeloží přes alias a potom zpřesní podle konkrétních
+	// slov v textu (kometa, galaxie, entropie…). Konkrétní předmět z analýzy
+	// se nikdy nepřepisuje.
+	subject = family === 'layers' ? null : refineSubject(resolveSubject(family, subject), options.post);
+	const supports = analysis?.supports ?? [];
+	const secondary =
+		family === 'layers'
+			? null
+			: supports
+					.map((key) => refineSubject(resolveSubject(family, key), options.post))
+					.find((key) => key && key !== subject) ?? null;
+
+	const composition = family === 'layers'
+		? 'single'
+		: COMPOSITION_KEYS.includes(options.composition)
+			? options.composition
+			: chooseComposition({ post: options.post, family, category });
+
 	const context = {
 		family,
 		subject,
+		secondary,
+		composition,
 		rand: random,
 		random,
 		variant,
@@ -81,6 +105,8 @@ export function createGeometricIllustration(options = {}) {
 		balance,
 		palette,
 		subject,
+		secondary,
+		composition,
 		elements: SCENES[family](context)
 	};
 }

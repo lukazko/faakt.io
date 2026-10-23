@@ -18,21 +18,17 @@ const DEFAULT_SUBJECT = {
 	layers: null
 };
 
-// Některé předměty mají v klasickém systému jiné jméno než náš motiv.
-// Mapování drží jednu rozpoznatelnou věc na příspěvek, ne dekoraci navíc.
+// Alias se používá jen tam, kde jde skutečně o tutéž věc (oltář je součást
+// chrámu, list je součást stromu). Významově odlišné předměty — stélé, trůn,
+// entropie, uzel, DNA — mají vlastní motiv, aby se nerozplynuly v generickém
+// objektu.
 const SUBJECT_ALIAS = {
 	lawScroll: 'scroll',
 	periodicTable: 'flask',
-	throne: 'crown',
-	temple: 'column',
-	altar: 'column',
-	stele: 'column',
-	entropy: 'clock',
-	knot: 'infinity',
+	altar: 'temple',
 	roots: 'tree',
 	leaf: 'tree',
 	forest: 'tree',
-	bird: 'tree',
 	cloud: 'wind',
 	lightning: 'bolt'
 };

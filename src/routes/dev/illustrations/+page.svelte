@@ -8,6 +8,8 @@
 	 */
 	import PostIllustration from '$lib/components/PostIllustration.svelte';
 	import {
+		COMPOSITION_KEYS,
+		COMPOSITION_META,
 		DEFAULT_SUBJECT,
 		GEOMETRIC_FAMILY_KEYS,
 		HERO_KEYS,
@@ -40,7 +42,20 @@
 		layers: 'veda'
 	};
 
-	const HERO_LABELS = { heelix: 'Helix' };
+	const HERO_LABELS = {
+		heelix: 'Helix',
+		helix: 'Šroubovice',
+		dna: 'DNA',
+		comet: 'Kometa',
+		galaxy: 'Galaxie',
+		rocket: 'Raketa',
+		wall: 'Zeď',
+		bird: 'Pták',
+		entropy: 'Entropie',
+		blackhole: 'Černá díra',
+		stele: 'Stélé',
+		knot: 'Uzel'
+	};
 	const heroLabel = (key) => SUBJECT_BY_KEY[key]?.label ?? HERO_LABELS[key] ?? key;
 
 	const SEEDS = ['eden', 'dva', 'tri'];
@@ -58,6 +73,19 @@
 		})
 	}));
 
+	// Osm kompozičních vzorů na stejném motivu — jde vidět, co dělá vztah objektů.
+	const COMPOSITION_GALLERY = COMPOSITION_KEYS.map((key) => ({
+		key,
+		...COMPOSITION_META[key],
+		spec: createGeometricIllustration({
+			family: 'metaphor',
+			subject: 'crown',
+			composition: key,
+			category: 'politika',
+			seed: `composition:${key}`
+		})
+	}));
+
 	// --- Interaktivní laboratoř ---
 	let family = $state('portrait');
 	let subject = $state(DEFAULT_SUBJECT.portrait);
@@ -65,6 +93,7 @@
 	let density = $state(0.7);
 	let scale = $state(1);
 	let balance = $state(0);
+	let composition = $state('auto');
 
 	// Po změně scény se předmět srovná na její výchozí motiv.
 	$effect(() => {
@@ -81,7 +110,8 @@
 			variant,
 			density,
 			scale,
-			balance
+			balance,
+			composition: composition === 'auto' ? undefined : composition
 		})
 	);
 
@@ -160,8 +190,8 @@
 		<p class="eyebrow">faakt.io · vývoj</p>
 		<h1>Ilustrační systém</h1>
 		<p class="lede">
-			Sedm kompozic, třicet šest motivů a deterministické varianty. Žádné externí assety. Všechno níže je
-			stejná komponenta, která se vykresluje v kartách feedu.
+			Sedm rodin, padesát jedna motivů, osm kompozičních vzorů a deterministické varianty.
+			Žádné externí assety. Všechno níže je stejná komponenta, která se vykresluje v kartách feedu.
 		</p>
 		<p class="note">
 			{usage} prvků ve scénách · viewBox 320 × 180 · seed = ID příspěvku
@@ -258,9 +288,20 @@
 				<input type="range" min="-1" max="1" step="0.01" bind:value={balance} />
 			</label>
 
+			<label class="control">
+				<span>Kompozice</span>
+				<select bind:value={composition}>
+					<option value="auto">auto podle textu</option>
+					{#each COMPOSITION_KEYS as key}
+						<option value={key}>{COMPOSITION_META[key].label}</option>
+					{/each}
+				</select>
+			</label>
+
 			<p class="readout">
-				{labSpec.family} · {labSpec.subject ?? 'krajinný řez'} · {labSpec.elements.length} prvků
-				· seed {labSpec.seedHash}
+				{labSpec.family} · {labSpec.subject ?? 'krajinný řez'} · {labSpec.composition}
+				{#if labSpec.secondary} + {labSpec.secondary}{/if}
+				· {labSpec.elements.length} prvků · seed {labSpec.seedHash}
 			</p>
 		</div>
 	</section>
@@ -329,11 +370,33 @@
 		</div>
 	</section>
 
+	<section class="compositions" aria-labelledby="compositions-title">
+		<h2 id="compositions-title">Kompoziční vzory</h2>
+		<p class="section-note">
+			Stejná koruna v osmi vzorech. Vzor neříká, co je na scéně — to určuje motiv —
+			ale co se s objektem děje: dělí se, stojí proti sobě, mění se, roste nebo se hroutí.
+			V produkci se vzor vybírá z textu, ne ručně.
+		</p>
+		<div class="grid small">
+			{#each COMPOSITION_GALLERY as item}
+				<figure class="tile">
+					<div class="card-surface">
+						<div class="card-art">
+							<PostIllustration spec={item.spec} />
+						</div>
+					</div>
+					<figcaption><strong>{item.label}</strong> · {item.note}</figcaption>
+				</figure>
+			{/each}
+		</div>
+	</section>
+
 	<section class="palettes" aria-labelledby="palettes-title">
 		<h2 id="palettes-title">Palety a hustota</h2>
 		<p class="section-note">
 			Stejná scéna (<code>metaphor</code>) napříč paletami kategorií a hustotou
-			0,35 → 1. Akcent zůstává barvou kategorie, plochy drží tmavý zeleno-petrolejový jazyk.
+			0,35 → 1. Akcent zůstává barvou kategorie, plochy drží indigovo-tealový jazyk
+			s teplými korálovými a jantarovými akcenty.
 		</p>
 		<div class="grid small">
 			{#each [

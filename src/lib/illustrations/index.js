@@ -16,9 +16,14 @@ export {
 	HERO_KEYS,
 	SUBJECT_ALIAS,
 	DEFAULT_SUBJECT,
+	COMPOSITION_KEYS,
+	COMPOSITION_META,
+	REFINEMENTS,
+	chooseComposition,
 	createGeometricIllustration,
 	deriveSeed,
-	geometricPalette
+	geometricPalette,
+	refineSubject
 } from './geometric/index.js';
 
 export {

@@ -1,7 +1,7 @@
 # Ilustrační systém faakt.io — kompletní popis
 
 Dokument pro vývojového agenta, který má systému porozumět a navrhnout úpravy.
-Stav k 23. 10. 2026, branch `refactor/remove-classic-illustrations`, verze 0.5.0-beta.
+Stav k 23. 10. 2026, branch `feat/ilustrace-rozmanitost`, verze 0.6.0-beta.
 
 Systém má **jedinou kreslicí vrstvu** — geometrickou. Analýza textu, metadata
 předmětů, palety a PRNG jsou její součásti. Klasická vrstva byla odstraněna;
@@ -18,7 +18,8 @@ v kapitole 12 je zaznamenáno, co a proč zmizelo.
    předmětů s kmeny slov, skóre a vazbou na kategorii. Kategorie je záchranná
    síť, ne hlavní rozhodnutí.
 4. Analýza vybírá z **65 analytických rodin**; geometrická vrstva jich používá
-   **7 kompozic** a **36 kreslených motivů**. Mapování je v `geometric/mapping.js`.
+   **7 scén**, **52 kreslených motivů** a **8 kompozičních vzorů**. Mapování je
+   v `geometric/mapping.js`, vztah objektů v `geometric/composition.js`.
 5. Ilustrace je dekorativní (`aria-hidden`, `pointer-events: none`), sedí ve
    flexu pod textem karty a na nízkém viewportu se skrývá.
 
@@ -40,9 +41,11 @@ src/lib/illustrations/
 │                            # explainSelection, normalizeText, wordsOf, countHits
 └── geometric/
     ├── index.js             # createGeometricIllustration()
-    ├── scenes.js            # 7 kompozic a jejich rozvržení
-    ├── heroes.js            # 36 kreslicích funkcí motivů
+    ├── scenes.js            # 7 scén × 8 kompozičních vzorů
+    ├── heroes.js            # 52 kreslicích funkcí motivů
     ├── mapping.js           # 65 rodin → 7 scén, aliasy předmětů
+    ├── composition.js       # volba vzoru (dělení, konfrontace, proměna…)
+    ├── refine.js            # zpřesnění obecného motivu podle textu
     ├── palette.js           # GEOMETRIC_COLORS, geometricPalette, stroke, shape
     ├── seed.js              # deriveSeed()
     └── constants.js         # VIEWBOX 320 × 180
@@ -53,7 +56,7 @@ Doplňující soubory:
 | Soubor | Role |
 |---|---|
 | `src/lib/components/PostIllustration.svelte` | Jediný renderer: spec → SVG. Používá ho feed i galerie. |
-| `src/routes/dev/illustrations/+page.svelte` | Vývojová galerie: prototyp, laboratoř, všech 7 kompozic, reálné příspěvky, palety. |
+| `src/routes/dev/illustrations/+page.svelte` | Vývojová galerie: prototyp, laboratoř, všech 7 scén, 8 kompozičních vzorů, reálné příspěvky, palety. |
 | `src/routes/dev/illustrations/prototype-cases.js` | 14 ručně vybraných reálných příspěvků pro prototyp. |
 | `tests/analysis.test.mjs` | Testy analýzy textu a metadat předmětů. |
 | `tests/geometry.test.mjs` | Testy scén na všech 766 příspěvcích, zlaté otisky, determinismus, paleta, čistota modulů. |
@@ -81,6 +84,8 @@ posts.json (766 příspěvků)
    │
    ├─ family ─────────────────────────────► geometricFamilyFor()  mapování 65 → 7
    ├─ subject ────────────────────────────► resolveSubject()      alias + validace
+   │                                        └─ refineSubject()    konkrétnější motiv
+   ├─ title + content ────────────────────► chooseComposition()  8 vzorů vztahu
    └─ category ───────────────────────────► geometricPalette()    accent kategorie
                                              │
                                              ▼
@@ -89,7 +94,8 @@ posts.json (766 příspěvků)
                                              ▼
                         spec = { style, family, requestedFamily, seed, seedHash,
                                  category, variant, density, scale, balance,
-                                 palette, subject, elements: [...] }
+                                 palette, subject, secondary, composition,
+                                 elements: [...] }
                                              │
                                              ▼
                                  PostIllustration.svelte  →  <svg>
@@ -97,8 +103,9 @@ posts.json (766 příspěvků)
 
 ### Klíčové API
 
-- `createGeometricIllustration({ post?, family?, subject?, seed?, category?, variant?, density?, scale?, balance? })`
-  — **jediný vstup pro produkci**. Vrací spec s polem `elements`.
+- `createGeometricIllustration({ post?, family?, subject?, seed?, category?, variant?, density?, scale?, balance?, composition? })`
+  — **jediný vstup pro produkci**. Vrací spec s polem `elements`; `composition`
+  lze vynutit (galerie/testy), jinak se odvodí z textu.
 - `analyzePost(post)` → `{ family, subject, supports, concept, reason, scores }`.
 - `explainSelection(post)` → totéž plus `subjectLabel` a `supportLabels`
   (používá galerie, v produkci se nevolá).
@@ -107,6 +114,8 @@ posts.json (766 příspěvků)
 - `boundsOf(elements)` → obdélník pokrytí scény.
 - `deriveSeed(post)` → stabilní řetězec seedu.
 - `geometricPalette(category)` → paleta scény s akcentem kategorie.
+- `chooseComposition({ post, family, category })` → jeden z `COMPOSITION_KEYS`.
+- `refineSubject(subject, post)` → konkrétnější motiv, nebo vstup beze změny.
 
 Veřejné exporty shrnuje `src/lib/illustrations/index.js`; nic mimo něj by se
 z knihovny importovat nemělo.
@@ -258,7 +267,7 @@ součást chování, viz 3.2.
 
 ---
 
-## 5. Geometrické kompozice (7)
+## 5. Scény (7) a kompoziční vzory (8)
 
 Zdroj: `geometric/scenes.js`, konstanta `SCENES`.
 
@@ -272,10 +281,33 @@ Zdroj: `geometric/scenes.js`, konstanta `SCENES`.
 | `nature` | `tree` | zajímavosti, biologie, krajina |
 | `layers` | `null` | abstraktní texty, chronologie, geologie |
 
-Každá scéna kromě `layers` dělá totéž: **jedna vodorovná linka podstavce**
-(`baseline`, y ≈ 150–152, opacity 0,24) + **jeden hlavní motiv** vycentrovaný
-na `x = 160 ± balance`, s měřítkem 1,05–1,22 a svislým posunem podle typu
-motivu. Žádné doplňkové objekty.
+Scéna určuje **výtvarný jazyk a výchozí motiv**. Nad ním stojí kompoziční
+vzor, který určuje **vztah objektů**:
+
+| Vzor | Co ukazuje | Kdy se vybere |
+|---|---|---|
+| `single` | jeden motiv na podstavci | výchozí; `layers`; text bez vztahového signálu |
+| `split` | dvě poloviny, trhlina a zlomený podstavec | dělení, rozkol, fragmentace, puklina |
+| `confrontation` | dva motivy proti sobě přes přerušovanou hranici | válka, bitva, spor, revoluce, souboj |
+| `transformation` | obrys vlevo, plná forma vpravo, šipka | proměna, vývoj, vznik, přechod |
+| `growth` | tři stupně větší a výš na stoupající linii | růst, expanze, vzestup, pokrok |
+| `collapse` | tři stupně padají, rotují a ztrácejí barvu | pád, úpadek, kolaps, zánik |
+| `connection` | dva motivy spojené přerušovanou drahou | spojení, vztah, dialog, spolupráce |
+| `contrast` | obrys a plná forma přes svislou osu | paradox, protiklad, rozdíl, dilema |
+
+`single` kreslí **jednu vodorovnou linku podstavce** (`baseline`, y ≈ 150–152,
+opacity 0,24) + **jeden hlavní motiv** vycentrovaný na `x = 160 ± balance`,
+s měřítkem 1,05–1,22 a svislým posunem podle typu motivu. Dynamické vzory
+skládají dvě nebo tři kopie téhož motivu (`group` s jiným měřítkem, rotací
+a opacitou), přidají jednu až tři linky a maximálně tři doprovodné částice.
+Žádná dekorace navíc.
+
+Volba je deterministická (`composition.js`): titulní shoda má váhu 5,
+obsahová 1,2; obsah musí sám dodat alespoň čtyři různá slova. Konkrétnější
+význam vyhrává (`split` před `confrontation` atd.). Konfrontace se navíc
+povoluje jen v rodinách `portrait/relic/metaphor/storybook` a v kategoriích
+`historie/politika/filozofie/literatura/filmy/umeni`, aby se vojenská
+metafora nevnucovala každé vědecké zprávě. `layers` zůstává vždy `single`.
 
 `layers` kreslí krajinný řez: dvě pevniny nad horizontem, linku horizontu, dvě
 šipky mířící od sebe, 4–5 vrstev pod povrchem a zlom. Ignoruje předmět — jde
@@ -286,15 +318,23 @@ o abstraktní text, ne o konkrétní věc.
 
 ---
 
-## 6. Kreslené motivy (36)
+## 6. Kreslené motivy (52)
 
 Zdroj: `geometric/heroes.js`, konstanta `HEROES`.
 
 `bust`, `flask`, `telescope`, `book`, `amphora`, `column`, `tree`, `octopus`,
 `balance`, `brain`, `palette`, `polyhedron`, `film`, `gear`, `clock`, `atom`,
-`planet`, `sun`, `heelix`, `crown`, `sword`, `crowd`, `scroll`, `hand`, `eye`,
-`heart`, `flame`, `microscope`, `map`, `coin`, `infinity`, `figure`, `wind`,
-`bolt`, `mountain`, `snowflake`.
+`planet`, `star`, `comet`, `galaxy`, `blackhole`, `rocket`, `moon`, `entropy`,
+`throne`, `stele`, `temple`, `ruin`, `explosion`, `wall`, `knot`, `dna`, `bird`,
+`sun`, `heelix`, `crown`, `sword`, `crowd`, `scroll`, `hand`, `eye`, `heart`,
+`flame`, `microscope`, `map`, `coin`, `infinity`, `figure`, `wind`, `bolt`,
+`mountain`, `snowflake`.
+
+Nové motivy vznikly tam, kde analýza už rozlišovala předmět, ale geometrie ho
+slévala do obecného tvaru: astronomie (`comet`, `galaxy`, `blackhole`, `rocket`,
+`moon`, `star`), abstrakce (`entropy`, `knot`), historie (`throne`, `stele`,
+`temple`, `ruin`, `wall`) a biologie (`dna`, `bird`). Každý má vlastní
+siluetu, ne jen jinou barvu obecného tvaru.
 
 Každá funkce dostane kontext `{ palette, variant, density, scale, balance, rand,
 random }` a vrací pole primitiv v **lokálních souřadnicích kolem počátku**.
@@ -312,9 +352,9 @@ Příklady obsahu:
 - `balance` jsou váhy, `clock` hodiny, `atom` tři eliptické dráhy,
 - `tree`, `mountain`, `snowflake` jsou krajinné siluety.
 
-**Pozor na `heelix`:** klíč je historický překlep. Analýza předmět `dna`
-nenabízí, takže se do helixu nedostane — DNA texty padnou na výchozí motiv
-scény. Přejmenování by změnilo chování, proto se dělá jen s vědomou migrací.
+**Pozor na `heelix`:** klíč je historický překlep. Zůstává kvůli zpětné
+kompatibilitě, ale analýza i refine používají `dna` (stejná kreslicí funkce).
+DNA texty se tak konečně dostanou k helixu.
 
 ---
 
@@ -336,9 +376,21 @@ zná sedm, zbytek se mapuje:
 
 `SUBJECT_ALIAS` překládá názvy předmětů na kreslené motivy:
 
-`lawScroll→scroll`, `periodicTable→flask`, `throne→crown`,
-`temple/altar/stele→column`, `entropy→clock`, `knot→infinity`,
-`roots/leaf/forest/bird→tree`, `cloud→wind`, `lightning→bolt`.
+`lawScroll→scroll`, `periodicTable→flask`, `altar→temple`,
+`roots/leaf/forest→tree`, `cloud→wind`, `lightning→bolt`.
+
+Aliasy zůstaly jen tam, kde jde o skutečně totéž (oltář je součást chrámu,
+mrak a vítr sdílejí pohyb). Dřívější ztrátové aliasy (`throne→crown`,
+`stele→column`, `entropy→clock`, `knot→infinity`, `bird→tree`) byly zrušeny —
+tyto předměty mají vlastní motiv.
+
+**Zpřesnění podle textu** (`refine.js`) se používá jen na obecný motiv a nikdy
+nepřepíše konkrétní předmět z analýzy. Patnáct pravidel pokrývá případy, kdy
+text mluví o konkrétní věci, ale analýza zná jen obecnější tvar: dalekohled →
+kometa/galaxie/černá díra/raketa/Měsíc, hodiny → entropie, koruna → trůn,
+sloup → chrám/stélé, baňka → DNA, amfora → zeď/armáda, meč → stroj, infinita →
+uzel. Pravidla jsou krátká, deterministická a vysvětlitelná; každé má
+`from` (kdy se smí použít) a `test` (jaká slova ho ospravedlní).
 
 `resolveSubject(family, subject)` vrátí alias, pokud na něj existuje kreslicí
 funkce; jinak výchozí motiv rodiny. `layers` dostane vždy `null`.
@@ -349,14 +401,21 @@ Neznámý předmět tedy nikdy neprojde a scéna nikdy nezůstane prázdná.
 
 ## 8. Paleta
 
-`GEOMETRIC_COLORS` (`geometric/palette.js`) je fixní tmavá paleta:
+`GEOMETRIC_COLORS` (`geometric/palette.js`) je fixní tmavá paleta postavená
+na indigové hloubce, tealu a teplých akcentech:
 
 ```
-bg         #0A0D10    forest     #173C36    forestDeep #102B27
-teal       #216E83    tealDeep   #164A58    sage       #78917A
-sageDeep   #5A705D    amber      #F0C56D    terracotta #D95738
-light      #E9E0CC
+bg         #0B0E17    forest     #27325F    forestDeep #151B38
+teal       #1AA6B7    tealDeep   #0D6C80    sage       #8F97CE
+sageDeep   #5C639C    amber      #F6B94A    terracotta #E96A4B
+light      #F2E8D5
 ```
+
+Historické názvy (`forest`, `sage`) zůstaly kvůli API a motivům, ale hodnoty
+jsou přemapované: `forest` je nyní tmavě indigová, `sage` světle levandulová.
+Zelená dominance zmizela; poměr modrého kanálu je u každé plochy vyšší než
+u červeného a zeleného, takže scéna drží jednotný chladný základ a teplé
+akcenty vynikají. Kontrast `light` vůči `bg` je větší než 8:1.
 
 `geometricPalette(category)` přidá:
 
@@ -368,8 +427,10 @@ light      #E9E0CC
   `muted`, `soft`, `faint`.
 
 **Kategorie neurčuje barvu objektu, jen identifikační akcent.** To je záměr —
-dark mode drží jednotný zeleno-petrolejový jazyk a kategorie se pozná podle
-detailu, ne podle celé siluety. Neznámá kategorie spadne na `#f59e0b`.
+dark mode drží jednotný indigovo-tealový jazyk, kategorie se pozná podle
+detailu a teplý akcent (jantar, korál) nese pozornost. Neznámá kategorie
+spadne na `#f59e0b`. Paleta má na scénu nejvýše tři až čtyři významné barvy;
+nejde o duhu.
 
 Pomocníci `stroke(color, sw, opacity)` a `shape(fill, stroke, sw)` vracejí
 společné atributy, aby se motivy neopakovaly.
@@ -400,12 +461,15 @@ produkční renderer.
 
 1. **Prototyp** — 14 reálných příspěvků (`prototype-cases.js`), každý s vlastní
    rodinou a předmětem.
-2. **Laboratoř** — volba scény, předmětu, varianty, hustoty, měřítka a balance;
-   čte `variant`, `density`, `scale`, `balance` a ukazuje počet prvků i seed.
-3. **Všech sedm kompozic** — každá se třemi seedy.
-4. **Skutečné příspěvky** — šest případů s vysvětlením výběru
+2. **Laboratoř** — volba scény, předmětu, varianty, hustoty, měřítka, balance
+   a kompozice; čte všechny parametry včetně `composition` a `secondary`
+   a ukazuje počet prvků i seed.
+3. **Všech sedm scén** — každá se třemi seedy.
+4. **Osm kompozičních vzorů** — stejná koruna ve všech vzorech, aby byl vidět
+   rozdíl mezi motivem a vztahem.
+5. **Skutečné příspěvky** — šest případů s vysvětlením výběru
    (`explainSelection`).
-5. **Palety a hustota** — stejná scéna `metaphor` napříč kategoriemi
+6. **Palety a hustota** — stejná scéna `metaphor` napříč kategoriemi
    a hustotou 0,35 → 1.
 
 Galerie není součástí feedu, ale je součástí statického buildu. Pokud ji
@@ -416,7 +480,7 @@ nebo přesunout mimo `src/routes`.
 
 ## 11. Testy
 
-`npm test` spouští dva soubory, dohromady 28 testů:
+`npm test` spouští dva soubory, dohromady 32 testů:
 
 ### `tests/analysis.test.mjs`
 
@@ -439,7 +503,12 @@ nebo přesunout mimo `src/routes`.
 - aliasy předmětů a fallback na výchozí motiv,
 - každý motiv ve všech scénách, každá scéna pro šest seedů,
 - meze parametrů, ořezávání ručních vstupů, žádný text v elementech,
-- paleta: akcent kategorie, stabilní `primary`, materiálové barvy,
+- paleta: akcent kategorie, stabilní `primary`, materiálové barvy, žádná
+  zelená dominance, kontrast vůči pozadí,
+- kompozice: determinismus, platné klíče, rozumné zastoupení (`single`
+  u většiny, dynamické vzory u menšiny), dynamická scéna má více prvků,
+- refine: textové signály vyberou konkrétní motiv, konkrétní předmět se
+  nepřepíše,
 - stabilita seedu z ID,
 - čistota modulů: žádný `fetch`, žádné `anthropic|openai|generat`.
 
@@ -495,12 +564,27 @@ větev už není v klientském bundlu; největší JS chunk klesl z přibližně
 4. Spusť `npm test`; zlaté otisky se nesmí změnit, dokud se nemění existující
    motivy.
 
-**Nová kompozice**
+**Nová scéna**
 
 1. Napiš scénu v `geometric/scenes.js` a zaregistruj ji v `SCENES`.
 2. Doplň `DEFAULT_SUBJECT` a případně `FAMILY_FALLBACK`.
 3. Doplň popisek a kategorii do `SCENE_META`/`SCENE_CATEGORY` v galerii.
-4. Ověř validitu pro všech 36 motivů.
+4. Ověř validitu pro všech 52 motivů.
+
+**Nový kompoziční vzor**
+
+1. Přidej renderer do `COMPOSERS` v `geometric/scenes.js` a klíč do
+   `COMPOSITION_KEYS`.
+2. Přidej popisek a poznámku do `COMPOSITION_META` a pravidlo do `RULES`
+   v `geometric/composition.js` (pořadí = priorita).
+3. Galerie si nový vzor vykreslí automaticky.
+4. Ověř, že vzor funguje pro všechny motivy a že `boundsOf` zůstává v 320×180.
+
+**Nové zpřesnění**
+
+1. Přidej pravidlo do `REFINEMENTS` v `geometric/refine.js` s úzkým `from`
+   a konkrétním `test`.
+2. Ověř na skutečných příspěvcích, že se nespouští u nesouvisejícího textu.
 
 **Nová kategorie**
 
@@ -519,13 +603,15 @@ vysvětlení, proč se vizuál mění.
 
 ## 14. Známá omezení
 
-- **Jeden objekt na scénu.** `supports` se nekreslí. Abstraktní texty končí
-  jako krajinný řez, konkrétní texty jako jeden motiv.
-- **Malá variace mezi příspěvky.** Stejný motiv + stejná scéna znamená téměř
-  identický obrázek; `density` je v praxi málo viditelná.
-- **Ztráta rozlišení aliasy.** `roots`, `leaf`, `forest` i `bird` končí jako
-  stejný strom; `temple`, `altar` i `stele` jako stejný sloup.
-- **`heelix`** — překlep v klíči, DNA texty ho nevyužívají (viz 6).
+- **Většina scén zůstává `single`.** Dynamický vzor dostane jen přibližně
+  šestina příspěvků (111 z 766). Je to záměr — vztah se nemá vnucovat textu,
+  který žádný nemá — ale znamená to, že variabilita stojí hlavně na motivech.
+- **Druhá kopie je vždy stejný motiv.** Konfrontace neumí postavit proti sobě
+  dva různé předměty; `secondary` se do geometrie zatím nekreslí.
+- **Refine je heuristika.** Patnáct pravidel pokrývá časté případy; méně
+  obvyklý text zůstane u obecného motivu. Není to klasifikátor.
+- **`heelix`** — překlep v klíči zůstává kvůli kompatibilitě; nový kód používá
+  `dna` (viz 6).
 - **`&amp;` v textu** se normalizuje na slovo `amp`; na skóre to nemá vliv,
   protože žádný kmen na `amp` neodkazuje.
 - **Galerie je ve statickém buildu.** Je dostupná na produkční URL, dokud se
