@@ -133,7 +133,11 @@
 		</svg>
 	</button>
 
-	{#if actionsOpen}
+	<!-- Nabídka patří jen straně, která je zrovna vidět. Odvrácená strana je
+	     otočená o 180°, takže by se její kopie zobrazila zrcadlově na druhé
+	     straně karty (animace jí navíc dělá vlastní vrstvu, kterou skrytí
+	     zadní plochy nechytí). -->
+	{#if actionsOpen && (side === 'front' ? !flipped : flipped)}
 		<div class="action-menu" role="menu">
 			<button class="action-item" role="menuitem" onclick={() => { onShare?.(post); onCloseActions?.(); }}>
 				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -356,6 +360,10 @@
 		gap: 2px;
 		min-width: 160px;
 		animation: menuIn 0.2s ease-out;
+		/* Stejná pojistka jako u tlačítka: animace (transform/opacity) dělá
+		   z nabídky vlastní vrstvu, kterou skrytí zadní plochy strany nechytí. */
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	}
 
 	@keyframes menuIn {
@@ -540,13 +548,7 @@
 		-webkit-text-fill-color: transparent;
 		color: var(--accent-secondary);
 		line-height: 1.3;
-		padding-bottom: 2px;
-		border-bottom: 1px solid rgba(245, 158, 11, 0.3);
-		transition: border-color 0.15s;
-	}
-
-	.flip-btn:hover .flip-btn-text {
-		border-color: var(--accent-secondary);
+		text-decoration: none;
 	}
 
 	.flip-icon {
