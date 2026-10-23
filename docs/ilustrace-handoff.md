@@ -1,7 +1,7 @@
 # Ilustrační systém faakt.io — kompletní popis
 
 Dokument pro vývojového agenta, který má systému porozumět a navrhnout úpravy.
-Stav k 23. 10. 2026, branch `feat/ilustrace-rozmanitost`, verze 0.6.0-beta.
+Stav k 23. 10. 2026, branch `feat/ilustrace-rozmanitost`, verze 0.10.0-beta.
 
 Systém má **jedinou kreslicí vrstvu** — geometrickou. Analýza textu, metadata
 předmětů, palety a PRNG jsou její součásti. Klasická vrstva byla odstraněna;
@@ -18,14 +18,16 @@ commitu aktualizovat i tento dokument — počty, tabulky, mapování a testy.
    čistě v JS při renderu.
 2. Vrstva je **deterministická**: seed je ID příspěvku, stejný příspěvek vždy
    vykreslí stejnou scénu — na serveru, v prohlížeči i mezi buildy.
-3. O výběru rozhoduje **analýza českého textu** (titulku a obsahu) přes 96
+3. O výběru rozhoduje **analýza českého textu** (titulku a obsahu) přes 102
    předmětů s kmeny slov, skóre a vazbou na kategorii. Kategorie je záchranná
    síť, ne hlavní rozhodnutí.
 4. Analýza vybírá z **65 analytických rodin**; geometrická vrstva jich používá
-   **7 rodinných scén**, **92 kreslených motivů**, **8 kompozičních vzorů**
-   a **48 sémantických scén** — celkem **62 typů scén**. Mapování je
+   **7 rodinných scén**, **106 kreslených motivů**, **8 kompozičních vzorů**
+   a **63 sémantických scén** — katalog má **77 typů scén**. Mapování je
    v `geometric/mapping.js`, vztah objektů v `geometric/composition.js`,
-   významová pravidla v `geometric/selection.js`.
+   významová pravidla v `geometric/selection.js`. **10 kulturních profilů**
+   v `geometric/culture.js` navíc zasadí scénu do zeměpisné a historické
+   oblasti, aniž by změnilo motiv nebo kompozici.
 5. Ilustrace je dekorativní (`aria-hidden`, `pointer-events: none`), sedí ve
    flexu pod textem karty a na nízkém viewportu se skrývá.
 
@@ -47,9 +49,10 @@ src/lib/illustrations/
 │                            # explainSelection, normalizeText, wordsOf, countHits
 └── geometric/
     ├── index.js             # createGeometricIllustration()
-    ├── selection.js         # 48 sémantických scén: význam textu → scéna
-    ├── scenes.js            # 7 rodin + 8 kompozic + 48 sémantických scén
-    ├── heroes.js            # 92 kreslicích funkcí motivů
+    ├── selection.js         # 63 sémantických scén: význam textu → scéna
+    ├── scenes.js            # 7 rodin + 8 kompozic + 63 sémantických scén
+    ├── heroes.js            # 106 kreslicích funkcí motivů
+    ├── culture.js           # 10 kulturních profilů: detekce + kulisa
     ├── mapping.js           # 65 rodin → 7 scén, aliasy předmětů
     ├── composition.js       # volba vzoru (dělení, konfrontace, proměna…)
     ├── refine.js            # zpřesnění obecného motivu podle textu
@@ -63,12 +66,12 @@ Doplňující soubory:
 | Soubor | Role |
 |---|---|
 | `src/lib/components/PostIllustration.svelte` | Jediný renderer: spec → SVG. Používá ho feed i galerie. |
-| `src/routes/dev/illustrations/+page.svelte` | Vývojová galerie: prototyp, laboratoř, všech 7 scén, 8 kompozičních vzorů, reálné příspěvky, palety. |
+| `src/routes/dev/illustrations/+page.svelte` | Vývojová galerie: prototyp, laboratoř, všech 7 scén, 63 sémantických scén, 10 kultur, 8 kompozičních vzorů, reálné příspěvky, palety. |
 | `src/routes/dev/illustrations/prototype-cases.js` | 14 ručně vybraných reálných příspěvků pro prototyp. |
 | `scripts/audit-illustrations.mjs` | Deterministický audit všech příspěvků: scény, motivy, strukturální otisky, fallbacky, varování, regresní případy, srovnání s baseline. |
 | `tests/analysis.test.mjs` | Testy analýzy textu a metadat předmětů. |
 | `tests/geometry.test.mjs` | Testy scén na všech 766 příspěvcích, zlaté otisky, determinismus, paleta, čistota modulů. |
-| `tests/selection.test.mjs` | Regresní testy sémantického výběru: pět zadaných příkladů a třídy chyb z auditu. |
+| `tests/selection.test.mjs` | Regresní testy sémantického výběru a kulturní detekce: zadané příklady, třídy chyb z auditu, pozitivní i neutrální případy. |
 
 Všechny moduly v `src/lib/illustrations/` jsou **čisté** — žádné Svelte, žádný
 DOM, žádný `fetch`, žádné volání LLM. Díky tomu běží přímo v Node testech.
@@ -92,7 +95,7 @@ posts.json (766 příspěvků)
    │                     { family, subject, supports, concept, reason, scores }
    │                                           │
    │                                           ▼
-   │                                  selectScene()   48 sémantických pravidel
+   │                                  selectScene()   63 sémantických pravidel
    │                                           │      (požár knihovny, čas,
    │                                           │       písmo, stroj, plavba…)
    │                                           ▼
@@ -100,6 +103,7 @@ posts.json (766 příspěvků)
    ├─ subject ────────────────────────────► resolveSubject()      alias + validace
    │                                        └─ refineSubject()    konkrétnější motiv
    ├─ title + content ────────────────────► chooseComposition()  8 vzorů vztahu
+   ├─ title + content + category ─────────► detectCulture()      10 kulturních profilů
    └─ category ───────────────────────────► geometricPalette()    accent kategorie
                                              │
                                              ▼
@@ -109,7 +113,7 @@ posts.json (766 příspěvků)
                         spec = { style, family, requestedFamily, scene, sceneGroup,
                                  seed, seedHash, category, variant, density, scale,
                                  balance, palette, subject, secondary, composition,
-                                 reason, elements: [...] }
+                                 culture, reason, elements: [...] }
                                              │
                                              ▼
                                  PostIllustration.svelte  →  <svg>
@@ -117,17 +121,24 @@ posts.json (766 příspěvků)
 
 ### Klíčové API
 
-- `createGeometricIllustration({ post?, family?, subject?, secondary?, scene?, seed?, category?, variant?, density?, scale?, balance?, composition? })`
+- `createGeometricIllustration({ post?, family?, subject?, secondary?, scene?, seed?, category?, variant?, density?, scale?, balance?, composition?, culture? })`
   — **jediný vstup pro produkci**. Vrací spec s polem `elements`; `scene`
   a `composition` lze vynutit (galerie/testy), jinak se odvodí z textu.
   `secondary` je určený jen pro galerii a testy; v produkci ho dodá analýza
-  nebo sémantická scéna.
+  nebo sémantická scéna. `culture` lze vynutit klíčem nebo vypnout `false`;
+  v produkci se odvodí z textu pomocí `detectCulture()`.
 - `analyzePost(post)` → `{ family, subject, supports, concept, reason, scores }`.
 - `selectScene({ post, analysis, family, category })` → `{ scene, subject, secondary, reason }`
   nebo `null`; čistě deterministická pravidla bez sítě a LLM.
-- `SCENE_TYPES` → všech 62 typů scén s `{ key, group, label, note }`, kde
+- `SCENE_TYPES` → všech 77 typů scén s `{ key, group, label, note }`, kde
   `group` je `family`, `composition` nebo `semantic`.
-- `SEMANTIC_SCENE_KEYS` → 48 klíčů sémantických scén v pořadí priorit.
+- `SEMANTIC_SCENE_KEYS` → 63 klíčů sémantických scén v pořadí priorit.
+- `detectCulture(post)` → `{ key, label, score, reason }` nebo `null`;
+  rozpozná zeměpisnou a historickou oblast textu.
+- `CULTURES` / `CULTURE_KEYS` → 10 kulturních profilů s popiskem, poznámkou,
+  kmeny slov a kreslicí funkcí.
+- `cultureBackdrop(culture, ctx)` → pole prvků kulisy, nebo `[]`, pokud se
+  scéna nehodí; nikdy nemění předmět ani kompozici.
 - `explainSelection(post)` → totéž plus `subjectLabel` a `supportLabels`
   (používá galerie, v produkci se nevolá).
 - `validateElements(elements)` → `{ ok, errors }`; kontroluje tvary, konečná
@@ -301,7 +312,7 @@ aby se nepletl s obecnými texty.
 
 ---
 
-## 5. Scény (7 + 8 + 48) a kompoziční vzory
+## 5. Scény (7 + 8 + 63) a kompoziční vzory
 
 Zdroj: `geometric/scenes.js`, konstanta `SCENES`.
 
@@ -350,7 +361,7 @@ o abstraktní text, ne o konkrétní věc.
 `GEOMETRIC_FAMILY_KEYS` je odvozené z `Object.keys(SCENES)`; pořadí je
 `portrait, discovery, storybook, relic, metaphor, nature, layers`.
 
-### 5.1 Sémantické scény (48)
+### 5.1 Sémantické scény (63)
 
 Zdroj: `geometric/selection.js` (pravidla) a `geometric/scenes.js` (kreslení).
 Rodina odpovídá na „jaký jazyk“, kompozice na „jaký vztah“, sémantická scéna
@@ -407,23 +418,46 @@ a první shoda vyhrává; každé vrací `{ scene, subject, secondary, reason }`
 | `decipherment` | stélé + dvě kolony znaků | rozluštění písma |
 | `networkScene` | uzly + spojnice | sítě, internet, neurony |
 | `ballot` | urna + hlasovací lístek | volby a hlasování |
+| `stateBirth` | jediná neurčitá vlajka | vznik moderního státu (letopočet 19.–20. století) |
+| `conditioning` | pes + miska, zvonek a signál | klasické podmiňování a reakce na podnět |
+| `boxParadox` | krychle s laťováním + uši a dvojí obrys | kočka v krabici, kvantová superpozice |
+| `lossAversion` | váhy + nestejné mince | averze ke ztrátě, hodnota a riziko |
+| `roles` | jedna postava + tři menší kopie | aktanti, násobnost rolí v příběhu |
+| `canSeries` | tři stejné plechovky + tiskový rám | sériová výroba obrazu, pop art, konzerva |
+| `feast` | talíř + tři plody, obrys stolu | symposion, hostina, společné jídlo |
+| `terracottaArmy` | řady vojáků + jáma a vrstvy hlíny | terakotová armáda, objevená armáda |
+| `rosetta` | stéla + pyramida a sluneční kotouč | egyptské písmo a rozluštění |
+| `repeatingDecimal` | 0,999… = 1 jako číslice | nekonečný desetinný zápis |
+| `spin` | postava + dva oblouky rotace | rotující člověk, pirueta, moment hybnosti |
+| `placebo` | jedna dvoubarevná kapsle | placebo, tableta bez účinné látky |
+| `paper` | list papíru + kulturní kulisa | výroba papíru a jeho šíření |
+| `charter` | koruna + svitek pod ní | král a listina, Magna Carta |
+| `courier` | dopis + přerušovaná trasa stanic | kurýrní pošta a doručování zpráv |
 
 Priorita je záměrná: konkrétní událost (požár, plavba, obléhání) předchází
 obecnému tělesu a teprve potom rozhoduje rodina. Příklady regresí:
 `754` → `disruption/machine`, `085` → `solarSystem/sun`, `199` →
 `bookFire/library`, `417` → `timeFigure/figure`, `540` → `writing/script`,
 `617` → `mirrorScene/mirror`, `176` → `parable/elephant`, `525` →
-`codex/scroll`, `479` → `response/crowd`, `303` → `digits/numeralOne`.
+`codex/scroll`, `479` → `response/crowd`, `303` → `digits/numeralOne`,
+`746` → `stateBirth/flag`, `119` → `conditioning/dog`, `005` →
+`boxParadox/box`, `245` → `lossAversion/balance`, `609` → `roles/figure`,
+`465` → `canSeries/can`, `539` → `feast/plate`, `196` →
+`terracottaArmy/warrior`, `104` → `rosetta/stele`, `818` →
+`repeatingDecimal/numeralZero`, `616` → `spin/figure`, `093` →
+`placebo/pill`, `269` → `paper/paper`, `013` → `charter/crown`, `528` →
+`courier/envelope`.
 
 Novější pravidla mají záměrně úzké podmínky, aby se nespustila na jediném
-slově: zrcadlo vyžaduje `zrcadl*` („odraz“ sám je i odraz míče) a vynechává
-optické přístroje; podobenství vyžaduje slona i slepce; zákoník vynechává
-Rosettskou desku a hieroglyfy; stroj, který mluví, vyžaduje Turinga, robota
-nebo umělou inteligenci, ne obecný program; komprese vyžaduje `kompres*`,
-`huffman*` nebo `kodovan*`, takže „zkrátil válku“ ji nespustí; číslice
-vyžadují Benforda nebo slovo „číslice“ v titulku. Negativní případy hlídají
-testy (`023` odraz od mola, `516` válečný slon, `029/069/104` Rosettská
-deska, `134` zkrácení války, `566` zrcadlo dalekohledu).
+slově: zrcadlo musí být v titulku (metaforické „text zrcadlí dobu“ ani
+zrcadlo jako pomůcka pokusu scénu nespustí) a vynechává optické přístroje;
+podobenství vyžaduje slona i slepce; zákoník vynechává Rosettskou desku
+a hieroglyfy; stroj, který mluví, vyžaduje Turinga, robota nebo umělou
+inteligenci, ne obecný program; komprese vyžaduje `kompres*`, `huffman*`
+nebo `kodovan*`, takže „zkrátil válku“ ji nespustí; číslice vyžadují
+Benforda nebo slovo „číslice“ v titulku. Negativní případy hlídají testy
+(`023` odraz od mola, `516` válečný slon, `191/268` rozluštění bez Egypta,
+`134` zkrácení války, `566` zrcadlo dalekohledu).
 
 Třetí iterace zúžila pravidla stejně obezřetně: zlato se rozpouští jen
 s kyselinou; vesmírná hudba chce hudbu i vesmír; tři dveře chtějí dveře
@@ -435,13 +469,98 @@ luštění; síť chce dva síťové pojmy; volby chtějí volební slova. Nová
 scéna `peaceFaith` má přednost před zákoníkem, `decipherment` před obecným
 písmem a `bacteria` před laboratoří.
 
+Čtvrtá iterace řeší třídu chyb „objekt neodpovídá tomu, o čem text mluví“.
+`stateBirth` chce stát v titulku, vznik nebo vyhlášení a letopočet 19.–20.
+století — tím se moderní stát oddělí od antiky i od voleb, které o státu
+mluví jen mimochodem. `conditioning` chce kategorii psychologie, psa a jídlo,
+zvonek nebo sliny; vědecký text o domestikaci psů zůstane laboratoří.
+`boxParadox` chce kočku, krabici i kvantový pojem, `lossAversion` chce ztrátu,
+peníze a psychologický kontext (averze, prospektová teorie, Kahneman).
+`roles` chce alespoň dvě zmínky o roli a narativní slovo; pouhá role ve
+skupině nestačí. Všechna pravidla mají úzké podmínky a každé v datasetu
+zachytí právě jeden příspěvek.
+
+Pátá iterace vychází z pravidla „hlavní motiv je předmět, který v textu
+skutečně nese význam“. `canSeries` chce v kategorii umění konzervu nebo
+plechovku a alespoň dva znaky sériovosti (série, opakování, sítotisk);
+Warholova polévka tak dostane tři stejné plechovky místo palety a už ji
+nechytí metaforické „zrcadlí“. `feast` chce dva hostinné pojmy a dva pojmy
+jídla či stolu, takže symposion kreslí talíř s plody, ne abstraktní spojení.
+`terracottaArmy` chce v historii dvě zmínky o hlíně/sochách a dvě o armádě;
+řady vojáků nahradily neuspořádaný dav. `rosetta` chce rozluštění písma
+a Egypt — stéla, pyramida a sluneční kotouč; jiná písma bez Egypta zůstávají
+obecným `decipherment`. `repeatingDecimal` chce v matematice zápis `0,999…`
+a dvě zmínky o devítkách nebo desetinném zápisu; abstraktní mnohostěn
+nahradily číslice. V datasetu každá z pěti scén zachytí jeden až tři
+příspěvky (`rosetta` tři egyptské texty).
+
+Šestá iterace sjednocuje dvě pravidla z feedbacku: **hlavní objekt má nést
+význam** a **scéna nemá být přeplněná**. `spin` chce rotujícího člověka
+(krasobruslař, pirueta, tanečník) a alespoň dva znaky rotace; Zemi, hurikán,
+kolo ani kočku nezachytí, protože ty mají vlastní motiv. `placebo` chce
+placebo a lék, tabletu nebo kapsli — kreslí jednu dvoubarevnou kapsli místo
+mozku. `paper` chce dva zásahy o papíru či pergamenu a dva o výrobě nebo
+technologii; stroj s převody nahradil jediný list a kulturní kulisa zůstává.
+`charter` chce krále a listinu (klidně jen v titulku) a kreslí korunu nad
+svitkem, ne sloup. `courier` chce dvě zmínky o zprávě a dvě o stanicích,
+koních nebo poště; mapa s kompasem zmizela a zůstal dopis s přerušovanou
+trasou. `stateBirth` přišel o kalendář — dva velké objekty vedle sebe
+přeplňovaly scénu, takže zůstala jediná vlajka. Každá z pěti nových scén
+zachytí v datasetu právě jeden příspěvek.
+
+### 5.2 Kulturní kontext (10 profilů)
+
+Zdroj: `geometric/culture.js`. Sémantická scéna odpovídá na „co“ a kompozice
+na „jak“; tato vrstva dodává „kde a kdy“. **Nemění předmět ani kompozici** —
+za scénu přidá jemnou kulisu (opacita 0,42), která text zasadí do zeměpisné
+a historické oblasti. Když si text není jistý, kulisa se nekreslí.
+
+| Kultura | Kulisa | Typické signály |
+|---|---|---|
+| `egypt` | pyramidy, obelisk, hieroglyfy | Egypt, faraon, Nil, Théby |
+| `greece` | chrám, sloupy, meandros | Řecko, Athény, Sókratés, Platón, Homér |
+| `rome` | oblouk, vavřín, latinské zářezy | Řím, císař, Cicero, Seneca, legionář |
+| `china` | pagoda, pečetní znaky | Čína, Konfucius, dynastie, Si-an, terakota |
+| `japan` | brána torii, vlna | Japonsko, Kjóto, samuraj, šintoismus |
+| `india` | stúpa, lotos | Indie, hinduismus, buddhismus, Gándhí, sanskrt |
+| `mesopotamia` | zikkurat, klínové znaky | Mezopotámie, Sumer, Babylon, klínopis |
+| `islam` | kopule, minaret, hvězda | islám, Korán, Bagdád, Damašek, Persie |
+| `norse` | drakkar, runy | Vikingové, sever, runy, Odin |
+| `mesoamerica` | stupňovitá pyramida, glyf | Mayové, Aztékové, Inkové, Tenochtitlán |
+
+**Detekce** (`detectCulture`) je deterministická a záměrně konzervativní:
+
+1. Kmeny se hledají v titulku a v obsahu zvlášť. Titulek má váhu 3, obsah 1.
+2. Bez shody v titulku je potřeba alespoň **dva zásahy v obsahu**; jeden
+   zásah je slabý signál a vrací `null`.
+3. Kultura se uzná jen v historických kategoriích (`historie`, `filozofie`,
+   `literatura`, `umeni`, `veda`, `astronomie`, `matematika`, `fyzika`).
+   Výjimkou je `politika`, kde ale musí kultura zaznít v titulku — antická
+   demokracie kulisa dostane, moderní dluhová krize nikoli. `ekonomie`,
+   `zajímavost` a `filmy` jsou vyloučené úplně.
+4. Text spojující dvě kultury (indický a čínský trojúhelník) nemá dostat
+   jednu z nich: pokud se dva nejlepší profily liší o méně než 2 body,
+   výsledek je `null`. Neutralita je přesnější než špatná kulisa.
+5. Scény, kde by kulisa byla šum (vesmír, abstrakce, moderna, sítě, laboratoř,
+   číslice, ale i už kulturně konkrétní `rosetta` a `terracottaArmy`), jsou
+   v `NO_BACKDROP` a kulisu nedostanou.
+
+V datasetu 766 příspěvků rozpozná kulturu 101 textů: Řecko 51, Čína 18,
+Řím 10, Indie 8, Egypt 8, Japonsko 2, islámský svět 2, Mezopotámie 1,
+Sever 1. Mezoamerika v datasetu nemá přirozený text a je pokrytá testem.
+
+Kulisa se umísťuje na opačnou stranu, než kam je vychýlený hlavní motiv
+(`ctx.balance`), do horního rohu (`y = 74`), měřítko 0,52–0,60. Nikdy
+nepřekrývá hlavní objekt a nemění scénu, motiv ani kompozici. V auditu
+zvyšuje jen počet strukturálních otisků, protože přidává tvary.
+
 Text `003` (hvězda) je `celestial/star`, i když obsah zmiňuje dalekohled —
 titulek jmenuje objekt, ne přístroj. Naopak `580` (měsíc Titanu) je
 `celestial/moon`, protože spojení „sluneční soustava“ se do Slunce nepočítá.
 
 ---
 
-## 6. Kreslené motivy (92)
+## 6. Kreslené motivy (106)
 
 Zdroj: `geometric/heroes.js`, konstanta `HEROES`.
 
@@ -461,7 +580,7 @@ Motivy přidané v rozšíření 0.6:
 `labyrinth`, `wolf`, `castle`, `sprout`, `flower`, `butterfly`, `shield`,
 `quill`, `script`, `magnifier`, `compass`, `lyre`, `candle`, `torch`,
 `volcano`, `rain`, `thread`, `cycle`, `laurel`, `cat`, `mushroom`, `cocoon`,
-`crack`, `glacier`.
+`crack`, `glacier`, `pill`, `envelope`, `paper`.
 
 Motivy z iterace podle vizuálního feedbacku:
 
@@ -473,6 +592,29 @@ klesající křivka u burzovního propadu a výrazná číslice 1 u Benfordova z
 Třetí iterace přidala `numeralTwo` pro exponenty a `bacterium` pro kolonii
 buněk. Obě kresby jsou geometrické a používají stejné primitivy jako
 ostatní motivy.
+
+Čtvrtá iterace přidala pět motivů, každý pro konkrétní objekt, který text
+jmenoval, ale kresba ho neměla: `flag` (neurčitá vlajka moderního státu),
+`leaves` (tři listy ze země místo obecného stromu), `dog` a `bowl` (Pavlovovo
+podmiňování) a `box` (bedna jako krychle s laťováním). Zároveň zpřesnila dvě
+existující kresby: `brain` je nyní boční pohled se záběry, spánkovým lalokem,
+mozečkem a kmenem, `bust` má plnovous, kadeřavé vlasy a vavřínový věnec, takže
+odpovídá antickému mysliteli, ne obecnému člověku. `sprout` a nové listy
+používají botanickou zeleň (`green`, `greenDeep`) — zeleň zůstává jen uvnitř
+rostlinného motivu, nenese scénu.
+
+Pátá iterace přidala šest motivů pro předměty, které text jmenoval, ale
+kresba je neměla: `can` (plechovka jako válec s víkem a etiketou), `plate`
+(talíř jako elipsa s okrajem), `fruit` (jablko s řapíkem a listem), `warrior`
+(přílba, pancíř, kopí a štít), `numeralZero` a `numeralNine` (číslice pro
+desetinný zápis). Všechny drží stejnou geometrickou řeč a barvy jako
+existující motivy; `fruit` používá botanickou zeleň stejně jako `leaves`.
+
+Šestá iterace přidala tři motivy, které nesou hlavní objekt samy: `pill`
+(dvoubarevná kapsle — každá polovina jiná), `envelope` (obálka s chlopní
+a pečetí) a `paper` (list s vlákny a ohnutým rohem). `crown`, `scroll`,
+`figure` a `flag` už existovaly a nové scény je jen skládají do jednodušších
+kompozic.
 
 Nové motivy vznikly tam, kde analýza už rozlišovala předmět, ale geometrie ho
 slévala do obecného tvaru: astronomie (`comet`, `galaxy`, `blackhole`, `rocket`,
@@ -558,8 +700,8 @@ na indigové hloubce, tealu a teplých akcentech:
 ```
 bg         #0B0E17    forest     #27325F    forestDeep #151B38
 teal       #1AA6B7    tealDeep   #0D6C80    sage       #8F97CE
-sageDeep   #5C639C    amber      #F6B94A    terracotta #E96A4B
-light      #F2E8D5
+sageDeep   #5C639C    green      #4E9B72    greenDeep  #2C6249
+amber      #F6B94A    terracotta #E96A4B    light      #F2E8D5
 ```
 
 Historické názvy (`forest`, `sage`) zůstaly kvůli API a motivům, ale hodnoty
@@ -567,6 +709,10 @@ jsou přemapované: `forest` je nyní tmavě indigová, `sage` světle levandulo
 Zelená dominance zmizela; poměr modrého kanálu je u každé plochy vyšší než
 u červeného a zeleného, takže scéna drží jednotný chladný základ a teplé
 akcenty vynikají. Kontrast `light` vůči `bg` je větší než 8:1.
+
+Výjimkou jsou dvě botanické role `green` a `greenDeep`. Používají je jen
+rostlinné motivy (`sprout`, `leaves`), aby listy nepůsobily jako modré plochy.
+Nejsou nosnou barvou scény a test zelené dominance se jich netýká.
 
 `geometricPalette(category)` přidá:
 
@@ -616,14 +762,16 @@ produkční renderer.
    a kompozice; čte všechny parametry včetně `composition` a `secondary`
    a ukazuje počet prvků i seed.
 3. **Sedm rodinných scén** — každá se třemi seedy.
-4. **Sémantické scény** — všech 22 typů s typickým předmětem a doplňkem;
+4. **Sémantické scény** — všech 63 typů s typickým předmětem a doplňkem;
    popisky a poznámky jdou z `SEMANTIC_SCENE_META`, galerie je neduplikuje.
-   Nadpis uvádí celkový počet `SCENE_TYPES` (36) a počet motivů (`HERO_KEYS`).
-5. **Osm kompozičních vzorů** — stejná koruna ve všech vzorech, aby byl vidět
+   Nadpis uvádí celkový počet `SCENE_TYPES` (77) a počet motivů (`HERO_KEYS`).
+5. **Kulturní kontext** — všech 10 profilů na stejném portrétu s vynucenou
+   kulturou (`culture: key`), takže je vidět jen kulisa, ne změna motivu.
+6. **Osm kompozičních vzorů** — stejná koruna ve všech vzorech, aby byl vidět
    rozdíl mezi motivem a vztahem.
-6. **Skutečné příspěvky** — šest případů s vysvětlením výběru
+7. **Skutečné příspěvky** — šest případů s vysvětlením výběru
    (`explainSelection`) a názvem zvolené scény.
-7. **Palety a hustota** — stejná scéna `metaphor` napříč kategoriemi
+8. **Palety a hustota** — stejná scéna `metaphor` napříč kategoriemi
    a hustotou 0,35 → 1.
 
 Galerie není součástí feedu, ale je součástí statického buildu. Pokud ji
@@ -634,7 +782,7 @@ nebo přesunout mimo `src/routes`.
 
 ## 11. Testy
 
-`npm test` spouští tři soubory, dohromady 45 testů:
+`npm test` spouští tři soubory, dohromady 78 testů:
 
 ### `tests/analysis.test.mjs`
 
@@ -681,7 +829,23 @@ nebo přesunout mimo `src/routes`.
   mír a víra, bakterie, kruh a čtverec, růst cen) a tři nové vrstvy
   (rozluštění, síť, volby);
 - negativní případy třetí iterace: virus ani plíseň nespustí bakterie,
-  burzovní propad zůstane propadem a sémantických scén je alespoň 48;
+  burzovní propad zůstane propadem a sémantických scén je alespoň 63;
+- čtvrtá iterace: pět případů z feedbacku (vznik státu, Pavlov, kočka
+  v krabici, averze ke ztrátě, aktanti) a negativní dvojice — volby zůstanou
+  volbami i při slově „stát“, domestikace psů není podmiňování, efekt rámování
+  není averze ke ztrátě, starověký stát nemá moderní letopočet;
+- pátá iterace: pět případů z feedbacku (Warholova konzerva, symposion,
+  egyptská stéla, 0,999…, terakotová armáda) a negativní případy — zrcadlo
+  musí být v titulku, hostina bez jídla, hlína bez vojáků, jiné písmo bez
+  Egypta a jiná nekonečná řada než 0,999…;
+- šestá iterace: šest případů z feedbacku (rotace, placebo, papír, listina,
+  vznik státu, kurýrní pošta) a negativní případy — rotace Země, hurikán,
+  kolo ani kočka nejsou rotující člověk, papír bez výroby, král bez listiny,
+  zpráva bez stanic a placebo bez léku;
+- kulturní kontext: 10 profilů s popiskem, kmeny a kreslicí funkcí; detekce
+  na skutečných příspěvcích (Řecko, Řím, Čína, Japonsko, Indie, Mezopotámie,
+  islámský svět, Sever, Egypt) i syntetická Mezoamerika; neutrální text
+  vrací `null` a `culture: false` vypne kulisu úplně;
 - nebeská tělesa: Slunce nikdy jako Měsíc, Měsíc nikdy jako Slunce,
   hvězda v titulku před dalekohledem, Titan jako Měsíc i přes „sluneční soustavu“;
 - hranice krátkých řetězců: „dna“ uvnitř „prázdná“ nesmí změnit motiv;
@@ -690,7 +854,9 @@ nebo přesunout mimo `src/routes`.
 - neutrální text bez specifické scény vrací `null`.
 
 Zlaté otisky se při záměrné změně kreslení přepočítají ručně a v commitu se
-vysvětlí proč. Bez toho je test bezcenný.
+vysvětlí proč. Bez toho je test bezcenný. Kulturní vrstva změnila otisk
+příspěvku `100` (Sókratés dostal řeckou kulisu); ostatní otisky zůstaly
+shodné, protože jejich texty kulturu nerozpoznají.
 
 ### Audit a diagnostika
 
@@ -708,8 +874,10 @@ produkce a vypíše:
 
 Užitečné přepínače: `--top`, `--limit`, `--scene`, `--family`, `--show`,
 `--json`, `--md`, `--rows`. Exit kód je nenulový, když některý regresní případ
-selže. Aktuální stav: 62 scén, 75 použitých motivů, 208 strukturálních scén,
-56 fallbacků (7,3 %), 94 varování, 5/5 regresí, entropie motivů 0,89.
+selže. Aktuální stav: 77 typů scén, 86 použitých motivů, 266 strukturálních
+scén, 56 fallbacků (7,3 %), 96 varování, 5/5 regresí, entropie motivů 0,876.
+Kulturní kulisa zvyšuje počet strukturálních otisků (přidává tvary), ale
+nemění scénu, motiv ani kompozici; část nových otisků pochází z kulis.
 
 ---
 
@@ -765,7 +933,7 @@ větev už není v klientském bundlu; největší JS chunk klesl z přibližně
 1. Napiš scénu v `geometric/scenes.js` a zaregistruj ji v `SCENES`.
 2. Doplň `DEFAULT_SUBJECT` a případně `FAMILY_FALLBACK`.
 3. Doplň popisek a kategorii do `SCENE_META`/`SCENE_CATEGORY` v galerii.
-4. Ověř validitu pro všech 92 motivů.
+4. Ověř validitu pro všech 106 motivů.
 
 **Nová sémantická scéna**
 
@@ -778,6 +946,18 @@ větev už není v klientském bundlu; největší JS chunk klesl z přibližně
    tak text, který scénu spustit nesmí.
 5. Spusť audit a sleduj, kolik příspěvků scéna zachytila; pokud jich je
    nepřiměřeně mnoho, zúžete kmeny nebo přidejte druhou podmínku.
+
+**Nový kulturní profil**
+
+1. Napiš kreslicí funkci kulisy v `geometric/culture.js` (jen primitivy,
+   žádný text) a přidej profil do `CULTURES` s `label`, `note`, `stems`
+   a `landmark`.
+2. Kmeny piš jako normalizované začátky slov (`egypt*`), vyhni se krátkým
+   řetězcům, které chytí nesouvisející slova (např. `thor*` u thoria).
+3. Ověř na celém datasetu, kolik příspěvků profil zachytí a jestli mezi nimi
+   nejsou moderní texty; při pochybnostech přidej další podmínku, ne kmen.
+4. Přidej profil do galerie se vynuceným `culture: key` a test pozitivní
+   i neutrální. Pokud se změní zlatý otisk, vysvětli to v commitu.
 
 **Nový kompoziční vzor**
 
@@ -825,6 +1005,15 @@ vysvětlení, proč se vizuál mění.
   nespustilo na jediném slově („revoluční“ bez davu, „semena“ bez klíčení,
   „sluneční soustava“ bez Slunce). Přesto může méně obvyklý text minout;
   audit proto vypisuje distribuci a varování.
+- **Scéna má nést jeden hlavní objekt.** Feedback opakovaně ukázal, že dva
+  velké objekty vedle sebe působí přeplněně (vlajka a kalendář, mapa
+  a kompas). Nová pravidla proto kreslí jeden dominantní motiv a maximálně
+  jemnou trasu či kulisu; doplňky jsou malé a nesoutěží s ním.
+- **Kulturní vrstva je heuristika.** Deset profilů pokrývá jen oblasti, které
+  se v datasetu skutečně objevují; jiné kultury (např. Afrika, Oceánie) kulisu
+  nedostanou, dokud se nepřidá profil. Detekce je záměrně konzervativní —
+  raději žádná kulisa než špatná. Kulisa je vždy jen doplněk za scénou,
+  nikdy nenahrazuje hlavní motiv.
 - **Refine je heuristika.** Patnáct pravidel pokrývá časté případy; méně
   obvyklý text zůstane u obecného motivu. Není to klasifikátor. Krátké řetězce
   musí mít hranice slov (`dna` nesmí chytit „prázdná“).

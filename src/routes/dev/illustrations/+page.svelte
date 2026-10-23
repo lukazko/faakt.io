@@ -10,6 +10,8 @@
 	import {
 		COMPOSITION_KEYS,
 		COMPOSITION_META,
+		CULTURES,
+		CULTURE_KEYS,
 		DEFAULT_SUBJECT,
 		GEOMETRIC_FAMILY_KEYS,
 		HERO_KEYS,
@@ -55,7 +57,21 @@
 		entropy: 'Entropie',
 		blackhole: 'Černá díra',
 		stele: 'Stélé',
-		knot: 'Uzel'
+		knot: 'Uzel',
+		flag: 'Vlajka',
+		leaves: 'Tři listy',
+		dog: 'Pes',
+		bowl: 'Miska',
+		box: 'Bedna',
+		can: 'Plechovka',
+		plate: 'Talíř',
+		fruit: 'Plod',
+		numeralZero: 'Číslice nula',
+		numeralNine: 'Číslice devět',
+		warrior: 'Voják',
+		pill: 'Kapsle',
+		envelope: 'Obálka',
+		paper: 'List papíru'
 	};
 	const heroLabel = (key) => SUBJECT_BY_KEY[key]?.label ?? HERO_LABELS[key] ?? key;
 
@@ -110,12 +126,27 @@
 		inflation: { family: 'metaphor', category: 'ekonomie', subject: 'balance', secondary: null },
 		decipherment: { family: 'relic', category: 'historie', subject: 'stele', secondary: null },
 		networkScene: { family: 'metaphor', category: 'pocitacove-vedy', subject: 'machine', secondary: null },
-		ballot: { family: 'relic', category: 'politika', subject: 'crowd', secondary: null }
+		ballot: { family: 'relic', category: 'politika', subject: 'crowd', secondary: null },
+		stateBirth: { family: 'relic', category: 'politika', subject: 'flag', secondary: null },
+		conditioning: { family: 'metaphor', category: 'psychologie', subject: 'dog', secondary: 'bowl' },
+		boxParadox: { family: 'discovery', category: 'fyzika', subject: 'box', secondary: null },
+		lossAversion: { family: 'metaphor', category: 'psychologie', subject: 'balance', secondary: 'coin' },
+		roles: { family: 'portrait', category: 'filozofie', subject: 'figure', secondary: null },
+		canSeries: { family: 'metaphor', category: 'umeni', subject: 'can', secondary: null },
+		feast: { family: 'relic', category: 'historie', subject: 'plate', secondary: 'fruit' },
+		terracottaArmy: { family: 'relic', category: 'historie', subject: 'warrior', secondary: null },
+		rosetta: { family: 'relic', category: 'historie', subject: 'stele', secondary: null },
+		repeatingDecimal: { family: 'metaphor', category: 'matematika', subject: 'numeralZero', secondary: 'numeralNine' },
+		spin: { family: 'portrait', category: 'fyzika', subject: 'figure', secondary: null },
+		placebo: { family: 'metaphor', category: 'psychologie', subject: 'pill', secondary: null },
+		paper: { family: 'relic', category: 'historie', subject: 'paper', secondary: null },
+		charter: { family: 'relic', category: 'politika', subject: 'crown', secondary: 'scroll' },
+		courier: { family: 'relic', category: 'historie', subject: 'envelope', secondary: null }
 	};
 
 	const SEEDS = ['eden', 'dva', 'tri'];
 
-	// Všech 62 typů scén: sedm rodin, osm kompozic a 48 sémantických scén.
+	// Všech 77 typů scén: sedm rodin, sedm kreslených kompozic a 63 sémantických scén.
 	const SEMANTIC_GALLERY = SCENE_TYPES.filter((type) => type.group === 'semantic').map((type) => {
 		const demo = SEMANTIC_DEMO[type.key] ?? {};
 		return {
@@ -142,6 +173,21 @@
 				category: SCENE_CATEGORY[key]
 			});
 			return { seed, spec, valid: validateElements(spec.elements).ok };
+		})
+	}));
+
+	// Kulturní kontext: stejná scéna, jiná kulisa. Ukazuje, že kontext
+	// nemění předmět — jen „kde a kdy“ se příběh odehrává.
+	const CULTURE_GALLERY = CULTURE_KEYS.map((key) => ({
+		key,
+		label: CULTURES[key].label,
+		note: CULTURES[key].note,
+		spec: createGeometricIllustration({
+			family: 'portrait',
+			subject: 'bust',
+			category: 'historie',
+			culture: key,
+			seed: `culture:${key}`
 		})
 	}));
 
@@ -456,6 +502,28 @@
 				<figure class="tile">
 					<div class="card-surface">
 						<div class="card-badge">sémantická</div>
+						<div class="card-art">
+							<PostIllustration spec={item.spec} />
+						</div>
+					</div>
+					<figcaption><strong>{item.label}</strong> · {item.note}</figcaption>
+				</figure>
+			{/each}
+		</div>
+	</section>
+
+	<section class="compositions" aria-labelledby="cultures-title">
+		<h2 id="cultures-title">Kulturní kontext</h2>
+		<p class="section-note">
+			Stejná busta, jiná kulisa. Kultura se rozpoznává z textu (místo, jméno,
+			písmo) a kreslí se za scénu; předmět ani kompozici nemění. Text, který
+			spojuje dvě kultury, zůstává neutrální.
+		</p>
+		<div class="grid small">
+			{#each CULTURE_GALLERY as item}
+				<figure class="tile">
+					<div class="card-surface">
+						<div class="card-badge">kontext</div>
 						<div class="card-art">
 							<PostIllustration spec={item.spec} />
 						</div>

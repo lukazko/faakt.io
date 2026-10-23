@@ -30,6 +30,11 @@ export const GEOMETRIC_COLORS = {
 	sage: '#8F97CE',
 	sageDeep: '#5C639C',
 
+	// Botanická zeleň — jen pro rostlinné motivy, aby listy nevypadaly
+	// jako modré plochy. Nenese scénu, drží se v objektu.
+	green: '#4E9B72',
+	greenDeep: '#2C6249',
+
 	// Teplé akcenty.
 	amber: '#F6B94A',
 	terracotta: '#E96A4B',

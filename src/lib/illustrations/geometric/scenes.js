@@ -65,9 +65,9 @@ function arrow(x1, x2, y, p, opacity = 1) {
 		line(x1, y, x2, y, { ...stroke(p.amber, 1.8, opacity) }),
 		polygon(
 			[
-				[x2, y - 4.5],
-				[x2 - direction * 8, y],
-				[x2, y + 4.5]
+				[x2 - direction * 8, y - 4.5],
+				[x2, y],
+				[x2 - direction * 8, y + 4.5]
 			],
 			{ fill: p.amber, opacity }
 		)
@@ -476,22 +476,6 @@ function sceneLayers(ctx) {
 	const left = 16;
 	const right = 304;
 
-	const arrow = (x1, x2, y) => {
-		const tip = x2;
-		const base = x1;
-		return [
-			line(base, y, tip, y, { stroke: p.amber, sw: 1.6 }),
-			polygon(
-				[
-					[tip, y - 4],
-					[tip - Math.sign(x2 - x1) * 7, y],
-					[tip, y + 4]
-				],
-				{ fill: p.amber }
-			)
-		];
-	};
-
 	// Dvě pevniny nad hladinou — mezi nimi se otevřela propast.
 	out.push(
 		polygon(
@@ -517,9 +501,7 @@ function sceneLayers(ctx) {
 	);
 	out.push(line(18, horizon, W - 18, horizon, { stroke: p.light, sw: 1.1, opacity: 0.45 }));
 
-	// Šipky míří od sebe — stejný směr jako pohyb bloků.
-	out.push(...arrow(120, 102, horizon - 10));
-	out.push(...arrow(200, 218, horizon - 10));
+	// Žádné šipky: mezeru mezi bloky nese sama kresba, ne dekorativní směr.
 
 	// Vrstvy pod povrchem — každá má vlastní barvu a tenkou hranici.
 	const top = horizon;
@@ -1170,7 +1152,7 @@ function sceneSpacecraft(ctx) {
 		const angle = (Math.PI * 2 * i) / 7 + 0.3;
 		out.push(circle(160 + Math.cos(angle) * 112, 96 + Math.sin(angle) * 58, 1.7, { fill: p.amber, opacity: 0.65 }));
 	}
-	out.push(...arrow(96, 58, 122, p, 0.5));
+	// Raketa nese směr sama; vedlejší šipka byla dekorace navíc.
 	return out;
 }
 
@@ -1547,6 +1529,446 @@ function sceneBallot(ctx) {
 	return out;
 }
 
+/**
+ * Vznik státu: jediná vlajka jako hlavní objekt.
+ * Moderní událost nesmí nést antickou nádobu jen proto, že jde o historii;
+ * kalendář vedle vlajky byl druhý velký objekt a scénu přeplňoval.
+ */
+function sceneStateBirth(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	out.push(...drawHero(ctx, 'flag', { x: 134 + ctx.balance * 3, y: y - 42, scale: 1.12 }));
+	for (let i = 0; i < 3; i++) {
+		out.push(circle(210 + i * 22, 54 + (i % 2) * 14, 2, { fill: p.amber, opacity: 0.55 }));
+	}
+	return out;
+}
+
+/**
+ * Klasické podmiňování: pes, miska a zvukový signál.
+ * Psychologický mechanismus není stroj — nese ho živý objekt a jídlo.
+ */
+function sceneConditioning(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y)];
+	out.push(...drawHero(ctx, 'dog', { x: 108 + ctx.balance * 3, y: y - 52, scale: 0.92 }));
+	out.push(...drawHero(ctx, 'bowl', { x: 236, y: y - 30, scale: 0.82 }));
+	// Zvonek a tři oblouky signálu, který spouští reakci.
+	out.push(
+		path('M 60 34 Q 54 46 48 48 L 74 48 Q 68 44 62 34 Z', { ...shape(p.amber, p.light, 1) }),
+		circle(61, 52, 2.4, { fill: p.terracotta })
+	);
+	for (let i = 0; i < 3; i++) {
+		out.push(
+			arcPath(74, 42, 8 + i * 8, -52, 52, {
+				fill: 'none',
+				stroke: p.teal,
+				sw: i === 0 ? 1.5 : 1,
+				opacity: 0.75 - i * 0.16
+			})
+		);
+	}
+	// Slina jako kapka — fyziologická reakce, ne dekorace.
+	out.push(
+		path('M 128 84 C 124 92 122 96 126 99 C 130 102 134 98 132 92 Z', {
+			fill: p.teal,
+			opacity: 0.85,
+			stroke: p.light,
+			sw: 0.7
+		})
+	);
+	out.push(circle(204, 62, 2, { fill: p.sage, opacity: 0.6 }));
+	return out;
+}
+
+/**
+ * Kočka v krabici: krychle s laťováním, uši nad víkem a nejistota
+ * naznačená dvojím obrysem. Rozhoduje schránka, ne stroj s pákou.
+ */
+function sceneBoxParadox(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	// Druhá poloha obrysu — superpozice dvou stavů.
+	out.push(
+		path('M 84 70 L 108 54 L 160 54 L 182 70 L 182 122', {
+			fill: 'none',
+			stroke: p.teal,
+			sw: 1.2,
+			opacity: 0.45,
+			dash: '4 5'
+		})
+	);
+	out.push(...drawHero(ctx, 'box', { x: 132 + ctx.balance * 3, y: y - 52, scale: 1.1 }));
+	// Uši nad víkem — uvnitř je živý tvor.
+	out.push(
+		polygon([[108, 82], [112, 62], [124, 78]], { fill: p.sageDeep, stroke: p.light, sw: 0.9 }),
+		polygon([[134, 78], [146, 62], [150, 82]], { fill: p.sageDeep, stroke: p.light, sw: 0.9 })
+	);
+	// Oči prosvítající štěrbinou víka.
+	out.push(
+		circle(118, 86, 2.6, { fill: p.amber }),
+		circle(136, 86, 2.6, { fill: p.amber })
+	);
+	out.push(...questionMark(236, 66, p, 1.15, p.light));
+	out.push(circle(176, 108, 2, { fill: p.teal, opacity: 0.6 }));
+	return out;
+}
+
+/**
+ * Averze ke ztrátě: misky vah nejsou symetrické, ztráta váží víc.
+ * Abstraktní „vrstvy“ tu byly špatně — hodnotu nese váha a mince.
+ */
+function sceneLossAversion(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(...drawHero(ctx, 'balance', { x: 118 + ctx.balance * 3, y: y - 46, scale: 0.96 }));
+	// Jedna ražená mince a dvě naznačené — ztráta má větší váhu.
+	out.push(...drawHero(ctx, 'coin', { x: 214, y: 100, scale: 0.32 }));
+	out.push(circle(194, 118, 6.5, { fill: p.amber, stroke: p.light, sw: 1, opacity: 0.85 }));
+	out.push(circle(228, 120, 4.6, { fill: p.amber, stroke: p.light, sw: 1, opacity: 0.75 }));
+	out.push(
+		path('M 188 128 Q 206 136 226 128', { ...stroke(p.terracotta, 1.4, 0.75), dash: '3 4' })
+	);
+	for (let i = 0; i < 3; i++) {
+		out.push(circle(198 + i * 16, 54 + (i % 2) * 8, 1.8, { fill: p.amber, opacity: 0.7 }));
+	}
+	return out;
+}
+
+/**
+ * Aktanti: jedna postava a několik rolí, které může najednou hrát.
+ * Násobnost se ukazuje opakováním téhož tvaru, ne obecným davem.
+ */
+function sceneRoles(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(...drawHero(ctx, 'figure', { x: 104 + ctx.balance * 3, y: y - 46, scale: 0.98 }));
+	// Tři menší kopie = tři další role téže postavy.
+	const accents = [p.amber, p.teal, p.green];
+	for (let i = 0; i < 3; i++) {
+		const cy = 48 + i * 34;
+		out.push(
+			path(`M 138 108 Q 168 ${cy + 10} 196 ${cy}`, {
+				...stroke(p.sageDeep, 1, 0.45),
+				dash: '3 5'
+			}),
+			...drawHero(ctx, 'figure', { x: 214, y: cy + 18, scale: 0.42 }),
+			circle(246, cy, 3.4, { fill: accents[i], stroke: p.light, sw: 0.8 })
+		);
+	}
+	return out;
+}
+
+/**
+ * Sériová výroba obrazu: stejná plechovka třikrát vedle sebe.
+ * Opakování je zde obsah, ne dekorace — proto stejný objekt, stejná barva.
+ */
+function sceneCanSeries(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	const xs = [94, 160, 226];
+	for (let i = 0; i < xs.length; i++) {
+		const x = xs[i];
+		// Tiskový rám — mřížka sériové reprodukce.
+		out.push(
+			rect(x - 40, 46, 80, 98, {
+				fill: 'none',
+				stroke: p.accent,
+				sw: 0.9,
+				opacity: 0.32,
+				dash: '3 5'
+			})
+		);
+		out.push(...drawHero(ctx, 'can', { x, y: 102, scale: 0.86 }));
+		out.push(ellipse(x, 146, 24, 3.4, { fill: p.forestDeep, opacity: 0.45 }));
+		// Registrační bod tisku.
+		out.push(circle(x - 32, 54, 2, { fill: p.amber, opacity: 0.65 }));
+	}
+	out.push(line(60, 62, 260, 62, { ...stroke(p.light, 0.8, 0.18), dash: '2 6' }));
+	return out;
+}
+
+/**
+ * Hostina: talíř jako elipsa a na něm několik plodů.
+ * Společenské spojení samo o sobě scénu nespouští — rozhoduje jídlo.
+ */
+function sceneFeast(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(...drawHero(ctx, 'plate', { x: 160, y: 124, scale: 1.34 }));
+	const fruits = [
+		[126, 108, 0.56],
+		[160, 101, 0.62],
+		[194, 107, 0.54]
+	];
+	for (let i = 0; i < fruits.length; i++) {
+		const [x, cy, scale] = fruits[i];
+		out.push(...drawHero(ctx, 'fruit', { x, y: cy, scale, rotate: i === 1 ? -6 : 4 }));
+	}
+	// Drobné zrnko a kapka — stůl není prázdný.
+	out.push(circle(112, 130, 2.4, { fill: p.amber, opacity: 0.8 }));
+	out.push(circle(210, 128, 2, { fill: p.terracotta, opacity: 0.75 }));
+	out.push(arcPath(160, 128, 40, 20, 160, { fill: 'none', stroke: p.amber, sw: 1, opacity: 0.35, dash: '2 5' }));
+	return out;
+}
+
+/**
+ * Terakotová armáda: řady týchž vojáků v odkryté jámě.
+ * Dav by byl neuspořádaný; vojáci drží řadu, kopí a přílbu.
+ */
+function sceneTerracottaArmy(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	// Obrys archeologické jámy.
+	out.push(
+		rect(42, 50, 236, 94, {
+			fill: 'none',
+			stroke: p.terracotta,
+			sw: 1.1,
+			opacity: 0.45,
+			dash: '5 6'
+		})
+	);
+	// Vrstvy hlíny při okraji jámy.
+	for (let i = 0; i < 5; i++) {
+		out.push(line(54 + i * 44, 142, 70 + i * 44, 142, { ...stroke(p.terracotta, 1, 0.35) }));
+	}
+	// Zadní řada — menší, ve větší hloubce.
+	for (let i = 0; i < 5; i++) {
+		out.push(
+			...drawHero(ctx, 'warrior', {
+				x: 70 + i * 43,
+				y: 92,
+				scale: 0.43,
+				flip: i % 2 === 1
+			})
+		);
+	}
+	// Přední řada — stejná postava, jiné měřítko.
+	for (let i = 0; i < 4; i++) {
+		out.push(
+			...drawHero(ctx, 'warrior', {
+				x: 88 + i * 49,
+				y: 128,
+				scale: 0.58,
+				flip: i % 2 === 0
+			})
+		);
+	}
+	return out;
+}
+
+/**
+ * Egypt: stéla se třemi písmy, pyramida a sluneční kotouč.
+ * Stejná scéna pro jiné písmo by byla zeměpisně slepá.
+ */
+function sceneRosetta(ctx) {
+	const p = ctx.palette;
+	const y = 150;
+	const out = [...baseline(p, y, 0.16)];
+	// Pyramidy v pozadí — silueta, ne turistická ikona.
+	out.push(
+		polygon([[188, y], [244, 56], [300, y]], {
+			...shape(p.forest, p.light, 1.2),
+			opacity: 0.85
+		})
+	);
+	out.push(polygon([[248, y], [280, 92], [312, y]], { ...shape(p.sageDeep, p.light, 1), opacity: 0.75 }));
+	for (let i = 0; i < 4; i++) {
+		out.push(line(206 + i * 13, y - 12 - i * 16, 282 - i * 13, y - 12 - i * 16, { ...stroke(p.light, 0.7, 0.2) }));
+	}
+	// Sluneční kotouč s paprsky.
+	out.push(circle(252, 32, 11, { fill: p.amber, stroke: p.light, sw: 1 }));
+	for (let i = 0; i < 8; i++) {
+		const a = (i / 8) * Math.PI * 2;
+		out.push(
+			line(252 + Math.cos(a) * 14, 32 + Math.sin(a) * 14, 252 + Math.cos(a) * 20, 32 + Math.sin(a) * 20, {
+				...stroke(p.amber, 1, 0.55)
+			})
+		);
+	}
+	// Stéla nese tři pásma písma.
+	out.push(...drawHero(ctx, 'stele', { x: 92, y: 100, scale: 1.02 }));
+	// Dva kartuše s hieroglyfickými znaky mezi stélou a pyramidou.
+	for (let i = 0; i < 2; i++) {
+		const cx = 146 + i * 24;
+		const cy = 74 + i * 30;
+		out.push(ellipse(cx, cy, 7, 13, { fill: 'none', stroke: p.teal, sw: 1.2, opacity: 0.8 }));
+		out.push(circle(cx, cy - 4, 2, { fill: p.amber, opacity: 0.8 }));
+		out.push(line(cx - 3, cy + 3, cx + 3, cy + 3, { ...stroke(p.light, 1, 0.6) }));
+	}
+	// Písek: krátké čárky pod stélou.
+	for (let i = 0; i < 4; i++) {
+		out.push(line(54 + i * 16, 140 + (i % 2) * 3, 64 + i * 16, 140 + (i % 2) * 3, { ...stroke(p.amber, 1, 0.3) }));
+	}
+	return out;
+}
+
+/**
+ * Nekonečný desetinný zápis: nula, řada devítek a rovnost s jedničkou.
+ * Číslice jsou konkrétní; abstraktní obrazec význam neunese.
+ */
+function sceneRepeatingDecimal(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	out.push(...drawHero(ctx, 'numeralZero', { x: 48, y: 84, scale: 0.8 }));
+	out.push(circle(74, 120, 3, { fill: p.light, opacity: 0.9 }));
+	const nines = [104, 136, 168];
+	for (let i = 0; i < nines.length; i++) {
+		// Poslední devítky blednou — zápis nemá konec.
+		const fade = 1 - i * 0.14;
+		out.push(
+			...drawHero(ctx, 'numeralNine', { x: nines[i], y: 84, scale: 0.8 }).map((el) => ({
+				...el,
+				opacity: (el.opacity ?? 1) * fade
+			}))
+		);
+	}
+	// Tři tečky — zápis pokračuje.
+	for (let i = 0; i < 3; i++) {
+		out.push(circle(194 + i * 10, 120, 2.6, { fill: p.light, opacity: 0.9 - i * 0.18 }));
+	}
+	// Rovná se.
+	out.push(line(228, 96, 248, 96, { ...stroke(p.amber, 2, 0.9) }));
+	out.push(line(228, 110, 248, 110, { ...stroke(p.amber, 2, 0.9) }));
+	out.push(...drawHero(ctx, 'numeralOne', { x: 280, y: 84, scale: 0.72 }));
+	out.push(arcPath(160, 118, 104, 200, 340, { fill: 'none', stroke: p.teal, sw: 1, opacity: 0.4, dash: '3 6' }));
+	return out;
+}
+
+/** Rotace: postava a dva oblouky, které nesou pohyb. */
+function sceneSpin(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const cx = 160 + ctx.balance * 2;
+	const out = [...baseline(p, y, 0.18)];
+	out.push(line(cx, y - 130, cx, y - 16, { ...stroke(p.light, 1, 0.16), dash: '2 6' }));
+	out.push(
+		...drawHero(ctx, 'figure', {
+			x: cx,
+			y: y - 48,
+			scale: 1 * (0.98 + ctx.density * 0.04)
+		})
+	);
+	// Dva protisměrné oblouky kolem těla: rotace, ne dráha planety.
+	const arcArrow = (radius, start, end, color) => {
+		const rad = (end * Math.PI) / 180;
+		const tipX = cx + Math.cos(rad) * (radius + 7);
+		const tipY = 88 + Math.sin(rad) * (radius + 7);
+		const baseX = cx + Math.cos(rad) * (radius - 1);
+		const baseY = 88 + Math.sin(rad) * (radius - 1);
+		const nx = Math.cos(rad) * 5;
+		const ny = Math.sin(rad) * 5;
+		return [
+			arcPath(cx, 88, radius, start, end, { fill: 'none', stroke: color, sw: 2, opacity: 0.85 }),
+			polygon(
+				[
+					[tipX, tipY],
+					[baseX - nx, baseY - ny],
+					[baseX + nx, baseY + ny]
+				],
+				{ fill: color, opacity: 0.9 }
+			)
+		];
+	};
+	out.push(...arcArrow(70, 200, 330, p.amber));
+	out.push(...arcArrow(70, 20, 150, p.teal));
+	for (let i = 0; i < 3; i++) {
+		out.push(circle(cx - 46 + i * 46, 34 + (i % 2) * 12, 1.8, { fill: p.amber, opacity: 0.6 }));
+	}
+	return out;
+}
+
+/** Placebo: jedna dvoubarevná kapsle, ne abstraktní mozek. */
+function scenePlacebo(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y)];
+	out.push(arcPath(160, 92, 62, 20, 340, { fill: 'none', stroke: p.teal, sw: 1, opacity: 0.34, dash: '3 6' }));
+	out.push(
+		...drawHero(ctx, 'pill', {
+			x: 160 + ctx.balance * 2,
+			y: 94,
+			scale: 1.18 * (0.98 + ctx.density * 0.04),
+			rotate: -16
+		})
+	);
+	for (let i = 0; i < 3; i++) {
+		out.push(circle(82 + i * 78, 60 + (i % 2) * 16, 2.2, { fill: p.amber, opacity: 0.55 }));
+	}
+	return out;
+}
+
+/** Papír: list jako hlavní objekt, bez stroje a doplňků. */
+function scenePaper(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(
+		...drawHero(ctx, 'paper', {
+			x: 160 + ctx.balance * 2,
+			y: 96,
+			scale: 1.24 * (0.98 + ctx.density * 0.04),
+			rotate: -3
+		})
+	);
+	for (let i = 0; i < 3; i++) {
+		out.push(circle(76 + i * 84, 46 + (i % 2) * 14, 1.8, { fill: p.teal, opacity: 0.5 }));
+	}
+	return out;
+}
+
+/** Listina a král: koruna nad svitkem, nic dalšího. */
+function sceneCharter(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y)];
+	out.push(...drawHero(ctx, 'crown', { x: 160 + ctx.balance * 2, y: 58, scale: 0.78 }));
+	out.push(...drawHero(ctx, 'scroll', { x: 160 + ctx.balance * 2, y: 124, scale: 0.92, rotate: -3 }));
+	out.push(line(132, 86, 132, 100, { ...stroke(p.amber, 1, 0.35), dash: '2 4' }));
+	out.push(line(188, 86, 188, 100, { ...stroke(p.amber, 1, 0.35), dash: '2 4' }));
+	return out;
+}
+
+/** Kurýrní pošta: přerušovaná cesta a dopis, žádná mapa ani kompas. */
+function sceneCourier(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.18)];
+	const route = [
+		[40, 138],
+		[104, 130],
+		[168, 138],
+		[232, 126],
+		[284, 96]
+	];
+	out.push(
+		polyline(route, { ...stroke(p.amber, 1.8, 0.8), dash: '4 5' })
+	);
+	for (let i = 0; i < route.length; i += 2) {
+		out.push(circle(route[i][0], route[i][1], i === 0 ? 3.4 : 2.6, { fill: p.amber, opacity: 0.9 }));
+	}
+	out.push(circle(route[route.length - 1][0], route[route.length - 1][1], 3.4, { fill: p.terracotta }));
+	out.push(
+		...drawHero(ctx, 'envelope', {
+			x: 160 + ctx.balance * 2,
+			y: 92,
+			scale: 1.12 * (0.98 + ctx.density * 0.04),
+			rotate: -4
+		})
+	);
+	return out;
+}
+
 /** Všechny sémantické scény podle klíče. */
 export const SEMANTIC_SCENES = {
 	bookFire: sceneBookFire,
@@ -1596,7 +2018,25 @@ export const SEMANTIC_SCENES = {
 	inflation: sceneInflation,
 	decipherment: sceneDecipherment,
 	networkScene: sceneNetwork,
-	ballot: sceneBallot
+	ballot: sceneBallot,
+	// Čtvrtá iterace podle vizuálního feedbacku.
+	stateBirth: sceneStateBirth,
+	conditioning: sceneConditioning,
+	boxParadox: sceneBoxParadox,
+	lossAversion: sceneLossAversion,
+	roles: sceneRoles,
+	// Pátá iterace podle vizuálního feedbacku.
+	canSeries: sceneCanSeries,
+	feast: sceneFeast,
+	terracottaArmy: sceneTerracottaArmy,
+	rosetta: sceneRosetta,
+	repeatingDecimal: sceneRepeatingDecimal,
+	// Šestá iterace podle vizuálního feedbacku.
+	spin: sceneSpin,
+	placebo: scenePlacebo,
+	paper: scenePaper,
+	charter: sceneCharter,
+	courier: sceneCourier
 };
 
 /** Metadata scény pro galerii a dokumentaci. */
@@ -1648,7 +2088,22 @@ export const SEMANTIC_SCENE_META = {
 	inflation: { label: 'Růst cen', note: 'stoupající křivka a sloupce' },
 	decipherment: { label: 'Rozluštění', note: 'stélé, znaky a spojnice' },
 	networkScene: { label: 'Síť', note: 'uzly a spojnice' },
-	ballot: { label: 'Volby', note: 'urna, lístek a zaškrtnutí' }
+	ballot: { label: 'Volby', note: 'urna, lístek a zaškrtnutí' },
+	stateBirth: { label: 'Vznik státu', note: 'vlajka a zvýrazněný den' },
+	conditioning: { label: 'Podmiňování', note: 'pes, miska a zvukový signál' },
+	boxParadox: { label: 'Kočka v krabici', note: 'krychle, uši a dvojí obrys' },
+	lossAversion: { label: 'Averze ke ztrátě', note: 'váhy a nestejné mince' },
+	roles: { label: 'Role postavy', note: 'jedna postava, několik rolí' },
+	canSeries: { label: 'Sériová plechovka', note: 'stejný předmět v opakování' },
+	feast: { label: 'Hostina', note: 'talíř a plody, ne abstraktní spojení' },
+	terracottaArmy: { label: 'Terakotová armáda', note: 'řady vojáků v jámě' },
+	rosetta: { label: 'Egyptská stéla', note: 'tři písma, pyramida a slunce' },
+	repeatingDecimal: { label: 'Nekonečné devítky', note: '0,999… = 1' },
+	spin: { label: 'Rotace', note: 'postava a oblouky pohybu' },
+	placebo: { label: 'Placebo', note: 'jedna dvoubarevná kapsle' },
+	paper: { label: 'Papír', note: 'list jako hlavní objekt' },
+	charter: { label: 'Listina', note: 'koruna nad svitkem' },
+	courier: { label: 'Kurýrní pošta', note: 'přerušovaná cesta a dopis' }
 };
 
 export const SCENES = {

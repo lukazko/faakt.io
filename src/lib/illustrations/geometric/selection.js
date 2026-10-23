@@ -104,6 +104,55 @@ const DECIPHER = ['rosetta*', 'hieroglyf*', 'rozlust*', 'desifr*', 'klinopis*'];
 const NETWORK = ['sit', 'site', 'siti', 'sitich', 'sitemi', 'sitovy*', 'neuron*', 'internet*', 'propoj*', 'uzl*'];
 const ELECTION = ['volb*', 'volic*', 'hlasovan*', 'referend*', 'zvole*', 'kandid*', 'mandat*'];
 
+// --- Iterace 4: objekt musí být tím, o čem text skutečně mluví -------------
+// Moderní stát se neveze na antické váze: rozhoduje letopočet a symbol státu.
+const STATE = ['stat', 'statu', 'statem', 'staty', 'statum', 'statech', 'statni*', 'republik*', 'monarchi*'];
+const BIRTH = ['vznik*', 'zrod*', 'vyhlas*', 'nezavisl*', 'osamostatn*'];
+const MODERN_YEAR = /(?:1[89]\d\d|20\d\d)/;
+// Pes musí být jmenován; samotné „podmiňování“ scénu nespustí.
+const DOG = ['pes', 'psi', 'psa', 'psu', 'psem', 'psy'];
+const FOOD = ['jidl*', 'potrav*', 'krm*'];
+const BELL = ['zvonek', 'zvonku', 'zvonkem', 'zvoneni*'];
+const SALIVA = ['slin*'];
+const CAT = ['kock*'];
+const BOX = ['krabic*', 'bedn*'];
+const QUANTUM = ['kvant*', 'superpozic*', 'schrodinger*'];
+const LOSS = ['ztrat*', 'prohra*'];
+const MONEY = ['minc*', 'korun*', 'penez*', 'investic*', 'vyhra*', 'hodu', 'hod'];
+const LOSS_CONTEXT = ['averz*', 'prospektov*', 'kahneman*', 'tversky*'];
+const ROLE = ['roli*', 'role*', 'aktant*'];
+const NARRATIVE = ['vypraven*', 'pribeh*', 'postav*', 'narativ*', 'semiot*'];
+
+// --- Iterace 5: hlavní předmět příspěvku, ne náhodná okolnost --------------
+// Konzerva musí být konzervou; opakování je součást pop artu.
+const CAN = ['konzerv*', 'plechovk*', 'polevk*'];
+const SERIES = ['seri*', 'opakuj*', 'mnozen*', 'sitotisk*', 'stejne*'];
+// Symposion je hostina: rozhoduje talíř a jídlo, ne abstraktní spojení.
+const FEAST = ['symposi*', 'hostin*'];
+const FEAST_CONTEXT = ['vino*', 'jid*', 'lehatk*', 'stul*', 'stol*', 'pokrm*'];
+// Terakotová armáda: hlína i vojáci musí být v textu výslovně.
+const CLAY = ['terakot*', 'hlin*', 'soch*'];
+const ARMY = ['armad*', 'vojak*', 'bojovnik*'];
+const EGYPT = ['egypt*', 'faraon*'];
+// Nekonečný desetinný zápis 0,999… — číslice, ne abstraktní obrazec.
+const DECIMAL_NINE = /0\s*999/;
+const NINE = ['devitk*', 'devit*', 'desetin*'];
+
+// --- Iterace 6: jeden hlavní objekt, žádná přeplněná scéna -----------------
+// Rotace musí být v textu výslovně; samotná astronomie nestačí.
+const SPIN = ['krasobrusl*', 'piruet*', 'rotac*', 'rotuj*', 'rozto*', 'uhlov*', 'hybnost*', 'otac*'];
+// Rotující člověk, ne Země, hurikán, kolo ani kočka — ty mají vlastní motiv.
+const SPIN_HUMAN = ['krasobrusl*', 'piruet*', 'brusl*', 'tanec*', 'tanc*', 'akrobat*', 'gymnast*'];
+const PLACEBO = ['placebo*'];
+// „lek*“ by chytilo i „lekci“; proto jen tvary slova lék a léčivo.
+const MEDICINE = ['lek', 'leku', 'lekum', 'leky', 'lekem', 'leciv*', 'tablet*', 'pilulk*', 'kapsl*'];
+const PAPER = ['papir*', 'pergamen*'];
+const PAPER_CONTEXT = ['vyrob*', 'technolog*', 'vynalez*', 'rozvlaken*', 'psac*', 'psan*', 'material*'];
+const KING = ['kral*', 'panovnik*', 'monarch*', 'cisar*'];
+const CHARTER = ['listin*', 'chart*', 'magna*', 'dokument*', 'ustav*', 'zakon*'];
+const MESSAGE = ['zprav*', 'posel*', 'kuryr*', 'korespond*', 'dopis*', 'vzkaz*'];
+const POST = ['stanic*', 'posta*', 'silnic*', 'jezdc*', 'kuryr*', 'kun', 'kone', 'konu', 'konem', 'koni', 'konich'];
+
 /** Která nebeská tělesa text jmenuje — vrací klíče s počtem zásahů. */
 function celestialMentions(text) {
 	// „Sluneční soustava“ je místo, ne Slunce jako objekt; jinak by popis
@@ -157,8 +206,10 @@ export function selectScene({ post, analysis, family, category } = {}) {
 	const decline = hits(text, DECLINE);
 	const lab = hits(text, LAB);
 
-	// 0. Zrcadlo: text řeší odraz, ne knihu.
-	if (hits(text, MIRROR) >= 1 && hits(text, OPTICAL) === 0) {
+	// 0. Zrcadlo: jen když je zrcadlo hlavním objektem titulku.
+	//    Metaforické „text zrcadlí dobu“ ani zrcadlo jako pomůcka pokusu
+	//    (perspektiva, Gaudího model) scénu nespouští.
+	if (hits(title, MIRROR) >= 1 && hits(text, OPTICAL) === 0) {
 		return { scene: 'mirrorScene', subject: 'mirror', secondary: 'hand', reason: 'scene:mirrorScene' };
 	}
 
@@ -171,6 +222,142 @@ export function selectScene({ post, analysis, family, category } = {}) {
 	// 0c. Taxík: konkrétní auto, ne abstraktní mnohostěn.
 	if (hits(text, TAXI) >= 1) {
 		return { scene: 'taxi', subject: 'car', secondary: null, reason: 'scene:taxi' };
+	}
+
+	// 0c1. Vznik moderního státu: vlajka a datum, ne antická nádoba.
+	//      Letopočet 19.–20. století odděluje moderní stát od starověku.
+	if (
+		['politika', 'historie'].includes(categoryKey) &&
+		hits(title, STATE) >= 1 &&
+		hits(text, STATE) >= 2 &&
+		hits(text, BIRTH) >= 1 &&
+		MODERN_YEAR.test(text)
+	) {
+		return { scene: 'stateBirth', subject: 'flag', secondary: null, reason: 'scene:stateBirth' };
+	}
+
+	// 0c2. Klasické podmiňování: pes a jídlo, ne ozubené kolo.
+	if (
+		categoryKey === 'psychologie' &&
+		hits(text, DOG) >= 1 &&
+		(hits(text, FOOD) >= 1 || hits(text, BELL) >= 1 || hits(text, SALIVA) >= 1)
+	) {
+		return { scene: 'conditioning', subject: 'dog', secondary: 'bowl', reason: 'scene:conditioning' };
+	}
+
+	// 0c3. Kočka v krabici: schránka nese paradox, ne páka a píst.
+	if (
+		['fyzika', 'veda'].includes(categoryKey) &&
+		hits(text, CAT) >= 1 &&
+		hits(text, BOX) >= 1 &&
+		hits(text, QUANTUM) >= 1
+	) {
+		return { scene: 'boxParadox', subject: 'box', secondary: null, reason: 'scene:boxParadox' };
+	}
+
+	// 0c4. Averze ke ztrátě: nestejné misky vah a mince, ne geologické vrstvy.
+	if (
+		['psychologie', 'ekonomie'].includes(categoryKey) &&
+		hits(text, LOSS) >= 1 &&
+		hits(text, MONEY) >= 1 &&
+		hits(text, LOSS_CONTEXT) >= 1
+	) {
+		return { scene: 'lossAversion', subject: 'balance', secondary: 'coin', reason: 'scene:lossAversion' };
+	}
+
+	// 0c5. Aktanti: jedna postava hraje několik rolí; násobnost, ne dav.
+	if (
+		['filozofie', 'literatura', 'umeni'].includes(categoryKey) &&
+		hits(text, ROLE) >= 2 &&
+		hits(text, NARRATIVE) >= 1
+	) {
+		return { scene: 'roles', subject: 'figure', secondary: null, reason: 'scene:roles' };
+	}
+
+	// 0c6. Sériová plechovka: hlavní objekt je konzerva, ne paleta ani zrcadlo.
+	if (
+		categoryKey === 'umeni' &&
+		hits(text, CAN) >= 1 &&
+		hits(text, SERIES) >= 2
+	) {
+		return { scene: 'canSeries', subject: 'can', secondary: null, reason: 'scene:canSeries' };
+	}
+
+	// 0c7. Symposion a hostina: talíř s plody, ne spojení dvou objektů.
+	if (
+		['historie', 'filozofie'].includes(categoryKey) &&
+		hits(text, FEAST) >= 2 &&
+		hits(text, FEAST_CONTEXT) >= 2
+	) {
+		return { scene: 'feast', subject: 'plate', secondary: 'fruit', reason: 'scene:feast' };
+	}
+
+	// 0c8. Terakotová armáda: řady vojáků, ne neuspořádaný dav.
+	if (
+		categoryKey === 'historie' &&
+		hits(text, CLAY) >= 2 &&
+		hits(text, ARMY) >= 2
+	) {
+		return { scene: 'terracottaArmy', subject: 'warrior', secondary: null, reason: 'scene:terracottaArmy' };
+	}
+
+	// 0c9. Egyptské písmo: stéla, pyramida a sluneční kotouč.
+	if (hits(text, DECIPHER) >= 1 && hits(text, EGYPT) >= 1) {
+		return { scene: 'rosetta', subject: 'stele', secondary: null, reason: 'scene:rosetta' };
+	}
+
+	// 0ca. 0,999… = 1: samé číslice, žádný mnohostěn.
+	if (
+		categoryKey === 'matematika' &&
+		DECIMAL_NINE.test(text) &&
+		hits(text, NINE) >= 2
+	) {
+		return { scene: 'repeatingDecimal', subject: 'numeralZero', secondary: 'numeralNine', reason: 'scene:repeatingDecimal' };
+	}
+
+	// 0cb. Rotace: člověk a oblouky pohybu, ne dalekohled.
+	if (
+		['fyzika', 'veda'].includes(categoryKey) &&
+		hits(text, SPIN) >= 2 &&
+		hits(text, SPIN_HUMAN) >= 1
+	) {
+		return { scene: 'spin', subject: 'figure', secondary: null, reason: 'scene:spin' };
+	}
+
+	// 0cc. Placebo: dvoubarevná kapsle, ne abstraktní mozek.
+	if (
+		['psychologie', 'veda'].includes(categoryKey) &&
+		hits(text, PLACEBO) >= 1 &&
+		hits(text, MEDICINE) >= 1
+	) {
+		return { scene: 'placebo', subject: 'pill', secondary: null, reason: 'scene:placebo' };
+	}
+
+	// 0cd. Výroba papíru: list jako hlavní objekt, ne stroj s převody.
+	if (
+		['historie', 'veda'].includes(categoryKey) &&
+		hits(text, PAPER) >= 2 &&
+		hits(text, PAPER_CONTEXT) >= 2
+	) {
+		return { scene: 'paper', subject: 'paper', secondary: null, reason: 'scene:paper' };
+	}
+
+	// 0ce. Král a listina: koruna nad svitkem. Musí být před obecným zákoníkem.
+	if (
+		['historie', 'politika'].includes(categoryKey) &&
+		((hits(title, KING) >= 1 && hits(title, CHARTER) >= 1) ||
+			(hits(text, KING) >= 2 && hits(text, CHARTER) >= 2))
+	) {
+		return { scene: 'charter', subject: 'crown', secondary: 'scroll', reason: 'scene:charter' };
+	}
+
+	// 0cf. Kurýrní pošta: přerušovaná cesta a dopis, ne mapa s kompasem.
+	if (
+		['historie', 'politika'].includes(categoryKey) &&
+		hits(text, MESSAGE) >= 2 &&
+		hits(text, POST) >= 2
+	) {
+		return { scene: 'courier', subject: 'envelope', secondary: null, reason: 'scene:courier' };
 	}
 
 	// 0d. Stroj, který komunikuje: jeden stroj a signál, ne zánik světa.
@@ -559,5 +746,20 @@ export const SEMANTIC_SCENE_KEYS = [
 	'inflation',
 	'decipherment',
 	'networkScene',
-	'ballot'
+	'ballot',
+	'stateBirth',
+	'conditioning',
+	'boxParadox',
+	'lossAversion',
+	'roles',
+	'canSeries',
+	'feast',
+	'terracottaArmy',
+	'rosetta',
+	'repeatingDecimal',
+	'spin',
+	'placebo',
+	'paper',
+	'charter',
+	'courier'
 ];

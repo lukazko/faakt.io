@@ -423,6 +423,18 @@
 	<!-- Progress bar -->
 	<div class="progress-bar" style="width: {getProgress()}%"></div>
 
+	<!-- Jen na dev serveru: ID právě zobrazeného příspěvku pro rychlé testování.
+	     `import.meta.env.DEV` je při produkčním buildu nahrazeno za `false`,
+	     takže se badge do produkčního bundle vůbec nedostane. -->
+	{#if import.meta.env.DEV}
+		<div class="dev-post-badge">
+			{activePost ? `#${activePost.id}` : 'konec'}
+			<span class="dev-post-badge-meta">
+				{Math.min(currentIndex + 1, Math.max(posts.length, 1))}/{posts.length}
+			</span>
+		</div>
+	{/if}
+
 	<!-- Podklad pro zavření nabídky akcí — tlačítko i nabídka bydlí v kartě,
 	     tenhle neviditelný překryv ale musí sahat přes celou obrazovku. -->
 	{#if menuOpen}
@@ -706,6 +718,33 @@
 		gap: 16px;
 		color: var(--text-muted);
 		font-size: 1rem;
+	}
+
+	/* Dev badge s ID příspěvku — vlevo dole, aby nekryl akce karty
+	   (ty jsou vpravo dole) ani toast. Jen na dev serveru. */
+	.dev-post-badge {
+		position: fixed;
+		bottom: calc(12px + env(safe-area-inset-bottom, 0px));
+		left: 12px;
+		z-index: 600;
+		display: flex;
+		align-items: baseline;
+		gap: 6px;
+		padding: 4px 9px;
+		border: 1px solid rgba(255, 255, 255, 0.18);
+		border-radius: 6px;
+		background: rgba(0, 0, 0, 0.65);
+		backdrop-filter: blur(6px);
+		color: var(--text-muted);
+		font-family: ui-monospace, SFMono-Regular, Menlo, monospace;
+		font-size: 11px;
+		line-height: 1.3;
+		pointer-events: none;
+		user-select: none;
+	}
+
+	.dev-post-badge-meta {
+		opacity: 0.6;
 	}
 
 	.progress-bar {

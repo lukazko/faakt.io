@@ -27,7 +27,8 @@ const SUBJECT_ALIAS = {
 	periodicTable: 'flask',
 	altar: 'temple',
 	roots: 'tree',
-	leaf: 'tree',
+	// List není strom: text o rostlinách a listech má vlastní motiv.
+	leaf: 'leaves',
 	petal: 'flower',
 	seed: 'sprout',
 	branch: 'tree',

@@ -12,21 +12,27 @@ import { shape, stroke } from './palette.js';
 
 // --- Hlavní motivy --------------------------------------------------------
 
-/** Busta z profilu — geometrická silueta, tmavé vlasy, akcentní šerpa. */
+/**
+ * Busta z profilu — antický myslitel, ne obecný člověk: plnovous, kadeřavé
+ * vlasy, vavřínový věnec a tóga se záhyby. Rovné hrany drží geometrický ráz.
+ */
 function geoBust({ palette: p, variant }) {
 	const out = [];
 	// Sokl
-	out.push(rect(-34, 48, 68, 6, { fill: p.sageDeep, stroke: p.light, sw: 1 }));
-	out.push(rect(-26, 54, 52, 4, { fill: p.forestDeep, stroke: p.light, sw: 0.8 }));
-	// Ramena a draperie
+	out.push(rect(-36, 48, 72, 6, { fill: p.sageDeep, stroke: p.light, sw: 1 }));
+	out.push(rect(-27, 54, 54, 4, { fill: p.forestDeep, stroke: p.light, sw: 0.8 }));
+	// Ramena a tóga
 	out.push(
-		path('M -44 46 L -36 32 Q -24 20 -6 18 L 12 18 Q 34 22 44 34 L 48 46 Z', {
+		path('M -46 46 L -40 31 Q -30 18 -6 16 L 14 16 Q 37 20 46 34 L 50 46 Z', {
 			...shape(p.forest, p.light, 1.4)
 		})
 	);
+	// Záhyby látky — dvě měkké linky, ne dekorace.
+	out.push(path('M -32 44 Q -16 30 8 25', { ...stroke(p.light, 1, 0.32) }));
+	out.push(path('M -4 44 Q 12 33 32 30', { ...stroke(p.light, 1, 0.26) }));
 	// Šerpa v barvě kategorie
 	out.push(
-		path('M -32 36 L -4 28 L 6 38 L -20 46 Z', {
+		path('M -34 36 L -8 27 L 4 36 L -22 46 Z', {
 			fill: p.accent,
 			stroke: p.light,
 			sw: 0.9,
@@ -34,27 +40,54 @@ function geoBust({ palette: p, variant }) {
 		})
 	);
 	// Krk
-	out.push(rect(-12, 2, 24, 20, { fill: p.sage, stroke: p.light, sw: 1.2 }));
-	// Hlava z profilu — rovné hrany drží geometrický ráz
+	out.push(rect(-12, 0, 22, 18, { fill: p.sage, stroke: p.light, sw: 1.2 }));
+	// Hlava z profilu — čelo, nos, brada
 	out.push(
 		path(
-			'M -20 -54 L 6 -58 L 20 -48 L 24 -34 L 20 -24 L 30 -18 L 32 -10 L 24 -6 L 26 0 L 18 6 L 8 8 L 8 18 L -16 18 L -18 6 L -26 -4 L -28 -22 Z',
+			'M -20 -54 L 6 -58 L 20 -48 L 24 -34 L 20 -24 L 30 -18 L 32 -10 L 24 -6 L 26 0 L 20 4 L 12 6 L 12 16 L -16 16 L -18 4 L -26 -4 L -28 -22 Z',
 			{ ...shape(p.sage, p.light, 1.5) }
 		)
 	);
-	// Vlasy jako samostatná tmavá plocha
+	// Plnovous — hlavní znak antického filozofa; sahá od brady na hruď.
 	out.push(
-		path('M -22 -52 L 6 -58 L 20 -48 L 18 -38 L 4 -44 L -10 -38 L -18 -26 L -26 -34 Z', {
+		path(
+			'M 4 2 Q 22 2 26 10 Q 30 22 20 30 Q 12 38 2 38 Q -10 38 -14 28 Q -18 18 -12 8 Q -8 2 4 2 Z',
+			{ ...shape(p.forest, p.light, 1.1) }
+		)
+	);
+	out.push(path('M -8 12 Q 2 18 10 12', { ...stroke(p.sageDeep, 1.1, 0.85) }));
+	out.push(path('M -6 22 Q 4 28 12 21', { ...stroke(p.sageDeep, 1.1, 0.75) }));
+	out.push(path('M 0 31 Q 6 35 12 30', { ...stroke(p.sageDeep, 1, 0.65) }));
+	// Kadeřavé vlasy jako tři překrývající se prstence.
+	out.push(
+		path('M -24 -46 L -14 -56 L 8 -58 L 20 -48 L 16 -38 L 2 -44 L -10 -38 L -20 -26 L -28 -32 Z', {
 			...shape(p.forestDeep, p.light, 1.1)
 		})
 	);
-	// Ucho a oko
-	out.push(circle(-10, -18, 4.5, { fill: p.sageDeep, stroke: p.light, sw: 0.9 }));
-	out.push(circle(12, -28, 1.8, { fill: p.forestDeep }));
+	out.push(circle(-17, -42, 6, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }));
+	out.push(circle(-6, -50, 7, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }));
+	out.push(circle(7, -48, 6, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }));
+	// Vavřínový věnec — drobné lístky podél čela.
+	for (let i = 0; i < 5; i++) {
+		const x = -18 + i * 7;
+		const y = -38 - Math.sin((i / 4) * Math.PI) * 5;
+		out.push(
+			ellipse(x, y, 4.6, 2.3, {
+				fill: i % 2 === 0 ? p.green : p.greenDeep,
+				stroke: p.light,
+				sw: 0.7,
+				rot: -28
+			})
+		);
+	}
+	// Ucho, oko a obočí
+	out.push(circle(-10, -16, 4.5, { fill: p.sageDeep, stroke: p.light, sw: 0.9 }));
+	out.push(circle(13, -27, 1.9, { fill: p.forestDeep }));
+	out.push(path('M 7 -33 Q 13 -35 18 -32', { ...stroke(p.forestDeep, 1.4, 0.8) }));
 	// Stín na tváři
-	out.push(path('M -18 6 L -24 -4 L -26 -18 L -18 -8 L -12 4 Z', { fill: p.sageDeep, opacity: 0.55 }));
-	// Varianta: zrcadlově otočený profil a jiný sokl
-	if (variant === 2) out.push(line(-26, 46, 26, 46, { stroke: p.light, sw: 0.8, opacity: 0.5 }));
+	out.push(path('M -18 4 L -24 -4 L -26 -18 L -18 -8 L -12 3 Z', { fill: p.sageDeep, opacity: 0.55 }));
+	// Varianta: kratší vous a jiný sokl
+	if (variant === 2) out.push(line(-27, 46, 27, 46, { stroke: p.light, sw: 0.8, opacity: 0.5 }));
 	return out;
 }
 
@@ -363,32 +396,55 @@ function geoBalance({ palette: p, variant }) {
 	return out;
 }
 
-/** Mozek — silueta se zřetelnými laloky a střední rýhou. */
+/**
+ * Mozek z bočního pohledu — čelní a temenní lalok, spánkový lalok,
+ * mozeček a kmen. Záběry a rýhy nesou čitelnost, ne jen obrys.
+ */
 function geoBrain({ palette: p, variant }) {
 	const out = [];
-	// Levá a pravá hemisféra jako dvě překrývající se plochy.
+	// Hlavní silueta: čelní lalok vlevo, temeno nahoře, týl vpravo.
 	out.push(
-		path('M -2 -6 Q -8 -40 -30 -38 Q -50 -34 -48 -10 Q -46 12 -30 20 Q -14 26 -6 14 Z', {
-			...shape(p.teal, p.light, 1.5)
+		path(
+			'M -46 2 Q -52 -18 -40 -34 Q -24 -50 2 -50 Q 30 -50 44 -34 Q 52 -22 50 -6 Q 48 8 36 16 Q 30 22 24 30 L 8 30 Q 6 22 0 18 Q -10 26 -24 24 Q -40 20 -46 2 Z',
+			{ ...shape(p.sage, p.light, 1.6) }
+		)
+	);
+	// Spánkový lalok jako samostatná plocha.
+	out.push(
+		path('M -44 0 Q -36 20 -18 24 Q -6 26 -4 16 Q -8 4 -22 -2 Q -36 -6 -44 0 Z', {
+			...shape(p.teal, p.light, 1.1)
 		})
 	);
+	// Mozeček — jemné vodorovné zářezy.
 	out.push(
-		path('M 2 -6 Q 8 -40 30 -38 Q 50 -34 48 -10 Q 46 12 30 20 Q 14 26 6 14 Z', {
-			...shape(p.sage, p.light, 1.5)
+		path('M 20 16 Q 40 14 46 24 Q 48 34 36 38 Q 24 40 20 30 Z', {
+			...shape(p.teal, p.light, 1.2)
 		})
 	);
-	// Střední rýha
-	out.push(path('M 0 -38 Q -2 -10 0 16', { ...stroke(p.forestDeep, 1.6, 0.9) }));
-	// Záhyby — jen pár, aby plocha zůstala čitelná.
-	out.push(path('M -42 -20 Q -28 -14 -24 -2', { ...stroke(p.forestDeep, 1.2, 0.55) }));
-	out.push(path('M -38 8 Q -24 4 -16 12', { ...stroke(p.forestDeep, 1.2, 0.55) }));
-	out.push(path('M 42 -20 Q 28 -14 24 -2', { ...stroke(p.forestDeep, 1.2, 0.55) }));
-	out.push(path('M 38 8 Q 24 4 16 12', { ...stroke(p.forestDeep, 1.2, 0.55) }));
-	// Mozkový kmen
-	out.push(rect(-7, 14, 14, 18, { fill: p.forest, stroke: p.light, sw: 1.1 }));
+	for (let i = 0; i < 3; i++) {
+		out.push(path(`M ${26 + i * 5} ${20 + i * 5} Q ${34 + i * 3} ${18 + i * 5} ${42 + i} ${23 + i * 4}`, { ...stroke(p.forestDeep, 0.9, 0.5) }));
+	}
+	// Mozkový kmen a prodloužená mícha.
+	out.push(
+		path('M 10 28 L 16 28 L 14 46 L 6 46 Z', { ...shape(p.forest, p.light, 1) }),
+		rect(4, 44, 14, 4, { fill: p.forestDeep, stroke: p.light, sw: 0.8 })
+	);
+	// Záběry: každý lalok má vlastní směr, rýhy se nepřekrývají.
+	const gyri = [
+		'M -38 -26 Q -30 -34 -22 -30 Q -16 -26 -22 -20',
+		'M -36 -8 Q -26 -14 -18 -10 Q -12 -6 -18 0',
+		'M -20 -42 Q -10 -48 0 -42 Q 8 -38 4 -30',
+		'M 6 -46 Q 18 -48 26 -40 Q 32 -34 26 -28',
+		'M 12 -24 Q 22 -30 32 -24 Q 38 -18 32 -12',
+		'M -6 -14 Q 4 -20 12 -14 Q 18 -8 12 -2',
+		'M 26 -4 Q 36 -8 44 0 Q 46 6 40 10'
+	];
+	for (const d of gyri) out.push(path(d, { ...stroke(p.forestDeep, 1.2, 0.7) }));
+	// Střední rýha mezi hemisférami — jen naznačená, aby půdorys zůstal čitelný.
+	out.push(path('M -2 -46 Q 2 -20 -2 8', { ...stroke(p.forestDeep, 1.5, 0.55), dash: '5 4' }));
 	// Akcentní jádro
-	out.push(circle(0, -18, 4, { fill: p.amber, opacity: 0.9 }));
-	if (variant === 2) out.push(circle(0, 34, 4, { fill: p.accent, opacity: 0.85 }));
+	out.push(circle(-2, -8, 4.2, { fill: p.amber, opacity: 0.9 }));
+	if (variant === 2) out.push(circle(30, 26, 3.6, { fill: p.accent, opacity: 0.85 }));
 	return out;
 }
 
@@ -1616,9 +1672,9 @@ function geoCastle({ palette: p, variant }) {
 /** Klíček — semeno, stonek a dva listy. */
 function geoSprout({ palette: p, variant }) {
 	const out = [
-		path('M 0 48 Q -2 14 4 -18', { ...stroke(p.teal, 3.2) }),
-		path('M 4 -18 Q -22 -26 -28 -4 Q -4 2 4 -18 Z', { ...shape(p.teal, p.light, 1.1) }),
-		path('M 4 -4 Q 28 -16 32 6 Q 10 12 4 -4 Z', { ...shape(p.sage, p.light, 1.1) }),
+		path('M 0 48 Q -2 14 4 -18', { ...stroke(p.greenDeep, 3.2) }),
+		path('M 4 -18 Q -22 -26 -28 -4 Q -4 2 4 -18 Z', { ...shape(p.green, p.light, 1.1) }),
+		path('M 4 -4 Q 28 -16 32 6 Q 10 12 4 -4 Z', { ...shape(p.greenDeep, p.light, 1.1) }),
 		circle(-6, 44, 8, { fill: p.forestDeep, stroke: p.light, sw: 1 })
 	];
 	if (variant !== 2) out.push(circle(2, -28, 3.4, { fill: p.amber }));
@@ -2144,6 +2200,301 @@ function geoBacterium({ palette: p, variant }) {
 	return out;
 }
 
+/** Neurčitá vlajka — symbol státu bez konkrétního znaku. */
+function geoFlag({ palette: p, variant }) {
+	const out = [
+		// Žerď a koule na vrcholu
+		line(0, -54, 0, 48, { ...stroke(p.light, 3.2, 0.95) }),
+		circle(0, -54, 3.6, { fill: p.amber, stroke: p.light, sw: 0.8 }),
+		// Sokl
+		ellipse(0, 48, 24, 5, { fill: p.forestDeep, stroke: p.light, sw: 0.9 })
+	];
+	// Vláčné pole se dvěma pruhy — barvy nesou stát, ne konkrétní zemi.
+	out.push(
+		path('M 2 -50 Q 22 -56 42 -48 Q 58 -42 74 -46 L 74 -8 Q 58 -4 42 -10 Q 22 -18 2 -12 Z', {
+			fill: p.accentSoft,
+			stroke: p.light,
+			sw: 1.2,
+			opacity: 0.96
+		})
+	);
+	out.push(
+		path('M 2 -12 Q 22 -18 42 -10 Q 58 -4 74 -8 L 74 10 Q 58 6 42 12 Q 22 20 2 14 Z', {
+			fill: p.sage,
+			stroke: p.light,
+			sw: 1.1,
+			opacity: 0.95
+		})
+	);
+	out.push(path('M 2 -31 Q 22 -37 42 -29 Q 58 -23 74 -27', { ...stroke(p.light, 1.1, 0.55) }));
+	// Vlna látky
+	out.push(path('M 26 -48 Q 22 -28 26 -12', { ...stroke(p.light, 0.9, 0.35) }));
+	out.push(path('M 52 -44 Q 48 -24 52 -8', { ...stroke(p.light, 0.9, 0.3) }));
+	if (variant === 2) out.push(circle(38, -31, 4.2, { fill: p.amber, opacity: 0.85 }));
+	return out;
+}
+
+/** Tři listy ze země — rostlina jako objekt, ne abstraktní strom. */
+function geoLeaves({ palette: p, variant }) {
+	const out = [
+		// Půda
+		path('M -48 46 Q 0 34 48 46 Q 0 54 -48 46 Z', { ...shape(p.forestDeep, p.light, 0.9) })
+	];
+	const leaf = (cx, cy, angle, length, fill) => {
+		const tip = cy - length;
+		return path(`M ${cx} ${cy} Q ${cx - length * 0.5} ${cy - length * 0.35} ${cx} ${tip} Q ${cx + length * 0.5} ${cy - length * 0.35} ${cx} ${cy} Z`, {
+			fill,
+			stroke: p.light,
+			sw: 1.1,
+			transform: `rotate(${angle} ${cx} ${cy})`
+		});
+	};
+	const midrib = (cx, cy, angle, length) =>
+		line(cx, cy - 2, cx, cy - length + 4, {
+			...stroke(p.greenDeep, 1, 0.55),
+			transform: `rotate(${angle} ${cx} ${cy})`
+		});
+	// Levá a pravá větev níž, střední výš.
+	out.push(path('M 0 44 Q -14 18 -26 0', { ...stroke(p.greenDeep, 2.6, 0.95) }));
+	out.push(path('M 0 44 Q 4 14 2 -18', { ...stroke(p.greenDeep, 2.8, 0.95) }));
+	out.push(path('M 0 44 Q 16 22 28 4', { ...stroke(p.greenDeep, 2.4, 0.95) }));
+	out.push(leaf(-26, 0, -34, 24, p.green));
+	out.push(leaf(-26, 0, 128, 20, p.greenDeep));
+	out.push(midrib(-26, 0, -34, 24));
+	out.push(leaf(2, -18, 0, 30, variant === 2 ? p.sage : p.green));
+	out.push(leaf(2, -18, 168, 24, p.green));
+	out.push(midrib(2, -18, 0, 30));
+	out.push(leaf(28, 4, 36, 22, p.green));
+	out.push(leaf(28, 4, 214, 18, p.greenDeep));
+	out.push(midrib(28, 4, 36, 22));
+	out.push(circle(0, 44, 3.4, { fill: p.amber, opacity: 0.8 }));
+	return out;
+}
+
+/** Pes z profilu — hlava, ucho, tlama, nohy a ocas. */
+function geoDog({ palette: p, variant }) {
+	const out = [
+		// Tělo
+		path('M -34 8 Q -30 -14 -6 -16 L 26 -16 Q 40 -12 42 4 L 40 20 L -30 20 Q -36 16 -34 8 Z', {
+			...shape(p.sage, p.light, 1.3)
+		}),
+		// Hlava
+		circle(-36, -14, 15, { ...shape(p.sage, p.light, 1.3) }),
+		// Tlama
+		path('M -46 -18 Q -62 -16 -62 -6 Q -62 0 -48 -1 L -38 -4 Z', { ...shape(p.sageDeep, p.light, 1.1) }),
+		circle(-60, -9, 2.4, { fill: p.forestDeep }),
+		// Ucho
+		path('M -28 -26 Q -20 -40 -12 -30 Q -18 -18 -26 -18 Z', { ...shape(p.forestDeep, p.light, 1) }),
+		// Nohy
+		rect(-28, 18, 7, 22, { fill: p.sageDeep, stroke: p.light, sw: 0.9 }),
+		rect(-10, 18, 7, 22, { fill: p.sageDeep, stroke: p.light, sw: 0.9 }),
+		rect(18, 18, 7, 22, { fill: p.sageDeep, stroke: p.light, sw: 0.9 }),
+		rect(32, 18, 7, 22, { fill: p.sageDeep, stroke: p.light, sw: 0.9 }),
+		// Ocas
+		path('M 42 0 Q 56 -12 54 -26', { ...stroke(p.sageDeep, 3.4, 0.95) }),
+		// Oko a obojek
+		circle(-42, -18, 2.2, { fill: p.forestDeep }),
+		path('M -24 2 Q -30 8 -26 14', { ...stroke(p.accent, 2.6, 0.95) })
+	];
+	if (variant === 2) out.push(circle(-34, 4, 2.6, { fill: p.terracotta, opacity: 0.7 }));
+	return out;
+}
+
+/** Miska s potravou — jídlo jako konkrétní objekt. */
+function geoBowl({ palette: p, variant }) {
+	const out = [
+		// Miska
+		path('M -40 2 L 40 2 Q 34 34 0 36 Q -34 34 -40 2 Z', { ...shape(p.terracotta, p.light, 1.3) }),
+		ellipse(0, 2, 40, 7, { fill: p.amber, stroke: p.light, sw: 1.1 }),
+		// Krmivo
+		circle(-18, 0, 4, { fill: p.forest, stroke: p.light, sw: 0.8 }),
+		circle(-4, -2, 4.6, { fill: p.forest, stroke: p.light, sw: 0.8 }),
+		circle(12, 0, 4.2, { fill: p.forest, stroke: p.light, sw: 0.8 }),
+		circle(24, 1, 3.4, { fill: p.forest, stroke: p.light, sw: 0.8 }),
+		// Pás na míse
+		path('M -36 14 Q 0 22 36 14', { ...stroke(p.light, 1.1, 0.45) })
+	];
+	if (variant === 1) out.push(circle(0, 24, 3, { fill: p.accent, opacity: 0.8 }));
+	return out;
+}
+
+/** Bedna jako krychle — čelní stěna, bok, víko a laťování. */
+function geoBox({ palette: p, variant }) {
+	const out = [
+		// Bok a víko
+		polygon([[10, -2], [36, -18], [36, 30], [10, 46]], { ...shape(p.forest, p.light, 1.2) }),
+		polygon([[-42, -2], [-18, -18], [36, -18], [10, -2]], { ...shape(p.sageDeep, p.light, 1.2) }),
+		// Čelní stěna
+		rect(-42, -2, 52, 48, { fill: p.forestDeep, stroke: p.light, sw: 1.4 })
+	];
+	// Laťování čelní stěny
+	for (let i = 0; i < 3; i++) {
+		out.push(line(-42, 8 + i * 13, 10, 8 + i * 13, { ...stroke(p.sage, 1.2, 0.55) }));
+	}
+	out.push(line(-34, -2, -34, 46, { ...stroke(p.sage, 1.2, 0.45) }));
+	// Laťování boku
+	out.push(line(24, -12, 24, 36, { ...stroke(p.sage, 1, 0.35) }));
+	// Spára víka
+	out.push(line(-30, -10, 24, -10, { ...stroke(p.light, 1, 0.4) }));
+	if (variant === 2) out.push(rect(-14, 16, 18, 10, { fill: p.accent, opacity: 0.7 }));
+	return out;
+}
+
+/** Plechovka — válec s víkem, etiketou a obvodovými žlábky. */
+function geoCan({ palette: p, variant }) {
+	const out = [
+		// Tělo válce
+		path('M -26 -44 L -26 40 Q 0 52 26 40 L 26 -44 Z', { ...shape(p.lightSoft, p.light, 1.4) }),
+		// Víko a jeho zapuštění
+		ellipse(0, -44, 26, 7, { fill: p.sage, stroke: p.light, sw: 1.1 }),
+		ellipse(0, -44, 19, 4.6, { fill: p.sageDeep, opacity: 0.55 }),
+		// Etiketa jako pás kolem těla
+		rect(-26, -18, 52, 36, { fill: p.terracotta, opacity: 0.92 }),
+		rect(-26, -18, 52, 5, { fill: p.amber, opacity: 0.9 }),
+		rect(-26, 13, 52, 5, { fill: p.amber, opacity: 0.9 }),
+		// Emblém na etiketě
+		circle(0, 2, 9, { fill: p.light, opacity: 0.9 }),
+		circle(0, 2, 5.4, { fill: p.terracotta, opacity: 0.9 })
+	];
+	// Obvodové žlábky podle varianty
+	for (let i = 0; i < 2; i++) {
+		const cy = 30 + i * 5;
+		out.push(path(`M -25 ${cy} Q 0 ${cy + 6} 25 ${cy}`, { ...stroke(p.sageDeep, 1, 0.45) }));
+	}
+	if (variant === 1) {
+		out.push(rect(-16, -12, 32, 3, { fill: p.light, opacity: 0.55 }));
+		out.push(rect(-16, 6, 32, 3, { fill: p.light, opacity: 0.55 }));
+	}
+	if (variant === 2) out.push(circle(0, -44, 3.2, { fill: p.amber, opacity: 0.85 }));
+	return out;
+}
+
+/** Talíř — elipsa s okrajem; nese hostinu, ne abstraktní spojení. */
+function geoPlate({ palette: p, variant }) {
+	const out = [
+		ellipse(0, 0, 58, 15, { fill: p.lightSoft, stroke: p.light, sw: 1.3 }),
+		ellipse(0, -1, 46, 10.5, { fill: p.forestDeep, opacity: 0.35 }),
+		path('M -50 -2 Q -38 -12 -14 -13', { ...stroke(p.light, 1, 0.55) })
+	];
+	if (variant === 2) out.push(ellipse(0, 0, 32, 7, { ...stroke(p.amber, 0.9, 0.5) }));
+	return out;
+}
+
+/** Plod — jablko s řapíkem a listem. */
+function geoFruit({ palette: p, variant }) {
+	const out = [
+		path('M 0 -11 Q 14 -14 14 2 Q 14 16 0 16 Q -14 16 -14 2 Q -14 -14 0 -11 Z', {
+			...shape(variant === 2 ? p.terracotta : p.green, p.light, 1.2)
+		}),
+		line(0, -11, 2, -21, { ...stroke(p.greenDeep, 2, 0.95) }),
+		ellipse(8, -19, 6.5, 3.2, { fill: p.green, stroke: p.light, sw: 0.7, rot: -28 }),
+		circle(-4, 2, 2.2, { fill: p.light, opacity: 0.35 })
+	];
+	if (variant === 1) out.push(ellipse(0, 16, 10, 2.2, { fill: p.greenDeep, opacity: 0.5 }));
+	return out;
+}
+
+/** Číslice nula — prstenec, který drží místo v desetinném zápisu. */
+function geoNumeralZero({ palette: p }) {
+	return [
+		ellipse(0, -6, 17, 25, { fill: 'none', stroke: p.lightSoft, sw: 11 }),
+		ellipse(0, -6, 7, 13, { fill: 'none', stroke: p.forestDeep, sw: 1, opacity: 0.5 }),
+		rect(-14, 30, 28, 5, { fill: p.accent, opacity: 0.85 })
+	];
+}
+
+/** Číslice devět — smyčka a svislá stopka, pro opakující se devítky. */
+function geoNumeralNine({ palette: p }) {
+	return [
+		ellipse(0, -18, 17, 19, { fill: 'none', stroke: p.lightSoft, sw: 9 }),
+		rect(9, -18, 10, 46, { fill: p.lightSoft }),
+		rect(-14, 30, 28, 5, { fill: p.accent, opacity: 0.85 })
+	];
+}
+
+/** Voják — přílba, pancíř, kopí a štít; nese armádu, ne obecný dav. */
+function geoWarrior({ palette: p, variant }) {
+	const out = [
+		// Kopí za postavou
+		line(23, -58, 23, 42, { ...stroke(p.amber, 2, 0.95) }),
+		polygon([[23, -66], [19, -56], [27, -56]], { fill: p.amber, opacity: 0.95 }),
+		// Tělo a nohy
+		rect(-14, 8, 9, 30, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }),
+		rect(6, 8, 9, 30, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }),
+		path('M -17 -28 L 17 -28 L 20 10 L -20 10 Z', { ...shape(p.terracotta, p.light, 1.3) }),
+		// Pancíř
+		line(-16, -14, 17, -14, { ...stroke(p.forestDeep, 1.2, 0.55) }),
+		line(-18, -4, 18, -4, { ...stroke(p.forestDeep, 1.2, 0.55) }),
+		line(-19, 5, 19, 5, { ...stroke(p.forestDeep, 1.2, 0.55) }),
+		// Hlava a přílba
+		circle(0, -38, 8, { ...shape(p.sage, p.light, 1.1) }),
+		path('M -11 -42 Q 0 -56 11 -42 L 11 -36 L -11 -36 Z', { ...shape(p.forestDeep, p.light, 1.1) }),
+		path('M 0 -55 Q 9 -64 17 -58', { ...stroke(p.terracotta, 3, 0.95) }),
+		// Štít
+		ellipse(-19, -2, 9, 15, { ...shape(p.forest, p.light, 1.2) }),
+		circle(-19, -2, 3.4, { fill: p.amber, opacity: 0.85 }),
+		// Oko
+		circle(-3, -38, 1.7, { fill: p.forestDeep })
+	];
+	if (variant === 2) out.push(line(-20, 38, 20, 38, { ...stroke(p.light, 1.2, 0.45) }));
+	return out;
+}
+
+/** Tableta — dvoubarevná kapsle; každá polovina nese jiný význam. */
+function geoPill({ palette: p, variant }) {
+	const out = [
+		path('M 0 -22 L -32 -22 Q -52 -22 -52 0 Q -52 22 -32 22 L 0 22 Z', {
+			...shape(p.lightSoft, p.light, 1.3)
+		}),
+		path('M 0 -22 L 32 -22 Q 52 -22 52 0 Q 52 22 32 22 L 0 22 Z', {
+			...shape(variant === 1 ? p.teal : p.terracotta, p.light, 1.3)
+		}),
+		line(0, -22, 0, 22, { ...stroke(p.light, 1.1, 0.8) }),
+		line(-36, -13, -26, -13, { ...stroke(p.light, 2.4, 0.7) }),
+		ellipse(-32, 0, 7, 15, { fill: p.light, opacity: 0.12 })
+	];
+	if (variant === 2) out.push(circle(30, 0, 5, { fill: p.light, opacity: 0.35 }));
+	return out;
+}
+
+/** Dopis — obálka, chlopeň a pečeť; zpráva jako hlavní objekt. */
+function geoEnvelope({ palette: p, variant }) {
+	const out = [
+		rect(-48, -32, 96, 64, { ...shape(p.lightSoft, p.light, 1.3), rx: 4 }),
+		path('M -48 -32 L 0 6 L 48 -32', {
+			fill: p.accentSoft,
+			stroke: p.light,
+			sw: 1.2,
+			opacity: 0.95
+		}),
+		line(-48, 32, -8, -2, { ...stroke(p.forestDeep, 1, 0.45) }),
+		line(48, 32, 8, -2, { ...stroke(p.forestDeep, 1, 0.45) }),
+		rect(26, -25, 14, 17, { fill: p.terracotta, opacity: 0.9 }),
+		circle(0, 12, 4, { fill: p.amber, stroke: p.light, sw: 0.8 })
+	];
+	if (variant === 1) out.push(path('M -30 12 L 30 12', { ...stroke(p.forestDeep, 0.9, 0.35) }));
+	return out;
+}
+
+/** List papíru — nosič textu, ne kniha ani svitek. */
+function geoPaper({ palette: p, variant }) {
+	const out = [
+		path('M -42 -50 Q -44 -54 -38 -54 L 38 -52 Q 44 -52 44 -46 L 42 46 Q 42 51 36 51 L -36 49 Q -42 49 -42 43 Z', {
+			...shape(p.lightSoft, p.light, 1.3)
+		}),
+		polygon([[20, -52], [44, -46], [44, -28]], { fill: p.sageDeep, opacity: 0.7 }),
+		line(-32, -32, 12, -31, { ...stroke(p.forestDeep, 1, 0.4) }),
+		line(-32, -22, 26, -21, { ...stroke(p.forestDeep, 1, 0.4) }),
+		line(-32, 24, 20, 25, { ...stroke(p.forestDeep, 1, 0.4) })
+	];
+	for (let i = 0; i < 4; i++) {
+		const y = -8 + i * 8;
+		out.push(line(-32 + (i % 2) * 4, y, 18 + (i % 2) * 6, y + 1, { ...stroke(p.teal, 1, 0.3) }));
+	}
+	if (variant === 2) out.push(circle(-10, 36, 3, { fill: p.amber, opacity: 0.5 }));
+	return out;
+}
+
 // --- Scény ----------------------------------------------------------------
 
 export const HEROES = {
@@ -2239,7 +2590,24 @@ export const HEROES = {
 	chart: geoChart,
 	numeralOne: geoNumeralOne,
 	numeralTwo: geoNumeralTwo,
-	bacterium: geoBacterium
+	bacterium: geoBacterium,
+	// Čtvrtá iterace podle vizuálního feedbacku.
+	flag: geoFlag,
+	leaves: geoLeaves,
+	dog: geoDog,
+	bowl: geoBowl,
+	box: geoBox,
+	// Pátá iterace podle vizuálního feedbacku.
+	can: geoCan,
+	plate: geoPlate,
+	fruit: geoFruit,
+	numeralZero: geoNumeralZero,
+	numeralNine: geoNumeralNine,
+	warrior: geoWarrior,
+	// Šestá iterace podle vizuálního feedbacku.
+	pill: geoPill,
+	envelope: geoEnvelope,
+	paper: geoPaper
 };
 
 export const HERO_KEYS = Object.keys(HEROES);

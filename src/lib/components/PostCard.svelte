@@ -54,6 +54,9 @@
 
 	async function flipToBack() {
 		if (flipped) return;
+		// Nabídka patří jedné straně — při otáčení by na rubu visela
+		// zrcadlově, takže ji otočení zavře.
+		onCloseActions?.();
 		flipped = true;
 		// Fokus přechází na viditelnou stranu — klávesnicí se tak hned dá
 		// pokračovat ve čtení a skrytý líc nezůstane zaměřený.
@@ -103,6 +106,53 @@
 		else flipToBack();
 	}
 </script>
+
+<!-- Tlačítko akcí + nabídka pro jednu stranu karty. Každá strana má
+     vlastní kopii s vlastním id gradientu, takže se obě otáčejí se svou
+     plochou a nikdy se v DOM neperou o stejné id. -->
+{#snippet actionControls(side)}
+	{@const gradId = `${actionGradId}-${side}`}
+	<button
+		class="action-btn"
+		type="button"
+		aria-label="Další možnosti"
+		aria-haspopup="menu"
+		aria-expanded={actionsOpen}
+		onclick={() => onToggleActions?.()}
+	>
+		<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
+			<defs>
+				<linearGradient id={gradId} gradientUnits="userSpaceOnUse" x1="5" y1="12" x2="19" y2="12">
+					<stop offset="0%" style="stop-color: var(--accent)" />
+					<stop offset="100%" style="stop-color: var(--accent-secondary)" />
+				</linearGradient>
+			</defs>
+			<g fill="url(#{gradId})">
+				<circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/>
+			</g>
+		</svg>
+	</button>
+
+	{#if actionsOpen}
+		<div class="action-menu" role="menu">
+			<button class="action-item" role="menuitem" onclick={() => { onShare?.(post); onCloseActions?.(); }}>
+				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+					<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
+					<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
+				</svg>
+				Sdílet
+			</button>
+			<button class="action-item" role="menuitem" onclick={() => { onReport?.(post); onCloseActions?.(); }}>
+				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+					<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
+					<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
+				</svg>
+				Nahlásit problém
+			</button>
+			<div class="app-build-info">v{__APP_VERSION__} · build {__APP_BUILD_ID__}</div>
+		</div>
+	{/if}
+{/snippet}
 
 <!-- perspective drží 3D otočení; fokus i čtečka vidí vždy jen jednu stranu -->
 <article
@@ -162,6 +212,8 @@
 					</button>
 				</div>
 			</div>
+
+			{@render actionControls('front')}
 		</section>
 
 		<!-- RUB -->
@@ -187,51 +239,16 @@
 					<PostBody {post} />
 				</div>
 			</div>
+
+			{@render actionControls('back')}
 		</section>
 	</div>
 
-	<!-- Akce k tomuto příspěvku — pevně v pravém dolním rohu karty, mimo
-	     otáčející se plochu, takže je vidět na líci i na rubu. -->
-	<button
-		class="action-btn"
-		type="button"
-		aria-label="Další možnosti"
-		aria-haspopup="menu"
-		aria-expanded={actionsOpen}
-		onclick={() => onToggleActions?.()}
-	>
-		<svg width="24" height="24" viewBox="0 0 24 24" aria-hidden="true">
-			<defs>
-				<linearGradient id={actionGradId} gradientUnits="userSpaceOnUse" x1="5" y1="12" x2="19" y2="12">
-					<stop offset="0%" style="stop-color: var(--accent)" />
-					<stop offset="100%" style="stop-color: var(--accent-secondary)" />
-				</linearGradient>
-			</defs>
-			<g fill="url(#{actionGradId})">
-				<circle cx="5" cy="12" r="2"/><circle cx="12" cy="12" r="2"/><circle cx="19" cy="12" r="2"/>
-			</g>
-		</svg>
-	</button>
-
-	{#if actionsOpen}
-		<div class="action-menu" role="menu">
-			<button class="action-item" role="menuitem" onclick={() => { onShare?.(post); onCloseActions?.(); }}>
-				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-					<circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/>
-					<line x1="8.59" y1="13.51" x2="15.42" y2="17.49"/><line x1="15.41" y1="6.51" x2="8.59" y2="10.49"/>
-				</svg>
-				Sdílet
-			</button>
-			<button class="action-item" role="menuitem" onclick={() => { onReport?.(post); onCloseActions?.(); }}>
-				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-					<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
-					<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
-				</svg>
-				Nahlásit problém
-			</button>
-			<div class="app-build-info">v{__APP_VERSION__} · build {__APP_BUILD_ID__}</div>
-		</div>
-	{/if}
+	<!-- Akce k tomuto příspěvku. Vykreslují se uvnitř každé strany karty
+	     (viz actionControls v líci i rubu), takže se otáčejí spolu s ní
+	     a působí jako její součást — na obou stranách ale existují vlastní
+	     kopie, takže je tlačítko vidět vždy, na kteroukoli stranu se karta
+	     otočí. -->
 </article>
 
 <style>
@@ -243,6 +260,9 @@
 		max-width: 520px;
 		margin: 0 auto;
 		perspective: 1600px;
+		/* Délka otočení na jednom místě — od ní se odvozuje i okamžik,
+		   kdy má zmizet tlačítko akcí na odvrácené straně. */
+		--flip-duration: 0.42s;
 		-webkit-perspective: 1600px;
 	}
 
@@ -253,8 +273,9 @@
 	}
 
 	/* --- Akce k příspěvku --- */
-	/* Sedí v pravém dolním rohu karty, ne fixně nad obsahem. Mimo otáčející
-	   se stage, takže zůstává na místě na líci i na rubu. */
+	/* Sedí v pravém dolním rohu karty, ne fixně nad obsahem. Je součástí
+	   otáčející se strany (každá strana má vlastní kopii), takže se kartou
+	   otáčí a nikdy se neobjeví zrcadlově převrácené. */
 	.action-btn {
 		position: absolute;
 		right: 16px;
@@ -265,14 +286,18 @@
 		border-radius: 50%;
 		border: none;
 		background: rgba(20, 20, 20, 0.85);
-		backdrop-filter: blur(8px);
-		-webkit-backdrop-filter: blur(8px);
 		display: flex;
 		align-items: center;
 		justify-content: center;
 		cursor: pointer;
 		transition: background 0.2s, transform 0.15s;
 		-webkit-tap-highlight-color: transparent;
+		/* Tlačítko musí zůstat součástí plochy strany: backdrop-filter by ho
+		   vyčlenil do vlastní vrstvy, která na rubu prosvítá zrcadlově
+		   (skrývání zadní strany rodiče ji totiž nechytí). Ostatně pod ním
+		   je neprůhledná karta, takže blur nebylo vůbec vidět. */
+		-webkit-backface-visibility: hidden;
+		backface-visibility: hidden;
 	}
 
 	/* Gradientový obrys — stejný přechod jako u CTA a loga. Kreslí se přes
@@ -295,6 +320,17 @@
 		pointer-events: none;
 	}
 
+	/* Pojistka pro prohlížeče, které vrstvu tlačítka neflattenují do plochy
+	   strany: tlačítko odvrácené strany zmizí ve chvíli, kdy se karta otáčí
+	   hranou — tedy zhruba ve čtvrtině easingové křivky, ne až po otočení.
+	   Do té doby se viditelně otáčí s kartou. */
+	.post-card.flipped .card-front .action-btn,
+	.post-card:not(.flipped) .card-back .action-btn {
+		visibility: hidden;
+		transition: background 0.2s, transform 0.15s,
+			visibility 0s linear calc(var(--flip-duration) * 0.22);
+	}
+
 	.action-btn:hover {
 		background: rgba(245, 158, 11, 0.14);
 	}
@@ -304,15 +340,14 @@
 		background: var(--accent);
 	}
 
-	/* Nabídka vyrůstá z tlačítka v rohu karty, proto je absolutní vůči ní. */
+	/* Nabídka vyrůstá z tlačítka v rohu, proto je absolutní vůči straně
+	   karty a otáčí se spolu s ní. */
 	.action-menu {
 		position: absolute;
 		right: 16px;
 		bottom: 70px;
 		z-index: 70;
 		background: rgba(24, 24, 24, 0.95);
-		backdrop-filter: blur(12px);
-		-webkit-backdrop-filter: blur(12px);
 		border: 1px solid #333;
 		border-radius: 14px;
 		padding: 6px;
@@ -370,7 +405,7 @@
 		width: 100%;
 		height: 100%;
 		transform-style: preserve-3d;
-		transition: transform 0.42s cubic-bezier(0.2, 0.75, 0.25, 1);
+		transition: transform var(--flip-duration) cubic-bezier(0.2, 0.75, 0.25, 1);
 	}
 
 	.post-card.flipped .card-stage {
@@ -598,6 +633,12 @@
 	@media (prefers-reduced-motion: reduce) {
 		.card-stage {
 			transition: none;
+		}
+
+		/* Bez animace není co otáčet — tlačítko odvrácené strany zmizí hned */
+		.post-card.flipped .card-front .action-btn,
+		.post-card:not(.flipped) .card-back .action-btn {
+			transition-delay: 0s;
 		}
 
 		.flip-btn:hover .flip-icon {

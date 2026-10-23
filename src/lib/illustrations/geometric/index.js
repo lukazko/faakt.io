@@ -15,8 +15,10 @@ import { refineSubject } from './refine.js';
 import { deriveSeed } from './seed.js';
 import { selectScene, SEMANTIC_SCENE_KEYS } from './selection.js';
 import { HEROES } from './heroes.js';
+import { CULTURES, detectCulture, cultureBackdrop } from './culture.js';
 
 export { GEOMETRIC_FAMILY_KEYS, SCENE_TYPES, SEMANTIC_SCENE_KEYS, drawScene };
+export { CULTURES, CULTURE_KEYS, detectCulture, cultureBackdrop } from './culture.js';
 export { selectScene } from './selection.js';
 export { GEOMETRIC_COLORS, geometricPalette } from './palette.js';
 export { DEFAULT_SUBJECT, SUBJECT_ALIAS, FAMILY_FALLBACK } from './mapping.js';
@@ -113,12 +115,24 @@ export function createGeometricIllustration(options = {}) {
 	// `family` zůstává kvůli paletě, testům a zpětné kompatibilitě.
 	const scene = options.scene || semantic?.scene || (composition === 'single' ? family : composition);
 
+	// Kulturní kontext: rozpozná se z textu, ale nikdy nevybírá scénu ani
+	// předmět. Explicitní `culture` v galerii jen předepíše stejnou kulisu.
+	const culture =
+		options.culture === false
+			? null
+			: typeof options.culture === 'string' && CULTURES[options.culture]
+				? { key: options.culture, label: CULTURES[options.culture].label, score: 0, reason: `culture:${options.culture}` }
+				: options.post
+					? detectCulture(options.post)
+					: null;
+
 	const context = {
 		family,
 		scene,
 		subject,
 		secondary,
 		composition,
+		culture,
 		rand: random,
 		random,
 		variant,
@@ -128,13 +142,16 @@ export function createGeometricIllustration(options = {}) {
 		palette
 	};
 
-	const elements = options.scene
+	let elements = options.scene
 		? drawScene(options.scene, context)
 		: semantic
 			? drawScene(semantic.scene, context)
 			: composition === 'single'
 				? SCENES[family](context)
 				: drawScene(composition, context);
+
+	// Kulisa jde před scénu, aby zůstala vzadu. Nikdy nemění hlavní motiv.
+	if (culture) elements = [...cultureBackdrop(culture, context), ...elements];
 
 	return {
 		style: 'geometric',
@@ -153,6 +170,7 @@ export function createGeometricIllustration(options = {}) {
 		subject,
 		secondary,
 		composition,
+		culture,
 		reason: semantic?.reason ?? analysis?.reason ?? null,
 		elements
 	};
