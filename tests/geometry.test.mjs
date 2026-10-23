@@ -43,8 +43,11 @@ const hashOf = (value) => createHash('sha256').update(value).digest('hex');
 const GOLDEN = {
 	'001': ['metaphor', 'balance', '81b2ce0d50eaf8e97713496532fd8aa0894221d4809538ce717d27abea7bdf55'],
 	'002': ['metaphor', 'brain', '9105c822239be2be8bc6e1a3fdc53e9bfb5ef5dae56732376e82f99a61342716'],
-	'003': ['discovery', 'telescope', '4915925191cd5e547af6abd385dff8bbac83f442c1b522a33560bd29010ae87d'],
-	'010': ['discovery', 'dna', '044c8c84c0690ad281b5f7071eff30d5fbf009e7fe0b74397b50894424380a8e'],
+	// 003 je o hvězdě, ne o dalekohledu — sémantická scéna `celestial`
+	// oprávněně změnila motiv i otisk. 010 byl dřív DNA kvůli podřetězci
+	// ve slově „prázdná“; správně jde o periodickou tabulku.
+	'003': ['discovery', 'star', '5567c70906b4d58f7c035c29d34b4b879e5a858b6cd828c3cdb2a3d295b492c0'],
+	'010': ['discovery', 'flask', 'cd57ccff7d9290da973b18f74882eecaf2b702e945f1d39a049318917c301828'],
 	'100': ['portrait', 'bust', '9638570e2a5db6d7e95364964bf1daa76fdfe386bf39970a91784f0d88c4576f'],
 	'200': ['discovery', 'planet', 'c894ed44497f52d79f77568a36c7b5a8b2f1d14f5d408290d7bb86637e7918c7'],
 	'500': ['metaphor', 'polyhedron', '4b864753c8c70866f073f81f1f6096b1c31aaae9e05369181b688ab56eda2cb2']

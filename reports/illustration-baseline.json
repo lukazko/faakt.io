@@ -1,0 +1,1332 @@
+{
+  "generatedAt": "2026-10-23T08:22:11.230Z",
+  "posts": 766,
+  "distinct": {
+    "scenes": 8,
+    "subjects": 51,
+    "structuralScenes": 146,
+    "combos": 170
+  },
+  "concentration": {
+    "topSubject": "bust",
+    "topSubjectCount": 62,
+    "topSubjectShare": 8.1,
+    "normalizedEntropy": 0.895
+  },
+  "families": {
+    "metaphor": 270,
+    "discovery": 142,
+    "portrait": 118,
+    "relic": 87,
+    "layers": 53,
+    "storybook": 53,
+    "nature": 43
+  },
+  "scenes": {
+    "single": 655,
+    "transformation": 36,
+    "confrontation": 35,
+    "connection": 14,
+    "split": 12,
+    "contrast": 8,
+    "collapse": 3,
+    "growth": 3
+  },
+  "compositions": {
+    "single": 655,
+    "transformation": 36,
+    "confrontation": 35,
+    "connection": 14,
+    "split": 12,
+    "contrast": 8,
+    "collapse": 3,
+    "growth": 3
+  },
+  "reasons": {
+    "semantic": 633,
+    "category": 66,
+    "abstract": 55,
+    "chronology": 12
+  },
+  "subjects": {
+    "bust": 62,
+    "(bez motivu)": 53,
+    "brain": 51,
+    "book": 50,
+    "polyhedron": 40,
+    "palette": 37,
+    "film": 33,
+    "gear": 29,
+    "atom": 27,
+    "balance": 24,
+    "scroll": 23,
+    "telescope": 21,
+    "tree": 21,
+    "clock": 20,
+    "figure": 18,
+    "galaxy": 17,
+    "crowd": 16,
+    "dna": 16,
+    "crown": 14,
+    "moon": 14,
+    "amphora": 13,
+    "flask": 13,
+    "sword": 11,
+    "throne": 11,
+    "entropy": 10,
+    "planet": 10,
+    "blackhole": 8,
+    "coin": 7,
+    "hand": 7,
+    "map": 7,
+    "microscope": 7,
+    "octopus": 7,
+    "rocket": 7,
+    "temple": 7,
+    "wind": 7,
+    "comet": 5,
+    "eye": 5,
+    "flame": 4,
+    "heart": 4,
+    "infinity": 4,
+    "bolt": 3,
+    "knot": 3,
+    "stele": 3,
+    "sun": 3,
+    "wall": 3,
+    "column": 2,
+    "mountain": 2,
+    "snowflake": 2,
+    "star": 2,
+    "bird": 1,
+    "explosion": 1,
+    "ruin": 1
+  },
+  "secondaries": {
+    "scroll": 38,
+    "balance": 30,
+    "figure": 13,
+    "crown": 12,
+    "coin": 6,
+    "flask": 5,
+    "column": 3,
+    "amphora": 2,
+    "bust": 2,
+    "flame": 2,
+    "tree": 2,
+    "wind": 2,
+    "crowd": 1,
+    "dna": 1,
+    "mountain": 1,
+    "sword": 1,
+    "temple": 1
+  },
+  "topCombos": [
+    {
+      "scene": "single",
+      "subject": null,
+      "secondary": null,
+      "count": 53,
+      "ids": [
+        "019",
+        "030",
+        "040",
+        "049",
+        "080"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "bust",
+      "secondary": null,
+      "count": 37,
+      "ids": [
+        "006",
+        "026",
+        "027",
+        "028",
+        "037"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "polyhedron",
+      "secondary": null,
+      "count": 35,
+      "ids": [
+        "021",
+        "041",
+        "053",
+        "089",
+        "116"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "brain",
+      "secondary": null,
+      "count": 34,
+      "ids": [
+        "009",
+        "061",
+        "071",
+        "082",
+        "093"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "palette",
+      "secondary": null,
+      "count": 26,
+      "ids": [
+        "004",
+        "011",
+        "033",
+        "073",
+        "083"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "atom",
+      "secondary": null,
+      "count": 25,
+      "ids": [
+        "012",
+        "036",
+        "077",
+        "095",
+        "108"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "film",
+      "secondary": null,
+      "count": 24,
+      "ids": [
+        "148",
+        "149",
+        "257",
+        "259",
+        "279"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "gear",
+      "secondary": null,
+      "count": 22,
+      "ids": [
+        "055",
+        "065",
+        "075",
+        "119",
+        "157"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "book",
+      "secondary": null,
+      "count": 22,
+      "ids": [
+        "059",
+        "121",
+        "131",
+        "144",
+        "160"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "telescope",
+      "secondary": null,
+      "count": 19,
+      "ids": [
+        "003",
+        "016",
+        "034",
+        "044",
+        "056"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "clock",
+      "secondary": null,
+      "count": 19,
+      "ids": [
+        "130",
+        "153",
+        "172",
+        "175",
+        "265"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "scroll",
+      "secondary": null,
+      "count": 17,
+      "ids": [
+        "013",
+        "038",
+        "179",
+        "194",
+        "260"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "book",
+      "secondary": "scroll",
+      "count": 17,
+      "ids": [
+        "015",
+        "025",
+        "177",
+        "191",
+        "251"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "dna",
+      "secondary": null,
+      "count": 16,
+      "ids": [
+        "010",
+        "022",
+        "032",
+        "042",
+        "052"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "tree",
+      "secondary": null,
+      "count": 16,
+      "ids": [
+        "109",
+        "272",
+        "274",
+        "301",
+        "448"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "balance",
+      "secondary": null,
+      "count": 15,
+      "ids": [
+        "005",
+        "017",
+        "023",
+        "088",
+        "136"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "galaxy",
+      "secondary": null,
+      "count": 13,
+      "ids": [
+        "155",
+        "290",
+        "555",
+        "556",
+        "557"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "moon",
+      "secondary": null,
+      "count": 12,
+      "ids": [
+        "181",
+        "292",
+        "300",
+        "564",
+        "578"
+      ]
+    },
+    {
+      "scene": "confrontation",
+      "subject": "sword",
+      "secondary": null,
+      "count": 11,
+      "ids": [
+        "007",
+        "170",
+        "267",
+        "286",
+        "513"
+      ]
+    },
+    {
+      "scene": "single",
+      "subject": "figure",
+      "secondary": null,
+      "count": 11,
+      "ids": [
+        "097",
+        "115",
+        "414",
+        "417",
+        "438"
+      ]
+    }
+  ],
+  "duplicateScenes": [
+    {
+      "signature": "c80ca05d",
+      "count": 42,
+      "ids": [
+        "015",
+        "025",
+        "059",
+        "121",
+        "131",
+        "144",
+        "160",
+        "176"
+      ]
+    },
+    {
+      "signature": "1f0709b2",
+      "count": 41,
+      "ids": [
+        "019",
+        "040",
+        "049",
+        "080",
+        "092",
+        "117",
+        "156",
+        "183"
+      ]
+    },
+    {
+      "signature": "821a63f2",
+      "count": 38,
+      "ids": [
+        "006",
+        "018",
+        "026",
+        "027",
+        "028",
+        "037",
+        "046",
+        "047"
+      ]
+    },
+    {
+      "signature": "79256460",
+      "count": 33,
+      "ids": [
+        "002",
+        "009",
+        "061",
+        "082",
+        "093",
+        "145",
+        "174",
+        "186"
+      ]
+    },
+    {
+      "signature": "a1ed53e2",
+      "count": 31,
+      "ids": [
+        "148",
+        "149",
+        "150",
+        "256",
+        "257",
+        "259",
+        "279",
+        "280"
+      ]
+    },
+    {
+      "signature": "7929459b",
+      "count": 25,
+      "ids": [
+        "021",
+        "041",
+        "116",
+        "133",
+        "146",
+        "224",
+        "432",
+        "496"
+      ]
+    },
+    {
+      "signature": "de8c9208",
+      "count": 25,
+      "ids": [
+        "012",
+        "036",
+        "077",
+        "095",
+        "108",
+        "114",
+        "138",
+        "147"
+      ]
+    },
+    {
+      "signature": "52d8389a",
+      "count": 22,
+      "ids": [
+        "004",
+        "011",
+        "073",
+        "083",
+        "120",
+        "143",
+        "159",
+        "180"
+      ]
+    },
+    {
+      "signature": "029e7993",
+      "count": 20,
+      "ids": [
+        "003",
+        "016",
+        "034",
+        "044",
+        "056",
+        "074",
+        "085",
+        "139"
+      ]
+    },
+    {
+      "signature": "e3b3ba55",
+      "count": 19,
+      "ids": [
+        "013",
+        "038",
+        "179",
+        "194",
+        "260",
+        "283",
+        "484",
+        "488"
+      ]
+    }
+  ],
+  "fallbacks": {
+    "count": 66,
+    "share": 8.6,
+    "posts": [
+      {
+        "id": "075",
+        "title": "Mol, který uvízl v počítači a dal jméno chybám v programech",
+        "category": "pocitacove-vedy",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "gear",
+        "secondary": null,
+        "reason": "category:pocitacove-vedy",
+        "supports": [],
+        "signature": "l,p:MLLLLLLLLLLLLLLLZ,c,c,l,l,l,l",
+        "signatureHash": "cce4c0f4",
+        "elementCount": 8,
+        "analysisSubject": "gear"
+      },
+      {
+        "id": "083",
+        "title": "Beethoven složil svou nejslavnější symfonii jako hluchý",
+        "category": "umeni",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "palette",
+        "secondary": null,
+        "reason": "category:umeni",
+        "supports": [],
+        "signature": "l,p:MQQQQQQQZ,e,c,c,c,c,c,l,l,p:MLLZ",
+        "signatureHash": "52d8389a",
+        "elementCount": 11,
+        "analysisSubject": "palette"
+      },
+      {
+        "id": "087",
+        "title": "Diogenés a sud, ve kterém bydlel místo v domě",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "single",
+        "composition": "single",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ",
+        "signatureHash": "821a63f2",
+        "elementCount": 11,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "137",
+        "title": "Objev inzulinu, který proměnil cukrovku ze smrtelné nemoci v léčitelnou",
+        "category": "veda",
+        "family": "discovery",
+        "requestedFamily": "discovery",
+        "scene": "transformation",
+        "composition": "transformation",
+        "subject": "flask",
+        "secondary": null,
+        "reason": "category:veda",
+        "supports": [],
+        "signature": "l,p:MLLLQLQLZ,p:MLLQLQZ,l,r,l,l,c,c,c,p:MLLLQLQLZ,p:MLLQLQZ,l,r,l,l,c,c,c,l,p:MLLZ,c,c,c",
+        "signatureHash": "e001e4e9",
+        "elementCount": 24,
+        "analysisSubject": "flask"
+      },
+      {
+        "id": "161",
+        "title": "Hannah Arendtová a banalita zla u byrokrata, ne netvora",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "single",
+        "composition": "single",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ",
+        "signatureHash": "821a63f2",
+        "elementCount": 11,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "163",
+        "title": "Když někdo poprvé hledal vysvětlení světa bez bohů",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "single",
+        "composition": "single",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ",
+        "signatureHash": "821a63f2",
+        "elementCount": 11,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "165",
+        "title": "Argument, podle kterého je veškerá změna jen klam smyslů",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "transformation",
+        "composition": "transformation",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ,l,p:MLLZ,c,c,c",
+        "signatureHash": "7f533d0b",
+        "elementCount": 26,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "166",
+        "title": "Čtyři živly a dvě síly, které je spojují a rozdělují",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "split",
+        "composition": "split",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,l,pl:12,pl:12,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ,l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ,l,p:MLLZ,p:MLLZ",
+        "signatureHash": "41718193",
+        "elementCount": 28,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "169",
+        "title": "Rovné prkno se ohne jen tehdy, když ho někdo ohýbá",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "single",
+        "composition": "single",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ,l",
+        "signatureHash": "482624a2",
+        "elementCount": 12,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "182",
+        "title": "Loď, které postupně vyměnili všechna prkna: je to táž loď?",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "single",
+        "composition": "single",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ",
+        "signatureHash": "821a63f2",
+        "elementCount": 11,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "184",
+        "title": "Z toho, jak věci jsou, nevyplývá, jak by být měly",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "single",
+        "composition": "single",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ,l",
+        "signatureHash": "482624a2",
+        "elementCount": 12,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "187",
+        "title": "Vědecká je jen ta teorie, která může být vyvrácena",
+        "category": "filozofie",
+        "family": "portrait",
+        "requestedFamily": "portrait",
+        "scene": "single",
+        "composition": "single",
+        "subject": "bust",
+        "secondary": null,
+        "reason": "category:filozofie",
+        "supports": [],
+        "signature": "l,r,r,p:MLQLQLZ,p:MLLLZ,r,p:MLLLLLLLLLLLLLLLZ,p:MLLLLLLLZ,c,c,p:MLLLLZ",
+        "signatureHash": "821a63f2",
+        "elementCount": 11,
+        "analysisSubject": "bust"
+      },
+      {
+        "id": "230",
+        "title": "Informace se dá měřit a jednotkou je bit",
+        "category": "pocitacove-vedy",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "gear",
+        "secondary": null,
+        "reason": "category:pocitacove-vedy",
+        "supports": [],
+        "signature": "l,p:MLLLLLLLLLLLLLLLZ,c,c,l,l,l,c",
+        "signatureHash": "c3e4b2c9",
+        "elementCount": 8,
+        "analysisSubject": "gear"
+      },
+      {
+        "id": "231",
+        "title": "Šifra, kterou lze zveřejnit, aniž by se dala prolomit",
+        "category": "pocitacove-vedy",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "gear",
+        "secondary": null,
+        "reason": "category:pocitacove-vedy",
+        "supports": [],
+        "signature": "l,p:MLLLLLLLLLLLLLLLZ,c,c,l,l,l,l,c",
+        "signatureHash": "026aa471",
+        "elementCount": 9,
+        "analysisSubject": "gear"
+      },
+      {
+        "id": "236",
+        "title": "Tulipánová horečka jako první učebnicová spekulativní bublina",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c",
+        "signatureHash": "c549993a",
+        "elementCount": 16,
+        "analysisSubject": "balance"
+      },
+      {
+        "id": "240",
+        "title": "Proč zůstáváme na platformě, která se nám nelíbí",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "connection",
+        "composition": "connection",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c,p:MQ,c,c,c,c",
+        "signatureHash": "c401143d",
+        "elementCount": 36,
+        "analysisSubject": "balance"
+      },
+      {
+        "id": "248",
+        "title": "Malby v jeskyni vznikaly po tisíciletí a stále je chránil chlad",
+        "category": "umeni",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "transformation",
+        "composition": "transformation",
+        "subject": "palette",
+        "secondary": null,
+        "reason": "category:umeni",
+        "supports": [],
+        "signature": "l,p:MQQQQQQQZ,e,c,c,c,c,c,l,l,p:MLLZ,p:MQQQQQQQZ,e,c,c,c,c,c,l,l,p:MLLZ,l,p:MLLZ,c,c,c",
+        "signatureHash": "c4791e17",
+        "elementCount": 26,
+        "analysisSubject": "palette"
+      },
+      {
+        "id": "270",
+        "title": "Dopisy z římské pevnosti řeší ponožky a pozvánku na oslavu",
+        "category": "historie",
+        "family": "relic",
+        "requestedFamily": "relic",
+        "scene": "single",
+        "composition": "single",
+        "subject": "amphora",
+        "secondary": null,
+        "reason": "category:historie",
+        "supports": [],
+        "signature": "l,p:MQQLQQZ,p:MQQLQQZ,p:MLLQQQQZ,p:MQLQZ,p:MLLL,p:MLLL,p:MLLL,r,r,e,p:MQQZ",
+        "signatureHash": "6cebc05a",
+        "elementCount": 12,
+        "analysisSubject": "amphora"
+      },
+      {
+        "id": "297",
+        "title": "Pohyb magnetu v cívce vyrábí elektřinu dodnes stejným způsobem",
+        "category": "fyzika",
+        "family": "discovery",
+        "requestedFamily": "discovery",
+        "scene": "single",
+        "composition": "single",
+        "subject": "atom",
+        "secondary": null,
+        "reason": "category:fyzika",
+        "supports": [],
+        "signature": "l,e,e,e,c,c,c,c",
+        "signatureHash": "de8c9208",
+        "elementCount": 8,
+        "analysisSubject": "atom"
+      },
+      {
+        "id": "304",
+        "title": "Malá část příčin obvykle způsobí většinu následků",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c",
+        "signatureHash": "c549993a",
+        "elementCount": 16,
+        "analysisSubject": "balance"
+      },
+      {
+        "id": "416",
+        "title": "Dítě, které nesní sladkost hned, si o desítky let později vedlo lépe",
+        "category": "psychologie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "brain",
+        "secondary": null,
+        "reason": "category:psychologie",
+        "supports": [],
+        "signature": "l,p:MQQQQZ,p:MQQQQZ,p:MQ,p:MQ,p:MQ,p:MQ,p:MQ,r,c,c",
+        "signatureHash": "b5ba9245",
+        "elementCount": 11,
+        "analysisSubject": "brain"
+      },
+      {
+        "id": "428",
+        "title": "Počítač se má sám sobě podobat, ne řešenému problému",
+        "category": "pocitacove-vedy",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "gear",
+        "secondary": null,
+        "reason": "category:pocitacove-vedy",
+        "supports": [],
+        "signature": "l,p:MLLLLLLLLLLLLLLLZ,c,c,l,l,l,c",
+        "signatureHash": "c3e4b2c9",
+        "elementCount": 8,
+        "analysisSubject": "gear"
+      },
+      {
+        "id": "434",
+        "title": "Existují úlohy, u kterých počítač nikdy dopředu nepozná, že se zacyklí",
+        "category": "pocitacove-vedy",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "gear",
+        "secondary": null,
+        "reason": "category:pocitacove-vedy",
+        "supports": [],
+        "signature": "l,p:MLLLLLLLLLLLLLLLZ,c,c,l,l,l,l,c",
+        "signatureHash": "026aa471",
+        "elementCount": 9,
+        "analysisSubject": "gear"
+      },
+      {
+        "id": "437",
+        "title": "Přesná poloha z družic byla civilistům dlouho záměrně rozmazávána",
+        "category": "pocitacove-vedy",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "gear",
+        "secondary": null,
+        "reason": "category:pocitacove-vedy",
+        "supports": [],
+        "signature": "l,p:MLLLLLLLLLLLLLLLZ,c,c,l,l,l,l",
+        "signatureHash": "cce4c0f4",
+        "elementCount": 8,
+        "analysisSubject": "gear"
+      },
+      {
+        "id": "471",
+        "title": "Malá vápencová soška ženy je stará přes dvacet tisíc let",
+        "category": "umeni",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "palette",
+        "secondary": null,
+        "reason": "category:umeni",
+        "supports": [],
+        "signature": "l,p:MQQQQQQQZ,e,c,c,c,c,c,l,l,p:MLLZ,p:MQ",
+        "signatureHash": "a4548aee",
+        "elementCount": 12,
+        "analysisSubject": "palette"
+      },
+      {
+        "id": "472",
+        "title": "Voda je k životu nutná, ale levnější než diamanty, které nejsou k ničemu",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c",
+        "signatureHash": "c549993a",
+        "elementCount": 16,
+        "analysisSubject": "balance"
+      },
+      {
+        "id": "473",
+        "title": "Šálek, který jsme právě dostali, si ceníme víc, než bychom za něj sami zaplatili",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c",
+        "signatureHash": "c549993a",
+        "elementCount": 16,
+        "analysisSubject": "balance"
+      },
+      {
+        "id": "477",
+        "title": "Půjčky bez zástavy chudým ženám se ukázaly jako fungující obchodní model",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c",
+        "signatureHash": "c549993a",
+        "elementCount": 16,
+        "analysisSubject": "balance"
+      },
+      {
+        "id": "480",
+        "title": "Dva lovci mohou ulovit jelena jen společně, nebo si každý sám chytit zajíce",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "connection",
+        "composition": "connection",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c,p:MQ,c,c,c,c",
+        "signatureHash": "c401143d",
+        "elementCount": 36,
+        "analysisSubject": "balance"
+      },
+      {
+        "id": "481",
+        "title": "Každý další krajíc chleba nás potěší méně než ten předchozí",
+        "category": "ekonomie",
+        "family": "metaphor",
+        "requestedFamily": "metaphor",
+        "scene": "single",
+        "composition": "single",
+        "subject": "balance",
+        "secondary": null,
+        "reason": "category:ekonomie",
+        "supports": [],
+        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c",
+        "signatureHash": "c549993a",
+        "elementCount": 16,
+        "analysisSubject": "balance"
+      }
+    ]
+  },
+  "missingHeroes": [
+    "butterfly",
+    "cat",
+    "crack",
+    "shield"
+  ],
+  "regression": [
+    {
+      "label": "ničivá síla inovací → stroj/mechanismus",
+      "id": "754",
+      "ok": false,
+      "reason": "vynález a inovace nesmí skončit jako geologická vrstva nebo zřícenina",
+      "got": {
+        "scene": null,
+        "family": "layers",
+        "subject": null,
+        "secondary": null,
+        "composition": "single",
+        "analysis": "semantic:ruin"
+      }
+    },
+    {
+      "label": "Slunce → slunce, ne srpek měsíce",
+      "id": "085",
+      "ok": false,
+      "reason": "nebeská tělesa se musí rozlišit",
+      "got": {
+        "scene": null,
+        "family": "discovery",
+        "subject": "telescope",
+        "secondary": null,
+        "composition": "single",
+        "analysis": "semantic:telescope"
+      }
+    },
+    {
+      "label": "Alexandrijská knihovna → knihovna a oheň",
+      "id": "199",
+      "ok": true,
+      "reason": "požár knihovny není osamocená kniha",
+      "got": {
+        "scene": null,
+        "family": "storybook",
+        "subject": "book",
+        "secondary": "flame",
+        "composition": "single",
+        "analysis": "semantic:book"
+      }
+    },
+    {
+      "label": "člověk ztratí pojem o čase → postava a hodiny",
+      "id": "417",
+      "ok": false,
+      "reason": "osamocená postava nenese vztah k času",
+      "got": {
+        "scene": null,
+        "family": "portrait",
+        "subject": "figure",
+        "secondary": null,
+        "composition": "single",
+        "analysis": "semantic:figure"
+      }
+    },
+    {
+      "label": "fénické písmo a obchodníci → písmo nebo plavba, ne hodiny",
+      "id": "540",
+      "ok": false,
+      "reason": "hodiny jsou pro text o písmu sémanticky irelevantní",
+      "got": {
+        "scene": null,
+        "family": "metaphor",
+        "subject": "clock",
+        "secondary": null,
+        "composition": "single",
+        "analysis": "semantic:clock"
+      }
+    }
+  ],
+  "warnings": {
+    "instrument-over-object": {
+      "count": 14,
+      "examples": [
+        {
+          "type": "instrument-over-object",
+          "id": "003",
+          "title": "Hvězda, kterou vidíte dnes, možná už dávno nesvítí",
+          "detail": "titulek jmenuje star, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "044",
+          "title": "První planeta objevená u cizí hvězdy podobné Slunci",
+          "detail": "titulek jmenuje sun, planet, star, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "074",
+          "title": "Kepler zjistil, že planety létají po elipsách, ne po kruzích",
+          "detail": "titulek jmenuje planet, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "085",
+          "title": "Koperník postavil Slunce do středu vesmíru a čekal s vydáním knihy",
+          "detail": "titulek jmenuje sun, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "206",
+          "title": "Jediná nemoc, kterou se podařilo z planety zcela vymýtit",
+          "detail": "titulek jmenuje planet, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "548",
+          "title": "Pásmo kolem hvězdy, kde by na planetě mohla existovat kapalná voda",
+          "detail": "titulek jmenuje planet, star, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "549",
+          "title": "Slunce jednou zvětší svůj průměr natolik, že pohltí vnitřní planety",
+          "detail": "titulek jmenuje sun, blackhole, planet, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "550",
+          "title": "Lžička hmoty z jisté hvězdy by na Zemi vážila tuny",
+          "detail": "titulek jmenuje planet, star, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "551",
+          "title": "Nejsilnější magnetická pole ve vesmíru patří jednomu typu mrtvých hvězd",
+          "detail": "titulek jmenuje star, scéna kreslí telescope"
+        },
+        {
+          "type": "instrument-over-object",
+          "id": "567",
+          "title": "Kolem jedné malé hvězdy obíhá hned sedm planet přibližně velikosti Země",
+          "detail": "titulek jmenuje planet, star, scéna kreslí telescope"
+        }
+      ]
+    },
+    "subject-not-in-text": {
+      "count": 46,
+      "examples": [
+        {
+          "type": "subject-not-in-text",
+          "id": "023",
+          "title": "Proč vás loď při odrazu od mola tlačí zpátky",
+          "detail": "motiv balance nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "083",
+          "title": "Beethoven složil svou nejslavnější symfonii jako hluchý",
+          "detail": "motiv palette nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "135",
+          "title": "Berlínská zeď: bariéra postavená přes noc, která rozdělila město",
+          "detail": "motiv wall nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "136",
+          "title": "Eiffelova věž je v létě o kus vyšší než v zimě",
+          "detail": "motiv balance nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "137",
+          "title": "Objev inzulinu, který proměnil cukrovku ze smrtelné nemoci v léčitelnou",
+          "detail": "motiv flask nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "228",
+          "title": "Procházka po sedmi mostech dala vzniknout teorii grafů",
+          "detail": "motiv amphora nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "230",
+          "title": "Informace se dá měřit a jednotkou je bit",
+          "detail": "motiv gear nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "231",
+          "title": "Šifra, kterou lze zveřejnit, aniž by se dala prolomit",
+          "detail": "motiv gear nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "235",
+          "title": "Za vyřešení otázky P versus NP čeká milion dolarů",
+          "detail": "motiv balance nemá v textu žádné vlastní slovo"
+        },
+        {
+          "type": "subject-not-in-text",
+          "id": "236",
+          "title": "Tulipánová horečka jako první učebnicová spekulativní bublina",
+          "detail": "motiv balance nemá v textu žádné vlastní slovo"
+        }
+      ]
+    },
+    "category-fallback": {
+      "count": 66,
+      "examples": [
+        {
+          "type": "category-fallback",
+          "id": "075",
+          "title": "Mol, který uvízl v počítači a dal jméno chybám v programech",
+          "detail": "výběr jen podle kategorie (category:pocitacove-vedy)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "083",
+          "title": "Beethoven složil svou nejslavnější symfonii jako hluchý",
+          "detail": "výběr jen podle kategorie (category:umeni)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "087",
+          "title": "Diogenés a sud, ve kterém bydlel místo v domě",
+          "detail": "výběr jen podle kategorie (category:filozofie)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "137",
+          "title": "Objev inzulinu, který proměnil cukrovku ze smrtelné nemoci v léčitelnou",
+          "detail": "výběr jen podle kategorie (category:veda)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "161",
+          "title": "Hannah Arendtová a banalita zla u byrokrata, ne netvora",
+          "detail": "výběr jen podle kategorie (category:filozofie)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "163",
+          "title": "Když někdo poprvé hledal vysvětlení světa bez bohů",
+          "detail": "výběr jen podle kategorie (category:filozofie)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "165",
+          "title": "Argument, podle kterého je veškerá změna jen klam smyslů",
+          "detail": "výběr jen podle kategorie (category:filozofie)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "166",
+          "title": "Čtyři živly a dvě síly, které je spojují a rozdělují",
+          "detail": "výběr jen podle kategorie (category:filozofie)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "169",
+          "title": "Rovné prkno se ohne jen tehdy, když ho někdo ohýbá",
+          "detail": "výběr jen podle kategorie (category:filozofie)"
+        },
+        {
+          "type": "category-fallback",
+          "id": "182",
+          "title": "Loď, které postupně vyměnili všechna prkna: je to táž loď?",
+          "detail": "výběr jen podle kategorie (category:filozofie)"
+        }
+      ]
+    },
+    "moon-for-sun": {
+      "count": 1,
+      "examples": [
+        {
+          "type": "moon-for-sun",
+          "id": "837",
+          "title": "Helium bylo nalezeno na Slunci dřív než na Zemi",
+          "detail": "text mluví o Slunci, scéna kreslí Měsíc"
+        }
+      ]
+    }
+  },
+  "warningCount": 127,
+  "comparison": null
+}

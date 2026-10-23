@@ -9,12 +9,15 @@ import { createRandom, clamp, hashString, round } from '../prng.js';
 import { analyzePost } from '../analysis/analyze.js';
 import { geometricPalette } from './palette.js';
 import { geometricFamilyFor, resolveSubject } from './mapping.js';
-import { SCENES, GEOMETRIC_FAMILY_KEYS } from './scenes.js';
+import { drawScene, GEOMETRIC_FAMILY_KEYS, SCENES, SCENE_TYPES } from './scenes.js';
 import { chooseComposition, COMPOSITION_KEYS, COMPOSITION_META } from './composition.js';
 import { refineSubject } from './refine.js';
 import { deriveSeed } from './seed.js';
+import { selectScene, SEMANTIC_SCENE_KEYS } from './selection.js';
+import { HEROES } from './heroes.js';
 
-export { GEOMETRIC_FAMILY_KEYS };
+export { GEOMETRIC_FAMILY_KEYS, SCENE_TYPES, SEMANTIC_SCENE_KEYS, drawScene };
+export { selectScene } from './selection.js';
 export { GEOMETRIC_COLORS, geometricPalette } from './palette.js';
 export { DEFAULT_SUBJECT, SUBJECT_ALIAS, FAMILY_FALLBACK } from './mapping.js';
 export { COMPOSITION_KEYS, COMPOSITION_META, chooseComposition } from './composition.js';
@@ -32,6 +35,8 @@ export { deriveSeed } from './seed.js';
  *   seed?: string | number,
  *   category?: string,
  *   subject?: string | null,
+ *   secondary?: string | null,
+ *   scene?: string,
  *   variant?: number,
  *   density?: number,
  *   scale?: number,
@@ -55,31 +60,62 @@ export function createGeometricIllustration(options = {}) {
 	const category = options.category ?? options.post?.category;
 	const palette = geometricPalette(category);
 
-	// Předmět: explicitní, jinak z textu; neznámý předmět spadne na motiv rodiny.
-	let subject = options.subject;
-	if (subject === undefined) {
-		subject = analysis?.subject ?? null;
-	}
-	// Motiv se nejdřív přeloží přes alias a potom zpřesní podle konkrétních
-	// slov v textu (kometa, galaxie, entropie…). Konkrétní předmět z analýzy
-	// se nikdy nepřepisuje.
-	subject = family === 'layers' ? null : refineSubject(resolveSubject(family, subject), options.post);
-	const supports = analysis?.supports ?? [];
-	const secondary =
-		family === 'layers'
-			? null
-			: supports
-					.map((key) => refineSubject(resolveSubject(family, key), options.post))
-					.find((key) => key && key !== subject) ?? null;
+	// Sémantická scéna se volí jen z textu a jen tehdy, když uživatel
+	// nepředepsal předmět ani kompozici (galerie a testy tak zůstávají
+	// deterministické). Pravidla jsou v `selection.js`.
+	const semantic =
+		options.post && options.subject === undefined && !options.composition && !options.scene
+			? selectScene({
+					post: options.post,
+					analysis,
+					family,
+					category: options.category ?? options.post?.category
+				})
+			: null;
 
-	const composition = family === 'layers'
-		? 'single'
-		: COMPOSITION_KEYS.includes(options.composition)
-			? options.composition
-			: chooseComposition({ post: options.post, family, category });
+	// Předmět: explicitní, potom scénický, potom z analýzy; neznámý spadne
+	// na motiv rodiny. Sémantická scéna už nese konkrétní motiv, proto se
+	// u ní alias ani zpřesnění neuplatní — jinak by se ztratil (např. slunce).
+	let subject = null;
+	if (family !== 'layers' || semantic) {
+		const candidate =
+			options.subject !== undefined ? options.subject : (semantic?.subject ?? analysis?.subject ?? null);
+		subject = semantic
+			? candidate && HEROES[candidate]
+				? candidate
+				: resolveSubject(family, candidate)
+			: refineSubject(resolveSubject(family, candidate), options.post);
+	}
+
+	const supports = analysis?.supports ?? [];
+	let secondary;
+	if (options.secondary !== undefined) {
+		secondary = options.secondary && HEROES[options.secondary] ? options.secondary : null;
+	} else if (semantic) {
+		secondary = semantic.secondary && HEROES[semantic.secondary] ? semantic.secondary : null;
+	} else if (family === 'layers') {
+		secondary = null;
+	} else {
+		secondary =
+			supports
+				.map((key) => refineSubject(resolveSubject(family, key), options.post))
+				.find((key) => key && key !== subject) ?? null;
+	}
+
+	const composition =
+		family === 'layers' && !semantic
+			? 'single'
+			: COMPOSITION_KEYS.includes(options.composition)
+				? options.composition
+				: chooseComposition({ post: options.post, family, category });
+
+	// Klíč scény: sémantická scéna > dynamická kompozice > rodina.
+	// `family` zůstává kvůli paletě, testům a zpětné kompatibilitě.
+	const scene = options.scene || semantic?.scene || (composition === 'single' ? family : composition);
 
 	const context = {
 		family,
+		scene,
 		subject,
 		secondary,
 		composition,
@@ -92,10 +128,20 @@ export function createGeometricIllustration(options = {}) {
 		palette
 	};
 
+	const elements = options.scene
+		? drawScene(options.scene, context)
+		: semantic
+			? drawScene(semantic.scene, context)
+			: composition === 'single'
+				? SCENES[family](context)
+				: drawScene(composition, context);
+
 	return {
 		style: 'geometric',
 		family,
 		requestedFamily: requested,
+		scene,
+		sceneGroup: SCENE_TYPES.find((type) => type.key === (semantic?.scene || scene))?.group ?? 'family',
 		seed,
 		seedHash: hashString(seed),
 		category: category || null,
@@ -107,6 +153,7 @@ export function createGeometricIllustration(options = {}) {
 		subject,
 		secondary,
 		composition,
-		elements: SCENES[family](context)
+		reason: semantic?.reason ?? analysis?.reason ?? null,
+		elements
 	};
 }

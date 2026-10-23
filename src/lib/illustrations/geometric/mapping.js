@@ -28,9 +28,18 @@ const SUBJECT_ALIAS = {
 	altar: 'temple',
 	roots: 'tree',
 	leaf: 'tree',
+	petal: 'flower',
+	seed: 'sprout',
+	branch: 'tree',
 	forest: 'tree',
 	cloud: 'wind',
-	lightning: 'bolt'
+	lightning: 'bolt',
+	chalice: 'amphora',
+	helmet: 'shield',
+	knife: 'sword',
+	scepter: 'crown',
+	seal: 'scroll',
+	eclipse: 'moon'
 };
 
 const FAMILY_FALLBACK = {
@@ -64,7 +73,16 @@ const FAMILY_FALLBACK = {
 	divergence: 'layers',
 	threshold: 'layers',
 	monolith: 'relic',
-	arch: 'relic'
+	arch: 'relic',
+	celestial: 'discovery',
+	flame: 'nature',
+	cycle: 'metaphor',
+	clash: 'metaphor',
+	pulse: 'metaphor',
+	knot: 'metaphor',
+	hourglass: 'metaphor',
+	heart: 'portrait',
+	convergence: 'metaphor'
 };
 
 export function geometricFamilyFor(family) {

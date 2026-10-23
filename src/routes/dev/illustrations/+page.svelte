@@ -13,6 +13,7 @@
 		DEFAULT_SUBJECT,
 		GEOMETRIC_FAMILY_KEYS,
 		HERO_KEYS,
+		SCENE_TYPES,
 		SUBJECT_BY_KEY,
 		createGeometricIllustration,
 		explainSelection,
@@ -58,7 +59,52 @@
 	};
 	const heroLabel = (key) => SUBJECT_BY_KEY[key]?.label ?? HERO_LABELS[key] ?? key;
 
+	// Sémantické scény: ukázka každého typu s typickým předmětem a doplňkem.
+	// Nejde o nová pravidla — jen o ruční vstup do stejného rendereru, který
+	// scénu jinak vybírá z textu (`selection.js`).
+	const SEMANTIC_DEMO = {
+		bookFire: { family: 'relic', category: 'historie', subject: 'library', secondary: 'flame' },
+		timeFigure: { family: 'portrait', category: 'filozofie', subject: 'figure', secondary: 'clock' },
+		writing: { family: 'relic', category: 'historie', subject: 'script', secondary: 'ship' },
+		disruption: { family: 'metaphor', category: 'ekonomie', subject: 'machine', secondary: 'ruin' },
+		solarSystem: { family: 'discovery', category: 'astronomie', subject: 'sun', secondary: 'planet' },
+		voyage: { family: 'discovery', category: 'historie', subject: 'ship', secondary: 'compass' },
+		mechanism: { family: 'metaphor', category: 'ekonomie', subject: 'machine', secondary: 'gear' },
+		laboratory: { family: 'discovery', category: 'veda', subject: 'flask', secondary: 'microscope' },
+		theatre: { family: 'portrait', category: 'filmy', subject: 'mask', secondary: 'film' },
+		mapScene: { family: 'discovery', category: 'historie', subject: 'map', secondary: 'compass' },
+		labyrinth: { family: 'metaphor', category: 'filozofie', subject: 'labyrinth', secondary: 'key' },
+		metamorphosis: { family: 'nature', category: 'zajimavost', subject: 'butterfly', secondary: 'cocoon' },
+		seedGrowth: { family: 'nature', category: 'zajimavost', subject: 'sprout', secondary: 'tree' },
+		procession: { family: 'portrait', category: 'historie', subject: 'crowd', secondary: 'torch' },
+		siege: { family: 'relic', category: 'historie', subject: 'castle', secondary: 'shield' },
+		monument: { family: 'relic', category: 'historie', subject: 'tower', secondary: 'figure' },
+		ritual: { family: 'relic', category: 'historie', subject: 'candle', secondary: 'temple' },
+		weave: { family: 'relic', category: 'historie', subject: 'loom', secondary: 'thread' },
+		measurement: { family: 'discovery', category: 'veda', subject: 'compass', secondary: 'clock' },
+		orbitCycle: { family: 'discovery', category: 'astronomie', subject: 'cycle', secondary: 'hourglass' },
+		observatory: { family: 'discovery', category: 'astronomie', subject: 'telescope', secondary: 'star' },
+		celestial: { family: 'discovery', category: 'astronomie', subject: 'sun', secondary: null }
+	};
+
 	const SEEDS = ['eden', 'dva', 'tri'];
+
+	// Všech 36 typů scén: sedm rodin, osm kompozic a 22 sémantických scén.
+	const SEMANTIC_GALLERY = SCENE_TYPES.filter((type) => type.group === 'semantic').map((type) => {
+		const demo = SEMANTIC_DEMO[type.key] ?? {};
+		return {
+			...type,
+			spec: createGeometricIllustration({
+				scene: type.key,
+				family: demo.family ?? 'metaphor',
+				category: demo.category ?? 'zajimavost',
+				subject: demo.subject ?? null,
+				secondary: demo.secondary ?? null,
+				seed: `scene:${type.key}`,
+				composition: 'single'
+			})
+		};
+	});
 
 	const gallery = GEOMETRIC_FAMILY_KEYS.map((key) => ({
 		key,
@@ -190,8 +236,9 @@
 		<p class="eyebrow">faakt.io · vývoj</p>
 		<h1>Ilustrační systém</h1>
 		<p class="lede">
-			Sedm rodin, padesát jedna motivů, osm kompozičních vzorů a deterministické varianty.
-			Žádné externí assety. Všechno níže je stejná komponenta, která se vykresluje v kartách feedu.
+			Sedm rodin, {HERO_KEYS.length} motivů, {SCENE_TYPES.length} typů scén a deterministické
+			varianty. Žádné externí assety. Všechno níže je stejná komponenta, která se vykresluje
+			v kartách feedu.
 		</p>
 		<p class="note">
 			{usage} prvků ve scénách · viewBox 320 × 180 · seed = ID příspěvku
@@ -307,7 +354,7 @@
 	</section>
 
 	<section class="families" aria-labelledby="families-title">
-		<h2 id="families-title">Všech sedm kompozic</h2>
+		<h2 id="families-title">Sedm rodinných scén</h2>
 		<p class="section-note">
 			Každá scéna se třemi seedy. Výchozí předměty ukazují, co kompozice
 			obvykle nese; konkrétní motiv se mění podle textu příspěvku, ne jen podle kategorie.
@@ -360,11 +407,34 @@
 					<figcaption>
 						<strong>{item.explanation.subjectLabel ?? item.spec.family}</strong>
 						· {item.explanation.family}
+						· scéna {item.spec.scene}
 						{#if item.explanation.supportLabels.length}
 							+ {item.explanation.supportLabels.join(', ')}
 						{/if}
 					</figcaption>
 					<p class="real-title">{item.title}</p>
+				</figure>
+			{/each}
+		</div>
+	</section>
+
+	<section class="compositions" aria-labelledby="semantic-title">
+		<h2 id="semantic-title">Sémantické scény</h2>
+		<p class="section-note">
+			{SEMANTIC_GALLERY.length} scén, které nevznikají z kategorie,
+			ale z významu textu: požár knihovny, člověk a hodiny, písmo s lodí, stroj místo
+			zříceniny. Každá má vlastní vztah objektů a vlastní pravidlo v <code>selection.js</code>.
+		</p>
+		<div class="grid small">
+			{#each SEMANTIC_GALLERY as item}
+				<figure class="tile">
+					<div class="card-surface">
+						<div class="card-badge">sémantická</div>
+						<div class="card-art">
+							<PostIllustration spec={item.spec} />
+						</div>
+					</div>
+					<figcaption><strong>{item.label}</strong> · {item.note}</figcaption>
 				</figure>
 			{/each}
 		</div>

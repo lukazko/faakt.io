@@ -18,12 +18,14 @@ commitu aktualizovat i tento dokument — počty, tabulky, mapování a testy.
    čistě v JS při renderu.
 2. Vrstva je **deterministická**: seed je ID příspěvku, stejný příspěvek vždy
    vykreslí stejnou scénu — na serveru, v prohlížeči i mezi buildy.
-3. O výběru rozhoduje **analýza českého textu** (titulku a obsahu) přes 88
+3. O výběru rozhoduje **analýza českého textu** (titulku a obsahu) přes 96
    předmětů s kmeny slov, skóre a vazbou na kategorii. Kategorie je záchranná
    síť, ne hlavní rozhodnutí.
 4. Analýza vybírá z **65 analytických rodin**; geometrická vrstva jich používá
-   **7 scén**, **52 kreslených motivů** a **8 kompozičních vzorů**. Mapování je
-   v `geometric/mapping.js`, vztah objektů v `geometric/composition.js`.
+   **7 rodinných scén**, **84 kreslených motivů**, **8 kompozičních vzorů**
+   a **22 sémantických scén** — celkem **36 typů scén**. Mapování je
+   v `geometric/mapping.js`, vztah objektů v `geometric/composition.js`,
+   významová pravidla v `geometric/selection.js`.
 5. Ilustrace je dekorativní (`aria-hidden`, `pointer-events: none`), sedí ve
    flexu pod textem karty a na nízkém viewportu se skrývá.
 
@@ -34,7 +36,7 @@ commitu aktualizovat i tento dokument — počty, tabulky, mapování a testy.
 ```
 src/lib/illustrations/
 ├── index.js                 # jediné veřejné rozhraní knihovny
-├── subjects.js              # 88 předmětů: metadata a klíčová slova (bez kreslení)
+├── subjects.js              # 96 předmětů: metadata a klíčová slova (bez kreslení)
 ├── validate.js              # validateElements(), boundsOf() pro testy a galerii
 ├── palettes.js              # palety kategorií, materiálové barvy, mixHex
 ├── primitives.js            # rect, circle, ellipse, line, path, polyline,
@@ -45,8 +47,9 @@ src/lib/illustrations/
 │                            # explainSelection, normalizeText, wordsOf, countHits
 └── geometric/
     ├── index.js             # createGeometricIllustration()
-    ├── scenes.js            # 7 scén × 8 kompozičních vzorů
-    ├── heroes.js            # 52 kreslicích funkcí motivů
+    ├── selection.js         # 22 sémantických scén: význam textu → scéna
+    ├── scenes.js            # 7 rodin + 8 kompozic + 22 sémantických scén
+    ├── heroes.js            # 84 kreslicích funkcí motivů
     ├── mapping.js           # 65 rodin → 7 scén, aliasy předmětů
     ├── composition.js       # volba vzoru (dělení, konfrontace, proměna…)
     ├── refine.js            # zpřesnění obecného motivu podle textu
@@ -62,8 +65,10 @@ Doplňující soubory:
 | `src/lib/components/PostIllustration.svelte` | Jediný renderer: spec → SVG. Používá ho feed i galerie. |
 | `src/routes/dev/illustrations/+page.svelte` | Vývojová galerie: prototyp, laboratoř, všech 7 scén, 8 kompozičních vzorů, reálné příspěvky, palety. |
 | `src/routes/dev/illustrations/prototype-cases.js` | 14 ručně vybraných reálných příspěvků pro prototyp. |
+| `scripts/audit-illustrations.mjs` | Deterministický audit všech příspěvků: scény, motivy, strukturální otisky, fallbacky, varování, regresní případy, srovnání s baseline. |
 | `tests/analysis.test.mjs` | Testy analýzy textu a metadat předmětů. |
 | `tests/geometry.test.mjs` | Testy scén na všech 766 příspěvcích, zlaté otisky, determinismus, paleta, čistota modulů. |
+| `tests/selection.test.mjs` | Regresní testy sémantického výběru: pět zadaných příkladů a třídy chyb z auditu. |
 
 Všechny moduly v `src/lib/illustrations/` jsou **čisté** — žádné Svelte, žádný
 DOM, žádný `fetch`, žádné volání LLM. Díky tomu běží přímo v Node testech.
@@ -79,13 +84,18 @@ posts.json (766 příspěvků)
    │
    ├─ post.title + content + category ────► analyzePost()
    │                                           │
-   │                                           ├─ scoreMotifs()      88 předmětů × kmeny slov
+   │                                           ├─ scoreMotifs()      96 předmětů × kmeny slov
    │                                           ├─ detectChronology() časová osa
    │                                           ├─ ABSTRACT_TAGS      abstraktní rodiny
    │                                           └─ CATEGORY_FALLBACK  poslední záchrana
    │                                           ▼
-   │                            { family, subject, supports, concept, reason, scores }
-   │
+   │                     { family, subject, supports, concept, reason, scores }
+   │                                           │
+   │                                           ▼
+   │                                  selectScene()   22 sémantických pravidel
+   │                                           │      (požár knihovny, čas,
+   │                                           │       písmo, stroj, plavba…)
+   │                                           ▼
    ├─ family ─────────────────────────────► geometricFamilyFor()  mapování 65 → 7
    ├─ subject ────────────────────────────► resolveSubject()      alias + validace
    │                                        └─ refineSubject()    konkrétnější motiv
@@ -96,10 +106,10 @@ posts.json (766 příspěvků)
                               createGeometricIllustration({ post })
                                              │
                                              ▼
-                        spec = { style, family, requestedFamily, seed, seedHash,
-                                 category, variant, density, scale, balance,
-                                 palette, subject, secondary, composition,
-                                 elements: [...] }
+                        spec = { style, family, requestedFamily, scene, sceneGroup,
+                                 seed, seedHash, category, variant, density, scale,
+                                 balance, palette, subject, secondary, composition,
+                                 reason, elements: [...] }
                                              │
                                              ▼
                                  PostIllustration.svelte  →  <svg>
@@ -107,10 +117,17 @@ posts.json (766 příspěvků)
 
 ### Klíčové API
 
-- `createGeometricIllustration({ post?, family?, subject?, seed?, category?, variant?, density?, scale?, balance?, composition? })`
-  — **jediný vstup pro produkci**. Vrací spec s polem `elements`; `composition`
-  lze vynutit (galerie/testy), jinak se odvodí z textu.
+- `createGeometricIllustration({ post?, family?, subject?, secondary?, scene?, seed?, category?, variant?, density?, scale?, balance?, composition? })`
+  — **jediný vstup pro produkci**. Vrací spec s polem `elements`; `scene`
+  a `composition` lze vynutit (galerie/testy), jinak se odvodí z textu.
+  `secondary` je určený jen pro galerii a testy; v produkci ho dodá analýza
+  nebo sémantická scéna.
 - `analyzePost(post)` → `{ family, subject, supports, concept, reason, scores }`.
+- `selectScene({ post, analysis, family, category })` → `{ scene, subject, secondary, reason }`
+  nebo `null`; čistě deterministická pravidla bez sítě a LLM.
+- `SCENE_TYPES` → všech 36 typů scén s `{ key, group, label, note }`, kde
+  `group` je `family`, `composition` nebo `semantic`.
+- `SEMANTIC_SCENE_KEYS` → 22 klíčů sémantických scén v pořadí priorit.
 - `explainSelection(post)` → totéž plus `subjectLabel` a `supportLabels`
   (používá galerie, v produkci se nevolá).
 - `validateElements(elements)` → `{ ok, errors }`; kontroluje tvary, konečná
@@ -171,7 +188,7 @@ shodu. Kmeny se normalizují stejnou funkcí, takže diakritika v datech nevadí
 
 ### 3.2 Skóre předmětů
 
-`scoreMotifs(post)` projde všech 88 předmětů:
+`scoreMotifs(post)` projde všech 96 předmětů:
 
 ```
 score = titleHits × 5 + min(contentHits, 4) × 1,2 + min(affinity, 3) × 0,35
@@ -197,9 +214,10 @@ v `families`.
 Doplňky (`supports`): další předměty se skóre ≥ 1,2, rolí `support`/`both`
 a stejnou rodinou, maximálně `maxSupports` (výchozí 2, `0` doplňky zakáže).
 Geometrická vrstva z `supports` odvodí `spec.secondary` (první doplněk, který
-po aliasu a zpřesnění není stejný jako hlavní motiv), ale **do scény ho zatím
-nekreslí** — ilustrace má nést jednu myšlenku. Pole zůstává v analýze pro
-galerii a budoucí rozšíření.
+po aliasu a zpřesnění není stejný jako hlavní motiv). Sémantické scény si
+`secondary` určují samy a kreslí ho jako druhý objekt; kompozice ho použijí,
+jen když dává smysl (např. `split` kreslí druhou polovinu z `secondary`).
+Osamocená `single` scéna zůstává jeden motiv.
 
 ### 3.4 Chronologie
 
@@ -248,7 +266,7 @@ Skóre je `titleHits × 5 + min(contentHits, 4) × 1,2` a práh opět 2,5.
 
 ---
 
-## 4. Metadata předmětů (88)
+## 4. Metadata předmětů (96)
 
 `subjects.js` obsahuje **jen metadata** — žádné kreslicí funkce:
 
@@ -265,15 +283,22 @@ Skóre je `titleHits × 5 + min(contentHits, 4) × 1,2` a práh opět 2,5.
 }
 ```
 
-Rozložení rolí: 45 × `subject`, 7 × `support`, 36 × `both`.
+Rozložení rolí: 52 × `subject`, 7 × `support`, 37 × `both`.
 Soubor exportuje `SUBJECTS`, `SUBJECT_BY_KEY`, `SUBJECT_KEYS`.
 
-Předměty jsou řazené symbolické (45) a poté základní (43) — toto pořadí je
-součást chování, viz 3.2.
+Předměty jsou řazené symbolické a poté základní — toto pořadí je součást
+chování, viz 3.2. Nové předměty se proto přidávají na konec, ne doprostřed.
+
+Mezi novější patří `machine`, `ship`, `library`, `script`, `compass`, `loom`,
+`lyre`, `tower`, `key`, `hourglass`, `labyrinth`, `wolf`, `castle`, `sprout`,
+`flower`, `butterfly`, `shield`, `quill`, `magnifier`, `candle`, `torch`,
+`volcano`, `rain`, `thread`, `cycle`, `laurel`, `cat`, `mushroom`, `cocoon`,
+`crack` a `glacier`. Vznikly z auditních tříd textů, které dosud končily
+u obecného motivu (obchod, písmo, tkaní, obléhání, přírodní procesy).
 
 ---
 
-## 5. Scény (7) a kompoziční vzory (8)
+## 5. Scény (7 + 8 + 22) a kompoziční vzory
 
 Zdroj: `geometric/scenes.js`, konstanta `SCENES`.
 
@@ -322,11 +347,54 @@ o abstraktní text, ne o konkrétní věc.
 `GEOMETRIC_FAMILY_KEYS` je odvozené z `Object.keys(SCENES)`; pořadí je
 `portrait, discovery, storybook, relic, metaphor, nature, layers`.
 
+### 5.1 Sémantické scény (22)
+
+Zdroj: `geometric/selection.js` (pravidla) a `geometric/scenes.js` (kreslení).
+Rodina odpovídá na „jaký jazyk“, kompozice na „jaký vztah“, sémantická scéna
+na „co se v textu skutečně děje“. Pravidla jsou seřazená podle priority
+a první shoda vyhrává; každé vrací `{ scene, subject, secondary, reason }`.
+
+| Scéna | Hlavní objekt + doplněk | Kdy se vybere |
+|---|---|---|
+| `bookFire` | knihovna/kniha + plamen, létající listy | požár knihovny nebo knihy |
+| `timeFigure` | postava + hodiny, přerušovaný oblouk | člověk a jeho vztah k času |
+| `writing` | písmo/stélé + loď nebo pero | písmo, abeceda, šíření znaků |
+| `disruption` | stroj + zaniklý motiv, šipka | inovace nahrazuje starý svět |
+| `solarSystem` | Slunce ve středu + oběžnice | Slunce a planety v jednom textu |
+| `voyage` | loď + vlny, trasa, kompas | plavba, obchod, námořní cesta |
+| `mechanism` | stroj + ozubené kolo, šipka | stroj, vynález, mechanismus |
+| `laboratory` | baňka + mikroskop, stůl | laboratoř, experiment, výzkum |
+| `theatre` | maska + film, světelné kužely | divadlo, inscenace, film |
+| `mapScene` | mapa + trasa, kompas | mapa, objevování, navigace |
+| `labyrinth` | bludiště + postava, klíč, nit | bludiště a rozhodnutí |
+| `metamorphosis` | kukla → motýl, šipka | proměna, metamorfóza |
+| `seedGrowth` | klíček → strom, stoupající linie | klíčení a růst (musí být proces) |
+| `procession` | dav + pochodeň, šipka | pochod, demonstrace, shromáždění |
+| `siege` | hrad/hradba + štít, šípy | obléhání, válka o pevnost |
+| `monument` | věž/chrám + malá postava, slunce | architektura a měřítko člověka |
+| `ritual` | svíčka + dva chrámy, kruh | obřad, ritus, bohoslužba |
+| `weave` | stav + pásy látky, nit | tkaní, textil, tradice |
+| `measurement` | kompas + hodiny, stupnice | měření času i prostoru |
+| `orbitCycle` | prstenec + přesýpací hodiny, body | cykly, návraty, období |
+| `observatory` | dalekohled + konkrétní těleso, záměrná linie | pozorování oblohy |
+| `celestial` | jedno nebeské těleso + dráha, hvězdy | těleso je hlavní objekt titulku |
+
+Priorita je záměrná: konkrétní událost (požár, plavba, obléhání) předchází
+obecnému tělesu a teprve potom rozhoduje rodina. Příklady regresí:
+`754` → `disruption/machine`, `085` → `solarSystem/sun`, `199` →
+`bookFire/library`, `417` → `timeFigure/figure`, `540` → `writing/script`.
+
+Text `003` (hvězda) je `celestial/star`, i když obsah zmiňuje dalekohled —
+titulek jmenuje objekt, ne přístroj. Naopak `580` (měsíc Titanu) je
+`celestial/moon`, protože spojení „sluneční soustava“ se do Slunce nepočítá.
+
 ---
 
-## 6. Kreslené motivy (52)
+## 6. Kreslené motivy (84)
 
 Zdroj: `geometric/heroes.js`, konstanta `HEROES`.
+
+Základní a symbolické motivy:
 
 `bust`, `flask`, `telescope`, `book`, `amphora`, `column`, `tree`, `octopus`,
 `balance`, `brain`, `palette`, `polyhedron`, `film`, `gear`, `clock`, `atom`,
@@ -336,11 +404,22 @@ Zdroj: `geometric/heroes.js`, konstanta `HEROES`.
 `flame`, `microscope`, `map`, `coin`, `infinity`, `figure`, `wind`, `bolt`,
 `mountain`, `snowflake`.
 
+Motivy přidané v rozšíření 0.6:
+
+`machine`, `ship`, `library`, `tower`, `loom`, `mask`, `key`, `hourglass`,
+`labyrinth`, `wolf`, `castle`, `sprout`, `flower`, `butterfly`, `shield`,
+`quill`, `script`, `magnifier`, `compass`, `lyre`, `candle`, `torch`,
+`volcano`, `rain`, `thread`, `cycle`, `laurel`, `cat`, `mushroom`, `cocoon`,
+`crack`, `glacier`.
+
 Nové motivy vznikly tam, kde analýza už rozlišovala předmět, ale geometrie ho
 slévala do obecného tvaru: astronomie (`comet`, `galaxy`, `blackhole`, `rocket`,
-`moon`, `star`), abstrakce (`entropy`, `knot`), historie (`throne`, `stele`,
-`temple`, `ruin`, `wall`) a biologie (`dna`, `bird`). Každý má vlastní
-siluetu, ne jen jinou barvu obecného tvaru.
+`moon`, `star`, `glacier`), abstrakce (`entropy`, `knot`, `cycle`), historie
+(`throne`, `stele`, `temple`, `ruin`, `wall`, `castle`, `tower`, `laurel`),
+řemesla a obchod (`loom`, `thread`, `ship`, `compass`, `key`, `hourglass`),
+písmo (`script`, `quill`, `library`), příroda (`sprout`, `flower`, `butterfly`,
+`cocoon`, `mushroom`, `volcano`, `rain`, `cat`, `wolf`) a válka (`shield`,
+`crack`). Každý má vlastní siluetu, ne jen jinou barvu obecného tvaru.
 
 Každá funkce dostane kontext `{ palette, variant, density, scale, balance, rand,
 random }` a vrací pole primitiv v **lokálních souřadnicích kolem počátku**.
@@ -375,15 +454,19 @@ zná sedm, zbytek se mapuje:
 - `FAMILY_FALLBACK` — např. `grid/data/timeline/network → layers`,
   `orbit/signals → discovery`,
   `structure/armory/throne/temple/ritual/monolith/arch → relic`,
-  `storm/peak/snowfield/undergrowth/transformation → nature`,
+  `storm/peak/snowfield/undergrowth/transformation/flame → nature`,
   `rupture/decay/descent/lattice/meander/cascade/divergence/threshold → layers`,
-  `crowd/gaze/silhouette → portrait`, `contrast → metaphor`.
+  `crowd/gaze/silhouette/heart → portrait`,
+  `contrast/clash/pulse/knot/hourglass/convergence/cycle → metaphor`,
+  `celestial → discovery`.
   Neznámá rodina → `metaphor`.
 
 `SUBJECT_ALIAS` překládá názvy předmětů na kreslené motivy:
 
 `lawScroll→scroll`, `periodicTable→flask`, `altar→temple`,
-`roots/leaf/forest→tree`, `cloud→wind`, `lightning→bolt`.
+`roots/leaf/branch/forest→tree`, `petal→flower`, `seed→sprout`,
+`cloud→wind`, `lightning→bolt`, `chalice→amphora`, `helmet→shield`,
+`knife→sword`, `scepter→crown`, `seal→scroll`, `eclipse→moon`.
 
 Aliasy zůstaly jen tam, kde jde o skutečně totéž (oltář je součást chrámu,
 mrak a vítr sdílejí pohyb). Dřívější ztrátové aliasy (`throne→crown`,
@@ -470,12 +553,15 @@ produkční renderer.
 2. **Laboratoř** — volba scény, předmětu, varianty, hustoty, měřítka, balance
    a kompozice; čte všechny parametry včetně `composition` a `secondary`
    a ukazuje počet prvků i seed.
-3. **Všech sedm scén** — každá se třemi seedy.
-4. **Osm kompozičních vzorů** — stejná koruna ve všech vzorech, aby byl vidět
+3. **Sedm rodinných scén** — každá se třemi seedy.
+4. **Sémantické scény** — všech 22 typů s typickým předmětem a doplňkem;
+   popisky a poznámky jdou z `SEMANTIC_SCENE_META`, galerie je neduplikuje.
+   Nadpis uvádí celkový počet `SCENE_TYPES` (36) a počet motivů (`HERO_KEYS`).
+5. **Osm kompozičních vzorů** — stejná koruna ve všech vzorech, aby byl vidět
    rozdíl mezi motivem a vztahem.
-5. **Skutečné příspěvky** — šest případů s vysvětlením výběru
-   (`explainSelection`).
-6. **Palety a hustota** — stejná scéna `metaphor` napříč kategoriemi
+6. **Skutečné příspěvky** — šest případů s vysvětlením výběru
+   (`explainSelection`) a názvem zvolené scény.
+7. **Palety a hustota** — stejná scéna `metaphor` napříč kategoriemi
    a hustotou 0,35 → 1.
 
 Galerie není součástí feedu, ale je součástí statického buildu. Pokud ji
@@ -486,7 +572,7 @@ nebo přesunout mimo `src/routes`.
 
 ## 11. Testy
 
-`npm test` spouští dva soubory, dohromady 32 testů:
+`npm test` spouští tři soubory, dohromady 45 testů:
 
 ### `tests/analysis.test.mjs`
 
@@ -498,7 +584,7 @@ nebo přesunout mimo `src/routes`.
 - normalizace diakritiky, velikosti písmen a HTML,
 - deterministický fallback pro `null` a neznámou kategorii,
 - `explainSelection` odpovídá `analyzePost`,
-- konzistence metadat 88 předmětů (role, rodiny, tagy, žádné `build`).
+- konzistence metadat 96 předmětů (role, rodiny, tagy, žádné `build`).
 
 ### `tests/geometry.test.mjs`
 
@@ -518,8 +604,39 @@ nebo přesunout mimo `src/routes`.
 - stabilita seedu z ID,
 - čistota modulů: žádný `fetch`, žádné `anthropic|openai|generat`.
 
+### `tests/selection.test.mjs`
+
+- pět zadaných regresí: inovace → `disruption/machine`, Slunce →
+  `solarSystem/sun`, požár knihovny → `bookFire/library`, člověk a čas →
+  `timeFigure/figure`, fénické písmo → `writing/script`;
+- nebeská tělesa: Slunce nikdy jako Měsíc, Měsíc nikdy jako Slunce,
+  hvězda v titulku před dalekohledem, Titan jako Měsíc i přes „sluneční soustavu“;
+- hranice krátkých řetězců: „dna“ uvnitř „prázdná“ nesmí změnit motiv;
+- „revoluční“ bez davu nesmí spustit pochod;
+- `layers` zůstává bez motivu, volba je deterministická a nese `reason`;
+- neutrální text bez specifické scény vrací `null`.
+
 Zlaté otisky se při záměrné změně kreslení přepočítají ručně a v commitu se
 vysvětlí proč. Bez toho je test bezcenný.
+
+### Audit a diagnostika
+
+`scripts/audit-illustrations.mjs` projde všech 766 příspěvků stejným kódem jako
+produkce a vypíše:
+
+- počty scén, motivů, kompozic, rodin a strukturálních otisků (bez barev,
+  pozic, měřítka a rotace), včetně koncentrace nejčastějšího motivu,
+- fallbacky podle kategorie a podíl na všech příspěvcích,
+- varování tříděná po typech: `category-fallback`, `subject-not-in-text`,
+  `sun-for-moon`, `moon-for-sun`, `instrument-over-object`,
+  `ruin-for-abstract-decline`,
+- regresní případy a jejich skutečný výsledek,
+- srovnání s baseline (`--baseline`, `--write-baseline`).
+
+Užitečné přepínače: `--top`, `--limit`, `--scene`, `--family`, `--show`,
+`--json`, `--md`, `--rows`. Exit kód je nenulový, když některý regresní případ
+selže. Aktuální stav: 36 scén, 68 použitých motivů, 181 strukturálních scén,
+56 fallbacků (7,3 %), 91 varování, 5/5 regresí.
 
 ---
 
@@ -547,7 +664,7 @@ Odstraněno:
 Zachováno a přesunuto:
 
 - analýza textu beze změny chování → `analysis/analyze.js`,
-- metadata 88 motivů bez kreslení, ve stejném pořadí → `subjects.js`,
+- metadata motivů bez kreslení, ve stejném pořadí → `subjects.js`,
 - mapování rodin a předmětů → `geometric/mapping.js`,
 - palety, primitiva a PRNG beze změny,
 - `validateElements` a `boundsOf` → `validate.js`.
@@ -570,12 +687,24 @@ větev už není v klientském bundlu; největší JS chunk klesl z přibližně
 4. Spusť `npm test`; zlaté otisky se nesmí změnit, dokud se nemění existující
    motivy.
 
-**Nová scéna**
+**Nová rodinná scéna**
 
 1. Napiš scénu v `geometric/scenes.js` a zaregistruj ji v `SCENES`.
 2. Doplň `DEFAULT_SUBJECT` a případně `FAMILY_FALLBACK`.
 3. Doplň popisek a kategorii do `SCENE_META`/`SCENE_CATEGORY` v galerii.
-4. Ověř validitu pro všech 52 motivů.
+4. Ověř validitu pro všech 84 motivů.
+
+**Nová sémantická scéna**
+
+1. Přidej kreslicí funkci do `SEMANTIC_SCENES` v `geometric/scenes.js`
+   a popisek do `SEMANTIC_SCENE_META` (label + note).
+2. Přidej pravidlo do `selectScene()` v `geometric/selection.js` na správné
+   místo priority (konkrétnější význam výš) a klíč do `SEMANTIC_SCENE_KEYS`.
+3. Doplň ukázkový předmět a doplněk do `SEMANTIC_DEMO` v galerii.
+4. Přidej regresní test do `tests/selection.test.mjs` — jak pozitivní případ,
+   tak text, který scénu spustit nesmí.
+5. Spusť audit a sleduj, kolik příspěvků scéna zachytila; pokud jich je
+   nepřiměřeně mnoho, zúžete kmeny nebo přidejte druhou podmínku.
 
 **Nový kompoziční vzor**
 
@@ -609,13 +738,23 @@ vysvětlení, proč se vizuál mění.
 
 ## 14. Známá omezení
 
-- **Většina scén zůstává `single`.** Dynamický vzor dostane jen přibližně
-  šestina příspěvků (111 z 766). Je to záměr — vztah se nemá vnucovat textu,
-  který žádný nemá — ale znamená to, že variabilita stojí hlavně na motivech.
-- **Druhá kopie je vždy stejný motiv.** Konfrontace neumí postavit proti sobě
-  dva různé předměty; `secondary` se do geometrie zatím nekreslí.
+- **Většina scén zůstává `single`.** Dynamický kompoziční vzor dostane 115
+  příspěvků z 766 (15 %); zbytek řeší sémantické scény, které kreslí vlastní
+  vztah objektů. Je to záměr — vztah se nemá vnucovat textu, který žádný nemá.
+- **Druhá kopie v kompozicích je obvykle stejný motiv.** `split` umí použít
+  `secondary`, konfrontace a spojení kreslí dvě kopie téhož motivu. Sémantické
+  scény naopak staví dva různé předměty (knihovna + plamen, postava + hodiny).
+- **Fallbacky zůstávají u abstraktní filozofie.** 56 příspěvků (7,3 %) nemá
+  konkrétní předmět ani sémantickou scénu a spadne na rodinu podle kategorie;
+  nejčastěji jde o abstraktní filozofické argumenty. Diagnostika je hlásí jako
+  `category-fallback`, aby se daly cíleně doplňovat.
+- **Sémantická pravidla jsou heuristiky.** Každé má druhou podmínku, aby se
+  nespustilo na jediném slově („revoluční“ bez davu, „semena“ bez klíčení,
+  „sluneční soustava“ bez Slunce). Přesto může méně obvyklý text minout;
+  audit proto vypisuje distribuci a varování.
 - **Refine je heuristika.** Patnáct pravidel pokrývá časté případy; méně
-  obvyklý text zůstane u obecného motivu. Není to klasifikátor.
+  obvyklý text zůstane u obecného motivu. Není to klasifikátor. Krátké řetězce
+  musí mít hranice slov (`dna` nesmí chytit „prázdná“).
 - **`heelix`** — překlep v klíči zůstává kvůli kompatibilitě; nový kód používá
   `dna` (viz 6).
 - **`&amp;` v textu** se normalizuje na slovo `amp`; na skóre to nemá vliv,

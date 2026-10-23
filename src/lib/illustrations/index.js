@@ -19,11 +19,15 @@ export {
 	COMPOSITION_KEYS,
 	COMPOSITION_META,
 	REFINEMENTS,
+	SCENE_TYPES,
+	SEMANTIC_SCENE_KEYS,
 	chooseComposition,
 	createGeometricIllustration,
 	deriveSeed,
+	drawScene,
 	geometricPalette,
-	refineSubject
+	refineSubject,
+	selectScene
 } from './geometric/index.js';
 
 export {

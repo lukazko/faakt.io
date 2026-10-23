@@ -91,7 +91,7 @@ export const SUBJECTS = [
 		note: "světlo, teplo, život",
 		role: "subject",
 		families: ["celestial"],
-		tags: ["slunce*", "slunci*", "solarn*", "solární*", "svetlo*", "světlo*"],
+		tags: ["slunce*", "slunci*", "sluncem*", "slunecni*", "sluneční*", "solarn*", "solární*", "heliocentr*"],
 		categories: { "astronomie": 2.5, "fyzika": 1, "zajimavost": 0.5 }
 	},
 	{
@@ -340,10 +340,12 @@ export const SUBJECTS = [
 	{
 		key: "ruin",
 		label: "Zřícenina",
-		note: "zánik, trosky, paměť místa",
+		note: "fyzické trosky, paměť místa",
 		role: "both",
 		families: ["decay"],
-		tags: ["zricenin*", "zřícenin*", "ruina*", "ruiny*", "trosky*", "trosk*", "upadek*", "úpadek*", "zanik*", "zánik*", "chatar*", "chátr*"],
+		// Jen fyzická zřícenina. Abstraktní úpadek (firma, instituce, říše)
+		// řeší kompozice a abstraktní rodiny, ne kámen v sutinách.
+		tags: ["zricenin*", "zřícenin*", "ruina*", "ruiny*", "trosky*", "trosk*", "chatar*", "chátr*"],
 		categories: { "historie": 2, "umeni": 1 }
 	},
 	{
@@ -435,6 +437,15 @@ export const SUBJECTS = [
 		families: ["storybook", "portrait", "relic"],
 		tags: ["svitek*", "pergamen*", "rukopis*", "listin*", "dokument*", "ustava", "ustavy", "ustavu", "ustave", "ustavou", "ustavni*", "ustavnim", "ustavnich", "zakonik*", "zákoník*", "dekret*", "chart*", "smlouv*", "zapis*", "kronik*", "text", "texty", "textu", "textem", "textum", "textech", "textove*", "textovy*"],
 		categories: { "literatura": 1, "historie": 1.5, "politika": 1.5, "filozofie": 0.5 }
+	},
+	{
+		key: "wall",
+		label: "Zeď",
+		note: "bariéra, hranice, rozdělení",
+		role: "subject",
+		families: ["structure", "rupture", "relic"],
+		tags: ["zed", "zdi", "zedi", "zedich", "barier*", "hranic*", "hradb*", "opevnen*"],
+		categories: { "politika": 2.5, "historie": 2 }
 	},
 	{
 		key: "quill",
@@ -542,7 +553,7 @@ export const SUBJECTS = [
 		note: "biologie, buňky, mikrobiologie",
 		role: "subject",
 		families: ["discovery"],
-		tags: ["mikroskop*", "bunk*", "bakteri*", "vir", "viru", "viry", "virum", "virech", "virov*", "virus*", "viraln*", "mikrob*", "vzorek*", "tkan*", "tkán*", "mikroskopick*"],
+		tags: ["mikroskop*", "bunk*", "bakteri*", "vir", "viru", "viry", "virum", "virech", "virov*", "virus*", "viraln*", "mikrob*", "vzorek*", "tkan*", "tkán*", "mikroskopick*", "inzulin*", "hormon*", "medicin*"],
 		categories: { "veda": 2.5 }
 	},
 	{
@@ -551,7 +562,9 @@ export const SUBJECTS = [
 		note: "astronomie, pozorování oblohy",
 		role: "subject",
 		families: ["discovery"],
-		tags: ["dalekohled*", "teleskop*", "hvezd*", "hvězd*", "planet*", "vesmir*", "vesmír*", "komet*", "galaxi*", "astronom*", "obloh*", "souprav*", "orbit*", "mesic*", "měsíc*", "slunce*"],
+		// Dalekohled vlastní jen sebe a akt pozorování. Objekty oblohy mají
+		// vlastní motivy; jinak přístroj přebije to, co se pozoruje.
+		tags: ["dalekohled*", "teleskop*", "astronom*", "radioastronom*", "obloh*", "pozorovan*", "anten*", "mikrovln*"],
 		categories: { "astronomie": 2.5, "fyzika": 0.5 }
 	},
 	{
@@ -587,7 +600,7 @@ export const SUBJECTS = [
 		note: "planety, sluneční soustava, exoplanety",
 		role: "subject",
 		families: ["discovery"],
-		tags: ["planet*", "mars*", "venuse*", "venuše*", "jupiter*", "saturn*", "neptun*", "uran*", "zeme", "zemi", "zem", "zemich", "zememi", "zemekoule*", "zeme", "zemi", "zem", "zemich", "zememi", "zemekoule*", "exoplanet*", "obloha*"],
+		tags: ["planet*", "mars*", "venuse*", "venuše*", "jupiter*", "saturn*", "neptun*", "uran*", "zeme", "zemi", "zem", "zemich", "zememi", "zemekoule*", "exoplanet*"],
 		categories: { "astronomie": 2.5 }
 	},
 	{
@@ -596,7 +609,9 @@ export const SUBJECTS = [
 		note: "gravitace, horizont událostí",
 		role: "subject",
 		families: ["discovery"],
-		tags: ["cerna*", "černá*", "cernou*", "černou*", "cerny*", "černý*", "horizont*", "singularit*", "gravitac*", "pohlti*", "pohlcen*"],
+		// „Černá“ a „pohlcená“ samy o sobě nejsou černá díra (černá bakterie,
+		// pohlcená mitochondrie). Motiv drží jen astronomické pojmy.
+		tags: ["cernodir*", "horizont*", "singularit*", "gravitac*"],
 		categories: { "astronomie": 2.5, "fyzika": 1 }
 	},
 	{
@@ -759,7 +774,9 @@ export const SUBJECTS = [
 		note: "čas, období, věčnost",
 		role: "subject",
 		families: ["metaphor", "hourglass", "cycle"],
-		tags: ["cas", "casu", "casem", "casove*", "casovy*", "hodin*", "kalendar*", "kalendář*", "stoleti*", "století*", "obdobi*", "období*", "era", "eru", "vecnost*", "věčnost*", "budoucnost*", "minulost*"],
+		// Hodiny jsou předmět, ne každý letopočet. „Století“ a „období“ patří
+		// chronologii, jinak by se hodiny objevily u každého historického textu.
+		tags: ["cas", "casu", "casem", "casove*", "casovy*", "hodin*", "hodinky*", "kalendar*", "kalendář*", "vecnost*", "věčnost*"],
 		categories: { "historie": 1, "filozofie": 1, "fyzika": 0.5 }
 	},
 	{
@@ -806,6 +823,71 @@ export const SUBJECTS = [
 		families: ["metaphor", "cycle"],
 		tags: ["nekonec*", "nekoneč*", "infinit*", "limita*", "opakovan*", "fractal*", "fraktál*", "rekurz*"],
 		categories: { "matematika": 2.5, "filozofie": 1 }
+	},
+	// --- Předměty doplněné pro scénickou vrstvu -----------------------------
+	// Drží vlastní sémantiku tam, kde dřív text spadl na obecný motiv rodiny.
+	{
+		key: "machine",
+		label: "Stroj",
+		note: "vynález, průmysl, technologická změna",
+		role: "subject",
+		families: ["metaphor", "discovery", "structure"],
+		tags: ["vynalez*", "vynález*", "inovac*", "stroj*", "strojni*", "strojní*", "mechanismus*", "mechaniz*", "technolog*", "prumysl*", "průmysl*", "tovarn*", "továrn*", "vyrobni*", "výrobní*", "automatiz*", "motor*", "lokomotiv*", "zeleznice*", "železnice*"],
+		categories: { "ekonomie": 2.5, "pocitacove-vedy": 2, "veda": 1.5, "fyzika": 1, "historie": 1 }
+	},
+	{
+		key: "ship",
+		label: "Loď",
+		note: "moře, obchod, plavba, objevování",
+		role: "subject",
+		families: ["discovery", "structure", "nature"],
+		tags: ["lod*", "loď*", "plachet*", "plavidl*", "korab*", "koráb*", "flotil*", "namorn*", "námořn*", "moreplav*", "pristav*", "přístav*", "pobrezi*", "pobřeží*", "obchodnik*", "obchodníc*", "plavb*", "vyplul*", "plul*"],
+		categories: { "historie": 2, "politika": 1, "ekonomie": 1, "zajimavost": 1 }
+	},
+	{
+		key: "script",
+		label: "Písmo",
+		note: "písmo, abeceda, znaky, zápis",
+		role: "subject",
+		families: ["storybook", "relic", "portrait"],
+		tags: ["pismo", "písmo", "pisma", "písma", "pismem", "písmen*", "pismen*", "abeced*", "alfabet*", "znak*", "znaky", "znaku", "fenick*", "fénick*", "run*", "glyf*", "zapis*", "zápis*", "napis*", "nápis*", "klinopis*", "klínopis*", "gramotnost*"],
+		categories: { "historie": 2.5, "literatura": 1.5, "veda": 0.5 }
+	},
+	{
+		key: "library",
+		label: "Knihovna",
+		note: "vědění, archiv, knihy pohromadě",
+		role: "subject",
+		families: ["storybook", "relic", "structure"],
+		tags: ["knihovn*", "bibliotek*", "archiv*", "museion*", "múseion*", "sbirka*", "sbírka*", "svitk*", "svazk*", "regal*", "regál*"],
+		categories: { "historie": 2.5, "literatura": 2, "veda": 1 }
+	},
+	{
+		key: "compass",
+		label: "Kompas",
+		note: "navigace, orientace, měření",
+		role: "subject",
+		families: ["discovery", "structure", "metaphor"],
+		tags: ["kompas*", "buzol*", "buzola*", "navigac*", "astrolab*", "mereni*", "měření*", "zameren*", "zaměřen*"],
+		categories: { "astronomie": 1.5, "historie": 1.5, "veda": 1, "fyzika": 0.5 }
+	},
+	{
+		key: "loom",
+		label: "Tkalcovský stav",
+		note: "tkaní, řemeslo, tradice, kultura",
+		role: "subject",
+		families: ["structure", "ritual", "metaphor"],
+		tags: ["tkani*", "tkaní*", "tkalc*", "tkadl*", "textil*", "látk*", "latk*", "nit*", "nitě*", "osnova*", "utek*", "útku*", "remesl*", "řemesl*", "tradic*", "preden*", "předen*"],
+		categories: { "historie": 1.5, "umeni": 1.5, "zajimavost": 1, "ekonomie": 0.5 }
+	},
+	{
+		key: "lyre",
+		label: "Lyra",
+		note: "hudba, poezie, rytmus",
+		role: "both",
+		families: ["metaphor", "ritual", "portrait"],
+		tags: ["hudb*", "hudeb*", "lyr*", "housl*", "klavir*", "klavír*", "not*", "melodi*", "rytmus*", "rytm*", "ton*", "skladatel*", "zpev*", "zpěv*", "orchestr*", "koncert*"],
+		categories: { "umeni": 2.5, "filozofie": 0.5, "zajimavost": 0.5 }
 	}
 ];
 

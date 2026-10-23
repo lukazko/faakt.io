@@ -59,7 +59,8 @@ const REFINEMENTS = [
 	{
 		subject: 'dna',
 		from: ['flask', 'microscope'],
-		test: /dna|sroubovic|helix/
+		// Krátké „dna“ musí být samostatné slovo, jinak chytí „prazdna“.
+		test: /(^| )dna( |$)|sroubovic|helix/
 	},
 	{
 		subject: 'ruin',

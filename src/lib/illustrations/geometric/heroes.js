@@ -1361,6 +1361,625 @@ function geoWall({ palette: p, variant }) {
 	return out;
 }
 
+// --- Předměty scénické vrstvy --------------------------------------------
+// Doplňují motivy, které dřív existovaly jen jako metadata a spadly na
+// výchozí objekt rodiny (loď místo hodin, knihovna místo knihy…).
+
+/** Ozubené kolo v lokálních souřadnicích — stavební prvek stroje. */
+function gearWheel(cx, cy, r, teeth, fill, p) {
+	const points = [];
+	for (let i = 0; i < teeth * 2; i++) {
+		const angle = (Math.PI * i) / teeth;
+		const radius = i % 2 === 0 ? r * 1.22 : r;
+		points.push([cx + Math.cos(angle) * radius, cy + Math.sin(angle) * radius]);
+	}
+	return [
+		polygon(points, { ...shape(fill, p.light, 1.2) }),
+		circle(cx, cy, r * 0.4, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }),
+		circle(cx, cy, r * 0.13, { fill: p.amber })
+	];
+}
+
+/** Stroj — dva zabírající převody, pist a komín. */
+function geoMachine({ palette: p, variant }) {
+	const out = [
+		rect(-52, 18, 104, 22, { ...shape(p.forestDeep, p.light, 1.4), rx: 3 }),
+		rect(-46, 40, 92, 5, { fill: p.sageDeep, stroke: p.light, sw: 0.8 })
+	];
+	out.push(...gearWheel(-18, 2, 22, 10, p.teal, p));
+	out.push(...gearWheel(20, 20, 14, 8, p.sageDeep, p));
+	out.push(rect(-44, -18, 12, 10, { fill: p.terracotta, stroke: p.light, sw: 1 }));
+	out.push(line(-38, 18, -38, -18, { ...stroke(p.light, 2.4) }));
+	out.push(path('M -40 -18 Q -48 -28 -54 -36', { ...stroke(p.lightSoft, 2, 0.35) }));
+	out.push(rect(30, -18, 10, 10, { fill: p.amber, stroke: p.light, sw: 1 }));
+	out.push(line(35, 18, 35, -18, { ...stroke(p.amber, 2) }));
+	if (variant === 2) out.push(circle(48, -30, 4, { fill: p.accent, opacity: 0.9 }));
+	return out;
+}
+
+/** Loď — trup, plachta a vlny. */
+function geoShip({ palette: p, variant }) {
+	const out = [
+		path('M -52 16 L 52 16 L 38 40 Q 0 48 -38 40 Z', { ...shape(p.forest, p.light, 1.4) }),
+		line(-58, 16, 58, 16, { ...stroke(p.light, 1.2, 0.8) }),
+		line(0, 16, 0, -48, { ...stroke(p.light, 2) }),
+		path('M 4 -44 Q 36 -16 30 10 L 6 12 Z', { fill: p.lightSoft, stroke: p.light, sw: 1.2 }),
+		path('M -6 -38 L -30 8 L -6 10 Z', { fill: p.teal, opacity: 0.92, stroke: p.light, sw: 1.1 }),
+		polygon([[0, -48], [20, -42], [0, -36]], { fill: p.terracotta })
+	];
+	out.push(path('M -58 34 Q -32 26 -6 34 Q 20 42 46 34 Q 56 30 62 34', { ...stroke(p.teal, 2, 0.9) }));
+	out.push(path('M -56 44 Q -30 38 -4 44 Q 24 50 50 43', { ...stroke(p.sage, 1.6, 0.55) }));
+	if (variant === 2) out.push(circle(46, -34, 4, { fill: p.amber, opacity: 0.85 }));
+	return out;
+}
+
+/** Knihovna — regály plné knih a žebřík. */
+function geoLibrary({ palette: p, variant }) {
+	const out = [
+		rect(-54, -42, 108, 84, { ...shape(p.forestDeep, p.light, 1.5), rx: 3 }),
+		line(-50, -14, 50, -14, { ...stroke(p.light, 1.1, 0.8) }),
+		line(-50, 14, 50, 14, { ...stroke(p.light, 1.1, 0.8) })
+	];
+	const colors = [p.teal, p.amber, p.terracotta, p.sage, p.sageDeep];
+	for (const [shelf, baseY] of [[0, -14], [1, 14], [2, 42]]) {
+		let x = -46 + (shelf === 1 ? 6 : 0);
+		let index = 0;
+		while (x < 42) {
+			const width = shelf === 2 && index > 5 ? 0 : 6 + (index % 3) * 2;
+			if (!width) break;
+			const height = 17 + ((index + shelf) % 4) * 3;
+			out.push(
+				rect(x, baseY - height, width, height, {
+					fill: colors[(index + shelf) % colors.length],
+					opacity: 0.92,
+					stroke: p.light,
+					sw: 0.6
+				})
+			);
+			x += width + 2;
+			index += 1;
+		}
+	}
+	out.push(path('M 46 40 L 32 2 L 37 0 L 52 38 Z', { fill: p.forest, stroke: p.light, sw: 1 }));
+	if (variant === 2) out.push(circle(0, -28, 5, { fill: p.amber, opacity: 0.85 }));
+	return out;
+}
+
+/** Věž — zužující se hranol s cimbuřím a oknem. */
+function geoTower({ palette: p, variant }) {
+	const out = [
+		polygon([[-26, 48], [-18, -26], [18, -26], [26, 48]], { ...shape(p.forest, p.light, 1.4) }),
+		rect(-22, -38, 44, 14, { fill: p.sageDeep, stroke: p.light, sw: 1.2 })
+	];
+	for (let i = 0; i < 4; i++) {
+		out.push(rect(-22 + i * 12, -46, 8, 10, { fill: p.forestDeep, stroke: p.light, sw: 1 }));
+	}
+	out.push(
+		path('M 0 -38 L 0 -52', { ...stroke(p.light, 1.4) }),
+		polygon([[0, -52], [18, -47], [0, -42]], { fill: p.terracotta })
+	);
+	out.push(
+		ellipse(0, 4, 7, 11, { fill: p.amber, opacity: 0.75, stroke: p.light, sw: 1 }),
+		rect(-9, 38, 18, 10, { fill: p.forestDeep, stroke: p.light, sw: 1 })
+	);
+	if (variant === 1) out.push(line(-16, 20, 16, 20, { ...stroke(p.light, 1, 0.5) }));
+	return out;
+}
+
+/** Tkalcovský stav — rám, osnova a prohozený útek. */
+function geoLoom({ palette: p, variant }) {
+	const out = [
+		rect(-44, -48, 8, 96, { fill: p.forestDeep, stroke: p.light, sw: 1.2 }),
+		rect(36, -48, 8, 96, { fill: p.forestDeep, stroke: p.light, sw: 1.2 }),
+		rect(-44, -48, 88, 8, { fill: p.forest, stroke: p.light, sw: 1.2 }),
+		rect(-44, 40, 88, 8, { fill: p.forest, stroke: p.light, sw: 1.2 })
+	];
+	for (let i = 0; i < 7; i++) {
+		const x = -28 + i * 10;
+		out.push(line(x, -38, x, 38, { ...stroke(p.lightSoft, 1, 0.65) }));
+	}
+	for (let i = 0; i < 5; i++) {
+		const y = -24 + i * 13;
+		out.push(
+			line(-32, y, 32, y, {
+				stroke: i % 2 === 0 ? p.teal : p.amber,
+				sw: 3.2,
+				opacity: 0.9
+			})
+		);
+	}
+	out.push(rect(-14, 30, 28, 7, { fill: p.terracotta, stroke: p.light, sw: 1 }));
+	if (variant === 2) out.push(circle(0, -2, 5, { fill: p.accent }));
+	return out;
+}
+
+/** Divadelní maska — obrys tváře, oči a úsměv. */
+function geoMask({ palette: p, variant }) {
+	const out = [
+		path('M -34 -40 Q 0 -52 34 -40 Q 40 -4 22 28 Q 0 46 -22 28 Q -40 -4 -34 -40 Z', {
+			...shape(p.lightSoft, p.light, 1.5)
+		}),
+		path('M -24 -18 Q -12 -26 -2 -18 Q -12 -10 -24 -18 Z', { fill: p.forestDeep, stroke: p.light, sw: 0.8 }),
+		path('M 2 -18 Q 12 -26 24 -18 Q 12 -10 2 -18 Z', { fill: p.forestDeep, stroke: p.light, sw: 0.8 }),
+		path('M -16 6 Q 0 26 16 6 Q 0 16 -16 6 Z', { fill: p.terracotta, opacity: 0.9 }),
+		path('M -30 -34 Q 0 -44 30 -34', { ...stroke(p.amber, 2, 0.8) })
+	];
+	if (variant === 1) out.push(path('M 0 -6 L 0 6', { ...stroke(p.forestDeep, 1.6, 0.7) }));
+	if (variant === 2) out.push(circle(-26, -18, 3, { fill: p.accent }));
+	return out;
+}
+
+/** Klíč — ozdobná hlava, dřík a zuby. */
+function geoKey({ palette: p, variant }) {
+	const out = [
+		circle(-28, 0, 14, { ...shape(p.amber, p.light, 1.3) }),
+		circle(-28, 0, 5, { fill: p.forestDeep }),
+		line(-16, 0, 46, 0, { ...stroke(p.amber, 5) }),
+		rect(34, 2, 5, 14, { fill: p.amber, stroke: p.light, sw: 0.8 }),
+		rect(44, 2, 5, 10, { fill: p.amber, stroke: p.light, sw: 0.8 })
+	];
+	if (variant === 2) out.push(line(-28, -14, -28, 14, { ...stroke(p.light, 1, 0.4) }));
+	return out;
+}
+
+/** Přesýpací hodiny — dvě baňky, rám a padající písek. */
+function geoHourglass({ palette: p, variant }) {
+	const out = [
+		rect(-22, -52, 44, 6, { fill: p.forest, stroke: p.light, sw: 1.2 }),
+		rect(-22, 46, 44, 6, { fill: p.forest, stroke: p.light, sw: 1.2 }),
+		line(-17, -46, -17, 46, { ...stroke(p.light, 1.2, 0.7) }),
+		line(17, -46, 17, 46, { ...stroke(p.light, 1.2, 0.7) }),
+		path('M -16 -46 L 16 -46 L 4 0 L 16 46 L -16 46 L -4 0 Z', {
+			fill: p.light,
+			fillOpacity: 0.08,
+			stroke: p.light,
+			sw: 1.4
+		})
+	];
+	const topSand = variant === 2 ? 8 : 18;
+	out.push(
+		path(`M -14 ${-44 + (18 - topSand)} L 14 ${-44 + (18 - topSand)} L 0 -4 Z`, {
+			fill: p.amber,
+			opacity: 0.95
+		}),
+		path('M -13 44 L 13 44 L 0 8 Z', { fill: p.amber, opacity: 0.9 }),
+		line(0, 2, 0, 18, { ...stroke(p.amber, 1.4, 0.8) })
+	);
+	return out;
+}
+
+/** Labyrint — soustředná bludišťová cesta. */
+function geoLabyrinth({ palette: p, variant }) {
+	const out = [];
+	const radius = [46, 36, 26, 16];
+	radius.forEach((r, index) => {
+		out.push(
+			path(
+				`M ${-r} ${-r} L ${r} ${-r} L ${r} ${r} L ${-r} ${r} Z`,
+				{ ...stroke(index % 2 === 0 ? p.lightSoft : p.sage, 1.6, 0.8) }
+			)
+		);
+	});
+	out.push(
+		path('M -46 0 L -36 0 L -36 -26 L -26 -26 L -26 16 L -16 16 L -16 -36 L 0 -36 L 0 -16 L 16 -16 L 16 26 L 26 26 L 26 -6 L 36 -6 L 36 36 L 46 36', {
+			...stroke(p.amber, 2, 0.95)
+		})
+	);
+	out.push(circle(0, 0, 4, { fill: p.terracotta }));
+	if (variant === 2) out.push(circle(-44, 42, 3, { fill: p.accent }));
+	return out;
+}
+
+/** Vlk — profilová hlava se špičatými ušima. */
+function geoWolf({ palette: p, variant }) {
+	const out = [
+		polygon(
+			[
+				[-40, -10], [-22, -34], [-14, -22], [4, -30], [14, -20],
+				[34, -14], [46, 4], [30, 16], [10, 14], [2, 30], [-10, 22], [-30, 24], [-38, 10]
+			],
+			{ ...shape(p.sageDeep, p.light, 1.4) }
+		),
+		polygon([[-22, -34], [-18, -50], [-8, -32]], { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		polygon([[4, -30], [10, -48], [20, -26]], { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		circle(18, -8, 2.6, { fill: p.amber }),
+		path('M 30 4 L 46 4', { ...stroke(p.light, 1.2, 0.7) }),
+		polygon([[46, 4], [36, 0], [36, 8]], { fill: p.forestDeep })
+	];
+	if (variant === 1) out.push(path('M -30 6 Q -12 14 4 6', { ...stroke(p.light, 1, 0.45) }));
+	return out;
+}
+
+/** Hrad — střední věž, dvě bašty a brána. */
+function geoCastle({ palette: p, variant }) {
+	const out = [
+		rect(-18, -24, 36, 72, { fill: p.forest, stroke: p.light, sw: 1.3 }),
+		rect(-52, 4, 26, 44, { fill: p.sageDeep, stroke: p.light, sw: 1.2 }),
+		rect(26, 4, 26, 44, { fill: p.sageDeep, stroke: p.light, sw: 1.2 })
+	];
+	for (let i = 0; i < 3; i++) {
+		out.push(rect(-18 + i * 14, -32, 9, 9, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }));
+	}
+	for (const x of [-52, 26]) {
+		out.push(rect(x, -4, 8, 9, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }));
+		out.push(rect(x + 18, -4, 8, 9, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }));
+	}
+	out.push(
+		path('M -10 48 L -10 30 Q 0 20 10 30 L 10 48 Z', { fill: p.forestDeep, stroke: p.light, sw: 1.1 }),
+		line(0, -24, 0, -40, { ...stroke(p.light, 1.2) }),
+		polygon([[0, -40], [16, -35], [0, -30]], { fill: p.terracotta })
+	);
+	if (variant === 2) out.push(rect(-6, -8, 12, 10, { fill: p.amber, opacity: 0.8 }));
+	return out;
+}
+
+/** Klíček — semeno, stonek a dva listy. */
+function geoSprout({ palette: p, variant }) {
+	const out = [
+		path('M 0 48 Q -2 14 4 -18', { ...stroke(p.teal, 3.2) }),
+		path('M 4 -18 Q -22 -26 -28 -4 Q -4 2 4 -18 Z', { ...shape(p.teal, p.light, 1.1) }),
+		path('M 4 -4 Q 28 -16 32 6 Q 10 12 4 -4 Z', { ...shape(p.sage, p.light, 1.1) }),
+		circle(-6, 44, 8, { fill: p.forestDeep, stroke: p.light, sw: 1 })
+	];
+	if (variant !== 2) out.push(circle(2, -28, 3.4, { fill: p.amber }));
+	if (variant === 1) out.push(circle(-14, 38, 2, { fill: p.sageDeep }));
+	return out;
+}
+
+/** Květ — stonek a pravidelná koruna okvětních lístků. */
+function geoFlower({ palette: p, variant }) {
+	const petals = variant === 2 ? 6 : 8;
+	const out = [path('M 0 48 Q -4 16 0 -6', { ...stroke(p.tealDeep, 3) })];
+	out.push(path('M 0 26 Q -26 18 -30 34 Q -8 38 0 26 Z', { ...shape(p.teal, p.light, 1) }));
+	for (let i = 0; i < petals; i++) {
+		const angle = (Math.PI * 2 * i) / petals;
+		out.push(
+			ellipse(Math.cos(angle) * 16, -14 + Math.sin(angle) * 16, 9, 5, {
+				fill: i % 2 === 0 ? p.lightSoft : p.sage,
+				stroke: p.light,
+				sw: 0.9,
+				rot: (angle * 180) / Math.PI
+			})
+		);
+	}
+	out.push(circle(0, -14, 7, { fill: p.amber, stroke: p.light, sw: 1 }));
+	return out;
+}
+
+/** Motýl — souměrná křídla a tělo. */
+function geoButterfly({ palette: p, variant }) {
+	const wing = (flip) => [
+		path(
+			`M ${flip ? -3 : 3} -6 Q ${flip ? -44 : 44} -46 ${flip ? -48 : 48} -6 Q ${flip ? -34 : 34} 6 ${flip ? -3 : 3} 4 Z`,
+			{ fill: p.teal, opacity: 0.92, stroke: p.light, sw: 1.1 }
+		),
+		path(
+			`M ${flip ? -3 : 3} 4 Q ${flip ? -38 : 38} 10 ${flip ? -30 : 30} 40 Q ${flip ? -10 : 10} 34 ${flip ? -3 : 3} 8 Z`,
+			{ fill: p.sage, opacity: 0.95, stroke: p.light, sw: 1.1 }
+		)
+	];
+	const out = [...wing(false), ...wing(true)];
+	out.push(
+		ellipse(0, 2, 4, 24, { fill: p.forestDeep, stroke: p.light, sw: 1 }),
+		circle(0, -24, 5, { fill: p.forestDeep, stroke: p.light, sw: 0.9 }),
+		line(-3, -28, -14, -40, { ...stroke(p.light, 1.1, 0.9) }),
+		line(3, -28, 14, -40, { ...stroke(p.light, 1.1, 0.9) }),
+		circle(0, -10, 2.4, { fill: p.amber })
+	);
+	if (variant === 2) out.push(circle(-20, -18, 4, { fill: p.amber, opacity: 0.8 }));
+	return out;
+}
+
+/** Štít — heraldický tvar s křížem. */
+function geoShield({ palette: p, variant }) {
+	const out = [
+		path('M 0 -48 L 42 -34 Q 40 22 0 48 Q -40 22 -42 -34 Z', {
+			...shape(p.forest, p.light, 1.5)
+		}),
+		path('M 0 -36 L 32 -26 Q 30 16 0 36 Q -30 16 -32 -26 Z', {
+			fill: p.sageDeep,
+			opacity: 0.7
+		}),
+		line(0, -30, 0, 32, { ...stroke(p.amber, 3.2) }),
+		line(-20, -6, 20, -6, { ...stroke(p.amber, 3.2) })
+	];
+	if (variant === 1) out.push(circle(-12, 10, 3, { fill: p.accent }));
+	if (variant === 2) out.push(line(-30, -20, 30, -20, { ...stroke(p.light, 1, 0.4) }));
+	return out;
+}
+
+/** Písmo — kamenná tabulka se znaky a řádky. */
+function geoScript({ palette: p, variant }) {
+	const out = [
+		rect(-46, -34, 92, 68, { fill: p.lightSoft, stroke: p.light, sw: 1.5, rx: 3 })
+	];
+	for (let row = 0; row < 4; row++) {
+		const y = -22 + row * 14;
+		out.push(line(-38, y + 7, 38, y + 7, { ...stroke(p.forestDeep, 0.9, 0.35) }));
+		for (let col = 0; col < 6; col++) {
+			const x = -34 + col * 12;
+			const glyph = (row + col) % 4;
+			if (glyph === 0) out.push(line(x, y, x, y + 6, { ...stroke(p.forestDeep, 1.6, 0.8) }));
+			else if (glyph === 1) out.push(circle(x + 2, y + 3, 2.4, { ...stroke(p.forestDeep, 1.2, 0.8) }));
+			else if (glyph === 2) out.push(polygon([[x, y + 6], [x + 4, y], [x + 8, y + 6]], { ...stroke(p.forestDeep, 1.1, 0.8) }));
+			else out.push(line(x, y + 1, x + 7, y + 5, { ...stroke(p.forestDeep, 1.3, 0.8) }));
+		}
+	}
+	if (variant === 1) out.push(circle(34, -26, 3, { fill: p.accent }));
+	if (variant === 2) out.push(line(-46, 4, 46, 4, { ...stroke(p.terracotta, 1.2, 0.5) }));
+	return out;
+}
+
+/** Brk — pero, hrot a linka inkoustu. */
+function geoQuill({ palette: p, variant }) {
+	const out = [
+		path('M 34 -46 Q 8 -30 2 6 Q -2 30 -8 42 Q 10 28 18 4 Q 26 -22 34 -46 Z', {
+			...shape(p.lightSoft, p.light, 1.3)
+		}),
+		line(0, 8, -8, 42, { ...stroke(p.forestDeep, 1.6) }),
+		path('M -28 46 Q 0 40 28 46', { ...stroke(p.amber, 2.2, 0.85) }),
+		path('M -20 52 Q 4 48 24 52', { ...stroke(p.amber, 1.4, 0.5) })
+	];
+	for (let i = 0; i < 4; i++) {
+		out.push(line(6 + i * 5, -26 + i * 8, 14 + i * 4, -20 + i * 8, { ...stroke(p.forestDeep, 0.9, 0.5) }));
+	}
+	if (variant === 2) out.push(circle(-16, 44, 2.4, { fill: p.accent }));
+	return out;
+}
+
+/** Lupa — čočka, rukojeť a jiskra objevu. */
+function geoMagnifier({ palette: p, variant }) {
+	const out = [
+		circle(-8, -12, 30, { fill: p.light, fillOpacity: 0.08, stroke: p.light, sw: 2 }),
+		circle(-8, -12, 23, { fill: 'none', stroke: p.teal, sw: 1.2, opacity: 0.8 }),
+		line(14, 10, 42, 42, { ...stroke(p.forest, 7) }),
+		line(14, 10, 42, 42, { ...stroke(p.light, 2.4, 0.9) }),
+		path('M -22 -30 Q -12 -36 -2 -32', { ...stroke(p.lightSoft, 2.4, 0.7) })
+	];
+	if (variant !== 2) out.push(circle(-8, -12, 5, { fill: p.amber, opacity: 0.8 }));
+	if (variant === 1) out.push(circle(-8, -12, 12, { ...stroke(p.sage, 1, 0.5) }));
+	return out;
+}
+
+/** Kompas — ciferník se střelkou. */
+function geoCompass({ palette: p, variant }) {
+	const out = [
+		circle(0, 0, 38, { ...shape(p.forestDeep, p.light, 1.6) }),
+		circle(0, 0, 31, { fill: 'none', stroke: p.sage, sw: 1, opacity: 0.7 })
+	];
+	for (let i = 0; i < 8; i++) {
+		const angle = (Math.PI * 2 * i) / 8 - Math.PI / 2;
+		const long = i % 2 === 0;
+		out.push(
+			line(
+				Math.cos(angle) * (long ? 24 : 28),
+				Math.sin(angle) * (long ? 24 : 28),
+				Math.cos(angle) * 31,
+				Math.sin(angle) * 31,
+				{ ...stroke(i === 0 ? p.amber : p.light, long ? 1.8 : 1, 0.85) }
+			)
+		);
+	}
+	out.push(
+		polygon([[0, -24], [7, 0], [0, 4], [-7, 0]], { fill: p.terracotta, stroke: p.light, sw: 0.8 }),
+		polygon([[0, 24], [7, 0], [0, -4], [-7, 0]], { fill: p.lightSoft, stroke: p.light, sw: 0.8 }),
+		circle(0, 0, 3.4, { fill: p.amber })
+	);
+	return out;
+}
+
+/** Lyra — obloukový rám a struny. */
+function geoLyre({ palette: p, variant }) {
+	const out = [
+		path('M -24 44 Q -40 0 -22 -44', { ...stroke(p.amber, 4) }),
+		path('M 24 44 Q 40 0 22 -44', { ...stroke(p.amber, 4) }),
+		line(-22, -44, 22, -44, { ...stroke(p.light, 3) }),
+		line(-24, 44, 24, 44, { ...stroke(p.light, 3) })
+	];
+	for (let i = 0; i < 5; i++) {
+		const x = -16 + i * 8;
+		out.push(line(x, -40, x, 40, { ...stroke(p.lightSoft, 1, 0.75) }));
+	}
+	out.push(circle(0, 46, 5, { fill: p.terracotta, stroke: p.light, sw: 1 }));
+	if (variant === 2) out.push(circle(0, 6, 4, { fill: p.accent }));
+	return out;
+}
+
+/** Svíčka — vosk, knot a plamen. */
+function geoCandle({ palette: p, variant }) {
+	const out = [
+		rect(-12, -6, 24, 50, { fill: p.lightSoft, stroke: p.light, sw: 1.3, rx: 3 }),
+		ellipse(0, -6, 12, 5, { fill: p.sage, stroke: p.light, sw: 1 }),
+		line(0, -6, 0, -16, { ...stroke(p.forestDeep, 1.6) }),
+		path('M 0 -40 Q 12 -26 0 -14 Q -12 -26 0 -40 Z', { fill: p.amber, stroke: p.light, sw: 0.9 }),
+		path('M 0 -32 Q 5 -24 0 -18 Q -5 -24 0 -32 Z', { fill: p.light, opacity: 0.9 })
+	];
+	if (variant !== 2) out.push(path('M -10 0 Q -12 12 -10 20', { ...stroke(p.lightSoft, 2, 0.7) }));
+	if (variant === 1) out.push(ellipse(0, 48, 22, 5, { fill: p.forestDeep, stroke: p.light, sw: 1 }));
+	return out;
+}
+
+/** Pochodeň — násada a velký plamen. */
+function geoHandTorch({ palette: p, variant }) {
+	const out = [
+		line(0, 50, 0, 4, { ...stroke(p.forest, 6) }),
+		line(-4, 20, 4, 20, { ...stroke(p.amber, 2, 0.8) }),
+		path('M 0 -46 Q 20 -24 12 -6 Q 8 6 0 8 Q -8 6 -12 -6 Q -20 -24 0 -46 Z', {
+			fill: p.terracotta,
+			stroke: p.light,
+			sw: 1
+		}),
+		path('M 0 -32 Q 10 -18 5 -6 Q 0 2 0 4 Q -8 -8 -6 -18 Q -4 -26 0 -32 Z', {
+			fill: p.amber
+		})
+	];
+	if (variant === 2) out.push(circle(-18, -20, 2.4, { fill: p.amber, opacity: 0.7 }));
+	return out;
+}
+
+/** Vulkán — hora s kráterem, lávou a dýmem. */
+function geoVolcano({ palette: p, variant }) {
+	const out = [
+		polygon([[-58, 48], [-16, -30], [-6, -30], [58, 48]], { ...shape(p.forestDeep, p.light, 1.4) }),
+		polygon([[-16, -30], [-6, -30], [0, 6], [-10, 12]], { fill: p.terracotta, opacity: 0.95 }),
+		path('M -6 -30 Q 2 4 12 30 L 4 40', { ...stroke(p.terracotta, 3.4) }),
+		path('M -16 -30 Q -26 -8 -18 18', { ...stroke(p.terracotta, 2.6, 0.9) })
+	];
+	out.push(
+		path('M -12 -36 Q -20 -54 -4 -58 Q 12 -62 10 -44', { ...stroke(p.lightSoft, 2.4, 0.4) }),
+		path('M 2 -42 Q 18 -58 26 -46', { ...stroke(p.lightSoft, 1.8, 0.28) })
+	);
+	if (variant === 2) out.push(circle(-38, 42, 3, { fill: p.amber, opacity: 0.8 }));
+	return out;
+}
+
+/** Déšť — oblak a šikmé kapky. */
+function geoRain({ palette: p, variant }) {
+	const out = [
+		path('M -40 0 Q -54 -14 -36 -24 Q -30 -44 -6 -42 Q 16 -54 30 -34 Q 54 -30 48 -10 Q 58 2 42 8 L -36 8 Q -50 8 -40 0 Z', {
+			...shape(p.sageDeep, p.light, 1.3)
+		})
+	];
+	const drops = variant === 2 ? 4 : 6;
+	for (let i = 0; i < drops; i++) {
+		const x = -32 + i * 13;
+		out.push(line(x, 16 + (i % 2) * 5, x - 5, 34 + (i % 2) * 5, { ...stroke(p.teal, 1.8, 0.85) }));
+	}
+	if (variant === 1) out.push(line(-10, 40, -14, 50, { ...stroke(p.sage, 1.4, 0.6) }));
+	return out;
+}
+
+/** Nit — cívka a volně se vinoucí vlákno. */
+function geoThread({ palette: p, variant }) {
+	const out = [
+		rect(-36, -24, 26, 48, { fill: p.forest, stroke: p.light, sw: 1.2, rx: 2 }),
+		ellipse(-36, -24, 7, 4, { fill: p.lightSoft, stroke: p.light, sw: 1 }),
+		ellipse(-36, 24, 7, 4, { fill: p.lightSoft, stroke: p.light, sw: 1 })
+	];
+	for (let i = 0; i < 5; i++) {
+		out.push(line(-34, -18 + i * 9, -12, -18 + i * 9, { ...stroke(p.amber, 3, 0.9) }));
+	}
+	out.push(
+		path('M -10 0 Q 12 -26 28 0 Q 42 22 52 -12', { ...stroke(p.amber, 2.4, 0.95) }),
+		circle(52, -12, 3, { fill: p.terracotta })
+	);
+	if (variant === 2) out.push(circle(-23, 30, 2.4, { fill: p.accent }));
+	return out;
+}
+
+/** Cyklus — prstenec se dvěma šipkami. */
+function geoCycle({ palette: p }) {
+	const out = [
+		circle(0, 0, 36, { fill: 'none', stroke: p.light, sw: 1.6, opacity: 0.8 }),
+		path('M -30 -18 A 36 36 0 0 1 18 -32', { ...stroke(p.amber, 3, 1) }),
+		polygon([[18, -32], [10, -38], [14, -24]], { fill: p.amber }),
+		path('M 30 18 A 36 36 0 0 1 -18 32', { ...stroke(p.teal, 3, 1) }),
+		polygon([[-18, 32], [-10, 38], [-14, 24]], { fill: p.teal }),
+		circle(0, 0, 12, { ...shape(p.forest, p.light, 1.2) }),
+		circle(0, 0, 4, { fill: p.terracotta })
+	];
+	return out;
+}
+
+/** Vavřínový věnec — dvě větve s lístky. */
+function geoLaurel({ palette: p }) {
+	const out = [];
+	for (const side of [-1, 1]) {
+		out.push(
+			path(`M 0 40 Q ${side * 34} 18 ${side * 26} -34`, { ...stroke(p.teal, 2.2, 0.95) })
+		);
+		for (let i = 0; i < 5; i++) {
+			const t = i / 4;
+			const x = side * (30 * Math.sin(t * 1.2) + 2);
+			const y = 32 - t * 62;
+			out.push(
+				ellipse(x + side * 7, y, 9, 4, {
+					fill: i % 2 === 0 ? p.teal : p.sage,
+					stroke: p.light,
+					sw: 0.8,
+					rot: side * (28 + i * 6)
+				})
+			);
+		}
+	}
+	out.push(circle(0, 42, 3, { fill: p.amber }));
+	return out;
+}
+
+/** Kočka — hlava s ušima a vousky. */
+function geoCat({ palette: p, variant }) {
+	const out = [
+		circle(0, 4, 30, { ...shape(p.sageDeep, p.light, 1.4) }),
+		polygon([[-26, -14], [-22, -42], [-6, -24]], { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		polygon([[26, -14], [22, -42], [6, -24]], { fill: p.sageDeep, stroke: p.light, sw: 1.1 }),
+		path('M -10 -2 Q -5 -8 0 -2 Q -5 4 -10 -2 Z', { fill: p.amber }),
+		path('M 10 -2 Q 5 -8 0 -2 Q 5 4 10 -2 Z', { fill: p.amber }),
+		polygon([[0, 8], [5, 14], [-5, 14]], { fill: p.terracotta }),
+		line(-30, 10, -46, 6, { ...stroke(p.light, 1, 0.7) }),
+		line(-30, 16, -46, 18, { ...stroke(p.light, 1, 0.7) }),
+		line(30, 10, 46, 6, { ...stroke(p.light, 1, 0.7) }),
+		line(30, 16, 46, 18, { ...stroke(p.light, 1, 0.7) })
+	];
+	if (variant === 2) out.push(circle(0, 4, 30, { fill: 'none', stroke: p.accent, sw: 1.4 }));
+	return out;
+}
+
+/** Houba — klobouk, třeň a skvrny. */
+function geoMushroom({ palette: p, variant }) {
+	const out = [
+		path('M -40 -2 Q -40 -42 0 -42 Q 40 -42 40 -2 Z', { ...shape(p.terracotta, p.light, 1.4) }),
+		rect(-11, -2, 22, 46, { fill: p.lightSoft, stroke: p.light, sw: 1.2, rx: 6 })
+	];
+	const spots = variant === 2 ? 2 : 3;
+	for (let i = 0; i < spots; i++) {
+		out.push(circle(-20 + i * 18, -22 - (i % 2) * 6, 4 - i, { fill: p.light, opacity: 0.85 }));
+	}
+	if (variant === 1) out.push(line(-6, 18, 6, 18, { ...stroke(p.forestDeep, 1, 0.5) }));
+	return out;
+}
+
+/** Ledovec — hranatá ledová masa s trhlinami a odtokem. */
+function geoGlacier({ palette: p, variant }) {
+	const out = [
+		polygon([[-58, 46], [-40, -2], [-20, -28], [0, -12], [18, -40], [42, -4], [58, 46]], {
+			...shape(p.lightSoft, p.light, 1.4)
+		}),
+		polygon([[-20, -28], [0, -12], [6, 12], [-12, 46], [-34, 22]], { fill: p.teal, opacity: 0.85 }),
+		polygon([[18, -40], [30, -8], [20, 20], [10, 6]], { fill: p.tealDeep, opacity: 0.75 }),
+		path('M 18 -40 Q 24 -4 18 46', { ...stroke(p.forestDeep, 1.6, 0.6) }),
+		path('M -40 46 Q -22 40 -4 46 Q 16 52 34 46', { ...stroke(p.teal, 2, 0.8) })
+	];
+	if (variant === 1) out.push(line(-10, 6, 4, 14, { ...stroke(p.light, 1, 0.5) }));
+	if (variant === 2) out.push(circle(-46, 38, 2.4, { fill: p.amber, opacity: 0.8 }));
+	return out;
+}
+
+/** Trhlina — rozvětvená prasklina s úlomky. */
+function geoCrack({ palette: p, variant }) {
+	const main = [[0, -52], [-8, -30], [4, -12], [-6, 10], [6, 30], [0, 52]];
+	const branch = [[0, -12], [18, -22], [30, -14]];
+	return [
+		polyline(main, { ...stroke(p.terracotta, 2.6, 0.95) }),
+		polyline(main.map(([x, y], i) => [x + (i % 2 ? 3 : -3), y + 2]), { ...stroke(p.amber, 1.1, 0.6) }),
+		polyline(branch, { ...stroke(p.terracotta, 1.8, 0.85) }),
+		polygon([[12, 30], [20, 22], [24, 32]], { fill: p.accent, opacity: 0.8 }),
+		polygon([[-20, 12], [-14, 6], [-10, 16]], { fill: p.accent, opacity: 0.65 }),
+		...(variant === 2 ? [circle(30, 30, 2.4, { fill: p.amber, opacity: 0.8 })] : [])
+	];
+}
+
+/** Kukla — závěs a obrys budoucího motýla. */
+function geoCocoon({ palette: p }) {
+	return [
+		line(-10, -48, -2, -30, { ...stroke(p.teal, 1.6, 0.8) }),
+		path('M 0 -32 Q 20 -20 16 16 Q 12 44 0 48 Q -12 44 -16 16 Q -20 -20 0 -32 Z', {
+			...shape(p.sage, p.light, 1.3)
+		}),
+		path('M -10 -6 Q 0 4 10 -6 M -12 14 Q 0 24 12 14', { ...stroke(p.forestDeep, 1.2, 0.55) }),
+		circle(0, 48, 3, { fill: p.amber })
+	];
+}
+
 // --- Scény ----------------------------------------------------------------
 
 export const HEROES = {
@@ -1415,7 +2034,40 @@ export const HEROES = {
 	wind: geoWind,
 	bolt: geoBolt,
 	mountain: geoMountain,
-	snowflake: geoSnowflake
+	snowflake: geoSnowflake,
+	// Scénická vrstva — předměty s vlastní sémantikou.
+	machine: geoMachine,
+	ship: geoShip,
+	library: geoLibrary,
+	tower: geoTower,
+	loom: geoLoom,
+	mask: geoMask,
+	key: geoKey,
+	hourglass: geoHourglass,
+	labyrinth: geoLabyrinth,
+	wolf: geoWolf,
+	castle: geoCastle,
+	sprout: geoSprout,
+	flower: geoFlower,
+	butterfly: geoButterfly,
+	shield: geoShield,
+	quill: geoQuill,
+	script: geoScript,
+	magnifier: geoMagnifier,
+	compass: geoCompass,
+	lyre: geoLyre,
+	candle: geoCandle,
+	torch: geoHandTorch,
+	volcano: geoVolcano,
+	rain: geoRain,
+	thread: geoThread,
+	cycle: geoCycle,
+	laurel: geoLaurel,
+	cat: geoCat,
+	mushroom: geoMushroom,
+	cocoon: geoCocoon,
+	crack: geoCrack,
+	glacier: geoGlacier
 };
 
 export const HERO_KEYS = Object.keys(HEROES);
