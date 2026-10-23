@@ -1,0 +1,1 @@
+import"../chunks/gPTJiXEn.js";import{F as e}from"../chunks/CRxKxlNN.js";import{e as t,$ as m}from"../chunks/LlvwQzsS.js";import{h as r}from"../chunks/BW_oKF7l.js";function s(o){r("1sv6dbf",a=>{t(()=>{m.title="Doomscrolling, ale lepší"})}),e(o,{})}export{s as component};
