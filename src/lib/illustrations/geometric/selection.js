@@ -75,6 +75,35 @@ const COMPRESSION_CORE = ['kompres*', 'huffman*', 'kodovan*'];
 const RESPONSE = ['reag*', 'ocekavan*', 'chovan*', 'reakc*', 'prizpusob*'];
 const SPACE_CRAFT = /vesmirn\w* (lod|plavidl|korab)|hvezdolet|starship/;
 
+// --- Iterace 3: konkrétní obrazy z feedbacku -------------------------------
+const GOLD = ['zlato*', 'zlata*', 'zlate*', 'zlatem*', 'zlaty*', 'zlatou*', 'zlatych*'];
+const ACID = ['kyselin*', 'lucavk*', 'rozpoust*', 'rozpust*'];
+const MUSIC = ['hudb*', 'hudeb*', 'ton*', 'strun*', 'harmoni*', 'not*', 'melodi*', 'rytmu*'];
+const SPACE = ['vesmir*', 'kosm*', 'planet*', 'hvezd*', 'sfer*'];
+const DOORS = ['dver*'];
+const CHOICE = ['pravdepodob*', 'sanc*', 'zmen*', 'volb*'];
+const DIVISION = ['rozdelen*', 'rozdeli*', 'rozdelit*'];
+const ROLES = ['skupin*', 'vezn*', 'dozorc*', 'roli*', 'role*', 'student*', 'experiment*'];
+const ATOM_ANCIENT = ['demokrit*', 'antick*', 'reck*', 'predsokrat*', 'atomist*', 'epikur*', 'lucreti*'];
+const CALENDAR = ['kalendar*', 'prestupn*', 'julian*', 'gregorian*'];
+const POWER = ['mocnin*'];
+const POWER_CONTEXT = ['imaginarn*', 'komplexn*', 'druha', 'druhou', 'druhe', 'druheho'];
+const JUSTICE = ['spravedln*', 'spravedliv*'];
+const POWER_WORDS = ['sil*', 'slab*', 'moc*', 'rovn*'];
+// „mír“ musí být přesné slovo; prefix „mir*“ by chytil i „míru“ nebo „mírně“.
+const PEACE = ['mir', 'miru', 'mirem', 'miry', 'mirova*', 'mirove*', 'mirov*'];
+const FAITH = ['vira*', 'vire*', 'viru*', 'viry*', 'nabozen*', 'krestan*', 'katolic*', 'protestant*', 'cirkv*'];
+// Bakterie musí být v textu výslovně dvakrát; pandemie viru ani plíseň
+// nestačí. Houby a kvasinky mají vlastní podobu, ne bakteriální kolonii.
+const BACTERIA = ['bakteri*', 'mikrob*'];
+const CIRCLE = ['kruh*', 'kruhu*', 'kruhem*', 'kruzn*'];
+const SQUARE = ['ctverc*', 'ctver*'];
+const PRICE = ['cena*', 'ceny*', 'cenu*', 'cenou*', 'cenach*', 'cenami*', 'zdraz*', 'inflac*'];
+const RISING = ['rust*', 'rost*', 'stoup*', 'zvys*', 'zdraz*', 'inflac*', 'bublina*'];
+const DECIPHER = ['rosetta*', 'hieroglyf*', 'rozlust*', 'desifr*', 'klinopis*'];
+const NETWORK = ['sit', 'site', 'siti', 'sitich', 'sitemi', 'sitovy*', 'neuron*', 'internet*', 'propoj*', 'uzl*'];
+const ELECTION = ['volb*', 'volic*', 'hlasovan*', 'referend*', 'zvole*', 'kandid*', 'mandat*'];
+
 /** Která nebeská tělesa text jmenuje — vrací klíče s počtem zásahů. */
 function celestialMentions(text) {
 	// „Sluneční soustava“ je místo, ne Slunce jako objekt; jinak by popis
@@ -158,7 +187,137 @@ export function selectScene({ post, analysis, family, category } = {}) {
 		return { scene: 'spacecraft', subject: 'rocket', secondary: null, reason: 'scene:spacecraft' };
 	}
 
-	// 0f. Zákoník: právní text s antickým sloupem a pergamenem.
+	// 0f. Zlato a kyselina: baňka a jantarová kapka, ne koruna.
+	if (
+		hits(text, ACID) >= 1 &&
+		hits(text, GOLD) >= 1 &&
+		['veda', 'fyzika', 'chemie'].includes(categoryKey)
+	) {
+		return { scene: 'alchemy', subject: 'flask', secondary: null, reason: 'scene:alchemy' };
+	}
+
+	// 0g. Pravidelná symetrie a zachování: spojitá vlna, ne mnohostěn.
+	if (
+		['fyzika', 'veda'].includes(categoryKey) &&
+		hits(text, ['symetri*']) >= 1 &&
+		hits(text, ['zachovan*']) >= 1
+	) {
+		return { scene: 'waveform', subject: 'cycle', secondary: null, reason: 'scene:waveform' };
+	}
+
+	// 0h. Vesmír jako hudba: planeta a nota, ne dalekohled.
+	if (hits(text, MUSIC) >= 2 && hits(text, SPACE) >= 1) {
+		return { scene: 'cosmicMusic', subject: 'planet', secondary: null, reason: 'scene:cosmicMusic' };
+	}
+
+	// 0i. Tři dveře: volba a pravděpodobnost, ne abstraktní vrstvy.
+	if (hits(text, DOORS) >= 2 && hits(text, CHOICE) >= 1) {
+		return { scene: 'threeDoors', subject: 'car', secondary: null, reason: 'scene:threeDoors' };
+	}
+
+	// 0j. Rozdělení skupiny na role: postavy a hranice.
+	if (
+		hits(text, DIVISION) >= 1 &&
+		hits(text, ROLES) >= 2 &&
+		['psychologie', 'historie', 'politika', 'veda'].includes(categoryKey)
+	) {
+		return { scene: 'division', subject: 'figure', secondary: null, reason: 'scene:division' };
+	}
+
+	// 0k. Antická myšlenka atomu: jeden atom, žádný mikroskop.
+	if (
+		hits(text, ['atom*']) >= 1 &&
+		['filozofie', 'historie'].includes(categoryKey) &&
+		hits(text, ATOM_ANCIENT) >= 1
+	) {
+		return { scene: 'atomIdea', subject: 'atom', secondary: null, reason: 'scene:atomIdea' };
+	}
+
+	// 0l. Kalendář: mřížka dnů a přestupný den, ne přesýpací hodiny.
+	if (
+		hits(text, CALENDAR) >= 2 &&
+		['historie', 'astronomie', 'veda'].includes(categoryKey)
+	) {
+		return { scene: 'calendar', subject: 'cycle', secondary: null, reason: 'scene:calendar' };
+	}
+
+	// 0m. Mocniny a imaginární čísla: číslice s exponentem.
+	if (
+		categoryKey === 'matematika' &&
+		hits(text, POWER) >= 1 &&
+		hits(text, POWER_CONTEXT) >= 1
+	) {
+		return { scene: 'powers', subject: 'numeralOne', secondary: 'numeralTwo', reason: 'scene:powers' };
+	}
+
+	// 0n. Spravedlnost mezi silným a slabým: jediné váhy.
+	if (
+		hits(text, JUSTICE) >= 1 &&
+		hits(text, POWER_WORDS) >= 2 &&
+		['politika', 'filozofie', 'historie'].includes(categoryKey)
+	) {
+		return { scene: 'justice', subject: 'balance', secondary: null, reason: 'scene:justice' };
+	}
+
+	// 0o. Mír a víra: holubice a kříž. Tato scéna musí být před zákoníkem,
+	//     protože mírové smlouvy obsahují právní slova.
+	if (
+		hits(text, PEACE) >= 1 &&
+		hits(text, FAITH) >= 2 &&
+		['politika', 'historie'].includes(categoryKey)
+	) {
+		return { scene: 'peaceFaith', subject: 'bird', secondary: null, reason: 'scene:peaceFaith' };
+	}
+
+	// 0p. Bakterie: kolonie v kruhu, ne osamocený mikroskop.
+	if (
+		hits(text, BACTERIA) >= 2 &&
+		hits(text, ['plisen*', 'houb*', 'kvasink*']) === 0 &&
+		['veda', 'zajimavost', 'historie'].includes(categoryKey)
+	) {
+		return { scene: 'bacteria', subject: 'bacterium', secondary: null, reason: 'scene:bacteria' };
+	}
+
+	// 0q. Kruh a čtverec: dva geometrické ideály, ne vlny.
+	if (hits(text, CIRCLE) >= 1 && hits(text, SQUARE) >= 1) {
+		return { scene: 'circleSquare', subject: 'figure', secondary: null, reason: 'scene:circleSquare' };
+	}
+
+	// 0r. Růst cen: stoupající křivka a sloupce.
+	if (
+		categoryKey === 'ekonomie' &&
+		hits(text, CRASH) < 2 &&
+		(hits(text, ['inflac*', 'zdraz*', 'bublina*']) >= 1 ||
+			(hits(text, PRICE) >= 2 && hits(text, RISING) >= 1))
+	) {
+		return { scene: 'inflation', subject: 'balance', secondary: null, reason: 'scene:inflation' };
+	}
+
+	// 0s. Rozluštění písma: stélé a dvě kolony znaků. Musí být před obecným
+	//     písmem, jinak Rosettská deska skončí jako tabulka s perem.
+	if (hits(text, DECIPHER) >= 1 && hits(text, SCRIPT) >= 1) {
+		const stele = hits(text, ['stele*', 'deska*', 'kamen*', 'rosetta*']) >= 1;
+		return { scene: 'decipherment', subject: stele ? 'stele' : 'script', secondary: null, reason: 'scene:decipherment' };
+	}
+
+	// 0t. Síť uzlů a spojnic: internet, neurony, propojené systémy.
+	if (
+		['pocitacove-vedy', 'veda', 'filozofie'].includes(categoryKey) &&
+		hits(text, NETWORK) >= 2
+	) {
+		const subject = hits(text, ['neuron*']) >= 1 ? 'brain' : 'machine';
+		return { scene: 'networkScene', subject, secondary: null, reason: 'scene:networkScene' };
+	}
+
+	// 0u. Volby: urna a hlasovací lístek.
+	if (
+		['politika', 'historie'].includes(categoryKey) &&
+		hits(text, ELECTION) >= 2
+	) {
+		return { scene: 'ballot', subject: 'crowd', secondary: null, reason: 'scene:ballot' };
+	}
+
+	// 0v. Zákoník: právní text s antickým sloupem a pergamenem.
 	//     Rosettská deska je kámen s písmem, ne zákoník.
 	const legal = hits(text, LEGAL);
 	const rosetta = /rosetta|hieroglyf/.test(text) || selected === 'stele';
@@ -172,12 +331,12 @@ export function selectScene({ post, analysis, family, category } = {}) {
 		};
 	}
 
-	// 0g. Burzovní propad: křivka dolů, ne geologické vrstvy.
+	// 0w. Burzovní propad: křivka dolů, ne geologické vrstvy.
 	if (hits(text, CRASH) >= 2 && ['ekonomie', 'politika'].includes(categoryKey)) {
 		return { scene: 'crash', subject: 'chart', secondary: null, reason: 'scene:crash' };
 	}
 
-	// 0h. Rozdělení prvních číslic: jednička a sloupce četností.
+	// 0x. Rozdělení prvních číslic: jednička a sloupce četností.
 	if (
 		hits(text, DIGIT) >= 1 &&
 		(hits(text, DIGIT_CONTEXT) >= 1 || categoryKey === 'matematika') &&
@@ -186,7 +345,7 @@ export function selectScene({ post, analysis, family, category } = {}) {
 		return { scene: 'digits', subject: 'numeralOne', secondary: null, reason: 'scene:digits' };
 	}
 
-	// 0i. Komprese: velký objekt se zmenší, nezobrazuje se písmo.
+	// 0y. Komprese: velký objekt se zmenší, nezobrazuje se písmo.
 	//     „Zkrátil válku“ ani „uspořádal prvky“ není komprese.
 	if (
 		hits(text, COMPRESSION_CORE) >= 1 &&
@@ -196,7 +355,7 @@ export function selectScene({ post, analysis, family, category } = {}) {
 		return { scene: 'compression', subject: 'polyhedron', secondary: null, reason: 'scene:compression' };
 	}
 
-	// 0j. Reakce na pravidla: lidé a zpětná vazba, ne abstraktní vrstvy.
+	// 0z. Reakce na pravidla: lidé a zpětná vazba, ne abstraktní vrstvy.
 	if (
 		hits(text, RESPONSE) >= 2 &&
 		['ekonomie', 'politika'].includes(categoryKey)
@@ -384,5 +543,21 @@ export const SEMANTIC_SCENE_KEYS = [
 	'compression',
 	'spacecraft',
 	'artificial',
-	'taxi'
+	'taxi',
+	'alchemy',
+	'waveform',
+	'cosmicMusic',
+	'threeDoors',
+	'division',
+	'atomIdea',
+	'calendar',
+	'powers',
+	'justice',
+	'peaceFaith',
+	'bacteria',
+	'circleSquare',
+	'inflation',
+	'decipherment',
+	'networkScene',
+	'ballot'
 ];

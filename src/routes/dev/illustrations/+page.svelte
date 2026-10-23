@@ -94,12 +94,28 @@
 		compression: { family: 'metaphor', category: 'pocitacove-vedy', subject: 'polyhedron', secondary: null },
 		spacecraft: { family: 'discovery', category: 'filmy', subject: 'rocket', secondary: null },
 		artificial: { family: 'metaphor', category: 'pocitacove-vedy', subject: 'machine', secondary: null },
-		taxi: { family: 'metaphor', category: 'matematika', subject: 'car', secondary: null }
+		taxi: { family: 'metaphor', category: 'matematika', subject: 'car', secondary: null },
+		alchemy: { family: 'discovery', category: 'veda', subject: 'flask', secondary: null },
+		waveform: { family: 'discovery', category: 'fyzika', subject: 'cycle', secondary: null },
+		cosmicMusic: { family: 'discovery', category: 'filozofie', subject: 'planet', secondary: null },
+		threeDoors: { family: 'metaphor', category: 'matematika', subject: 'car', secondary: null },
+		division: { family: 'portrait', category: 'psychologie', subject: 'figure', secondary: null },
+		atomIdea: { family: 'discovery', category: 'filozofie', subject: 'atom', secondary: null },
+		calendar: { family: 'relic', category: 'historie', subject: 'cycle', secondary: null },
+		powers: { family: 'metaphor', category: 'matematika', subject: 'numeralOne', secondary: 'numeralTwo' },
+		justice: { family: 'metaphor', category: 'politika', subject: 'balance', secondary: null },
+		peaceFaith: { family: 'relic', category: 'politika', subject: 'bird', secondary: null },
+		bacteria: { family: 'discovery', category: 'veda', subject: 'bacterium', secondary: null },
+		circleSquare: { family: 'metaphor', category: 'umeni', subject: 'figure', secondary: null },
+		inflation: { family: 'metaphor', category: 'ekonomie', subject: 'balance', secondary: null },
+		decipherment: { family: 'relic', category: 'historie', subject: 'stele', secondary: null },
+		networkScene: { family: 'metaphor', category: 'pocitacove-vedy', subject: 'machine', secondary: null },
+		ballot: { family: 'relic', category: 'politika', subject: 'crowd', secondary: null }
 	};
 
 	const SEEDS = ['eden', 'dva', 'tri'];
 
-	// Všech 36 typů scén: sedm rodin, osm kompozic a 22 sémantických scén.
+	// Všech 62 typů scén: sedm rodin, osm kompozic a 48 sémantických scén.
 	const SEMANTIC_GALLERY = SCENE_TYPES.filter((type) => type.group === 'semantic').map((type) => {
 		const demo = SEMANTIC_DEMO[type.key] ?? {};
 		return {

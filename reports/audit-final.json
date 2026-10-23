@@ -1,17 +1,17 @@
 {
-  "generatedAt": "2026-10-23T09:19:18.245Z",
+  "generatedAt": "2026-10-23T10:11:37.257Z",
   "posts": 766,
   "distinct": {
-    "scenes": 46,
-    "subjects": 74,
-    "structuralScenes": 196,
-    "combos": 207
+    "scenes": 62,
+    "subjects": 75,
+    "structuralScenes": 208,
+    "combos": 219
   },
   "concentration": {
     "topSubject": "bust",
     "topSubjectCount": 58,
     "topSubjectShare": 7.6,
-    "normalizedEntropy": 0.888
+    "normalizedEntropy": 0.89
   },
   "families": {
     "metaphor": 261,
@@ -23,52 +23,68 @@
     "layers": 40
   },
   "scenes": {
-    "metaphor": 156,
+    "metaphor": 147,
     "portrait": 92,
-    "laboratory": 38,
-    "discovery": 36,
-    "mechanism": 34,
+    "laboratory": 33,
     "celestial": 32,
-    "layers": 32,
-    "relic": 32,
-    "nature": 31,
-    "storybook": 27,
-    "codex": 23,
-    "transformation": 22,
+    "discovery": 32,
+    "mechanism": 31,
+    "relic": 31,
+    "nature": 30,
+    "storybook": 26,
+    "layers": 23,
+    "transformation": 21,
     "solarSystem": 20,
-    "voyage": 19,
-    "confrontation": 18,
-    "writing": 17,
-    "orbitCycle": 13,
+    "codex": 18,
+    "voyage": 18,
+    "confrontation": 17,
     "theatre": 13,
-    "connection": 10,
-    "observatory": 10,
-    "split": 10,
+    "writing": 13,
+    "orbitCycle": 12,
+    "connection": 9,
+    "networkScene": 9,
+    "observatory": 9,
+    "split": 9,
     "contrast": 8,
     "mapScene": 8,
+    "inflation": 7,
     "mirrorScene": 6,
     "ritual": 6,
     "weave": 6,
+    "bacteria": 5,
+    "ballot": 5,
+    "decipherment": 5,
     "metamorphosis": 5,
     "procession": 5,
     "timeFigure": 4,
+    "atomIdea": 3,
     "bookFire": 3,
+    "cosmicMusic": 3,
     "crash": 3,
+    "division": 3,
     "measurement": 3,
     "monument": 3,
     "siege": 3,
     "artificial": 2,
+    "calendar": 2,
     "collapse": 2,
     "compression": 2,
     "disruption": 2,
     "growth": 2,
     "seedGrowth": 2,
+    "alchemy": 1,
+    "circleSquare": 1,
     "digits": 1,
+    "justice": 1,
     "labyrinth": 1,
     "parable": 1,
+    "peaceFaith": 1,
+    "powers": 1,
     "response": 1,
     "spacecraft": 1,
-    "taxi": 1
+    "taxi": 1,
+    "threeDoors": 1,
+    "waveform": 1
   },
   "compositions": {
     "single": 651,
@@ -89,34 +105,33 @@
   "subjects": {
     "bust": 58,
     "brain": 44,
-    "machine": 38,
-    "polyhedron": 37,
-    "book": 33,
-    "scroll": 33,
-    "(bez motivu)": 32,
+    "machine": 43,
+    "polyhedron": 33,
+    "book": 32,
+    "scroll": 28,
     "sun": 24,
+    "(bez motivu)": 23,
     "atom": 23,
+    "balance": 23,
     "palette": 23,
-    "film": 22,
-    "ship": 20,
-    "planet": 18,
-    "balance": 17,
-    "crowd": 17,
-    "flask": 17,
-    "figure": 16,
-    "script": 15,
+    "crowd": 21,
+    "film": 21,
+    "planet": 21,
+    "figure": 20,
+    "ship": 19,
+    "flask": 18,
+    "cycle": 15,
     "tree": 15,
-    "cycle": 13,
+    "script": 14,
     "mask": 13,
-    "microscope": 12,
-    "gear": 11,
     "map": 11,
+    "gear": 10,
     "star": 10,
-    "telescope": 10,
-    "crown": 9,
+    "telescope": 9,
+    "crown": 8,
     "entropy": 8,
     "amphora": 7,
-    "coin": 7,
+    "microscope": 7,
     "octopus": 7,
     "temple": 7,
     "candle": 6,
@@ -126,33 +141,35 @@
     "chart": 6,
     "loom": 6,
     "mirror": 6,
+    "bacterium": 5,
     "butterfly": 5,
+    "coin": 5,
     "hand": 5,
     "lyre": 5,
     "sword": 5,
-    "throne": 5,
     "wall": 5,
-    "wind": 5,
+    "car": 4,
     "eye": 4,
     "flame": 4,
     "heart": 4,
-    "moon": 4,
-    "car": 3,
+    "stele": 4,
+    "throne": 4,
+    "wind": 4,
     "castle": 3,
     "compass": 3,
     "infinity": 3,
     "knot": 3,
+    "moon": 3,
+    "numeralOne": 3,
     "rocket": 3,
     "banana": 2,
+    "bird": 2,
     "blackhole": 2,
     "bolt": 2,
     "column": 2,
     "library": 2,
     "mountain": 2,
-    "numeralOne": 2,
     "sprout": 2,
-    "stele": 2,
-    "bird": 1,
     "cat": 1,
     "comet": 1,
     "elephant": 1,
@@ -164,28 +181,28 @@
     "snowflake": 1
   },
   "secondaries": {
-    "gear": 34,
-    "microscope": 30,
-    "scroll": 27,
-    "column": 25,
-    "compass": 25,
-    "planet": 23,
+    "gear": 31,
+    "microscope": 27,
+    "scroll": 26,
+    "compass": 24,
+    "planet": 22,
+    "column": 20,
     "figure": 16,
-    "quill": 16,
     "film": 13,
-    "hourglass": 13,
     "sword": 13,
-    "key": 10,
-    "flask": 8,
+    "hourglass": 12,
+    "quill": 12,
+    "key": 9,
     "clock": 7,
-    "crown": 7,
     "hand": 7,
-    "lyre": 7,
+    "crown": 6,
+    "flask": 6,
     "temple": 6,
     "thread": 6,
     "cocoon": 5,
     "chart": 5,
     "laurel": 5,
+    "lyre": 5,
     "torch": 5,
     "coin": 4,
     "flame": 3,
@@ -200,6 +217,7 @@
     "wolf": 2,
     "comet": 1,
     "magnifier": 1,
+    "numeralTwo": 1,
     "ship": 1,
     "sun": 1,
     "wind": 1
@@ -209,26 +227,13 @@
       "scene": "mechanism",
       "subject": "machine",
       "secondary": "gear",
-      "count": 34,
+      "count": 31,
       "ids": [
         "005",
         "012",
         "059",
         "065",
         "095"
-      ]
-    },
-    {
-      "scene": "layers",
-      "subject": null,
-      "secondary": null,
-      "count": 32,
-      "ids": [
-        "030",
-        "040",
-        "164",
-        "183",
-        "222"
       ]
     },
     {
@@ -248,7 +253,7 @@
       "scene": "metaphor",
       "subject": "polyhedron",
       "secondary": null,
-      "count": 28,
+      "count": 26,
       "ids": [
         "021",
         "041",
@@ -258,29 +263,29 @@
       ]
     },
     {
-      "scene": "metaphor",
-      "subject": "brain",
+      "scene": "layers",
+      "subject": null,
       "secondary": null,
       "count": 23,
       "ids": [
-        "009",
-        "071",
-        "082",
-        "093",
-        "106"
+        "030",
+        "040",
+        "164",
+        "183",
+        "222"
       ]
     },
     {
-      "scene": "codex",
-      "subject": "scroll",
-      "secondary": "column",
+      "scene": "metaphor",
+      "subject": "brain",
+      "secondary": null,
       "count": 22,
       "ids": [
-        "013",
-        "035",
-        "171",
-        "261",
-        "283"
+        "009",
+        "082",
+        "093",
+        "106",
+        "210"
       ]
     },
     {
@@ -297,29 +302,29 @@
       ]
     },
     {
+      "scene": "codex",
+      "subject": "scroll",
+      "secondary": "column",
+      "count": 17,
+      "ids": [
+        "013",
+        "035",
+        "171",
+        "284",
+        "287"
+      ]
+    },
+    {
       "scene": "voyage",
       "subject": "ship",
       "secondary": "compass",
-      "count": 17,
+      "count": 16,
       "ids": [
         "023",
         "127",
         "156",
         "182",
         "195"
-      ]
-    },
-    {
-      "scene": "laboratory",
-      "subject": "atom",
-      "secondary": "microscope",
-      "count": 17,
-      "ids": [
-        "034",
-        "036",
-        "077",
-        "108",
-        "114"
       ]
     },
     {
@@ -349,42 +354,29 @@
       ]
     },
     {
+      "scene": "laboratory",
+      "subject": "atom",
+      "secondary": "microscope",
+      "count": 14,
+      "ids": [
+        "034",
+        "114",
+        "125",
+        "138",
+        "154"
+      ]
+    },
+    {
       "scene": "metaphor",
       "subject": "film",
       "secondary": null,
-      "count": 15,
+      "count": 14,
       "ids": [
         "257",
         "259",
         "279",
         "281",
         "282"
-      ]
-    },
-    {
-      "scene": "writing",
-      "subject": "script",
-      "secondary": "quill",
-      "count": 14,
-      "ids": [
-        "029",
-        "233",
-        "264",
-        "312",
-        "415"
-      ]
-    },
-    {
-      "scene": "orbitCycle",
-      "subject": "cycle",
-      "secondary": "hourglass",
-      "count": 13,
-      "ids": [
-        "064",
-        "217",
-        "249",
-        "271",
-        "418"
       ]
     },
     {
@@ -411,6 +403,32 @@
         "091",
         "206",
         "288"
+      ]
+    },
+    {
+      "scene": "orbitCycle",
+      "subject": "cycle",
+      "secondary": "hourglass",
+      "count": 12,
+      "ids": [
+        "064",
+        "217",
+        "249",
+        "271",
+        "418"
+      ]
+    },
+    {
+      "scene": "writing",
+      "subject": "script",
+      "secondary": "quill",
+      "count": 12,
+      "ids": [
+        "264",
+        "312",
+        "415",
+        "600",
+        "601"
       ]
     },
     {
@@ -496,22 +514,8 @@
       ]
     },
     {
-      "signature": "1f0709b2",
-      "count": 26,
-      "ids": [
-        "040",
-        "164",
-        "183",
-        "226",
-        "232",
-        "237",
-        "245",
-        "263"
-      ]
-    },
-    {
       "signature": "c80ca05d",
-      "count": 25,
+      "count": 24,
       "ids": [
         "015",
         "025",
@@ -520,21 +524,21 @@
         "144",
         "160",
         "177",
-        "191"
+        "225"
       ]
     },
     {
       "signature": "7929459b",
-      "count": 23,
+      "count": 21,
       "ids": [
-        "016",
         "021",
         "041",
         "116",
         "133",
         "224",
         "432",
-        "500"
+        "500",
+        "584"
       ]
     },
     {
@@ -553,7 +557,7 @@
     },
     {
       "signature": "a1ed53e2",
-      "count": 20,
+      "count": 19,
       "ids": [
         "150",
         "256",
@@ -562,7 +566,21 @@
         "279",
         "281",
         "282",
-        "435"
+        "452"
+      ]
+    },
+    {
+      "signature": "1f0709b2",
+      "count": 18,
+      "ids": [
+        "040",
+        "164",
+        "183",
+        "232",
+        "237",
+        "245",
+        "263",
+        "585"
       ]
     },
     {
@@ -581,30 +599,30 @@
     },
     {
       "signature": "fc90b47e",
-      "count": 17,
+      "count": 14,
       "ids": [
         "034",
-        "036",
-        "077",
-        "108",
         "114",
         "125",
         "138",
-        "154"
+        "154",
+        "211",
+        "212",
+        "214"
       ]
     },
     {
-      "signature": "648faf17",
-      "count": 13,
+      "signature": "3860b3a7",
+      "count": 12,
       "ids": [
-        "064",
-        "217",
-        "249",
-        "271",
-        "418",
-        "498",
-        "526",
-        "629"
+        "017",
+        "088",
+        "091",
+        "206",
+        "288",
+        "537",
+        "548",
+        "563"
       ]
     }
   ],
@@ -839,15 +857,15 @@
         "category": "ekonomie",
         "family": "metaphor",
         "requestedFamily": "metaphor",
-        "scene": "metaphor",
+        "scene": "inflation",
         "composition": "single",
         "subject": "balance",
         "secondary": null,
         "reason": "category:ekonomie",
         "supports": [],
-        "signature": "l,r,p:MLLLZ,r,l,c,l,l,p:MQ,l,l,l,p:MQ,l,r,c",
-        "signatureHash": "c549993a",
-        "elementCount": 16,
+        "signature": "l,l,l,l,l,l,r,r,r,r,r,r,pl:14,l,p:MLLZ",
+        "signatureHash": "00123839",
+        "elementCount": 15,
         "analysisSubject": "balance"
       },
       {
@@ -1265,7 +1283,7 @@
       ]
     },
     "subject-not-in-text": {
-      "count": 32,
+      "count": 38,
       "examples": [
         {
           "type": "subject-not-in-text",
@@ -1323,26 +1341,26 @@
         },
         {
           "type": "subject-not-in-text",
-          "id": "434",
-          "title": "Existují úlohy, u kterých počítač nikdy dopředu nepozná, že se zacyklí",
-          "detail": "motiv gear nemá v textu žádné vlastní slovo"
+          "id": "431",
+          "title": "Než internet znal e-mail, adresa potřebovala nový symbol",
+          "detail": "motiv machine nemá v textu žádné vlastní slovo"
         }
       ]
     }
   },
-  "warningCount": 88,
+  "warningCount": 94,
   "comparison": {
     "scenes": {
       "before": 8,
-      "after": 46
+      "after": 62
     },
     "subjects": {
       "before": 51,
-      "after": 74
+      "after": 75
     },
     "structuralScenes": {
       "before": 146,
-      "after": 196
+      "after": 208
     },
     "fallbacks": {
       "before": 66,
@@ -1350,7 +1368,7 @@
     },
     "warnings": {
       "before": 127,
-      "after": 88
+      "after": 94
     },
     "topSubjectShare": {
       "before": 8.1,

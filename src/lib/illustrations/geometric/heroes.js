@@ -2111,6 +2111,39 @@ function geoNumeralOne({ palette: p }) {
 	];
 }
 
+/** Číslice dva — pro exponenty a druhé mocniny. */
+function geoNumeralTwo({ palette: p }) {
+	return [
+		path(
+			'M -24 -30 Q -22 -54 2 -54 Q 26 -54 26 -30 Q 26 -14 6 0 L -14 14 L 26 14 L 26 34 L -24 34 L -24 22 L 6 -2 Q 14 -10 14 -26 Q 14 -38 2 -38 Q -12 -38 -12 -28 Z',
+			{ ...shape(p.lightSoft, p.light, 1.4) }
+		),
+		rect(-24, 40, 50, 6, { fill: p.accent, opacity: 0.85 })
+	];
+}
+
+/** Bakterie — jedna buňka s bičíky; scéna jich skládá celou kolonii. */
+function geoBacterium({ palette: p, variant }) {
+	const out = [];
+	out.push(ellipse(0, 0, 17, 11, { ...shape(variant === 1 ? p.teal : p.sage, p.light, 1.2) }));
+	out.push(circle(-6, -2, 2.4, { fill: p.light, opacity: 0.55 }));
+	out.push(circle(4, 3, 1.8, { fill: p.amber, opacity: 0.75 }));
+	const tails = variant === 2 ? 3 : 2;
+	for (let i = 0; i < tails; i++) {
+		const y = -5 + i * 6;
+		out.push(
+			path(`M 16 ${y} Q 26 ${y - 5} 32 ${y + 3}`, {
+				fill: 'none',
+				stroke: p.light,
+				sw: 1,
+				opacity: 0.6,
+				linecap: 'round'
+			})
+		);
+	}
+	return out;
+}
+
 // --- Scény ----------------------------------------------------------------
 
 export const HEROES = {
@@ -2204,7 +2237,9 @@ export const HEROES = {
 	car: geoCar,
 	banana: geoBanana,
 	chart: geoChart,
-	numeralOne: geoNumeralOne
+	numeralOne: geoNumeralOne,
+	numeralTwo: geoNumeralTwo,
+	bacterium: geoBacterium
 };
 
 export const HERO_KEYS = Object.keys(HEROES);

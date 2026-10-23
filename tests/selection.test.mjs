@@ -10,7 +10,7 @@ import test from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
 
-import { createGeometricIllustration, selectScene } from '../src/lib/illustrations/index.js';
+import { SEMANTIC_SCENE_KEYS, createGeometricIllustration, selectScene } from '../src/lib/illustrations/index.js';
 
 const posts = JSON.parse(readFileSync(new URL('../static/data/posts.json', import.meta.url), 'utf8'));
 const post = (id) => {
@@ -218,6 +218,54 @@ test('zkrácení války není komprese dat', () => {
 
 test('hodiny vracející se k jedničce nejsou rozpad číslic', () => {
 	assert.notEqual(render('657').scene, 'digits');
+});
+
+test('z druhé iterace feedbacku: zlato, vlny, vesmírná hudba a tři dveře', () => {
+	assert.equal(render('823').scene, 'alchemy');
+	assert.equal(render('823').subject, 'flask');
+	assert.equal(render('704').scene, 'waveform');
+	assert.equal(render('056').scene, 'cosmicMusic');
+	assert.notEqual(render('056').subject, 'telescope');
+	assert.equal(render('226').scene, 'threeDoors');
+});
+
+test('rozdělení skupiny, antický atom, kalendář a mocniny', () => {
+	assert.equal(render('071').scene, 'division');
+	assert.equal(render('108').scene, 'atomIdea');
+	assert.equal(render('108').secondary, null);
+	assert.equal(render('526').scene, 'calendar');
+	assert.equal(render('501').scene, 'powers');
+	assert.equal(render('501').secondary, 'numeralTwo');
+});
+
+test('spravedlnost, mír a víra, bakterie, kruh se čtvercem a růst cen', () => {
+	assert.equal(render('727').scene, 'justice');
+	assert.equal(render('727').subject, 'balance');
+	assert.equal(render('482').scene, 'peaceFaith');
+	assert.notEqual(render('482').scene, 'codex');
+	assert.equal(render('205').scene, 'bacteria');
+	assert.equal(render('800').scene, 'circleSquare');
+	assert.equal(render('236').scene, 'inflation');
+});
+
+test('nové vrstvy: rozluštění, síť a volby', () => {
+	assert.equal(render('029').scene, 'decipherment');
+	assert.equal(render('117').scene, 'networkScene');
+	assert.equal(render('805').scene, 'ballot');
+});
+
+test('viróza ani plíseň nespustí bakteriální kolonii', () => {
+	assert.notEqual(render('200').scene, 'bacteria');
+	assert.notEqual(render('032').scene, 'bacteria');
+});
+
+test('propad burzy zůstává propadem, ne růstem cen', () => {
+	assert.equal(render('128').scene, 'crash');
+});
+
+test('sémantických scén je alespoň jeden a půl násobek původních dvaatřiceti', () => {
+	assert.ok(SEMANTIC_SCENE_KEYS.length >= 48, String(SEMANTIC_SCENE_KEYS.length));
+	assert.equal(new Set(SEMANTIC_SCENE_KEYS).size, SEMANTIC_SCENE_KEYS.length);
 });
 
 test('selectScene vrací null pro neutrální text bez specifické scény', () => {

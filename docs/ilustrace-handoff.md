@@ -22,8 +22,8 @@ commitu aktualizovat i tento dokument — počty, tabulky, mapování a testy.
    předmětů s kmeny slov, skóre a vazbou na kategorii. Kategorie je záchranná
    síť, ne hlavní rozhodnutí.
 4. Analýza vybírá z **65 analytických rodin**; geometrická vrstva jich používá
-   **7 rodinných scén**, **90 kreslených motivů**, **8 kompozičních vzorů**
-   a **32 sémantických scén** — celkem **46 typů scén**. Mapování je
+   **7 rodinných scén**, **92 kreslených motivů**, **8 kompozičních vzorů**
+   a **48 sémantických scén** — celkem **62 typů scén**. Mapování je
    v `geometric/mapping.js`, vztah objektů v `geometric/composition.js`,
    významová pravidla v `geometric/selection.js`.
 5. Ilustrace je dekorativní (`aria-hidden`, `pointer-events: none`), sedí ve
@@ -47,9 +47,9 @@ src/lib/illustrations/
 │                            # explainSelection, normalizeText, wordsOf, countHits
 └── geometric/
     ├── index.js             # createGeometricIllustration()
-    ├── selection.js         # 32 sémantických scén: význam textu → scéna
-    ├── scenes.js            # 7 rodin + 8 kompozic + 32 sémantických scén
-    ├── heroes.js            # 90 kreslicích funkcí motivů
+    ├── selection.js         # 48 sémantických scén: význam textu → scéna
+    ├── scenes.js            # 7 rodin + 8 kompozic + 48 sémantických scén
+    ├── heroes.js            # 92 kreslicích funkcí motivů
     ├── mapping.js           # 65 rodin → 7 scén, aliasy předmětů
     ├── composition.js       # volba vzoru (dělení, konfrontace, proměna…)
     ├── refine.js            # zpřesnění obecného motivu podle textu
@@ -92,7 +92,7 @@ posts.json (766 příspěvků)
    │                     { family, subject, supports, concept, reason, scores }
    │                                           │
    │                                           ▼
-   │                                  selectScene()   32 sémantických pravidel
+   │                                  selectScene()   48 sémantických pravidel
    │                                           │      (požár knihovny, čas,
    │                                           │       písmo, stroj, plavba…)
    │                                           ▼
@@ -125,9 +125,9 @@ posts.json (766 příspěvků)
 - `analyzePost(post)` → `{ family, subject, supports, concept, reason, scores }`.
 - `selectScene({ post, analysis, family, category })` → `{ scene, subject, secondary, reason }`
   nebo `null`; čistě deterministická pravidla bez sítě a LLM.
-- `SCENE_TYPES` → všech 46 typů scén s `{ key, group, label, note }`, kde
+- `SCENE_TYPES` → všech 62 typů scén s `{ key, group, label, note }`, kde
   `group` je `family`, `composition` nebo `semantic`.
-- `SEMANTIC_SCENE_KEYS` → 32 klíčů sémantických scén v pořadí priorit.
+- `SEMANTIC_SCENE_KEYS` → 48 klíčů sémantických scén v pořadí priorit.
 - `explainSelection(post)` → totéž plus `subjectLabel` a `supportLabels`
   (používá galerie, v produkci se nevolá).
 - `validateElements(elements)` → `{ ok, errors }`; kontroluje tvary, konečná
@@ -301,7 +301,7 @@ aby se nepletl s obecnými texty.
 
 ---
 
-## 5. Scény (7 + 8 + 32) a kompoziční vzory
+## 5. Scény (7 + 8 + 48) a kompoziční vzory
 
 Zdroj: `geometric/scenes.js`, konstanta `SCENES`.
 
@@ -350,7 +350,7 @@ o abstraktní text, ne o konkrétní věc.
 `GEOMETRIC_FAMILY_KEYS` je odvozené z `Object.keys(SCENES)`; pořadí je
 `portrait, discovery, storybook, relic, metaphor, nature, layers`.
 
-### 5.1 Sémantické scény (32)
+### 5.1 Sémantické scény (48)
 
 Zdroj: `geometric/selection.js` (pravidla) a `geometric/scenes.js` (kreslení).
 Rodina odpovídá na „jaký jazyk“, kompozice na „jaký vztah“, sémantická scéna
@@ -391,6 +391,22 @@ a první shoda vyhrává; každé vrací `{ scene, subject, secondary, reason }`
 | `spacecraft` | raketa + dráha a hvězdy | vesmírná loď, ne plachetnice |
 | `artificial` | jeden stroj + signální oblouky | Turingův test a stroj, který komunikuje |
 | `taxi` | auto + silnice a přerušovaná čára | taxík nebo auto jako nositelem textu |
+| `alchemy` | baňka + jantarová kapka | zlato a rozpouštění kyselinou |
+| `waveform` | osa + pravidelná vlna | symetrie, frekvence, pravidelné vlnění |
+| `cosmicMusic` | planeta + nota, dráha | vesmír jako hudba a harmonie |
+| `threeDoors` | tři dveře s otazníky | volba mezi třemi možnostmi |
+| `division` | dvě skupiny postav + hranice | rozdělení lidí na role nebo skupiny |
+| `atomIdea` | jeden atom, žádný přístroj | antická myšlenka atomu |
+| `calendar` | mřížka dnů a zvýrazněný den | kalendář a přestupné roky |
+| `powers` | číslice 1 s exponentem 2 | mocniny a imaginární čísla |
+| `justice` | jediné váhy | spravedlnost mezi silným a slabým |
+| `peaceFaith` | holubice + kříž | mír a víra, náboženský konflikt |
+| `bacteria` | kolonie bakterií v kruhu | bakterie a mikrobi |
+| `circleSquare` | kruh + čtverec | geometrické ideály a proporce |
+| `inflation` | stoupající křivka a sloupce | růst cen a inflace |
+| `decipherment` | stélé + dvě kolony znaků | rozluštění písma |
+| `networkScene` | uzly + spojnice | sítě, internet, neurony |
+| `ballot` | urna + hlasovací lístek | volby a hlasování |
 
 Priorita je záměrná: konkrétní událost (požár, plavba, obléhání) předchází
 obecnému tělesu a teprve potom rozhoduje rodina. Příklady regresí:
@@ -409,13 +425,23 @@ vyžadují Benforda nebo slovo „číslice“ v titulku. Negativní případy h
 testy (`023` odraz od mola, `516` válečný slon, `029/069/104` Rosettská
 deska, `134` zkrácení války, `566` zrcadlo dalekohledu).
 
+Třetí iterace zúžila pravidla stejně obezřetně: zlato se rozpouští jen
+s kyselinou; vesmírná hudba chce hudbu i vesmír; tři dveře chtějí dveře
+a pravděpodobnost; atom bez přístroje jen u antických filozofů; kalendář
+chce kalendářní pojmy; spravedlnost chce spor silného a slabého; mír a víra
+chtějí obojí; bakterie musí být v textu dvakrát a plíseň je vyloučena;
+růst cen nesmí být burzovní propad; rozluštění musí zmínit písmo i jeho
+luštění; síť chce dva síťové pojmy; volby chtějí volební slova. Nová
+scéna `peaceFaith` má přednost před zákoníkem, `decipherment` před obecným
+písmem a `bacteria` před laboratoří.
+
 Text `003` (hvězda) je `celestial/star`, i když obsah zmiňuje dalekohled —
 titulek jmenuje objekt, ne přístroj. Naopak `580` (měsíc Titanu) je
 `celestial/moon`, protože spojení „sluneční soustava“ se do Slunce nepočítá.
 
 ---
 
-## 6. Kreslené motivy (90)
+## 6. Kreslené motivy (92)
 
 Zdroj: `geometric/heroes.js`, konstanta `HEROES`.
 
@@ -443,6 +469,10 @@ Motivy z iterace podle vizuálního feedbacku:
 kde dosavadní scéna mátla: zrcadlo místo knihy u textu o převrácení stran,
 slon u podobenství, žluté auto u taxíku, banán s částicemi u radioaktivity,
 klesající křivka u burzovního propadu a výrazná číslice 1 u Benfordova zákona.
+
+Třetí iterace přidala `numeralTwo` pro exponenty a `bacterium` pro kolonii
+buněk. Obě kresby jsou geometrické a používají stejné primitivy jako
+ostatní motivy.
 
 Nové motivy vznikly tam, kde analýza už rozlišovala předmět, ale geometrie ho
 slévala do obecného tvaru: astronomie (`comet`, `galaxy`, `blackhole`, `rocket`,
@@ -646,6 +676,12 @@ nebo přesunout mimo `src/routes`.
 - negativní případy nových pravidel: odraz od mola, zrcadlo dalekohledu,
   válečný slon, Rosettská deska, obecný program, zkrácení války a hodiny
   vracející se k jedničce;
+- třetí iterace: třináct případů z feedbacku (zlato, vlnění, vesmírná hudba,
+  tři dveře, rozdělení skupiny, antický atom, kalendář, mocniny, spravedlnost,
+  mír a víra, bakterie, kruh a čtverec, růst cen) a tři nové vrstvy
+  (rozluštění, síť, volby);
+- negativní případy třetí iterace: virus ani plíseň nespustí bakterie,
+  burzovní propad zůstane propadem a sémantických scén je alespoň 48;
 - nebeská tělesa: Slunce nikdy jako Měsíc, Měsíc nikdy jako Slunce,
   hvězda v titulku před dalekohledem, Titan jako Měsíc i přes „sluneční soustavu“;
 - hranice krátkých řetězců: „dna“ uvnitř „prázdná“ nesmí změnit motiv;
@@ -672,8 +708,8 @@ produkce a vypíše:
 
 Užitečné přepínače: `--top`, `--limit`, `--scene`, `--family`, `--show`,
 `--json`, `--md`, `--rows`. Exit kód je nenulový, když některý regresní případ
-selže. Aktuální stav: 46 scén, 74 použitých motivů, 196 strukturálních scén,
-56 fallbacků (7,3 %), 88 varování, 5/5 regresí, entropie motivů 0,888.
+selže. Aktuální stav: 62 scén, 75 použitých motivů, 208 strukturálních scén,
+56 fallbacků (7,3 %), 94 varování, 5/5 regresí, entropie motivů 0,89.
 
 ---
 
@@ -729,7 +765,7 @@ větev už není v klientském bundlu; největší JS chunk klesl z přibližně
 1. Napiš scénu v `geometric/scenes.js` a zaregistruj ji v `SCENES`.
 2. Doplň `DEFAULT_SUBJECT` a případně `FAMILY_FALLBACK`.
 3. Doplň popisek a kategorii do `SCENE_META`/`SCENE_CATEGORY` v galerii.
-4. Ověř validitu pro všech 90 motivů.
+4. Ověř validitu pro všech 92 motivů.
 
 **Nová sémantická scéna**
 

@@ -1205,6 +1205,348 @@ function sceneTaxi(ctx) {
 	return out;
 }
 
+/** Otazník jako kresba, ne text — scéna zůstává čistě geometrická. */
+function questionMark(x, y, p, scale = 1, color = null) {
+	const c = color || p.light;
+	return group(
+		[
+			path('M -7 -12 C -7 -24 9 -26 12 -13 C 14 -5 1 -3 0 4', { ...stroke(c, 2.2, 0.95) }),
+			line(0, 4, 0, 9, { ...stroke(c, 2.2, 0.95) }),
+			circle(0, 14, 2.2, { fill: c, opacity: 0.95 })
+		],
+		{ x, y, scale }
+	);
+}
+
+/** Houslová nota jako kresba pro vesmírnou harmonii. */
+function noteGlyph(x, y, p, scale = 1) {
+	return group(
+		[
+			ellipse(-7, 10, 6, 4.4, { fill: p.amber, stroke: p.light, sw: 1, transform: 'rotate(-18 -7 10)' }),
+			line(0, 8, 0, -20, { ...stroke(p.light, 1.9, 0.95) }),
+			path('M 0 -20 C 9 -18 14 -11 12 -2 C 8 -10 4 -12 0 -9 Z', {
+				fill: p.amber,
+				stroke: p.light,
+				sw: 0.9
+			})
+		],
+		{ x, y, scale }
+	);
+}
+
+/** Zlato se rozpouští: baňka a velká jantarová kapka. */
+function sceneAlchemy(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(...drawHero(ctx, 'flask', { x: 112, y: 104, scale: 1.08 }));
+	// Rozpuštěné zlato v baňce.
+	out.push(ellipse(112, 118, 22, 6, { fill: p.amber, opacity: 0.7 }));
+	out.push(
+		path(
+			'M 232 34 C 222 54 212 66 212 78 C 212 91 221 99 232 99 C 243 99 252 91 252 78 C 252 66 242 54 232 34 Z',
+			{ fill: p.amber, stroke: p.light, sw: 1.2, opacity: 0.96 }
+		)
+	);
+	out.push(ellipse(224, 74, 3.2, 5.4, { fill: p.light, opacity: 0.5 }));
+	out.push(line(202, 92, 162, 100, { ...stroke(p.amber, 1.5, 0.65), dash: '4 5' }));
+	out.push(polygon([[162, 100], [172, 95], [172, 105]], { fill: p.amber, opacity: 0.8 }));
+	for (let i = 0; i < 4; i++) {
+		out.push(circle(198 + i * 14, 48 + (i % 2) * 10, 1.8, { fill: p.teal, opacity: 0.55 }));
+	}
+	return out;
+}
+
+/** Pravidelné vlnění: osa a jedna spojitá křivka. */
+function sceneWaveform(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.18)];
+	out.push(line(40, 54, 40, 142, { ...stroke(p.light, 1.3, 0.7) }));
+	out.push(line(40, 98, 288, 98, { ...stroke(p.light, 1, 0.28), dash: '3 5' }));
+	const points = [];
+	for (let i = 0; i <= 32; i++) {
+		const x = 48 + i * 7.4;
+		const y = 98 - Math.sin((i / 32) * Math.PI * 8) * 34;
+		points.push([x, y]);
+	}
+	out.push(polyline(points, { ...stroke(p.teal, 2.4, 0.95) }));
+	// Značky na vrcholech zdůrazní pravidelnou frekvenci.
+	for (let i = 2; i <= 30; i += 8) {
+		const x = 48 + i * 7.4;
+		out.push(circle(x, 64, 2.6, { fill: p.amber, opacity: 0.9 }));
+		out.push(line(x, 64, x, 98, { ...stroke(p.amber, 0.9, 0.28), dash: '2 5' }));
+	}
+	return out;
+}
+
+/** Pythagoras: planeta a nota, ne dalekohled. */
+function sceneCosmicMusic(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.18)];
+	out.push(...drawHero(ctx, 'planet', { x: 102, y: 96, scale: 1.12 }));
+	out.push(arcPath(160, 96, 74, 198, 342, { fill: 'none', stroke: p.teal, sw: 1.2, opacity: 0.55, dash: '3 6' }));
+	out.push(...noteGlyph(224, 96, p, 1.25));
+	for (const [x, y, r] of [
+		[60, 48, 2],
+		[246, 44, 2.4],
+		[276, 72, 1.6],
+		[190, 38, 1.8],
+		[84, 132, 1.6]
+	]) {
+		out.push(circle(x, y, r, { fill: p.light, opacity: 0.65 }));
+	}
+	return out;
+}
+
+/** Tři dveře a tři otazníky: volba, která mění pravděpodobnost. */
+function sceneThreeDoors(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	for (let i = 0; i < 3; i++) {
+		const x = 48 + i * 78;
+		out.push(rect(x, 50, 60, 92, { fill: i === 0 ? p.accentSoft : p.forest, stroke: p.light, sw: 1.4, opacity: 0.9 }));
+		out.push(rect(x + 7, 58, 46, 76, { fill: 'none', stroke: p.light, sw: 0.9, opacity: 0.4 }));
+		out.push(...questionMark(x + 30, 94, p, 1.15, i === 0 ? p.amber : p.light));
+		out.push(circle(x + 44, 136, 2.2, { fill: p.amber, opacity: 0.75 }));
+	}
+	out.push(line(232, 158, 270, 158, { ...stroke(p.amber, 1.3, 0.6), dash: '3 4' }));
+	return out;
+}
+
+/** Rozdělení skupiny: postavy na dvou stranách čárkované hranice. */
+function sceneDivision(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(line(160, 38, 160, 148, { ...stroke(p.terracotta, 1.6, 0.8), dash: '5 6' }));
+	for (let i = 0; i < 4; i++) {
+		out.push(...drawHero(ctx, 'figure', { x: 52 + i * 30, y: 126, scale: 0.5 }));
+		out.push(circle(52 + i * 30, 58, 2.6, { fill: p.teal, opacity: 0.75 }));
+	}
+	for (let i = 0; i < 3; i++) {
+		out.push(...drawHero(ctx, 'figure', { x: 200 + i * 30, y: 126, scale: 0.5, flip: true }));
+		out.push(circle(200 + i * 30, 58, 2.6, { fill: p.amber, opacity: 0.85 }));
+	}
+	out.push(...arrow(132, 84, 150, p, 0.7));
+	out.push(...arrow(188, 236, 150, p, 0.7));
+	return out;
+}
+
+/** Démokritos: stačí jeden atom, žádný mikroskop. */
+function sceneAtomIdea(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.2)];
+	out.push(...drawHero(ctx, 'atom', { x: 160, y: 92, scale: 1.55 }));
+	out.push(arcPath(160, 92, 82, 205, 335, { fill: 'none', stroke: p.teal, sw: 1, opacity: 0.4, dash: '2 7' }));
+	for (let i = 0; i < 5; i++) {
+		const a = (i / 5) * Math.PI * 2;
+		out.push(circle(160 + Math.cos(a) * 82, 92 + Math.sin(a) * 46, 1.7, { fill: p.amber, opacity: 0.55 }));
+	}
+	return out;
+}
+
+/** Kalendář: mřížka dnů, jeden den zvýrazněný. */
+function sceneCalendar(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.18)];
+	out.push(rect(62, 40, 196, 106, { fill: p.forest, stroke: p.light, sw: 1.5, opacity: 0.55 }));
+	out.push(rect(62, 40, 196, 22, { fill: p.accent, opacity: 0.55 }));
+	out.push(line(62, 62, 258, 62, { ...stroke(p.light, 1.1, 0.7) }));
+	for (let i = 0; i < 3; i++) out.push(circle(96 + i * 66, 36, 3.2, { ...stroke(p.amber, 1.6, 0.8) }));
+	const cellW = 24;
+	const cellH = 15;
+	for (let row = 0; row < 4; row++) {
+		for (let col = 0; col < 7; col++) {
+			const x = 72 + col * cellW;
+			const y = 70 + row * cellH;
+			const highlight = row === 1 && col === 3;
+			out.push(
+				rect(x, y, 19, 11, {
+					fill: highlight ? p.amber : p.teal,
+					stroke: p.light,
+					sw: 0.6,
+					opacity: highlight ? 0.95 : 0.3
+				})
+			);
+		}
+	}
+	out.push(arcPath(276, 96, 18, -70, 80, { fill: 'none', stroke: p.amber, sw: 1.4, opacity: 0.7 }));
+	out.push(polygon([[276, 114], [270, 104], [282, 104]], { fill: p.amber, opacity: 0.8 }));
+	return out;
+}
+
+/** Druhá mocnina: jednička a exponent dva. */
+function scenePowers(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.2)];
+	out.push(...drawHero(ctx, 'numeralOne', { x: 128, y: 104, scale: 1.18 }));
+	out.push(...drawHero(ctx, 'numeralTwo', { x: 176, y: 58, scale: 0.42 }));
+	out.push(line(78, 52, 78, 140, { ...stroke(p.light, 0.9, 0.2), dash: '2 6' }));
+	out.push(circle(214, 76, 3, { fill: p.amber, opacity: 0.8 }));
+	out.push(circle(232, 92, 2.2, { fill: p.teal, opacity: 0.7 }));
+	return out;
+}
+
+/** Spravedlnost: jediné váhy, žádný druhý objekt. */
+function sceneJustice(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.2)];
+	out.push(arcPath(160, 96, 94, 205, 335, { fill: 'none', stroke: p.teal, sw: 1, opacity: 0.3, dash: '3 7' }));
+	out.push(...drawHero(ctx, 'balance', { x: 160, y: 100, scale: 1.42 }));
+	out.push(circle(160, 42, 2.6, { fill: p.amber, opacity: 0.75 }));
+	return out;
+}
+
+/** Mír a víra: holubice a kříž. */
+function scenePeaceFaith(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.18)];
+	out.push(...drawHero(ctx, 'bird', { x: 96, y: 94, scale: 1.16 }));
+	out.push(rect(218, 44, 12, 96, { fill: p.sage, stroke: p.light, sw: 1.2, opacity: 0.9 }));
+	out.push(rect(194, 70, 60, 12, { fill: p.sage, stroke: p.light, sw: 1.2, opacity: 0.9 }));
+	out.push(line(198, 132, 246, 116, { ...stroke(p.teal, 1.4, 0.65) }));
+	for (let i = 0; i < 3; i++) {
+		out.push(ellipse(204 + i * 16, 128 - i * 5, 6, 3, { fill: p.teal, opacity: 0.6, transform: `rotate(-24 ${204 + i * 16} ${128 - i * 5})` }));
+	}
+	out.push(arcPath(96, 94, 52, 200, 340, { fill: 'none', stroke: p.amber, sw: 1.1, opacity: 0.5, dash: '3 6' }));
+	return out;
+}
+
+/** Bakterie: kolonie v kruhu, žádný mikroskop. */
+function sceneBacteria(ctx) {
+	const p = ctx.palette;
+	const out = [arcPath(160, 92, 66, 0, 360, { fill: 'none', stroke: p.light, sw: 0.8, opacity: 0.18, dash: '3 7' })];
+	for (let i = 0; i < 8; i++) {
+		const a = (i / 8) * Math.PI * 2;
+		out.push(
+			...drawHero(ctx, 'bacterium', {
+				x: 160 + Math.cos(a) * 68,
+				y: 92 + Math.sin(a) * 55,
+				scale: 0.72,
+				rotate: (a * 180) / Math.PI + 90
+			})
+		);
+	}
+	out.push(circle(160, 92, 4, { fill: p.amber, opacity: 0.85 }));
+	out.push(arcPath(160, 92, 34, 0, 360, { fill: 'none', stroke: p.teal, sw: 0.9, opacity: 0.35, dash: '2 6' }));
+	return out;
+}
+
+/** Kruh a čtverec: dva geometrické ideály přes sebe. */
+function sceneCircleSquare(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.18)];
+	out.push(circle(132, 94, 62, { fill: p.teal, opacity: 0.18, stroke: p.teal, sw: 2 }));
+	out.push(rect(118, 36, 116, 116, { fill: 'none', stroke: p.amber, sw: 2 }));
+	out.push(line(118, 94, 234, 94, { ...stroke(p.light, 0.9, 0.3), dash: '3 5' }));
+	out.push(line(176, 36, 176, 152, { ...stroke(p.light, 0.9, 0.3), dash: '3 5' }));
+	out.push(circle(132, 94, 3.2, { fill: p.amber }));
+	out.push(circle(176, 94, 3.2, { fill: p.terracotta }));
+	out.push(...drawHero(ctx, 'figure', { x: 176, y: 132, scale: 0.42 }));
+	return out;
+}
+
+/** Růst cen: stoupající křivka a sloupce. */
+function sceneInflation(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(line(50, 38, 50, 142, { ...stroke(p.light, 1.4, 0.7) }));
+	out.push(line(50, 142, 288, 142, { ...stroke(p.light, 1.4, 0.7) }));
+	for (let i = 1; i < 4; i++) out.push(line(50, 142 - i * 24, 288, 142 - i * 24, { ...stroke(p.light, 0.6, 0.12) }));
+	const heights = [14, 22, 30, 42, 56, 72];
+	for (let i = 0; i < heights.length; i++) {
+		const h = heights[i];
+		out.push(rect(64 + i * 34, 142 - h, 14, h, { fill: i === heights.length - 1 ? p.amber : p.teal, opacity: 0.55 }));
+	}
+	out.push(
+		polyline(
+			[
+				[66, 126],
+				[102, 116],
+				[136, 104],
+				[170, 88],
+				[204, 68],
+				[238, 50],
+				[272, 38]
+			],
+			{ ...stroke(p.terracotta, 2.4, 0.95) }
+		)
+	);
+	out.push(...arrow(244, 284, 34, p, 0.95));
+	return out;
+}
+
+/** Rozluštění písma: stélé, dvě kolony znaků a spojnice. */
+function sceneDecipherment(ctx) {
+	const p = ctx.palette;
+	const out = [...baseline(p, 152, 0.18)];
+	out.push(...drawHero(ctx, 'stele', { x: 82, y: 98, scale: 1.02 }));
+	for (const baseX of [174, 244]) {
+		for (let row = 0; row < 4; row++) {
+			const cy = 62 + row * 20;
+			const cx = baseX;
+			if (row % 3 === 0) out.push(circle(cx, cy, 4.2, { ...stroke(p.teal, 1.4, 0.85) }));
+			else if (row % 3 === 1) out.push(circle(cx, cy, 3, { fill: p.amber, opacity: 0.8 }));
+			else out.push(line(cx - 5, cy, cx + 5, cy, { ...stroke(p.sage, 1.8, 0.8) }));
+			out.push(line(cx - 8, cy + 7, cx + 8, cy + 7, { ...stroke(p.light, 0.8, 0.25) }));
+		}
+	}
+	out.push(line(126, 96, 160, 96, { ...stroke(p.amber, 1.4, 0.7), dash: '4 4' }));
+	out.push(polygon([[160, 96], [150, 91], [150, 101]], { fill: p.amber, opacity: 0.8 }));
+	out.push(arcPath(208, 96, 30, -80, 80, { fill: 'none', stroke: p.teal, sw: 1.2, opacity: 0.6 }));
+	out.push(polygon([[208, 126], [202, 116], [214, 116]], { fill: p.teal, opacity: 0.75 }));
+	return out;
+}
+
+/** Síť: uzly a spojnice, jeden uzel nese význam. */
+function sceneNetwork(ctx) {
+	const p = ctx.palette;
+	const out = [];
+	const nodes = [];
+	for (let i = 0; i < 7; i++) {
+		const a = (i / 7) * Math.PI * 2 - Math.PI / 2;
+		nodes.push([160 + Math.cos(a) * 78, 92 + Math.sin(a) * 54]);
+	}
+	for (let i = 0; i < nodes.length; i++) {
+		const [x, y] = nodes[i];
+		out.push(line(160, 92, x, y, { ...stroke(p.teal, 1, 0.45) }));
+		const next = nodes[(i + 1) % nodes.length];
+		out.push(line(x, y, next[0], next[1], { ...stroke(p.sage, 0.9, 0.25) }));
+	}
+	for (let i = 0; i < nodes.length; i++) {
+		const [x, y] = nodes[i];
+		out.push(circle(x, y, i % 3 === 0 ? 7 : 5, { fill: i % 3 === 0 ? p.amber : p.forest, stroke: p.light, sw: 1.2 }));
+	}
+	out.push(circle(160, 92, 11, { fill: p.accent, stroke: p.light, sw: 1.4 }));
+	out.push(circle(160, 92, 4, { fill: p.light, opacity: 0.7 }));
+	return out;
+}
+
+/** Volby: urna, hlasovací lístek a zaškrtnutí. */
+function sceneBallot(ctx) {
+	const p = ctx.palette;
+	const y = 152;
+	const out = [...baseline(p, y, 0.2)];
+	out.push(rect(108, 88, 104, 60, { fill: p.forest, stroke: p.light, sw: 1.5 }));
+	out.push(rect(128, 92, 64, 7, { fill: p.light, opacity: 0.35 }));
+	out.push(rect(142, 94, 36, 3, { fill: p.forestDeep }));
+	out.push(...group(
+		[
+			rect(-22, -18, 44, 40, { fill: p.light, stroke: p.light, sw: 1.1, opacity: 0.92 }),
+			line(-14, -8, 14, -8, { ...stroke(p.forest, 1.3, 0.5) }),
+			line(-14, 0, 14, 0, { ...stroke(p.forest, 1.3, 0.5) }),
+			line(-14, 8, 4, 8, { ...stroke(p.forest, 1.3, 0.5) }),
+			path('M -16 18 L -6 28 L 18 2', { fill: 'none', stroke: p.terracotta, sw: 3, linecap: 'round', linejoin: 'round' })
+		],
+		{ x: 160, y: 66, rotate: -7 }
+	));
+	out.push(arcPath(160, 96, 82, 200, 340, { fill: 'none', stroke: p.amber, sw: 1, opacity: 0.35, dash: '3 7' }));
+	for (let i = 0; i < 4; i++) out.push(circle(68 + i * 12, 62 + (i % 2) * 8, 1.8, { fill: p.teal, opacity: 0.6 }));
+	return out;
+}
+
 /** Všechny sémantické scény podle klíče. */
 export const SEMANTIC_SCENES = {
 	bookFire: sceneBookFire,
@@ -1238,7 +1580,23 @@ export const SEMANTIC_SCENES = {
 	compression: sceneCompression,
 	spacecraft: sceneSpacecraft,
 	artificial: sceneArtificial,
-	taxi: sceneTaxi
+	taxi: sceneTaxi,
+	alchemy: sceneAlchemy,
+	waveform: sceneWaveform,
+	cosmicMusic: sceneCosmicMusic,
+	threeDoors: sceneThreeDoors,
+	division: sceneDivision,
+	atomIdea: sceneAtomIdea,
+	calendar: sceneCalendar,
+	powers: scenePowers,
+	justice: sceneJustice,
+	peaceFaith: scenePeaceFaith,
+	bacteria: sceneBacteria,
+	circleSquare: sceneCircleSquare,
+	inflation: sceneInflation,
+	decipherment: sceneDecipherment,
+	networkScene: sceneNetwork,
+	ballot: sceneBallot
 };
 
 /** Metadata scény pro galerii a dokumentaci. */
@@ -1274,7 +1632,23 @@ export const SEMANTIC_SCENE_META = {
 	compression: { label: 'Komprese', note: 'velký objekt se zmenšuje' },
 	spacecraft: { label: 'Vesmírná loď', note: 'raketa bez moře' },
 	artificial: { label: 'Stroj, který mluví', note: 'jeden stroj a signál' },
-	taxi: { label: 'Taxík', note: 'auto, silnice, číslo' }
+	taxi: { label: 'Taxík', note: 'auto, silnice, číslo' },
+	alchemy: { label: 'Rozpouštění zlata', note: 'baňka a jantarová kapka' },
+	waveform: { label: 'Vlnění', note: 'pravidelná frekvence a osa' },
+	cosmicMusic: { label: 'Vesmírná hudba', note: 'planeta a nota' },
+	threeDoors: { label: 'Tři volby', note: 'tři dveře a otazníky' },
+	division: { label: 'Rozdělení', note: 'dvě skupiny postav a hranice' },
+	atomIdea: { label: 'Myšlenka atomu', note: 'jeden atom bez přístroje' },
+	calendar: { label: 'Kalendář', note: 'mřížka dnů a přestupný den' },
+	powers: { label: 'Mocniny', note: 'jednička s exponentem dva' },
+	justice: { label: 'Spravedlnost', note: 'jediné váhy' },
+	peaceFaith: { label: 'Mír a víra', note: 'holubice a kříž' },
+	bacteria: { label: 'Bakterie', note: 'kolonie buněk v kruhu' },
+	circleSquare: { label: 'Kruh a čtverec', note: 'dva geometrické ideály' },
+	inflation: { label: 'Růst cen', note: 'stoupající křivka a sloupce' },
+	decipherment: { label: 'Rozluštění', note: 'stélé, znaky a spojnice' },
+	networkScene: { label: 'Síť', note: 'uzly a spojnice' },
+	ballot: { label: 'Volby', note: 'urna, lístek a zaškrtnutí' }
 };
 
 export const SCENES = {
