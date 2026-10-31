@@ -73,6 +73,11 @@ Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 7. **Formát obsahu**: doporučená struktura HOOK → PROBLÉM → NAPĚTÍ → OBRAT → ROZBALENÍ → KONTRAST → POINTA → APLIKACE. Není povinná — historická fakta, vědecké objevy a zajímavosti se řídí vlastním tempem. Důležité: 1 myšlenka = 1 příspěvek, krátké odstavce, přirozená čeština. Otázku na závěr používej jen když dává smysl (paradox, dilema) — u faktických faktů ji nevnucuj.
 8. **Správná čeština**: důsledně dbej na gramatiku, skloňování, shodu přísudku s podmětem, interpunkci. Žádné hovorové nebo nespisovné výrazy. Text musí být čtivý a gramaticky bezchybný.
 
+## Zadání pro externí AI agenty
+- Přenositelný prompt pro tvorbu nových příspěvků je v `docs/generovani-postu-handoff.md`.
+- **Při každé změně datové struktury příspěvků, způsobu jejich generování nebo redakčních pravidel obsahu aktualizuj tento soubor ve stejné změně.** Udržuj v souladu ukázkový JSON, datové typy a povolené hodnoty včetně kategorií a ilustračních metadat.
+- Nové příspěvky obsahují `illustration` se všemi poli a pravidly uvedenými v zadání; metadata musí vycházet z titulku i celého obsahu.
+
 ## Skripty
 ```bash
 npm run dev              # Lokální vývoj (http://localhost:5173/faakt.io/)
@@ -116,6 +121,28 @@ Generování: `ANTHROPIC_API_KEY=sk-ant-... npm run generate --count=30`
 - Commituj pravidelně s popisem v češtině
 - Po schválení merge do main, Actions nasadí automaticky
 - **Vizuální změny**: každá úprava ilustrací, palety, motivů, kompozic, rendereru nebo vývojové galerie musí ve stejném commitu aktualizovat `docs/ilustrace-handoff.md` — počty, tabulky, mapování, paletu, testy i zlaté otisky. Dokument popisuje aktuální stav, ne historii.
+
+## Illustration Metadata Validation and Repair
+
+Použijte `scripts/repair-illustrations.py`:
+- při přidání nebo regenerování příspěvků;
+- při hromadném vytvoření či úpravě ilustračních metadat;
+- pokud audit odhalí opakující se, obecné, nekonzistentní nebo významově nevhodné předměty;
+- při hlášení chybných hlavních předmětů, nerelevantních vedlejších objektů nebo opakujících se kompozic;
+- před přípravou nové dávky příspěvků k vykreslení nebo publikaci.
+
+Nespouštějte jej kvůli změnám nesouvisejícím s obsahem či ilustračními metadaty.
+
+Skript opravuje pouze známé, deterministicky popsané problémy: pravidla pro konkrétní ID, duplicity a výslovně nevhodné vedlejší předměty, známé nekonzistence typu scény a kompozice. Zachovává ostatní pole příspěvků i metadata bez odpovídajícího pravidla a vypisuje strojově čitelný přehled změněných záznamů. Identifikátory `primary_subject` jsou popisná metadata; nejsou to klíče SVG rendereru. Nevkládejte sem nové identifikátory bez ověření jejich významu.
+
+Skript nesmí náhodně měnit předměty kvůli rozmanitosti, přidávat nesouvisející dekorace, přepisovat ručně kurátorovaná metadata bez jasného pravidla ani potichu zavádět nepodporované identifikátory SVG. Nesmí měnit obsah, titulky, kategorie ani zdroje příspěvků. Nenahrazuje sémantickou kontrolu povrchním porovnáváním klíčových slov; ne každý sporný případ lze opravit deterministicky.
+
+Doporučený postup:
+1. Prohlédněte dotčené příspěvky a jejich ilustrační metadata.
+2. Nejprve spusťte deterministický repair; výchozí režim je pouze náhled: `npm run repair-illustrations`.
+3. Pro podrobnosti změn určete report cestou `--report`, například `npm run repair-illustrations -- --report reports/illustration-repair.json`. Výstupní dataset se zapíše pouze při výslovném zadání `--output`; zdroj lze záměrně upravit příkazem `npm run repair-illustrations -- --output static/data/posts.json`.
+4. Prohlédněte změněná pole a nevyřešené případy. Ověřte kompatibilitu výsledných ilustrací auditem skutečného SVG rendereru: `node scripts/audit-illustrations.mjs`; poté spusťte `npm test` a vizuálně zkontrolujte reprezentativní vzorek vykreslení.
+5. AI použijte až na případy, které deterministická pravidla spolehlivě nerozhodnou. Skript je levný nástroj údržby, nikoli náhrada výběru ilustrace s porozuměním obsahu.
 
 ## Známé problémy
 - GitHub Pages ignoruje `_app/` → řeší `.nojekyll` v `static/`

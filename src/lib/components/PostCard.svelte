@@ -500,6 +500,10 @@
 		line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
+		/* Text se nikdy nesmršťuje — jinak by ho při dlouhém hooku
+		   ukrojila flexová kolize s ilustrací. Veškeré smrštění řeší
+		   až .front-art, který jako jediný smí na výšku ustoupit. */
+		flex: 0 0 auto;
 	}
 
 	.teaser {
@@ -511,6 +515,9 @@
 		line-clamp: 6;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
+		/* Stejně jako titulek: hook dostane celou svou výšku a nikdy
+		   nezmizí pod ilustrací. */
+		flex: 0 0 auto;
 	}
 
 	/* Ilustrace vyplní jen zbývající spodní prostor líce. Když je text
