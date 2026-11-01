@@ -13,6 +13,8 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Vykreslení
 
+Ilustrace na líci karty má vlastní relativně umístěnou flexovou plochu s nulovou výchozí výškou a `min-height: 0`. Obrázek je absolutně ukotvený uvnitř této plochy; `object-fit: contain` a `object-position: center bottom` zachovávají celý obraz i poměr stran. Výšku plochy určuje místo zbývající pod titulkem a hookem nad CTA, takže se obrázek zmenšuje bez překrytí textu či ořezu. Ani nízký viewport ilustraci plošně neskrývá; při vyčerpání dostupného místa se její plocha zmenší na nulu.
+
 Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`--cat-literatura` v `src/app.css`), která ji odlišuje od oranžových akcentů loga a ovládacích prvků.
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.

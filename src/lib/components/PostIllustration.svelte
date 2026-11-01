@@ -41,10 +41,14 @@
 
 <style>
 	.post-illustration {
+		/* Rozměry určuje zbývající plocha karty, ne přirozená výška obrázku. */
+		position: absolute;
+		inset: 0;
 		display: block;
 		width: 100%;
 		height: 100%;
 		object-fit: contain;
+		object-position: center bottom;
 		pointer-events: none;
 		user-select: none;
 	}

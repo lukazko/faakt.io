@@ -523,7 +523,8 @@
 	/* Ilustrace vyplní jen zbývající spodní prostor líce. Když je text
 	   dlouhý nebo karta nízká, obrázek se zmenší — nikdy ale nezvětší kartu. */
 	.front-art {
-		flex: 1 1 auto;
+		position: relative;
+		flex: 1 1 0;
 		min-height: 0;
 		margin-top: clamp(4px, 1.2vh, 12px);
 		display: flex;
@@ -641,11 +642,6 @@
 			line-clamp: 3;
 		}
 
-		/* Na nízkém viewportu je priorita text a CTA — grafika se schová,
-		   místo aby text stlačila. */
-		.front-art {
-			display: none;
-		}
 	}
 
 	/* Bez 3D animace, strana se jen okamžitě vymění */
