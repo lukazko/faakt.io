@@ -1,0 +1,79 @@
+---
+name: faakt-illustrations
+description: Generate static editorial illustrations for faakt.io post cards from existing posts.json illustration metadata, with mobile sizing and minimal AI usage. Use for requested post illustrations or batches; not for procedural SVG rendering or creating post content.
+---
+
+# faakt.io illustrations
+
+This repository-local workflow works with any AI agent with image-generation access. Read this file directly; no Codex installation or proprietary skill loader is required. Run commands from the repository root with Node.js 18 or newer.
+
+Create recognizable, restrained editorial raster artwork from each post's `illustration` metadata. Optimize for small mobile cards and one successful generation per post.
+
+## Scope and inputs
+
+- Locate the faakt.io checkout and read applicable CLAUDE.md/AGENTS.md instructions. Preserve existing work. Do not alter production rendering or migrate the dataset unless requested.
+- Extract only requested IDs with the bundled helper; never load all of posts.json into model context. Omitted IDs are an error, not permission to generate the full dataset.
+  `node skills/faakt-illustrations/scripts/prepare.mjs --root . --ids '018,006'`
+- The helper prints compact prompts only for missing assets and reports cached IDs. It makes no AI calls and writes no files.
+- When the user explicitly requests regeneration of a visually defective cached asset, add `--force` for only those IDs: `node skills/faakt-illustrations/scripts/prepare.mjs --root . --ids '003' --force`. Never use `--force` for an unreviewed batch.
+- Read the title and full content of each requested post before generation, even when metadata is complete. Use concept, primary_subject, secondary_subjects, visual_keywords, composition_hints, scene_type, mood and palette as the visual source, checked against the central claim of the text. Do not substitute a category/title template.
+
+### Meaning before generation
+
+- State the post's central idea and choose whether the image should explain a visible relationship or accompany the text with its actual subject. Use an action, consequence, contrast or adaptation when it can be shown faithfully. A restrained portrait or factual object is appropriate when forcing an abstract teaching into a diagram would require invented props; do not claim that such a portrait proves or fully explains the argument.
+- Ground every secondary object in the full text and the chosen scene. Abstract words such as attachment, freedom or wisdom do not by themselves justify coins, balls, detached hands, chains, arrows or other symbolic props. Metadata can contain the same invention: correct it before generation rather than treating its presence as evidence. If removing an object preserves the relevant subject and meaning, omit it.
+- Keep one coherent scene. Do not place a standalone metaphor beside a philosopher or religious figure merely to illustrate an abstract word. For post 028, use Buddha himself in calm meditation with his own empty hands resting naturally; an unrelated hand releasing a gold ball is not justified by the teaching. This is a diagnostic example, not a ban on hands or objects when the actual post needs them.
+- For an explanatory scene, ask whether it would fit many unrelated posts just as well; if so, focus on the relationship carrying this post's meaning. For a subject-led portrait, keep the actual person and a relevant pose without trying to encode every abstract claim. Do not solve vagueness by adding scenery or more symbols.
+- Check that scene_type and composition_hints support that relationship. Repair conflicting illustration metadata locally when authorized, preserving the article and unrelated records; otherwise report the unresolved mismatch before spending a generation. A concept sentence cannot compensate for a wide scenic composition that hides the point.
+- Example: wu wei is not conveyed by a river beside a town. A close view of a current yielding around a rigid obstacle and continuing onward makes adaptation visible. This is a diagnostic example, not a mandatory river template for other posts.
+
+## Generation and token budget
+
+- Use an image-generation model available in the current agent environment and follow its tool instructions. Prefer an existing image tool over adding a service. Tool names and parameters depend on the agent; no particular vendor or SDK is required. One call per missing post, one complete image, no contact sheets, variants or procedural SVG substitutes. No separate language-model call is needed to rewrite prompts.
+- Check existing assets and provenance first. Reuse static/illustrations-ai/<id>.webp or <id>.png; check any project manifest for another registered path. Never regenerate just because the shared prompt changed. Flag stale metadata for review; regenerate only when requested.
+- A reported visible background rectangle, missing alpha channel or mismatched card color is a substantive defect and authorizes one targeted `--force` regeneration when the user asks to fix it.
+- Send the shared style plus that post's compact metadata only. Do not attach the dataset, screenshots, previous images or conversation history as visual references by default. Keep the meaningful concept; remove redundant keyword repeats in preparation.
+- Prefer a genuinely transparent image background. When the image tool exposes a transparency/background parameter, set it explicitly; prompt wording alone does not guarantee an alpha channel. Do not flatten transparent output during conversion.
+- For tiny card artwork, prefer the smallest supported landscape generation size and low quality when the selected tool exposes these controls. Set these parameters explicitly when supported; never request high/auto quality or oversized output just for polish. When parameters are unavailable, record that generation cost cannot be capped and use the flat thumbnail prompt; do not invent unsupported arguments or claim that wording enforces lower computation. Built-in tools may choose their own dimensions/quality.
+- Do not switch to paid APIs, install an image service or use an API key without user authorization. If no authorized image-generation model is available, report the blocker instead of creating procedural substitutes. Before an explicitly authorized API fallback, verify current size/quality constraints and pricing for the selected model.
+- Generated pixel size/quality and retries affect image-generation usage. Short prompts reduce text input only. Resizing or WebP conversion afterwards saves transfer/storage, not generation tokens. A shared style string is not a guarantee of provider-side prompt caching.
+- Never print base64 data or the entire generation response into text/context. Retain the result internally and print only its saved path or small metadata. Inspect saved files with an image viewer.
+
+## Visual specification
+
+- Require immediate visual understanding: show one concrete subject or natural interaction, not a schematic puzzle. Do not use explanatory arrows, connector networks, legends, numbered steps or detached symbols to encode meaning. Show motion or proximity through pose and placement. A scientifically essential diagram is an exception only when the post explicitly needs it and one simple relationship is readable without decoding. If a viewer must follow arrows or infer what several marks mean, reject the image and simplify the scene. For post 044, show the giant planet close to its Sun-like star; omit orbit tracks, wobble arrows and measurement apparatus.
+
+The helper contains the single shared STYLE; use it verbatim rather than adding ?detailed?, ?cinematic?, ?high quality?, ?beautiful landscape? or similar embellishments. Target visual simplicity during generation, before resizing.
+
+- Design for **160?90 CSS pixels**; it must also look clean at 320?180. Deliver at 640?360 for density, not additional detail.
+- Aim for **5–8 large flat shapes**, **no more than 3 foreground colors**, and **at least one third transparent negative space**. These are art-direction targets, not claims of machine-enforced counts. A scientifically necessary feature takes priority over an arbitrary shape count.
+- Use one main subject. Include only secondary subjects essential to the metadata concept. At most one flat shadow plane per object; no gradients, realistic lighting, reflections, grain, surface texture, fine linework or dense repeating elements.
+- Prefer one striking main motif that captures the post's central idea and attracts attention at first glance. Supporting elements should clarify that motif, not compete with it. Do not try to summarize every step or example in the article with multiple scenes. Post 040's workers–state spending–construction sequence is the upper limit of acceptable complexity, not a target or a style reference to imitate; new illustrations should normally be substantially simpler. Before generation, remove any panel, figure or object whose absence does not lose the central idea. At 160×90, the viewer should recognize the main motif immediately without scanning a sequence.
+- Environment: reduce to 2?3 broad planes. For a river, use a broad winding ribbon and simple banks; do not invent a sunset, mountains, forest, rocks, waves or sparkling water. Include such objects only if the concept actually needs them.
+- Portrait: use a face/robe silhouette with a few identifying features, not individual hair strands, wrinkles or embroidered cloth. Objects: prioritize outer contour and the minimum identifying internal marks.
+- Preserve the subject and relationships in the metadata. Generic finish cues (`material_texture`, `architectural_detail`, ?detailed depiction?) do not authorize extra scenery or texture. The helper omits those two generic keywords from the prompt, while keeping original metadata unchanged and hashed. Architecture essential to the concept/primary subject must still be shown simply.
+- Inspect the current card CSS before generation. The current `.card-face` surface is a vertical gradient from `#141414` to `#0d0d0d`, so transparent output is preferred and matches the card everywhere. Never use approximate blacks such as `#000`, `#111` or a model-invented near-black.
+
+### Background contract
+
+- A black, near-black or dark gradient is forbidden as image background in every mode. The card already owns its background; the asset must never imitate that gradient because any positional or compression difference creates a visible rectangle.
+- Preferred output: PNG or WebP with a real alpha channel. Empty areas must have alpha 0, including corners; there must be no baked-in black rectangle, halo, vignette or colored fringe.
+- If the selected tool cannot generate transparency, read the actual background at the illustration's placement from `src/lib/components/PostCard.svelte`. Use that exact CSS color as one uniform solid fill in both the prompt and any letterbox/padding operation. Every empty corner and edge pixel must use the identical value. For the current lower card area the fallback is `#0d0d0d`; re-check it whenever card styling changes.
+- A flat opaque fallback cannot perfectly match a gradient across the whole image. Do not claim a seamless match; prefer transparency or report this limitation.
+- When converting with Pillow, preserve `RGBA` and save alpha-capable WebP/PNG. Do not call `.convert('RGB')` and do not pad with an arbitrary black. Check corner alpha values or compare the asset on the real card before accepting it.
+- Reject an opaque asset when empty background pixels vary across corners or edges; that variation indicates a gradient, vignette, glow or compression-contaminated backdrop. Regenerate it as transparent rather than trying to color-correct the gradient.
+
+### Acceptance at thumbnail scale
+
+First verify meaning: for an explanatory scene, identify the visible action or relationship and explain how it supports the post's central idea; for a subject-led portrait, verify the actual subject, relevant pose and absence of invented symbolism, and record that it accompanies rather than diagrams the teaching. Audit secondary objects against the full text, not just the prompt: a successful depiction of unsupported metadata is still a failure. Reject a visually attractive image if the intended relationship is absent or disappears at thumbnail scale. Check this separately from simplicity, background and file-size requirements; record the reason in provenance.
+
+View the result at 160?90 and 320?180, not only the full-size output. The primary subject should be immediately identifiable. Reject as over-detailed if it relies on realistic light, fine textures, repeated tiny shapes or scenery unrelated to the concept. Do not call a downscaled painting a successful minimalist illustration. Record any failure honestly; no automatic regeneration loop. If the user explicitly requests a correction, allow one targeted retry simplifying the offending features, then stop for review. Do not try to force lower image-generation cost through prompt wording when the tool lacks size/quality controls.
+
+## Static delivery and cache
+
+- Copy every final image into the checkout. Image tools may save output in an agent-specific directory or return binary/base64 data. Save the resulting image inside the repository; never reference agent-specific external paths from the app.
+- Prefer final 640×360 alpha-capable WebP (quality around 78–82) for a 320 CSS pixel-wide card at 2× density. Preserve aspect ratio and use transparent padding rather than cropping meaningful subjects. For other card proportions adapt dimensions. Use an existing image utility if available; keep a transparent PNG when WebP alpha conversion is unavailable.
+- Do not overwrite established asset paths/manifest entries unintentionally. For new assets use static/illustrations-ai/<id>.webp (or .png). Save the exact submitted prompt, metadata/prompt hash, generation method and final image path in a small manifest or sidecar. Merge entries; never replace the six-post prototype manifest wholesale. Do not record unreported model names, quality, token counts or costs as facts.
+- Inspect at actual card scale once: correct subject, readable silhouette, no unwanted text, and no visible image rectangle or mismatched black around the edges. Do not regenerate for minor aesthetic preference without a review request; report issues. Stop repeated attempts on a substantive failure and report it.
+- If preview is requested, reuse /dev/illustrations-ai and existing card/badge styling; honor the /faakt.io base path. Keep generated assets static with no runtime AI. Follow repository handoff-document requirements for gallery changes.
+- Stop at the requested images and local review. Report paths/preview, method, skipped cached IDs and blockers concisely. Creating this skill alone does not authorize new image generations.
