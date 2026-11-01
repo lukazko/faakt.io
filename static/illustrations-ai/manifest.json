@@ -3702,40 +3702,40 @@
     "content": "<p>Proč nás tolik trápí věci, které vůbec nemůžeme ovlivnit?</p><p>Epiktetos, stoický filozof žijící kolem roku 55 až 135 n. l., byl původně otrokem. Možná právě proto rozdělil svět na dvě části: to, co je v naší moci — naše myšlenky, úsudky a reakce — a to, co v naší moci není — zdraví, majetek, názory ostatních.</p><p>Jeho spis <em>Rozmluvy</em>, zapsaný jeho žákem Arriánem, učí, že utrpení nevzniká z okolností samotných, ale z toho, jak na ně reagujeme. Ztráta zaměstnání nás nezničí sama o sobě — zničí nás naše interpretace ztráty.</p><p>Tato myšlenka o dvě tisíciletí později inspirovala kognitivně behaviorální terapii, která pracuje na stejném principu.</p><p><strong>Klid nespočívá v kontrole světa, ale v kontrole vlastní mysli.</strong></p>",
     "category": "filozofie",
     "illustration": {
-      "concept": "A calm person attends to an inner circle of choices and judgments while wealth, reputation and external events remain outside their control.",
-      "scene_type": "diagram",
-      "primary_subject": "epictetus_circle_of_control",
-      "secondary_subjects": [
-        "personal_judgment",
-        "external_events"
-      ],
+      "concept": "A restrained subject-led portrait of Epictetus, the Stoic philosopher, with a composed face and one hand resting naturally against his chin in reflection. The portrait accompanies his teaching that peace depends on our judgments and responses; it does not diagram control or external events. No circles, coins, crowns, storms, scrolls or detached symbols.",
+      "scene_type": "portrait",
+      "primary_subject": "epictetus_contemplative_portrait",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "epictetus_circle_of_control",
-        "personal_judgment",
-        "external_events"
+        "stoic_philosopher",
+        "calm_expression",
+        "simple_ancient_robe"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "portrait_focus",
+        "single_uncluttered_silhouette"
       ],
       "mood": "contemplative",
       "palette": "violet_coral"
     },
     "image": "/illustrations-ai/090.webp",
-    "promptHash": "ce6998b938efe0a9413f3afb5983337bf1f7e0ddefc8cc7d8c12e1796e8398ed",
+    "promptHash": "e0ea7b90e33761a9317c32d1371ba185c8f1f814774e134d72e99767d72cb461",
     "cached": true,
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A calm person attends to an inner circle of choices and judgments while wealth, reputation and external events remain outside their control.\",\"primary_subject\":\"epictetus_circle_of_control\",\"secondary_subjects\":[\"personal_judgment\",\"external_events\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"violet_coral\"}",
-    "metadataHash": "f211a52f3cd9d8c8f37bc5ad72249057ab7e3404ac1d5420046f639bbac6a204",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A restrained subject-led portrait of Epictetus, the Stoic philosopher, with a composed face and one hand resting naturally against his chin in reflection. The portrait accompanies his teaching that peace depends on our judgments and responses; it does not diagram control or external events. No circles, coins, crowns, storms, scrolls or detached symbols.\",\"primary_subject\":\"epictetus_contemplative_portrait\",\"secondary_subjects\":[],\"visual_keywords\":[\"stoic_philosopher\",\"calm_expression\",\"simple_ancient_robe\"],\"composition_hints\":[\"portrait_focus\",\"single_uncluttered_silhouette\"],\"scene_type\":\"portrait\",\"mood\":\"contemplative\",\"palette\":\"violet_coral\"}",
+    "metadataHash": "cbd2d1f690c9b8c6220f1b46bb9d923ebfdf0d32f04fdb724895dac187fb4677",
     "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
     "review": {
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Rejected at 160px and 320px: crown, money, storm and scroll symbols add several unsupported motifs around the portrait.",
-      "background": "RGBA WebP; all four corner alpha values 0",
-      "status": "rejected"
-    }
+      "meaning": "Subject-led imagined portrait of Epictetus with a composed expression and hand at chin; accompanies the teaching rather than diagramming it. No unrelated props or symbolic scenes.",
+      "background": "RGBA WebP 640x360; transparent padding on every edge; corner alpha values 0",
+      "simplicity": "Recognizable portrait at thumbnail scale; hair, robe folds and tonal shading exceed the strict flat-shape target.",
+      "status": "accepted-subject-accompaniment"
+    },
+    "previousImageSha256": "acb8ea78be452fd3e1a0d41b573b96f9306233f671041e621de41e2341f9c05d",
+    "imageSha256": "c9f569f9bfaec8eda99a1f357c65ffaaf9e335f294e63d3f51919e00b1b2ea7c"
   },
   {
     "id": "091",

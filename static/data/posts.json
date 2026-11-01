@@ -3211,21 +3211,18 @@
       }
     ],
     "illustration": {
-      "concept": "A calm person attends to an inner circle of choices and judgments while wealth, reputation and external events remain outside their control.",
-      "scene_type": "diagram",
-      "primary_subject": "epictetus_circle_of_control",
-      "secondary_subjects": [
-        "personal_judgment",
-        "external_events"
-      ],
+      "concept": "A restrained subject-led portrait of Epictetus, the Stoic philosopher, with a composed face and one hand resting naturally against his chin in reflection. The portrait accompanies his teaching that peace depends on our judgments and responses; it does not diagram control or external events. No circles, coins, crowns, storms, scrolls or detached symbols.",
+      "scene_type": "portrait",
+      "primary_subject": "epictetus_contemplative_portrait",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "epictetus_circle_of_control",
-        "personal_judgment",
-        "external_events"
+        "stoic_philosopher",
+        "calm_expression",
+        "simple_ancient_robe"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "portrait_focus",
+        "single_uncluttered_silhouette"
       ],
       "mood": "contemplative",
       "palette": "violet_coral"
