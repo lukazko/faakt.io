@@ -6722,6 +6722,1325 @@
     }
   },
   {
+    "id": "160",
+    "title": "Božská komedie: cesta peklem, kterou Dante napsal ve vyhnanství",
+    "content": "<p>Italský básník <strong>Dante Alighieri</strong> napsal <em>Božskou komedii</em> mezi lety 1308 a 1320, poté co byl z rodné Florencie vypovězen z politických důvodů a už se do ní nikdy nesměl vrátit.</p><p>Dílo popisuje básníkovu imaginární cestu peklem, očistcem a rájem, provázenou nejprve římským básníkem Vergiliem a později jeho idealizovanou láskou Beatrice.</p><p>Dante psal dílo italsky, nikoli latinsky, jak bylo v učené literatuře tehdy zvykem, čímž výrazně přispěl ke vzniku moderního spisovného italského jazyka.</p><p>Báseň je rozdělena do tří částí po třiceti třech zpěvech s propracovanou symbolikou čísel a dodnes patří k nejvlivnějším dílům světové literatury.</p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "Britannica – The Divine Comedy",
+        "url": "https://www.britannica.com/topic/The-Divine-Comedy"
+      },
+      {
+        "label": "Wikipedia – Božská komedie",
+        "url": "https://cs.wikipedia.org/wiki/Božská_komedie"
+      }
+    ],
+    "illustration": {
+      "concept": "Dante and Virgil enter a layered journey through hell and purgatory toward a distant radiance, linking exile and vernacular poetry to the imagined afterlife.",
+      "scene_type": "environment",
+      "primary_subject": "dante_divine_comedy_journey",
+      "secondary_subjects": [
+        "dante_and_virgil",
+        "hell_purgatory_paradise"
+      ],
+      "visual_keywords": [
+        "dante_divine_comedy_journey",
+        "dante_and_virgil",
+        "hell_purgatory_paradise"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/160.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Dante and Virgil enter a layered journey through hell and purgatory toward a distant radiance, linking exile and vernacular poetry to the imagined afterlife.\",\"primary_subject\":\"dante_divine_comedy_journey\",\"secondary_subjects\":[\"dante_and_virgil\",\"hell_purgatory_paradise\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"contemplative\",\"palette\":\"violet_coral\"}",
+    "promptHash": "55d4c073b39c9eaa8c4b6466e7255cc0cf11ccc78ecb65a1c833d13dda2ab73a",
+    "metadataHash": "6f23b2677e9be9a54a22819cf1f5bd9c77e1570a95f483591ed60958cc1e4b24",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "e9c057e75b94b1f195657e1a631b487bf967a5523daace7608fa11ece94ac052",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Dante and Virgil face a descending fiery realm and rising path toward radiance. Recognizable literary journey, not a map of the poem. Layered terrain exceeds the flat-shape target but remains readable.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "161",
+    "title": "Hannah Arendtová a banalita zla u byrokrata, ne netvora",
+    "content": "<p>Jak vypadá člověk zodpovědný za organizaci masových vražd? Filozofka <strong>Hannah Arendtová</strong> čekala netvora. Místo toho v jeruzalémském soudním sále v roce 1961 sledovala nenápadného úředníka.</p><p>Arendtová jako novinářka sledovala proces s nacistickým zločincem Adolfem Eichmannem, organizátorem deportací Židů do koncentračních táborů, a své postřehy shrnula v knize <em>Eichmann v Jeruzalémě</em> z roku 1963.</p><p>Eichmann podle ní nepůsobil jako fanatický ideolog, ale jako obyčejný, poslušný byrokrat, který se hájil tím, že jen plnil rozkazy a nepřemýšlel o jejich morálních důsledcích.</p><p>Z toho Arendtová odvodila pojem <strong>banalita zla</strong> – myšlenku, že k nejhorším zločinům historie nemusí vést fanatismus, ale bezmyšlenkovitá poslušnost a neschopnost samostatně morálně uvažovat.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Hannah Arendt",
+        "url": "https://plato.stanford.edu/entries/arendt/"
+      },
+      {
+        "label": "Britannica – Hannah Arendt",
+        "url": "https://www.britannica.com/biography/Hannah-Arendt"
+      }
+    ],
+    "illustration": {
+      "concept": "Arendt observes an ordinary bureaucratic desk piled with obediently processed files, showing evil enabled by thoughtless administration rather than monstrous appearance.",
+      "scene_type": "interaction",
+      "primary_subject": "banality_of_evil_bureaucrat",
+      "secondary_subjects": [
+        "hannah_arendt_portrait",
+        "administrative_files"
+      ],
+      "visual_keywords": [
+        "banality_of_evil_bureaucrat",
+        "hannah_arendt_portrait",
+        "administrative_files"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "dramatic",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/161.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Arendt observes an ordinary bureaucratic desk piled with obediently processed files, showing evil enabled by thoughtless administration rather than monstrous appearance.\",\"primary_subject\":\"banality_of_evil_bureaucrat\",\"secondary_subjects\":[\"hannah_arendt_portrait\",\"administrative_files\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"dramatic\",\"palette\":\"monochrome_cool\"}\nArt direction: One ordinary bespectacled bureaucrat behind a plain desk mechanically processing a stack of files; Arendt watches soberly at the side. No Nazi symbols. Administrative indifference, not theatrical villainy.",
+    "promptHash": "689dd03dc3b8c0a80568053c61078942e677a6604f04dd2cee336661dcf681d4",
+    "metadataHash": "ce5d67ed78a92911674e97eceac7a0d068cea088033b74907e50b917f5a43071",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "5d5fd8ebb630e721d103dbbb6d8ab6c4fd74ccda52fc2d666aca21442157fdf4",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Arendt watches an ordinary bureaucrat process files at a desk; routine paperwork and sober observation carry the banality-of-evil theme without caricature or Nazi symbols.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "162",
+    "title": "Odmocnina ze dvou: iracionální číslo, které prý stálo objevitele život",
+    "content": "<p>Pythagorejci ve starověkém Řecku věřili, že celý vesmír lze vyjádřit poměry celých čísel.</p><p>Jeden z členů školy, podle tradice matematik <strong>Hippasos z Metapontu</strong>, kolem 5. století př. n. l. dokázal, že délka úhlopříčky čtverce o straně jedna, tedy odmocnina ze dvou, se nedá vyjádřit jako zlomek dvou celých čísel.</p><p>Toto číslo, dnes nazývané <strong>iracionální</strong>, přímo odporovalo základní pythagorejské víře v harmonii čísel a podle legendy měl být Hippasos za zveřejnění tohoto objevu utopen svými spolužáky v moři.</p><p>Historická přesnost legendy o jeho smrti je nejistá, ale objev iracionálních čísel je považován za jeden z prvních důkazů, že intuice a matematická logika si mohou zásadně odporovat.</p>",
+    "category": "matematika",
+    "sources": [
+      {
+        "label": "MacTutor – Hippasus",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Hippasus/"
+      },
+      {
+        "label": "Britannica – Irrational number",
+        "url": "https://www.britannica.com/science/irrational-number"
+      }
+    ],
+    "illustration": {
+      "concept": "The diagonal of a unit square is compared with its side, exposing a length that cannot be expressed as a ratio of whole numbers.",
+      "scene_type": "diagram",
+      "primary_subject": "square_root_two_triangle",
+      "secondary_subjects": [
+        "unit_square",
+        "incommensurable_diagonal"
+      ],
+      "visual_keywords": [
+        "square_root_two_triangle",
+        "unit_square",
+        "incommensurable_diagonal"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/162.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"The diagonal of a unit square is compared with its side, exposing a length that cannot be expressed as a ratio of whole numbers.\",\"primary_subject\":\"square_root_two_triangle\",\"secondary_subjects\":[\"unit_square\",\"incommensurable_diagonal\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"indigo_cyan\"}\nArt direction: One clean unit square with highlighted diagonal, minimal mathematical labels 1 on two sides and √2 on diagonal permitted as scientifically necessary measurement information. No other marks, no death scene.",
+    "promptHash": "dc899c4c6a0c2f2e9d65f06a1021ebb1823ca4f8190bb035301d02bc92a07f41",
+    "metadataHash": "273beba0bb4a994d4dae7cf5fb6f9ca19cd187435f4245b2c3be8c49d43acc2f",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "8a7e4311d4e864e02fcb370ace93ac62997878e41671cdc2fde7b5a93dbdb28e",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A unit square has a highlighted diagonal labelled square root of two. Necessary measurement labels convey the geometric source of irrational length; the image does not prove irrationality.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "163",
+    "title": "Když někdo poprvé hledal vysvětlení světa bez bohů",
+    "content": "<p>Odkud pochází všechno, co existuje? Ve starém Řecku měla tato otázka jasnou odpověď: bohové. Kolem roku 600 př. n. l. se v maloasijském Milétu objevil jiný přístup.</p><p>Thalés hledal jedinou látku, ze které je svět složený, a určil ji jako <strong>vodu</strong>. Odpověď byla podle dnešního poznání chybná, revoluční byla ale metoda: příčinu jevů hledal v přírodě samotné, ne ve vůli božstev.</p><p>Podle Hérodotova svědectví dokázal také předpovědět zatmění Slunce, které nastalo roku 585 př. n. l. a přerušilo bitvu mezi Lýdy a Médy.</p><p><em>Dějiny vědy nezačaly správnou odpovědí, ale rozhodnutím ptát se jinak.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Presocratic Philosophy",
+        "url": "https://plato.stanford.edu/entries/presocratics/"
+      },
+      {
+        "label": "Britannica – Thales of Miletus",
+        "url": "https://www.britannica.com/biography/Thales-of-Miletus"
+      }
+    ],
+    "illustration": {
+      "concept": "Thales examines water as a proposed material origin of the world, emphasizing the turn toward natural explanations rather than divine intervention.",
+      "scene_type": "interaction",
+      "primary_subject": "thales_natural_explanation",
+      "secondary_subjects": [
+        "water",
+        "ancient_greek_philosopher"
+      ],
+      "visual_keywords": [
+        "thales_natural_explanation",
+        "water",
+        "ancient_greek_philosopher"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/163.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Thales examines water as a proposed material origin of the world, emphasizing the turn toward natural explanations rather than divine intervention.\",\"primary_subject\":\"thales_natural_explanation\",\"secondary_subjects\":[\"water\",\"ancient_greek_philosopher\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"violet_coral\"}\nArt direction: Thales in Greek robe thoughtfully examining water held in a simple bowl. Subject-led accompaniment to his natural explanation, not proof water is the origin.",
+    "promptHash": "278f760af2a24ad6d8ba78cc98a3d5560eb24a34f8438b515830b54b39a73764",
+    "metadataHash": "462f8bd8fd155ededd12922be3c885f4a2f3ffcec04de83f71f9deaf7100476c",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "bb8a4af11830236f48cf871f16a816695fd3996767a00099edfbf0408b16f952",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "An ancient Greek thinker examines water in a bowl. Subject-led accompaniment to Thales's natural explanation, not evidence that water is the world's origin.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "164",
+    "title": "Základem světa je něco neurčitého, co nemá hranice",
+    "content": "<p>Pokud je základem všeho voda, proč z ní vzniká oheň, který ji ničí? Tuto námitku vznesl v Milétu kolem roku 550 př. n. l. Anaximandros.</p><p>Navrhl, že prapůvodní látka nemůže být žádný ze známých živlů, protože ty se navzájem vylučují. Musí jít o něco neomezeného a neurčitého, co nazval <strong>apeiron</strong>.</p><p>Z tohoto bezbřehého základu se podle něj oddělují protiklady: teplé a studené, suché a vlhké, a z jejich napětí vzniká svět.</p><p>Přisuzuje se mu i myšlenka, že první lidé se museli vyvinout z tvorů žijících ve vodě, protože lidské mládě je příliš bezmocné, aby přežilo samo.</p><p><em>Abstraktní princip namísto konkrétní látky je krok, kterým myšlení opustilo obrazy.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Anaximander",
+        "url": "https://plato.stanford.edu/entries/anaximander/"
+      },
+      {
+        "label": "Britannica – Anaximander",
+        "url": "https://www.britannica.com/biography/Anaximander"
+      }
+    ],
+    "illustration": {
+      "concept": "Opposing hot and cold, dry and wet forms emerge from an unbounded indistinct background, illustrating Anaximander's apeiron without making it one particular element.",
+      "scene_type": "diagram",
+      "primary_subject": "apeiron_emerging_opposites",
+      "secondary_subjects": [
+        "hot_cold_pair",
+        "dry_wet_pair"
+      ],
+      "visual_keywords": [
+        "apeiron_emerging_opposites",
+        "hot_cold_pair",
+        "dry_wet_pair"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/164.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Opposing hot and cold, dry and wet forms emerge from an unbounded indistinct background, illustrating Anaximander's apeiron without making it one particular element.\",\"primary_subject\":\"apeiron_emerging_opposites\",\"secondary_subjects\":[\"hot_cold_pair\",\"dry_wet_pair\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"monochrome_cool\"}\nArt direction: Use a subject-led ancient Greek philosopher Anaximander contemplating opposing small warm flame and cool water forms arising from one indistinct translucent shape. Historical hypothesis, no scientific claim.",
+    "promptHash": "2070e5a7bea3aff2f55607fdfc679f5237e0e2ab3eae426ffb5ed9b729c52a24",
+    "metadataHash": "9826883990b2c42beaaae628dc19183181c50f80f6a02bcbe7a6cfd031fc514c",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "290477880ebae0323e7d4411dc793db13008cabaeb00916d4840f153a67f30d8",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "An ancient thinker contemplates flame and water emerging from an indistinct shared form. Editorial depiction of Anaximander's historical hypothesis; does not claim the hypothesis is true.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "165",
+    "title": "Argument, podle kterého je veškerá změna jen klam smyslů",
+    "content": "<p>Zatímco jedni tvrdili, že se všechno neustále mění, v jihoitalské Eleji zaznělo kolem roku 480 př. n. l. tvrzení přesně opačné: nemění se vůbec nic.</p><p>Parmenidés postupoval čistou logikou. Vznik by znamenal, že něco přejde z nebytí do bytí. Jenže nebytí podle něj nelze ani myslet, ani o něm mluvit, protože by muselo nějak být. Změna je tedy nemožná a jsoucno musí být jediné, nedělitelné a neměnné.</p><p>Smysly, které nám ukazují pohyb a zánik, jsou proto podle Parmenida nespolehlivé a skutečnost odhalí jen rozum.</p><p>Ať už je závěr jakkoli nepřijatelný, metoda zůstala: tvrzení se posuzuje podle síly argumentu, ne podle toho, jak věrohodně vypadá.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Parmenides",
+        "url": "https://plato.stanford.edu/entries/parmenides/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Parmenides",
+        "url": "https://iep.utm.edu/parmenides/"
+      }
+    ],
+    "illustration": {
+      "concept": "A single continuous unchanging form persists beneath translucent impressions of movement, conveying Parmenides's argument that reason challenges sensory change.",
+      "scene_type": "diagram",
+      "primary_subject": "parmenides_unchanging_being",
+      "secondary_subjects": [
+        "stable_whole",
+        "illusory_motion"
+      ],
+      "visual_keywords": [
+        "parmenides_unchanging_being",
+        "stable_whole",
+        "illusory_motion"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "green_copper"
+    },
+    "image": "/illustrations-ai/165.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A single continuous unchanging form persists beneath translucent impressions of movement, conveying Parmenides's argument that reason challenges sensory change.\",\"primary_subject\":\"parmenides_unchanging_being\",\"secondary_subjects\":[\"stable_whole\",\"illusory_motion\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"green_copper\"}\nArt direction: Subject-led portrait of Parmenides, ancient Greek philosopher, still thoughtful pose with one continuous solid sphere as metaphor for indivisible being. No motion diagram; accompanies his argument.",
+    "promptHash": "1fad250ae9616bf96ac97cb955519722808534d27d4b4f93638e26ddacb9e4ea",
+    "metadataHash": "f9cdab4df07d2ab5e0fbdbc17c73fb1c84975b774b51521de9f665e9bad3fdfc",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "bb45e0f64396e141f15db9f62b1292b8be67e59f88ed97f39de241652cad2dc3",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Parmenides appears beside a stable sphere and faint overlapping impressions. Portrait and sphere accompany indivisible being; the impressions do not prove his rejection of change.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "166",
+    "title": "Čtyři živly a dvě síly, které je spojují a rozdělují",
+    "content": "<p>Jak smířit tvrzení, že se svět mění, s tvrzením, že nic nemůže vzniknout z ničeho?</p><p>Kolem roku 450 př. n. l. nabídl Empedoklés kompromis: základní stavební prvky jsou čtyři a jsou věčné. Oheň, voda, vzduch a země nevznikají ani nezanikají, pouze se v různých poměrech mísí.</p><p>Změnu, kterou pozorujeme, způsobují podle něj dvě protichůdné síly, které tyto kořeny spojují a zase rozdělují.</p><p>Nauka o čtyřech živlech se díky Aristotelovi udržela v evropské vědě více než dva tisíce let a ustoupila až chemii 18. století.</p><p><em>Myšlenka, že za proměnlivým povrchem stojí neměnné složky v různých kombinacích, přitom platí dodnes, jen se těm složkám říká prvky.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Empedocles",
+        "url": "https://plato.stanford.edu/entries/empedocles/"
+      },
+      {
+        "label": "Britannica – Empedocles",
+        "url": "https://www.britannica.com/biography/Empedocles"
+      }
+    ],
+    "illustration": {
+      "concept": "Four distinct elemental forms repeatedly combine and separate under opposing forces, expressing Empedocles's account of change without substituting Aristotle as the subject.",
+      "scene_type": "diagram",
+      "primary_subject": "empedocles_four_elements",
+      "secondary_subjects": [
+        "earth_water_air_fire",
+        "joining_and_separating_forces"
+      ],
+      "visual_keywords": [
+        "empedocles_four_elements",
+        "earth_water_air_fire",
+        "joining_and_separating_forces"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/166.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Four distinct elemental forms repeatedly combine and separate under opposing forces, expressing Empedocles's account of change without substituting Aristotle as the subject.\",\"primary_subject\":\"empedocles_four_elements\",\"secondary_subjects\":[\"earth_water_air_fire\",\"joining_and_separating_forces\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}\nArt direction: One simple composition of four elemental forms meeting at center: earth lump, water ribbon, air curve, flame; suggests mixture. Historical doctrine, no repeated sequence or arrows.",
+    "promptHash": "0036984349dec4da099a75ae7ce0ce693354666de4f30e69d929b9dd41c912b2",
+    "metadataHash": "ab0774c1979d3c58b37d9771176665ebe39c9a3c6f9e2621f873111654d471c9",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "71028a0ab6e8d14f3cf644b58a5e27c81e8f6263ea213ce652df4abf2e2e80f4",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Earth, water, air and fire meet in one compact motif. Illustrates Empedocles's historical mixture doctrine, not modern chemistry or a complete account of the two forces.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "167",
+    "title": "Míra všech věcí je člověk, ne pravda sama o sobě",
+    "content": "<p>Je vítr studený, nebo teplý? Sofista Protágoras v 5. století př. n. l. odpověděl, že je studený tomu, komu se studený jeví, a teplý tomu, komu se jeví teplý.</p><p>Z této úvahy vyrostlo jeho slavné tvrzení, že mírou všech věcí je člověk. Neznamená to libovůli, ale relativismus: každé poznání je poznáním někoho konkrétního, z určité pozice a v určité situaci.</p><p>Sofisté za výuku argumentace brali peníze a slibovali, že naučí obhájit i slabší stanovisko. Právě to jim vyneslo pověst, kterou má slovo sofistika dodnes.</p><p>Platónovy dialogy proti nim staví přesvědčení, že pravda existuje nezávisle na tom, komu se co jeví. Spor mezi oběma pozicemi se v různých podobách vede stále.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Protagoras",
+        "url": "https://plato.stanford.edu/entries/protagoras/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Protagoras",
+        "url": "https://iep.utm.edu/protagoras/"
+      }
+    ],
+    "illustration": {
+      "concept": "Two people feel the same wind differently, one chilled and the other comfortable, making situated human perception the measure at issue.",
+      "scene_type": "interaction",
+      "primary_subject": "protagoras_relative_perception",
+      "secondary_subjects": [
+        "two_people_in_same_wind"
+      ],
+      "visual_keywords": [
+        "protagoras_relative_perception",
+        "two_people_in_same_wind"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/167.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Two people feel the same wind differently, one chilled and the other comfortable, making situated human perception the measure at issue.\",\"primary_subject\":\"protagoras_relative_perception\",\"secondary_subjects\":[\"two_people_in_same_wind\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}\nArt direction: Two ancient Greek figures in the same broad wind ribbon: one huddles with robe pulled close, the other relaxed with robe open. Contrasting bodily response.",
+    "promptHash": "077818c63226e35a02c2f4f41d918570cda0bb3f9565cc2c568bbaab2f3415c3",
+    "metadataHash": "9c016c525abcf1191eba8df2c255c57497e27151b13cb5ed0300a40e5be8226d",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "79c3ff04a6644b4f1bd89c1bd5ac214ea16bcd5fb24303156ed18874d1582bdc",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Two Greek figures stand in the same wind, one huddled and the other relaxed. The visible contrast expresses relative perception.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "168",
+    "title": "Dítě u studny jako důkaz, že lidská přirozenost je dobrá",
+    "content": "<p>Je člověk od přírody spíš sobecký, nebo soucitný? Čínský myslitel Mencius, působící ve 4. století př. n. l., nabídl na tuto otázku myšlenkový pokus.</p><p>Představte si, že vidíte malé dítě padat do studny. Podle Mencia se v tu chvíli každému sevře srdce, a to dřív, než stihne zvážit jakýkoli prospěch. Z toho vyvozoval, že soucit je v lidech přítomen od počátku.</p><p>Přirozenost je podle něj jako <strong>klíček</strong>, který se musí kultivovat, jinak zakrní. Špatné jednání proto vysvětloval spíš zanedbáním a špatnými podmínkami než zkažeností.</p><p>Z této myšlenky odvozoval i politiku: vládce, který nechá lid hladovět, ztrácí nárok vládnout.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Mencius",
+        "url": "https://plato.stanford.edu/entries/mencius/"
+      },
+      {
+        "label": "Britannica – Mencius",
+        "url": "https://www.britannica.com/biography/Mencius-Chinese-philosopher"
+      }
+    ],
+    "illustration": {
+      "concept": "An adult instinctively reaches toward a child at the edge of a well, visualizing Mencius's argument for spontaneous human compassion.",
+      "scene_type": "interaction",
+      "primary_subject": "mencius_child_at_well",
+      "secondary_subjects": [
+        "falling_child",
+        "instinctive_rescuing_hand"
+      ],
+      "visual_keywords": [
+        "mencius_child_at_well",
+        "falling_child",
+        "instinctive_rescuing_hand"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/168.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"An adult instinctively reaches toward a child at the edge of a well, visualizing Mencius's argument for spontaneous human compassion.\",\"primary_subject\":\"mencius_child_at_well\",\"secondary_subjects\":[\"falling_child\",\"instinctive_rescuing_hand\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}\nArt direction: Adult in ancient Chinese clothing reaching protectively to catch a fully clothed child safely at a low well rim. Non-graphic, focus on rescue and compassion.",
+    "promptHash": "5e6f346b78c31fa7a65625203168fabc977f65444ca59aa14143178d97918cc4",
+    "metadataHash": "2a6c6ca1576146344223451c0b62c23d33ad74e37f02c57bf5cb16a444687e7e",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "9c7085517997623507487b78249d08e6344ffc5f4adf5ae4f1011dc5116c6cb3",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "An adult reaches urgently toward a child at a well's edge. The immediate protective reaction expresses Mencius's compassion thought experiment; no injury is depicted.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "169",
+    "title": "Rovné prkno se ohne jen tehdy, když ho někdo ohýbá",
+    "content": "<p>Ve stejné škole, která tvrdila, že lidská přirozenost je dobrá, zaznělo o generaci později tvrzení opačné.</p><p>Sün-c', čínský konfuciánský myslitel 3. století př. n. l., vycházel z toho, že člověk se rodí s touhami a sklonem k prospěchu. Bez výchovy a pravidel podle něj z těchto sklonů nutně vzniká konflikt.</p><p>Používal obraz dřeva, které se musí napařit a ohnout ve formě, aby vzniklo kolo. Ctnost tedy není přirozený růst, ale <strong>výsledek úsilí a kázně</strong>.</p><p>Rituál a vzdělání proto nechápal jako formalitu, ale jako technologii, která z jednotlivců vytváří funkční společnost.</p><p><em>Dva výklady téže tradice dodnes rámují spor o to, zda lidi víc formuje přirozenost, nebo prostředí.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Xunzi",
+        "url": "https://plato.stanford.edu/entries/xunzi/"
+      },
+      {
+        "label": "Britannica – Xunzi",
+        "url": "https://www.britannica.com/biography/Xunzi"
+      }
+    ],
+    "illustration": {
+      "concept": "A straight wooden strip is steamed and bent around a wheel form, the article's metaphor for character formed through disciplined education and ritual.",
+      "scene_type": "process",
+      "primary_subject": "xunzi_shaping_wood",
+      "secondary_subjects": [
+        "steaming_plank",
+        "wooden_wheel_form"
+      ],
+      "visual_keywords": [
+        "xunzi_shaping_wood",
+        "steaming_plank",
+        "wooden_wheel_form"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/169.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A straight wooden strip is steamed and bent around a wheel form, the article's metaphor for character formed through disciplined education and ritual.\",\"primary_subject\":\"xunzi_shaping_wood\",\"secondary_subjects\":[\"steaming_plank\",\"wooden_wheel_form\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}\nArt direction: Close-up hands bending one steamed wooden strip around a round wooden form, a small wisp of steam. One scene, not sequence.",
+    "promptHash": "9b316002703dbeaf02a6b0f3d7cd92aadb3a2a5a62f65df39da0d1b0af00db02",
+    "metadataHash": "f2e0513f62c11e80cceba7483ef75dc64cff839bb32695d8ea1da524b95044b5",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "829dcda1231de336e4d45708dbbe81c56ae81577cf082f025d34700e8d5d583b",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Hands bend a steamed strip of wood around a circular form. The visible shaping action illustrates the article's metaphor for disciplined education.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "170",
+    "title": "Starověká kritika války, která počítala náklady a přínosy",
+    "content": "<p>Ve 4. století př. n. l. se v Číně objevila škola, která odmítala myšlenku, že máme milovat vlastní rodinu víc než cizí lidi.</p><p>Mo-c' a jeho následovníci hlásali nestranný ohled ke všem, protože právě oddanost jen vlastní skupině podle nich stojí za válkami mezi státy i za spory mezi rody.</p><p>Jejich argumentace byla nezvykle praktická: útočná válka se nevyplácí ani vítězi, protože náklady na vojsko, ztracenou úrodu a mrtvé převáží zisk z dobytého území.</p><p>Mohisté zůstali u teorie jen zčásti. Proslavili se jako <strong>odborníci na obranu měst</strong>, kteří pomáhali ohroženým stranám opevnit hradby, aby se útok nevyplatil.</p><p>Jejich spisy obsahují i první čínské úvahy o logice a optice.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Mohism",
+        "url": "https://plato.stanford.edu/entries/mohism/"
+      },
+      {
+        "label": "Britannica – Mozi",
+        "url": "https://www.britannica.com/biography/Mozi"
+      }
+    ],
+    "illustration": {
+      "concept": "The resources and lost harvest consumed by an attacking army outweigh a small territorial gain, illustrating the Mohist practical case against offensive war.",
+      "scene_type": "diagram",
+      "primary_subject": "mohist_costs_of_aggression",
+      "secondary_subjects": [
+        "wasted_harvest",
+        "defended_city"
+      ],
+      "visual_keywords": [
+        "mohist_costs_of_aggression",
+        "wasted_harvest",
+        "defended_city"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/170.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"The resources and lost harvest consumed by an attacking army outweigh a small territorial gain, illustrating the Mohist practical case against offensive war.\",\"primary_subject\":\"mohist_costs_of_aggression\",\"secondary_subjects\":[\"wasted_harvest\",\"defended_city\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}\nArt direction: An ancient Chinese defender repairs a simple city wall beside neglected harvested stalks outside, conveying protection and war's cost. No battle or complex cost diagram.",
+    "promptHash": "e7b3298a6bc5fb51ebd47360f573c08a0a00cee18e89cc723be25dac6047eac8",
+    "metadataHash": "40067774e750bf88e080eb2f7fd541c62e92dc16021afe1c2619a89c001cc1e2",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "d4fba6213cd8f0d3b9ae6f860ae5fb1a24c1c2a9cbbf53788f530cf7d5e34707",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A defender reinforces a Chinese wall beside cut grain. City defence and harvest costs accompany Mohist opposition to aggression; this is not a quantitative cost comparison.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "171",
+    "title": "Legismus: stát, který věří zákonům víc než ctnosti vládce",
+    "content": "<p>Co když se pořádek ve státě nedá postavit na dobrých úmyslech vládnoucích?</p><p>Čínští legisté ve 3. století př. n. l. tvrdili, že společnost neudrží morálka, ale jasné zákony, tvrdé tresty a spolehlivé odměny. Systém má podle nich fungovat i tehdy, když je na trůně průměrný panovník.</p><p>Odmítali proto konfuciánský důraz na rituál a vzor ctnostného úředníka. Sázeli na to, že lidé reagují na pobídky, a úkolem státu je nastavit je tak, aby se vyplatilo to, co stát potřebuje.</p><p>Tyto myšlenky se staly oporou sjednocení Číny říší Čchin roku 221 př. n. l. Tvrdost režimu ale přispěla k jeho rychlému pádu už po patnácti letech.</p><p><em>Spor mezi vládou zákona a vládou ctnosti provází politické myšlení dodnes.</em></p>",
+    "category": "politika",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Legalism in Chinese Philosophy",
+        "url": "https://plato.stanford.edu/entries/chinese-legalism/"
+      },
+      {
+        "label": "Britannica – Legalism",
+        "url": "https://www.britannica.com/topic/Legalism"
+      }
+    ],
+    "illustration": {
+      "concept": "A ruler administers the same publicly defined rewards and penalties through a law tablet, showing institutions that rely on enforcement rather than personal virtue.",
+      "scene_type": "diagram",
+      "primary_subject": "legalist_state_law",
+      "secondary_subjects": [
+        "public_law_tablet",
+        "rewards_and_penalties"
+      ],
+      "visual_keywords": [
+        "legalist_state_law",
+        "public_law_tablet",
+        "rewards_and_penalties"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/171.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A ruler administers the same publicly defined rewards and penalties through a law tablet, showing institutions that rely on enforcement rather than personal virtue.\",\"primary_subject\":\"legalist_state_law\",\"secondary_subjects\":[\"public_law_tablet\",\"rewards_and_penalties\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}\nArt direction: Ancient Chinese administrator beside one bamboo law slip bundle, with a modest reward token and restraint suggesting rewards and penalties. Subject-led accompaniment, no decoding diagram.",
+    "promptHash": "6fc4f4ba1eb2cd8947078672efec557b07bc3db17196d8199b931ce4c4dbff05",
+    "metadataHash": "0de436e3b2b8d4fb04fc7cea0cb1bf76c6e4409ed5392139ea7d6371b24149cf",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "cc6f6cd2fb7a3fb9df034e5c2da239a2c5b223eeb805b3db540f098fbd9306b8",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A Chinese administrator presents bamboo law slips beside coins and restraints. Rewards and penalties accompany legalist government; costume is editorial rather than an identified historical ruler.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "172",
+    "title": "Jednej, ale nelpi na ovoci svého jednání",
+    "content": "<p>Jak zůstat klidný, když výsledek naší práce nemáme plně ve své moci?</p><p>Indická <em>Bhagavadgíta</em>, součást eposu Mahábhárata pocházející zhruba z období mezi 5. a 2. stoletím př. n. l., nabízí odpověď v podobě nauky o nesobeckém jednání.</p><p>Text je rámován rozhovorem před bitvou, ve kterém váhající bojovník dostává radu, že povinnost je třeba vykonat, ale bez ulpívání na jejím plodu. Jednat se má proto, že je to správné, ne kvůli zisku, uznání nebo strachu z neúspěchu.</p><p>Výsledek tím nemá být lhostejný. Odpadá jen vnitřní křeč, která vzniká, když si člověk podmiňuje klid něčím, co nemůže zaručit.</p><p><strong>Kontrolujeme úsilí, nikoli jeho následky.</strong></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Britannica – Bhagavadgita",
+        "url": "https://www.britannica.com/topic/Bhagavadgita"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Bhagavad Gita",
+        "url": "https://iep.utm.edu/bhagavad-gita/"
+      }
+    ],
+    "illustration": {
+      "concept": "Arjuna listens to Krishna before battle while a hand releases its grip on an imagined reward, expressing committed action without attachment to its fruits.",
+      "scene_type": "interaction",
+      "primary_subject": "arjuna_krishna_detached_action",
+      "secondary_subjects": [
+        "battlefield_chariot",
+        "relaxed_grip"
+      ],
+      "visual_keywords": [
+        "arjuna_krishna_detached_action",
+        "battlefield_chariot",
+        "relaxed_grip"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_warm"
+    },
+    "image": "/illustrations-ai/172.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Arjuna listens to Krishna before battle while a hand releases its grip on an imagined reward, expressing committed action without attachment to its fruits.\",\"primary_subject\":\"arjuna_krishna_detached_action\",\"secondary_subjects\":[\"battlefield_chariot\",\"relaxed_grip\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"monochrome_warm\"}\nArt direction: Arjuna listens to Krishna beside one chariot wheel before battle. Relaxed open hand integrated naturally into Arjuna's pose, no detached symbolic hand or reward. No crowd.",
+    "promptHash": "f1e9b0efd217f0cc7d1579219393160e47143cba72af71a391cee0843d66140e",
+    "metadataHash": "b4c6dda4cffac617315b1e9b8cf7ce516b5a2720592e992396a793aacc7fcb91",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "30610dffe3e1dcfd641ad1cdf5d8f211f9c8c810bd6565263fe6c8330dec786c",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Arjuna listens to Krishna beside a chariot wheel. This subject-led scene accompanies the Bhagavadgita's teaching; it does not diagram detachment from outcomes.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "173",
+    "title": "Myšlenka, že jádro člověka a jádro světa jsou totéž",
+    "content": "<p>Indické <em>upanišady</em>, texty vznikající zhruba od 8. století př. n. l., se ptají na dvě věci najednou: co je nejhlubší podstatou člověka a co je základem celé skutečnosti.</p><p>Pro první používají pojem <strong>átman</strong>, pro druhé <strong>brahman</strong>. Jejich hlavní tvrzení je, že mezi nimi není rozdíl.</p><p>Z toho plyne, že pocit oddělenosti od zbytku světa je podle těchto textů výsledek nevědomosti, nikoli popis skutečného stavu věcí. Cílem poznání proto není získat novou informaci, ale prohlédnout klam.</p><p>Nauka ovlivnila celou pozdější indickou filozofii a přes překlady do evropských jazyků v 19. století zapůsobila i na západní myslitele včetně Schopenhauera.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Britannica – Upanishad",
+        "url": "https://www.britannica.com/topic/Upanishad"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Hindu Philosophy",
+        "url": "https://iep.utm.edu/hindu-philosophy/"
+      }
+    ],
+    "illustration": {
+      "concept": "One continuous pattern fills both a human silhouette and the surrounding world, expressing the Upanishadic identity of atman and brahman.",
+      "scene_type": "diagram",
+      "primary_subject": "atman_brahman_unity",
+      "secondary_subjects": [
+        "human_silhouette",
+        "continuous_cosmic_pattern"
+      ],
+      "visual_keywords": [
+        "atman_brahman_unity",
+        "human_silhouette",
+        "continuous_cosmic_pattern"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/173.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"One continuous pattern fills both a human silhouette and the surrounding world, expressing the Upanishadic identity of atman and brahman.\",\"primary_subject\":\"atman_brahman_unity\",\"secondary_subjects\":[\"human_silhouette\",\"continuous_cosmic_pattern\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"indigo_cyan\"}\nArt direction: One seated human silhouette whose interior and surrounding broad circular ribbon share the same uninterrupted cyan form, metaphor for unity of self and world. No starfield, no network.",
+    "promptHash": "63e2888a940099dcc49a1b2a6879e8019ecf3f7347b8e84402fafa2de432c0d2",
+    "metadataHash": "beac5b1636ab198e88e34168b0b9daa5aebd5e51972e93f8fc124571215add6d",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "c7e59cc22c32656fb942cba989694bb19fbdcbedabef560c66f7ef4591ecbd6e",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "One flowing pattern continues through a seated human silhouette and its surroundings. An editorial metaphor for atman-brahman unity rather than a scientific statement.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "174",
+    "title": "Indická škola, která uznávala jen to, co lze vnímat",
+    "content": "<p>Ve starověké Indii, proslulé duchovními naukami, existovala i škola, která odmítala posmrtný život, karmu i autoritu posvátných textů.</p><p>Směr zvaný <strong>čárváka</strong> nebo lókájata uznával jako spolehlivý zdroj poznání především smyslové vnímání. Vědomí považoval za jev vznikající z hmotného těla, který s ním také zaniká.</p><p>Z toho plynul i jeho postoj k životu: smysl má hledat v tomto světě, protože žádný jiný k dispozici nemáme.</p><p>Vlastní spisy školy se nedochovaly. Známe ji hlavně z polemik protivníků, kteří ji citovali proto, aby ji vyvrátili.</p><p><em>I to je zpráva o starověké Indii: byla natolik pluralitní, že v ní zaznělo i systematické popření všech jejích hlavních předpokladů.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Internet Encyclopedia of Philosophy – Lokayata/Carvaka",
+        "url": "https://iep.utm.edu/lokayata-carvaka-indian-materialism/"
+      },
+      {
+        "label": "Britannica – Charvaka",
+        "url": "https://www.britannica.com/topic/Charvaka"
+      }
+    ],
+    "illustration": {
+      "concept": "An Indian philosopher examines tangible objects directly, grounding knowledge in perception and material life rather than unseen afterlife claims.",
+      "scene_type": "interaction",
+      "primary_subject": "charvaka_sensory_knowledge",
+      "secondary_subjects": [
+        "indian_philosopher_seated",
+        "ordinary_material_objects"
+      ],
+      "visual_keywords": [
+        "charvaka_sensory_knowledge",
+        "indian_philosopher_seated",
+        "ordinary_material_objects"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/174.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"An Indian philosopher examines tangible objects directly, grounding knowledge in perception and material life rather than unseen afterlife claims.\",\"primary_subject\":\"charvaka_sensory_knowledge\",\"secondary_subjects\":[\"indian_philosopher_seated\",\"ordinary_material_objects\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"violet_coral\"}\nArt direction: One seated ancient Indian philosopher closely observing and touching a simple clay bowl. Material object and direct perception; subject-led accompaniment.",
+    "promptHash": "565e01ac8d1393b961917e7dec4a962eea645d6c07bdfbdbb6319b1d3fe778c1",
+    "metadataHash": "eed445525386b54cf7ee2505d7b21d7625373fcc17c83ccdf2823d9459b5b80b",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "223b7c6b66778f00022b57cf68e71b46b7cc11ec4001480845784cab273ab917",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "An ancient Indian thinker closely examines a clay bowl. Direct sensory contact accompanies Carvaka materialism; figure is representative rather than a documented founder.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "175",
+    "title": "Prázdnota neznamená, že nic není, ale že nic nestojí samo",
+    "content": "<p>Buddhistický myslitel Nágárdžuna, působící v Indii zhruba ve 2. století n. l., rozpracoval pojem, který bývá nejčastěji nepochopen: <strong>šúnjatá</strong>, prázdnota.</p><p>Netvrdil, že věci neexistují. Tvrdil, že žádná věc nemá vlastní, nezávislou podstatu. Vše vzniká v závislosti na příčinách, podmínkách a vztazích, a mimo ně se nedá vymezit.</p><p>Své teze vedl sérií rozborů, ve kterých ukazoval, že představa samostatně existujících jsoucen vede k rozporům, ať už jde o pohyb, čas nebo příčinu.</p><p>Prázdnota proto v jeho pojetí není nihilismus, ale střední cesta mezi tvrzením, že věci existují absolutně, a tvrzením, že neexistují vůbec.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Nagarjuna",
+        "url": "https://plato.stanford.edu/entries/nagarjuna/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Nagarjuna",
+        "url": "https://iep.utm.edu/nagarjun/"
+      }
+    ],
+    "illustration": {
+      "concept": "Every form is sustained by links to other forms and conditions, representing emptiness as lack of independent essence rather than a vacant bowl.",
+      "scene_type": "diagram",
+      "primary_subject": "nagarjuna_dependent_origination",
+      "secondary_subjects": [
+        "interdependent_nodes"
+      ],
+      "visual_keywords": [
+        "nagarjuna_dependent_origination",
+        "interdependent_nodes"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/175.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Every form is sustained by links to other forms and conditions, representing emptiness as lack of independent essence rather than a vacant bowl.\",\"primary_subject\":\"nagarjuna_dependent_origination\",\"secondary_subjects\":[\"interdependent_nodes\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"monochrome_cool\"}\nArt direction: Subject-led portrait of Nagarjuna in simple Buddhist robes beside one small flower rooted visibly in soil and receiving water, a concrete metaphor for dependence on conditions. No network nodes.",
+    "promptHash": "4f7461c4dd6ace7e7394f2ab0aff462785a2a59fde66fb7d16bfb40ec0d04fd3",
+    "metadataHash": "d03bb6310f17c0fb570e502ec312176789c26c6be4e10b2481afc0a23539f5f5",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "3edf41667301ab93f32f2dfdac805b4c98162e335fd1822bfc9f17af0f94cdb4",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A Buddhist thinker waters a rooted flower, visibly dependent on soil and water. This concrete supporting metaphor accompanies Nagarjuna's dependence on conditions; it is not a complete proof of emptiness.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "176",
+    "title": "Slepci a slon: podobenství o tom, že pravda má víc stran",
+    "content": "<p>Skupina nevidomých mužů ohmatává slona. Jeden drží chobot a tvrdí, že slon je had, druhý nohu a tvrdí, že je sloup, třetí ucho a mluví o vějíři. Každý popisuje pravdivě to, čeho se dotkl, a přesto se všichni mýlí v celku.</p><p>Toto podobenství je známé z indické tradice a zvlášť silně je rozvinul <strong>džinismus</strong>, který z něj udělal filozofický princip.</p><p>Nauka zvaná anekántaváda tvrdí, že skutečnost je mnohostranná a každý výrok o ní platí jen z určitého hlediska. Proto mají být tvrzení formulována s výhradou, že popisují jen jeden aspekt.</p><p>Z tohoto předpokladu plyne i praktický důsledek: intelektuální tolerance jako součást nenásilí.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Internet Encyclopedia of Philosophy – Jain Philosophy",
+        "url": "https://iep.utm.edu/jain-philosophy/"
+      },
+      {
+        "label": "Britannica – Jainism",
+        "url": "https://www.britannica.com/topic/Jainism"
+      }
+    ],
+    "illustration": {
+      "concept": "Blind observers touch separate parts of one elephant and form different partial impressions, showing how limited perspectives miss the shared whole.",
+      "scene_type": "interaction",
+      "primary_subject": "blind_men_and_elephant",
+      "secondary_subjects": [
+        "hands_touching_different_parts"
+      ],
+      "visual_keywords": [
+        "blind_men_and_elephant",
+        "hands_touching_different_parts"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/176.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Blind observers touch separate parts of one elephant and form different partial impressions, showing how limited perspectives miss the shared whole.\",\"primary_subject\":\"blind_men_and_elephant\",\"secondary_subjects\":[\"hands_touching_different_parts\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"indigo_cyan\"}\nArt direction: One elephant with two plainly clothed ancient Indian observers with eyes closed touching respectively trunk and leg. Clear different points of contact, no separate imagined objects or labels.",
+    "promptHash": "34558c738a4ac0aa6c486f94e855f9b7cd84daf06ac292e68ee5fca08e6c414c",
+    "metadataHash": "655e4acd928688dbe61c58862c090247c9d1c07a4a5b8a0fa2b71e5b3668ea06",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "8a84418b30a088ac8104fcabb4d70df42b77a4e77730e1691ae4fdf259641217",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Two observers touch distinct parts of one elephant, trunk and leg. Their limited points of contact make the parable's partial perspectives visible without imagined object labels.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "177",
+    "title": "Báseň o atomech, která se ztratila a po staletích se našla",
+    "content": "<p>V 1. století př. n. l. vznikla v Římě rozsáhlá naučná báseň, která vykládala svět jako pohyb atomů v prázdnu a snažila se čtenáře zbavit strachu z bohů a ze smrti.</p><p>Spis <em>De rerum natura</em>, tedy O přírodě, shrnoval v latinských verších Epikúrovo učení. Popisoval mimo jiné, že vše se skládá z nedělitelných částic, které se občas nepatrně odchýlí ze své dráhy.</p><p>Text ve středověku téměř zmizel. Roku 1417 objevil jeho opis v jednom z klášterů italský humanista a lovec rukopisů Poggio Bracciolini a nechal jej rozšířit.</p><p>Znovuobjevená báseň pak ovlivnila renesanční přírodní filozofii i pozdější uvažování o atomech.</p><p><em>Osud celé myšlenkové tradice tak visel na jediném dochovaném svazku.</em></p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "Britannica – Lucretius",
+        "url": "https://www.britannica.com/biography/Lucretius"
+      },
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Lucretius",
+        "url": "https://plato.stanford.edu/entries/lucretius/"
+      }
+    ],
+    "illustration": {
+      "concept": "A recovered manuscript of On the Nature of Things reveals atom patterns across its pages, linking a lost poem to the return of ancient atomism.",
+      "scene_type": "object",
+      "primary_subject": "lucretius_rediscovered_manuscript",
+      "secondary_subjects": [
+        "atom_pattern",
+        "neglected_monastery_shelf"
+      ],
+      "visual_keywords": [
+        "lucretius_rediscovered_manuscript",
+        "atom_pattern",
+        "neglected_monastery_shelf"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "dynamic",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/177.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A recovered manuscript of On the Nature of Things reveals atom patterns across its pages, linking a lost poem to the return of ancient atomism.\",\"primary_subject\":\"lucretius_rediscovered_manuscript\",\"secondary_subjects\":[\"atom_pattern\",\"neglected_monastery_shelf\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"dynamic\",\"palette\":\"violet_coral\"}\nArt direction: Hands uncover and open one neglected manuscript, with a few simple particle forms incorporated into its pages as editorial symbol for ancient atomism. No modern orbital atom icons.",
+    "promptHash": "fa43f6d9953e40f003c1fa9e9cdfac57f767d0d9199be9fa040b19afb06f1b64",
+    "metadataHash": "dee20f0745e3034a18275e842993ef4689f1e6fedd76ebc66f996ce565514e1f",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "afdd443818680220f4d8165aaf46cf77eb15aaf350371c44cc5b225b9a5ed508",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Hands uncover an open manuscript whose pages contain editorial particle patterns. Rediscovered writing and atomism are linked; the markings are illustrative, not an authentic manuscript transcription.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "178",
+    "title": "Antická metoda, jak si od sporů odpočinout zdržením se soudu",
+    "content": "<p>Co dělat, když pro i proti mají zhruba stejně silné argumenty?</p><p>Antičtí skeptikové navrhli řešení, které dnes zní téměř terapeuticky. Namísto rozhodnutí doporučovali <strong>epoché</strong>, zdržení se soudu.</p><p>Jejich postup, shrnutý kolem 2. století n. l. ve spisech Sexta Empirika, spočíval v tom, že proti každému tvrzení postavili stejně věrohodné protitvrzení. Když se argumenty vyrovnají, přestane mít smysl tvrdit cokoli s jistotou.</p><p>Výsledkem nemělo být ochromení, ale klid mysli, ataraxie. Skeptik podle nich dál jedná podle zvyklostí, zdání a okolností, jen se přestává trápit tím, že nezná konečnou pravdu.</p><p>Tato tradice později inspirovala Montaigne i novověké pochybování o spolehlivosti poznání.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Ancient Skepticism",
+        "url": "https://plato.stanford.edu/entries/skepticism-ancient/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Sextus Empiricus",
+        "url": "https://iep.utm.edu/sextus-empiricus/"
+      }
+    ],
+    "illustration": {
+      "concept": "Equally plausible opposing arguments remain balanced while an observer steps back from deciding, expressing skeptical suspension and tranquility.",
+      "scene_type": "diagram",
+      "primary_subject": "skeptical_suspension_of_judgment",
+      "secondary_subjects": [
+        "balanced_opposing_arguments",
+        "calm_observer"
+      ],
+      "visual_keywords": [
+        "skeptical_suspension_of_judgment",
+        "balanced_opposing_arguments",
+        "calm_observer"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/178.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Equally plausible opposing arguments remain balanced while an observer steps back from deciding, expressing skeptical suspension and tranquility.\",\"primary_subject\":\"skeptical_suspension_of_judgment\",\"secondary_subjects\":[\"balanced_opposing_arguments\",\"calm_observer\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"monochrome_cool\"}\nArt direction: One calm ancient skeptic stepping back from a level balance with two equal simple stones representing equally weighted arguments. Supporting metaphor, no abstract network.",
+    "promptHash": "aa5640ea99b745198ad5342ba203f37b3ec88d8250c6540b712cff25d173d171",
+    "metadataHash": "4adea0e489f62192c31104b001f979657e615b51256c49b8019af5f7254cffc4",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "df75b8625c9420e99ebffef877a127e84592669b9df122975991833bcb3afe54",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A calm ancient skeptic stands beside a balance with opposing stones. Accompanies weighing arguments and withholding judgment; minor visual differences in stone shapes are not measurements of argumentative strength.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "179",
+    "title": "Zákon, který platí i tehdy, když ho žádný stát nevyhlásil",
+    "content": "<p>Může být něco nespravedlivé, i když to zákon výslovně dovoluje?</p><p>Římské myšlení 1. století př. n. l. na tuto otázku odpovědělo pojmem <strong>přirozeného práva</strong>. Podle něj existuje měřítko správnosti, které vychází z rozumu a je společné všem lidem bez ohledu na to, v jakém státě žijí.</p><p>Z toho plyne, že psaný zákon lze posuzovat a kritizovat. Není poslední instancí, ale pokusem vyjádřit něco obecnějšího.</p><p>Tato myšlenka, rozvinutá už u stoiků a shrnutá v Ciceronových spisech o státu a zákonech, se stala jedním ze základů evropské právní tradice.</p><p>Odkazují k ní i pozdější deklarace lidských práv, které předpokládají, že jistá práva člověku nedává stát, jen je uznává.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Natural Law Tradition in Ethics",
+        "url": "https://plato.stanford.edu/entries/natural-law-ethics/"
+      },
+      {
+        "label": "Britannica – Cicero",
+        "url": "https://www.britannica.com/biography/Cicero-Roman-statesman-scholar"
+      }
+    ],
+    "illustration": {
+      "concept": "A written legal rule is weighed against a shared rational standard of justice, showing why legality alone need not make an action right.",
+      "scene_type": "diagram",
+      "primary_subject": "natural_law_and_written_law",
+      "secondary_subjects": [
+        "human_reason",
+        "legal_scroll"
+      ],
+      "visual_keywords": [
+        "natural_law_and_written_law",
+        "human_reason",
+        "legal_scroll"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "green_copper"
+    },
+    "image": "/illustrations-ai/179.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A written legal rule is weighed against a shared rational standard of justice, showing why legality alone need not make an action right.\",\"primary_subject\":\"natural_law_and_written_law\",\"secondary_subjects\":[\"human_reason\",\"legal_scroll\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"green_copper\"}\nArt direction: Cicero in Roman toga thoughtfully considers one legal scroll beside a simple balanced scale; portrait accompanies natural-law argument rather than claiming to prove it.",
+    "promptHash": "beadba39c347766c4e0429169c7761e07d212d0712740f3602e39de86a585839",
+    "metadataHash": "8b9f7ddb9b134d62aeec3cad2eb442ae0c42c7090f521ee1c77ef92903f293f8",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "0a49ac9b689a896b82e0a8d6119d4663ab4445be67da900abca3930e1e1459e8",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Cicero considers a scroll beside scales of justice. Subject-led accompaniment to assessing written law through reason, not a diagram that proves natural law.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "180",
+    "title": "Kdyby koně měli bohy, vypadali by jako koně",
+    "content": "<p>V 6. století př. n. l. zaznělo v řeckém světě pozorování, které nepříjemně zasáhlo náboženskou představivost.</p><p>Xenofanés si všiml, že různé národy zobrazují bohy podle sebe: jedni jako světlovlasé, druzí jako tmavé a ploskonosé. Z toho odvodil ironickou úvahu, že kdyby uměli malovat koně nebo voli, jejich bohové by měli podobu koní a volů.</p><p>Nešlo mu jen o výsměch. Kritizoval i to, že v tehdejších básních bohové kradou, podvádějí a bojují mezi sebou, tedy dělají věci, které by lidé mezi sebou odsoudili.</p><p>Za tuto kritiku nabízel představu jediného božství, které se nepodobá lidem ani tvarem, ani chováním.</p><p><em>Postřeh, že si obrazy nadpřirozena tvoříme ke svému obrazu, zůstal živý dodnes.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Xenophanes",
+        "url": "https://plato.stanford.edu/entries/xenophanes/"
+      },
+      {
+        "label": "Britannica – Xenophanes",
+        "url": "https://www.britannica.com/biography/Xenophanes"
+      }
+    ],
+    "illustration": {
+      "concept": "A horse imagines a deity with a horse's body, making Xenophanes's critique of projecting one's own form onto gods immediately recognizable.",
+      "scene_type": "interaction",
+      "primary_subject": "xenophanes_horse_gods",
+      "secondary_subjects": [
+        "horse",
+        "horse_shaped_deity"
+      ],
+      "visual_keywords": [
+        "xenophanes_horse_gods",
+        "horse",
+        "horse_shaped_deity"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/180.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A horse imagines a deity with a horse's body, making Xenophanes's critique of projecting one's own form onto gods immediately recognizable.\",\"primary_subject\":\"xenophanes_horse_gods\",\"secondary_subjects\":[\"horse\",\"horse_shaped_deity\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}\nArt direction: A horse gazes at a larger horse-shaped divine statue on a small pedestal; clear shared horse silhouette, a restrained simple halo on statue. Xenophanes's hypothetical projection.",
+    "promptHash": "3a1c8037d2b7040f5d51529e9e73fc493beb9f6313bd96e03b6b6e19594ee492",
+    "metadataHash": "c445375cf0dc990d1096fd180ca52dcdee84a9514ba6877ee52002138f9a9c82",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "1c66727172c29384cdd25283b039718d3aed13d536ac7b96fb30cf9b06f965d0",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A horse imagines a horse-like deity represented as a larger pedestal statue. Shared form makes Xenophanes's projection thought experiment recognizable; imagery is hypothetical.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "181",
+    "title": "Tvrzení, že Slunce je rozžhavený kámen, bylo nebezpečné",
+    "content": "<p>V Athénách 5. století př. n. l. platilo Slunce za božstvo. Filozof Anaxagorás tvrdil něco jiného: že jde o rozžhavenou hmotu, kámen větší než Peloponés.</p><p>Přišel i s vysvětlením zatmění pomocí stínu a s myšlenkou, že Měsíc nesvítí vlastním světlem, ale odráží sluneční.</p><p>Do celého uspořádání světa přitom zavedl princip, který nazýval <strong>nús</strong>, tedy mysl. Ta podle něj uvedla původní směs látek do pohybu a roztřídila ji.</p><p>Za svá tvrzení o nebeských tělesech čelil v Athénách obvinění z bezbožnosti a musel město opustit.</p><p><em>Fyzikální výklad oblohy byl kdysi nejen novinkou, ale i právním rizikem.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Anaxagoras",
+        "url": "https://plato.stanford.edu/entries/anaxagoras/"
+      },
+      {
+        "label": "Britannica – Anaxagoras",
+        "url": "https://www.britannica.com/biography/Anaxagoras"
+      }
+    ],
+    "illustration": {
+      "concept": "A radiant Sun is paired with a heated stone and a questioning ancient thinker, expressing the risky replacement of divine explanation with physical matter.",
+      "scene_type": "interaction",
+      "primary_subject": "anaxagoras_sun_as_hot_stone",
+      "secondary_subjects": [
+        "sun_disc",
+        "heated_rock"
+      ],
+      "visual_keywords": [
+        "anaxagoras_sun_as_hot_stone",
+        "sun_disc",
+        "heated_rock"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/181.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A radiant Sun is paired with a heated stone and a questioning ancient thinker, expressing the risky replacement of divine explanation with physical matter.\",\"primary_subject\":\"anaxagoras_sun_as_hot_stone\",\"secondary_subjects\":[\"sun_disc\",\"heated_rock\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}\nArt direction: Ancient Greek thinker looks at a Sun rendered as a glowing hot rocky disc, blending solar outline with visible stony shape. Historical hypothesis, not modern solar physics. No second sun or equality sign.",
+    "promptHash": "c212c5530eb129f9fe302b545052bdd357ae2082423920f75f703fce571efc5b",
+    "metadataHash": "c1e7b8ef7b2289321cb829c7f2757252b81612fb24ae0934cb08436196e744cf",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "af1ef74fb730be5cf31c842b3bf2cf772e6b44fd04d7a555e3e538583dc19599",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A Greek thinker contemplates a Sun represented as heated rock. Depicts Anaxagoras's historical hypothesis, not the actual physical composition of the Sun.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "182",
+    "title": "Loď, které postupně vyměnili všechna prkna: je to táž loď?",
+    "content": "<p>Athéňané podle antické tradice uchovávali loď spojovanou s Théseem a průběžně na ní nahrazovali ztrouchnivělá prkna novými. Po čase na ní nezůstal jediný původní kus dřeva.</p><p>Otázka, kterou si nad tím kladli už antičtí autoři, zní: je to pořád tatáž loď?</p><p>Novověká verze paradoxu jde ještě dál. Kdyby někdo stará prkna sbíral a sestavil z nich druhou loď, která z těch dvou by byla ta pravá?</p><p>Problém není slovní hříčka. Týká se každého předmětu i každého člověka, protože buňky v lidském těle se obměňují a vzpomínky se přepisují.</p><p><strong>Identita zjevně nestojí na materiálu, ale na kontinuitě tvaru, funkce a příběhu.</strong></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Identity Over Time",
+        "url": "https://plato.stanford.edu/entries/identity-time/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Identity",
+        "url": "https://iep.utm.edu/identity/"
+      }
+    ],
+    "illustration": {
+      "concept": "One ship is shown through successive plank replacements, with old timbers set aside to pose the question of identity through material change.",
+      "scene_type": "process",
+      "primary_subject": "ship_of_theseus",
+      "secondary_subjects": [
+        "replaced_planks",
+        "removed_old_timbers"
+      ],
+      "visual_keywords": [
+        "ship_of_theseus",
+        "replaced_planks",
+        "removed_old_timbers"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/182.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"One ship is shown through successive plank replacements, with old timbers set aside to pose the question of identity through material change.\",\"primary_subject\":\"ship_of_theseus\",\"secondary_subjects\":[\"replaced_planks\",\"removed_old_timbers\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}\nArt direction: One ancient wooden ship hull with a hand fitting a fresh pale plank into its side, old dark plank set aside beneath. Single repair scene, no sequence.",
+    "promptHash": "bfcaa87e91d873ec3e4d59aeed41e03e4cdb09297e0bd508d03a69f5e6165d8e",
+    "metadataHash": "f1f32a613528744cd325a59316330da11e8da112a3d175c23fc94bac20ebfb5c",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "61d2f516759508abd34770eaf1d8d2f95e366c52ea595b52dc722daf034654d0",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Hands replace a plank in an ancient ship while old timber lies beneath. Material replacement is visible in one scene; the identity paradox is posed rather than solved.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "183",
+    "title": "Pravidlo, podle kterého vyhrává jednodušší vysvětlení",
+    "content": "<p>Máte dvě vysvětlení téhož jevu a obě sedí na dostupná data. Které si vybrat?</p><p>Zásada známá jako <strong>Occamova břitva</strong>, spojovaná s anglickým filozofem 14. století, doporučuje nezavádět více předpokladů, než je nutné. Přebytečné entity se mají odřezat.</p><p>Nejde o důkaz. Jednodušší vysvětlení není automaticky pravdivé, jen je snáz ověřitelné a méně náchylné k tomu, aby se přizpůsobilo čemukoli.</p><p>Právě v tom je jeho síla ve vědě: teorie, která dokáže vysvětlit každý možný výsledek, nevysvětluje ve skutečnosti nic.</p><p><em>Břitva neříká, že svět je jednoduchý. Říká, že složitost si musíme zasloužit důkazy.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Britannica – Occam's razor",
+        "url": "https://www.britannica.com/topic/Occams-razor"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – William of Ockham",
+        "url": "https://iep.utm.edu/ockham/"
+      }
+    ],
+    "illustration": {
+      "concept": "Two explanations account for the same evidence, but one requires many additional unsupported pieces; the simpler adequate model remains visually clear.",
+      "scene_type": "diagram",
+      "primary_subject": "occams_razor_two_explanations",
+      "secondary_subjects": [
+        "simple_model",
+        "unnecessary_assumptions"
+      ],
+      "visual_keywords": [
+        "occams_razor_two_explanations",
+        "simple_model",
+        "unnecessary_assumptions"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/183.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Two explanations account for the same evidence, but one requires many additional unsupported pieces; the simpler adequate model remains visually clear.\",\"primary_subject\":\"occams_razor_two_explanations\",\"secondary_subjects\":[\"simple_model\",\"unnecessary_assumptions\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}\nArt direction: Subject-led William of Ockham in plain medieval friar hood thoughtfully pruning one redundant fork from a simple branch with a small blade. Editorial metaphor for removing excess assumptions; no diagram or text.",
+    "promptHash": "7f6b4591e4f2a6abb11abc962009b9d24994fa49cd261861eebaaaceed0de7a6",
+    "metadataHash": "5d7d3e1305cc2942645b860cbbf4c590f84eade60478cb9ebf36242e51538460",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "a7fd7de50b2b8501a0ca9e5c3b6414009acaac21c5b68b2693b17cd14895bbce",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A medieval friar trims a redundant branch with a blade. This supporting editorial metaphor accompanies Ockham's removal of excess assumptions; it is not a literal historical event.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
+    "id": "184",
+    "title": "Z toho, jak věci jsou, nevyplývá, jak by být měly",
+    "content": "<p>Příroda je plná soupeření, tedy soupeření je správné. Zní to přesvědčivě, a přesto je v tom logická díra.</p><p>Skotský filozof David Hume si v 18. století všiml, že autoři pojednání o mravnosti nenápadně přecházejí od vět o tom, co <em>je</em>, k větám o tom, co <em>má být</em>, aniž by ten krok zdůvodnili.</p><p>Tento přechod se dnes označuje jako <strong>Humeova gilotina</strong> nebo problém is-ought. Z popisu skutečnosti sám o sobě žádná povinnost neplyne, dokud nepřidáme nějaké hodnotové kritérium.</p><p>Praktický dopad je velký: odvolávka na přirozenost, tradici nebo statistiku ještě není argument pro to, že něco má být.</p><p>Fakta nám říkají, co se děje. Co s tím uděláme, musíme obhájit zvlášť.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Hume's Moral Philosophy",
+        "url": "https://plato.stanford.edu/entries/hume-moral/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – David Hume: Moral Philosophy",
+        "url": "https://iep.utm.edu/humemora/"
+      }
+    ],
+    "illustration": {
+      "concept": "Observed facts stop short of a separate moral conclusion, with a visible gap requiring an added value premise rather than an automatic inference.",
+      "scene_type": "diagram",
+      "primary_subject": "is_ought_split_diagram",
+      "secondary_subjects": [
+        "descriptive_facts",
+        "missing_normative_premise"
+      ],
+      "visual_keywords": [
+        "is_ought_split_diagram",
+        "descriptive_facts",
+        "missing_normative_premise"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/184.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Observed facts stop short of a separate moral conclusion, with a visible gap requiring an added value premise rather than an automatic inference.\",\"primary_subject\":\"is_ought_split_diagram\",\"secondary_subjects\":[\"descriptive_facts\",\"missing_normative_premise\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}\nArt direction: Subject-led portrait of David Hume in eighteenth-century coat and cap, thoughtful restrained pose. Accompanies the is-ought argument without pretending arbitrary icons demonstrate it. Omit gap diagram.",
+    "promptHash": "9ba368363ac1bb853e9328d67fa3ed23eb429d84ea4a9bdea4750c9179fe63f4",
+    "metadataHash": "abacf31ece4962a670bec83541b83e3b447cc9b51d5823edfce970943ff43035",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "cffff4f0f01cba551f34a5f36ee84307b3edc8507df0c9c8f1cef53d24c6049a",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A thoughtful eighteenth-century portrait of David Hume accompanies the is-ought argument. No claim that a portrait explains or proves the logical gap.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Editorial metaphors and portraits accompany philosophical claims rather than proving them. Some scenes exceed the target shape count."
+    }
+  },
+  {
     "id": "558",
     "title": "Čím dál je galaxie, tím rychleji se od nás vzdaluje, zjistilo měření z roku 1929",
     "content": "<p>Americký astronom Edwin Hubble na observatoři Mount Wilson porovnával v 20. letech 20. století vzdálenosti galaxií, určené pomocí cefeid, s posunem jejich spektrálních čar směrem k červené barvě.</p><p>Zjistil jasný vztah: čím dál galaxie leží, tím větší je tento <strong>rudý posuv</strong>, a tedy tím rychleji se od nás vzdaluje.</p><p>Vztah mezi vzdáleností a rychlostí vzdalování se dnes nazývá <strong>Hubbleův zákon</strong> a byl prvním přímým pozorovacím důkazem, že se vesmír jako celek rozpíná.</p><p>Přesná hodnota konstanty, která tento vztah popisuje, se dodnes zpřesňuje a různé metody měření dávají mírně odlišné výsledky, což je jedna z otevřených otázek dnešní kosmologie.</p><p><em>Bez tohoto pozorování by teorie velkého třesku postrádala svůj klíčový empirický základ.</em></p>",

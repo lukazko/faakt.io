@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`159` a `558` (160 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`184` a `558` (185 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,7 +19,15 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 160 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 185 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Dávka 160–184
+
+Dalších 25 chybějících ilustrací vytvořil vestavěný image_gen, vždy jedním požadavkem s `transparent_background=true`. Nástroj nenabízí nastavení vstupních rozměrů, kvality ani ceny. Výstupy jsou statické RGBA WebP 640×360, quality 80, s průhledným odsazením a nulovou alfou ve všech rozích; velikosti 6 026–45 684 B. Všech 25 ID je zapnutých v produkčních kartách. Přesné odeslané prompty, hashe metadat, promptů a obrázků i jednotlivé významové kontroly jsou v manifestu. Existující ilustrace se nepřegenerovaly.
+
+Kontrola vycházela z celých textů příspěvků. U abstraktních argumentů portrét nebo konkrétní metafora doprovází učení a nevydává se za jeho důkaz: například `175` používá rostlinu závislou na půdě a vodě, `183` prořezávání nadbytečné větve a `184` Humeův portrét. `163`, `164` a `181` zobrazují historické představy, nikoli platnou fyziku. `162` používá potřebné matematické údaje u jednotkového čtverce a úhlopříčky; nejde o důkaz iracionality. `177` má ilustrační značky částic, nikoli autentický přepis rukopisu.
+
+Miniatury byly prohlédnuty na tmavém povrchu při 160×90 a 320×180 px. Hlavní motivy jsou čitelné a bez obdélníkového pozadí. Některé scény překračují cílových 5–8 ploch a tři barvy; zejména `160` má členitější terén, portréty používají více obrysových detailů. `178` doprovází skeptické vážení argumentů, ale tvary kamenů nejsou přesnou mírou jejich síly. Tyto odchylky jsou zaznamenané bez kosmetického opakování generování. Deterministický repair proběhl pouze v náhledu; jeho obecné přepisy nebyly aplikovány. Obsah ani metadata `posts.json` se nemění. Ověření: `npm test`, `npm run build` a kontrola rozměrů, alfa kanálu, velikostí a SHA-256 všech 25 souborů.
 
 ## Generování
 
