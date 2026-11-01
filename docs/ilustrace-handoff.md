@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`184` a `558` (185 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`214` a `558` (215 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,7 +19,17 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 185 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 215 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Dávka 185–214
+
+Všech 30 dříve chybějících ilustrací vytvořil vestavěný image_gen s `transparent_background=true`, samostatným požadavkem pro každý post. Po kontrole významu dostaly `188`, `198`, `200` a `212` jednu cílenou náhradu: přesné počty osob v dilematu, předávání zboží mezi prostředníky, otevřené španělské zprávy proti válečné cenzuře a oddělené kvantové stanice bez spojnic naznačujících signál. Celkem 34 generovacích volání; nástroj nenabízí řízení vstupního rozměru, kvality ani ceny.
+
+Finální soubory jsou RGBA WebP 640×360, quality 80, s průhledným odsazením a nulovou alfou ve všech rozích. Velikosti jsou 15 248–47 678 B, celkem 926 766 B. Všech 30 ID je zapnuto v kartách i dostupné v galerii. Existující assety ani `posts.json` se nemění. Manifest uchovává přesné finální prompty, SHA-256 promptů, metadat a obrázků a jednotlivé kontroly významu. Nové barevné kombinace vycházejí z metadat; některé obrázky překračují cílové tři barvy nebo počet ploch.
+
+Miniatury byly prohlédnuty při 160×90 a 320×180 na tmavém povrchu karty. Hlavní motivy jsou čitelné, bez obdélníkového pozadí. `190` používá klíč a klávesu jako analogii významu podle kontextu. `192` má jemnější soukolí, `194` členitější architekturu a `199` tři fáze úpadku; jde o zaznamenané odchylky od jednoduchosti. `200` obsahuje redakční označení ESPANA a GUERRA, nikoli autentické titulky novin. `202` spojuje záměrně zvětšený detail zdi s orbitálním pohledem, netvrdí viditelnost pouhým okem. `208` doprovází úbytek izotopu bez kvantitativního měřítka. `210` je rekonstrukce hominina, nikoli přesný soupis dochovaných kostí Lucy. `211` je zjednodušené schéma interference, nikoli měřené dráhy částic; `212` doprovází korelace a nedokazuje Bellovy nerovnosti. `214` zobrazuje detektor a srážku, nikoli přímo mechanismus hmotnosti. Další omezení jsou u jednotlivých záznamů manifestu.
+
+Deterministický repair proběhl pouze v náhledu; obecné přepisy nebyly aplikovány. Ověření zahrnuje rozměry, alfa kanál, velikosti a SHA-256 všech 30 souborů, `npm test` a `npm run build`. Procedurální renderer ani zlaté otisky se nepoužívají.
 
 ## Dávka 160–184
 
