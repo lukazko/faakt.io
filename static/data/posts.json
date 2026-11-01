@@ -9304,17 +9304,17 @@
       }
     ],
     "illustration": {
-      "concept": "One unchanged facial close-up is paired with different subsequent images, causing viewers to infer different emotions from the same face.",
+      "concept": "A film strip cuts between a baby carriage rolling down the Odessa steps and marching soldiers, showing how juxtaposition creates tension beyond either shot alone.",
       "scene_type": "process",
-      "primary_subject": "kuleshov_editing_effect",
+      "primary_subject": "eisenstein_odessa_steps_montage",
       "secondary_subjects": [
-        "unchanged_face",
-        "different_following_images"
+        "baby_carriage_on_steps",
+        "marching_soldiers_film_frame"
       ],
       "visual_keywords": [
-        "kuleshov_editing_effect",
-        "unchanged_face",
-        "different_following_images"
+        "eisenstein_odessa_steps_montage",
+        "baby_carriage_on_steps",
+        "marching_soldiers_film_frame"
       ],
       "composition_hints": [
         "stacked_or_sequential_arrangement",
@@ -9448,21 +9448,19 @@
       }
     ],
     "illustration": {
-      "concept": "Two abstract premises connect to a conclusion through their logical form, showing valid inference independent of the particular subject matter.",
-      "scene_type": "diagram",
-      "primary_subject": "formal_syllogism",
+      "concept": "Aristotle holds a scroll in a thoughtful teaching pose, accompanying the ancient Greek development of formal syllogistic logic without pretending to diagram a proof.",
+      "scene_type": "portrait",
+      "primary_subject": "aristotle_formal_logic",
       "secondary_subjects": [
-        "linked_premises",
-        "necessary_conclusion"
+        "plain_teaching_scroll"
       ],
       "visual_keywords": [
-        "formal_syllogism",
-        "linked_premises",
-        "necessary_conclusion"
+        "aristotle_formal_logic",
+        "plain_teaching_scroll"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "portrait_focus",
+        "single_uncluttered_silhouette"
       ],
       "mood": "contemplative",
       "palette": "green_copper"

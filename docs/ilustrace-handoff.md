@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`214` a `558` (215 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`256`, `258`–`265` a `558` (265 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,7 +19,19 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 215 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 265 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Dávka 215–265 (bez 257)
+
+Dalších 50 ilustrací vytvořil vestavěný image_gen s `transparent_background=true`, samostatným požadavkem pro každý příspěvek. Příspěvek `257` generátor dvakrát odmítl bezpečnostním filtrem na výstupu bez konkrétního obsahového důvodu; zůstává bez assetu a místo něj je zahrnut následující chybějící `265`. Celkem proběhlo 54 volání: 50 finálních výstupů, dvě odmítnutí a po jedné cílené náhradě `244` a `263`. Nástroj neposkytuje nastavení rozměrů, kvality ani ceny generování.
+
+Finální assety jsou průhledné RGBA WebP 640×360, quality 80, s transparentním odsazením po všech hranách. Velikosti jsou 15 614–52 210 B, celkem 1 584 882 B. Přesné prompty, hashe promptů, metadat a souborů a individuální významové kontroly obsahuje manifest; u náhrad uchovává také původní prompt a hash odmítnutého obrázku. Všech 50 ID je registrováno v produkčních kartách a galerii. Existující obrázky se nemění.
+
+Kontrola vychází z celých textů. U `259` metadata nově odpovídají Ejzenštejnovu střihu kočárku a vojáků na oděských schodech místo jiného filmového příkladu. U `263` nahrazuje nesrozumitelný diagram doprovodný portrét Aristotela se svitkem; nejde o důkaz sylogismu. Jen tyto dva záznamy mají cíleně upravené pole `illustration`; titulky, obsah, kategorie ani zdroje se nemění. Deterministický repair proběhl pouze v náhledu, jeho obecné přepisy nebyly aplikovány.
+
+`244` používá dvě stejné kruhové distribuce s odlišným zaměřením pozornosti; první verze měnila i výsledky, a proto byla nahrazena. U `223`, `224`, `228`, `229` a `235` doprovází schéma matematické téma a nevydává se za úplný důkaz. `219` používá redakční vizualizaci reliktního záření, nikoli místní nebeské těleso. `242` ukazuje rekonstrukci rodinné vzpomínky, nikoli přesnou scénu experimentu s auty. `253` je příčinná montáž, nikoli pohled na Tamboru od Ženevského jezera. Žárovka u `264` je výslovně retrospektivní symbol myšlenky, nikoli předmět ze starověku. Některé motivy překračují cílový počet ploch či barev, zejména `221`, `236`, `248`–`254`; odchylky jsou přiznané v manifestu. Palety vycházejí z metadat. Procedurální renderer a zlaté otisky se nepoužívají.
+
+Miniatury byly vizuálně zkontrolované na tmavém povrchu při 160×90 a 320×180 px. Hlavní motivy zůstávají čitelné a nemají obdélníkové pozadí. Ověření zahrnuje rozměry, skutečný alfa kanál, nulovou alfu rohů, limit 100 kB, SHA-256 souborů, promptů a metadat všech 50 záznamů a shodu článků s původní databází. `npm test` ověřil dostupnost přijatých assetů v kartách. `npm run build` úspěšně zapsal statický web do `build/`; upozorňuje na existující použití slotu a přístupnost v komponentách a na velikost balíčku vývojové galerie.
 
 ## Dávka 185–214
 
