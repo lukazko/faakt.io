@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { STYLE } from '../skills/faakt-illustrations/scripts/prompt.mjs';
 
-const ids = Array.from({ length: 45 }, (_, index) => String(index + 1).padStart(3, '0'));
+const ids = Array.from({ length: 100 }, (_, index) => String(index + 1).padStart(3, '0'));
 const posts = JSON.parse(readFileSync('static/data/posts.json', 'utf8'));
 const manifestPath = 'static/illustrations-ai/manifest.json';
 const previous = existsSync(manifestPath) ? JSON.parse(readFileSync(manifestPath, 'utf8')) : [];

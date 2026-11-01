@@ -152,4 +152,8 @@ Doporučený postup:
 - Dev server s base path: app je na `http://localhost:5173/faakt.io/`, ne na `/`
 
 ## Shared skills for AI agents
+
+- **Brána originality nových postů:** dodrž povinnou kontrolu v `skills/faakt-create-posts/SKILL.md` a přečti `skills/faakt-create-posts/references/duplicity.md`. Kontrola musí doložit pokrytí celé aktuální databáze (hash, počet, všechna ID) a pracovní verdikt ke každému návrhu s nejbližšími existujícími posty a konkrétním novým poznatkem. Opakovaný mechanismus v jiném příběhu je duplicita. Ověř i hotové texty mezi sebou a změny databáze před zápisem; bez dokončené kontroly dávku nepředávej ani nezapisuj. Pracovní přehled nepatří do datového schématu postů.
 - For generating post illustrations from existing metadata, use `skills/faakt-illustrations/SKILL.md`. The workflow and helper are part of this repository and work with any AI agent, without a Codex dependency.
+
+- For creating new posts, use [skills/faakt-create-posts/SKILL.md](skills/faakt-create-posts/SKILL.md). Read the full current posts database and reject any central idea already covered; title-only checks are insufficient. This provider-independent skill specifies current content structure, categories and illustration metadata together with the editorial handoff.
