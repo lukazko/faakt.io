@@ -24,6 +24,8 @@
 					<h2>{post.title}</h2>
 					{#if post.review?.status === 'rejected-simplicity'}
 						<p>Ke zjednodušení: příliš jemné detaily při 160×90 px. V produkčních kartách se nezobrazuje.</p>
+					{:else if post.review?.status === 'rejected-semantics'}
+						<p>K opravě: symbolika neodpovídá historickému kontextu příspěvku. V produkčních kartách se nezobrazuje.</p>
 					{/if}
 				</div>
 			</article>

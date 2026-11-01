@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`100`, `102`, `104`–`108`, `110`, `111`, `126`, `558` (110 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`134` a `558` (135 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -17,7 +17,7 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 110 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 135 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
 
 ## Generování
 
@@ -108,3 +108,11 @@ Ilustraci tvo?? samostatn? idealizovan? portr?t Epikt?ta s klidn?m v?razem a ruk
 Vestav?n? image_gen vytvo?il jeden nov? pr?hledn? v?stup. Fin?ln? RGBA WebP m? 640?360 px, 20 828 B a pr?hledn? odsazen? na v?ech hran?ch. P?i 160?90 a 320?180 px na tmav?m povrchu je portr?t ?iteln? bez obd?ln?kov?ho pozad?. Vlasy, z?hyby a t?nov?n? p?ekra?uj? p??sn? c?l n?kolika ploch. P?esn? prompt, hashe a kontrola jsou v manifestu. N?stroj nenab?zel nastaven? rozm?r?, kvality ani ceny generov?n?. ID 090 je povoleno v PostIllustration.svelte.
 
 Deterministick? repair prob?hl pouze v n?hledu; obecn? p?episy nebyly aplikov?ny. Ov??en?: `npm test`, `npm run build` a `git diff --check`.
+
+## Dalších 25 chybějících ilustrací
+
+V pořadí databáze byly doplněny `101`, `103`, `109`, `112`–`125` a `127`–`134`; existující assety byly přeskočeny. Každý obrázek vznikl jedním samostatným voláním vestavěného image_gen s výslovnou průhledností. Nástroj nenabízí nastavení rozměru, kvality ani ceny generování. Finální WebP mají 640 × 360 px, quality 80, skutečný alfa kanál, průhledné odsazení a velikost pod 100 kB. Přesné prompty včetně upřesnění kompozice, jejich SHA-256, hashe původních metadat a výsledných souborů jsou v manifestu. Texty a metadata příspěvků zůstávají zachované. Deterministický repair proběhl v náhledu, bez aplikace obecných přepisů.
+
+Kontrola proběhla při 160 × 90 a 320 × 180 px. Ilustrace `118` je odmítnutá kvůli kruhu hvězd na bedně, který připomíná pozdější evropskou symboliku namísto americké poválečné pomoci; zůstává v galerii se stavem `rejected-semantics`, do produkčních karet není zapnutá. Automatické opakování generování neproběhlo. Ostatních 24 nových ilustrací je zapnuto v kartách.
+
+Doprovodné symboly zůstávají, pokud pomáhají obsahu a neznepřehledňují kompozici: například přesýpací hodiny u `103`, medaile u `113` nebo zeměkoule na monitoru u `117`. Nejde o doslovné historické rekonstrukce těchto symbolů. Portréty a vědecké přístroje mohou téma doprovázet bez tvrzení, že samy vysvětlují celý argument; konkrétní omezení uvádí `review.meaning`. Ověření: `npm test`, `npm run build` a kontrola všech 25 rozměrů, alfa kanálů, limitu velikosti, hashů i registrace přijatých ID.
