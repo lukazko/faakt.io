@@ -4072,21 +4072,20 @@
       }
     ],
     "illustration": {
-      "concept": "A cathode-ray beam bends between charged plates in a vacuum tube, revealing negatively charged components smaller than the supposedly indivisible atom.",
-      "scene_type": "diagram",
-      "primary_subject": "thomson_cathode_ray_tube",
-      "secondary_subjects": [
-        "deflected_electron_beam",
-        "charged_plates"
-      ],
+      "concept": "One isolated electron is the entire main motif: a simple flat terracotta particle bearing a large cream minus sign, with the single clear Czech caption ELEKTRON underneath. The minus sign conveys negative charge. No atom, cell, nucleus, cloud, orbit, electrode, apparatus, cracking or explosion. A conceptual particle symbol, not a claim about the electron's literal shape or size.",
+      "scene_type": "object",
+      "primary_subject": "negatively_charged_electron",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "thomson_cathode_ray_tube",
-        "deflected_electron_beam",
-        "charged_plates"
+        "electron",
+        "negative_charge",
+        "large_minus_sign",
+        "readable_electron_label"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "one_dominant_particle",
+        "large_minus_sign_inside_particle",
+        "one_short_label_below"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
@@ -4216,21 +4215,22 @@
       }
     ],
     "illustration": {
-      "concept": "Aid crates and financing restart damaged European factories and infrastructure after the Second World War, linking assistance to reconstruction.",
-      "scene_type": "process",
+      "concept": "Workers unload an American aid crate marked USA beside a damaged European factory being rebuilt after World War II. Keep one concrete reconstruction scene. The USA label identifies the aid's origin; do not use a circle of stars or European Union emblem.",
+      "scene_type": "interaction",
       "primary_subject": "marshall_plan_reconstruction",
       "secondary_subjects": [
-        "european_factories",
-        "aid_crates"
+        "american_aid_crate",
+        "rebuilding_european_factory"
       ],
       "visual_keywords": [
-        "marshall_plan_reconstruction",
-        "european_factories",
-        "aid_crates"
+        "american_postwar_aid",
+        "usa_crate_label",
+        "unloading_workers",
+        "factory_reconstruction"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "one_coherent_unloading_scene",
+        "aid_crate_next_to_rebuilding_factory"
       ],
       "mood": "neutral",
       "palette": "violet_coral"
@@ -4396,24 +4396,28 @@
       }
     ],
     "illustration": {
-      "concept": "A revolutionary crowd confronts the Bastille fortress in 1789, making the attack on royal authority the central historical action.",
-      "scene_type": "environment",
+      "concept": "A compact group of Parisian revolutionaries in eighteenth-century civilian dress advances with raised pikes toward the massive closely spaced round towers and high walls of the Bastille. The collective uprising and distinctive fortress are the main motif. A simple blue-white-red ribbon beneath the scene identifies France as retrospective editorial context, not a flag carried on 14 July 1789. No guillotine, modern Paris monuments or later revolutionary battle.",
+      "scene_type": "interaction",
       "primary_subject": "storming_of_bastille",
       "secondary_subjects": [
-        "revolutionary_crowd",
-        "fortress_gate"
+        "bastille_round_tower_fortress",
+        "parisian_revolutionary_crowd",
+        "french_editorial_ribbon"
       ],
       "visual_keywords": [
-        "storming_of_bastille",
-        "revolutionary_crowd",
-        "fortress_gate"
+        "massive_round_towers",
+        "raised_pikes",
+        "eighteenth_century_civilians",
+        "collective_uprising",
+        "french_blue_white_red_context"
       ],
       "composition_hints": [
-        "wide_environmental_view",
-        "distinctive_foreground_object"
+        "compact_revolutionary_group_in_foreground",
+        "recognizable_fortress_mass_behind",
+        "editorial_tricolour_ribbon_below_scene"
       ],
       "mood": "dramatic",
-      "palette": "green_copper"
+      "palette": "blue_gold"
     }
   },
   {
@@ -4468,24 +4472,26 @@
       }
     ],
     "illustration": {
-      "concept": "Light splits into perpendicular interferometer arms and recombines without the expected directional shift, depicting the null result of the ether-wind experiment.",
+      "concept": "A clear conceptual comparison shows light making equal-length round trips in two perpendicular directions: a horizontal path on the left and a vertical path on the right. Two identical simple time dials with matching hands and one equality sign show that no directional difference was detected. One short large Czech caption reads STEJNÝ VÝSLEDEK. The dials are visual aids, not stopwatches used by Michelson and Morley; do not show a generic unexplained interferometer, modern laser equipment or a literal ether wind.",
       "scene_type": "diagram",
-      "primary_subject": "michelson_morley_interferometer",
+      "primary_subject": "equal_light_round_trips_in_two_directions",
       "secondary_subjects": [
         "perpendicular_light_paths",
-        "recombined_beams"
+        "matching_time_indicators"
       ],
       "visual_keywords": [
-        "michelson_morley_interferometer",
-        "perpendicular_light_paths",
-        "recombined_beams"
+        "horizontal_and_vertical_light_round_trips",
+        "same_distance",
+        "equal_time_indicators",
+        "null_directional_difference"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "simple_two_direction_comparison",
+        "identical_time_dials_and_equality_sign",
+        "large_readable_result_caption"
       ],
       "mood": "neutral",
-      "palette": "terracotta_cream"
+      "palette": "blue_gold"
     }
   },
   {

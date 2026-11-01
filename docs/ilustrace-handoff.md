@@ -25,7 +25,7 @@ Doprovodné symboly a vedlejší objekty jsou vítané, pokud mají smysluplný 
 
 Výchozím cílem je jednoduchá ilustrace s jedním výrazným hlavním motivem, který vystihuje obsah a zaujme na první pohled. Obrázek `040` (pracovníci, státní výdaje, stavba) je krajní případ přijatelné složitosti, nikoli vzor pro další ilustrace; běžné výstupy mají být výrazně jednodušší. Vedlejší prvky podporují hlavní motiv a nemají vyžadovat postupné čtení několika scén. Soubor `040.webp` zůstává beze změny.
 
-Sdílený postup pro AI agenty je v `skills/faakt-illustrations/SKILL.md`. Kompaktní prompt a cache kontrolu připravuje `skills/faakt-illustrations/scripts/prepare.mjs`; společný styl je v `prompt.mjs`. Jeden příspěvek znamená nejvýše jedno generování, pokud už asset existuje.
+Sdílený postup pro AI agenty je v `skills/faakt-illustrations/SKILL.md`. Kompaktní prompt a cache kontrolu připravuje `skills/faakt-illustrations/scripts/prepare.mjs`; společný styl je v `prompt.mjs`. Existující asset se bez žádosti o opravu neregeneruje. U výslovné opravy se vytvoří jedna cílená náhrada či úprava; pokud stále významově selhává, je přípustná jedna další zjednodušující úprava. Nevytvářejí se kosmetické varianty ani neomezené smyčky.
 
 Ilustrace vycházejí z `post.illustration`: `concept`, `primary_subject`, `secondary_subjects`, `visual_keywords`, `composition_hints`, `scene_type`, `mood` a `palette`, vždy po přečtení titulku a celého obsahu daného postu. Vysvětlující scéna musí mít čitelný vztah nesoucí hlavní myšlenku. U abstraktního učení je přípustný i doprovodný portrét skutečného učitele, pokud by diagram vyžadoval vymyšlené rekvizity; portrét se nevydává za úplné vysvětlení argumentu. Každý vedlejší předmět se ověřuje proti textu, nejen proti metadatům. Vizuální cíl je 5–8 velkých ploch, nejvýše tři barvy popředí, průhledné pozadí a čitelnost při 160×90 px.
 
@@ -51,7 +51,7 @@ Všech 20 výstupů pro příspěvky 026–045 má 640×360 px, skutečný alfa 
 
 Kontrola pozadí prvních 25 ilustrací (`001`–`025`): všech 25 má skutečný alfa kanál a průhledné rohy. U `005`, `007`, `013`, `020`, `021`, `022` a `023` bylo neprůhledné pozadí odstraněno vestavěným image_gen jako cílená úprava původního obrázku. Původní scény, předměty a nápisy zůstávají zachované; nejde o nové obsahové ilustrace. Výstupy mají průhledné odsazení po všech hranách, RGBA WebP 640×360, quality 80, velikost 13–39 kB. Kontrola při 160×90 a 320×180 px na gradientu karty potvrdila odstranění obdélníkového pozadí. Zbývajících 18 souborů se nemění. Přesné editační prompty, původní a výsledné SHA-256 i metoda jsou v `backgroundEdit` příslušných záznamů manifestu. Nástroj nenabízel řízení rozměru, kvality ani ceny generování. Tato kontrola pozadí není novým sémantickým auditem článků.
 
-- `npm test` kontroluje existenci všech 100 WebP a limit 100 kB.
+- `npm test` kontroluje existenci prvních 100 WebP a limit 100 kB; u všech přijatých záznamů manifestu navíc ověřuje skutečné zapnutí ID v kartách, shodu cesty a existenci souboru pod 100 kB.
 - `npm run build` ověřuje produkční SvelteKit sestavení.
 - Vizuální kontrola: hlavní feed a `/faakt.io/dev/illustrations-ai/` na mobilní šířce.
 
@@ -111,8 +111,23 @@ Deterministick? repair prob?hl pouze v n?hledu; obecn? p?episy nebyly aplikov?ny
 
 ## Dalších 25 chybějících ilustrací
 
-V pořadí databáze byly doplněny `101`, `103`, `109`, `112`–`125` a `127`–`134`; existující assety byly přeskočeny. Každý obrázek vznikl jedním samostatným voláním vestavěného image_gen s výslovnou průhledností. Nástroj nenabízí nastavení rozměru, kvality ani ceny generování. Finální WebP mají 640 × 360 px, quality 80, skutečný alfa kanál, průhledné odsazení a velikost pod 100 kB. Přesné prompty včetně upřesnění kompozice, jejich SHA-256, hashe původních metadat a výsledných souborů jsou v manifestu. Texty a metadata příspěvků zůstávají zachované. Deterministický repair proběhl v náhledu, bez aplikace obecných přepisů.
+V pořadí databáze jsou doplněny `101`, `103`, `109`, `112`–`125` a `127`–`134`; existující assety byly přeskočeny. Generování používá vestavěný image_gen s výslovnou průhledností, u cílených oprav také referenční úpravy. Nástroj nenabízí nastavení rozměru, kvality ani ceny generování. Finální WebP mají 640 × 360 px, quality 80, skutečný alfa kanál, průhledné odsazení a velikost pod 100 kB. Přesné prompty včetně upřesnění kompozice, jejich SHA-256, hashe metadat a výsledných souborů jsou v manifestu. Texty příspěvků zůstávají zachované; metadata 114, 118, 123 a 125 odpovídají níže uvedeným motivům. Deterministický repair proběhl v náhledu, bez aplikace obecných přepisů.
 
-Kontrola proběhla při 160 × 90 a 320 × 180 px. Ilustrace `118` je odmítnutá kvůli kruhu hvězd na bedně, který připomíná pozdější evropskou symboliku namísto americké poválečné pomoci; zůstává v galerii se stavem `rejected-semantics`, do produkčních karet není zapnutá. Automatické opakování generování neproběhlo. Ostatních 24 nových ilustrací je zapnuto v kartách.
+Kontrola proběhla při 160 × 90 a 320 × 180 px. Všech 25 ilustrací této dávky je zapnuto v kartách. `118` má na bedně čitelné USA a stav `accepted`; stará poznámka o odmítnutí už neplatí.
 
-Doprovodné symboly zůstávají, pokud pomáhají obsahu a neznepřehledňují kompozici: například přesýpací hodiny u `103`, medaile u `113` nebo zeměkoule na monitoru u `117`. Nejde o doslovné historické rekonstrukce těchto symbolů. Portréty a vědecké přístroje mohou téma doprovázet bez tvrzení, že samy vysvětlují celý argument; konkrétní omezení uvádí `review.meaning`. Ověření: `npm test`, `npm run build` a kontrola všech 25 rozměrů, alfa kanálů, limitu velikosti, hashů i registrace přijatých ID.
+Doprovodné symboly zůstávají, pokud pomáhají obsahu a neznepřehledňují kompozici: například přesýpací hodiny u `103`, medaile u `113` nebo zeměkoule na monitoru u `117`. Nejde o doslovné historické rekonstrukce těchto symbolů. Portrét může doprovázet abstraktní učení, ale nepochopitelný přístroj nelze přijmout jen s poznámkou, že doprovází objev. Vědecká ilustrace musí ukazovat objevený objekt nebo výsledek. Konkrétní omezení uvádí `review.meaning`. Ověření: `npm test`, `npm run build` a kontrola rozměrů, alfa kanálů, limitu velikosti, hashů i registrace přijatých ID.
+
+## Motivy 114, 118, 123 a 125
+
+| ID | Čitelný hlavní motiv | Barvy | Velikost |
+|---|---|---|---|
+| 114 | Samostatný elektron se záporným znaménkem a popiskem ELEKTRON; bez nejasného přístroje nebo atomu připomínajícího buňku. Jde o symbol částice, nikoli její doslovný tvar. | terakota, krémová | 14 010 B |
+| 118 | Vykládání americké pomoci s velkým USA na bedně u obnovované továrny; původní scéna zachována referenční úpravou. | fialová, korálová, krémová | 33 016 B |
+| 123 | Povstalci se vztyčenými píkami před masivem kulatých věží Bastily, francouzský kontext vyznačený trikolorní stuhou pod scénou. | modrá, krémová, červená | 36 568 B |
+| 125 | Dva kolmé směry světla, shodné časové ukazatele, rovnost a popisek STEJNÝ VÝSLEDEK. | modrá, zlatá, krémová | 27 178 B |
+
+U `123` je trikolorní stuha redakční symbol Francie, nikoli tvrzení o vlajce nesené při útoku 14. července 1789. Dobový kontext pařížských červeno-modrých kokard a povstání ověřuje [Élysée](https://www.elysee.fr/en/french-presidency/bastille-day-14-july). Architektura je zjednodušená, ne měřená rekonstrukce.
+
+U `125` jde o názorné porovnání nulového rozdílu mezi směry, nikoli rekonstrukci interferometru ani tvrzení, že vědci použili zobrazené ciferníky. Délky schémat nejsou kalibrovaným měřítkem. Směry měření a nenalezený rozdíl ověřuje [American Institute of Physics](https://history.aip.org/exhibits/einstein/ae20.htm). Ilustrace netvrdí, že nevznikala interference. Krátké čitelné popisky a znaménka jsou v obou skillech i promptu povoleny, pokud pomáhají pochopení výsledku.
+
+Všechny čtyři RGBA WebP mají 640 × 360 px, průhledné odsazení i rohy a byly prohlédnuty při 160 × 90 a 320 × 180 px na skutečném gradientu karty. Manifest ukládá aktuální metadata, přesné prompty, SHA-256 a důvod náhrady v `correction`, včetně zamítnuté meziverze 114. Přijetí se posuzuje podle skutečně viditelného poznatku či rozpoznávacích znaků události; neúspěch se nesmí přejmenovat na tematický doprovod. Texty, zdroje, kategorie a ostatní záznamy databáze se nemění.
