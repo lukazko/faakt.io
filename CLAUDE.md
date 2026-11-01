@@ -124,6 +124,8 @@ Generování: `ANTHROPIC_API_KEY=sk-ant-... npm run generate --count=30`
 
 ## Illustration Metadata Validation and Repair
 
+Přenositelný skill pro sémantickou kontrolu všech nebo vybraných příspěvků je v [`skills/faakt-metadata-review/SKILL.md`](skills/faakt-metadata-review/SKILL.md). Je určen všem AI agentům, obsahuje dávkovou kontrolu celých textů, hashové checkpointy a bezpečné aplikování oprav pouze v poli `illustration`. Pravidla a nástroje nejsou závislé na Codexu ani jiném poskytovateli.
+
 Použijte `scripts/repair-illustrations.py`:
 - při přidání nebo regenerování příspěvků;
 - při hromadném vytvoření či úpravě ilustračních metadat;
@@ -141,10 +143,13 @@ Doporučený postup:
 1. Prohlédněte dotčené příspěvky a jejich ilustrační metadata.
 2. Nejprve spusťte deterministický repair; výchozí režim je pouze náhled: `npm run repair-illustrations`.
 3. Pro podrobnosti změn určete report cestou `--report`, například `npm run repair-illustrations -- --report reports/illustration-repair.json`. Výstupní dataset se zapíše pouze při výslovném zadání `--output`; zdroj lze záměrně upravit příkazem `npm run repair-illustrations -- --output static/data/posts.json`.
-4. Prohlédněte změněná pole a nevyřešené případy. Ověřte kompatibilitu výsledných ilustrací auditem skutečného SVG rendereru: `node scripts/audit-illustrations.mjs`; poté spusťte `npm test` a vizuálně zkontrolujte reprezentativní vzorek vykreslení.
+4. Prohlédněte změněná pole a nevyřešené případy. Poté spusťte `npm test` a vizuálně zkontrolujte reprezentativní vzorek statických ilustrací.
 5. AI použijte až na případy, které deterministická pravidla spolehlivě nerozhodnou. Skript je levný nástroj údržby, nikoli náhrada výběru ilustrace s porozuměním obsahu.
 
 ## Známé problémy
 - GitHub Pages ignoruje `_app/` → řeší `.nojekyll` v `static/`
 - Base path `/faakt.io` → fetch URL musí být `${base}/data/posts.json` (s lomítkem)
 - Dev server s base path: app je na `http://localhost:5173/faakt.io/`, ne na `/`
+
+## Shared skills for AI agents
+- For generating post illustrations from existing metadata, use `skills/faakt-illustrations/SKILL.md`. The workflow and helper are part of this repository and work with any AI agent, without a Codex dependency.

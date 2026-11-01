@@ -1,0 +1,1554 @@
+[
+  {
+    "id": "001",
+    "title": "Proč šetření všech najednou může ekonomiku zničit",
+    "content": "<p>Zní to jako zdravý rozum: šetři si na horší časy. Co se ale stane, když si najednou začnou šetřit úplně všichni?</p><p>Britský ekonom John Maynard Keynes tomu říkal <strong>paradox spoření</strong>. Pokud domácnosti kvůli obavám z krize omezí výdaje, firmy prodají méně zboží. Sníží výrobu, propustí lidi a ti mají méně peněz na útratu i na spoření.</p><p>Výsledek je paradoxní: snaha jednotlivce zabezpečit se může v souhrnu snížit celkové úspory celé společnosti.</p><p>Keynes tím zdůvodňoval, proč má stát v recesi utrácet, i když domácnosti šetří — jinak se ekonomika propadá do spirály.</p><p>Co je racionální pro jednotlivce, může být pro celek sebedestruktivní.</p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "Households put coins aside together; shrinking purchases close shops and reduce the income available to save, forming a downward feedback loop.",
+      "scene_type": "process",
+      "primary_subject": "paradox_of_thrift_cycle",
+      "secondary_subjects": [
+        "household_savings",
+        "closed_market_stalls"
+      ],
+      "visual_keywords": [
+        "paradox_of_thrift_cycle",
+        "household_savings",
+        "closed_market_stalls"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/001.webp",
+    "promptHash": "aaab5221af67e9d353b67876b38f57aead2c9fefbd20bbb89a86f4c950448235",
+    "cached": true
+  },
+  {
+    "id": "002",
+    "title": "Kolik lidí bylo ochotno ublížit cizinci jen na příkaz?",
+    "content": "<p>Kdyby vám autorita nařídila ubližovat neznámému člověku, odmítli byste? Většina lidí je přesvědčena, že ano.</p><p>Psycholog Stanley Milgram to v roce 1961 na Yaleově univerzitě skutečně otestoval. Účastníci měli za trest za špatné odpovědi pouštět neviditelnému „žákovi“ elektrické šoky, které postupně sílily až k údajně smrtelné hranici.</p><p>Šokující bylo, že přibližně 65 procent účastníků došlo až na konec stupnice, jen proto, že jim to nařídil muž v bílém plášti.</p><p>Milgram experiment prováděl krátce po soudních procesech s nacistickými zločinci a chtěl pochopit, jak dokázali obyčejní lidé páchat hrůzy jen na příkaz.</p><p>Poslušnost autoritě dokáže potlačit i základní morální zábrany.</p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "A hesitant participant reaches for the highest shock switch while an experimenter in a white coat urges obedience; the supposed learner remains behind a partition.",
+      "scene_type": "interaction",
+      "primary_subject": "milgram_experiment_panel",
+      "secondary_subjects": [
+        "experimenter_in_white_coat",
+        "hesitant_participant"
+      ],
+      "visual_keywords": [
+        "milgram_experiment_panel",
+        "experimenter_in_white_coat",
+        "hesitant_participant"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "dramatic",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/002.webp",
+    "promptHash": "efb21545f174aeea48b44e1c282f3933fd65af11f17425be9dab848b0758efa6",
+    "cached": true
+  },
+  {
+    "id": "003",
+    "title": "Hvězda, kterou vidíte dnes, možná už dávno nesvítí",
+    "content": "<p>Když se v noci podíváte na oblohu, díváte se do minulosti. Ne v přeneseném smyslu — doslova.</p><p>Světlo se šíří rychlostí zhruba 300 000 kilometrů za sekundu, ale vesmír je tak obrovský, že mu cesta k nám trvá roky, staletí, i miliony let.</p><p>Hvězda Betelgeuze je od Země vzdálená přibližně 640 světelných let. To znamená, že světlo, které z ní dnes vidíme, vyslala v době, kdy v Evropě panovala renesance.</p><p>Pokud by Betelgeuze dnes explodovala jako supernova, dozvěděli bychom se to až za staletí.</p><p>Díváme se na obraz vesmíru, který už možná neexistuje.</p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "Light travels from distant Betelgeuse to an observer on Earth, carrying an old image of the star rather than its present condition.",
+      "scene_type": "process",
+      "primary_subject": "delayed_starlight",
+      "secondary_subjects": [
+        "betelgeuse_star",
+        "earth_observer"
+      ],
+      "visual_keywords": [
+        "delayed_starlight",
+        "betelgeuse_star",
+        "earth_observer"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/003.webp",
+    "promptHash": "5d23b4b28ddcdac5b7735fdc7ac22af40777d10aee8a926d56dd05bbef39f3a9",
+    "cached": true
+  },
+  {
+    "id": "004",
+    "title": "Malíř, který za života prodal jen jeden jediný obraz",
+    "content": "<p>Dnes jsou jeho plátna vydražena za desítky milionů dolarů. Za života ale Vincent van Gogh žil v chudobě a téměř bez uznání.</p><p>Podle záznamů Van Gogh Museum v Amsterdamu se mu za jeho krátkou kariéru podařilo prodat pouze jeden obraz — <em>Červenou vinici v Arles</em>, kterou v roce 1890 koupila belgická malířka Anna Boch.</p><p>Van Gogh vytvořil za posledních deset let života přes 2 000 děl, včetně slavných Slunečnic a Hvězdné noci, ale komerční úspěch mu unikal.</p><p>Zemřel v roce 1890 přesvědčen, že jeho práce nemá hodnotu. Sláva přišla až po jeho smrti, hlavně díky snaze jeho švagrové Johanny.</p><p>Umělecký úspěch a uznání současníků jsou často dvě zcela odlišné věci.</p>",
+    "category": "umeni",
+    "illustration": {
+      "concept": "Van Gogh stands among many unsold canvases, with The Red Vineyard singled out as a sale; artistic abundance contrasts with an almost empty purse.",
+      "scene_type": "interaction",
+      "primary_subject": "vincent_van_gogh_unsold_paintings",
+      "secondary_subjects": [
+        "red_vineyard_painting",
+        "empty_coin_purse"
+      ],
+      "visual_keywords": [
+        "vincent_van_gogh_unsold_paintings",
+        "red_vineyard_painting",
+        "empty_coin_purse"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_warm"
+    },
+    "image": "/illustrations-ai/004.webp",
+    "promptHash": "f9811ef696e1fc47f9e800000072841ce7d4c0854d357a0790d9f8cc956ef24a",
+    "cached": true
+  },
+  {
+    "id": "005",
+    "title": "Kočka, která je zároveň mrtvá i živá",
+    "content": "<p>Představte si kočku v uzavřené krabici, o které nevíte, jestli je živá, nebo mrtvá. Podle kvantové mechaniky je paradoxně obojí najednou — dokud se nepodíváte.</p><p>Fyzik Erwin Schrödinger přišel s tímto myšlenkovým experimentem v roce 1935, aby ukázal, jak absurdně vyznívá přenesení kvantové superpozice do makroskopického světa.</p><p>V krabici je radioaktivní atom, který má 50% šanci se rozpadnout a spustit mechanismus s jedovatým plynem. Podle kvantové teorie je atom, dokud ho nezměříme, ve stavu rozpadlý i nerozpadlý zároveň — a stejně na tom je i kočka.</p><p>Schrödinger tím experimentem nechtěl dokázat, že kočky mohou být zároveň živé a mrtvé, ale naopak upozornit na mezery v tehdejším výkladu kvantové mechaniky.</p><p>Pozorování samo o sobě dokáže rozhodnout, jaká realita nakonec nastane.</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "A cutaway thought-experiment box contains overlapping living and dead cat silhouettes linked to an undecayed and decayed atom; depict alternatives, not two actual cats.",
+      "scene_type": "diagram",
+      "primary_subject": "schrodingers_cat_box",
+      "secondary_subjects": [
+        "superposed_cat_states",
+        "radioactive_trigger"
+      ],
+      "visual_keywords": [
+        "schrodingers_cat_box",
+        "superposed_cat_states",
+        "radioactive_trigger"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/005.webp",
+    "promptHash": "ef7d55feda82d5804172974827cf385203828eee147f31a2bd3b9c1d1f156ef7",
+    "cached": true
+  },
+  {
+    "id": "006",
+    "title": "Zlaté pravidlo, které Konfucius formuloval dřív než Bible",
+    "content": "<p>Co bys nechtěl, aby se dělo tobě, nedělej druhým. Tuto větu vyslovil čínský myslitel Konfucius kolem roku 500 př. n. l., a přesto zní jako návod pro dnešní sociální sítě.</p><p>Konfucius nehledal univerzální zákon shora, ale praktické pravidlo odvozené z lidské zkušenosti. Jeho učení, zapsané žáky v <em>Hovorech</em> (Lun jü), stojí na myšlence, že společenský řád začíná u jednotlivce, u jeho rodiny a u vzájemné úcty mezi lidmi.</p><p>Na rozdíl od řeckých filozofů, kteří hledali podstatu skrze logiku, Konfucius hledal harmonii skrze rituál a vztahy. Proto se jeho učení stalo základem čínské státní správy na dva tisíce let.</p><p>Pravidlo reciprocity dnes najdeme v téměř každém etickém systému světa.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Confucius observes two people treating one another with matching care, making reciprocity and mutual respect the focus of the golden rule.",
+      "scene_type": "interaction",
+      "primary_subject": "confucian_reciprocity",
+      "secondary_subjects": [
+        "confucius_figure",
+        "two_people_mirroring_respect"
+      ],
+      "visual_keywords": [
+        "confucian_reciprocity",
+        "confucius_figure",
+        "two_people_mirroring_respect"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/006.webp",
+    "promptHash": "4a32b3bd2df196ab5b7ac77653848d6c0d92c8f53e9cbf2cc341b0456b085967",
+    "cached": true
+  },
+  {
+    "id": "007",
+    "title": "Ranní pád z okna, který rozpoutal třicetiletou válku",
+    "content": "<p>Ráno 23. května 1618 vtrhla skupina českých šlechticů na Pražský hrad a dva místodržící i písaře vyhodila z okna kanceláře do hradního příkopu.</p><p>Šlo o protest proti omezování náboženských svobod protestantů ze strany Habsburků. Přestože všichni tři vyhození pád přežili, čin se stal jiskrou, která zapálila konflikt v celé Evropě.</p><p>Následující rok byl místo Habsburka zvolen českým králem Fridrich Falcký, což vedlo k roku 1620 k bitvě na Bílé hoře a k porážce stavovského povstání.</p><p>Z lokálního spору o okna se během několika let stala třicetiletá válka, jeden z nejničivějších konfliktů v dějinách Evropy.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "Officials in early seventeenth-century dress fall from a Prague Castle office window into the moat, the local confrontation that ignited a wider war.",
+      "scene_type": "interaction",
+      "primary_subject": "prague_defenestration_window",
+      "secondary_subjects": [
+        "falling_officials",
+        "prague_castle"
+      ],
+      "visual_keywords": [
+        "prague_defenestration_window",
+        "falling_officials",
+        "prague_castle"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "dramatic",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/007.webp",
+    "promptHash": "06e3aa1394c695abd78e69b5e1ab6da3dd0d37ba7373d9cea83ba493271f55d5",
+    "cached": true
+  },
+  {
+    "id": "008",
+    "title": "Nevidiitelná ruka, která řídí trh bez příkazů",
+    "content": "<p>Proč pekař ráno peče chleba? Nedělá to z lásky k sousedům, ale ze zájmu o vlastní zisk. Adam Smith v roce 1776 v knize <em>Bohatství národů</em> popsal paradox, který dodnes řídí ekonomiku.</p><p>Když každý jednotlivec sleduje svůj vlastní prospěch, trh jako celek nevědomky směřuje k prospěchu společnosti. Smith tomu říkal nevidiitelná ruka trhu.</p><p>Nikdo neplánuje, kolik chleba se má upéct ani kolik má stát mléko. Ceny a konkurence to zařídí samy, bez centrálního plánovače.</p><p>Tento princip stál u zrodu moderní tržní ekonomiky a dodnes je základním argumentem pro omezenou roli státu v obchodu.</p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "A baker seeking income exchanges bread with customers; separate self-interested choices coordinate supply and demand without a visible central director.",
+      "scene_type": "interaction",
+      "primary_subject": "market_bakery_exchange",
+      "secondary_subjects": [
+        "baker",
+        "loaf_of_bread"
+      ],
+      "visual_keywords": [
+        "market_bakery_exchange",
+        "baker",
+        "loaf_of_bread"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/008.webp",
+    "promptHash": "a3f8fd67ba2e7ca18a2cae6802ceb8504018eeb1de1d617f62e695be9450b06a",
+    "cached": true
+  },
+  {
+    "id": "009",
+    "title": "Proč lidé po nudné práci tvrdili, že byla zábavná",
+    "content": "<p>V roce 1959 psychologové Leon Festinger a James Carlsmith nechali studenty hodinu vykonávat nesmírně nudnou činnost, otáčet kolíčky na desce.</p><p>Poté je poprosili, aby dalšímu čekajícímu člověku řekli, že úkol byl zajímavý. Jedna skupina za lež dostala jeden dolar, druhá dvacet dolarů.</p><p>Překvapivě právě ti, kdo dostali jen dolar, později skutečně hodnotili úkol jako zábavnější. Vysvětlení je jednoduché: nedokázali si racionálně omluvit lež za tak malou odměnu, a tak si raději upravili vlastní přesvědčení.</p><p>Festinger tomuto vnitřnímu nesouladu mezi jednáním a názorem říkal kognitivní disonance. Mozek si zkrátka nesnese rozpor, i za cenu sebeobklamání.</p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "Two participants leave the same tedious peg-turning task with unequal payments; the poorly paid participant presents it enthusiastically to reconcile the lie with self-image.",
+      "scene_type": "interaction",
+      "primary_subject": "cognitive_dissonance_peg_task",
+      "secondary_subjects": [
+        "small_payment",
+        "large_payment"
+      ],
+      "visual_keywords": [
+        "cognitive_dissonance_peg_task",
+        "small_payment",
+        "large_payment"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/009.webp",
+    "promptHash": "87415342a8b0f4eb1ad56b36f3cc681c8c8c029635bac309e5a6cca0ee48a098",
+    "cached": true
+  },
+  {
+    "id": "010",
+    "title": "Tabulka prvků, kterou chemik uviděl ve snu",
+    "content": "<p>Ruský chemik Dmitrij Mendělejev v roce 1869 tvrdil, že uspořádání chemických prvků se mu zjevilo ve snu poté, co usnul nad kartami s jejich vlastnostmi.</p><p>Ať je to legenda nebo pravda, výsledek byl revoluční. Mendělejev prvky uspořádal podle atomové hmotnosti a odhalil, že se jejich vlastnosti pravidelně opakují.</p><p>Odvážně nechal v tabulce prázdná místa pro prvky, které ještě nikdo neobjevil, a dokonce předpověděl jejich vlastnosti. Galium a germanium byly objeveny během několika let přesně tam, kde je čekal.</p><p>Periodická tabulka se od té doby stala základní mapou chemie, kterou dnes visí v každé školní třídě.</p>",
+    "category": "veda",
+    "illustration": {
+      "concept": "An ordered periodic table leaves deliberate gaps, with newly discovered elements fitting the positions and properties Mendeleev predicted.",
+      "scene_type": "diagram",
+      "primary_subject": "mendeleev_periodic_table",
+      "secondary_subjects": [
+        "empty_element_slots",
+        "predicted_elements"
+      ],
+      "visual_keywords": [
+        "mendeleev_periodic_table",
+        "empty_element_slots",
+        "predicted_elements"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/010.webp",
+    "promptHash": "b8e15c6bc33ce9ccb3111fb5596bd9c0e4933bd821da96fab50990694c5a2e20",
+    "cached": true
+  },
+  {
+    "id": "011",
+    "title": "Obraz namalovaný za dvacet šest dní jako výkřik proti válce",
+    "content": "<p>Dne 26. dubna 1937 zbombardovalo nacistické letectvo baskické město Guernica ve Španělsku a zabilo stovky civilistů.</p><p>Pablo Picasso, žijící v té době v Paříži, se o útoku dozvěděl z novin a během několika týdnů namaloval monumentální plátno <em>Guernica</em>, více než sedm metrů dlouhé, výhradně v černé, bílé a šedé barvě.</p><p>Obraz nezobrazuje konkrétní bitvu, ale utrpení skrze zkroucená těla lidí a zvířat, křičící koně a matku s mrtvým dítětem.</p><p>Poprvé byl vystaven na Světové výstavě v Paříži téhož roku a od té doby se stal jedním z nejsilnějších uměleckých protestů proti válce v historii.</p>",
+    "category": "umeni",
+    "illustration": {
+      "concept": "A stark monochrome Guernica composition of a wounded horse and grieving people turns the bombing of civilians into an artistic protest against war.",
+      "scene_type": "object",
+      "primary_subject": "guernica_war_mural",
+      "secondary_subjects": [
+        "distorted_horse",
+        "grieving_figures"
+      ],
+      "visual_keywords": [
+        "guernica_war_mural",
+        "distorted_horse",
+        "grieving_figures"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "image": "/illustrations-ai/011.webp",
+    "promptHash": "13ca606adf00a6f9ebdbae165e4c775aa45d4c31caeac08431e9cc2bbbd80067",
+    "cached": true
+  },
+  {
+    "id": "012",
+    "title": "Proč nikdy nezměříte přesně, kde částice je a jak rychle letí",
+    "content": "<p>Německý fyzik Werner Heisenberg v roce 1927 zjistil něco, co odporuje veškeré intuici, přesnost má ve fyzice přirozenou hranici.</p><p>Podle jeho principu neurčitosti nelze u částice, například u elektronu, nikdy současně přesně znát její polohu a hybnost. Čím přesněji změříme jednu veličinu, tím méně přesně známe druhou.</p><p>Nejde o nedostatek přístrojů, ale o základní vlastnost samotné hmoty na kvantové úrovni. Sám vesmír zkrátka odmítá poskytnout úplnou informaci najednou.</p><p>Tento princip položil základ celé kvantové mechanice a dodnes stojí za technologiemi jako tranzistory nebo lasery.</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "Contrast a narrow particle-position wave packet with a broad one: sharper position corresponds to a wider momentum spread, a fundamental limit rather than faulty equipment.",
+      "scene_type": "diagram",
+      "primary_subject": "position_momentum_uncertainty",
+      "secondary_subjects": [
+        "localized_wave_packet",
+        "spread_out_wave_packet"
+      ],
+      "visual_keywords": [
+        "position_momentum_uncertainty",
+        "localized_wave_packet",
+        "spread_out_wave_packet"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/012.webp",
+    "promptHash": "949296044e71776754cbd58b7f5dcf01040f3865f1ee1b3b203e33d3ca96d198",
+    "cached": true
+  },
+  {
+    "id": "013",
+    "title": "Listina, kterou král podepsal, aby si zachránil trůn",
+    "content": "<p>15. června 1215 stál anglický král Jan Bezzemek na louce Runnymede a pod tlakem vzbouřených baronů podepsal dokument, který mu vzal část absolutní moci.</p><p>Magna Carta poprvé v historii stanovila, že ani král nestojí nad zákonem a že nikoho nelze uvěznit nebo potrestat bez řádného soudu.</p><p>Král se sice pokusil dohodu okamžitě zrušit a papež ji zprvu prohlásil za neplatnou, ale myšlenka v ní obsažená přežila. Stala se inspirací pro anglické parlamentarismus i pro pozdější americkou ústavu.</p><p>Z jednorázové dohody mezi šlechtou a panovníkem vznikl jeden z nejdůležitějších základů moderního právního státu.</p>",
+    "category": "politika",
+    "illustration": {
+      "concept": "King John and demanding barons face a sealed Magna Carta parchment, showing royal power being constrained by a negotiated legal charter.",
+      "scene_type": "interaction",
+      "primary_subject": "magna_carta_parchment",
+      "secondary_subjects": [
+        "king_john",
+        "barons"
+      ],
+      "visual_keywords": [
+        "magna_carta_parchment",
+        "king_john",
+        "barons"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/013.webp",
+    "promptHash": "86f5743bd484f93b2afea232c849f651b122ee34a873040fdbc8accf73845bf1",
+    "cached": true
+  },
+  {
+    "id": "014",
+    "title": "První fotografie něčeho, co pohltí i světlo",
+    "content": "<p>10. dubna 2019 zveřejnil mezinárodní projekt Event Horizon Telescope první skutečnou fotografii černé díry v historii lidstva.</p><p>Snímek zachytil obří černou díru v centru galaxie M87, vzdálené asi 55 milionů světelných let od Země, s hmotností odpovídající šesti a půl miliardám Sluncí.</p><p>Na fotografii je vidět oranžový prstenec rozpáleného plynu kolem temného středu, přesně toho místa, odkud už ani světlo nemůže uniknout. Ke vzniku snímku bylo potřeba propojit osm radioteleskopů rozmístěných po celé planetě.</p><p>Do té doby existovaly černé díry jen jako matematický důsledek Einsteinových rovnic. Poprvé je lidstvo skutečně uviděla.</p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "A dark black-hole shadow surrounded by a bright ring is assembled from signals of radio telescopes linked across Earth; the target is M87, not an optical camera photograph.",
+      "scene_type": "object",
+      "primary_subject": "black_hole_shadow",
+      "secondary_subjects": [
+        "bright_accretion_ring",
+        "earth_radio_telescope_network"
+      ],
+      "visual_keywords": [
+        "black_hole_shadow",
+        "bright_accretion_ring",
+        "earth_radio_telescope_network"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/014.webp",
+    "promptHash": "584bf2d2dc4e3093b0575571b776db9f6c46542ed3255f002ac65d3111ac9d92",
+    "cached": true
+  },
+  {
+    "id": "015",
+    "title": "Román, který mělo shořet a stal se klasikou",
+    "content": "<p>Franz Kafka před svou smrtí v roce 1924 požádal přítele Maxe Broda, aby všechny jeho nevydané rukopisy bez čtení spálil.</p><p>Brod jeho přání nevyslyšel a o rok později vydal nedokončený román <em>Proces</em>, příběh muže Josefa K., zatčeného a soudeného za zločin, který mu nikdo nikdy nevysvětlí.</p><p>Kafka na románu pracoval v letech 1914 a 1915, ale kapitoly nikdy neuspořádal do konečné podoby, pořadí sestavil až Brod po jeho smrti.</p><p>Dnes je <em>Proces</em> považován za jedno z klíčových děl světové literatury dvacátého století a slovo kafkovský se stalo synonymem pro absurdní a neprůhlednou byrokracii.</p>",
+    "category": "literatura",
+    "illustration": {
+      "concept": "Max Brod preserves Kafka's manuscript beside an unlit fire, showing how disobeying the request to burn it allowed The Trial to survive.",
+      "scene_type": "interaction",
+      "primary_subject": "kafka_manuscripts_saved_from_fire",
+      "secondary_subjects": [
+        "max_brod",
+        "unpublished_novel"
+      ],
+      "visual_keywords": [
+        "kafka_manuscripts_saved_from_fire",
+        "max_brod",
+        "unpublished_novel"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/015.webp",
+    "promptHash": "195c56d953301bf45c09eebe853b6b8ec4989d100e69f2fa78db7f2a63a0ebca",
+    "cached": true
+  },
+  {
+    "id": "016",
+    "title": "Pythagoras: číslo jako klíč k harmonii vesmíru",
+    "content": "<p>Proč znějí některé tóny na kytaře příjemně a jiné rušivě? Pythagoras kolem roku 570 př. n. l. objevil, že harmonické intervaly vznikají z jednoduchých poměrů čísel — oktáva je poměr 2:1, kvinta 3:2.</p><p>Z tohoto pozorování vyvodil odvážný závěr: <strong>celý vesmír je uspořádán podle matematických zákonů</strong>. Čísla podle něj nebyly jen nástroj k počítání, ale samotná podstata reality.</p><p>Jeho škola v jihoitalském Krotónu zkoumala hudbu, geometrii i astronomii jako jeden propojený systém. Dodnes fyzici hledají elegantní matematické rovnice, které by popsaly chování vesmíru — v podstatě pokračují v Pythagorově programu.</p><p>Od strunného monochordu k teorii strun vede překvapivě přímá linie.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "A monochord divided into simple length ratios produces harmonious intervals, with an understated orbital pattern suggesting the Pythagorean search for numerical cosmic order.",
+      "scene_type": "diagram",
+      "primary_subject": "pythagorean_monochord_ratios",
+      "secondary_subjects": [
+        "vibrating_string",
+        "planetary_orbit"
+      ],
+      "visual_keywords": [
+        "pythagorean_monochord_ratios",
+        "vibrating_string",
+        "planetary_orbit"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/016.webp",
+    "promptHash": "8087ea6dae205ffb4f430a41880c273083574c1b51d11c371c2dca9e7ffb7fbb",
+    "cached": true
+  },
+  {
+    "id": "017",
+    "title": "Aristotelova zlatá střední cesta ke šťastnému životu",
+    "content": "<p>Je odvaha ctnost, nebo jen chybějící strach? Aristotelés ve spise <em>Etika Níkomachova</em>, napsaném kolem roku 340 př. n. l., tvrdil, že každá ctnost leží uprostřed mezi dvěma extrémy.</p><p>Odvaha je střed mezi zbabělostí a bezhlavou zbrklostí. Štědrost stojí mezi skrblictvím a marnotratností. Přílišné množství i naprostý nedostatek jsou stejně škodlivé.</p><p>Klíčové slovo je <strong>fronésis</strong> — praktická rozumnost, schopnost správně posoudit konkrétní situaci, nikoli slepě dodržovat pravidlo.</p><p>Cílem života není potěšení ani bohatství, ale <em>eudaimonia</em> — naplněné vzkvétání, dosažené trvalým cvičením ctnosti v každodenních rozhodnutích.</p><p>Aristotelés tak nabízí návod, který moderní psychologie znovu objevuje pod pojmem emoční regulace.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Aristotle indicates a viable path between cowardice and recklessness; the fitting middle depends on the situation rather than a fixed arithmetic average.",
+      "scene_type": "diagram",
+      "primary_subject": "aristotelian_golden_mean",
+      "secondary_subjects": [
+        "aristotle_figure",
+        "balanced_path_between_extremes"
+      ],
+      "visual_keywords": [
+        "aristotelian_golden_mean",
+        "aristotle_figure",
+        "balanced_path_between_extremes"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/017.webp",
+    "promptHash": "03c42500bae4e8e0b2786326dc6cd46f914dcf144a54bc322dfe62f940104059",
+    "cached": true
+  },
+  {
+    "id": "018",
+    "title": "Lao-c' a umění nečinění, které toho nejvíc dokáže",
+    "content": "<p>Co když nejúčinnější způsob, jak něco vyřešit, je nedělat nic? Taoistický text <em>Tao te ťing</em>, tradičně přisuzovaný Lao-c' kolem roku 500 př. n. l., učí princip <strong>wu wei</strong> — jednání bez násilného vnucování vůle.</p><p>Neznamená to lenost. Řeka neprotéká krajinou silou, ale díky tomu, že se přizpůsobuje terénu — a přesto dokáže vyhloubit kaňon.</p><p>Vládce, který příliš nařizuje, vyvolává odpor. Ten, kdo řídí nenápadně a v souladu s přirozeným řádem věcí, dosáhne trvalejší stability.</p><p>V době, kdy se soustavně měříme podle výkonu a produktivity, zní Lao-c'ova myšlenka jako protijed: <em>síla je někdy v ústupu, ne v tlaku</em>.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Close overhead view of one continuous river current bending smoothly around a single large immovable rock and rejoining beyond it. The rigid rock stays put, but the yielding water finds a way forward without collision: effective action through adaptation, Laozi's wu wei. Show the bend and uninterrupted onward flow as the focal relationship, not a landscape. No town, bridge, skyline, mountains, trees, decorative scenery, violent spray or human pushing.",
+      "scene_type": "interaction",
+      "primary_subject": "flowing_river",
+      "secondary_subjects": [
+        "single_rock_obstacle"
+      ],
+      "visual_keywords": [
+        "yielding_current",
+        "rigid_rock",
+        "smooth_diverging_and_rejoining_flow"
+      ],
+      "composition_hints": [
+        "close_overhead_view",
+        "two_objects_in_interaction",
+        "uninterrupted_flow_around_obstacle"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_warm"
+    },
+    "image": "/illustrations-ai/018.webp",
+    "promptHash": "08b18e7c061d8f8bba7c16fd69c70df8771dcef5d0c514bb46e80bcccca1306a",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Close overhead view of one continuous river current bending smoothly around a single large immovable rock and rejoining beyond it. The rigid rock stays put, but the yielding water finds a way forward without collision: effective action through adaptation, Laozi's wu wei. Show the bend and uninterrupted onward flow as the focal relationship, not a landscape. No town, bridge, skyline, mountains, trees, decorative scenery, violent spray or human pushing.\",\"primary_subject\":\"flowing_river\",\"secondary_subjects\":[\"single_rock_obstacle\"],\"visual_keywords\":[\"yielding_current\",\"rigid_rock\",\"smooth_diverging_and_rejoining_flow\"],\"composition_hints\":[\"close_overhead_view\",\"two_objects_in_interaction\",\"uninterrupted_flow_around_obstacle\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"monochrome_warm\"}",
+    "metadataHash": "bc56c4ca70ebc0db6f84f6da4593f16666209ccd611d27fdfa40928cf94fb8ab",
+    "generationMethod": "built-in image_gen; transparent_background=true; size/quality/cost controls unavailable",
+    "review": {
+      "meaning": "At 160x90 and 320x180 the current visibly divides around a rigid rock and rejoins beyond it: progress by adaptation without force.",
+      "alpha": "RGBA WebP; all four corners alpha 0",
+      "paletteDeviation": "Blue water and brown rock rather than strict monochrome_warm; subjects remain distinct."
+    }
+  },
+  {
+    "id": "019",
+    "title": "Den, kdy padla tisíciletá říše za jediné ráno",
+    "content": "<p>29. května 1453 stálo před hradbami Konstantinopole vojsko sultána Mehmeda II. čítající desítky tisíc mužů. Uvnitř bránilo město jen několik tisíc obránců pod vedením posledního byzantského císaře Konstantina XI.</p><p>Osmané použili obrovská bronzová děla odlitá speciálně pro tento útok — jedno z nich vážilo přes 18 tun a dokázalo prorazit hradby, které odolávaly obléhání déle než tisíc let.</p><p>Po padesáti sedmi dnech obléhání se hradby prolomily a Konstantin XI. padl v boji. <strong>Byzantská říše, poslední přímý pokračovatel starověkého Říma, tímto dnem definitivně zanikla.</strong></p><p>Město se stalo Istanbulem a Hagia Sofia byla přeměněna na mešitu — symbolicky se uzavřela středověká epocha evropských dějin.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "An Ottoman siege cannon faces breached walls of Constantinople in 1453, showing the military event that ended the Byzantine Empire.",
+      "scene_type": "environment",
+      "primary_subject": "constantinople_siege_cannon",
+      "secondary_subjects": [
+        "breached_byzantine_walls",
+        "ottoman_army"
+      ],
+      "visual_keywords": [
+        "constantinople_siege_cannon",
+        "breached_byzantine_walls",
+        "ottoman_army"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "dramatic",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/019.webp",
+    "promptHash": "3a6c5d60fa60b9012cfcbe76a16cf0cb2efcd64991da7dc1ecb71d5bb2554080",
+    "cached": true
+  },
+  {
+    "id": "020",
+    "title": "Německo, kde bylo levnější spálit bankovku než koupit palivo",
+    "content": "<p>V listopadu 1923 stál v Německu jeden americký dolar 4,2 bilionu marek. Ceny se v tu dobu měnily <strong>doslova během hodin</strong> — dělníci dostávali výplatu dvakrát denně a hned s ní běželi nakupovat, protože odpoledne už byla bezcenná.</p><p>Lidé topili svazky bankovek, protože to bylo levnější než koupit dřevo. Děti si z peněz stavěly věže jako z kostek.</p><p>Příčinou byla kombinace válečných reparací uložených Versailleskou smlouvou a rozhodnutí vlády tisknout peníze bez krytí, aby splatila dluhy a mzdy.</p><p>Weimarská hyperinflace se dodnes používá jako učebnicový příklad toho, co se stane, když nabídka peněz zcela odtrhne od reálné ekonomiky.</p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "Bundles of Weimar banknotes serve as stove fuel while only a tiny quantity of bread can be bought, contrasting nominal money with collapsed purchasing power.",
+      "scene_type": "interaction",
+      "primary_subject": "weimar_banknote_bundle",
+      "secondary_subjects": [
+        "stove",
+        "small_loaf_of_bread"
+      ],
+      "visual_keywords": [
+        "weimar_banknote_bundle",
+        "stove",
+        "small_loaf_of_bread"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/020.webp",
+    "promptHash": "de3c0cb56f050280afccf06e1e758d5605112d75a650fbb62b26d4a0594de24c",
+    "cached": true
+  },
+  {
+    "id": "021",
+    "title": "Proč nás první číslo, které uslyšíme, ovlivní víc než logika",
+    "content": "<p>Zkuste hádat, kolik afrických zemí je v OSN. Pokud vám před tím někdo řekl číslo 10, odhadnete méně, než když vám řekl 65 — i kdyby to číslo bylo úplně nahodilé.</p><p>Přesně tento experiment provedli psychologové Amos Tversky a Daniel Kahneman v roce 1974. Objevili tak <strong>efekt kotvy (anchoring)</strong>: první informace, kterou dostaneme, nevědomky ukotví celý náš následný odhad, i když s otázkou logicky nesouvisí.</p><p>Prodejci to využívají běžně — vysoká “původní” cena vedle slevy nás nasměruje k tomu, že finální cena vypadá výhodně, i kdyby byla stále vysoká.</p><p>Naše rozhodování tak často řídí náhodné číslo, které jsme zahlédli jen o pár vteřin dřív.</p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "An oversized initial price anchors attention and makes a later offer seem cheap, even though the starting number is arbitrary.",
+      "scene_type": "diagram",
+      "primary_subject": "price_anchor_tag",
+      "secondary_subjects": [
+        "high_initial_price",
+        "lower_offer"
+      ],
+      "visual_keywords": [
+        "price_anchor_tag",
+        "high_initial_price",
+        "lower_offer"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/021.webp",
+    "promptHash": "d06eb5b61a1badfff8bc9877b0020afa1150560ac3afb96f3d4d9cce066051dd",
+    "cached": true
+  },
+  {
+    "id": "022",
+    "title": "Snímek, který ukázal tvar dědičnosti, aniž by ho jeho autorka viděla dokončený",
+    "content": "<p>V roce 1952 vytvořila chemička Rosalind Franklinová v Londýně rentgenový snímek nazvaný Fotografie 51. Pomocí techniky rentgenové difrakce zachytila charakteristický tvar písmene X, který odhaloval, že molekula DNA má <strong>šroubovicovou strukturu</strong>.</p><p>Tento snímek bez jejího vědomí využili James Watson a Francis Crick, kteří na jeho základě v roce 1953 publikovali model dvoušroubovice.</p><p>Watson, Crick a fyzik Maurice Wilkins získali za tento objev v roce 1962 Nobelovu cenu. Franklinová v té době už tři roky nežila — zemřela v roce 1958 na rakovinu vaječníků, pravděpodobně souvisejícím s dlouhodobou expozicí záření.</p><p>Nobelova cena se neuděluje posmrtně, a tak její zásadní přínos zůstal dlouho v pozadí.</p>",
+    "category": "veda",
+    "illustration": {
+      "concept": "Rosalind Franklin's cross-shaped X-ray diffraction photograph leads visually to the DNA double helix, with her contribution placed in the foreground.",
+      "scene_type": "object",
+      "primary_subject": "dna_xray_diffraction_pattern",
+      "secondary_subjects": [
+        "rosalind_franklin",
+        "dna_double_helix"
+      ],
+      "visual_keywords": [
+        "dna_xray_diffraction_pattern",
+        "rosalind_franklin",
+        "dna_double_helix"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/022.webp",
+    "promptHash": "38046c7e6d9e1d000c64c4cc96995e2ded31633988abf3b48c5e2d3f57567570",
+    "cached": true
+  },
+  {
+    "id": "023",
+    "title": "Proč vás loď při odrazu od mola tlačí zpátky",
+    "content": "<p>Odstrčíte se nohou od bortu lodi a ta se pohne na opačnou stranu, než letíte vy. Nikdo do ní nestrčil — a přesto se pohnula.</p><p>Isaac Newton to formuloval v roce 1687 ve svém díle <em>Principia</em> jako třetí pohybový zákon: <strong>každá akce vyvolává stejně velkou a opačně směřující reakci</strong>.</p><p>Raketa se nezvedá tím, že by “odstrkovala vzduch” — funguje i ve vakuu, protože tryska vystřeluje spaliny jedním směrem a raketa je vytlačena přesně opačným směrem se stejnou silou.</p><p>Stejný princip platí, když plavete, chodíte nebo když pták máchá křídly — vždy něco tlačíte jedním směrem, aby vás to posunulo druhým.</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "A person pushes against a dock and the boat moves away; paired opposite force arrows show Newton's action and reaction acting on different bodies.",
+      "scene_type": "diagram",
+      "primary_subject": "boat_pushing_off_dock",
+      "secondary_subjects": [
+        "person_pushing_dock",
+        "opposing_force_arrows"
+      ],
+      "visual_keywords": [
+        "boat_pushing_off_dock",
+        "person_pushing_dock",
+        "opposing_force_arrows"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/023.webp",
+    "promptHash": "4d63aaade2a460587234267f20e2d8b4369fa34ba7878dc100a514d70acfb63f",
+    "cached": true
+  },
+  {
+    "id": "024",
+    "title": "Planety nejezdí po kruzích, jak si tisíce let myslel celý svět",
+    "content": "<p>Po dva tisíce let si astronomové mysleli, že planety obíhají po dokonalých kruzích, protože kruh byl považován za symbol božské dokonalosti.</p><p>Johannes Kepler ale při zkoumání pozorovacích dat Tychona Braha zjistil, že se tato představa neshoduje s realitou. V roce 1609 publikoval svůj první zákon: <strong>planety obíhají Slunce po elipsách, ne po kružnicích</strong>, přičemž Slunce leží v jednom z jejich ohnisek.</p><p>Zjistil také, že se planety pohybují rychleji, když jsou blíž Slunci, a pomaleji, když jsou dál — díky čemu opsaný obsah plochy za stejný čas zůstává vždy stejný.</p><p>Tyto tři Keplerovy zákony později Newton matematicky odvodil ze svého gravitačního zákona a dodnes se používají k výpočtu drah satelitů a sond.</p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "A planet follows an ellipse with the Sun at one focus; equal swept sectors illustrate changing orbital speed and Kepler's laws.",
+      "scene_type": "diagram",
+      "primary_subject": "elliptical_planetary_orbit",
+      "secondary_subjects": [
+        "sun_at_focus",
+        "equal_area_sectors"
+      ],
+      "visual_keywords": [
+        "elliptical_planetary_orbit",
+        "sun_at_focus",
+        "equal_area_sectors"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/024.webp",
+    "promptHash": "0c769aaf51bd0ff37ef16ed7e087ad290f32d17e4e06ad52e2efd022d95d9a37",
+    "cached": true
+  },
+  {
+    "id": "025",
+    "title": "Muž, který se probudil zatčen za zločin, jenž mu nikdo nikdy nevysvětlil",
+    "content": "<p>Josef K. se jednoho rána probudí a je informován, že je zatčen. Nikdo mu neřekne, z čeho je obviněn, nikdy se to nedozví ani on, ani čtenář.</p><p>Franz Kafka napsal <em>Proces</em> mezi lety 1914 a 1915, ale za svého života ho nikdy nedokončil ani nepublikoval. Před smrtí v roce 1924 požádal svého přítele Maxe Broda, aby všechny jeho nevydané rukopisy zničil.</p><p>Brod jeho přání nesplnil a <strong>Proces vydal roku 1925</strong>, rok po Kafkově smrti.</p><p>Dnes je román považován za jedno z klíčových děl 20. století a slovo “kafkovský” se vžilo jako pojem pro absurdní, nesrozumitelnou byrokracii, ve které je jednotlivec bezmocný.</p>",
+    "category": "literatura",
+    "illustration": {
+      "concept": "Josef K faces an impersonal maze of doors and court files, accused without knowing his crime and unable to reach an understandable authority.",
+      "scene_type": "environment",
+      "primary_subject": "josef_k_trial_scene",
+      "secondary_subjects": [
+        "labyrinthine_bureaucracy",
+        "unexplained_accusation"
+      ],
+      "visual_keywords": [
+        "josef_k_trial_scene",
+        "labyrinthine_bureaucracy",
+        "unexplained_accusation"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "dramatic",
+      "palette": "green_copper"
+    },
+    "image": "/illustrations-ai/025.webp",
+    "promptHash": "687ac8a541ea7d9b216c0aad295afc215a52d9f1963898e34b74d54bbf26b5f6",
+    "cached": true
+  },
+  {
+    "id": "026",
+    "title": "Herakleitos: proč nikdy nevstoupíme dvakrát do stejné řeky",
+    "content": "<p>Můžete se vrátit na místo, kde jste byli šťastní jako dítě, a přesto to nikdy není úplně totéž místo. Voda v řece teče dál, vy jste se změnili a s vámi i všechno kolem.</p><p>Řecký filozof Hérakleitos, který žil kolem roku 500 př. n. l. v Efesu, tvrdil, že základem světa není žádná pevná látka, ale neustálý pohyb a proměna. Jeho výrok <em>panta rhei</em> – všechno plyne – shrnuje myšlenku, že stálost je pouhá iluze.</p><p>Podle Hérakleita nevstoupíte do stejné řeky dvakrát, protože voda je jiná a vy jste jiní. Svět podle něj drží pospolu právě napětí protikladů – den a noc, klid a boj, život a smrt.</p><p>Tuto myšlenku o neustálé proměně dnes potvrzuje i moderní fyzika, která popisuje realitu jako proces, nikoliv jako neměnný stav.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "The same person steps into a river at successive moments while different water passes and the person also changes, expressing continuous transformation.",
+      "scene_type": "process",
+      "primary_subject": "heraclitus_changing_river",
+      "secondary_subjects": [
+        "person_stepping_into_river",
+        "successive_water_currents"
+      ],
+      "visual_keywords": [
+        "heraclitus_changing_river",
+        "person_stepping_into_river",
+        "successive_water_currents"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/026.webp",
+    "promptHash": "ce737bffdb99f7f3242742b4e3ea35f36f61ebcf7475daa34289754c40f5846b",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"The same person steps into a river at successive moments while different water passes and the person also changes, expressing continuous transformation.\",\"primary_subject\":\"heraclitus_changing_river\",\"secondary_subjects\":[\"person_stepping_into_river\",\"successive_water_currents\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}",
+    "metadataHash": "55f931c8728889fefbe2067e4f27f916f6694f7471fd15ab423ffad1eec23450",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Successive young-to-old figures step through a continuous river with changing currents; transformation remains visible at both thumbnail sizes.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "027",
+    "title": "Sokrates: vím, že nic nevím, a proto jsem nejmoudřejší z Athéňanů",
+    "content": "<p>Co kdyby byla přiznaná neznalost cennější než sebejistá odpověď? Přesně tímto paradoxem prošel svým životem Sokrates.</p><p>Athénský delfský orákul prohlásil Sokrata, žijícího kolem roku 400 př. n. l., za nejmoudřejšího muže v Athénách. Sokrates tomu nevěřil a vydal se ptát řemeslníků, politiků i básníků, aby zjistil, zda ho někdo v moudrosti předčí.</p><p>Zjistil, že všichni jsou přesvědčeni o své znalosti, ale při hlubším zkoumání se ukázalo, že rozumí věcem méně, než si myslí. Sokrates sám tvrdil, že jeho moudrost spočívá právě v tom, že si je vědom vlastní nevědomosti.</p><p>Tento postoj se stal základem takzvané sokratovské metody – kladení otázek, které odhalují mezery ve vlastním myšlení. Dnes ji používají učitelé, terapeuti i vědci, kteří vědí, že první krok k poznání je přiznat si, co nevíme.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Socrates questions an interlocutor in an Athenian public space, progressively exposing gaps in apparent certainty rather than delivering a ready-made answer.",
+      "scene_type": "interaction",
+      "primary_subject": "socratic_questioning",
+      "secondary_subjects": [
+        "socrates_figure",
+        "dialogue_partners"
+      ],
+      "visual_keywords": [
+        "socratic_questioning",
+        "socrates_figure",
+        "dialogue_partners"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/027.webp",
+    "promptHash": "b90fe05e902b158ad95b3456b3228afd005920d22f512e2986798f5af76e8e0e",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Socrates questions an interlocutor in an Athenian public space, progressively exposing gaps in apparent certainty rather than delivering a ready-made answer.\",\"primary_subject\":\"socratic_questioning\",\"secondary_subjects\":[\"socrates_figure\",\"dialogue_partners\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}",
+    "metadataHash": "75ada5701af0ac97f69f369bb122f431c3becd7eb345eb524b46f8206024588c",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Socrates gestures while his interlocutor pauses with a hand to his chin; questioning is readable, but progressive gaps in certainty are only implied.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "review-notes"
+    }
+  },
+  {
+    "id": "028",
+    "title": "Buddha: proč je utrpení nevyhnutelnou součástí života a jak z něj ven",
+    "content": "<p>Proč se ani po splnění všech přání necítíme trvale spokojeni? Siddhártha Gautama, později nazývaný Buddha, si tuto otázku položil kolem roku 500 př. n. l. a strávil hledáním odpovědi zbytek života.</p><p>Po letech askeze i rozjímání dospěl ke čtyřem vznešeným pravdám: život obsahuje utrpení, utrpení má příčinu v touze a lpění, utrpení lze zastavit a existuje cesta, jak toho dosáhnout – takzvaná osmidílná stezka.</p><p>Buddha netvrdil, že máme přestat žít nebo cítit, ale že máme přestat lpět na věcech, které jsou svou podstatou nestálé – majetku, mládí, vztazích. Právě lpění, ne samotná touha, podle něj přináší trápení.</p><p>Tato myšlenka o přijetí nestálosti se dnes objevuje i v moderní psychoterapii, například v přístupech založených na mindfulness.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "A single seated Buddha in quiet meditation, with relaxed shoulders, a composed face and his own empty hands resting naturally in his lap. This subject-led portrait accompanies the teaching about suffering, non-attachment and mindfulness; it does not literalize attachment with props. No separate hands, balls, coins, arrows or symbolic objects.",
+      "scene_type": "portrait",
+      "primary_subject": "buddha_meditating_figure",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "seated_buddha",
+        "calm_expression",
+        "simple_robe"
+      ],
+      "composition_hints": [
+        "portrait_focus",
+        "single_uncluttered_silhouette"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/028.webp",
+    "promptHash": "f4f7fa4ae1d0c63b3cb01b712317dd9dc34e197e5e97c8073fa7b137da8e0f8a",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A single seated Buddha in quiet meditation, with relaxed shoulders, a composed face and his own empty hands resting naturally in his lap. This subject-led portrait accompanies the teaching about suffering, non-attachment and mindfulness; it does not literalize attachment with props. No separate hands, balls, coins, arrows or symbolic objects.\",\"primary_subject\":\"buddha_meditating_figure\",\"secondary_subjects\":[],\"visual_keywords\":[\"seated_buddha\",\"calm_expression\",\"simple_robe\"],\"composition_hints\":[\"portrait_focus\",\"single_uncluttered_silhouette\"],\"scene_type\":\"portrait\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
+    "metadataHash": "a652acef460c82d17d6292949ddcb86f68e6cefb50096a4516e52f578f12fe0b",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "status": "accepted",
+      "meaning": "Subject-led portrait of Buddha in calm meditation. Only his own hands rest naturally in his lap; no detached hands, ball, coin, arrows or symbolic vignette. The portrait accompanies the teaching without claiming to diagram suffering or non-attachment.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "simplicity": "One coherent seated silhouette with restrained robe folds; readable at both thumbnail sizes."
+    },
+    "imageSha256": "a4c57a05bd467bf3e63d560e2e5a930abc2ddd61ea0e2fe3a8d1322a2e8feda6"
+  },
+  {
+    "id": "029",
+    "title": "Rosettská deska: kámen, který rozluštil egyptské hieroglyfy",
+    "content": "<p>Jak přečtete jazyk, který nikdo na světě už tisíc čtyři sta let neumí přečíst? Přesně tento problém řešili vědci s egyptskými hieroglyfy.</p><p>V roce 1799 objevili francouzští vojáci u města Rašíd v Egyptě černou žulovou desku s tímtéž textem zapsaným ve třech písmech – hieroglyfy, démotickým písmem a řecky. Řecký text bylo možné přečíst, a tak vznikl klíč k rozluštění zbylých dvou.</p><p>Francouzský jazykovědec Jean-François Champollion desku po letech studia rozluštil v roce 1822 a otevřel tím dveře k pochopení celé staroegyptské civilizace, jejích náboženských textů i dějin.</p><p>Deska dnes leží v Britském muzeu v Londýně a zůstává jedním z nejcennějších archeologických nálezů historie, přestože ji Egypt opakovaně žádá o navrácení.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "The Rosetta Stone's three distinct inscription bands align through matching passages, showing how a known language supplied a key to Egyptian hieroglyphs.",
+      "scene_type": "object",
+      "primary_subject": "rosetta_stone",
+      "secondary_subjects": [
+        "three_inscription_bands",
+        "matching_script_fragments"
+      ],
+      "visual_keywords": [
+        "rosetta_stone",
+        "three_inscription_bands",
+        "matching_script_fragments"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/029.webp",
+    "promptHash": "7447730f9266cb8a1b058113884ff2c2a33dbc853b72e5f82266dd01e5469bdc",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"The Rosetta Stone's three distinct inscription bands align through matching passages, showing how a known language supplied a key to Egyptian hieroglyphs.\",\"primary_subject\":\"rosetta_stone\",\"secondary_subjects\":[\"three_inscription_bands\",\"matching_script_fragments\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "metadataHash": "26316af3bec274d1812e2f211ed6702ded54b63c8e2038b37dfb22ffef135d46",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Three inscription bands connect to corresponding script fragments; inscription marks are necessary to the subject, not verified transcriptions.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "030",
+    "title": "Oportunitní náklady: cena toho, co jste nezvolili",
+    "content": "<p>Kolik vás stojí večer strávený u televize? Odpověď nemá nic společného s elektřinou – jde o to, co jste místo toho mohli udělat.</p><p>Ekonomové tomuto principu říkají oportunitní náklady: hodnota nejlepší alternativy, o kterou přicházíte, když se rozhodnete pro jednu možnost. Pokud strávíte večer učením se cizímu jazyku, oportunitním nákladem je čas, který jste nevěnovali například práci na vlastním projektu nebo odpočinku.</p><p>Tento koncept poprvé systematicky popsal rakouský ekonom Friedrich von Wieser na konci devatenáctého století a stal se základním kamenem moderní ekonomie. Firmy ho používají při rozhodování, do čeho investovat, jednotlivci při plánování kariéry.</p><p>Oportunitní náklady nejsou vidět na žádném účtu, přesto je platíme každý den – každou volbou totiž automaticky odmítáme všechny ostatní.</p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "One available resource follows a chosen path while the best rejected alternative fades beside it, making the unseen cost of choosing visible.",
+      "scene_type": "diagram",
+      "primary_subject": "opportunity_cost_choice",
+      "secondary_subjects": [
+        "forked_choice_path",
+        "foregone_alternative"
+      ],
+      "visual_keywords": [
+        "opportunity_cost_choice",
+        "forked_choice_path",
+        "foregone_alternative"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/030.webp",
+    "promptHash": "7108be662100740d96619b398449f01030e2803de268a7d66902a0ee1612276c",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"One available resource follows a chosen path while the best rejected alternative fades beside it, making the unseen cost of choosing visible.\",\"primary_subject\":\"opportunity_cost_choice\",\"secondary_subjects\":[\"forked_choice_path\",\"foregone_alternative\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
+    "metadataHash": "c2e4448ba31b7895c0d7bf5c1a1c40d260110e39649f50cfa5be3e33d5923b1f",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A person follows one branch while the alternative branch and its reward remain unchosen.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "031",
+    "title": "Stínový archetyp Carla Junga: temná stránka, kterou v sobě popíráme",
+    "content": "<p>Proč nás na jiných lidech nejvíc rozčiluje přesně to, co si sami odmítáme přiznat na vlastní osobnosti? Švýcarský psychiatr Carl Gustav Jung na tuto otázku odpověděl konceptem stínu.</p><p>Podle Junga, který svou teorii rozvíjel v první polovině dvacátého století, si každý člověk vytváří vědomou image toho, kým chce být, a do stínu vytěsňuje vlastnosti, které jsou pro tuto image nepohodlné – hněv, sobectví, závist.</p><p>Stín podle Junga nemizí, jen se skrývá, a často se projeví jako silná averze vůči lidem, kteří tyto vlastnosti ukazují otevřeně. Čím víc něco v sobě popíráme, tím víc nás to u druhých dráždí.</p><p>Jung tvrdil, že cesta k celistvé osobnosti nevede přes potlačení stínu, ale přes jeho uvědomění a integraci. Nepohodlná pravda o sobě samém je podle něj cennější než pohodlná iluze.</p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "A person turns toward their own disowned shadow, suggesting recognition and integration of unwanted traits rather than an external monster.",
+      "scene_type": "interaction",
+      "primary_subject": "jung_shadow_silhouette",
+      "secondary_subjects": [
+        "person_confronting_shadow"
+      ],
+      "visual_keywords": [
+        "jung_shadow_silhouette",
+        "person_confronting_shadow"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/031.webp",
+    "promptHash": "99f0c5704f9f0d7b3a1c2d86a962475b30b36714ab0b53263c49e29fa9800f29",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A person turns toward their own disowned shadow, suggesting recognition and integration of unwanted traits rather than an external monster.\",\"primary_subject\":\"jung_shadow_silhouette\",\"secondary_subjects\":[\"person_confronting_shadow\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
+    "metadataHash": "0b2d23564121ec910014b3070ffd2bdefe4923702d73ece59e5ebce8102f7ae2",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A person reaches toward a matching shadow joined at the base, making recognition of the disowned self visible.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "032",
+    "title": "Plíseň na zapomenuté Petriho misce, která zachránila miliony životů",
+    "content": "<p>Co by se stalo, kdyby si skotský bakteriolog v roce 1928 nezapomněl umýt nádobí před odjezdem na dovolenou? Historie medicíny by možná vypadala úplně jinak.</p><p>Alexander Fleming se po návratu do laboratoře v Londýně všiml, že jedna z jeho zapomenutých misek s bakteriemi stafylokoka je zamořená plísní rodu <em>Penicillium</em> – a kolem ní bakterie odumřely. Objevil tak látku, kterou nazval penicilin.</p><p>Samotný Fleming netušil, jak látku vyrobit ve větším množství, a teprve o deset let později ji dokázali izolovat a vyrábět chemici Howard Florey a Ernst Chain. Během druhé světové války penicilin zachránil životy tisíců raněných vojáků.</p><p>Za tento objev získali všichni tři vědci v roce 1945 Nobelovu cenu za fyziologii a medicínu. Náhoda v laboratoři tak odstartovala éru antibiotik.</p>",
+    "category": "veda",
+    "illustration": {
+      "concept": "A patch of mold grows on a bacterial culture, surrounded by a clear bacteria-free zone that reveals penicillin's antibiotic action.",
+      "scene_type": "object",
+      "primary_subject": "penicillium_petri_dish",
+      "secondary_subjects": [
+        "bacterial_culture",
+        "inhibition_zone"
+      ],
+      "visual_keywords": [
+        "penicillium_petri_dish",
+        "bacterial_culture",
+        "inhibition_zone"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_warm"
+    },
+    "image": "/illustrations-ai/032.webp",
+    "promptHash": "a3510310a89ca53bc4f3c95390c28e37bc80f8ab7dc1406c76a84d9d23de16ca",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A patch of mold grows on a bacterial culture, surrounded by a clear bacteria-free zone that reveals penicillin's antibiotic action.\",\"primary_subject\":\"penicillium_petri_dish\",\"secondary_subjects\":[\"bacterial_culture\",\"inhibition_zone\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"monochrome_warm\"}",
+    "metadataHash": "a24c135448a7fc03340ce0f6ce43c212983557c2079693406053b6068f750dd8",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A mold colony has a conspicuous clear ring separating it from bacterial dots; scientifically meaningful repetition retained.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "033",
+    "title": "Michelangelo strávil čtyři roky malováním stropu, na který se nemohl dívat zpříma",
+    "content": "<p>Zkuste si na chvíli lehnout na záda a natáhnout ruce nad hlavu. Teď si představte, že v této pozici, na lešení pod klenbou, malujete čtyři roky.</p><p>Papež Julius II. pověřil Michelangela Buonarrotiho v roce 1508 výmalbou stropu Sixtinské kaple ve Vatikánu. Sochař, který malbu považoval za vedlejší disciplínu, nakonec vytvořil přes tři sta postav na ploše více než pěti set metrů čtverečních.</p><p>Michelangelo maloval vestoje s hlavou zvrácenou vzhůru na speciálně navrženém lešení, nikoli vleže, jak se často mylně tvrdí. Přesto si při práci trvale poškodil oči a krční páteř natolik, že podle dochovaných dopisů měl potíže číst dokumenty vzpřímeně ještě roky poté.</p><p>Výsledná freska Stvoření Adama se dnes stala jedním z nejrozpoznatelnějších obrazů v dějinách lidstva.</p>",
+    "category": "umeni",
+    "illustration": {
+      "concept": "One fully clothed Renaissance painter, Michelangelo, stands upright on a simple wooden scaffold plank, head tilted back and one arm raised to touch a short overhead curved ceiling strip with a paintbrush. His strained neck and upward reach are the focal point. Show only a small flat patch of paint on the ceiling, no fresco figures, chapel panorama or extra people.",
+      "scene_type": "interaction",
+      "primary_subject": "michelangelo_painting_overhead",
+      "secondary_subjects": [
+        "simple_scaffold_plank",
+        "overhead_ceiling_strip"
+      ],
+      "visual_keywords": [
+        "standing_painter",
+        "tilted_back_head",
+        "raised_paintbrush"
+      ],
+      "composition_hints": [
+        "close_side_view",
+        "single_clear_action"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/033.webp",
+    "promptHash": "3846c5cc105b6cd249dd9e1446528a211ee7b1e838d1b3995d28f8f745e7ce4e",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"One fully clothed Renaissance painter, Michelangelo, stands upright on a simple wooden scaffold plank, head tilted back and one arm raised to touch a short overhead curved ceiling strip with a paintbrush. His strained neck and upward reach are the focal point. Show only a small flat patch of paint on the ceiling, no fresco figures, chapel panorama or extra people.\",\"primary_subject\":\"michelangelo_painting_overhead\",\"secondary_subjects\":[\"simple_scaffold_plank\",\"overhead_ceiling_strip\"],\"visual_keywords\":[\"standing_painter\",\"tilted_back_head\",\"raised_paintbrush\"],\"composition_hints\":[\"close_side_view\",\"single_clear_action\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
+    "metadataHash": "ef686d8d7ade785097a596364190c3e7db51ef214aa9897363fe0164c3b0638a",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "One standing painter tilts his head back and reaches with his brush to an overhead ceiling strip. The upright pose and upward reach make the physical strain central. No chapel panorama or fresco figures.",
+      "background": "RGBA WebP; four corner alpha values 0",
+      "simplicity": "One main figure, scaffold plank and short ceiling strip; immediately readable at thumbnail scale."
+    },
+    "imageSha256": "990e4975561286faee38f341672a06c23f4b350e15f14054d98e3cf20b00c376"
+  },
+  {
+    "id": "034",
+    "title": "Proč nic ve vesmíru nemůže překonat rychlost světla",
+    "content": "<p>Co kdybyste mohli letět rychleji než světlo? Podle Alberta Einsteina je odpověď jednoduchá – nemůžete, a to je jedno z nejpevnějších pravidel celého vesmíru.</p><p>Einstein ve své speciální teorii relativity z roku 1905 ukázal, že rychlost světla ve vakuu, přibližně 299 792 kilometrů za sekundu, je univerzální rychlostní limit. S rostoucí rychlostí objektu roste i jeho hmotnost a energie potřebná k dalšímu zrychlení, takže dosažení rychlosti světla by vyžadovalo nekonečné množství energie.</p><p>Tento limit potvrdily desítky experimentů, včetně urychlovačů částic jako CERN, kde se protony dostávají na 99,9999991 procenta rychlosti světla, ale nikdy ji nepřekročí.</p><p>Rychlost světla proto není jen technický limit, ale základní vlastnost struktury časoprostoru samotného.</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "A massive particle approaches a light signal as the required energy rises sharply, showing why adding energy cannot push matter past light speed.",
+      "scene_type": "diagram",
+      "primary_subject": "massive_particle_approaching_light_speed",
+      "secondary_subjects": [
+        "light_beam",
+        "increasing_energy_demand"
+      ],
+      "visual_keywords": [
+        "massive_particle_approaching_light_speed",
+        "light_beam",
+        "increasing_energy_demand"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/034.webp",
+    "promptHash": "509c7e6fdfc0270015f2e252e70b36962f11acc49ff06fa4a82ce81db73b8b04",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A massive particle approaches a light signal as the required energy rises sharply, showing why adding energy cannot push matter past light speed.\",\"primary_subject\":\"massive_particle_approaching_light_speed\",\"secondary_subjects\":[\"light_beam\",\"increasing_energy_demand\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}",
+    "metadataHash": "2df22a3ee4edac90a48a6003de5051c09efd7fa133f9b084b5c7b7c45b6e7e4b",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A massive particle follows a light signal beside a sharply rising energy curve; approach to an unreachable limit is legible at both sizes.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "035",
+    "title": "Athénská demokracie: vláda lidu, která vylučovala většinu obyvatel",
+    "content": "<p>Kolik lidí z antických Athén mohlo skutečně hlasovat o zákonech své polis? Odpověď vás možná překvapí – zdaleka ne většina obyvatel města.</p><p>Athénská demokracie, rozvinutá zejména po reformách politika Kleisthéna kolem roku 508 př. n. l., dávala právo hlasovat na shromáždění pouze svobodným mužům, kteří byli athénskými občany. Ženy, otroci a cizinci, tedy naprostá většina populace, byli z rozhodování zcela vyloučeni.</p><p>Přesto právě tento systém přinesl novinky, které dnes považujeme za základ moderní politiky – losování úředníků, soudní porotu skládající se z běžných občanů a možnost kdykoliv veřejně kritizovat vládnoucí politiky bez rizika perzekuce.</p><p>Athénský experiment ukázal, že vláda lidu může fungovat, ale zároveň odhalil, jak snadno se pojem lid v praxi zužuje jen na vybranou skupinu.</p>",
+    "category": "politika",
+    "illustration": {
+      "concept": "A limited circle of male citizens debates in the Athenian assembly while women, enslaved people and foreigners remain outside the voting group.",
+      "scene_type": "environment",
+      "primary_subject": "athenian_assembly",
+      "secondary_subjects": [
+        "citizen_voters",
+        "excluded_residents"
+      ],
+      "visual_keywords": [
+        "athenian_assembly",
+        "citizen_voters",
+        "excluded_residents"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/035.webp",
+    "promptHash": "1c0f16f7ec28df000c8d89a58524e93e754a5a27852a2767dc66fd09ed752242",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A limited circle of male citizens debates in the Athenian assembly while women, enslaved people and foreigners remain outside the voting group.\",\"primary_subject\":\"athenian_assembly\",\"secondary_subjects\":[\"citizen_voters\",\"excluded_residents\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "metadataHash": "4fa7d5da8428e314569c5f79a1c624496816a60607ad14080edeb5466358c4fd",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A small raised assembly of male citizens is separated from excluded residents below; political inclusion and exclusion are visible.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "036",
+    "title": "Démokritos a svět stavěný z nedělitelných částic",
+    "content": "<p>Co by se stalo, kdybyste kus zlata dělili na stále menší kousky? Podle Démokrita, který žil kolem roku 460 př. n. l., byste jednou narazili na hranici, kterou už nelze překročit.</p><p>Tuto nejmenší, dále nedělitelnou částici nazval <strong>atomos</strong> — z řeckého slova pro „nedělitelné“. Věřil, že celý vesmír, včetně lidské duše, je tvořen právě těmito neviditelnými částicemi pohybujícími se v prázdnotě.</p><p>Jeho myšlenka byla na svou dobu revoluční a na dvě tisíciletí upadla v zapomnění, než ji věda v 19. a 20. století potvrdila jako základ moderní atomové teorie.</p><p><em>Filozofická spekulace tak předběhla laboratoř o více než dva tisíce let.</em></p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Different arrangements of small indivisible shapes form material objects against open empty space, expressing Democritus's philosophical atomism without modern laboratory equipment.",
+      "scene_type": "diagram",
+      "primary_subject": "democritean_atoms_in_void",
+      "secondary_subjects": [
+        "indivisible_particles",
+        "empty_space"
+      ],
+      "visual_keywords": [
+        "democritean_atoms_in_void",
+        "indivisible_particles",
+        "empty_space"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/036.webp",
+    "promptHash": "94928a90a5d1e805943c0392884cefcb552749917baddf9879be6d855db04ae0",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Different arrangements of small indivisible shapes form material objects against open empty space, expressing Democritus's philosophical atomism without modern laboratory equipment.\",\"primary_subject\":\"democritean_atoms_in_void\",\"secondary_subjects\":[\"indivisible_particles\",\"empty_space\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"indigo_cyan\"}",
+    "metadataHash": "249240684f0a7f9d11a15b6ef6e23964ff48d1def0679dd425bee587875e2cd5",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Discrete particles form a vessel beside an ancient thinker; atomism is visible, but the many particles and portrait exceed the flat-shape simplicity target.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "review-notes"
+    }
+  },
+  {
+    "id": "037",
+    "title": "Epikúros: proč se nemá smysl bát smrti",
+    "content": "<p>Bojíte se smrti? Epikúros, který učil v Athénách kolem roku 300 př. n. l., by řekl, že je to zbytečné trápení nad něčím, co nikdy nepocítíte.</p><p>Jeho argument je jednoduchý: <em>„Když jsme my, smrt tu není, a když je tu smrt, nejsme už my.“</em> Nikdy se s ní tedy nesetkáme, protože vědomí zaniká současně s tělem.</p><p>Epikúros nebyl hédonista v moderním slova smyslu — neučil honbu za rozkoší, ale klid mysli, <strong>ataraxii</strong>, dosažitelný skrze skromnost a odstranění zbytečných strachů.</p><p>Paradoxně tak filozof spojovaný s požitkářstvím radil hlavně jedno: méně se bát a víc si vážit přítomného okamžiku.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "A calm living person occupies the present while a separate empty silhouette marks death, illustrating Epicurus's argument that life and the experience of being dead never coexist.",
+      "scene_type": "interaction",
+      "primary_subject": "epicurus_mortality_argument",
+      "secondary_subjects": [
+        "living_person",
+        "absent_experiencer"
+      ],
+      "visual_keywords": [
+        "epicurus_mortality_argument",
+        "living_person",
+        "absent_experiencer"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/037.webp",
+    "promptHash": "e54dbc2456d0430ff69354d596a3e6fe6103cdb010299492146f2116a007fdf5",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A calm living person occupies the present while a separate empty silhouette marks death, illustrating Epicurus's argument that life and the experience of being dead never coexist.\",\"primary_subject\":\"epicurus_mortality_argument\",\"secondary_subjects\":[\"living_person\",\"absent_experiencer\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"violet_coral\"}",
+    "metadataHash": "9d4e33eb9acb890e35a06f1782b9dcffa3c8b0cb0c9e94b610d91364bb030c5c",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A calm living figure contrasts with an empty outline of the same figure, conveying absence of an experiencer; temporal separation remains implicit.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "review-notes"
+    }
+  },
+  {
+    "id": "038",
+    "title": "Archimédés ve vaně: jak objevil zákon vztlaku",
+    "content": "<p>Král Hierón II. ze Syrakus měl podezření, že ho zlatník ošidil při výrobě koruny a přimíchal do zlata levnější stříbro. Úkol prověřit to dostal Archimédés, kolem roku 250 př. n. l.</p><p>Řešení mu podle legendy přišlo ve chvíli, kdy si vlezl do vany a všiml si, jak voda přetéká přes okraj — objem vytlačené vody odpovídá objemu ponořeného tělesa.</p><p>Tím objevil princip, který dnes známe jako <strong>Archimédův zákon</strong>: těleso ponořené do kapaliny je nadlehčováno silou rovnající se váze vytlačené kapaliny.</p><p>Podle tradice měl radostí vyběhnout z vany a nahý pobíhat po ulicích s výkřikem „Heuréka!“</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "A crown displaces water into a collecting vessel; equal-weight gold samples with different displaced volumes reveal the relation between volume, density and buoyancy.",
+      "scene_type": "diagram",
+      "primary_subject": "archimedes_displacement_experiment",
+      "secondary_subjects": [
+        "crown",
+        "overflowing_water"
+      ],
+      "visual_keywords": [
+        "archimedes_displacement_experiment",
+        "crown",
+        "overflowing_water"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/038.webp",
+    "promptHash": "15cbf8ba3d593756cf225c8bdf9a2b6be9c8521285f99f2863df7fdff7878133",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A crown displaces water into a collecting vessel; equal-weight gold samples with different displaced volumes reveal the relation between volume, density and buoyancy.\",\"primary_subject\":\"archimedes_displacement_experiment\",\"secondary_subjects\":[\"crown\",\"overflowing_water\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "metadataHash": "255dc4449ceac3e7071b0ddcd431ff5306f60ec21fbeb6e94a9cc1d63d921600",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A submerged crown causes overflow into a vessel; paired samples and different collected volumes show density comparison. Extra apparatus makes this more complex than the shape target.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "039",
+    "title": "Hrobka, kterou archeolog čekal roky a nakonec našel netknutou",
+    "content": "<p>Britský archeolog Howard Carter strávil v egyptském Údolí králů téměř sedm let hledáním hrobky, o které si mnozí odborníci mysleli, že už neexistuje.</p><p>4. listopadu 1922 jeho dělníci narazili na schod vytesaný do skály. Za dalšími dny odkryli vchod, který nikdo po tisíciletí neotevřel — hrobku faraona <strong>Tutanchamona</strong>.</p><p>Uvnitř našli tisíce předmětů, včetně zlaté posmrtné masky, prakticky nedotčené vykradači hrobů, což byl mezi objevenými egyptskými hroby naprostý unikát.</p><p>Objev vyvolal celosvětovou senzaci a nastartoval takzvanou egyptománii, která ovlivnila módu, architekturu i design po celém světě.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "Carter peers through a newly opened tomb doorway at intact burial treasures and a golden mask, emphasizing the discovery of a preserved royal burial.",
+      "scene_type": "environment",
+      "primary_subject": "tutankhamun_tomb_opening",
+      "secondary_subjects": [
+        "howard_carter",
+        "tutankhamun_gold_mask"
+      ],
+      "visual_keywords": [
+        "tutankhamun_tomb_opening",
+        "howard_carter",
+        "tutankhamun_gold_mask"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "image": "/illustrations-ai/039.webp",
+    "promptHash": "2c39fba23a70a058c42b8f7af7cd98224579ebb8826349f20c6e28ce79b8f04c",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Carter peers through a newly opened tomb doorway at intact burial treasures and a golden mask, emphasizing the discovery of a preserved royal burial.\",\"primary_subject\":\"tutankhamun_tomb_opening\",\"secondary_subjects\":[\"howard_carter\",\"tutankhamun_gold_mask\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"neutral\",\"palette\":\"green_copper\"}",
+    "metadataHash": "7169ceaa7da5b0da92c52e5154333c50dd0550100aa2fe2a963e5900ef6939e6",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "An archaeologist peers through an opened doorway at preserved burial objects; mask placement is an editorial condensation of the discovery, not a reconstruction of the first view.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "040",
+    "title": "Keynes a myšlenka, že v krizi má stát utrácet víc",
+    "content": "<p>Co dělat, když ekonomika padá a lidé přestávají utrácet? Klasická ekonomie tvrdila, že se trh sám opraví. Britský ekonom John Maynard Keynes ve 30. letech 20. století s tím nesouhlasil.</p><p>Ve své knize <em>Obecná teorie zaměstnanosti, úroku a peněz</em> z roku 1936 argumentoval, že během hospodářské krize, jako byla Velká hospodářská krize, musí stát vědomě zvýšit výdaje, i za cenu deficitu, aby nastartoval poptávku.</p><p>Jeho myšlenky se staly základem tzv. <strong>keynesiánství</strong> a ovlivnily hospodářskou politiku většiny vyspělých zemí po druhé světové válce, včetně amerického New Dealu.</p><p>Dodnes se ekonomové přou, zda je lepší v krizi utrácet, nebo šetřit.</p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "Public spending restarts an idle construction site, returning wages to workers and purchases to shops as private demand contracts in a recession.",
+      "scene_type": "process",
+      "primary_subject": "keynesian_public_spending",
+      "secondary_subjects": [
+        "idle_workers",
+        "public_works"
+      ],
+      "visual_keywords": [
+        "keynesian_public_spending",
+        "idle_workers",
+        "public_works"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/040.webp",
+    "promptHash": "aeb5753c8911c5822c4e7eed1ccd9133adf81e33e7ce4198a1d77a0453818deb",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Public spending restarts an idle construction site, returning wages to workers and purchases to shops as private demand contracts in a recession.\",\"primary_subject\":\"keynesian_public_spending\",\"secondary_subjects\":[\"idle_workers\",\"public_works\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "metadataHash": "d9596c6cf562a2c198593b3c932d7121256eb7a0a1e56ea423ea113c609429bc",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Arrows connect idle workers, state spending and active construction with a purchase; readable causal sequence, though more detailed than the shape target.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "review-notes"
+    }
+  },
+  {
+    "id": "041",
+    "title": "Proč hledáme jen důkazy, které potvrzují to, čemu už věříme",
+    "content": "<p>Přesvědčíte odpůrce nějakého názoru fakty? Psychologie ukazuje, že to bývá překvapivě těžké — a důvodem je jev nazvaný <strong>konfirmační zkreslení</strong>.</p><p>Britský psycholog Peter Wason ho popsal v 60. letech na experimentu, kdy lidé dostali číselnou řadu a měli odhalit pravidlo, podle kterého vznikla. Většina testovala jen příklady potvrzující jejich první hypotézu, místo aby zkoušela ji vyvrátit.</p><p>V praxi to znamená, že raději čteme zprávy, které souhlasí s naším názorem, a ignorujeme ty, které mu odporují.</p><p>Výsledkem je, že se v přesvědčeních utvrzujeme, i když jsou mylná — bez ohledu na to, kolik důkazů proti nim existuje.</p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "A reader collects evidence that supports an existing belief and pushes aside equally visible contradictory evidence, creating a self-reinforcing information filter.",
+      "scene_type": "interaction",
+      "primary_subject": "confirmation_bias_news_pair",
+      "secondary_subjects": [
+        "accepted_matching_evidence",
+        "discarded_contradictory_evidence"
+      ],
+      "visual_keywords": [
+        "confirmation_bias_news_pair",
+        "accepted_matching_evidence",
+        "discarded_contradictory_evidence"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/041.webp",
+    "promptHash": "4697aa731b03d2167a0978094905217a65b52b713c328b953cc2e7f629a7b43d",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A reader collects evidence that supports an existing belief and pushes aside equally visible contradictory evidence, creating a self-reinforcing information filter.\",\"primary_subject\":\"confirmation_bias_news_pair\",\"secondary_subjects\":[\"accepted_matching_evidence\",\"discarded_contradictory_evidence\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}",
+    "metadataHash": "28bde1c607e99362942fb074c4cf42627db53c77c2d7166b2d8d558230d300b5",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A reader embraces confirming pages and pushes away contradictory evidence; the selection relationship is immediately visible.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  },
+  {
+    "id": "042",
+    "title": "Chemik, který dal jméno plynu, co udržuje oheň hořet",
+    "content": "<p>Proč hoří oheň a proč se dusíme bez vzduchu? Do 70. let 18. století panovala teorie, že za hořením stojí neviditelná látka flogiston, která z předmětu unikala.</p><p>Francouzský chemik Antoine Lavoisier tuto představu vyvrátil pečlivými váhovými experimenty a v roce 1778 popsal plyn, který hoření naopak umožňuje. Nazval ho <strong>oxygène</strong>, tedy kyslík.</p><p>Jeho práce položila základy moderní chemie a zákona zachování hmotnosti.</p><p>Osudná ironie: muž, který zásadně změnil chápání přírody, byl v roce 1794 popraven gilotinou během Francouzské revoluce, obviněn z podvodů coby bývalý výběrčí daní.</p>",
+    "category": "veda",
+    "illustration": {
+      "concept": "Lavoisier weighs a combustion vessel and traces oxygen combining with burning material, replacing the idea of escaping phlogiston with measured chemistry.",
+      "scene_type": "interaction",
+      "primary_subject": "lavoisier_combustion_experiment",
+      "secondary_subjects": [
+        "sealed_vessel",
+        "balance_scales"
+      ],
+      "visual_keywords": [
+        "lavoisier_combustion_experiment",
+        "sealed_vessel",
+        "balance_scales"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/042.webp",
+    "promptHash": "9969b40b4e71b592afbb4e326f6a180beb40eca5e9af3813f8ab894407d46a92",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Lavoisier weighs a combustion vessel and traces oxygen combining with burning material, replacing the idea of escaping phlogiston with measured chemistry.\",\"primary_subject\":\"lavoisier_combustion_experiment\",\"secondary_subjects\":[\"sealed_vessel\",\"balance_scales\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}",
+    "metadataHash": "65a941a16978d6cf4189bd89f7a7eb2e2c9a9e894b7f4fa427a4a045ab4433be",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A flame inside a sealed vessel sits on a balance beside Lavoisier; weighing combustion is visible, but oxygen combination itself remains implicit.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "review-notes"
+    }
+  },
+  {
+    "id": "043",
+    "title": "Katedrála, která se staví už přes sto čtyřicet let",
+    "content": "<p>Existuje stavba, kterou nikdo z jejích tvůrců neuvidí dokončenou. Barcelonská bazilika <strong>Sagrada Família</strong> se staví od roku 1882 a dodnes není hotová.</p><p>Architekt Antoni Gaudí na projektu pracoval přes čtyřicet let a věnoval mu poslední desetiletí svého života, přesto se dožil dokončení jen zlomku stavby. Zemřel v roce 1926, sražen tramvají.</p><p>Gaudí kombinoval gotické prvky s organickými tvary inspirovanými přírodou — sloupy připomínají stromy, věže krápníky.</p><p>Dokončení se dnes plánuje kolem roku 2026, u příležitosti sto let od Gaudího smrti, financování stavby přitom stále závisí hlavně na vstupním vstupném turistů.</p>",
+    "category": "umeni",
+    "illustration": {
+      "concept": "Gaudi's Sagrada Familia combines tree-like branching columns with towers still under construction, conveying a monumental project spanning generations.",
+      "scene_type": "environment",
+      "primary_subject": "sagrada_familia_construction",
+      "secondary_subjects": [
+        "branching_columns",
+        "unfinished_towers"
+      ],
+      "visual_keywords": [
+        "sagrada_familia_construction",
+        "branching_columns",
+        "unfinished_towers"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "dynamic",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/043.webp",
+    "promptHash": "bb989f126dd37c3a040c9cc16cc88634a615aa5fbfdc0f309ce7a5b8bccd85c4",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Gaudi's Sagrada Familia combines tree-like branching columns with towers still under construction, conveying a monumental project spanning generations.\",\"primary_subject\":\"sagrada_familia_construction\",\"secondary_subjects\":[\"branching_columns\",\"unfinished_towers\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"dynamic\",\"palette\":\"teal_amber\"}",
+    "metadataHash": "2dafe47889a014c8d7e3bd7445433c2224deba4036fecb0423c1e9b1b1d1723c",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Branching structural columns lead to characteristic towers and construction cranes. Architecture is recognizable but excessive fine detail loses clarity at 160px; simplicity target not met.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "rejected-simplicity"
+    }
+  },
+  {
+    "id": "044",
+    "title": "První planeta objevená u cizí hvězdy podobné Slunci",
+    "content": "<p>Existují planety i mimo naši sluneční soustavu? Do roku 1995 to bylo jen teoretickou možností, kterou nikdo nepotvrdil.</p><p>Švýcarští astronomové Michel Mayor a Didier Queloz tehdy oznámili objev planety <strong>51 Pegasi b</strong>, obíhající hvězdu podobnou Slunci ve vzdálenosti přibližně 50 světelných let od Země.</p><p>Planeta byla překvapením i pro samotné astronomy — obíhala svou hvězdu extrémně blízko, s oběžnou dobou pouhých 4 dní, což tehdejší teorie o vzniku planet nepředpokládaly.</p><p>Objev odstartoval intenzivní hledání exoplanet, dnes jich známe přes pět tisíc, a v roce 2019 za něj Mayor a Queloz získali Nobelovu cenu za fyziku.</p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "A giant exoplanet very close to a Sun-like star: a simple close view of the two bodies, emphasizing their surprising proximity. No orbit tracks, arrows, stellar wobble or measurement symbols.",
+      "scene_type": "object",
+      "primary_subject": "fifty_one_pegasi_b",
+      "secondary_subjects": [
+        "sunlike_star"
+      ],
+      "visual_keywords": [
+        "close_proximity",
+        "gas_giant",
+        "sunlike_star"
+      ],
+      "composition_hints": [
+        "close_up",
+        "single_scene"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/044.webp",
+    "promptHash": "0b9d469b5989dc04867eeeaaa8c7e72b5c20791c5521c2394299a8a26463befa",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A giant exoplanet very close to a Sun-like star: a simple close view of the two bodies, emphasizing their surprising proximity. No orbit tracks, arrows, stellar wobble or measurement symbols.\",\"primary_subject\":\"fifty_one_pegasi_b\",\"secondary_subjects\":[\"sunlike_star\"],\"visual_keywords\":[\"close_proximity\",\"gas_giant\"],\"composition_hints\":[\"close_up\",\"single_scene\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
+    "metadataHash": "101aab4865d1fa39b934a09ee515574490f69b1f8b2df623a9276c32e16961ac",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Gas giant close to a Sun-like star; immediately readable proximity without arrows, orbit tracks or a measurement diagram. Accompanies the discovery rather than explaining its method.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted",
+      "limitations": "Surface bands and stellar patches exceed the flat-shape target; the two-body scene remains readable at thumbnail scale."
+    }
+  },
+  {
+    "id": "045",
+    "title": "Proces, který Kafka nedokončil a přesto změnil literaturu",
+    "content": "<p>Muž je jednoho rána zatčen, aniž by mu kdokoli řekl, z čeho je obviněn. Snaží se bránit v systému, který nemá tvář ani logiku. Tak začíná román <em>Proces</em> Franze Kafky.</p><p>Kafka na knize pracoval kolem roku 1914, ale nikdy ji nedokončil a za života nevydal. Před smrtí v roce 1924 požádal svého přítele Maxe Broda, aby veškeré jeho nevydané rukopisy spálil.</p><p>Brod ho neposlechl a v roce 1925 <em>Proces</em> vydal — dnes patří k nejvlivnějším románům 20. století a slovo <strong>„kafkovský“</strong> se stalo běžným výrazem pro absurdní, neprůhlednou byrokracii.</p><p>Bez jednoho porušeného slibu bychom tak zásadní dílo světové literatury možná nikdy nečetli.</p>",
+    "category": "literatura",
+    "illustration": {
+      "concept": "Josef K faces an impersonal maze of doors and court files, accused without knowing his crime and unable to reach an understandable authority.",
+      "scene_type": "environment",
+      "primary_subject": "josef_k_trial_scene",
+      "secondary_subjects": [
+        "labyrinthine_bureaucracy",
+        "unexplained_accusation"
+      ],
+      "visual_keywords": [
+        "josef_k_trial_scene",
+        "labyrinthine_bureaucracy",
+        "unexplained_accusation"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "dramatic",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/045.webp",
+    "promptHash": "35287ff27c81a3554806b49e3d2f392dc1fa526459f306223306b1f412a77013",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Josef K faces an impersonal maze of doors and court files, accused without knowing his crime and unable to reach an understandable authority.\",\"primary_subject\":\"josef_k_trial_scene\",\"secondary_subjects\":[\"labyrinthine_bureaucracy\",\"unexplained_accusation\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"dramatic\",\"palette\":\"blue_gold\"}",
+    "metadataHash": "b6763ef27a6b7eb156609534af2ab7959feac1f5c9440252a229c73c8415d5ea",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "review": {
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A lone suited figure faces a maze of doors and court files with a distant faceless official; inaccessible authority remains readable.",
+      "background": "RGBA WebP; all four corner alpha values 0",
+      "status": "accepted"
+    }
+  }
+]

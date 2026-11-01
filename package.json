@@ -1,6 +1,6 @@
 {
   "name": "faakt.io",
-  "version": "0.6.0-beta",
+  "version": "1.0.0-beta",
   "private": true,
   "type": "module",
   "description": "doomscrolling, ale lepší",
@@ -12,7 +12,7 @@
     "og-image": "python scripts/generate-og-image.py",
     "repair-illustrations": "python scripts/repair-illustrations.py",
     "deploy": "node scripts/deploy-gh-pages.mjs",
-    "test": "node --test tests/analysis.test.mjs tests/geometry.test.mjs tests/selection.test.mjs"
+    "test": "node --test tests/illustrations-ai.test.mjs"
   },
   "devDependencies": {
     "@sveltejs/adapter-static": "^3.0.10",

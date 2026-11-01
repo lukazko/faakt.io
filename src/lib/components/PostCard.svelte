@@ -195,7 +195,7 @@
 					     flexu, takže nikdy nepřekryje text ani CTA a nemění
 					     výšku karty — jen vyplní zbývající prostor. -->
 					<div class="front-art" aria-hidden="true">
-						<PostIllustration {post} />
+						<PostIllustration {post} {active} />
 					</div>
 				</div>
 
@@ -521,7 +521,7 @@
 	}
 
 	/* Ilustrace vyplní jen zbývající spodní prostor líce. Když je text
-	   dlouhý nebo karta nízká, SVG se zmenší — nikdy ale nezvětší kartu. */
+	   dlouhý nebo karta nízká, obrázek se zmenší — nikdy ale nezvětší kartu. */
 	.front-art {
 		flex: 1 1 auto;
 		min-height: 0;
