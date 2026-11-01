@@ -47,6 +47,8 @@ Všech 20 výstupů pro příspěvky 026–045 má 640×360 px, skutečný alfa 
 
 ## Ověření
 
+Kontrola pozadí prvních 25 ilustrací (`001`–`025`): všech 25 má skutečný alfa kanál a průhledné rohy. U `005`, `007`, `013`, `020`, `021`, `022` a `023` bylo neprůhledné pozadí odstraněno vestavěným image_gen jako cílená úprava původního obrázku. Původní scény, předměty a nápisy zůstávají zachované; nejde o nové obsahové ilustrace. Výstupy mají průhledné odsazení po všech hranách, RGBA WebP 640×360, quality 80, velikost 13–39 kB. Kontrola při 160×90 a 320×180 px na gradientu karty potvrdila odstranění obdélníkového pozadí. Zbývajících 18 souborů se nemění. Přesné editační prompty, původní a výsledné SHA-256 i metoda jsou v `backgroundEdit` příslušných záznamů manifestu. Nástroj nenabízel řízení rozměru, kvality ani ceny generování. Tato kontrola pozadí není novým sémantickým auditem článků.
+
 - `npm test` kontroluje existenci všech 100 WebP a limit 100 kB.
 - `npm run build` ověřuje produkční SvelteKit sestavení.
 - Vizuální kontrola: hlavní feed a `/faakt.io/dev/illustrations-ai/` na mobilní šířce.

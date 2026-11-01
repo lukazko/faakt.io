@@ -191,7 +191,15 @@
     },
     "image": "/illustrations-ai/005.webp",
     "promptHash": "ef7d55feda82d5804172974827cf385203828eee147f31a2bd3b9c1d1f156ef7",
-    "cached": true
+    "cached": true,
+    "backgroundEdit": {
+      "method": "built-in image_gen; transparent background-extraction edit of existing asset; RGBA WebP conversion",
+      "prompt": "Use case: background-extraction. Edit target: supplied existing faakt.io illustration 005. Remove only the near-black backdrop and make the empty background genuinely transparent, including gaps between foreground objects. Preserve the existing subjects, composition, colors, props, lettering and meaningful foreground planes. Do not redesign or add anything. Fit the complete foreground within transparent padding on all four sides so no object is cropped by image edges. No black background, no halo, no border. Output a single illustration with real alpha.",
+      "previousImageSha256": "9459e94332fc1f971d2626413ac6294c1a92e7dc2b08ed3fdd7cc56513979ff7",
+      "imageSha256": "2306d40012c2784d63e409dc8732f5cd9387f66e08cc54fbd449ff2227313994",
+      "review": "Background-only repair; existing scene retained. Transparent outer padding. Reviewed at 160x90 and 320x180 on card gradient.",
+      "generationControls": "Size, quality and cost controls unavailable in image tool."
+    }
   },
   {
     "id": "006",
@@ -266,7 +274,15 @@
     },
     "image": "/illustrations-ai/007.webp",
     "promptHash": "06e3aa1394c695abd78e69b5e1ab6da3dd0d37ba7373d9cea83ba493271f55d5",
-    "cached": true
+    "cached": true,
+    "backgroundEdit": {
+      "method": "built-in image_gen; transparent background-extraction edit of existing asset; RGBA WebP conversion",
+      "prompt": "Use case: background-extraction. Edit target: supplied existing faakt.io illustration 007. Remove only the near-black backdrop and make the empty background genuinely transparent, including gaps between foreground objects. Preserve the existing subjects, composition, colors, props, lettering and meaningful foreground planes. Do not redesign or add anything. Fit the complete foreground within transparent padding on all four sides so no object is cropped by image edges. No black background, no halo, no border. Output a single illustration with real alpha.",
+      "previousImageSha256": "9abeab98975fa99113d692fb7f53a5a4789d94afa99c86f3a892906e149c8971",
+      "imageSha256": "6906bfb49ae32e03a0360a244e7ca3e4c7c79af62f639eac9fb74a0eed15e770",
+      "review": "Background-only repair; existing scene retained. Transparent outer padding. Reviewed at 160x90 and 320x180 on card gradient.",
+      "generationControls": "Size, quality and cost controls unavailable in image tool."
+    }
   },
   {
     "id": "008",
@@ -526,7 +542,15 @@
     },
     "image": "/illustrations-ai/013.webp",
     "promptHash": "86f5743bd484f93b2afea232c849f651b122ee34a873040fdbc8accf73845bf1",
-    "cached": true
+    "cached": true,
+    "backgroundEdit": {
+      "method": "built-in image_gen; transparent background-extraction edit of existing asset; RGBA WebP conversion",
+      "prompt": "Use case: background-extraction. Edit target: supplied existing faakt.io illustration 013. Remove only the near-black backdrop and make the empty background genuinely transparent, including gaps between foreground objects. Preserve the existing subjects, composition, colors, props, lettering and meaningful foreground planes. Do not redesign or add anything. Fit the complete foreground within transparent padding on all four sides so no object is cropped by image edges. No black background, no halo, no border. Output a single illustration with real alpha.",
+      "previousImageSha256": "64b00964eeef429efe1338103e303a1380bb86c5a1993d1c769eda82d4604fee",
+      "imageSha256": "1a9f7d4b312b9ea8c48652d9d3597376cece57db306e5fe5a42fbd3fbb576137",
+      "review": "Background-only repair; existing scene retained. Transparent outer padding. Reviewed at 160x90 and 320x180 on card gradient.",
+      "generationControls": "Size, quality and cost controls unavailable in image tool."
+    }
   },
   {
     "id": "014",
@@ -822,7 +846,15 @@
     },
     "image": "/illustrations-ai/020.webp",
     "promptHash": "de3c0cb56f050280afccf06e1e758d5605112d75a650fbb62b26d4a0594de24c",
-    "cached": true
+    "cached": true,
+    "backgroundEdit": {
+      "method": "built-in image_gen; transparent background-extraction edit of existing asset; RGBA WebP conversion",
+      "prompt": "Use case: background-extraction. Edit target: supplied existing faakt.io illustration 020. Remove only the near-black backdrop and make the empty background genuinely transparent, including gaps between foreground objects. Preserve the existing subjects, composition, colors, props, lettering and meaningful foreground planes. Do not redesign or add anything. Fit the complete foreground within transparent padding on all four sides so no object is cropped by image edges. No black background, no halo, no border. Output a single illustration with real alpha.",
+      "previousImageSha256": "4fbf4e3201c34c99058922e05d86af95d995583a9341238024c1c1d76dbe5e0c",
+      "imageSha256": "8718c93ef0ba5c338ec262151875b40ffbdeda16568445e12c93a0839a23a89f",
+      "review": "Background-only repair; existing scene retained. Transparent outer padding. Reviewed at 160x90 and 320x180 on card gradient.",
+      "generationControls": "Size, quality and cost controls unavailable in image tool."
+    }
   },
   {
     "id": "021",
@@ -851,7 +883,15 @@
     },
     "image": "/illustrations-ai/021.webp",
     "promptHash": "d06eb5b61a1badfff8bc9877b0020afa1150560ac3afb96f3d4d9cce066051dd",
-    "cached": true
+    "cached": true,
+    "backgroundEdit": {
+      "method": "built-in image_gen; transparent background-extraction edit of existing asset; RGBA WebP conversion",
+      "prompt": "Use case: background-extraction. Edit target: supplied existing faakt.io illustration 021. Remove only the near-black backdrop and make the empty background genuinely transparent, including gaps between foreground objects. Preserve the existing subjects, composition, colors, props, lettering and meaningful foreground planes. Do not redesign or add anything. Fit the complete foreground within transparent padding on all four sides so no object is cropped by image edges. No black background, no halo, no border. Output a single illustration with real alpha.",
+      "previousImageSha256": "f7ce93b9e23e8e71508df138de1e4eda07a30ed2cb70c39d9082221d825fe959",
+      "imageSha256": "4c2c80932d4212ec2ca75731f1d4e23ed539b215e1ae1b470c2f4fd13c0a907d",
+      "review": "Background-only repair; existing scene retained. Transparent outer padding. Reviewed at 160x90 and 320x180 on card gradient.",
+      "generationControls": "Size, quality and cost controls unavailable in image tool."
+    }
   },
   {
     "id": "022",
@@ -880,7 +920,15 @@
     },
     "image": "/illustrations-ai/022.webp",
     "promptHash": "38046c7e6d9e1d000c64c4cc96995e2ded31633988abf3b48c5e2d3f57567570",
-    "cached": true
+    "cached": true,
+    "backgroundEdit": {
+      "method": "built-in image_gen; transparent background-extraction edit of existing asset; RGBA WebP conversion",
+      "prompt": "Use case: background-extraction. Edit target: supplied existing faakt.io illustration 022. Remove only the near-black backdrop and make the empty background genuinely transparent, including gaps between foreground objects. Preserve the existing subjects, composition, colors, props, lettering and meaningful foreground planes. Do not redesign or add anything. Fit the complete foreground within transparent padding on all four sides so no object is cropped by image edges. No black background, no halo, no border. Output a single illustration with real alpha.",
+      "previousImageSha256": "fe7cf8c5a0ab6567a9313a7ee7db8fc438762187203f56c02f55a0962dc57408",
+      "imageSha256": "309c7620e13d840d4ecf856dedf9dd5f2bcb82bc2e10a4a7ae79d5712e49e9ac",
+      "review": "Background-only repair; existing scene retained. Transparent outer padding. Reviewed at 160x90 and 320x180 on card gradient.",
+      "generationControls": "Size, quality and cost controls unavailable in image tool."
+    }
   },
   {
     "id": "023",
@@ -909,7 +957,15 @@
     },
     "image": "/illustrations-ai/023.webp",
     "promptHash": "4d63aaade2a460587234267f20e2d8b4369fa34ba7878dc100a514d70acfb63f",
-    "cached": true
+    "cached": true,
+    "backgroundEdit": {
+      "method": "built-in image_gen; transparent background-extraction edit of existing asset; RGBA WebP conversion",
+      "prompt": "Use case: background-extraction. Edit target: supplied existing faakt.io illustration 023. Remove only the near-black backdrop and make the empty background genuinely transparent, including gaps between foreground objects. Preserve the existing subjects, composition, colors, props, lettering and meaningful foreground planes. Do not redesign or add anything. Fit the complete foreground within transparent padding on all four sides so no object is cropped by image edges. No black background, no halo, no border. Output a single illustration with real alpha.",
+      "previousImageSha256": "9a35ec4bf6cba8038ce5b37a2d69dda523c4c00053635699e23dd863c3d8e706",
+      "imageSha256": "6c567639bdb7c4e18fb15af1f4ae12fc5fadb69ae010c46e181ec552787e2907",
+      "review": "Background-only repair; existing scene retained. Transparent outer padding. Reviewed at 160x90 and 320x180 on card gradient.",
+      "generationControls": "Size, quality and cost controls unavailable in image tool."
+    }
   },
   {
     "id": "024",
