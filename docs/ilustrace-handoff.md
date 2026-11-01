@@ -21,6 +21,8 @@ Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 11
 
 ## Generování
 
+Doprovodné symboly a vedlejší objekty jsou vítané, pokud mají smysluplný vztah k obsahu příspěvku a kompozice zůstává snadno pochopitelná. Mohou vyjadřovat abstraktní myšlenku a nemusí být doslova zmíněné v textu ani nezbytné pro hlavní motiv. Odstraňují se jen tehdy, když nemají význam pro obsah nebo kompozici příliš komplikují. Toto pravidlo platí i pro portréty a má přednost před staršími formulacemi požadujícími jen nezbytné objekty; konkrétní schválené scény zůstávají zachované. Odpovídá mu skill i sdílený generovací prompt.
+
 Výchozím cílem je jednoduchá ilustrace s jedním výrazným hlavním motivem, který vystihuje obsah a zaujme na první pohled. Obrázek `040` (pracovníci, státní výdaje, stavba) je krajní případ přijatelné složitosti, nikoli vzor pro další ilustrace; běžné výstupy mají být výrazně jednodušší. Vedlejší prvky podporují hlavní motiv a nemají vyžadovat postupné čtení několika scén. Soubor `040.webp` zůstává beze změny.
 
 Sdílený postup pro AI agenty je v `skills/faakt-illustrations/SKILL.md`. Kompaktní prompt a cache kontrolu připravuje `skills/faakt-illustrations/scripts/prepare.mjs`; společný styl je v `prompt.mjs`. Jeden příspěvek znamená nejvýše jedno generování, pokud už asset existuje.
