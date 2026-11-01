@@ -154,7 +154,7 @@ Doporučený postup:
 
 ## Shared skills for AI agents
 
-- Ilustrace experimentu musí na první pohled ukazovat objevený objekt nebo výsledek; samotný nečitelný přístroj nestačí ani s poznámkou, že pouze doprovází téma. Jednoduché porovnání, znaménko nebo krátký čitelný popisek jsou přípustné, pokud pomáhají pochopení. U historické události zachovej rozpoznávací znaky místa, děje a kontextu i při zjednodušování. Po přijetí opravené ilustrace ověř také její zapnutí v kartě. Podrobnosti obsahují ilustrační a metadatový skill.
+- Ilustrace musí nést význam viditelným vztahem, dějem, kontextem nebo odhaleným detailem. Nikdy nenahrazuj význam nakreslením objektu a jeho pojmenováním pod obrázkem; samotná částice ani nepochopitelné schéma nestačí. Text smí přidávat jinou informaci, například původ pomoci, nikoli opakovat název objektu. Vědecký příspěvek nemusí mít diagram výsledku: může názorně zobrazovat i zkoumanou historickou představu, například světlo v představovaném éteru, aniž by tvrdil, že hypotéza platí. U historické události zachovej rozpoznávací znaky místa, děje a kontextu. Po přijetí opravené ilustrace ověř také její zapnutí v kartě. Podrobnosti obsahují ilustrační a metadatový skill.
 
 - Při sdílení ilustrací rozlišuj obsahovou duplicitu od shody konkrétní scény. Oprava pozadí má zachovat nejlépe odpovídající námět; průhledná ilustrace jiného příběhu není automaticky náhradou. U experimentů ověř i směr účinku (u 009 pozitivnější hodnocení po malé odměně). Podrobnosti a výslovně zvolené sdílení 009/082 popisuje `skills/faakt-illustrations/SKILL.md`.
 

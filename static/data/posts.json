@@ -4072,23 +4072,27 @@
       }
     ],
     "illustration": {
-      "concept": "One isolated electron is the entire main motif: a simple flat terracotta particle bearing a large cream minus sign, with the single clear Czech caption ELEKTRON underneath. The minus sign conveys negative charge. No atom, cell, nucleus, cloud, orbit, electrode, apparatus, cracking or explosion. A conceptual particle symbol, not a claim about the electron's literal shape or size.",
-      "scene_type": "object",
-      "primary_subject": "negatively_charged_electron",
-      "secondary_subjects": [],
+      "concept": "A large magnifying glass reveals a recognizable stylized atom with three clearly separated electron particles around a small central core. The magnified interior makes the atom's smaller constituents visually discoverable. Use one coherent close-up, not an isolated particle or a labeled diagram. No words, letters, minus signs, equations, arrows or caption. The magnifying glass and atomic symbol are editorial metaphors for revealing internal structure, not a claim about optical microscopy or the exact atomic model used by Thomson in 1897.",
+      "scene_type": "interaction",
+      "primary_subject": "magnified_atom_revealing_electrons",
+      "secondary_subjects": [
+        "magnifying_glass",
+        "visible_electron_constituents"
+      ],
       "visual_keywords": [
-        "electron",
-        "negative_charge",
-        "large_minus_sign",
-        "readable_electron_label"
+        "recognizable_atom",
+        "revealed_internal_structure",
+        "three_distinct_electrons",
+        "magnifying_lens",
+        "no_text"
       ],
       "composition_hints": [
-        "one_dominant_particle",
-        "large_minus_sign_inside_particle",
-        "one_short_label_below"
+        "one_large_lens_revealing_atom",
+        "clear_electrons_within_atomic_structure",
+        "one_coherent_close_up"
       ],
       "mood": "neutral",
-      "palette": "terracotta_cream"
+      "palette": "blue_gold"
     }
   },
   {
@@ -4472,23 +4476,23 @@
       }
     ],
     "illustration": {
-      "concept": "A clear conceptual comparison shows light making equal-length round trips in two perpendicular directions: a horizontal path on the left and a vertical path on the right. Two identical simple time dials with matching hands and one equality sign show that no directional difference was detected. One short large Czech caption reads STEJNÝ VÝSLEDEK. The dials are visual aids, not stopwatches used by Michelson and Morley; do not show a generic unexplained interferometer, modern laser equipment or a literal ether wind.",
-      "scene_type": "diagram",
-      "primary_subject": "equal_light_round_trips_in_two_directions",
+      "concept": "A warm luminous ribbon of light undulates through a small floating volume of softly luminous blue mist. Broad translucent mist folds pass behind and in front of the continuous light wave, making light traveling through an imagined medium visible as one coherent scene. This depicts the historical ether idea that the article investigates and rejects; it is not evidence that ether exists and does not claim to diagram the experimental result. No clocks, mirrors, instruments, comparison panels, arrows, equality signs, numbers, words or captions. Keep the mist a restrained foreground subject with genuinely transparent surroundings, not a full-frame fog backdrop.",
+      "scene_type": "interaction",
+      "primary_subject": "light_wave_through_imagined_ether",
       "secondary_subjects": [
-        "perpendicular_light_paths",
-        "matching_time_indicators"
+        "translucent_mist_like_medium"
       ],
       "visual_keywords": [
-        "horizontal_and_vertical_light_round_trips",
-        "same_distance",
-        "equal_time_indicators",
-        "null_directional_difference"
+        "undulating_light_ribbon",
+        "blue_luminous_mist",
+        "light_traveling_through_medium",
+        "historical_hypothesis",
+        "no_text"
       ],
       "composition_hints": [
-        "simple_two_direction_comparison",
-        "identical_time_dials_and_equality_sign",
-        "large_readable_result_caption"
+        "single_light_wave_embedded_in_mist",
+        "few_broad_translucent_folds",
+        "transparent_space_around_subject"
       ],
       "mood": "neutral",
       "palette": "blue_gold"
