@@ -12,7 +12,7 @@
 <main>
 	<header>
 		<a href={`${base}/`}>faakt.io</a>
-		<h1>AI ilustrace 001–045</h1>
+		<h1>AI ilustrace ({samples.length})</h1>
 		<p>Produkční náhled statických obrázků v rozměru mobilní karty.</p>
 	</header>
 	<div class="gallery">

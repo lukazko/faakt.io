@@ -25,8 +25,23 @@
       "palette": "teal_amber"
     },
     "image": "/illustrations-ai/001.webp",
-    "promptHash": "aaab5221af67e9d353b67876b38f57aead2c9fefbd20bbb89a86f4c950448235",
-    "cached": true
+    "promptHash": "8e33b6be86941d062fe7374d792210d3ea8f78195c6fb5e8b46d102f1f9d7264",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"Households put coins aside together; shrinking purchases close shops and reduce the income available to save, forming a downward feedback loop.\",\"primary_subject\":\"paradox_of_thrift_cycle\",\"secondary_subjects\":[\"household_savings\",\"closed_market_stalls\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}\nComposition clarification: a single coherent close view of two shoppers holding their wallets tightly shut while walking past one deserted market stall with its shutter being lowered. Show withheld purchases and the resulting closed shop through the natural poses, no arrows, no savings cycle, no chart, no sequence of panels. Teal and amber foreground.",
+    "metadataHash": "9f39324eec3e2bea5c62ea036c15250014173f245fabe4f58cef7460c088cce0",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "imageSha256": "98e21c57731d618c0035db73b6d12d4cad2d2ff2329f836179b5f16dc1dd85d3",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Two shoppers hold wallets closed beside a stall whose shutter is lowered: withholding purchases reduces shop income. One scene without arrows, legible at both thumbnail sizes; detail exceeds the nominal shape target.",
+      "background": "RGBA WebP; transparent padding on all edges; all corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "23d09ee746253c2223e37ae3ce8cc0be9b6e43e687794c85ce28504b9b2fa9b7"
   },
   {
     "id": "002",
@@ -54,8 +69,25 @@
       "palette": "terracotta_cream"
     },
     "image": "/illustrations-ai/002.webp",
-    "promptHash": "efb21545f174aeea48b44e1c282f3933fd65af11f17425be9dab848b0758efa6",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A hesitant participant reaches for the highest shock switch while an experimenter in a white coat urges obedience; the supposed learner remains behind a partition.\",\"primary_subject\":\"milgram_experiment_panel\",\"secondary_subjects\":[\"experimenter_in_white_coat\",\"hesitant_participant\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"dramatic\",\"palette\":\"violet_coral\"}",
+    "promptHash": "f57a6527b23b4ccfc383308617f63cb79b18c3878ea67956c79a6d0293ad4e4c",
+    "metadataHash": "06858c3f7b71971ef5604b954704bde024c1be611873525b680c1bfb1ce7ccb4",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "051",
+    "sourceImageSha256": "24664daa554d7427203d26868dd2a65dee4f3959e010917e575dad6f7c4474a1",
+    "imageSha256": "24664daa554d7427203d26868dd2a65dee4f3959e010917e575dad6f7c4474a1",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 051; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "f0db8d886bda8feeed0e0175de14dcfcc28bf6b47880cdbfdcc9cadcf51d197c"
   },
   {
     "id": "003",
@@ -112,8 +144,25 @@
       "palette": "monochrome_warm"
     },
     "image": "/illustrations-ai/004.webp",
-    "promptHash": "f9811ef696e1fc47f9e800000072841ce7d4c0854d357a0790d9f8cc956ef24a",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"Van Gogh stands among many unsold canvases, with The Red Vineyard singled out as a sale; artistic abundance contrasts with an almost empty purse.\",\"primary_subject\":\"vincent_van_gogh_unsold_paintings\",\"secondary_subjects\":[\"red_vineyard_painting\",\"empty_coin_purse\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "88f73485731be3d191db11cb0d3ee30f29c8cddc47c1ee48d9e49f5a1ecddc42",
+    "metadataHash": "370c7f8d91785d80257943ec902bdede495fecfdbd0a16d9d7082198ae9b1313",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "063",
+    "sourceImageSha256": "77242f72dd414893c240f40574ee0f0df96b2501f288b3c569dbfd6598256289",
+    "imageSha256": "77242f72dd414893c240f40574ee0f0df96b2501f288b3c569dbfd6598256289",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 063; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "a70b262c82c59dadaa875ee7f416fd5f1128daea34aa0acbcddee293de185029"
   },
   {
     "id": "005",
@@ -170,8 +219,25 @@
       "palette": "violet_coral"
     },
     "image": "/illustrations-ai/006.webp",
-    "promptHash": "4a32b3bd2df196ab5b7ac77653848d6c0d92c8f53e9cbf2cc341b0456b085967",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card. Transparent background. Restrained flat magazine art, clean bold silhouettes, few shapes and colors, one third empty space. Depict Confucius in simple historical Chinese robes interacting kindly with one person, humaneness as everyday considerate conduct. Single coherent scene, immediately legible at thumbnail size. No text, symbols, black/dark background, gradients, texture, decorative scenery, or watermark.\n",
+    "promptHash": "1ecd20e2c5b280ff7230d1270ea74f8763be6f8348bbb179d8969fd6aeba52cb",
+    "metadataHash": "6cbb31f0cc80911d8b959c41b34852483d7f73a399a5324450559afe680e7f23",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "046",
+    "sourceImageSha256": "ef5e4981b63de74a365f7b6bdcad453e080bce18952a77257e184ecfa3b39c97",
+    "imageSha256": "ef5e4981b63de74a365f7b6bdcad453e080bce18952a77257e184ecfa3b39c97",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 046; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "0994aa560c661b9b46ef71efe6a6cdd36a67843b4a223c575ae50a728c08d3af"
   },
   {
     "id": "007",
@@ -228,8 +294,25 @@
       "palette": "indigo_cyan"
     },
     "image": "/illustrations-ai/008.webp",
-    "promptHash": "a3f8fd67ba2e7ca18a2cae6802ceb8504018eeb1de1d617f62e695be9450b06a",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A baker seeking income exchanges bread with customers; separate self-interested choices coordinate supply and demand without a visible central director.\",\"primary_subject\":\"market_bakery_exchange\",\"secondary_subjects\":[\"baker\",\"loaf_of_bread\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "a6ea561c9bf30cc65d8ad601e9e41b03ba8391cea0dcb81354e103c8bded3a60",
+    "metadataHash": "033197aa8a83d1f98bd6b5d87c85383b765432fa74dc40fdd9e553a8e1099eea",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "050",
+    "sourceImageSha256": "0e412643267ef8726d8f4ee355069eadc2d25465ee36ec32b8d718650d3ef4d1",
+    "imageSha256": "0e412643267ef8726d8f4ee355069eadc2d25465ee36ec32b8d718650d3ef4d1",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 050; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "71b7f608c5919065c05615cf44d8cbfc6b7339b96b4bdbacffe0da7dc22f3adc"
   },
   {
     "id": "009",
@@ -257,8 +340,25 @@
       "palette": "violet_coral"
     },
     "image": "/illustrations-ai/009.webp",
-    "promptHash": "87415342a8b0f4eb1ad56b36f3cc681c8c8c029635bac309e5a6cca0ee48a098",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"Believers confront a failed end-of-world prediction and reinterpret an unchanged world as evidence for their faith, resolving dissonance by defending the belief.\",\"primary_subject\":\"failed_prophecy_rationalization\",\"secondary_subjects\":[\"believers\",\"unchanged_world\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}",
+    "promptHash": "c1a64196c9b2a9be9620e3d51645bc09b32173dd6992d6c45c80381d00575eaa",
+    "metadataHash": "1ec8855f0ae7e100868a8a4516bb8f8d4a5f31e4e745f0e4ca6b54a109717bc0",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "082",
+    "sourceImageSha256": "24068dd8a074297f1e4e21ac21a4604607fe802b3701d8da13beb127a88b718b",
+    "imageSha256": "24068dd8a074297f1e4e21ac21a4604607fe802b3701d8da13beb127a88b718b",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 082; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "a4691646ca3153ebbdae1f450786b39dce46d08df837bb3d20e806a65ce5e555"
   },
   {
     "id": "010",
@@ -286,8 +386,25 @@
       "palette": "monochrome_cool"
     },
     "image": "/illustrations-ai/010.webp",
-    "promptHash": "b8e15c6bc33ce9ccb3111fb5596bd9c0e4933bd821da96fab50990694c5a2e20",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"An ordered periodic table leaves deliberate gaps, with newly discovered elements fitting the positions and properties Mendeleev predicted.\",\"primary_subject\":\"mendeleev_periodic_table\",\"secondary_subjects\":[\"empty_element_slots\",\"predicted_elements\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "e01372ba7104c3f1223f34fa2d0a96c97862562ce563070435c8e35fab088cd2",
+    "metadataHash": "caa1f980ddd18c8560b5c1dbaa3e515ae5c327f969bd1eace63f347156bcacae",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "052",
+    "sourceImageSha256": "af6da5b6d07fa4a6bbec4236bdffacd4b5936ce0f42ff2fb7364c090a5b0f361",
+    "imageSha256": "af6da5b6d07fa4a6bbec4236bdffacd4b5936ce0f42ff2fb7364c090a5b0f361",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 052; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "3d70dc28589c65a6ee71758ca00cb0a2579a7ad6ff387ce8c035794e5fe7a1f5"
   },
   {
     "id": "011",
@@ -315,8 +432,25 @@
       "palette": "green_copper"
     },
     "image": "/illustrations-ai/011.webp",
-    "promptHash": "13ca606adf00a6f9ebdbae165e4c775aa45d4c31caeac08431e9cc2bbbd80067",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A stark monochrome Guernica composition of a wounded horse and grieving people turns the bombing of civilians into an artistic protest against war.\",\"primary_subject\":\"guernica_war_mural\",\"secondary_subjects\":[\"distorted_horse\",\"grieving_figures\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "e1f777c8dd53c23d53955ca064d7308254888b9afcddba1086243d51df370830",
+    "metadataHash": "1377db97df46e72e6b637d586e6779a6577770509979c3064c581a0227376fd6",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "094",
+    "sourceImageSha256": "a2bd8728c4196a4766d27c597bb691b161849566f124e8b26ba970fd913a2870",
+    "imageSha256": "a2bd8728c4196a4766d27c597bb691b161849566f124e8b26ba970fd913a2870",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 094; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "973f64757e649b1f3f0925f94af5343ca83620d59428f921518a3bdec82276e7"
   },
   {
     "id": "012",
@@ -344,8 +478,25 @@
       "palette": "teal_amber"
     },
     "image": "/illustrations-ai/012.webp",
-    "promptHash": "949296044e71776754cbd58b7f5dcf01040f3865f1ee1b3b203e33d3ca96d198",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"Contrast a narrow particle-position wave packet with a broad one: sharper position corresponds to a wider momentum spread, a fundamental limit rather than faulty equipment.\",\"primary_subject\":\"position_momentum_uncertainty\",\"secondary_subjects\":[\"localized_wave_packet\",\"spread_out_wave_packet\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"green_copper\"}",
+    "promptHash": "c8008b25b4b3cfbbb9a825c63cb412029ba6a5192c652e19d038963f7ce2c89b",
+    "metadataHash": "33860d2d722635316cd9674bfcd553dce61ea107bbc974f8f873230fbfa34fe8",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "095",
+    "sourceImageSha256": "a476ce9ba2719bf901d3e6190e106a64507b4c106fe1dca9177cb144a66643ba",
+    "imageSha256": "a476ce9ba2719bf901d3e6190e106a64507b4c106fe1dca9177cb144a66643ba",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 095; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "233f246efe4fb5daa5f301b804a8d0403e3cc4baf5c878786cc669a75a137623"
   },
   {
     "id": "013",
@@ -402,8 +553,25 @@
       "palette": "blue_gold"
     },
     "image": "/illustrations-ai/014.webp",
-    "promptHash": "584bf2d2dc4e3093b0575571b776db9f6c46542ed3255f002ac65d3111ac9d92",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A dark black-hole shadow surrounded by a bright ring is assembled from signals of radio telescopes linked across Earth; the target is M87, not an optical camera photograph.\",\"primary_subject\":\"black_hole_shadow\",\"secondary_subjects\":[\"bright_accretion_ring\",\"earth_radio_telescope_network\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "promptHash": "e16c644b870c2c7f43f7e78da0324ab0af58624b412cc1161da60b29e3f3f1fa",
+    "metadataHash": "7527e19034e4cc406c5eee6354de741b2853b8220410f1355e7ec1c2f2300e97",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "054",
+    "sourceImageSha256": "0c54334b3e14917e6d4761e0ba06cc4b5b27de3d115fe5e055ffc8534b8a53f3",
+    "imageSha256": "0c54334b3e14917e6d4761e0ba06cc4b5b27de3d115fe5e055ffc8534b8a53f3",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 054; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "31b07df863961eb9486df77d8de859569b3bf18313a06f2df30523de65188b07"
   },
   {
     "id": "015",
@@ -431,8 +599,25 @@
       "palette": "teal_amber"
     },
     "image": "/illustrations-ai/015.webp",
-    "promptHash": "195c56d953301bf45c09eebe853b6b8ec4989d100e69f2fa78db7f2a63a0ebca",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Josef K faces an impersonal maze of doors and court files, accused without knowing his crime and unable to reach an understandable authority.\",\"primary_subject\":\"josef_k_trial_scene\",\"secondary_subjects\":[\"labyrinthine_bureaucracy\",\"unexplained_accusation\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"dramatic\",\"palette\":\"blue_gold\"}",
+    "promptHash": "35287ff27c81a3554806b49e3d2f392dc1fa526459f306223306b1f412a77013",
+    "metadataHash": "b6763ef27a6b7eb156609534af2ab7959feac1f5c9440252a229c73c8415d5ea",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "045",
+    "sourceImageSha256": "9c69906c9a2a19e69c2b46dfce3eeaa23558ce3ef5287cfb543ee540f4961c46",
+    "imageSha256": "9c69906c9a2a19e69c2b46dfce3eeaa23558ce3ef5287cfb543ee540f4961c46",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 045; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "6b1104827b1e96b0dc4f504acb8fe5e1f49eba977b28c7ff665bbd6b784a0bd5"
   },
   {
     "id": "016",
@@ -460,8 +645,25 @@
       "palette": "terracotta_cream"
     },
     "image": "/illustrations-ai/016.webp",
-    "promptHash": "8087ea6dae205ffb4f430a41880c273083574c1b51d11c371c2dca9e7ffb7fbb",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A monochord divided into simple length ratios produces harmonious intervals, with an understated orbital pattern suggesting the Pythagorean search for numerical cosmic order.\",\"primary_subject\":\"pythagorean_monochord_ratios\",\"secondary_subjects\":[\"vibrating_string\",\"planetary_orbit\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
+    "promptHash": "353073cfad389e4c71893ad01a2945e05e4c29b0ed4985cf2b81303c92808afb",
+    "metadataHash": "4e60b6f2a3cfebddf77837fb9859fbabf72acf226bf3621afaf51ba378f769a7",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "056",
+    "sourceImageSha256": "31980b034088f256ef99fffbc4ad9208edd3334eaba2f589e5652647b00ca689",
+    "imageSha256": "31980b034088f256ef99fffbc4ad9208edd3334eaba2f589e5652647b00ca689",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 056; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "88e01540dad41e48de12ab62bf89448c039b22084449492b1cb04952554e81e0"
   },
   {
     "id": "017",
@@ -489,8 +691,25 @@
       "palette": "blue_gold"
     },
     "image": "/illustrations-ai/017.webp",
-    "promptHash": "03c42500bae4e8e0b2786326dc6cd46f914dcf144a54bc322dfe62f940104059",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"Aristotle indicates a viable path between cowardice and recklessness; the fitting middle depends on the situation rather than a fixed arithmetic average.\",\"primary_subject\":\"aristotelian_golden_mean\",\"secondary_subjects\":[\"aristotle_figure\",\"balanced_path_between_extremes\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}",
+    "promptHash": "4bf8383e0d74f10a5a99613cf2a8a4177f7497184cb23ef0ec75fab8e1eb0804",
+    "metadataHash": "4bc3c64fc0eeb64e5db9fd08a27a537c3d11c5b4bc35c94b2b029b21e4b64424",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "057",
+    "sourceImageSha256": "3fd76ddb62027ea0aa026bc6a46f1f115d74b440a8d0f47326d40e0451013fea",
+    "imageSha256": "3fd76ddb62027ea0aa026bc6a46f1f115d74b440a8d0f47326d40e0451013fea",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 057; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "fa302b4587f4dde6389cd8754606f6f8742c4535b96e7d102c341c4840a90c71"
   },
   {
     "id": "018",
@@ -555,8 +774,25 @@
       "palette": "indigo_cyan"
     },
     "image": "/illustrations-ai/019.webp",
-    "promptHash": "3a6c5d60fa60b9012cfcbe76a16cf0cb2efcd64991da7dc1ecb71d5bb2554080",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"An Ottoman siege cannon faces breached walls of Constantinople in 1453, showing the military event that ended the Byzantine Empire.\",\"primary_subject\":\"constantinople_siege_cannon\",\"secondary_subjects\":[\"breached_byzantine_walls\",\"ottoman_army\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"dramatic\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "6cf0691ad0909a1cea5b1a442b336918c036e5182ff00d30aff7f06fe3a0df44",
+    "metadataHash": "66824702fc9e552a901353ef967b79e02baa9f414c53ddeb25445aa5d6bc780e",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "080",
+    "sourceImageSha256": "57184efdb60ad22d2b9a948dad7b75f00e0bff650b504c87a2f3a66d4ff7e6d2",
+    "imageSha256": "57184efdb60ad22d2b9a948dad7b75f00e0bff650b504c87a2f3a66d4ff7e6d2",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 080; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "53e5b26e054488786725a3d1e613ee134b96c49ea16bf3fae4701c0a7e0394e5"
   },
   {
     "id": "020",
@@ -700,8 +936,25 @@
       "palette": "monochrome_cool"
     },
     "image": "/illustrations-ai/024.webp",
-    "promptHash": "0c769aaf51bd0ff37ef16ed7e087ad290f32d17e4e06ad52e2efd022d95d9a37",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A planet follows an ellipse with the Sun at one focus; equal swept sectors illustrate changing orbital speed and Kepler's laws.\",\"primary_subject\":\"elliptical_planetary_orbit\",\"secondary_subjects\":[\"sun_at_focus\",\"equal_area_sectors\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_warm\"}",
+    "promptHash": "01c9cb50aea0d79ea375c361da058175aa8d1dc133a0f1b0d36926ce2c2a3e05",
+    "metadataHash": "9c87145ea586a7a4fae16d6b2705c647dbe71cd4ba5e28f7f524e5ff5d693f63",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "074",
+    "sourceImageSha256": "c4414f3a62ac595621ddf21fc9847eac4e303f827c1f9fd5fe65d8cc53a679c2",
+    "imageSha256": "c4414f3a62ac595621ddf21fc9847eac4e303f827c1f9fd5fe65d8cc53a679c2",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 074; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "672469e4c76dec75acbee552f816c12c32467678aad6becad770200923cf512d"
   },
   {
     "id": "025",
@@ -729,8 +982,25 @@
       "palette": "green_copper"
     },
     "image": "/illustrations-ai/025.webp",
-    "promptHash": "687ac8a541ea7d9b216c0aad295afc215a52d9f1963898e34b74d54bbf26b5f6",
-    "cached": true
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Josef K faces an impersonal maze of doors and court files, accused without knowing his crime and unable to reach an understandable authority.\",\"primary_subject\":\"josef_k_trial_scene\",\"secondary_subjects\":[\"labyrinthine_bureaucracy\",\"unexplained_accusation\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"dramatic\",\"palette\":\"blue_gold\"}",
+    "promptHash": "35287ff27c81a3554806b49e3d2f392dc1fa526459f306223306b1f412a77013",
+    "metadataHash": "b6763ef27a6b7eb156609534af2ab7959feac1f5c9440252a229c73c8415d5ea",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "045",
+    "sourceImageSha256": "9c69906c9a2a19e69c2b46dfce3eeaa23558ce3ef5287cfb543ee540f4961c46",
+    "imageSha256": "9c69906c9a2a19e69c2b46dfce3eeaa23558ce3ef5287cfb543ee540f4961c46",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 045; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "opaque-background",
+    "previousImageSha256": "b639e21256c1bbc8a8a1624342df8f61e07943947fdbfee05215a547ede30052"
   },
   {
     "id": "026",
@@ -2479,20 +2749,25 @@
       "palette": "teal_amber"
     },
     "image": "/illustrations-ai/068.webp",
-    "promptHash": "b710ed03eda28a09500ad8f96f96b361cc925d5db70423ea8f0deeb345ac57bb",
     "cached": true,
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A hand clenched around a desired object gradually opens beside a calm Buddha, linking attachment to suffering and release to a practicable path.\",\"primary_subject\":\"buddhist_release_from_attachment\",\"secondary_subjects\":[\"buddha_meditating_figure\",\"opening_hand\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}",
-    "metadataHash": "03ebea615fe736296c2d955bb52c77abef910e55da3853ad7e1b46e8f08c1753",
-    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
     "review": {
+      "status": "accepted-background-reuse",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Rejected at 160px and 320px: a detached hand releasing a coin is an unsupported symbolic prop and conflicts with the project illustration rules.",
-      "background": "RGBA WebP; all four corner alpha values 0",
-      "status": "rejected"
-    }
+      "meaning": "Same central topic as post 028; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A single seated Buddha in quiet meditation, with relaxed shoulders, a composed face and his own empty hands resting naturally in his lap. This subject-led portrait accompanies the teaching about suffering, non-attachment and mindfulness; it does not literalize attachment with props. No separate hands, balls, coins, arrows or symbolic objects.\",\"primary_subject\":\"buddha_meditating_figure\",\"secondary_subjects\":[],\"visual_keywords\":[\"seated_buddha\",\"calm_expression\",\"simple_robe\"],\"composition_hints\":[\"portrait_focus\",\"single_uncluttered_silhouette\"],\"scene_type\":\"portrait\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
+    "promptHash": "f4f7fa4ae1d0c63b3cb01b712317dd9dc34e197e5e97c8073fa7b137da8e0f8a",
+    "metadataHash": "a652acef460c82d17d6292949ddcb86f68e6cefb50096a4516e52f578f12fe0b",
+    "reusedFrom": "028",
+    "sourceImageSha256": "a4c57a05bd467bf3e63d560e2e5a930abc2ddd61ea0e2fe3a8d1322a2e8feda6",
+    "imageSha256": "a4c57a05bd467bf3e63d560e2e5a930abc2ddd61ea0e2fe3a8d1322a2e8feda6",
+    "replacementReason": "previously-rejected",
+    "previousImageSha256": "ce59dc6ead8b4b0c5ee3d6bfcd76c3de8b35d669cecf0e66b347dcfcc8808377"
   },
   {
     "id": "069",
@@ -3010,20 +3285,25 @@
       "palette": "green_copper"
     },
     "image": "/illustrations-ai/081.webp",
-    "promptHash": "0da5deba23b6bd144dfb08d8b69eb20db8bd90f8a621a719996a95466fce1576",
     "cached": true,
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"Households put coins aside together; shrinking purchases close shops and reduce the income available to save, forming a downward feedback loop.\",\"primary_subject\":\"paradox_of_thrift_cycle\",\"secondary_subjects\":[\"household_savings\",\"closed_market_stalls\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"mysterious\",\"palette\":\"green_copper\"}",
-    "metadataHash": "3dcdd20f03080a1bdaf39a758801f78a9576f4d18cbd30f7eec5caf2263f1e77",
-    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
     "review": {
+      "status": "accepted-background-reuse",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Rejected at 160px and 320px: large explanatory arrows make the scene a diagram that requires decoding.",
-      "background": "RGBA WebP; all four corner alpha values 0",
-      "status": "rejected"
-    }
+      "meaning": "Same central topic as post 001; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"Households put coins aside together; shrinking purchases close shops and reduce the income available to save, forming a downward feedback loop.\",\"primary_subject\":\"paradox_of_thrift_cycle\",\"secondary_subjects\":[\"household_savings\",\"closed_market_stalls\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}\nComposition clarification: a single coherent close view of two shoppers holding their wallets tightly shut while walking past one deserted market stall with its shutter being lowered. Show withheld purchases and the resulting closed shop through the natural poses, no arrows, no savings cycle, no chart, no sequence of panels. Teal and amber foreground.",
+    "promptHash": "8e33b6be86941d062fe7374d792210d3ea8f78195c6fb5e8b46d102f1f9d7264",
+    "metadataHash": "9f39324eec3e2bea5c62ea036c15250014173f245fabe4f58cef7460c088cce0",
+    "reusedFrom": "001",
+    "sourceImageSha256": "98e21c57731d618c0035db73b6d12d4cad2d2ff2329f836179b5f16dc1dd85d3",
+    "imageSha256": "98e21c57731d618c0035db73b6d12d4cad2d2ff2329f836179b5f16dc1dd85d3",
+    "replacementReason": "previously-rejected",
+    "previousImageSha256": "28fdc4fd2ce8a9b16120258c2a0e19209fe10573ae24cbf285ba662b75ad4711"
   },
   {
     "id": "082",
@@ -3803,5 +4083,453 @@
       "background": "RGBA WebP; all four corner alpha values 0",
       "status": "needs-review"
     }
+  },
+  {
+    "id": "102",
+    "title": "Buddha a čtyři pravdy, které vysvětlují lidské utrpení",
+    "content": "<p>Proč trpíme, i když se snažíme dělat vše správně?</p><p>Buddha, žijící kolem roku 500 př. n. l. v severní Indii, na tuto otázku odpověděl souborem myšlenek známých jako čtyři vznešené pravdy.</p><p>Tvrdil, že utrpení je součástí života, že jeho příčinou je lpění a touha, že utrpení lze zastavit a že cesta k tomu vede přes vědomé jednání, myšlení a soustředění.</p><p>Nejde o mystiku, ale o praktický návod: čím méně lpíme na věcech, které nemůžeme ovlivnit, tím méně trpíme.</p><p><strong>Buddhova diagnóza lidské mysli platí i dnes, tisíce let po jeho smrti.</strong></p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "A hand clenched around a desired object gradually opens beside a calm Buddha, linking attachment to suffering and release to a practicable path.",
+      "scene_type": "diagram",
+      "primary_subject": "buddhist_release_from_attachment",
+      "secondary_subjects": [
+        "buddha_meditating_figure",
+        "opening_hand"
+      ],
+      "visual_keywords": [
+        "buddhist_release_from_attachment",
+        "buddha_meditating_figure",
+        "opening_hand"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_warm"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A single seated Buddha in quiet meditation, with relaxed shoulders, a composed face and his own empty hands resting naturally in his lap. This subject-led portrait accompanies the teaching about suffering, non-attachment and mindfulness; it does not literalize attachment with props. No separate hands, balls, coins, arrows or symbolic objects.\",\"primary_subject\":\"buddha_meditating_figure\",\"secondary_subjects\":[],\"visual_keywords\":[\"seated_buddha\",\"calm_expression\",\"simple_robe\"],\"composition_hints\":[\"portrait_focus\",\"single_uncluttered_silhouette\"],\"scene_type\":\"portrait\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
+    "promptHash": "f4f7fa4ae1d0c63b3cb01b712317dd9dc34e197e5e97c8073fa7b137da8e0f8a",
+    "metadataHash": "a652acef460c82d17d6292949ddcb86f68e6cefb50096a4516e52f578f12fe0b",
+    "image": "/illustrations-ai/102.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "028",
+    "sourceImageSha256": "a4c57a05bd467bf3e63d560e2e5a930abc2ddd61ea0e2fe3a8d1322a2e8feda6",
+    "imageSha256": "a4c57a05bd467bf3e63d560e2e5a930abc2ddd61ea0e2fe3a8d1322a2e8feda6",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 028; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "104",
+    "title": "Rosettská deska: kámen, který rozluštil jazyk faraonů",
+    "content": "<p>Jak rozluštit jazyk, kterým už tři tisíce let nikdo nemluví?</p><p>V roce 1799 narazili francouzští vojáci u egyptského města Rosetta na žulovou desku s textem vytesaným ve třech písmech: hieroglyfickém, démotickém a řeckém.</p><p>Protože řecký text byl čitelný, stal se klíčem k rozluštění staroegyptských hieroglyfů, na kterém pracoval francouzský jazykovědec Jean-François Champollion.</p><p>V roce 1822 oznámil, že hieroglyfy nejsou jen obrázky, ale skutečné písmo se zvukovou hodnotou.</p><p>Deska dnes leží v Britském muzeu v Londýně a patří k nejnavštěvovanějším exponátům na světě.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "The Rosetta Stone's three distinct inscription bands align through matching passages, showing how a known language supplied a key to Egyptian hieroglyphs.",
+      "scene_type": "object",
+      "primary_subject": "rosetta_stone",
+      "secondary_subjects": [
+        "three_inscription_bands",
+        "matching_script_fragments"
+      ],
+      "visual_keywords": [
+        "rosetta_stone",
+        "three_inscription_bands",
+        "matching_script_fragments"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"The Rosetta Stone's three distinct inscription bands align through matching passages, showing how a known language supplied a key to Egyptian hieroglyphs.\",\"primary_subject\":\"rosetta_stone\",\"secondary_subjects\":[\"three_inscription_bands\",\"matching_script_fragments\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "promptHash": "7447730f9266cb8a1b058113884ff2c2a33dbc853b72e5f82266dd01e5469bdc",
+    "metadataHash": "26316af3bec274d1812e2f211ed6702ded54b63c8e2038b37dfb22ffef135d46",
+    "image": "/illustrations-ai/104.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "029",
+    "sourceImageSha256": "6026e3373d8a3c2700773c288ecc8f51396dbd58321f6c1b4474d417fa22085a",
+    "imageSha256": "6026e3373d8a3c2700773c288ecc8f51396dbd58321f6c1b4474d417fa22085a",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 029; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "105",
+    "title": "Neviditelná ruka trhu: Adam Smith a sobectví, které pomáhá všem",
+    "content": "<p>Může sobectví jednotlivce prospívat celé společnosti?</p><p>Skotský ekonom Adam Smith v roce 1776 ve své knize Bohatství národů popsal mechanismus, který nazval neviditelnou rukou trhu.</p><p>Tvrdil, že pekař nepeče chleba z lásky k zákazníkům, ale aby vydělal peníze, a přesto tím zákazníkům chleba zajistí.</p><p>Tisíce takových soukromých zájmů se podle Smitha bez centrálního plánování skládají do funkčního trhu, který rozděluje zboží efektivněji než jakýkoli úředník.</p><p><strong>Trh podle Smitha nepotřebuje dobré úmysly, potřebuje jen svobodnou konkurenci.</strong></p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "A baker seeking income exchanges bread with customers; separate self-interested choices coordinate supply and demand without a visible central director.",
+      "scene_type": "interaction",
+      "primary_subject": "market_bakery_exchange",
+      "secondary_subjects": [
+        "baker",
+        "loaf_of_bread"
+      ],
+      "visual_keywords": [
+        "market_bakery_exchange",
+        "baker",
+        "loaf_of_bread"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A baker seeking income exchanges bread with customers; separate self-interested choices coordinate supply and demand without a visible central director.\",\"primary_subject\":\"market_bakery_exchange\",\"secondary_subjects\":[\"baker\",\"loaf_of_bread\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "a6ea561c9bf30cc65d8ad601e9e41b03ba8391cea0dcb81354e103c8bded3a60",
+    "metadataHash": "033197aa8a83d1f98bd6b5d87c85383b765432fa74dc40fdd9e553a8e1099eea",
+    "image": "/illustrations-ai/105.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "050",
+    "sourceImageSha256": "0e412643267ef8726d8f4ee355069eadc2d25465ee36ec32b8d718650d3ef4d1",
+    "imageSha256": "0e412643267ef8726d8f4ee355069eadc2d25465ee36ec32b8d718650d3ef4d1",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 050; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "106",
+    "title": "Milgramův experiment: jak snadno se lidé podřídí autoritě",
+    "content": "<p>Kolik bolesti bys byl ochoten způsobit cizímu člověku, kdyby ti to nařídila autorita?</p><p>Psycholog Stanley Milgram to v roce 1961 na Yaleově univerzitě otestoval experimentem, ve kterém dobrovolníci měli za údajné chyby trestat neviditelného účastníka elektrickými šoky.</p><p>Přes 60 procent lidí došlo až k nejsilnějšímu šoku, jen proto, že jim to muž v bílém plášti řekl slovem pokračujte.</p><p>Milgram experiment provedl krátce po soudech s nacistickými zločinci a chtěl zjistit, zda je poslušnost autority univerzální lidská vlastnost.</p><p><em>Výsledek byl nepříjemně jasný: většina z nás by za správných podmínek udělala věci, které si o sobě nemyslí.</em></p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "A hesitant participant reaches for the highest shock switch while an experimenter in a white coat urges obedience; the supposed learner remains behind a partition.",
+      "scene_type": "interaction",
+      "primary_subject": "milgram_experiment_panel",
+      "secondary_subjects": [
+        "experimenter_in_white_coat",
+        "hesitant_participant"
+      ],
+      "visual_keywords": [
+        "milgram_experiment_panel",
+        "experimenter_in_white_coat",
+        "hesitant_participant"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "dramatic",
+      "palette": "indigo_cyan"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A hesitant participant reaches for the highest shock switch while an experimenter in a white coat urges obedience; the supposed learner remains behind a partition.\",\"primary_subject\":\"milgram_experiment_panel\",\"secondary_subjects\":[\"experimenter_in_white_coat\",\"hesitant_participant\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"dramatic\",\"palette\":\"violet_coral\"}",
+    "promptHash": "f57a6527b23b4ccfc383308617f63cb79b18c3878ea67956c79a6d0293ad4e4c",
+    "metadataHash": "06858c3f7b71971ef5604b954704bde024c1be611873525b680c1bfb1ce7ccb4",
+    "image": "/illustrations-ai/106.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "051",
+    "sourceImageSha256": "24664daa554d7427203d26868dd2a65dee4f3959e010917e575dad6f7c4474a1",
+    "imageSha256": "24664daa554d7427203d26868dd2a65dee4f3959e010917e575dad6f7c4474a1",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 051; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "107",
+    "title": "Platónova jeskyně: proč většina lidí žije ve stínech",
+    "content": "<p>Co kdybyste celý život sledovali jen <strong>stíny</strong> a mysleli si, že je to skutečnost?</p><p>Řecký filozof Platón kolem roku 380 př. n. l. popsal v díle <em>Ústava</em> podobenství o jeskyni. Vězni jsou od narození přikováni tak, že vidí jen stíny předmětů promítané na stěnu, a tyto stíny považují za jedinou realitu.</p><p>Jeden vězeň se dostane ven, uvidí sluneční světlo a pochopí, že stíny byly pouhým odrazem skutečného světa. Když se vrátí a chce to vysvětlit ostatním, nevěří mu — a raději ho odmítnou, než aby zpochybnili svůj vlastní svět.</p><p>Platón tím ukazoval cestu od smyslového poznání k rozumovému pochopení idejí. Dnes se podobný mechanismus týká informačních bublin a algoritmů, které nám ukazují jen výsek reality.</p><p>Kolik z toho, co považujeme za jistotu, je jen stín na zdi?</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Chained people mistake shadows on a cave wall for reality; behind them a fire and carried objects reveal how the appearances are produced.",
+      "scene_type": "environment",
+      "primary_subject": "platos_cave_shadows",
+      "secondary_subjects": [
+        "chained_observers",
+        "fire_and_carried_objects"
+      ],
+      "visual_keywords": [
+        "platos_cave_shadows",
+        "chained_observers",
+        "fire_and_carried_objects"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "prompt": "Minimal flat editorial artwork, transparent background, 16:9 wide. Plato's cave: in a dark cave, two seated figures face a wall where only shadows are visible; a small fire behind them casts the shadows, simple scene clearly showing that prisoners mistake shadows for reality. No gradients, texture, black background, extra scenery.\n",
+    "promptHash": "3dc5698beb236d6b27890fe58f03d42fd83b5deffb7c1c1182c4bfd0e02dcd53",
+    "metadataHash": "2d6146b1f1c1cf7c0926020acc140212c4cc7bd0a01dd7c9a529ee0b9a925c26",
+    "image": "/illustrations-ai/107.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "047",
+    "sourceImageSha256": "bfd7837bd346f0d63d757fd2ed6f467217b223e1c234f05bd341169fcdfc6761",
+    "imageSha256": "bfd7837bd346f0d63d757fd2ed6f467217b223e1c234f05bd341169fcdfc6761",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 047; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "108",
+    "title": "Démokritos: svět je jen tanec atomů v prázdnotě",
+    "content": "<p>Co by zbylo, kdybychom rozřezali hmotu na nekonečně malé kousky? Démokritos si tuto otázku položil kolem roku 460 př. n. l. a odpověď ho dovedla k myšlence, která o dvě tisíciletí předběhla moderní chemii.</p><p>Podle něj se vše skládá z <strong>atomů</strong> — nedělitelných částic pohybujících se v prázdném prostoru. Jak sám formuloval: <em>„Nic neexistuje kromě atomů a prázdného prostoru, vše ostatní je jen mínění.“</em></p><p>Neměl žádný mikroskop ani experiment, jen logickou úvahu o tom, že dělení hmoty musí mít nějakou hranici. Dnešní fyzika mu dala za pravdu jinou cestou, ale základní intuice zůstala stejná.</p><p>Někdy stačí správná otázka, i bez nástrojů na její ověření.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Different arrangements of small indivisible shapes form material objects against open empty space, expressing Democritus's philosophical atomism without modern laboratory equipment.",
+      "scene_type": "diagram",
+      "primary_subject": "democritean_atoms_in_void",
+      "secondary_subjects": [
+        "indivisible_particles",
+        "empty_space"
+      ],
+      "visual_keywords": [
+        "democritean_atoms_in_void",
+        "indivisible_particles",
+        "empty_space"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_cool"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Different arrangements of small indivisible shapes form material objects against open empty space, expressing Democritus's philosophical atomism without modern laboratory equipment.\",\"primary_subject\":\"democritean_atoms_in_void\",\"secondary_subjects\":[\"indivisible_particles\",\"empty_space\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "94928a90a5d1e805943c0392884cefcb552749917baddf9879be6d855db04ae0",
+    "metadataHash": "249240684f0a7f9d11a15b6ef6e23964ff48d1def0679dd425bee587875e2cd5",
+    "image": "/illustrations-ai/108.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "036",
+    "sourceImageSha256": "e55afa7866cbb45c2148f5077ce6e1c34cb3974cf5511cbbfdbaaf1e13e15dd8",
+    "imageSha256": "e55afa7866cbb45c2148f5077ce6e1c34cb3974cf5511cbbfdbaaf1e13e15dd8",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 036; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "110",
+    "title": "Archimédés a vana, ze které vyskočil s výkřikem Heuréka",
+    "content": "<p>Jak zjistíte, zda je koruna ze skutečného zlata, aniž byste ji roztavili? Tento úkol dostal kolem roku 250 př. n. l. Archimédés od syrakuského krále Hierona II. a jeho řešení se stalo legendou.</p><p>Podle antického zpravodaje Vitruvia si Archimédés všiml, že hladina vody ve vaně stoupá úměrně objemu jeho ponořeného těla. Odtud odvodil princip: <strong>těleso ponořené do kapaliny je nadlehčováno silou rovnou hmotnosti vytlačené kapaliny</strong>.</p><p>Stačilo porovnat objem koruny s objemem stejně těžkého kusu čistého zlata — pokud se lišily, koruna nebyla ryzí.</p><p>Tento princip dodnes vysvětluje, proč obrovské ocelové lodě plavou, zatímco malý kámen se potopí.</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "A crown displaces water into a collecting vessel; equal-weight gold samples with different displaced volumes reveal the relation between volume, density and buoyancy.",
+      "scene_type": "diagram",
+      "primary_subject": "archimedes_displacement_experiment",
+      "secondary_subjects": [
+        "crown",
+        "overflowing_water"
+      ],
+      "visual_keywords": [
+        "archimedes_displacement_experiment",
+        "crown",
+        "overflowing_water"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"A crown displaces water into a collecting vessel; equal-weight gold samples with different displaced volumes reveal the relation between volume, density and buoyancy.\",\"primary_subject\":\"archimedes_displacement_experiment\",\"secondary_subjects\":[\"crown\",\"overflowing_water\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "15cbf8ba3d593756cf225c8bdf9a2b6be9c8521285f99f2863df7fdff7878133",
+    "metadataHash": "255dc4449ceac3e7071b0ddcd431ff5306f60ec21fbeb6e94a9cc1d63d921600",
+    "image": "/illustrations-ai/110.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "038",
+    "sourceImageSha256": "49c670413171195264b9e4f950d261f446959c5f1915fbd7122755bcf0058051",
+    "imageSha256": "49c670413171195264b9e4f950d261f446959c5f1915fbd7122755bcf0058051",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 038; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "111",
+    "title": "Howard Carter otevřel hrobku, kterou 3245 let nikdo nespatřil",
+    "content": "<p>4. listopadu 1922 narazili dělníci v Údolí králů na schod vytesaný do skály. O tři týdny později stál britský archeolog Howard Carter před zapečetěnými dveřmi a jeho svíce odhalila místnost plnou zlata.</p><p>Byla to hrobka faraona <strong>Tutanchamona</strong>, který zemřel kolem roku 1323 př. n. l. a jehož poslední místo odpočinku zůstalo na rozdíl od většiny ostatních hrobek nevykradené.</p><p>Expedici financoval lord Carnarvon a nálezy — včetně proslulé zlaté masky — dodnes patří k nejcennějším artefaktům starého Egypta.</p><p>Mezi smrtí faraona a otevřením jeho hrobky uplynulo přesně tolik let, kolik dnes trvá zhruba 130 lidských generací.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "Carter peers through a newly opened tomb doorway at intact burial treasures and a golden mask, emphasizing the discovery of a preserved royal burial.",
+      "scene_type": "environment",
+      "primary_subject": "tutankhamun_tomb_opening",
+      "secondary_subjects": [
+        "howard_carter",
+        "tutankhamun_gold_mask"
+      ],
+      "visual_keywords": [
+        "tutankhamun_tomb_opening",
+        "howard_carter",
+        "tutankhamun_gold_mask"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "dynamic",
+      "palette": "terracotta_cream"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One recognizable main subject; add secondary subjects only when essential to the concept. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. Make the action or relationship in the concept the visual focal point, readable at thumbnail scale. Depict how the subjects interact or change, not merely the named objects. Composition must convey the central idea; omit unrelated scenery. Render the minimum needed to recognize the subject and its meaningful relationship.\nMetadata: {\"concept\":\"Carter peers through a newly opened tomb doorway at intact burial treasures and a golden mask, emphasizing the discovery of a preserved royal burial.\",\"primary_subject\":\"tutankhamun_tomb_opening\",\"secondary_subjects\":[\"howard_carter\",\"tutankhamun_gold_mask\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"neutral\",\"palette\":\"green_copper\"}",
+    "promptHash": "2c39fba23a70a058c42b8f7af7cd98224579ebb8826349f20c6e28ce79b8f04c",
+    "metadataHash": "7169ceaa7da5b0da92c52e5154333c50dd0550100aa2fe2a963e5900ef6939e6",
+    "image": "/illustrations-ai/111.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "039",
+    "sourceImageSha256": "859777516c65bc95d2d9247c6010d979a0c211f78bff0f927b10e3865c684f79",
+    "imageSha256": "859777516c65bc95d2d9247c6010d979a0c211f78bff0f927b10e3865c684f79",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 039; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "126",
+    "title": "Edwin Hubble a objev, že se vesmír neustále rozpíná",
+    "content": "<p>Do 20. let 20. století panovala představa, že vesmír je statický a neměnný.</p><p>Americký astronom <strong>Edwin Hubble</strong> pozoroval pomocí dalekohledu na observatoři Mount Wilson vzdálené galaxie a zjistil, že jejich světlo je systematicky posunuto směrem k červené barvě spektra.</p><p>V roce 1929 publikoval zjištění, že čím dál je galaxie od nás, tím rychleji se od nás vzdaluje – vztah dnes známý jako Hubbleův zákon.</p><p>Tento objev poskytl první přímý důkaz, že se vesmír rozpíná, a stal se jedním z pilířů teorie velkého třesku. Na jeho počest byl pojmenován Hubbleův vesmírný dalekohled vypuštěný v roce 1990.</p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "More distant galaxies correspond to increasingly stretched light waves, visualizing the measured distance-redshift relation behind cosmic expansion.",
+      "scene_type": "diagram",
+      "primary_subject": "hubble_galaxy_distance_redshift",
+      "secondary_subjects": [
+        "receding_galaxies",
+        "stretched_light_waves"
+      ],
+      "visual_keywords": [
+        "hubble_galaxy_distance_redshift",
+        "receding_galaxies",
+        "stretched_light_waves"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/126.webp",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"More distant galaxies correspond to increasingly stretched light waves, visualizing the measured distance-redshift relation behind cosmic expansion.\",\"primary_subject\":\"hubble_galaxy_distance_redshift\",\"secondary_subjects\":[\"receding_galaxies\",\"stretched_light_waves\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}\nThis scientifically necessary single diagram shows exactly two simple small galaxy silhouettes: a nearer galaxy with a short tightly spaced light wave and a farther galaxy with a longer more widely spaced light wave, making distance and redshift visually comparable. Broad muted blue and amber forms, no labels, no axes, no arrows, no star field or space backdrop. Use only these essential two paired examples.",
+    "promptHash": "7e5bd969b4bc21d07ca2d1ddfb01e7ac5796c11507cd6a55921945e630317eba",
+    "metadataHash": "77daa51f9485a166c7bb1b793d15c7cc8ab8a456db7c496714b41ac864afc308",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "imageSha256": "6fe8d3e492115b260f0f7221482bb6974ccbc984cbcb001b53cd6a401ca3ebc0",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Two galaxies paired with short and longer-wavelength light waves accompany the distance/redshift relation. Galaxy sizes and positions are schematic, not a calibrated distance chart. No arrows, axes, labels or opaque space backdrop.",
+      "background": "RGBA WebP; transparent padding on all edges; all corners alpha 0"
+    },
+    "replacementReason": "missing"
+  },
+  {
+    "id": "558",
+    "title": "Čím dál je galaxie, tím rychleji se od nás vzdaluje, zjistilo měření z roku 1929",
+    "content": "<p>Americký astronom Edwin Hubble na observatoři Mount Wilson porovnával v 20. letech 20. století vzdálenosti galaxií, určené pomocí cefeid, s posunem jejich spektrálních čar směrem k červené barvě.</p><p>Zjistil jasný vztah: čím dál galaxie leží, tím větší je tento <strong>rudý posuv</strong>, a tedy tím rychleji se od nás vzdaluje.</p><p>Vztah mezi vzdáleností a rychlostí vzdalování se dnes nazývá <strong>Hubbleův zákon</strong> a byl prvním přímým pozorovacím důkazem, že se vesmír jako celek rozpíná.</p><p>Přesná hodnota konstanty, která tento vztah popisuje, se dodnes zpřesňuje a různé metody měření dávají mírně odlišné výsledky, což je jedna z otevřených otázek dnešní kosmologie.</p><p><em>Bez tohoto pozorování by teorie velkého třesku postrádala svůj klíčový empirický základ.</em></p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "More distant galaxies correspond to increasingly stretched light waves, visualizing the measured distance-redshift relation behind cosmic expansion.",
+      "scene_type": "diagram",
+      "primary_subject": "hubble_galaxy_distance_redshift",
+      "secondary_subjects": [
+        "receding_galaxies",
+        "stretched_light_waves"
+      ],
+      "visual_keywords": [
+        "hubble_galaxy_distance_redshift",
+        "receding_galaxies",
+        "stretched_light_waves"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"More distant galaxies correspond to increasingly stretched light waves, visualizing the measured distance-redshift relation behind cosmic expansion.\",\"primary_subject\":\"hubble_galaxy_distance_redshift\",\"secondary_subjects\":[\"receding_galaxies\",\"stretched_light_waves\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}\nThis scientifically necessary single diagram shows exactly two simple small galaxy silhouettes: a nearer galaxy with a short tightly spaced light wave and a farther galaxy with a longer more widely spaced light wave, making distance and redshift visually comparable. Broad muted blue and amber forms, no labels, no axes, no arrows, no star field or space backdrop. Use only these essential two paired examples.",
+    "promptHash": "7e5bd969b4bc21d07ca2d1ddfb01e7ac5796c11507cd6a55921945e630317eba",
+    "metadataHash": "77daa51f9485a166c7bb1b793d15c7cc8ab8a456db7c496714b41ac864afc308",
+    "image": "/illustrations-ai/558.webp",
+    "cached": true,
+    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+    "reusedFrom": "126",
+    "sourceImageSha256": "6fe8d3e492115b260f0f7221482bb6974ccbc984cbcb001b53cd6a401ca3ebc0",
+    "imageSha256": "6fe8d3e492115b260f0f7221482bb6974ccbc984cbcb001b53cd6a401ca3ebc0",
+    "review": {
+      "status": "accepted-background-reuse",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Same central topic as post 126; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+      "background": "RGBA WebP; all four corners alpha 0"
+    },
+    "replacementReason": "missing"
   }
 ]

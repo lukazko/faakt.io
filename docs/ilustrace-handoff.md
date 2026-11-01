@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Vygenerované příspěvky: `001`–`100` (100 souborů).
+- Dostupné ilustrace: `001`–`100`, `102`, `104`–`108`, `110`, `111`, `126`, `558` (110 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -17,7 +17,7 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 100 obrázků ve stylu karet. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 110 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
 
 ## Generování
 
@@ -58,4 +58,39 @@ Nov? `044.webp` m? 22 308 B, 640?360 px a pr?hledn? rohy. Kontrola p?i 160?90 a 
 
 ## Dávka 046–100
 
-Posty 046–100 mají samostatné průhledné ilustrace vytvořené vestavěným image_gen. Manifest ukládá prompty, hashe a stav kontroly; nové záznamy jsou označeny `needs-review`, dokud neproběhne sémantická kontrola proti celému textu příspěvku. Miniatury byly prohlédnuty při 160×90 a 320×180 px. Ilustrace `068`, `081` a `090` byly při této kontrole odmítnuty kvůli nepodloženým symbolům nebo vysvětlujícím šipkám a nejsou zapnuty v kartách. Post 046 má opravená ilustrační metadata podle obsahu. U postu 073 byla scéna zjednodušena na Michelangela při malbě nefigurální části stropu, protože původní prompt zobrazující fresku narazil na bezpečnostní filtr.
+Posty 046–100 mají průhledné ilustrace vytvořené vestavěným image_gen nebo převzaté ze stejného tématu. Manifest ukládá prompty, hashe a stav kontroly; záznamy `needs-review` stále čekají na úplný sémantický audit. Miniatury byly prohlédnuty při 160×90 a 320×180 px. Ilustrace `090` je odmítnutá a není zapnutá v kartách. `068` používá schválený portrét z `028`; `081` používá novou scénu z `001` bez šipek. Obě jsou zapnuté v kartách. Post 046 má opravená ilustrační metadata podle obsahu. U postu 073 byla scéna zjednodušena na Michelangela při malbě nefigurální části stropu, protože původní prompt zobrazující fresku narazil na bezpečnostní filtr.
+
+## Ilustrace duplicitních témat
+
+Kontrola pokrývá 67 příspěvků ve 28 skupinách uvedených v `skills/faakt-create-posts/references/duplicity.md`. Všech 67 má WebP 640×360, skutečný alfa kanál, čtyři průhledné rohy a soubor pod 100 kB. Správné původní varianty zůstávají zachované. Nahrazeno je 16 obrázků s neprůhledným pozadím a dvě dříve odmítnuté ilustrace; doplněno je 10 chybějících souborů. Celkem se změnilo 28 assetů: dva nové výstupy image_gen a 26 přesných kopií stejného tématu. `posts.json` ani jeho metadata se nemění.
+
+Nová `001` (také `081`) ukazuje zákazníky se zavřenými peněženkami vedle zavíraného stánku: omezení nákupů ubírá obchodníkovi příjem. Jedna scéna bez šipek; počet detailů přesahuje orientační cíl ploch, děj je však při 160×90 a 320×180 čitelný. Nová `126` (také `558`) používá nezbytné jednoduché porovnání dvou galaxií a krátkých/delších světelných vln. Velikost a poloha galaxií nejsou kalibrovaným měřítkem vzdálenosti. Oba výstupy mají průhledné odsazení po všech hranách; při konverzi se zachovává RGBA. Nástroj nenabízel řízení ceny, kvality ani vstupních rozměrů.
+
+| Zdrojová ilustrace | Příspěvky přebírající stejný soubor |
+|---|---|
+| 001 (nová) | 081 |
+| 051 | 002, 106 |
+| 063 | 004 |
+| 046 | 006 |
+| 050 | 008, 105 |
+| 082 | 009 |
+| 052 | 010 |
+| 094 | 011 |
+| 095 | 012 |
+| 054 | 014 |
+| 045 | 015, 025 |
+| 056 | 016 |
+| 057 | 017 |
+| 080 | 019 |
+| 074 | 024 |
+| 028 | 068, 102 |
+| 029 | 104 |
+| 036 | 108 |
+| 038 | 110 |
+| 039 | 111 |
+| 047 | 107 |
+| 126 (nová) | 558 |
+
+Sdílení znamená shodu ústředního tématu, nikoli rekonstrukci každého konkrétního příběhu. Například `009` přebírá z `082` scénu kognitivní disonance s náboženskou skupinou, i když jeho text popisuje jiný experiment. Manifest u kopií eviduje `reusedFrom`, `sourceImageSha256`, výsledný `imageSha256`, původní prompt a jeho zdrojový `metadataHash`, důvod nahrazení a hash předchozího souboru, pokud existoval. Pole `illustration` nadále patří cílovému postu. Stav `accepted-background-reuse` potvrzuje kontrolu pozadí a použitelnost miniatury pro stejné téma, nikoli nový úplný audit všech faktických detailů.
+
+Ověření této změny zahrnuje dekódování všech 67 WebP, rozměry, alfu, průhledné rohy, limit velikosti, shodu kopií se zdrojem, manifest a zapnutí cílových ID v komponentě. Dále platí `npm test` a `npm run build`.
