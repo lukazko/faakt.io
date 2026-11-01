@@ -118,7 +118,7 @@ Generování: `ANTHROPIC_API_KEY=sk-ant-... npm run generate --count=30`
 - **Nastavení Pages**: Settings → Pages → branch `gh-pages`, folder `/ (root)`
 
 ## Pracovní postupy
-- Každá změna do samostatné **branch**e
+- **Větve vol podle souvislosti a rozsahu práce; novou větev nezakládej automaticky pro každý požadavek nebo dávku.** Před změnou zkontroluj aktuální větev a rozpracované změny. Navazující úpravy stejného tématu mohou pokračovat v jedné vhodné pracovní větvi, například postupné dávky ilustrací ve větvi `new-illustrations`. Novou větev založ pro samostatný, nesouvisející úkol nebo pokud oddělení usnadní kontrolu a sloučení změn. Nepřimíchávej nesouvisející práci a zachovej rozpracované změny; respektuj výslovné zadání uživatele ohledně větve.
 - Commituj pravidelně s popisem v češtině
 - Po schválení merge do main, Actions nasadí automaticky
 - **Vizuální změny**: každá úprava ilustrací, palety, motivů, kompozic, rendereru nebo vývojové galerie musí ve stejném commitu aktualizovat `docs/ilustrace-handoff.md` — počty, tabulky, mapování, paletu, testy i zlaté otisky. Dokument popisuje aktuální stav, ne historii.
