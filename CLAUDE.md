@@ -93,6 +93,7 @@ Generování: `ANTHROPIC_API_KEY=sk-ant-... npm run generate --count=30`
 ## Architektura a chování
 
 ### Feed a řazení
+- Lokální test: pouze při `npm run dev` lze tlačítkem „Podle ID“ v odznaku vlevo dole výslovně zapnout číselné řazení příspěvků. Volbu drží URL `?order=id`, případně s `&post=005` pro začátek na konkrétním příspěvku. Tlačítko „Náhodně“ režim vypne. Bez této volby se feed dál míchá; produkční build parametr ignoruje a přepínač neobsahuje.
 - **Fisher-Yates shuffle** při každém načtení stránky — každý uživatel vidí myšlenky v jiném pořadí
 - Pokud je otevřeno `/post/005`, tato myšlenka je první, zbytek je náhodný
 - Při scrollování se URL v adresním řádku průběžně mění (`history.replaceState`)
