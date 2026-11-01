@@ -37,6 +37,7 @@ Při přípravě nové dávky použij tyto skupiny jako příklady již pokrytý
 
 - „Do řeky nevstoupíš dvakrát“, „vše plyne“ a moderní aplikace Hérakleitovy proměny jsou stejná myšlenka; přejmenování a nový příklad nepomáhají.
 - Posty 009 a 082 popisují různé příběhy, ale učí stejný mechanismus kognitivní disonance. Jiný příběh nestačí.
+- Tato obsahová duplicita sama o sobě neopravňuje ke sdílení ilustrace: kolíčkový experiment 009 a nenaplněná předpověď sekty 082 mají jiné konkrétní scény. Při opravě pozadí zachovej námět, který nejlépe odpovídá textu; postup posouzení sdílených obrázků je v [ilustračním skillu](../../faakt-illustrations/SKILL.md). Výslovně zvolený společný obrázek může doprovázet princip, ale nesmí být vydáván za vyobrazení obou příběhů.
 - Naopak Smithova dělba práce (157) je jiný poznatek než neviditelná ruka (008, 050, 105). Konfuciova oprava slov (776) je jiná myšlenka než zlaté pravidlo (006, 046, 078). Nezakazuj celé osobnosti nebo obory.
 - Podobný titulek není důkaz: 474 zmiňuje cibulky, ale jeho celý obsah pojednává o bublině Společnosti jižních moří, zatímco 236 o tulipánové horečce. Rozhoduje celý obsah.
 - Příbuzná témata jako neeukleidovská geometrie (495, 846) vyžadují individuální posouzení hlavního poznatku. Tato tabulka nepotvrzuje jejich vzájemnou originalitu.

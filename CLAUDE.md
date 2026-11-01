@@ -154,6 +154,8 @@ Doporučený postup:
 
 ## Shared skills for AI agents
 
+- Při sdílení ilustrací rozlišuj obsahovou duplicitu od shody konkrétní scény. Oprava pozadí má zachovat nejlépe odpovídající námět; průhledná ilustrace jiného příběhu není automaticky náhradou. U experimentů ověř i směr účinku (u 009 pozitivnější hodnocení po malé odměně). Podrobnosti a výslovně zvolené sdílení 009/082 popisuje `skills/faakt-illustrations/SKILL.md`.
+
 - **Brána originality nových postů:** dodrž povinnou kontrolu v `skills/faakt-create-posts/SKILL.md` a přečti `skills/faakt-create-posts/references/duplicity.md`. Kontrola musí doložit pokrytí celé aktuální databáze (hash, počet, všechna ID) a pracovní verdikt ke každému návrhu s nejbližšími existujícími posty a konkrétním novým poznatkem. Opakovaný mechanismus v jiném příběhu je duplicita. Ověř i hotové texty mezi sebou a změny databáze před zápisem; bez dokončené kontroly dávku nepředávej ani nezapisuj. Pracovní přehled nepatří do datového schématu postů.
 - For generating post illustrations from existing metadata, use `skills/faakt-illustrations/SKILL.md`. The workflow and helper are part of this repository and work with any AI agent, without a Codex dependency.
 

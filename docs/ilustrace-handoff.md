@@ -62,7 +62,7 @@ Posty 046–100 mají průhledné ilustrace vytvořené vestavěným image_gen n
 
 ## Ilustrace duplicitních témat
 
-Kontrola pokrývá 67 příspěvků ve 28 skupinách uvedených v `skills/faakt-create-posts/references/duplicity.md`. Všech 67 má WebP 640×360, skutečný alfa kanál, čtyři průhledné rohy a soubor pod 100 kB. Správné původní varianty zůstávají zachované. Nahrazeno je 16 obrázků s neprůhledným pozadím a dvě dříve odmítnuté ilustrace; doplněno je 10 chybějících souborů. Celkem se změnilo 28 assetů: dva nové výstupy image_gen a 26 přesných kopií stejného tématu. `posts.json` ani jeho metadata se nemění.
+Kontrola pokrývá 67 příspěvků ve 28 skupinách uvedených v `skills/faakt-create-posts/references/duplicity.md`. Všech 67 má WebP 640×360, skutečný alfa kanál, čtyři průhledné rohy a soubor pod 100 kB. Nahrazeno je 16 obrázků s neprůhledným pozadím, dvě dříve odmítnuté ilustrace a tematická scéna 082 podle výslovné volby uživatele; doplněno je 10 chybějících souborů. Oproti stavu před opravou duplicit jde o 29 assetů: tři nové výstupy image_gen a 26 přesných kopií. `posts.json` ani jeho metadata se nemění.
 
 Nová `001` (také `081`) ukazuje zákazníky se zavřenými peněženkami vedle zavíraného stánku: omezení nákupů ubírá obchodníkovi příjem. Jedna scéna bez šipek; počet detailů přesahuje orientační cíl ploch, děj je však při 160×90 a 320×180 čitelný. Nová `126` (také `558`) používá nezbytné jednoduché porovnání dvou galaxií a krátkých/delších světelných vln. Velikost a poloha galaxií nejsou kalibrovaným měřítkem vzdálenosti. Oba výstupy mají průhledné odsazení po všech hranách; při konverzi se zachovává RGBA. Nástroj nenabízel řízení ceny, kvality ani vstupních rozměrů.
 
@@ -73,7 +73,7 @@ Nová `001` (také `081`) ukazuje zákazníky se zavřenými peněženkami vedle
 | 063 | 004 |
 | 046 | 006 |
 | 050 | 008, 105 |
-| 082 | 009 |
+| 009 (nová) | 082 |
 | 052 | 010 |
 | 094 | 011 |
 | 095 | 012 |
@@ -91,6 +91,8 @@ Nová `001` (také `081`) ukazuje zákazníky se zavřenými peněženkami vedle
 | 047 | 107 |
 | 126 (nová) | 558 |
 
-Sdílení znamená shodu ústředního tématu, nikoli rekonstrukci každého konkrétního příběhu. Například `009` přebírá z `082` scénu kognitivní disonance s náboženskou skupinou, i když jeho text popisuje jiný experiment. Manifest u kopií eviduje `reusedFrom`, `sourceImageSha256`, výsledný `imageSha256`, původní prompt a jeho zdrojový `metadataHash`, důvod nahrazení a hash předchozího souboru, pokud existoval. Pole `illustration` nadále patří cílovému postu. Stav `accepted-background-reuse` potvrzuje kontrolu pozadí a použitelnost miniatury pro stejné téma, nikoli nový úplný audit všech faktických detailů.
+`009` a `082` používají na výslovné přání uživatele novou variantu původní ilustrace kolíčkového experimentu 009. Má dvě postavy u desky s kolíčky: účastník s malou odměnou hodnotí práci nadšeněji, účastník s větší odměnou působí znuděně. Tento směr účinku je podstatou výsledku; ilustrace jej nesmí obrátit. Nová verze má 25 270 B, průhledné okraje, 640×360 px a byla prohlédnuta při 160×90 a 320×180 na gradientu karty. Jemné stínování přesahuje přísně plochý stylový cíl. U 082 jde o uživatelem zvolený doprovod společného principu, nikoli o zobrazení příběhu sekty z jeho textu.
+
+Obsahová duplicita automaticky neznamená vizuální zaměnitelnost. Při opravě pozadí má přednost konkrétní scéna nejlépe odpovídající textu; odlišný příběh se stejným principem není automaticky náhradou. Toto pravidlo včetně srovnání původní a navržené scény je v ilustračním skillu. Manifest u kopií eviduje `reusedFrom`, `sourceImageSha256`, výsledný `imageSha256`, původní prompt a jeho zdrojový `metadataHash`, důvod nahrazení a hash předchozího souboru, pokud existoval. `009` navíc eviduje revizi a hash původního obrazového podkladu. Pole `illustration` nadále patří cílovému postu. Stav `accepted-user-selected-topic-accompaniment` u 082 výslovně rozlišuje zvolený tematický doprovod od přesné shody scény; starší `accepted-background-reuse` nepotvrzuje úplný sémantický audit.
 
 Ověření této změny zahrnuje dekódování všech 67 WebP, rozměry, alfu, průhledné rohy, limit velikosti, shodu kopií se zdrojem, manifest a zapnutí cílových ID v komponentě. Dále platí `npm test` a `npm run build`.
