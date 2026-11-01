@@ -16,6 +16,17 @@
 	let currentIndex = $state(0);
 	let totalPosts = $state(0);
 	let error = $state(null);
+	// Výslovně zapnutý lokální testovací režim; produkční build jej ignoruje.
+	let sequentialOrder = $state(false);
+
+	function toggleDevOrder() {
+		if (!import.meta.env.DEV) return;
+		const url = new URL(window.location.href);
+		if (sequentialOrder) url.searchParams.delete('order');
+		else url.searchParams.set('order', 'id');
+		if (activePost) url.searchParams.set('post', activePost.id);
+		window.location.assign(url.href);
+	}
 
 	// Příspěvek, na kterém uživatel právě stojí. Nabídka akcí bydlí v kartě,
 	// ale její stav drží feed — otevírá se jen u aktivní karty a při scrollu
@@ -113,11 +124,14 @@
 	 */
 	function buildFeed(category, targetId) {
 		const pool = category ? allPosts.filter(p => p.category === category) : allPosts;
+		if (import.meta.env.DEV && sequentialOrder) {
+			return [...pool].sort((a, b) => Number(a.id) - Number(b.id));
+		}
 		return shufflePosts(pool, targetId);
 	}
 
 	/**
-	 * Reset pozice ve feedu na úplně první příspěvek (bez animace).
+	 * Zarovnání na zvolený příspěvek (bez animace).
 	 */
 	function resetScroll() {
 		requestAnimationFrame(() => {
@@ -125,7 +139,7 @@
 			if (!container) return;
 			container.style.scrollBehavior = 'auto';
 			container.style.scrollSnapType = 'none';
-			container.scrollTop = 0;
+			container.scrollTop = currentIndex * (cardStep || container.clientHeight);
 			container.style.scrollBehavior = '';
 			container.style.scrollSnapType = '';
 		});
@@ -155,8 +169,10 @@
 		appliedCategory = category;
 		posts = buildFeed(category, targetId);
 		totalPosts = posts.length;
-		visibleCount = PAGE_SIZE;
-		currentIndex = 0;
+		currentIndex = import.meta.env.DEV && sequentialOrder
+			? Math.max(0, posts.findIndex(post => post.id === targetId))
+			: 0;
+		visibleCount = Math.max(PAGE_SIZE, Math.ceil((currentIndex + 1) / PAGE_SIZE) * PAGE_SIZE);
 		menuOpen = false;
 	}
 
@@ -200,6 +216,7 @@
 			const response = await fetch(`${base}/data/posts.json`);
 			if (!response.ok) throw new Error(`Nepodařilo se načíst příspěvky (${response.status})`);
 			allPosts = await response.json();
+			sequentialOrder = import.meta.env.DEV && new URLSearchParams(window.location.search).get('order') === 'id';
 			dataReady = true;
 			// Respektuj ?category= i ?post= z URL (refresh i přímý odkaz).
 			// Feed sestavíme ještě před prvním vykreslením, ať neproblikne prázdný stav.
@@ -311,7 +328,7 @@
 		const onPop = () => {
 			const urlCategory = getCategoryFromUrl();
 			if (urlCategory !== appliedCategory) {
-				applyCategory(urlCategory, { syncUrl: false });
+				applyCategory(urlCategory, { syncUrl: false, targetId: getPostIdFromUrl() });
 			}
 		};
 		window.addEventListener('popstate', onPop);
@@ -433,6 +450,9 @@
 			<span class="dev-post-badge-meta">
 				{Math.min(currentIndex + 1, Math.max(posts.length, 1))}/{posts.length}
 			</span>
+			<button type="button" aria-pressed={sequentialOrder} onclick={toggleDevOrder}>
+				{sequentialOrder ? 'Náhodně' : 'Podle ID'}
+			</button>
 		</div>
 	{/if}
 
@@ -746,6 +766,17 @@
 
 	.dev-post-badge-meta {
 		opacity: 0.6;
+	}
+
+	.dev-post-badge button {
+		pointer-events: auto;
+		border: 1px solid currentColor;
+		border-radius: 4px;
+		background: transparent;
+		color: inherit;
+		font: inherit;
+		padding: 4px 6px;
+		cursor: pointer;
 	}
 
 	.progress-bar {

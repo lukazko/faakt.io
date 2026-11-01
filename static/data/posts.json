@@ -1629,17 +1629,17 @@
       }
     ],
     "illustration": {
-      "concept": "Confucius teaches care and respect through everyday relationships, showing humaneness as practiced conduct rather than social rank or an isolated portrait.",
+      "concept": "Confucius turns toward a downcast younger person and gives him his full attention, showing humaneness as practiced empathy between two people rather than as social rank or an isolated portrait.",
       "scene_type": "interaction",
       "primary_subject": "confucian_humaneness",
       "secondary_subjects": [
         "confucius_figure",
-        "considerate_family_relationships"
+        "downcast_younger_person"
       ],
       "visual_keywords": [
         "confucian_humaneness",
         "confucius_figure",
-        "considerate_family_relationships"
+        "downcast_younger_person"
       ],
       "composition_hints": [
         "two_objects_in_interaction",
@@ -3211,21 +3211,18 @@
       }
     ],
     "illustration": {
-      "concept": "A calm person attends to an inner circle of choices and judgments while wealth, reputation and external events remain outside their control.",
-      "scene_type": "diagram",
-      "primary_subject": "epictetus_circle_of_control",
-      "secondary_subjects": [
-        "personal_judgment",
-        "external_events"
-      ],
+      "concept": "A restrained subject-led portrait of Epictetus, the Stoic philosopher, with a composed face and one hand resting naturally against his chin in reflection. The portrait accompanies his teaching that peace depends on our judgments and responses; it does not diagram control or external events. No circles, coins, crowns, storms, scrolls or detached symbols.",
+      "scene_type": "portrait",
+      "primary_subject": "epictetus_contemplative_portrait",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "epictetus_circle_of_control",
-        "personal_judgment",
-        "external_events"
+        "stoic_philosopher",
+        "calm_expression",
+        "simple_ancient_robe"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "portrait_focus",
+        "single_uncluttered_silhouette"
       ],
       "mood": "contemplative",
       "palette": "violet_coral"
@@ -4075,24 +4072,27 @@
       }
     ],
     "illustration": {
-      "concept": "A cathode-ray beam bends between charged plates in a vacuum tube, revealing negatively charged components smaller than the supposedly indivisible atom.",
-      "scene_type": "diagram",
-      "primary_subject": "thomson_cathode_ray_tube",
+      "concept": "A large magnifying glass reveals a recognizable stylized atom with three clearly separated electron particles around a small central core. The magnified interior makes the atom's smaller constituents visually discoverable. Use one coherent close-up, not an isolated particle or a labeled diagram. No words, letters, minus signs, equations, arrows or caption. The magnifying glass and atomic symbol are editorial metaphors for revealing internal structure, not a claim about optical microscopy or the exact atomic model used by Thomson in 1897.",
+      "scene_type": "interaction",
+      "primary_subject": "magnified_atom_revealing_electrons",
       "secondary_subjects": [
-        "deflected_electron_beam",
-        "charged_plates"
+        "magnifying_glass",
+        "visible_electron_constituents"
       ],
       "visual_keywords": [
-        "thomson_cathode_ray_tube",
-        "deflected_electron_beam",
-        "charged_plates"
+        "recognizable_atom",
+        "revealed_internal_structure",
+        "three_distinct_electrons",
+        "magnifying_lens",
+        "no_text"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "one_large_lens_revealing_atom",
+        "clear_electrons_within_atomic_structure",
+        "one_coherent_close_up"
       ],
       "mood": "neutral",
-      "palette": "terracotta_cream"
+      "palette": "blue_gold"
     }
   },
   {
@@ -4219,21 +4219,22 @@
       }
     ],
     "illustration": {
-      "concept": "Aid crates and financing restart damaged European factories and infrastructure after the Second World War, linking assistance to reconstruction.",
-      "scene_type": "process",
+      "concept": "Workers unload an American aid crate marked USA beside a damaged European factory being rebuilt after World War II. Keep one concrete reconstruction scene. The USA label identifies the aid's origin; do not use a circle of stars or European Union emblem.",
+      "scene_type": "interaction",
       "primary_subject": "marshall_plan_reconstruction",
       "secondary_subjects": [
-        "european_factories",
-        "aid_crates"
+        "american_aid_crate",
+        "rebuilding_european_factory"
       ],
       "visual_keywords": [
-        "marshall_plan_reconstruction",
-        "european_factories",
-        "aid_crates"
+        "american_postwar_aid",
+        "usa_crate_label",
+        "unloading_workers",
+        "factory_reconstruction"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "one_coherent_unloading_scene",
+        "aid_crate_next_to_rebuilding_factory"
       ],
       "mood": "neutral",
       "palette": "violet_coral"
@@ -4399,24 +4400,28 @@
       }
     ],
     "illustration": {
-      "concept": "A revolutionary crowd confronts the Bastille fortress in 1789, making the attack on royal authority the central historical action.",
-      "scene_type": "environment",
+      "concept": "A compact group of Parisian revolutionaries in eighteenth-century civilian dress advances with raised pikes toward the massive closely spaced round towers and high walls of the Bastille. The collective uprising and distinctive fortress are the main motif. A simple blue-white-red ribbon beneath the scene identifies France as retrospective editorial context, not a flag carried on 14 July 1789. No guillotine, modern Paris monuments or later revolutionary battle.",
+      "scene_type": "interaction",
       "primary_subject": "storming_of_bastille",
       "secondary_subjects": [
-        "revolutionary_crowd",
-        "fortress_gate"
+        "bastille_round_tower_fortress",
+        "parisian_revolutionary_crowd",
+        "french_editorial_ribbon"
       ],
       "visual_keywords": [
-        "storming_of_bastille",
-        "revolutionary_crowd",
-        "fortress_gate"
+        "massive_round_towers",
+        "raised_pikes",
+        "eighteenth_century_civilians",
+        "collective_uprising",
+        "french_blue_white_red_context"
       ],
       "composition_hints": [
-        "wide_environmental_view",
-        "distinctive_foreground_object"
+        "compact_revolutionary_group_in_foreground",
+        "recognizable_fortress_mass_behind",
+        "editorial_tricolour_ribbon_below_scene"
       ],
       "mood": "dramatic",
-      "palette": "green_copper"
+      "palette": "blue_gold"
     }
   },
   {
@@ -4471,24 +4476,26 @@
       }
     ],
     "illustration": {
-      "concept": "Light splits into perpendicular interferometer arms and recombines without the expected directional shift, depicting the null result of the ether-wind experiment.",
-      "scene_type": "diagram",
-      "primary_subject": "michelson_morley_interferometer",
+      "concept": "A warm luminous ribbon of light undulates through a small floating volume of softly luminous blue mist. Broad translucent mist folds pass behind and in front of the continuous light wave, making light traveling through an imagined medium visible as one coherent scene. This depicts the historical ether idea that the article investigates and rejects; it is not evidence that ether exists and does not claim to diagram the experimental result. No clocks, mirrors, instruments, comparison panels, arrows, equality signs, numbers, words or captions. Keep the mist a restrained foreground subject with genuinely transparent surroundings, not a full-frame fog backdrop.",
+      "scene_type": "interaction",
+      "primary_subject": "light_wave_through_imagined_ether",
       "secondary_subjects": [
-        "perpendicular_light_paths",
-        "recombined_beams"
+        "translucent_mist_like_medium"
       ],
       "visual_keywords": [
-        "michelson_morley_interferometer",
-        "perpendicular_light_paths",
-        "recombined_beams"
+        "undulating_light_ribbon",
+        "blue_luminous_mist",
+        "light_traveling_through_medium",
+        "historical_hypothesis",
+        "no_text"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "single_light_wave_embedded_in_mist",
+        "few_broad_translucent_folds",
+        "transparent_space_around_subject"
       ],
       "mood": "neutral",
-      "palette": "terracotta_cream"
+      "palette": "blue_gold"
     }
   },
   {

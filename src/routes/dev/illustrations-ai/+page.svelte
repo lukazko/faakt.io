@@ -12,7 +12,7 @@
 <main>
 	<header>
 		<a href={`${base}/`}>faakt.io</a>
-		<h1>AI ilustrace 001–045</h1>
+		<h1>AI ilustrace ({samples.length})</h1>
 		<p>Produkční náhled statických obrázků v rozměru mobilní karty.</p>
 	</header>
 	<div class="gallery">
@@ -24,6 +24,8 @@
 					<h2>{post.title}</h2>
 					{#if post.review?.status === 'rejected-simplicity'}
 						<p>Ke zjednodušení: příliš jemné detaily při 160×90 px. V produkčních kartách se nezobrazuje.</p>
+					{:else if post.review?.status === 'rejected-semantics'}
+						<p>K opravě: symbolika neodpovídá historickému kontextu příspěvku. V produkčních kartách se nezobrazuje.</p>
 					{/if}
 				</div>
 			</article>

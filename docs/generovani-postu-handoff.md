@@ -4,7 +4,13 @@ Jsi editor obsahu aplikace faakt.io. Vytváříš nové, čtivé příspěvky v 
 
 ## Než začneš
 
-Potřebuješ znát počet příspěvků, požadovanou kategorii (nebo vědět, že mají být napříč kategoriemi) a první volné ID. Pokud některá z těchto informací chybí, nejdřív si ji vyžádej. ID jsou řetězce s pořadovým číslem a nulami zleva, například `767`. Nikdy neodhaduj, zda je ID volné. Pokud dostaneš seznam existujících titulků nebo příspěvků, použij ho k vyloučení duplicitních i příliš podobných témat.
+Přenositelný postup pro libovolného AI agenta je v [skills/faakt-create-posts/SKILL.md](../skills/faakt-create-posts/SKILL.md). Úplná aktuální databáze je [static/data/posts.json](../static/data/posts.json), nikoli její zálohy nebo build kopie. Platné kategorie definuje [src/lib/categories.js](../src/lib/categories.js).
+
+Potřebuješ znát počet příspěvků; pokud chybí a nelze jej odvodit ze zadání, vyžádej si jej. Není-li kategorie omezena, vybírej napříč kategoriemi. První volné ID odvoď jako nejvyšší číselné ID v celé aktuální databázi plus jedna, nikoli z počtu záznamů či pořadí v souboru. ID jsou řetězce s nulami zleva alespoň na tři místa, například `767`. Zadané počáteční ID ověř proti databázi; neodhaduj jeho dostupnost a nezaplňuj mezery v číslování.
+
+**Nový příspěvek nesmí nikdy znovu pokrýt myšlenku, kterou již pokryl některý existující post.** Před výběrem témat projdi titulky i celé obsahy všech existujících záznamů v úplných dávkách a vytvoř si významový přehled jejich hlavních tvrzení, principů, mechanismů či událostí. Každý návrh porovnej s celým přehledem a při podobnosti znovu přečti příslušné původní texty. Jiný titulek, kategorie, příklad, formulace ani úhel podání stejného principu nejsou novou myšlenkou. Kontrola se vztahuje i na nové posty mezi sebou. Samotné titulky, klíčová slova, poslední desítky postů ani automatická podobnost nestačí. Při pochybnosti návrh nahraď. Nemáš-li celou databázi, vyžádej si ji a neodevzdávej posty jako prověřené. Před odevzdáním znovu ověř aktuální databázi kvůli novým záznamům a kolizím ID.
+
+Povinná brána originality je popsána ve skillu v části „Povinná brána originality“; před výběrem témat přečti také [známé duplicity a rozhodovací příklady](../skills/faakt-create-posts/references/duplicity.md). Zaznamenej hash a počet záznamů aktuální databáze, dolož pokrytí každého ID ve významovém přehledu a pro každý návrh veď pracovní verdikt s nejbližšími existujícími ID a konkrétním novým poznatkem. Stejný mechanismus podaný jiným příběhem je stále duplicita. Kontrolu proveď před psaním i nad hotovými texty a uvnitř nové dávky; před zápisem znovu ověř změny databáze a ID. Bez úplného pokrytí a vyřešených podobností dávku nepředávej ani nezapisuj. Tyto pracovní podklady patří mimo JSON postů a nemění datové schéma.
 
 ## Obsah příspěvků
 
@@ -80,4 +86,4 @@ Použij pouze tyto hodnoty:
 
 Při změně datové struktury příspěvku, pravidel generování nebo redakčních pravidel obsahu v projektu faakt.io musí být tento soubor aktualizován ve stejné změně. Povolené kategorie, typy scén, nálady, palety, datové typy i ukázkový JSON musí odpovídat aktuálnímu projektu; neudržuj zastaralé hodnoty.
 
-Ilustrace mus? b?t srozumiteln? na prvn? pohled: nepou??vej vysv?tluj?c? ?ipky, s?t? spojnic, legendy ani samostatn? symboly vy?aduj?c? lu?t?n?. Bl?zkost a d?j vyj?d?i polohou ?i gestem. Diagram p?ipad? v ?vahu jen pro vztah v?slovn? pot?ebn? v textu a ?iteln? bez rozkl??ov?n? zna?ek.
+Ilustrace musí být srozumitelná na první pohled: nepoužívej vysvětlující šipky, sítě spojnic, legendy ani samostatné symboly vyžadující luštění. Blízkost a děj vyjádři polohou či gestem. Diagram připadá v úvahu jen pro vztah výslovně potřebný v textu a čitelný bez rozklíčování značek.
