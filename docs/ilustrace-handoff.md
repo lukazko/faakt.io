@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`134` a `558` (135 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`159` a `558` (160 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -17,7 +17,7 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 135 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 160 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
 
 ## Generování
 
@@ -135,3 +135,11 @@ U `114` je lupa s atomovým symbolem redakční metafora odhalení vnitřní str
 U `125` jde podle výslovného zadání o představu éteru jako média pro šíření světla, kterou článek zkoumá a odmítá. Obrázek nezobrazuje skutečně prokázaný éter ani nepředstírá vysvětlení výsledku experimentu pomocí ciferníků. Modré průsvitné záhyby a zlatá vlna tvoří jeden motiv. Měkké přechody a svítivost patří přímo ke světlu a mlze; okolí obrázku zůstává průhledné. Skill i prompt dovolují tuto účelnou měkkost, nikoli dekorativní záři nebo pozadí přes celý obrázek.
 
 Všechny čtyři RGBA WebP mají 640 × 360 px, průhledné odsazení i rohy a byly prohlédnuty při 160 × 90 a 320 × 180 px na skutečném gradientu karty. `114` a `125` vznikly každá jedním generováním z metadat odpovídajících novému vizuálnímu záměru; neobsahují text. Manifest ukládá aktuální metadata, přesné prompty, SHA-256 a důvod náhrady v `correction`, včetně hashů předchozích obrázků odmítnutých uživatelem. Přijetí se posuzuje podle skutečně viditelného vztahu nebo rozpoznávacích znaků události; význam se nesmí nahradit názvem objektu pod obrázkem ani nepochopitelným schématem. Texty, zdroje, kategorie a ostatní záznamy databáze se nemění.
+
+## Dávka 135–159
+
+Doplněno 25 samostatných ilustrací vestavěným image_gen, vždy s transparent_background=true. Všech 25 je zapnuto v kartách a galerii. Výstupy jsou RGBA WebP 640×360, quality 80, pod 100 kB, s průhledným odsazením a nulovou alfou ve všech rozích. Kontrola proběhla při 160×90 a 320×180 na tmavém povrchu. Přesné prompty, hashe a individuální významové poznámky jsou v manifestu. Nástroj neumožňuje nastavit velikost, kvalitu ani cenu generování.
+
+Deterministický repair proběhl v náhledu; obecné návraty ke generickým motivům nebyly aplikovány. Obsah ani metadata příspěvků se nemění. Některé obrázky mají více detailů než cílových 5–8 ploch; konkrétní omezení zaznamenává manifest.
+
+Velikosti nové dávky jsou 16 896–39 036 B, dohromady 706 204 B. U `141` byl cílenou úpravou nahrazen anachronický znak eura frankem; přesný editační prompt je v `targetedEdit`. `npm test` i `npm run build` prošly; build hlásí existující upozornění Svelte na slot/přístupnost a velikost balíčku galerie.

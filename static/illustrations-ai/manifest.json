@@ -5638,6 +5638,1090 @@
     }
   },
   {
+    "id": "135",
+    "title": "Berlínská zeď: bariéra postavená přes noc, která rozdělila město",
+    "content": "<p>V noci na 13. srpna 1961 začaly východoněmecké jednotky stavět bariéru z ostnatého drátu podél hranice mezi východním a západním Berlínem.</p><p>Obyvatelé se probudili do rozděleného města – rodiny, přátelé i pracovní kolegové byli náhle odděleni, mnozí navždy. Provizorní bariéra se postupně proměnila v betonovou zeď dlouhou přes 155 kilometrů.</p><p>Zeď měla zastavit masový únik obyvatel z komunistické Německé demokratické republiky do svobodnějšího západního Berlína, kudy do té doby odešly statisíce lidí.</p><p>Zeď padla 9. listopadu 1989 poté, co východoněmecký úředník na tiskové konferenci omylem oznámil okamžité otevření hranic, což vyvolalo spontánní oslavy na obou stranách.</p>",
+    "category": "politika",
+    "illustration": {
+      "concept": "A concrete barrier divides one city and its families, with an opened crossing suggesting the sudden collapse of the boundary in 1989.",
+      "scene_type": "environment",
+      "primary_subject": "berlin_wall",
+      "secondary_subjects": [
+        "divided_neighborhood",
+        "opened_crossing"
+      ],
+      "visual_keywords": [
+        "berlin_wall",
+        "divided_neighborhood",
+        "opened_crossing"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/135.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A concrete barrier divides one city and its families, with an opened crossing suggesting the sudden collapse of the boundary in 1989.\",\"primary_subject\":\"berlin_wall\",\"secondary_subjects\":[\"divided_neighborhood\",\"opened_crossing\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}",
+    "promptHash": "ac48bb4819028746aff142dd7db62668804bb85021315ba1d25aea788ed5ecd7",
+    "metadataHash": "d7cf460d5f4a98c2318aa079e028cbae7accadfd07aa8a9d3e7996020c57b208",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "0ec95536de9bfc693995e6b9137882568359334c050c57ceba4d6dbd03c78613",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Opened Berlin Wall with celebrating figures and recognizable Brandenburg Gate/TV tower context; accompanies the fall described in the article, not the initial 1961 wire barrier. More shapes than the target, but clear at thumbnail scale.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "136",
+    "title": "Eiffelova věž je v létě o kus vyšší než v zimě",
+    "content": "<p>Pařížská Eiffelova věž, dokončená v roce 1889, není po celý rok stejně vysoká.</p><p>Její konstrukce je vyrobena z tepelně roztažného kovu – železa, které se při vyšších teplotách rozpíná a při chladu naopak smršťuje.</p><p>Podle údajů společnosti spravující věž může teplotní rozdíl mezi horkým létem a mrazivou zimou způsobit změnu výšky až o 15 centimetrů.</p><p>Kromě toho se věž mírně naklání směrem od Slunce, protože osvětlená strana konstrukce se ohřívá a rozpíná rychleji než strana ve stínu – drobný, ale měřitelný jev, který inženýři u podobných ocelových konstrukcí musí brát v úvahu.</p>",
+    "category": "zajimavost",
+    "illustration": {
+      "concept": "Two subtly different tower outlines show steel expanding under summer heat, with unequal solar heating also producing a slight tilt.",
+      "scene_type": "diagram",
+      "primary_subject": "eiffel_tower_thermal_expansion",
+      "secondary_subjects": [
+        "sunlight",
+        "expanded_metal_structure"
+      ],
+      "visual_keywords": [
+        "eiffel_tower_thermal_expansion",
+        "sunlight",
+        "expanded_metal_structure"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/136.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Two subtly different tower outlines show steel expanding under summer heat, with unequal solar heating also producing a slight tilt.\",\"primary_subject\":\"eiffel_tower_thermal_expansion\",\"secondary_subjects\":[\"sunlight\",\"expanded_metal_structure\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "637e0f2187bba74fbc4bdc9048a46f81e25614857842d23b78e2d3bdfc1fc401",
+    "metadataHash": "bc1b4a63440c9e42d6615e17701b3a27f35f0d6b203bdd3ad1ba816fdd2740cc",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "1fc6184786de298e83f2ac44a31b16d033596a79b385438a808b7413ab8d2f41",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Recognizable Eiffel Tower silhouettes with solar heating; height difference is editorially exaggerated, not a measured scale. Fine lattice details exceed the shape target.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "137",
+    "title": "Objev inzulinu, který proměnil cukrovku ze smrtelné nemoci v léčitelnou",
+    "content": "<p>Před rokem 1921 znamenala diagnóza cukrovky prvního typu u dětí prakticky jistou smrt během několika měsíců až let.</p><p>Kanadský chirurg <strong>Frederick Banting</strong> a student medicíny <strong>Charles Best</strong> na univerzitě v Torontu v létě 1921 izolovali z psí slinivky hormon, který dokázal snižovat hladinu cukru v krvi.</p><p>V lednu 1922 podali látku poprvé čtrnáctiletému chlapci umírajícímu na cukrovku a jeho stav se dramaticky zlepšil. V roce 1923 získali Banting a fyziolog John Macleod za tento objev Nobelovu cenu.</p><p>Banting se s cenou rozdělil se svým asistentem Bestem, protože měl pocit, že si ji zaslouží stejnou měrou. Inzulin od té doby zachránil odhadem desítky milionů životů.</p>",
+    "category": "veda",
+    "illustration": {
+      "concept": "An insulin vial and injection transform the care of a person with diabetes, focusing on hormone replacement rather than a generic instrument.",
+      "scene_type": "interaction",
+      "primary_subject": "insulin_treatment_discovery",
+      "secondary_subjects": [
+        "insulin_vial",
+        "syringe"
+      ],
+      "visual_keywords": [
+        "insulin_treatment_discovery",
+        "insulin_vial",
+        "syringe"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "image": "/illustrations-ai/137.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"An insulin vial and injection transform the care of a person with diabetes, focusing on hormone replacement rather than a generic instrument.\",\"primary_subject\":\"insulin_treatment_discovery\",\"secondary_subjects\":[\"insulin_vial\",\"syringe\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"green_copper\"}",
+    "promptHash": "993b3a1378111594066bd9c06e6732bd18a3a691b3977947b40d25bbfa166c85",
+    "metadataHash": "c82ea0beff83ebc260b16eaa71e53c1ed16eb2da94299064e5a08bb3d6a90ded",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "d86af225f2ef32e9d2f94596584ad1ed4daf7fbb2160f7db2204324d64f908a4",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Person receiving an injection beside a vial makes treatment concrete; accompanies insulin therapy rather than reconstructing the 1922 discovery. No claim that the depicted person is the historical first patient.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "138",
+    "title": "Rutherfordův experiment se zlatou fólií odhalil jádro atomu",
+    "content": "<p>Do roku 1911 vědci věřili, že atom je rovnoměrně vyplněná koule kladného náboje s elektrony rozptýlenými jako rozinky v pudinku.</p><p>Novozélandský fyzik <strong>Ernest Rutherford</strong> nechal svými asistenty ostřelovat tenkou zlatou fólii alfa částicemi a očekával, že projdou téměř bez odchylky.</p><p>Naprostá většina částic skutečně prošla, ale malá část se odrazila zpět nebo se výrazně vychýlila – jev, který Rutherford později přirovnal k situaci, kdy dělová koule odrazí od kusu hedvábného papíru.</p><p>Z toho usoudil, že atom obsahuje malé, husté a kladně nabité jádro, kolem kterého obíhají elektrony ve velké prázdné vzdálenosti. Tento model položil základ moderní jaderné fyzice.</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "Most alpha particles pass through thin gold foil while a few deflect sharply, revealing a small dense nucleus within a mostly empty atom.",
+      "scene_type": "diagram",
+      "primary_subject": "rutherford_gold_foil_experiment",
+      "secondary_subjects": [
+        "alpha_particle_paths",
+        "tiny_dense_nucleus"
+      ],
+      "visual_keywords": [
+        "rutherford_gold_foil_experiment",
+        "alpha_particle_paths",
+        "tiny_dense_nucleus"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/138.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Most alpha particles pass through thin gold foil while a few deflect sharply, revealing a small dense nucleus within a mostly empty atom.\",\"primary_subject\":\"rutherford_gold_foil_experiment\",\"secondary_subjects\":[\"alpha_particle_paths\",\"tiny_dense_nucleus\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "promptHash": "d3cc2a2e42f8417ce9c287341041995a34598e7fa5c79d722cc051314c95c07a",
+    "metadataHash": "f3795c22679a83baf0b6ba2a4c7af374df25a80eeba57af7681d44fccb51aa35",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "ef4a63c965d3c948b148378f9a75ca186e01a16340c34d93eb3919a92694f95f",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Most particle paths pass through gold foil and a few diverge; adjacent atomic structure represents the inference, not literal scale. Essential scientific paths are an exception to the no-diagram preference.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "139",
+    "title": "Clyde Tombaugh a objev Pluta v roce 1930",
+    "content": "<p>Americký astronom <strong>Clyde Tombaugh</strong>, tehdy třiadvacetiletý samouk bez univerzitního vzdělání, pracoval na observatoři Lowell v Arizoně na hledání hypotetické „Planety X“.</p><p>18. února 1930 při pečlivém porovnávání fotografických desek noční oblohy objevil malý pohybující se bod světla, který se ukázal být novým tělesem sluneční soustavy.</p><p>Objev byl oznámen 13. března 1930 a nové těleso dostalo název Pluto, navržený jedenáctiletou britskou dívkou Venetií Burneyovou podle římského boha podsvětí.</p><p>Pluto bylo po sedmdesát šest let označováno za devátou planetu sluneční soustavy, než ho Mezinárodní astronomická unie v roce 2006 překlasifikovala na trpasličí planetu.</p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "Two photographic star fields align in a blink comparator; one shifting point reveals Pluto against stationary background stars.",
+      "scene_type": "interaction",
+      "primary_subject": "pluto_blink_comparator",
+      "secondary_subjects": [
+        "paired_star_photographs",
+        "moving_pluto_dot"
+      ],
+      "visual_keywords": [
+        "pluto_blink_comparator",
+        "paired_star_photographs",
+        "moving_pluto_dot"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/139.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Two photographic star fields align in a blink comparator; one shifting point reveals Pluto against stationary background stars.\",\"primary_subject\":\"pluto_blink_comparator\",\"secondary_subjects\":[\"paired_star_photographs\",\"moving_pluto_dot\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
+    "promptHash": "3363e2e5842fb88e7199caf10a1c1911abd42be6f64f5a7b0eb67f96e72cbbcd",
+    "metadataHash": "1bd276bbda3185867dcb77d26f4bc779720d10d965abfef491db4ef757ef9b5f",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "ae108912887205244a95863e1a48ec4b14a8ba4538486c4610cc0f3e5ce1b37d",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Paired photographic plates and comparator accompany the discovery method. The moving point is subtle at 160px and does not independently explain the discovery without the article.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "140",
+    "title": "Rok 476: symbolický konec Západořímské říše",
+    "content": "<p>Historici tradičně označují rok 476 n. l. za konec Západořímské říše, přestože samotný pád byl spíše postupným procesem trvajícím desítky let.</p><p>V roce 476 germánský vojevůdce <strong>Odoaker</strong> sesadil posledního západořímského císaře, mladého Romula Augustula, a odeslal císařské insignie do Konstantinopole s tím, že Západ už samostatného vládce nepotřebuje.</p><p>Ve skutečnosti se říše rozpadala už desítky let předtím kvůli vnitřním krizím, hospodářským problémům a opakovaným vpádům germánských kmenů, jako byli Vizigóti, kteří vyplenili Řím už v roce 410.</p><p>Východořímská, byzantská říše naproti tomu přežila ještě dalších téměř tisíc let, až do pádu Konstantinopole v roce 1453.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "Western imperial insignia are set aside at a Roman gate, marking the deposition in 476 as a symbolic end of an already weakened empire.",
+      "scene_type": "environment",
+      "primary_subject": "fall_of_western_rome",
+      "secondary_subjects": [
+        "removed_imperial_insignia",
+        "roman_city_gate"
+      ],
+      "visual_keywords": [
+        "fall_of_western_rome",
+        "removed_imperial_insignia",
+        "roman_city_gate"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "dramatic",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/140.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Western imperial insignia are set aside at a Roman gate, marking the deposition in 476 as a symbolic end of an already weakened empire.\",\"primary_subject\":\"fall_of_western_rome\",\"secondary_subjects\":[\"removed_imperial_insignia\",\"roman_city_gate\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"dramatic\",\"palette\":\"blue_gold\"}",
+    "promptHash": "f5aad59935dd5ed01ac3843695ee9fb9587b83a77e138e6f1d9979ce8819f471",
+    "metadataHash": "8a10c1c94937a7496fe25b618fc79185fbab53a1b1ec4821bec72f4dd3ae5319",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "81a39dedcf8c3ce339c6c211ee59b78cfccfce2175909435b47cfe0fa0d9ff40",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Set-aside imperial regalia before a Roman-style gate accompany the symbolic loss of Western imperial authority. Editorial symbols, not a reconstruction of the actual insignia sent to Constantinople; more ornamental details than target.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "141",
+    "title": "Bretton Woods: dohoda, která na třicet let ukotvila světové měny ke zlatu",
+    "content": "<p>V červenci 1944 se v americkém letovisku Bretton Woods sešli zástupci 44 spojeneckých zemí, aby navrhli nový mezinárodní měnový systém pro poválečný svět.</p><p>Dohodli se, že hodnota amerického dolaru bude pevně vázána na zlato, konkrétně 35 dolarů za trojskou unci, zatímco ostatní měny budou vázány k dolaru s fixním, jen výjimečně upravitelným kurzem.</p><p>Systém vytvořil i dvě nové instituce, které fungují dodnes – Mezinárodní měnový fond a Světovou banku, určené k podpoře finanční stability a obnovy.</p><p>Systém fungoval do roku 1971, kdy prezident Richard Nixon jednostranně zrušil směnitelnost dolaru za zlato, čímž bretton-woodský systém definitivně skončil.</p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "Several currencies connect through the US dollar to a gold reserve, visualizing the postwar monetary system and its shared anchor.",
+      "scene_type": "diagram",
+      "primary_subject": "bretton_woods_currency_links",
+      "secondary_subjects": [
+        "us_dollar",
+        "gold_reserve"
+      ],
+      "visual_keywords": [
+        "bretton_woods_currency_links",
+        "us_dollar",
+        "gold_reserve"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/141.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Several currencies connect through the US dollar to a gold reserve, visualizing the postwar monetary system and its shared anchor.\",\"primary_subject\":\"bretton_woods_currency_links\",\"secondary_subjects\":[\"us_dollar\",\"gold_reserve\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "promptHash": "8a884a2f0c205f68a35c52741ca98af09a24458ce9f63d2c7a0f95f534872a3c",
+    "metadataHash": "bc01895780d20f0db3b9ef91cefc3f64311efcf88b23d476e492cd51e5c6c93f",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "45802c27f470f6b9139ba8217ee1da960f8136ade83a3d0c92fe0abc4002a08e",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Currencies converge through the dollar to gold. Simple monetary diagram is needed to express the peg relationship. Initial euro anachronism was corrected by a targeted edit to a franc symbol.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    },
+    "targetedEdit": {
+      "prompt": "Edit this transparent flat illustration of Bretton Woods. Correct the historical anachronism: replace ONLY the euro â‚¬ symbol on the upper-left teal coin with the letters Fr for a pre-euro franc. Preserve all other coins, dollar-to-gold relationship, palette, layout and genuine transparent background. No euro symbols anywhere. Keep simple thumbnail shapes.",
+      "promptHash": "8bbc851752cbe8d4a76677df73f2c35f3b5c06ff141f65e0705fb0a210508baa",
+      "generationMethod": "built-in image_gen transparent edit",
+      "reason": "Replace anachronistic euro with franc",
+      "imageSha256": "45802c27f470f6b9139ba8217ee1da960f8136ade83a3d0c92fe0abc4002a08e"
+    }
+  },
+  {
+    "id": "142",
+    "title": "Vražda Kitty Genovese a vznik pojmu „efekt přihlížejícího“",
+    "content": "<p>V noci 13. března 1964 byla v newyorském Queensu napadena a zavražděna mladá žena Kitty Genovese. Dobová zpráva v New York Times tvrdila, že útok sledovaly desítky sousedů, kteří nezasáhli ani nezavolali policii.</p><p>Pozdější výzkumy zpochybnily přesný počet svědků i to, jak jasně si uvědomovali závažnost situace, ale případ inspiroval psychology <strong>Billa Latanéa</strong> a <strong>Johna Darleyho</strong> k výzkumu chování ve skupinách.</p><p>Jejich experimenty v 60. letech prokázaly reálný jev, dnes nazývaný <em>efekt přihlížejícího</em>: čím více lidí je svědkem nouzové situace, tím nižší je pravděpodobnost, že kdokoli z nich zasáhne, protože zodpovědnost se ve skupině rozmělní.</p><p>Případ i následný výzkum výrazně ovlivnily to, jak dnes chápeme chování davu v krizových situacích.</p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "A person needs assistance while several onlookers look toward one another, showing responsibility diffusing across the group rather than treating disputed witness counts as fact.",
+      "scene_type": "interaction",
+      "primary_subject": "bystander_diffusion_of_responsibility",
+      "secondary_subjects": [
+        "person_needing_help",
+        "passive_onlookers"
+      ],
+      "visual_keywords": [
+        "bystander_diffusion_of_responsibility",
+        "person_needing_help",
+        "passive_onlookers"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/142.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A person needs assistance while several onlookers look toward one another, showing responsibility diffusing across the group rather than treating disputed witness counts as fact.\",\"primary_subject\":\"bystander_diffusion_of_responsibility\",\"secondary_subjects\":[\"person_needing_help\",\"passive_onlookers\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}",
+    "promptHash": "7f844ab537ad0686959609b749fab268b288c6fe3421a39afb3b6f1a0a134feb",
+    "metadataHash": "6b7c6dd45f74068d3b054e95d02a5d7ade5c074446136525db45cdec88599823",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "ed405599d4d63c3554b0f0b22fa22fa21fa82f520b6f840409ac7c7b4e396496",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Person on the ground reaches toward onlookers who look to each other. Illustrates diffusion of responsibility, not a reconstruction of the disputed Kitty Genovese witness account.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "143",
+    "title": "Rembrandtova Noční hlídka: obraz, který ve skutečnosti nezobrazuje noc",
+    "content": "<p>Nizozemský malíř <strong>Rembrandt van Rijn</strong> dokončil v roce 1642 monumentální skupinový portrét amsterdamské městské stráže, dnes známý jako <em>Noční hlídka</em>.</p><p>Název ale vznikl až o staletí později – vrstvy tmavého laku a špíny na povrchu obrazu ho postupně ztmavily natolik, že vypadal jako noční scéna. Po restaurování ve 20. století se ukázalo, že děj se odehrává za denního světla.</p><p>Rembrandt se odklonil od tehdejší konvence statických skupinových portrétů a zachytil stráž v dynamickém pohybu, jako by právě vyrážela do akce, s dramatickým světlem a stínem.</p><p>Obraz dodnes visí v amsterdamském Rijksmuseu a patří k nejcennějším a nejchráněnějším uměleckým dílům na světě.</p>",
+    "category": "umeni",
+    "illustration": {
+      "concept": "A cleaned bright section of the militia painting contrasts with a darkened varnish layer, explaining why The Night Watch was mistakenly associated with night.",
+      "scene_type": "object",
+      "primary_subject": "rembrandt_night_watch",
+      "secondary_subjects": [
+        "brightened_painting_surface",
+        "militia_in_motion"
+      ],
+      "visual_keywords": [
+        "rembrandt_night_watch",
+        "brightened_painting_surface",
+        "militia_in_motion"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/143.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A cleaned bright section of the militia painting contrasts with a darkened varnish layer, explaining why The Night Watch was mistakenly associated with night.\",\"primary_subject\":\"rembrandt_night_watch\",\"secondary_subjects\":[\"brightened_painting_surface\",\"militia_in_motion\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}",
+    "promptHash": "a11332c85d4177f861a411486148479865dc9f9040137381ca9630edf5478495",
+    "metadataHash": "210a2cb8e11b3caa5b74ac88ecba7d224cd6a7ce2ae68ead4e3e535b21658a9d",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "8c98142ac8bc3cb9fd9e6729dfd48fb3de9ef6aa213dc647e406fe043880629d",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A brush exposes a brighter section of the recognizable militia painting beneath dark varnish. The contrast carries the mistaken-night explanation; painting details exceed the shape target.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "144",
+    "title": "Ílias a Odyssea: eposy, jejichž autora dodnes historikové hledají",
+    "content": "<p>Řecké eposy <strong>Ílias</strong> a <strong>Odyssea</strong>, tradičně přisuzované básníkovi jménem Homér, vznikly pravděpodobně kolem 8. století př. n. l., přestože líčí události trojské války odehrávající se o staletí dříve.</p><p>Ílias vypráví o hněvu hrdiny Achillea během posledních týdnů desetiletého obležení Tróje, zatímco Odyssea popisuje strastiplnou desetiletou cestu krále Odyssea domů po skončení války.</p><p>Historikové se dodnes přou, zda byl Homér skutečnou historickou osobou, nebo jde o jméno spojující ústní tradici více vypravěčů, kteří příběhy po generace předávali zpaměti, než byly zapsány.</p><p>Oba eposy tvoří základ celé západní literární tradice a jejich vliv je patrný od antického dramatu až po moderní romány a filmy.</p>",
+    "category": "literatura",
+    "illustration": {
+      "concept": "An oral storyteller passes the Iliad and Odyssey toward written scrolls, conveying their collective transmission and uncertain authorship.",
+      "scene_type": "interaction",
+      "primary_subject": "homeric_oral_epics",
+      "secondary_subjects": [
+        "ancient_bard",
+        "iliad_and_odyssey_scrolls"
+      ],
+      "visual_keywords": [
+        "homeric_oral_epics",
+        "ancient_bard",
+        "iliad_and_odyssey_scrolls"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_warm"
+    },
+    "image": "/illustrations-ai/144.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"An oral storyteller passes the Iliad and Odyssey toward written scrolls, conveying their collective transmission and uncertain authorship.\",\"primary_subject\":\"homeric_oral_epics\",\"secondary_subjects\":[\"ancient_bard\",\"iliad_and_odyssey_scrolls\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"monochrome_warm\"}",
+    "promptHash": "f1c025a37c547ac2452fb39de17c9c5c901c84a37a7d3cdce6da7c8798d8fde0",
+    "metadataHash": "98a1752ab42c398ca51eb04a3e8142cc2007d6ca7648fb711e7cf3fb9189eff3",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "c060e644cb9accfe95c0755793559150f58b3db994768db48da4b76ce2cc4d37",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Ancient bard with lyre dictates to a scribe with scroll. Accompanies oral-to-written transmission without claiming a verified portrait of Homer or sole authorship.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "145",
+    "title": "John Locke a mysl jako nepopsaná deska při narození",
+    "content": "<p>Rodíme se s vrozenými myšlenkami, nebo je naše mysl při narození prázdná?</p><p>Anglický filozof <strong>John Locke</strong> ve svém díle <em>Esej o lidském rozumu</em> z roku 1689 odmítl tehdy rozšířenou představu vrozených idejí. Tvrdil, že mysl novorozence je jako <strong>tabula rasa</strong> – nepopsaná deska.</p><p>Veškeré poznání podle Locka pochází ze zkušenosti, buď ze smyslového vnímání vnějšího světa, nebo z vnitřní reflexe vlastních myšlenkových procesů.</p><p>Tato myšlenka měla dalekosáhlé politické i sociální důsledky: pokud lidé nemají vrozené předurčení, jsou v zásadě rovni a formuje je hlavně výchova a prostředí. Lockeho empirismus výrazně ovlivnil pozdější osvícenské myšlení i moderní pedagogiku.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "An initially blank tablet gradually acquires impressions from experience, expressing Locke's account of how the mind gains knowledge.",
+      "scene_type": "diagram",
+      "primary_subject": "locke_tabula_rasa",
+      "secondary_subjects": [
+        "blank_tablet",
+        "sensory_impressions"
+      ],
+      "visual_keywords": [
+        "locke_tabula_rasa",
+        "blank_tablet",
+        "sensory_impressions"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/145.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"An initially blank tablet gradually acquires impressions from experience, expressing Locke's account of how the mind gains knowledge.\",\"primary_subject\":\"locke_tabula_rasa\",\"secondary_subjects\":[\"blank_tablet\",\"sensory_impressions\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "9740081c6975cc7588265873e507390220000ba16dfbe50a81055050b1af581c",
+    "metadataHash": "1f27309cd57805ebeeced300f932664c0c0005357f4e4523e25e00c7c3ed463c",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "1a76319181392350c9a66eb5704c74de4aac7382189cc77e9cb1e149233b2e05",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Locke holds a tablet receiving sensory impressions. Connected eye, ear and hand motifs interpret empiricism; illustrative philosophical analogy, not an anatomical claim.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "146",
+    "title": "Nula: indický vynález, který dobyl matematiku celého světa",
+    "content": "<p>Bez čísla nula by nebyl možný moderní zápis čísel, natož počítače, které dnes tento text zobrazují.</p><p>Koncept nuly jako plnohodnotného čísla, se kterým lze počítat, rozvinuli indičtí matematici, mimo jiné <strong>Brahmagupta</strong>, který kolem roku 628 n. l. jako první formuloval pravidla pro počítání s nulou a zápornými čísly.</p><p>Z Indie se nula rozšířila přes arabský svět, kde ji matematici jako al-Chwárizmí dále rozvinuli, a do Evropy dorazila ve středověku, mimo jiné díky italskému matematikovi Fibonaccimu.</p><p>Starověcí Řekové a Římané, přestože v matematice dosáhli mnoha pokroků, koncept nuly jako čísla samostatně nerozvinuli, což jejich početní systémy výrazně komplikovalo.</p>",
+    "category": "matematika",
+    "illustration": {
+      "concept": "Zero occupies a deliberate place in positional notation and also participates as a number, showing the Indian mathematical concept that changed calculation.",
+      "scene_type": "diagram",
+      "primary_subject": "zero_numeral",
+      "secondary_subjects": [
+        "place_value_columns",
+        "indian_mathematical_manuscript"
+      ],
+      "visual_keywords": [
+        "zero_numeral",
+        "place_value_columns",
+        "indian_mathematical_manuscript"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/146.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Zero occupies a deliberate place in positional notation and also participates as a number, showing the Indian mathematical concept that changed calculation.\",\"primary_subject\":\"zero_numeral\",\"secondary_subjects\":[\"place_value_columns\",\"indian_mathematical_manuscript\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"violet_coral\"}",
+    "promptHash": "e691a9a346ebd4f84567536f6548b577ef8e484ad135136c7a20084d58a0bd3f",
+    "metadataHash": "40c203111b2456c660095a0a1d44c39ceed41ec60fcdac5204daf856ef57d34c",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "da3ae134e5ed20a8f2a23c9867b2e162b6dfce653804f57d5c6444e84b43be14",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Indian mathematician writes beside positional digits containing zeros. Subject-led accompaniment to the history of zero, not a reconstruction of Brahmagupta's actual manuscript or notation.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "147",
+    "title": "ENIAC: první elektronický počítač vážil 27 tun",
+    "content": "<p>Americký počítač <strong>ENIAC</strong>, dokončený v roce 1945 na University of Pennsylvania, byl jedním z prvních elektronických, plně programovatelných počítačů obecného určení.</p><p>Zabíral plochu přibližně 167 metrů čtverečních, vážil přes 27 tun a obsahoval téměř 18 000 elektronek, které se často přepalovaly a vyžadovaly neustálou údržbu.</p><p>Stroj byl navržen primárně pro výpočty dělostřeleckých tabulek pro americkou armádu, ale díky své univerzálnosti zvládal i další složité matematické úlohy.</p><p>Programování probíhalo ručně přepojováním kabelů a přepínačů, což mohlo trvat i několik dní – tuto náročnou práci vykonávaly převážně ženy, dnes označované jako „ENIAC programátorky“.</p>",
+    "category": "pocitacove-vedy",
+    "illustration": {
+      "concept": "Women configure cables and switches across room-sized ENIAC cabinets, showing the physical scale and labor of early electronic computing.",
+      "scene_type": "environment",
+      "primary_subject": "eniac_computer",
+      "secondary_subjects": [
+        "vacuum_tube_cabinets",
+        "women_programming_cables"
+      ],
+      "visual_keywords": [
+        "eniac_computer",
+        "vacuum_tube_cabinets",
+        "women_programming_cables"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/147.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Women configure cables and switches across room-sized ENIAC cabinets, showing the physical scale and labor of early electronic computing.\",\"primary_subject\":\"eniac_computer\",\"secondary_subjects\":[\"vacuum_tube_cabinets\",\"women_programming_cables\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "965f32e141b401b69e6cd07ed073776383b7af8877bc98289ef1e91e18582fb6",
+    "metadataHash": "dc2cb6114c917d325f8ffb76b225d74da4132ccb7896e57b7433d5868a57e094",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "aca623ed5bfe07bd89e332ab34bf0bcbc63850d578ab4cef73e83cba53d2a099",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Women manually configure room-sized cabinets and cables. Recognizable scale and programming labor; repeated panel details exceed the simplicity target but remain subordinate to figures.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "148",
+    "title": "Cesta na Měsíc: film z roku 1902, který vynalezl filmové triky",
+    "content": "<p>Francouzský filmař <strong>Georges Méliès</strong>, původně profesionální kouzelník, natočil v roce 1902 čtrnáctiminutový film <em>Cesta na Měsíc</em>, dnes považovaný za jedno z prvních děl sci-fi žánru.</p><p>Film ukazuje skupinu vědců, kteří vystřelí z obřího děla kabinu s posádkou na Měsíc, kde narazí na obyvatele zvané Selenité. Nejznámějším záběrem je dělová koule zabodnutá do oka antropomorfizovaného Měsíce.</p><p>Méliès při natáčení vynalezl řadu technik, které se staly základem filmových triků, včetně vícenásobné expozice, rozpouštění záběrů a ručně malovaného kolorování políček filmu.</p><p>Přestože byl film v době vydání komerčně pirátsky kopírován v USA bez Méliésova svolení, dodnes patří k nejvlivnějším dílům rané kinematografie.</p>",
+    "category": "filmy",
+    "illustration": {
+      "concept": "A rocket lands in the eye of a theatrical Moon face, linking Melies's iconic scene to imaginative staging and early cinematic effects.",
+      "scene_type": "object",
+      "primary_subject": "moon_face_rocket_film_scene",
+      "secondary_subjects": [
+        "painted_stage_set",
+        "early_film_tricks"
+      ],
+      "visual_keywords": [
+        "moon_face_rocket_film_scene",
+        "painted_stage_set",
+        "early_film_tricks"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/148.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A rocket lands in the eye of a theatrical Moon face, linking Melies's iconic scene to imaginative staging and early cinematic effects.\",\"primary_subject\":\"moon_face_rocket_film_scene\",\"secondary_subjects\":[\"painted_stage_set\",\"early_film_tricks\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "e91f351d22cbcc98b6d17a578ca1cdc199e6b7095d309fe6903345b3dc4ace36",
+    "metadataHash": "e76347d47e91e4128d03adde70e09c14f3e401cdfce6f90ad6a48b55dd7cadae",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "a138d9cbcfbe2efbef81736baa07ad1b5fcf304da5c64eb86751ead43828af65",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Theatrical Moon face struck in the eye by the capsule reproduces the iconic film motif; recognizable without a caption.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "149",
+    "title": "Jazzový zpěvák: film, který ukončil éru němého filmu",
+    "content": "<p>Do roku 1927 byly filmy prakticky výhradně němé, doprovázené jen živou hudbou v kině.</p><p>Americké studio Warner Bros. toho roku uvedlo film <em>Jazzový zpěvák</em> (The Jazz Singer), který jako první celovečerní film obsahoval synchronizované mluvené dialogy a zpěv díky technologii Vitaphone.</p><p>Většina filmu byla stále němá s titulky, ale několik scén, včetně hlavní hercovy repliky „Ještě jste nic neslyšeli“, diváky ohromilo natolik, že film odstartoval rychlý přechod celého Hollywoodu ke zvukovým filmům.</p><p>Do konce 20. let 20. století se němé filmy staly prakticky historií a filmový průmysl prošel jednou z nejrychlejších technologických proměn ve své historii.</p>",
+    "category": "filmy",
+    "illustration": {
+      "concept": "A singer's performance aligns with a synchronized film soundtrack, marking the transition from silent cinema to commercially successful talking pictures.",
+      "scene_type": "interaction",
+      "primary_subject": "jazz_singer_sound_film",
+      "secondary_subjects": [
+        "synchronized_recording",
+        "microphone"
+      ],
+      "visual_keywords": [
+        "jazz_singer_sound_film",
+        "synchronized_recording",
+        "microphone"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "image": "/illustrations-ai/149.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A singer's performance aligns with a synchronized film soundtrack, marking the transition from silent cinema to commercially successful talking pictures.\",\"primary_subject\":\"jazz_singer_sound_film\",\"secondary_subjects\":[\"synchronized_recording\",\"microphone\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}",
+    "promptHash": "676a44e8e1c40900675e3b57933a7652f9e0a8190558559167b8d3b772c3b59f",
+    "metadataHash": "98944ac25c652e71f6ff814fa7bcb03c0e2f352bf3ae49acd02b16e7d340ad75",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "d7661d9cc54569cac840d9ca1a744e74ff9aa57d46f2b69ccd73373cafbb9c59",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Singer, microphone and matching projected performance accompany synchronized sound cinema. Editorial summary, not a technical Vitaphone sound-on-disc diagram or exact film-frame reconstruction.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "150",
+    "title": "Psycho: jak Hitchcock přiměl diváky bát se sprchy",
+    "content": "<p>Britský režisér <strong>Alfred Hitchcock</strong> natočil v roce 1960 thriller <em>Psycho</em> s poměrně nízkým rozpočtem, částečně i s vlastním televizním štábem, aby ušetřil náklady studia.</p><p>Nejslavnější scéna filmu, vražda ve sprše, trvá na plátně necelé tři minuty, ale její natočení zabralo štábu přibližně sedm dní a obsahuje přes sedmdesát různých kamerových záběrů.</p><p>Hitchcock trval na tom, aby diváci do kina nesměli po začátku promítání, čímž tehdy porušil zavedenou konvenci pozdních příchodů, a vytvořil tak jeden z prvních marketingových triků moderní kinematografie.</p><p>Film je dodnes považován za jeden z nejvlivnějších hororových a thrillerových snímků historie a ovlivnil generace filmařů.</p>",
+    "category": "filmy",
+    "illustration": {
+      "concept": "A shower curtain and rapid fragments of a frightened silhouette imply Hitchcock's attack through editing and suggestion, without explicit injury.",
+      "scene_type": "diagram",
+      "primary_subject": "psycho_shower_montage",
+      "secondary_subjects": [
+        "shower_curtain",
+        "rapid_fragmented_frames"
+      ],
+      "visual_keywords": [
+        "psycho_shower_montage",
+        "shower_curtain",
+        "rapid_fragmented_frames"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "image": "/illustrations-ai/150.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A shower curtain and rapid fragments of a frightened silhouette imply Hitchcock's attack through editing and suggestion, without explicit injury.\",\"primary_subject\":\"psycho_shower_montage\",\"secondary_subjects\":[\"shower_curtain\",\"rapid_fragmented_frames\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "21340a2dc0d8035aa9ba3a7cf1802d66a2ddd0a56aa11e7e08649e7cb2d91047",
+    "metadataHash": "25253650f2bc0ce10dec9d43c7a064d178786e525284868bd57420537c91d3bd",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "1f44eff1bc2a1e57659d595ecf06d852d4472c973b52b1c229d02341651b4b95",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Shower curtain, frightened silhouette and cropped film fragments convey montage and suggested danger without injury or nudity.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "151",
+    "title": "Banán je botanicky bobule, jahoda naopak ne",
+    "content": "<p>Botanická klasifikace ovoce se často liší od toho, jak ovoce běžně nazýváme v kuchyni.</p><p>Podle botanické definice je <strong>bobule</strong> plod vzniklý z jediného pestíku, který má dužnatou stěnu a semena uložená uvnitř dužniny. Banán, ale i rajče, paprika nebo avokádo tuto definici splňují.</p><p>Jahoda naopak botanickou definici bobule nesplňuje. Jde o takzvaný nepravý plod, u kterého jsou skutečná semena ty drobné žluté tečky na povrchu, zatímco červená dužina vznikla ze zduřelého květního lůžka.</p><p>Podobně paradoxně vychází i klasifikace malin nebo ostružin, které jsou botanicky souplodí drobných peckoviček, nikoli bobule ani jednoduché plody.</p>",
+    "category": "zajimavost",
+    "illustration": {
+      "concept": "A banana cross-section and a strawberry with external achenes contrast the botanical structures behind everyday fruit names.",
+      "scene_type": "diagram",
+      "primary_subject": "banana_and_strawberry_botany",
+      "secondary_subjects": [
+        "banana_cross_section",
+        "strawberry_surface_achenes"
+      ],
+      "visual_keywords": [
+        "banana_and_strawberry_botany",
+        "banana_cross_section",
+        "strawberry_surface_achenes"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "image": "/illustrations-ai/151.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A banana cross-section and a strawberry with external achenes contrast the botanical structures behind everyday fruit names.\",\"primary_subject\":\"banana_and_strawberry_botany\",\"secondary_subjects\":[\"banana_cross_section\",\"strawberry_surface_achenes\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"green_copper\"}",
+    "promptHash": "b29f7f5f85d199b434f8079de3d42f4cea74d1b21f8ec5b00306868175e0cd55",
+    "metadataHash": "42b0051cde7736db041c0449926762f5e2262442bd040dc1d6a7cdd362e8bcda",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "33c8367db1a35e2c4a2d2b211e66b7850e65a542e585ce996add5835942c2bda",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Banana cut surface shows interior seed traces against conspicuous strawberry surface achenes. Botanical comparison readable without labels; no claim that cultivated banana seeds are full-sized.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "152",
+    "title": "Chobotnice mají tři srdce a modrou krev",
+    "content": "<p>Oběhová soustava chobotnic funguje zcela jinak než u obratlovců, včetně člověka.</p><p>Chobotnice mají <strong>tři srdce</strong>: dvě žaberní srdce pumpují krev skrze žábry, kde se okysličuje, a jedno systémové srdce rozvádí okysličenou krev do zbytku těla.</p><p>Jejich krev navíc není červená, ale modrá, protože kyslík v ní přenáší měď obsahující bílkovina hemocyanin místo železa obsahujícího hemoglobinu, který dává barvu krvi obratlovců.</p><p>Zajímavostí je i to, že při plavání se systémové srdce chobotnice dočasně zastavuje, což je jeden z důvodů, proč se chobotnice raději plazí po dně, než aby neustále plavaly – plavání je pro ně energeticky velmi náročné.</p>",
+    "category": "zajimavost",
+    "illustration": {
+      "concept": "A recognizable octopus contains a clear schematic of two gill hearts and one systemic heart, with blue-toned blood paths indicating hemocyanin.",
+      "scene_type": "diagram",
+      "primary_subject": "octopus_three_hearts",
+      "secondary_subjects": [
+        "gill_hearts",
+        "systemic_heart"
+      ],
+      "visual_keywords": [
+        "octopus_three_hearts",
+        "gill_hearts",
+        "systemic_heart"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/152.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A recognizable octopus contains a clear schematic of two gill hearts and one systemic heart, with blue-toned blood paths indicating hemocyanin.\",\"primary_subject\":\"octopus_three_hearts\",\"secondary_subjects\":[\"gill_hearts\",\"systemic_heart\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "promptHash": "a8a987e985dae9c7e79cce595c51cf9e312648af395adc33880eaeba38d576f5",
+    "metadataHash": "8b83d49bd1c3bb47f712fe1cf8873b498fa20b28f928fe89c354d92a1e7028ea",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "2f0446b53206743dbaecf12bac808bad445400cfa4fe3d5ea92647dcb40e9c98",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Octopus cutaway distinguishes paired branchial regions and central systemic heart with blue circulation. Highly simplified anatomy and vessels, not a scale teaching plate; central heart is clearest at thumbnail scale.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "153",
+    "title": "Alexander Graham Bell a telefonát, který odstartoval novou éru",
+    "content": "<p>10. března 1876 pronesl skotsko-americký vynálezce <strong>Alexander Graham Bell</strong> do svého experimentálního přístroje větu určenou asistentovi ve vedlejší místnosti: „Pane Watsone, pojďte sem, potřebuji vás.“</p><p>Watson větu skutečně slyšel přes drát, což se stalo prvním úspěšným přenosem srozumitelné lidské řeči na dálku pomocí elektrického signálu.</p><p>Bell podal patent na telefon jen několik hodin před svým konkurentem Elishou Grayem, což později vedlo k dlouholetým soudním sporům o prvenství vynálezu.</p><p>Během několika desetiletí se telefon rozšířil po celém světě a zásadně změnil způsob, jakým lidé komunikují na dálku.</p>",
+    "category": "veda",
+    "illustration": {
+      "concept": "An early telephone converts a speaker's voice into an electrical signal and back to sound for a distant listener.",
+      "scene_type": "interaction",
+      "primary_subject": "bell_first_telephone_call",
+      "secondary_subjects": [
+        "early_telephone",
+        "remote_listener"
+      ],
+      "visual_keywords": [
+        "bell_first_telephone_call",
+        "early_telephone",
+        "remote_listener"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/153.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"An early telephone converts a speaker's voice into an electrical signal and back to sound for a distant listener.\",\"primary_subject\":\"bell_first_telephone_call\",\"secondary_subjects\":[\"early_telephone\",\"remote_listener\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
+    "promptHash": "9013e65b40860dce19eae526f44ada0fff1255293c6182e2b14794a47dcfbf47",
+    "metadataHash": "99e753cb95c4c2aa3d54da65175a4f85eca20ef7492e0f25207c04deaf614288",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "555df7504768e3603edb2273cf3ab2a45b191c3e4304ee30e4a9716e46fc1750",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Speaker at an early telephone and separate listener connected by one wire show voice communication. Period-inspired editorial apparatus, not an exact reconstruction of Bell's 1876 prototype.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "154",
+    "title": "Objev supravodivosti: kov, který ztratil veškerý elektrický odpor",
+    "content": "<p>Nizozemský fyzik <strong>Heike Kamerlingh Onnes</strong> se v roce 1908 jako první podařilo zkapalnit helium, což mu otevřelo cestu ke zkoumání vlastností materiálů při teplotách blízkých absolutní nule.</p><p>V roce 1911 při experimentech se rtutí zjistil, že při ochlazení na teplotu kolem 4,2 kelvinu (přibližně mínus 269 stupňů Celsia) elektrický odpor rtuti náhle úplně zmizel.</p><p>Tento jev, dnes nazývaný <strong>supravodivost</strong>, umožňuje, aby elektrický proud protékal materiálem bez jakýchkoli ztrát energie.</p><p>Za výzkum vlastností látek při nízkých teplotách získal Kamerlingh Onnes v roce 1913 Nobelovu cenu za fyziku. Supravodiče se dnes využívají například v magnetech pro lékařské přístroje MRI.</p>",
+    "category": "fyzika",
+    "illustration": {
+      "concept": "A cooled mercury sample passes a critical-temperature threshold while its electrical resistance drops abruptly to zero.",
+      "scene_type": "diagram",
+      "primary_subject": "mercury_superconductivity_transition",
+      "secondary_subjects": [
+        "cryogenic_cooling",
+        "resistance_drop"
+      ],
+      "visual_keywords": [
+        "mercury_superconductivity_transition",
+        "cryogenic_cooling",
+        "resistance_drop"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/154.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A cooled mercury sample passes a critical-temperature threshold while its electrical resistance drops abruptly to zero.\",\"primary_subject\":\"mercury_superconductivity_transition\",\"secondary_subjects\":[\"cryogenic_cooling\",\"resistance_drop\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}",
+    "promptHash": "bdaaaa7b5603a209988436d696a3f703a89260c72e814d7c5d91eaee0aea49a3",
+    "metadataHash": "f3df0ee8c53582a0c25448088e2c5e4e0b1efa00c9dd2a0fcb47ffae8740f41b",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "4941a9a18e34daca8cb1cfbed66eda2f98588d097cb9fb7dda7c541ce364f3cf",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Cryogenic mercury vessel sits beside a simple curve falling abruptly to baseline. The critical-transition relationship requires the scientific graph; no calibrated temperatures or apparatus reconstruction claimed.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "155",
+    "title": "James Webb: teleskop, který vidí nejstarší galaxie vesmíru",
+    "content": "<p>Vesmírný dalekohled <strong>James Webb</strong> byl vypuštěn 25. prosince 2021 a umístěn do vzdálenosti asi 1,5 milionu kilometrů od Země, v takzvaném Lagrangeově bodě L2.</p><p>Na rozdíl od svého předchůdce, Hubbleova teleskopu, pozoruje Webb vesmír především v infračerveném spektru, což mu umožňuje vidět skrz oblaka prachu a zachytit světlo velmi vzdálených a tedy i velmi starých galaxií.</p><p>V červenci 2022 zveřejnila NASA první ostré snímky, včetně hlubokého pole vesmíru s tisíci galaxiemi, z nichž některé vznikly už několik set milionů let po velkém třesku.</p><p>Teleskop, vyvíjený přes dvacet let za náklady přesahující 10 miliard dolarů, dnes patří k nejvýkonnějším vědeckým nástrojům, jaké lidstvo kdy vytvořilo.</p>",
+    "category": "astronomie",
+    "illustration": {
+      "concept": "Webb's segmented mirror and layered sunshield collect faint infrared light from ancient galaxies, emphasizing the instrument's distinctive design and purpose.",
+      "scene_type": "object",
+      "primary_subject": "james_webb_space_telescope",
+      "secondary_subjects": [
+        "segmented_gold_mirror",
+        "infrared_galaxy_observation"
+      ],
+      "visual_keywords": [
+        "james_webb_space_telescope",
+        "segmented_gold_mirror",
+        "infrared_galaxy_observation"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/155.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Webb's segmented mirror and layered sunshield collect faint infrared light from ancient galaxies, emphasizing the instrument's distinctive design and purpose.\",\"primary_subject\":\"james_webb_space_telescope\",\"secondary_subjects\":[\"segmented_gold_mirror\",\"infrared_galaxy_observation\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+    "promptHash": "74297c58d53b5b87fb6af7c9b99843269cceb71263e3e5506e92b05c172c286e",
+    "metadataHash": "ba3e9a7ced42bebcf73f482b565bd479e123aee5338307f2e6080741bdfc77b0",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "d4a0224c581a46fe246fa84d0d26e77b660589fe10d3e3c1b49dda63a8069941",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Distinctive segmented gold mirror and layered sunshield face faint galaxy light. Simplified telescope silhouette accompanies infrared observations; segment count and galaxy detail are schematic.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "156",
+    "title": "D-Day 1944: největší námořní invaze v dějinách",
+    "content": "<p>6. června 1944, v den označovaný jako <strong>D-Day</strong>, zahájily spojenecké síly rozsáhlou invazi na pláže francouzské Normandie okupované nacistickým Německem.</p><p>Na pěti plážích s krycími názvy Utah, Omaha, Gold, Juno a Sword vylodilo během jediného dne přes 150 000 vojáků za podpory téměř 7 000 lodí a více než 11 000 letadel.</p><p>Boje byly obzvlášť krvavé na pláži Omaha, kde němečtí obránci způsobili spojencům tisíce obětí ještě před tím, než se podařilo prolomit obranné linie.</p><p>Invaze otevřela na západě druhou frontu proti Německu a stala se rozhodujícím krokem k jeho porážce o necelý rok později, v květnu 1945.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "Landing craft deliver soldiers to Normandy beaches as a large fleet fills the horizon, conveying the scale of the D-Day invasion.",
+      "scene_type": "environment",
+      "primary_subject": "normandy_landing_craft",
+      "secondary_subjects": [
+        "soldiers_on_beach",
+        "allied_fleet"
+      ],
+      "visual_keywords": [
+        "normandy_landing_craft",
+        "soldiers_on_beach",
+        "allied_fleet"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/156.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Landing craft deliver soldiers to Normandy beaches as a large fleet fills the horizon, conveying the scale of the D-Day invasion.\",\"primary_subject\":\"normandy_landing_craft\",\"secondary_subjects\":[\"soldiers_on_beach\",\"allied_fleet\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
+    "promptHash": "8f113617f30c1cc0027cb3c3c202a5b5212263453c5ff47a66f1cf703203b3ac",
+    "metadataHash": "865750f8f71a2a6ec943686f0fbf0aef6ed22bced102fa450200cce64688173f",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "385660ce5555332093910d8c2bb47e1529504df18ffe7a7c29f3c3d00ff1dfaf",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Allied landing craft with lowered ramp and soldiers moving onto a beach preserve the Normandy invasion action. Background ships and obstacles add historical context; exceeds preferred shape count.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "157",
+    "title": "Adam Smith a továrna na špendlíky, která vysvětlila dělbu práce",
+    "content": "<p>Kolik špendlíků dokáže vyrobit jeden zručný dělník za den, když dělá úplně vše sám? Podle odhadu skotského ekonoma Adama Smithe možná jen jeden, možná ani to ne.</p><p>Smith ve svém díle <em>Bohatství národů</em> z roku 1776 popsal manufakturu na výrobu špendlíků, kde bylo místo jediného řemeslníka rozděleno osmnáct dílčích úkonů mezi deset dělníků.</p><p>Jeden dělník tak natahoval drát, druhý ho rovnal, třetí řezal, čtvrtý brousil hrot a tak dál. Výsledkem bylo, že společně dokázali vyrobit přes 48 000 špendlíků denně, tedy tisíce na jednoho pracovníka.</p><p>Tímto příkladem Smith ilustroval princip <strong>dělby práce</strong> – specializace jednotlivých úkonů dramaticky zvyšuje celkovou produktivitu, což se stalo jedním ze základních principů moderního průmyslu.</p>",
+    "category": "ekonomie",
+    "illustration": {
+      "concept": "Different workers repeatedly perform individual stages of pin production, turning division of labor into greater combined output.",
+      "scene_type": "process",
+      "primary_subject": "pin_factory_assembly_line",
+      "secondary_subjects": [
+        "specialized_workers",
+        "finished_pins"
+      ],
+      "visual_keywords": [
+        "pin_factory_assembly_line",
+        "specialized_workers",
+        "finished_pins"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/157.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Different workers repeatedly perform individual stages of pin production, turning division of labor into greater combined output.\",\"primary_subject\":\"pin_factory_assembly_line\",\"secondary_subjects\":[\"specialized_workers\",\"finished_pins\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}",
+    "promptHash": "acf243e3d38130bf28ed4282cf2e2b47f3d1b8e16b77bfbe28a167de21bad155",
+    "metadataHash": "9e58308d2da82588021ff529a296d92d845de16e61bca61da4233f7e4083633c",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "1f981435ffb09fd36023fb8bf506742a37cf76e6191708bd114e412059b2dcd9",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Workers draw wire, work pins and collect finished output along one shared bench. Specialized tasks make division of labor visible without arrows; three representative workers do not reproduce Smith's exact staff count.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "158",
+    "title": "Harlowovy opičky: pokus, který dokázal, že láska není jen o jídle",
+    "content": "<p>Do 50. let 20. století převládal názor, že dítě si k rodiči vytváří vazbu především proto, že ho krmí.</p><p>Americký psycholog <strong>Harry Harlow</strong> to zpochybnil sérií experimentů s mláďaty makaků rhesus, kterým nabídl dvě umělé „matky“ – jednu z drátu vybavenou lahví s mlékem a druhou potaženou měkkou látkou, ale bez jídla.</p><p>Mláďata trávila drtivou většinu času objímáním měkké látkové matky a k drátěné se přesouvala jen na dobu nezbytně nutnou k nakrmení, i když jim hrozil hlad.</p><p>Harlow z toho vyvodil, že tělesný kontakt a pocit bezpečí jsou pro vývoj vazby přinejmenším stejně důležité jako samotné krmení – závěr, který výrazně ovlivnil pozdější přístup k péči o kojence a malé děti.</p>",
+    "category": "psychologie",
+    "illustration": {
+      "concept": "An infant monkey clings to a soft cloth surrogate while a separate wire surrogate supplies food, distinguishing comfort and attachment from feeding.",
+      "scene_type": "interaction",
+      "primary_subject": "harlow_surrogate_mothers",
+      "secondary_subjects": [
+        "infant_monkey",
+        "cloth_surrogate",
+        "wire_feeding_surrogate"
+      ],
+      "visual_keywords": [
+        "harlow_surrogate_mothers",
+        "infant_monkey",
+        "cloth_surrogate",
+        "wire_feeding_surrogate"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "dramatic",
+      "palette": "monochrome_warm"
+    },
+    "image": "/illustrations-ai/158.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"An infant monkey clings to a soft cloth surrogate while a separate wire surrogate supplies food, distinguishing comfort and attachment from feeding.\",\"primary_subject\":\"harlow_surrogate_mothers\",\"secondary_subjects\":[\"infant_monkey\",\"cloth_surrogate\",\"wire_feeding_surrogate\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"dramatic\",\"palette\":\"monochrome_warm\"}",
+    "promptHash": "d9940917729a43d67e7c106997d38847affbb0ef744bb5186ba01caf7e34014b",
+    "metadataHash": "0ea832d066d5f499bea921b4bb8b081f3bbe6c208f6b9c9d4e082291e732bf61",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "291344bb304a518720536960751bccab40f48de1486605cbc38fc34e5fbc3ba9",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Infant monkey clings to soft surrogate while wire surrogate carries a milk bottle. The comfort-versus-food preference is directly visible; no distress or injury depicted.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
+    "id": "159",
+    "title": "Poslední večeře: freska, kterou Leonardo maloval nesprávnou technikou",
+    "content": "<p>Italský umělec <strong>Leonardo da Vinci</strong> maloval <em>Poslední večeři</em> na zeď refektáře kláštera Santa Maria delle Grazie v Miláně mezi lety 1495 a 1498.</p><p>Namísto tradiční techniky fresky, kdy se barvy nanášejí na čerstvou vlhkou omítku, Leonardo experimentoval s temperovými barvami na suché zdi, což mu umožnilo pracovat pomaleji a s větším detailem.</p><p>Tato volba se ale ukázala jako technická chyba – barva se začala od zdi odlupovat už během několika desetiletí po dokončení, a dílo tak muselo projít mnoha náročnými restaurováními, naposledy velkým projektem dokončeným v roce 1999.</p><p>Přesto obraz zachycující okamžik, kdy Ježíš oznamuje, že jej jeden z apoštolů zradí, patří dodnes k nejobdivovanějším a nejanalyzovanějším uměleckým dílům historie.</p>",
+    "category": "umeni",
+    "illustration": {
+      "concept": "The Last Supper's dry-wall paint layer flakes beneath the dining scene, tying the work's fragility to Leonardo's experimental technique.",
+      "scene_type": "process",
+      "primary_subject": "leonardo_last_supper_deterioration",
+      "secondary_subjects": [
+        "dry_wall_paint_layers",
+        "flaking_surface"
+      ],
+      "visual_keywords": [
+        "leonardo_last_supper_deterioration",
+        "dry_wall_paint_layers",
+        "flaking_surface"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/159.webp",
+    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. A necessary inscription may only add distinct information, such as the origin of aid. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Avoid explanatory arrows, connector networks, orbit tracks, legends or numbered steps when they create a decoding task. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"The Last Supper's dry-wall paint layer flakes beneath the dining scene, tying the work's fragility to Leonardo's experimental technique.\",\"primary_subject\":\"leonardo_last_supper_deterioration\",\"secondary_subjects\":[\"dry_wall_paint_layers\",\"flaking_surface\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "25365dfed965fa6ce60023d986fb15b2f64f2edda730736da37fdedfed0b1a8f",
+    "metadataHash": "d92e9623f82dc89180a3f1889ea43c91c3ddf3732abd8ba13554ccd82529e32e",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; no size, quality or cost controls exposed",
+    "imageSha256": "3ce86869b350227c68dd1db3c57fb40b383e4558ee95f948f81542af76f84d20",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Recognizable Last Supper composition sits above cracked and flaking wall paint. Deterioration is the visible consequence; simplified figures exceed shape target but remain subordinate to the wall.",
+      "background": "RGBA WebP, transparent padding and alpha 0 in all four corners",
+      "limitations": "Some outputs exceed the target flat-shape count; see meaning review."
+    }
+  },
+  {
     "id": "558",
     "title": "Čím dál je galaxie, tím rychleji se od nás vzdaluje, zjistilo měření z roku 1929",
     "content": "<p>Americký astronom Edwin Hubble na observatoři Mount Wilson porovnával v 20. letech 20. století vzdálenosti galaxií, určené pomocí cefeid, s posunem jejich spektrálních čar směrem k červené barvě.</p><p>Zjistil jasný vztah: čím dál galaxie leží, tím větší je tento <strong>rudý posuv</strong>, a tedy tím rychleji se od nás vzdaluje.</p><p>Vztah mezi vzdáleností a rychlostí vzdalování se dnes nazývá <strong>Hubbleův zákon</strong> a byl prvním přímým pozorovacím důkazem, že se vesmír jako celek rozpíná.</p><p>Přesná hodnota konstanty, která tento vztah popisuje, se dodnes zpřesňuje a různé metody měření dávají mírně odlišné výsledky, což je jedna z otevřených otázek dnešní kosmologie.</p><p><em>Bez tohoto pozorování by teorie velkého třesku postrádala svůj klíčový empirický základ.</em></p>",
