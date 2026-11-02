@@ -15,7 +15,7 @@ ID `501` now shows an anonymous puzzled Renaissance mathematician beside the lar
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`312` a `413`–`571` a `601` (472 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`312` a `413`–`622` (522 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -30,7 +30,17 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 472 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 522 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Dávka 572–600 a 602–622
+
+Dalších 50 chybějících ilustrací vybraných vzestupně podle aktuálních souborů; `601` již existovala. Generování používá vestavěný image_gen s `transparent_background=true`, bez dostupného řízení rozměru, kvality nebo ceny. Celkem 52 volání zahrnuje 50 prvních verzí a dvě cílené náhrady: `580` odstraňuje zavádějící kruhové těleso nad titanovým jezerem, `616` tmavý obdélník a kouřovou záři kolem krasobruslaře. Původní přesné prompty a zdroje zůstávají v `previousVersion`; nejde o kosmetické varianty.
+
+Výstupy jsou RGBA WebP 640×360 px, quality 80, pod 100 kB, s nulovou alfou rohů; velikosti 13 152–46 838 B, celkem 1 269 610 B. Průhledné odsazení vycentroval `fit-image.py`. Všechny motivy prošly kontrolou při 160×90 a 320×180 px na tmavém povrchu. Manifest zachovává přesné odeslané prompty, původní metadata, SHA-256 promptů, metadat a souborů, zdrojové cesty a individuální významové kontroly. Registrace zahrnuje karty i galerii; přehled dokončení a objem souborů uvádí `reports/illustration-generation-572-622.json`.
+
+Abstraktní články často doprovází jeden konkrétní aspekt: `585` šachová pozice, `590` předání klíče hrdinovi, `591` metaforický návrat stránky, `600` bota a stopa jako příklad indexu, `614` parašutista. Nejde o úplné diagramy teorií. `597` vychází z celého článku o Foucaultově epistémé; původní metadata nesprávně jmenují Kuhna a zůstávají zachovaná pro samostatnou redakční kontrolu. Astronomická schémata nejsou měřená data, portréty a kostýmy nejsou ověřené historické rekonstrukce. `581` obsahuje smysluplný světelný pruh k motivu Pale Blue Dot, nikoli pozadí karty. `615` doprovází aeroelastické kroucení mostu, nepotvrzuje zjednodušené vysvětlení článku prostou vynucenou rezonancí.
+
+Některé výstupy přesahují cílových 5–8 ploch, tři barvy či jedinou stínovou rovinu: zejména anténa `575`, síť `574`, knižní scény, most `615` a měkký opar `580`. Nejde o důsledně minimalistickou sadu; hlavní motivy zůstávají čitelné. Významové role a omezení jsou uvedené jednotlivě v manifestu. Články a původní metadata se nemění. Deterministický repair proběhl pouze v náhledu a jeho obecné návrhy nebyly aplikovány. Kontroly zahrnují rozměry, alfu, limit velikosti, hashe, úplnost registrace, nezměněnou databázi, `npm test` a `npm run build`. Procedurální renderer ani zlaté otisky se nepoužívají.
 
 ## Dávka 521–557 a 559–571
 
