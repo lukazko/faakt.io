@@ -247,3 +247,10 @@ U `474` se titulek a původní metadata o tulipánech rozcházejí s plným čl�
 Na v?slovn? p??n? u?ivatele prob?hl dal?? samostatn? pokus pro ka?d? z ID `453`, `462`, `463`, `466` a `471`, v?dy se shodn?m p?vodn?m promptem a pr?hlednost?. Gener?tor znovu odm?tl v?ech p?t v?stup? (`453`: other; ostatn?: sexual), tak?e nevznikl ??dn? nov? asset ani registrace. Podrobnosti v?etn? p?esn?ch prompt? a nov?ch request ID jsou v `reports/illustration-retry-453-462-463-466-471.json`.
 
 Dal?? u?ivatelem vy??dan? pokus doplnil u v?ech p?ti zad?n? v?slovn? vzd?l?vac? kontext d?jin um?n? ?i v?roby animace; u soch tak? neerotick? kontext historick?ho muzejn?ho d?la. Gener?tor op?t odm?tl v?ech p?t v?stup? se stejn?mi kategoriemi. Aktu?ln? tato ID st?le nemaj? obr?zky. P?esn? zad?n? a chyby v?etn? request ID obsahuje `reports/illustration-educational-context-453-462-463-466-471.json`.
+
+
+## Upraven? n?m?ty pro 453, 462, 463, 466 a 471
+
+Na p??n? u?ivatele se zm?nila pouze ilustra?n? metadata p?ti p??sp?vk?: `453` pou??v? anima?n? f?lie s kresbou stromu a tu?ku; `462` detail mramorov? tv??e Venu?e M?lsk? o??znut? u krku; `463` praskl? mramorov? blok s dl?tem; `466` detail bronzov? hlavy Myslitele s rukou pod bradou; `471` detail hlavy Willendorfsk? figurky s ?epcovit?m vzorem a bez rys? obli?eje, o??znut? u krku. Cel? postavy ani nah? t?la nejsou sou??st? t?chto nov?ch kompozic. Jde o doprovod rozpoznateln?ho aspektu ?l?nku; detaily neukazuj? cel? p?vodn? p??b?h ?i chyb?j?c? pa?e. Palety a n?lady z?st?vaj? zachovan?. Star? ne?sp??n? prompty jsou historick? reporty a nov? metadata nep?episuj?.
+
+Kontrola pokryla cel? texty v?ech p?ti p??sp?vk?; v?ech p?t metadat bylo c?len? zm?n?no, ??dn? nez?stalo nevy?e?en?. Rozhodnut? a vstupn? hashe jsou v `reports/illustration-detail-metadata-review.json`. Texty, titulky, zdroje, po?ad? ani ostatn? p??sp?vky se nem?n?. Nyn? nebylo spu?t?no generov?n? a ??dn? nov? obr?zky ?i registrace nevznikly; po?et asset? z?st?v? 371. Deterministick? repair byl pouze zkontrolov?n v n?hledu. Ov??en?: kontrola rozd?lu pouze v metadatech p?ti ID, `npm test` a `git diff --check`.

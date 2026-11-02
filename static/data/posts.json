@@ -12692,21 +12692,19 @@
       }
     ],
     "illustration": {
-      "concept": "Hand-painted animation cels accumulate into a feature-length story, showing the ambitious labor and financing risk behind Snow White.",
-      "scene_type": "process",
-      "primary_subject": "snow_white_animation_production",
+      "concept": "An animator's pencil rests across a few overlapping animation cels on a simple peg bar, accompanying the labor of early hand-drawn feature-film production. The cels show only a small woodland tree, with no people or characters.",
+      "scene_type": "object",
+      "primary_subject": "hand_drawn_animation_cels",
       "secondary_subjects": [
-        "hand_drawn_cels",
-        "feature_length_sequence"
+        "animators_pencil",
+        "animation_peg_bar"
       ],
       "visual_keywords": [
-        "snow_white_animation_production",
-        "hand_drawn_cels",
-        "feature_length_sequence"
+        "overlapping_transparent_sheets",
+        "simple_tree_drawing"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "blue_gold"
@@ -13018,21 +13016,17 @@
       }
     ],
     "illustration": {
-      "concept": "The recognizable ancient marble Venus is presented with both arms absent, making the iconic incomplete form the focus.",
-      "scene_type": "object",
-      "primary_subject": "venus_de_milo_statue",
-      "secondary_subjects": [
-        "missing_arms",
-        "marble_surface"
-      ],
+      "concept": "A tightly framed portrait detail of the Venus de Milo shows only her marble face, classical hairstyle and neck. The composition ends at the neck, with the body outside the frame. This portrait accompanies the article about the incomplete ancient sculpture without attempting to reconstruct its missing arms.",
+      "scene_type": "portrait",
+      "primary_subject": "venus_de_milo_face_detail",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "venus_de_milo_statue",
-        "missing_arms",
-        "marble_surface"
+        "classical_marble_face",
+        "gathered_hair",
+        "neck_up_crop"
       ],
       "composition_hints": [
-        "dominant_central_object",
-        "subtle_background_context"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "teal_amber"
@@ -13054,21 +13048,18 @@
       }
     ],
     "illustration": {
-      "concept": "A damaged discarded marble block becomes Michelangelo's David, connecting sculptural achievement to the challenge of the original material.",
-      "scene_type": "process",
-      "primary_subject": "michelangelo_david_marble",
+      "concept": "A sculptor's chisel rests against a tall rough marble block with a visible crack, accompanying the rejected material from which Michelangelo carved David. Depict only stone and tool, with no human figure or emerging anatomy.",
+      "scene_type": "object",
+      "primary_subject": "rejected_marble_block",
       "secondary_subjects": [
-        "rejected_stone_block",
-        "emerging_david"
+        "sculptors_chisel"
       ],
       "visual_keywords": [
-        "michelangelo_david_marble",
-        "rejected_stone_block",
-        "emerging_david"
+        "rough_marble",
+        "single_visible_crack"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
@@ -13160,21 +13151,17 @@
       }
     ],
     "illustration": {
-      "concept": "The familiar seated Thinker is shown first within the Gates of Hell and then as an independent sculpture, restoring its original context.",
-      "scene_type": "object",
-      "primary_subject": "rodin_thinker_gates_of_hell",
-      "secondary_subjects": [
-        "seated_thinking_figure",
-        "monumental_doorway"
-      ],
+      "concept": "A close portrait detail of Rodin's bronze Thinker shows only the bowed head and the hand supporting the chin. The composition ends immediately below the chin and hand; the torso and rest of the figure are outside the frame. The concentrated pose accompanies the article about the sculpture's origin.",
+      "scene_type": "portrait",
+      "primary_subject": "rodin_thinker_head_and_hand",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "rodin_thinker_gates_of_hell",
-        "seated_thinking_figure",
-        "monumental_doorway"
+        "bowed_bronze_head",
+        "chin_resting_on_hand",
+        "tight_portrait_crop"
       ],
       "composition_hints": [
-        "dominant_central_object",
-        "subtle_background_context"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
@@ -13340,21 +13327,18 @@
       }
     ],
     "illustration": {
-      "concept": "A palm-sized limestone female figurine with emphasized bodily forms is shown with a discreet size reference and archaeological material texture.",
+      "concept": "A tightly framed archaeological detail shows only the rounded limestone head of the Willendorf figurine, its broad patterned cap and featureless face. The composition ends at the neck, with the body outside the frame. This detail accompanies the article about the small prehistoric carving without claiming an interpretation of its purpose.",
       "scene_type": "object",
-      "primary_subject": "venus_of_willendorf",
-      "secondary_subjects": [
-        "small_limestone_figurine",
-        "scale_reference"
-      ],
+      "primary_subject": "willendorf_figurine_head_detail",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "venus_of_willendorf",
-        "small_limestone_figurine",
-        "scale_reference"
+        "rounded_limestone_head",
+        "broad_cap_bands",
+        "featureless_face",
+        "neck_up_crop"
       ],
       "composition_hints": [
-        "dominant_central_object",
-        "subtle_background_context"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "monochrome_cool"
