@@ -154,6 +154,8 @@ Doporučený postup:
 
 ## Shared skills for AI agents
 
+- **Ilustrace má vzbudit chuť číst:** výrazným motivem, gestem, atmosférou nebo kontrastem. Samotná přehlednost nestačí; i pár oddělených objektů s jedinou šipkou může působit jako rovnice vstupů a výsledku. Když myšlenku lépe nese přirozené setkání či soudržná scéna, propoj prvky pohledem, pózou, pohybem nebo společným prostorem. Růžový plameňák sklánějící se k šedému mláděti může zaujmout bez schématu mládě + potrava → dospělý. Nejde o zákaz diagramů, šipek či vysvětlení principu: mají své místo, když jejich vizuální forma sama dobře funguje jako ilustrace. Posuzuj celkovou kompozici, nikoli jen počet předmětů či kroků.
+
 - **Vycentrování ilustrací:** hlavní motiv má být opticky uprostřed celého obrázku, s vyváženými prázdnými okraji. Asymetrie má mít konkrétní významový nebo pohybový důvod. Kontroluj skutečně viditelný motiv včetně alfa odsazení; při finálním zmenšení lze odstranit nadbytečný plně průhledný okraj a celý motiv vycentrovat bez ořezu jeho částí. Nerezervuj volný sloupec pro text.
 
 - **Kontrola ilustrací před překreslením:** posuzuj obrázek spolu s titulkem a textem karty. Překreslení musí řešit konkrétní viditelný rozpor nebo nečitelnost; domnělá doslovná interpretace symbolu nestačí. Nejasný počet překrývajících se postav nejprve ověř ve větším náhledu. Spojnice mohou vyjadřovat vztah a šipky výsledek měření, aniž by tvrdily přenos signálu. Nevyžaduj názvy zemí ani popisky jen k zopakování kontextu z textu. Náhradu porovnej s originálem při stejné velikosti a zachovej výraz, děj i čitelnost. První verze `188`, `200` a `212` jsou výslovnou volbou uživatele; pravidla a jejich konkrétní význam popisuje `skills/faakt-illustrations/SKILL.md`.

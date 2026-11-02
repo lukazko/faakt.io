@@ -55,6 +55,7 @@ Preview with `apply`, inspect the diff it describes, then use `--write` for loca
 
 ## Review criteria
 
+- **editorial appeal:** Check whether the composition invites reading through a subject, gesture, atmosphere or contrast, rather than merely translating the text into inputs and outputs. Even one arrow joining a few detached objects can feel like an equation. Prefer a coherent scene or natural encounter when it carries the idea better, such as a pink flamingo bending toward a gray chick instead of chick + food → adult. Diagrams, arrows and illustrated principles remain valid when their visual form is itself expressive and suited to the article; object count and immediate readability alone do not decide this.
 - **concept:** Select one recognizable aspect that accompanies the article. A relevant standalone object, person, simple action or concise metaphor is enough. Do not demand an explanatory relationship or a complete experiment. Read the full post to choose a subject, not to collect everything it mentions.
 - **primary_subject:** Verify the selected subject's identity and factual compatibility. A relevant instrument, particle or author is valid without an illustrated discovery process. Avoid unrelated category symbols and literal misreadings of figurative language.
 - **secondary_subjects:** Optional. Keep a supporting symbol when it helps immediate recognition of the chosen motif; remove even article-related objects when they add a second explanation or unnecessary complexity. Empty arrays are valid.

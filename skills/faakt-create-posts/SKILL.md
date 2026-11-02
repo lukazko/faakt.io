@@ -72,6 +72,8 @@ Každý nový objekt má přesně pole `id`, `title`, `content`, `category`, `so
 
 ## Ilustrační metadata každého postu
 
+Ilustrace má vzbudit chuť číst výrazným motivem, gestem, atmosférou či vizuálním kontrastem. Samotná přehlednost nestačí: i několik oddělených objektů s jedinou šipkou může působit jako rovnice vstupů a výsledku. Když myšlenku lépe nese přirozené setkání nebo soudržná scéna, propoj prvky pohledem, pózou, pohybem či společným prostorem. Růžový plameňák sklánějící se k šedému mláděti může zaujmout bez schématu mládě + potrava → dospělý. Diagramy, šipky ani vysvětlení principu nejsou zakázané; používej je, pokud jejich vizuální podoba sama dobře funguje jako ilustrace k danému textu. Nerozhoduje jen počet předmětů či kroků.
+
 Všechny následující klíče jsou povinné. Textové hodnoty piš anglicky, názvy motivů jako popisné identifikátory `snake_case`; nejsou to automaticky klíče SVG rendereru.
 
 | Pole | Typ a pravidlo |

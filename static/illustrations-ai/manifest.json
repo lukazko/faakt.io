@@ -12888,43 +12888,49 @@
       }
     ],
     "illustration": {
-      "concept": "A gray flamingo chick becomes pink as dietary carotenoid pigments accumulate, connecting coloration to food rather than an innate pink birth color.",
-      "scene_type": "process",
-      "primary_subject": "flamingo_dietary_pigment",
+      "concept": "A pink adult flamingo bends its curved neck toward a small gray chick nestled beside its legs, making their surprising color contrast part of one intimate natural scene. The article explains how food produces the pink color.",
+      "scene_type": "interaction",
+      "primary_subject": "pink_flamingo_with_gray_chick",
       "secondary_subjects": [
-        "gray_chick",
-        "carotenoid_food",
-        "pink_adult"
+        "gray_flamingo_chick"
       ],
       "visual_keywords": [
-        "flamingo_dietary_pigment",
+        "pink_flamingo",
         "gray_chick",
-        "carotenoid_food",
-        "pink_adult"
+        "curved_neck",
+        "gentle_encounter"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "single_connected_natural_scene",
+        "adult_bends_toward_chick",
+        "optically_centered_motif",
+        "no_sequence_or_equation"
       ],
-      "mood": "neutral",
+      "mood": "contemplative",
       "palette": "teal_amber"
     },
     "image": "/illustrations-ai/278.webp",
-    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A gray flamingo chick becomes pink as dietary carotenoid pigments accumulate, connecting coloration to food rather than an innate pink birth color.\",\"primary_subject\":\"flamingo_dietary_pigment\",\"secondary_subjects\":[\"gray_chick\",\"carotenoid_food\",\"pink_adult\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
-    "promptHash": "fc54d7f00788d6db94be38532cdc0402ad382d57ec08eb18c7c5a961aad08540",
-    "metadataHash": "f5549aaa3d16293579b6307997016a9ded42b4e08918252066ff1052c7f5b6f8",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A pink adult flamingo bends its curved neck toward a small gray chick nestled beside its legs, making their surprising color contrast part of one intimate natural scene. The article explains how food produces the pink color.\",\"primary_subject\":\"pink_flamingo_with_gray_chick\",\"secondary_subjects\":[\"gray_flamingo_chick\"],\"visual_keywords\":[\"pink_flamingo\",\"gray_chick\",\"curved_neck\",\"gentle_encounter\"],\"composition_hints\":[\"single_connected_natural_scene\",\"adult_bends_toward_chick\",\"optically_centered_motif\",\"no_sequence_or_equation\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}\nSelected scene: One coral-pink adult flamingo bends its long graceful S-shaped neck down toward one small fluffy gray chick tucked close beside its legs. Their beaks almost meet in a gentle curious encounter. Compose them as one connected, expressive silhouette, not two display specimens. Pink and gray color contrast carries the intrigue. No arrows, no food or shrimp, no floating ingredients, no stages, no before-and-after panels, no feeding action. Minimal coral, warm gray and muted teal accents, broad flat shapes, no feather texture, no scenery. Transparent background and balanced margins.",
+    "promptHash": "db418f629d5303000f94f15c18d5d8258423727f325630344ee8aaec4036f32e",
+    "metadataHash": "bbf47ed4d75d566d90cdc8b05ba9c36f4181634348cefddc0276be7d4dde0a07",
     "cached": true,
     "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "8c87018bbb692d3711cbf1dcd431afd877b7e3caf8e1cead0dc5604f09d251b7",
+    "imageSha256": "f69ba14d451959426a21d3921c9e59f06c26dac3ad65ff81a210145a788984fa",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Gray chick, dietary crustacean and pink adult accompany dietary coloration; pigment processing is left to the text.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0; reviewed on dark card surface",
-      "simplicity": "Main motif readable at both thumbnail sizes. Some shading, contours and supporting elements exceed strict 5–8 shapes / three foreground colors; retained without cosmetic regeneration.",
+      "meaning": "A pink adult flamingo bends toward a gray chick in one natural encounter. Their contrasting colors invite reading; no dietary mechanism, feeding action or developmental sequence is depicted.",
+      "background": "RGBA WebP; transparent margins; four corner alpha values 0.",
+      "simplicity": "Two birds form one connected expressive scene without arrows, detached food or before-after panels. Layered wing shapes exceed the strict 5?8 flat-shape target; both silhouettes remain readable.",
+      "alphaMargins": {
+        "left": 184,
+        "right": 184,
+        "top": 27,
+        "bottom": 27
+      },
       "cornerAlpha": [
         0,
         0,
@@ -12932,7 +12938,71 @@
         0
       ]
     },
-    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19b12-1d6e-70a3-a6ad-9492a0f1a706\\exec-c43ed0e3-6760-42e0-b194-69d35a6c29de.png"
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19b12-1d6e-70a3-a6ad-9492a0f1a706\\exec-31e68730-6e19-443e-a7e9-0b7f846902cf.png",
+    "previousVersion": {
+      "id": "278",
+      "title": "Plameňáci se rodí šedí a barvu si vytvoří jídlem",
+      "content": "<p>Růžové zbarvení plameňáků není dáno jejich vlastním pigmentem. Mláďata se líhnou v šedavém až bílém peří.</p><p>Barvu získávají z potravy. Řasy a drobní korýši, kterými se živí, obsahují látky ze skupiny karotenoidů. Ty se v těle zpracují a ukládají do peří, zobáku a kůže.</p><p>Z toho plyne, že intenzita zbarvení vypovídá o kvalitě sháněné potravy. Sytě zbarvený jedinec signalizuje, že se dobře živí, což hraje roli při výběru partnera.</p><p>V zoologických zahradách se proto zbarvení udržuje složením krmiva doplněného o odpovídající látky.</p><p><em>To, co vypadá jako vrozený znak druhu, je ve skutečnosti záznam jídelníčku.</em></p>",
+      "category": "zajimavost",
+      "sources": [
+        {
+          "label": "Smithsonian's National Zoo – Flamingo",
+          "url": "https://nationalzoo.si.edu/animals/american-flamingo"
+        },
+        {
+          "label": "Britannica – Flamingo",
+          "url": "https://www.britannica.com/animal/flamingo-bird"
+        }
+      ],
+      "illustration": {
+        "concept": "A gray flamingo chick becomes pink as dietary carotenoid pigments accumulate, connecting coloration to food rather than an innate pink birth color.",
+        "scene_type": "process",
+        "primary_subject": "flamingo_dietary_pigment",
+        "secondary_subjects": [
+          "gray_chick",
+          "carotenoid_food",
+          "pink_adult"
+        ],
+        "visual_keywords": [
+          "flamingo_dietary_pigment",
+          "gray_chick",
+          "carotenoid_food",
+          "pink_adult"
+        ],
+        "composition_hints": [
+          "stacked_or_sequential_arrangement",
+          "visual_cause_and_effect"
+        ],
+        "mood": "neutral",
+        "palette": "teal_amber"
+      },
+      "image": "/illustrations-ai/278.webp",
+      "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A gray flamingo chick becomes pink as dietary carotenoid pigments accumulate, connecting coloration to food rather than an innate pink birth color.\",\"primary_subject\":\"flamingo_dietary_pigment\",\"secondary_subjects\":[\"gray_chick\",\"carotenoid_food\",\"pink_adult\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+      "promptHash": "fc54d7f00788d6db94be38532cdc0402ad382d57ec08eb18c7c5a961aad08540",
+      "metadataHash": "f5549aaa3d16293579b6307997016a9ded42b4e08918252066ff1052c7f5b6f8",
+      "cached": true,
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "imageSha256": "8c87018bbb692d3711cbf1dcd431afd877b7e3caf8e1cead0dc5604f09d251b7",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Gray chick, dietary crustacean and pink adult accompany dietary coloration; pigment processing is left to the text.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0; reviewed on dark card surface",
+        "simplicity": "Main motif readable at both thumbnail sizes. Some shading, contours and supporting elements exceed strict 5–8 shapes / three foreground colors; retained without cosmetic regeneration.",
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19b12-1d6e-70a3-a6ad-9492a0f1a706\\exec-c43ed0e3-6760-42e0-b194-69d35a6c29de.png",
+      "gitRevision": "b189e6fe3fa6286dd2273d1e6811e5de68182fed",
+      "selectionNote": "Replaced at user request: detached chick, arrow, food and adult feel like a chemical equation rather than an inviting editorial illustration."
+    }
   },
   {
     "id": "279",

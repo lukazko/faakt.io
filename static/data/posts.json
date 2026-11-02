@@ -9970,25 +9970,25 @@
       }
     ],
     "illustration": {
-      "concept": "A gray flamingo chick becomes pink as dietary carotenoid pigments accumulate, connecting coloration to food rather than an innate pink birth color.",
-      "scene_type": "process",
-      "primary_subject": "flamingo_dietary_pigment",
+      "concept": "A pink adult flamingo bends its curved neck toward a small gray chick nestled beside its legs, making their surprising color contrast part of one intimate natural scene. The article explains how food produces the pink color.",
+      "scene_type": "interaction",
+      "primary_subject": "pink_flamingo_with_gray_chick",
       "secondary_subjects": [
-        "gray_chick",
-        "carotenoid_food",
-        "pink_adult"
+        "gray_flamingo_chick"
       ],
       "visual_keywords": [
-        "flamingo_dietary_pigment",
+        "pink_flamingo",
         "gray_chick",
-        "carotenoid_food",
-        "pink_adult"
+        "curved_neck",
+        "gentle_encounter"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "single_connected_natural_scene",
+        "adult_bends_toward_chick",
+        "optically_centered_motif",
+        "no_sequence_or_equation"
       ],
-      "mood": "neutral",
+      "mood": "contemplative",
       "palette": "teal_amber"
     }
   },
