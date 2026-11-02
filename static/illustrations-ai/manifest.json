@@ -579,24 +579,71 @@
     },
     "image": "/illustrations-ai/014.webp",
     "cached": true,
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A dark black-hole shadow surrounded by a bright ring is assembled from signals of radio telescopes linked across Earth; the target is M87, not an optical camera photograph.\",\"primary_subject\":\"black_hole_shadow\",\"secondary_subjects\":[\"bright_accretion_ring\",\"earth_radio_telescope_network\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
-    "promptHash": "e16c644b870c2c7f43f7e78da0324ab0af58624b412cc1161da60b29e3f3f1fa",
-    "metadataHash": "7527e19034e4cc406c5eee6354de741b2853b8220410f1355e7ec1c2f2300e97",
-    "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
-    "reusedFrom": "054",
-    "sourceImageSha256": "0c54334b3e14917e6d4761e0ba06cc4b5b27de3d115fe5e055ffc8534b8a53f3",
-    "imageSha256": "0c54334b3e14917e6d4761e0ba06cc4b5b27de3d115fe5e055ffc8534b8a53f3",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"M87 black hole as an almost circular orange emission ring surrounding a dark central shadow, thicker and brighter along its lower side. One isolated ring only; omit Earth, telescopes, stars and jets.\",\"primary_subject\":\"black_hole_shadow\",\"secondary_subjects\":[\"orange_emission_ring\"],\"scene_type\":\"object\",\"composition_hints\":[\"optically_centered\"],\"mood\":\"awe\",\"palette\":\"amber_orange\"}",
+    "promptHash": "0d2f44cfe4a0710a74331d5ebfe215f2fce396cd2408d525f6c18af78150c853",
+    "metadataHash": "39fa66219b1a540b85fe414ba7810466c90b42ea10672ce2ded64b3b65e6fa09",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and generation cost controls unavailable",
+    "imageSha256": "1608017dc3adb098852257002ef1822202954e492dea18dc0facee468f9a0e80",
     "review": {
-      "status": "accepted-background-reuse",
+      "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Same central topic as post 054; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
-      "background": "RGBA WebP; all four corners alpha 0"
+      "meaning": "User-requested regeneration. Isolated M87 orange emission ring and dark central shadow accompany the first EHT image; brighter lower side. Not measured data. Telescope network omitted for a readable motif. Soft transitions represent the luminous gas itself.",
+      "background": "RGBA WebP 640x360; all four corners alpha 0; balanced transparent margins; no background rectangle.",
+      "promptScope": "Simplified motif; original article metadata preserved."
     },
-    "replacementReason": "opaque-background",
-    "previousImageSha256": "31b07df863961eb9486df77d8de859569b3bf18313a06f2df30523de65188b07"
+    "previousImageSha256": "0c54334b3e14917e6d4761e0ba06cc4b5b27de3d115fe5e055ffc8534b8a53f3",
+    "history": [
+      {
+        "id": "014",
+        "title": "První fotografie něčeho, co pohltí i světlo",
+        "content": "<p>10. dubna 2019 zveřejnil mezinárodní projekt Event Horizon Telescope první skutečnou fotografii černé díry v historii lidstva.</p><p>Snímek zachytil obří černou díru v centru galaxie M87, vzdálené asi 55 milionů světelných let od Země, s hmotností odpovídající šesti a půl miliardám Sluncí.</p><p>Na fotografii je vidět oranžový prstenec rozpáleného plynu kolem temného středu, přesně toho místa, odkud už ani světlo nemůže uniknout. Ke vzniku snímku bylo potřeba propojit osm radioteleskopů rozmístěných po celé planetě.</p><p>Do té doby existovaly černé díry jen jako matematický důsledek Einsteinových rovnic. Poprvé je lidstvo skutečně uviděla.</p>",
+        "category": "astronomie",
+        "illustration": {
+          "concept": "A dark black-hole shadow surrounded by a bright ring is assembled from signals of radio telescopes linked across Earth; the target is M87, not an optical camera photograph.",
+          "scene_type": "object",
+          "primary_subject": "black_hole_shadow",
+          "secondary_subjects": [
+            "bright_accretion_ring",
+            "earth_radio_telescope_network"
+          ],
+          "visual_keywords": [
+            "black_hole_shadow",
+            "bright_accretion_ring",
+            "earth_radio_telescope_network"
+          ],
+          "composition_hints": [
+            "dominant_central_object",
+            "subtle_background_context"
+          ],
+          "mood": "neutral",
+          "palette": "blue_gold"
+        },
+        "image": "/illustrations-ai/014.webp",
+        "cached": true,
+        "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, vignette, glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; add secondary subjects only when essential to clarify it. Prefer a single simple composition over multiple panels, crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No gradients, lighting effects, reflections, texture, hatching, hair strands, foliage detail, tiny symbols, text, watermark, 3D or photorealism. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, show only the actual subject and relevant pose; do not invent a diagram of an abstract teaching. Do not add standalone symbolic vignettes or unrequested props. A word such as attachment does not justify detached hands, coins or balls. Keep one coherent scene and omit nonessential objects. Make the scene understandable at first glance without decoding symbols. No explanatory arrows, connector networks, orbit tracks, legends, numbered steps or detached symbolic marks. Show proximity and action through placement and pose. Do not turn the article into a schematic puzzle. Render the minimum needed to recognize the intended subject or relationship.\nMetadata: {\"concept\":\"A dark black-hole shadow surrounded by a bright ring is assembled from signals of radio telescopes linked across Earth; the target is M87, not an optical camera photograph.\",\"primary_subject\":\"black_hole_shadow\",\"secondary_subjects\":[\"bright_accretion_ring\",\"earth_radio_telescope_network\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}",
+        "promptHash": "e16c644b870c2c7f43f7e78da0324ab0af58624b412cc1161da60b29e3f3f1fa",
+        "metadataHash": "7527e19034e4cc406c5eee6354de741b2853b8220410f1355e7ec1c2f2300e97",
+        "generationMethod": "byte-for-byte reuse of same-topic illustration; no AI call",
+        "reusedFrom": "054",
+        "sourceImageSha256": "0c54334b3e14917e6d4761e0ba06cc4b5b27de3d115fe5e055ffc8534b8a53f3",
+        "imageSha256": "0c54334b3e14917e6d4761e0ba06cc4b5b27de3d115fe5e055ffc8534b8a53f3",
+        "review": {
+          "status": "accepted-background-reuse",
+          "sizes": [
+            "160x90",
+            "320x180"
+          ],
+          "meaning": "Same central topic as post 054; transparent artwork reused. Thumbnail and background checked. Reuse does not claim a reconstruction of this post's particular example.",
+          "background": "RGBA WebP; all four corners alpha 0"
+        },
+        "replacementReason": "opaque-background",
+        "previousImageSha256": "31b07df863961eb9486df77d8de859569b3bf18313a06f2df30523de65188b07"
+      }
+    ],
+    "generatedSource": "C:/Users/lukas/.codex/generated_images/01a19df0-a817-7e61-8b07-c4be4333d3c1/exec-9c48d604-464d-4004-8350-dd46768f03ad.png"
   },
   {
     "id": "015",

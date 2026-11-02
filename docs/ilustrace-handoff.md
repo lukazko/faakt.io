@@ -2,6 +2,10 @@
 
 Produkční karty používají statické AI ilustrace ve formátu WebP. Procedurální SVG renderer, jeho galerie, audit, baseline a testy byly odstraněny.
 
+
+Post `014`: regenerated with built-in image_gen as an isolated orange M87 emission ring and dark central shadow, brighter below. Transparent RGBA WebP, 640x360, 18,262 bytes; corner alpha 0. Reviewed at 160x90 and 320x180; both tests pass. Registered in cards and gallery. Exact prompt, SHA-256 and prior provenance retained in manifest; 054 unchanged. Generation size/quality/cost controls unavailable.
+
+
 ## Rozsah
 
 - Dostupné ilustrace: `001`–`312` a `413`–`571` (471 souborů, včetně sdílených kopií).
