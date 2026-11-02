@@ -35,6 +35,7 @@ Povolené hodnoty `category`:
 Každý nový příspěvek musí obsahovat objekt `illustration`. Po přečtení titulku i celého obsahu vyber jeden rozpoznatelný aspekt: objekt, osobu, jednoduchý děj nebo stručnou metaforu. Ilustrace doprovází text; nemusí vysvětlit mechanismus, rekonstruovat experiment ani shrnout celou pointu. Jedoucí sanitka stačí k Dopplerovu jevu, kniha se zákazem k zakázanému románu a pulsar s paprskem k pravidelným pulzům. Metadata nejsou seznam všech souvisejících objektů. `secondary_subjects` může zůstat prázdné; doplňky přidávej jen pro lepší rozpoznání vybraného motivu. Zachovej faktickou identitu a čitelnost při 160×90 px, nepřidávej dekorace kvůli rozmanitosti.
 
 Metadata popisují námět a jeho uspořádání, nejsou kompletním promptem pro generátor obrázků. Piš jejich textové hodnoty anglicky, jak je běžné v existujících datech. `primary_subject` a další názvy motivů jsou popisné identifikátory ve `snake_case`; nepředpokládej, že jde o klíče rendereru.
+Výchozí kompozice má opticky vycentrovaný hlavní motiv a vyvážené prázdné okraje v celém obrázku. Asymetrii použij jen pro konkrétní význam, interakci či směr děje; nerezervuj prázdný sloupec pro text.
 
 Přesná struktura:
 

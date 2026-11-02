@@ -9665,83 +9665,201 @@
   {
     "id": "215",
     "title": "Proč se tón sanitky změní přesně ve chvíli, kdy vás mine",
+    "content": "<p>Když se sanitka blíží, zní siréna vyšší. Jakmile projede kolem, tón okamžitě klesne. Přitom zdroj zvuku se vůbec nezměnil.</p><p>Vysvětlení nabízí <strong>Dopplerův jev</strong>, popsaný roku 1842 rakouským fyzikem Christianem Dopplerem, který tehdy působil v Praze.</p><p>Pohybující se zdroj vlnění posílá další hřebeny vlny blíž k sobě ve směru pohybu a dál od sebe za sebou. Pozorovatel proto zaznamená kratší vlnovou délku při přibližování a delší při vzdalování.</p><p>Stejný princip platí i pro světlo. Astronomové podle posunu spektrálních čar poznají, zda se galaxie vzdaluje, a meteorologické radary díky němu měří pohyb srážek.</p><p>Jedna vlastnost vlnění tak spojuje sirénu na ulici s měřením rozpínání vesmíru.</p>",
+    "category": "fyzika",
+    "sources": [
+      {
+        "label": "Britannica – Doppler effect",
+        "url": "https://www.britannica.com/science/Doppler-effect"
+      },
+      {
+        "label": "NASA – Doppler shift",
+        "url": "https://science.nasa.gov/ems/09_visiblelight/"
+      }
+    ],
     "illustration": {
-      "concept": "Wavefronts bunch ahead of an approaching ambulance and spread behind it, explaining the pitch drop as it passes a stationary listener.",
-      "scene_type": "diagram",
-      "primary_subject": "doppler_passing_ambulance",
-      "secondary_subjects": [
-        "compressed_wavefronts",
-        "spread_wavefronts"
-      ],
+      "concept": "A single moving ambulance, shown in side view and centered as a complete motif. The vehicle alone accompanies the Doppler-effect article; no listener or wave diagram.",
+      "scene_type": "object",
+      "primary_subject": "moving_ambulance",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "doppler_passing_ambulance",
-        "compressed_wavefronts",
-        "spread_wavefronts"
+        "ambulance_side_view",
+        "emergency_vehicle",
+        "simple_motion"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
-      "mood": "neutral",
+      "mood": "dynamic",
       "palette": "indigo_cyan"
     },
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Wavefronts bunch ahead of an approaching ambulance and spread behind it, explaining the pitch drop as it passes a stationary listener.\",\"scene_type\":\"diagram\",\"primary_subject\":\"doppler_passing_ambulance\",\"secondary_subjects\":[\"compressed_wavefronts\",\"spread_wavefronts\"],\"visual_keywords\":[\"doppler_passing_ambulance\",\"compressed_wavefronts\",\"spread_wavefronts\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
-    "promptHash": "ff64fdc383e0b33fbb18a1153a3263e6f60e6a5a161be1f9eff468fa996b8f76",
-    "metadataHash": "e5e6da208fe82877daf43ff42a5b587b6eb1aac4d6c984a23d62228e7304ef76",
     "image": "/illustrations-ai/215.webp",
     "cached": true,
-    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "d473bdb575ca3edf9c4fa3b33fa6fe7de29e288060945360c837e9b82a9808cd",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A single moving ambulance, shown in side view and centered as a complete motif. The vehicle alone accompanies the Doppler-effect article; no listener or wave diagram.\",\"primary_subject\":\"moving_ambulance\",\"secondary_subjects\":[],\"visual_keywords\":[\"ambulance_side_view\",\"emergency_vehicle\",\"simple_motion\"],\"composition_hints\":[\"optically_centered_motif\",\"balanced_transparent_margins\",\"uncluttered_composition\"],\"scene_type\":\"object\",\"mood\":\"dynamic\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "0ebf82d8afa4170cd84cf9cd04fd842a44e13f83ce24c18efc6e5381bfc0baa8",
+    "metadataHash": "67d2f17f58b4f8a3f2722e5c3f72a2a0a237d05dc79a9fb53fd86e21cdef5ca8",
+    "imageSha256": "5876d0a22b200f65b72cbd03ce8d3ae01fe3964e9af66587f6e51f4ce48b22af",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
+    "previousVersion": {
+      "illustration": {
+        "concept": "Wavefronts bunch ahead of an approaching ambulance and spread behind it, explaining the pitch drop as it passes a stationary listener.",
+        "scene_type": "diagram",
+        "primary_subject": "doppler_passing_ambulance",
+        "secondary_subjects": [
+          "compressed_wavefronts",
+          "spread_wavefronts"
+        ],
+        "visual_keywords": [
+          "doppler_passing_ambulance",
+          "compressed_wavefronts",
+          "spread_wavefronts"
+        ],
+        "composition_hints": [
+          "asymmetric_composition",
+          "layered_scene"
+        ],
+        "mood": "neutral",
+        "palette": "indigo_cyan"
+      },
+      "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Wavefronts bunch ahead of an approaching ambulance and spread behind it, explaining the pitch drop as it passes a stationary listener.\",\"scene_type\":\"diagram\",\"primary_subject\":\"doppler_passing_ambulance\",\"secondary_subjects\":[\"compressed_wavefronts\",\"spread_wavefronts\"],\"visual_keywords\":[\"doppler_passing_ambulance\",\"compressed_wavefronts\",\"spread_wavefronts\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
+      "promptHash": "ff64fdc383e0b33fbb18a1153a3263e6f60e6a5a161be1f9eff468fa996b8f76",
+      "metadataHash": "e5e6da208fe82877daf43ff42a5b587b6eb1aac4d6c984a23d62228e7304ef76",
+      "imageSha256": "d473bdb575ca3edf9c4fa3b33fa6fe7de29e288060945360c837e9b82a9808cd",
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Compressed wavefronts ahead of the ambulance and spread wavefronts behind show the Doppler relationship; curves are schematic.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+        "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      },
+      "gitRevision": "7777b18a7a883312dca9070130e71596a0b143ad"
+    },
+    "replacementReason": "User-requested simpler motif and balanced placement in the complete image.",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Compressed wavefronts ahead of the ambulance and spread wavefronts behind show the Doppler relationship; curves are schematic.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
-      "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      "meaning": "A moving ambulance accompanies Doppler effect without observer or wavefronts. Short motion strokes are attached to the vehicle and do not diagram acoustic propagation.",
+      "background": "RGBA WebP; transparent corners and padding",
+      "centering": {
+        "method": "fit-image.py; alpha>=16 footprint centered; all visible pixels retained in sizing; optical placement reviewed",
+        "alphaMargins": {
+          "left": 63,
+          "right": 63,
+          "top": 77,
+          "bottom": 77
+        },
+        "intentionalAsymmetry": false
+      },
+      "simplicity": "One compact motif or simple comparison, not an experiment or causal chain; departures recorded in meaning."
     }
   },
   {
     "id": "216",
     "title": "Existuje nejnižší možná teplota, ale nelze jí dosáhnout",
+    "content": "<p>Teplota souvisí s pohybem částic. Čím pomaleji se pohybují, tím je nižší. Z toho plyne, že musí existovat mez, pod kterou už jít nelze.</p><p>Tato mez se nazývá <strong>absolutní nula</strong> a odpovídá nule kelvinu, tedy přibližně minus 273,15 stupně Celsia.</p><p>Termodynamika ale dodává nepříjemnou podmínku: absolutní nuly nelze dosáhnout konečným počtem kroků. Každé další ochlazení je obtížnější než předchozí.</p><p>Laboratoře se proto dostávají k hodnotám miliardtin kelvinu nad nulou, kde se objevují stavy hmoty jako Boseho-Einsteinův kondenzát.</p><p>Nejde jen o rekordy. Při extrémně nízkých teplotách se projevují kvantové jevy, které za běžných podmínek tepelný šum zcela překryje.</p>",
+    "category": "fyzika",
+    "sources": [
+      {
+        "label": "Britannica – Absolute zero",
+        "url": "https://www.britannica.com/science/absolute-zero"
+      },
+      {
+        "label": "NIST – Cooling atoms",
+        "url": "https://www.nist.gov/topics/physics/laser-cooling"
+      }
+    ],
     "illustration": {
-      "concept": "A cryogenic temperature scale approaches its lower limit through progressively smaller cooling steps, showing that absolute zero is a limit rather than an attainable final step.",
-      "scene_type": "diagram",
-      "primary_subject": "absolute_zero_limit",
-      "secondary_subjects": [
-        "cryogenic_thermometer",
-        "diminishing_thermal_motion"
-      ],
+      "concept": "A single frost-covered cryogenic thermometer with a very low reading, centered in the canvas. It accompanies extreme cold without depicting cooling stages or a particle experiment; no numbers or labels.",
+      "scene_type": "object",
+      "primary_subject": "frosted_cryogenic_thermometer",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "absolute_zero_limit",
-        "cryogenic_thermometer",
-        "diminishing_thermal_motion"
+        "thermometer",
+        "frost",
+        "low_temperature"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "violet_coral"
     },
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A cryogenic temperature scale approaches its lower limit through progressively smaller cooling steps, showing that absolute zero is a limit rather than an attainable final step.\",\"scene_type\":\"diagram\",\"primary_subject\":\"absolute_zero_limit\",\"secondary_subjects\":[\"cryogenic_thermometer\",\"diminishing_thermal_motion\"],\"visual_keywords\":[\"absolute_zero_limit\",\"cryogenic_thermometer\",\"diminishing_thermal_motion\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"violet_coral\"}",
-    "promptHash": "3b98a45bdcf7c7b34f02f38863136b01190e14c3894a16cb2b93c1c4f79398a6",
-    "metadataHash": "2506bac21a14ba018a06f9a2355dfb5219a8bed6df18de3027ea0c7a61db1c48",
     "image": "/illustrations-ai/216.webp",
     "cached": true,
-    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "e2e8aac0eefdcad1cca0521c573405fa10f7c1b6f11db7a963745614f10043f0",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A single frost-covered cryogenic thermometer with a very low reading, centered in the canvas. It accompanies extreme cold without depicting cooling stages or a particle experiment; no numbers or labels.\",\"primary_subject\":\"frosted_cryogenic_thermometer\",\"secondary_subjects\":[],\"visual_keywords\":[\"thermometer\",\"frost\",\"low_temperature\"],\"composition_hints\":[\"optically_centered_motif\",\"balanced_transparent_margins\",\"uncluttered_composition\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}",
+    "promptHash": "80021d05c6b1cf9a2b18f042032fcf62e168991b8c3a30d44da4d4df3cf1c9c8",
+    "metadataHash": "950c156eec8c1a650751acce7442cf5b62f8175ccbfc1f18d870ebfa9685eac7",
+    "imageSha256": "e347b712cb7429ccc1dd0f5cbaa81cacbeead737e1ee00c5b44e3993afa7252c",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
+    "previousVersion": {
+      "illustration": {
+        "concept": "A cryogenic temperature scale approaches its lower limit through progressively smaller cooling steps, showing that absolute zero is a limit rather than an attainable final step.",
+        "scene_type": "diagram",
+        "primary_subject": "absolute_zero_limit",
+        "secondary_subjects": [
+          "cryogenic_thermometer",
+          "diminishing_thermal_motion"
+        ],
+        "visual_keywords": [
+          "absolute_zero_limit",
+          "cryogenic_thermometer",
+          "diminishing_thermal_motion"
+        ],
+        "composition_hints": [
+          "asymmetric_composition",
+          "layered_scene"
+        ],
+        "mood": "neutral",
+        "palette": "violet_coral"
+      },
+      "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A cryogenic temperature scale approaches its lower limit through progressively smaller cooling steps, showing that absolute zero is a limit rather than an attainable final step.\",\"scene_type\":\"diagram\",\"primary_subject\":\"absolute_zero_limit\",\"secondary_subjects\":[\"cryogenic_thermometer\",\"diminishing_thermal_motion\"],\"visual_keywords\":[\"absolute_zero_limit\",\"cryogenic_thermometer\",\"diminishing_thermal_motion\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"violet_coral\"}",
+      "promptHash": "3b98a45bdcf7c7b34f02f38863136b01190e14c3894a16cb2b93c1c4f79398a6",
+      "metadataHash": "2506bac21a14ba018a06f9a2355dfb5219a8bed6df18de3027ea0c7a61db1c48",
+      "imageSha256": "e2e8aac0eefdcad1cca0521c573405fa10f7c1b6f11db7a963745614f10043f0",
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Thermometer and progressively quieter particle samples accompany cooling toward a lower limit; particle counts and sizes are not a quantitative physical model. Some fine detail exceeds the flat-shape target.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+        "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      },
+      "gitRevision": "7777b18a7a883312dca9070130e71596a0b143ad"
+    },
+    "replacementReason": "User-requested simpler motif and balanced placement in the complete image.",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Thermometer and progressively quieter particle samples accompany cooling toward a lower limit; particle counts and sizes are not a quantitative physical model. Some fine detail exceeds the flat-shape target.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
-      "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      "meaning": "One frosted thermometer accompanies extreme cold, without cooling stages, particle counts or a claim to have attained absolute zero. Frost is stylized and the scale has no numerical values.",
+      "background": "RGBA WebP; transparent corners and padding",
+      "centering": {
+        "method": "fit-image.py; alpha>=16 footprint centered; all visible pixels retained in sizing; optical placement reviewed",
+        "alphaMargins": {
+          "left": 263,
+          "right": 264,
+          "top": 29,
+          "bottom": 29
+        },
+        "intentionalAsymmetry": false
+      },
+      "simplicity": "One compact motif or simple comparison, not an experiment or causal chain; departures recorded in meaning."
     }
   },
   {
@@ -9959,42 +10077,101 @@
   {
     "id": "221",
     "title": "Sluneční bouře roku 1859 rozžhavila telegrafní dráty",
+    "content": "<p>V září 1859 zasáhla Zemi mimořádně silná geomagnetická bouře, vyvolaná erupcí na Slunci, kterou pozoroval britský astronom Richard Carrington.</p><p>Polární záře byly viditelné i v nízkých zeměpisných šířkách, kde je lidé nikdy předtím neviděli. Na některých místech byla obloha tak jasná, že se dalo číst.</p><p>Nejcitelnější následky zasáhly tehdy nejmodernější technologii, telegraf. Indukované proudy vyřadily linky z provozu, některé přístroje jiskřily a podle dobových zpráv šlo chvílemi telegrafovat i po odpojení baterií.</p><p>Podobná bouře by dnes ohrozila rozvodné sítě, družice i navigační systémy. Proto se stav sluneční aktivity soustavně sleduje.</p>",
+    "category": "astronomie",
+    "sources": [
+      {
+        "label": "NASA – The Carrington Event",
+        "url": "https://science.nasa.gov/science-research/heliophysics/how-nasa-tracks-the-suns-effects-on-earth/"
+      },
+      {
+        "label": "NOAA Space Weather Prediction Center",
+        "url": "https://www.swpc.noaa.gov/phenomena/geomagnetic-storms"
+      }
+    ],
     "illustration": {
-      "concept": "A solar eruption disturbs Earth's magnetic environment and induces strong currents in telegraph wires, connecting space weather to damaged nineteenth-century infrastructure.",
-      "scene_type": "process",
-      "primary_subject": "carrington_solar_storm",
-      "secondary_subjects": [
-        "solar_flare",
-        "induced_telegraph_current"
-      ],
+      "concept": "A single nineteenth-century telegraph key with a small electrical spark at its contact, centered as one compact motif. It accompanies the infrastructure effects of the 1859 solar storm; no Sun-Earth diagram.",
+      "scene_type": "object",
+      "primary_subject": "sparking_telegraph_key",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "carrington_solar_storm",
-        "solar_flare",
-        "induced_telegraph_current"
+        "telegraph_key",
+        "electrical_spark",
+        "brass_base"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
-      "mood": "neutral",
+      "mood": "dramatic",
       "palette": "green_copper"
     },
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A solar eruption disturbs Earth's magnetic environment and induces strong currents in telegraph wires, connecting space weather to damaged nineteenth-century infrastructure.\",\"scene_type\":\"process\",\"primary_subject\":\"carrington_solar_storm\",\"secondary_subjects\":[\"solar_flare\",\"induced_telegraph_current\"],\"visual_keywords\":[\"carrington_solar_storm\",\"solar_flare\",\"induced_telegraph_current\"],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"mood\":\"neutral\",\"palette\":\"green_copper\"}",
-    "promptHash": "43cc79868b554126b81fef73e65ffb6fa9731df0bf3b88f11b6343c97a731b5e",
-    "metadataHash": "ac2add4323f14fe93034d0779a9988af0050e2e644016f343f6d24d1ed4dc990",
     "image": "/illustrations-ai/221.webp",
     "cached": true,
-    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "5623228ecaf0bd8b21f9ffb2143e940ba5ffafbc805ff4c233601967e7d6b841",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A single nineteenth-century telegraph key with a small electrical spark at its contact, centered as one compact motif. It accompanies the infrastructure effects of the 1859 solar storm; no Sun-Earth diagram.\",\"primary_subject\":\"sparking_telegraph_key\",\"secondary_subjects\":[],\"visual_keywords\":[\"telegraph_key\",\"electrical_spark\",\"brass_base\"],\"composition_hints\":[\"optically_centered_motif\",\"balanced_transparent_margins\",\"uncluttered_composition\"],\"scene_type\":\"object\",\"mood\":\"dramatic\",\"palette\":\"green_copper\"}",
+    "promptHash": "969bdfe3e159c8be936fd8dda236b268f911d429e24c10af26461558ff197610",
+    "metadataHash": "f17ea20af1306d4b5e47a379cf8339c736fc9ad86b99cb0764323885172bba70",
+    "imageSha256": "089c4a638c35b274e381debd68715abbb7e8111c9e2b723d13a540db50e9e390",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
+    "previousVersion": {
+      "illustration": {
+        "concept": "A solar eruption disturbs Earth's magnetic environment and induces strong currents in telegraph wires, connecting space weather to damaged nineteenth-century infrastructure.",
+        "scene_type": "process",
+        "primary_subject": "carrington_solar_storm",
+        "secondary_subjects": [
+          "solar_flare",
+          "induced_telegraph_current"
+        ],
+        "visual_keywords": [
+          "carrington_solar_storm",
+          "solar_flare",
+          "induced_telegraph_current"
+        ],
+        "composition_hints": [
+          "stacked_or_sequential_arrangement",
+          "visual_cause_and_effect"
+        ],
+        "mood": "neutral",
+        "palette": "green_copper"
+      },
+      "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A solar eruption disturbs Earth's magnetic environment and induces strong currents in telegraph wires, connecting space weather to damaged nineteenth-century infrastructure.\",\"scene_type\":\"process\",\"primary_subject\":\"carrington_solar_storm\",\"secondary_subjects\":[\"solar_flare\",\"induced_telegraph_current\"],\"visual_keywords\":[\"carrington_solar_storm\",\"solar_flare\",\"induced_telegraph_current\"],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"mood\":\"neutral\",\"palette\":\"green_copper\"}",
+      "promptHash": "43cc79868b554126b81fef73e65ffb6fa9731df0bf3b88f11b6343c97a731b5e",
+      "metadataHash": "ac2add4323f14fe93034d0779a9988af0050e2e644016f343f6d24d1ed4dc990",
+      "imageSha256": "5623228ecaf0bd8b21f9ffb2143e940ba5ffafbc805ff4c233601967e7d6b841",
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Solar disturbance links to Earth and sparking telegraph wires. More detail and colors than the simplicity target, but the causal motif remains readable.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+        "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      },
+      "gitRevision": "7777b18a7a883312dca9070130e71596a0b143ad"
+    },
+    "replacementReason": "User-requested simpler motif and balanced placement in the complete image.",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Solar disturbance links to Earth and sparking telegraph wires. More detail and colors than the simplicity target, but the causal motif remains readable.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
-      "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      "meaning": "A telegraph key sparks at its contact, accompanying the infrastructure consequences of the solar storm. No Sun-Earth chain is shown. Brass highlights exceed the flat-shadow target; the compact object remains readable.",
+      "background": "RGBA WebP; transparent corners and padding",
+      "centering": {
+        "method": "fit-image.py; alpha>=16 footprint centered; all visible pixels retained in sizing; optical placement reviewed",
+        "alphaMargins": {
+          "left": 49,
+          "right": 49,
+          "top": 73,
+          "bottom": 72
+        },
+        "intentionalAsymmetry": false
+      },
+      "simplicity": "One compact motif or simple comparison, not an experiment or causal chain; departures recorded in meaning."
     }
   },
   {
@@ -10041,42 +10218,101 @@
   {
     "id": "223",
     "title": "Rovnice, která spojuje pět nejdůležitějších čísel matematiky",
+    "content": "<p>Existuje vztah, který v jediné krátké rovnosti propojí číslo nula, jedničku, Ludolfovo číslo pí, základ přirozených logaritmů e a imaginární jednotku i.</p><p>Tento vztah, známý jako <strong>Eulerova identita</strong>, je zvláštním případem obecnějšího vzorce, který v 18. století odvodil švýcarský matematik Leonhard Euler a který spojuje exponenciální funkci s goniometrickými funkcemi.</p><p>Zajímavé je, odkud tato čísla pocházejí. Pí vychází z geometrie kruhu, e z úloh o růstu a úrocích, imaginární jednotka z řešení rovnic, které v reálných číslech řešení nemají.</p><p>Přesto spolu drží pohromadě. Matematici na identitu často poukazují jako na ukázku toho, že za různými oblastmi oboru stojí společná struktura.</p>",
+    "category": "matematika",
+    "sources": [
+      {
+        "label": "Britannica – Leonhard Euler",
+        "url": "https://www.britannica.com/biography/Leonhard-Euler"
+      },
+      {
+        "label": "MacTutor – Euler",
+        "url": "https://mathshistory.st-andrews.ac.uk/Biographies/Euler/"
+      }
+    ],
     "illustration": {
-      "concept": "A half-turn on the complex unit circle brings the exponential relation to negative one, visually connecting Euler's identity and its five fundamental constants.",
+      "concept": "One simple unit circle centered in the full canvas, with a single highlighted half-turn arc. A compact mathematical motif accompanies Euler identity without a full derivation, labels or additional panels.",
       "scene_type": "diagram",
-      "primary_subject": "euler_identity_unit_circle",
-      "secondary_subjects": [
-        "complex_plane",
-        "half_turn_to_negative_one"
-      ],
+      "primary_subject": "centered_euler_unit_circle",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "euler_identity_unit_circle",
-        "complex_plane",
-        "half_turn_to_negative_one"
+        "unit_circle",
+        "half_turn_arc",
+        "simple_geometry"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "contemplative",
       "palette": "terracotta_cream"
     },
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A half-turn on the complex unit circle brings the exponential relation to negative one, visually connecting Euler's identity and its five fundamental constants.\",\"scene_type\":\"diagram\",\"primary_subject\":\"euler_identity_unit_circle\",\"secondary_subjects\":[\"complex_plane\",\"half_turn_to_negative_one\"],\"visual_keywords\":[\"euler_identity_unit_circle\",\"complex_plane\",\"half_turn_to_negative_one\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}",
-    "promptHash": "20616f40af855655a7fd9c190a7b1947bb90ccddfece8edfd98dc39e58154748",
-    "metadataHash": "247c42a4cf2a41c70be0138ec14d74f48db7202cc42e943780774ccfd3a8b810",
     "image": "/illustrations-ai/223.webp",
     "cached": true,
-    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "c6184f95042346ece33cdab63e5ad8e4c9a473095135d178cb22698f7e3aa6c1",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"One simple unit circle centered in the full canvas, with a single highlighted half-turn arc. A compact mathematical motif accompanies Euler identity without a full derivation, labels or additional panels.\",\"primary_subject\":\"centered_euler_unit_circle\",\"secondary_subjects\":[],\"visual_keywords\":[\"unit_circle\",\"half_turn_arc\",\"simple_geometry\"],\"composition_hints\":[\"optically_centered_motif\",\"balanced_transparent_margins\",\"uncluttered_composition\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}",
+    "promptHash": "08a65baefc07def3c29a3849a79c14d0a0fd6335c6ed8b20c97cfcb879ee741a",
+    "metadataHash": "b4216783a4a0a10a4bbf8a14018b3489eb03918186c4398ae8f9e647d3367583",
+    "imageSha256": "ef65ff37df89ed202efc8ab4b4a7735bc7e7e013b3ccc986b052550a6ee0c417",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
+    "previousVersion": {
+      "illustration": {
+        "concept": "A half-turn on the complex unit circle brings the exponential relation to negative one, visually connecting Euler's identity and its five fundamental constants.",
+        "scene_type": "diagram",
+        "primary_subject": "euler_identity_unit_circle",
+        "secondary_subjects": [
+          "complex_plane",
+          "half_turn_to_negative_one"
+        ],
+        "visual_keywords": [
+          "euler_identity_unit_circle",
+          "complex_plane",
+          "half_turn_to_negative_one"
+        ],
+        "composition_hints": [
+          "asymmetric_composition",
+          "layered_scene"
+        ],
+        "mood": "contemplative",
+        "palette": "terracotta_cream"
+      },
+      "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A half-turn on the complex unit circle brings the exponential relation to negative one, visually connecting Euler's identity and its five fundamental constants.\",\"scene_type\":\"diagram\",\"primary_subject\":\"euler_identity_unit_circle\",\"secondary_subjects\":[\"complex_plane\",\"half_turn_to_negative_one\"],\"visual_keywords\":[\"euler_identity_unit_circle\",\"complex_plane\",\"half_turn_to_negative_one\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}",
+      "promptHash": "20616f40af855655a7fd9c190a7b1947bb90ccddfece8edfd98dc39e58154748",
+      "metadataHash": "247c42a4cf2a41c70be0138ec14d74f48db7202cc42e943780774ccfd3a8b810",
+      "imageSha256": "c6184f95042346ece33cdab63e5ad8e4c9a473095135d178cb22698f7e3aa6c1",
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Half-turn on the complex unit circle accompanies Euler identity; without coordinate labels it is not a self-contained derivation of the five constants.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+        "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      },
+      "gitRevision": "7777b18a7a883312dca9070130e71596a0b143ad"
+    },
+    "replacementReason": "User-requested simpler motif and balanced placement in the complete image.",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Half-turn on the complex unit circle accompanies Euler identity; without coordinate labels it is not a self-contained derivation of the five constants.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
-      "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      "meaning": "Centered unit circle and one half-turn arc accompany Euler identity. The image retains a simple mathematical relation, without claiming to derive the five constants or provide a full proof.",
+      "background": "RGBA WebP; transparent corners and padding",
+      "centering": {
+        "method": "fit-image.py; alpha>=16 footprint centered; all visible pixels retained in sizing; optical placement reviewed",
+        "alphaMargins": {
+          "left": 184,
+          "right": 186,
+          "top": 26,
+          "bottom": 26
+        },
+        "intentionalAsymmetry": false
+      },
+      "simplicity": "One compact motif or simple comparison, not an experiment or causal chain; departures recorded in meaning."
     }
   },
   {
@@ -10617,42 +10853,101 @@
   {
     "id": "237",
     "title": "Úrok z úroku roste pomalu a pak najednou velmi rychle",
+    "content": "<p>Lidská intuice počítá lineárně. Když se něco zvětšuje o stejné procento, mozek pořád očekává přímku, zatímco skutečnost se zakřivuje vzhůru.</p><p>Při <strong>složeném úročení</strong> se úrok připisuje i k dříve připsaným úrokům. Vklad tak roste exponenciálně, nikoli přímo úměrně počtu let.</p><p>Pomůckou je takzvané pravidlo 72. Vydělíme-li číslo 72 roční úrokovou sazbou v procentech, dostaneme přibližnou dobu, za kterou se částka zdvojnásobí. Při sedmi procentech to vychází zhruba na deset let.</p><p>Stejný mechanismus funguje ale i proti dlužníkovi, protože nesplacený dluh s vysokým úrokem narůstá stejně rychle.</p><p><em>Rozhodující proměnná není částka, ale čas, po který proces běží.</em></p>",
+    "category": "ekonomie",
+    "sources": [
+      {
+        "label": "Investor.gov – Compound interest",
+        "url": "https://www.investor.gov/financial-tools-calculators/calculators/compound-interest-calculator"
+      },
+      {
+        "label": "Britannica – Compound interest",
+        "url": "https://www.britannica.com/money/compound-interest"
+      }
+    ],
     "illustration": {
-      "concept": "Interest is added back to the principal at each step, producing coin stacks that grow increasingly quickly through repeated reinvestment.",
-      "scene_type": "diagram",
-      "primary_subject": "compound_interest_growth",
-      "secondary_subjects": [
-        "reinvested_interest",
-        "accelerating_coin_stacks"
-      ],
+      "concept": "Three compact coin stacks of increasing height arranged as one centered group with balanced empty margins, accompanying compound growth. No arrows, flying coins, chart or step-by-step reinvestment process.",
+      "scene_type": "object",
+      "primary_subject": "centered_growing_coin_stacks",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "compound_interest_growth",
-        "reinvested_interest",
-        "accelerating_coin_stacks"
+        "coin_stacks",
+        "increasing_height",
+        "compact_group"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
     },
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Interest is added back to the principal at each step, producing coin stacks that grow increasingly quickly through repeated reinvestment.\",\"scene_type\":\"diagram\",\"primary_subject\":\"compound_interest_growth\",\"secondary_subjects\":[\"reinvested_interest\",\"accelerating_coin_stacks\"],\"visual_keywords\":[\"compound_interest_growth\",\"reinvested_interest\",\"accelerating_coin_stacks\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
-    "promptHash": "700a7f2bed0adc83070e71084ebd3069d78e9de425d53896fa913019fba49d16",
-    "metadataHash": "d4f7204c7cfe265961d381a0116eff63558e42677289e672e6c7a204904e7391",
     "image": "/illustrations-ai/237.webp",
     "cached": true,
-    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "427957de0b01ba735c57e4ff6b7f50bfc25b6b587689b9665ff1b536bbbbb761",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Three compact coin stacks of increasing height arranged as one centered group with balanced empty margins, accompanying compound growth. No arrows, flying coins, chart or step-by-step reinvestment process.\",\"primary_subject\":\"centered_growing_coin_stacks\",\"secondary_subjects\":[],\"visual_keywords\":[\"coin_stacks\",\"increasing_height\",\"compact_group\"],\"composition_hints\":[\"optically_centered_motif\",\"balanced_transparent_margins\",\"uncluttered_composition\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
+    "promptHash": "dce5d8015dcd4fda993f5bf091b19aed5796345d39aba80463d2aef3291b0556",
+    "metadataHash": "ff27846e096e8ad58fc56d1eb839561353bb26161b1eaac21abb8dd2b6a0b1fc",
+    "imageSha256": "90527983952f974e39e21467ff34df36cf2e4a032d5d77ae93b7edd777f01aba",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
+    "previousVersion": {
+      "illustration": {
+        "concept": "Interest is added back to the principal at each step, producing coin stacks that grow increasingly quickly through repeated reinvestment.",
+        "scene_type": "diagram",
+        "primary_subject": "compound_interest_growth",
+        "secondary_subjects": [
+          "reinvested_interest",
+          "accelerating_coin_stacks"
+        ],
+        "visual_keywords": [
+          "compound_interest_growth",
+          "reinvested_interest",
+          "accelerating_coin_stacks"
+        ],
+        "composition_hints": [
+          "asymmetric_composition",
+          "layered_scene"
+        ],
+        "mood": "neutral",
+        "palette": "terracotta_cream"
+      },
+      "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"Interest is added back to the principal at each step, producing coin stacks that grow increasingly quickly through repeated reinvestment.\",\"scene_type\":\"diagram\",\"primary_subject\":\"compound_interest_growth\",\"secondary_subjects\":[\"reinvested_interest\",\"accelerating_coin_stacks\"],\"visual_keywords\":[\"compound_interest_growth\",\"reinvested_interest\",\"accelerating_coin_stacks\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}",
+      "promptHash": "700a7f2bed0adc83070e71084ebd3069d78e9de425d53896fa913019fba49d16",
+      "metadataHash": "d4f7204c7cfe265961d381a0116eff63558e42677289e672e6c7a204904e7391",
+      "imageSha256": "427957de0b01ba735c57e4ff6b7f50bfc25b6b587689b9665ff1b536bbbbb761",
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Reinvested coins feed accelerating stacks, an unscaled illustration of compounding.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+        "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      },
+      "gitRevision": "7777b18a7a883312dca9070130e71596a0b143ad"
+    },
+    "replacementReason": "User-requested simpler motif and balanced placement in the complete image.",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Reinvested coins feed accelerating stacks, an unscaled illustration of compounding.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
-      "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      "meaning": "Three increasing coin stacks form a single centered comparison. They accompany compound growth without reinvestment arrows, multiple process steps or a quantitative interest calculation.",
+      "background": "RGBA WebP; transparent corners and padding",
+      "centering": {
+        "method": "fit-image.py; alpha>=16 footprint centered; all visible pixels retained in sizing; optical placement reviewed",
+        "alphaMargins": {
+          "left": 169,
+          "right": 169,
+          "top": 87,
+          "bottom": 87
+        },
+        "intentionalAsymmetry": false
+      },
+      "simplicity": "One compact motif or simple comparison, not an experiment or causal chain; departures recorded in meaning."
     }
   },
   {
@@ -11361,42 +11656,101 @@
   {
     "id": "255",
     "title": "Román, který se v USA nesměl prodávat, dokud ho neobhájil soud",
+    "content": "<p>Modernistický román <em>Odysseus</em> Jamese Joyce sleduje jediný den v Dublinu, 16. června 1904, a jazykově se pohybuje od parodie až po proud vědomí.</p><p>Kniha vyšla knižně v Paříži v roce 1922, protože v anglosaských zemích narážela na obvinění z obscénnosti. Ve Spojených státech byl její dovoz zakázán.</p><p>Zlom přišel v roce 1933, kdy soudce John M. Woolsey rozhodl, že dílo není pornografické, protože jeho cílem není vzbudit chtíč, a je nutné je posuzovat jako celek.</p><p>Rozsudek se stal důležitým precedentem pro posuzování literatury a cenzury.</p><p>Fanoušci dodnes slaví 16. června jako Bloomsday, pojmenovaný podle hlavní postavy románu.</p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "Britannica – Ulysses",
+        "url": "https://www.britannica.com/topic/Ulysses-novel-by-Joyce"
+      },
+      {
+        "label": "National Archives – United States v. One Book Called Ulysses",
+        "url": "https://www.archives.gov/education/lessons/ulysses"
+      }
+    ],
     "illustration": {
-      "concept": "A copy of Joyce's Ulysses moves from a prohibition barrier into a courtroom, where a legal judgment opens publication to readers.",
-      "scene_type": "interaction",
-      "primary_subject": "ulysses_censorship_trial",
-      "secondary_subjects": [
-        "novel",
-        "courtroom"
-      ],
+      "concept": "A single closed book with a familiar prohibition sign across its cover, centered as one compact motif. It accompanies the banned novel without courtroom, author portrait or a legal timeline.",
+      "scene_type": "object",
+      "primary_subject": "banned_book",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "ulysses_censorship_trial",
-        "novel",
-        "courtroom"
+        "closed_book",
+        "prohibition_sign",
+        "simple_book_cover"
       ],
       "composition_hints": [
-        "two_objects_in_interaction",
-        "clear_visual_contrast"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "contemplative",
       "palette": "blue_gold"
     },
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A copy of Joyce's Ulysses moves from a prohibition barrier into a courtroom, where a legal judgment opens publication to readers.\",\"scene_type\":\"interaction\",\"primary_subject\":\"ulysses_censorship_trial\",\"secondary_subjects\":[\"novel\",\"courtroom\"],\"visual_keywords\":[\"ulysses_censorship_trial\",\"novel\",\"courtroom\"],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
-    "promptHash": "c81bd4db2729466ed35f728ffdf4aa13071b0c558823ea2c7378883671463a6f",
-    "metadataHash": "e8d6e6310c2d01c6dff082d91a30a9178c2c1781b65e439f29c8d86c052052fc",
     "image": "/illustrations-ai/255.webp",
     "cached": true,
-    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "f9b17aafb6b79d56b18f25c2985716875d0167cc020b320b9577678f98286c21",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A single closed book with a familiar prohibition sign across its cover, centered as one compact motif. It accompanies the banned novel without courtroom, author portrait or a legal timeline.\",\"primary_subject\":\"banned_book\",\"secondary_subjects\":[],\"visual_keywords\":[\"closed_book\",\"prohibition_sign\",\"simple_book_cover\"],\"composition_hints\":[\"optically_centered_motif\",\"balanced_transparent_margins\",\"uncluttered_composition\"],\"scene_type\":\"object\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
+    "promptHash": "6508a314f38b5c38a85b968ceb19b2f86178493525a6d9bf251f9e7a5cc70804",
+    "metadataHash": "d0be80b2d92e1a0bcb80b012ac21cd1675d731a2673df3f0bf44854590cb3fe3",
+    "imageSha256": "722f680b81249a957a612ba33ffff8de8fadeae7449ef104a4795c31dba613e2",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
+    "previousVersion": {
+      "illustration": {
+        "concept": "A copy of Joyce's Ulysses moves from a prohibition barrier into a courtroom, where a legal judgment opens publication to readers.",
+        "scene_type": "interaction",
+        "primary_subject": "ulysses_censorship_trial",
+        "secondary_subjects": [
+          "novel",
+          "courtroom"
+        ],
+        "visual_keywords": [
+          "ulysses_censorship_trial",
+          "novel",
+          "courtroom"
+        ],
+        "composition_hints": [
+          "two_objects_in_interaction",
+          "clear_visual_contrast"
+        ],
+        "mood": "contemplative",
+        "palette": "blue_gold"
+      },
+      "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A copy of Joyce's Ulysses moves from a prohibition barrier into a courtroom, where a legal judgment opens publication to readers.\",\"scene_type\":\"interaction\",\"primary_subject\":\"ulysses_censorship_trial\",\"secondary_subjects\":[\"novel\",\"courtroom\"],\"visual_keywords\":[\"ulysses_censorship_trial\",\"novel\",\"courtroom\"],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}",
+      "promptHash": "c81bd4db2729466ed35f728ffdf4aa13071b0c558823ea2c7378883671463a6f",
+      "metadataHash": "e8d6e6310c2d01c6dff082d91a30a9178c2c1781b65e439f29c8d86c052052fc",
+      "imageSha256": "f9b17aafb6b79d56b18f25c2985716875d0167cc020b320b9577678f98286c21",
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Joyce book moves past prohibition toward a courtroom, expressing the legal opening to publication; portrait identifies the author without a book-title caption.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+        "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      },
+      "gitRevision": "7777b18a7a883312dca9070130e71596a0b143ad"
+    },
+    "replacementReason": "User-requested simpler motif and balanced placement in the complete image.",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Joyce book moves past prohibition toward a courtroom, expressing the legal opening to publication; portrait identifies the author without a book-title caption.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
-      "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      "meaning": "One book with a prohibition sign accompanies the banned novel; no courtroom or legal timeline. Gold cover lines add some detail, but the book and sign remain clear.",
+      "background": "RGBA WebP; transparent corners and padding",
+      "centering": {
+        "method": "fit-image.py; alpha>=16 footprint centered; all visible pixels retained in sizing; optical placement reviewed",
+        "alphaMargins": {
+          "left": 189,
+          "right": 190,
+          "top": 27,
+          "bottom": 27
+        },
+        "intentionalAsymmetry": false
+      },
+      "simplicity": "One compact motif or simple comparison, not an experiment or causal chain; departures recorded in meaning."
     }
   },
   {

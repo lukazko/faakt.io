@@ -7718,23 +7718,21 @@
       }
     ],
     "illustration": {
-      "concept": "Wavefronts bunch ahead of an approaching ambulance and spread behind it, explaining the pitch drop as it passes a stationary listener.",
-      "scene_type": "diagram",
-      "primary_subject": "doppler_passing_ambulance",
-      "secondary_subjects": [
-        "compressed_wavefronts",
-        "spread_wavefronts"
-      ],
+      "concept": "A single moving ambulance, shown in side view and centered as a complete motif. The vehicle alone accompanies the Doppler-effect article; no listener or wave diagram.",
+      "scene_type": "object",
+      "primary_subject": "moving_ambulance",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "doppler_passing_ambulance",
-        "compressed_wavefronts",
-        "spread_wavefronts"
+        "ambulance_side_view",
+        "emergency_vehicle",
+        "simple_motion"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
-      "mood": "neutral",
+      "mood": "dynamic",
       "palette": "indigo_cyan"
     }
   },
@@ -7754,21 +7752,19 @@
       }
     ],
     "illustration": {
-      "concept": "A cryogenic temperature scale approaches its lower limit through progressively smaller cooling steps, showing that absolute zero is a limit rather than an attainable final step.",
-      "scene_type": "diagram",
-      "primary_subject": "absolute_zero_limit",
-      "secondary_subjects": [
-        "cryogenic_thermometer",
-        "diminishing_thermal_motion"
-      ],
+      "concept": "A single frost-covered cryogenic thermometer with a very low reading, centered in the canvas. It accompanies extreme cold without depicting cooling stages or a particle experiment; no numbers or labels.",
+      "scene_type": "object",
+      "primary_subject": "frosted_cryogenic_thermometer",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "absolute_zero_limit",
-        "cryogenic_thermometer",
-        "diminishing_thermal_motion"
+        "thermometer",
+        "frost",
+        "low_temperature"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "violet_coral"
@@ -7931,23 +7927,21 @@
       }
     ],
     "illustration": {
-      "concept": "A solar eruption disturbs Earth's magnetic environment and induces strong currents in telegraph wires, connecting space weather to damaged nineteenth-century infrastructure.",
-      "scene_type": "process",
-      "primary_subject": "carrington_solar_storm",
-      "secondary_subjects": [
-        "solar_flare",
-        "induced_telegraph_current"
-      ],
+      "concept": "A single nineteenth-century telegraph key with a small electrical spark at its contact, centered as one compact motif. It accompanies the infrastructure effects of the 1859 solar storm; no Sun-Earth diagram.",
+      "scene_type": "object",
+      "primary_subject": "sparking_telegraph_key",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "carrington_solar_storm",
-        "solar_flare",
-        "induced_telegraph_current"
+        "telegraph_key",
+        "electrical_spark",
+        "brass_base"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
-      "mood": "neutral",
+      "mood": "dramatic",
       "palette": "green_copper"
     }
   },
@@ -8003,21 +7997,19 @@
       }
     ],
     "illustration": {
-      "concept": "A half-turn on the complex unit circle brings the exponential relation to negative one, visually connecting Euler's identity and its five fundamental constants.",
+      "concept": "One simple unit circle centered in the full canvas, with a single highlighted half-turn arc. A compact mathematical motif accompanies Euler identity without a full derivation, labels or additional panels.",
       "scene_type": "diagram",
-      "primary_subject": "euler_identity_unit_circle",
-      "secondary_subjects": [
-        "complex_plane",
-        "half_turn_to_negative_one"
-      ],
+      "primary_subject": "centered_euler_unit_circle",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "euler_identity_unit_circle",
-        "complex_plane",
-        "half_turn_to_negative_one"
+        "unit_circle",
+        "half_turn_arc",
+        "simple_geometry"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "contemplative",
       "palette": "terracotta_cream"
@@ -8509,21 +8501,19 @@
       }
     ],
     "illustration": {
-      "concept": "Interest is added back to the principal at each step, producing coin stacks that grow increasingly quickly through repeated reinvestment.",
-      "scene_type": "diagram",
-      "primary_subject": "compound_interest_growth",
-      "secondary_subjects": [
-        "reinvested_interest",
-        "accelerating_coin_stacks"
-      ],
+      "concept": "Three compact coin stacks of increasing height arranged as one centered group with balanced empty margins, accompanying compound growth. No arrows, flying coins, chart or step-by-step reinvestment process.",
+      "scene_type": "object",
+      "primary_subject": "centered_growing_coin_stacks",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "compound_interest_growth",
-        "reinvested_interest",
-        "accelerating_coin_stacks"
+        "coin_stacks",
+        "increasing_height",
+        "compact_group"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
@@ -9157,21 +9147,19 @@
       }
     ],
     "illustration": {
-      "concept": "A copy of Joyce's Ulysses moves from a prohibition barrier into a courtroom, where a legal judgment opens publication to readers.",
-      "scene_type": "interaction",
-      "primary_subject": "ulysses_censorship_trial",
-      "secondary_subjects": [
-        "novel",
-        "courtroom"
-      ],
+      "concept": "A single closed book with a familiar prohibition sign across its cover, centered as one compact motif. It accompanies the banned novel without courtroom, author portrait or a legal timeline.",
+      "scene_type": "object",
+      "primary_subject": "banned_book",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "ulysses_censorship_trial",
-        "novel",
-        "courtroom"
+        "closed_book",
+        "prohibition_sign",
+        "simple_book_cover"
       ],
       "composition_hints": [
-        "two_objects_in_interaction",
-        "clear_visual_contrast"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "contemplative",
       "palette": "blue_gold"
