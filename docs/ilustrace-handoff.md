@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`312`, `413`–`520` a `558` (421 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`312` a `413`–`571` (471 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,7 +19,17 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 421 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 471 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Dávka 521–557 a 559–571
+
+Prvních 50 chybějících ilustrací podle aktuálních souborů je dokončeno a zapnuto v kartách i galerii; `558` již existovala a nebyla znovu generována. Vestavěný image_gen použil `transparent_background=true`, bez dostupného řízení rozměrů, kvality nebo ceny generování. Proběhlo 51 volání: 50 původních námětů a jeden náhradní námět pro `562`. Výstup s původní destičkou Pioneeru poskytovatel odmítl; přijatá náhrada ukazuje sondu se zlatou destičkou a stylizovanou mapou pulsarů bez lidských postav. Původní prompt, kategorii odmítnutí, request ID a skutečný náhradní prompt zachovává `fallback` v manifestu. Článek ani jeho metadata se nemění.
+
+Finální WebP mají 640×360 px, quality 80, skutečný alfa kanál a nulovou alfu všech čtyř rohů. Průhledné okraje vycentroval `fit-image.py`. Nová dávka zabírá 1 741 832 B; každý soubor je pod 100 kB. Všechny motivy byly prohlédnuté při 160×90 a 320×180 px na tmavém povrchu. Manifest obsahuje přesné prompty, původní metadata, zdrojové cesty, SHA-256 promptů, metadat i souborů a individuální významové kontroly. Přehled je v `reports/illustration-generation-521-571.json`.
+
+Historické scény, portréty a stavby jsou redakční stylizace, nikoli autentizované podobizny či přesné rekonstrukce. `524` symbolizuje střídání nároků na trůn, ne doslovný soupis čtyř portrétů; `525` doprovází veřejné zákony bez reprodukce ztracených dvanácti desek. `527` spojuje pohřební motiv se soubojem a stylizovaným kolbištěm, nikoli ověřenou podobou prvních obřadů. Písmo `540` není paleografický přepis. Kolos `545` nestojí obkročmo nad přístavem. Vesmírná schémata nejsou měřená data ani technické výkresy: `552` neřeší informační paradox, `560` nepředpovídá počet civilizací, `561` nepotvrzuje mimozemský původ signálu. `564` doprovází let Gagarinovým portrétem a silně zjednodušenou kulovou kabinou. `567` má sedm planet; velikosti a vzdálenosti nejsou v měřítku. Totéž platí pro srovnání těles `569`.
+
+Výstupy místy překračují cílových 5–8 ploch, tři barvy a jednu stínovou rovinu, zejména historické oděvy, lodě, architektura, krajina `543` a pole magnetaru `551`. Hlavní motivy zůstávají čitelné; nejde o důsledně minimalistické obrázky. Palety vycházejí z metadat. Procedurální renderer ani zlaté otisky se nepoužívají. Deterministický repair proběhl pouze v náhledu, obecné návrhy nebyly aplikovány. Ověření zahrnuje rozměry, alfa kanál, limit velikosti, hashe, registraci v kartách, nezměněnou databázi, `npm test` a `npm run build`.
 
 ## Dávka 453, 462, 463, 466, 471 a 476–520
 
