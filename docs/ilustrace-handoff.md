@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`312`, `413`–`445` a `558` (346 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`312`, `413`–`452`, `454`–`461`, `464`–`465`, `467`–`470`, `472`–`475` a `558` (371 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,7 +19,7 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 346 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 371 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
 
 ## Dávka 421–445
 
@@ -234,3 +234,12 @@ Doplněno pět dalších chybějících ilustrací v pořadí databáze, všechn
 | 270 | Tenké dřevěné destičky s inkoustem a ponožky | teplá hnědá, krémová | 31 614 |
 
 Vizuální kontrola při 160×90 a 320×180 potvrdila čitelné motivy bez obdélníkového pozadí. Záhyby, stínování, tahy nápisů a kresba dřeva přesahují přísný cíl 5–8 ploch; jde o evidovanou stylovou odchylku. Stratég doprovází téma bez předstírání ověřeného portrétu Sun-c’; edikt není doslovný přepis a ponožky nejsou rekonstrukcí konkrétního nálezu. Geografické šíření papíru obrázek neznázorňuje. Procedurální renderer ani zlaté otisky se nemění. Ověření: dekódování, rozměry, alfa, limit 100 kB, `npm test`, `npm run build` a `git diff --check`.
+
+
+## Dávka 446–475
+
+Z 30 vybraných chybějících ID vzniklo 25 obrázků: `446`–`452`, `454`–`461`, `464`–`465`, `467`–`470` a `472`–`475`. Každý vznikl jedním voláním vestavěného image_gen s explicitním `transparent_background=true`; bez opakovaných pokusů. Nástroj nenabízí řízení generovaných rozměrů, kvality ani ceny. Generátor bezpečnostním filtrem odmítl `453`, `462`, `463`, `466` a `471`; tyto položky zůstávají bez souboru a registrace. Přesné neúspěšné prompty a chyby jsou v `reports/illustration-generation-446-475.json`.
+
+Všech 25 hotových obrázků je zapnuto v produkčních kartách a galerii. Výstupy jsou RGBA WebP 640×360, quality 80, s průhlednými okraji a nulovou alfou ve všech rozích; každý má pod 100 kB. Celková velikost dávky je 568798 B. Proběhla vizuální kontrola 160×90 a 320×180 na tmavém povrchu karty. Přesné odeslané prompty, hashe metadat i souborů, původní metadata a individuální významové poznámky jsou v manifestu. Některé obrázky překračují cíl 5–8 ploch stínováním a vnitřními značkami; nejvíce ornament u `467`, rám `468` a akciový list `474`. Základní motivy zůstávají čitelné bez těchto detailů. Nejde o ověřené splnění počtu barev/ploch.
+
+U `474` se titulek a původní metadata o tulipánech rozcházejí s plným článkem o Společnosti jižních moří. Ilustrace zmačkaného akciového listu odpovídá celému textu, nikoli titulku. Tento obsahový rozpor zůstává redakční výhradou; text ani metadata databáze nebyly změněny. Deterministický repair proběhl jen v náhledu, bez aplikace obecných přepisů. Pro tuto dávku platí `npm test` a `npm run build`; ověření všech 25 souborů zahrnuje dekódování, rozměry, alfu, rohy, velikost a registraci.
