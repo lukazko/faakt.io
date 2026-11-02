@@ -20452,5 +20452,87 @@
         0
       ]
     }
+  },
+  {
+    "id": "488",
+    "title": "Pochod k moři měl obejít zákon zakazující vyrábět vlastní sůl",
+    "content": "<p>Britská koloniální správa v Indii měla monopol na výrobu a prodej soli a zdaňovala ji i pro nejchudší obyvatelstvo, pro které byla sůl nezbytnou součástí stravy.</p><p>V březnu 1930 se Mahátma Gándhí vydal s malou skupinou stoupenců na téměř čtyři sta kilometrů dlouhý pochod k pobřeží, kde symbolicky nabral mořskou vodu a vyrobil z ní sůl, čímž zákon veřejně a demonstrativně porušil.</p><p>Akce byla součástí strategie <strong>nenásilného občanského odporu</strong> a přitáhla mezinárodní pozornost k britskému koloniálnímu panství, i když samotný zákon o soli krátkodobě nezrušila.</p><p>Následovalo zatčení tisíců účastníků obdobných akcí po celé zemi.</p><p><em>Pochod se stal jedním z určujících symbolů pozdějšího boje za indickou nezávislost.</em></p>",
+    "category": "politika",
+    "image": "/illustrations-ai/488.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"An anonymous adult coastal worker crouches to collect a small pinch of salt beside a shallow coastal salt pan. A simple hand gesture and the salt connect the scene to civilian resistance over control of salt production.\",\"primary_subject\":\"anonymous_coastal_salt_gatherer\",\"secondary_subjects\":[\"small_salt_heap\"],\"visual_keywords\":[\"plain_blue_work_tunic\",\"short_dark_hair\"],\"composition_hints\":[\"single_coherent_scene\",\"centered_main_motif\"],\"scene_type\":\"interaction\",\"mood\":\"quietly_determined\",\"palette\":\"monochrome_cool\"}\nThe person is a fictional ordinary worker with an original face, fully clothed in a plain blue tunic. This is not a portrait or likeness of any real individual. Keep only the worker, salt and one broad coastal ribbon; no extra people, scenery or labels.",
+    "promptHash": "94397c8d41840bbec36b1383d8a25d3cc7ebe9931997d74b9b36751da3e47b7d",
+    "metadataHash": "70682fce3687b9e435bad76a2f92aaff0d447705d82f3b213de79e2f71ca78ef",
+    "originalMetadata": {
+      "concept": "Gandhi and fellow marchers collect salt at the coast in open defiance of a colonial monopoly, making a small act a symbol of civil resistance.",
+      "scene_type": "interaction",
+      "primary_subject": "gandhi_salt_march",
+      "secondary_subjects": [
+        "coastal_salt",
+        "walking_protesters"
+      ],
+      "visual_keywords": [
+        "gandhi_salt_march",
+        "coastal_salt",
+        "walking_protesters"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "promptMetadata": {
+      "concept": "An anonymous adult coastal worker crouches to collect a small pinch of salt beside a shallow coastal salt pan. A simple hand gesture and the salt connect the scene to civilian resistance over control of salt production.",
+      "primary_subject": "anonymous_coastal_salt_gatherer",
+      "secondary_subjects": [
+        "small_salt_heap"
+      ],
+      "visual_keywords": [
+        "plain_blue_work_tunic",
+        "short_dark_hair"
+      ],
+      "composition_hints": [
+        "single_coherent_scene",
+        "centered_main_motif"
+      ],
+      "scene_type": "interaction",
+      "mood": "quietly_determined",
+      "palette": "monochrome_cool"
+    },
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d9a-ffde-7842-a688-d3221fe7f71a\\exec-66757bbd-4acf-4d7a-a1c9-f4f895d1d7c1.png",
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "imageSha256": "7ecbc0740c6c9f5e616d4b103ebafc149a703ad44b69af4b4f34a856f5b28c74",
+    "cached": true,
+    "fallback": {
+      "reason": "Named-person motif rejected with public-figure category; genuinely anonymous salt gatherer selected instead of a lookalike.",
+      "attempts": [
+        {
+          "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Gandhi and fellow marchers collect salt at the coast in open defiance of a colonial monopoly, making a small act a symbol of civil resistance.\",\"primary_subject\":\"gandhi_salt_march\",\"secondary_subjects\":[\"coastal_salt\",\"walking_protesters\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}\nSelected motif: Gandhi gathering salt at the seashore beside his staff. Keep only this motif, with no extra explanatory panels or process steps.",
+          "error": "image generation failed: http 400 Bad Request: Some(\"{\\n  \\\"error\\\": {\\n    \\\"message\\\": \\\"Your request was rejected by the safety system. If you believe this is an error, contact us at help.openai.com and include the request ID a27a2972-1999-42ad-9d1b-9530f4946523.\\\",\\n    \\\"type\\\": \\\"image_generation_user_error\\\",\\n    \\\"param\\\": null,\\n    \\\"code\\\": \\\"moderation_blocked\\\",\\n    \\\"moderation_details\\\": {\\n      \\\"moderation_stage\\\": \\\"input\\\",\\n      \\\"categories\\\": [\\n        \\\"public-figure\\\"\\n      ]\\n    }\\n  }\\n}\")",
+          "outcome": "rejected"
+        },
+        {
+          "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"An anonymous adult coastal worker crouches to collect a small pinch of salt beside a shallow coastal salt pan. A simple hand gesture and the salt connect the scene to civilian resistance over control of salt production.\",\"primary_subject\":\"anonymous_coastal_salt_gatherer\",\"secondary_subjects\":[\"small_salt_heap\"],\"visual_keywords\":[\"plain_blue_work_tunic\",\"short_dark_hair\"],\"composition_hints\":[\"single_coherent_scene\",\"centered_main_motif\"],\"scene_type\":\"interaction\",\"mood\":\"quietly_determined\",\"palette\":\"monochrome_cool\"}\nThe person is a fictional ordinary worker with an original face, fully clothed in a plain blue tunic. This is not a portrait or likeness of any real individual. Keep only the worker, salt and one broad coastal ribbon; no extra people, scenery or labels.",
+          "outcome": "accepted"
+        }
+      ]
+    },
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "background": "Real RGBA transparency with alpha 0 in corners; inspected at both card sizes on #0d0d0d.",
+      "meaning": "Fictional anonymous worker gathers salt at the coast. Topic accompaniment to salt production and civil resistance, not a portrait of Gandhi or an authenticated participant, garment or moment from the march.",
+      "simplicity": "One coherent scene with a readable salt-gathering gesture. Salt grains, clothing folds and water reflections exceed the strict flat-shape target."
+    }
   }
 ]

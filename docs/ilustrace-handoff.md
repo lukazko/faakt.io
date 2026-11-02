@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`312`, `413`–`487`, `489`–`520` a `558` (420 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`312`, `413`–`520` a `558` (421 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,13 +19,15 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 420 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 421 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
 
 ## Dávka 453, 462, 463, 466, 471 a 476–520
 
-Z prvních 50 chybějících ID vzniklo 49 ilustrací; `488` (Gándhího solný pochod) odmítl poskytovatel na vstupu s kategorií `public-figure`. Přesný prompt a chyba jsou v `reports/illustration-generation-next-50.json`. Výběr se nenahrazoval dalšími ID. Vestavěný image_gen použil `transparent_background=true`, bez dostupného řízení rozměru, kvality či ceny. Proběhlo 53 volání: 50 prvních pokusů, jednodušší námět `453` po odmítnutí první verze a dvě cílené opravy. `489` má odstraněný zavádějící znak OSN ze stolu Společnosti národů; `518` pozoruje nepřítele rukou nad očima místo anachronického dalekohledu. Manifest zachovává původní prompty a zdroje v `previousVersion`.
+Všech prvních 50 chybějících ID má přijatou ilustraci. `488` (Gándhího solný pochod) doprovází fiktivní anonymní člověk sbírající sůl u pobřeží, nikoli Gándhího portrét či podobizna. Původní námět s konkrétní osobou poskytovatel odmítl v kategorii `public-figure`; původní chybu i přesné prompty zachovává `fallback.attempts` v manifestu, vyřešený stav eviduje `reports/illustration-generation-next-50.json`. Výběr se nenahrazoval dalšími ID. Vestavěný image_gen použil `transparent_background=true`, bez dostupného řízení rozměru, kvality či ceny. Proběhlo 54 volání: 50 prvních pokusů, náhradní náměty `453` a `488` po odmítnutí a dvě cílené opravy. `489` má odstraněný zavádějící znak OSN ze stolu Společnosti národů; `518` pozoruje nepřítele rukou nad očima místo anachronického dalekohledu. Manifest zachovává původní prompty a zdroje oprav v `previousVersion`.
 
-Nové RGBA WebP mají 640×360 px, quality 80, nulovou alfu všech rohů a vycentrované průhledné odsazení z `fit-image.py`. Velikosti jsou 10 564–62 682 B, celkem 1 317 368 B. Všech 49 ID je zapnutých v kartách i galerii. Manifest obsahuje přesné odeslané prompty, SHA-256 promptů, metadat a finálních obrázků, původní metadata, zdroje a individuální významové kontroly. Články ani metadata tato dávka nemění. Deterministický repair proběhl jen v náhledu; jeho obecné návrhy nebyly aplikovány.
+Nové RGBA WebP mají 640×360 px, quality 80, nulovou alfu všech rohů a vycentrované průhledné odsazení z `fit-image.py`. Velikosti jsou 10 564–62 682 B, celkem 1 343 234 B. Všech 50 ID je zapnutých v kartách i galerii. Samotná `488` má 25 866 B; sůl, záhyby oděvu a odrazy vody přesahují přísný počet ploch, gesto však zůstává čitelné při obou cílových velikostech. Manifest obsahuje přesné odeslané prompty, SHA-256 promptů, metadat a finálních obrázků, původní metadata, zdroje a individuální významové kontroly. Články ani metadata tato dávka nemění. Deterministický repair proběhl jen v náhledu; jeho obecné návrhy nebyly aplikovány.
+
+Ilustrační skill v repozitáři i instalovaná kopie nyní po odmítnutí vyžadují náhradní námět v rámci stejného ID: podle relevance skutečně anonymní scénu a poté jednoduchý motiv bez osoby. Povolené jsou nejvýše dva podstatně odlišné fallbacky po původním odmítnutí; nejde o opakování stejné podobizny bez jména ani o nekonečné pokusy. Původní článek a metadata zůstávají zachované. Dokončení zahrnuje obraz, vizuální kontrolu, provenienci a registraci v kartách i galerii. Výpadek či odmítnutí všech vhodných alternativ se nadále poctivě hlásí jako překážka.
 
 Všechny výsledky byly prohlédnuté při 160×90 a 320×180 px na tmavém povrchu, opravy porovnané ve stejných rozměrech. `462`, `466` a `471` doprovázejí sochy detailem hlavy; `463` pouze mramorem a dlátem. Portréty `479`, `490`, `492` a `507` doprovázejí osoby, nikoli celé mechanismy; Bayesova podoba není autentizovaným portrétem. `493` a `496` jsou kvalitativní schémata bez naměřených dat. `495` ukazuje meridiány na kouli, nikoli hyperbolickou geometrii. Mřížka `498` je obecný počáteční stav Hry života, ne ověřený glider. `515` je schéma pozdějšího přístavního města s majákem, nikoli rekonstrukce okamžiku založení. Další výhrady uvádí `review.meaning` jednotlivých položek.
 
