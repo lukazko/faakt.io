@@ -32,9 +32,12 @@ Povolené hodnoty `category`:
 
 ## Ilustrační metadata
 
-Každý nový příspěvek musí obsahovat objekt `illustration`. Vycházej současně z titulku i celého obsahu; samotná kategorie nestačí. Vyber konkrétní hlavní motiv, který vystihuje ústřední myšlenku. Vysvětlující scéna či metafora musí mít konkrétní oporu v textu a čitelný vztah mezi prvky. U abstraktního učení je přípustný i střídmý portrét jeho skutečného autora či učitele, pokud by diagram vyžadoval vymyšlené rekvizity. Samotné slovo „lpění“ neopravňuje k přidání samostatných rukou, mince či zlaté koule. Vedlejší předměty nejsou povinné; pokud je hlavní motiv dostačující, ponech `secondary_subjects` prázdné. Dávka má mít rozmanité předměty i kompozice, ale nepřidávej dekorace, které s obsahem nesouvisejí.
+Každý nový příspěvek musí obsahovat objekt `illustration`. Po přečtení titulku i celého obsahu vyber jeden rozpoznatelný aspekt: objekt, osobu, jednoduchý děj nebo stručnou metaforu. Ilustrace doprovází text; nemusí vysvětlit mechanismus, rekonstruovat experiment ani shrnout celou pointu. Jedoucí sanitka stačí k Dopplerovu jevu, kniha se zákazem k zakázanému románu a pulsar s paprskem k pravidelným pulzům. Metadata nejsou seznam všech souvisejících objektů. `secondary_subjects` může zůstat prázdné; doplňky přidávej jen pro lepší rozpoznání vybraného motivu. Zachovej faktickou identitu a čitelnost při 160×90 px, nepřidávej dekorace kvůli rozmanitosti.
+
+Ilustrace má vzbudit chuť číst výrazným motivem, gestem, atmosférou či kontrastem. Samotná přehlednost nestačí: i několik oddělených objektů s jedinou šipkou může působit jako rovnice vstupů a výsledku. Když myšlenku lépe nese přirozené setkání nebo soudržná scéna, propoj prvky pohledem, pózou, pohybem či společným prostorem. Růžový plameňák sklánějící se k šedému mláděti může zaujmout bez schématu mládě + potrava → dospělý. Diagramy, šipky ani vysvětlení principu nejsou zakázané; používej je, pokud jejich vizuální podoba sama dobře funguje jako ilustrace k danému textu. Nerozhoduje jen počet předmětů či kroků.
 
 Metadata popisují námět a jeho uspořádání, nejsou kompletním promptem pro generátor obrázků. Piš jejich textové hodnoty anglicky, jak je běžné v existujících datech. `primary_subject` a další názvy motivů jsou popisné identifikátory ve `snake_case`; nepředpokládej, že jde o klíče rendereru.
+Výchozí kompozice má opticky vycentrovaný hlavní motiv a vyvážené prázdné okraje v celém obrázku. Asymetrii použij jen pro konkrétní význam, interakci či směr děje; nerezervuj prázdný sloupec pro text.
 
 Přesná struktura:
 
@@ -79,11 +82,11 @@ Použij pouze tyto hodnoty:
 - Každý objekt musí mít přesně použitá pole a datové typy z uvedeného příkladu. Zachovej všechna pole; vynechaný zdroj nebo ilustrační metadata nejsou přijatelné.
 - Před odevzdáním zkontroluj validitu JSON, navazující jedinečná ID, délku a jazyk textu, 2 až 3 zdroje, kategorii a všechny hodnoty enumů.
 - Zkontroluj, že ilustrace vychází z konkrétního příspěvku, že hlavní a doplňkové motivy dávají smysl společně a že se kompozice v rámci dávky zbytečně neopakují.
-- U argumentu, paradoxu nebo mechanismu musí `concept` popsat viditelný vztah nesoucí pointu a `scene_type` i `composition_hints` jej musí zdůrazňovat. Shoda předmětu či nálady nestačí: například wu wei lze ukázat proudem, který obtéká pevnou překážku a pokračuje dál; samotná řeka v krajině tuto myšlenku nevysvětluje.
+- `concept`, `scene_type` a `composition_hints` popisují stejný vybraný aspekt. Relevantní objekt je dostačující i u argumentu, paradoxu nebo mechanismu; není potřeba zobrazit celý vztah či důkaz. Klíčová slova nesmějí zbytečně rozšiřovat inventář obrázku.
 - Dodané existující příspěvky nikdy nepřepisuj, nemaž ani neupravuj. Vrať pouze nové záznamy.
 
 ## Údržba tohoto zadání
 
 Při změně datové struktury příspěvku, pravidel generování nebo redakčních pravidel obsahu v projektu faakt.io musí být tento soubor aktualizován ve stejné změně. Povolené kategorie, typy scén, nálady, palety, datové typy i ukázkový JSON musí odpovídat aktuálnímu projektu; neudržuj zastaralé hodnoty.
 
-Ilustrace musí být srozumitelná na první pohled: nepoužívej vysvětlující šipky, sítě spojnic, legendy ani samostatné symboly vyžadující luštění. Blízkost a děj vyjádři polohou či gestem. Diagram připadá v úvahu jen pro vztah výslovně potřebný v textu a čitelný bez rozklíčování značek.
+Ilustrace musí mít rozpoznatelný hlavní motiv na první pohled. Vol podle kontextu: objekt, portrét, jednoduchý děj nebo vědecký vztah či kontrast čitelný na první pohled. Pokud by bylo potřeba mnoho samostatných předmětů, několik kroků nebo šipkový řetězec pro rozluštění vztahů, vyber jeden rozpoznatelný aspekt. Jedna užitečná šipka sama o sobě není problém. Drobné značky, grafy, přístroje a pozorovatele nepřidávej pro úplnost. Stručný známý symbol, například značka zákazu, je vhodný doplněk.

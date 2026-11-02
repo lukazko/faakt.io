@@ -7718,23 +7718,21 @@
       }
     ],
     "illustration": {
-      "concept": "Wavefronts bunch ahead of an approaching ambulance and spread behind it, explaining the pitch drop as it passes a stationary listener.",
-      "scene_type": "diagram",
-      "primary_subject": "doppler_passing_ambulance",
-      "secondary_subjects": [
-        "compressed_wavefronts",
-        "spread_wavefronts"
-      ],
+      "concept": "A single moving ambulance, shown in side view and centered as a complete motif. The vehicle alone accompanies the Doppler-effect article; no listener or wave diagram.",
+      "scene_type": "object",
+      "primary_subject": "moving_ambulance",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "doppler_passing_ambulance",
-        "compressed_wavefronts",
-        "spread_wavefronts"
+        "ambulance_side_view",
+        "emergency_vehicle",
+        "simple_motion"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
-      "mood": "neutral",
+      "mood": "dynamic",
       "palette": "indigo_cyan"
     }
   },
@@ -7754,21 +7752,19 @@
       }
     ],
     "illustration": {
-      "concept": "A cryogenic temperature scale approaches its lower limit through progressively smaller cooling steps, showing that absolute zero is a limit rather than an attainable final step.",
-      "scene_type": "diagram",
-      "primary_subject": "absolute_zero_limit",
-      "secondary_subjects": [
-        "cryogenic_thermometer",
-        "diminishing_thermal_motion"
-      ],
+      "concept": "A single frost-covered cryogenic thermometer with a very low reading, centered in the canvas. It accompanies extreme cold without depicting cooling stages or a particle experiment; no numbers or labels.",
+      "scene_type": "object",
+      "primary_subject": "frosted_cryogenic_thermometer",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "absolute_zero_limit",
-        "cryogenic_thermometer",
-        "diminishing_thermal_motion"
+        "thermometer",
+        "frost",
+        "low_temperature"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "violet_coral"
@@ -7898,21 +7894,18 @@
       }
     ],
     "illustration": {
-      "concept": "A rotating neutron star sweeps a radio beam past Earth in regular pulses, explaining the initially puzzling clocklike signal.",
-      "scene_type": "diagram",
-      "primary_subject": "pulsar_periodic_radio_beams",
-      "secondary_subjects": [
-        "rotating_neutron_star",
-        "regular_signal_trace"
-      ],
+      "concept": "A single compact blue pulsar with a broad pale beam, accompanying the article about periodic radio pulses. No observer or measurement diagram.",
+      "scene_type": "object",
+      "primary_subject": "pulsar_with_beam",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "pulsar_periodic_radio_beams",
-        "rotating_neutron_star",
-        "regular_signal_trace"
+        "blue_neutron_star",
+        "pale_beam",
+        "simple_silhouette"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "single_central_motif",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "monochrome_cool"
@@ -7934,23 +7927,21 @@
       }
     ],
     "illustration": {
-      "concept": "A solar eruption disturbs Earth's magnetic environment and induces strong currents in telegraph wires, connecting space weather to damaged nineteenth-century infrastructure.",
-      "scene_type": "process",
-      "primary_subject": "carrington_solar_storm",
-      "secondary_subjects": [
-        "solar_flare",
-        "induced_telegraph_current"
-      ],
+      "concept": "A single nineteenth-century telegraph key with a small electrical spark at its contact, centered as one compact motif. It accompanies the infrastructure effects of the 1859 solar storm; no Sun-Earth diagram.",
+      "scene_type": "object",
+      "primary_subject": "sparking_telegraph_key",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "carrington_solar_storm",
-        "solar_flare",
-        "induced_telegraph_current"
+        "telegraph_key",
+        "electrical_spark",
+        "brass_base"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
-      "mood": "neutral",
+      "mood": "dramatic",
       "palette": "green_copper"
     }
   },
@@ -8006,21 +7997,19 @@
       }
     ],
     "illustration": {
-      "concept": "A half-turn on the complex unit circle brings the exponential relation to negative one, visually connecting Euler's identity and its five fundamental constants.",
+      "concept": "One simple unit circle centered in the full canvas, with a single highlighted half-turn arc. A compact mathematical motif accompanies Euler identity without a full derivation, labels or additional panels.",
       "scene_type": "diagram",
-      "primary_subject": "euler_identity_unit_circle",
-      "secondary_subjects": [
-        "complex_plane",
-        "half_turn_to_negative_one"
-      ],
+      "primary_subject": "centered_euler_unit_circle",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "euler_identity_unit_circle",
-        "complex_plane",
-        "half_turn_to_negative_one"
+        "unit_circle",
+        "half_turn_arc",
+        "simple_geometry"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "contemplative",
       "palette": "terracotta_cream"
@@ -8512,21 +8501,19 @@
       }
     ],
     "illustration": {
-      "concept": "Interest is added back to the principal at each step, producing coin stacks that grow increasingly quickly through repeated reinvestment.",
-      "scene_type": "diagram",
-      "primary_subject": "compound_interest_growth",
-      "secondary_subjects": [
-        "reinvested_interest",
-        "accelerating_coin_stacks"
-      ],
+      "concept": "Three compact coin stacks of increasing height arranged as one centered group with balanced empty margins, accompanying compound growth. No arrows, flying coins, chart or step-by-step reinvestment process.",
+      "scene_type": "object",
+      "primary_subject": "centered_growing_coin_stacks",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "compound_interest_growth",
-        "reinvested_interest",
-        "accelerating_coin_stacks"
+        "coin_stacks",
+        "increasing_height",
+        "compact_group"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
@@ -9160,21 +9147,19 @@
       }
     ],
     "illustration": {
-      "concept": "A copy of Joyce's Ulysses moves from a prohibition barrier into a courtroom, where a legal judgment opens publication to readers.",
-      "scene_type": "interaction",
-      "primary_subject": "ulysses_censorship_trial",
-      "secondary_subjects": [
-        "novel",
-        "courtroom"
-      ],
+      "concept": "A single closed book with a familiar prohibition sign across its cover, centered as one compact motif. It accompanies the banned novel without courtroom, author portrait or a legal timeline.",
+      "scene_type": "object",
+      "primary_subject": "banned_book",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "ulysses_censorship_trial",
-        "novel",
-        "courtroom"
+        "closed_book",
+        "prohibition_sign",
+        "simple_book_cover"
       ],
       "composition_hints": [
-        "two_objects_in_interaction",
-        "clear_visual_contrast"
+        "optically_centered_motif",
+        "balanced_transparent_margins",
+        "uncluttered_composition"
       ],
       "mood": "contemplative",
       "palette": "blue_gold"
@@ -9232,21 +9217,18 @@
       }
     ],
     "illustration": {
-      "concept": "A modeled and rigged digital toy becomes a finished rendered frame, depicting the first wholly computer-animated feature.",
-      "scene_type": "process",
-      "primary_subject": "toy_story_computer_animation",
-      "secondary_subjects": [
-        "digital_character_model",
-        "rendered_film_frame"
-      ],
+      "concept": "A single colorful plastic toy robot, accompanying the article about the first computer-animated feature and its choice of easily rendered toys.",
+      "scene_type": "object",
+      "primary_subject": "plastic_toy_robot",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "toy_story_computer_animation",
-        "digital_character_model",
-        "rendered_film_frame"
+        "plastic_toy",
+        "toy_robot",
+        "simple_silhouette"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "single_central_motif",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "indigo_cyan"
@@ -9304,17 +9286,17 @@
       }
     ],
     "illustration": {
-      "concept": "One unchanged facial close-up is paired with different subsequent images, causing viewers to infer different emotions from the same face.",
+      "concept": "A film strip cuts between a baby carriage rolling down the Odessa steps and marching soldiers, showing how juxtaposition creates tension beyond either shot alone.",
       "scene_type": "process",
-      "primary_subject": "kuleshov_editing_effect",
+      "primary_subject": "eisenstein_odessa_steps_montage",
       "secondary_subjects": [
-        "unchanged_face",
-        "different_following_images"
+        "baby_carriage_on_steps",
+        "marching_soldiers_film_frame"
       ],
       "visual_keywords": [
-        "kuleshov_editing_effect",
-        "unchanged_face",
-        "different_following_images"
+        "eisenstein_odessa_steps_montage",
+        "baby_carriage_on_steps",
+        "marching_soldiers_film_frame"
       ],
       "composition_hints": [
         "stacked_or_sequential_arrangement",
@@ -9448,21 +9430,19 @@
       }
     ],
     "illustration": {
-      "concept": "Two abstract premises connect to a conclusion through their logical form, showing valid inference independent of the particular subject matter.",
-      "scene_type": "diagram",
-      "primary_subject": "formal_syllogism",
+      "concept": "Aristotle holds a scroll in a thoughtful teaching pose, accompanying the ancient Greek development of formal syllogistic logic without pretending to diagram a proof.",
+      "scene_type": "portrait",
+      "primary_subject": "aristotle_formal_logic",
       "secondary_subjects": [
-        "linked_premises",
-        "necessary_conclusion"
+        "plain_teaching_scroll"
       ],
       "visual_keywords": [
-        "formal_syllogism",
-        "linked_premises",
-        "necessary_conclusion"
+        "aristotle_formal_logic",
+        "plain_teaching_scroll"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "portrait_focus",
+        "single_uncluttered_silhouette"
       ],
       "mood": "contemplative",
       "palette": "green_copper"
@@ -9990,25 +9970,25 @@
       }
     ],
     "illustration": {
-      "concept": "A gray flamingo chick becomes pink as dietary carotenoid pigments accumulate, connecting coloration to food rather than an innate pink birth color.",
-      "scene_type": "process",
-      "primary_subject": "flamingo_dietary_pigment",
+      "concept": "A pink adult flamingo bends its curved neck toward a small gray chick nestled beside its legs, making their surprising color contrast part of one intimate natural scene. The article explains how food produces the pink color.",
+      "scene_type": "interaction",
+      "primary_subject": "pink_flamingo_with_gray_chick",
       "secondary_subjects": [
-        "gray_chick",
-        "carotenoid_food",
-        "pink_adult"
+        "gray_flamingo_chick"
       ],
       "visual_keywords": [
-        "flamingo_dietary_pigment",
+        "pink_flamingo",
         "gray_chick",
-        "carotenoid_food",
-        "pink_adult"
+        "curved_neck",
+        "gentle_encounter"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "single_connected_natural_scene",
+        "adult_bends_toward_chick",
+        "optically_centered_motif",
+        "no_sequence_or_equation"
       ],
-      "mood": "neutral",
+      "mood": "contemplative",
       "palette": "teal_amber"
     }
   },
@@ -12712,21 +12692,19 @@
       }
     ],
     "illustration": {
-      "concept": "Hand-painted animation cels accumulate into a feature-length story, showing the ambitious labor and financing risk behind Snow White.",
-      "scene_type": "process",
-      "primary_subject": "snow_white_animation_production",
+      "concept": "An animator's pencil rests across a few overlapping animation cels on a simple peg bar, accompanying the labor of early hand-drawn feature-film production. The cels show only a small woodland tree, with no people or characters.",
+      "scene_type": "object",
+      "primary_subject": "hand_drawn_animation_cels",
       "secondary_subjects": [
-        "hand_drawn_cels",
-        "feature_length_sequence"
+        "animators_pencil",
+        "animation_peg_bar"
       ],
       "visual_keywords": [
-        "snow_white_animation_production",
-        "hand_drawn_cels",
-        "feature_length_sequence"
+        "overlapping_transparent_sheets",
+        "simple_tree_drawing"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "blue_gold"
@@ -13038,21 +13016,17 @@
       }
     ],
     "illustration": {
-      "concept": "The recognizable ancient marble Venus is presented with both arms absent, making the iconic incomplete form the focus.",
-      "scene_type": "object",
-      "primary_subject": "venus_de_milo_statue",
-      "secondary_subjects": [
-        "missing_arms",
-        "marble_surface"
-      ],
+      "concept": "A tightly framed portrait detail of the Venus de Milo shows only her marble face, classical hairstyle and neck. The composition ends at the neck, with the body outside the frame. This portrait accompanies the article about the incomplete ancient sculpture without attempting to reconstruct its missing arms.",
+      "scene_type": "portrait",
+      "primary_subject": "venus_de_milo_face_detail",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "venus_de_milo_statue",
-        "missing_arms",
-        "marble_surface"
+        "classical_marble_face",
+        "gathered_hair",
+        "neck_up_crop"
       ],
       "composition_hints": [
-        "dominant_central_object",
-        "subtle_background_context"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "teal_amber"
@@ -13074,21 +13048,18 @@
       }
     ],
     "illustration": {
-      "concept": "A damaged discarded marble block becomes Michelangelo's David, connecting sculptural achievement to the challenge of the original material.",
-      "scene_type": "process",
-      "primary_subject": "michelangelo_david_marble",
+      "concept": "A sculptor's chisel rests against a tall rough marble block with a visible crack, accompanying the rejected material from which Michelangelo carved David. Depict only stone and tool, with no human figure or emerging anatomy.",
+      "scene_type": "object",
+      "primary_subject": "rejected_marble_block",
       "secondary_subjects": [
-        "rejected_stone_block",
-        "emerging_david"
+        "sculptors_chisel"
       ],
       "visual_keywords": [
-        "michelangelo_david_marble",
-        "rejected_stone_block",
-        "emerging_david"
+        "rough_marble",
+        "single_visible_crack"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
@@ -13180,21 +13151,17 @@
       }
     ],
     "illustration": {
-      "concept": "The familiar seated Thinker is shown first within the Gates of Hell and then as an independent sculpture, restoring its original context.",
-      "scene_type": "object",
-      "primary_subject": "rodin_thinker_gates_of_hell",
-      "secondary_subjects": [
-        "seated_thinking_figure",
-        "monumental_doorway"
-      ],
+      "concept": "A close portrait detail of Rodin's bronze Thinker shows only the bowed head and the hand supporting the chin. The composition ends immediately below the chin and hand; the torso and rest of the figure are outside the frame. The concentrated pose accompanies the article about the sculpture's origin.",
+      "scene_type": "portrait",
+      "primary_subject": "rodin_thinker_head_and_hand",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "rodin_thinker_gates_of_hell",
-        "seated_thinking_figure",
-        "monumental_doorway"
+        "bowed_bronze_head",
+        "chin_resting_on_hand",
+        "tight_portrait_crop"
       ],
       "composition_hints": [
-        "dominant_central_object",
-        "subtle_background_context"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "terracotta_cream"
@@ -13360,21 +13327,18 @@
       }
     ],
     "illustration": {
-      "concept": "A palm-sized limestone female figurine with emphasized bodily forms is shown with a discreet size reference and archaeological material texture.",
+      "concept": "A tightly framed archaeological detail shows only the rounded limestone head of the Willendorf figurine, its broad patterned cap and featureless face. The composition ends at the neck, with the body outside the frame. This detail accompanies the article about the small prehistoric carving without claiming an interpretation of its purpose.",
       "scene_type": "object",
-      "primary_subject": "venus_of_willendorf",
-      "secondary_subjects": [
-        "small_limestone_figurine",
-        "scale_reference"
-      ],
+      "primary_subject": "willendorf_figurine_head_detail",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "venus_of_willendorf",
-        "small_limestone_figurine",
-        "scale_reference"
+        "rounded_limestone_head",
+        "broad_cap_bands",
+        "featureless_face",
+        "neck_up_crop"
       ],
       "composition_hints": [
-        "dominant_central_object",
-        "subtle_background_context"
+        "dominant_central_object"
       ],
       "mood": "neutral",
       "palette": "monochrome_cool"

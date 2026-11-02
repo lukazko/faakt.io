@@ -72,11 +72,13 @@ Každý nový objekt má přesně pole `id`, `title`, `content`, `category`, `so
 
 ## Ilustrační metadata každého postu
 
+Ilustrace má vzbudit chuť číst výrazným motivem, gestem, atmosférou či vizuálním kontrastem. Samotná přehlednost nestačí: i několik oddělených objektů s jedinou šipkou může působit jako rovnice vstupů a výsledku. Když myšlenku lépe nese přirozené setkání nebo soudržná scéna, propoj prvky pohledem, pózou, pohybem či společným prostorem. Růžový plameňák sklánějící se k šedému mláděti může zaujmout bez schématu mládě + potrava → dospělý. Diagramy, šipky ani vysvětlení principu nejsou zakázané; používej je, pokud jejich vizuální podoba sama dobře funguje jako ilustrace k danému textu. Nerozhoduje jen počet předmětů či kroků.
+
 Všechny následující klíče jsou povinné. Textové hodnoty piš anglicky, názvy motivů jako popisné identifikátory `snake_case`; nejsou to automaticky klíče SVG rendereru.
 
 | Pole | Typ a pravidlo |
 |---|---|
-| `concept` | Řetězec: konkrétní viditelná scéna vystihující hlavní myšlenku celého postu. |
+| `concept` | Řetězec: jeden konkrétní rozpoznatelný aspekt doprovázející post; nemusí vysvětlit jeho celou myšlenku. |
 | `scene_type` | Řetězec: `portrait`, `interaction`, `process`, `diagram`, `environment`, `object`. |
 | `primary_subject` | Řetězec: jeden konkrétní hlavní motiv. |
 | `secondary_subjects` | Pole řetězců; pouze potřebné, textem podložené doplňky, jinak `[]`. |
@@ -85,11 +87,10 @@ Všechny následující klíče jsou povinné. Textové hodnoty piš anglicky, n
 | `mood` | Řetězec: `contemplative`, `dramatic`, `dynamic`, `mysterious`, `neutral`, `playful`. |
 | `palette` | Řetězec: `blue_gold`, `green_copper`, `indigo_cyan`, `monochrome_cool`, `monochrome_warm`, `teal_amber`, `terracotta_cream`, `violet_coral`. |
 
-Přečti titulek i celý hotový obsah, pojmenuj jeho pointu a až pak navrhni motiv. Kategorie ani seznam podstatných jmen nestačí. U mechanismu, paradoxu či argumentu ukaž čitelný vztah (kontrast, příčinu, následek, změnu); `scene_type` i kompozice jej musí podporovat. Například proud obtékající pevnou překážku vyjadřuje přizpůsobení lépe než obecná říční krajina.
+Přečti titulek i celý hotový obsah a vyber jeden relevantní aspekt pro jednoduchou ilustraci. Stačí samostatný objekt, skutečný autor, jednoduchý děj nebo stručná metafora. Text vysvětluje mechanismus a pointu; obrázek nemusí rekonstruovat experiment, zobrazit všechny jeho části ani dokazovat závěr. Například sanitka stačí k Dopplerovu jevu, kniha se zákazem k zakázanému románu a pulsar s paprskem k pulzům z vesmíru. Nepřidávej zároveň Zemi, graf frekvence, magnetické pole a přístroje.
 
-Pokud by abstraktní učení vyžadovalo vymyšlené rekvizity, použij střídmý portrét skutečného autora či učitele. Nepřidávej mince, řetězy, oddělené ruce nebo koule pouze podle asociace s abstraktním slovem. Každý vedlejší objekt musí mít oporu v plném textu a zvolené scéně. Nepřidávej dekorace kvůli rozmanitosti.
-
-Navrhuj jednu jednoduchou scénu čitelnou už při 160 × 90 px, s jedním dominantním motivem. Bez vysvětlujících šipek, sítí spojnic, legend a samostatných symbolů vyžadujících luštění. Diagram použij jen pro vztah výslovně potřebný v textu a srozumitelný bez dekódování značek. Kompozice může využít např. `dominant_central_object`, `two_objects_in_interaction`, `clear_visual_contrast`, `portrait_focus` nebo jiný přesný pokyn odpovídající scéně. Metadata nejsou kompletní generovací prompt a jejich vytvoření neznamená generovat obrázek.
+`secondary_subjects` nech prázdné, pokud je hlavní motiv dostačující. Doplňky a symboly mohou pomoci rozpoznání zvoleného aspektu, jejich relevance k článku však sama nestačí k jejich přidání. Klíčová slova popisují stejný motiv, nerozšiřují inventář obrázku. `scene_type` a `composition_hints` mají podporovat vybraný jednoduchý motiv čitelný při 160×90 px. Vol podle kontextu: jednoduchý vědecký vztah, kontrast či interakce jsou vhodné, když jsou čitelné na první pohled. Jestli by byly potřeba mnohé samostatné předměty, několik kroků či řetězec šipek pro rozluštění vztahů, vyber jeden rozpoznatelný aspekt. Jedna užitečná šipka není sama o sobě problém. Zachovej věcnou identitu, nevymýšlej detaily a nepřidávej popisek pouze pojmenovávající nakreslený objekt. Metadata nejsou kompletní generovací prompt a jejich vytvoření neznamená generovat obrázek.
+Hlavní motiv má být opticky vycentrovaný v celém obrázku, s vyváženými prázdnými okraji. Asymetrie je vhodná jen tehdy, když pomáhá konkrétnímu významu, interakci nebo směru děje; bez takového důvodu nepřidávej `asymmetric_composition` ani volný sloupec pro text.
 
 ## Kontrola a předání
 

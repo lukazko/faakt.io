@@ -92,8 +92,8 @@ COMPOSITIONS = {
     "interaction": ["two_objects_in_interaction", "clear_visual_contrast"],
     "environment": ["wide_environmental_view", "distinctive_foreground_object"],
     "process": ["stacked_or_sequential_arrangement", "visual_cause_and_effect"],
-    "diagram": ["asymmetric_composition", "layered_scene"],
-    "object": ["dominant_central_object", "subtle_background_context"]
+    "diagram": ["optically_centered_motif", "uncluttered_composition"],
+    "object": ["dominant_central_object", "uncluttered_composition"]
 }
 
 PORTRAIT_WORDS = ("portrait", "_figure", "_bust", "philosopher", "_person", "_actor", "_king", "_queen")
@@ -121,15 +121,19 @@ def parse_args() -> argparse.Namespace:
 
 
 def scene_type_for(primary: str, current: str) -> str:
-    if any(word in primary for word in PORTRAIT_WORDS):
+    # Subject IDs are underscore-separated: "telegraph" is not a "graph".
+    def contains(words: tuple[str, ...]) -> bool:
+        return any(f"_{word.strip('_')}_" in f"_{primary}_" for word in words)
+
+    if contains(PORTRAIT_WORDS):
         return "portrait"
-    if any(word in primary for word in INTERACTION_WORDS):
+    if contains(INTERACTION_WORDS):
         return "interaction"
-    if any(word in primary for word in PROCESS_WORDS):
+    if contains(PROCESS_WORDS):
         return "process"
-    if any(word in primary for word in DIAGRAM_WORDS):
+    if contains(DIAGRAM_WORDS):
         return "diagram"
-    if any(word in primary for word in ENVIRONMENT_WORDS):
+    if contains(ENVIRONMENT_WORDS):
         return "environment"
     return current
 
@@ -192,7 +196,10 @@ def repair(posts: list[dict]) -> tuple[list[dict], list[dict], list[dict]]:
         if scene_type != illustration["scene_type"]:
             illustration["scene_type"] = scene_type
         if scene_type in COMPOSITIONS:
-            illustration["composition_hints"] = COMPOSITIONS[scene_type]
+            # Keep curated simple compositions; a valid scene is not a request
+            # to add context or replace its art direction with a template.
+            if scene_type != old["scene_type"] or not illustration.get("composition_hints"):
+                illustration["composition_hints"] = COMPOSITIONS[scene_type]
         else:
             unresolved.append({"id": post_id, "reason": f"unsupported scene_type: {scene_type}"})
 
