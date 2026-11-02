@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`265` a `558` (266 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`312`, `413`–`420` a `558` (321 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,7 +19,19 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 266 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 321 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Dávka 271–312 a 413–420
+
+Dalších 50 chybějících ilustrací odpovídá pořadí příspěvků v databázi: po `312` následuje `413`. Vytvořil je vestavěný image_gen s `transparent_background=true`, samostatným požadavkem pro každý příspěvek. Celkem proběhlo 51 generovacích volání: 50 prvních verzí a jedna cílená náhrada `309`. Nástroj neposkytuje nastavení vstupních rozměrů, kvality ani ceny. Původní články a jejich metadata se nemění, starší obrázky zůstávají zachované.
+
+Finální soubory jsou RGBA WebP 640×360, quality 80, vycentrované pomocí `fit-image.py`, s průhlednými rohy a odsazením. Velikosti jsou 7 406–47 936 B, celkem 1 284 924 B. Všech 50 ID je zapnutých v produkčních kartách i galerii. Manifest obsahuje přesné odeslané prompty, SHA-256 promptů, původních metadat a finálních souborů, původ generování a individuální významové kontroly. Palety vycházejí z metadat; například čtyřbarevná mapa `302` záměrně používá čtyři barvy. Procedurální renderer ani zlaté otisky se nepoužívají.
+
+Výběr motivů vychází z titulku i celého textu. `287` doprovází Montesquieuův portrét, `290` samotná galaxie, `296` družice s hodinami a `308` trubková židle. Nejde o úplné vysvětlení mechanismů či dějin. `277` používá přehnanou rovníkovou výduť a schematické vzdálenosti; nejde o přesnou geografickou mapu. `293` má interpretační protáhlý tvar, nikoli potvrzenou podobu ʻOumuamua. `294` ukazuje explozi nad zemí bez kráteru. `302` a `303` doprovázejí matematický vztah bez důkazu a přesné datové stupnice. `306` neuvádí skutečnou historickou cenu chleba. `416` ukazuje pouze čekající dítě a netvrdí zaručený budoucí úspěch. Další omezení jsou u jednotlivých položek manifestu.
+
+První `309` chybně zobrazovala vzpřímený promítnutý džbán. Jedna cílená náhrada ukazuje zavřenou cameru obscuru s objektivem a matnicí bez promítaného obrazu; nedokládá Vermeerovo použití přístroje. Původní prompt a zdroj zůstávají v `previousVersion`. Některé scény překračují cílových 5–8 ploch či tři barvy; jemnější detaily mají zejména galaxie `290`, semena `301` a klávesy `312`. Odchylky jsou přiznané, nikoli zamaskované zmenšením.
+
+Všechny miniatury byly prohlédnuté na tmavém povrchu při 160×90 i 320×180 px, náhrada `309` navíc samostatně a při obou velikostech. Kontrola zahrnuje rozměry, skutečný alfa kanál, nulovou alfu rohů, limit 100 kB, hashe a shodu databáze s výchozím stavem. Deterministický repair proběhl pouze v náhledu; jeho obecné přepisy nebyly aplikovány. Registraci ověřuje `npm test`, statický výstup `npm run build`.
 
 ## Vycentrované náhrady 215, 216, 221, 223, 237 a 255
 
