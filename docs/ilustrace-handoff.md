@@ -6,9 +6,13 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 Post `014`: regenerated with built-in image_gen as an isolated orange M87 emission ring and dark central shadow, brighter below. Transparent RGBA WebP, 640x360, 18,262 bytes; corner alpha 0. Reviewed at 160x90 and 320x180; both tests pass. Registered in cards and gallery. Exact prompt, SHA-256 and prior provenance retained in manifest; 054 unchanged. Generation size/quality/cost controls unavailable.
 
 
+
+Requested ordinal positions 453/451/457/404/501 map to IDs 553/551/557/504/601. Updated motifs: inward light at a black hole; intact magnetar with magnetic loops and no impact; pulsating Cepheid; microscope investigation of microbes; shared meaning expressed as spoken/written STROM. ID 601 is newly available; all five are registered in cards and gallery. Built-in image_gen used true transparency; generation size/quality/cost controls unavailable. All final assets are 640x360 RGBA WebP under 100 kB, with corner alpha 0 and balanced margins; reviewed at 160x90 and 320x180. Exact prompts, hashes, semantic caveats and prior provenance are in manifest. Original article text and metadata remain unchanged.
+
+
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`312` a `413`–`571` (471 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`312` a `413`–`571` a `601` (472 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -23,7 +27,7 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 471 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 472 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
 
 ## Dávka 521–557 a 559–571
 
