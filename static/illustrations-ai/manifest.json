@@ -12236,5 +12236,220 @@
       "background": "RGBA WebP; all four corners alpha 0"
     },
     "replacementReason": "missing"
+  },
+  {
+    "id": "266",
+    "title": "Škola, která za nejjistější zdroj štěstí označila přátele",
+    "content": "<p>Filozofie spojovaná s požitkem měla ve starověkých Athénách překvapivě střízlivý program.</p><p>Komunita, která se od konce 4. století př. n. l. scházela v zahradě na okraji města, se držela stranou politiky a soustředila se na skromný život bez zbytečných tužeb. Na rozdíl od jiných škol do ní měli přístup i ženy a otroci.</p><p>Epikúros v dochovaných zlomcích řadí přátelství mezi nejdůležitější složky dobrého života. Zdůvodňuje to prakticky: majetek a sláva jsou nejisté a snadno se ztrácejí, zatímco spolehlivé vztahy dávají bezpečí trvale.</p><p>Doporučoval proto raději dobře vybranou společnost než větší jmění.</p><p><strong>Rozkoš tu neznamená hodování, ale nepřítomnost bolesti a neklidu.</strong></p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "Friends share a modest meal and unhurried conversation in Epicurus's garden, locating happiness in companionship and limited needs.",
+      "scene_type": "environment",
+      "primary_subject": "epicurean_garden_friendship",
+      "secondary_subjects": [
+        "shared_simple_meal",
+        "conversation"
+      ],
+      "visual_keywords": [
+        "epicurean_garden_friendship",
+        "shared_simple_meal",
+        "conversation"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/266.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Friends share a modest meal and unhurried conversation in Epicurus's garden, locating happiness in companionship and limited needs.\",\"primary_subject\":\"epicurean_garden_friendship\",\"secondary_subjects\":[\"shared_simple_meal\",\"conversation\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}\nSelected motif: three ancient Greek friends including a woman conversing around one modest bread bowl, just one broad garden leaf silhouette. Blue and muted gold.",
+    "promptHash": "44b28a58e0b719efbd4e1293d813ada2289948f02f85dc905230654eae7082f5",
+    "metadataHash": "021ec8c05bb323ec9eb354ae73a20466df61929af99f0d9da30c45e170d5ed67",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "imageSha256": "b24201879d6739bfb51311229f0642c45db1378b0b0ea8d59efb895c5fe86e6d",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Three ancient Greek friends share bread and conversation; accompanies Epicurean friendship and modest needs, not a reconstruction of named individuals.",
+      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+      "simplicity": "Readable silhouette at both card sizes. Folds, inscription strokes, wood grain and shading exceed the strict 5–8 flat-shape target; no decorative scenery or backdrop."
+    }
+  },
+  {
+    "id": "267",
+    "title": "Nejlepší vítězství je podle starého čínského spisu to bez boje",
+    "content": "<p>Vojenské pojednání by mělo být o bitvách. Čínský spis <em>Umění války</em>, jehož jádro pochází zhruba z 5. století př. n. l., přitom doporučuje boj co nejvíc omezit.</p><p>Vychází z toho, že válka je nákladná. Dlouhé tažení vyčerpá zásoby, oslabí hospodářství a nakonec poškodí i vítěze. Nejvyšší dovedností proto je zlomit odpor protivníka dřív, než dojde ke střetu.</p><p>Důraz klade na přípravu, znalost terénu, klamání a zejména na zpravodajské informace. Vítězství se podle textu rozhoduje ještě před bitvou, ve fázi plánování.</p><p>Spis se dnes cituje v souvislosti s vyjednáváním a konkurencí, což odpovídá jeho zaměření na náklady a postavení, nikoli na odvahu.</p>",
+    "category": "filozofie",
+    "illustration": {
+      "concept": "A strategic arrangement makes an opponent withdraw before armies collide, illustrating victory achieved through position, information and deterrence.",
+      "scene_type": "diagram",
+      "primary_subject": "sun_tzu_victory_without_battle",
+      "secondary_subjects": [
+        "strategic_positions",
+        "avoided_clash"
+      ],
+      "visual_keywords": [
+        "sun_tzu_victory_without_battle",
+        "strategic_positions",
+        "avoided_clash"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "image": "/illustrations-ai/267.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A strategic arrangement makes an opponent withdraw before armies collide, illustrating victory achieved through position, information and deterrence.\",\"primary_subject\":\"sun_tzu_victory_without_battle\",\"secondary_subjects\":[\"strategic_positions\",\"avoided_clash\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}\nSelected motif: a calm ancient Chinese strategist in simple robes holding a rolled bamboo manuscript, an accompanying portrait of strategic thought rather than a multistep battle diagram. Teal and amber; no weapons or battlefield.",
+    "promptHash": "f0bd70b2eaf4d555411aa1e2f63914a5acafb0127ab8d50855f4972011d5d4ae",
+    "metadataHash": "a02180d3b046016ad07ef83787c0b8db4fdd5fdcbabc14db170a4b2201e758f1",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "imageSha256": "7e1d4ed62ce0aa53922b4ab9cf3ad4d1826ee0a708a3670d9ef3f569faf6f2a4",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Idealized ancient Chinese strategist with bamboo manuscript accompanies strategic thought and victory without fighting; not a literal diagram of deterrence or authenticated Sun Tzu likeness.",
+      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+      "simplicity": "Readable silhouette at both card sizes. Folds, inscription strokes, wood grain and shading exceed the strict 5–8 flat-shape target; no decorative scenery or backdrop."
+    }
+  },
+  {
+    "id": "268",
+    "title": "Panovník, který nechal do skal vytesat lítost nad vlastní válkou",
+    "content": "<p>Vládci obvykle nechávali zaznamenat svá vítězství. Nápisy rozeseté po indickém subkontinentu ve 3. století př. n. l. dělají něco jiného.</p><p>Edikty vládce Ašóky z říše Maurjů, vytesané do skal a kamenných sloupů, hovoří o lítosti nad utrpením způsobeným při dobytí oblasti Kalinga. Popisují mrtvé, zajaté a rozvrácené rodiny.</p><p>Následuje program, který panovník staví proti dalšímu dobývání: úcta ke všem naukám, péče o cestující i zvířata, zákaz některých obětí a důraz na správné jednání úředníků.</p><p>Texty byly zapsány v místních jazycích, aby jim rozuměli obyčejní lidé. Jejich rozluštění v 19. století umožnila až znalost tehdy zapomenutých písem.</p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "A publicly carved edict contrasts a ruler's remorse with the destruction of war, focusing on Ashoka's change of political and moral direction.",
+      "scene_type": "object",
+      "primary_subject": "ashoka_rock_edict",
+      "secondary_subjects": [
+        "rejected_warfare",
+        "public_inscription"
+      ],
+      "visual_keywords": [
+        "ashoka_rock_edict",
+        "rejected_warfare",
+        "public_inscription"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "dramatic",
+      "palette": "terracotta_cream"
+    },
+    "image": "/illustrations-ai/268.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A publicly carved edict contrasts a ruler's remorse with the destruction of war, focusing on Ashoka's change of political and moral direction.\",\"primary_subject\":\"ashoka_rock_edict\",\"secondary_subjects\":[\"rejected_warfare\",\"public_inscription\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"dramatic\",\"palette\":\"terracotta_cream\"}\nSelected motif: one irregular rock bearing a few short rows of stylized ancient inscription marks, beside a lowered unused sword. Terracotta and cream. Not a modern gravestone; no readable captions.",
+    "promptHash": "ba0b85210ea7e7ac16d262e73928a0bf755dab1c93347062575450b4abf4597e",
+    "metadataHash": "3bc9afbfe43311d144cb38fae4be01a3eaa826ad256d1cf4e0340689ecc3ef62",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "imageSha256": "47964e1ecf4f19efcc8532394aab2874bfe365fc2c3f8c2a6ecb34161af48705",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Inscribed rock and unused lowered sword accompany Ashoka’s edicts and rejection of further conquest. Marks evoke inscriptions without claiming a verbatim historical text.",
+      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+      "simplicity": "Readable silhouette at both card sizes. Folds, inscription strokes, wood grain and shading exceed the strict 5–8 flat-shape target; no decorative scenery or backdrop."
+    }
+  },
+  {
+    "id": "269",
+    "title": "Výroba papíru putovala z Číny do Evropy přes tisíc let",
+    "content": "<p>Než se objevil papír, psalo se v Evropě na pergamen z kůže, který byl drahý. Jedna rozsáhlá kniha mohla spotřebovat kůže z celého stáda.</p><p>Technologie výroby papíru z rozvlákněné rostlinné hmoty je doložena v Číně na počátku 2. století n. l. a byla dlouho střeženým postupem.</p><p>Do islámského světa se rozšířila v 8. století, mimo jiné přes Samarkand, a v Bagdádu i Káhiře vznikly papírny. Do Evropy dorazila přes Španělsko a Itálii ve 12. a 13. století.</p><p>Teprve levný psací materiál dal smysl pozdějšímu knihtisku. Stroj, který tiskne rychle, potřebuje podklad, který je dostupný.</p><p><strong>Zásadní vynálezy často čekají na to, až se přidá druhý, nenápadnější.</strong></p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "Fibers become a sheet on a papermaking frame while a long chain of workshops carries the technique from China toward Europe.",
+      "scene_type": "process",
+      "primary_subject": "papermaking_spread",
+      "secondary_subjects": [
+        "fiber_pulp_frame",
+        "westward_trade_route"
+      ],
+      "visual_keywords": [
+        "papermaking_spread",
+        "fiber_pulp_frame",
+        "westward_trade_route"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "dynamic",
+      "palette": "blue_gold"
+    },
+    "image": "/illustrations-ai/269.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Fibers become a sheet on a papermaking frame while a long chain of workshops carries the technique from China toward Europe.\",\"primary_subject\":\"papermaking_spread\",\"secondary_subjects\":[\"fiber_pulp_frame\",\"westward_trade_route\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"dynamic\",\"palette\":\"blue_gold\"}\nSelected motif: two hands lifting a wooden papermaking screen with a fresh pale sheet from a simple blue vat. One compact action, no route map or workshops. Blue and gold.",
+    "promptHash": "045dde49dbe8bea791ef7dd68183a8029a70a6609db35197732acc53cdf663d6",
+    "metadataHash": "dddea7d5458be9dd8fb4cb7136edc97fcc79d93f444954d57652df2b5aa82550",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "imageSha256": "e34581ecc78ddd27738889bab552489096012653974486e900e03f68254d49fe",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Hands lift a papermaking screen from a vat, illustrating the relevant craft without attempting to depict its entire geographic diffusion.",
+      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+      "simplicity": "Readable silhouette at both card sizes. Folds, inscription strokes, wood grain and shading exceed the strict 5–8 flat-shape target; no decorative scenery or backdrop."
+    }
+  },
+  {
+    "id": "270",
+    "title": "Dopisy z římské pevnosti řeší ponožky a pozvánku na oslavu",
+    "content": "<p>O životě v římské říši víme hlavně z literárních děl a nápisů. Nález u pevnosti Vindolanda poblíž Hadriánova valu v severní Anglii ukázal jinou vrstvu.</p><p>V zamokřené půdě se dochovaly tenké dřevěné destičky popsané inkoustem, pocházející především z konce 1. a počátku 2. století n. l.</p><p>Obsah je všední. Vojáci řeší zásoby, účty, žádosti o dovolenou a v jednom případě také zaslání spodního prádla a ponožek. Dochovala se i pozvánka na narozeninovou oslavu, kterou poslala manželka jednoho z velitelů.</p><p>Právě tato pozvánka patří k nejstarším známým textům psaným ženskou rukou v latině.</p><p><em>Dějiny běžného dne se dochovají jen náhodou, když je zakonzervuje bahno.</em></p>",
+    "category": "historie",
+    "illustration": {
+      "concept": "Thin wooden writing tablets from a frontier fort carry the traces of everyday correspondence, revealing socks and invitations behind military history.",
+      "scene_type": "object",
+      "primary_subject": "vindolanda_writing_tablets",
+      "secondary_subjects": [
+        "roman_frontier_fort",
+        "ordinary_correspondence"
+      ],
+      "visual_keywords": [
+        "vindolanda_writing_tablets",
+        "roman_frontier_fort",
+        "ordinary_correspondence"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_warm"
+    },
+    "image": "/illustrations-ai/270.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Thin wooden writing tablets from a frontier fort carry the traces of everyday correspondence, revealing socks and invitations behind military history.\",\"primary_subject\":\"vindolanda_writing_tablets\",\"secondary_subjects\":[\"roman_frontier_fort\",\"ordinary_correspondence\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"monochrome_warm\"}\nSelected motif: two thin light wooden Roman ink writing tablets partly overlapping, with short dark cursive ink strokes, accompanied by a simple pair of socks. Warm muted browns and cream. No wax tablet or carved lettering, no fort.",
+    "promptHash": "c9910613313c1a5a7514bff956f985b6dea7ad745b26439a44090d334060c5eb",
+    "metadataHash": "5b2038926707279c0bdb1864320b8348fac033d1bfd97206b1c3675f8e51ce28",
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "imageSha256": "c34d5355492830ce26deb2964cda7642459b691cacb60c73e375e7283f15977e",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Thin wooden tablets with cursive ink strokes and socks accompany everyday Vindolanda correspondence; marks are not a transcription and socks are an editorial symbol, not an archaeological reconstruction.",
+      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+      "simplicity": "Readable silhouette at both card sizes. Folds, inscription strokes, wood grain and shading exceed the strict 5–8 flat-shape target; no decorative scenery or backdrop."
+    }
   }
 ]

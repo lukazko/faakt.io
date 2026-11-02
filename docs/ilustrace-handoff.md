@@ -191,3 +191,16 @@ Doplněno 25 samostatných ilustrací vestavěným image_gen, vždy s transparen
 Deterministický repair proběhl v náhledu; obecné návraty ke generickým motivům nebyly aplikovány. Obsah ani metadata příspěvků se nemění. Některé obrázky mají více detailů než cílových 5–8 ploch; konkrétní omezení zaznamenává manifest.
 
 Velikosti nové dávky jsou 16 896–39 036 B, dohromady 706 204 B. U `141` byl cílenou úpravou nahrazen anachronický znak eura frankem; přesný editační prompt je v `targetedEdit`. `npm test` i `npm run build` prošly; build hlásí existující upozornění Svelte na slot/přístupnost a velikost balíčku galerie.
+## Dávka 266–270
+
+Doplněno pět dalších chybějících ilustrací v pořadí databáze, všechny zapnuté v kartách a galerii. Vestavěný image_gen vytvořil každý obrázek jedním voláním s `transparent_background=true`; řízení generovaných rozměrů, kvality ani ceny nebylo dostupné. Finální RGBA WebP mají 640×360 px, quality 80, průhledné okraje a rohy, celkem 144 142 B. Přesné prompty, hashe a významové kontroly jsou v manifestu. Texty ani metadata příspěvků se nemění; zjednodušení námětů je zaznamenané v odeslaných promptech. Repair proběhl pouze v náhledu, bez aplikace obecných přepisů.
+
+| ID | Motiv | Paleta | Bajty |
+|---|---|---|---|
+| 266 | Tři antičtí přátelé u skromného jídla | modrá, zlatá, krémová | 37 118 |
+| 267 | Idealizovaný čínský stratég s bambusovým svitkem | teal, jantarová, krémová | 24 030 |
+| 268 | Kámen s ediktem a odložený meč | terakota, krémová | 26 850 |
+| 269 | Ruce zvedající papírenské síto z kádě | modrá, zlatá, krémová | 24 530 |
+| 270 | Tenké dřevěné destičky s inkoustem a ponožky | teplá hnědá, krémová | 31 614 |
+
+Vizuální kontrola při 160×90 a 320×180 potvrdila čitelné motivy bez obdélníkového pozadí. Záhyby, stínování, tahy nápisů a kresba dřeva přesahují přísný cíl 5–8 ploch; jde o evidovanou stylovou odchylku. Stratég doprovází téma bez předstírání ověřeného portrétu Sun-c’; edikt není doslovný přepis a ponožky nejsou rekonstrukcí konkrétního nálezu. Geografické šíření papíru obrázek neznázorňuje. Procedurální renderer ani zlaté otisky se nemění. Ověření: dekódování, rozměry, alfa, limit 100 kB, `npm test`, `npm run build` a `git diff --check`.
