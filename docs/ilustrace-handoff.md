@@ -10,6 +10,9 @@ Post `014`: regenerated with built-in image_gen as an isolated orange M87 emissi
 Requested ordinal positions 453/451/457/404/501 map to IDs 553/551/557/504/601. Updated motifs: inward light at a black hole; intact magnetar with magnetic loops and no impact; pulsating Cepheid; microscope investigation of microbes; shared meaning expressed as spoken/written STROM. ID 601 is newly available; all five are registered in cards and gallery. Built-in image_gen used true transparency; generation size/quality/cost controls unavailable. All final assets are 640x360 RGBA WebP under 100 kB, with corner alpha 0 and balanced margins; reviewed at 160x90 and 320x180. Exact prompts, hashes, semantic caveats and prior provenance are in manifest. Original article text and metadata remain unchanged.
 
 
+
+ID `501` now shows an anonymous puzzled Renaissance mathematician beside the large equation i² = −1, replacing the unlabeled quarter-turn diagram. Built-in image_gen; transparent RGBA WebP 640x360, 25,758 bytes, corner alpha 0. Reviewed at 160x90 and 320x180. Available in cards and gallery; exact prompt, image hash and previous provenance retained in manifest. Generation size/quality/cost controls unavailable.
+
 ## Rozsah
 
 - Dostupné ilustrace: `001`–`312` a `413`–`571` a `601` (472 souborů, včetně sdílených kopií).
