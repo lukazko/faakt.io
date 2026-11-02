@@ -15541,5 +15541,1250 @@
       ]
     },
     "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19b12-1d6e-70a3-a6ad-9492a0f1a706\\exec-4bfc752d-8ab7-4bf2-9e6c-b62dc9e5c7af.png"
+  },
+  {
+    "id": "421",
+    "title": "Cizí chybu vysvětlujeme povahou, vlastní stejnou chybu okolnostmi",
+    "content": "<p>Kolega přijde pozdě na schůzku a hned usoudíme, že je nezodpovědný. Když totéž uděláme sami, obvykle to zdůvodníme dopravní zácpou nebo nepředvídanou situací.</p><p>Tento vzorec popisuje <strong>fundamentální atribuční chyba</strong>, pojem zavedený v 70. letech 20. století. Při hodnocení chování druhých máme sklon přeceňovat vliv jejich osobnosti a podceňovat vliv okolností, zatímco u vlastního jednání je tomu naopak.</p><p>Vysvětlení souvisí s tím, čemu při pozorování věnujeme pozornost. U druhých vidíme hlavně jejich chování, zatímco u sebe máme přístup i k vnitřním důvodům a okolnostem, které je vedly.</p><p><strong>Znalost tohoto zkreslení pomáhá zpomalit unáhlené soudy o motivech ostatních lidí.</strong></p>",
+    "image": "/illustrations-ai/421.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"The same mistake is attributed to another person's character but to situational pressure when it is one's own, exposing an asymmetric judgment.\",\"primary_subject\":\"fundamental_attribution_error\",\"secondary_subjects\":[\"same_mistake\",\"two_explanatory_frames\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}",
+    "promptHash": "581392d55f3a90cc52b4035deb573fef7bd4843ac04979cceb6687130b6c8202",
+    "metadataHash": "b0f145a6c87c5e4ad4c431da8b61de9fd7753a96a9b59172795847ba89724c56",
+    "originalMetadata": {
+      "concept": "The same mistake is attributed to another person's character but to situational pressure when it is one's own, exposing an asymmetric judgment.",
+      "scene_type": "diagram",
+      "primary_subject": "fundamental_attribution_error",
+      "secondary_subjects": [
+        "same_mistake",
+        "two_explanatory_frames"
+      ],
+      "visual_keywords": [
+        "fundamental_attribution_error",
+        "same_mistake",
+        "two_explanatory_frames"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-7bde760f-c2c9-4e24-8fe3-ea1a0163bb7e.png",
+    "imageSha256": "44a805e3342927bcde100bd76bd198c70f2d97d24f30ce6412b02cfd5e0af7d2",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Editorial thought bubbles contrast judging another person's coffee spill with situational pressure on oneself; an accompaniment, not an exact experiment.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "422",
+    "title": "Bolestivější vyšetření si zapamatujeme jako mírnější, pokud lépe skončí",
+    "content": "<p>Pacienti při nepříjemném lékařském zákroku hodnotili v jednom experimentu bolest každou minutu. U poloviny z nich zákrok skončil náhle ve chvíli nejvyšší bolesti, u druhé poloviny následovala ještě chvíle mírnější, ale stále nepříjemné fáze navíc.</p><p>Přestože druhá skupina zažila objektivně víc utrpení, protože nepříjemný zážitek trval déle, hodnotila celý zákrok zpětně jako snesitelnější.</p><p>Daniel Kahneman a jeho kolegové z toho odvodili <strong>pravidlo vrcholu a konce</strong>. Paměť na prožitou zkušenost neváží průměr ani součet, ale hlavně nejintenzivnější okamžik a to, jak zážitek skončil.</p><p>Délka trvání samotného zážitku má na vzpomínku překvapivě malý vliv.</p><p><em>Poznatek se dnes využívá i při plánování zdravotnických procedur a zákaznické zkušenosti.</em></p>",
+    "image": "/illustrations-ai/422.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Two examination timelines contrast total discomfort with remembered peak and ending, showing how a gentler finish can change retrospective evaluation.\",\"primary_subject\":\"peak_end_pain_memory\",\"secondary_subjects\":[\"two_pain_timelines\",\"gentler_ending\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}\nSelected motif: Two simple pain curves sharing the same peak and initial course; one ends at peak, the other continues into a longer low-intensity gentle ending. No axes, labels or faces implying the longer course has less total pain.",
+    "promptHash": "7fc5d62bd7e91a1b54f697f1cd014b76942c4bb23fd4cf2d9cdbaca21e06c999",
+    "metadataHash": "f7e208274d5739d8385a6c7e6db4a102c957c9135d9dda0421b362a3347c7dda",
+    "originalMetadata": {
+      "concept": "Two examination timelines contrast total discomfort with remembered peak and ending, showing how a gentler finish can change retrospective evaluation.",
+      "scene_type": "diagram",
+      "primary_subject": "peak_end_pain_memory",
+      "secondary_subjects": [
+        "two_pain_timelines",
+        "gentler_ending"
+      ],
+      "visual_keywords": [
+        "peak_end_pain_memory",
+        "two_pain_timelines",
+        "gentler_ending"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-afcdb986-1d56-4fad-b267-a61144659355.png",
+    "imageSha256": "bedf37f5c721aa29a47504049041a71d3774084cbd36fa48aa074854e8de2d14",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Stylized peak and gentle extended ending accompany peak-end memory. Curves are qualitative, unscaled and do not reproduce measured pain courses or establish equality of their rising portions.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "423",
+    "title": "Vlastnoručně smontovaná polička nám připadá cennější než hotová",
+    "content": "<p>Účastníci experimentu z roku 2011 sestavovali jednoduchý nábytek, skládali origami nebo stavěli z kostek Lego. Poté měli ohodnotit, kolik by za svůj výtvor byli ochotni zaplatit, a totéž udělali i s hotovým, profesionálně vyrobeným kusem stejného typu.</p><p>Vlastnoručně vyrobené předměty si účastníci soustavně cenili výš, i když kvalitativně nebyly lepší, a někdy byly zjevně nedokonalé.</p><p>Psychologové Michael Norton, Daniel Mochon a Dan Ariely tento jev nazvali <strong>IKEA efekt</strong> podle nábytku, který si zákazníci sami skládají.</p><p>Vysvětlením je vložená práce a pocit osobního podílu, které zvyšují subjektivní hodnotu výsledku bez ohledu na jeho objektivní kvalitu.</p><p><strong>Firmy tento princip využívají tím, že zákazníkovi nechávají alespoň část sestavování nebo přizpůsobení produktu.</strong></p>",
+    "image": "/illustrations-ai/423.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A person values a slightly imperfect self-assembled shelf more highly than a comparable ready-made one, linking invested effort to subjective value.\",\"primary_subject\":\"ikea_effect_assembled_shelf\",\"secondary_subjects\":[\"self_built_shelf\",\"identical_ready_made_shelf\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"teal_amber\"}\nSelected motif: A proud person affectionately steadying a small slightly crooked self-assembled shelf, hex key in hand. Omit the comparison shelf.",
+    "promptHash": "743b3ba4312750444284d9fc73d8caaa32516a19e7b5c86c987e5e5c8c3bea8f",
+    "metadataHash": "2502c197e5d243308f8d8e6b51a5aa28a17a45f126061327e7e7e4ca6efacebe",
+    "originalMetadata": {
+      "concept": "A person values a slightly imperfect self-assembled shelf more highly than a comparable ready-made one, linking invested effort to subjective value.",
+      "scene_type": "interaction",
+      "primary_subject": "ikea_effect_assembled_shelf",
+      "secondary_subjects": [
+        "self_built_shelf",
+        "identical_ready_made_shelf"
+      ],
+      "visual_keywords": [
+        "ikea_effect_assembled_shelf",
+        "self_built_shelf",
+        "identical_ready_made_shelf"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-adac8df0-f2a2-401e-a852-b585d16c75ec.png",
+    "imageSha256": "8f231869ddbd78f67ace3f4fc446052cd8e4e2f28d36e8e81f4b0328b9002473",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Proud owner with hex key and self-assembled shelf accompanies effort-based valuation; no price or quality comparison is quantified.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "424",
+    "title": "Máme dojem, že si všichni všímají naší trapné chvilky víc, než tomu je",
+    "content": "<p>Účastník experimentu z roku 2000 měl na sobě viditelně trapné tričko se starou hudební hvězdou a poté odhadoval, kolik procent lidí v místnosti si toho podle něj všimlo.</p><p>Odhady byly soustavně mnohem vyšší než skutečný počet lidí, kteří si tričko po dotázání vůbec vybavili.</p><p>Psychologové Thomas Gilovich a Kenneth Savitsky tento jev pojmenovali <strong>efekt reflektoru</strong>. Vychází z toho, že jsme příliš zaměstnaní vlastním prožíváním, a mylně předpokládáme, že stejnou pozornost nám věnují i ostatní.</p><p>Ve skutečnosti je pozornost druhých lidí z velké části zaměřená na ně samotné, nikoli na nás.</p><p><em>Znalost tohoto zkreslení pomáhá zmírnit sociální úzkost spojenou s obavou z posuzování.</em></p>",
+    "image": "/illustrations-ai/424.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A self-conscious person imagines a spotlight on a minor embarrassment while nearby people attend to their own concerns.\",\"primary_subject\":\"spotlight_effect_person\",\"secondary_subjects\":[\"imagined_audience_attention\",\"preoccupied_bystanders\"],\"visual_keywords\":[],\"composition_hints\":[\"wide_environmental_view\",\"distinctive_foreground_object\"],\"scene_type\":\"environment\",\"mood\":\"contemplative\",\"palette\":\"terracotta_cream\"}\nSelected motif: A self-conscious person in an awkward portrait-print T-shirt, with two bystanders looking elsewhere absorbed in themselves. No literal stage set.",
+    "promptHash": "4fc1ec066d68cc9373473f7bfd1205e235b5d33e383d35ccff9976f5f994f015",
+    "metadataHash": "360832a0e4e9106f2914a80572cc5ac91ba80d21724ac81342e5e2592e473f91",
+    "originalMetadata": {
+      "concept": "A self-conscious person imagines a spotlight on a minor embarrassment while nearby people attend to their own concerns.",
+      "scene_type": "environment",
+      "primary_subject": "spotlight_effect_person",
+      "secondary_subjects": [
+        "imagined_audience_attention",
+        "preoccupied_bystanders"
+      ],
+      "visual_keywords": [
+        "spotlight_effect_person",
+        "imagined_audience_attention",
+        "preoccupied_bystanders"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-86efb566-44e0-4fc0-950d-bb297caf9a25.png",
+    "imageSha256": "86405cb265750f91df9aba93b3f78068d5297b9cbcbd488c08ac265eb7a87e0e",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Self-conscious T-shirt wearer contrasts with two distracted bystanders; cat print is a generic embarrassing shirt, not a reconstruction of the experiment's celebrity shirt.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "425",
+    "title": "Obecný horoskop si každý přečte jako přesný popis vlastní povahy",
+    "content": "<p>Psycholog Bertram Forer v roce 1948 dal svým studentům osobnostní test a každému z nich pak předal stejný obecný popis osobnosti, tvářící se jako výsledek šitý na míru.</p><p>Text obsahoval formulace tak vágní, že seděly téměř na kohokoli, například že člověk občas pochybuje o svých rozhodnutích, ale navenek působí sebejistě.</p><p>Studenti měli ohodnotit, jak dobře popis odpovídá jejich osobnosti, a průměrné hodnocení bylo velmi vysoké.</p><p>Tomuto jevu se říká <strong>Barnumův efekt</strong>. Vysvětluje, proč horoskopy, numerologie i některé osobnostní testy působí přesvědčivě, přestože jejich tvrzení jsou natolik obecná, že by seděla téměř komukoli.</p><p><strong>Ochota vidět v obecném textu sebe sama je silnější než kritická úvaha nad jeho konkrétností.</strong></p>",
+    "image": "/illustrations-ai/425.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Several readers recognize themselves in the same broadly worded personality description, showing perceived individuality in generic statements.\",\"primary_subject\":\"barnum_horoscope_effect\",\"secondary_subjects\":[\"identical_generic_descriptions\",\"multiple_readers\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"contemplative\",\"palette\":\"blue_gold\"}\nSelected motif: Two different readers delighted with identical personality sheets carrying identical abstract marks. No readable words or astrology wheel.",
+    "promptHash": "f1d6455734949f17433c31dd5936f5ec47c0f80fa4453e6b51767c1f9d8505ee",
+    "metadataHash": "f41a465fd4c5acf62cb308b11fb9d8e9e7e9f68e4500ea81eda033d62211cac2",
+    "originalMetadata": {
+      "concept": "Several readers recognize themselves in the same broadly worded personality description, showing perceived individuality in generic statements.",
+      "scene_type": "interaction",
+      "primary_subject": "barnum_horoscope_effect",
+      "secondary_subjects": [
+        "identical_generic_descriptions",
+        "multiple_readers"
+      ],
+      "visual_keywords": [
+        "barnum_horoscope_effect",
+        "identical_generic_descriptions",
+        "multiple_readers"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-94922b49-07f8-45d3-b3af-62a0611a9aff.png",
+    "imageSha256": "45f2cddb04a0cacd3433caebdfade1b7cbecf3ca2844d2f7a2c01bda1412b8ee",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Two readers recognize themselves in matching generic descriptions. Abstract lines are not actual personality-test statements.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "426",
+    "title": "Stánek s dvaceti čtyřmi druhy džemu prodal méně než stánek se šesti",
+    "content": "<p>V obchodě byl na ochutnávkovém stánku střídavě vystaven výběr šesti nebo čtyřiadvaceti druhů džemu. Větší nabídka přilákala víc kolemjdoucích k ochutnávce, ale ke koupi vedla mnohem méně často.</p><p>Psycholožky Sheena Iyengarová a Mark Lepper v experimentu z roku 2000 zjistily, že z menší nabídky nakoupilo přibližně třicet procent zákazníků, zatímco z větší jen kolem tří procent.</p><p>Vysvětlením je <strong>přetížení volbou</strong>. Velké množství možností zvyšuje nároky na porovnávání, obavu z chybného výběru a strach z lítosti nad nezvolenými alternativami, což paradoxně vede spíš k žádné volbě.</p><p>Pozdější studie ukázaly, že efekt se neprojeví vždy stejně silně a záleží na typu rozhodování.</p><p><em>Přesto zůstává užitečným argumentem pro promyšlené omezení nabídky.</em></p>",
+    "image": "/illustrations-ai/426.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A large jam display draws attention but few purchases while a smaller display leads to more buying, distinguishing attraction from manageable choice.\",\"primary_subject\":\"jam_choice_overload\",\"secondary_subjects\":[\"large_jam_display\",\"small_jam_display\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"contemplative\",\"palette\":\"monochrome_warm\"}\nSelected motif: A hesitant shopper hand hovering undecided over a compact jam display. A few broad jar silhouettes suggest abundant options; no exact counts or sales diagram.",
+    "promptHash": "5a41a1838fc31999209f73dccd48a6c76eb5f9a30fe505d950a8324d40f9d593",
+    "metadataHash": "fee2b3c45d26b0d2a0792d28ada6136744c70ae03ecb1d3d45469aeb9a89fc20",
+    "originalMetadata": {
+      "concept": "A large jam display draws attention but few purchases while a smaller display leads to more buying, distinguishing attraction from manageable choice.",
+      "scene_type": "diagram",
+      "primary_subject": "jam_choice_overload",
+      "secondary_subjects": [
+        "large_jam_display",
+        "small_jam_display"
+      ],
+      "visual_keywords": [
+        "jam_choice_overload",
+        "large_jam_display",
+        "small_jam_display"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_warm"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-caa529cb-25ed-48bd-a036-b8eacbc2b5ea.png",
+    "imageSha256": "8a1972769dbb23f932aee1e0558c1bf8b306064013aea513295a0bbd61589a3d",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Hesitant shopper contrasts a larger and smaller jam selection. Counts are symbolic, not the exact experimental six and twenty-four.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "427",
+    "title": "Opakovaná lež nezní pravdivěji obsahem, ale tím, že ji už známe",
+    "content": "<p>Účastníci experimentu hodnotili sadu tvrzení, z nichž některá slyšeli opakovaně v různých sezeních, jiná viděli poprvé. Nezáleželo přitom, zda tvrzení byla pravdivá, nebo nepravdivá.</p><p>Ve všech případech hodnotili opakovaná tvrzení jako pravděpodobnější než ta nová, i když jejich věcný obsah zůstával stejně nejistý.</p><p>Tomuto jevu se říká <strong>efekt iluzorní pravdy</strong>, poprvé popsaný v roce 1977. Vysvětluje se snadností zpracování: informace, kterou už jsme slyšeli, se v mysli objeví plynuleji, a tato plynulost se mylně vykládá jako signál pravdivosti.</p><p>Pozdější výzkumy ukázaly, že efekt funguje i u tvrzení, o kterých člověk prokazatelně ví, že jsou nepravdivá.</p><p><strong>Opakování samo o sobě má proto na přesvědčení měřitelný vliv, nezávisle na kvalitě argumentů.</strong></p>",
+    "image": "/illustrations-ai/427.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"An unchanged claim becomes increasingly familiar through repetition and is then judged more credible, without any new evidence appearing.\",\"primary_subject\":\"illusory_truth_repetition\",\"secondary_subjects\":[\"repeated_claim_cards\",\"increasing_familiarity\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"contemplative\",\"palette\":\"indigo_cyan\"}\nSelected motif: A listening head beside three identical overlapping speech bubbles, identical simple abstract marks, repetition metaphor. No truth checkmark claiming the assertion is fact.",
+    "promptHash": "6bd45a99c79478915503d40e07f8b32cb68d7e6c7c46a24702910784cb3f6514",
+    "metadataHash": "0c6aee2184ccdbafd1dd0e18d83952e36f7e7fcd2598171b34b564dc3833dff4",
+    "originalMetadata": {
+      "concept": "An unchanged claim becomes increasingly familiar through repetition and is then judged more credible, without any new evidence appearing.",
+      "scene_type": "process",
+      "primary_subject": "illusory_truth_repetition",
+      "secondary_subjects": [
+        "repeated_claim_cards",
+        "increasing_familiarity"
+      ],
+      "visual_keywords": [
+        "illusory_truth_repetition",
+        "repeated_claim_cards",
+        "increasing_familiarity"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-5733ebc3-b850-417e-9eec-259e3263ccbf.png",
+    "imageSha256": "0f427fb6c6e1e3b6a6702652e1934eb8616481b6869087c71ecfe0d7f01a26f3",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Identical speech bubbles and receptive listener accompany repetition and familiarity; no assertion is marked objectively true.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "428",
+    "title": "Počítač se má sám sobě podobat, ne řešenému problému",
+    "content": "<p>Rané počítače byly často stavěny na míru jedné úloze a přeprogramování znamenalo fyzické přepojování kabelů.</p><p>V roce 1945 popsal matematik John von Neumann v návrhu na stavbu počítače princip, podle kterého se instrukce ukládají ve stejné paměti jako data a zpracovávají se postupně podle pořadí.</p><p>Z toho plyne, že stroj lze přeprogramovat pouhou změnou obsahu paměti, bez zásahu do hardwaru. Tento model, dnes označovaný jako <strong>von Neumannova architektura</strong>, tvoří základ naprosté většiny dnešních počítačů.</p><p>Nese s sebou i známé úzké hrdlo, protože procesor a paměť si musí data průběžně předávat jednou sdílenou cestou, což limituje rychlost zpracování.</p><p><em>Téměř osmdesát let starý koncept tak stále určuje, jak jsou stavěny čipy v telefonech i serverech.</em></p>",
+    "image": "/illustrations-ai/428.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Instructions and data occupy the same memory and pass to a processor, showing reprogramming through stored content and the shared transfer bottleneck.\",\"primary_subject\":\"von_neumann_stored_program\",\"secondary_subjects\":[\"shared_memory\",\"cpu\",\"data_and_instructions\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}\nSelected motif: One compact processor linked by a single shared connection to one memory block containing two distinct simple shapes for instructions and data. No labels or full computer architecture.",
+    "promptHash": "366f0417e7fda52256f706575f4929eba8ab5b3d83481487809946d0085b9765",
+    "metadataHash": "15857c57d37449e10052421bad6f37c30ac26c21e923baf8c00bd8ad8693eae9",
+    "originalMetadata": {
+      "concept": "Instructions and data occupy the same memory and pass to a processor, showing reprogramming through stored content and the shared transfer bottleneck.",
+      "scene_type": "diagram",
+      "primary_subject": "von_neumann_stored_program",
+      "secondary_subjects": [
+        "shared_memory",
+        "cpu",
+        "data_and_instructions"
+      ],
+      "visual_keywords": [
+        "von_neumann_stored_program",
+        "shared_memory",
+        "cpu",
+        "data_and_instructions"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-7ece7fd3-ac86-4bc2-a9e9-7ba264dc195d.png",
+    "imageSha256": "27002f4051a1939335fc959cedd56e072bde37a4b55e1b54430f05dc5e8216cb",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "One memory containing instructions and data is connected to a processor; grouped parallel marks are a stylized shared bus, not separate instruction/data memories.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "429",
+    "title": "Skutečná logika se dá zapsat jako počítání s nulou a jedničkou",
+    "content": "<p>Anglický matematik George Boole v polovině 19. století navrhl, že výroky pravda a nepravda lze zapsat jako čísla nula a jedna a zacházet s nimi podle přesných pravidel, podobně jako s obyčejnou algebrou.</p><p>Vznikla tak <strong>booleovská algebra</strong> s operacemi, které dnes známe jako logický součin, součet a negaci.</p><p>Boole sám tvořil čistě abstraktní systém bez ohledu na jakékoli strojové využití. Až o sto let později ukázal americký inženýr Claude Shannon ve své diplomové práci, že tatáž pravidla přesně odpovídají zapojení elektrických spínacích obvodů.</p><p>Tímto propojením vznikl teoretický základ digitální elektroniky.</p><p><strong>Každý čip v dnešním zařízení tak v jádru provádí operace, které byly popsány dřív, než existovala elektřina v domácnostech.</strong></p>",
+    "image": "/illustrations-ai/429.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Binary inputs pass through AND, OR and NOT operations to produce predictable outputs, linking symbolic logic to computation.\",\"primary_subject\":\"boolean_logic_gates\",\"secondary_subjects\":[\"binary_inputs\",\"truth_table_outputs\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}\nSelected motif: Portrait of George Boole, Victorian dark coat and characteristic broad forehead and sideburns, with a single paired 0 and 1 symbol. Accompanying portrait, not a logic proof.",
+    "promptHash": "66317c85abdd6534afb8e0ea5ac63e98c9e3205c653e0e86f12ca6ff24a0bfa8",
+    "metadataHash": "fe069de1ad8b94acb3987b749a8ed3ccbf947109a95e4179c33431bc60f96adc",
+    "originalMetadata": {
+      "concept": "Binary inputs pass through AND, OR and NOT operations to produce predictable outputs, linking symbolic logic to computation.",
+      "scene_type": "diagram",
+      "primary_subject": "boolean_logic_gates",
+      "secondary_subjects": [
+        "binary_inputs",
+        "truth_table_outputs"
+      ],
+      "visual_keywords": [
+        "boolean_logic_gates",
+        "binary_inputs",
+        "truth_table_outputs"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-f68d3f81-1583-40be-b441-269fdf1f6f73.png",
+    "imageSha256": "f5eff37b90b4ad8b88e9ece0cba685b4ec281d88eb3b4ea04a2b52457bc8aa5b",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Stylized George Boole portrait and binary symbols accompany the actual contributor; no truth table or logical proof is claimed.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "430",
+    "title": "Myšlenka propojeného vědění vznikla ještě před elektronickým počítačem",
+    "content": "<p>Americký inženýr Vannevar Bush v roce 1945 popsal v eseji zařízení, které nazval <strong>memex</strong>, mechanický stůl umožňující ukládat dokumenty a mezi nimi vytvářet osobní stopy odkazů podle asociací uživatele.</p><p>Zařízení nikdy nebylo postaveno, protože tehdejší technologie mikrofilmu na takový úkol nestačila.</p><p>Myšlenka propojených dokumentů, mezi kterými lze skákat podle odkazů místo lineárního čtení, ale předjímala princip, který se o desítky let později stal základem <em>hypertextu</em> a webových stránek.</p><p>Bush psal text jako reakci na obavu, že věda produkuje víc poznatků, než je lidská mysl schopna zvládnout a propojit.</p><p><em>Řešení, které navrhl, nefungovalo technicky, ale směr, kterým ukázal, se ukázal správný.</em></p>",
+    "image": "/illustrations-ai/430.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A proposed mechanical reading desk connects microfilm documents by associative trails, anticipating hypertext before electronic personal computers.\",\"primary_subject\":\"bush_memex_desk\",\"secondary_subjects\":[\"microfilm_documents\",\"associative_links\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}\nSelected motif: A proposed 1940s mechanical memex desk with two slanted reading screens and one integrated microfilm reel. Simple imagined device, no modern laptop or network diagram.",
+    "promptHash": "cb730bcbf81f7cb67bd86a401dea1d8169407c2a61e9d5d1e3c4adaadea6c2d1",
+    "metadataHash": "a9f5d4da129a98a694ebd740cc1977853f1ae41fdd1f2a24f050b8f913202392",
+    "originalMetadata": {
+      "concept": "A proposed mechanical reading desk connects microfilm documents by associative trails, anticipating hypertext before electronic personal computers.",
+      "scene_type": "object",
+      "primary_subject": "bush_memex_desk",
+      "secondary_subjects": [
+        "microfilm_documents",
+        "associative_links"
+      ],
+      "visual_keywords": [
+        "bush_memex_desk",
+        "microfilm_documents",
+        "associative_links"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-57c5db8a-e73b-49c1-a6b8-5e236fd50b98.png",
+    "imageSha256": "0f93e52de349e6c57bcda965eaa1d74c759bdf8d63a6bf1bb81b50012b69c0f5",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Imagined memex desk with reading surfaces and microfilm accompanies an unbuilt proposal, not a surviving machine or historically exact blueprint.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "431",
+    "title": "Než internet znal e-mail, adresa potřebovala nový symbol",
+    "content": "<p>V roce 1971 pracoval americký programátor Ray Tomlinson na experimentální síti ARPANET a řešil praktický problém: jak v adrese oddělit jméno uživatele od názvu počítače, na kterém má schránku.</p><p>Vybral znak zavináč, protože se v tehdejších textech běžně nepoužíval jinak a na klávesnici byl snadno dostupný.</p><p>Podle pozdějších vzpomínek si sám přesně nepamatoval obsah úplně první zprávy, kterou si tímto způsobem poslal, protože v tu chvíli nešlo o nic zvláštního.</p><p>Formát jméno zavináč doména se od té doby nezměnil a používá ho dnes prakticky každá e-mailová adresa na světě.</p><p><strong>Drobné technické rozhodnutí se tak stalo jedním z nejrozšířenějších symbolů digitální komunikace.</strong></p>",
+    "image": "/illustrations-ai/431.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A message moves from a named user's mailbox to a remote host, with the at symbol serving as the separator in the address structure.\",\"primary_subject\":\"email_at_address\",\"secondary_subjects\":[\"sender_mailbox\",\"remote_host\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}\nSelected motif: A large bold @ nestled in an open envelope. Single coherent motif, no address or remote-host schematic.",
+    "promptHash": "a5cff6b0a3d0d4fdf323b476f46a73cfa036202715c530e3ea28cdb57530b529",
+    "metadataHash": "d8518a13e1ae33f3c2c4331f42db051c1de7d50b749fc89e414df66b5548faaf",
+    "originalMetadata": {
+      "concept": "A message moves from a named user's mailbox to a remote host, with the at symbol serving as the separator in the address structure.",
+      "scene_type": "diagram",
+      "primary_subject": "email_at_address",
+      "secondary_subjects": [
+        "sender_mailbox",
+        "remote_host"
+      ],
+      "visual_keywords": [
+        "email_at_address",
+        "sender_mailbox",
+        "remote_host"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-c3d69c5d-41b2-45c1-8159-89ace3855f44.png",
+    "imageSha256": "d1db5e29456a1ef793ad3de96cfb67a9416f28769613f4133d44f52697456cad",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Envelope and at sign accompany the email addressing convention; no first-message text is invented.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "432",
+    "title": "Rok 1999 byl v počítačích zapsán na dvě číslice a hrozil zmatek",
+    "content": "<p>Aby ušetřily paměť, ukládaly starší programy rok jen jako dvě poslední číslice, tedy 99 místo 1999.</p><p>Problém vznikl s příchodem roku 2000. Systémy mohly zápis 00 vyhodnotit jako rok 1900, což hrozilo chybami ve výpočtech úroků, důchodů, platnosti smluv i v řízení průmyslových zařízení.</p><p>Označení <strong>Y2K</strong> se stalo synonymem pro tuto hrozbu a vlády i firmy investovaly do kontroly a přepisu kódu odhadem stovky miliard dolarů po celém světě.</p><p>Po půlnoci 1. ledna 2000 se objevily jen ojedinělé menší poruchy, žádný rozsáhlý kolaps nenastal.</p><p><em>Spor dodnes trvá o to, zda šlo o úspěch prevence, nebo o přehnaně vnímané riziko, protože srovnávací scénář bez příprav chybí.</em></p>",
+    "image": "/illustrations-ai/432.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A two-digit year field rolls from ninety-nine to zero beside conflicting century interpretations, making the Y2K software problem explicit.\",\"primary_subject\":\"year_two_thousand_date_rollover\",\"secondary_subjects\":[\"two_digit_year_field\",\"ambiguous_century\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}\nSelected motif: A chunky vintage computer displaying only a two-digit flip counter turning 99 to 00. The numerals are essential motif; no catastrophe or extra dates.",
+    "promptHash": "009ceb6d61ffd60345df675f568687495e826d7aae6d9f2b7f7e8ec8fae76710",
+    "metadataHash": "660b96aac7bfcb5f19ff0284dad19a38a19c14ba19a006c65688ea3a4854edc4",
+    "originalMetadata": {
+      "concept": "A two-digit year field rolls from ninety-nine to zero beside conflicting century interpretations, making the Y2K software problem explicit.",
+      "scene_type": "diagram",
+      "primary_subject": "year_two_thousand_date_rollover",
+      "secondary_subjects": [
+        "two_digit_year_field",
+        "ambiguous_century"
+      ],
+      "visual_keywords": [
+        "year_two_thousand_date_rollover",
+        "two_digit_year_field",
+        "ambiguous_century"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-8fe4f174-4bbd-468f-838c-e7d897f5f986.png",
+    "imageSha256": "d166a19042a05e6e7019919c5e0a12c6eba237cf15ce037a2e114b2cab1fac5e",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Vintage computer displays 99 and 00 as a symbolic year transition; paired flip fields are not a literal valid four-digit date or depiction of catastrophic failure.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "433",
+    "title": "Přepínání sítě na kousky dat mělo přežít i výpadek jejích částí",
+    "content": "<p>Telefonní síť fungovala na principu vyhrazeného spojení mezi dvěma účastníky po celou dobu hovoru. Takové spojení je ale zranitelné, protože výpadek jediného uzlu na trase přeruší celou komunikaci.</p><p>Na počátku 60. let 20. století navrhli nezávisle na sobě Paul Baran v USA a Donald Davies ve Velké Británii jiný princip. Zpráva se rozdělí na menší kusy, které putují sítí každý zvlášť a mohou si hledat cestu podle toho, které spoje jsou zrovna dostupné.</p><p>Tomuto principu se říká <strong>přepojování paketů</strong>. Baranova motivace souvisela s odolností komunikace vůči částečnému zničení sítě.</p><p>Právě tento princip, nikoli vyhrazené linky, se stal základem sítě ARPANET a později celého internetu.</p>",
+    "image": "/illustrations-ai/433.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A message splits into packets that take different surviving routes around a failed network node and reassemble at the destination.\",\"primary_subject\":\"packet_switched_network\",\"secondary_subjects\":[\"split_message\",\"failed_node\",\"alternate_routes\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"green_copper\"}\nSelected motif: One simple network path bending around a visibly broken connection, with two small packet blocks traveling along the intact alternative. No elaborate network or full process.",
+    "promptHash": "9bb915596368ce8636bb0843e5483b921bd419eb5c7d12bdeb39fb8a07891053",
+    "metadataHash": "80e4cfadf4009621e73ac983dc2d6f9479e39d31b1d42898fd709e5e3a1fa943",
+    "originalMetadata": {
+      "concept": "A message splits into packets that take different surviving routes around a failed network node and reassemble at the destination.",
+      "scene_type": "diagram",
+      "primary_subject": "packet_switched_network",
+      "secondary_subjects": [
+        "split_message",
+        "failed_node",
+        "alternate_routes"
+      ],
+      "visual_keywords": [
+        "packet_switched_network",
+        "split_message",
+        "failed_node",
+        "alternate_routes"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-23ff853c-c50b-4c34-b88b-839ca8591056.png",
+    "imageSha256": "53a2c66e3decda0b00f4feae56da8a8331887af0b4f52d10204697d87e293e9f",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Packets follow a working route around a failed node. A small qualitative network illustrates resilience, not a historical topology.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "434",
+    "title": "Existují úlohy, u kterých počítač nikdy dopředu nepozná, že se zacyklí",
+    "content": "<p>Programátoři by rádi měli univerzální nástroj, který zkontroluje libovolný program a předem řekne, zda se při běhu nezasekne v nekonečné smyčce.</p><p>Alan Turing v roce 1936 dokázal, že takový obecný nástroj nemůže existovat. Úloha zvaná <strong>problém zastavení</strong> je algoritmicky neřešitelná pro všechny možné případy najednou.</p><p>Důkaz využívá sporu podobného tomu, kterým se dokazuje nekonečnost prvočísel. Předpokládá se, že univerzální kontrolní program existuje, a pak se zkonstruuje speciální vstup, na kterém tento program nutně selže sám na sobě.</p><p>Výsledek neznamená, že nelze ověřit konkrétní jednodušší programy, jen že univerzální metoda pro všechny případy chybí.</p><p><strong>Jde o jeden ze základních limitů, které platí pro výpočty obecně, bez ohledu na budoucí pokrok techniky.</strong></p>",
+    "image": "/illustrations-ai/434.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A program enters a loop while a proposed universal checker faces a self-referential contradiction, showing the limit of deciding termination for every possible program.\",\"primary_subject\":\"halting_problem\",\"secondary_subjects\":[\"program_simulation\",\"unresolvable_loop_question\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}\nSelected motif: A single vintage computer screen containing one circular arrow loop and a question mark. A symbolic companion for the halting problem, not proof or universal detection.",
+    "promptHash": "adf07ba55138a98888e038ab9a8a8b85bae2333216ea8922fcbb8849680ff36f",
+    "metadataHash": "d1210e6acf27c91da099d4f2753c38098e85c839f0adfae0aabfb8b493a0312f",
+    "originalMetadata": {
+      "concept": "A program enters a loop while a proposed universal checker faces a self-referential contradiction, showing the limit of deciding termination for every possible program.",
+      "scene_type": "diagram",
+      "primary_subject": "halting_problem",
+      "secondary_subjects": [
+        "program_simulation",
+        "unresolvable_loop_question"
+      ],
+      "visual_keywords": [
+        "halting_problem",
+        "program_simulation",
+        "unresolvable_loop_question"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-f61e1e97-be2d-45fd-b33c-23605f5a3846.png",
+    "imageSha256": "b018d050fb1b58aaa7572f788f0fc6c14afe9bd012307093276e589aa27b3b9d",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Computer with loop and question mark accompanies the halting problem; it does not claim every program loops or every case is undecidable.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "435",
+    "title": "Kamera na hrnek s kávou spustila éru webových kamer",
+    "content": "<p>Zaměstnanci jedné laboratoře na univerzitě v Cambridgi sdíleli v roce 1991 konvici s kávou na chodbě, ale někteří pracovali v jiné části budovy a často k ní dorazili, když byla prázdná.</p><p>Řešením se stala kamera namířená na konvici, jejíž obraz se aktualizoval na počítačích v místní síti a ukazoval aktuální stav nápoje.</p><p>Po připojení instituce k internetu v roce 1993 se obraz zpřístupnil i mimo budovu a stal se jednou z prvních veřejně dostupných webových kamer na světě.</p><p>Konvice sloužila skutečnému účelu ještě několik dalších let, než byla laboratoř zrušena a přístroj v roce 2001 vypnut.</p><p><em>Ryze praktický problém tak neúmyslně předznamenal pozdější rozmach kamer sledujících cokoli na dálku.</em></p>",
+    "image": "/illustrations-ai/435.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A small camera watches a shared coffee pot and sends its image to remote screens, revealing the practical origin of an early webcam.\",\"primary_subject\":\"trojan_room_coffee_webcam\",\"secondary_subjects\":[\"coffee_pot\",\"networked_camera\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}\nSelected motif: A glass filter-coffee carafe, partly full, watched by a small camera tilted toward it. No remote screens, cups, decorative kitchen or arrows.",
+    "promptHash": "387d8eec40367a0b9de4e95e7e018b3a91fdfb6ae476482eea81bc3b959604b4",
+    "metadataHash": "d2ae47ee6d048e65e4a59efc01adbbcb74832979a1459312ea0e931c0a2ddf53",
+    "originalMetadata": {
+      "concept": "A small camera watches a shared coffee pot and sends its image to remote screens, revealing the practical origin of an early webcam.",
+      "scene_type": "object",
+      "primary_subject": "trojan_room_coffee_webcam",
+      "secondary_subjects": [
+        "coffee_pot",
+        "networked_camera"
+      ],
+      "visual_keywords": [
+        "trojan_room_coffee_webcam",
+        "coffee_pot",
+        "networked_camera"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-e732fb31-f883-4c6b-92db-ba223c2679b3.png",
+    "imageSha256": "b9394f9e08a0d6cdcd493e90fc214659ad0b443b206bed104e85d9ec8a72eeb8",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Camera aimed at partly full filter-coffee carafe accompanies the Trojan Room webcam story; stylized props are not an exact photograph of the installation.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "436",
+    "title": "Šifrovací stroj z druhé světové války neluštil Enigmu, ale jiný, silnější kód",
+    "content": "<p>Vedle proslulé Enigmy používalo německé velení pro nejdůležitější zprávy ještě složitější šifrovací systém zvaný Lorenz, se kterým komunikovalo vrchní velení s frontami.</p><p>K jeho prolomení postavili britští specialisté v týmu kolem Tommyho Flowerse v letech 1943 a 1944 stroj <strong>Colossus</strong>, považovaný za jeden z prvních programovatelných elektronických počítačů na světě.</p><p>Na rozdíl od pozdějších strojů nebyl univerzální, ale specializovaný na hledání nastavení šifrovacích koleček pomocí rychlého porovnávání vzorů.</p><p>Existence stroje zůstala tajná desítky let po válce, takže veřejné dějiny počítačů dlouho začínaly až pozdějšími americkými projekty.</p><p><strong>Historie výpočetní techniky tak byla po dlouhou dobu neúplná kvůli utajení jednoho klíčového stroje.</strong></p>",
+    "image": "/illustrations-ai/436.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A simplified Colossus paper-tape reader accompanies the story of Lorenz codebreaking.\",\"primary_subject\":\"colossus_paper_tape_reader\",\"scene_type\":\"object\",\"palette\":\"blue_gold\",\"composition_hints\":[\"optically_centered_motif\",\"uncluttered_composition\"]}\nSelected motif: Just two large blue rollers on a plain blue upright support, with one broad golden paper tape loop and only four oversized punched marks total. Bold flat silhouette. Omit electronics cabinets, lamps, keyboards, switches, rooms, cables, small perforations and every repeated tiny detail. An accompanying reader motif, not a technical reconstruction.",
+    "promptHash": "ed51c6c7b813bf65192d28d57cae63c9511587c1cf0ae8d0608179fd61519e9b",
+    "metadataHash": "5d9dd6bda1e3af4506b536460c774e7f4cf94efe3e0ace1208704da1d65f0f9e",
+    "originalMetadata": {
+      "concept": "Fast paper tape feeds Colossus as it analyzes the Lorenz cipher, clearly distinguishing this codebreaking task from Enigma.",
+      "scene_type": "object",
+      "primary_subject": "colossus_lorenz_codebreaking",
+      "secondary_subjects": [
+        "paper_tape_reader",
+        "lorenz_cipher"
+      ],
+      "visual_keywords": [
+        "colossus_lorenz_codebreaking",
+        "paper_tape_reader",
+        "lorenz_cipher"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "dramatic",
+      "palette": "blue_gold"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-a9473af7-dfd3-4a64-987b-012aad7c7c57.png",
+    "imageSha256": "d16ccb9e6fc8ed9c1760045bca154da53c2f7e0a7e6f285b5230cd725b04742b",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Simple paper-tape transport accompanies Colossus and Lorenz codebreaking; it is a selected reader motif, not a complete machine, technical reconstruction or film projector.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    },
+    "previousVersion": {
+      "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Fast paper tape feeds Colossus as it analyzes the Lorenz cipher, clearly distinguishing this codebreaking task from Enigma.\",\"primary_subject\":\"colossus_lorenz_codebreaking\",\"secondary_subjects\":[\"paper_tape_reader\",\"lorenz_cipher\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"dramatic\",\"palette\":\"blue_gold\"}\nSelected motif: A simple Colossus-style upright electronics cabinet with a large loop of punched paper tape running through its reader. No Enigma typewriter, rotor keyboard or war imagery.",
+      "path": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-2d2519a8-5417-49cb-9ebc-077a94b445a6.png",
+      "reason": "Dense repeated valves, perforations and switches violate thumbnail simplicity.",
+      "imageSha256": "84377db92fc7f7efb25753ccce86fa73c3ce333c93f4ffeef27f7f4412c044d3"
+    }
+  },
+  {
+    "id": "437",
+    "title": "Přesná poloha z družic byla civilistům dlouho záměrně rozmazávána",
+    "content": "<p>Systém GPS byl od 70. let 20. století vyvíjen americkou armádou a od počátku byl dostupný i pro civilní použití.</p><p>Aby případný protivník nezískal vojensky využitelnou přesnost, byl civilní signál záměrně zhoršován náhodnou odchylkou zvanou <strong>selektivní dostupnost</strong>. Běžný přijímač tak měl chybu v řádu desítek metrů, zatímco vojenské přijímače pracovaly přesně.</p><p>V roce 2000 rozhodla americká vláda toto zhoršování vypnout, mimo jiné kvůli rozvoji civilních a komerčních aplikací, jejichž přesnost limitovalo.</p><p>Přesnost civilního signálu se tím zlepšila zhruba desetinásobně prakticky přes noc.</p><p><em>Tento krok umožnil rozšíření navigací do automobilů, telefonů a záchranných služeb v podobě, jakou známe dnes.</em></p>",
+    "image": "/illustrations-ai/437.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A wide cloud of deliberately degraded civilian GPS positions contracts to a precise fix when artificial error is switched off.\",\"primary_subject\":\"gps_selective_availability\",\"secondary_subjects\":[\"blurred_position_cloud\",\"precise_position_fix\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"teal_amber\"}\nSelected motif: A compact map-like plane with a diffuse cluster of location dots contrasted with one crisp position pin. No satellite constellation or full navigation system.",
+    "promptHash": "76ae501526aab3a50854947c23c95accfd51b8f5fae23f5e623be6fd148efd12",
+    "metadataHash": "d3efef12230b3cf914bc9001953adfef723204a5d8b45430592a24b97ab819e5",
+    "originalMetadata": {
+      "concept": "A wide cloud of deliberately degraded civilian GPS positions contracts to a precise fix when artificial error is switched off.",
+      "scene_type": "diagram",
+      "primary_subject": "gps_selective_availability",
+      "secondary_subjects": [
+        "blurred_position_cloud",
+        "precise_position_fix"
+      ],
+      "visual_keywords": [
+        "gps_selective_availability",
+        "blurred_position_cloud",
+        "precise_position_fix"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-20d0706e-af8b-4452-8100-bd6c8902407c.png",
+    "imageSha256": "544780fbe72c89b095c97aff267332863a2764ed1d682e668cc650a2e89a8ba6",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Spread position cloud contrasted with crisp fix accompanies GPS selective availability; no geographic distances or simultaneous measured locations are asserted.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "438",
+    "title": "Rozmazaný text ve formuláři měl odlišit člověka od automatu",
+    "content": "<p>S rozšířením internetu se objevily programy, které dokázaly automaticky zakládat účty, hlasovat v anketách nebo skupovat vstupenky rychleji než člověk.</p><p>Řešením se na počátku 21. století stal test, který lidé zvládnou snadno, ale tehdejší počítačové vidění mělo s jeho rozpoznáním potíže: zdeformovaný nebo přeškrtnutý text na obrázku.</p><p>Tento nástroj, označovaný zkratkou <strong>CAPTCHA</strong>, se rychle rozšířil na přihlašovací formuláře a komentáře.</p><p>Pokrok v rozpoznávání obrazu ale postupně schopnost strojů dohnal, takže dnešní verze často místo čtení textu měří jemné vzorce v pohybu myši nebo dotyku.</p><p><strong>Nástroj určený k odlišení člověka od stroje se tak sám stal daty, na kterých se stroje učí být lidem podobnější.</strong></p>",
+    "image": "/illustrations-ai/438.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A person recognizes distorted characters in a web form while an automated reader struggles, portraying the original CAPTCHA distinction and its dependence on machine capabilities.\",\"primary_subject\":\"captcha_human_machine_test\",\"secondary_subjects\":[\"distorted_character_image\",\"web_form\"],\"visual_keywords\":[],\"composition_hints\":[\"two_objects_in_interaction\",\"clear_visual_contrast\"],\"scene_type\":\"interaction\",\"mood\":\"neutral\",\"palette\":\"terracotta_cream\"}\nSelected motif: One compact CAPTCHA panel with three warped characters crossed by one thin distortion line and a human fingertip poised below it. No explanatory caption, robot or website mockup.",
+    "promptHash": "b9e63ad2716aa6820420838f1989296c2702a314f38bc0197201fc96c09300e3",
+    "metadataHash": "437e6897ec8ca588750d2df781fc06aec485b8a21bfb9223389b4a91ee119d19",
+    "originalMetadata": {
+      "concept": "A person recognizes distorted characters in a web form while an automated reader struggles, portraying the original CAPTCHA distinction and its dependence on machine capabilities.",
+      "scene_type": "interaction",
+      "primary_subject": "captcha_human_machine_test",
+      "secondary_subjects": [
+        "distorted_character_image",
+        "web_form"
+      ],
+      "visual_keywords": [
+        "captcha_human_machine_test",
+        "distorted_character_image",
+        "web_form"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-1164bf78-6301-4a70-9b1a-0088717f20e7.png",
+    "imageSha256": "bbf024d983459b72ca9447117f80a6e94f860aca3faaf7531f6eb929933d3c24",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Distorted characters and human finger accompany original text CAPTCHAs; characters are intentionally visual content, not an explanatory label.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "439",
+    "title": "Program, který se měl jen počítat, omylem zahltil rané sítě",
+    "content": "<p>V roce 1988 vypustil student Robert Tappan Morris do sítě program, který měl podle jeho vlastního vyjádření jen změřit, kolik zařízení je k síti připojeno.</p><p>Program se ale dokázal sám kopírovat na další počítače, a kvůli chybě v návrhu se na některých strojích instaloval mnohonásobně. Zařízení se tím přetížila a přestala fungovat.</p><p>Zasaženo bylo podle odhadů několik tisíc počítačů, tehdy značná část celé sítě, a škody se odhadovaly v milionech dolarů.</p><p>Případ vedl k prvnímu odsouzení podle amerického zákona o počítačových podvodech a k založení týmů pro reakci na bezpečnostní incidenty.</p><p><em>Bez zjevně škodlivého úmyslu tak vznikl jeden z prvních rozsáhlých výpadků způsobených softwarem šířícím se samostatně.</em></p>",
+    "image": "/illustrations-ai/439.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"An unexpectedly multiplying program spreads between early networked computers until repeated copies overwhelm their capacity.\",\"primary_subject\":\"morris_internet_worm\",\"secondary_subjects\":[\"networked_computers\",\"replicating_program\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"blue_gold\"}\nSelected motif: A vintage computer overwhelmed by overlapping identical small program windows, with one stylized worm curl woven between them as a software metaphor. No detailed network.",
+    "promptHash": "dac9a3d80c0cf5f6f2eefb67fc795183b71e5396013a28f93ee5a3015b0ee35f",
+    "metadataHash": "01f7c6bff69f4b8d41151ef6c7a13ee04b31aae0d3adf48968c91b29a0581eca",
+    "originalMetadata": {
+      "concept": "An unexpectedly multiplying program spreads between early networked computers until repeated copies overwhelm their capacity.",
+      "scene_type": "process",
+      "primary_subject": "morris_internet_worm",
+      "secondary_subjects": [
+        "networked_computers",
+        "replicating_program"
+      ],
+      "visual_keywords": [
+        "morris_internet_worm",
+        "networked_computers",
+        "replicating_program"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-e1518e47-b8fa-4787-b36b-46bfd674f2ec.png",
+    "imageSha256": "c9665714926712c9df28ce0aea7b61f1663889a8dec79fface2ef42cfee3055a",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Replicated windows overwhelm a computer, with a literal worm as a metaphor for software replication. Modern window styling is retrospective, not an exact 1988 interface.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "440",
+    "title": "Žraloci plavali v oceánech dřív, než na Zemi vznikly stromy",
+    "content": "<p>Nejstarší fosilní doklady žraloků jsou staré přibližně 450 milionů let. První stromům podobné rostliny se na souši objevují až o desítky milionů let později.</p><p>Žraloci tak přežili několik hromadných vymírání, včetně toho, které ukončilo éru dinosaurů, zatímco se měnila celá flóra i fauna planety kolem nich.</p><p>Základní tělesný plán, tedy chrupavčitá kostra a several řad zubů, zůstal po velkou část této doby překvapivě stabilní, i když se konkrétní druhy měnily.</p><p>To ale neznamená nezranitelnost. Dnešní populace mnoha druhů žraloků prudce klesají kvůli rybolovu, což ukazuje, že dlouhá evoluční historie negarantuje odolnost vůči tlaku ze strany člověka.</p>",
+    "image": "/illustrations-ai/440.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A deep-time sequence places the shark lineage before the first trees, making the surprising chronological comparison the main idea.\",\"primary_subject\":\"sharks_before_trees\",\"secondary_subjects\":[\"ancient_shark\",\"lineage_timeline\",\"first_forests\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_warm\"}\nSelected motif: One strong swimming shark silhouette in warm charcoal and cream. Standalone accompanying subject; omit trees, timeline, fossils and seascape.",
+    "promptHash": "52da5a4ffcbcdef1f54dcb03bdee9d6ab7079cfb91aba1e2d6656228d7933bdc",
+    "metadataHash": "6a62430832715bc2744be3e072906d16c1262b0c003a5ac765339b990cf02dbc",
+    "originalMetadata": {
+      "concept": "A deep-time sequence places the shark lineage before the first trees, making the surprising chronological comparison the main idea.",
+      "scene_type": "diagram",
+      "primary_subject": "sharks_before_trees",
+      "secondary_subjects": [
+        "ancient_shark",
+        "lineage_timeline",
+        "first_forests"
+      ],
+      "visual_keywords": [
+        "sharks_before_trees",
+        "ancient_shark",
+        "lineage_timeline",
+        "first_forests"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_warm"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-ace87816-0735-4d83-a02f-19d7884be8c3.png",
+    "imageSha256": "283ec4fdf387324b9a527a3415389da300c94382bd6b35a9ef33fa9688cd1562",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Standalone shark accompanies the ancient lineage topic; modern recognizable anatomy does not claim this exact species existed 450 million years ago.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "441",
+    "title": "Jediné zvíře, jehož trus má přírodně kostkovitý tvar",
+    "content": "<p>Vombat, býložravý vačnatec žijící v Austrálii, produkuje trus, který má nápadně pravidelný krychlovitý tvar, na rozdíl od téměř všech ostatních zvířat.</p><p>Výzkum z roku 2018 ukázal, že tvar nevzniká ve svěrači, jak se dřív předpokládalo, ale už ve střevě. Poslední úsek trávicího traktu vombata má nerovnoměrně pružné stěny, které trus formují do plochých segmentů.</p><p>Kostkovitý tvar má praktický důvod. Vombati si trusem značkují území na kamenech a vyvýšených místech, a hranatý tvar mu brání skutálet se pryč, na rozdíl od kulatých bobků.</p><p><strong>Jde o jediný známý případ, kdy zvíře vytváří takto pravidelně tvarovaný trus bez jakéhokoli vnějšího lisování.</strong></p>",
+    "image": "/illustrations-ai/441.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A wombat stands beside its characteristic cube-shaped droppings, with a subtle intestinal-shaping detail explaining a biological shape rather than an artificial cube.\",\"primary_subject\":\"wombat_cube_droppings\",\"secondary_subjects\":[\"wombat\",\"cube_shaped_pellets\"],\"visual_keywords\":[],\"composition_hints\":[\"dominant_central_object\",\"subtle_background_context\"],\"scene_type\":\"object\",\"mood\":\"playful\",\"palette\":\"indigo_cyan\"}\nSelected motif: A recognizable stocky wombat with short rounded ears beside two modest brown cube-shaped droppings resting on a small rock. No digestive cutaway.",
+    "promptHash": "c816e335a586917cba45c3c2036ef4eb44b18562a7bb3649b2687722042bb0cf",
+    "metadataHash": "0f510123170b57b7b75861ca01212be4470e6c1669a90e8b6b8465c03ac9cf54",
+    "originalMetadata": {
+      "concept": "A wombat stands beside its characteristic cube-shaped droppings, with a subtle intestinal-shaping detail explaining a biological shape rather than an artificial cube.",
+      "scene_type": "object",
+      "primary_subject": "wombat_cube_droppings",
+      "secondary_subjects": [
+        "wombat",
+        "cube_shaped_pellets"
+      ],
+      "visual_keywords": [
+        "wombat_cube_droppings",
+        "wombat",
+        "cube_shaped_pellets"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "playful",
+      "palette": "indigo_cyan"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-2ca93aef-bef7-407f-925a-b59f8efbe776.png",
+    "imageSha256": "95aa83ef7cd26ede52b2bbfb3d16fd39c794d5d45e2f18e53f550b8fc530737f",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Wombat beside cube-shaped droppings on a rock accompanies the distinctive biological form; no intestinal mechanism is depicted.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "442",
+    "title": "Mořský živočich dokáže po zranění vrátit svůj vývoj zpět k mládí",
+    "content": "<p>Drobná medúza druhu <em>Turritopsis dohrnii</em> má schopnost, kterou vědci považovali za biologicky nemožnou.</p><p>Za nepříznivých podmínek, jako je zranění, hladovění nebo stárnutí, dokáže její tělo přeměnit dospělé buňky zpět na buňky raného vývojového stadia zvaného polyp, ze kterého pak znovu vyroste.</p><p>Tento proces se nazývá <strong>transdiferenciace</strong> a v praxi umožňuje jedinci teoreticky se vracet do mládí opakovaně.</p><p>Neznamená to nesmrtelnost v běžném slova smyslu, protože medúza může kdykoli zahynout predací nebo nemocí. Jde spíš o obcházení biologického stárnutí samotného.</p><p><em>Vědci proto tento druh zkoumají jako model pro pochopení buněčné plasticity, která by mohla mít význam i pro medicínu.</em></p>",
+    "image": "/illustrations-ai/442.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"An adult Turritopsis jellyfish returns toward the polyp stage under stress, portraying developmental reversal rather than invulnerability to every cause of death.\",\"primary_subject\":\"turritopsis_reverse_development\",\"secondary_subjects\":[\"adult_jellyfish\",\"polyp_stage\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}\nSelected motif: A single small Turritopsis dohrnii jellyfish with translucent pale bell, coral-red central stomach and a few broad flowing tentacles. Standalone subject, no infinity halo or lifecycle.",
+    "promptHash": "d320f4ce1b5cfc8bb6f383b68a5ffee6b9c1a96a2e74ba58f6d306f059a1b72e",
+    "metadataHash": "9502caa293f8d1906e7d69f2bd4844cf0fb44897f9911345ebfa4dd0f41ab935",
+    "originalMetadata": {
+      "concept": "An adult Turritopsis jellyfish returns toward the polyp stage under stress, portraying developmental reversal rather than invulnerability to every cause of death.",
+      "scene_type": "process",
+      "primary_subject": "turritopsis_reverse_development",
+      "secondary_subjects": [
+        "adult_jellyfish",
+        "polyp_stage"
+      ],
+      "visual_keywords": [
+        "turritopsis_reverse_development",
+        "adult_jellyfish",
+        "polyp_stage"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-7a4f2941-5f0e-4aa6-9ab8-cef9d42c72bf.png",
+    "imageSha256": "6a1ddc1846de96cc8e920d19ba75b0eaeafb909320fc0e756a81fa179aab0141",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Standalone stylized jellyfish accompanies Turritopsis; not a diagnostic anatomical plate, life-cycle diagram or claim of invulnerability.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "443",
+    "title": "Led plave, protože voda se při zamrzání chová jinak než skoro vše ostatní",
+    "content": "<p>Většina látek se při ochlazení a přechodu do pevného skupenství zahušťuje, protože se molekuly uspořádají blíž k sobě.</p><p>Voda se v úzkém rozmezí teplot chová opačně. Pod čtyřmi stupni Celsia se její hustota s dalším ochlazováním snižuje, protože molekuly vody se v ledu uspořádávají do pravidelné mřížky s většími mezerami, než mají v kapalném stavu.</p><p>Výsledkem je, že led je lehčí než kapalná voda a plave na hladině místo klesání ke dnu.</p><p>Tato anomálie má zásadní důsledek pro život. Zamrzlé jezero se uzavírá ledem jen na povrchu, zatímco pod ním zůstává kapalná voda, ve které mohou ryby přežít zimu.</p><p><strong>Kdyby se voda chovala jako většina látek, hluboká jezera by v chladném klimatu promrzala odspodu a život v nich by byl mnohem obtížnější.</strong></p>",
+    "image": "/illustrations-ai/443.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"An open molecular lattice occupies more space in ice than in liquid water, explaining why the frozen block floats.\",\"primary_subject\":\"ice_floating_on_water\",\"secondary_subjects\":[\"open_ice_lattice\",\"denser_liquid_water\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}\nSelected motif: One simple ice block floating mostly submerged at a small contained water surface. No molecular inset, animals, landscapes or labels.",
+    "promptHash": "6655c83ce04b7c2e0a764c70ef42d0b33a1ee405a6ca57ccd909b6754735e598",
+    "metadataHash": "7ef8e3653c5f638958bacd3d86a6374de7e75578b91906505aa7e36c003d97e9",
+    "originalMetadata": {
+      "concept": "An open molecular lattice occupies more space in ice than in liquid water, explaining why the frozen block floats.",
+      "scene_type": "diagram",
+      "primary_subject": "ice_floating_on_water",
+      "secondary_subjects": [
+        "open_ice_lattice",
+        "denser_liquid_water"
+      ],
+      "visual_keywords": [
+        "ice_floating_on_water",
+        "open_ice_lattice",
+        "denser_liquid_water"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-690d483c-9d1a-4625-a90f-564cc3411211.png",
+    "imageSha256": "76048b5d6a082506423e2c752cd2d7724ba96f55f1811e6589949f46818f32f9",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Ice floating at a small water surface accompanies lower ice density; submerged proportion is qualitative, not a density measurement.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "444",
+    "title": "Slzy při krájení cibule vznikají jako obranná chemická zbraň rostliny",
+    "content": "<p>Krájení cibule poškodí její buňky a uvolní z nich dva typy látek, které se za normálních okolností v rostlině drží odděleně.</p><p>Po smísení vznikne prchavá sloučenina, syn-propanethial-S-oxid, která se odpaří do vzduchu a při kontaktu s vlhkým povrchem oka dráždí nervová zakončení.</p><p>Oko na podráždění reaguje zvýšenou produkcí slz, které mají dráždivou látku spláchnout.</p><p>Z pohledu rostliny nejde o náhodu. Tato chemická reakce vznikla jako obrana proti okusu hmyzem a jinými živočichy, kteří poškozují její pletivo.</p><p><em>Chlazení cibule před krájením nebo krájení pod tekoucí vodou účinek dráždivé látky omezuje, protože zpomaluje její uvolňování a odpařování.</em></p>",
+    "image": "/illustrations-ai/444.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"Cutting damages onion cells and releases a volatile irritant that reaches an eye, connecting a plant defense reaction to tears.\",\"primary_subject\":\"onion_tear_chemistry\",\"secondary_subjects\":[\"cut_onion\",\"volatile_irritant\",\"watering_eye\"],\"visual_keywords\":[],\"composition_hints\":[\"stacked_or_sequential_arrangement\",\"visual_cause_and_effect\"],\"scene_type\":\"process\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}\nSelected motif: A person chopping a halved onion with one tear at the visible eye. One intimate coherent scene, no chemical formulas, arrows or airborne particle diagram.",
+    "promptHash": "12b9496372778698bc7f429c4b491815a9e66f3698a34e043acfa644892b2390",
+    "metadataHash": "1f1561a1e94c25b627222ddfc04310151c22e402159cba8bb881bcf28c8cb1f5",
+    "originalMetadata": {
+      "concept": "Cutting damages onion cells and releases a volatile irritant that reaches an eye, connecting a plant defense reaction to tears.",
+      "scene_type": "process",
+      "primary_subject": "onion_tear_chemistry",
+      "secondary_subjects": [
+        "cut_onion",
+        "volatile_irritant",
+        "watering_eye"
+      ],
+      "visual_keywords": [
+        "onion_tear_chemistry",
+        "cut_onion",
+        "volatile_irritant",
+        "watering_eye"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-7baf1078-cb56-40fb-b55b-f7672a32b8c3.png",
+    "imageSha256": "a256d0a5257e410227b758c68c2f7aed675f7e78a304a959283b6381629e3b88",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Person cutting onion and wiping a tear directly accompanies irritation; no chemistry diagram or literal visible gas is invented.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    }
+  },
+  {
+    "id": "445",
+    "title": "Lidské tělo vyzařuje slabé světlo, které je pro oko příliš slabé",
+    "content": "<p>Bioluminiscence, tedy schopnost živých organismů vydávat vlastní světlo, se obvykle spojuje s hlubinnými rybami nebo světluškami.</p><p>Japonský výzkum z roku 2009 pomocí extrémně citlivých kamer prokázal, že podobné, byť mnohem slabší záření vydává i lidské tělo. Souvisí s běžnými biochemickými pochody, při kterých vznikají takzvané volné radikály jako vedlejší produkt metabolismu.</p><p>Intenzita tohoto světla je řádově tisíckrát nižší, než dokáže rozeznat lidské oko, a proto zůstává neviditelná.</p><p>Měření navíc ukázalo, že intenzita se v průběhu dne mění a souvisí s aktivitou metabolismu v různých částech těla.</p><p><strong>Jde tedy o skutečný, měřitelný jev, nikoli o metaforu.</strong></p>",
+    "image": "/illustrations-ai/445.webp",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A sensitive camera passively observes a human silhouette; the article explains ultraweak photon emission invisible to the naked eye.\",\"primary_subject\":\"human_and_sensitive_camera\",\"scene_type\":\"interaction\",\"palette\":\"violet_coral\",\"composition_hints\":[\"optically_centered_motif\",\"uncluttered_composition\"]}\nSelected motif: A plain pale lavender human bust, beside a small coral camera pointing at it. Two clear flat silhouettes. The camera is passive: absolutely no cone, beam, rays, glow, aura, dots, sparkling particles, inset, screen or connecting lines. The person has no visible light emission. Do not attempt to draw invisible photons; the article explains their measurement.",
+    "promptHash": "babdf7ffd19fb29a09b066ef1dfe3efb7be6181b1c58c9a967aec02b3fba776d",
+    "metadataHash": "9e10dd77b97e02d5c8ea4040120d072d82389eacf04d046e6b4a19cabb18a381",
+    "originalMetadata": {
+      "concept": "A sensitive camera detects a very faint emission from a human silhouette; a separated amplified view makes clear that the light is invisible to an unaided eye.",
+      "scene_type": "diagram",
+      "primary_subject": "ultraweak_human_photon_emission",
+      "secondary_subjects": [
+        "human_silhouette",
+        "sensitive_camera"
+      ],
+      "visual_keywords": [
+        "ultraweak_human_photon_emission",
+        "human_silhouette",
+        "sensitive_camera"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "cached": true,
+    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+    "generationSource": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-c7a8d8cc-d8ee-4553-9657-34d37413a5a3.png",
+    "imageSha256": "f3734ba8a3ab3f19a2d24a466f2d7fb97456c787e4252d4c84fa553869579c87",
+    "review": {
+      "status": "accepted",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "Human bust and passive camera accompany ultraweak photon measurement. No visible emission, aura or illumination is drawn; the article explains sensitivity.",
+      "background": "RGBA WebP; transparent padding and corners; inspected on #0d0d0d card surface",
+      "cornerAlpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "simplicity": "Readable main silhouette at both card sizes. Some shading and internal contours exceed 5-8 shapes / three colors; 426, 430, 432, 439 and 441 have more supporting detail than target. No cosmetic variants generated."
+    },
+    "previousVersion": {
+      "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose a simple motif appropriate to the article: a recognizable subject, object, person, action, concise metaphor or immediately readable scientific relationship. Invite reading through a striking subject, gesture, atmosphere or visual contrast. Readability alone is insufficient: even one arrow between a few detached objects can feel like an equation of inputs and outputs. Prefer a coherent scene or natural encounter when it carries the idea better; connect elements through pose, gaze, movement or shared space rather than lining up ingredients and results. Diagrams, arrows and illustrated principles remain welcome when their visual form is itself expressive and suited to the article. Judge the whole composition, not just the number of objects or steps. A simple explanatory contrast or interaction is welcome when understood at a glance. If explanation would require many separate objects, several steps or arrows tracing which part implies the next, choose one recognizable aspect instead. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Choose between a simple accompanying subject and a simple explanatory relationship according to context. A compact comparison or a useful single arrow is fine; avoid multistep experiments, networks of implications and inventories of disconnected scientific components. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. Optically center the complete main motif in the full canvas with balanced transparent margins; do not reserve an empty text column. Use off-center placement only when necessary for the specific meaning, interaction or direction of action. Centering does not require mirrored or rigidly symmetric objects. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A sensitive camera detects a very faint emission from a human silhouette; a separated amplified view makes clear that the light is invisible to an unaided eye.\",\"primary_subject\":\"ultraweak_human_photon_emission\",\"secondary_subjects\":[\"human_silhouette\",\"sensitive_camera\"],\"visual_keywords\":[],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"scene_type\":\"diagram\",\"mood\":\"neutral\",\"palette\":\"violet_coral\"}\nSelected motif: A plain human upper-body silhouette with a small camera-facing inset that alone shows a few faint photon marks. Visual shorthand for amplified instrument detection, no visible aura around the actual person.",
+      "path": "C:\\Users\\lukas\\.codex\\generated_images\\01a19d34-8f0e-7d81-8f9b-c23267524be4\\exec-537816f6-aaf7-4c0d-af48-c19604a854b6.png",
+      "reason": "Camera light cone suggests illumination instead of passive detection; inset uses dense repeated dots.",
+      "imageSha256": "f97e01f8da9d543039968984aa37464190dd6045bff03806b72becabd52e47a6"
+    }
   }
 ]

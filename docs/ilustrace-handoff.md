@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`312`, `413`–`420` a `558` (321 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`312`, `413`–`445` a `558` (346 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,7 +19,17 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 321 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 346 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Dávka 421–445
+
+Dalších 25 chybějících ilustrací navazuje na pořadí příspěvků v databázi. Vznikly vestavěným image_gen, jedním samostatným požadavkem na každý motiv, s `transparent_background=true`. Celkem proběhlo 27 volání: 25 prvních verzí a dvě cílené náhrady. `436` používá jednoduchý transport děrné pásky místo příliš detailního Colossu; `445` člověka a pasivní kameru bez zavádějícího světelného kuželu. Původní prompty, zdrojové cesty, hashe a důvody náhrad zůstávají v manifestu. Nástroj nenabízí řízení vstupních rozměrů, kvality ani ceny generování.
+
+Finální RGBA WebP mají 640×360 px, quality 80, průhledné odsazení a nulovou alfu všech čtyř rohů. Vycentroval je `fit-image.py`. Velikosti jsou 12 604–33 430 B, celkem 572 522 B. Všech 25 ID je zapnutých v kartách a galerii. Manifest uchovává přesné odeslané prompty, SHA-256 promptů, původních metadat a souborů, původní metadata a individuální významové kontroly. Články ani jejich metadata se nemění. Deterministický repair proběhl pouze v náhledu; jeho obecné návrhy nebyly aplikovány.
+
+Motivy byly zvolené podle titulků i celých textů. `429` doprovází Booleův portrét, `430` představuje stylizovaný návrh nepostaveného memexu a `436` pouze čtečku pásky, nikoli úplnou technickou rekonstrukci. `422` používá kvalitativní křivky bez měřítka, nikoli skutečná naměřená data. `426` neukazuje přesné počty sklenic experimentu; `432` používá dvojici 99/00 jako symbol přechodu roku. Červ v `439` je softwarová metafora. Samostatný žralok `440` doprovází historii linie, neztotožňuje současný druh s nejstaršími fosiliemi; medúza `442` není anatomický atlas ani důkaz nesmrtelnosti. `445` nevyobrazuje záření viditelné pouhým okem.
+
+Všechny miniatury byly prohlédnuté na tmavém povrchu při 160×90 a 320×180 px, bez obdélníkového pozadí. Některé motivy překračují cílový počet ploch, barev či vnitřních detailů, zejména `426`, `430`, `432`, `439` a `441`; hlavní siluety zůstávají čitelné a odchylky eviduje manifest. Palety vycházejí z metadat. Procedurální renderer ani zlaté otisky se nepoužívají. Ověření zahrnuje rozměry, alfa kanál, limit 100 kB, hashe, registraci v kartách, nezměněnou databázi, `npm test` a `npm run build`.
 
 ## Redakční kompozice a náhrada 278
 
