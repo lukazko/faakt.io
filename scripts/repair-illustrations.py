@@ -93,7 +93,7 @@ COMPOSITIONS = {
     "environment": ["wide_environmental_view", "distinctive_foreground_object"],
     "process": ["stacked_or_sequential_arrangement", "visual_cause_and_effect"],
     "diagram": ["asymmetric_composition", "layered_scene"],
-    "object": ["dominant_central_object", "subtle_background_context"]
+    "object": ["dominant_central_object", "uncluttered_composition"]
 }
 
 PORTRAIT_WORDS = ("portrait", "_figure", "_bust", "philosopher", "_person", "_actor", "_king", "_queen")
@@ -192,7 +192,10 @@ def repair(posts: list[dict]) -> tuple[list[dict], list[dict], list[dict]]:
         if scene_type != illustration["scene_type"]:
             illustration["scene_type"] = scene_type
         if scene_type in COMPOSITIONS:
-            illustration["composition_hints"] = COMPOSITIONS[scene_type]
+            # Keep curated simple compositions; a valid scene is not a request
+            # to add context or replace its art direction with a template.
+            if scene_type != old["scene_type"] or not illustration.get("composition_hints"):
+                illustration["composition_hints"] = COMPOSITIONS[scene_type]
         else:
             unresolved.append({"id": post_id, "reason": f"unsupported scene_type: {scene_type}"})
 

@@ -7898,21 +7898,18 @@
       }
     ],
     "illustration": {
-      "concept": "A rotating neutron star sweeps a radio beam past Earth in regular pulses, explaining the initially puzzling clocklike signal.",
-      "scene_type": "diagram",
-      "primary_subject": "pulsar_periodic_radio_beams",
-      "secondary_subjects": [
-        "rotating_neutron_star",
-        "regular_signal_trace"
-      ],
+      "concept": "A single compact blue pulsar with a broad pale beam, accompanying the article about periodic radio pulses. No observer or measurement diagram.",
+      "scene_type": "object",
+      "primary_subject": "pulsar_with_beam",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "pulsar_periodic_radio_beams",
-        "rotating_neutron_star",
-        "regular_signal_trace"
+        "blue_neutron_star",
+        "pale_beam",
+        "simple_silhouette"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "single_central_motif",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "monochrome_cool"
@@ -9232,21 +9229,18 @@
       }
     ],
     "illustration": {
-      "concept": "A modeled and rigged digital toy becomes a finished rendered frame, depicting the first wholly computer-animated feature.",
-      "scene_type": "process",
-      "primary_subject": "toy_story_computer_animation",
-      "secondary_subjects": [
-        "digital_character_model",
-        "rendered_film_frame"
-      ],
+      "concept": "A single colorful plastic toy robot, accompanying the article about the first computer-animated feature and its choice of easily rendered toys.",
+      "scene_type": "object",
+      "primary_subject": "plastic_toy_robot",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "toy_story_computer_animation",
-        "digital_character_model",
-        "rendered_film_frame"
+        "plastic_toy",
+        "toy_robot",
+        "simple_silhouette"
       ],
       "composition_hints": [
-        "stacked_or_sequential_arrangement",
-        "visual_cause_and_effect"
+        "single_central_motif",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "indigo_cyan"

@@ -9870,43 +9870,91 @@
   {
     "id": "220",
     "title": "Pravidelné pulzy z vesmíru dostaly zprvu přezdívku malí zelení mužíčci",
+    "content": "<p>V roce 1967 se na záznamech nového radioteleskopu v Cambridge objevil signál, který se opakoval s pozoruhodnou pravidelností zhruba každou sekundu a třetinu.</p><p>Taková přesnost neodpovídala tehdy známým přírodním zdrojům, a tak dostal zdroj pracovní označení odkazující na mimozemšťany. Objev učinila doktorandka Jocelyn Bellová při pečlivém procházení kilometrů papírových záznamů.</p><p>Brzy se ukázalo, že jde o <strong>pulsary</strong>, tedy rychle rotující neutronové hvězdy, které vysílají úzký svazek záření. Ten při každé otáčce přejde přes Zemi jako světlo majáku.</p><p>Neutronová hvězda o průměru jednotek kilometrů má hmotnost srovnatelnou se Sluncem, takže krychlový centimetr její hmoty váží miliardy tun.</p>",
+    "category": "astronomie",
+    "sources": [
+      {
+        "label": "NASA – Neutron stars and pulsars",
+        "url": "https://science.nasa.gov/universe/neutron-stars/"
+      },
+      {
+        "label": "Britannica – Pulsar",
+        "url": "https://www.britannica.com/science/pulsar"
+      }
+    ],
     "illustration": {
-      "concept": "A rotating neutron star sweeps a radio beam past Earth in regular pulses, explaining the initially puzzling clocklike signal.",
-      "scene_type": "diagram",
-      "primary_subject": "pulsar_periodic_radio_beams",
-      "secondary_subjects": [
-        "rotating_neutron_star",
-        "regular_signal_trace"
-      ],
+      "concept": "A single compact blue pulsar with a broad pale beam, accompanying the article about periodic radio pulses. No observer or measurement diagram.",
+      "scene_type": "object",
+      "primary_subject": "pulsar_with_beam",
+      "secondary_subjects": [],
       "visual_keywords": [
-        "pulsar_periodic_radio_beams",
-        "rotating_neutron_star",
-        "regular_signal_trace"
+        "blue_neutron_star",
+        "pale_beam",
+        "simple_silhouette"
       ],
       "composition_hints": [
-        "asymmetric_composition",
-        "layered_scene"
+        "single_central_motif",
+        "uncluttered_composition"
       ],
       "mood": "neutral",
       "palette": "monochrome_cool"
     },
-    "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A rotating neutron star sweeps a radio beam past Earth in regular pulses, explaining the initially puzzling clocklike signal.\",\"scene_type\":\"diagram\",\"primary_subject\":\"pulsar_periodic_radio_beams\",\"secondary_subjects\":[\"rotating_neutron_star\",\"regular_signal_trace\"],\"visual_keywords\":[\"pulsar_periodic_radio_beams\",\"rotating_neutron_star\",\"regular_signal_trace\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
-    "promptHash": "a009f311f649eab40a554a67e1c9657084b4accd9517ed5eb323a3c0a7f02520",
-    "metadataHash": "b0885a3e207ba4321e0f636d5541cd30e15eab216d2116b1673d3481d106f63b",
     "image": "/illustrations-ai/220.webp",
     "cached": true,
-    "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
-    "imageSha256": "6d14d6c8fc68a66d00ca1493599d405655b89fb00a7315613942cb0242d7a04a",
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose ONE recognizable aspect of the article: a subject, object, person, simple action or concise metaphor. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Prefer one coherent motif over diagrams, paired panels, process sequences or experiment reconstructions; use those only when explicitly requested or clearly simpler. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A single compact blue pulsar with a broad pale beam, accompanying the article about periodic radio pulses. No observer or measurement diagram.\",\"primary_subject\":\"pulsar_with_beam\",\"secondary_subjects\":[],\"visual_keywords\":[\"blue_neutron_star\",\"pale_beam\",\"simple_silhouette\"],\"composition_hints\":[\"single_central_motif\",\"uncluttered_composition\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+    "promptHash": "d7da9b46ffad3ffe0ffce1057bb27e978381f4a1f302b33c2fe3ab602e930270",
+    "metadataHash": "165594d1bcbd86439684ead202f5907aebad5bd189a265331e2ddcda2f9dbcd1",
+    "imageSha256": "2dac8409ca2dc3f0ed9c4679798ed89f84c735e2d0128ea8736ef0bfcd1c5c18",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
     "review": {
       "status": "accepted",
       "sizes": [
         "160x90",
         "320x180"
       ],
-      "meaning": "Rotating neutron star sweeps its beam toward Earth with a repeating pulse trace; scales are schematic.",
-      "background": "RGBA WebP, transparent padding, four corner alpha values 0",
-      "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
-    }
+      "meaning": "Single pulsar with broad opposing beams accompanies the radio-pulse topic. It deliberately omits Earth, waveform, field lines and observation apparatus; it does not explain the full mechanism.",
+      "background": "RGBA WebP; transparent padding; all four corners alpha 0",
+      "simplicity": "One recognizable motif at thumbnail scale. Pulsar includes soft light forms as its subject."
+    },
+    "previousVersion": {
+      "illustration": {
+        "concept": "A rotating neutron star sweeps a radio beam past Earth in regular pulses, explaining the initially puzzling clocklike signal.",
+        "scene_type": "diagram",
+        "primary_subject": "pulsar_periodic_radio_beams",
+        "secondary_subjects": [
+          "rotating_neutron_star",
+          "regular_signal_trace"
+        ],
+        "visual_keywords": [
+          "pulsar_periodic_radio_beams",
+          "rotating_neutron_star",
+          "regular_signal_trace"
+        ],
+        "composition_hints": [
+          "asymmetric_composition",
+          "layered_scene"
+        ],
+        "mood": "neutral",
+        "palette": "monochrome_cool"
+      },
+      "prompt": "Small 16:9 flat editorial illustration for a faakt.io mobile card, NOT a scenic painting. Use a genuinely transparent background with no backdrop rectangle, decorative vignette, background glow, border or edge color; the card surface must show through unchanged. NEVER create a black, near-black or dark background inside the image, and NEVER create a black/dark gradient. If transparency is technically impossible, use only the supplied exact fallback color as one uniform solid fill with identical pixels at every empty edge and corner. One striking, recognizable main motif that captures the central idea at first glance; supporting symbols and secondary objects are welcome when meaningfully related to the content and easy to understand. Prefer a clear main composition; a compact paired comparison is welcome when it makes the central contrast immediately recognizable. Avoid crowds or a sequence summarizing the whole article. The main motif must be recognizable immediately at 160px without scanning several scenes. Aim for 5-8 large flat shapes, maximum 3 muted foreground colors, at least one third empty transparent space. Broad clean silhouettes; at most one flat shadow plane per object. No decorative lighting, reflections, texture, hatching, hair strands, foliage detail, tiny illegible marks, watermark, 3D or photorealism. Restrained translucent shapes or soft transitions are allowed when light or mist is the actual meaningful subject, never as a background rectangle. Never draw an object and write its name underneath: captions that merely name the subject are forbidden. Do not use text, equality signs or schematic icons to rescue missing visual meaning. Default to no text. An inscription may add distinct information, such as the origin of aid, but do not add labels or country names merely to repeat context already supplied by the card text. Environment: 2-3 broad foreground planes, no panoramic scenery or decorative sky. Portrait: simplified face and costume silhouette. Preserve identifying historical/scientific features. Every detail must remain useful at 160px wide. Metadata defines meaning, not rendering detail: ignore words such as detailed or material_texture as finish instructions. Restrained grown-up magazine artwork, not clip art. For an explanatory scene, make its supported action or relationship readable at thumbnail scale. For a subject-led portrait, preserve the actual subject and relevant pose; supporting metaphors may accompany the teaching without claiming to prove it. Symbols and secondary objects may interpret an abstract idea and need not be literally mentioned in the article or indispensable. Remove them only if they have no meaningful connection to the content or make the composition too complex to understand. Keep a clear main motif and make the scene understandable at first glance. Use relational curves, paired outcome marks or simple arrows when they clarify the idea at first glance; they need not depict physical paths or signals. Avoid connector networks, legends or numbered steps that create a decoding task. Preserve expressive action and recognizable relationships rather than forcing a literal inventory of the article. The image accompanies the card title and text and need not encode every qualification. For a scientific post, show a meaningful relationship, revealing detail, discovery or article-specific idea. A named isolated particle or unexplained instrument alone is insufficient. Prefer a coherent editorial visualization to a schematic comparison that requires decoding. A historical hypothesis may be depicted as the idea being investigated, without claiming it is true. For a historical event, preserve the characteristic place, collective action and contextual cues before reducing detail. Do not simplify away the point of the article.\nMetadata: {\"concept\":\"A rotating neutron star sweeps a radio beam past Earth in regular pulses, explaining the initially puzzling clocklike signal.\",\"scene_type\":\"diagram\",\"primary_subject\":\"pulsar_periodic_radio_beams\",\"secondary_subjects\":[\"rotating_neutron_star\",\"regular_signal_trace\"],\"visual_keywords\":[\"pulsar_periodic_radio_beams\",\"rotating_neutron_star\",\"regular_signal_trace\"],\"composition_hints\":[\"asymmetric_composition\",\"layered_scene\"],\"mood\":\"neutral\",\"palette\":\"monochrome_cool\"}",
+      "promptHash": "a009f311f649eab40a554a67e1c9657084b4accd9517ed5eb323a3c0a7f02520",
+      "metadataHash": "b0885a3e207ba4321e0f636d5541cd30e15eab216d2116b1673d3481d106f63b",
+      "imageSha256": "6d14d6c8fc68a66d00ca1493599d405655b89fb00a7315613942cb0242d7a04a",
+      "generationMethod": "built-in image_gen; transparent_background=true; dimensions, quality and price controls unavailable",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "meaning": "Rotating neutron star sweeps its beam toward Earth with a repeating pulse trace; scales are schematic.",
+        "background": "RGBA WebP, transparent padding, four corner alpha values 0",
+        "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
+      },
+      "gitRevision": "ae8ba4f6683eb09d85096ead584812839ebfa14f"
+    },
+    "replacementReason": "User requested simpler accompaniment: one recognizable aspect instead of a multi-component scientific explanation."
   },
   {
     "id": "221",
@@ -11391,6 +11439,58 @@
       "background": "RGBA WebP, transparent padding, four corner alpha values 0",
       "simplicity": "Main motif readable at card size; individual departures recorded in meaning."
     }
+  },
+  {
+    "id": "257",
+    "title": "Rok 1995 přinesl první celovečerní film vytvořený zcela v počítači",
+    "content": "<p>Do poloviny 90. let se animované filmy kreslily ručně. Počítač sloužil nanejvýš jako pomůcka pro jednotlivé záběry.</p><p>Film <em>Toy Story</em>, uvedený v roce 1995, byl prvním celovečerním snímkem vytvořeným výhradně počítačovou animací.</p><p>Volba námětu souvisela s technickými možnostmi. Plastové hračky s hladkým povrchem se tehdy modelovaly a osvětlovaly podstatně snáz než lidská kůže, vlasy nebo srst, které zůstávaly pro tehdejší software velmi obtížné.</p><p>Vykreslení jednotlivých políček probíhalo na sestavě propojených počítačů a u složitějších záběrů trvalo mnoho hodin na jeden snímek.</p><p>Úspěch filmu zásadně urychlil přechod celého odvětví k digitální animaci.</p>",
+    "category": "filmy",
+    "sources": [
+      {
+        "label": "Computer History Museum – Toy Story",
+        "url": "https://computerhistory.org/blog/pixar-toy-story-and-the-cg-revolution/"
+      },
+      {
+        "label": "Britannica – Toy Story",
+        "url": "https://www.britannica.com/topic/Toy-Story"
+      }
+    ],
+    "illustration": {
+      "concept": "A single colorful plastic toy robot, accompanying the article about the first computer-animated feature and its choice of easily rendered toys.",
+      "scene_type": "object",
+      "primary_subject": "plastic_toy_robot",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "plastic_toy",
+        "toy_robot",
+        "simple_silhouette"
+      ],
+      "composition_hints": [
+        "single_central_motif",
+        "uncluttered_composition"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "image": "/illustrations-ai/257.webp",
+    "cached": true,
+    "prompt": "Small 16:9 flat editorial illustration accompanying a faakt.io mobile card. Choose ONE recognizable aspect of the article: a subject, object, person, simple action or concise metaphor. The text explains the science and story; the picture does not need to explain the mechanism, prove the claim or summarize the whole article. A standalone relevant object is enough. Examples: a moving ambulance for Doppler effect; a book with a prohibition sign for a banned novel; a pulsar with a simple beam, without Earth, waveform, magnetic field or observation equipment. Metadata is context, not a checklist of objects to draw. Omit secondary subjects and explanatory marks when the main motif already works. Prefer one coherent motif over diagrams, paired panels, process sequences or experiment reconstructions; use those only when explicitly requested or clearly simpler. A small supporting symbol is welcome when immediately readable. Broad clean silhouettes, aim for 5-8 large flat shapes, at most 3 muted foreground colors and at least one third empty transparent space. Recognizable at 160x90 and clean at 320x180. At most one flat shadow plane; no realistic lighting, reflections, grain, fine textures, tiny repeated details, decorative scenery, 3D or photorealism. Preserve factual identity and avoid visible contradictions, but leave qualifications and explanations to the article. Default to no text; never add a caption merely naming the pictured object. No legends, axes, connectors or numerical readouts just for completeness. Restrained grown-up magazine artwork. Genuinely transparent background: no backdrop rectangle, black or near-black fill, dark gradient, vignette, decorative glow, border or edge color. Empty areas and corners must be transparent so the card shows through. Preserve alpha. If transparency is technically impossible, use only the supplied exact uniform fallback color. Soft translucent forms are allowed when the selected subject is light or mist, never as a backdrop.\nMetadata: {\"concept\":\"A single colorful plastic toy robot, accompanying the article about the first computer-animated feature and its choice of easily rendered toys.\",\"primary_subject\":\"plastic_toy_robot\",\"secondary_subjects\":[],\"visual_keywords\":[\"plastic_toy\",\"toy_robot\",\"simple_silhouette\"],\"composition_hints\":[\"single_central_motif\",\"uncluttered_composition\"],\"scene_type\":\"object\",\"mood\":\"neutral\",\"palette\":\"indigo_cyan\"}",
+    "promptHash": "2c0193c5ed0a92bef5b139ed66ac061c8422a6ca001bb30dc1dc2bcf813ceafa",
+    "metadataHash": "7accb5467de3f01765ea043212bbc7d285d31ee0006fa64d9bcd8d104ad952f5",
+    "imageSha256": "5cdba93db468a1920c88c082e636806dfcf261b4326ecfde0c6da9634511cd3d",
+    "generationMethod": "built-in image_gen; transparent_background=true; size, quality and price controls unavailable",
+    "review": {
+      "status": "accepted-user-requested",
+      "sizes": [
+        "160x90",
+        "320x180"
+      ],
+      "meaning": "A generic plastic toy robot accompanies the article about computer-animated toys. It is not claimed to be a character or frame from Toy Story and does not depict the rendering pipeline.",
+      "background": "RGBA WebP; transparent padding; all four corners alpha 0",
+      "simplicity": "One recognizable toy silhouette; face and body markings exceed the broad-shape target but remain readable."
+    },
+    "userDirection": "Display this illustration even if editorial review has caveats; do not hide it for failing to explain the experiment.",
+    "generationNotes": "Three provider output-filter refusals in this task for computer-based motifs; the single toy motif produced a usable file. Provider refusals are distinct from local editorial checks."
   },
   {
     "id": "258",

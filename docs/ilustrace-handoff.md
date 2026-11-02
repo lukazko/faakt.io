@@ -4,7 +4,7 @@ Produkční karty používají statické AI ilustrace ve formátu WebP. Procedur
 
 ## Rozsah
 
-- Dostupné ilustrace: `001`–`256`, `258`–`265` a `558` (265 souborů, včetně sdílených kopií).
+- Dostupné ilustrace: `001`–`265` a `558` (266 souborů, včetně sdílených kopií).
 - `043` je uložený pro kontrolu v galerii, ale není zapnutý v produkčních kartách: při 160×90 px má příliš mnoho jemných architektonických detailů.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
@@ -19,11 +19,21 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 265 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 266 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+
+## Jednoduchost podle kontextu: 220 a 257
+
+Ilustrace může sama vyjádřit jednoduchý vědecký vztah, kontrast nebo pointu, pokud je srozumitelná na první pohled. Pokud by potřebovala mnoho samostatných předmětů, několik kroků nebo řetězec šipek pro sledování, co z čeho plyne, vybere místo toho jeden rozpoznatelný aspekt. Samotná relevantní věc, osoba či jednoduchý děj jsou dostačující doprovod textu. Jedna užitečná šipka není sama o sobě chyba. O volbě rozhoduje kontext a vizuální jednoduchost, nikoli obor příspěvku.
+
+`220` má novou ilustraci samotného pulsaru s paprsky, bez Země, magnetických čar a grafu frekvence. `257` je doplněný a zapnutý v kartách: jedna plastová hračka doprovází téma počítačově animovaných hraček. Nejde o skutečnou postavu či políčko Toy Story. Počítačové náměty generátor třikrát odmítl výstupním filtrem bez konkrétního obsahového důvodu; hračka se vygenerovala úspěšně. Uživatel výslovně požaduje zobrazení `257` i při redakčních výhradách; manifest to eviduje a soubor není skrytý.
+
+Oba obrázky vytvořil vestavěný image_gen s `transparent_background=true`; finální RGBA WebP mají 640×360 px, quality 80, průhledné odsazení a nulovou alfu rohů. `220` má 19 880 B a `257` 18 654 B. Význam i čitelnost byly zkontrolované při 160×90 a 320×180 px; hračka má více drobných značek než cílový počet ploch, ale jasnou hlavní siluetu. Přesné odeslané prompty, hashe a skutečná omezení jsou v manifestu; původní prompt, metadata, hash a review `220` zůstávají v `previousVersion` a soubor je obnovitelný z uvedené Git revize. Nástroj neposkytuje řízení vstupního rozměru, kvality ani ceny. Mění se jen ilustrační metadata `220` a `257`, nikoli články či ostatní obrázky.
+
+Ověření: vizuální porovnání `220` s originálem při stejných rozměrech, náhled `257`, rozměry a alfa kanál, hashe souborů, promptů a metadat, nezměněné články, `npm test`, `npm run build` a formální validace tří repozitářových skillů i instalované kopie. Deterministický repair byl spuštěn jen v náhledu. Nyní zachovává existující kompozici při nezměněném typu scény; doplňuje ji jen při změně typu či chybějících pokynech a objektům nepřidává automaticky pozadí. Chování bylo ověřeno na `220`, `257` a chybějící kompozici. Ostatní historická pravidla repairu se nemění a nejsou plošně aplikována.
 
 ## Dávka 215–265 (bez 257)
 
-Dalších 50 ilustrací vytvořil vestavěný image_gen s `transparent_background=true`, samostatným požadavkem pro každý příspěvek. Příspěvek `257` generátor dvakrát odmítl bezpečnostním filtrem na výstupu bez konkrétního obsahového důvodu; zůstává bez assetu a místo něj je zahrnut následující chybějící `265`. Celkem proběhlo 54 volání: 50 finálních výstupů, dvě odmítnutí a po jedné cílené náhradě `244` a `263`. Nástroj neposkytuje nastavení rozměrů, kvality ani ceny generování.
+Dalších 50 ilustrací vytvořil vestavěný image_gen s `transparent_background=true`, samostatným požadavkem pro každý příspěvek. Tato původní skupina 50 příspěvků nezahrnuje `257`; ten má nyní samostatně doplněnou ilustraci popsanou výše. Obsahuje místo něj `265`. Celkem proběhlo 54 volání: 50 finálních výstupů, dvě odmítnutí a po jedné cílené náhradě `244` a `263`. Nástroj neposkytuje nastavení rozměrů, kvality ani ceny generování.
 
 Finální assety jsou průhledné RGBA WebP 640×360, quality 80, s transparentním odsazením po všech hranách. Velikosti jsou 15 614–52 210 B, celkem 1 584 882 B. Přesné prompty, hashe promptů, metadat a souborů a individuální významové kontroly obsahuje manifest; u náhrad uchovává také původní prompt a hash odmítnutého obrázku. Všech 50 ID je registrováno v produkčních kartách a galerii. Existující obrázky se nemění.
 
@@ -53,17 +63,9 @@ Miniatury byly prohlédnuty na tmavém povrchu při 160×90 a 320×180 px. Hlavn
 
 ## Generování
 
-Kontrola posuzuje ilustraci spolu s titulkem a textem. Překreslení řeší doložený viditelný rozpor nebo skutečnou nečitelnost; samotná možnost doslovně vyložit symbol nestačí. Nejistý počet překrývajících se postav se ověřuje ve větším náhledu a jeho význam pro hlavní kontrast se posuzuje před opravou. Spojnice, šipky a dvojice scén mohou vztah zpřehlednit. Názvy zemí ani popisky se nepřidávají jen proto, že je kontext v článku. Při oprávněné opravě se zachovává originál a obě verze se porovnají při stejné velikosti; náhrada má odstranit konkrétní problém a současně zachovat výraz, děj i čitelnost. První verze `188`, `200` a `212` jsou výslovně zvolené kompozice. Tato kritéria jsou ve skillu i sdíleném promptu; neoslabují kontrolu jasného obrácení účinku nebo nesprávného hlavního předmětu.
+Vol podle kontextu mezi jednoduchým znázorněním vztahu a jedním rozpoznatelným aspektem. Jedoucí sanitka může doprovodit Dopplerův jev; kniha se zákazem zakázaný román; pulsar s paprskem vesmírné pulzy. Není potřeba zobrazit celý experiment. Jednoduchý kontrast či interakce jsou vhodné, pokud nevyžadují luštit řetězec kroků a spojnic. Doplňky nejsou povinné; jejich relevance sama o sobě neznamená, že se mají všechny nakreslit. Metadata jsou kontext, ne povinný inventář. Konkrétní přijaté kompozice a výslovně zvolené první verze `188`, `200` a `212` se tím nemění.
 
-Doprovodné symboly a vedlejší objekty jsou vítané, pokud mají smysluplný vztah k obsahu příspěvku a kompozice zůstává snadno pochopitelná. Mohou vyjadřovat abstraktní myšlenku a nemusí být doslova zmíněné v textu ani nezbytné pro hlavní motiv. Odstraňují se jen tehdy, když nemají význam pro obsah nebo kompozici příliš komplikují. Toto pravidlo platí i pro portréty a má přednost před staršími formulacemi požadujícími jen nezbytné objekty; konkrétní schválené scény zůstávají zachované. Odpovídá mu skill i sdílený generovací prompt.
-
-Nikdy se nenakreslí objekt a pod něj jeho název jako náhrada obsahu. Obrázek musí nést význam vztahem, dějem, kontextem nebo odhaleným detailem bez čtení popisku. Samostatná pojmenovaná částice ani schéma s ciferníky a rovností tuto podmínku nesplňují. Text jako USA na bedně je jiný případ: přidává původ pomoci, nepojmenovává nakreslenou bednu. Vědecká ilustrace nemusí diagramem shrnovat výsledek experimentu; může názorně zobrazit i historickou představu, kterou článek zkoumá a odmítá. Hypotéza se tím neprohlašuje za skutečnost.
-
-Výchozím cílem je jednoduchá ilustrace s jedním výrazným hlavním motivem, který vystihuje obsah a zaujme na první pohled. Obrázek `040` (pracovníci, státní výdaje, stavba) je krajní případ přijatelné složitosti, nikoli vzor pro další ilustrace; běžné výstupy mají být výrazně jednodušší. Vedlejší prvky podporují hlavní motiv a nemají vyžadovat postupné čtení několika scén. Soubor `040.webp` zůstává beze změny.
-
-Sdílený postup pro AI agenty je v `skills/faakt-illustrations/SKILL.md`. Kompaktní prompt a cache kontrolu připravuje `skills/faakt-illustrations/scripts/prepare.mjs`; společný styl je v `prompt.mjs`. Existující asset se bez žádosti o opravu neregeneruje. U výslovné opravy se vytvoří jedna cílená náhrada či úprava; pokud stále významově selhává, je přípustná jedna další zjednodušující úprava. Nevytvářejí se kosmetické varianty ani neomezené smyčky.
-
-Ilustrace vycházejí z `post.illustration`: `concept`, `primary_subject`, `secondary_subjects`, `visual_keywords`, `composition_hints`, `scene_type`, `mood` a `palette`, vždy po přečtení titulku a celého obsahu daného postu. Vysvětlující scéna musí mít čitelný vztah nesoucí hlavní myšlenku. U abstraktního učení je přípustný i doprovodný portrét skutečného učitele, pokud by diagram vyžadoval vymyšlené rekvizity; portrét se nevydává za úplné vysvětlení argumentu. Každý vedlejší předmět se ověřuje proti textu, nejen proti metadatům. Vizuální cíl je 5–8 velkých ploch, nejvýše tři barvy popředí, průhledné pozadí a čitelnost při 160×90 px.
+Sdílený postup je v `skills/faakt-illustrations/SKILL.md`, kompaktní prompty a cache kontrolu připravuje `skills/faakt-illustrations/scripts/prepare.mjs`, společný styl je v `prompt.mjs`. Sjednocené pokyny mají také tvorba postů, metadata review, CLAUDE.md a redakční handoff; instalovaná kopie skillu přebírá stejnou verzi. Čte se titulek i celý obsah, aby vybraný motiv byl správný, nikoli aby se ilustrací zopakovalo vše z textu. Vizuální cíl zůstává jednoduchost, průhledné pozadí, čitelnost při 160×90 a 320×180 px a kompaktní WebP. Výslovně vyžádaný asset se kvůli redakční výhradě neskrývá; skutečný stav a volba uživatele se zaznamenají do manifestu.
 
 Post `028` používá samotného Buddhu v klidné meditaci s vlastníma prázdnýma rukama přirozeně v klíně. Metadata mají `portrait`, hlavní motiv `buddha_meditating_figure` a prázdné `secondary_subjects`. Neobsahují samostatné ruce, zlatou kuličku ani neurčitý „předmět touhy“. Ilustrace doprovází učení o utrpení a nelpění; nevytváří jeho doslovný diagram. Soubor má 17 584 B, 640×360 px a průhledné rohy; kontrola proběhla při 160×90 a 320×180 px. Přesný prompt, hashe a výsledek kontroly jsou v manifestu. Oba skilly a společný prompt požadují oporu vedlejších objektů v celém textu a odmítají nepodložené symbolické vsuvky.
 
