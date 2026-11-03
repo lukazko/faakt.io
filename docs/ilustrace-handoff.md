@@ -1,5 +1,11 @@
 # Ilustrace — aktuální stav
 
+<!-- batch-623-start -->
+## Doplnění zbývajících ilustrací 623–866
+
+Dokončeno a vizuálně zkontrolováno 81 z 244 požadovaných ilustrací; celkem 603 statických WebP. Přijatá ID jsou v `reports/illustration-generation-623-866.json`; zbývající ID uvádí `incomplete`. Nové obrázky jsou zapnuté v kartách i galerii. Vestavěný image_gen používá skutečnou průhlednost; řízení velikosti, kvality a ceny generování není dostupné. Finální WebP mají 640×360 px, nulovou alfu rohů a velikost pod 100 kB. Zkontrolováno při 160×90 a 320×180 px na tmavé kartě. Přesné prompty, původní metadata, zdroje, hashe a významové poznámky jsou v manifestu. Historické a literární scény jsou stylizace, nikoli autentické rekonstrukce; obraz může doprovázet vybraný aspekt článku. Výstupy místy překračují cílový počet ploch, barev a stínů. Články a metadata se nemění, deterministický repair proběhl pouze v náhledu. Procedurální renderer ani zlaté otisky se nepoužívají.
+<!-- batch-623-end -->
+
 Produkční karty používají statické AI ilustrace ve formátu WebP. Procedurální SVG renderer, jeho galerie, audit, baseline a testy byly odstraněny.
 
 
