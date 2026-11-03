@@ -46,7 +46,7 @@ ID `501` now shows an anonymous puzzled Renaissance mathematician beside the lar
 
 ## Vykreslení
 
-Ilustrace na líci karty má vlastní relativně umístěnou flexovou plochu s nulovou výchozí výškou a `min-height: 0`. Obrázek je absolutně ukotvený uvnitř této plochy; `object-fit: contain` a `object-position: center bottom` zachovávají celý obraz i poměr stran. Výšku plochy určuje místo zbývající pod titulkem a hookem nad CTA, takže se obrázek zmenšuje bez překrytí textu či ořezu. Ani nízký viewport ilustraci plošně neskrývá; při vyčerpání dostupného místa se její plocha zmenší na nulu.
+Experiment `experiment/ilustrace-nad-textem`: ilustrace je na líci pod kategorií a nad titulkem a hookem. Flexová plocha vyplňuje zbývající výšku po odečtení textu a CTA; `min-height: 0` dovoluje zmenšení až na nulu. Absolutně umístěný obrázek používá `object-fit: contain` a `object-position: center`, zachovává celý motiv i poměr stran bez překrytí textu. Počty, assety a metadata se nemění.
 
 Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`--cat-literatura` v `src/app.css`), která ji odlišuje od oranžových akcentů loga a ovládacích prvků.
 

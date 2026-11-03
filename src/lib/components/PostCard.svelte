@@ -188,15 +188,11 @@
 				</div>
 
 				<div class="front-main">
-					<h2 id="{frontId}-title" class="title">{post.title}</h2>
-					<p class="teaser">{hook}</p>
-
-					<!-- Dekorativní grafika do spodní části líce. Je v toku
-					     flexu, takže nikdy nepřekryje text ani CTA a nemění
-					     výšku karty — jen vyplní zbývající prostor. -->
 					<div class="front-art" aria-hidden="true">
 						<PostIllustration {post} {active} />
 					</div>
+					<h2 id="{frontId}-title" class="title">{post.title}</h2>
+					<p class="teaser">{hook}</p>
 				</div>
 
 				<div class="front-footer">
@@ -520,13 +516,11 @@
 		flex: 0 0 auto;
 	}
 
-	/* Ilustrace vyplní jen zbývající spodní prostor líce. Když je text
-	   dlouhý nebo karta nízká, obrázek se zmenší — nikdy ale nezvětší kartu. */
+	/* Illustration above the text uses the remaining card height. */
 	.front-art {
 		position: relative;
 		flex: 1 1 0;
 		min-height: 0;
-		margin-top: clamp(4px, 1.2vh, 12px);
 		display: flex;
 		align-items: flex-end;
 		justify-content: center;
