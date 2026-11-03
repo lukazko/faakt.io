@@ -1,0 +1,54 @@
+{
+  "status": "accepted",
+  "ids": [
+    "600",
+    "623"
+  ],
+  "method": "built-in image_gen; transparent_background=true; generation size/quality/cost controls unavailable",
+  "items": [
+    {
+      "id": "600",
+      "image": "/illustrations-ai/600.webp",
+      "promptHash": "11c8f731fd0d3cbdca794ca2ba81a80d8443efa6a346909f5fbf79c7ea2e8fbc",
+      "imageSha256": "417563f04ceaa7d66d6dd948674980e9a1a4de7e5f9679f6ccece777d722d4bb",
+      "previousImageSha256": "29db4d1a51106a401052748708dd650598f1896043d99b88d8b2c123c36a0513",
+      "bytes": 19702,
+      "meaning": "A familiar STOP sign is understood by a driver who halts at the line: conventional symbol and its interpreted meaning. A selected broadly recognizable example of Peirce's symbol category; not an inventory of icon/index/symbol or a claim that sign and object are identical."
+    },
+    {
+      "id": "623",
+      "image": "/illustrations-ai/623.webp",
+      "promptHash": "f9d1a7375b705f32fb30d707278294390952721377e9c44a15729dcd4a81aee5",
+      "imageSha256": "2f4d345104a8899add90ad330e20b40d6a0f34e47f7866e2789e492f0c871396",
+      "previousImageSha256": "8e6fc755f8af0e16b8432eb49600481fc53e8c66ad5c3b5a81ff8be1e1f79874",
+      "bytes": 29816,
+      "meaning": "One horse, pig and hen share the same farmyard before a barn. Single scene accompanying Animal Farm, without revolutionary/tyrannical phases, arrows or an attempt to retell the complete plot."
+    }
+  ],
+  "currentBatch623to866Bytes": 6374762,
+  "validation": {
+    "status": "passed",
+    "allPostsHaveRegisteredAssets": 766,
+    "unrelatedImagesUnchanged": true,
+    "datasetUnchanged": true,
+    "rgbaSize": "640x360",
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "imageAndPromptHashes": "passed",
+    "beforeAfterThumbnailReview": [
+      "160x90",
+      "320x180"
+    ]
+  },
+  "tests": {
+    "command": "npm test",
+    "passed": 2,
+    "failed": 0
+  },
+  "scope": "Previous repair checkpoint; 600 remains current, friendly 623 subsequently replaced by oppressive pig-ruler scene",
+  "subsequentValidation": "reports/illustration-repair-623-power.json"
+}

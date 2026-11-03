@@ -1,0 +1,35 @@
+{
+  "status": "accepted",
+  "id": "623",
+  "image": "/illustrations-ai/623.webp",
+  "promptHash": "a404922501eb6303859b7ca32667de90926c103f35d3b4ca0bebf10998359246",
+  "imageSha256": "9a454f7366b3d97ae67db723f28797fe6aa2668791163478b3bfa2eb449e501c",
+  "previousImageSha256": "2f4d345104a8899add90ad330e20b40d6a0f34e47f7866e2789e492f0c871396",
+  "bytes": 32176,
+  "meaning": "One oppressive farm scene: a scowling pig in formal jacket stands on a raised platform and commands a bowed workhorse and anxious hen below. Height, clothing, gesture and expressions visibly distinguish privileged ruler from subordinate animals. No story cycle or friendly equal-status group.",
+  "method": "built-in image_gen; transparent_background=true; generation size/quality/cost controls unavailable",
+  "currentBatch623to866Bytes": 6377122,
+  "validation": {
+    "status": "passed",
+    "allPostsRegistered": 766,
+    "unrelatedImagesUnchanged": true,
+    "datasetUnchanged": true,
+    "rgbaSize": "640x360",
+    "cornerAlpha": [
+      0,
+      0,
+      0,
+      0
+    ],
+    "hashes": "passed",
+    "beforeAfterReview": [
+      "160x90",
+      "320x180"
+    ]
+  },
+  "tests": {
+    "command": "npm test",
+    "passed": 2,
+    "failed": 0
+  }
+}

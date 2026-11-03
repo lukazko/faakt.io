@@ -42,5 +42,7 @@
   "build": {
     "command": "npm run build",
     "status": "passed"
-  }
+  },
+  "scope": "Historical checkpoint before completing IDs 847–866",
+  "supersededBy": "reports/illustration-validation-623-866.json"
 }

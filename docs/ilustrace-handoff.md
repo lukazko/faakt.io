@@ -1,13 +1,25 @@
 # Ilustrace — aktuální stav
 
+## Ilustrace 600 a 623
+
+`600` používá běžně srozumitelný symbol: červenou značku STOP a auto zastavené před čárou. Ilustruje dohodnutý znak a jeho pochopení; nevysvětluje všechny tři Peircovy kategorie.
+
+`623` zůstává jedinou scénou před farmou, ale má jasnou mocenskou hierarchii. Zamračené prase v saku stojí na vyvýšené plošině, poroučí a shlíží na sklopeného pracovního koně a úzkostnou slepici. Výška, oděv, gesto a výrazy odlišují privilegovaného vládce od podřízených zvířat. Nejde o skupinu veselých zvířátek ani vyprávění celého příběhu pomocí šipek. Předchozí přátelská varianta i původní cyklus jsou zachované v řetězci previousVersion manifestu.
+
+Náhrada 623 byla porovnána s předchozí při 160×90 a 320×180 px na tmavé kartě. Finální RGBA WebP má 640×360 px, 32 176 B a nulovou alfu rohů, je zapnutý v kartách i galerii. Vestavěný image_gen použil skutečnou průhlednost bez dostupného řízení rozměrů, kvality či ceny generování. Přesné prompty, původní metadata, zdroje a hashe zachovává manifest. Články a metadata se nemění; všech 766 příspěvků má ilustraci. Kontrola souboru i oba testy `npm test` prošly. Aktuální kontrolu eviduje `reports/illustration-repair-623-power.json`; dřívější oprava 600 je v `reports/illustration-repair-600-623.json`.
+
 <!-- batch-623-start -->
 ## Doplnění zbývajících ilustrací 623–866
 
-Dokončeno a vizuálně zkontrolováno 224 z 244 požadovaných ilustrací; celkem 746 statických WebP. Přijatá ID jsou v `reports/illustration-generation-623-866.json`; zbývající ID uvádí `incomplete`. Nové obrázky jsou zapnuté v kartách i galerii. Vestavěný image_gen používá skutečnou průhlednost; řízení velikosti, kvality a ceny generování není dostupné. Finální WebP mají 640×360 px, nulovou alfu rohů a velikost pod 100 kB. Zkontrolováno při 160×90 a 320×180 px na tmavé kartě. Přesné prompty, původní metadata, zdroje, hashe a významové poznámky jsou v manifestu. Historické a literární scény jsou stylizace, nikoli autentické rekonstrukce; obraz může doprovázet vybraný aspekt článku. Výstupy místy překračují cílový počet ploch, barev a stínů. Články a metadata se nemění, deterministický repair proběhl pouze v náhledu. Procedurální renderer ani zlaté otisky se nepoužívají.
+Všech 244 požadovaných ilustrací je dokončených, vizuálně zkontrolovaných a zapnutých v kartách i galerii. Všech 766 příspěvků v aktuální databázi má vlastní statický WebP soubor a registraci; žádná ilustrace nechybí. Stav dávky uvádí `reports/illustration-generation-623-866.json`, kompletní validaci `reports/illustration-validation-623-866.json`. Příprava 847–866 je uzavřená v `reports/illustration-pending-847-866.json`; dřívější limit generátoru je vyřešený, zachovaný pouze jako historie.
 
-Dokončení blokuje limit vestavěného generátoru (`HTTP 429 usage_limit_reached`), hlášené obnovení 3. 11. 2026 v 17:55 (Europe/Prague). Chybí pouze ID `847–866`; jejich články, prompty a původní metadata pro navázání jsou v `reports/illustration-pending-847-866.json`. Během dávky jednou selhalo spojení u `748`, opakování uspělo. Jedna cílená oprava `833` změnila původní modrý drahokamový vzhled na rozpoznatelný zlatavý jantar; původní prompt, zdroj a hash zůstávají v manifestu. Ostatní přijaté obrázky se nepřegenerovaly.
+Vestavěný image_gen používá skutečnou průhlednost; řízení rozměrů, kvality a ceny generování není dostupné. Finální WebP mají 640×360 px, nulovou alfu rohů a velikost pod 100 kB. Celá nová dávka 623–866 má po náhradě 623 6 377 122 B; jednotlivé soubory 9 488–77 280 B. Všechny nové motivy byly prohlédnuté při 160×90 a 320×180 px na tmavém povrchu. Přesné prompty, původní metadata, zdroje, hashe a významové poznámky zachovává manifest.
 
-Validace všech 224 nových souborů prošla: 640×360 RGBA, nulová alfa rohů, SHA-256 obrázků a promptů, registrace, původní data i předchozí obrázky beze změny. Nová dávka má 5 898 706 B, soubory 12 244–77 280 B. V databázi je 766 příspěvků a celkem 746 obrázků; pouze 847–866 zůstávají bez souboru. Oba testy `npm test` i produkční `npm run build` prošly. Build hlásí již existující upozornění na zastaralý slot a velikost vývojové galerie, ne chybu generování. Podrobný protokol je v `reports/illustration-validation-623-846.json`.
+Historické a literární scény jsou redakční stylizace, nikoli autentické rekonstrukce. Ilustrace mohou doprovázet vybraný aspekt článku; nevysvětlují všechny mechanismy. Výstupy místy překračují cílový počet ploch, barev a stínových rovin. Barevné stíny 851 zachovávají opačné odstíny podle blokovaného světla; pinyin 854 používá mā → 妈, německá věta 855 správně zvýrazňuje Haus. Klaviatura 856 má sedm bílých a pět černých kláves. Portrét 859 ilustruje obecný jev malovaného pohledu, nikoli měření skutečného směru očí Mony Lisy. Strom 866 ukazuje rozdílné délky kódových cest bez vymyšlených četností. Další omezení jsou u jednotlivých položek manifestu.
+
+Během dávky jednou selhalo spojení u 748; opakování uspělo. Jedna cílená oprava 833 změnila původní modrý drahokamový vzhled na rozpoznatelný zlatavý jantar; původní prompt, zdroj a hash jsou zachované v previousVersion. Mimo výše uvedené uživatelské náhrady se ostatní přijaté ilustrace nepřegenerovaly. Články a metadata zůstaly beze změny; výše uvedené cílené náhrady jsou jediné následné změny obrázků. Deterministický repair proběhl pouze v náhledu. Procedurální renderer ani zlaté otisky se nepoužívají.
+
+Prošly kontroly rozměrů, alfa kanálu, velikosti, SHA-256 obrázků a promptů, registrace všech příspěvků i nezměněných dat. Oba testy `npm test` a produkční `npm run build` prošly.
 <!-- batch-623-end -->
 
 Produkční karty používají statické AI ilustrace ve formátu WebP. Procedurální SVG renderer, jeho galerie, audit, baseline a testy byly odstraněny.
