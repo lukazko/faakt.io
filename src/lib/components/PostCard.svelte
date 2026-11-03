@@ -187,10 +187,10 @@
 						/>
 					</div>
 					<h2 id="{frontId}-title" class="title">{post.title}</h2>
-					<p class="teaser">{hook}</p>
 					<div class="front-art" aria-hidden="true">
 						<PostIllustration {post} {active} />
 					</div>
+					<p class="teaser">{hook}</p>
 				</div>
 
 				<div class="front-footer">
@@ -508,7 +508,7 @@
 		flex: 0 0 auto;
 	}
 
-	/* Illustration follows the hook; spare space stays below the image. */
+	/* Illustration sits between title and hook; spare space stays below the hook. */
 	.front-art {
 		position: relative;
 		flex: 0 1 auto;
