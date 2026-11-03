@@ -86,9 +86,25 @@ npm run build            # Sestavení do build/
 npm run preview          # Náhled ostrého buildu
 npm run generate         # Generování nových příspěvků (přes Claude API)
 npm run deploy           # Ruční deploy na gh-pages (fallback, primárně Actions)
+npm test                 # Kontroly dat a ilustrací
+npm run test:e2e         # Regrese akcí karet: Android Chromium, iPhone WebKit, desktop
 ```
 
 Generování: `ANTHROPIC_API_KEY=sk-ant-... npm run generate --count=30`
+
+Browserové testy vyžadují Node.js 20+ (CI používá 22) a jednorázově
+`npx playwright install chromium webkit`. Playwright spouští vlastní dev server
+na portu 4175. Testy v `tests/browser/` používají skutečné klepnutí/kliknutí;
+systémové sdílení a schránka jsou simulované, hlášení ověřuje navigaci do nové
+záložky bez přístupu na GitHub. Varianta s `isolation: isolate` na feedu je
+povinná regrese mobilního vrstvení: neviditelný překryv dříve pohltil klepnutí
+a pouze zavřel nabídku. Testujeme líc i rub, fallbacky sdílení a zavírání mimo
+nabídku. CI je spouští na větvích i PR a úspěch testů je podmínkou nasazení
+z main. Při selhání uchová Playwright trace jako artefakt.
+Datový požadavek v testech vrací dva skutečné příspěvky z databáze, aby rychlost
+regresí akcí nezávisela na celkové velikosti `posts.json`.
+Na místním Node.js 18 lze běh spustit bez změny systémové instalace přes
+`npm exec --yes --package=node@22 -- node node_modules/playwright/cli.js test`.
 
 ## Architektura a chování
 

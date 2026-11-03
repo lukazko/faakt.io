@@ -5,3 +5,5 @@ build/
 .env
 .DS_Store
 *.local
+test-results/
+playwright-report/
