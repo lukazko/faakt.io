@@ -179,17 +179,16 @@
 			aria-labelledby="{frontId}-title"
 		>
 			<div class="front-inner">
-				<div class="front-top">
-					<CategoryBadge
-						category={post.category}
-						postId={post.id}
-						onToggle={onCategoryToggle}
-					/>
-				</div>
-
 				<div class="front-main">
 					<div class="front-art" aria-hidden="true">
 						<PostIllustration {post} {active} />
+					</div>
+					<div class="front-top">
+						<CategoryBadge
+							category={post.category}
+							postId={post.id}
+							onToggle={onCategoryToggle}
+						/>
 					</div>
 					<h2 id="{frontId}-title" class="title">{post.title}</h2>
 					<p class="teaser">{hook}</p>
