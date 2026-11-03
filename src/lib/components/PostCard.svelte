@@ -617,7 +617,7 @@
 
 		/* V nízké kartě stačí menší odsazení, aby se text neusekl */
 		.front-main {
-			padding-top: 8px;
+			padding-top: 6px;
 		}
 
 		.title {
