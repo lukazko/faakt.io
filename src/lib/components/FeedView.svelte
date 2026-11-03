@@ -11,6 +11,13 @@
 	let activeCategory = $state(null);
 	let visibleCount = $state(PAGE_SIZE);
 	let menuOpen = $state(false);
+
+	function closeActionsOnOutsideClick(event) {
+		if (!menuOpen) return;
+		const target = event.target;
+		if (target instanceof Element && target.closest('.action-menu, .action-btn')) return;
+		menuOpen = false;
+	}
 	let loading = $state(true);
 	let loadingMore = $state(false);
 	let currentIndex = $state(0);
@@ -363,6 +370,10 @@
 	});
 </script>
 
+<!-- Událost jen pozorujeme: celoplošný překryv může na mobilu ležet nad
+     celou scrollovací vrstvou včetně nabídky a pohltit její tlačítka. -->
+<svelte:window onclick={closeActionsOnOutsideClick} />
+
 {#if loading}
 	<div class="loading-screen">
 		<div class="spinner"></div>
@@ -455,18 +466,6 @@
 				{sequentialOrder ? 'Náhodně' : 'Podle ID'}
 			</button>
 		</div>
-	{/if}
-
-	<!-- Podklad pro zavření nabídky akcí — tlačítko i nabídka bydlí v kartě,
-	     tenhle neviditelný překryv ale musí sahat přes celou obrazovku. -->
-	{#if menuOpen}
-		<button
-			type="button"
-			class="action-backdrop"
-			tabindex="-1"
-			aria-hidden="true"
-			onclick={() => menuOpen = false}
-		></button>
 	{/if}
 
 	<!-- Loading overlay for loadMore -->
@@ -658,19 +657,6 @@
 			0
 			max(16px, env(safe-area-inset-left, 0px));
 		scroll-snap-align: start;
-	}
-
-	/* Podklad pro zavření nabídky akcí. Tlačítko i nabídka bydlí v kartě,
-	   podklad ale musí zachytit tapnutí kdekoli na obrazovce. */
-	.action-backdrop {
-		position: fixed;
-		inset: 0;
-		padding: 0;
-		border: none;
-		background: none;
-		z-index: 60;
-		cursor: default;
-		-webkit-tap-highlight-color: transparent;
 	}
 
 	/* End card (load more) — stejný krok jako karta, ať snap neskáče */
