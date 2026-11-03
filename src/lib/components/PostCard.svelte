@@ -165,7 +165,6 @@
 	class="post-card"
 	class:flipped
 	class:is-active={active}
-	class:actions-open={actionsOpen}
 	onkeydown={handleKeydown}
 	onclick={handleCardClick}
 >
@@ -266,12 +265,6 @@
 		   kdy má zmizet tlačítko akcí na odvrácené straně. */
 		--flip-duration: 0.42s;
 		-webkit-perspective: 1600px;
-	}
-
-	/* Otevřená nabídka musí být nad podkladem, který v FeedView zachytává
-	   tapnutí mimo bublinu (z-index 60). */
-	.post-card.actions-open {
-		z-index: 65;
 	}
 
 	/* --- Akce k příspěvku --- */
