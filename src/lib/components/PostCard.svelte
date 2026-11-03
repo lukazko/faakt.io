@@ -20,7 +20,7 @@
 	 *   onToggleActions?: (() => void) | null,
 	 *   onCloseActions?: (() => void) | null,
 	 *   onShare?: ((post: any) => void) | null,
-	 *   onReport?: ((post: any) => void) | null
+	 *   reportUrl?: string | null
 	 * }}
 	 */
 	import { tick } from 'svelte';
@@ -37,7 +37,7 @@
 		onToggleActions = null,
 		onCloseActions = null,
 		onShare = null,
-		onReport = null
+		reportUrl = null
 	} = $props();
 
 	let hook = $derived(getHook(post.content));
@@ -148,13 +148,13 @@
 				</svg>
 				Sdílet
 			</button>
-			<button class="action-item" role="menuitem" onclick={() => { onReport?.(post); onCloseActions?.(); }}>
+			<a class="action-item" role="menuitem" href={reportUrl} target="_blank" rel="noopener noreferrer">
 				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 					<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
 					<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
 				</svg>
 				Nahlásit problém
-			</button>
+			</a>
 			<div class="app-build-info">v{__APP_VERSION__} · build {__APP_BUILD_ID__}</div>
 		</div>
 	{/if}
@@ -179,24 +179,19 @@
 			aria-labelledby="{frontId}-title"
 		>
 			<div class="front-inner">
-				<div class="front-top">
-					<CategoryBadge
-						category={post.category}
-						postId={post.id}
-						onToggle={onCategoryToggle}
-					/>
-				</div>
-
 				<div class="front-main">
-					<h2 id="{frontId}-title" class="title">{post.title}</h2>
-					<p class="teaser">{hook}</p>
-
-					<!-- Dekorativní grafika do spodní části líce. Je v toku
-					     flexu, takže nikdy nepřekryje text ani CTA a nemění
-					     výšku karty — jen vyplní zbývající prostor. -->
 					<div class="front-art" aria-hidden="true">
 						<PostIllustration {post} {active} />
 					</div>
+					<div class="front-top">
+						<CategoryBadge
+							category={post.category}
+							postId={post.id}
+							onToggle={onCategoryToggle}
+						/>
+					</div>
+					<h2 id="{frontId}-title" class="title">{post.title}</h2>
+					<p class="teaser">{hook}</p>
 				</div>
 
 				<div class="front-footer">
@@ -486,7 +481,7 @@
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
 		justify-content: flex-start;
-		padding-top: clamp(20px, 5vh, 44px);
+		padding-top: 0;
 		gap: 14px;
 	}
 
@@ -520,13 +515,13 @@
 		flex: 0 0 auto;
 	}
 
-	/* Ilustrace vyplní jen zbývající spodní prostor líce. Když je text
-	   dlouhý nebo karta nízká, obrázek se zmenší — nikdy ale nezvětší kartu. */
+	/* Illustration keeps its aspect ratio; spare space stays below the hook. */
 	.front-art {
 		position: relative;
-		flex: 1 1 0;
+		flex: 0 1 auto;
+		width: 100%;
+		aspect-ratio: 16 / 9;
 		min-height: 0;
-		margin-top: clamp(4px, 1.2vh, 12px);
 		display: flex;
 		align-items: flex-end;
 		justify-content: center;
@@ -629,7 +624,7 @@
 
 		/* V nízké kartě stačí menší odsazení, aby se text neusekl */
 		.front-main {
-			padding-top: 12px;
+			padding-top: 0;
 		}
 
 		.title {
