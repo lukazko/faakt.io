@@ -407,9 +407,7 @@
     "780",
     "781",
     "782",
-    "783"
-  ],
-  "incomplete": [
+    "783",
     "784",
     "785",
     "786",
@@ -472,7 +470,9 @@
     "843",
     "844",
     "845",
-    "846",
+    "846"
+  ],
+  "incomplete": [
     "847",
     "848",
     "849",
@@ -494,8 +494,80 @@
     "865",
     "866"
   ],
-  "bytes": 4235524,
-  "totalAssets": 683,
+  "bytes": 5898706,
+  "totalAssets": 746,
   "databaseSha256": "b85a1dda9cefdca2a722830ac8e860b3cf88f03404ac8829304b856112a85105",
-  "method": "built-in image_gen; true alpha; size/quality/cost controls unavailable"
+  "method": "built-in image_gen; true alpha; size/quality/cost controls unavailable",
+  "blocker": {
+    "type": "usage_limit_reached",
+    "message": "Built-in image generation returned HTTP 429 usage_limit_reached for remaining IDs. No assets produced for these calls.",
+    "ids": [
+      "847",
+      "848",
+      "849",
+      "850",
+      "851",
+      "852",
+      "853",
+      "854",
+      "855",
+      "856",
+      "857",
+      "858",
+      "859",
+      "860",
+      "861",
+      "862",
+      "863",
+      "864",
+      "865",
+      "866"
+    ],
+    "resetAtUnix": 1793724951,
+    "resetAtPrague": "2026-11-03 17:55 Europe/Prague",
+    "attempts": {
+      "firstGenerationConnectionFailure": [
+        "748"
+      ],
+      "successfulConnectionRetry": [
+        "748"
+      ],
+      "targetedMaterialCorrection": [
+        "833"
+      ],
+      "usageLimitFailures": [
+        "847",
+        "848",
+        "849",
+        "850",
+        "851",
+        "852",
+        "853",
+        "854",
+        "855",
+        "856",
+        "857",
+        "858",
+        "859",
+        "860",
+        "861",
+        "862",
+        "863",
+        "864",
+        "865",
+        "866"
+      ]
+    }
+  },
+  "status": "incomplete_provider_usage_limit",
+  "validationReport": "reports/illustration-validation-623-846.json",
+  "tests": {
+    "command": "npm test",
+    "passed": 2,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "status": "passed"
+  }
 }
