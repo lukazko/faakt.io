@@ -188,10 +188,10 @@
 				</div>
 
 				<div class="front-main">
-					<h2 id="{frontId}-title" class="title">{post.title}</h2>
 					<div class="front-art" aria-hidden="true">
 						<PostIllustration {post} {active} />
 					</div>
+					<h2 id="{frontId}-title" class="title">{post.title}</h2>
 					<p class="teaser">{hook}</p>
 				</div>
 
