@@ -179,9 +179,6 @@
 		>
 			<div class="front-inner">
 				<div class="front-main">
-					<div class="front-art" aria-hidden="true">
-						<PostIllustration {post} {active} />
-					</div>
 					<div class="front-top">
 						<CategoryBadge
 							category={post.category}
@@ -191,6 +188,9 @@
 					</div>
 					<h2 id="{frontId}-title" class="title">{post.title}</h2>
 					<p class="teaser">{hook}</p>
+					<div class="front-art" aria-hidden="true">
+						<PostIllustration {post} {active} />
+					</div>
 				</div>
 
 				<div class="front-footer">
@@ -508,7 +508,7 @@
 		flex: 0 0 auto;
 	}
 
-	/* Illustration keeps its aspect ratio; spare space stays below the hook. */
+	/* Illustration follows the hook; spare space stays below the image. */
 	.front-art {
 		position: relative;
 		flex: 0 1 auto;
