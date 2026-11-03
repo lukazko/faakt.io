@@ -327,9 +327,7 @@
     "700",
     "701",
     "702",
-    "703"
-  ],
-  "incomplete": [
+    "703",
     "704",
     "705",
     "706",
@@ -409,7 +407,9 @@
     "780",
     "781",
     "782",
-    "783",
+    "783"
+  ],
+  "incomplete": [
     "784",
     "785",
     "786",
@@ -494,8 +494,8 @@
     "865",
     "866"
   ],
-  "bytes": 2076216,
-  "totalAssets": 603,
+  "bytes": 4235524,
+  "totalAssets": 683,
   "databaseSha256": "b85a1dda9cefdca2a722830ac8e860b3cf88f03404ac8829304b856112a85105",
   "method": "built-in image_gen; true alpha; size/quality/cost controls unavailable"
 }
