@@ -516,10 +516,12 @@
 		flex: 0 0 auto;
 	}
 
-	/* Illustration above the text uses the remaining card height. */
+	/* Illustration keeps its aspect ratio; spare space stays below the hook. */
 	.front-art {
 		position: relative;
-		flex: 1 1 0;
+		flex: 0 1 auto;
+		width: 100%;
+		aspect-ratio: 16 / 9;
 		min-height: 0;
 		display: flex;
 		align-items: flex-end;
