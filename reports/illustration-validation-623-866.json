@@ -1,0 +1,30 @@
+{
+  "status": "passed",
+  "newIllustrations": 244,
+  "postCount": 766,
+  "totalAssets": 766,
+  "missing": [],
+  "bytes": 6379514,
+  "minBytes": 9488,
+  "maxBytes": 77280,
+  "checks": [
+    "640x360 RGBA",
+    "corner alpha zero",
+    "file <100kB",
+    "SHA-256 prompt and image",
+    "all posts registered in cards and manifest",
+    "original metadata/title/content unchanged",
+    "preexisting assets unchanged",
+    "zero missing illustrations"
+  ],
+  "databaseSha256": "b85a1dda9cefdca2a722830ac8e860b3cf88f03404ac8829304b856112a85105",
+  "tests": {
+    "command": "npm test",
+    "passed": 2,
+    "failed": 0
+  },
+  "build": {
+    "command": "npm run build",
+    "status": "passed"
+  }
+}
