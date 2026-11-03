@@ -493,7 +493,7 @@
     "866"
   ],
   "incomplete": [],
-  "bytes": 6374762,
+  "bytes": 6377122,
   "totalAssets": 766,
   "databaseSha256": "b85a1dda9cefdca2a722830ac8e860b3cf88f03404ac8829304b856112a85105",
   "method": "built-in image_gen; true alpha; size/quality/cost controls unavailable",
@@ -596,5 +596,6 @@
   },
   "subsequentReplacements": [
     "623"
-  ]
+  ],
+  "latestReplacementValidation": "reports/illustration-repair-623-power.json"
 }
