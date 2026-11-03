@@ -1,15 +1,19 @@
 # Ilustrace — aktuální stav
 
+## Zjednodušení ilustrací 600 a 623
+
+`600` používá běžně srozumitelný symbol: červenou značku STOP a auto zastavené před čárou. Ilustruje dohodnutý znak a jeho pochopení; nevysvětluje všechny tři Peircovy kategorie. `623` ukazuje jedinou scénu s koněm, prasetem a slepicí před stodolou, bez šipek a dalších dějových fází. Obě náhrady byly porovnány s originály při 160×90 a 320×180 px na tmavé kartě. Jsou zapnuté v kartách i galerii, 640×360 RGBA WebP, alfa všech rohů 0; velikosti 19 702 a 29 816 B. Vestavěný image_gen použil skutečnou průhlednost bez dostupného řízení rozměrů, kvality a ceny generování. Přesné prompty, původní metadata, hashe i předchozí verze zachovává manifest. Články a metadata se nemění, počet zůstává 766 ilustrovaných příspěvků. Významovou a technickou kontrolu eviduje `reports/illustration-repair-600-623.json`; kontrola souborů i oba testy `npm test` prošly.
+
 <!-- batch-623-start -->
 ## Doplnění zbývajících ilustrací 623–866
 
 Všech 244 požadovaných ilustrací je dokončených, vizuálně zkontrolovaných a zapnutých v kartách i galerii. Všech 766 příspěvků v aktuální databázi má vlastní statický WebP soubor a registraci; žádná ilustrace nechybí. Stav dávky uvádí `reports/illustration-generation-623-866.json`, kompletní validaci `reports/illustration-validation-623-866.json`. Příprava 847–866 je uzavřená v `reports/illustration-pending-847-866.json`; dřívější limit generátoru je vyřešený, zachovaný pouze jako historie.
 
-Vestavěný image_gen používá skutečnou průhlednost; řízení rozměrů, kvality a ceny generování není dostupné. Finální WebP mají 640×360 px, nulovou alfu rohů a velikost pod 100 kB. Celá nová dávka má 6 379 514 B; jednotlivé soubory 9 488–77 280 B. Všechny nové motivy byly prohlédnuté při 160×90 a 320×180 px na tmavém povrchu. Přesné prompty, původní metadata, zdroje, hashe a významové poznámky zachovává manifest.
+Vestavěný image_gen používá skutečnou průhlednost; řízení rozměrů, kvality a ceny generování není dostupné. Finální WebP mají 640×360 px, nulovou alfu rohů a velikost pod 100 kB. Celá nová dávka 623–866 má po náhradě 623 6 374 762 B; jednotlivé soubory 9 488–77 280 B. Všechny nové motivy byly prohlédnuté při 160×90 a 320×180 px na tmavém povrchu. Přesné prompty, původní metadata, zdroje, hashe a významové poznámky zachovává manifest.
 
 Historické a literární scény jsou redakční stylizace, nikoli autentické rekonstrukce. Ilustrace mohou doprovázet vybraný aspekt článku; nevysvětlují všechny mechanismy. Výstupy místy překračují cílový počet ploch, barev a stínových rovin. Barevné stíny 851 zachovávají opačné odstíny podle blokovaného světla; pinyin 854 používá mā → 妈, německá věta 855 správně zvýrazňuje Haus. Klaviatura 856 má sedm bílých a pět černých kláves. Portrét 859 ilustruje obecný jev malovaného pohledu, nikoli měření skutečného směru očí Mony Lisy. Strom 866 ukazuje rozdílné délky kódových cest bez vymyšlených četností. Další omezení jsou u jednotlivých položek manifestu.
 
-Během dávky jednou selhalo spojení u 748; opakování uspělo. Jedna cílená oprava 833 změnila původní modrý drahokamový vzhled na rozpoznatelný zlatavý jantar; původní prompt, zdroj a hash jsou zachované v previousVersion. Ostatní přijaté ilustrace se nepřegenerovaly. Články, metadata a všechny starší obrázky zůstaly beze změny. Deterministický repair proběhl pouze v náhledu. Procedurální renderer ani zlaté otisky se nepoužívají.
+Během dávky jednou selhalo spojení u 748; opakování uspělo. Jedna cílená oprava 833 změnila původní modrý drahokamový vzhled na rozpoznatelný zlatavý jantar; původní prompt, zdroj a hash jsou zachované v previousVersion. Mimo výše uvedené uživatelské náhrady se ostatní přijaté ilustrace nepřegenerovaly. Články a metadata zůstaly beze změny; výše uvedené cílené náhrady jsou jediné následné změny obrázků. Deterministický repair proběhl pouze v náhledu. Procedurální renderer ani zlaté otisky se nepoužívají.
 
 Prošly kontroly rozměrů, alfa kanálu, velikosti, SHA-256 obrázků a promptů, registrace všech příspěvků i nezměněných dat. Oba testy `npm test` a produkční `npm run build` prošly.
 <!-- batch-623-end -->

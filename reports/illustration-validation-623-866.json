@@ -26,5 +26,7 @@
   "build": {
     "command": "npm run build",
     "status": "passed"
-  }
+  },
+  "scope": "Historical validation checkpoint before user-requested replacements of 600 and 623",
+  "subsequentValidation": "reports/illustration-repair-600-623.json"
 }
