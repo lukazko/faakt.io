@@ -1,6 +1,6 @@
 ---
 name: faakt-illustrations
-description: Generate static editorial illustrations for faakt.io post cards from existing posts.json illustration metadata, with mobile sizing and minimal AI usage. Use for requested post illustrations or batches; not for procedural SVG rendering or creating post content.
+description: Generate static editorial illustrations for faakt.io post cards from existing posts.json illustration metadata, with mobile sizing and minimal AI usage. Use for requested post illustrations or batches, including the Czech command „další ilustrace“; not for procedural SVG rendering or creating post content.
 ---
 
 # faakt.io illustrations
@@ -9,10 +9,18 @@ This repository-local workflow works with any AI agent with image-generation acc
 
 Create recognizable, restrained editorial raster artwork from each post's `illustration` metadata. Optimize for small mobile cards and one successful generation per post.
 
+## Repeatable next batch
+
+- Treat **„další ilustrace“** (or „vygeneruj další ilustrace“) as starting this workflow. If the user has not supplied a count, ask **„Pro kolik dalších příspěvků chceš vygenerovat ilustrace?“** and wait for their reply. A positive whole-number reply belongs to the pending batch; do not ask for confirmation again. Ask for a corrected count if the reply is invalid or ambiguous.
+- Once the count N is known, run `node skills/faakt-illustrations/scripts/prepare.mjs --root . --next N`. This read-only selector picks the first N posts without an existing image, in ascending numeric ID order, checking standard paths and manifest aliases. Never combine it with `--force`. It includes the selected titles and full content for semantic review.
+- Use its `selected` IDs as the fixed batch and follow the generation, review and static-delivery rules below. The count authorizes generation for those posts without another approval. If fewer posts remain, process the available ones and report the shortage; if none remain, report completion without image calls.
+- Save accepted assets, merge provenance, register their IDs in the production cards and gallery, and update `docs/ilustrace-handoff.md`. Verify the relevant existing checks. Report completed IDs and any failures. Stop after this batch; do not start another batch automatically.
+- Every invocation recomputes missing images from disk; do not keep a separate cursor or rely on chat memory. Preserve saved progress after interruption. Existing but rejected/unregistered images need review, not automatic regeneration through this command. Creating or modifying this workflow alone does not start generation.
+
 ## Scope and inputs
 
 - Locate the faakt.io checkout and read applicable CLAUDE.md/AGENTS.md instructions. Preserve existing work. Do not alter production rendering or migrate the dataset unless requested.
-- Extract only requested IDs with the bundled helper; never load all of posts.json into model context. Omitted IDs are an error, not permission to generate the full dataset.
+- Extract only requested IDs with the bundled helper; never load all of posts.json into model context. Provide explicit IDs or the bounded `--next N` mode above; omitting both is an error, not permission to generate the full dataset.
   `node skills/faakt-illustrations/scripts/prepare.mjs --root . --ids '018,006'`
 - The helper prints compact prompts only for missing assets and reports cached IDs. It makes no AI calls and writes no files.
 - When the user explicitly requests regeneration of a visually defective cached asset, add `--force` for only those IDs: `node skills/faakt-illustrations/scripts/prepare.mjs --root . --ids '003' --force`. Never use `--force` for an unreviewed batch.

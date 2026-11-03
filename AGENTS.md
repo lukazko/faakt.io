@@ -9,3 +9,7 @@ Read [CLAUDE.md](CLAUDE.md) for project conventions; despite its filename, it do
 - [faakt-illustrations](skills/faakt-illustrations/SKILL.md): generate compact static post illustrations from existing metadata with cache checks and mobile-first art direction.
 
 Skills are stored in this repository under `skills/`. Open the relevant `SKILL.md` and resolve its relative file links from that skill's directory.
+
+## Rychlý povel pro ilustrace
+
+Povel **„další ilustrace“** spouští [faakt-illustrations](skills/faakt-illustrations/SKILL.md). Pokud chybí počet, zeptej se „Pro kolik dalších příspěvků chceš vygenerovat ilustrace?“ a počkej na odpověď. Potom bez dalšího potvrzování zpracuj zadaný počet dosud chybějících ilustrací vzestupně podle ID. Každé spuštění vybírá z aktuálních souborů, takže navazuje i v nové konverzaci.

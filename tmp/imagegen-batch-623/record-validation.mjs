@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const path='reports/illustration-generation-623-866.json';
+const r=JSON.parse(fs.readFileSync(path));
+r.validationReport='reports/illustration-validation-623-846.json';
+r.tests={command:'npm test',passed:2,failed:0};
+fs.writeFileSync(path,JSON.stringify(r,null,2)+'\n');
+const hp='docs/ilustrace-handoff.md';
+let h=fs.readFileSync(hp,'utf8');
+h=h.replace('<!-- batch-623-end -->','\nValidace všech 224 nových souborů prošla: 640×360 RGBA, nulová alfa rohů, SHA-256 obrázků a promptů, registrace, původní data i předchozí obrázky beze změny. Nová dávka má 5 898 706 B, soubory 12 244–77 280 B. V databázi je 766 příspěvků a celkem 746 obrázků; pouze 847–866 zůstávají bez souboru. Oba testy `npm test` prošly. Podrobný protokol je v `reports/illustration-validation-623-846.json`.\n<!-- batch-623-end -->');
+fs.writeFileSync(hp,h);
