@@ -266,24 +266,25 @@
 
 	async function sharePost(post) {
 		const url = getShareUrl(post.id);
-		console.log('🔗 Share URL:', url);
 		if (navigator.share) {
 			try {
 				await navigator.share({ url, title: post.title });
+				return;
 			} catch (err) {
-				// user cancelled
+				// Zrušení dialogu je záměr uživatele; ostatní chyby mají fallback.
+				if (err?.name === 'AbortError') return;
 			}
-		} else {
-			try {
-				await navigator.clipboard.writeText(url);
-				showToast('Odkaz zkopírován do schránky');
-			} catch {
-				showToast('Sdílení není podporováno');
-			}
+		}
+		try {
+			await navigator.clipboard.writeText(url);
+			showToast('Odkaz zkopírován do schránky');
+		} catch {
+			// Například mobilní prohlížeč bez oprávnění ke schránce.
+			window.prompt('Zkopíruj odkaz na příspěvek:', url);
 		}
 	}
 
-	function reportPost(post) {
+	function getReportUrl(post) {
 		const url = getShareUrl(post.id);
 		const title = encodeURIComponent(post.title.slice(0, 80));
 		const body = encodeURIComponent(
@@ -295,7 +296,7 @@
 			'(doplň, co je špatně)\n' +
 			'(fakta, datum, zdroje...)'
 		);
-		window.open('https://github.com/lukazko/faakt.io/issues/new?template=report-post.yml&title=Nahlášení+problému:+ ' + title + '&body=' + body, '_blank');
+		return 'https://github.com/lukazko/faakt.io/issues/new?template=report-post.yml&title=Nahlášení+problému:+' + title + '&body=' + body;
 	}
 
 	let toastTimeout;
@@ -405,7 +406,7 @@
 						onToggleActions={() => (menuOpen = !menuOpen)}
 						onCloseActions={() => (menuOpen = false)}
 						onShare={sharePost}
-						onReport={reportPost}
+						reportUrl={getReportUrl(post)}
 					/>
 				</div>
 			{/each}

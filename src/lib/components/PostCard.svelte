@@ -20,7 +20,7 @@
 	 *   onToggleActions?: (() => void) | null,
 	 *   onCloseActions?: (() => void) | null,
 	 *   onShare?: ((post: any) => void) | null,
-	 *   onReport?: ((post: any) => void) | null
+	 *   reportUrl?: string | null
 	 * }}
 	 */
 	import { tick } from 'svelte';
@@ -37,7 +37,7 @@
 		onToggleActions = null,
 		onCloseActions = null,
 		onShare = null,
-		onReport = null
+		reportUrl = null
 	} = $props();
 
 	let hook = $derived(getHook(post.content));
@@ -148,13 +148,13 @@
 				</svg>
 				Sdílet
 			</button>
-			<button class="action-item" role="menuitem" onclick={() => { onReport?.(post); onCloseActions?.(); }}>
+			<a class="action-item" role="menuitem" href={reportUrl} target="_blank" rel="noopener noreferrer">
 				<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 					<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
 					<path d="M22 2l-4.5 4.5"/><path d="M17 2v4h4"/>
 				</svg>
 				Nahlásit problém
-			</button>
+			</a>
 			<div class="app-build-info">v{__APP_VERSION__} · build {__APP_BUILD_ID__}</div>
 		</div>
 	{/if}
