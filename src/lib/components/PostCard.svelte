@@ -449,7 +449,7 @@
 
 	@keyframes flip-preview {
 		0%, 100% { transform: rotateY(0deg); }
-		45% { transform: rotateY(-20deg); }
+		45% { transform: rotateY(20deg); }
 	}
 
 	.card-face {
