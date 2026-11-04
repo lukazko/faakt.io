@@ -36,11 +36,11 @@ test.beforeEach(async ({ page }) => {
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
 });
 
-async function activate(locator, page) {
+async function activate(locator, page, horizontal = 0.5) {
 	await expect(locator).toBeVisible();
 	const box = await locator.boundingBox();
 	expect(box).not.toBeNull();
-	const point = { x: box.x + box.width / 2, y: box.y + box.height / 2 };
+	const point = { x: box.x + box.width * horizontal, y: box.y + box.height / 2 };
 	const hit = await locator.evaluate((element, point) => {
 		const target = document.elementFromPoint(point.x, point.y);
 		return { matches: element.contains(target), description: target?.outerHTML.slice(0, 250) };
@@ -55,6 +55,8 @@ async function activate(locator, page) {
 async function openMenu(page) {
 	await activate(page.locator('.is-active .card-face[aria-hidden="false"]').getByRole('button', { name: 'Další možnosti' }), page);
 	await expect(page.getByRole('menu')).toBeVisible();
+	await expect(page.getByRole('menuitem', { name: 'Sdílet' })).toHaveCount(0);
+	await expect(page.getByRole('menu').locator('.app-build-info')).toContainText('build');
 	await page.getByRole('menu').evaluate(async menu => {
 		await Promise.all(menu.getAnimations().map(animation => animation.finished));
 	});
@@ -77,8 +79,7 @@ for (const side of ['front', 'back']) {
 				await page.addStyleTag({ content: '.feed-container { isolation: isolate; }' });
 			}
 			if (side === 'back') await flip(page);
-			await openMenu(page);
-			await activate(page.getByRole('menuitem', { name: 'Sdílet', exact: true }), page);
+			await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 			await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([
 				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=001', title: posts.find(post => post.id === '001').title } }
 			]);
@@ -100,7 +101,7 @@ for (const side of ['front', 'back']) {
 	test(`${side}: outside click closes menu without flipping card`, async ({ page }) => {
 		if (side === 'back') await flip(page);
 		await openMenu(page);
-		await activate(page.locator(`.is-active .card-${side} h2`), page);
+		await activate(page.locator(`.is-active .card-${side} h2`), page, 0.05);
 		await expect(page.getByRole('menu')).toHaveCount(0);
 		await expect(page.locator(`.is-active .card-${side}`)).toHaveAttribute('aria-hidden', 'false');
 		await openMenu(page);
@@ -118,13 +119,12 @@ for (const mode of ['unavailable', 'denied', 'cancelled', 'clipboard-denied']) {
 			else window.shareError = mode === 'cancelled' ? 'AbortError' : 'NotAllowedError';
 			window.clipboardError = mode === 'clipboard-denied';
 		}, mode);
-		await openMenu(page);
 		const dialogPromise = mode === 'clipboard-denied' ? page.waitForEvent('dialog').then(async (dialog) => {
 			expect(dialog.type()).toBe('prompt');
 			expect(dialog.defaultValue()).toBe('http://127.0.0.1:4175/faakt.io/?post=001');
 			await dialog.dismiss();
 		}) : null;
-		await activate(page.getByRole('menuitem', { name: 'Sdílet', exact: true }), page);
+		await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 		if (dialogPromise) {
 			await dialogPromise;
 		} else if (mode === 'cancelled') {
