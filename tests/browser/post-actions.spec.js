@@ -79,7 +79,7 @@ async function flip(page) {
 	});
 }
 
-test('flip hint plays once across cards and reloads', async ({ page }) => {
+test('flip hint plays once across cards and repeats after reload until a real flip', async ({ page }) => {
 	const stage = page.locator('.is-active .card-stage');
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
 	await stage.evaluate(async el => {
@@ -90,12 +90,15 @@ test('flip hint plays once across cards and reloads', async ({ page }) => {
 	await expect(page.locator('.post-card').nth(1)).toHaveClass(/is-active/);
 	await expect(page.locator('.flip-hint')).toHaveCount(0);
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
+	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBeNull();
 	await page.reload();
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
-	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
+	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBeNull();
 });
 
 test('flip hint returns in a new tab session', async ({ page, context }) => {
+	await flip(page);
 	await expect.poll(() => page.evaluate(() =>
 		sessionStorage.getItem('faakt:flip-hint-seen')
 	)).toBe('1');
@@ -115,6 +118,7 @@ test('flip hint returns in a new tab session', async ({ page, context }) => {
 
 test('actual flip cancels the hint', async ({ page }) => {
 	await flip(page);
+	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBe('1');
 	await expect(page.locator('.flip-hint')).toHaveCount(0);
 	await page.reload();
 	await expect(page.locator('.is-active .card-front')).toBeVisible();

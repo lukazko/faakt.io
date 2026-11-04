@@ -28,7 +28,7 @@
 	import PostBody from './PostBody.svelte';
 	import PostIllustration from './PostIllustration.svelte';
 	import { getHook } from '$lib/teaser.js';
-	import { consumeFlipHint } from '$lib/flipHint.js';
+	import { consumeFlipHint, markCardFlipped } from '$lib/flipHint.js';
 
 	let {
 		post,
@@ -66,7 +66,7 @@
 
 	async function flipToBack() {
 		if (flipped) return;
-		consumeFlipHint();
+		markCardFlipped();
 		flipHint = false;
 		// Nabídka patří jedné straně — při otáčení by na rubu visela
 		// zrcadlově, takže ji otočení zavře.
@@ -450,7 +450,7 @@
 
 	@keyframes flip-preview {
 		0%, 100% { transform: rotateY(0deg); }
-		45% { transform: rotateY(-10deg); }
+		45% { transform: rotateY(-20deg); }
 	}
 
 	.card-face {
