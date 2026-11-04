@@ -28,6 +28,7 @@
 	import PostBody from './PostBody.svelte';
 	import PostIllustration from './PostIllustration.svelte';
 	import { getHook } from '$lib/teaser.js';
+	import { consumeFlipHint } from '$lib/flipHint.js';
 
 	let {
 		post,
@@ -45,6 +46,17 @@
 	// Stav otočení patří konkrétní kartě. Feed každou kartu klíčuje podle
 	// post.id, takže se nikdy nezobrazí rub u jiného příspěvku.
 	let flipped = $state(false);
+	let flipHint = $state(false);
+
+	$effect(() => {
+		if (!active || flipped) {
+			flipHint = false;
+			return;
+		}
+		if (consumeFlipHint()) {
+			flipHint = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		}
+	});
 
 	let frontBtnEl = $state(null);
 	let backScrollEl = $state(null);
@@ -54,6 +66,8 @@
 
 	async function flipToBack() {
 		if (flipped) return;
+		consumeFlipHint();
+		flipHint = false;
 		// Nabídka patří jedné straně — při otáčení by na rubu visela
 		// zrcadlově, takže ji otočení zavře.
 		onCloseActions?.();
@@ -163,11 +177,12 @@
 <article
 	class="post-card"
 	class:flipped
+	class:flip-hint={flipHint}
 	class:is-active={active}
 	onkeydown={handleKeydown}
 	onclick={handleCardClick}
 >
-	<div class="card-stage">
+	<div class="card-stage" onanimationend={() => { flipHint = false; }}>
 		<!-- LÍC -->
 		<section
 			id={frontId}
@@ -429,6 +444,15 @@
 		transform: rotateY(180deg);
 	}
 
+	.post-card.flip-hint:not(.flipped) .card-stage {
+		animation: flip-preview 1.2s ease-in-out 0.5s;
+	}
+
+	@keyframes flip-preview {
+		0%, 100% { transform: rotateY(0deg); }
+		45% { transform: rotateY(-10deg); }
+	}
+
 	.card-face {
 		position: absolute;
 		cursor: pointer;
@@ -653,6 +677,10 @@
 	@media (prefers-reduced-motion: reduce) {
 		.card-stage {
 			transition: none;
+		}
+
+		.post-card.flip-hint .card-stage {
+			animation: none;
 		}
 
 		/* Bez animace není co otáčet — tlačítko odvrácené strany zmizí hned */
