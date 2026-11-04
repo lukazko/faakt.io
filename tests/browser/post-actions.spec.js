@@ -95,6 +95,24 @@ test('flip hint plays once across cards and reloads', async ({ page }) => {
 	await expect(page.locator('.flip-hint')).toHaveCount(0);
 });
 
+test('flip hint returns in a new tab session', async ({ page, context }) => {
+	await expect.poll(() => page.evaluate(() =>
+		sessionStorage.getItem('faakt:flip-hint-seen')
+	)).toBe('1');
+	const url = page.url();
+	await page.close();
+	const nextPage = await context.newPage();
+	await nextPage.route('**/data/posts.json', route => route.fulfill({ json: posts }));
+	await nextPage.addInitScript(() => {
+		window.flipHintStarts = 0;
+		document.addEventListener('animationstart', event => {
+			if (event.animationName.endsWith('flip-preview')) window.flipHintStarts++;
+		});
+	});
+	await nextPage.goto(url);
+	await expect.poll(() => nextPage.evaluate(() => window.flipHintStarts)).toBe(1);
+});
+
 test('actual flip cancels the hint', async ({ page }) => {
 	await flip(page);
 	await expect(page.locator('.flip-hint')).toHaveCount(0);
@@ -105,7 +123,7 @@ test('actual flip cancels the hint', async ({ page }) => {
 
 test('reduced motion skips the hint', async ({ page }) => {
 	await page.emulateMedia({ reducedMotion: 'reduce' });
-	await page.evaluate(() => localStorage.clear());
+	await page.evaluate(() => sessionStorage.clear());
 	await page.reload();
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
 	await expect(page.locator('.flip-hint')).toHaveCount(0);

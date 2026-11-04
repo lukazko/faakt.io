@@ -6,8 +6,8 @@ export function consumeFlipHint() {
 	if (consumed) return false;
 	consumed = true;
 	try {
-		if (window.localStorage.getItem(STORAGE_KEY)) return false;
-		window.localStorage.setItem(STORAGE_KEY, '1');
+		if (window.sessionStorage.getItem(STORAGE_KEY)) return false;
+		window.sessionStorage.setItem(STORAGE_KEY, '1');
 	} catch {
 		// Private browsing or blocked storage must not interrupt card interaction.
 	}
