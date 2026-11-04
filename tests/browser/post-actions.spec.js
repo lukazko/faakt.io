@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
 const posts = JSON.parse(readFileSync(new URL('../../static/data/posts.json', import.meta.url), 'utf8'))
-	.filter(post => ['001', '002'].includes(post.id));
+	.filter(post => ['1', '2'].includes(post.id));
 
 // Testujeme skutečné hit testing a události prohlížeče. Mockované jsou jen
 // systémové služby, jejichž dialogy nelze v automatizaci ovládat.
@@ -36,7 +36,7 @@ test.beforeEach(async ({ page }, testInfo) => {
 	await page.context().route('https://github.com/**', (route) => route.fulfill({
 		contentType: 'text/html', body: '<h1>Report</h1>'
 	}));
-	await page.goto('./?post=001');
+	await page.goto('./?post=1');
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
 	if (!/flip hint|actual flip|reduced motion/.test(testInfo.title)) {
 		await page.locator('.is-active .card-stage').evaluate(async stage => {
@@ -44,6 +44,14 @@ test.beforeEach(async ({ page }, testInfo) => {
 		});
 	}
 });
+
+for (const link of ['./?post=002', './?post=02', './post/002/', './post/2/']) {
+	test(`historical and canonical post link ${link}`, async ({ page }) => {
+		await page.goto(link);
+		await expect(page.locator('.is-active .card-front')).toContainText(posts.find(post => post.id === '2').title);
+		await expect(page.locator('.is-active img')).toHaveAttribute('src', /\/illustrations-ai\/2\.webp$/);
+	});
+}
 
 async function activate(locator, page, horizontal = 0.5) {
 	await expect(locator).toBeVisible();
@@ -148,7 +156,7 @@ for (const side of ['front', 'back']) {
 			if (side === 'back') await flip(page);
 			await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 			await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([
-				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=001', title: posts.find(post => post.id === '001').title } }
+				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=1', title: posts.find(post => post.id === '1').title } }
 			]);
 			await expect(page.getByRole('menu')).toHaveCount(0);
 			await openMenu(page);
@@ -158,8 +166,8 @@ for (const side of ['front', 'back']) {
 			await expect(popup).toHaveURL(/https:\/\/github.com\/lukazko\/faakt.io\/issues\/new\?/);
 			const url = new URL(popup.url());
 			expect(url.searchParams.get('template')).toBe('report-post.yml');
-			expect(url.searchParams.get('body')).toContain('**ID příspěvku:** 001');
-			expect(url.searchParams.get('body')).toContain('http://127.0.0.1:4175/faakt.io/?post=001');
+			expect(url.searchParams.get('body')).toContain('**ID příspěvku:** 1');
+			expect(url.searchParams.get('body')).toContain('http://127.0.0.1:4175/faakt.io/?post=1');
 			// Kontext po testu zavře i popup; některé WebKity při explicitním
 			// close nové záložky zbytečně čekají na návrat fokusu.
 		});
@@ -188,7 +196,7 @@ for (const mode of ['unavailable', 'denied', 'cancelled', 'clipboard-denied']) {
 		}, mode);
 		const dialogPromise = mode === 'clipboard-denied' ? page.waitForEvent('dialog').then(async (dialog) => {
 			expect(dialog.type()).toBe('prompt');
-			expect(dialog.defaultValue()).toBe('http://127.0.0.1:4175/faakt.io/?post=001');
+			expect(dialog.defaultValue()).toBe('http://127.0.0.1:4175/faakt.io/?post=1');
 			await dialog.dismiss();
 		}) : null;
 		await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
@@ -199,7 +207,7 @@ for (const mode of ['unavailable', 'denied', 'cancelled', 'clipboard-denied']) {
 			await expect(page.locator('#toast')).not.toHaveClass(/visible/);
 		} else {
 			await expect.poll(() => page.evaluate(() => window.actionCalls.filter(c => c.type === 'copy'))).toEqual([
-				{ type: 'copy', url: 'http://127.0.0.1:4175/faakt.io/?post=001' }
+				{ type: 'copy', url: 'http://127.0.0.1:4175/faakt.io/?post=1' }
 			]);
 			await expect(page.locator('#toast')).toHaveText('Odkaz zkopírován do schránky');
 			await expect(page.locator('#toast')).toHaveClass(/visible/);

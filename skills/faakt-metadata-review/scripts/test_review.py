@@ -19,7 +19,7 @@ class ReviewTests(unittest.TestCase):
         self.state = root / 'state.json'
         self.decisions = root / 'review.json'
         self.data = [{
-            'id': '018', 'title': 'Řeka a nečinění',
+            'id': '18', 'title': 'Řeka a nečinění',
             'content': '<p>Plný text &amp; význam.</p><p>Další odstavec.</p>',
             'category': 'filozofie', 'sources': [{'label': 'Zdroj', 'url': 'https://example.org'}],
             'illustration': {
@@ -31,7 +31,7 @@ class ReviewTests(unittest.TestCase):
             },
         }]
         second = copy.deepcopy(self.data[0])
-        second['id'] = '022'
+        second['id'] = '22'
         self.data.append(second)
         self.posts.write_bytes(review.encoded(self.data).replace(b'\n', b'\r\n'))
 
@@ -39,7 +39,7 @@ class ReviewTests(unittest.TestCase):
         return review.main([command, '--posts', str(self.posts), '--state', str(self.state), *extra])
 
     def decision(self, verdict='change', patch=None):
-        result = {'id': '018', 'input_hash': review.digest(self.data[0]),
+        result = {'id': '18', 'input_hash': review.digest(self.data[0]),
                   'verdict': verdict, 'reason': 'Show yielding and patient erosion.'}
         if verdict == 'change':
             result['illustration'] = patch if patch is not None else {
@@ -55,7 +55,7 @@ class ReviewTests(unittest.TestCase):
         batch = self.run_command('batch', '--limit', '1')
         self.assertEqual(len(batch['batch']), 1)
         self.assertIn('Plný text & význam.\n\nDalší odstavec.', batch['batch'][0]['content_text'])
-        self.assertEqual(self.run_command('status')['pending_ids'], ['018', '022'])
+        self.assertEqual(self.run_command('status')['pending_ids'], ['18', '22'])
 
     def test_dry_run_writes_nothing(self):
         raw = self.posts.read_bytes()
@@ -71,8 +71,8 @@ class ReviewTests(unittest.TestCase):
         old = b'A generic river.'
         new = b'A river yields around rocks while gradually carving a canyon.'
         self.assertEqual(after, before.replace(old, new, 1))
-        self.assertEqual(self.run_command('status')['pending_ids'], ['022'])
-        self.assertEqual(self.run_command('batch', '--ids', '018')['batch'][0]['id'], '018')
+        self.assertEqual(self.run_command('status')['pending_ids'], ['22'])
+        self.assertEqual(self.run_command('batch', '--ids', '18')['batch'][0]['id'], '18')
         self.assertEqual(self.run_command('status', '--force')['pending'], 2)
 
     def test_changed_article_invalidates_checkpoint(self):

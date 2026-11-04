@@ -1,0 +1,756 @@
+{
+  "ids": [
+    "867",
+    "868",
+    "869",
+    "870",
+    "871",
+    "872",
+    "873",
+    "874",
+    "875",
+    "876",
+    "877",
+    "878",
+    "879",
+    "880",
+    "881",
+    "882",
+    "883",
+    "884",
+    "885",
+    "886",
+    "887",
+    "888",
+    "889",
+    "890",
+    "891",
+    "892",
+    "893",
+    "894",
+    "895",
+    "896"
+  ],
+  "count": 30,
+  "width": 640,
+  "height": 360,
+  "format": "RGBA WebP",
+  "totalBytes": 658610,
+  "minBytes": 8972,
+  "maxBytes": 34928,
+  "cornerAlpha": "all zero",
+  "reviewSizes": [
+    "160x90",
+    "320x180"
+  ],
+  "generationCalls": 32,
+  "corrections": [
+    "868: remove smoke/grain/glow background",
+    "893: replace incorrect patch with single reference-accurate hat polygon"
+  ],
+  "originalManifestRecordsPreserved": 766,
+  "manifestRecords": 796,
+  "cardIds": 796,
+  "gallery": "manifest-driven; all new entries registered",
+  "originalManifestSha256": "1d806da0167af7b0a8097a62d818d3c0f7f54c5710700e43a171b4f08060c719",
+  "manifestSha256": "8632d0a28b32482acc9e8185b85bde56c697316e8d99fe603f7a8de5ac548d87",
+  "entries": [
+    {
+      "id": "867",
+      "bytes": 29284,
+      "promptHash": "ff22e2f1e5e064c92ef091d37985250141a226d00479e483fb5ea98a3f52e01f",
+      "metadataHash": "017ad2e9b865485772e4ea6db75ab5893360c73f70e7eb5f234764ad78baadbe",
+      "imageSha256": "64e654a494e4523ed2902512b4e46171b94f2bdff1453733ec2b287c86ee9b10",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Anonymous ruler privately rewards one supporter; accompanies selectorate incentives, not a portrait of a specific government.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "868",
+      "bytes": 25920,
+      "promptHash": "11536a31b77af65aebfb5a3024147aa2e508b7b79ca860147a848aeaa7641d14",
+      "metadataHash": "de15d676a43c04efeee0f12dc299a247c7c974f11b504ab007bcaf34cd0786ad",
+      "imageSha256": "225073d83866bdb67e65dadf21fed59004b352a94a02528562c3f0c16ea9cb21",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Exactly five voters, with the median third figure highlighted; ordinal median illustration, not a claim about real electoral outcomes. Smoke/glow removed in one targeted edit.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "869",
+      "bytes": 26852,
+      "promptHash": "12cccd919aa0d06944ddd2ec67ca1fc8bd31c93ca7e40237ffe8a9c5fb5dd98a",
+      "metadataHash": "630de5f797e5e11c5e4a790933d4ccee45e7aa4f64706d85777b2b77a7a39a4d",
+      "imageSha256": "9b93b065330f32656415b056c606602d18b6e3e63ca07b8ce4b40b3067ab46c5",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Meeting chair grips the ledger while members wait; accompanies information and organizational advantages of officials.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "870",
+      "bytes": 30128,
+      "promptHash": "a95e485d7f084298ea7fbad7b9e5cfad7990025abaccc3649e17b3db97457213",
+      "metadataHash": "414ea5288c6a352e943ed4dbe9872f6e33084f95a8dcc495257923d965e30059",
+      "imageSha256": "8cdefd6725388b1a9861f8e592eebfcf292b6c6a6663488f4a6a0bcd3374cd1e",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "A greeting links two separate social circles; accompanies weak ties and access to different information, not a diagram of the LinkedIn experiment.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "871",
+      "bytes": 19170,
+      "promptHash": "2d2dfcf4f2253081523c1d0c2a9e29a90c15497be13d5c2dbd9c6014ef42e830",
+      "metadataHash": "2f620465017e3a0d46e071823f299efafd319c7374fba4b2a4b12c5d7ab577ed",
+      "imageSha256": "0430c6b11b29bee7cf1a5e493068feb5bfe2d41b64ec97ae0672f2152a408fce",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Hesitant person beside conflicting blank signpost; metaphor for weakened shared normative guidance, not a medical diagnosis.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "872",
+      "bytes": 14040,
+      "promptHash": "09a21e170b1d39b073308b13205296385e9de79488d4fc2f67dcc4a66eddb951",
+      "metadataHash": "49231c331d53839101a1d57907514c52126ae6d3e48dacd1e74194a7215ae6e9",
+      "imageSha256": "8ce872804fdad60ea4f5dfd5ea4a32e94a959c4b9bc22830f954072bd18f29ba",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Waiter relaxes behind a kitchen doorway; coherent backstage scene accompanying impression management.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "873",
+      "bytes": 30264,
+      "promptHash": "f8ea7fc939e1e14896d575179db3b4d5381fed784f0e4440cf5ff181d2f4d467",
+      "metadataHash": "19c61e7ecfb52df509b82350895e0060219e0bfe5aa6e457bb62dc7f4b281d94",
+      "imageSha256": "64b2652f5dfff5289c8534065afba5afade442f830fc040a25255501f36ecade",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Anonymous ancient debtor with open hands and broken restraint; symbolic debt release, not abolition of all slavery or a portrait of Solon.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "874",
+      "bytes": 34928,
+      "promptHash": "8fc585c2b546717db03f581425495bb1e154e34340c81ba4428ada4aa44d0ffd",
+      "metadataHash": "3626d3097048d8fdd4dbd09b8e9e66ca878d262fc37c00faad46d6a77e7b82d8",
+      "imageSha256": "9f1eaca73284cb67ff3cc8b15f4e49e6cf63204d87be763492da7fe29136220d",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Roman official hands a blank scroll to a provincial recipient; symbolic citizenship grant, not a reconstruction of the damaged surviving papyrus.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "875",
+      "bytes": 29498,
+      "promptHash": "a3a66bb4b8a70c69468343e39cd27759a4f6a854f9be46db1daecd3b31feb689",
+      "metadataHash": "d253d5e86e06f684cd171cdec83aab8a67f54245621abb47c4846d9bbc4e801b",
+      "imageSha256": "7ccc03c4fd0dc1310596b868033dcf94434ce719ec0fecdc375d5011036027d0",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Chiselled-out line on a Roman inscription; remaining conventional Latin letters establish the object, not an invented historical quotation.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "876",
+      "bytes": 31062,
+      "promptHash": "7e953b1a1f3ce416bcb1deb4db0eb98c21681ba336d437587ed56d9487225ad7",
+      "metadataHash": "72c7d83ab20c026d17a79d753f39ff5452db5fd280d8bb0a13eb0964994a19aa",
+      "imageSha256": "76411bad3eb872d9f780423e3d60348384fa2629c41327f0387d7ad9e166fce7",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Ancient thinker reaches toward cake beside a closed study tablet; symbolic temptation versus endorsed judgement, not a historical event.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "877",
+      "bytes": 17694,
+      "promptHash": "864441b6029759da3095e876159f1fd9702d80204173066575f296c3613b2294",
+      "metadataHash": "704890a09897cd4426e2b15de6af71d1c6183b3a899aba72dbb3942e121058b8",
+      "imageSha256": "cfc55b61849b5f40ea827b53ca7d9fbba82f58818768760b5b6e98dac7031e2a",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Flexible measuring strip bends around irregular stone; illustrates Aristotle’s analogy, using palette colors rather than a literal lead material sample.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "878",
+      "bytes": 11540,
+      "promptHash": "35c83ffe0aa8956cd96444556164bc01b5576cf89a9d0d1a903fc6ba872e6bb9",
+      "metadataHash": "4020857be3c1df1522652b5293943324ba592fe3d1378eaa3d8cba2e3af1250c",
+      "imageSha256": "eb0c90874c3ef01789ecd9b688dedf8b5bc7cd4aba01a8b532e468c80bc629ce",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Cylinder and cone share a ramp; accompanies the different internal shapes in Chrysippus’s analogy, not a physical simulation of their trajectories.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "879",
+      "bytes": 22940,
+      "promptHash": "9c6e4e7f5d62b8d206eb41fc98834d47a3a563e2d5355c53a7633ac14e199e65",
+      "metadataHash": "0e09271d9737f4797cd07586d0b3744f2fbe7a3538cfa3b8cef56fd7315c3a2d",
+      "imageSha256": "3610e3790d186a6178c5b69c9c9c652503fe530f3e679c91a4e63fb3c1bd9d9e",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Mutual deliberate handshake accompanies a promise; no claim that gesture alone is Austin’s verbal act.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "880",
+      "bytes": 21612,
+      "promptHash": "fc40518f5f3ac274cdb31ce86ad31f56dbffd8dceb2329e5da259d3d91282b8a",
+      "metadataHash": "cbe928422c41c2586d0b17d37de76efa44dc616c204e900b05349ebe3a036ba8",
+      "imageSha256": "779b4606108f8b81f2c58c4ed4c8e8d78ab7edb02c9c750039747d58c7dbb9bc",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "White-cane user senses a curb; accompanies practical incorporation of an accustomed tool into body schema.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "881",
+      "bytes": 18932,
+      "promptHash": "6ebc8bb3c4c9fc4d481d0e7ac2159ece9d88a36cc39f64340616e867ec92b84f",
+      "metadataHash": "91cb9d31abe8e42b95b25fa6017d4a8badfdb4412281235aad0c29ed1de122a7",
+      "imageSha256": "0283fcb09c6ca40ef11cff5b80ac2f10cae713d2a648137284d8cd12d8bf4f11",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Nuclear cluster emits three separated dots; symbolic three-proton loss, not a counted model of all nucleons or industrial gold production.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "882",
+      "bytes": 28526,
+      "promptHash": "56bde674355304e679fd6a600831b24cb822a748cb62c76ebe7380d08e22bd2b",
+      "metadataHash": "080291c34654c443cae7bcbe7d0ba4ae981d1f3eabe4498fc5e752dbac9baed5",
+      "imageSha256": "482e36f483a98766b38e448b54ccff6e1da77cd0c2c7d1aa105a26980cbb2e36",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Two three-dot clusters with unequal mirrored traces accompany baryon/antibaryon CP asymmetry; no fabricated measurement values.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "883",
+      "bytes": 8972,
+      "promptHash": "19b03fa2da0766aa0ae3693ab1602ad8f9bfa3dc7df2161126d12f3d46ee1ba2",
+      "metadataHash": "f7fece01a1d9f138c844db0dffd33ebaa7f49f67c8f7dbd51ea2fdd62818005a",
+      "imageSha256": "a545fe5c4d707882cacd8680c23e0d66c37805e3ff2ae7310c5d657fb2ac21af",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Crystal containing a small nuclear motif receives one violet beam; accompanies laser-driven nuclear transition, without depicting a complete feedback apparatus.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "884",
+      "bytes": 30402,
+      "promptHash": "5410940a24dacb052ce62bb9a075d648da339de2238015dd80a8da6e32d61fda",
+      "metadataHash": "6cab4b4637c2510ccbf03c680096323a87a7906d6fcc502f29548d1330c9fc8d",
+      "imageSha256": "b83caf7c3ceaef492b262560de2cba04551d1b679db8e2b4ca2f990b73f5cbfc",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Person leaves a meal table for a walk; accompanies the timing intervention, without suggesting a diabetes cure.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "885",
+      "bytes": 21538,
+      "promptHash": "751e2509440c645f4576206f355c697876ab7575541d7341b8b04099bc10e28d",
+      "metadataHash": "f46dcc31ec55a53198261bf334f27112df39461ae3d5895ee693f9f98067b5dc",
+      "imageSha256": "3315f898583bf6fa62df6e5212449fa43fac6226bbb49d9e0d2674f93162d018",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Recognizable bowl of oatmeal and spoon; accompanies oat beta-glucan, not a diagram or guarantee of lipid reduction.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "886",
+      "bytes": 15754,
+      "promptHash": "da929a34e6782fe4aa30c74cead59a70d994a1bf7b47e1488171f9990a341ed3",
+      "metadataHash": "3ab284386eb122a60852f02d0a6a3d7a433b6d76561a36df8372876913cfb8e7",
+      "imageSha256": "37446e0a458f74808080dc72acfccaa6f1791496414e09e2df1a3dbb35f3897d",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Resting person under a blanket with unlit lamp; accompanies sleep extension, without predicting individual weight loss.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "887",
+      "bytes": 28892,
+      "promptHash": "2c4f7be3099c08d27cdcdcc6373a2217b09fa34cfea96b2be3bc8a737bd4ca44",
+      "metadataHash": "f62c7d758d44abc635fd50195f03bd4aba05a2ff5b9e311ba50cf8a4c8e6b06c",
+      "imageSha256": "dfa4e173630a65118b3e2a745d2594e9991725a7fcfe249a62bddf4b588ff44d",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Small directed network with highlighted route; topic accompaniment, not a numerical worked example or the full new shortest-path algorithm.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "888",
+      "bytes": 16338,
+      "promptHash": "4ccbd405d484b67bd7aafb4f6d9aecfc0f2b01f4f39e18398c6b019c95d6ca29",
+      "metadataHash": "4a84537c4bda4628102850a6e391c13d80a3979400000f0330d330d5aaa8e082",
+      "imageSha256": "ffc4b0239253a1fad8e568917c8325b98db84fe517d932b565fb30ca7205da01",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Two small grids meet at a highlighted cell; matrix-multiplication topic accompaniment, not a representation of the exponent proof.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "889",
+      "bytes": 14366,
+      "promptHash": "911664c334a1b596e2937959385f7ef3150c0dfd0c88e5f26f4d696a73bd1a42",
+      "metadataHash": "ede776f8ca5f4ad3df32c9c4fc58265051aa48409b3ff18a6dd71d6830a6e918",
+      "imageSha256": "13442d9fe3ba1190e4de53cc64ba9b7bc2db40974e5f93914029dca5ed492cd4",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Closed padlock integrated with a chip; accompanies computation while data remains encrypted, not a claim of security for all surrounding software.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "890",
+      "bytes": 15196,
+      "promptHash": "67eb4c6d6332078cea3c2c02f275f36b64e629f2a241f1447fc52ed65a928ae7",
+      "metadataHash": "9065e52547cde5d2698538ab73386b9611498381e250b024ed1ba2ca00a00b6e",
+      "imageSha256": "608413336697012cf8b5062848df0ef9b8d580b9f43b2bdedc51778aeb3d226a",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Diagonally stretched skull; recognizable anamorphic motif accompanying Holbein, not a color-accurate reproduction of the painting.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "891",
+      "bytes": 27150,
+      "promptHash": "35ee7f96ac5a3582ceeac0a43f7ab17aad8157f7ee82f782d192172a6b5f8638",
+      "metadataHash": "9bc624e86537f723d25ce1bb0322cf19134ab08ca95d24b9fe32beaded118d93",
+      "imageSha256": "7ba86614162cef09ff3a5e7145256ced11c7be8824dec4cc1f20db99ca3fbcca",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Book, character silhouette and shared speech shape; accompanies narration adopting the character’s voice without literal quoted text.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "892",
+      "bytes": 18322,
+      "promptHash": "db1ca0703114bccbcba4c9c87915c6abb03108be28ba2760af861e44b3812cf5",
+      "metadataHash": "cf576d11a2c843c5cdfd485f140b90968c4713370cb20b3f62f7897cb641190f",
+      "imageSha256": "e9991d05ef9a70f176cbbd4d856128690562bf96d1b13578de5b01bb5a991ee8",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Film camera and facing actors; simple filmmaking accompaniment, not a full overhead geometric proof of the 180-degree rule.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "893",
+      "bytes": 17192,
+      "promptHash": "98354a88dd20055fc51316e4fd1c640166c3558c96297a924f4265f27d77c13e",
+      "metadataHash": "b224855c384888942a3acd8dfafbc44799689cb69bad3f5b66f72f381d1b7c29",
+      "imageSha256": "53ff3db9cd7a1063b36c3fefc72cb49c801d04a4dc0939f912d30ba7b3a6c6c1",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Single thirteen-sided hat polygon follows the CC0 outline linked by the authors. Initial nonmatching patch was rejected. The image accompanies the tile, not a proof of an infinite aperiodic tiling.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "894",
+      "bytes": 11164,
+      "promptHash": "11fd632ab0762368ab4327f1f4dd56c9107eccf11f53679aefcdecbf441ebae4",
+      "metadataHash": "60f434ec3c9ef079e4b77f3a2becb0f16ae7d0bfdf3d6c820ea6cc8132a3da3b",
+      "imageSha256": "5ee5c8cc93bd69f2976d4677c351f6e32c9468540eca5e908a98cccfd52b9d20",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Dark rocky fragment with enlarged pale salt patches; topic accompaniment, not a scale-accurate microscopic Bennu sample image.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "895",
+      "bytes": 22550,
+      "promptHash": "bdcb55b53a076f151dc3945f0d571cbc790ffc59ae7289dccf31078d46ede5a8",
+      "metadataHash": "af385ddedd2567c36848dbc98bc61714902da82dc34eba51633f35c532a90a11",
+      "imageSha256": "74c670e1b3e3bec9e7da5c3889ed4b431f1cde2cebf4db9a77a1522dddf8063d",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Hollow Roman copper-alloy dodecahedron with face holes and vertex knobs; no hypothetical function depicted as established.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    },
+    {
+      "id": "896",
+      "bytes": 18384,
+      "promptHash": "10953b0065c5a33ead290e44918b51cf1927d01f2f64f75471a937e789d9e144",
+      "metadataHash": "3b2e01b71e888a6882a6bd639b735ec43aaca960c7b4e94b3c55eeaef45b4a58",
+      "imageSha256": "075276901fa6e2b0134f6e4455df96c1ac67a4f55ca448ecefc526fdb9522cc1",
+      "review": {
+        "status": "accepted",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "cornerAlpha": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "background": "True-alpha RGBA WebP inspected on #0d0d0d card surface; no opaque backdrop rectangle.",
+        "meaning": "Paired kidney silhouettes and opposing curved arrows; symbolic paired exchange, not literal anatomical movement of organs between kidneys.",
+        "simplicity": "Readable editorial motif. Some outputs exceed strict flat-shape/color/shadow targets; single-tile 893 retains slight surface variation."
+      }
+    }
+  ],
+  "checks": {
+    "npm test": "passed: 3 tests",
+    "npm run build": "passed: static site written to build",
+    "allPostsRegistered": "passed: 796 files, manifest entries and card IDs",
+    "warnings": "Existing Svelte slot/a11y markup and large development-gallery chunk",
+    "version": "1.2.1 matches package.json and both lockfile fields"
+  }
+}

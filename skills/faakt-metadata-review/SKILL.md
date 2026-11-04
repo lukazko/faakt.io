@@ -24,7 +24,7 @@ Use a persistent state file outside published data, for example a file in your l
 
 ```sh
 python skills/faakt-metadata-review/scripts/review.py batch --state STATE --limit 12
-python skills/faakt-metadata-review/scripts/review.py batch --state STATE --ids 018,022
+python skills/faakt-metadata-review/scripts/review.py batch --state STATE --ids 18,22
 python skills/faakt-metadata-review/scripts/review.py apply --state STATE --review REVIEW
 python skills/faakt-metadata-review/scripts/review.py apply --state STATE --review REVIEW --write
 python skills/faakt-metadata-review/scripts/review.py status --state STATE
@@ -37,7 +37,7 @@ For every fully inspected post, write a decision in an UTF-8 JSON array:
 ```json
 [
   {
-    "id": "018",
+    "id": "18",
     "input_hash": "copy the exact hash from the batch",
     "verdict": "change",
     "reason": "The river should convey yielding and patient effectiveness, not just scenery.",

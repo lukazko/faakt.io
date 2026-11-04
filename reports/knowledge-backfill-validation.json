@@ -1,0 +1,50 @@
+{
+  "source_sha256": "e5509c3937a3a2550a904e52d43d891a856b6f222bb4ab31f7b4a4282f2c008b",
+  "records": 796,
+  "ideas": 753,
+  "tag_count": 163,
+  "article_file_unchanged": true,
+  "semantic_basis": [
+    "reports/new-posts-867-896-review.md",
+    "reports/new-posts-867-896-originality.json"
+  ],
+  "curated_mapping": "reports/knowledge-backfill.tsv",
+  "vocabulary_seed": "reports/knowledge-tags-seed.tsv",
+  "illustrations": "unchanged; knowledge is separate from visual metadata",
+  "scope": "Classification and semantic summaries of existing content, not a new factual/source audit",
+  "files": {
+    "static/data/posts.json": {
+      "bytes": 1551724,
+      "sha256": "e5509c3937a3a2550a904e52d43d891a856b6f222bb4ab31f7b4a4282f2c008b"
+    },
+    "static/data/post-knowledge.json": {
+      "bytes": 108378,
+      "sha256": "6b15d372c3070cdb3f2530a128152857467404b310f99702f959903884f730c8"
+    },
+    "static/data/knowledge-ideas.json": {
+      "bytes": 137926,
+      "sha256": "f0b998a747a3711a16dd276b8c15673d6dffc6c4e2b8e1bfc6f5b2f0f5a88ac4"
+    },
+    "static/data/tags.json": {
+      "bytes": 29030,
+      "sha256": "e10cdbbb069bb87a15e5be2a84e1b2483f034d9885cfc079bb371ec1914d5b5d"
+    },
+    "editorial/knowledge-state.json": {
+      "bytes": 333454,
+      "sha256": "3545168814c4a7dcb2e409f47338ec1b37ae7597ecf33aee06b41ecee0e40edb"
+    }
+  },
+  "compact_catalog_chars": 87565,
+  "article_title_and_content_chars": 628377,
+  "character_reduction_percent": 86.1,
+  "checks": {
+    "npm_test": "passed: 6 Node test groups, including Python regression suite",
+    "python_regression_tests": "passed: 15 tests",
+    "production_build": "passed: static site exported",
+    "article_file_unchanged": "SHA-256 exactly matches initial source",
+    "public_sidecars": "built copies match source files",
+    "editorial_state": "not published",
+    "skill_validation": "frontmatter and local references checked using stdlib; packaged quick_validate requires unavailable PyYAML",
+    "application_version": "1.2.1, matching package.json and both lockfile values"
+  }
+}

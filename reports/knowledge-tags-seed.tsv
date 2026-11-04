@@ -1,0 +1,164 @@
+# id|kind|parent|label|aliases
+history|topic||Historie|dějiny
+philosophy|topic||Filozofie|filosofie
+science|topic||Přírodní vědy|věda
+arts|topic||Umění|
+society|topic||Společnost|
+computing|topic||Informatika|počítačové vědy
+mathematics|topic||Matematika|
+ancient-history|topic|history|Antické dějiny|antika;starověké Řecko;starověký Řím
+medieval-history|topic|history|Středověké dějiny|středověk
+modern-history|topic|history|Novověké a moderní dějiny|novověk
+archaeology|topic|history|Archeologie|archeologické nálezy
+military-history|topic|history|Vojenské dějiny|války;vojenství
+economic-history|topic|history|Hospodářské dějiny|obchodní dějiny
+history-of-science|topic|history|Dějiny vědy|vědecká revoluce
+ethics|topic|philosophy|Etika|morálka;ctnost
+epistemology|topic|philosophy|Teorie poznání|epistemologie;vědění
+metaphysics|topic|philosophy|Metafyzika|ontologie;bytí
+logic|topic|philosophy|Logika|usuzování
+philosophy-of-mind|topic|philosophy|Filozofie mysli|vědomí;identita
+philosophy-of-language|topic|philosophy|Filozofie jazyka|význam slov
+political-philosophy|topic|philosophy|Politická filozofie|spravedlivá společnost
+ancient-philosophy|topic|philosophy|Antická filozofie|řecká filozofie
+asian-philosophy|topic|philosophy|Asijské filozofie|čínská filozofie;indická filozofie
+modern-philosophy|topic|philosophy|Novověká a současná filozofie|filozofie 20. století
+stoicism|topic|ancient-philosophy|Stoicismus|stoikové
+buddhism|topic|asian-philosophy|Buddhismus|buddha
+confucianism|topic|asian-philosophy|Konfucianismus|konfuciánství
+taoism|topic|asian-philosophy|Taoismus|tao;dao;wu wei
+existentialism|topic|modern-philosophy|Existencialismus|absurdno
+phenomenology|topic|modern-philosophy|Fenomenologie|tělesné schéma
+structuralism|topic|modern-philosophy|Strukturalismus|poststrukturalismus
+physics|topic|science|Fyzika|
+mechanics|topic|physics|Mechanika|pohyb;síly
+quantum-physics|topic|physics|Kvantová fyzika|kvantová mechanika
+relativity|topic|physics|Relativita|teorie relativity
+thermodynamics|topic|physics|Termodynamika|teplo;entropie
+optics|topic|physics|Optika|světlo
+electromagnetism|topic|physics|Elektromagnetismus|elektřina;magnetismus
+particle-physics|topic|physics|Částicová a jaderná fyzika|proton;neutrino;atomové jádro
+materials|topic|physics|Vlastnosti materiálů|supravodivost
+astronomy|topic|science|Astronomie|vesmír
+cosmology|topic|astronomy|Kosmologie|vznik vesmíru
+black-holes|topic|astronomy|Černé díry|horizont událostí
+stars|topic|astronomy|Hvězdy|hvězdný vývoj
+exoplanets|topic|astronomy|Exoplanety|extrasolární planety
+solar-system|topic|astronomy|Sluneční soustava|planetky;komety
+spaceflight|topic|astronomy|Kosmonautika|vesmírné sondy;kosmické mise
+chemistry|topic|science|Chemie|chemické reakce
+biology|topic|science|Biologie|
+evolution|topic|biology|Evoluce|přírodní výběr
+genetics|topic|biology|Genetika|DNA;dědičnost
+microbiology|topic|biology|Mikrobiologie|bakterie;mikroorganismy
+zoology|topic|biology|Zoologie|živočichové;zvířata
+botany|topic|biology|Botanika|rostliny
+ecology|topic|biology|Ekologie|ekosystémy
+neuroscience|topic|biology|Neurovědy|mozek;nervová soustava
+geoscience|topic|science|Vědy o Zemi|geologie;geografie
+medicine|topic|science|Medicína|lékařství;zdraví
+public-health|topic|medicine|Veřejné zdraví|epidemiologie;očkování
+nutrition|topic|medicine|Výživa|stravování;jídelníček
+sleep|topic|medicine|Spánek|spánkový režim
+exercise|topic|medicine|Pohyb a zdraví|chůze;cvičení
+psychology|topic|society|Psychologie|
+social-psychology|topic|psychology|Sociální psychologie|sociální vlivy
+cognitive-biases|topic|psychology|Kognitivní zkreslení|chyby úsudku
+learning-memory|topic|psychology|Učení a paměť|zapomínání
+perception|topic|psychology|Vnímání|smysly;iluze
+motivation|topic|psychology|Motivace|odměny
+development|topic|psychology|Vývojová psychologie|dětství
+economics|topic|society|Ekonomie|
+microeconomics|topic|economics|Mikroekonomie|užitek;ceny
+macroeconomics|topic|economics|Makroekonomie|inflace;měnová politika
+finance|topic|economics|Finance|investice;úroky
+game-theory|topic|economics|Teorie her|strategické interakce
+institutions|topic|economics|Instituce a pobídky|pravidla trhu
+political-science|topic|society|Politologie|politické systémy
+democracy|topic|political-science|Demokracie a volby|volební systémy;hlasování
+international-relations|topic|political-science|Mezinárodní vztahy|diplomacie
+law|topic|society|Právo|zákony;právní systémy
+human-rights|topic|law|Lidská práva|občanská práva
+sociology|topic|society|Sociologie|společenské teorie
+organizations|topic|sociology|Organizace|organizování;vedení
+social-networks|topic|sociology|Sociální sítě a vazby|slabé vazby;kontakty
+linguistics|topic|society|Lingvistika|jazykověda
+writing-systems|topic|linguistics|Písmo a pravopis|abeceda;psaní
+semiotics|topic|society|Sémiotika|znaky
+painting|topic|arts|Malířství|obrazy
+sculpture|topic|arts|Sochařství|sochy
+architecture|topic|arts|Architektura|stavby
+music|topic|arts|Hudba|skladatelé
+literature|topic|arts|Literatura|knihy;romány
+narratology|topic|literature|Vyprávění a literární teorie|naratologie;vypravěč
+cinema|topic|arts|Film|filmové umění
+film-technique|topic|cinema|Filmové postupy|střih;záběr
+sound|topic|cinema|Filmový zvuk|ruchy;zvukové efekty
+animation|topic|cinema|Animace|animované filmy
+art-conservation|topic|arts|Uchování umění|restaurování
+algorithms|topic|computing|Algoritmy|výpočetní postupy
+complexity|topic|algorithms|Výpočetní složitost|časová složitost
+cryptography|topic|computing|Kryptografie|šifrování;kryptologie
+computer-security|topic|computing|Počítačová bezpečnost|kyberbezpečnost
+networks|topic|computing|Počítačové sítě|internet
+artificial-intelligence|topic|computing|Umělá inteligence|AI;strojové učení
+programming|topic|computing|Programování|software;programovací jazyky
+computer-history|topic|computing|Dějiny výpočetní techniky|historie počítačů
+information-theory|topic|computing|Teorie informace|komprese;kódování
+human-computer-interaction|topic|computing|Interakce člověka s počítačem|uživatelská rozhraní
+number-theory|topic|mathematics|Teorie čísel|prvočísla
+geometry|topic|mathematics|Geometrie|tvary
+probability|topic|mathematics|Pravděpodobnost|náhoda
+statistics|topic|mathematics|Statistika|data;statistické usuzování
+analysis|topic|mathematics|Matematická analýza|limity;nekonečno
+combinatorics|topic|mathematics|Kombinatorika|grafy;uspořádání
+power|theme||Moc a její kontrola|autorita;vláda
+cooperation|theme||Spolupráce a koordinace|kooperace
+decision-making|theme||Rozhodování|volba;rozhodnutí
+knowledge-evidence|theme||Poznání a důkazy|ověřování;vědecká metoda
+identity|theme||Identita a sebepojetí|já;osobnost
+freedom|theme||Svoboda a odpovědnost|svobodná vůle
+fairness|theme||Spravedlnost a rovnost|nerovnost
+change|theme||Změna a vývoj|proměna
+uncertainty|theme||Nejistota a předvídání|predikce
+limits|theme||Meze a nemožnost|omezení
+perceived-reality|theme||Zdání a skutečnost|realita;interpretace
+communication|theme||Komunikace a význam|sdělení
+innovation|theme||Inovace a nové nástroje|vynálezy
+resilience|theme||Odolnost a adaptace|přizpůsobení
+wellbeing|theme||Zdraví a každodenní život|životospráva
+privacy|theme||Soukromí a důvěra|tajemství
+incentives|theme||Pobídky a motivace|zájmy;odměňování
+preservation|theme||Uchování a ztráta|památka;zachování
+patterns|theme||Vzory a struktury|pravidelnost
+resources|theme||Zdroje a efektivita|hospodaření
+aristotle|entity||Aristotelés|Aristoteles;Aristotle
+plato|entity||Platón|Platon;Plato
+socrates|entity||Sókratés|Sokrates;Socrates
+confucius|entity||Konfucius|Confucius
+laozi|entity||Lao-c’|Lao-c';Laozi
+epicurus|entity||Epikúros|Epikouros;Epicurus
+seneca|entity||Seneca|Seneka
+chrysippus|entity||Chrysippos|Chrysippus
+archimedes|entity||Archimédés|Archimedes
+adam-smith|entity||Adam Smith|Smithova ekonomie
+keynes|entity||John Maynard Keynes|Keynes
+shakespeare|entity||William Shakespeare|Shakespeare
+kafka|entity||Franz Kafka|Kafka
+orwell|entity||George Orwell|Orwell
+jane-austen|entity||Jane Austenová|Jane Austen
+einstein|entity||Albert Einstein|Einstein
+gaudi|entity||Antoni Gaudí|Gaudi
+saussure|entity||Ferdinand de Saussure|Saussure
+barthes|entity||Roland Barthes|Barthes
+derrida|entity||Jacques Derrida|Derrida
+roman-empire|entity||Římská říše|Řím;Roman Empire
+ancient-athens|entity||Antické Athény|Athény;Athens
+china|entity||Čína|Čínské dějiny
+india|entity||Indie|Indické dějiny
+moon|entity||Měsíc|Luna
+mars|entity||Mars|
+venus|entity||Venuše|
+jupiter|entity||Jupiter|
+saturn|entity||Saturn|
+sun|entity||Slunce|

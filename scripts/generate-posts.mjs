@@ -1,323 +1,147 @@
 /**
- * generate-posts.mjs
- * Generates interesting posts using Claude API — strictly real facts with verified sources.
+ * Generate article drafts from an editorially reviewed semantic plan.
+ * No direct production writes and no title-only duplicate check.
  *
- * Usage:
- *   ANTHROPIC_API_KEY=sk-ant-... node scripts/generate-posts.mjs --count 100
- *   ANTHROPIC_API_KEY=sk-or-... node scripts/generate-posts.mjs --count 100
- *
- * Supports both Anthropic (sk-ant-) and OpenRouter (sk-or-) API keys.
+ * ANTHROPIC_API_KEY=... node scripts/generate-posts.mjs --plan reports/plan.json
+ * Optional: --output reports/drafts.json --count N --category filozofie
  */
-
 import fs from 'node:fs';
 import path from 'node:path';
+import { spawnSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
-import { CATEGORIES, normalizeCategory, getCategoryMeta } from '../src/lib/categories.js';
+import { CATEGORIES } from '../src/lib/categories.js';
 
-const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const DATA_DIR = path.resolve(__dirname, '..', 'static', 'data');
-const DATA_FILE = path.join(DATA_DIR, 'posts.json');
+const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
+const KNOWLEDGE_TOOL = path.join(ROOT, 'scripts/post-knowledge.py');
+const BATCH_SIZE = 5;
 
-// --- Configuration ---
-const API_KEY = process.env.ANTHROPIC_API_KEY || '';
-const DEFAULT_COUNT = 30;
-const BATCH_SIZE = 10;
-
-// Parse CLI args: supports --count N and --count=N
-const countIndex = process.argv.indexOf('--count');
-const countVal = countIndex !== -1 ? parseInt(process.argv[countIndex + 1], 10) : null;
-const countEq = process.argv.find(a => a.startsWith('--count='));
-const POSTS_TO_GENERATE = countVal || (countEq ? parseInt(countEq.split('=')[1], 10) : DEFAULT_COUNT);
-
-// Parse CLI args: --category <slug> (volitelné) — generuje jen jednu kategorii
-const catIndex = process.argv.indexOf('--category');
-const catVal = catIndex !== -1 ? process.argv[catIndex + 1] : null;
-const catEq = process.argv.find(a => a.startsWith('--category='));
-const REQUESTED_CATEGORY = normalizeCategory(catVal || (catEq ? catEq.split('=')[1] : null));
-
-if ((catVal || catEq) && !REQUESTED_CATEGORY) {
-	console.error(`❌ Neznámá kategorie. Platné hodnoty: ${CATEGORIES.join(', ')}`);
-	process.exit(1);
+export function canonical(value) {
+	if (Array.isArray(value)) return value.map(canonical);
+	if (value && typeof value === 'object') {
+		return Object.fromEntries(Object.keys(value).sort().map(key => [key, canonical(value[key])]));
+	}
+	return value;
 }
 
-const IS_OPENROUTER = API_KEY.startsWith('sk-or-');
-
-function getPrompt(batchSize, existingPosts) {
-	const existing = existingPosts.length > 0
-		? `\n\nToto jsou názvy existujících příspěvků (vyhni se podobným tématům):\n${existingPosts.slice(-30).map(p => `- "${p.title}"`).join('\n')}`
-		: '';
-
-	const topics = REQUESTED_CATEGORY
-		? `TÉMATA — POUZE JEDNA KATEGORIE: "${REQUESTED_CATEGORY}" (${getCategoryMeta(REQUESTED_CATEGORY).label})
-
-Všech ${batchSize} příspěvků musí mít "category": "${REQUESTED_CATEGORY}". Žádnou jinou kategorii nepoužívej.
-Témata čerpej výhradně z okruhu této kategorie, ale snaž se o rozmanitost — žádné dva příspěvky o stejné věci.`
-		: `TÉMATA napříč všemi 14 kategoriemi:
-
-- Starověcí myslitelé (~30 %): Řekové, Římané, Číňané, Indové — vysvětli jejich učení a proč je to dodnes relevantní. (Sokrates, Platón, Aristotelés, Hérakleitos, Démokritos, Epikúros, Pythagoras, stoici, Konfucius, Lao-c', Buddha, Archimédés ad.) Osobnost použij jen tehdy, když je pro hlavní myšlenku skutečně důležitá.
-- Historie: události, osobnosti, zajímavosti z historie
-- Ekonomie: ekonomické koncepty, Adam Smith, Keynes, nabídka a poptávka, inflace
-- Psychologie: kognitivní zkreslení, experimenty, Jung, Freud, mentální modely
-- Věda: přírodní vědy, biologie, chemie, objevy
-- Umění: malířství, sochařství, architektura, hudba
-- Fyzika: fyzikální principy, zákony, teorie
-- Politika: politické systémy, události, osobnosti
-- Astronomie: vesmír, planety, hvězdy, objevy
-- Literatura: knihy, spisovatelé, literární díla
-- Filmy: filmové zajímavosti, režiséři, filmová historie
-- Matematika: matematické koncepty, teorémy, zajímavé problémy, matematici
-- Počítačové vědy: informatika, algoritmy, programování, historie výpočetní techniky
-- Zajímavosti: cokoliv překvapivého, netušeného`;
-
-	return `Generuj ${batchSize} krátkých, zajímavých textových příspěvků v češtině na formát JSON pole.
-
-	Toto je APLIKACE PRO REÁLNÁ FAKTA — všechno musí být 100% PRAVDIVÉ a OVĚŘITELNÉ. ŽÁDNÉ výmysly, fabulace nebo přibližné informace. Každý příspěvek musí mít uvedené KONKRÉTNÍ ZDROJE.
-
-${topics}
-
----
-
-STRUKTURA (DOPORUČENÁ, ne povinná):
-
-Příspěvky by měly být čtivé a mít spád. Inspiruj se touto kostrou, ale přizpůsob ji tématu:
-
-1. HOOK — začni otázkou, paradoxem nebo překvapivým tvrzením
-2. Ukaž problém, který čtenář zná z vlastního života
-3. Přijď s hlavní myšlenkou nebo citátem myslitele
-4. Vysvětli ji na konkrétních příkladech
-5. Ukaž kontrast nebo dvě možnosti
-6. Závěr: jedna zapamatovatelná věta. Otázku na závěr přidej JEN pokud přináší dilema, paradox nebo něco k zamyšlení. U faktických zajímavostí (historická fakta, vědecké objevy) ji nedávej.
-
-DŮLEŽITÉ: tahle struktura je IDEÁL, ne šablona. Historická fakta, vědecké objevy a zajímavosti se píšou vlastním tempem — krátký úvod, vysvětlení, pointa. Ne každý příspěvek musí mít všechny části.
-
-PRAVIDLA:
-- 1 příspěvek = 1 myšlenka
-- Nezpracovávej lidi jako životopisné medailonky. Biografické údaje (narození, studium, kariéra, rodina, úmrtí) uváděj jen tehdy, když přímo vysvětlují hlavní myšlenku; jinak se soustřeď na samotný princip, objev, dílo nebo událost.
-- Titulek nemusí obsahovat jméno člověka. U osobností dávej přednost titulku postavenému na jejich myšlence, objevu, díle nebo důsledku, například „Proč se naše rozhodnutí řídí prvním číslem, které uslyšíme“ místo titulku se jménem autora.
-- Piš jednoduché HTML: <p> pro odstavce, občas <strong> pro důraz, <em> pro kurzívu
-- Krátké odstavce (1-3 věty), přirozená čeština
-- Žádné nadpisy, žádné # hashtagy, žádné speciální CSS třídy v HTML
-- Délka: 500-1200 znaků
-- Důsledně dbej na správnou češtinu — gramatiku, skloňování, shodu přísudku s podmětem, interpunkci. Žádné hovorové výrazy ("dobrej", "říkáš"). Text musí být čtivý a gramaticky bezchybný.
-- OVĚŘENÉ INFORMACE, 2-3 zdroje, chronologická konzistence
-- Starověké myslitele datuj jako "kolem roku X př. n. l."
-
-Formát JSON:
-[
-  {
-    "id": "automaticke-cislo",
-    "title": "Titulek (max 80 znaků)",
-    "content": "HTML obsah příspěvku",
-    "category": "filozofie",
-    "sources": [
-      { "label": "Wikipedia", "url": "https://..." }
-    ]
-  }
-]
-
-KATEGORIE: ${REQUESTED_CATEGORY ? `vždy "${REQUESTED_CATEGORY}"` : `jen jeden z: ${CATEGORIES.join(', ')}`}
-ZDROJE: vždy 2-3, reálná URL
-STAROVĚKÉ MYSLITELE: "kolem roku X př. n. l." — NIKDY přesně, pokud není doloženo
-ŽÁDNÉ smyšlené citáty${existing}`;
+export function getPrompt(proposals, tags) {
+	const instructions = fs.readFileSync(path.join(ROOT, 'docs/generovani-postu-handoff.md'), 'utf8');
+	const used = new Set(proposals.flatMap(p => p.knowledge.tags));
+	const definitions = tags.filter(t => used.has(t.id));
+	return instructions + '\n\nSCHVÁLENÝ PLÁN PRO TUTO DÁVKU:\n'
+		+ JSON.stringify(proposals.map(({ id, category, knowledge }) => ({ id, category, knowledge })))
+		+ '\nPOUŽITÉ TAGY:\n' + JSON.stringify(definitions)
+		+ '\nVrať přesně ' + proposals.length + ' příspěvků podle plánu, ve stejném pořadí. '
+		+ 'Zachovej ID, kategorii a význam pointy. Nevymýšlej náhradní témata. '
+		+ 'knowledge z plánu vlož beze změny do pracovního návrhu; obsah musí odpovídat pointě. '
+		+ 'Výsledek je pracovní návrh před kontrolou zdrojů a hotových textů, nikoli souhlas se zápisem do databáze.';
 }
 
-/**
- * Extract JSON array from text response, handling markdown code fences, null/edge cases,
- * and truncated JSON (incomplete last object from OpenRouter).
- */
-function extractJsonArray(text) {
-	if (!text || typeof text !== 'string') {
-		throw new Error('Odpověď API je prázdná nebo null');
+export function extractJsonArray(text) {
+	if (typeof text !== 'string') throw new Error('API returned no text');
+	const cleaned = text.replace(/^```(?:json)?\s*|\s*```$/g, '').trim();
+	const parsed = JSON.parse(cleaned);
+	if (!Array.isArray(parsed)) throw new Error('API must return a complete JSON array');
+	return parsed;
+}
+
+export function normalizeDrafts(result, proposals) {
+	if (!Array.isArray(result) || result.length !== proposals.length) {
+		throw new Error('Incomplete batch; keep the output out of production');
 	}
-	// Strip markdown code fences (backtick triplets around json)
-	let cleaned = text.replace(/```json?\s*\n?/gi, '').replace(/```/g, '').trim();
-	// Find the first [ and last ]
-	const start = cleaned.indexOf('[');
-	const end = cleaned.lastIndexOf(']');
-	if (start === -1 || end === -1 || end <= start) {
-		throw new Error('JSON pole nenalezeno v odpovědi.\nObsah (prvních 500 znaků):\n' + text.slice(0, 500));
-	}
-	const jsonStr = cleaned.slice(start, end + 1);
-	try {
-		return JSON.parse(jsonStr);
-	} catch (e) {
-		// If truncated (Unexpected end of JSON input), try to recover the last complete object
-		if (e.message.includes('Unexpected end') || e.message.includes('unexpected end')) {
-			// Find the last complete object by scanning backwards
-			let endIdx = cleaned.lastIndexOf('}');
-			if (endIdx > start) {
-				// Try closing at the last complete object
-				const partialJson = cleaned.slice(start, endIdx + 1) + ']';
-				try {
-					const result = JSON.parse(partialJson);
-					if (Array.isArray(result) && result.length > 0) {
-						console.log(`   ⚠️  JSON byl useknutý, nalezeno ${result.length} platných objektů`);
-						return result;
-					}
-				} catch (_) {}
-				// Try stepping back object by object
-				let searchFrom = endIdx;
-				for (let attempt = 0; attempt < 20; attempt++) {
-					const prevBrace = cleaned.lastIndexOf('}', searchFrom - 1);
-					if (prevBrace < start) break;
-					const tryJson = cleaned.slice(start, prevBrace + 1) + ']';
-					try {
-						const result = JSON.parse(tryJson);
-						if (Array.isArray(result) && result.length > 0) {
-							console.log(`   ⚠️  JSON useknutý, nalezeno ${result.length} objektů (po opravě)`);
-							return result;
-						}
-					} catch (_) {}
-					searchFrom = prevBrace;
-				}
-			}
+	return result.map((post, index) => {
+		const plan = proposals[index];
+		if (post.id !== plan.id || post.category !== plan.category) throw new Error('Draft differs from planned ID/category');
+		if (JSON.stringify(canonical(post.knowledge)) !== JSON.stringify(canonical(plan.knowledge))) {
+			throw new Error('Draft changed approved knowledge metadata');
 		}
-		throw new Error('Neplatný JSON: ' + e.message + '\nObsah (prvních 500 znaků):\n' + text.slice(0, 500));
-	}
+		if (!CATEGORIES.includes(post.category) || typeof post.title !== 'string' || post.title.length > 80
+			|| typeof post.content !== 'string' || post.content.length < 500 || post.content.length > 1200
+			|| !Array.isArray(post.sources) || post.sources.length < 2 || post.sources.length > 3
+			|| !post.illustration || typeof post.illustration !== 'object') {
+			throw new Error('Draft is missing required article fields');
+		}
+		return {
+			id: post.id, title: post.title, content: post.content, category: post.category,
+			sources: post.sources, illustration: post.illustration, knowledge: plan.knowledge
+		};
+	});
 }
 
-async function callClaude(prompt) {
-	if (!API_KEY) {
-		console.warn('⚠️  ANTHROPIC_API_KEY není nastaven. Používám fallback data.');
-		return null;
+function option(name) {
+	const args = process.argv.slice(2);
+	const at = args.indexOf(name);
+	if (at >= 0) {
+		if (!args[at + 1] || args[at + 1].startsWith('--')) throw new Error('Missing value for ' + name);
+		return args[at + 1];
 	}
-
-	if (IS_OPENROUTER) {
-		return await callOpenRouter(prompt);
-	} else {
-		return await callAnthropic(prompt);
-	}
+	const equals = args.find(a => a.startsWith(name + '='));
+	return equals?.slice(name.length + 1);
 }
 
-/**
- * Call Anthropic API directly.
- */
-async function callAnthropic(prompt) {
-	const response = await fetch('https://api.anthropic.com/v1/messages', {
+function checkPlan(planPath) {
+	const result = spawnSync('python', [KNOWLEDGE_TOOL, 'check-plan', '--plan', planPath], {
+		cwd: ROOT, encoding: 'utf8', env: { ...process.env, PYTHONUTF8: '1' }
+	});
+	if (result.error) throw result.error;
+	if (result.status !== 0) throw new Error((result.stderr || result.stdout).trim());
+}
+
+async function callProvider(prompt, key) {
+	const openrouter = key.startsWith('sk-or-');
+	const response = await fetch(openrouter
+		? 'https://openrouter.ai/api/v1/chat/completions'
+		: 'https://api.anthropic.com/v1/messages', {
 		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json',
-			'x-api-key': API_KEY,
-			'anthropic-version': '2023-06-01'
-		},
+		headers: openrouter
+			? { 'Content-Type': 'application/json', Authorization: 'Bearer ' + key,
+				'HTTP-Referer': 'https://github.com/lukazko/faakt.io' }
+			: { 'Content-Type': 'application/json', 'x-api-key': key, 'anthropic-version': '2023-06-01' },
 		body: JSON.stringify({
-			model: 'claude-sonnet-5',
-			max_tokens: 8000,
-			temperature: 0.8,
+			model: openrouter ? 'anthropic/claude-sonnet-5' : 'claude-sonnet-5',
+			max_tokens: 8000, temperature: 0.8,
 			messages: [{ role: 'user', content: prompt }]
 		})
 	});
-
-	if (!response.ok) {
-		const err = await response.text();
-		throw new Error(`Anthropic API error (${response.status}): ${err}`);
-	}
-
+	if (!response.ok) throw new Error('Generation API returned HTTP ' + response.status);
 	const data = await response.json();
-	const text = data.content?.[0]?.text;
-	return extractJsonArray(text);
-}
-
-/**
- * Call Claude via OpenRouter API.
- */
-async function callOpenRouter(prompt) {
-	const response = await fetch('https://openrouter.ai/api/v1/chat/completions', {
-		method: 'POST',
-		headers: {
-			'Content-Type': 'application/json',
-			'Authorization': `Bearer ${API_KEY}`,
-			'HTTP-Referer': 'https://github.com/lukazko/faakt.io'
-		},
-		body: JSON.stringify({
-			model: 'anthropic/claude-sonnet-5',
-			max_tokens: 8000,
-			temperature: 0.8,
-			messages: [{ role: 'user', content: prompt }]
-		})
-	});
-
-	if (!response.ok) {
-		const err = await response.text();
-		throw new Error(`OpenRouter API error (${response.status}): ${err}`);
-	}
-
-	const data = await response.json();
-	const text = data.choices?.[0]?.message?.content;
-	return extractJsonArray(text);
+	return extractJsonArray(openrouter ? data.choices?.[0]?.message?.content
+		: data.content?.filter(c => c.type === 'text').map(c => c.text).join(''));
 }
 
 async function main() {
-	console.log(`🔧 faakt.io — generátor příspěvků`);
-	console.log(`   Cíl: ${POSTS_TO_GENERATE} příspěvků`);
-	console.log(`   Dávkování: ${BATCH_SIZE} / volání API`);
-	console.log(`   Režim: ${REQUESTED_CATEGORY ? `pouze kategorie "${REQUESTED_CATEGORY}"` : 'mixed (všechny kategorie)'}`);
-	console.log(`   API: ${IS_OPENROUTER ? 'OpenRouter' : 'Anthropic'} (${API_KEY.slice(0, 12)}...)`);
-	console.log('');
-
-	// Load existing
-	let existingPosts = [];
-	if (fs.existsSync(DATA_FILE)) {
-		existingPosts = JSON.parse(fs.readFileSync(DATA_FILE, 'utf-8'));
-		console.log(`   Načteno ${existingPosts.length} existujících příspěvků`);
+	const planOption = option('--plan');
+	if (!planOption) throw new Error('Required: --plan reports/plan.json; see docs/post-knowledge.md');
+	const planPath = path.resolve(planOption);
+	checkPlan(planPath);
+	const plan = JSON.parse(fs.readFileSync(planPath, 'utf8'));
+	const category = option('--category');
+	if (category && (!CATEGORIES.includes(category) || plan.proposals.some(p => p.category !== category))) {
+		throw new Error('Requested category does not match the reviewed plan');
 	}
-
-	let allPosts = [...existingPosts];
-	const needed = POSTS_TO_GENERATE;
-	const batches = Math.ceil(needed / BATCH_SIZE);
-		let generated = 0;
-
-	for (let i = 0; i < batches && generated < needed; i++) {
-		const remaining = needed - generated;
-		const batchSize = Math.min(remaining, BATCH_SIZE);
-
-		const nextId = String(allPosts.length + 1).padStart(3, '0');
-		console.log(`   Batch ${i + 1}/${batches} (${batchSize} příspěvků, next ID: ${nextId})`);
-
-		const prompt = getPrompt(batchSize, allPosts);
-		let result = null;
-		try {
-			result = await callClaude(prompt);
-		} catch (err) {
-			console.log(`   ⚠️  Chyba batch: ${err.message}`);
-			console.log(`      Zkouším batch znovu...`);
-			// one retry
-			try {
-				await new Promise(r => setTimeout(r, 3000));
-				result = await callClaude(prompt);
-			} catch (err2) {
-				console.log(`      ❌ Batch se nezdařil ani na 2. pokus, přeskočeno.`);
-				continue;
-			}
-		}
-
-		if (result) {
-			// Renumber IDs
-			let counter = allPosts.length + 1;
-			const batch = result.slice(0, batchSize).map(p => ({
-				id: String(counter++).padStart(3, '0'),
-				title: p.title,
-				content: p.content,
-				category: p.category,
-				sources: p.sources || []
-			}));
-
-			allPosts = [...allPosts, ...batch];
-				generated += batch.length;
-			console.log(`   ✓ Přidáno ${batch.length} příspěvků`);
-
-			// Save after each batch so partial progress isn't lost
-			fs.writeFileSync(DATA_FILE, JSON.stringify(allPosts, null, '\t'), 'utf-8');
-			console.log(`   💾 Uloženo (${allPosts.length} celkem)`);
-		} else {
-			break;
-		}
+	const count = option('--count');
+	if (count && Number(count) !== plan.proposals.length) throw new Error('Count must match the whole reviewed plan');
+	const key = process.env.ANTHROPIC_API_KEY || '';
+	if (!key) throw new Error('ANTHROPIC_API_KEY missing; no API call or fallback write performed');
+	const output = path.resolve(option('--output') || path.join(ROOT, 'reports',
+		'generated-posts-' + new Date().toISOString().replace(/[:.]/g, '-') + '.json'));
+	const relative = path.relative(path.join(ROOT, 'reports'), output);
+	if (!relative || relative.startsWith('..') || path.isAbsolute(relative) || fs.existsSync(output)) {
+		throw new Error('Use a new output file inside reports/');
 	}
-
-	console.log(`\n✅ Hotovo! ${allPosts.length} příspěvků v ${DATA_FILE}`);
+	const tags = JSON.parse(fs.readFileSync(path.join(ROOT, 'static/data/tags.json'), 'utf8')).tags;
+	const drafts = [];
+	for (let i = 0; i < plan.proposals.length; i += BATCH_SIZE) {
+		checkPlan(planPath);
+		const proposals = plan.proposals.slice(i, i + BATCH_SIZE);
+		const result = await callProvider(getPrompt(proposals, tags), key);
+		drafts.push(...normalizeDrafts(result, proposals));
+		fs.mkdirSync(path.dirname(output), { recursive: true });
+		fs.writeFileSync(output, JSON.stringify(drafts, null, 2) + '\n', 'utf8');
+		console.log('Saved ' + drafts.length + ' drafts to ' + output);
+	}
+	console.log('Run post-knowledge.py check-drafts, review final texts and sources, then use guarded append.');
 }
 
-main().catch(err => {
-	console.error('❌ Chyba:', err.message);
-	process.exit(1);
-});
+if (process.argv[1] && path.resolve(process.argv[1]) === fileURLToPath(import.meta.url)) {
+	main().catch(error => { console.error(error.message); process.exitCode = 1; });
+}

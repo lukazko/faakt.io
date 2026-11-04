@@ -7,3 +7,4 @@ build/
 *.local
 test-results/
 playwright-report/
+__pycache__/
