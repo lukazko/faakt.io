@@ -79,7 +79,7 @@ async function flip(page) {
 	});
 }
 
-test('flip hint plays once across cards and repeats after reload until a real flip', async ({ page }) => {
+test('flip hint plays on each active card and after reload until a real flip', async ({ page }) => {
 	const stage = page.locator('.is-active .card-stage');
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
 	await stage.evaluate(async el => {
@@ -88,8 +88,7 @@ test('flip hint plays once across cards and repeats after reload until a real fl
 	await expect(page.locator('.flip-hint')).toHaveCount(0);
 	await page.locator('.feed-container').evaluate(el => { el.scrollTop = el.clientHeight; });
 	await expect(page.locator('.post-card').nth(1)).toHaveClass(/is-active/);
-	await expect(page.locator('.flip-hint')).toHaveCount(0);
-	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(2);
 	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBeNull();
 	await page.reload();
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
@@ -120,6 +119,10 @@ test('actual flip cancels the hint', async ({ page }) => {
 	await flip(page);
 	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBe('1');
 	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await page.locator('.feed-container').evaluate(el => { el.scrollTop = el.clientHeight; });
+	await expect(page.locator('.post-card').nth(1)).toHaveClass(/is-active/);
+	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await expect(page.locator('.is-active .card-stage')).toHaveCSS('animation-name', 'none');
 	await page.reload();
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
 	await expect(page.locator('.flip-hint')).toHaveCount(0);

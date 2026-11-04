@@ -1,10 +1,9 @@
 const STORAGE_KEY = 'faakt:flip-hint-seen';
-let consumed = false;
+let cardFlipped = false;
 
-// Keep the hint once-only within this visit even when storage is unavailable.
-export function consumeFlipHint() {
-	if (consumed) return false;
-	consumed = true;
+// Each active card can show a hint until the first actual flip.
+export function shouldShowFlipHint() {
+	if (cardFlipped) return false;
 	try {
 		if (window.sessionStorage.getItem(STORAGE_KEY)) return false;
 	} catch {
@@ -14,7 +13,7 @@ export function consumeFlipHint() {
 }
 
 export function markCardFlipped() {
-	consumed = true;
+	cardFlipped = true;
 	try {
 		window.sessionStorage.setItem(STORAGE_KEY, '1');
 	} catch {

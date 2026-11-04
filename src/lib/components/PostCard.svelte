@@ -28,7 +28,7 @@
 	import PostBody from './PostBody.svelte';
 	import PostIllustration from './PostIllustration.svelte';
 	import { getHook } from '$lib/teaser.js';
-	import { consumeFlipHint, markCardFlipped } from '$lib/flipHint.js';
+	import { shouldShowFlipHint, markCardFlipped } from '$lib/flipHint.js';
 
 	let {
 		post,
@@ -53,9 +53,8 @@
 			flipHint = false;
 			return;
 		}
-		if (consumeFlipHint()) {
-			flipHint = !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-		}
+		flipHint = shouldShowFlipHint()
+			&& !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
 	});
 
 	let frontBtnEl = $state(null);
