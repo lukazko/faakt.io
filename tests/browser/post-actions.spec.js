@@ -6,11 +6,15 @@ const posts = JSON.parse(readFileSync(new URL('../../static/data/posts.json', im
 
 // Testujeme skutečné hit testing a události prohlížeče. Mockované jsou jen
 // systémové služby, jejichž dialogy nelze v automatizaci ovládat.
-test.beforeEach(async ({ page }) => {
+test.beforeEach(async ({ page }, testInfo) => {
 	// Pro akce stačí dva skutečné příspěvky; neposíláme celou rostoucí databázi
 	// v každém testu a nesvazujeme timeouty s její velikostí.
 	await page.route('**/data/posts.json', route => route.fulfill({ json: posts }));
 	await page.addInitScript(() => {
+		window.flipHintStarts = 0;
+		document.addEventListener('animationstart', event => {
+			if (event.animationName.endsWith('flip-preview')) window.flipHintStarts++;
+		});
 		window.actionCalls = [];
 		window.shareError = null;
 		window.clipboardError = false;
@@ -34,13 +38,18 @@ test.beforeEach(async ({ page }) => {
 	}));
 	await page.goto('./?post=001');
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
+	if (!/flip hint|actual flip|reduced motion/.test(testInfo.title)) {
+		await page.locator('.is-active .card-stage').evaluate(async stage => {
+			await Promise.all(stage.getAnimations().map(animation => animation.finished));
+		});
+	}
 });
 
-async function activate(locator, page) {
+async function activate(locator, page, horizontal = 0.5) {
 	await expect(locator).toBeVisible();
 	const box = await locator.boundingBox();
 	expect(box).not.toBeNull();
-	const point = { x: box.x + box.width / 2, y: box.y + box.height / 2 };
+	const point = { x: box.x + box.width * horizontal, y: box.y + box.height / 2 };
 	const hit = await locator.evaluate((element, point) => {
 		const target = document.elementFromPoint(point.x, point.y);
 		return { matches: element.contains(target), description: target?.outerHTML.slice(0, 250) };
@@ -55,6 +64,8 @@ async function activate(locator, page) {
 async function openMenu(page) {
 	await activate(page.locator('.is-active .card-face[aria-hidden="false"]').getByRole('button', { name: 'Další možnosti' }), page);
 	await expect(page.getByRole('menu')).toBeVisible();
+	await expect(page.getByRole('menuitem', { name: 'Sdílet' })).toHaveCount(0);
+	await expect(page.getByRole('menu').locator('.app-build-info')).toContainText('build');
 	await page.getByRole('menu').evaluate(async menu => {
 		await Promise.all(menu.getAnimations().map(animation => animation.finished));
 	});
@@ -68,6 +79,64 @@ async function flip(page) {
 	});
 }
 
+test('flip hint plays on each active card and after reload until a real flip', async ({ page }) => {
+	const stage = page.locator('.is-active .card-stage');
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
+	await stage.evaluate(async el => {
+		await Promise.all(el.getAnimations().map(animation => animation.finished));
+	});
+	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await page.locator('.feed-container').evaluate(el => { el.scrollTop = el.clientHeight; });
+	await expect(page.locator('.post-card').nth(1)).toHaveClass(/is-active/);
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(2);
+	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBeNull();
+	await page.reload();
+	await expect(page.locator('.is-active .card-front')).toBeVisible();
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
+	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBeNull();
+});
+
+test('flip hint returns in a new tab session', async ({ page, context }) => {
+	await flip(page);
+	await expect.poll(() => page.evaluate(() =>
+		sessionStorage.getItem('faakt:flip-hint-seen')
+	)).toBe('1');
+	const url = page.url();
+	await page.close();
+	const nextPage = await context.newPage();
+	await nextPage.route('**/data/posts.json', route => route.fulfill({ json: posts }));
+	await nextPage.addInitScript(() => {
+		window.flipHintStarts = 0;
+		document.addEventListener('animationstart', event => {
+			if (event.animationName.endsWith('flip-preview')) window.flipHintStarts++;
+		});
+	});
+	await nextPage.goto(url);
+	await expect.poll(() => nextPage.evaluate(() => window.flipHintStarts)).toBe(1);
+});
+
+test('actual flip cancels the hint', async ({ page }) => {
+	await flip(page);
+	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBe('1');
+	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await page.locator('.feed-container').evaluate(el => { el.scrollTop = el.clientHeight; });
+	await expect(page.locator('.post-card').nth(1)).toHaveClass(/is-active/);
+	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await expect(page.locator('.is-active .card-stage')).toHaveCSS('animation-name', 'none');
+	await page.reload();
+	await expect(page.locator('.is-active .card-front')).toBeVisible();
+	await expect(page.locator('.flip-hint')).toHaveCount(0);
+});
+
+test('reduced motion skips the hint', async ({ page }) => {
+	await page.emulateMedia({ reducedMotion: 'reduce' });
+	await page.evaluate(() => sessionStorage.clear());
+	await page.reload();
+	await expect(page.locator('.is-active .card-front')).toBeVisible();
+	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await flip(page);
+});
+
 for (const side of ['front', 'back']) {
 	for (const isolated of [false, true]) {
 		test(`${side}: share and report work with ${isolated ? 'isolated' : 'normal'} scrolling layer`, async ({ page }) => {
@@ -77,8 +146,7 @@ for (const side of ['front', 'back']) {
 				await page.addStyleTag({ content: '.feed-container { isolation: isolate; }' });
 			}
 			if (side === 'back') await flip(page);
-			await openMenu(page);
-			await activate(page.getByRole('menuitem', { name: 'Sdílet', exact: true }), page);
+			await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 			await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([
 				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=001', title: posts.find(post => post.id === '001').title } }
 			]);
@@ -100,7 +168,7 @@ for (const side of ['front', 'back']) {
 	test(`${side}: outside click closes menu without flipping card`, async ({ page }) => {
 		if (side === 'back') await flip(page);
 		await openMenu(page);
-		await activate(page.locator(`.is-active .card-${side} h2`), page);
+		await activate(page.locator(`.is-active .card-${side} h2`), page, 0.05);
 		await expect(page.getByRole('menu')).toHaveCount(0);
 		await expect(page.locator(`.is-active .card-${side}`)).toHaveAttribute('aria-hidden', 'false');
 		await openMenu(page);
@@ -118,13 +186,12 @@ for (const mode of ['unavailable', 'denied', 'cancelled', 'clipboard-denied']) {
 			else window.shareError = mode === 'cancelled' ? 'AbortError' : 'NotAllowedError';
 			window.clipboardError = mode === 'clipboard-denied';
 		}, mode);
-		await openMenu(page);
 		const dialogPromise = mode === 'clipboard-denied' ? page.waitForEvent('dialog').then(async (dialog) => {
 			expect(dialog.type()).toBe('prompt');
 			expect(dialog.defaultValue()).toBe('http://127.0.0.1:4175/faakt.io/?post=001');
 			await dialog.dismiss();
 		}) : null;
-		await activate(page.getByRole('menuitem', { name: 'Sdílet', exact: true }), page);
+		await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 		if (dialogPromise) {
 			await dialogPromise;
 		} else if (mode === 'cancelled') {
