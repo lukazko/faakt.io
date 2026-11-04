@@ -179,9 +179,6 @@
 		>
 			<div class="front-inner">
 				<div class="front-main">
-					<div class="front-art" aria-hidden="true">
-						<PostIllustration {post} {active} />
-					</div>
 					<div class="front-top">
 						<CategoryBadge
 							category={post.category}
@@ -190,6 +187,9 @@
 						/>
 					</div>
 					<h2 id="{frontId}-title" class="title">{post.title}</h2>
+					<div class="front-art" aria-hidden="true">
+						<PostIllustration {post} {active} />
+					</div>
 					<p class="teaser">{hook}</p>
 				</div>
 
@@ -474,7 +474,7 @@
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
 		justify-content: flex-start;
-		padding-top: 0;
+		padding-top: calc(clamp(20px, 5vh, 44px) * 4 / 9);
 		gap: 14px;
 	}
 
@@ -508,7 +508,7 @@
 		flex: 0 0 auto;
 	}
 
-	/* Illustration keeps its aspect ratio; spare space stays below the hook. */
+	/* Illustration sits between title and hook; spare space stays below the hook. */
 	.front-art {
 		position: relative;
 		flex: 0 1 auto;
@@ -617,7 +617,7 @@
 
 		/* V nízké kartě stačí menší odsazení, aby se text neusekl */
 		.front-main {
-			padding-top: 0;
+			padding-top: calc(8px * 2 / 3);
 		}
 
 		.title {
