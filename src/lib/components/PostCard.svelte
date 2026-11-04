@@ -144,6 +144,12 @@
 		     zadní plochy nechytí). -->
 		{#if actionsOpen && (side === 'front' ? !flipped : flipped)}
 			<div class="action-menu" role="menu">
+				<a class="action-item" role="menuitem" href="https://revolut.me/lukpgvgg" target="_blank" rel="noopener noreferrer" onclick={() => onCloseActions?.()}>
+					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+						<path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78Z" />
+					</svg>
+					Podpořit
+				</a>
 				<a class="action-item" role="menuitem" href={reportUrl} target="_blank" rel="noopener noreferrer">
 					<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
 						<path d="M15.07 2.46A6.94 6.94 0 0 0 12 1.93c-5.52 0-10 3.58-10 8 0 1.77.63 3.4 1.7 4.73L2 22l7.78-3.55c1.68.47 3.46.72 5.3.7 5.53 0 10-3.58 10-8 0-1.1-.26-2.16-.74-3.12"/>
@@ -160,6 +166,9 @@
 {#snippet shareControl(side)}
 	{@const gradientId = `share-gradient-${post.id}-${side}`}
 	<button class="action-btn share-btn" type="button" aria-label="Sdílet" onclick={() => { onShare?.(post); onCloseActions?.(); }}>
+		<svg class="share-ring" width="42" height="42" viewBox="0 0 42 42" fill="none" aria-hidden="true">
+			<circle cx="21" cy="21" r="19.5" stroke="currentColor" stroke-width="1" />
+		</svg>
 		<svg width="22" height="22" viewBox="0 0 24 24" fill="url(#{gradientId})" aria-hidden="true">
 			<defs>
 				<linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
@@ -278,6 +287,7 @@
 		/* Délka otočení na jednom místě — od ní se odvozuje i okamžik,
 		   kdy má zmizet tlačítko akcí na odvrácené straně. */
 		--flip-duration: 0.42s;
+		--card-action-inset: clamp(18px, 5vw, 30px);
 		-webkit-perspective: 1600px;
 	}
 
@@ -287,7 +297,7 @@
 	   otáčí a nikdy se neobjeví zrcadlově převrácené. */
 	.action-btn {
 		position: absolute;
-		right: clamp(18px, 5vw, 30px);
+		right: var(--card-action-inset);
 		bottom: 16px;
 		z-index: 4;
 		width: 46px;
@@ -339,8 +349,19 @@
 	}
 
 	.share-btn {
+		bottom: var(--card-action-inset);
 		width: 42px;
 		height: 42px;
+		appearance: none;
+		border: none;
+	}
+
+	.share-ring {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		/* Celý tah i vyhlazení mají rezervu uvnitř SVG viewportu.
+		   Při změně zoomu ani 3D transformaci se tak neopírají o jeho okraj. */
 	}
 
 	.more-controls {
@@ -486,9 +507,9 @@
 		gap: 14px;
 		height: 100%;
 		min-height: 0;
-		/* Spodní odsazení je stejné jako odsazení tlačítka akcí (16px), aby
+		/* Spodní odsazení je stejné jako odsazení tlačítka sdílení, aby
 		   obě tlačítka seděla na stejné lince. */
-		padding: clamp(18px, 3.4vh, 28px) clamp(18px, 5vw, 30px) 16px;
+		padding: clamp(18px, 3.4vh, 28px) var(--card-action-inset) var(--card-action-inset);
 	}
 
 	.front-top {
@@ -570,7 +591,7 @@
 		gap: 9px;
 		/* Stejná výška jako kruhové tlačítko akcí — středy obou tlačítek
 		   tak leží v jedné ose. */
-		min-height: 46px;
+		min-height: 42px;
 		padding: 8px 0;
 		border: none;
 		background: none;
@@ -652,7 +673,6 @@
 		.front-inner {
 			gap: 10px;
 			padding-top: 20px;
-			padding-bottom: 16px;
 		}
 
 		/* V nízké kartě stačí menší odsazení, aby se text neusekl */
