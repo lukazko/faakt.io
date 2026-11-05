@@ -1,0 +1,171 @@
+{
+  "date": "2026-11-04",
+  "records": 796,
+  "categories": [
+    {
+      "slug": "historie",
+      "label": "Historie",
+      "count": 79
+    },
+    {
+      "slug": "filozofie",
+      "label": "Filozofie",
+      "count": 137
+    },
+    {
+      "slug": "biologie",
+      "label": "Biologie",
+      "count": 63
+    },
+    {
+      "slug": "umeni",
+      "label": "Umění",
+      "count": 46
+    },
+    {
+      "slug": "literatura",
+      "label": "Literatura",
+      "count": 40
+    },
+    {
+      "slug": "politika",
+      "label": "Společnost a politika",
+      "count": 50
+    },
+    {
+      "slug": "fyzika",
+      "label": "Fyzika a chemie",
+      "count": 74
+    },
+    {
+      "slug": "astronomie",
+      "label": "Astronomie",
+      "count": 68
+    },
+    {
+      "slug": "ekonomie",
+      "label": "Ekonomie",
+      "count": 46
+    },
+    {
+      "slug": "psychologie",
+      "label": "Psychologie",
+      "count": 58
+    },
+    {
+      "slug": "filmy",
+      "label": "Kinematografie",
+      "count": 38
+    },
+    {
+      "slug": "matematika",
+      "label": "Matematika",
+      "count": 52
+    },
+    {
+      "slug": "pocitacove-vedy",
+      "label": "Technologie",
+      "count": 45
+    }
+  ],
+  "changed_ids": [
+    "10",
+    "22",
+    "32",
+    "42",
+    "52",
+    "72",
+    "113",
+    "124",
+    "136",
+    "137",
+    "151",
+    "152",
+    "153",
+    "202",
+    "203",
+    "204",
+    "205",
+    "206",
+    "207",
+    "208",
+    "209",
+    "210",
+    "222",
+    "273",
+    "274",
+    "275",
+    "276",
+    "277",
+    "278",
+    "298",
+    "299",
+    "300",
+    "440",
+    "441",
+    "442",
+    "443",
+    "444",
+    "445",
+    "446",
+    "447",
+    "448",
+    "449",
+    "450",
+    "451",
+    "502",
+    "503",
+    "504",
+    "505",
+    "506",
+    "507",
+    "508",
+    "509",
+    "510",
+    "511",
+    "512",
+    "631",
+    "632",
+    "633",
+    "634",
+    "635",
+    "636",
+    "637",
+    "638",
+    "639",
+    "690",
+    "691",
+    "692",
+    "693",
+    "715",
+    "716",
+    "726",
+    "729",
+    "738",
+    "739",
+    "740",
+    "763",
+    "764",
+    "791",
+    "792",
+    "793",
+    "794",
+    "823",
+    "824",
+    "825",
+    "829",
+    "831",
+    "832",
+    "833",
+    "834",
+    "849",
+    "850",
+    "853",
+    "854",
+    "855",
+    "884",
+    "885",
+    "886",
+    "895"
+  ]
+}

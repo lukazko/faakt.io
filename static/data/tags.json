@@ -1,0 +1,1517 @@
+{
+  "version": 1,
+  "types": [
+    "discovery",
+    "event",
+    "open-question",
+    "practice",
+    "principle",
+    "theory",
+    "work"
+  ],
+  "tags": [
+    {
+      "id": "history",
+      "kind": "topic",
+      "parent": null,
+      "label": "Historie",
+      "aliases": [
+        "dějiny"
+      ]
+    },
+    {
+      "id": "philosophy",
+      "kind": "topic",
+      "parent": null,
+      "label": "Filozofie",
+      "aliases": [
+        "filosofie"
+      ]
+    },
+    {
+      "id": "science",
+      "kind": "topic",
+      "parent": null,
+      "label": "Přírodní vědy",
+      "aliases": [
+        "věda"
+      ]
+    },
+    {
+      "id": "arts",
+      "kind": "topic",
+      "parent": null,
+      "label": "Umění",
+      "aliases": []
+    },
+    {
+      "id": "society",
+      "kind": "topic",
+      "parent": null,
+      "label": "Společnost",
+      "aliases": []
+    },
+    {
+      "id": "computing",
+      "kind": "topic",
+      "parent": null,
+      "label": "Informatika",
+      "aliases": [
+        "počítačové vědy"
+      ]
+    },
+    {
+      "id": "mathematics",
+      "kind": "topic",
+      "parent": null,
+      "label": "Matematika",
+      "aliases": []
+    },
+    {
+      "id": "ancient-history",
+      "kind": "topic",
+      "parent": "history",
+      "label": "Antické dějiny",
+      "aliases": [
+        "antika",
+        "starověké Řecko",
+        "starověký Řím"
+      ]
+    },
+    {
+      "id": "medieval-history",
+      "kind": "topic",
+      "parent": "history",
+      "label": "Středověké dějiny",
+      "aliases": [
+        "středověk"
+      ]
+    },
+    {
+      "id": "modern-history",
+      "kind": "topic",
+      "parent": "history",
+      "label": "Novověké a moderní dějiny",
+      "aliases": [
+        "novověk"
+      ]
+    },
+    {
+      "id": "archaeology",
+      "kind": "topic",
+      "parent": "history",
+      "label": "Archeologie",
+      "aliases": [
+        "archeologické nálezy"
+      ]
+    },
+    {
+      "id": "military-history",
+      "kind": "topic",
+      "parent": "history",
+      "label": "Vojenské dějiny",
+      "aliases": [
+        "války",
+        "vojenství"
+      ]
+    },
+    {
+      "id": "economic-history",
+      "kind": "topic",
+      "parent": "history",
+      "label": "Hospodářské dějiny",
+      "aliases": [
+        "obchodní dějiny"
+      ]
+    },
+    {
+      "id": "history-of-science",
+      "kind": "topic",
+      "parent": "history",
+      "label": "Dějiny vědy",
+      "aliases": [
+        "vědecká revoluce"
+      ]
+    },
+    {
+      "id": "ethics",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Etika",
+      "aliases": [
+        "morálka",
+        "ctnost"
+      ]
+    },
+    {
+      "id": "epistemology",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Teorie poznání",
+      "aliases": [
+        "epistemologie",
+        "vědění"
+      ]
+    },
+    {
+      "id": "metaphysics",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Metafyzika",
+      "aliases": [
+        "ontologie",
+        "bytí"
+      ]
+    },
+    {
+      "id": "logic",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Logika",
+      "aliases": [
+        "usuzování"
+      ]
+    },
+    {
+      "id": "philosophy-of-mind",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Filozofie mysli",
+      "aliases": [
+        "vědomí",
+        "identita"
+      ]
+    },
+    {
+      "id": "philosophy-of-language",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Filozofie jazyka",
+      "aliases": [
+        "význam slov"
+      ]
+    },
+    {
+      "id": "political-philosophy",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Politická filozofie",
+      "aliases": [
+        "spravedlivá společnost"
+      ]
+    },
+    {
+      "id": "ancient-philosophy",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Antická filozofie",
+      "aliases": [
+        "řecká filozofie"
+      ]
+    },
+    {
+      "id": "asian-philosophy",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Asijské filozofie",
+      "aliases": [
+        "čínská filozofie",
+        "indická filozofie"
+      ]
+    },
+    {
+      "id": "modern-philosophy",
+      "kind": "topic",
+      "parent": "philosophy",
+      "label": "Novověká a současná filozofie",
+      "aliases": [
+        "filozofie 20. století"
+      ]
+    },
+    {
+      "id": "stoicism",
+      "kind": "topic",
+      "parent": "ancient-philosophy",
+      "label": "Stoicismus",
+      "aliases": [
+        "stoikové"
+      ]
+    },
+    {
+      "id": "buddhism",
+      "kind": "topic",
+      "parent": "asian-philosophy",
+      "label": "Buddhismus",
+      "aliases": [
+        "buddha"
+      ]
+    },
+    {
+      "id": "confucianism",
+      "kind": "topic",
+      "parent": "asian-philosophy",
+      "label": "Konfucianismus",
+      "aliases": [
+        "konfuciánství"
+      ]
+    },
+    {
+      "id": "taoism",
+      "kind": "topic",
+      "parent": "asian-philosophy",
+      "label": "Taoismus",
+      "aliases": [
+        "tao",
+        "dao",
+        "wu wei"
+      ]
+    },
+    {
+      "id": "existentialism",
+      "kind": "topic",
+      "parent": "modern-philosophy",
+      "label": "Existencialismus",
+      "aliases": [
+        "absurdno"
+      ]
+    },
+    {
+      "id": "phenomenology",
+      "kind": "topic",
+      "parent": "modern-philosophy",
+      "label": "Fenomenologie",
+      "aliases": [
+        "tělesné schéma"
+      ]
+    },
+    {
+      "id": "structuralism",
+      "kind": "topic",
+      "parent": "modern-philosophy",
+      "label": "Strukturalismus",
+      "aliases": [
+        "poststrukturalismus"
+      ]
+    },
+    {
+      "id": "physics",
+      "kind": "topic",
+      "parent": "science",
+      "label": "Fyzika",
+      "aliases": []
+    },
+    {
+      "id": "mechanics",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Mechanika",
+      "aliases": [
+        "pohyb",
+        "síly"
+      ]
+    },
+    {
+      "id": "quantum-physics",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Kvantová fyzika",
+      "aliases": [
+        "kvantová mechanika"
+      ]
+    },
+    {
+      "id": "relativity",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Relativita",
+      "aliases": [
+        "teorie relativity"
+      ]
+    },
+    {
+      "id": "thermodynamics",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Termodynamika",
+      "aliases": [
+        "teplo",
+        "entropie"
+      ]
+    },
+    {
+      "id": "optics",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Optika",
+      "aliases": [
+        "světlo"
+      ]
+    },
+    {
+      "id": "electromagnetism",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Elektromagnetismus",
+      "aliases": [
+        "elektřina",
+        "magnetismus"
+      ]
+    },
+    {
+      "id": "particle-physics",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Částicová a jaderná fyzika",
+      "aliases": [
+        "proton",
+        "neutrino",
+        "atomové jádro"
+      ]
+    },
+    {
+      "id": "materials",
+      "kind": "topic",
+      "parent": "physics",
+      "label": "Vlastnosti materiálů",
+      "aliases": [
+        "supravodivost"
+      ]
+    },
+    {
+      "id": "astronomy",
+      "kind": "topic",
+      "parent": "science",
+      "label": "Astronomie",
+      "aliases": [
+        "vesmír"
+      ]
+    },
+    {
+      "id": "cosmology",
+      "kind": "topic",
+      "parent": "astronomy",
+      "label": "Kosmologie",
+      "aliases": [
+        "vznik vesmíru"
+      ]
+    },
+    {
+      "id": "black-holes",
+      "kind": "topic",
+      "parent": "astronomy",
+      "label": "Černé díry",
+      "aliases": [
+        "horizont událostí"
+      ]
+    },
+    {
+      "id": "stars",
+      "kind": "topic",
+      "parent": "astronomy",
+      "label": "Hvězdy",
+      "aliases": [
+        "hvězdný vývoj"
+      ]
+    },
+    {
+      "id": "exoplanets",
+      "kind": "topic",
+      "parent": "astronomy",
+      "label": "Exoplanety",
+      "aliases": [
+        "extrasolární planety"
+      ]
+    },
+    {
+      "id": "solar-system",
+      "kind": "topic",
+      "parent": "astronomy",
+      "label": "Sluneční soustava",
+      "aliases": [
+        "planetky",
+        "komety"
+      ]
+    },
+    {
+      "id": "spaceflight",
+      "kind": "topic",
+      "parent": "astronomy",
+      "label": "Kosmonautika",
+      "aliases": [
+        "vesmírné sondy",
+        "kosmické mise"
+      ]
+    },
+    {
+      "id": "chemistry",
+      "kind": "topic",
+      "parent": "science",
+      "label": "Chemie",
+      "aliases": [
+        "chemické reakce"
+      ]
+    },
+    {
+      "id": "biology",
+      "kind": "topic",
+      "parent": "science",
+      "label": "Biologie",
+      "aliases": []
+    },
+    {
+      "id": "evolution",
+      "kind": "topic",
+      "parent": "biology",
+      "label": "Evoluce",
+      "aliases": [
+        "přírodní výběr"
+      ]
+    },
+    {
+      "id": "genetics",
+      "kind": "topic",
+      "parent": "biology",
+      "label": "Genetika",
+      "aliases": [
+        "DNA",
+        "dědičnost"
+      ]
+    },
+    {
+      "id": "microbiology",
+      "kind": "topic",
+      "parent": "biology",
+      "label": "Mikrobiologie",
+      "aliases": [
+        "bakterie",
+        "mikroorganismy"
+      ]
+    },
+    {
+      "id": "zoology",
+      "kind": "topic",
+      "parent": "biology",
+      "label": "Zoologie",
+      "aliases": [
+        "živočichové",
+        "zvířata"
+      ]
+    },
+    {
+      "id": "botany",
+      "kind": "topic",
+      "parent": "biology",
+      "label": "Botanika",
+      "aliases": [
+        "rostliny"
+      ]
+    },
+    {
+      "id": "ecology",
+      "kind": "topic",
+      "parent": "biology",
+      "label": "Ekologie",
+      "aliases": [
+        "ekosystémy"
+      ]
+    },
+    {
+      "id": "neuroscience",
+      "kind": "topic",
+      "parent": "biology",
+      "label": "Neurovědy",
+      "aliases": [
+        "mozek",
+        "nervová soustava"
+      ]
+    },
+    {
+      "id": "geoscience",
+      "kind": "topic",
+      "parent": "science",
+      "label": "Vědy o Zemi",
+      "aliases": [
+        "geologie",
+        "geografie"
+      ]
+    },
+    {
+      "id": "medicine",
+      "kind": "topic",
+      "parent": "science",
+      "label": "Medicína",
+      "aliases": [
+        "lékařství",
+        "zdraví"
+      ]
+    },
+    {
+      "id": "public-health",
+      "kind": "topic",
+      "parent": "medicine",
+      "label": "Veřejné zdraví",
+      "aliases": [
+        "epidemiologie",
+        "očkování"
+      ]
+    },
+    {
+      "id": "nutrition",
+      "kind": "topic",
+      "parent": "medicine",
+      "label": "Výživa",
+      "aliases": [
+        "stravování",
+        "jídelníček"
+      ]
+    },
+    {
+      "id": "sleep",
+      "kind": "topic",
+      "parent": "medicine",
+      "label": "Spánek",
+      "aliases": [
+        "spánkový režim"
+      ]
+    },
+    {
+      "id": "exercise",
+      "kind": "topic",
+      "parent": "medicine",
+      "label": "Pohyb a zdraví",
+      "aliases": [
+        "chůze",
+        "cvičení"
+      ]
+    },
+    {
+      "id": "psychology",
+      "kind": "topic",
+      "parent": "society",
+      "label": "Psychologie",
+      "aliases": []
+    },
+    {
+      "id": "social-psychology",
+      "kind": "topic",
+      "parent": "psychology",
+      "label": "Sociální psychologie",
+      "aliases": [
+        "sociální vlivy"
+      ]
+    },
+    {
+      "id": "cognitive-biases",
+      "kind": "topic",
+      "parent": "psychology",
+      "label": "Kognitivní zkreslení",
+      "aliases": [
+        "chyby úsudku"
+      ]
+    },
+    {
+      "id": "learning-memory",
+      "kind": "topic",
+      "parent": "psychology",
+      "label": "Učení a paměť",
+      "aliases": [
+        "zapomínání"
+      ]
+    },
+    {
+      "id": "perception",
+      "kind": "topic",
+      "parent": "psychology",
+      "label": "Vnímání",
+      "aliases": [
+        "smysly",
+        "iluze"
+      ]
+    },
+    {
+      "id": "motivation",
+      "kind": "topic",
+      "parent": "psychology",
+      "label": "Motivace",
+      "aliases": [
+        "odměny"
+      ]
+    },
+    {
+      "id": "development",
+      "kind": "topic",
+      "parent": "psychology",
+      "label": "Vývojová psychologie",
+      "aliases": [
+        "dětství"
+      ]
+    },
+    {
+      "id": "economics",
+      "kind": "topic",
+      "parent": "society",
+      "label": "Ekonomie",
+      "aliases": []
+    },
+    {
+      "id": "microeconomics",
+      "kind": "topic",
+      "parent": "economics",
+      "label": "Mikroekonomie",
+      "aliases": [
+        "užitek",
+        "ceny"
+      ]
+    },
+    {
+      "id": "macroeconomics",
+      "kind": "topic",
+      "parent": "economics",
+      "label": "Makroekonomie",
+      "aliases": [
+        "inflace",
+        "měnová politika"
+      ]
+    },
+    {
+      "id": "finance",
+      "kind": "topic",
+      "parent": "economics",
+      "label": "Finance",
+      "aliases": [
+        "investice",
+        "úroky"
+      ]
+    },
+    {
+      "id": "game-theory",
+      "kind": "topic",
+      "parent": "economics",
+      "label": "Teorie her",
+      "aliases": [
+        "strategické interakce"
+      ]
+    },
+    {
+      "id": "institutions",
+      "kind": "topic",
+      "parent": "economics",
+      "label": "Instituce a pobídky",
+      "aliases": [
+        "pravidla trhu"
+      ]
+    },
+    {
+      "id": "political-science",
+      "kind": "topic",
+      "parent": "society",
+      "label": "Politologie",
+      "aliases": [
+        "politické systémy"
+      ]
+    },
+    {
+      "id": "democracy",
+      "kind": "topic",
+      "parent": "political-science",
+      "label": "Demokracie a volby",
+      "aliases": [
+        "volební systémy",
+        "hlasování"
+      ]
+    },
+    {
+      "id": "international-relations",
+      "kind": "topic",
+      "parent": "political-science",
+      "label": "Mezinárodní vztahy",
+      "aliases": [
+        "diplomacie"
+      ]
+    },
+    {
+      "id": "law",
+      "kind": "topic",
+      "parent": "society",
+      "label": "Právo",
+      "aliases": [
+        "zákony",
+        "právní systémy"
+      ]
+    },
+    {
+      "id": "human-rights",
+      "kind": "topic",
+      "parent": "law",
+      "label": "Lidská práva",
+      "aliases": [
+        "občanská práva"
+      ]
+    },
+    {
+      "id": "sociology",
+      "kind": "topic",
+      "parent": "society",
+      "label": "Sociologie",
+      "aliases": [
+        "společenské teorie"
+      ]
+    },
+    {
+      "id": "organizations",
+      "kind": "topic",
+      "parent": "sociology",
+      "label": "Organizace",
+      "aliases": [
+        "organizování",
+        "vedení"
+      ]
+    },
+    {
+      "id": "social-networks",
+      "kind": "topic",
+      "parent": "sociology",
+      "label": "Sociální sítě a vazby",
+      "aliases": [
+        "slabé vazby",
+        "kontakty"
+      ]
+    },
+    {
+      "id": "linguistics",
+      "kind": "topic",
+      "parent": "society",
+      "label": "Lingvistika",
+      "aliases": [
+        "jazykověda"
+      ]
+    },
+    {
+      "id": "writing-systems",
+      "kind": "topic",
+      "parent": "linguistics",
+      "label": "Písmo a pravopis",
+      "aliases": [
+        "abeceda",
+        "psaní"
+      ]
+    },
+    {
+      "id": "semiotics",
+      "kind": "topic",
+      "parent": "society",
+      "label": "Sémiotika",
+      "aliases": [
+        "znaky"
+      ]
+    },
+    {
+      "id": "painting",
+      "kind": "topic",
+      "parent": "arts",
+      "label": "Malířství",
+      "aliases": [
+        "obrazy"
+      ]
+    },
+    {
+      "id": "sculpture",
+      "kind": "topic",
+      "parent": "arts",
+      "label": "Sochařství",
+      "aliases": [
+        "sochy"
+      ]
+    },
+    {
+      "id": "architecture",
+      "kind": "topic",
+      "parent": "arts",
+      "label": "Architektura",
+      "aliases": [
+        "stavby"
+      ]
+    },
+    {
+      "id": "music",
+      "kind": "topic",
+      "parent": "arts",
+      "label": "Hudba",
+      "aliases": [
+        "skladatelé"
+      ]
+    },
+    {
+      "id": "literature",
+      "kind": "topic",
+      "parent": "arts",
+      "label": "Literatura",
+      "aliases": [
+        "knihy",
+        "romány"
+      ]
+    },
+    {
+      "id": "narratology",
+      "kind": "topic",
+      "parent": "literature",
+      "label": "Vyprávění a literární teorie",
+      "aliases": [
+        "naratologie",
+        "vypravěč"
+      ]
+    },
+    {
+      "id": "cinema",
+      "kind": "topic",
+      "parent": "arts",
+      "label": "Film",
+      "aliases": [
+        "filmové umění"
+      ]
+    },
+    {
+      "id": "film-technique",
+      "kind": "topic",
+      "parent": "cinema",
+      "label": "Filmové postupy",
+      "aliases": [
+        "střih",
+        "záběr"
+      ]
+    },
+    {
+      "id": "sound",
+      "kind": "topic",
+      "parent": "cinema",
+      "label": "Filmový zvuk",
+      "aliases": [
+        "ruchy",
+        "zvukové efekty"
+      ]
+    },
+    {
+      "id": "animation",
+      "kind": "topic",
+      "parent": "cinema",
+      "label": "Animace",
+      "aliases": [
+        "animované filmy"
+      ]
+    },
+    {
+      "id": "art-conservation",
+      "kind": "topic",
+      "parent": "arts",
+      "label": "Uchování umění",
+      "aliases": [
+        "restaurování"
+      ]
+    },
+    {
+      "id": "algorithms",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Algoritmy",
+      "aliases": [
+        "výpočetní postupy"
+      ]
+    },
+    {
+      "id": "complexity",
+      "kind": "topic",
+      "parent": "algorithms",
+      "label": "Výpočetní složitost",
+      "aliases": [
+        "časová složitost"
+      ]
+    },
+    {
+      "id": "cryptography",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Kryptografie",
+      "aliases": [
+        "šifrování",
+        "kryptologie"
+      ]
+    },
+    {
+      "id": "computer-security",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Počítačová bezpečnost",
+      "aliases": [
+        "kyberbezpečnost"
+      ]
+    },
+    {
+      "id": "networks",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Počítačové sítě",
+      "aliases": [
+        "internet"
+      ]
+    },
+    {
+      "id": "artificial-intelligence",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Umělá inteligence",
+      "aliases": [
+        "AI",
+        "strojové učení"
+      ]
+    },
+    {
+      "id": "programming",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Programování",
+      "aliases": [
+        "software",
+        "programovací jazyky"
+      ]
+    },
+    {
+      "id": "computer-history",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Dějiny výpočetní techniky",
+      "aliases": [
+        "historie počítačů"
+      ]
+    },
+    {
+      "id": "information-theory",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Teorie informace",
+      "aliases": [
+        "komprese",
+        "kódování"
+      ]
+    },
+    {
+      "id": "human-computer-interaction",
+      "kind": "topic",
+      "parent": "computing",
+      "label": "Interakce člověka s počítačem",
+      "aliases": [
+        "uživatelská rozhraní"
+      ]
+    },
+    {
+      "id": "number-theory",
+      "kind": "topic",
+      "parent": "mathematics",
+      "label": "Teorie čísel",
+      "aliases": [
+        "prvočísla"
+      ]
+    },
+    {
+      "id": "geometry",
+      "kind": "topic",
+      "parent": "mathematics",
+      "label": "Geometrie",
+      "aliases": [
+        "tvary"
+      ]
+    },
+    {
+      "id": "probability",
+      "kind": "topic",
+      "parent": "mathematics",
+      "label": "Pravděpodobnost",
+      "aliases": [
+        "náhoda"
+      ]
+    },
+    {
+      "id": "statistics",
+      "kind": "topic",
+      "parent": "mathematics",
+      "label": "Statistika",
+      "aliases": [
+        "data",
+        "statistické usuzování"
+      ]
+    },
+    {
+      "id": "analysis",
+      "kind": "topic",
+      "parent": "mathematics",
+      "label": "Matematická analýza",
+      "aliases": [
+        "limity",
+        "nekonečno"
+      ]
+    },
+    {
+      "id": "combinatorics",
+      "kind": "topic",
+      "parent": "mathematics",
+      "label": "Kombinatorika",
+      "aliases": [
+        "grafy",
+        "uspořádání"
+      ]
+    },
+    {
+      "id": "power",
+      "kind": "theme",
+      "parent": null,
+      "label": "Moc a její kontrola",
+      "aliases": [
+        "autorita",
+        "vláda"
+      ]
+    },
+    {
+      "id": "cooperation",
+      "kind": "theme",
+      "parent": null,
+      "label": "Spolupráce a koordinace",
+      "aliases": [
+        "kooperace"
+      ]
+    },
+    {
+      "id": "decision-making",
+      "kind": "theme",
+      "parent": null,
+      "label": "Rozhodování",
+      "aliases": [
+        "volba",
+        "rozhodnutí"
+      ]
+    },
+    {
+      "id": "knowledge-evidence",
+      "kind": "theme",
+      "parent": null,
+      "label": "Poznání a důkazy",
+      "aliases": [
+        "ověřování",
+        "vědecká metoda"
+      ]
+    },
+    {
+      "id": "identity",
+      "kind": "theme",
+      "parent": null,
+      "label": "Identita a sebepojetí",
+      "aliases": [
+        "já",
+        "osobnost"
+      ]
+    },
+    {
+      "id": "freedom",
+      "kind": "theme",
+      "parent": null,
+      "label": "Svoboda a odpovědnost",
+      "aliases": [
+        "svobodná vůle"
+      ]
+    },
+    {
+      "id": "fairness",
+      "kind": "theme",
+      "parent": null,
+      "label": "Spravedlnost a rovnost",
+      "aliases": [
+        "nerovnost"
+      ]
+    },
+    {
+      "id": "change",
+      "kind": "theme",
+      "parent": null,
+      "label": "Změna a vývoj",
+      "aliases": [
+        "proměna"
+      ]
+    },
+    {
+      "id": "uncertainty",
+      "kind": "theme",
+      "parent": null,
+      "label": "Nejistota a předvídání",
+      "aliases": [
+        "predikce"
+      ]
+    },
+    {
+      "id": "limits",
+      "kind": "theme",
+      "parent": null,
+      "label": "Meze a nemožnost",
+      "aliases": [
+        "omezení"
+      ]
+    },
+    {
+      "id": "perceived-reality",
+      "kind": "theme",
+      "parent": null,
+      "label": "Zdání a skutečnost",
+      "aliases": [
+        "realita",
+        "interpretace"
+      ]
+    },
+    {
+      "id": "communication",
+      "kind": "theme",
+      "parent": null,
+      "label": "Komunikace a význam",
+      "aliases": [
+        "sdělení"
+      ]
+    },
+    {
+      "id": "innovation",
+      "kind": "theme",
+      "parent": null,
+      "label": "Inovace a nové nástroje",
+      "aliases": [
+        "vynálezy"
+      ]
+    },
+    {
+      "id": "resilience",
+      "kind": "theme",
+      "parent": null,
+      "label": "Odolnost a adaptace",
+      "aliases": [
+        "přizpůsobení"
+      ]
+    },
+    {
+      "id": "wellbeing",
+      "kind": "theme",
+      "parent": null,
+      "label": "Zdraví a každodenní život",
+      "aliases": [
+        "životospráva"
+      ]
+    },
+    {
+      "id": "privacy",
+      "kind": "theme",
+      "parent": null,
+      "label": "Soukromí a důvěra",
+      "aliases": [
+        "tajemství"
+      ]
+    },
+    {
+      "id": "incentives",
+      "kind": "theme",
+      "parent": null,
+      "label": "Pobídky a motivace",
+      "aliases": [
+        "zájmy",
+        "odměňování"
+      ]
+    },
+    {
+      "id": "preservation",
+      "kind": "theme",
+      "parent": null,
+      "label": "Uchování a ztráta",
+      "aliases": [
+        "památka",
+        "zachování"
+      ]
+    },
+    {
+      "id": "patterns",
+      "kind": "theme",
+      "parent": null,
+      "label": "Vzory a struktury",
+      "aliases": [
+        "pravidelnost"
+      ]
+    },
+    {
+      "id": "resources",
+      "kind": "theme",
+      "parent": null,
+      "label": "Zdroje a efektivita",
+      "aliases": [
+        "hospodaření"
+      ]
+    },
+    {
+      "id": "aristotle",
+      "kind": "entity",
+      "parent": null,
+      "label": "Aristotelés",
+      "aliases": [
+        "Aristoteles",
+        "Aristotle"
+      ]
+    },
+    {
+      "id": "plato",
+      "kind": "entity",
+      "parent": null,
+      "label": "Platón",
+      "aliases": [
+        "Platon",
+        "Plato"
+      ]
+    },
+    {
+      "id": "socrates",
+      "kind": "entity",
+      "parent": null,
+      "label": "Sókratés",
+      "aliases": [
+        "Sokrates",
+        "Socrates"
+      ]
+    },
+    {
+      "id": "confucius",
+      "kind": "entity",
+      "parent": null,
+      "label": "Konfucius",
+      "aliases": [
+        "Confucius"
+      ]
+    },
+    {
+      "id": "laozi",
+      "kind": "entity",
+      "parent": null,
+      "label": "Lao-c’",
+      "aliases": [
+        "Lao-c'",
+        "Laozi"
+      ]
+    },
+    {
+      "id": "epicurus",
+      "kind": "entity",
+      "parent": null,
+      "label": "Epikúros",
+      "aliases": [
+        "Epikouros",
+        "Epicurus"
+      ]
+    },
+    {
+      "id": "seneca",
+      "kind": "entity",
+      "parent": null,
+      "label": "Seneca",
+      "aliases": [
+        "Seneka"
+      ]
+    },
+    {
+      "id": "chrysippus",
+      "kind": "entity",
+      "parent": null,
+      "label": "Chrysippos",
+      "aliases": [
+        "Chrysippus"
+      ]
+    },
+    {
+      "id": "archimedes",
+      "kind": "entity",
+      "parent": null,
+      "label": "Archimédés",
+      "aliases": [
+        "Archimedes"
+      ]
+    },
+    {
+      "id": "adam-smith",
+      "kind": "entity",
+      "parent": null,
+      "label": "Adam Smith",
+      "aliases": [
+        "Smithova ekonomie"
+      ]
+    },
+    {
+      "id": "keynes",
+      "kind": "entity",
+      "parent": null,
+      "label": "John Maynard Keynes",
+      "aliases": [
+        "Keynes"
+      ]
+    },
+    {
+      "id": "shakespeare",
+      "kind": "entity",
+      "parent": null,
+      "label": "William Shakespeare",
+      "aliases": [
+        "Shakespeare"
+      ]
+    },
+    {
+      "id": "kafka",
+      "kind": "entity",
+      "parent": null,
+      "label": "Franz Kafka",
+      "aliases": [
+        "Kafka"
+      ]
+    },
+    {
+      "id": "orwell",
+      "kind": "entity",
+      "parent": null,
+      "label": "George Orwell",
+      "aliases": [
+        "Orwell"
+      ]
+    },
+    {
+      "id": "jane-austen",
+      "kind": "entity",
+      "parent": null,
+      "label": "Jane Austenová",
+      "aliases": [
+        "Jane Austen"
+      ]
+    },
+    {
+      "id": "einstein",
+      "kind": "entity",
+      "parent": null,
+      "label": "Albert Einstein",
+      "aliases": [
+        "Einstein"
+      ]
+    },
+    {
+      "id": "gaudi",
+      "kind": "entity",
+      "parent": null,
+      "label": "Antoni Gaudí",
+      "aliases": [
+        "Gaudi"
+      ]
+    },
+    {
+      "id": "saussure",
+      "kind": "entity",
+      "parent": null,
+      "label": "Ferdinand de Saussure",
+      "aliases": [
+        "Saussure"
+      ]
+    },
+    {
+      "id": "barthes",
+      "kind": "entity",
+      "parent": null,
+      "label": "Roland Barthes",
+      "aliases": [
+        "Barthes"
+      ]
+    },
+    {
+      "id": "derrida",
+      "kind": "entity",
+      "parent": null,
+      "label": "Jacques Derrida",
+      "aliases": [
+        "Derrida"
+      ]
+    },
+    {
+      "id": "roman-empire",
+      "kind": "entity",
+      "parent": null,
+      "label": "Římská říše",
+      "aliases": [
+        "Řím",
+        "Roman Empire"
+      ]
+    },
+    {
+      "id": "ancient-athens",
+      "kind": "entity",
+      "parent": null,
+      "label": "Antické Athény",
+      "aliases": [
+        "Athény",
+        "Athens"
+      ]
+    },
+    {
+      "id": "china",
+      "kind": "entity",
+      "parent": null,
+      "label": "Čína",
+      "aliases": [
+        "Čínské dějiny"
+      ]
+    },
+    {
+      "id": "india",
+      "kind": "entity",
+      "parent": null,
+      "label": "Indie",
+      "aliases": [
+        "Indické dějiny"
+      ]
+    },
+    {
+      "id": "moon",
+      "kind": "entity",
+      "parent": null,
+      "label": "Měsíc",
+      "aliases": [
+        "Luna"
+      ]
+    },
+    {
+      "id": "mars",
+      "kind": "entity",
+      "parent": null,
+      "label": "Mars",
+      "aliases": []
+    },
+    {
+      "id": "venus",
+      "kind": "entity",
+      "parent": null,
+      "label": "Venuše",
+      "aliases": []
+    },
+    {
+      "id": "jupiter",
+      "kind": "entity",
+      "parent": null,
+      "label": "Jupiter",
+      "aliases": []
+    },
+    {
+      "id": "saturn",
+      "kind": "entity",
+      "parent": null,
+      "label": "Saturn",
+      "aliases": []
+    },
+    {
+      "id": "sun",
+      "kind": "entity",
+      "parent": null,
+      "label": "Slunce",
+      "aliases": []
+    }
+  ]
+}

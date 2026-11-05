@@ -1,0 +1,506 @@
+[
+  {
+    "id": "927",
+    "source": 0,
+    "url": "https://historicengland.org.uk/education/schools-resources/educational-images/horse-shoe-brewery-268-tottenham-court-road-holborn-greater-london-bl19305",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "927",
+    "source": 1,
+    "url": "https://www.history.com/articles/london-beer-flood",
+    "resolved_url": "https://www.hearstnetworks.com/",
+    "status": 200,
+    "bytes": 42453,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "928",
+    "source": 0,
+    "url": "https://pca-cpa.org/cn/cases/317/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "928",
+    "source": 1,
+    "url": "https://www.rmg.co.uk/collections/archive/rmgc-object-473898",
+    "resolved_url": "https://www.rmg.co.uk/collections/archive/rmgc-object-473898",
+    "status": 200,
+    "bytes": 88274,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "929",
+    "source": 0,
+    "url": "https://plato.stanford.edu/entries/moral-luck/",
+    "resolved_url": "https://plato.stanford.edu/entries/moral-luck/",
+    "status": 200,
+    "bytes": 123538,
+    "content_type": "text/html"
+  },
+  {
+    "id": "929",
+    "source": 1,
+    "url": "https://iep.utm.edu/moralluc/",
+    "resolved_url": "https://iep.utm.edu/moralluc/",
+    "status": 200,
+    "bytes": 74985,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "930",
+    "source": 0,
+    "url": "https://plato.stanford.edu/entries/sorites-paradox/",
+    "resolved_url": "https://plato.stanford.edu/entries/sorites-paradox/",
+    "status": 200,
+    "bytes": 112713,
+    "content_type": "text/html"
+  },
+  {
+    "id": "930",
+    "source": 1,
+    "url": "https://plato.stanford.edu/entries/vagueness/",
+    "resolved_url": "https://plato.stanford.edu/entries/vagueness/",
+    "status": 200,
+    "bytes": 105029,
+    "content_type": "text/html"
+  },
+  {
+    "id": "931",
+    "source": 0,
+    "url": "https://www.afcd.gov.hk/english/quarantine/qua_vetlab/files/common/PCFinHK.pdf",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)>"
+  },
+  {
+    "id": "931",
+    "source": 1,
+    "url": "https://www.sciencedirect.com/science/article/pii/S1546509808603209",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "932",
+    "source": 0,
+    "url": "https://birklab.org/wp-content/uploads/2024/12/birk-et-al.-2023-temperature-dependent-rna-editing-in-octopus-exten.pdf",
+    "resolved_url": "https://birklab.org/wp-content/uploads/2024/12/birk-et-al.-2023-temperature-dependent-rna-editing-in-octopus-exten.pdf",
+    "status": 200,
+    "bytes": 5680379,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "932",
+    "source": 1,
+    "url": "https://www.mbl.edu/news/masters-acclimation-octopuses-adjust-cold-editing-their-rna",
+    "resolved_url": "https://www.mbl.edu/news/masters-acclimation-octopuses-adjust-cold-editing-their-rna",
+    "status": 200,
+    "bytes": 452213,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "933",
+    "source": 0,
+    "url": "https://www.npg.org.uk/collections/explore/glossary-of-art-terms/silverpoint",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "933",
+    "source": 1,
+    "url": "https://www.metmuseum.org/pt/perspectives/materials-and-techniques-drawing-metalpoint",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "934",
+    "source": 0,
+    "url": "https://library.chethams.com/collections/101-treasures-of-chethams/fore-edge-painting/",
+    "resolved_url": "https://library.chethams.com/collections/101-treasures-of-chethams/fore-edge-painting/",
+    "status": 200,
+    "bytes": 76683,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "934",
+    "source": 1,
+    "url": "https://bpsc.library.ualberta.ca/collections/books-with-fore-edge-paintings",
+    "resolved_url": "https://bpsc.library.ualberta.ca/collections/books-with-fore-edge-paintings",
+    "status": 200,
+    "bytes": 9721,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "935",
+    "source": 0,
+    "url": "https://www.tomphillips.co.uk/works/humument",
+    "resolved_url": "https://www.tomphillips.co.uk/works/humument",
+    "status": 200,
+    "bytes": 15402,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "935",
+    "source": 1,
+    "url": "https://emuseum.toledomuseum.org/objects/43209/a-humument-a-treated-victorian-novel",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "936",
+    "source": 0,
+    "url": "https://www.ndbooks.com/book/the-unfortunates/",
+    "resolved_url": "https://www.ndbooks.com/book/the-unfortunates/",
+    "status": 200,
+    "bytes": 83530,
+    "content_type": "text/html"
+  },
+  {
+    "id": "936",
+    "source": 1,
+    "url": "https://catalogue.etoncollege.com/B54425",
+    "resolved_url": "https://catalogue.etoncollege.com/B54425",
+    "status": 200,
+    "bytes": 20925,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "937",
+    "source": 0,
+    "url": "https://www.gesetze-im-internet.de/gg/art_67.html",
+    "resolved_url": "https://www.gesetze-im-internet.de/gg/art_67.html",
+    "status": 200,
+    "bytes": 3781,
+    "content_type": "text/html"
+  },
+  {
+    "id": "937",
+    "source": 1,
+    "url": "https://www.bundestag.de/services/glossar/konst_misstrau-245482",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)>"
+  },
+  {
+    "id": "938",
+    "source": 0,
+    "url": "https://www.census.gov/topics/public-sector/congressional-apportionment/about/historical-perspective.html",
+    "resolved_url": "https://www.census.gov/topics/public-sector/congressional-apportionment/about/historical-perspective.html",
+    "status": 200,
+    "bytes": 334314,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "938",
+    "source": 1,
+    "url": "https://www.census.gov/content/dam/Census/library/working-papers/1992/adrm/rr92-6.pdf",
+    "resolved_url": "https://www.census.gov/content/dam/Census/library/working-papers/1992/adrm/rr92-6.pdf",
+    "status": 200,
+    "bytes": 192753,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "939",
+    "source": 0,
+    "url": "https://pubs.aip.org/aip/apl/article/109/23/231903/32394/On-the-extraordinary-strength-of-Prince-Rupert-s",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "939",
+    "source": 1,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9351460/",
+    "resolved_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9351460/",
+    "status": 200,
+    "bytes": 21478,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "940",
+    "source": 0,
+    "url": "https://www.nasa.gov/history/novel-rocket-fuel-spawned-ferrofluid-industry/",
+    "resolved_url": "https://www.nasa.gov/history/novel-rocket-fuel-spawned-ferrofluid-industry/",
+    "status": 200,
+    "bytes": 285277,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "940",
+    "source": 1,
+    "url": "https://spinoff.nasa.gov/Spinoff2018/cg_3.html",
+    "resolved_url": "https://spinoff.nasa.gov/Spinoff2018/cg_3.html",
+    "status": 200,
+    "bytes": 63258,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "941",
+    "source": 0,
+    "url": "https://science.nasa.gov/resource/janus-epimetheus-swing/",
+    "resolved_url": "https://science.nasa.gov/resource/janus-epimetheus-swing/",
+    "status": 200,
+    "bytes": 258932,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "941",
+    "source": 1,
+    "url": "https://science.nasa.gov/saturn/moons/epimetheus/",
+    "resolved_url": "https://science.nasa.gov/saturn/moons/epimetheus/",
+    "status": 200,
+    "bytes": 265874,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "942",
+    "source": 0,
+    "url": "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/stargaze/Smercury.htm",
+    "resolved_url": "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/stargaze/Smercury.htm",
+    "status": 200,
+    "bytes": 11040,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "942",
+    "source": 1,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/15215857/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/15215857/",
+    "status": 200,
+    "bytes": 5590,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "943",
+    "source": 0,
+    "url": "https://www.nobelprize.org/uploads/2018/06/popular-economicsciences2016-1.pdf",
+    "resolved_url": "https://www.nobelprize.org/uploads/2018/06/popular-economicsciences2016-1.pdf",
+    "status": 200,
+    "bytes": 350995,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "943",
+    "source": 1,
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/2016/advanced-information/",
+    "resolved_url": "https://www.nobelprize.org/prizes/economic-sciences/2016/advanced-information/",
+    "status": 200,
+    "bytes": 165454,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "944",
+    "source": 0,
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/1996/press-release/",
+    "resolved_url": "https://www.nobelprize.org/prizes/economic-sciences/1996/press-release/",
+    "status": 200,
+    "bytes": 176196,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "944",
+    "source": 1,
+    "url": "https://www.nobelprize.org/prizes/economic-sciences/1996/advanced-information/",
+    "resolved_url": "https://www.nobelprize.org/prizes/economic-sciences/1996/advanced-information/",
+    "status": 200,
+    "bytes": 216950,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "945",
+    "source": 0,
+    "url": "https://andymatuschak.org/prompts/Slamecka1978.pdf",
+    "resolved_url": "https://andymatuschak.org/prompts/Slamecka1978.pdf",
+    "status": 200,
+    "bytes": 2394634,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "945",
+    "source": 1,
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5069302/",
+    "resolved_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5069302/",
+    "status": 200,
+    "bytes": 21474,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "946",
+    "source": 0,
+    "url": "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01693.x/",
+    "resolved_url": "https://www.psychologicalscience.org/journals/psychological-science/j.1467-9280.2006.01693.x/",
+    "status": 200,
+    "bytes": 78211,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "946",
+    "source": 1,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/20951630/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/20951630/",
+    "status": 200,
+    "bytes": 5590,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "947",
+    "source": 0,
+    "url": "https://airandspace.si.edu/stories/editorial/making-2001s-star-gate-sequence",
+    "resolved_url": "https://airandspace.si.edu/stories/editorial/making-2001s-star-gate-sequence",
+    "status": 200,
+    "bytes": 87875,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "947",
+    "source": 1,
+    "url": "https://archives.arts.ac.uk/CalmView/Record.aspx?id=SK%2F12%2F8%2F1%2F78&src=CalmView.Catalog",
+    "resolved_url": "https://archives.arts.ac.uk/CalmView/Record.aspx?id=SK%2F12%2F8%2F1%2F78&src=CalmView.Catalog",
+    "status": 200,
+    "bytes": 29647,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "948",
+    "source": 0,
+    "url": "https://www.waltdisney.org/blog/machine-imagination-walt-disneys-pinocchio-and-multiplane-camera",
+    "resolved_url": "https://www.waltdisney.org/blog/machine-imagination-walt-disneys-pinocchio-and-multiplane-camera",
+    "status": 200,
+    "bytes": 52459,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "948",
+    "source": 1,
+    "url": "https://www.waltdisney.org/sites/default/files/MultiplaneGuideCurriculumPacket_Final.pdf",
+    "resolved_url": "https://www.waltdisney.org/sites/default/files/MultiplaneGuideCurriculumPacket_Final.pdf",
+    "status": 200,
+    "bytes": 3595662,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "949",
+    "source": 0,
+    "url": "https://mathworld.wolfram.com/ReuleauxTriangle.html",
+    "resolved_url": "https://mathworld.wolfram.com/ReuleauxTriangle.html",
+    "status": 200,
+    "bytes": 80647,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "949",
+    "source": 1,
+    "url": "https://mathworld.wolfram.com/CurveofConstantWidth.html",
+    "resolved_url": "https://mathworld.wolfram.com/CurveofConstantWidth.html",
+    "status": 200,
+    "bytes": 56978,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "950",
+    "source": 0,
+    "url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_%28Judson%29/21%3A_Fields/21.03%3A_Geometric_Constructions",
+    "resolved_url": "https://math.libretexts.org/Bookshelves/Abstract_and_Geometric_Algebra/Abstract_Algebra%3A_Theory_and_Applications_%28Judson%29/21%3A_Fields/21.03%3A_Geometric_Constructions",
+    "status": 200,
+    "bytes": 153780,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "950",
+    "source": 1,
+    "url": "https://www.math.stonybrook.edu/~aknapp/books/basic-alg/b-alg-Ch9-sample.pdf",
+    "resolved_url": "https://www.math.stonybrook.edu/~aknapp/books/basic-alg/b-alg-Ch9-sample.pdf",
+    "status": 200,
+    "bytes": 316970,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "951",
+    "source": 0,
+    "url": "https://courses.cs.washington.edu/courses/csep521/21wi/readings/bloom_cacm.pdf",
+    "resolved_url": "https://courses.cs.washington.edu/courses/csep521/21wi/readings/bloom_cacm.pdf",
+    "status": 200,
+    "bytes": 528149,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "951",
+    "source": 1,
+    "url": "https://people.scs.carleton.ca/~michiel/bloomfilter.pdf",
+    "resolved_url": "https://people.scs.carleton.ca/~michiel/bloomfilter.pdf",
+    "status": 200,
+    "bytes": 148518,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "952",
+    "source": 0,
+    "url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects",
+    "resolved_url": "https://git-scm.com/book/en/v2/Git-Internals-Git-Objects",
+    "status": 200,
+    "bytes": 145608,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "952",
+    "source": 1,
+    "url": "https://git-scm.com/docs/git-hash-object",
+    "resolved_url": "https://git-scm.com/docs/git-hash-object",
+    "status": 200,
+    "bytes": 29933,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "953",
+    "source": 0,
+    "url": "https://americanindian.si.edu/exhibitions/infinityofnations/andes/143866.html",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "953",
+    "source": 1,
+    "url": "https://www.nist.gov/nist-museum/standardizing-empire",
+    "resolved_url": "https://www.nist.gov/nist-museum/standardizing-empire",
+    "status": 200,
+    "bytes": 110275,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "954",
+    "source": 0,
+    "url": "https://www.data-johncage.org/prepared_piano_essay.cfm",
+    "resolved_url": "https://www.data-johncage.org/prepared_piano_essay.cfm",
+    "status": 200,
+    "bytes": 11918,
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "id": "954",
+    "source": 1,
+    "url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=32",
+    "resolved_url": "https://data-johncage.org/pp/John-Cage-Work-Detail.cfm?work_ID=32",
+    "status": 200,
+    "bytes": 27301,
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "id": "955",
+    "source": 0,
+    "url": "https://www.awi.de/en/themes/antarctic-species-under-climate-change.html",
+    "resolved_url": "https://www.awi.de/en/themes/antarctic-species-under-climate-change.html",
+    "status": 200,
+    "bytes": 692319,
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "id": "955",
+    "source": 1,
+    "url": "https://www.nature.com/articles/s41467-023-38567-6",
+    "resolved_url": "https://www.nature.com/articles/s41467-023-38567-6",
+    "status": 200,
+    "bytes": 3038,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "956",
+    "source": 0,
+    "url": "https://thebookerprizes.com/the-booker-library/books/times-arrow",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "956",
+    "source": 1,
+    "url": "https://thebookerprizes.com/the-booker-library/features/reading-guide-times-arrow-by-martin-amis",
+    "error": "HTTP Error 403: Forbidden"
+  }
+]

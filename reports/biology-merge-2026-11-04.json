@@ -1,0 +1,26 @@
+{
+  "date": "2026-11-04",
+  "operation": "Consolidate life sciences under biologie",
+  "changed_ids": [
+    "32",
+    "137",
+    "205",
+    "206",
+    "298",
+    "502",
+    "504",
+    "505",
+    "506",
+    "511",
+    "512",
+    "635",
+    "637",
+    "729",
+    "884",
+    "885",
+    "886"
+  ],
+  "biology_count": 63,
+  "category_count": 13,
+  "preserved": "All other post fields and knowledge metadata; only source_hash refreshed for changed categories."
+}

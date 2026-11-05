@@ -1,0 +1,363 @@
+{
+  "records": 856,
+  "newRecords": 30,
+  "categories": {
+    "historie": 3,
+    "filozofie": 2,
+    "biologie": 3,
+    "umeni": 3,
+    "literatura": 3,
+    "politika": 2,
+    "fyzika": 2,
+    "astronomie": 2,
+    "ekonomie": 2,
+    "psychologie": 2,
+    "filmy": 2,
+    "matematika": 2,
+    "pocitacove-vedy": 2
+  },
+  "ids": [
+    "927",
+    "928",
+    "929",
+    "930",
+    "931",
+    "932",
+    "933",
+    "934",
+    "935",
+    "936",
+    "937",
+    "938",
+    "939",
+    "940",
+    "941",
+    "942",
+    "943",
+    "944",
+    "945",
+    "946",
+    "947",
+    "948",
+    "949",
+    "950",
+    "951",
+    "952",
+    "953",
+    "954",
+    "955",
+    "956"
+  ],
+  "existingArticleObjectsPreserved": true,
+  "existingManifestEntriesPreserved": true,
+  "allRegistered": true,
+  "version": "1.3.0",
+  "contentLengthRange": [
+    655,
+    768
+  ],
+  "imageBytes": 624398,
+  "images": [
+    {
+      "id": "927",
+      "bytes": 20660,
+      "alphaMargins": {
+        "left": 106,
+        "top": 18,
+        "right": 107,
+        "bottom": 18
+      }
+    },
+    {
+      "id": "928",
+      "bytes": 28048,
+      "alphaMargins": {
+        "left": 130,
+        "top": 25,
+        "right": 131,
+        "bottom": 26
+      }
+    },
+    {
+      "id": "929",
+      "bytes": 34052,
+      "alphaMargins": {
+        "left": 30,
+        "top": 30,
+        "right": 31,
+        "bottom": 30
+      }
+    },
+    {
+      "id": "930",
+      "bytes": 11292,
+      "alphaMargins": {
+        "left": 99,
+        "top": 96,
+        "right": 99,
+        "bottom": 96
+      }
+    },
+    {
+      "id": "931",
+      "bytes": 21922,
+      "alphaMargins": {
+        "left": 51,
+        "top": 44,
+        "right": 52,
+        "bottom": 44
+      }
+    },
+    {
+      "id": "932",
+      "bytes": 38224,
+      "alphaMargins": {
+        "left": 63,
+        "top": 21,
+        "right": 63,
+        "bottom": 22
+      }
+    },
+    {
+      "id": "933",
+      "bytes": 13296,
+      "alphaMargins": {
+        "left": 93,
+        "top": 18,
+        "right": 92,
+        "bottom": 18
+      }
+    },
+    {
+      "id": "934",
+      "bytes": 24160,
+      "alphaMargins": {
+        "left": 66,
+        "top": 31,
+        "right": 66,
+        "bottom": 32
+      }
+    },
+    {
+      "id": "935",
+      "bytes": 14416,
+      "alphaMargins": {
+        "left": 184,
+        "top": 18,
+        "right": 185,
+        "bottom": 18
+      }
+    },
+    {
+      "id": "936",
+      "bytes": 19044,
+      "alphaMargins": {
+        "left": 79,
+        "top": 28,
+        "right": 79,
+        "bottom": 29
+      }
+    },
+    {
+      "id": "937",
+      "bytes": 28620,
+      "alphaMargins": {
+        "left": 30,
+        "top": 21,
+        "right": 30,
+        "bottom": 21
+      }
+    },
+    {
+      "id": "938",
+      "bytes": 15178,
+      "alphaMargins": {
+        "left": 91,
+        "top": 76,
+        "right": 91,
+        "bottom": 76
+      }
+    },
+    {
+      "id": "939",
+      "bytes": 12996,
+      "alphaMargins": {
+        "left": 60,
+        "top": 71,
+        "right": 60,
+        "bottom": 70
+      }
+    },
+    {
+      "id": "940",
+      "bytes": 18316,
+      "alphaMargins": {
+        "left": 84,
+        "top": 51,
+        "right": 85,
+        "bottom": 51
+      }
+    },
+    {
+      "id": "941",
+      "bytes": 17044,
+      "alphaMargins": {
+        "left": 166,
+        "top": 66,
+        "right": 167,
+        "bottom": 66
+      }
+    },
+    {
+      "id": "942",
+      "bytes": 15442,
+      "alphaMargins": {
+        "left": 164,
+        "top": 32,
+        "right": 164,
+        "bottom": 32
+      }
+    },
+    {
+      "id": "943",
+      "bytes": 30648,
+      "alphaMargins": {
+        "left": 134,
+        "top": 17,
+        "right": 134,
+        "bottom": 17
+      }
+    },
+    {
+      "id": "944",
+      "bytes": 14382,
+      "alphaMargins": {
+        "left": 124,
+        "top": 60,
+        "right": 124,
+        "bottom": 60
+      }
+    },
+    {
+      "id": "945",
+      "bytes": 18208,
+      "alphaMargins": {
+        "left": 90,
+        "top": 46,
+        "right": 92,
+        "bottom": 46
+      }
+    },
+    {
+      "id": "946",
+      "bytes": 18562,
+      "alphaMargins": {
+        "left": 82,
+        "top": 38,
+        "right": 83,
+        "bottom": 39
+      }
+    },
+    {
+      "id": "947",
+      "bytes": 29752,
+      "alphaMargins": {
+        "left": 67,
+        "top": 83,
+        "right": 68,
+        "bottom": 83
+      }
+    },
+    {
+      "id": "948",
+      "bytes": 22410,
+      "alphaMargins": {
+        "left": 127,
+        "top": 57,
+        "right": 128,
+        "bottom": 57
+      }
+    },
+    {
+      "id": "949",
+      "bytes": 8898,
+      "alphaMargins": {
+        "left": 166,
+        "top": 71,
+        "right": 167,
+        "bottom": 71
+      }
+    },
+    {
+      "id": "950",
+      "bytes": 15880,
+      "alphaMargins": {
+        "left": 136,
+        "top": 32,
+        "right": 136,
+        "bottom": 32
+      }
+    },
+    {
+      "id": "951",
+      "bytes": 18358,
+      "alphaMargins": {
+        "left": 110,
+        "top": 34,
+        "right": 109,
+        "bottom": 33
+      }
+    },
+    {
+      "id": "952",
+      "bytes": 12806,
+      "alphaMargins": {
+        "left": 207,
+        "top": 42,
+        "right": 208,
+        "bottom": 42
+      }
+    },
+    {
+      "id": "953",
+      "bytes": 40336,
+      "alphaMargins": {
+        "left": 54,
+        "top": 38,
+        "right": 55,
+        "bottom": 38
+      }
+    },
+    {
+      "id": "954",
+      "bytes": 23896,
+      "alphaMargins": {
+        "left": 84,
+        "top": 48,
+        "right": 85,
+        "bottom": 48
+      }
+    },
+    {
+      "id": "955",
+      "bytes": 20918,
+      "alphaMargins": {
+        "left": 14,
+        "top": 47,
+        "right": 15,
+        "bottom": 47
+      }
+    },
+    {
+      "id": "956",
+      "bytes": 16634,
+      "alphaMargins": {
+        "left": 88,
+        "top": 22,
+        "right": 88,
+        "bottom": 22
+      }
+    }
+  ],
+  "databaseSha256": "49b4032d41b31f0b781fa5210741c8d8a01827ecb3402fefc19c1af9aefb0222"
+}

@@ -265,7 +265,7 @@ const CTA_BY_CATEGORY = {
 	'politika': 'Co se stalo?',
 	'psychologie': 'Proč se to děje?',
 	'filozofie': 'Co tím myslel?',
-	'veda': 'Jak to funguje?',
+	'biologie': 'Jak to funguje?',
 	'fyzika': 'Jak to funguje?',
 	'astronomie': 'Jak to funguje?',
 	'matematika': 'Jak to funguje?',

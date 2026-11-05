@@ -2,7 +2,7 @@ import { test, expect } from '@playwright/test';
 import { readFileSync } from 'node:fs';
 
 const posts = JSON.parse(readFileSync(new URL('../../static/data/posts.json', import.meta.url), 'utf8'))
-	.filter(post => ['001', '002'].includes(post.id));
+	.filter(post => ['1', '2'].includes(post.id));
 
 // Testujeme skutečné hit testing a události prohlížeče. Mockované jsou jen
 // systémové služby, jejichž dialogy nelze v automatizaci ovládat.
@@ -36,7 +36,7 @@ test.beforeEach(async ({ page }, testInfo) => {
 	await page.context().route('https://github.com/**', (route) => route.fulfill({
 		contentType: 'text/html', body: '<h1>Report</h1>'
 	}));
-	await page.goto('./?post=001');
+	await page.goto('./?post=1');
 	await expect(page.locator('.is-active .card-front')).toBeVisible();
 	if (!/flip hint|actual flip|reduced motion/.test(testInfo.title)) {
 		await page.locator('.is-active .card-stage').evaluate(async stage => {
@@ -44,6 +44,14 @@ test.beforeEach(async ({ page }, testInfo) => {
 		});
 	}
 });
+
+for (const link of ['./?post=002', './?post=02', './post/002/', './post/2/']) {
+	test(`historical and canonical post link ${link}`, async ({ page }) => {
+		await page.goto(link);
+		await expect(page.locator('.is-active .card-front')).toContainText(posts.find(post => post.id === '2').title);
+		await expect(page.locator('.is-active img')).toHaveAttribute('src', /\/illustrations-ai\/2\.webp$/);
+	});
+}
 
 async function activate(locator, page, horizontal = 0.5) {
 	await expect(locator).toBeVisible();
@@ -115,6 +123,55 @@ test('flip hint returns in a new tab session', async ({ page, context }) => {
 	await expect.poll(() => nextPage.evaluate(() => window.flipHintStarts)).toBe(1);
 });
 
+test('touch tap replays flip hint after an actual flip', async ({ page }) => {
+	test.skip(await page.evaluate(() => navigator.maxTouchPoints === 0), 'Touch devices only');
+	await flip(page);
+	await page.keyboard.press('Escape');
+	const card = page.locator('.is-active');
+	await expect(card).not.toHaveClass(/flipped/);
+	for (let i = 0; i < 2; i++) {
+		const starts = await page.evaluate(() => window.flipHintStarts);
+		await activate(card.locator('.card-front h1, .card-front h2').first(), page);
+		await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
+		await expect(card).not.toHaveClass(/flipped/);
+		await expect(card).not.toHaveClass(/flip-hint/);
+	}
+	await flip(page);
+	await expect(card).toHaveClass(/flipped/);
+});
+
+test('mouse press replays flip hint before releasing the card', async ({ page }) => {
+	await flip(page);
+	await page.keyboard.press('Escape');
+	const card = page.locator('.is-active');
+	await expect(card).not.toHaveClass(/flipped/);
+	await card.locator('.card-stage').evaluate(async stage => {
+		await Promise.all(stage.getAnimations().map(animation => animation.finished));
+	});
+	const box = await card.locator('.card-front h1, .card-front h2').first().boundingBox();
+	const starts = await page.evaluate(() => window.flipHintStarts);
+	await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+	await page.mouse.down();
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
+	await expect(card).not.toHaveClass(/flipped/);
+	await expect(card).not.toHaveClass(/flip-hint/);
+	await page.mouse.up();
+	await expect(card).toHaveClass(/flipped/);
+});
+
+test('quick mouse click transitions from the flip hint to the back', async ({ page }) => {
+	const card = page.locator('.is-active');
+	await card.locator('.card-front h1, .card-front h2').first().click();
+	await expect(card).toHaveClass(/flipped/);
+	await expect.poll(() => card.locator('.card-stage').evaluate(stage =>
+		stage.getAnimations().some(animation => animation.transitionProperty === 'transform')
+	)).toBe(true);
+	await card.locator('.card-stage').evaluate(async stage => {
+		await Promise.all(stage.getAnimations().map(animation => animation.finished));
+	});
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'matrix3d(-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1)');
+});
+
 test('actual flip cancels the hint', async ({ page }) => {
 	await flip(page);
 	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBe('1');
@@ -148,7 +205,7 @@ for (const side of ['front', 'back']) {
 			if (side === 'back') await flip(page);
 			await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 			await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([
-				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=001', title: posts.find(post => post.id === '001').title } }
+				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=1', title: posts.find(post => post.id === '1').title } }
 			]);
 			await expect(page.getByRole('menu')).toHaveCount(0);
 			await openMenu(page);
@@ -158,8 +215,8 @@ for (const side of ['front', 'back']) {
 			await expect(popup).toHaveURL(/https:\/\/github.com\/lukazko\/faakt.io\/issues\/new\?/);
 			const url = new URL(popup.url());
 			expect(url.searchParams.get('template')).toBe('report-post.yml');
-			expect(url.searchParams.get('body')).toContain('**ID příspěvku:** 001');
-			expect(url.searchParams.get('body')).toContain('http://127.0.0.1:4175/faakt.io/?post=001');
+			expect(url.searchParams.get('body')).toContain('**ID příspěvku:** 1');
+			expect(url.searchParams.get('body')).toContain('http://127.0.0.1:4175/faakt.io/?post=1');
 			// Kontext po testu zavře i popup; některé WebKity při explicitním
 			// close nové záložky zbytečně čekají na návrat fokusu.
 		});
@@ -188,7 +245,7 @@ for (const mode of ['unavailable', 'denied', 'cancelled', 'clipboard-denied']) {
 		}, mode);
 		const dialogPromise = mode === 'clipboard-denied' ? page.waitForEvent('dialog').then(async (dialog) => {
 			expect(dialog.type()).toBe('prompt');
-			expect(dialog.defaultValue()).toBe('http://127.0.0.1:4175/faakt.io/?post=001');
+			expect(dialog.defaultValue()).toBe('http://127.0.0.1:4175/faakt.io/?post=1');
 			await dialog.dismiss();
 		}) : null;
 		await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
@@ -199,7 +256,7 @@ for (const mode of ['unavailable', 'denied', 'cancelled', 'clipboard-denied']) {
 			await expect(page.locator('#toast')).not.toHaveClass(/visible/);
 		} else {
 			await expect.poll(() => page.evaluate(() => window.actionCalls.filter(c => c.type === 'copy'))).toEqual([
-				{ type: 'copy', url: 'http://127.0.0.1:4175/faakt.io/?post=001' }
+				{ type: 'copy', url: 'http://127.0.0.1:4175/faakt.io/?post=1' }
 			]);
 			await expect(page.locator('#toast')).toHaveText('Odkaz zkopírován do schránky');
 			await expect(page.locator('#toast')).toHaveClass(/visible/);

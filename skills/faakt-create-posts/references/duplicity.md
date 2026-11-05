@@ -1,45 +1,47 @@
 # Známé obsahové duplicity
 
-Při přípravě nové dávky použij tyto skupiny jako příklady již pokrytých myšlenek. Jde o konzervativní nález z kontroly 1. listopadu 2026, nikoli úplný audit ani náhradu čtení aktuální databáze. ID vždy ověř v aktuálním `static/data/posts.json`.
+Při přípravě nové dávky použij tyto skupiny jako příklady již pokrytých myšlenek. Jde o konzervativní nález z kontroly 1. listopadu 2026 s následným doplněním při významovém indexování, nikoli úplný audit. Aktuální kontrola používá ověřený kompaktní katalog a plné texty blízkých či změněných článků podle [docs/post-knowledge.md](../../../docs/post-knowledge.md). ID vždy ověř v aktuální databázi; stejné poznatky propojuje samostatný významový registr.
 
 | Již pokrytá myšlenka | Existující ID |
 |---|---|
-| Hérakleitos: proměna světa a vstupování do stejné řeky | 026, 067, 098 |
-| Paradox spoření | 001, 081 |
-| Milgramův experiment a poslušnost autoritě | 002, 051, 106 |
-| Van Gogh a jediný prodaný obraz za života | 004, 063 |
-| Konfuciovo zlaté pravidlo | 006, 046, 078 |
-| Smithova neviditelná ruka trhu | 008, 050, 105 |
-| Kognitivní disonance | 009, 082 |
-| Mendělejevova tabulka a předpověď prvků | 010, 052 |
-| Picassova Guernica jako reakce na bombardování | 011, 094 |
-| Heisenbergův princip neurčitosti | 012, 095 |
-| První fotografie černé díry | 014, 054 |
-| Kafkův Proces a záchrana rukopisu Maxem Brodem | 015, 025, 045 |
-| Pythagoras: čísla a harmonie vesmíru | 016, 056, 089 |
-| Aristotelova zlatá střední cesta | 017, 057, 088 |
-| Lao-c' a wu wei | 018, 058, 099 |
-| Pád Konstantinopole v roce 1453 | 019, 080 |
-| Keplerovy eliptické dráhy planet | 024, 074 |
-| Buddhova čtyři vznešené pravdy | 028, 068, 102 |
-| Rosettská deska a rozluštění hieroglyfů | 029, 069, 104 |
-| Démokritovy atomy a prázdnota | 036, 077, 108 |
-| Epikúros: proč se nebát smrti | 037, 079 |
-| Archimédova vana a zákon vztlaku | 038, 110 |
-| Objev Tutanchamonovy hrobky | 039, 111 |
-| Platónova jeskyně | 047, 107 |
-| Černá smrt ve středověké Evropě | 049, 091 |
-| Turingův test | 055, 097 |
-| Sokratova metoda otázek | 066, 100 |
+| Hérakleitos: proměna světa a vstupování do stejné řeky | 26, 67, 98 |
+| Paradox spoření | 1, 81 |
+| Milgramův experiment a poslušnost autoritě | 2, 51, 106 |
+| Van Gogh a jediný prodaný obraz za života | 4, 63 |
+| Konfuciovo zlaté pravidlo | 6, 46, 78 |
+| Smithova neviditelná ruka trhu | 8, 50, 105 |
+| Kognitivní disonance | 9, 82 |
+| Mendělejevova tabulka a předpověď prvků | 10, 52 |
+| Picassova Guernica jako reakce na bombardování | 11, 94 |
+| Heisenbergův princip neurčitosti | 12, 95 |
+| První fotografie černé díry | 14, 54 |
+| Kafkův Proces a záchrana rukopisu Maxem Brodem | 15, 25, 45 |
+| Pythagoras: čísla a harmonie vesmíru | 16, 56, 89 |
+| Aristotelova zlatá střední cesta | 17, 57, 88 |
+| Lao-c' a wu wei | 18, 58, 99 |
+| Pád Konstantinopole v roce 1453 | 19, 80 |
+| Keplerovy eliptické dráhy planet | 24, 74 |
+| Buddhova čtyři vznešené pravdy | 28, 68, 102 |
+| Rosettská deska a rozluštění hieroglyfů | 29, 69, 104 |
+| Démokritovy atomy a prázdnota | 36, 77, 108 |
+| Epikúros: proč se nebát smrti | 37, 79 |
+| Archimédova vana a zákon vztlaku | 38, 110 |
+| Objev Tutanchamonovy hrobky | 39, 111 |
+| Platónova jeskyně | 47, 107 |
+| Černá smrt ve středověké Evropě | 49, 91 |
+| Turingův test | 55, 97 |
+| Sokratova metoda otázek | 66, 100 |
 | Hubbleův zákon a rozpínání vesmíru | 126, 558 |
+| Stoické rozlišení vlastního úsudku od neovladatelných okolností | 86, 90 |
+| Neeukleidovské geometrie a nezávislost rovnoběžného postulátu | 495, 846 |
 
 ## Jak rozhodovat
 
 - „Do řeky nevstoupíš dvakrát“, „vše plyne“ a moderní aplikace Hérakleitovy proměny jsou stejná myšlenka; přejmenování a nový příklad nepomáhají.
-- Posty 009 a 082 popisují různé příběhy, ale učí stejný mechanismus kognitivní disonance. Jiný příběh nestačí.
-- Tato obsahová duplicita sama o sobě neopravňuje ke sdílení ilustrace: kolíčkový experiment 009 a nenaplněná předpověď sekty 082 mají jiné konkrétní scény. Při opravě pozadí zachovej námět, který nejlépe odpovídá textu; postup posouzení sdílených obrázků je v [ilustračním skillu](../../faakt-illustrations/SKILL.md). Výslovně zvolený společný obrázek může doprovázet princip, ale nesmí být vydáván za vyobrazení obou příběhů.
-- Naopak Smithova dělba práce (157) je jiný poznatek než neviditelná ruka (008, 050, 105). Konfuciova oprava slov (776) je jiná myšlenka než zlaté pravidlo (006, 046, 078). Nezakazuj celé osobnosti nebo obory.
+- Posty 9 a 82 popisují různé příběhy, ale učí stejný mechanismus kognitivní disonance. Jiný příběh nestačí.
+- Tato obsahová duplicita sama o sobě neopravňuje ke sdílení ilustrace: kolíčkový experiment 9 a nenaplněná předpověď sekty 82 mají jiné konkrétní scény. Při opravě pozadí zachovej námět, který nejlépe odpovídá textu; postup posouzení sdílených obrázků je v [ilustračním skillu](../../faakt-illustrations/SKILL.md). Výslovně zvolený společný obrázek může doprovázet princip, ale nesmí být vydáván za vyobrazení obou příběhů.
+- Naopak Smithova dělba práce (157) je jiný poznatek než neviditelná ruka (8, 50, 105). Konfuciova oprava slov (776) je jiná myšlenka než zlaté pravidlo (6, 46, 78). Nezakazuj celé osobnosti nebo obory.
 - Podobný titulek není důkaz: 474 zmiňuje cibulky, ale jeho celý obsah pojednává o bublině Společnosti jižních moří, zatímco 236 o tulipánové horečce. Rozhoduje celý obsah.
-- Příbuzná témata jako neeukleidovská geometrie (495, 846) vyžadují individuální posouzení hlavního poznatku. Tato tabulka nepotvrzuje jejich vzájemnou originalitu.
+- Příbuzná témata vyžadují individuální posouzení hlavního poznatku. Dvojice 495/846 byla při doplnění indexu znovu přečtena a přiřazena stejnému poznatku: existence jiných konzistentních geometrií dokládá nezávislost rovnoběžného postulátu. Rozdílný úhel podání sám originalitu nezakládá.
 
 Záznamy v této referenci neopravuj ani nemaž v databázi při generování nových postů. Oprava starých duplicit je samostatný úkol.

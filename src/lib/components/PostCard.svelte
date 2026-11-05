@@ -47,6 +47,23 @@
 	// post.id, takže se nikdy nezobrazí rub u jiného příspěvku.
 	let flipped = $state(false);
 	let flipHint = $state(false);
+	let manualHint = $state(false);
+	let lastPointerType = '';
+	let hintRequest = 0;
+	let cardStageEl;
+
+	async function replayFlipHint() {
+		const request = ++hintRequest;
+		flipHint = false;
+		manualHint = false;
+		await tick();
+		if (request !== hintRequest || !active || flipped) return;
+		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+		// Commit the removed animation before replaying it on another tap.
+		if (cardStageEl) void cardStageEl.offsetWidth;
+		manualHint = true;
+		flipHint = true;
+	}
 
 	$effect(() => {
 		if (!active || flipped) {
@@ -65,8 +82,16 @@
 
 	async function flipToBack() {
 		if (flipped) return;
+		// Preserve the visible angle when handing the preview over to the flip.
+		const previewTransform = flipHint && cardStageEl
+			? getComputedStyle(cardStageEl).transform : null;
+		++hintRequest;
 		markCardFlipped();
 		flipHint = false;
+		if (previewTransform) cardStageEl.style.transform = previewTransform;
+		await tick();
+		// Commit the end of the CSS animation before starting the transition.
+		if (cardStageEl) void cardStageEl.offsetWidth;
 		// Nabídka patří jedné straně — při otáčení by na rubu visela
 		// zrcadlově, takže ji otočení zavře.
 		onCloseActions?.();
@@ -74,6 +99,7 @@
 		// Fokus přechází na viditelnou stranu — klávesnicí se tak hned dá
 		// pokračovat ve čtení a skrytý líc nezůstane zaměřený.
 		await tick();
+		if (previewTransform) cardStageEl.style.removeProperty('transform');
 		// Na rubu není žádné tlačítko — fokus dostane scrollovací plocha,
 		// aby se klávesnicí dalo rovnou číst a Escape vrátil kartu zpět.
 		backScrollEl?.focus({ preventScroll: true });
@@ -98,8 +124,16 @@
 		}
 	}
 
-	// Kliknutí kamkoli na kartu ji otočí. Ovládací prvky (tlačítka, odkazy)
+	// Dotyk na líci přehraje náznak, ostatní kliknutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
 	// si klik řeší samy, stejně jako dokončený výběr textu.
+	function handleCardPointerDown(event) {
+		lastPointerType = event.pointerType;
+		if (event.pointerType !== 'mouse' || event.button !== 0 || actionsOpen || flipped) return;
+		if (!(event.target instanceof Element)) return;
+		if (event.target.closest('a, button, input, textarea, select, label, summary')) return;
+		replayFlipHint();
+	}
+
 	function handleCardClick(event) {
 		const target = event.target;
 		if (!(target instanceof Element)) return;
@@ -115,6 +149,10 @@
 			return;
 		}
 
+		if (!flipped && lastPointerType === 'touch' && event.detail !== 0) {
+			replayFlipHint();
+			return;
+		}
 		if (flipped) flipToFront();
 		else flipToBack();
 	}
@@ -186,11 +224,13 @@
 	class="post-card"
 	class:flipped
 	class:flip-hint={flipHint}
+	class:manual-hint={manualHint}
 	class:is-active={active}
+	onpointerdown={handleCardPointerDown}
 	onkeydown={handleKeydown}
 	onclick={handleCardClick}
 >
-	<div class="card-stage" onanimationend={() => { flipHint = false; }}>
+	<div class="card-stage" bind:this={cardStageEl} onanimationend={() => { flipHint = false; }}>
 		<!-- LÍC -->
 		<section
 			id={frontId}
@@ -288,6 +328,7 @@
 		   kdy má zmizet tlačítko akcí na odvrácené straně. */
 		--flip-duration: 0.42s;
 		--card-action-inset: clamp(18px, 5vw, 30px);
+		--card-meta-top: var(--card-action-inset);
 		-webkit-perspective: 1600px;
 	}
 
@@ -468,9 +509,14 @@
 		animation: flip-preview 1.2s ease-in-out 0.5s;
 	}
 
+	.post-card.flip-hint.manual-hint:not(.flipped) .card-stage {
+		--flip-preview-angle: 40deg;
+		animation-delay: 0s;
+	}
+
 	@keyframes flip-preview {
 		0%, 100% { transform: rotateY(0deg); }
-		45% { transform: rotateY(20deg); }
+		45% { transform: rotateY(var(--flip-preview-angle, 20deg)); }
 	}
 
 	.card-face {
@@ -509,7 +555,7 @@
 		min-height: 0;
 		/* Spodní odsazení je stejné jako odsazení tlačítka sdílení, aby
 		   obě tlačítka seděla na stejné lince. */
-		padding: clamp(18px, 3.4vh, 28px) var(--card-action-inset) var(--card-action-inset);
+		padding: var(--card-meta-top) var(--card-action-inset) var(--card-action-inset);
 	}
 
 	.front-top {
@@ -529,7 +575,6 @@
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
 		justify-content: flex-start;
-		padding-top: calc(clamp(20px, 5vh, 44px) * 4 / 9);
 		gap: 14px;
 	}
 
@@ -588,7 +633,7 @@
 		display: inline-flex;
 		outline: none;
 		align-items: center;
-		gap: 9px;
+		gap: 6px;
 		/* Stejná výška jako kruhové tlačítko akcí — středy obou tlačítek
 		   tak leží v jedné ose. */
 		min-height: 42px;
@@ -615,7 +660,7 @@
 
 	.flip-icon {
 		flex: none;
-		stroke-width: 2.5;
+		stroke-width: 2.2;
 		width: 1em;
 		height: 1em;
 		position: relative;
@@ -645,7 +690,7 @@
 		scrollbar-color: #333 transparent;
 		/* Větší spodní odsazení, aby poslední řádky nezmizely pod tlačítkem
 		   akcí v pravém dolním rohu karty */
-		padding: clamp(16px, 2.8vh, 22px) clamp(18px, 5vw, 30px) clamp(56px, 7vh, 72px);
+		padding: var(--card-meta-top) var(--card-action-inset) clamp(56px, 7vh, 72px);
 	}
 
 	.back-inner {
@@ -672,12 +717,6 @@
 	@media (max-height: 560px) {
 		.front-inner {
 			gap: 10px;
-			padding-top: 20px;
-		}
-
-		/* V nízké kartě stačí menší odsazení, aby se text neusekl */
-		.front-main {
-			padding-top: calc(8px * 2 / 3);
 		}
 
 		.title {

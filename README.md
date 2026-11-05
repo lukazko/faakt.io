@@ -37,25 +37,27 @@ Build vygeneruje statické soubory do `build/` a `preview` je obslouží na **ht
 
 ## Generování obsahu
 
-Nové příspěvky se generují přes Claude API:
+Nejprve se ověřuje originalita proti významovému indexu. Pointy a tagy jsou uložené odděleně od článků; celý postup včetně formátu plánu popisuje [docs/post-knowledge.md](docs/post-knowledge.md).
 
 ```bash
-export ANTHROPIC_API_KEY=sk-ant-...
-npm run generate
+npm run knowledge -- status
+npm run knowledge -- search --query "téma nového příspěvku"
 ```
 
-Výchozí počet je 30 příspěvků. Můžeš změnit:
+Při použití autorizovaného Claude API nastav `ANTHROPIC_API_KEY` a předej zkontrolovaný plán:
 
 ```bash
-npm run generate --count=50
+npm run generate -- --plan reports/plan.json --output reports/drafts.json
 ```
+
+Počet a témata určuje plán. Generátor ukládá pouze pracovní návrhy; kontrola zdrojů a finálních textů předchází připojení přes `post-knowledge.py append`. Tento nástroj uloží články bez pracovního pole `knowledge` a metadata rozdělí do samostatných souborů. Nepublikuje web.
 
 Požadavky na generování:
 - **100% reálná fakta** — žádné AI výmysly
 - **Ověřitelné zdroje** — každý příspěvek obsahuje 2–3 odkazy
 - **Obsah před životopisem** — u lidí se soustřeď na hlavní myšlenku, objev, dílo nebo událost; biografické údaje uváděj jen tehdy, když jsou pro vysvětlení podstatné
 - **Titulek nemusí obsahovat jméno** — může být postavený na principu, objevu, díle nebo důsledku
-- **Kategorie**: historie, filozofie, věda, umění, literatura, politika, fyzika, astronomie, zajímavost
+- **Kategorie**: všech 14 hodnot z `src/lib/categories.js`; tematické tagy upřesňuje `static/data/tags.json`
 
 ## Nasazení
 
@@ -91,9 +93,15 @@ faakt.io/
 │       ├── FeedView.svelte   # Scrollovací feed s random řazením
 │       └── PostCard.svelte   # Karta příspěvku se zdroji
 ├── static/
-│   └── data/posts.json       # Všechny příspěvky (neustále roste)
+│   └── data/
+│       ├── posts.json              # Články se zdroji a ilustračními metadaty
+│       ├── post-knowledge.json     # Přiřazení poznatků a tagů k ID
+│       ├── knowledge-ideas.json    # Společné pointy a druhy obsahu
+│       └── tags.json               # Řízený tematický slovník
+├── editorial/knowledge-state.json  # Neveřejné otisky a stav významové kontroly
 ├── scripts/
 │   ├── generate-posts.mjs    # Generování přes Claude API
+│   ├── post-knowledge.py    # Katalog, hledání a hlídaný zápis článků/metadat
 │   └── deploy-gh-pages.mjs   # Deploy na GitHub Pages
 ├── package.json
 └── svelte.config.js

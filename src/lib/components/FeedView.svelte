@@ -3,6 +3,7 @@
 	import { pushState } from '$app/navigation';
 	import { base } from '$app/paths';
 	import PostCard from './PostCard.svelte';
+	import { normalizePostId } from '$lib/post-id.js';
 	import { normalizeCategory, getCategoryMeta } from '$lib/categories.js';
 
 	const PAGE_SIZE = 20;
@@ -113,7 +114,8 @@
 	function getPostIdFromUrl() {
 		if (typeof window === 'undefined') return null;
 		const params = new URLSearchParams(window.location.search);
-		return params.get('post');
+		const pathId = window.location.pathname.match(/\/post\/([^/]+)\/?$/)?.[1];
+		return normalizePostId(params.get('post') ?? pathId ?? null);
 	}
 
 	/**
@@ -213,7 +215,7 @@
 	 * Pracuje stejně na localhost i GitHub Pages
 	 */
 	function getShareUrl(postId) {
-		const baseUrl = window.location.origin + window.location.pathname.replace(/\/$/, '');
+		const baseUrl = window.location.origin + base;
 		return `${baseUrl}/?post=${postId}`;
 	}
 

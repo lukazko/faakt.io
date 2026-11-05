@@ -1,0 +1,52 @@
+{
+  "records": 796,
+  "newRecords": 30,
+  "ids": [
+    "867",
+    "868",
+    "869",
+    "870",
+    "871",
+    "872",
+    "873",
+    "874",
+    "875",
+    "876",
+    "877",
+    "878",
+    "879",
+    "880",
+    "881",
+    "882",
+    "883",
+    "884",
+    "885",
+    "886",
+    "887",
+    "888",
+    "889",
+    "890",
+    "891",
+    "892",
+    "893",
+    "894",
+    "895",
+    "896"
+  ],
+  "schemaAndLengths": "passed",
+  "existingDatabaseObjects": "All 766 preserved at append; source hash recorded in originality report",
+  "originality": "766/766 full existing texts reviewed; 30 final-text verdicts accepted; within-batch comparison completed",
+  "sources": "Direct research publications, institutional releases, academic reference texts and translations checked using web tools. Some sites restrict full automated fetching; indexed research abstracts and accessible institutional counterparts were checked. No unverified numerical claims added.",
+  "repair": {
+    "mode": "preview only",
+    "suggestedRecords": 93,
+    "newRecordsWithSuggestions": [
+      "871",
+      "886",
+      "896"
+    ],
+    "decision": "Keep article-specific metadata. Generic portrait/interaction rewrites of 871, 886 and 896 do not improve the chosen motif."
+  },
+  "databaseSha256": "22a621c74147ce4a6addf3ed1fb7388523131caaa54b73489ef35c44f34a15d2",
+  "illustrationHashes": "30/30 metadata, exact submitted prompts and saved WebP hashes passed"
+}

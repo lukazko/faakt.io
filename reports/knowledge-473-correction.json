@@ -1,0 +1,18 @@
+[
+  {
+    "id": "473",
+    "source_hash": "ffa7ebfbc9f6c2000f2fbcc4a9962cca1af548528bc55c089140467b017d9a48",
+    "verdict": "verified",
+    "reason": "Při čtení blízkého textu zjištěna nesprávná pointa o právních pobídkách; celý článek ve skutečnosti popisuje efekt vlastnictví v pokusu se šálky.",
+    "knowledge": {
+      "idea": "idea-473",
+      "point": "Vlastnictví věci může zvýšit částku požadovanou za její prodej oproti ceně, kterou by lidé zaplatili za její získání.",
+      "tags": [
+        "microeconomics",
+        "cognitive-biases",
+        "decision-making"
+      ],
+      "type": "principle"
+    }
+  }
+]

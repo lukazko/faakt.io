@@ -1,0 +1,342 @@
+{
+  "snapshot": "7241d57f3be91d93504f8b232e5364a58442789a4b7098b977e52bcdb1cbe5ed",
+  "catalog_reviewed": "7241d57f3be91d93504f8b232e5364a58442789a4b7098b977e52bcdb1cbe5ed",
+  "drafts_hash": "40d06cbb22d6771a4c8598061567bc43ce52930b2b0806947ab8b919c69b5496",
+  "decisions": [
+    {
+      "id": "927",
+      "verdict": "accept",
+      "compared_ids": [
+        "897"
+      ],
+      "reason": "Havárie zásobníku je konkrétní průmyslová katastrofa, nikoli politická reakce na znečištění Temže.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "928",
+      "verdict": "accept",
+      "compared_ids": [
+        "692"
+      ],
+      "reason": "Záměna civilního cíle v námořní operaci není vojenský neúspěch při regulaci populace emu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "929",
+      "verdict": "accept",
+      "compared_ids": [
+        "878",
+        "172"
+      ],
+      "reason": "Hodnocení podle náhodně odlišných následků není slučitelnost determinismu a jednání z vlastní povahy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "930",
+      "verdict": "accept",
+      "compared_ids": [
+        "190",
+        "674"
+      ],
+      "reason": "Kumulativní argument s vágní hranicí není hledání významu pomocí rodinných podobností.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "931",
+      "verdict": "accept",
+      "compared_ids": [
+        "152"
+      ],
+      "reason": "Prostorový gradient výměny plynů není rozdělení práce tří srdcí chobotnice.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "932",
+      "verdict": "accept",
+      "compared_ids": [
+        "763"
+      ],
+      "reason": "Editace přepisu RNA při změně teploty není přesun úseků DNA v chromozomu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "933",
+      "verdict": "accept",
+      "compared_ids": [
+        "905"
+      ],
+      "reason": "Mechanické nanášení kovu na podklad není světlocitlivý kontaktní otisk.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "934",
+      "verdict": "accept",
+      "compared_ids": [
+        "890"
+      ],
+      "reason": "Odhalení malby rozvinutím fyzických listů není oprava deformované perspektivy změnou pozorovacího úhlu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "935",
+      "verdict": "accept",
+      "compared_ids": [
+        "689"
+      ],
+      "reason": "Výběr slov z již existující stránky vytváří konkrétní palimpsest; nejde o psaní nového románu s abecedním zákazem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "936",
+      "verdict": "accept",
+      "compared_ids": [
+        "591"
+      ],
+      "reason": "Fyzicky proměnlivé pořadí kapitol je konkrétní čtenářský postup; starší text vysvětluje obecné naratologické roviny času.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "937",
+      "verdict": "accept",
+      "compared_ids": [
+        "484"
+      ],
+      "reason": "Pojistka kontinuity parlamentní většiny není mimořádné prezidentské vládnutí bez parlamentu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "938",
+      "verdict": "accept",
+      "compared_ids": [
+        "485"
+      ],
+      "reason": "Paradox vzniká zaokrouhlováním při změně celkového počtu křesel, nikoli překreslováním hranic obvodů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "939",
+      "verdict": "accept",
+      "compared_ids": [
+        "911"
+      ],
+      "reason": "Vnitřní mechanické pnutí skla není skupenská změna gallia blízko pokojové teploty.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "940",
+      "verdict": "accept",
+      "compared_ids": [
+        "750"
+      ],
+      "reason": "Tvarování magnetické kapaliny není elektrostatické stínění vodivým obalem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "941",
+      "verdict": "accept",
+      "compared_ids": [
+        "292"
+      ],
+      "reason": "Vzájemná výměna téměř shodných drah dvou měsíců není dlouhodobý slapový ústup jediného Měsíce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "942",
+      "verdict": "accept",
+      "compared_ids": [
+        "914"
+      ],
+      "reason": "Pointou je gravitační rezonance rotace a oběhu, nikoli rozdíl definic dne na retrográdní Venuši.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "943",
+      "verdict": "accept",
+      "compared_ids": [
+        "752"
+      ],
+      "reason": "Změna skrytého jednání po uzavření smlouvy není nepříznivý výběr podle předem známé kvality.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "944",
+      "verdict": "accept",
+      "compared_ids": [
+        "917"
+      ],
+      "reason": "Motivační vlastnost pravidla druhé ceny při soukromém ocenění není výběrové zkreslení u nejisté společné hodnoty.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "945",
+      "verdict": "accept",
+      "compared_ids": [
+        "423"
+      ],
+      "reason": "Měří se vybavení informace po jejím vytvoření, nikoli ocenění vlastnoručně sestavené věci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "946",
+      "verdict": "accept",
+      "compared_ids": [
+        "759"
+      ],
+      "reason": "Aktivní vybavování místo čtení je samostatná intervence, nikoli rozložení opakování v čase.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "947",
+      "verdict": "accept",
+      "compared_ids": [
+        "731"
+      ],
+      "reason": "Časová integrace světla přes štěrbinu není kompenzace ohniska a pohybu v dolly zoomu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "948",
+      "verdict": "accept",
+      "compared_ids": [
+        "257",
+        "457"
+      ],
+      "reason": "Paralaxa fyzických vrstev kreseb není modelování a vykreslování počítačových hraček.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "949",
+      "verdict": "accept",
+      "compared_ids": [
+        "893"
+      ],
+      "reason": "Konstantní šířka obloukového tělesa není schopnost vynutit neperiodickou dlažbu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "950",
+      "verdict": "accept",
+      "compared_ids": [
+        "755"
+      ],
+      "reason": "Konkrétní nemožnost konstrukce kubické odmocniny není obecné kritérium řešitelnosti rovnic radikály.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "951",
+      "verdict": "accept",
+      "compared_ids": [
+        "866"
+      ],
+      "reason": "Pravděpodobnostní členství s jednostrannou chybou není bezeztrátová prefixová komprese.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "952",
+      "verdict": "accept",
+      "compared_ids": [
+        "742"
+      ],
+      "reason": "Odvození adresy z kryptografického otisku není oddělení relací od fyzického uložení tabulek.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "953",
+      "verdict": "accept",
+      "compared_ids": [
+        "525"
+      ],
+      "reason": "Kódování množství do textilního média není zveřejnění římských právních pravidel.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "954",
+      "verdict": "accept",
+      "compared_ids": [
+        "856"
+      ],
+      "reason": "Změna zabarvení mechanickou úpravou strun není volba poměrů výšek tónů v temperovaném ladění.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "955",
+      "verdict": "accept",
+      "compared_ids": [
+        "448",
+        "152"
+      ],
+      "reason": "Ztráta kyslíkového přenašeče u obratlovce není optická barva lidských žil ani měďnatý přenašeč chobotnice.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "956",
+      "verdict": "accept",
+      "compared_ids": [
+        "591",
+        "908"
+      ],
+      "reason": "Obrácený chod samotných úkonů převrací dojem léčení a násilí; nejde o obecnou anachronii ani vypravěčovo zamlčování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

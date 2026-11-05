@@ -1,5 +1,6 @@
 import fs from 'node:fs';
 import path from 'node:path';
+import { normalizePostId, postRouteEntries } from '../../../lib/post-id.js';
 
 const postsPath = path.resolve(process.cwd(), 'static', 'data', 'posts.json');
 
@@ -8,7 +9,7 @@ const postsPath = path.resolve(process.cwd(), 'static', 'data', 'posts.json');
  */
 export function entries() {
 	const posts = JSON.parse(fs.readFileSync(postsPath, 'utf-8'));
-	return posts.map(p => ({ id: p.id }));
+	return postRouteEntries(posts);
 }
 
 /**
@@ -17,10 +18,11 @@ export function entries() {
  */
 export function load({ params }) {
 	const posts = JSON.parse(fs.readFileSync(postsPath, 'utf-8'));
-	const post = posts.find(p => p.id === params.id);
+	const id = normalizePostId(params.id);
+	const post = posts.find(p => p.id === id);
 
 	return {
-		targetPostId: params.id,
+		targetPostId: id,
 		ogTitle: post ? `${post.title} · faakt.io` : undefined,
 		ogDescription: post ? plainText(post.content) : undefined
 	};

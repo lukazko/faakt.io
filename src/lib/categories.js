@@ -4,18 +4,17 @@
 export const categoryMeta = {
 	'historie':    { label: 'Historie',    color: 'var(--cat-historie)' },
 	'filozofie':   { label: 'Filozofie',   color: 'var(--cat-filozofie)' },
-	'veda':        { label: 'Věda',        color: 'var(--cat-veda)' },
+	'biologie':    { label: 'Biologie',    color: 'var(--cat-biologie)' },
 	'umeni':       { label: 'Umění',       color: 'var(--cat-umeni)' },
 	'literatura':  { label: 'Literatura',  color: 'var(--cat-literatura)' },
-	'politika':    { label: 'Politika',    color: 'var(--cat-politika)' },
-	'fyzika':      { label: 'Fyzika',      color: 'var(--cat-fyzika)' },
+	'politika':    { label: 'Společnost a politika', color: 'var(--cat-politika)' },
+	'fyzika':      { label: 'Fyzika a chemie', color: 'var(--cat-fyzika)' },
 	'astronomie':  { label: 'Astronomie',  color: 'var(--cat-astronomie)' },
-	'zajimavost':  { label: 'Zajímavost',  color: 'var(--cat-zajimavost)' },
 	'ekonomie':    { label: 'Ekonomie',    color: 'var(--cat-ekonomie)' },
 	'psychologie': { label: 'Psychologie', color: 'var(--cat-psychologie)' },
-	'filmy':       { label: 'Filmy',       color: 'var(--cat-filmy)' },
+	'filmy':       { label: 'Kinematografie',       color: 'var(--cat-filmy)' },
 	'matematika':  { label: 'Matematika',  color: 'var(--cat-matematika)' },
-	'pocitacove-vedy': { label: 'Počítačové vědy', color: 'var(--cat-pocitacove-vedy)' }
+	'pocitacove-vedy': { label: 'Technologie', color: 'var(--cat-pocitacove-vedy)' }
 };
 
 /** Seznam platných slugů kategorií. */
