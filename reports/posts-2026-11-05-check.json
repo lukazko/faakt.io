@@ -1,0 +1,3956 @@
+{
+  "errors": [],
+  "candidates": [
+    {
+      "id": "957",
+      "candidates": [
+        {
+          "id": "32",
+          "idea": "idea-32",
+          "point": "Flemingovo pozorování plísně potlačující bakterie vedlo k objevu penicilinu a rozvoji antibiotik.",
+          "type": "discovery",
+          "tags": [
+            "medicine",
+            "microbiology",
+            "innovation"
+          ],
+          "score": 14.037,
+          "same_idea": false,
+          "ids": [
+            "32"
+          ]
+        },
+        {
+          "id": "508",
+          "idea": "idea-508",
+          "point": "Dolly ukázala možnost vytvořit savce přenosem jádra diferencované dospělé buňky do vajíčka.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "development",
+            "innovation"
+          ],
+          "score": 13.411,
+          "same_idea": false,
+          "ids": [
+            "508"
+          ]
+        },
+        {
+          "id": "692",
+          "idea": "idea-692",
+          "point": "Australská emuí válka ukazuje limity vojenského řešení problému s pohyblivou početnou populací zvířat.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "zoology",
+            "limits"
+          ],
+          "score": 13.116,
+          "same_idea": false,
+          "ids": [
+            "692"
+          ]
+        },
+        {
+          "id": "517",
+          "idea": "idea-517",
+          "point": "Řím během první punské války vybudoval námořní sílu a přizpůsobil námořní boj svým vojenským možnostem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "innovation",
+            "roman-empire"
+          ],
+          "score": 12.976,
+          "same_idea": false,
+          "ids": [
+            "517"
+          ]
+        },
+        {
+          "id": "156",
+          "idea": "idea-156",
+          "point": "Vylodění v Normandii otevřelo spojeneckou západní frontu a vyžadovalo rozsáhlou koordinaci sil i zásobování.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "military-history",
+            "cooperation"
+          ],
+          "score": 12.257,
+          "same_idea": false,
+          "ids": [
+            "156"
+          ]
+        },
+        {
+          "id": "928",
+          "idea": "idea-928",
+          "point": "Ruská flotila roku 1904 zaměnila britské rybářské lodě za japonské torpédovky a ostřelováním vyvolala mezinárodní incident.",
+          "type": "event",
+          "tags": [
+            "military-history",
+            "international-relations"
+          ],
+          "score": 11.061,
+          "same_idea": false,
+          "ids": [
+            "928"
+          ]
+        },
+        {
+          "id": "782",
+          "idea": "idea-782",
+          "point": "Hitchcockův Provaz vytváří dojem souvislého záběru vhodným ukrýváním technicky nutných střihů.",
+          "type": "work",
+          "tags": [
+            "film-technique",
+            "perceived-reality",
+            "innovation"
+          ],
+          "score": 10.75,
+          "same_idea": false,
+          "ids": [
+            "782"
+          ]
+        },
+        {
+          "id": "206",
+          "idea": "idea-206",
+          "point": "Celosvětové očkování a cílená opatření umožnily eradikaci pravých neštovic.",
+          "type": "event",
+          "tags": [
+            "public-health",
+            "cooperation",
+            "innovation"
+          ],
+          "score": 9.281,
+          "same_idea": false,
+          "ids": [
+            "206"
+          ]
+        },
+        {
+          "id": "267",
+          "idea": "idea-267",
+          "point": "Sun-c’ považuje podrobení protivníka bez vyčerpávajícího boje za vyšší strategický úspěch než samotné vítězství v bitvě.",
+          "type": "theory",
+          "tags": [
+            "asian-philosophy",
+            "military-history",
+            "resources",
+            "china"
+          ],
+          "score": 9.281,
+          "same_idea": false,
+          "ids": [
+            "267"
+          ]
+        },
+        {
+          "id": "286",
+          "idea": "idea-286",
+          "point": "Ženevské úmluvy vymezují ochranu lidí, kteří se bojů neúčastní nebo už bojovat nemohou.",
+          "type": "principle",
+          "tags": [
+            "human-rights",
+            "military-history"
+          ],
+          "score": 9.281,
+          "same_idea": false,
+          "ids": [
+            "286"
+          ]
+        },
+        {
+          "id": "542",
+          "idea": "idea-542",
+          "point": "Hoplítská falanga vyžadovala společné držení formace, takže bezpečí jednotlivce záviselo na sousedech.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "cooperation"
+          ],
+          "score": 9.281,
+          "same_idea": false,
+          "ids": [
+            "542"
+          ]
+        },
+        {
+          "id": "543",
+          "idea": "idea-543",
+          "point": "Xenofontova Anabáze vypráví návrat řeckých žoldnéřů, kteří museli po ztrátě velitelů obnovit vlastní organizaci.",
+          "type": "work",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "resilience"
+          ],
+          "score": 9.281,
+          "same_idea": false,
+          "ids": [
+            "543"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "958",
+      "candidates": [
+        {
+          "id": "844",
+          "idea": "idea-844",
+          "point": "Význam obchodu s vlnou se promítal do anglických politických institucí a jejich symbolů.",
+          "type": "principle",
+          "tags": [
+            "economic-history",
+            "institutions",
+            "power"
+          ],
+          "score": 13.529,
+          "same_idea": false,
+          "ids": [
+            "844"
+          ]
+        },
+        {
+          "id": "689",
+          "idea": "idea-689",
+          "point": "Oulipovská omezení, například vynechání určitého písmene, mohou tvořivost podporovat místo jejího pouhého omezování.",
+          "type": "principle",
+          "tags": [
+            "literature",
+            "patterns",
+            "innovation"
+          ],
+          "score": 13.509,
+          "same_idea": false,
+          "ids": [
+            "689"
+          ]
+        },
+        {
+          "id": "927",
+          "idea": "idea-927",
+          "point": "Prasknutí pivovarské kádě v Londýně roku 1814 vyvolalo ničivou záplavu v okolní obytné čtvrti.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "economic-history"
+          ],
+          "score": 13.126,
+          "same_idea": false,
+          "ids": [
+            "927"
+          ]
+        },
+        {
+          "id": "118",
+          "idea": "idea-118",
+          "point": "Marshallův plán podporoval poválečnou evropskou obnovu hospodářskou pomocí a politickou spoluprací.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "economic-history",
+            "cooperation"
+          ],
+          "score": 12.653,
+          "same_idea": false,
+          "ids": [
+            "118"
+          ]
+        },
+        {
+          "id": "517",
+          "idea": "idea-517",
+          "point": "Řím během první punské války vybudoval námořní sílu a přizpůsobil námořní boj svým vojenským možnostem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "innovation",
+            "roman-empire"
+          ],
+          "score": 12.423,
+          "same_idea": false,
+          "ids": [
+            "517"
+          ]
+        },
+        {
+          "id": "564",
+          "idea": "idea-564",
+          "point": "Gagarinův let poprvé dopravil člověka na oběžnou dráhu a zpět na Zemi.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "innovation",
+            "limits"
+          ],
+          "score": 12.313,
+          "same_idea": false,
+          "ids": [
+            "564"
+          ]
+        },
+        {
+          "id": "137",
+          "idea": "idea-137",
+          "point": "Objev a léčebné použití inzulinu změnily diabetes z rychle smrtelné nemoci v dlouhodobě léčitelný stav.",
+          "type": "discovery",
+          "tags": [
+            "medicine",
+            "biology",
+            "innovation"
+          ],
+          "score": 11.732,
+          "same_idea": false,
+          "ids": [
+            "137"
+          ]
+        },
+        {
+          "id": "698",
+          "idea": "idea-698",
+          "point": "Duchampův readymade přesouvá otázku umění od ruční výroby předmětu ke kontextu a aktu jeho výběru.",
+          "type": "theory",
+          "tags": [
+            "arts",
+            "perceived-reality",
+            "innovation"
+          ],
+          "score": 11.329,
+          "same_idea": false,
+          "ids": [
+            "698"
+          ]
+        },
+        {
+          "id": "141",
+          "idea": "idea-141",
+          "point": "Brettonwoodský systém spojil měnové kurzy s dolarem a dolar se zlatem jako základ poválečného měnového uspořádání.",
+          "type": "event",
+          "tags": [
+            "economic-history",
+            "macroeconomics",
+            "cooperation"
+          ],
+          "score": 11.291,
+          "same_idea": false,
+          "ids": [
+            "141"
+          ]
+        },
+        {
+          "id": "426",
+          "idea": "idea-426",
+          "point": "Příliš mnoho možností může v některých situacích ztížit rozhodnutí a snížit spokojenost s volbou.",
+          "type": "principle",
+          "tags": [
+            "decision-making",
+            "cognitive-biases",
+            "limits"
+          ],
+          "score": 10.471,
+          "same_idea": false,
+          "ids": [
+            "426"
+          ]
+        },
+        {
+          "id": "755",
+          "idea": "idea-755",
+          "point": "Galoisova teorie spojuje řešitelnost rovnic pomocí odmocnin se strukturou jejich symetrií.",
+          "type": "discovery",
+          "tags": [
+            "number-theory",
+            "logic",
+            "limits"
+          ],
+          "score": 10.376,
+          "same_idea": false,
+          "ids": [
+            "755"
+          ]
+        },
+        {
+          "id": "618",
+          "idea": "idea-618",
+          "point": "Mechanické narušení některých krystalů může vyvolat světelný záblesk zvaný triboluminiscence.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "optics",
+            "innovation"
+          ],
+          "score": 10.371,
+          "same_idea": false,
+          "ids": [
+            "618"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "959",
+      "candidates": [
+        {
+          "id": "513",
+          "idea": "idea-513",
+          "point": "Řecké vítězství u Platají přispělo k ukončení velké perské pozemní invaze do Řecka.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "cooperation"
+          ],
+          "score": 14.815,
+          "same_idea": false,
+          "ids": [
+            "513"
+          ]
+        },
+        {
+          "id": "239",
+          "idea": "idea-239",
+          "point": "Ve vězňově dilematu může individuálně výhodná volba obou hráčů vést k horšímu společnému výsledku.",
+          "type": "principle",
+          "tags": [
+            "game-theory",
+            "cooperation",
+            "incentives"
+          ],
+          "score": 12.153,
+          "same_idea": false,
+          "ids": [
+            "239"
+          ]
+        },
+        {
+          "id": "565",
+          "idea": "idea-565",
+          "point": "Záchrana Apolla 13 vyžadovala přizpůsobit dostupné prostředky novým podmínkám po poškození lodi.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "cooperation",
+            "resilience"
+          ],
+          "score": 11.747,
+          "same_idea": false,
+          "ids": [
+            "565"
+          ]
+        },
+        {
+          "id": "432",
+          "idea": "idea-432",
+          "point": "Úsporné dvouciferné ukládání roku vytvořilo riziko chyb při přechodu do roku 2000 a vyvolalo rozsáhlé opravy systémů.",
+          "type": "event",
+          "tags": [
+            "programming",
+            "computer-history",
+            "resilience"
+          ],
+          "score": 11.448,
+          "same_idea": false,
+          "ids": [
+            "432"
+          ]
+        },
+        {
+          "id": "530",
+          "idea": "idea-530",
+          "point": "Římské nájemní domy a požární sbory ukazují rizika i správní řešení života v hustě obydleném městě.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "architecture",
+            "resilience",
+            "roman-empire"
+          ],
+          "score": 10.429,
+          "same_idea": false,
+          "ids": [
+            "530"
+          ]
+        },
+        {
+          "id": "272",
+          "idea": "idea-272",
+          "point": "Konzervační význam soli jí dával hospodářskou a politickou hodnotu přesahující běžné dochucování.",
+          "type": "principle",
+          "tags": [
+            "economic-history",
+            "chemistry",
+            "resources"
+          ],
+          "score": 10.297,
+          "same_idea": false,
+          "ids": [
+            "272"
+          ]
+        },
+        {
+          "id": "480",
+          "idea": "idea-480",
+          "point": "Hon na jelena ukazuje, že výhodnější spolupráci může bránit nedostatek důvěry v současnou spolupráci druhých.",
+          "type": "principle",
+          "tags": [
+            "game-theory",
+            "cooperation",
+            "privacy"
+          ],
+          "score": 10.255,
+          "same_idea": false,
+          "ids": [
+            "480"
+          ]
+        },
+        {
+          "id": "641",
+          "idea": "idea-641",
+          "point": "Při společné práci může úsilí jednotlivce klesat, pokud se jeho příspěvek ztrácí v souhrnném výsledku skupiny.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "organizations",
+            "incentives"
+          ],
+          "score": 10.226,
+          "same_idea": false,
+          "ids": [
+            "641"
+          ]
+        },
+        {
+          "id": "516",
+          "idea": "idea-516",
+          "point": "Bitva u Zamy změnila výsledek druhé punské války a upevnila římskou převahu nad Kartágem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "roman-empire"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "516"
+          ]
+        },
+        {
+          "id": "520",
+          "idea": "idea-520",
+          "point": "Proměny římského vojska posílily závislost vojáků na velitelích a oslabovaly výlučnou loajalitu k republice.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "incentives",
+            "roman-empire"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "520"
+          ]
+        },
+        {
+          "id": "695",
+          "idea": "idea-695",
+          "point": "Přidání lidí do zpožděného softwarového projektu může zvýšit náklady na koordinaci a projekt dále zpozdit.",
+          "type": "principle",
+          "tags": [
+            "programming",
+            "organizations",
+            "resources"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "695"
+          ]
+        },
+        {
+          "id": "914",
+          "idea": "idea-914",
+          "point": "Venuše se otočí vůči hvězdám přibližně za 243 pozemských dní, ale dva východy Slunce dělí jen asi 117 dní.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "venus"
+          ],
+          "score": 10.035,
+          "same_idea": false,
+          "ids": [
+            "914"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "960",
+      "candidates": [
+        {
+          "id": "621",
+          "idea": "idea-621",
+          "point": "Piezoelektrický jev převádí mechanické namáhání vhodného materiálu na elektrické napětí a umožňuje i opačný převod.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "electromagnetism",
+            "innovation"
+          ],
+          "score": 14.318,
+          "same_idea": false,
+          "ids": [
+            "621"
+          ]
+        },
+        {
+          "id": "461",
+          "idea": "idea-461",
+          "point": "Chroma key odděluje předem zvolenou barvu pozadí a umožňuje spojovat postavu s jiným obrazem.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "optics",
+            "innovation"
+          ],
+          "score": 13.426,
+          "same_idea": false,
+          "ids": [
+            "461"
+          ]
+        },
+        {
+          "id": "511",
+          "idea": "idea-511",
+          "point": "Antibiotická rezistence se šíří selekcí a přenosem odolnosti mezi bakteriemi, nikoli zvykáním těla na lék.",
+          "type": "principle",
+          "tags": [
+            "microbiology",
+            "evolution",
+            "resilience"
+          ],
+          "score": 12.205,
+          "same_idea": false,
+          "ids": [
+            "511"
+          ]
+        },
+        {
+          "id": "460",
+          "idea": "idea-460",
+          "point": "Dolbyho systémy omezují slyšitelný šum zvukového záznamu vhodným zpracováním signálu.",
+          "type": "principle",
+          "tags": [
+            "sound",
+            "information-theory",
+            "innovation"
+          ],
+          "score": 11.424,
+          "same_idea": false,
+          "ids": [
+            "460"
+          ]
+        },
+        {
+          "id": "769",
+          "idea": "idea-769",
+          "point": "Chan Fejův příběh o čekání na zajíce kritizuje slepé opakování dříve náhodně úspěšného postupu v nových podmínkách.",
+          "type": "theory",
+          "tags": [
+            "asian-philosophy",
+            "decision-making",
+            "china"
+          ],
+          "score": 10.681,
+          "same_idea": false,
+          "ids": [
+            "769"
+          ]
+        },
+        {
+          "id": "575",
+          "idea": "idea-575",
+          "point": "Jansky při studiu rádiového rušení rozpoznal kosmický zdroj signálu a pomohl otevřít radioastronomii.",
+          "type": "discovery",
+          "tags": [
+            "astronomy",
+            "electromagnetism",
+            "innovation"
+          ],
+          "score": 10.062,
+          "same_idea": false,
+          "ids": [
+            "575"
+          ]
+        },
+        {
+          "id": "888",
+          "idea": "idea-888",
+          "point": "Práce ze srpna 2026 snížila známou horní mez exponentu násobení matic pomocí optimalizace podporované strojovým učením.",
+          "type": "discovery",
+          "tags": [
+            "complexity",
+            "artificial-intelligence",
+            "innovation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "888"
+          ]
+        },
+        {
+          "id": "676",
+          "idea": "idea-676",
+          "point": "Al-Chwárizmího jméno a práce přispěly k původu označení algoritmus a algebra v evropské tradici.",
+          "type": "event",
+          "tags": [
+            "mathematics",
+            "linguistics",
+            "innovation"
+          ],
+          "score": 9.967,
+          "same_idea": false,
+          "ids": [
+            "676"
+          ]
+        },
+        {
+          "id": "438",
+          "idea": "idea-438",
+          "point": "CAPTCHA využívá rozdílné schopnosti lidí a programů k omezování automatizovaného zneužití služeb.",
+          "type": "principle",
+          "tags": [
+            "computer-security",
+            "artificial-intelligence",
+            "limits"
+          ],
+          "score": 9.815,
+          "same_idea": false,
+          "ids": [
+            "438"
+          ]
+        },
+        {
+          "id": "467",
+          "idea": "idea-467",
+          "point": "Klimtova práce se zlatem navazovala na zkušenost s mozaikami a propojovala malbu s dekorativní plochou.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "innovation"
+          ],
+          "score": 9.488,
+          "same_idea": false,
+          "ids": [
+            "467"
+          ]
+        },
+        {
+          "id": "566",
+          "idea": "idea-566",
+          "point": "Optická oprava Hubbleova dalekohledu kompenzovala chybu hlavního zrcadla a obnovila jeho zamýšlené možnosti.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "optics",
+            "innovation"
+          ],
+          "score": 9.488,
+          "same_idea": false,
+          "ids": [
+            "566"
+          ]
+        },
+        {
+          "id": "737",
+          "idea": "idea-737",
+          "point": "Komenského Orbis pictus propojuje obraz a slovo při výuce a poznávání světa.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "learning-memory",
+            "innovation"
+          ],
+          "score": 9.488,
+          "same_idea": false,
+          "ids": [
+            "737"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "961",
+      "candidates": [
+        {
+          "id": "618",
+          "idea": "idea-618",
+          "point": "Mechanické narušení některých krystalů může vyvolat světelný záblesk zvaný triboluminiscence.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "optics",
+            "innovation"
+          ],
+          "score": 13.452,
+          "same_idea": false,
+          "ids": [
+            "618"
+          ]
+        },
+        {
+          "id": "232",
+          "idea": "idea-232",
+          "point": "Moorův zákon byl vývojovým trendem a průmyslovým očekáváním růstu počtu tranzistorů, nikoli nezměnitelným fyzikálním zákonem.",
+          "type": "principle",
+          "tags": [
+            "computer-history",
+            "materials",
+            "change"
+          ],
+          "score": 11.657,
+          "same_idea": false,
+          "ids": [
+            "232"
+          ]
+        },
+        {
+          "id": "566",
+          "idea": "idea-566",
+          "point": "Optická oprava Hubbleova dalekohledu kompenzovala chybu hlavního zrcadla a obnovila jeho zamýšlené možnosti.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "optics",
+            "innovation"
+          ],
+          "score": 10.657,
+          "same_idea": false,
+          "ids": [
+            "566"
+          ]
+        },
+        {
+          "id": "621",
+          "idea": "idea-621",
+          "point": "Piezoelektrický jev převádí mechanické namáhání vhodného materiálu na elektrické napětí a umožňuje i opačný převod.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "electromagnetism",
+            "innovation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "621"
+          ]
+        },
+        {
+          "id": "523",
+          "idea": "idea-523",
+          "point": "Kleopatřina vláda spojovala řeckou dynastickou kulturu s egyptským prostředím a skončila římským převzetím Egypta.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "identity",
+            "roman-empire"
+          ],
+          "score": 9.694,
+          "same_idea": false,
+          "ids": [
+            "523"
+          ]
+        },
+        {
+          "id": "32",
+          "idea": "idea-32",
+          "point": "Flemingovo pozorování plísně potlačující bakterie vedlo k objevu penicilinu a rozvoji antibiotik.",
+          "type": "discovery",
+          "tags": [
+            "medicine",
+            "microbiology",
+            "innovation"
+          ],
+          "score": 9.367,
+          "same_idea": false,
+          "ids": [
+            "32"
+          ]
+        },
+        {
+          "id": "117",
+          "idea": "idea-117",
+          "point": "Berners-Lee spojil hypertext s internetem a vytvořil základ webu pro propojování dokumentů.",
+          "type": "discovery",
+          "tags": [
+            "networks",
+            "human-computer-interaction",
+            "innovation"
+          ],
+          "score": 9.21,
+          "same_idea": false,
+          "ids": [
+            "117"
+          ]
+        },
+        {
+          "id": "257",
+          "idea": "idea-257",
+          "point": "Toy Story využil možnosti i omezení rané počítačové animace prostřednictvím světa hraček.",
+          "type": "work",
+          "tags": [
+            "animation",
+            "computer-history",
+            "innovation"
+          ],
+          "score": 9.21,
+          "same_idea": false,
+          "ids": [
+            "257"
+          ]
+        },
+        {
+          "id": "430",
+          "idea": "idea-430",
+          "point": "Bushův memex předjímal propojování uložených informací pomocí asociativních cest místo pouhého pevného třídění.",
+          "type": "theory",
+          "tags": [
+            "human-computer-interaction",
+            "information-theory",
+            "innovation"
+          ],
+          "score": 9.21,
+          "same_idea": false,
+          "ids": [
+            "430"
+          ]
+        },
+        {
+          "id": "795",
+          "idea": "idea-795",
+          "point": "Engelbartova demonstrace představila propojené prvky interaktivní práce s počítačem včetně myši a spolupráce na dokumentu.",
+          "type": "event",
+          "tags": [
+            "human-computer-interaction",
+            "computer-history",
+            "innovation"
+          ],
+          "score": 9.21,
+          "same_idea": false,
+          "ids": [
+            "795"
+          ]
+        },
+        {
+          "id": "136",
+          "idea": "idea-136",
+          "point": "Tepelná roztažnost mění délku kovových konstrukcí, takže se mění i výška Eiffelovy věže.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "change"
+          ],
+          "score": 9.129,
+          "same_idea": false,
+          "ids": [
+            "136"
+          ]
+        },
+        {
+          "id": "534",
+          "idea": "idea-534",
+          "point": "Hagia Sofia spojila mohutnou centrální kupoli s konstrukčním řešením přechodu na okolní podporu.",
+          "type": "work",
+          "tags": [
+            "architecture",
+            "medieval-history",
+            "innovation"
+          ],
+          "score": 9.129,
+          "same_idea": false,
+          "ids": [
+            "534"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "962",
+      "candidates": [
+        {
+          "id": "651",
+          "idea": "idea-651",
+          "point": "Jednorázová šifra může poskytovat dokonalé utajení jen při skutečně náhodném stejně dlouhém klíči, který se neopakuje.",
+          "type": "principle",
+          "tags": [
+            "cryptography",
+            "privacy",
+            "limits"
+          ],
+          "score": 17.722,
+          "same_idea": false,
+          "ids": [
+            "651"
+          ]
+        },
+        {
+          "id": "696",
+          "idea": "idea-696",
+          "point": "Thompsonův útok na důvěru ukazuje, že kompromitovaný překladač může šířit skryté chování i při zdánlivě čistém zdrojovém kódu.",
+          "type": "principle",
+          "tags": [
+            "computer-security",
+            "programming",
+            "privacy"
+          ],
+          "score": 15.149,
+          "same_idea": false,
+          "ids": [
+            "696"
+          ]
+        },
+        {
+          "id": "231",
+          "idea": "idea-231",
+          "point": "Asymetrická kryptografie odděluje veřejný a soukromý klíč a umožňuje bezpečné operace bez předchozího sdílení stejného tajemství.",
+          "type": "principle",
+          "tags": [
+            "cryptography",
+            "privacy",
+            "innovation"
+          ],
+          "score": 14.682,
+          "same_idea": false,
+          "ids": [
+            "231"
+          ]
+        },
+        {
+          "id": "438",
+          "idea": "idea-438",
+          "point": "CAPTCHA využívá rozdílné schopnosti lidí a programů k omezování automatizovaného zneužití služeb.",
+          "type": "principle",
+          "tags": [
+            "computer-security",
+            "artificial-intelligence",
+            "limits"
+          ],
+          "score": 12.692,
+          "same_idea": false,
+          "ids": [
+            "438"
+          ]
+        },
+        {
+          "id": "916",
+          "idea": "idea-916",
+          "point": "Zlevnění energetické služby díky vyšší účinnosti může zvýšit její využití a tím část očekávané úspory vyrušit.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "resources",
+            "incentives"
+          ],
+          "score": 10.852,
+          "same_idea": false,
+          "ids": [
+            "916"
+          ]
+        },
+        {
+          "id": "750",
+          "idea": "idea-750",
+          "point": "Vodivý obal přerozděluje náboj a omezuje působení určitých vnějších elektrických polí uvnitř Faradayovy klece.",
+          "type": "principle",
+          "tags": [
+            "electromagnetism",
+            "computer-security",
+            "privacy"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "750"
+          ]
+        },
+        {
+          "id": "889",
+          "idea": "idea-889",
+          "point": "Plně homomorfní šifrování umožňuje počítat nad šifrovanými vstupy a práce z roku 2026 zrychlila konkrétní kryptografické jádro.",
+          "type": "discovery",
+          "tags": [
+            "cryptography",
+            "artificial-intelligence",
+            "privacy"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "889"
+          ]
+        },
+        {
+          "id": "282",
+          "idea": "idea-282",
+          "point": "Foleyho ruchy vznikají dodatečným fyzickým prováděním zvuků sladěných s obrazem.",
+          "type": "principle",
+          "tags": [
+            "sound",
+            "perceived-reality",
+            "innovation"
+          ],
+          "score": 9.865,
+          "same_idea": false,
+          "ids": [
+            "282"
+          ]
+        },
+        {
+          "id": "134",
+          "idea": "idea-134",
+          "point": "Turingova práce na britské Bombě pomáhala hledat nastavení Enigmy a využívat zachycené šifrované zprávy.",
+          "type": "discovery",
+          "tags": [
+            "cryptography",
+            "computer-history",
+            "innovation"
+          ],
+          "score": 9.682,
+          "same_idea": false,
+          "ids": [
+            "134"
+          ]
+        },
+        {
+          "id": "436",
+          "idea": "idea-436",
+          "point": "Colossus urychlil zpracování německé šifry Lorenz a představoval rané elektronické programovatelné výpočetní zařízení.",
+          "type": "event",
+          "tags": [
+            "computer-history",
+            "cryptography",
+            "innovation"
+          ],
+          "score": 7.544,
+          "same_idea": false,
+          "ids": [
+            "436"
+          ]
+        },
+        {
+          "id": "535",
+          "idea": "idea-535",
+          "point": "Byzantský řecký oheň byl významnou zápalnou zbraní, jejíž přesné složení zůstává nejisté.",
+          "type": "open-question",
+          "tags": [
+            "military-history",
+            "chemistry",
+            "privacy"
+          ],
+          "score": 7.544,
+          "same_idea": false,
+          "ids": [
+            "535"
+          ]
+        },
+        {
+          "id": "747",
+          "idea": "idea-747",
+          "point": "Charta 77 využila rozporu mezi oficiálními závazky státu a jejich nedodržováním při obraně lidských práv.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "human-rights",
+            "power"
+          ],
+          "score": 7.527,
+          "same_idea": false,
+          "ids": [
+            "747"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "963",
+      "candidates": [
+        {
+          "id": "37",
+          "idea": "idea-37",
+          "point": "Epikúros odmítá strach ze smrti, protože smrt není prožitkem žijícího člověka.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "epicurus"
+          ],
+          "score": 20.149,
+          "same_idea": false,
+          "ids": [
+            "37",
+            "79"
+          ]
+        },
+        {
+          "id": "266",
+          "idea": "idea-266",
+          "point": "Epikúros pokládá přátelství za významný zdroj bezpečí a klidného života.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "epicurus"
+          ],
+          "score": 20.149,
+          "same_idea": false,
+          "ids": [
+            "266"
+          ]
+        },
+        {
+          "id": "877",
+          "idea": "idea-877",
+          "point": "Aristotelova epieikeia napravuje obecnost zákona u výjimečného případu s ohledem na jeho zamýšlený účel.",
+          "type": "theory",
+          "tags": [
+            "law",
+            "ethics",
+            "aristotle"
+          ],
+          "score": 16.811,
+          "same_idea": false,
+          "ids": [
+            "877"
+          ]
+        },
+        {
+          "id": "265",
+          "idea": "idea-265",
+          "point": "Aristotelés odlišuje přátelství založené na užitku, potěšení a společném dobru či ctnosti.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 16.431,
+          "same_idea": false,
+          "ids": [
+            "265"
+          ]
+        },
+        {
+          "id": "185",
+          "idea": "idea-185",
+          "point": "Kantův kategorický imperativ prověřuje jednání otázkou, zda lze jeho zásadu chtít jako obecné pravidlo.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "modern-philosophy",
+            "fairness"
+          ],
+          "score": 14.84,
+          "same_idea": false,
+          "ids": [
+            "185"
+          ]
+        },
+        {
+          "id": "17",
+          "idea": "idea-17",
+          "point": "Aristotelova ctnost hledá přiměřený střed mezi krajnostmi podle situace, nikoli mechanický průměr.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 14.498,
+          "same_idea": false,
+          "ids": [
+            "17",
+            "57",
+            "88"
+          ]
+        },
+        {
+          "id": "876",
+          "idea": "idea-876",
+          "point": "Aristotelova akrasie vysvětluje jednání proti lepšímu úsudku rozdílem mezi tím vědění mít a právě je používat.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 14.498,
+          "same_idea": false,
+          "ids": [
+            "876"
+          ]
+        },
+        {
+          "id": "724",
+          "idea": "idea-724",
+          "point": "Platónovo Symposion staví vedle sebe hledání chybějící poloviny a vzestup touhy od jednotlivého těla k obecnější kráse.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "plato"
+          ],
+          "score": 13.78,
+          "same_idea": false,
+          "ids": [
+            "724"
+          ]
+        },
+        {
+          "id": "164",
+          "idea": "idea-164",
+          "point": "Anaximandrovo apeiron chápe původ věcí jako neurčený základ přesahující jednotlivé známé látky.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "patterns"
+          ],
+          "score": 13.627,
+          "same_idea": false,
+          "ids": [
+            "164"
+          ]
+        },
+        {
+          "id": "170",
+          "idea": "idea-170",
+          "point": "Mohismus požaduje nestrannou péči přesahující přednostní zájem o vlastní rodinu či skupinu.",
+          "type": "theory",
+          "tags": [
+            "asian-philosophy",
+            "ethics",
+            "fairness"
+          ],
+          "score": 13.184,
+          "same_idea": false,
+          "ids": [
+            "170"
+          ]
+        },
+        {
+          "id": "188",
+          "idea": "idea-188",
+          "point": "Vozíkové dilema rozlišuje záměrné použití člověka jako prostředku od jeho smrti jako vedlejšího důsledku záchrany jiných.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "decision-making",
+            "fairness"
+          ],
+          "score": 13.184,
+          "same_idea": false,
+          "ids": [
+            "188"
+          ]
+        },
+        {
+          "id": "186",
+          "idea": "idea-186",
+          "point": "Rawlsův závoj nevědomosti vybírá pravidla společnosti bez znalosti vlastního budoucího postavení.",
+          "type": "theory",
+          "tags": [
+            "political-philosophy",
+            "fairness",
+            "decision-making"
+          ],
+          "score": 12.491,
+          "same_idea": false,
+          "ids": [
+            "186"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "964",
+      "candidates": [
+        {
+          "id": "723",
+          "idea": "idea-723",
+          "point": "Aristotelova rétorika rozlišuje přesvědčování důvěryhodností mluvčího, emocemi publika a argumentem.",
+          "type": "theory",
+          "tags": [
+            "communication",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 21.81,
+          "same_idea": false,
+          "ids": [
+            "723"
+          ]
+        },
+        {
+          "id": "88",
+          "idea": "idea-17",
+          "point": "Aristotelova ctnost hledá přiměřený střed mezi krajnostmi podle situace, nikoli mechanický průměr.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 18.67,
+          "same_idea": false,
+          "ids": [
+            "17",
+            "57",
+            "88"
+          ]
+        },
+        {
+          "id": "876",
+          "idea": "idea-876",
+          "point": "Aristotelova akrasie vysvětluje jednání proti lepšímu úsudku rozdílem mezi tím vědění mít a právě je používat.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 18.574,
+          "same_idea": false,
+          "ids": [
+            "876"
+          ]
+        },
+        {
+          "id": "265",
+          "idea": "idea-265",
+          "point": "Aristotelés odlišuje přátelství založené na užitku, potěšení a společném dobru či ctnosti.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 16.842,
+          "same_idea": false,
+          "ids": [
+            "265"
+          ]
+        },
+        {
+          "id": "771",
+          "idea": "idea-771",
+          "point": "Plótínova emanace popisuje závislost mnohosti skutečnosti na jednotném prvním principu.",
+          "type": "theory",
+          "tags": [
+            "metaphysics",
+            "ancient-philosophy",
+            "patterns"
+          ],
+          "score": 16.7,
+          "same_idea": false,
+          "ids": [
+            "771"
+          ]
+        },
+        {
+          "id": "671",
+          "idea": "idea-671",
+          "point": "Aristotelovy čtyři příčiny odlišují látku, tvar, působící zdroj a účel jako různé odpovědi na otázku proč.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "epistemology",
+            "aristotle"
+          ],
+          "score": 15.512,
+          "same_idea": false,
+          "ids": [
+            "671"
+          ]
+        },
+        {
+          "id": "165",
+          "idea": "idea-165",
+          "point": "Parmenidés vyvozuje z nemožnosti nebytí závěr, že pravé jsoucno nemůže vznikat, zanikat ani se měnit.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "change"
+          ],
+          "score": 13.921,
+          "same_idea": false,
+          "ids": [
+            "165"
+          ]
+        },
+        {
+          "id": "166",
+          "idea": "idea-166",
+          "point": "Empedoklés vysvětloval proměny mísením čtyř stálých kořenů působením spojujících a rozdělujících sil.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "change"
+          ],
+          "score": 13.78,
+          "same_idea": false,
+          "ids": [
+            "166"
+          ]
+        },
+        {
+          "id": "263",
+          "idea": "idea-263",
+          "point": "Aristotelský sylogismus odvozuje závěr z uspořádaného vztahu dvou premis a tří pojmů.",
+          "type": "principle",
+          "tags": [
+            "logic",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 13.78,
+          "same_idea": false,
+          "ids": [
+            "263"
+          ]
+        },
+        {
+          "id": "719",
+          "idea": "idea-719",
+          "point": "Aristotelova budoucí námořní bitva zkoumá, zda již nyní pravdivé výroky o budoucnosti nutně znamenají předurčenost událostí.",
+          "type": "theory",
+          "tags": [
+            "logic",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 13.78,
+          "same_idea": false,
+          "ids": [
+            "719"
+          ]
+        },
+        {
+          "id": "173",
+          "idea": "idea-173",
+          "point": "Upanišadové spojení átmanu a brahmanu hledá jednotu vlastního já s nejzazší skutečností.",
+          "type": "theory",
+          "tags": [
+            "asian-philosophy",
+            "metaphysics",
+            "identity",
+            "india"
+          ],
+          "score": 12.793,
+          "same_idea": false,
+          "ids": [
+            "173"
+          ]
+        },
+        {
+          "id": "164",
+          "idea": "idea-164",
+          "point": "Anaximandrovo apeiron chápe původ věcí jako neurčený základ přesahující jednotlivé známé látky.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "patterns"
+          ],
+          "score": 12.189,
+          "same_idea": false,
+          "ids": [
+            "164"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "965",
+      "candidates": [
+        {
+          "id": "771",
+          "idea": "idea-771",
+          "point": "Plótínova emanace popisuje závislost mnohosti skutečnosti na jednotném prvním principu.",
+          "type": "theory",
+          "tags": [
+            "metaphysics",
+            "ancient-philosophy",
+            "patterns"
+          ],
+          "score": 18.194,
+          "same_idea": false,
+          "ids": [
+            "771"
+          ]
+        },
+        {
+          "id": "673",
+          "idea": "idea-673",
+          "point": "Gygův prsten prověřuje, zda člověk jedná spravedlivě i bez možnosti odhalení a trestu.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "political-philosophy",
+            "plato"
+          ],
+          "score": 17.616,
+          "same_idea": false,
+          "ids": [
+            "673"
+          ]
+        },
+        {
+          "id": "47",
+          "idea": "idea-47",
+          "point": "Platónova jeskyně rozlišuje navyklý svět zdání od obtížného poznání jeho příčin.",
+          "type": "theory",
+          "tags": [
+            "epistemology",
+            "ancient-philosophy",
+            "perceived-reality",
+            "plato"
+          ],
+          "score": 17.124,
+          "same_idea": false,
+          "ids": [
+            "47",
+            "107"
+          ]
+        },
+        {
+          "id": "718",
+          "idea": "idea-718",
+          "point": "Platónův Menón vykládá část poznávání jako rozpomínání a zkoumá, jak lze hledat to, co ještě neznáme.",
+          "type": "theory",
+          "tags": [
+            "epistemology",
+            "learning-memory",
+            "plato"
+          ],
+          "score": 14.21,
+          "same_idea": false,
+          "ids": [
+            "718"
+          ]
+        },
+        {
+          "id": "724",
+          "idea": "idea-724",
+          "point": "Platónovo Symposion staví vedle sebe hledání chybějící poloviny a vzestup touhy od jednotlivého těla k obecnější kráse.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "plato"
+          ],
+          "score": 14.062,
+          "same_idea": false,
+          "ids": [
+            "724"
+          ]
+        },
+        {
+          "id": "779",
+          "idea": "idea-779",
+          "point": "Platón spojoval pravidelná tělesa s geometrickým řádem přírody a představou základních prvků.",
+          "type": "theory",
+          "tags": [
+            "geometry",
+            "ancient-philosophy",
+            "plato"
+          ],
+          "score": 14.062,
+          "same_idea": false,
+          "ids": [
+            "779"
+          ]
+        },
+        {
+          "id": "876",
+          "idea": "idea-876",
+          "point": "Aristotelova akrasie vysvětluje jednání proti lepšímu úsudku rozdílem mezi tím vědění mít a právě je používat.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "ancient-philosophy",
+            "aristotle"
+          ],
+          "score": 12.124,
+          "same_idea": false,
+          "ids": [
+            "876"
+          ]
+        },
+        {
+          "id": "36",
+          "idea": "idea-36",
+          "point": "Antický atomismus vysvětloval rozmanitost a změny světa pohybem nedělitelných částic v prázdnu.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "patterns"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "36",
+            "77",
+            "108"
+          ]
+        },
+        {
+          "id": "165",
+          "idea": "idea-165",
+          "point": "Parmenidés vyvozuje z nemožnosti nebytí závěr, že pravé jsoucno nemůže vznikat, zanikat ani se měnit.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "change"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "165"
+          ]
+        },
+        {
+          "id": "725",
+          "idea": "idea-725",
+          "point": "Avicennův létající člověk zkoumá možnost vědomí vlastního já bez aktuálních smyslových vjemů těla.",
+          "type": "theory",
+          "tags": [
+            "asian-philosophy",
+            "philosophy-of-mind",
+            "identity"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "725"
+          ]
+        },
+        {
+          "id": "26",
+          "idea": "idea-26",
+          "point": "Hérakleitův obraz řeky chápe svět jako nepřetržitou proměnu, v níž nelze zachovat úplně stejný stav.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "change"
+          ],
+          "score": 9.129,
+          "same_idea": false,
+          "ids": [
+            "26",
+            "67",
+            "98"
+          ]
+        },
+        {
+          "id": "164",
+          "idea": "idea-164",
+          "point": "Anaximandrovo apeiron chápe původ věcí jako neurčený základ přesahující jednotlivé známé látky.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "patterns"
+          ],
+          "score": 9.129,
+          "same_idea": false,
+          "ids": [
+            "164"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "966",
+      "candidates": [
+        {
+          "id": "642",
+          "idea": "idea-642",
+          "point": "I nahodilé rozdělení lidí do skupin může vést ke zvýhodňování vlastní skupiny bez předchozího věcného konfliktu.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "identity",
+            "fairness"
+          ],
+          "score": 13.452,
+          "same_idea": false,
+          "ids": [
+            "642"
+          ]
+        },
+        {
+          "id": "890",
+          "idea": "idea-890",
+          "point": "Anamorfóza záměrně deformuje motiv, aby se správně rozpoznal z určitého šikmého pohledu, jako lebka v Holbeinových Vyslancích.",
+          "type": "principle",
+          "tags": [
+            "painting",
+            "geometry",
+            "perception"
+          ],
+          "score": 12.772,
+          "same_idea": false,
+          "ids": [
+            "890"
+          ]
+        },
+        {
+          "id": "596",
+          "idea": "idea-596",
+          "point": "Althusserova interpelace vysvětluje, jak ideologie oslovováním přiřazuje jednotlivci identitu a místo ve společenském řádu.",
+          "type": "theory",
+          "tags": [
+            "political-philosophy",
+            "sociology",
+            "identity"
+          ],
+          "score": 11.451,
+          "same_idea": false,
+          "ids": [
+            "596"
+          ]
+        },
+        {
+          "id": "193",
+          "idea": "idea-193",
+          "point": "Chammurapiho zákoník veřejně vymezoval pravidla a tresty, které se lišily podle společenského postavení.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness"
+          ],
+          "score": 10.657,
+          "same_idea": false,
+          "ids": [
+            "193"
+          ]
+        },
+        {
+          "id": "608",
+          "idea": "idea-608",
+          "point": "Bachtinův dialogismus a polyfonie chápou promluvy a románové hlasy jako vzájemně odpovídající, ale neredukovatelné na jedinou autoritu.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "identity"
+          ],
+          "score": 10.657,
+          "same_idea": false,
+          "ids": [
+            "608"
+          ]
+        },
+        {
+          "id": "420",
+          "idea": "idea-420",
+          "point": "Očekávání autority mohou změnit její jednání vůči lidem a tím přispět k výsledku, který předvídala.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "learning-memory",
+            "perceived-reality"
+          ],
+          "score": 9.903,
+          "same_idea": false,
+          "ids": [
+            "420"
+          ]
+        },
+        {
+          "id": "261",
+          "idea": "idea-261",
+          "point": "Nový Zéland přiznal ženám parlamentní volební právo jako první samosprávná země.",
+          "type": "event",
+          "tags": [
+            "democracy",
+            "human-rights",
+            "fairness"
+          ],
+          "score": 9.566,
+          "same_idea": false,
+          "ids": [
+            "261"
+          ]
+        },
+        {
+          "id": "310",
+          "idea": "idea-310",
+          "point": "Příběh prince Gendžiho rozvíjí rozsáhlé psychologické vyprávění o vztazích v prostředí japonského dvora.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "identity"
+          ],
+          "score": 9.566,
+          "same_idea": false,
+          "ids": [
+            "310"
+          ]
+        },
+        {
+          "id": "491",
+          "idea": "idea-491",
+          "point": "Sufražetky organizovaným veřejným tlakem zpochybňovaly vyloučení žen z volebního rozhodování.",
+          "type": "event",
+          "tags": [
+            "democracy",
+            "human-rights",
+            "fairness"
+          ],
+          "score": 9.566,
+          "same_idea": false,
+          "ids": [
+            "491"
+          ]
+        },
+        {
+          "id": "644",
+          "idea": "idea-644",
+          "point": "Pocit podvodníka spojuje vlastní úspěch s náhodou či omylem druhých místo přijetí dokladů vlastní schopnosti.",
+          "type": "principle",
+          "tags": [
+            "psychology",
+            "identity",
+            "knowledge-evidence"
+          ],
+          "score": 9.566,
+          "same_idea": false,
+          "ids": [
+            "644"
+          ]
+        },
+        {
+          "id": "733",
+          "idea": "idea-733",
+          "point": "Bechdelův test používá jednoduché podmínky ženského dialogu jako omezené vodítko reprezentace, nikoli úplné měřítko kvality filmu.",
+          "type": "principle",
+          "tags": [
+            "cinema",
+            "sociology",
+            "fairness"
+          ],
+          "score": 9.367,
+          "same_idea": false,
+          "ids": [
+            "733"
+          ]
+        },
+        {
+          "id": "299",
+          "idea": "idea-299",
+          "point": "Neandertálská DNA v dnešních lidech dokládá křížení moderních lidí s další lidskou linií.",
+          "type": "discovery",
+          "tags": [
+            "evolution",
+            "genetics",
+            "identity"
+          ],
+          "score": 9.202,
+          "same_idea": false,
+          "ids": [
+            "299"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "967",
+      "candidates": [
+        {
+          "id": "644",
+          "idea": "idea-644",
+          "point": "Pocit podvodníka spojuje vlastní úspěch s náhodou či omylem druhých místo přijetí dokladů vlastní schopnosti.",
+          "type": "principle",
+          "tags": [
+            "psychology",
+            "identity",
+            "knowledge-evidence"
+          ],
+          "score": 12.389,
+          "same_idea": false,
+          "ids": [
+            "644"
+          ]
+        },
+        {
+          "id": "608",
+          "idea": "idea-608",
+          "point": "Bachtinův dialogismus a polyfonie chápou promluvy a románové hlasy jako vzájemně odpovídající, ale neredukovatelné na jedinou autoritu.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "identity"
+          ],
+          "score": 11.788,
+          "same_idea": false,
+          "ids": [
+            "608"
+          ]
+        },
+        {
+          "id": "600",
+          "idea": "idea-600",
+          "point": "Peircova triáda rozlišuje znak, jeho objekt a interpretant a odlišuje ikonické, indexové a symbolické vztahy.",
+          "type": "theory",
+          "tags": [
+            "semiotics",
+            "communication",
+            "perceived-reality"
+          ],
+          "score": 11.515,
+          "same_idea": false,
+          "ids": [
+            "600"
+          ]
+        },
+        {
+          "id": "609",
+          "idea": "idea-609",
+          "point": "Greimasův aktantový model rozlišuje obecné vztahové role v příběhu nezávislé na jednotlivých postavách.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "structuralism",
+            "patterns"
+          ],
+          "score": 11.513,
+          "same_idea": false,
+          "ids": [
+            "609"
+          ]
+        },
+        {
+          "id": "423",
+          "idea": "idea-423",
+          "point": "Lidé mohou více oceňovat věci, do jejichž vytvoření vložili vlastní úsilí.",
+          "type": "principle",
+          "tags": [
+            "cognitive-biases",
+            "resources",
+            "identity"
+          ],
+          "score": 10.24,
+          "same_idea": false,
+          "ids": [
+            "423"
+          ]
+        },
+        {
+          "id": "953",
+          "idea": "idea-953",
+          "point": "Incká khipu zaznamenávala číselné údaje typem a polohou uzlů na provázcích v desítkové soustavě.",
+          "type": "principle",
+          "tags": [
+            "economic-history",
+            "archaeology",
+            "communication"
+          ],
+          "score": 10.211,
+          "same_idea": false,
+          "ids": [
+            "953"
+          ]
+        },
+        {
+          "id": "539",
+          "idea": "idea-539",
+          "point": "Řecké symposion spojovalo společné pití s debatou a pravidly mužské elitní družnosti.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "sociology",
+            "communication"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "539"
+          ]
+        },
+        {
+          "id": "602",
+          "idea": "idea-602",
+          "point": "Lotmanova sémiosféra chápe kulturu jako prostor vzájemně závislých znakových systémů a jejich hranic.",
+          "type": "theory",
+          "tags": [
+            "semiotics",
+            "sociology",
+            "communication"
+          ],
+          "score": 10.149,
+          "same_idea": false,
+          "ids": [
+            "602"
+          ]
+        },
+        {
+          "id": "562",
+          "idea": "idea-562",
+          "point": "Destičky Pioneerů se pokoušely jednoduchými symboly představit původ sond a lidské odesílatele.",
+          "type": "work",
+          "tags": [
+            "spaceflight",
+            "communication",
+            "identity"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "562"
+          ]
+        },
+        {
+          "id": "607",
+          "idea": "idea-607",
+          "point": "Baudrillardova hyperrealita popisuje situaci, kdy obrazy a modely předcházejí zkušenosti a nahrazují jí měřítko skutečnosti.",
+          "type": "theory",
+          "tags": [
+            "semiotics",
+            "modern-philosophy",
+            "perceived-reality"
+          ],
+          "score": 9.85,
+          "same_idea": false,
+          "ids": [
+            "607"
+          ]
+        },
+        {
+          "id": "872",
+          "idea": "idea-872",
+          "point": "Goffmanovo řízení dojmu rozlišuje veřejný výkon pro publikum od zákulisí, kde jej lidé připravují nebo odkládají.",
+          "type": "theory",
+          "tags": [
+            "sociology",
+            "social-psychology",
+            "identity"
+          ],
+          "score": 9.85,
+          "same_idea": false,
+          "ids": [
+            "872"
+          ]
+        },
+        {
+          "id": "597",
+          "idea": "idea-597",
+          "point": "Foucaultova epistémé označuje historické podmínky, které určují, co se v dané době může jevit jako platné vědění.",
+          "type": "theory",
+          "tags": [
+            "epistemology",
+            "modern-philosophy",
+            "power"
+          ],
+          "score": 9.682,
+          "same_idea": false,
+          "ids": [
+            "597"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "968",
+      "candidates": [
+        {
+          "id": "837",
+          "idea": "idea-837",
+          "point": "Helium bylo rozpoznáno ve slunečním spektru před jeho identifikací v pozemském materiálu.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "astronomy",
+            "knowledge-evidence",
+            "sun"
+          ],
+          "score": 18.023,
+          "same_idea": false,
+          "ids": [
+            "837"
+          ]
+        },
+        {
+          "id": "155",
+          "idea": "idea-155",
+          "point": "Webbův dalekohled sleduje zejména infračervené záření, a proto může zkoumat chladné i velmi vzdálené objekty.",
+          "type": "principle",
+          "tags": [
+            "spaceflight",
+            "optics",
+            "knowledge-evidence"
+          ],
+          "score": 14.682,
+          "same_idea": false,
+          "ids": [
+            "155"
+          ]
+        },
+        {
+          "id": "888",
+          "idea": "idea-888",
+          "point": "Práce ze srpna 2026 snížila známou horní mez exponentu násobení matic pomocí optimalizace podporované strojovým učením.",
+          "type": "discovery",
+          "tags": [
+            "complexity",
+            "artificial-intelligence",
+            "innovation"
+          ],
+          "score": 13.525,
+          "same_idea": false,
+          "ids": [
+            "888"
+          ]
+        },
+        {
+          "id": "220",
+          "idea": "idea-220",
+          "point": "Pravidelné rádiové pulzy odhalené Jocelyn Bellovou Burnellovou vedly k poznání rychle rotujících neutronových hvězd.",
+          "type": "discovery",
+          "tags": [
+            "stars",
+            "uncertainty",
+            "knowledge-evidence"
+          ],
+          "score": 13.418,
+          "same_idea": false,
+          "ids": [
+            "220"
+          ]
+        },
+        {
+          "id": "570",
+          "idea": "idea-570",
+          "point": "Pilíře stvoření zobrazují oblaka plynu a prachu tvarovaná zářením v oblasti vzniku hvězd.",
+          "type": "principle",
+          "tags": [
+            "stars",
+            "change"
+          ],
+          "score": 13.4,
+          "same_idea": false,
+          "ids": [
+            "570"
+          ]
+        },
+        {
+          "id": "557",
+          "idea": "idea-557",
+          "point": "Vztah periody a svítivosti cefeid umožňuje odvozovat jejich vzdálenosti z pozorované jasnosti.",
+          "type": "principle",
+          "tags": [
+            "stars",
+            "cosmology",
+            "knowledge-evidence"
+          ],
+          "score": 12.267,
+          "same_idea": false,
+          "ids": [
+            "557"
+          ]
+        },
+        {
+          "id": "716",
+          "idea": "idea-716",
+          "point": "Millerův–Ureyho pokus ukázal, že některé organické stavební látky mohou vznikat z jednodušších látek bez živých organismů.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "evolution",
+            "knowledge-evidence"
+          ],
+          "score": 11.89,
+          "same_idea": false,
+          "ids": [
+            "716"
+          ]
+        },
+        {
+          "id": "915",
+          "idea": "idea-915",
+          "point": "Výtrysky Enceladu vynášejí materiál podpovrchového oceánu nad ledovou kůru a umožnily jeho zkoumání průlety sondy.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "saturn",
+            "knowledge-evidence"
+          ],
+          "score": 11.89,
+          "same_idea": false,
+          "ids": [
+            "915"
+          ]
+        },
+        {
+          "id": "883",
+          "idea": "idea-883",
+          "point": "Prototyp hodin z roku 2026 využil zpětnou vazbu na přechod jádra thoria k autonomní stabilizaci laserové frekvence.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "optics",
+            "innovation"
+          ],
+          "score": 11.6,
+          "same_idea": false,
+          "ids": [
+            "883"
+          ]
+        },
+        {
+          "id": "54",
+          "idea": "idea-14",
+          "point": "Síť Event Horizon Telescope spojila měření radioteleskopů a vytvořila obraz zářícího okolí a stínu černé díry M87.",
+          "type": "discovery",
+          "tags": [
+            "black-holes",
+            "optics",
+            "knowledge-evidence"
+          ],
+          "score": 11.451,
+          "same_idea": false,
+          "ids": [
+            "14",
+            "54",
+            "96"
+          ]
+        },
+        {
+          "id": "555",
+          "idea": "idea-555",
+          "point": "Pozorování hvězd při zatmění Slunce podpořilo předpověď ohybu světla gravitačním polem.",
+          "type": "discovery",
+          "tags": [
+            "relativity",
+            "optics",
+            "knowledge-evidence",
+            "einstein"
+          ],
+          "score": 11.451,
+          "same_idea": false,
+          "ids": [
+            "555"
+          ]
+        },
+        {
+          "id": "215",
+          "idea": "idea-215",
+          "point": "Relativní pohyb zdroje a pozorovatele mění pozorovanou frekvenci vlnění.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "optics",
+            "perception"
+          ],
+          "score": 11.133,
+          "same_idea": false,
+          "ids": [
+            "215"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "969",
+      "candidates": [
+        {
+          "id": "155",
+          "idea": "idea-155",
+          "point": "Webbův dalekohled sleduje zejména infračervené záření, a proto může zkoumat chladné i velmi vzdálené objekty.",
+          "type": "principle",
+          "tags": [
+            "spaceflight",
+            "optics",
+            "knowledge-evidence"
+          ],
+          "score": 17.39,
+          "same_idea": false,
+          "ids": [
+            "155"
+          ]
+        },
+        {
+          "id": "762",
+          "idea": "idea-762",
+          "point": "Gaussův výpočet dráhy umožnil z omezených pozorování znovu nalézt ztracenou Ceres.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "analysis",
+            "innovation"
+          ],
+          "score": 17.012,
+          "same_idea": false,
+          "ids": [
+            "762"
+          ]
+        },
+        {
+          "id": "948",
+          "idea": "idea-948",
+          "point": "Multiplánová kamera snímá kresby v oddělených vrstvách a jejich rozdílným pohybem vytváří dojem prostorové hloubky.",
+          "type": "principle",
+          "tags": [
+            "animation",
+            "film-technique"
+          ],
+          "score": 16.481,
+          "same_idea": false,
+          "ids": [
+            "948"
+          ]
+        },
+        {
+          "id": "557",
+          "idea": "idea-557",
+          "point": "Vztah periody a svítivosti cefeid umožňuje odvozovat jejich vzdálenosti z pozorované jasnosti.",
+          "type": "principle",
+          "tags": [
+            "stars",
+            "cosmology",
+            "knowledge-evidence"
+          ],
+          "score": 15.479,
+          "same_idea": false,
+          "ids": [
+            "557"
+          ]
+        },
+        {
+          "id": "578",
+          "idea": "idea-578",
+          "point": "Cyklus saros přibližně opakuje geometrii zatmění díky sladění několika měsíčních period.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "patterns",
+            "moon"
+          ],
+          "score": 14.454,
+          "same_idea": false,
+          "ids": [
+            "578"
+          ]
+        },
+        {
+          "id": "942",
+          "idea": "idea-942",
+          "point": "Merkur je zachycen ve spinorbitální rezonanci 3:2, takže na dva oběhy kolem Slunce připadají tři otočení vůči hvězdám.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "mechanics",
+            "patterns"
+          ],
+          "score": 14.362,
+          "same_idea": false,
+          "ids": [
+            "942"
+          ]
+        },
+        {
+          "id": "836",
+          "idea": "idea-836",
+          "point": "Podobná úhlová velikost Slunce a Měsíce na pozemské obloze umožňuje úplná sluneční zatmění.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "optics",
+            "moon"
+          ],
+          "score": 14.126,
+          "same_idea": false,
+          "ids": [
+            "836"
+          ]
+        },
+        {
+          "id": "894",
+          "idea": "idea-894",
+          "point": "Soli ve vzorcích Bennu dokládají odpařování dávné solanky v mateřském tělese planetky, nikoli současné řeky na jejím povrchu.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 13.386,
+          "same_idea": false,
+          "ids": [
+            "894"
+          ]
+        },
+        {
+          "id": "915",
+          "idea": "idea-915",
+          "point": "Výtrysky Enceladu vynášejí materiál podpovrchového oceánu nad ledovou kůru a umožnily jeho zkoumání průlety sondy.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "saturn",
+            "knowledge-evidence"
+          ],
+          "score": 13.386,
+          "same_idea": false,
+          "ids": [
+            "915"
+          ]
+        },
+        {
+          "id": "827",
+          "idea": "idea-827",
+          "point": "Muybridgeovy sekvenční fotografie rozlišily fáze koňského pohybu, které běžné lidské pozorování spolehlivě nerozezná.",
+          "type": "discovery",
+          "tags": [
+            "cinema",
+            "zoology",
+            "knowledge-evidence"
+          ],
+          "score": 12.651,
+          "same_idea": false,
+          "ids": [
+            "827"
+          ]
+        },
+        {
+          "id": "96",
+          "idea": "idea-14",
+          "point": "Síť Event Horizon Telescope spojila měření radioteleskopů a vytvořila obraz zářícího okolí a stínu černé díry M87.",
+          "type": "discovery",
+          "tags": [
+            "black-holes",
+            "optics",
+            "knowledge-evidence"
+          ],
+          "score": 12.639,
+          "same_idea": false,
+          "ids": [
+            "14",
+            "54",
+            "96"
+          ]
+        },
+        {
+          "id": "22",
+          "idea": "idea-22",
+          "point": "Rentgenová difrakční data Rosalind Franklinové pomohla odhalit strukturu DNA, ale její podíl byl dlouho podceňován.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "history-of-science",
+            "knowledge-evidence"
+          ],
+          "score": 12.588,
+          "same_idea": false,
+          "ids": [
+            "22"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "970",
+      "candidates": [
+        {
+          "id": "604",
+          "idea": "idea-604",
+          "point": "Ecovo otevřené dílo připouští více aktivních čtenářských interpretací, které ale nejsou zcela bez omezení samotným dílem.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "perceived-reality",
+            "freedom"
+          ],
+          "score": 15.649,
+          "same_idea": false,
+          "ids": [
+            "604"
+          ]
+        },
+        {
+          "id": "683",
+          "idea": "idea-683",
+          "point": "Italský neorealismus využíval prostředí mimo studio a neprofesionální herce k odlišnému dojmu každodenní skutečnosti.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "perceived-reality"
+          ],
+          "score": 13.214,
+          "same_idea": false,
+          "ids": [
+            "683"
+          ]
+        },
+        {
+          "id": "735",
+          "idea": "idea-735",
+          "point": "Dekameron rámuje rozmanité vyprávění skupinou lidí uchýlenou před morem mimo město.",
+          "type": "work",
+          "tags": [
+            "public-health",
+            "narratology"
+          ],
+          "score": 11.886,
+          "same_idea": false,
+          "ids": [
+            "735"
+          ]
+        },
+        {
+          "id": "150",
+          "idea": "idea-150",
+          "point": "Sprchová scéna Psycha vytváří dojem násilí rychlým střihem a zvukem místo souvislého explicitního zobrazení.",
+          "type": "work",
+          "tags": [
+            "film-technique",
+            "perceived-reality"
+          ],
+          "score": 11.823,
+          "same_idea": false,
+          "ids": [
+            "150"
+          ]
+        },
+        {
+          "id": "629",
+          "idea": "idea-629",
+          "point": "Canterburské povídky propojují různorodé příběhy rámcem společné pouti a rozdílných vypravěčů.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "patterns"
+          ],
+          "score": 11.034,
+          "same_idea": false,
+          "ids": [
+            "629"
+          ]
+        },
+        {
+          "id": "180",
+          "idea": "idea-180",
+          "point": "Xenofanés upozorňoval, že lidé zobrazují bohy podle vlastních tělesných a kulturních vlastností.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "perceived-reality",
+            "identity"
+          ],
+          "score": 10.657,
+          "same_idea": false,
+          "ids": [
+            "180"
+          ]
+        },
+        {
+          "id": "956",
+          "idea": "idea-956",
+          "point": "Amisův román Time’s Arrow obrací čas prožívání nacistického lékaře a tím odhaluje děsivý rozpor mezi popsaným dějem a jeho skutečným mravním významem.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "ethics"
+          ],
+          "score": 10.649,
+          "same_idea": false,
+          "ids": [
+            "956"
+          ]
+        },
+        {
+          "id": "784",
+          "idea": "idea-784",
+          "point": "Karel Zeman propojoval herce a trikové postupy s výtvarným světem připomínajícím rytiny verneovek.",
+          "type": "work",
+          "tags": [
+            "animation",
+            "film-technique",
+            "innovation"
+          ],
+          "score": 10.31,
+          "same_idea": false,
+          "ids": [
+            "784"
+          ]
+        },
+        {
+          "id": "622",
+          "idea": "idea-622",
+          "point": "Kafkova Proměna spojuje ztrátu pracovní užitečnosti s proměnou vztahu rodiny k člověku.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "identity",
+            "incentives",
+            "kafka"
+          ],
+          "score": 9.933,
+          "same_idea": false,
+          "ids": [
+            "622"
+          ]
+        },
+        {
+          "id": "490",
+          "idea": "idea-490",
+          "point": "Omezení amerického prezidenta na dva volební mandáty proměnilo politickou tradici v ústavní pravidlo.",
+          "type": "principle",
+          "tags": [
+            "democracy",
+            "law",
+            "power"
+          ],
+          "score": 9.511,
+          "same_idea": false,
+          "ids": [
+            "490"
+          ]
+        },
+        {
+          "id": "258",
+          "idea": "idea-258",
+          "point": "Rašomon staví proti sobě neslučitelné výpovědi o jedné události a zpochybňuje snadnou jistotu svědectví.",
+          "type": "work",
+          "tags": [
+            "cinema",
+            "knowledge-evidence",
+            "perceived-reality"
+          ],
+          "score": 9.275,
+          "same_idea": false,
+          "ids": [
+            "258"
+          ]
+        },
+        {
+          "id": "736",
+          "idea": "idea-736",
+          "point": "Selkirkovo přežití na ostrově patří k historickým inspiracím Robinsona Crusoe, který není prostým přepisem jediné skutečné události.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "modern-history",
+            "perceived-reality"
+          ],
+          "score": 9.275,
+          "same_idea": false,
+          "ids": [
+            "736"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "971",
+      "candidates": [
+        {
+          "id": "627",
+          "idea": "idea-627",
+          "point": "Velký Gatsby ukazuje napětí mezi bohatstvím, touhou obnovit minulost a nedosažitelností vysněného života.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "identity",
+            "limits"
+          ],
+          "score": 14.787,
+          "same_idea": false,
+          "ids": [
+            "627"
+          ]
+        },
+        {
+          "id": "533",
+          "idea": "idea-533",
+          "point": "Justiniánova kodifikace shromáždila římské právní dědictví a umožnila jeho dlouhodobé další působení.",
+          "type": "event",
+          "tags": [
+            "law",
+            "medieval-history",
+            "preservation",
+            "roman-empire"
+          ],
+          "score": 12.621,
+          "same_idea": false,
+          "ids": [
+            "533"
+          ]
+        },
+        {
+          "id": "311",
+          "idea": "idea-311",
+          "point": "Tisíc a jedna noc vznikala vrstvením a předáváním příběhů z různých kulturních prostředí.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "preservation"
+          ],
+          "score": 12.544,
+          "same_idea": false,
+          "ids": [
+            "311"
+          ]
+        },
+        {
+          "id": "873",
+          "idea": "idea-873",
+          "point": "Solónova seisachtheia rušila dluhová břemena a zakázala zajišťovat půjčky osobou dlužníka, aniž zrušila veškeré otroctví.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "freedom",
+            "ancient-athens"
+          ],
+          "score": 11.74,
+          "same_idea": false,
+          "ids": [
+            "873"
+          ]
+        },
+        {
+          "id": "874",
+          "idea": "idea-874",
+          "point": "Caracallův edikt rozšířil římské občanství téměř na všechny svobodné obyvatele říše, nikoli na otroky.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 11.74,
+          "same_idea": false,
+          "ids": [
+            "874"
+          ]
+        },
+        {
+          "id": "899",
+          "idea": "idea-899",
+          "point": "Haitská revoluce proměnila povstání zotročených lidí v boj za nezávislost, který roku 1804 vytvořil Haiti.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "freedom"
+          ],
+          "score": 11.002,
+          "same_idea": false,
+          "ids": [
+            "899"
+          ]
+        },
+        {
+          "id": "936",
+          "idea": "idea-936",
+          "point": "Johnsonův román The Unfortunates ponechává prostředních 25 z 27 samostatných částí k libovolnému uspořádání a napodobuje nespořádané vybavování vzpomínek.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "learning-memory"
+          ],
+          "score": 10.809,
+          "same_idea": false,
+          "ids": [
+            "936"
+          ]
+        },
+        {
+          "id": "956",
+          "idea": "idea-956",
+          "point": "Amisův román Time’s Arrow obrací čas prožívání nacistického lékaře a tím odhaluje děsivý rozpor mezi popsaným dějem a jeho skutečným mravním významem.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "ethics"
+          ],
+          "score": 10.224,
+          "same_idea": false,
+          "ids": [
+            "956"
+          ]
+        },
+        {
+          "id": "310",
+          "idea": "idea-310",
+          "point": "Příběh prince Gendžiho rozvíjí rozsáhlé psychologické vyprávění o vztazích v prostředí japonského dvora.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "identity"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "310"
+          ]
+        },
+        {
+          "id": "608",
+          "idea": "idea-608",
+          "point": "Bachtinův dialogismus a polyfonie chápou promluvy a románové hlasy jako vzájemně odpovídající, ale neredukovatelné na jedinou autoritu.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "identity"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "608"
+          ]
+        },
+        {
+          "id": "640",
+          "idea": "idea-640",
+          "point": "Negativní informace a zkušenosti často působí na hodnocení a paměť silněji než srovnatelné pozitivní podněty.",
+          "type": "principle",
+          "tags": [
+            "cognitive-biases",
+            "perception",
+            "decision-making"
+          ],
+          "score": 9.938,
+          "same_idea": false,
+          "ids": [
+            "640"
+          ]
+        },
+        {
+          "id": "591",
+          "idea": "idea-591",
+          "point": "Genette rozlišuje čas příběhu a vyprávění pomocí pořadí, trvání a četnosti popisovaných událostí.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "patterns"
+          ],
+          "score": 9.129,
+          "same_idea": false,
+          "ids": [
+            "591"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "972",
+      "candidates": [
+        {
+          "id": "538",
+          "idea": "idea-538",
+          "point": "Délský spolek se změnil z obranné spolupráce v nástroj athénské převahy nad spojenci.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "international-relations",
+            "power",
+            "ancient-athens"
+          ],
+          "score": 21.462,
+          "same_idea": false,
+          "ids": [
+            "538"
+          ]
+        },
+        {
+          "id": "928",
+          "idea": "idea-928",
+          "point": "Ruská flotila roku 1904 zaměnila britské rybářské lodě za japonské torpédovky a ostřelováním vyvolala mezinárodní incident.",
+          "type": "event",
+          "tags": [
+            "military-history",
+            "international-relations"
+          ],
+          "score": 21.333,
+          "same_idea": false,
+          "ids": [
+            "928"
+          ]
+        },
+        {
+          "id": "285",
+          "idea": "idea-285",
+          "point": "Kubánská raketová krize ukázala nebezpečí eskalace i význam komunikace a kompromisu mezi jadernými mocnostmi.",
+          "type": "event",
+          "tags": [
+            "international-relations",
+            "military-history",
+            "uncertainty"
+          ],
+          "score": 20.811,
+          "same_idea": false,
+          "ids": [
+            "285"
+          ]
+        },
+        {
+          "id": "483",
+          "idea": "idea-483",
+          "point": "Vídeňský kongres usiloval o stabilitu evropských mocností jejich vzájemným vyvažováním po napoleonských válkách.",
+          "type": "event",
+          "tags": [
+            "international-relations",
+            "modern-history",
+            "power"
+          ],
+          "score": 18.354,
+          "same_idea": false,
+          "ids": [
+            "483"
+          ]
+        },
+        {
+          "id": "658",
+          "idea": "idea-658",
+          "point": "Versailleská smlouva po první světové válce měnila hranice i povinnosti poražených a přispěla k dalším politickým napětím.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "power"
+          ],
+          "score": 18.354,
+          "same_idea": false,
+          "ids": [
+            "658"
+          ]
+        },
+        {
+          "id": "659",
+          "idea": "idea-659",
+          "point": "Jaltská jednání řešila poválečné uspořádání při rozdílných zájmech a mocenských možnostech spojenců.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "power"
+          ],
+          "score": 18.354,
+          "same_idea": false,
+          "ids": [
+            "659"
+          ]
+        },
+        {
+          "id": "727",
+          "idea": "idea-727",
+          "point": "Mélský dialog vystavuje spravedlnost nerovnému poměru sil a tvoří klasický příklad mocenského realismu.",
+          "type": "theory",
+          "tags": [
+            "ancient-history",
+            "international-relations",
+            "power"
+          ],
+          "score": 17.556,
+          "same_idea": false,
+          "ids": [
+            "727"
+          ]
+        },
+        {
+          "id": "661",
+          "idea": "idea-661",
+          "point": "Rozdělení Britské Indie vyvolalo masové přesuny obyvatel a násilí spojené s novými národními hranicemi.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "identity",
+            "india"
+          ],
+          "score": 16.439,
+          "same_idea": false,
+          "ids": [
+            "661"
+          ]
+        },
+        {
+          "id": "532",
+          "idea": "idea-532",
+          "point": "Krize třetího století spojovala politickou nestabilitu římské říše s vojenskými a hospodářskými tlaky.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "macroeconomics",
+            "power",
+            "roman-empire"
+          ],
+          "score": 14.962,
+          "same_idea": false,
+          "ids": [
+            "532"
+          ]
+        },
+        {
+          "id": "746",
+          "idea": "idea-746",
+          "point": "Vznik Československa spojil rozpad habsburské monarchie s domácími i zahraničními politickými kroky.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "identity"
+          ],
+          "score": 14.805,
+          "same_idea": false,
+          "ids": [
+            "746"
+          ]
+        },
+        {
+          "id": "747",
+          "idea": "idea-747",
+          "point": "Charta 77 využila rozporu mezi oficiálními závazky státu a jejich nedodržováním při obraně lidských práv.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "human-rights",
+            "power"
+          ],
+          "score": 14.805,
+          "same_idea": false,
+          "ids": [
+            "747"
+          ]
+        },
+        {
+          "id": "7",
+          "idea": "idea-7",
+          "point": "Pražská defenestrace roku 1618 zahájila konflikt, který se rozrostl ve třicetiletou válku.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "military-history",
+            "power"
+          ],
+          "score": 14.745,
+          "same_idea": false,
+          "ids": [
+            "7"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "973",
+      "candidates": [
+        {
+          "id": "487",
+          "idea": "idea-487",
+          "point": "Sametová revoluce vedla masovým občanským tlakem k pádu komunistické vlády v Československu.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "democracy",
+            "freedom"
+          ],
+          "score": 25.753,
+          "same_idea": false,
+          "ids": [
+            "487"
+          ]
+        },
+        {
+          "id": "663",
+          "idea": "idea-663",
+          "point": "Aféra Watergate ukázala, že vyšetřování a kontrolní instituce mohou přimět prezidenta k odchodu z úřadu.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "democracy",
+            "power"
+          ],
+          "score": 22.588,
+          "same_idea": false,
+          "ids": [
+            "663"
+          ]
+        },
+        {
+          "id": "488",
+          "idea": "idea-488",
+          "point": "Gándhího solný pochod spojil nenásilné porušení zákona s běžnou životní potřebou a odporem ke koloniální moci.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "human-rights",
+            "freedom",
+            "india"
+          ],
+          "score": 18.57,
+          "same_idea": false,
+          "ids": [
+            "488"
+          ]
+        },
+        {
+          "id": "899",
+          "idea": "idea-899",
+          "point": "Haitská revoluce proměnila povstání zotročených lidí v boj za nezávislost, který roku 1804 vytvořil Haiti.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "freedom"
+          ],
+          "score": 17.819,
+          "same_idea": false,
+          "ids": [
+            "899"
+          ]
+        },
+        {
+          "id": "805",
+          "idea": "idea-805",
+          "point": "Australské zavedení tajného hlasování omezovalo možnost kontroly a nátlaku nad individuální volební volbou.",
+          "type": "event",
+          "tags": [
+            "democracy",
+            "privacy",
+            "freedom"
+          ],
+          "score": 17.785,
+          "same_idea": false,
+          "ids": [
+            "805"
+          ]
+        },
+        {
+          "id": "135",
+          "idea": "idea-135",
+          "point": "Pád Berlínské zdi roku 1989 proměnil rozdělení Německa a stal se symbolem konce studené války.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "freedom",
+            "change"
+          ],
+          "score": 16.527,
+          "same_idea": false,
+          "ids": [
+            "135"
+          ]
+        },
+        {
+          "id": "123",
+          "idea": "idea-123",
+          "point": "Dobytí Bastily se stalo symbolem pádu královské autority na začátku Francouzské revoluce.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "power",
+            "freedom"
+          ],
+          "score": 13.452,
+          "same_idea": false,
+          "ids": [
+            "123"
+          ]
+        },
+        {
+          "id": "843",
+          "idea": "idea-843",
+          "point": "Vysoká hodnota koření podněcovala dálkové plavby, obchodní monopoly a koloniální soupeření.",
+          "type": "principle",
+          "tags": [
+            "economic-history",
+            "international-relations",
+            "resources"
+          ],
+          "score": 13.133,
+          "same_idea": false,
+          "ids": [
+            "843"
+          ]
+        },
+        {
+          "id": "127",
+          "idea": "idea-127",
+          "point": "Kolumbova plavba vycházela z chybného odhadu cesty do Asie a otevřela evropskou kolonizaci Ameriky.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "geoscience",
+            "perceived-reality"
+          ],
+          "score": 12.476,
+          "same_idea": false,
+          "ids": [
+            "127"
+          ]
+        },
+        {
+          "id": "660",
+          "idea": "idea-660",
+          "point": "Mandela a vyjednávání o konci apartheidu ukazují přechod od rasového vyloučení k politické účasti a smíření.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "human-rights",
+            "fairness"
+          ],
+          "score": 12.301,
+          "same_idea": false,
+          "ids": [
+            "660"
+          ]
+        },
+        {
+          "id": "541",
+          "idea": "idea-541",
+          "point": "Význam občanských veslařů v triérách posiloval politickou váhu nemajetných Athéňanů.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "democracy",
+            "ancient-athens"
+          ],
+          "score": 11.712,
+          "same_idea": false,
+          "ids": [
+            "541"
+          ]
+        },
+        {
+          "id": "485",
+          "idea": "idea-485",
+          "point": "Změnou hranic volebních obvodů lze ovlivnit rozdělení mandátů bez změny celkového počtu hlasů.",
+          "type": "principle",
+          "tags": [
+            "democracy",
+            "fairness",
+            "power"
+          ],
+          "score": 11.527,
+          "same_idea": false,
+          "ids": [
+            "485"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "974",
+      "candidates": [
+        {
+          "id": "123",
+          "idea": "idea-123",
+          "point": "Dobytí Bastily se stalo symbolem pádu královské autority na začátku Francouzské revoluce.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "power",
+            "freedom"
+          ],
+          "score": 21.677,
+          "same_idea": false,
+          "ids": [
+            "123"
+          ]
+        },
+        {
+          "id": "483",
+          "idea": "idea-483",
+          "point": "Vídeňský kongres usiloval o stabilitu evropských mocností jejich vzájemným vyvažováním po napoleonských válkách.",
+          "type": "event",
+          "tags": [
+            "international-relations",
+            "modern-history",
+            "power"
+          ],
+          "score": 17.864,
+          "same_idea": false,
+          "ids": [
+            "483"
+          ]
+        },
+        {
+          "id": "663",
+          "idea": "idea-663",
+          "point": "Aféra Watergate ukázala, že vyšetřování a kontrolní instituce mohou přimět prezidenta k odchodu z úřadu.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "democracy",
+            "power"
+          ],
+          "score": 17.201,
+          "same_idea": false,
+          "ids": [
+            "663"
+          ]
+        },
+        {
+          "id": "482",
+          "idea": "idea-482",
+          "point": "Vestfálské uspořádání je spojováno s vývojem státní suverenity a omezením nároků na jednotnou nadstátní autoritu.",
+          "type": "event",
+          "tags": [
+            "international-relations",
+            "law",
+            "power"
+          ],
+          "score": 16.671,
+          "same_idea": false,
+          "ids": [
+            "482"
+          ]
+        },
+        {
+          "id": "659",
+          "idea": "idea-659",
+          "point": "Jaltská jednání řešila poválečné uspořádání při rozdílných zájmech a mocenských možnostech spojenců.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "power"
+          ],
+          "score": 16.479,
+          "same_idea": false,
+          "ids": [
+            "659"
+          ]
+        },
+        {
+          "id": "7",
+          "idea": "idea-7",
+          "point": "Pražská defenestrace roku 1618 zahájila konflikt, který se rozrostl ve třicetiletou válku.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "military-history",
+            "power"
+          ],
+          "score": 16.412,
+          "same_idea": false,
+          "ids": [
+            "7"
+          ]
+        },
+        {
+          "id": "487",
+          "idea": "idea-487",
+          "point": "Sametová revoluce vedla masovým občanským tlakem k pádu komunistické vlády v Československu.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "democracy",
+            "freedom"
+          ],
+          "score": 15.991,
+          "same_idea": false,
+          "ids": [
+            "487"
+          ]
+        },
+        {
+          "id": "746",
+          "idea": "idea-746",
+          "point": "Vznik Československa spojil rozpad habsburské monarchie s domácími i zahraničními politickými kroky.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "identity"
+          ],
+          "score": 15.703,
+          "same_idea": false,
+          "ids": [
+            "746"
+          ]
+        },
+        {
+          "id": "658",
+          "idea": "idea-658",
+          "point": "Versailleská smlouva po první světové válce měnila hranice i povinnosti poražených a přispěla k dalším politickým napětím.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "power"
+          ],
+          "score": 14.944,
+          "same_idea": false,
+          "ids": [
+            "658"
+          ]
+        },
+        {
+          "id": "688",
+          "idea": "idea-688",
+          "point": "Švejkova doslovná poslušnost odhaluje rozpory a absurditu institucionálních rozkazů.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "power",
+            "communication"
+          ],
+          "score": 12.953,
+          "same_idea": false,
+          "ids": [
+            "688"
+          ]
+        },
+        {
+          "id": "287",
+          "idea": "idea-287",
+          "point": "Dělba zákonodárné, výkonné a soudní moci omezuje možnost soustředit státní rozhodování v jedněch rukou.",
+          "type": "theory",
+          "tags": [
+            "political-science",
+            "law",
+            "power"
+          ],
+          "score": 12.582,
+          "same_idea": false,
+          "ids": [
+            "287"
+          ]
+        },
+        {
+          "id": "747",
+          "idea": "idea-747",
+          "point": "Charta 77 využila rozporu mezi oficiálními závazky státu a jejich nedodržováním při obraně lidských práv.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "human-rights",
+            "power"
+          ],
+          "score": 12.582,
+          "same_idea": false,
+          "ids": [
+            "747"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "975",
+      "candidates": [
+        {
+          "id": "648",
+          "idea": "idea-648",
+          "point": "Přijatá laskavost nebo dar vytváří pocit závazku oplatit pomoc, který může ovlivnit další rozhodování.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "cooperation",
+            "incentives"
+          ],
+          "score": 12.304,
+          "same_idea": false,
+          "ids": [
+            "648"
+          ]
+        },
+        {
+          "id": "600",
+          "idea": "idea-600",
+          "point": "Peircova triáda rozlišuje znak, jeho objekt a interpretant a odlišuje ikonické, indexové a symbolické vztahy.",
+          "type": "theory",
+          "tags": [
+            "semiotics",
+            "communication",
+            "perceived-reality"
+          ],
+          "score": 11.578,
+          "same_idea": false,
+          "ids": [
+            "600"
+          ]
+        },
+        {
+          "id": "935",
+          "idea": "idea-935",
+          "point": "Phillipsovo A Humument vytváří nový text z ponechaných slov staršího románu, zatímco ostatní původní slova zakrývá obrazem.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "painting",
+            "communication"
+          ],
+          "score": 11.578,
+          "same_idea": false,
+          "ids": [
+            "935"
+          ]
+        },
+        {
+          "id": "415",
+          "idea": "idea-415",
+          "point": "Opakované setkávání s neutrálním podnětem může zvyšovat jeho oblibu bez nových věcných důvodů.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "perception"
+          ],
+          "score": 11.365,
+          "same_idea": false,
+          "ids": [
+            "415"
+          ]
+        },
+        {
+          "id": "418",
+          "idea": "idea-418",
+          "point": "Ainsworthové zkoumání vazby rozlišuje různé způsoby, jak dítě hledá bezpečí při odloučení a návratu pečující osoby.",
+          "type": "theory",
+          "tags": [
+            "development",
+            "social-psychology",
+            "identity"
+          ],
+          "score": 11.16,
+          "same_idea": false,
+          "ids": [
+            "418"
+          ]
+        },
+        {
+          "id": "896",
+          "idea": "idea-896",
+          "point": "Cyklické párování biologicky nekompatibilních dvojic dárce a příjemce může umožnit transplantace bez peněžní směny orgánů.",
+          "type": "principle",
+          "tags": [
+            "institutions",
+            "algorithms",
+            "cooperation"
+          ],
+          "score": 11.133,
+          "same_idea": false,
+          "ids": [
+            "896"
+          ]
+        },
+        {
+          "id": "278",
+          "idea": "idea-278",
+          "point": "Růžové zbarvení plameňáků souvisí s karotenoidy přijímanými potravou, nikoli s neměnnou barvou peří od narození.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "nutrition",
+            "change"
+          ],
+          "score": 10.867,
+          "same_idea": false,
+          "ids": [
+            "278"
+          ]
+        },
+        {
+          "id": "591",
+          "idea": "idea-591",
+          "point": "Genette rozlišuje čas příběhu a vyprávění pomocí pořadí, trvání a četnosti popisovaných událostí.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "patterns"
+          ],
+          "score": 10.413,
+          "same_idea": false,
+          "ids": [
+            "591"
+          ]
+        },
+        {
+          "id": "247",
+          "idea": "idea-247",
+          "point": "Spánek aktivně přispívá ke stabilizaci a reorganizaci paměťových stop vzniklých při učení.",
+          "type": "principle",
+          "tags": [
+            "sleep",
+            "learning-memory",
+            "wellbeing"
+          ],
+          "score": 10.366,
+          "same_idea": false,
+          "ids": [
+            "247"
+          ]
+        },
+        {
+          "id": "907",
+          "idea": "idea-907",
+          "point": "Černá stránka v Tristramu Shandym zobrazuje smutek po Yorickově smrti prostřednictvím fyzické podoby knihy.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "communication"
+          ],
+          "score": 10.28,
+          "same_idea": false,
+          "ids": [
+            "907"
+          ]
+        },
+        {
+          "id": "142",
+          "idea": "idea-142",
+          "point": "Přítomnost více svědků může snížit ochotu jednotlivce pomoci rozptýlením odpovědnosti a nejistotou o situaci.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "cooperation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "142"
+          ]
+        },
+        {
+          "id": "690",
+          "idea": "idea-690",
+          "point": "Včelí tanec předává ostatním včelám informace o směru a vzdálenosti zdroje potravy.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "communication",
+            "cooperation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "690"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "976",
+      "candidates": [
+        {
+          "id": "9",
+          "idea": "idea-9",
+          "point": "Rozpor mezi přesvědčením a jednáním může člověk zmírňovat změnou vlastního postoje místo přijetí nepříjemného rozporu.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "cognitive-biases",
+            "identity"
+          ],
+          "score": 16.351,
+          "same_idea": false,
+          "ids": [
+            "9",
+            "82"
+          ]
+        },
+        {
+          "id": "644",
+          "idea": "idea-644",
+          "point": "Pocit podvodníka spojuje vlastní úspěch s náhodou či omylem druhých místo přijetí dokladů vlastní schopnosti.",
+          "type": "principle",
+          "tags": [
+            "psychology",
+            "identity",
+            "knowledge-evidence"
+          ],
+          "score": 15.083,
+          "same_idea": false,
+          "ids": [
+            "644"
+          ]
+        },
+        {
+          "id": "648",
+          "idea": "idea-648",
+          "point": "Přijatá laskavost nebo dar vytváří pocit závazku oplatit pomoc, který může ovlivnit další rozhodování.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "cooperation",
+            "incentives"
+          ],
+          "score": 15.083,
+          "same_idea": false,
+          "ids": [
+            "648"
+          ]
+        },
+        {
+          "id": "828",
+          "idea": "idea-828",
+          "point": "Kulešovův efekt ukazuje, že divák přisuzuje témuž záběru jiný význam podle sousedících obrazů.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "perception",
+            "communication"
+          ],
+          "score": 14.402,
+          "same_idea": false,
+          "ids": [
+            "828"
+          ]
+        },
+        {
+          "id": "608",
+          "idea": "idea-608",
+          "point": "Bachtinův dialogismus a polyfonie chápou promluvy a románové hlasy jako vzájemně odpovídající, ale neredukovatelné na jedinou autoritu.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "identity"
+          ],
+          "score": 13.602,
+          "same_idea": false,
+          "ids": [
+            "608"
+          ]
+        },
+        {
+          "id": "418",
+          "idea": "idea-418",
+          "point": "Ainsworthové zkoumání vazby rozlišuje různé způsoby, jak dítě hledá bezpečí při odloučení a návratu pečující osoby.",
+          "type": "theory",
+          "tags": [
+            "development",
+            "social-psychology",
+            "identity"
+          ],
+          "score": 12.976,
+          "same_idea": false,
+          "ids": [
+            "418"
+          ]
+        },
+        {
+          "id": "424",
+          "idea": "idea-424",
+          "point": "Lidé obvykle přeceňují, kolik pozornosti ostatní věnují jejich vzhledu a drobným chybám.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "perception",
+            "identity"
+          ],
+          "score": 12.824,
+          "same_idea": false,
+          "ids": [
+            "424"
+          ]
+        },
+        {
+          "id": "158",
+          "idea": "idea-158",
+          "point": "Harlowovy pokusy ukázaly význam tělesného kontaktu a pocitu bezpečí pro utváření vazby vedle samotného krmení.",
+          "type": "principle",
+          "tags": [
+            "development",
+            "social-psychology",
+            "wellbeing"
+          ],
+          "score": 12.562,
+          "same_idea": false,
+          "ids": [
+            "158"
+          ]
+        },
+        {
+          "id": "918",
+          "idea": "idea-918",
+          "point": "Při rychlém sledu podnětů může zpracování prvního cíle dočasně zhoršit rozpoznání druhého cíle o několik set milisekund později.",
+          "type": "principle",
+          "tags": [
+            "perception",
+            "limits"
+          ],
+          "score": 12.152,
+          "same_idea": false,
+          "ids": [
+            "918"
+          ]
+        },
+        {
+          "id": "415",
+          "idea": "idea-415",
+          "point": "Opakované setkávání s neutrálním podnětem může zvyšovat jeho oblibu bez nových věcných důvodů.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "perception"
+          ],
+          "score": 11.556,
+          "same_idea": false,
+          "ids": [
+            "415"
+          ]
+        },
+        {
+          "id": "760",
+          "idea": "idea-760",
+          "point": "Iluze gumové ruky ukazuje, že pocit vlastnictví těla závisí na slučování zrakových, dotykových a polohových informací.",
+          "type": "principle",
+          "tags": [
+            "perception",
+            "neuroscience",
+            "identity"
+          ],
+          "score": 11.556,
+          "same_idea": false,
+          "ids": [
+            "760"
+          ]
+        },
+        {
+          "id": "420",
+          "idea": "idea-420",
+          "point": "Očekávání autority mohou změnit její jednání vůči lidem a tím přispět k výsledku, který předvídala.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "learning-memory",
+            "perceived-reality"
+          ],
+          "score": 11.351,
+          "same_idea": false,
+          "ids": [
+            "420"
+          ]
+        }
+      ]
+    }
+  ],
+  "semantic_approval": "required",
+  "snapshot": "9338aea8e5e12673455a3598daaf892e6ddf4e6f4fb1d92d6165b7c8001f43c0",
+  "drafts_hash": "c1e99e8355f8420152c6cc4caee953cfc9e9d33d2fb4b63afffd50467d71bc9f"
+}

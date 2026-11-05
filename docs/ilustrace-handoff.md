@@ -1,5 +1,19 @@
 # Ilustrace — aktuální stav
 
+## Nové příspěvky a ilustrace 957–976
+
+Databáze obsahuje 876 příspěvků a 833 různých poznatků. Dávka 957–976 doplňuje 20 textů v existujících kategoriích: Historie 6, Filozofie 5, Technologie 3, Astronomie 2, Literatura 2 a Psychologie 2. Původních 856 článků zůstává obsahově nezměněno. Všech 876 ID má statický WebP, položku společného manifestu a registraci v produkčních kartách; galerie používá tentýž manifest. Karty využívají stávající komponenty a otáčení na celý text se zdroji.
+
+Nové RGBA WebP mají 640×360 px, nulovou alfu rohů, jednotlivě 10 140–51 880 B a dohromady 497 158 B. Vznikly vestavěným image_gen s `transparent_background=true`; rozměry, kvalitu ani cenu generování tento nástroj nenabízí. Celkem 22 volání zahrnuje 20 prvních verzí a dvě věcné opravy: 957 odstranění anachronického znaku Červeného kříže a 972 náhradu moderní kontejnerové lodi dobově přiměřenou nákladní lodí. Přesné prompty a původní varianty jsou zachované v `reports/illustration-957-generation.json` až `reports/illustration-976-generation.json` a v manifestu; pracovní kopie zdrojů jsou v `tmp/imagegen-batch-957/sources/`.
+
+Motivy doprovázejí jeden aspekt článku. Pochodové kolony 959 nereprodukují konkrétní tažení, pták 960 je metafora odšumování, čiplety 961 nejsou plán určitého procesoru a planeta 968 ani kometa 969 nejsou kalibrované astronomické snímky. Dům 971 je obecný dobový motiv a portrét 974 doprovází historické téma. Některé ilustrace mají více stínování či drobných detailů, než stanovuje přísný cíl plochého stylu; význam a čitelnost se posuzují na skutečných miniaturách a kartách. Rozvržení karet ani globální styly se nemění.
+
+Plán, návrhy a závěrečná kontrola originality jsou v `reports/posts-2026-11-05-*`; zápis proběhl hlídaným příkazem `append`. Významová metadata jsou v oddělených registrech. Deterministický repair v `reports/illustrations-957-976-repair.json` nenavrhuje změnu žádného nového postu; návrhy pro starší články se neaplikují. Obrazové otisky a alfa okraje eviduje `reports/illustrations-957-976-validation.json`. Verze aplikace i oba údaje lockfile zůstávají shodně 1.4.0.
+
+Všech 20 karet bylo prohlédnuto při viewportu 390×844 na základním tmavém podkladu i s aktuální vývojovou září; jejich ilustrace také při 160×90 a 320×180. Na všech kartách funguje otočení na rub a načítá se správný obrázek 640×360, žádný titulek nepřetéká a prohlížeč nehlásí runtime chybu. Vnímaná vzdálenost od alfa≥16 okraje ilustrace k hooku je 18,49–46,40 CSS px. Největší mezeru má široký motiv komety 969; centrování i proporce jsou zachované, bez posunu dolů nebo změny globálního layoutu. Metriky jsou v `reports/illustrations-957-976-card-layout.json`, snímky v `tmp/imagegen-batch-957/cards/`. Všech šest kontrol `npm test` prošlo.
+
+Produkční `npm run build` úspěšně zapsal web do `build/`, včetně všech 20 nových stránek a ilustrací. Zůstávají existující upozornění Svelte na markup a velikost balíku vývojové galerie. Výsledky uchovávají `reports/posts-957-976-tests.log`, `reports/posts-957-976-build.log` a `reports/posts-957-976-final.json`.
+
 ## Lokální experiment se září za ilustrací
 
 Komponenta `src/lib/components/CardGlow.svelte` vykresluje na obou stranách karty čtyři radiální gradienty ze tří barev palety `illustration.palette`, se společnou opacitou 10 %. Každý vychází z jiného rohu; různé poloměry zachovávají asymetrii a gradienty do středu zcela vyhasínají. Střed karty tak zůstává nejtmavší. Záře pokrývá celý líc i rub pod obsahem, zůstává pevná při posouvání textu a nezachytává vstup. Jde stále pouze o lokální experiment v `npm run dev`; aktuální barvy a CSS jsou v `CardGlow.svelte`.

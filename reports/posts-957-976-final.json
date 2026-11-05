@@ -1,0 +1,39 @@
+{
+  "posts": 876,
+  "manifest": 876,
+  "new_ids": [
+    "957",
+    "958",
+    "959",
+    "960",
+    "961",
+    "962",
+    "963",
+    "964",
+    "965",
+    "966",
+    "967",
+    "968",
+    "969",
+    "970",
+    "971",
+    "972",
+    "973",
+    "974",
+    "975",
+    "976"
+  ],
+  "static_routes_verified": 20,
+  "packaged_images_verified": 20,
+  "mobile_cards_verified": 20,
+  "backgrounds": [
+    "base",
+    "glow"
+  ],
+  "tests_passed": 6,
+  "production_build": "passed",
+  "generation_calls": 22,
+  "method": "built-in image_gen",
+  "total_image_bytes": 497158,
+  "version": "1.4.0"
+}
