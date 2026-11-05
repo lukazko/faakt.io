@@ -1,5 +1,13 @@
 # Ilustrace — aktuální stav
 
+## Lokální experiment se září za ilustrací
+
+Komponenta `src/lib/components/CardGlow.svelte` vykresluje na obou stranách karty čtyři radiální gradienty ze tří barev palety `illustration.palette`, se společnou opacitou 10 %. Každý vychází z jiného rohu; různé poloměry zachovávají asymetrii a gradienty do středu zcela vyhasínají. Střed karty tak zůstává nejtmavší. Záře pokrývá celý líc i rub pod obsahem, zůstává pevná při posouvání textu a nezachytává vstup. Jde stále pouze o lokální experiment v `npm run dev`; aktuální barvy a CSS jsou v `CardGlow.svelte`.
+
+Generování s tímto podkladem počítá v `skills/faakt-illustrations/SKILL.md` i ve společném `STYLE` v `skills/faakt-illustrations/scripts/prompt.mjs`: motiv má mít čitelnou siluetu a důležité vnitřní hranice díky světlostnímu i barevnému kontrastu. Nové a výslovně opravované obrázky se kontrolují při 160×90 a 320×180 na původním tmavém podkladu i na aktuální vícebarevné CSS záři a ve skutečné vývojové kartě. Záře se nikdy nezapeče do obrázku; průhlednost zůstává nutná pro tento podklad. Změna instrukcí nespouští regenerování ani neznamená, že stávající obrázky prošly novou kontrolou.
+
+Každá vrstva používá jednu z trojice barev přiřazené k paletě (osm barevných trojic); při chybějící paletě se kombinuje CSS barva kategorie se zlatavým a fialovým odstínem. Obrázky zůstávají průhledné a zachovávají opacitu 0,92. Layout, počty ilustrací, soubory, metadata, manifest a otisky se nemění. Produkční build záři nezobrazuje.
+
 ## Nové příspěvky a ilustrace 927–956
 
 Aktuální databáze má 856 příspěvků a 813 různých poznatků. Nová dávka přidává 30 textů a 30 statických ilustrací, po dvou ve všech 13 kategoriích; Historie, Biologie, Umění a Literatura mají po třech. Původních 826 objektů článků a 826 položek manifestu je zachováno. Všech 856 ID má registraci v produkčních kartách i galerii, která používá společný manifest.

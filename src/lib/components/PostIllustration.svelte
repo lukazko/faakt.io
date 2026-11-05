@@ -1,8 +1,9 @@
 <script>
 	import { base } from '$app/paths';
 
-	/** @type {{ post?: { id?: string } | null, active?: boolean }} */
+	/** @type {{ post?: { id?: string, category?: string, illustration?: { palette?: string } } | null, active?: boolean }} */
 	let { post = null, active = false } = $props();
+
 
 	const generatedIds = new Set([
 		'1', '2', '3', '4', '5', '6', '7', '8', '9', '10',
@@ -71,6 +72,7 @@
 {/if}
 
 <style>
+
 	.post-illustration {
 		/* Rozměry určuje zbývající plocha karty, ne přirozená výška obrázku. */
 		position: absolute;
@@ -80,6 +82,7 @@
 		height: 100%;
 		object-fit: contain;
 		object-position: center top;
+		opacity: 0.92;
 		pointer-events: none;
 		user-select: none;
 	}

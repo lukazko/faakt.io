@@ -27,6 +27,7 @@
 	import CategoryBadge from './CategoryBadge.svelte';
 	import PostBody from './PostBody.svelte';
 	import PostIllustration from './PostIllustration.svelte';
+	import CardGlow from './CardGlow.svelte';
 	import { getHook } from '$lib/teaser.js';
 	import { shouldShowFlipHint, markCardFlipped } from '$lib/flipHint.js';
 
@@ -245,6 +246,7 @@
 			aria-hidden={flipped}
 			aria-labelledby="{frontId}-title"
 		>
+			<CardGlow {post} />
 			<div class="front-inner">
 				<div class="front-main">
 					<div class="front-top">
@@ -293,6 +295,7 @@
 			aria-hidden={!flipped}
 			aria-labelledby="{backId}-title"
 		>
+			<CardGlow {post} />
 			<!-- Vlastní scrollovací plocha rubu. Na konci textu se scroll
 			     přirozeně přelije do feedu — další gesto posune na další kartu. -->
 			<div class="back-scroll" bind:this={backScrollEl} tabindex="0" aria-label={`Celý text: ${post.title}`} aria-keyshortcuts="Escape">
@@ -554,6 +557,7 @@
 
 	/* --- Líc --- */
 	.front-inner {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		gap: 14px;
@@ -576,7 +580,7 @@
 	.front-main {
 		flex: 1 1 auto;
 		min-height: 0;
-		overflow: hidden;
+		overflow: visible;
 		display: flex;
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
@@ -624,8 +628,7 @@
 		display: flex;
 		align-items: flex-end;
 		justify-content: center;
-		overflow: hidden;
-		opacity: 0.92;
+		overflow: visible;
 	}
 
 	.front-footer {
@@ -685,6 +688,7 @@
 	   a posune na další kartu. Tenký pás pod kartou zůstává pro scrollování
 	   rovnou z rubu, takže o zpětný chod feedu není nouze. */
 	.back-scroll {
+		position: relative;
 		flex: 1;
 		min-height: 0;
 		outline: none;

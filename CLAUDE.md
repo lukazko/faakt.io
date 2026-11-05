@@ -193,6 +193,8 @@ Doporučený postup:
 
 ## Shared skills for AI agents
 
+- **Čitelnost ilustrací na barevné záři:** při generování počítej i s lokálním CSS experimentem v `CardGlow.svelte` (nepravidelná vícebarevná záře s opacitou 10 %, aktuálně jen v dev režimu). Zachovej skutečnou průhlednost obrázku, záři do něj nekresli. Silueta i podstatné detaily mají být čitelné díky světlostnímu i barevnému kontrastu na původním tmavém podkladu i na záři při 160×90 a 320×180; ověř také skutečnou kartu. Podrobný postup a společný prompt jsou v `skills/faakt-illustrations/`. Změna pravidel sama neautorizuje regeneraci přijatých obrázků.
+
 - **Ilustrace má vzbudit chuť číst:** výrazným motivem, gestem, atmosférou nebo kontrastem. Samotná přehlednost nestačí; i pár oddělených objektů s jedinou šipkou může působit jako rovnice vstupů a výsledku. Když myšlenku lépe nese přirozené setkání či soudržná scéna, propoj prvky pohledem, pózou, pohybem nebo společným prostorem. Růžový plameňák sklánějící se k šedému mláděti může zaujmout bez schématu mládě + potrava → dospělý. Nejde o zákaz diagramů, šipek či vysvětlení principu: mají své místo, když jejich vizuální forma sama dobře funguje jako ilustrace. Posuzuj celkovou kompozici, nikoli jen počet předmětů či kroků.
 
 - **Vycentrování ilustrací:** hlavní motiv má být opticky uprostřed celého obrázku **vodorovně i svisle**, s vyváženými prázdnými okraji. Nevycentrování je přípustné jen pro konkrétní význam, interakci nebo směr děje uvnitř ilustrace; důvod zaznamenej. Kontroluj skutečně viditelný hlavní motiv včetně alfa odsazení, nikoli pouze střed plátna či vzdálené téměř neviditelné pixely. Při finálním zmenšení lze odstranit nadbytečný plně průhledný okraj a motiv vycentrovat bez ořezu jeho částí. Nerezervuj volný sloupec pro text.
