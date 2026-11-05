@@ -288,7 +288,7 @@
 		   kdy má zmizet tlačítko akcí na odvrácené straně. */
 		--flip-duration: 0.42s;
 		--card-action-inset: clamp(18px, 5vw, 30px);
-		--card-meta-top: clamp(16px, 2.8vh, 22px);
+		--card-meta-top: var(--card-action-inset);
 		-webkit-perspective: 1600px;
 	}
 
