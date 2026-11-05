@@ -129,6 +129,11 @@ test('touch tap replays flip hint after an actual flip', async ({ page }) => {
 	await page.keyboard.press('Escape');
 	const card = page.locator('.is-active');
 	await expect(card).not.toHaveClass(/flipped/);
+	// The class changes before the 3D return transition finishes. Hit testing
+	// the front while it is still rotating can hit the stage instead.
+	await card.locator('.card-stage').evaluate(async stage => {
+		await Promise.all(stage.getAnimations().map(animation => animation.finished));
+	});
 	for (let i = 0; i < 2; i++) {
 		const starts = await page.evaluate(() => window.flipHintStarts);
 		await activate(card.locator('.card-front h1, .card-front h2').first(), page);
@@ -161,11 +166,19 @@ test('mouse press replays flip hint before releasing the card', async ({ page })
 
 test('quick mouse click transitions from the flip hint to the back', async ({ page }) => {
 	const card = page.locator('.is-active');
+	// Record the short transition before clicking; polling live animations can
+	// miss it entirely when the browser is busy with parallel tests.
+	await card.locator('.card-stage').evaluate(stage => {
+		window.flipTransitionStarted = false;
+		stage.addEventListener('transitionrun', event => {
+			if (event.target === stage && event.propertyName === 'transform') {
+				window.flipTransitionStarted = true;
+			}
+		});
+	});
 	await card.locator('.card-front h1, .card-front h2').first().click();
 	await expect(card).toHaveClass(/flipped/);
-	await expect.poll(() => card.locator('.card-stage').evaluate(stage =>
-		stage.getAnimations().some(animation => animation.transitionProperty === 'transform')
-	)).toBe(true);
+	await expect.poll(() => page.evaluate(() => window.flipTransitionStarted)).toBe(true);
 	await card.locator('.card-stage').evaluate(async stage => {
 		await Promise.all(stage.getAnimations().map(animation => animation.finished));
 	});
