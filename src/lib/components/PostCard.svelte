@@ -518,6 +518,7 @@
 		display: flex;
 		align-items: center;
 		min-height: 26px;
+		margin-bottom: 4px;
 	}
 
 	/* Hook i titulek jsou omezené počtem řádků — dlouhý text nikdy
