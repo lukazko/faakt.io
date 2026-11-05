@@ -159,6 +159,19 @@ test('mouse press replays flip hint before releasing the card', async ({ page })
 	await expect(card).toHaveClass(/flipped/);
 });
 
+test('quick mouse click transitions from the flip hint to the back', async ({ page }) => {
+	const card = page.locator('.is-active');
+	await card.locator('.card-front h1, .card-front h2').first().click();
+	await expect(card).toHaveClass(/flipped/);
+	await expect.poll(() => card.locator('.card-stage').evaluate(stage =>
+		stage.getAnimations().some(animation => animation.transitionProperty === 'transform')
+	)).toBe(true);
+	await card.locator('.card-stage').evaluate(async stage => {
+		await Promise.all(stage.getAnimations().map(animation => animation.finished));
+	});
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'matrix3d(-1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1, 0, 0, 0, 0, 1)');
+});
+
 test('actual flip cancels the hint', async ({ page }) => {
 	await flip(page);
 	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBe('1');

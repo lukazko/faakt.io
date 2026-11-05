@@ -82,8 +82,16 @@
 
 	async function flipToBack() {
 		if (flipped) return;
+		// Preserve the visible angle when handing the preview over to the flip.
+		const previewTransform = flipHint && cardStageEl
+			? getComputedStyle(cardStageEl).transform : null;
+		++hintRequest;
 		markCardFlipped();
 		flipHint = false;
+		if (previewTransform) cardStageEl.style.transform = previewTransform;
+		await tick();
+		// Commit the end of the CSS animation before starting the transition.
+		if (cardStageEl) void cardStageEl.offsetWidth;
 		// Nabídka patří jedné straně — při otáčení by na rubu visela
 		// zrcadlově, takže ji otočení zavře.
 		onCloseActions?.();
@@ -91,6 +99,7 @@
 		// Fokus přechází na viditelnou stranu — klávesnicí se tak hned dá
 		// pokračovat ve čtení a skrytý líc nezůstane zaměřený.
 		await tick();
+		if (previewTransform) cardStageEl.style.removeProperty('transform');
 		// Na rubu není žádné tlačítko — fokus dostane scrollovací plocha,
 		// aby se klávesnicí dalo rovnou číst a Escape vrátil kartu zpět.
 		backScrollEl?.focus({ preventScroll: true });
