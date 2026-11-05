@@ -35,7 +35,7 @@
 		"id": "003",
 		"title": "Včely tančí, aby promluvily",
 		"content": "Včela medonosná (Apis mellifera) komunikuje pomocí tance, jak v roce 1943 objevil rakouský etolog Karl von Frisch, za což později dostal Nobelovu cenu. Když najde zdroj potravy, vrací se do úlu a tanečkem popisuje směr a vzdálenost. Kruhový tanec znamená „je to blízko“, třesavý tanec ve tvaru osmičky ukazuje přesný směr vůči slunci.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Karl von Frisch — Nobel Lecture 1973",
@@ -115,7 +115,7 @@
 		"id": "008",
 		"title": "Mozek neumí multitasking",
 		"content": "Neurověda je v tomto nekompromisní: lidský mozek nezvládá dělat dvě věci najednou. Místo toho rychle přepíná mezi úkoly (task-switching) a každé přepnutí stojí čas i energii. Studie z University of London zjistila, že multitasking snižuje IQ až o 15 bodů (srovnatelné s vynecháním noci spánku). Jediné, co mozek zpracovává paralelně, jsou automatické činnosti jako chůze.",
-		"category": "veda",
+		"category": "psychologie",
 		"sources": [
 			{
 				"label": "American Psychological Association — Multitasking",
@@ -147,7 +147,7 @@
 		"id": "010",
 		"title": "Každý nádech obsahuje atomy Caesara",
 		"content": "Voda a vzduch na Zemi se neustále recyklují. Molekuly H2O, které pil Tyrannosaurus rex, s vysokou pravděpodobností kolují v tvém těle právě teď — odhaduje se, že každá sklenice vody obsahuje až tisíc molekul, které prošly dinosaurem. Totéž platí pro vzduch: každý nádech obsahuje atomy, které patřily Caesarovi, Newtonovi i tvým prarodičům. Je to jednoduchá statistika — počet molekul v atmosféře je konečný.",
-		"category": "zajimavost",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Earth's water cycle — USGS",
@@ -179,7 +179,7 @@
 		"id": "012",
 		"title": "Kouzlo 7 ± 2 — limit pracovní paměti",
 		"content": "Psycholog George Miller z Princetonu v roce 1956 publikoval přelomovou práci „The Magical Number Seven, Plus or Minus Two“: pracovní paměť člověka pojme v průměru 7 ± 2 položek. Proto mají telefonní čísla 7 číslic, proto si pamatujeme seznamy o ~7 položkách. Moderní výzkum (Cowan, 2001) tento odhad zpřesnil na 4 ± 1 položky — tzv. „kdo si pamatuje 7, ten má vlastně 4 a tři si domýšlí“.",
-		"category": "veda",
+		"category": "psychologie",
 		"sources": [
 			{
 				"label": "George A. Miller — The Magical Number 7±2 (1956)",
@@ -195,7 +195,7 @@
 		"id": "013",
 		"title": "Proč máme husí kůži?",
 		"content": "Husí kůže (cutis anserina) je evoluční pozůstatek. Když je nám zima, mozek napne svaly (musculi arrectores pilorum) kolem chlupových folikulů — u našich chlupatých předků tím chlupy načepýřily a vytvořily izolační vrstvu (piloerekce). Dnes máme chlupů málo, ale reflex zůstal. Spouští se i při strachu nebo silných emocích — u zvířat by to znamenalo „vypadat větší“ a odstrašit nepřítele.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Britannica — Goose bumps",
@@ -243,7 +243,7 @@
 		"id": "016",
 		"title": "Jak fungují optické klamy",
 		"content": "Optické klamy nejsou chyba očí — jsou chyba mozku. Mozek nezpracovává obraz pasivně jako kamera, ale vytváří aktivní interpretaci na základě zkušeností (tzv. prediktivní kódování). Když vidíš dvojrozměrnou kresbu, mozek automaticky přidá perspektivu a stíny tam, kde nejsou. Věda o těchto jevech se nazývá psychologie vnímání (percepční psychologie) a sahá k zakladatelům Gestalt psychologie.",
-		"category": "veda",
+		"category": "psychologie",
 		"sources": [
 			{
 				"label": "Gestalt psychology — percepční zákony",
@@ -259,7 +259,7 @@
 		"id": "017",
 		"title": "Včely cítí adrenalin",
 		"content": "Výzkum ukázal, že včely medonosné dokážou reagovat na chemické signály strachu — konkrétně detekují feromony, které lidé vylučují při stresu (adrenalin a kortizol). Když se bojíš, tvé tělo uvolňuje tyto látky, včely je zaznamenají a reagují agresivněji. Tento jev byl potvrzen studií z University of Bristol (2019).",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "University of Bristol — Bees can detect fear (2019)",
@@ -275,7 +275,7 @@
 		"id": "018",
 		"title": "Proč si 93 % lidí myslí, že řídí nadprůměrně?",
 		"content": "93 % amerických řidičů si myslí, že řídí lépe než průměr. 94 % profesorů si myslí, že učí nadprůměrně. Tento kognitivní zkreslení se nazývá „above-average effect“ (efekt nadprůměrnosti) a je jedním z nejlépe zdokumentovaných jevů v psychologii rozhodování (Kruger & Dunning, 1999). Nikdo nemůže být nad průměrem, když je průměr průměr — ale mírné nadhodnocování je známka zdravého sebevědomí.",
-		"category": "veda",
+		"category": "psychologie",
 		"sources": [
 			{
 				"label": "Kruger & Dunning (1999) — Unskilled and Unaware",
@@ -307,7 +307,7 @@
 		"id": "020",
 		"title": "Dunningův–Krugerův efekt v praxi",
 		"content": "Dunningův–Krugerův efekt popisuje kognitivní zkreslení, při kterém lidé s nízkou kompetencí v určité oblasti mají tendenci své schopnosti výrazně nadhodnocovat, zatímco odborníci je naopak podhodnocují. Objevitelé David Dunning a Justin Kruger za něj v roce 2000 dostali Ig Nobelovu cenu. Typický příklad: začátečník si myslí, že je expert, expert si myslí, že je začátečník.",
-		"category": "veda",
+		"category": "psychologie",
 		"sources": [
 			{
 				"label": "Dunning & Kruger (1999) — původní studie",
@@ -419,7 +419,7 @@
 		"id": "027",
 		"title": "Penicilin objevila náhoda a zapomenutá miska",
 		"content": "Alexander Fleming v roce 1928 zapomněl v laboratoři zaprášenou misku s bakteriemi, kterou napadla plíseň Penicillium. Zjistil, že plíseň bakterie zabíjí, čímž nechtěně objevil první antibiotikum a v roce 1945 získal Nobelovu cenu.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Wikipedia — Alexander Fleming",
@@ -451,7 +451,7 @@
 		"id": "029",
 		"title": "Eiffelova věž je v létě o 15 centimetrů vyšší",
 		"content": "Kovová konstrukce Eiffelovy věže se teplem roztahuje, takže v horkých letních dnech může být o 10 až 15 centimetrů vyšší než v zimě. Tento jev je běžným důsledkem teplotní roztažnosti oceli.",
-		"category": "zajimavost",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Wikipedia — Eiffel Tower",
@@ -467,7 +467,7 @@
 		"id": "030",
 		"title": "Klíčový snímek DNA vznikl bez souhlasu jeho autorky",
 		"content": "Rentgenový snímek DNA známý jako Fotografie 51, pořízený Rosalind Franklinovou, pomohl Watsonovi a Crickovi odhalit dvoušroubovicovou strukturu DNA v roce 1953. Franklinová k tomu dala souhlas až po letech a Nobelovu cenu nikdy nezískala.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Wikipedia — Rosalind Franklin",
@@ -483,7 +483,7 @@
 		"id": "031",
 		"title": "První fotografie černé díry v historii",
 		"content": "10. dubna 2019 vědci z projektu Event Horizon Telescope zveřejnili první snímek černé díry v centru galaxie M87, vzdálené 55 milionů světelných let. Snímek vznikl spojením dat z osmi radioteleskopů po celém světě do jednoho virtuálního přístroje velikosti Země.",
-		"category": "veda",
+		"category": "astronomie",
 		"sources": [
 			{
 				"label": "Event Horizon Telescope — oficiální stránka",
@@ -611,7 +611,7 @@
 		"id": "039",
 		"title": "Chobotnice mají tři srdce a modrou krev",
 		"content": "Chobotnice disponují třemi srdci — dvě pumpují krev přes žábry a jedno zajišťuje oběh po celém těle. Jejich krev je modrá díky dýchacímu pigmentu hemocyaninu obsahujícímu měď, na rozdíl od lidského hemoglobinu na bázi železa.",
-		"category": "zajimavost",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "National Geographic — Octopus facts",
@@ -675,7 +675,7 @@
 		"id": "043",
 		"title": "Mendělejev předpověděl prvky, které tehdy ještě neexistovaly",
 		"content": "Když Dmitrij Mendělejev v roce 1869 sestavil periodickou tabulku, nechal v ní záměrně prázdná místa a předpověděl vlastnosti prvků, které měly tyto mezery vyplnit. O několik let později byly objeveny galium, germanium a scandium s téměř totožnými vlastnostmi, jaké odhadl.",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Royal Society of Chemistry — Mendeleev's predictions",
@@ -771,7 +771,7 @@
 		"id": "049",
 		"title": "Banány jsou trochu radioaktivní, a je to normální",
 		"content": "Banány obsahují draslík-40, přirozeně radioaktivní izotop, díky kterému vznikla neformální jednotka radiace 'banana equivalent dose'. Dávka z jednoho banánu je naprosto zanedbatelná a lidské tělo se s podobnými přirozenými zdroji radiace setkává neustále.",
-		"category": "zajimavost",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Wikipedia — Banana equivalent dose",
@@ -787,7 +787,7 @@
 		"id": "050",
 		"title": "Inzulín zachraňoval životy už rok po svém objevu",
 		"content": "Frederick Banting a Charles Best izolovali inzulín na univerzitě v Torontu roku 1921 a už v následujícím roce s ním zachránili prvního pacienta s cukrovkou. Za objev získal Banting společně s Johnem Macleodem už v roce 1923 Nobelovu cenu za fyziologii a medicínu.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobel Prize — Frederick Banting",
@@ -835,7 +835,7 @@
 		"id": "053",
 		"title": "Náhoda, která zachránila miliony životů: objev penicilinu",
 		"content": "Skotský bakteriolog Alexander Fleming si roku 1928 všiml, že plíseň na zapomenuté Petriho misce zabránila růstu bakterií kolem sebe. Tento náhodný objev vedl ke vzniku prvního antibiotika a Fleming za něj v roce 1945 obdržel Nobelovu cenu za fyziologii a medicínu.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobel Prize — Alexander Fleming",
@@ -931,7 +931,7 @@
 		"id": "059",
 		"title": "Med starý 3000 let byl v egyptských hrobkách stále jedlý",
 		"content": "Archeologové nalezli v egyptských hrobkách nádoby s medem starým přes 3000 let, který byl díky nízké vlhkosti a přirozeným antibakteriálním vlastnostem stále chemicky nezkažený. Med je jedním z mála potravin, které se při správném uchování prakticky nekazí.",
-		"category": "zajimavost",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Smithsonian Magazine — The Science Behind Honey's Eternal Shelf Life",
@@ -995,7 +995,7 @@
 		"id": "063",
 		"title": "Fotografie, která odhalila tvar života",
 		"content": "James Watson a Francis Crick popsali v roce 1953 strukturu DNA jako dvoušroubovici, přičemž klíčová byla rentgenová difrakční fotografie pořízená Rosalind Franklinovou. Jejich práce vyšla v časopise Nature a položila základ moderní molekulární biologii.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Wikipedia — DNA",
@@ -1091,7 +1091,7 @@
 		"id": "069",
 		"title": "Válka, kterou vedla armáda proti ptákům, a prohrála",
 		"content": "V roce 1932 nasadila australská armáda kulomety proti hejnům emu ničícím úrodu v Západní Austrálii v akci označované jako Velká válka s emu. Ptáci se ukázali jako překvapivě odolní a mobilní cíl, takže operace byla po několika týdnech ukončena s minimálním úspěchem.",
-		"category": "zajimavost",
+		"category": "historie",
 		"sources": [
 			{
 				"label": "Wikipedia — Emu War",
@@ -1155,7 +1155,7 @@
 		"id": "073",
 		"title": "Dvojitá šroubovice, kterou pomohla odhalit fotografie jiné ženy",
 		"content": "James Watson a Francis Crick popsali strukturu DNA v roce 1953 v časopise Nature na necelé jedné straně textu. Klíčovou roli sehrál rentgenový difrakční snímek DNA nazvaný Foto 51, který pořídila Rosalind Franklinová.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nature — Molecular Structure of Nucleic Acids",
@@ -1251,7 +1251,7 @@
 		"id": "079",
 		"title": "V jedné lahvi šampaňského se skrývá milion bublin",
 		"content": "Francouzský vědec Gérard Liger-Belair spočítal, že v jedné láhvi šampaňského se uvolní přibližně milion bublin oxidu uhličitého. Bublinky vznikají díky mikroskopickým celulózovým vláknům na povrchu skla, které slouží jako nukleační místa.",
-		"category": "zajimavost",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Wikipedia — Champagne",
@@ -1315,7 +1315,7 @@
 		"id": "083",
 		"title": "Zapomenutá Petriho miska, která zachránila miliony životů",
 		"content": "Alexander Fleming se roku 1928 vrátil z dovolené a všiml si, že plíseň Penicillium notatum náhodně zkontaminovala jednu z jeho misek a zabránila růstu bakterií stafylokoka. Tento náhodný objev vedl ke vzniku penicilinu a roku 1945 za něj Fleming společně s Howardem Floreyem a Ernstem Chainem získal Nobelovu cenu.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobelprize.org — Alexander Fleming Biographical",
@@ -1411,7 +1411,7 @@
 		"id": "089",
 		"title": "Říše, která podle Voltaira nebyla svatá, ani římská, ani říše",
 		"content": "Svatá říše římská existovala formálně od roku 962 do roku 1806 a v době svého rozpadu se skládala z více než 1800 samostatných územních celků. Francouzský filozof Voltaire ji v 18. století proslavil poznámkou, že není ani svatá, ani římská, ani říše.",
-		"category": "zajimavost",
+		"category": "historie",
 		"sources": [
 			{
 				"label": "Britannica — Holy Roman Empire",
@@ -1475,7 +1475,7 @@
 		"id": "093",
 		"title": "Pět let na moři, které změnily pohled na vznik druhů",
 		"content": "Charles Darwin strávil roky 1831–1836 na palubě lodi HMS Beagle, kde na Galapágách sbíral pozorování o rozdílech mezi zvířaty na jednotlivých ostrovech. Tato data mu později pomohla formulovat teorii evoluce přírodním výběrem, popsanou v knize O původu druhů z roku 1859.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Wikipedia — Second voyage of HMS Beagle",
@@ -1571,7 +1571,7 @@
 		"id": "099",
 		"title": "Věž postavená jen na dvacet let, kterou zachránilo rádio",
 		"content": "Eiffelova věž byla postavena pro Světovou výstavu roku 1889 s plánovanou životností pouhých 20 let, po kterých měla být zbořena. Zachránilo ji využití jako vysílací věže pro rádiový a později televizní signál, díky čemuž ji Paříž nechala stát.",
-		"category": "zajimavost",
+		"category": "historie",
 		"sources": [
 			{
 				"label": "Wikipedia — Eiffel Tower",
@@ -1651,7 +1651,7 @@
 		"id": "104",
 		"title": "Proč loď nepotopíte jen tak — Archimédův zákon",
 		"content": "Archimédés ze Syrakus (kolem 287–212 př. n. l.) objevil, že těleso ponořené do kapaliny je nadlehčováno silou rovnou váze vytlačené kapaliny. Podle legendy na to přišel ve vaně a s výkřikem 'Eureka' vyběhl nahý do ulic Syrakus. Princip dodnes vysvětluje, proč obrovské ocelové lodě plavou.",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Britannica — Archimedes' principle",
@@ -1731,7 +1731,7 @@
 		"id": "109",
 		"title": "Proč vojenští inženýři skoro poslali piloty na smrt",
 		"content": "Za druhé světové války chtěla americká armáda pancéřovat místa na letadlech, kde se vracející stroje nejvíce poškozovaly. Statistik Abraham Wald ale ukázal, že je třeba chránit místa bez zásahů — protože letadla zasažená tam se už nikdy nevrátila. Tento omyl v uvažování se dnes nazývá survivorship bias, zkreslení přeživších.",
-		"category": "veda",
+		"category": "matematika",
 		"sources": [
 			{
 				"label": "Britannica — Survivorship bias",
@@ -1827,7 +1827,7 @@
 		"id": "115",
 		"title": "Pythagoras slyšel ve strunách harmonii vesmíru",
 		"content": "Pythagoras zjistil, že hudební tóny odpovídají jednoduchým matematickým poměrům délek strun, například oktáva poměru 2:1. Z toho odvodil myšlenku, že celý vesmír je uspořádán podle čísel — koncept později známý jako 'hudba sfér'.",
-		"category": "veda",
+		"category": "filozofie",
 		"sources": [
 			{
 				"label": "Britannica — Pythagoras",
@@ -1843,7 +1843,7 @@
 		"id": "116",
 		"title": "Atomy, které si starověký Řek představil bez mikroskopu",
 		"content": "Démokritos kolem roku 400 př. n. l. tvrdil, že veškerá hmota se skládá z nedělitelných částic — atomů — pohybujících se v prázdnotě. Tuto myšlenku převzala až o dvě tisíciletí později moderní chemie, přestože ji Démokritos odvodil čistě z úvahy, ne z pozorování.",
-		"category": "veda",
+		"category": "filozofie",
 		"sources": [
 			{
 				"label": "Stanford Encyclopedia of Philosophy — Democritus",
@@ -1859,7 +1859,7 @@
 		"id": "117",
 		"title": "Jak Eratosthenés změřil Zemi bez satelitu",
 		"content": "Kolem roku 240 př. n. l. Eratosthenés porovnal délku stínu v Alexandrii a Syéné v pravé poledne a z rozdílu úhlů vypočítal obvod Země. Jeho odhad se od skutečné hodnoty lišil jen o několik procent.",
-		"category": "veda",
+		"category": "astronomie",
 		"sources": [
 			{
 				"label": "Wikipedia — Eratosthenes",
@@ -1971,7 +1971,7 @@
 		"id": "124",
 		"title": "Lékař, který vyhnal bohy z nemocničního lůžka",
 		"content": "Hippokratés žil kolem 5. století př. n. l. na ostrově Kós a jako první systematicky odmítal názor, že nemoci způsobují bohové nebo duchové — hledal přirozené, tělesné příčiny. Jeho škola stojí za Hippokratovou přísahou, která dodnes formuje lékařskou etiku.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Britannica — Hippocrates",
@@ -1987,7 +1987,7 @@
 		"id": "125",
 		"title": "Pár vět, ze kterých vznikla celá geometrie",
 		"content": "Eukleidés kolem roku 300 př. n. l. napsal Základy (Elements) — dílo, v němž z pouhých pěti axiomů logicky odvodil stovky geometrických vět. Jeho axiomatická metoda se stala vzorem pro matematiku i vědecké myšlení na dalších více než dva tisíce let.",
-		"category": "veda",
+		"category": "matematika",
 		"sources": [
 			{
 				"label": "Britannica — Euclid's Elements",
@@ -2019,7 +2019,7 @@
 		"id": "127",
 		"title": "Proč Galénos pitval opice, aby pochopil člověka",
 		"content": "Řecký lékař Galénos působil ve 2. století n. l. v Římě, kde byly pitvy lidských těl zakázány, a tak zkoumal anatomii na opicích a prasatech. Jeho závěry, i s omylem přenesenými z opičí anatomie na člověka, ovlivňovaly medicínu více než tisíc let.",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Britannica — Galen",
@@ -2051,7 +2051,7 @@
 		"id": "129",
 		"title": "Proč přeživší lodě nevypovídají celý příběh",
 		"content": "Survivorship bias (zkreslení přeživších) je mentální chyba, kdy se soustředíme jen na úspěšné případy a přehlížíme ty, co nepřežily. Klasickým příkladem je matematik Abraham Wald a jeho analýza poškozených letadel za druhé světové války — pancíř navrhl přidat tam, kde na vrácených letounech díry chyběly, protože právě zásahy tam sestřelené stroje nikdy nedoletěly domů.",
-		"category": "zajimavost",
+		"category": "matematika",
 		"sources": [
 			{
 				"label": "Wikipedia — Survivorship bias",
@@ -2211,7 +2211,7 @@
 		"id": "139",
 		"title": "Proč nekompetentní lidé přeceňují své schopnosti",
 		"content": "Dunning-Krugerův efekt popisuje kognitivní zkreslení, při kterém lidé s nízkými znalostmi v určité oblasti přeceňují své schopnosti, protože jim chybí i schopnost rozpoznat vlastní neznalost. Poprvé jej experimentálně popsali psychologové David Dunning a Justin Kruger v roce 1999.",
-		"category": "zajimavost",
+		"category": "psychologie",
 		"sources": [
 			{
 				"label": "Britannica — Dunning-Kruger effect",
@@ -2387,7 +2387,7 @@
 		"id": "150",
 		"title": "Tabulka prvků, kterou chemik uviděl ve snu",
 		"content": "<p>Ruský chemik Dmitrij Mendělejev v roce 1869 tvrdil, že uspořádání chemických prvků se mu zjevilo ve snu poté, co usnul nad kartami s jejich vlastnostmi.</p><p>Ať je to legenda nebo pravda, výsledek byl revoluční. Mendělejev prvky uspořádal podle atomové hmotnosti a odhalil, že se jejich vlastnosti pravidelně opakují.</p><p>Odvážně nechal v tabulce prázdná místa pro prvky, které ještě nikdo neobjevil, a dokonce předpověděl jejich vlastnosti. Galium a germanium byly objeveny během několika let přesně tam, kde je čekal.</p><p>Periodická tabulka se od té doby stala základní mapou chemie, kterou dnes visí v každé školní třídě.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Royal Society of Chemistry",
@@ -2579,7 +2579,7 @@
 		"id": "162",
 		"title": "Snímek, který ukázal tvar dědičnosti, aniž by ho jeho autorka viděla dokončený",
 		"content": "<p>V roce 1952 vytvořila chemička Rosalind Franklinová v Londýně rentgenový snímek nazvaný Fotografie 51. Pomocí techniky rentgenové difrakce zachytila charakteristický tvar písmene X, který odhaloval, že molekula DNA má <strong>šroubovicovou strukturu</strong>.</p><p>Tento snímek bez jejího vědomí využili James Watson a Francis Crick, kteří na jeho základě v roce 1953 publikovali model dvoušroubovice.</p><p>Watson, Crick a fyzik Maurice Wilkins získali za tento objev v roce 1962 Nobelovu cenu. Franklinová v té době už tři roky nežila — zemřela v roce 1958 na rakovinu vaječníků, pravděpodobně souvisejícím s dlouhodobou expozicí záření.</p><p>Nobelova cena se neuděluje posmrtně, a tak její zásadní přínos zůstal dlouho v pozadí.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nature",
@@ -2739,7 +2739,7 @@
 		"id": "172",
 		"title": "Plíseň na zapomenuté Petriho misce, která zachránila miliony životů",
 		"content": "<p>Co by se stalo, kdyby si skotský bakteriolog v roce 1928 nezapomněl umýt nádobí před odjezdem na dovolenou? Historie medicíny by možná vypadala úplně jinak.</p><p>Alexander Fleming se po návratu do laboratoře v Londýně všiml, že jedna z jeho zapomenutých misek s bakteriemi stafylokoka je zamořená plísní rodu <em>Penicillium</em> – a kolem ní bakterie odumřely. Objevil tak látku, kterou nazval penicilin.</p><p>Samotný Fleming netušil, jak látku vyrobit ve větším množství, a teprve o deset let později ji dokázali izolovat a vyrábět chemici Howard Florey a Ernst Chain. Během druhé světové války penicilin zachránil životy tisíců raněných vojáků.</p><p>Za tento objev získali všichni tři vědci v roce 1945 Nobelovu cenu za fyziologii a medicínu. Náhoda v laboratoři tak odstartovala éru antibiotik.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobel Prize",

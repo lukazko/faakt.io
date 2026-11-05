@@ -1,0 +1,858 @@
+{
+  "accepted": 30,
+  "generationCalls": 32,
+  "corrections": [
+    "935",
+    "956"
+  ],
+  "allRGBA640x360": true,
+  "zeroAlphaCorners": true,
+  "totalBytes": 624398,
+  "actualCardViewport": "390x844",
+  "thumbnailSizes": [
+    "160x90",
+    "320x180"
+  ],
+  "images": [
+    {
+      "id": "927",
+      "image": "/illustrations-ai/927.webp",
+      "sha256": "1d4c95692e354d24109dc3c84edc5494bdd3271f2ccf8c00d3e5edaf22fe5a73",
+      "review": {
+        "status": "accepted",
+        "meaning": "Burst vat accompanies the brewery disaster; no reconstruction of the entire brewery or measured flood volume.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 106,
+          "top": 18,
+          "right": 107,
+          "bottom": 18
+        },
+        "visibleArtworkToHookCssPixels": 22.92,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "928",
+      "image": "/illustrations-ai/928.webp",
+      "sha256": "fde2b26b056d8deb9ee5d2113806532163bebe31463903361172168ac082461b",
+      "review": {
+        "status": "accepted",
+        "meaning": "Period fishing boat accompanies the civilian victims; no precise surviving vessel is claimed.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 130,
+          "top": 25,
+          "right": 131,
+          "bottom": 26
+        },
+        "visibleArtworkToHookCssPixels": 26.88,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "929",
+      "image": "/illustrations-ai/929.webp",
+      "sha256": "503ce8607499289d64082f832e7e69824ef4258ef37160bb5c00ec12330e9342",
+      "review": {
+        "status": "accepted",
+        "meaning": "Anonymous anxious driver accompanies the hypothetical case; no real crash, victim or legal conclusion is depicted.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 30,
+          "top": 30,
+          "right": 31,
+          "bottom": 30
+        },
+        "visibleArtworkToHookCssPixels": 28.86,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "930",
+      "image": "/illustrations-ai/930.webp",
+      "sha256": "e79efd4eea196e56e326deb8e6074e33f4539e39d41db7a55bd8508db7c2d228",
+      "review": {
+        "status": "accepted",
+        "meaning": "Heap and isolated grain are symbolic accompaniment to vague boundaries, not a numerical threshold for heaphood.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 99,
+          "top": 96,
+          "right": 99,
+          "bottom": 96
+        },
+        "visibleArtworkToHookCssPixels": 61.55,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "931",
+      "image": "/illustrations-ai/931.webp",
+      "sha256": "7a67a3676c108012b012d0d80a30766e7e13a7624bfd797f2a0819bd8923b523",
+      "review": {
+        "status": "accepted",
+        "meaning": "Lifted gill cover accompanies fish respiration. This is not a flow-direction diagram or anatomical atlas.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 51,
+          "top": 44,
+          "right": 52,
+          "bottom": 44
+        },
+        "visibleArtworkToHookCssPixels": 35.79,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "932",
+      "image": "/illustrations-ai/932.webp",
+      "sha256": "8d07ce3d6c8b7a7967780f22da9e6d6b98124a338068e03c3820ea674f8e2b9a",
+      "review": {
+        "status": "accepted",
+        "meaning": "Octopus with a cool-water cue accompanies the species research; internal RNA mechanisms are not depicted.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 63,
+          "top": 21,
+          "right": 63,
+          "bottom": 22
+        },
+        "visibleArtworkToHookCssPixels": 24.9,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "933",
+      "image": "/illustrations-ai/933.webp",
+      "sha256": "a5880e3b3748c65803dea41865747e3a84fd73474722ff092962a58e1a5960b0",
+      "review": {
+        "status": "accepted",
+        "meaning": "Metal drawing stylus touching paper accompanies silverpoint; the mark is metallic deposition, not an ink flow diagram.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 93,
+          "top": 18,
+          "right": 92,
+          "bottom": 18
+        },
+        "visibleArtworkToHookCssPixels": 22.92,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "934",
+      "image": "/illustrations-ai/934.webp",
+      "sha256": "9e3c32c24dffa4f87e09b0047eda5f6f65f18b0b60ba8e44c7a73d5c39be9315",
+      "review": {
+        "status": "accepted",
+        "meaning": "Fanned painted book accompanies fore-edge painting. The tiny landscape is editorial, not a replica of a named book.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 66,
+          "top": 31,
+          "right": 66,
+          "bottom": 32
+        },
+        "visibleArtworkToHookCssPixels": 29.85,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "935",
+      "image": "/illustrations-ai/935.webp",
+      "sha256": "95f84a36d2c59228a42f948e8ef8c236a660ee0f4063b2f103924cf7d1a77c66",
+      "review": {
+        "status": "accepted",
+        "meaning": "Altered page with retained word islands accompanies A Humument; abstract marks do not reproduce the original text or artwork. First gray backdrop rejected.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 184,
+          "top": 18,
+          "right": 185,
+          "bottom": 18
+        },
+        "visibleArtworkToHookCssPixels": 22.92,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "936",
+      "image": "/illustrations-ai/936.webp",
+      "sha256": "1089b3b3b045cef48e4183c316901e9c6cd2b1e9697ef67c3a8a55eb6fc695d5",
+      "review": {
+        "status": "accepted",
+        "meaning": "Box and loose booklets accompany the physical novel format; the simplified booklet count does not claim to display all 27 parts.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 79,
+          "top": 28,
+          "right": 79,
+          "bottom": 29
+        },
+        "visibleArtworkToHookCssPixels": 28.36,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "937",
+      "image": "/illustrations-ai/937.webp",
+      "sha256": "a5acbf71c157fc36234df231f6bdcf7ea706e0dd5187ffa3a10fb65757dd89a3",
+      "review": {
+        "status": "accepted",
+        "meaning": "Transfer of one chair is a metaphor for selecting a successor, not a reconstruction of German parliamentary proceedings.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 30,
+          "top": 21,
+          "right": 30,
+          "bottom": 21
+        },
+        "visibleArtworkToHookCssPixels": 24.4,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "938",
+      "image": "/illustrations-ai/938.webp",
+      "sha256": "d567619d8a17b5642dabec90535acdf6a954bac9fd9bd83102bb5575d346b733",
+      "review": {
+        "status": "accepted",
+        "meaning": "Empty parliamentary seat accompanies apportionment; the illustration does not provide a worked allocation example.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 91,
+          "top": 76,
+          "right": 91,
+          "bottom": 76
+        },
+        "visibleArtworkToHookCssPixels": 51.64,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "939",
+      "image": "/illustrations-ai/939.webp",
+      "sha256": "d904b3d462aa22b62b63f3de93bab96e4784384a9ba3a343ce6a2581f582216c",
+      "review": {
+        "status": "accepted",
+        "meaning": "Intact glass tadpole accompanies residual stress; no claim that the illustration shows a measured stress distribution.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 60,
+          "top": 71,
+          "right": 60,
+          "bottom": 70
+        },
+        "visibleArtworkToHookCssPixels": 48.67,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "940",
+      "image": "/illustrations-ai/940.webp",
+      "sha256": "a38c0e7688033edc752bf5a197581fa7e7538f35eaf130d4dc2f3b054d98354a",
+      "review": {
+        "status": "accepted",
+        "meaning": "Spiked pool accompanies ferrofluid instability; no particle-scale diagram or magnetic field map.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 84,
+          "top": 51,
+          "right": 85,
+          "bottom": 51
+        },
+        "visibleArtworkToHookCssPixels": 39.26,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "941",
+      "image": "/illustrations-ai/941.webp",
+      "sha256": "b5b368b442a41f4dc4ca925a8ddc810da05e64c9b7daa7c19ad5cbfeeb89848f",
+      "review": {
+        "status": "accepted",
+        "meaning": "Two moons and orbital arcs accompany co-orbital motion; distances and sizes are not to scale.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 166,
+          "top": 66,
+          "right": 167,
+          "bottom": 66
+        },
+        "visibleArtworkToHookCssPixels": 46.69,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "942",
+      "image": "/illustrations-ai/942.webp",
+      "sha256": "c13b16bae0e468f1c77d95f1a40a9adae1ee8690e287a69d5fbb82b65de2901e",
+      "review": {
+        "status": "accepted",
+        "meaning": "Mercury and Sun accompany spin-orbit resonance; the image does not claim to demonstrate the 3:2 ratio.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 164,
+          "top": 32,
+          "right": 164,
+          "bottom": 32
+        },
+        "visibleArtworkToHookCssPixels": 29.85,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "943",
+      "image": "/illustrations-ai/943.webp",
+      "sha256": "d1e91fcf626fa8777e39a87c56e6506747de0f032377192f10a3e4dd8b7edf02",
+      "review": {
+        "status": "accepted",
+        "meaning": "Bicycle under umbrella is an insurance metaphor; no universal behavioral claim about policyholders is pictured.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 134,
+          "top": 17,
+          "right": 134,
+          "bottom": 17
+        },
+        "visibleArtworkToHookCssPixels": 22.42,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "944",
+      "image": "/illustrations-ai/944.webp",
+      "sha256": "14232b18f3b70b81486d0c5d140e25388fa11075a3fb89c0b2a3b0c7496464ab",
+      "review": {
+        "status": "accepted",
+        "meaning": "Sealed bids and gavel accompany the auction format; no literal bid values or dominant-strategy proof.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 124,
+          "top": 60,
+          "right": 124,
+          "bottom": 60
+        },
+        "visibleArtworkToHookCssPixels": 43.72,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "945",
+      "image": "/illustrations-ai/945.webp",
+      "sha256": "38bd656b18472aacfc8f6cab9f0498824ccef122b7b6801c5f621c535d8068a4",
+      "review": {
+        "status": "accepted",
+        "meaning": "Completing a learning card accompanies generation at encoding; abstract writing is not a scored experimental response.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 90,
+          "top": 46,
+          "right": 92,
+          "bottom": 46
+        },
+        "visibleArtworkToHookCssPixels": 36.78,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "946",
+      "image": "/illustrations-ai/946.webp",
+      "sha256": "c6ca877b77562b68f7ccb3dcbf5bd262489c78c0d9c8e9966271fe45cbed991a",
+      "review": {
+        "status": "accepted",
+        "meaning": "Closed book and recall card accompany retrieval practice; not a claim that merely shutting a book improves memory.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 82,
+          "top": 38,
+          "right": 83,
+          "bottom": 39
+        },
+        "visibleArtworkToHookCssPixels": 33.32,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "947",
+      "image": "/illustrations-ai/947.webp",
+      "sha256": "7924de4e2cb71706d1dd98f0f26eca1266612f9be65ec0f01e5f36358d1db460",
+      "review": {
+        "status": "accepted",
+        "meaning": "Light corridor accompanies slit-scan aesthetics; symbolic optical traces, not an exact apparatus reconstruction.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 67,
+          "top": 83,
+          "right": 68,
+          "bottom": 83
+        },
+        "visibleArtworkToHookCssPixels": 55.11,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "948",
+      "image": "/illustrations-ai/948.webp",
+      "sha256": "1a4e14b15c12f1575d5ad30dbc4b537a5aa30fe403dc5f0f63b16a061bfa32dd",
+      "review": {
+        "status": "accepted",
+        "meaning": "Separated animation planes accompany layered compositing; the reduced scene is not a mechanical blueprint.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 127,
+          "top": 57,
+          "right": 128,
+          "bottom": 57
+        },
+        "visibleArtworkToHookCssPixels": 42.23,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "949",
+      "image": "/illustrations-ai/949.webp",
+      "sha256": "4f7c9cf3d8d86e95f490e1a69ceec23b985ae4e1cd1dc7ad7ae511bff47fd6e3",
+      "review": {
+        "status": "accepted",
+        "meaning": "Curved triangle accompanies constant width. Only its large outline matters; no counting of tiny construction marks.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 166,
+          "top": 71,
+          "right": 167,
+          "bottom": 71
+        },
+        "visibleArtworkToHookCssPixels": 49.17,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "950",
+      "image": "/illustrations-ai/950.webp",
+      "sha256": "70dec99393f8d3fdd510615b45fba94347e47e0ee40776cd106cd1c5c9414090",
+      "review": {
+        "status": "accepted",
+        "meaning": "Cube and compass accompany the constrained construction problem; this does not depict a successful duplication.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 136,
+          "top": 32,
+          "right": 136,
+          "bottom": 32
+        },
+        "visibleArtworkToHookCssPixels": 29.85,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "951",
+      "image": "/illustrations-ai/951.webp",
+      "sha256": "efb8c4ec5f489145a173acd3d40611ada2e3e8b87ff974de5a7f2b38a102d561",
+      "review": {
+        "status": "accepted",
+        "meaning": "Sieve and data tile are a metaphor for membership filtering; not the literal implementation or a one-way physical filter.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 110,
+          "top": 34,
+          "right": 109,
+          "bottom": 33
+        },
+        "visibleArtworkToHookCssPixels": 30.35,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "952",
+      "image": "/illustrations-ai/952.webp",
+      "sha256": "f83a2468c6b948d018a155e77097a9aaaa8f7171111d9c53dfe5806f2d99e0ef",
+      "review": {
+        "status": "accepted",
+        "meaning": "Fingerprint on file is a metaphor for a content hash; no biometric system or guaranteed collision-free mapping is asserted.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 207,
+          "top": 42,
+          "right": 208,
+          "bottom": 42
+        },
+        "visibleArtworkToHookCssPixels": 34.8,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "953",
+      "image": "/illustrations-ai/953.webp",
+      "sha256": "27f0b2c6c1ac6e7d5c5e55a6eefe8a61b9027058a3bb5e293d8bc608baf5bb51",
+      "review": {
+        "status": "accepted",
+        "meaning": "Knotted cords accompany khipu. Reduced knot count is not an encoded historical numerical record.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 54,
+          "top": 38,
+          "right": 55,
+          "bottom": 38
+        },
+        "visibleArtworkToHookCssPixels": 32.82,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "954",
+      "image": "/illustrations-ai/954.webp",
+      "sha256": "23d72d2550e801c1a9ecb9bcbdb29b1a840d8ad1f4faebffdeb82bad5520610e",
+      "review": {
+        "status": "accepted",
+        "meaning": "Bolt between strings accompanies prepared piano; no instructions to modify an instrument without expertise.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 84,
+          "top": 48,
+          "right": 85,
+          "bottom": 48
+        },
+        "visibleArtworkToHookCssPixels": 37.77,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "955",
+      "image": "/illustrations-ai/955.webp",
+      "sha256": "135f3d1efe2f1a496fe32792acfd23fe36da2bb679cc3c8b2a1a9ea150dc8c4b",
+      "review": {
+        "status": "accepted",
+        "meaning": "Pale icefish accompanies hemoglobin loss; translucent color is stylized and does not show blood chemistry directly.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 14,
+          "top": 47,
+          "right": 15,
+          "bottom": 47
+        },
+        "visibleArtworkToHookCssPixels": 37.28,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    },
+    {
+      "id": "956",
+      "image": "/illustrations-ai/956.webp",
+      "sha256": "806a31d09940b142b9e3b53071039b69262fc0a3afb8a393994bb49f1f2f55b4",
+      "review": {
+        "status": "accepted",
+        "meaning": "Still clock inside a book accompanies the novel?s time theme without depicting a direction. Original clockwise circular arrow was removed by targeted edit; no scene from the novel is reconstructed.",
+        "sizes": [
+          "160x90",
+          "320x180"
+        ],
+        "background": "True-alpha RGBA WebP, zero-alpha corners. All 30 inspected on actual gradient cards at 390x844 viewport and as 160x90 thumbnails; no opaque background rectangle.",
+        "simplicity": "Recognizable accompanying motif at thumbnail size. Some generated shading and texture exceed strict flat-shape targets; no image depends on tiny labels or a multistep explanation.",
+        "alphaMargins": {
+          "left": 88,
+          "top": 22,
+          "right": 88,
+          "bottom": 22
+        },
+        "visibleArtworkToHookCssPixels": 24.9,
+        "cardViewport": "390x844",
+        "cardImageCssSize": [
+          317,
+          178.3125
+        ],
+        "spacing": "Balanced alpha margins retained. Wide low motifs leave a larger visible gap than tall motifs; no shifting, stretching, cropping or global layout change."
+      }
+    }
+  ]
+}

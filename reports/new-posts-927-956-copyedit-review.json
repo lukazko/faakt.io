@@ -1,0 +1,33 @@
+[
+  {
+    "id": "931",
+    "source_hash": "e9891eb8b833d919a713a0acca18a9b5a1382b1966ff3a5e8523c853face4d68",
+    "verdict": "verified",
+    "reason": "Read full corrected text: precise dissolved oxygen concentration and dimensionally correct cube-edge multiplier; central insight and tags unchanged.",
+    "knowledge": {
+      "point": "Protiproud vody a krve v rybích žábrách udržuje podél výměnné plochy rozdíl umožňující přestup kyslíku do krve.",
+      "type": "principle",
+      "idea": "idea-931",
+      "tags": [
+        "zoology",
+        "resources"
+      ]
+    }
+  },
+  {
+    "id": "950",
+    "source_hash": "0a690c2ba65d8b3c2a7cb166f2c9b5b242d02d2245b2b0dcc9edd787d0390738",
+    "verdict": "verified",
+    "reason": "Read full corrected text: precise dissolved oxygen concentration and dimensionally correct cube-edge multiplier; central insight and tags unchanged.",
+    "knowledge": {
+      "point": "Hranu krychle s dvojnásobným objemem nelze obecně přesně sestrojit pouze neoznačeným pravítkem a kružítkem.",
+      "type": "principle",
+      "idea": "idea-950",
+      "tags": [
+        "geometry",
+        "logic",
+        "limits"
+      ]
+    }
+  }
+]

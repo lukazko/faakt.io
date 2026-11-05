@@ -1,0 +1,557 @@
+{
+  "snapshot": "d8772a8e484adb9c39d2b8f9e6329e3b10354ce0f1f086be8431b8e1c4b2a85c",
+  "catalog_reviewed": "d8772a8e484adb9c39d2b8f9e6329e3b10354ce0f1f086be8431b8e1c4b2a85c",
+  "proposals": [
+    {
+      "id": "897",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-897",
+        "point": "Velký zápach roku 1858 urychlil financování londýnské kanalizace, když důsledky znečištění zasáhly přímo parlament.",
+        "tags": [
+          "modern-history",
+          "public-health"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "529"
+      ],
+      "reason": "Na rozdíl od odvodnění antického Říma jde o doložený politický spouštěč moderní kanalizační reformy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "898",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-898",
+        "point": "Letecký most umožnil zásobovat západní Berlín během sovětské blokády v letech 1948–1949 bez proražení pozemních tras.",
+        "tags": [
+          "modern-history",
+          "cooperation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "118",
+        "135"
+      ],
+      "reason": "Zásobovací operace během blokády není Marshallova hospodářská pomoc ani pozdější berlínská zeď.",
+      "verdict": "accept"
+    },
+    {
+      "id": "899",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-899",
+        "point": "Haitská revoluce proměnila povstání zotročených lidí v boj za nezávislost, který roku 1804 vytvořil Haiti.",
+        "tags": [
+          "modern-history",
+          "freedom"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "123"
+      ],
+      "reason": "Vznik Haiti a obrana zrušení otroctví jsou jiné historické výsledky než dobytí Bastily.",
+      "verdict": "accept"
+    },
+    {
+      "id": "900",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-900",
+        "point": "Jacksonova Mary prověřuje, zda úplná znalost fyzikálních faktů zahrnuje i znalost toho, jaké je mít určitý vědomý prožitek.",
+        "tags": [
+          "philosophy-of-mind",
+          "epistemology"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "725"
+      ],
+      "reason": "Jde o úplnost fyzikálního popisu prožitku, nikoli sebeuvědomění bez smyslového vstupu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "901",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-901",
+        "point": "Nozickův stroj na zážitky zkoumá, zda vedle příjemných prožitků oceňujeme také skutečné jednání a kontakt se světem.",
+        "tags": [
+          "ethics",
+          "philosophy-of-mind"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "607"
+      ],
+      "reason": "Normativní otázka hodnoty života ve stroji se liší od Baudrillardovy teorie znaků nahrazujících skutečnost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "902",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-902",
+        "point": "Někteří mořští plži uchovávají chloroplasty pozřených řas funkční ve vlastních buňkách, aniž by tím přestali být živočichy.",
+        "tags": [
+          "zoology",
+          "botany"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "204"
+      ],
+      "reason": "Dočasné získávání již hotových chloroplastů potravou není evoluční vznik organel z bakterií.",
+      "verdict": "accept"
+    },
+    {
+      "id": "903",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-903",
+        "point": "Skokan lesní snáší tvorbu ledu mimo buňky a hromaděním ochranných látek omezuje poškození tkání během zimního zamrznutí.",
+        "tags": [
+          "zoology",
+          "resilience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "273"
+      ],
+      "reason": "Řízená tolerance extracelulárního ledu a ochrana glukózou se liší od vysychání želvušek do kryptobiózy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "904",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-904",
+        "point": "Sliznatky uvolňují hlen a sbalená bílkovinná vlákna, která v mořské vodě vytvoří objemnou obrannou síť.",
+        "tags": [
+          "zoology",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "792"
+      ],
+      "reason": "Hydratace a rozvinutí vláken v okolní vodě nejsou horkou chemickou zbraní bombardovacího brouka.",
+      "verdict": "accept"
+    },
+    {
+      "id": "905",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-905",
+        "point": "Anna Atkinsová vytvářela kyanotypické obrazy řas přímým kontaktem rostlin se světlocitlivým papírem bez objektivu.",
+        "tags": [
+          "arts",
+          "botany",
+          "innovation"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "827"
+      ],
+      "reason": "Kontaktní botanická fotografie je jiný postup a cíl než sekvenční snímání koňského pohybu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "906",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-906",
+        "point": "Whitereadové Ghost převádí dutinu obytného pokoje do hmotného odlitku s otisky vnitřních ploch obrácenými ven.",
+        "tags": [
+          "sculpture",
+          "perceived-reality"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "698"
+      ],
+      "reason": "Odlití negativního prostoru mění prostorový vztah diváka, nikoli jen institucionální status nalezeného předmětu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "907",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-907",
+        "point": "Černá stránka v Tristramu Shandym zobrazuje smutek po Yorickově smrti prostřednictvím fyzické podoby knihy.",
+        "tags": [
+          "literature",
+          "communication"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "610",
+        "689"
+      ],
+      "reason": "Konkrétní typografický smuteční obraz není obecná aktualizace jazyka ani tvorba pod zákazem určitého písmene.",
+      "verdict": "accept"
+    },
+    {
+      "id": "908",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-908",
+        "point": "Vražda Rogera Ackroyda využívá selektivní vyprávění k tomu, aby čtenář zaměnil přístup k vypravěčovým slovům za jeho spolehlivost.",
+        "tags": [
+          "narratology",
+          "knowledge-evidence"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "258",
+        "891"
+      ],
+      "reason": "Zamlčování jednoho vypravěče se liší od střetu více svědeckých perspektiv i od polopřímé řeči.",
+      "verdict": "accept"
+    },
+    {
+      "id": "909",
+      "category": "politika",
+      "knowledge": {
+        "idea": "idea-909",
+        "point": "Athénský klérótérion využíval los k obsazování občanských funkcí a porot, čímž omezoval předvídatelnost jejich složení.",
+        "tags": [
+          "democracy",
+          "ancient-history"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "35"
+      ],
+      "reason": "Článek 35 zmiňuje losování, ale jeho pointou je vyloučení většiny obyvatel; zde vysvětlujeme konkrétní mechanismus náhodného výběru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "910",
+      "category": "politika",
+      "knowledge": {
+        "idea": "idea-910",
+        "point": "Novozélandský zákon z roku 2017 uznal Te Awa Tupua jako právní osobu, za kterou jednají lidští zástupci.",
+        "tags": [
+          "law",
+          "ecology"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "473"
+      ],
+      "reason": "Právní subjektivita přírodního celku je odlišná od efektu vlastnictví popisovaného v článku o šálcích; jeho chybně přiřazenou původní pointu jsme opravili podle plného textu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "911",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-911",
+        "point": "Gallium má teplotu tání blízko 30 °C, takže pevný kov může zkapalnět pouhým přijetím tepla z teplejšího okolí.",
+        "tags": [
+          "materials",
+          "thermodynamics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "154"
+      ],
+      "reason": "Tání kovu blízko pokojové teploty je jiný fázový přechod než zánik odporu v supravodiči.",
+      "verdict": "accept"
+    },
+    {
+      "id": "912",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-912",
+        "point": "V trojném bodě mohou pevná, kapalná a plynná fáze čisté vody koexistovat v rovnováze při určité teplotě a tlaku.",
+        "tags": [
+          "thermodynamics",
+          "chemistry"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "443",
+        "749"
+      ],
+      "reason": "Rovnováha tří fází za určeného tlaku není hustotní anomálie vody ani izolační parní polštář.",
+      "verdict": "accept"
+    },
+    {
+      "id": "913",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-913",
+        "point": "Nad kritickou teplotou a tlakem mizí rozhraní kapaliny a plynu a superkritický oxid uhličitý lze využít k extrakci kofeinu.",
+        "tags": [
+          "chemistry",
+          "thermodynamics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "824"
+      ],
+      "reason": "Superkritická extrakce rozpouští a odděluje látku, zatímco pyrolýza ji tepelně rozkládá.",
+      "verdict": "accept"
+    },
+    {
+      "id": "914",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-914",
+        "point": "Venuše se otočí vůči hvězdám přibližně za 243 pozemských dní, ale dva východy Slunce dělí jen asi 117 dní.",
+        "tags": [
+          "solar-system",
+          "venus"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "582"
+      ],
+      "reason": "Rozdíl hvězdného a slunečního dne při retrográdní rotaci není zdánlivý zpětný pohyb planet na obloze.",
+      "verdict": "accept"
+    },
+    {
+      "id": "915",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-915",
+        "point": "Výtrysky Enceladu vynášejí materiál podpovrchového oceánu nad ledovou kůru a umožnily jeho zkoumání průlety sondy.",
+        "tags": [
+          "solar-system",
+          "saturn",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "288"
+      ],
+      "reason": "Materiál oceánu dostupný ve výtryscích je vlastní poznatek, odlišný od důvodu řízeného zániku Cassini.",
+      "verdict": "accept"
+    },
+    {
+      "id": "916",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-916",
+        "point": "Zlevnění energetické služby díky vyšší účinnosti může zvýšit její využití a tím část očekávané úspory vyrušit.",
+        "tags": [
+          "microeconomics",
+          "resources",
+          "incentives"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "753",
+        "707"
+      ],
+      "reason": "Změna poptávky po zlevněné službě není Baumolova nákladová nemoc ani manipulace ukazatelem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "917",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-917",
+        "point": "V aukci se společnou nejistou hodnotou může výhra znamenat, že vítěz měl nejoptimističtější a nadhodnocený odhad.",
+        "tags": [
+          "game-theory",
+          "uncertainty"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "752"
+      ],
+      "reason": "Výběr nejvyššího z nejistých odhadů není vytlačování kvality z trhu kvůli informovanějším prodejcům.",
+      "verdict": "accept"
+    },
+    {
+      "id": "918",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-918",
+        "point": "Při rychlém sledu podnětů může zpracování prvního cíle dočasně zhoršit rozpoznání druhého cíle o několik set milisekund později.",
+        "tags": [
+          "perception",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "714",
+        "852"
+      ],
+      "reason": "Časové úzké místo výběru cíle není sluchový výběr hlasu ani fyzikální aliasing kamery.",
+      "verdict": "accept"
+    },
+    {
+      "id": "919",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-919",
+        "point": "McGurkův efekt ukazuje, že nesoulad pohybu rtů a zvuku může změnit vnímanou řeč, přestože zvukový signál zůstává stejný.",
+        "tags": [
+          "perception",
+          "neuroscience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "760"
+      ],
+      "reason": "Audiovizuální slučování řeči mění vnímanou hlásku, nikoli vlastnictví tělesné končetiny.",
+      "verdict": "accept"
+    },
+    {
+      "id": "920",
+      "category": "filmy",
+      "knowledge": {
+        "idea": "idea-920",
+        "point": "Nitrocelulózový film podléhá chemickému rozkladu a snadno hoří, takže uchování filmů vyžaduje zvláštní péči o samotný nosič.",
+        "tags": [
+          "cinema",
+          "art-conservation",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "281"
+      ],
+      "reason": "Chemické ohrožení filmového nosiče není příběh znovunalezení scén Metropolis.",
+      "verdict": "accept"
+    },
+    {
+      "id": "921",
+      "category": "filmy",
+      "knowledge": {
+        "idea": "idea-921",
+        "point": "Postup den za noc vytváří dojem noci z denního záběru řízením expozice, barev a světelných vodítek.",
+        "tags": [
+          "film-technique",
+          "perceived-reality"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "785"
+      ],
+      "reason": "Simulace noci v denním světle je odlišná od skutečného snímání při slabém světle svíček.",
+      "verdict": "accept"
+    },
+    {
+      "id": "922",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-922",
+        "point": "Gabrielův roh má v matematickém modelu konečný objem a nekonečný povrch, protože příslušné integrály mají odlišnou konvergenci.",
+        "tags": [
+          "analysis",
+          "geometry",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "229"
+      ],
+      "reason": "Konvergence objemu a divergence plochy nejsou Cantorovo porovnávání mohutností množin.",
+      "verdict": "accept"
+    },
+    {
+      "id": "923",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-923",
+        "point": "U netranzitivních kostek může A častěji porážet B, B porážet C a C porážet A, takže párová převaha nevytváří pořadí.",
+        "tags": [
+          "probability",
+          "game-theory"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "712"
+      ],
+      "reason": "Cyklické pravděpodobnosti hodů nejsou agregací volebních preferencí v Arrowově větě.",
+      "verdict": "accept"
+    },
+    {
+      "id": "924",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-924",
+        "point": "Pevná paměť navigačního počítače Apolla kódovala program způsobem provlečení vodičů magnetickými jádry.",
+        "tags": [
+          "computer-history",
+          "programming"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "428"
+      ],
+      "reason": "Fyzické kódování neměnné paměti je odlišné od společného uložení instrukcí a dat.",
+      "verdict": "accept"
+    },
+    {
+      "id": "925",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-925",
+        "point": "Řízení zahlcení TCP upravuje množství rozpracovaných dat podle odezvy sítě, aby odesílatel nepřetěžoval sdílenou trasu.",
+        "tags": [
+          "networks",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "433"
+      ],
+      "reason": "Zpětnovazební řízení objemu provozu není rozdělení zprávy na pakety.",
+      "verdict": "accept"
+    },
+    {
+      "id": "926",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-926",
+        "point": "Tři výrazné vyhledávací vzory QR kódu umožňují čtečce určit polohu a orientaci symbolu před čtením jeho dat.",
+        "tags": [
+          "information-theory",
+          "human-computer-interaction"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "796"
+      ],
+      "reason": "Lokalizace a orientace obrazu se liší od opravy chybných bitů; text nevysvětluje znovu Hammingův kód.",
+      "verdict": "accept"
+    }
+  ]
+}

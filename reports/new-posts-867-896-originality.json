@@ -985,7 +985,7 @@
       "proposalVerdict": "přijmout",
       "finalTextVerdict": "přijmout",
       "finalTextReview": "Celý hotový text odpovídá uvedené samostatné myšlence a konkrétnímu rozdílu od původního plného textu; test záměny neprošel. Porovnáno také s ostatními 29 hotovými příspěvky.",
-      "finalPostSha256": "a56f39802692faab5db0f68465935e80e4cf36b47dc707b38daa107dc769bbe4"
+      "finalPostSha256": "81dc882c9b7e0289afd84bc06b93c669b65866f1b99bd0238104870a27b87c67"
     },
     {
       "id": "885",
@@ -997,7 +997,7 @@
       "proposalVerdict": "přijmout",
       "finalTextVerdict": "přijmout",
       "finalTextReview": "Celý hotový text odpovídá uvedené samostatné myšlence a konkrétnímu rozdílu od původního plného textu; test záměny neprošel. Porovnáno také s ostatními 29 hotovými příspěvky.",
-      "finalPostSha256": "2447ff8e0713eb421d303c02dabdb5b73d55c329e2587fa9202bea1fb6750a56"
+      "finalPostSha256": "13e7eae334d0f49103a2e3aac09c926787dea2088bc75c782a62cd74c57b8674"
     },
     {
       "id": "886",
@@ -1009,7 +1009,7 @@
       "proposalVerdict": "přijmout",
       "finalTextVerdict": "přijmout",
       "finalTextReview": "Celý hotový text odpovídá uvedené samostatné myšlence a konkrétnímu rozdílu od původního plného textu; test záměny neprošel. Porovnáno také s ostatními 29 hotovými příspěvky.",
-      "finalPostSha256": "1e5fc314533deb59205e4d626aa7e4de7fc04efe2c8b2866b302e5ce61b1bdb7"
+      "finalPostSha256": "60046ace70de138ec633eee84d9c610ddaa6534c51b27e796df5a17b37cd9a31"
     },
     {
       "id": "887",
@@ -1117,7 +1117,7 @@
       "proposalVerdict": "přijmout",
       "finalTextVerdict": "přijmout",
       "finalTextReview": "Celý hotový text odpovídá uvedené samostatné myšlence a konkrétnímu rozdílu od původního plného textu; test záměny neprošel. Porovnáno také s ostatními 29 hotovými příspěvky.",
-      "finalPostSha256": "b16d5d359ed2e86589d134effd1916505966e72fa77ba48942c79940216b048c"
+      "finalPostSha256": "f17705736d574a0cbf07980943bbe41ac6c360145eb84feabbeaaf44d9b35cd3"
     },
     {
       "id": "896",
@@ -1170,6 +1170,6 @@
       "difference": "Polyfonie nechává postavám samostatné hlasy; polopřímá řeč formálně slučuje vyprávění a hodnocení postavy bez uvozování."
     }
   },
-  "appendedDatabaseSha256": "e5509c3937a3a2550a904e52d43d891a856b6f222bb4ab31f7b4a4282f2c008b",
+  "appendedDatabaseSha256": "22a621c74147ce4a6addf3ed1fb7388523131caaa54b73489ef35c44f34a15d2",
   "finalRecords": 796
 }

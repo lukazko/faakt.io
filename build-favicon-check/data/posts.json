@@ -147,7 +147,7 @@
 		"id": "010",
 		"title": "Tabulka prvků, kterou chemik uviděl ve snu",
 		"content": "<p>Ruský chemik Dmitrij Mendělejev v roce 1869 tvrdil, že uspořádání chemických prvků se mu zjevilo ve snu poté, co usnul nad kartami s jejich vlastnostmi.</p><p>Ať je to legenda nebo pravda, výsledek byl revoluční. Mendělejev prvky uspořádal podle atomové hmotnosti a odhalil, že se jejich vlastnosti pravidelně opakují.</p><p>Odvážně nechal v tabulce prázdná místa pro prvky, které ještě nikdo neobjevil, a dokonce předpověděl jejich vlastnosti. Galium a germanium byly objeveny během několika let přesně tam, kde je čekal.</p><p>Periodická tabulka se od té doby stala základní mapou chemie, kterou dnes visí v každé školní třídě.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Royal Society of Chemistry",
@@ -339,7 +339,7 @@
 		"id": "022",
 		"title": "Snímek, který ukázal tvar dědičnosti, aniž by ho jeho autorka viděla dokončený",
 		"content": "<p>V roce 1952 vytvořila chemička Rosalind Franklinová v Londýně rentgenový snímek nazvaný Fotografie 51. Pomocí techniky rentgenové difrakce zachytila charakteristický tvar písmene X, který odhaloval, že molekula DNA má <strong>šroubovicovou strukturu</strong>.</p><p>Tento snímek bez jejího vědomí využili James Watson a Francis Crick, kteří na jeho základě v roce 1953 publikovali model dvoušroubovice.</p><p>Watson, Crick a fyzik Maurice Wilkins získali za tento objev v roce 1962 Nobelovu cenu. Franklinová v té době už tři roky nežila — zemřela v roce 1958 na rakovinu vaječníků, pravděpodobně souvisejícím s dlouhodobou expozicí záření.</p><p>Nobelova cena se neuděluje posmrtně, a tak její zásadní přínos zůstal dlouho v pozadí.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nature",
@@ -499,7 +499,7 @@
 		"id": "032",
 		"title": "Plíseň na zapomenuté Petriho misce, která zachránila miliony životů",
 		"content": "<p>Co by se stalo, kdyby si skotský bakteriolog v roce 1928 nezapomněl umýt nádobí před odjezdem na dovolenou? Historie medicíny by možná vypadala úplně jinak.</p><p>Alexander Fleming se po návratu do laboratoře v Londýně všiml, že jedna z jeho zapomenutých misek s bakteriemi stafylokoka je zamořená plísní rodu <em>Penicillium</em> – a kolem ní bakterie odumřely. Objevil tak látku, kterou nazval penicilin.</p><p>Samotný Fleming netušil, jak látku vyrobit ve větším množství, a teprve o deset let později ji dokázali izolovat a vyrábět chemici Howard Florey a Ernst Chain. Během druhé světové války penicilin zachránil životy tisíců raněných vojáků.</p><p>Za tento objev získali všichni tři vědci v roce 1945 Nobelovu cenu za fyziologii a medicínu. Náhoda v laboratoři tak odstartovala éru antibiotik.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobel Prize",
@@ -659,7 +659,7 @@
 		"id": "042",
 		"title": "Chemik, který dal jméno plynu, co udržuje oheň hořet",
 		"content": "<p>Proč hoří oheň a proč se dusíme bez vzduchu? Do 70. let 18. století panovala teorie, že za hořením stojí neviditelná látka flogiston, která z předmětu unikala.</p><p>Francouzský chemik Antoine Lavoisier tuto představu vyvrátil pečlivými váhovými experimenty a v roce 1778 popsal plyn, který hoření naopak umožňuje. Nazval ho <strong>oxygène</strong>, tedy kyslík.</p><p>Jeho práce položila základy moderní chemie a zákona zachování hmotnosti.</p><p>Osudná ironie: muž, který zásadně změnil chápání přírody, byl v roce 1794 popraven gilotinou během Francouzské revoluce, obviněn z podvodů coby bývalý výběrčí daní.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Encyclopedia Britannica",
@@ -819,7 +819,7 @@
 		"id": "052",
 		"title": "Mendělejev nechal v tabulce prázdná místa pro prvky, které ještě nikdo neviděl",
 		"content": "<p>Jak si můžete být jistí, že něco existuje, aniž byste to kdy viděli?</p><p>Ruský chemik Dmitrij Mendělejev v roce 1869 uspořádal známé chemické prvky podle atomové hmotnosti a všiml si opakujícího se vzoru vlastností. Když v tabulce narazil na mezeru, neignoroval ji — nechal ji prázdnou.</p><p>Na základě vzoru dokonce předpověděl vlastnosti dosud neobjevených prvků, které nazval eka-hliník a eka-silicium. Během několika let byly objeveny gallium a germanium — a jejich vlastnosti se s předpovědí téměř přesně shodovaly.</p><p>Periodická tabulka se tak stala nejen katalogem, ale nástrojem předpovědi. Dnes obsahuje 118 prvků a visí v každé učebně chemie na světě.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Royal Society of Chemistry",
@@ -1139,7 +1139,7 @@
 		"id": "072",
 		"title": "Mendel a hrách, který odhalil zákony dědičnosti",
 		"content": "<p>Jak zjistíte, podle jakých pravidel se dědí vlastnosti, aniž byste znali existenci genů?</p><p>Gregor Mendel, augustiniánský mnich působící v Brně, prováděl v 60. letech 19. století rozsáhlé pokusy s křížením hrachu. Sledoval tisíce rostlin a jejich barvu, tvar a velikost semen.</p><p>Zjistil, že vlastnosti se nedědí plynule, ale podle jasných poměrů — a formuloval pravidla, kterým dnes říkáme Mendelovy zákony dědičnosti.</p><p>Svou práci publikoval v roce 1866, ale vědecká obec ji tehdy téměř nezaznamenala. Uznání se mu dostalo až po jeho smrti, kdy jeho výsledky znovu objevili jiní badatelé.</p><p>Dnes je považován za zakladatele genetiky.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nature Education",
@@ -1795,7 +1795,7 @@
 		"id": "113",
 		"title": "Marie Curie: jediná osoba, která získala Nobelovu cenu ve dvou vědách",
 		"content": "<p>Polská rodačka <strong>Marie Curie-Skłodowská</strong> spolu s manželem Pierrem objevila na konci 19. století dva nové chemické prvky – polonium a radium.</p><p>Za výzkum radioaktivity, pojmu, který sama zavedla, získala v roce 1903 Nobelovu cenu za fyziku, kterou sdílela s manželem a Henrim Becquerelem.</p><p>V roce 1911 přišla druhá Nobelova cena, tentokrát za chemii, za izolaci čistého radia. Stala se tak první osobou v historii, která obdržela Nobelovu cenu ve dvou různých vědních oborech.</p><p>Celoživotní práce s radioaktivními látkami bez ochranných pomůcek jí pravděpodobně přivodila leukémii, na kterou v roce 1934 zemřela.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Nobel Prize – Marie Curie 1903",
@@ -1971,7 +1971,7 @@
 		"id": "124",
 		"title": "Proč med v archeologických nálezech vydržel tisíce let",
 		"content": "<p>Archeologové v egyptských hrobkách opakovaně nacházejí nádoby s medem starým i více než 3 000 let, který je stále chemicky jedlý.</p><p>Důvodem je kombinace vlastností medu: má velmi nízký obsah vody, vysokou kyselost a obsahuje peroxid vodíku vznikající činností včelích enzymů. Tyto podmínky znemožňují růst bakterií a plísní.</p><p>Pokud je nádoba dobře uzavřená a chráněná před vlhkostí, med se prakticky nekazí, i když může časem zkrystalizovat nebo změnit barvu.</p><p>Med je tak jedním z mála potravinářských produktů, u kterých má datum spotřeby prakticky jen formální význam.</p>",
-		"category": "zajimavost",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Smithsonian Magazine – Honey's shelf life",
@@ -2163,7 +2163,7 @@
 		"id": "136",
 		"title": "Eiffelova věž je v létě o kus vyšší než v zimě",
 		"content": "<p>Pařížská Eiffelova věž, dokončená v roce 1889, není po celý rok stejně vysoká.</p><p>Její konstrukce je vyrobena z tepelně roztažného kovu – železa, které se při vyšších teplotách rozpíná a při chladu naopak smršťuje.</p><p>Podle údajů společnosti spravující věž může teplotní rozdíl mezi horkým létem a mrazivou zimou způsobit změnu výšky až o 15 centimetrů.</p><p>Kromě toho se věž mírně naklání směrem od Slunce, protože osvětlená strana konstrukce se ohřívá a rozpíná rychleji než strana ve stínu – drobný, ale měřitelný jev, který inženýři u podobných ocelových konstrukcí musí brát v úvahu.</p>",
-		"category": "zajimavost",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Official Eiffel Tower – Does the tower lean?",
@@ -2179,7 +2179,7 @@
 		"id": "137",
 		"title": "Objev inzulinu, který proměnil cukrovku ze smrtelné nemoci v léčitelnou",
 		"content": "<p>Před rokem 1921 znamenala diagnóza cukrovky prvního typu u dětí prakticky jistou smrt během několika měsíců až let.</p><p>Kanadský chirurg <strong>Frederick Banting</strong> a student medicíny <strong>Charles Best</strong> na univerzitě v Torontu v létě 1921 izolovali z psí slinivky hormon, který dokázal snižovat hladinu cukru v krvi.</p><p>V lednu 1922 podali látku poprvé čtrnáctiletému chlapci umírajícímu na cukrovku a jeho stav se dramaticky zlepšil. V roce 1923 získali Banting a fyziolog John Macleod za tento objev Nobelovu cenu.</p><p>Banting se s cenou rozdělil se svým asistentem Bestem, protože měl pocit, že si ji zaslouží stejnou měrou. Inzulin od té doby zachránil odhadem desítky milionů životů.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobel Prize – Frederick Banting",
@@ -2403,7 +2403,7 @@
 		"id": "151",
 		"title": "Banán je botanicky bobule, jahoda naopak ne",
 		"content": "<p>Botanická klasifikace ovoce se často liší od toho, jak ovoce běžně nazýváme v kuchyni.</p><p>Podle botanické definice je <strong>bobule</strong> plod vzniklý z jediného pestíku, který má dužnatou stěnu a semena uložená uvnitř dužniny. Banán, ale i rajče, paprika nebo avokádo tuto definici splňují.</p><p>Jahoda naopak botanickou definici bobule nesplňuje. Jde o takzvaný nepravý plod, u kterého jsou skutečná semena ty drobné žluté tečky na povrchu, zatímco červená dužina vznikla ze zduřelého květního lůžka.</p><p>Podobně paradoxně vychází i klasifikace malin nebo ostružin, které jsou botanicky souplodí drobných peckoviček, nikoli bobule ani jednoduché plody.</p>",
-		"category": "zajimavost",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Britannica – Berry (fruit)",
@@ -2419,7 +2419,7 @@
 		"id": "152",
 		"title": "Chobotnice mají tři srdce a modrou krev",
 		"content": "<p>Oběhová soustava chobotnic funguje zcela jinak než u obratlovců, včetně člověka.</p><p>Chobotnice mají <strong>tři srdce</strong>: dvě žaberní srdce pumpují krev skrze žábry, kde se okysličuje, a jedno systémové srdce rozvádí okysličenou krev do zbytku těla.</p><p>Jejich krev navíc není červená, ale modrá, protože kyslík v ní přenáší měď obsahující bílkovina hemocyanin místo železa obsahujícího hemoglobinu, který dává barvu krvi obratlovců.</p><p>Zajímavostí je i to, že při plavání se systémové srdce chobotnice dočasně zastavuje, což je jeden z důvodů, proč se chobotnice raději plazí po dně, než aby neustále plavaly – plavání je pro ně energeticky velmi náročné.</p>",
-		"category": "zajimavost",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Smithsonian Ocean – Octopus",
@@ -2435,7 +2435,7 @@
 		"id": "153",
 		"title": "Alexander Graham Bell a telefonát, který odstartoval novou éru",
 		"content": "<p>10. března 1876 pronesl skotsko-americký vynálezce <strong>Alexander Graham Bell</strong> do svého experimentálního přístroje větu určenou asistentovi ve vedlejší místnosti: „Pane Watsone, pojďte sem, potřebuji vás.“</p><p>Watson větu skutečně slyšel přes drát, což se stalo prvním úspěšným přenosem srozumitelné lidské řeči na dálku pomocí elektrického signálu.</p><p>Bell podal patent na telefon jen několik hodin před svým konkurentem Elishou Grayem, což později vedlo k dlouholetým soudním sporům o prvenství vynálezu.</p><p>Během několika desetiletí se telefon rozšířil po celém světě a zásadně změnil způsob, jakým lidé komunikují na dálku.</p>",
-		"category": "veda",
+		"category": "pocitacove-vedy",
 		"sources": [
 			{
 				"label": "Library of Congress – Bell and the telephone",
@@ -3219,7 +3219,7 @@
 		"id": "202",
 		"title": "Velkou čínskou zeď z vesmíru pouhým okem nerozeznáte",
 		"content": "<p>Tvrzení, že jde o jedinou lidskou stavbu viditelnou z vesmíru, patří k nejrozšířenějším omylům vůbec. Kolovalo dávno předtím, než se člověk na oběžnou dráhu vůbec dostal.</p><p>Problém je v poměru rozměrů. Zeď je sice tisíce kilometrů dlouhá, ale jen několik metrů široká a materiálem i barvou splývá s okolní krajinou.</p><p>Astronauti opakovaně potvrdili, že z nízké oběžné dráhy je bez optiky prakticky nerozeznatelná, zatímco města, letiště nebo silnice jsou vidět lépe.</p><p>Zeď navíc není jedna souvislá stavba, ale soustava opevnění budovaných a obnovovaných v různých obdobích, přičemž dochované cihlové úseky pocházejí většinou z doby dynastie Ming.</p>",
-		"category": "zajimavost",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "NASA – China's Wall Less Great in View from Space",
@@ -3235,7 +3235,7 @@
 		"id": "203",
 		"title": "Hmota stromu nepochází ze země, ale ze vzduchu",
 		"content": "<p>Kde se vezme dřevo, ze kterého je strom? Intuitivní odpověď zní, že si ho rostlina vytáhne z půdy. Skutečnost je jiná.</p><p>Při <strong>fotosyntéze</strong> rostlina pomocí energie světla váže oxid uhličitý ze vzduchu a vodu a vytváří z nich cukry. Uhlík, který tvoří většinu sušiny dřeva, tak pochází z atmosféry.</p><p>Vedlejším produktem tohoto procesu je kyslík. Právě díky němu se složení zemské atmosféry v dávné minulosti zásadně změnilo a umožnilo vznik dnešních forem života.</p><p>Půda dodává vodu a minerální živiny, které jsou nezbytné, ale hmotnostně tvoří jen menší část.</p><p><em>Strom je do velké míry vzduch, který se podařilo zachytit a zpevnit.</em></p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Britannica – Photosynthesis",
@@ -3251,7 +3251,7 @@
 		"id": "204",
 		"title": "V každé naší buňce žije potomek pohlcené bakterie",
 		"content": "<p>Mitochondrie, které v buňkách zajišťují uvolňování energie, mají několik zvláštností. Mají vlastní kruhovou DNA, dělí se nezávisle na buňce a obklopují je dvě membrány.</p><p>Vysvětlení nabízí <strong>endosymbiotická teorie</strong>, kterou v 60. letech 20. století prosadila americká bioložka Lynn Margulisová, navazující na starší úvahy.</p><p>Podle ní vznikly mitochondrie z bakterií, které byly kdysi pohlceny jinou buňkou a namísto strávení v ní zůstaly a začaly spolupracovat. Podobný původ mají u rostlin i chloroplasty.</p><p>Teorie byla zpočátku přijímána chladně, dnes ji podporují rozbory genů i struktury buněčných organel.</p><p>Složitý život tak nevznikl jen soupeřením, ale i splynutím dvou původně samostatných organismů.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nature Education – Endosymbiotic theory",
@@ -3267,7 +3267,7 @@
 		"id": "205",
 		"title": "Mytí rukou snížilo úmrtnost dřív, než se vědělo o bakteriích",
 		"content": "<p>Ve vídeňské porodnici byla v 40. letech 19. století úmrtnost rodiček na horečku omladnic na jednom oddělení výrazně vyšší než na druhém. Rozdíl byl v tom, kdo tam pracoval.</p><p>Na horším oddělení působili lékaři a studenti, kteří chodili rovnou z pitevny. Ignác Semmelweis z toho usoudil, že přenášejí na rukou něco, co nemoc způsobuje, a zavedl povinné mytí rukou v roztoku chlorového vápna.</p><p>Úmrtnost po zavedení opatření prudce klesla. Vysvětlení ale tehdy chybělo, protože mikrobiální původ nemocí nebyl ještě znám, a lékařská obec postup většinou odmítla.</p><p>Uznání přišlo až později, po práci Pasteura a Listera.</p><p><em>Fungující opatření nestačí. Musí k němu existovat i příběh, kterému okolí uvěří.</em></p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Britannica – Ignaz Semmelweis",
@@ -3283,7 +3283,7 @@
 		"id": "206",
 		"title": "Jediná nemoc, kterou se podařilo z planety zcela vymýtit",
 		"content": "<p>Pravé neštovice provázely lidstvo staletí a jen ve 20. století si podle odhadů vyžádaly stovky milionů obětí.</p><p>Světová zdravotnická organizace zahájila v roce 1967 zesílený program eradikace. Nespoléhal na proočkování celé populace, ale na rychlé vyhledávání ohnisek a očkování všech osob v okolí nemocného.</p><p>Poslední případ přirozeného nákazy byl zaznamenán v Somálsku v roce 1977 a v roce 1980 WHO prohlásila nemoc za vymýcenou.</p><p>Pomohlo několik okolností: nemoc se nešířila skrytě, měla nezaměnitelné příznaky, neměla zvířecí rezervoár a existovala stabilní vakcína.</p><p><strong>Zatím jde o jedinou lidskou nemoc, u níž se tento cíl podařilo naplnit.</strong></p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "WHO – Smallpox eradication",
@@ -3299,7 +3299,7 @@
 		"id": "207",
 		"title": "Myšlenka, že se kontinenty pohybují, byla desítky let odmítána",
 		"content": "<p>Pobřeží Jižní Ameriky a Afriky do sebe podezřele zapadají. Na tuto podobnost upozorňovali pozorovatelé už dlouho, ale zůstávala kuriozitou.</p><p>V roce 1912 z ní německý meteorolog Alfred Wegener udělal teorii. Doložil ji shodou geologických vrstev a nálezy stejných fosilií na různých kontinentech a tvrdil, že pevniny kdysi tvořily jeden celek a od té doby se rozešly.</p><p>Hlavní námitka zněla, že nedokázal vysvětlit, jaká síla by tak obrovské masy pohybovala. Teorie proto byla řadu desetiletí odmítána.</p><p>Uznání přišlo až v 60. letech 20. století, kdy výzkum dna oceánů a magnetických pruhů vedl k teorii deskové tektoniky.</p><p><em>Správné pozorování bez mechanismu nestačí, ale nezmizí.</em></p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "USGS – Historical perspective on plate tectonics",
@@ -3315,7 +3315,7 @@
 		"id": "208",
 		"title": "Stáří nálezů se dá odhadnout podle rozpadu uhlíku",
 		"content": "<p>Jak zjistit, kolik je let kusu dřeva nebo kosti, u kterých nemáme žádný písemný záznam?</p><p>Odpověď nabízí <strong>radiouhlíkové datování</strong>, metoda vyvinutá v 40. letech 20. století americkým chemikem Willardem Libbym.</p><p>V atmosféře neustále vzniká nepatrné množství radioaktivního uhlíku 14C, který se dostává do živých organismů. Po smrti příjem ustane a obsah izotopu se snižuje podle poločasu rozpadu přibližně 5 700 let.</p><p>Z poměru izotopů ve vzorku lze proto odhadnout dobu, která uplynula od smrti organismu, zhruba do stáří několika desítek tisíc let.</p><p>Metoda vyžaduje kalibraci, protože obsah izotopu v atmosféře nebyl v čase stálý. Za její objev získal Libby v roce 1960 Nobelovu cenu za chemii.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Nobel Prize – Willard F. Libby",
@@ -3331,7 +3331,7 @@
 		"id": "209",
 		"title": "Bakteriální obrana proti virům se stala nástrojem na úpravu genů",
 		"content": "<p>Bakterie se brání virům tím, že si ukládají kousky jejich genetického kódu a podle nich pak cizí DNA rozpoznají a rozstřihnou.</p><p>Tento systém, označovaný jako <strong>CRISPR</strong>, popsaly badatelky Emmanuelle Charpentierová a Jennifer Doudnaová v roce 2012 jako programovatelný nástroj. Ukázaly, že navedením krátké vodicí molekuly lze střih zacílit prakticky na libovolné místo v genomu.</p><p>Tím se úprava genů zlevnila a zrychlila natolik, že se rozšířila do běžných laboratoří.</p><p>V roce 2020 obě vědkyně získaly Nobelovu cenu za chemii.</p><p>Technologie otevřela cestu k léčbě dědičných chorob i k debatě o tom, kde jsou hranice zásahů do lidského dědictví.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobel Prize – Chemistry 2020",
@@ -3347,7 +3347,7 @@
 		"id": "210",
 		"title": "Kostra z Etiopie ukázala, že chůze přišla dřív než velký mozek",
 		"content": "<p>Dlouho se předpokládalo, že u lidských předků se nejdřív zvětšil mozek a teprve pak se narovnalo tělo. Nález z roku 1974 ukázal opak.</p><p>V etiopské oblasti Hadar byla objevena částečná kostra samice druhu <em>Australopithecus afarensis</em>, stará zhruba 3,2 milionu let, známá jako <strong>Lucy</strong>.</p><p>Stavba pánve a kolena prozradila, že tvor chodil po dvou. Objem mozkovny přitom zůstával blízko úrovni dnešních lidoopů.</p><p>Vzpřímená chůze tedy vznikla podstatně dřív než velký mozek i než výroba složitých nástrojů.</p><p>Nález doplnily stopy z lokality Laetoli v Tanzanii, otištěné v sopečném popelu, které vzpřímenou chůzi potvrzují nezávisle.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Smithsonian – Australopithecus afarensis",
@@ -3539,7 +3539,7 @@
 		"id": "222",
 		"title": "Vrstva vzácného kovu v horninách prozradila dopad asteroidu",
 		"content": "<p>Po celém světě se v horninách z rozhraní křídy a paleogénu objevuje tenká vrstva bohatá na iridium, prvek na Zemi vzácný, zato běžný v tělesech ze sluneční soustavy.</p><p>V roce 1980 na tuto anomálii upozornil tým Luise a Waltera Alvarezových a vyložil ji jako stopu po dopadu velkého tělesa před zhruba 66 miliony let.</p><p>Chyběl ale kráter. Ten byl identifikován v 90. letech pod poloostrovem Yucatán v Mexiku a dostal jméno <strong>Chicxulub</strong>.</p><p>Dopad vyvolal požáry, tsunami a hlavně zaclonění atmosféry prachem a aerosoly, což narušilo fotosyntézu. S ním končí éra neptačích dinosaurů.</p><p><em>Osud celé skupiny organismů se ukázal být zapsaný v pár centimetrech sedimentu.</em></p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Britannica – K-T extinction",

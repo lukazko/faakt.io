@@ -1,0 +1,512 @@
+[
+  {
+    "id": "897",
+    "source": 0,
+    "url": "https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/",
+    "resolved_url": "https://www.londonmuseum.org.uk/collections/london-stories/great-stink-of-1858/",
+    "status": 200,
+    "bytes": 187301,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "897",
+    "source": 1,
+    "url": "https://historicengland.org.uk/images-books/archive/collections/photographs/the-great-stink/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "898",
+    "source": 0,
+    "url": "https://history.state.gov/milestones/1945-1952/berlin-airlift",
+    "resolved_url": "https://history.state.gov/milestones/1945-1952/berlin-airlift",
+    "status": 200,
+    "bytes": 34662,
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "id": "898",
+    "source": 1,
+    "url": "https://www.nationalmuseum.af.mil/Visit/Museum-Exhibits/Fact-Sheets/Display/Article/197518/berlin-city-held-hostage/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "899",
+    "source": 0,
+    "url": "https://www.amrevmuseum.org/the-declaration-around-the-world-haiti",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "899",
+    "source": 1,
+    "url": "https://history.state.gov/milestones/1784-1800/haitian-rev/1000",
+    "resolved_url": "https://history.state.gov/milestones/1784-1800/haitian-rev/1000",
+    "status": 200,
+    "bytes": 30676,
+    "content_type": "text/html;charset=utf-8"
+  },
+  {
+    "id": "900",
+    "source": 0,
+    "url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+    "resolved_url": "https://plato.stanford.edu/entries/qualia-knowledge/",
+    "status": 200,
+    "bytes": 127820,
+    "content_type": "text/html"
+  },
+  {
+    "id": "900",
+    "source": 1,
+    "url": "https://iep.utm.edu/know-arg/",
+    "resolved_url": "https://iep.utm.edu/know-arg/",
+    "status": 200,
+    "bytes": 76369,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "901",
+    "source": 0,
+    "url": "https://plato.stanford.edu/entries/well-being/",
+    "resolved_url": "https://plato.stanford.edu/entries/well-being/",
+    "status": 200,
+    "bytes": 76770,
+    "content_type": "text/html"
+  },
+  {
+    "id": "901",
+    "source": 1,
+    "url": "https://iep.utm.edu/experience-machine/",
+    "resolved_url": "https://iep.utm.edu/experience-machine/",
+    "status": 200,
+    "bytes": 82774,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "902",
+    "source": 0,
+    "url": "https://www.rutgers.edu/news/solar-powered-sea-slugs-shed-light-search-perpetual-green-energy",
+    "resolved_url": "https://www.rutgers.edu/news/solar-powered-sea-slugs-shed-light-search-perpetual-green-energy",
+    "status": 200,
+    "bytes": 138294,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "902",
+    "source": 1,
+    "url": "https://mplab-kleptoslug.com/kleptoslug/",
+    "resolved_url": "https://mplab-kleptoslug.com/kleptoslug/",
+    "status": 200,
+    "bytes": 63293,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "903",
+    "source": 0,
+    "url": "https://www.nps.gov/dena/learn/nature/amphibians.htm",
+    "resolved_url": "https://www.nps.gov/dena/learn/nature/amphibians.htm",
+    "status": 200,
+    "bytes": 55386,
+    "content_type": "text/html;charset=UTF-8"
+  },
+  {
+    "id": "903",
+    "source": 1,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/27327184/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/27327184/",
+    "status": 200,
+    "bytes": 5590,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "904",
+    "source": 0,
+    "url": "https://www.nhm.ac.uk/discover/how-much-slime-can-a-hagfish-make.html",
+    "resolved_url": "https://www.nhm.ac.uk/discover/how-much-slime-can-a-hagfish-make.html",
+    "status": 200,
+    "bytes": 299980,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "904",
+    "source": 1,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/16326943/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/16326943/",
+    "status": 200,
+    "bytes": 5590,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "905",
+    "source": 0,
+    "url": "https://www.vam.ac.uk/articles/cameraless-photography",
+    "resolved_url": "https://www.vam.ac.uk/articles/cameraless-photography",
+    "status": 200,
+    "bytes": 116996,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "905",
+    "source": 1,
+    "url": "https://www.metmuseum.org/art/collection/search/286656",
+    "error": "HTTP Error 429: Too Many Requests"
+  },
+  {
+    "id": "906",
+    "source": 0,
+    "url": "https://www.nga.gov/artworks/131285-ghost",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "906",
+    "source": 1,
+    "url": "https://gagosian.com/quarterly/2022/10/31/interview-rachel-whiteread-shy-sculpture/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "907",
+    "source": 0,
+    "url": "https://www.laurencesternetrust.org.uk/collection-highlights-categories/the-black-page/",
+    "resolved_url": "https://www.laurencesternetrust.org.uk/collection-highlights-categories/the-black-page/",
+    "status": 200,
+    "bytes": 57852,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "907",
+    "source": 1,
+    "url": "https://www.laurencesternetrust.org.uk/sterne/tristram-shandy/",
+    "resolved_url": "https://www.laurencesternetrust.org.uk/sterne/tristram-shandy/",
+    "status": 200,
+    "bytes": 76339,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "908",
+    "source": 0,
+    "url": "https://libguides.tulane.edu/c.php?g=1544262&p=11577787",
+    "resolved_url": "https://libguides.tulane.edu/c.php?g=1544262&p=11577787",
+    "status": 200,
+    "bytes": 36397,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "908",
+    "source": 1,
+    "url": "https://theses.gla.ac.uk/3022/1/2006alexandermphil.pdf",
+    "resolved_url": "https://theses.gla.ac.uk/3022/1/2006alexandermphil.pdf",
+    "status": 200,
+    "bytes": 2049013,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "909",
+    "source": 0,
+    "url": "https://museumday.epigraphicmuseum.gr/en",
+    "resolved_url": "https://museumday.epigraphicmuseum.gr/en",
+    "status": 200,
+    "bytes": 139042,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "909",
+    "source": 1,
+    "url": "https://www.athens-agora.gr/project/index.php?lang_id=en&sid=14&view=page",
+    "resolved_url": "https://www.athens-agora.gr/project/index.php?lang_id=en&sid=14&view=page",
+    "status": 200,
+    "bytes": 13568,
+    "content_type": "text/html"
+  },
+  {
+    "id": "910",
+    "source": 0,
+    "url": "https://www.legislation.govt.nz/act/public/2017/7/en/latest.pdf",
+    "resolved_url": "https://www.legislation.govt.nz/act/public/2017/7/en/latest.pdf",
+    "status": 200,
+    "bytes": 0,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "910",
+    "source": 1,
+    "url": "https://www.tepoutupua.nz/teawatupua",
+    "resolved_url": "https://www.tepoutupua.nz/teawatupua",
+    "status": 200,
+    "bytes": 713934,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "911",
+    "source": 0,
+    "url": "https://periodic-table.rsc.org/element/31/Gallium",
+    "resolved_url": "https://periodic-table.rsc.org/element/31/Gallium",
+    "status": 200,
+    "bytes": 155689,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "911",
+    "source": 1,
+    "url": "https://online.cctt.org/physicslab/content/phyapb/lessonnotes/dualnature/PeriodicWebSite.pdf",
+    "resolved_url": "https://www.physicslab.org/",
+    "status": 200,
+    "bytes": 18005,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "912",
+    "source": 0,
+    "url": "https://www.nist.gov/pml/owm/si-units-temperature",
+    "resolved_url": "https://www.nist.gov/pml/owm/si-units-temperature",
+    "status": 200,
+    "bytes": 126798,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "912",
+    "source": 1,
+    "url": "https://www.nist.gov/si-redefinition/kelvin/kelvin-present-realization",
+    "resolved_url": "https://www.nist.gov/si-redefinition/kelvin/kelvin-present-realization",
+    "status": 200,
+    "bytes": 94955,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "913",
+    "source": 0,
+    "url": "https://www.nist.gov/pml/sensor-science/fluid-metrology/database-thermophysical-properties-gases-used-semiconductor-4",
+    "resolved_url": "https://www.nist.gov/pml/sensor-science/fluid-metrology/database-thermophysical-properties-gases-used-semiconductor-4",
+    "status": 200,
+    "bytes": 104083,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "913",
+    "source": 1,
+    "url": "https://www.acs.org/content/dam/acsorg/greenchemistry/education/chemistry-demonstrations.pdf",
+    "resolved_url": "https://www.acs.org/content/dam/acsorg/greenchemistry/education/chemistry-demonstrations.pdf",
+    "status": 200,
+    "bytes": 954,
+    "content_type": "text/html"
+  },
+  {
+    "id": "914",
+    "source": 0,
+    "url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+    "resolved_url": "https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html",
+    "status": 200,
+    "bytes": 10558,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "914",
+    "source": 1,
+    "url": "https://spaceplace.nasa.gov/all-about-venus/en/",
+    "resolved_url": "https://spaceplace.nasa.gov/all-about-venus/en/",
+    "status": 200,
+    "bytes": 22162,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "915",
+    "source": 0,
+    "url": "https://science.nasa.gov/missions/cassini/hydrothermal-activity/",
+    "resolved_url": "https://science.nasa.gov/missions/cassini/hydrothermal-activity/",
+    "status": 200,
+    "bytes": 299432,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "915",
+    "source": 1,
+    "url": "https://www.nasa.gov/missions/cassini/nasa-cassini-data-reveals-building-block-for-life-in-enceladus-ocean/",
+    "resolved_url": "https://www.nasa.gov/missions/cassini/nasa-cassini-data-reveals-building-block-for-life-in-enceladus-ocean/",
+    "status": 200,
+    "bytes": 304264,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "916",
+    "source": 0,
+    "url": "https://iea.blob.core.windows.net/assets/28f84ed8-4101-4e95-ae51-9536b6436f14/Multiple_Benefits_of_Energy_Efficiency-148x199.pdf",
+    "resolved_url": "https://iea.blob.core.windows.net/assets/28f84ed8-4101-4e95-ae51-9536b6436f14/Multiple_Benefits_of_Energy_Efficiency-148x199.pdf",
+    "status": 200,
+    "bytes": 5447447,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "916",
+    "source": 1,
+    "url": "https://www.gov.uk/government/publications/industrial-energy-and-resource-efficiency-rebound-effects",
+    "resolved_url": "https://www.gov.uk/government/publications/industrial-energy-and-resource-efficiency-rebound-effects",
+    "status": 200,
+    "bytes": 68092,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "917",
+    "source": 0,
+    "url": "https://www.nobelprize.org/uploads/2020/09/popular-economicsciencesprize2020.pdf",
+    "resolved_url": "https://www.nobelprize.org/uploads/2020/09/popular-economicsciencesprize2020.pdf",
+    "status": 200,
+    "bytes": 736832,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "917",
+    "source": 1,
+    "url": "https://www.nobelprize.org/uploads/2020/09/advanced-economicsciencesprize2020.pdf",
+    "resolved_url": "https://www.nobelprize.org/uploads/2020/09/advanced-economicsciencesprize2020.pdf",
+    "status": 200,
+    "bytes": 441550,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "918",
+    "source": 0,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1500880/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/1500880/",
+    "status": 200,
+    "bytes": 5590,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "918",
+    "source": 1,
+    "url": "https://www.scholarpedia.org/article/Attentional_blink",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)>"
+  },
+  {
+    "id": "919",
+    "source": 0,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/1012311/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/1012311/",
+    "status": 200,
+    "bytes": 5590,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "919",
+    "source": 1,
+    "url": "https://pubmed.ncbi.nlm.nih.gov/31264593/",
+    "resolved_url": "https://pubmed.ncbi.nlm.nih.gov/31264593/",
+    "status": 200,
+    "bytes": 5590,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "920",
+    "source": 0,
+    "url": "https://www.loc.gov/preservation/care/film",
+    "resolved_url": "https://www.loc.gov/preservation/care/film",
+    "status": 200,
+    "bytes": 21502,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "920",
+    "source": 1,
+    "url": "https://www.bfi.org.uk/features/all-about-nitrate-film",
+    "resolved_url": "https://www.bfi.org.uk/features/all-about-nitrate-film",
+    "status": 200,
+    "bytes": 280513,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "921",
+    "source": 0,
+    "url": "https://filmglossary.ccnmtl.columbia.edu/term/day-for-night/",
+    "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: self signed certificate in certificate chain (_ssl.c:1002)>"
+  },
+  {
+    "id": "921",
+    "source": 1,
+    "url": "https://normalexposure.com/day-for-night/",
+    "resolved_url": "https://normalexposure.com/day-for-night/",
+    "status": 200,
+    "bytes": 53626,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "922",
+    "source": 0,
+    "url": "https://sites.und.edu/timothy.prescott/apex/web/apex.Ch10.S1.html",
+    "resolved_url": "https://sites.und.edu/timothy.prescott/apex/web/apex.Ch10.S1.html",
+    "status": 200,
+    "bytes": 240417,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "922",
+    "source": 1,
+    "url": "https://www.engr.scu.edu/~dlewis/book3/labs/Lab9B.pdf",
+    "resolved_url": "https://www.engr.scu.edu/~dlewis/book3/labs/Lab9B.pdf",
+    "status": 200,
+    "bytes": 257808,
+    "content_type": "application/pdf"
+  },
+  {
+    "id": "923",
+    "source": 0,
+    "url": "https://www.microsoft.com/en-us/research/project/non-transitive-dice/",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "923",
+    "source": 1,
+    "url": "https://www.tandfonline.com/doi/full/10.1080/00029890.2021.1889921",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "924",
+    "source": 0,
+    "url": "https://airandspace.si.edu/stories/editorial/rope-mother-margaret-hamilton",
+    "resolved_url": "https://airandspace.si.edu/stories/editorial/rope-mother-margaret-hamilton",
+    "status": 200,
+    "bytes": 90570,
+    "content_type": "text/html; charset=utf-8"
+  },
+  {
+    "id": "924",
+    "source": 1,
+    "url": "https://www.computerhistory.org/storageengine/bubbles-ccds-other-forgotten-memories/",
+    "resolved_url": "https://www.computerhistory.org/storageengine/bubbles-ccds-other-forgotten-memories/",
+    "status": 200,
+    "bytes": 30736,
+    "content_type": "text/html"
+  },
+  {
+    "id": "925",
+    "source": 0,
+    "url": "https://www.rfc-editor.org/rfc/rfc5681.html",
+    "resolved_url": "https://www.rfc-editor.org/rfc/rfc5681.html",
+    "status": 200,
+    "bytes": 58144,
+    "content_type": "text/html"
+  },
+  {
+    "id": "925",
+    "source": 1,
+    "url": "https://www.rfc-editor.org/rfc/rfc2001.html",
+    "resolved_url": "https://www.rfc-editor.org/rfc/rfc2001.html",
+    "status": 200,
+    "bytes": 15501,
+    "content_type": "text/html"
+  },
+  {
+    "id": "926",
+    "source": 0,
+    "url": "https://www.qrcode.com/en/history/",
+    "resolved_url": "https://www.qrcode.com/en/history/",
+    "status": 200,
+    "bytes": 19453,
+    "content_type": "text/html; charset=UTF-8"
+  },
+  {
+    "id": "926",
+    "source": 1,
+    "url": "https://www.denso-wave.com/en/technology/vol1.html?version=published",
+    "resolved_url": "https://www.denso-wave.com/en/technology/vol1.html?version=published",
+    "status": 200,
+    "bytes": 65124,
+    "content_type": "text/html; charset=UTF-8"
+  }
+]

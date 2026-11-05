@@ -75,7 +75,11 @@ Význam článku popisují čtyři logické atributy `idea`, `point`, `tags`, `t
 Před generováním spusť `python scripts/post-knowledge.py status`, přečti celý kompaktní katalog přes stránkovaný `catalog` a vyhledej související texty přes `search`. Celé články znovu čti jen u neověřených, změněných a blízkých případů; platný významový index nahrazuje opakované úplné čtení nezměněné databáze. Automatické hledání nenahrazuje sémantický verdikt. Nové pracovní návrhy obsahují navíc `knowledge`; nástroj `append` je po doložené kontrole rozdělí do článků a samostatných registrů. Používej řízené tagy, ne slova získaná pouze z ilustračního motivu.
 
 ## Kategorie
-`historie`, `filozofie`, `veda`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `zajimavost`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`
+`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`
+
+Zobrazované názvy: `politika` = **Společnost a politika**, `fyzika` = **Fyzika a chemie**, `pocitacove-vedy` = **Technologie**, `filmy` = **Kinematografie**. Původní slugy přejmenovaných kategorií zůstávají kvůli kompatibilitě odkazů. Platné kategorie určuje výhradně `src/lib/categories.js`; neznámý kategoriový filtr otevře smíšený feed.
+
+Zařazuj podle hlavního obsahu celého článku. Biologie zahrnuje organismy, genetiku, evoluci, fyziologii i nemoci, léčbu, prevenci, zdravotní výzkum a životosprávu. Fyzika a chemie zahrnuje neživou přírodu, chemické reakce, materiály i geofyzikální procesy. Technologie zahrnují informatiku, technické vynálezy a jejich fungování. Společnost a politika zahrnuje společenské normy, instituce, právo a vládnutí. Jazyk a znaky zůstávají podoborem Filozofie; literární a psychologické teorie již zařazené ve Filozofii se při této změně nepřesouvaly. Přesahy zachycují existující tagy, ne další kategorie.
 
 Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 

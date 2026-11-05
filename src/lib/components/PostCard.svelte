@@ -588,7 +588,7 @@
 		display: inline-flex;
 		outline: none;
 		align-items: center;
-		gap: 9px;
+		gap: 6px;
 		/* Stejná výška jako kruhové tlačítko akcí — středy obou tlačítek
 		   tak leží v jedné ose. */
 		min-height: 42px;
@@ -615,7 +615,7 @@
 
 	.flip-icon {
 		flex: none;
-		stroke-width: 2.5;
+		stroke-width: 2.2;
 		width: 1em;
 		height: 1em;
 		position: relative;

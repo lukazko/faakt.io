@@ -1,0 +1,3137 @@
+{
+  "version": 1,
+  "ideas": {
+    "idea-1": {
+      "point": "Když všichni současně omezí spotřebu a více spoří, pokles příjmů může snížit celkové úspory společnosti.",
+      "type": "principle"
+    },
+    "idea-2": {
+      "point": "Milgramův experiment ukázal, že autorita může přimět běžné lidi pokračovat v jednání, které ubližuje druhým.",
+      "type": "principle"
+    },
+    "idea-3": {
+      "point": "Konečná rychlost světla znamená, že vzdálené objekty pozorujeme v jejich minulosti.",
+      "type": "principle"
+    },
+    "idea-4": {
+      "point": "Van Goghův příběh staví malé uznání a omezený prodej za života proti pozdější celosvětové slávě.",
+      "type": "work"
+    },
+    "idea-5": {
+      "point": "Schrödingerova kočka ukazuje problém přenosu kvantové superpozice do světa běžných pozorovaných výsledků.",
+      "type": "theory"
+    },
+    "idea-6": {
+      "point": "Konfuciova reciprocita posuzuje jednání k druhým podle toho, co bychom sami nechtěli zakoušet.",
+      "type": "theory"
+    },
+    "idea-7": {
+      "point": "Pražská defenestrace roku 1618 zahájila konflikt, který se rozrostl ve třicetiletou válku.",
+      "type": "event"
+    },
+    "idea-8": {
+      "point": "Smithova neviditelná ruka vysvětluje, jak může sledování vlastního zájmu za určitých podmínek přispět ke společnému prospěchu.",
+      "type": "theory"
+    },
+    "idea-9": {
+      "point": "Rozpor mezi přesvědčením a jednáním může člověk zmírňovat změnou vlastního postoje místo přijetí nepříjemného rozporu.",
+      "type": "principle"
+    },
+    "idea-10": {
+      "point": "Mendělejev uspořádal prvky podle opakujících se vlastností a předpověděl dosud neobjevené prvky.",
+      "type": "discovery"
+    },
+    "idea-11": {
+      "point": "Picassova Guernica proměnila bombardování města v obraz násilí páchaného válkou na civilistech.",
+      "type": "work"
+    },
+    "idea-12": {
+      "point": "Heisenbergův princip omezuje současnou určitost polohy a hybnosti jako vlastnost kvantového stavu, nikoli chybu přístrojů.",
+      "type": "principle"
+    },
+    "idea-13": {
+      "point": "Magna Carta představovala omezení královské moci právy a pravidly prosazenými částí poddaných.",
+      "type": "event"
+    },
+    "idea-14": {
+      "point": "Síť Event Horizon Telescope spojila měření radioteleskopů a vytvořila obraz zářícího okolí a stínu černé díry M87.",
+      "type": "discovery"
+    },
+    "idea-15": {
+      "point": "Max Brod neuposlechl Kafkovo přání zničit rukopisy, a zachoval tak mimo jiné román Proces.",
+      "type": "event"
+    },
+    "idea-16": {
+      "point": "Pythagorejská tradice spojovala číselné poměry hudebních souzvuků s představou řádu celého světa.",
+      "type": "theory"
+    },
+    "idea-17": {
+      "point": "Aristotelova ctnost hledá přiměřený střed mezi krajnostmi podle situace, nikoli mechanický průměr.",
+      "type": "theory"
+    },
+    "idea-18": {
+      "point": "Wu wei doporučuje jednat v souladu s povahou situace bez násilného vynucování výsledku.",
+      "type": "theory"
+    },
+    "idea-19": {
+      "point": "Dobytí Konstantinopole Osmany roku 1453 ukončilo byzantskou říši a proměnilo politické poměry oblasti.",
+      "type": "event"
+    },
+    "idea-20": {
+      "point": "Výmarská hyperinflace znehodnotila německé peníze a narušila úspory i každodenní hospodářský život.",
+      "type": "event"
+    },
+    "idea-21": {
+      "point": "První výrazná informace nebo číslo ovlivňuje pozdější odhady i tehdy, když pro ně není dobrým vodítkem.",
+      "type": "principle"
+    },
+    "idea-22": {
+      "point": "Rentgenová difrakční data Rosalind Franklinové pomohla odhalit strukturu DNA, ale její podíl byl dlouho podceňován.",
+      "type": "discovery"
+    },
+    "idea-23": {
+      "point": "Dvě tělesa na sebe působí současně stejně velkými silami opačného směru.",
+      "type": "principle"
+    },
+    "idea-24": {
+      "point": "Kepler nahradil přesné kruhové dráhy planet elipsami a popsal jejich pohyb třemi zákony.",
+      "type": "discovery"
+    },
+    "idea-26": {
+      "point": "Hérakleitův obraz řeky chápe svět jako nepřetržitou proměnu, v níž nelze zachovat úplně stejný stav.",
+      "type": "theory"
+    },
+    "idea-27": {
+      "point": "Sókratovská moudrost začíná uvědoměním vlastní nevědomosti namísto neprověřené jistoty.",
+      "type": "theory"
+    },
+    "idea-28": {
+      "point": "Čtyři vznešené pravdy spojují utrpení s lpěním a ukazují cestu k jeho zmírnění.",
+      "type": "theory"
+    },
+    "idea-29": {
+      "point": "Rosettská deska se souběžnými texty umožnila rozluštění egyptských hieroglyfů.",
+      "type": "discovery"
+    },
+    "idea-30": {
+      "point": "Nákladem volby je také hodnota nejlepší možnosti, které se kvůli ní vzdáme.",
+      "type": "principle"
+    },
+    "idea-31": {
+      "point": "Jungův stín označuje odmítané části vlastní osobnosti, jejichž nepřiznání může ovlivňovat jednání vůči druhým.",
+      "type": "theory"
+    },
+    "idea-32": {
+      "point": "Flemingovo pozorování plísně potlačující bakterie vedlo k objevu penicilinu a rozvoji antibiotik.",
+      "type": "discovery"
+    },
+    "idea-33": {
+      "point": "Michelangelova výmalba stropu Sixtinské kaple spojila náročnou freskovou techniku s rozsáhlou biblickou kompozicí.",
+      "type": "work"
+    },
+    "idea-34": {
+      "point": "Rychlost světla ve vakuu je mezí šíření informace a nelze jí urychlením dosáhnout u těles s nenulovou klidovou hmotností.",
+      "type": "principle"
+    },
+    "idea-35": {
+      "point": "Athénská demokracie přiznávala politické rozhodování jen mužským občanům a vylučovala většinu obyvatel.",
+      "type": "principle"
+    },
+    "idea-36": {
+      "point": "Antický atomismus vysvětloval rozmanitost a změny světa pohybem nedělitelných částic v prázdnu.",
+      "type": "theory"
+    },
+    "idea-37": {
+      "point": "Epikúros odmítá strach ze smrti, protože smrt není prožitkem žijícího člověka.",
+      "type": "theory"
+    },
+    "idea-38": {
+      "point": "Vztlaková síla odpovídá tíze vytlačené kapaliny a umožňuje porovnávat objem a hustotu těles.",
+      "type": "principle"
+    },
+    "idea-39": {
+      "point": "Objev téměř neporušené Tutanchamonovy hrobky poskytl mimořádný soubor dokladů o starověkém Egyptě.",
+      "type": "discovery"
+    },
+    "idea-40": {
+      "point": "Keynesovský přístup doporučuje během propadu poptávky podpořit hospodářství veřejnými výdaji i za cenu deficitu.",
+      "type": "theory"
+    },
+    "idea-41": {
+      "point": "Lidé přednostně vyhledávají a přijímají informace potvrzující dosavadní přesvědčení.",
+      "type": "principle"
+    },
+    "idea-42": {
+      "point": "Lavoisierovo vysvětlení hoření pomocí kyslíku nahradilo flogistonovou teorii a změnilo chemii.",
+      "type": "discovery"
+    },
+    "idea-43": {
+      "point": "Sagrada Família je dlouhodobě budovaná stavba, jejíž realizace pokračuje i po smrti jejího hlavního architekta.",
+      "type": "work"
+    },
+    "idea-44": {
+      "point": "Objev 51 Pegasi b doložil planetu u hvězdy podobné Slunci a ukázal nečekaně těsnou dráhu plynného obra.",
+      "type": "discovery"
+    },
+    "idea-47": {
+      "point": "Platónova jeskyně rozlišuje navyklý svět zdání od obtížného poznání jeho příčin.",
+      "type": "theory"
+    },
+    "idea-48": {
+      "point": "Seneca upozorňuje, že člověka často více trápí představované budoucí utrpení než skutečná přítomná událost.",
+      "type": "theory"
+    },
+    "idea-49": {
+      "point": "Úbytek obyvatel po černé smrti změnil poměr práce a půdy a posílil vyjednávací postavení přeživších pracovníků.",
+      "type": "event"
+    },
+    "idea-53": {
+      "point": "Gödelova neúplnost ukazuje, že dostatečně silný bezesporný formální systém nemůže dokázat všechny aritmetické pravdy.",
+      "type": "principle"
+    },
+    "idea-55": {
+      "point": "Turingův test posuzuje stroj podle nerozlišitelnosti jeho konverzace od lidské, nikoli přímým měřením vědomí.",
+      "type": "principle"
+    },
+    "idea-59": {
+      "point": "Gutenbergův knihtisk s pohyblivými literami výrazně zlevnil a rozšířil výrobu knih v Evropě.",
+      "type": "event"
+    },
+    "idea-60": {
+      "point": "Monetaristický pohled spojuje dlouhodobou inflaci s růstem množství peněz rychlejším než reálná produkce.",
+      "type": "theory"
+    },
+    "idea-61": {
+      "point": "Omezená dovednost může současně zhoršovat výkon i schopnost přesně posoudit vlastní chyby.",
+      "type": "principle"
+    },
+    "idea-62": {
+      "point": "Růst entropie v izolované soustavě poskytuje fyzikální rozlišení směru běžných nevratných dějů.",
+      "type": "principle"
+    },
+    "idea-64": {
+      "point": "Halley spojil různá pozorování komety s jediným periodickým tělesem a předpověděl jeho návrat.",
+      "type": "discovery"
+    },
+    "idea-65": {
+      "point": "Ada Lovelaceová popsala výpočetní postup pro analytický stroj a možnost zpracovávat i jiné symboly než samotná čísla.",
+      "type": "discovery"
+    },
+    "idea-66": {
+      "point": "Sókratovské otázky prověřují předpoklady a odhalují rozpory místo pouhého předávání hotových odpovědí.",
+      "type": "principle"
+    },
+    "idea-70": {
+      "point": "Při nuceném stejném kurzu lidé utrácejí méně hodnotné peníze a hodnotnější si ponechávají.",
+      "type": "principle"
+    },
+    "idea-71": {
+      "point": "Stanfordský vězeňský experiment byl vykládán jako ukázka vlivu situace a přidělených rolí na chování účastníků.",
+      "type": "principle"
+    },
+    "idea-72": {
+      "point": "Mendelovy pokusy s hrachem ukázaly diskrétní přenos dědičných znaků místo prostého mísení vlastností.",
+      "type": "discovery"
+    },
+    "idea-75": {
+      "point": "Můra nalezená v relé se stala známým příběhem počítačové chyby, přestože označení bug existovalo už dříve.",
+      "type": "event"
+    },
+    "idea-76": {
+      "point": "Zenónův Achilles ukazuje zdánlivý rozpor mezi nekonečným dělením dráhy a možností dokončit pohyb.",
+      "type": "theory"
+    },
+    "idea-83": {
+      "point": "Beethoven vytvořil Devátou symfonii i přes pokročilou hluchotu a rozšířil symfonickou formu o sbor.",
+      "type": "work"
+    },
+    "idea-84": {
+      "point": "Rømer odvodil konečnou rychlost světla z rozdílů v pozorovaném čase zatmění Jupiterova měsíce.",
+      "type": "discovery"
+    },
+    "idea-85": {
+      "point": "Koperníkovo zveřejnění heliocentrického modelu přesunulo Zemi mezi planety obíhající Slunce.",
+      "type": "event"
+    },
+    "idea-86": {
+      "point": "Stoické rozlišení vlastního úsudku od neovladatelných okolností hledá duševní klid v práci s vlastními reakcemi.",
+      "type": "theory"
+    },
+    "idea-87": {
+      "point": "Diogenův kynismus hledá svobodu v omezení potřeb a nezávislosti na společenských poctách.",
+      "type": "theory"
+    },
+    "idea-92": {
+      "point": "Obchod může prospívat oběma stranám, když se specializují podle relativních nákladů i při rozdílné celkové výkonnosti.",
+      "type": "principle"
+    },
+    "idea-93": {
+      "point": "Očekávání a kontext léčby mohou měnit příznaky i bez specifického účinku podané látky.",
+      "type": "principle"
+    },
+    "idea-101": {
+      "point": "Schliemannovy nálezy pomohly hledání Tróje, ale slavný poklad časově neodpovídal jím předpokládané homérské vrstvě.",
+      "type": "discovery"
+    },
+    "idea-103": {
+      "point": "Seneca chápe čas jako omezený majetek, který lidé často rozdávají méně obezřetně než peníze.",
+      "type": "theory"
+    },
+    "idea-109": {
+      "point": "Čuang-cův motýlí sen zpochybňuje jistotu, z níž odlišujeme vlastní identitu a bdělou skutečnost od snu.",
+      "type": "theory"
+    },
+    "idea-112": {
+      "point": "Společné zdroje mohou být přetěžovány, ale Ostromová ukázala, že uživatelé mohou vytvářet účinná pravidla jejich správy.",
+      "type": "theory"
+    },
+    "idea-113": {
+      "point": "Marie Curieová získala Nobelovy ceny ve fyzice a chemii za výzkum radioaktivity a radioaktivních prvků.",
+      "type": "discovery"
+    },
+    "idea-114": {
+      "point": "Thomsonův elektron ukázal, že atom obsahuje menší záporně nabité částice.",
+      "type": "discovery"
+    },
+    "idea-115": {
+      "point": "Apollo 11 uskutečnilo první přistání lidí na Měsíci a návrat posádky na Zemi.",
+      "type": "event"
+    },
+    "idea-116": {
+      "point": "Andrew Wiles dokázal Fermatovu velkou větu propojením problému s moderní teorií eliptických křivek.",
+      "type": "discovery"
+    },
+    "idea-117": {
+      "point": "Berners-Lee spojil hypertext s internetem a vytvořil základ webu pro propojování dokumentů.",
+      "type": "discovery"
+    },
+    "idea-118": {
+      "point": "Marshallův plán podporoval poválečnou evropskou obnovu hospodářskou pomocí a politickou spoluprací.",
+      "type": "event"
+    },
+    "idea-119": {
+      "point": "Pavlovovo podmiňování ukazuje, že opakovaně spojený podnět může sám vyvolat dříve nepodmíněnou reakci.",
+      "type": "principle"
+    },
+    "idea-120": {
+      "point": "Krádež Mony Lisy a následná publicita posílily její celosvětovou známost.",
+      "type": "event"
+    },
+    "idea-121": {
+      "point": "Don Quijote poměřuje běžnou skutečnost rytířskými příběhy a odhaluje napětí mezi představou a okolním světem.",
+      "type": "work"
+    },
+    "idea-122": {
+      "point": "Descartovo cogito hledá jistotu v samotném aktu pochybování a myšlení.",
+      "type": "theory"
+    },
+    "idea-123": {
+      "point": "Dobytí Bastily se stalo symbolem pádu královské autority na začátku Francouzské revoluce.",
+      "type": "event"
+    },
+    "idea-124": {
+      "point": "Nízký obsah dostupné vody a kyselé prostředí medu omezují růst mikroorganismů a podporují jeho trvanlivost.",
+      "type": "principle"
+    },
+    "idea-125": {
+      "point": "Michelsonův–Morleyův experiment nezjistil očekávaný pohyb Země vůči světelnému éteru.",
+      "type": "discovery"
+    },
+    "idea-126": {
+      "point": "Vzdálenější galaxie se v průměru vzdalují rychleji, což podporuje popis rozpínajícího se vesmíru.",
+      "type": "discovery"
+    },
+    "idea-127": {
+      "point": "Kolumbova plavba vycházela z chybného odhadu cesty do Asie a otevřela evropskou kolonizaci Ameriky.",
+      "type": "event"
+    },
+    "idea-128": {
+      "point": "Burzovní krach roku 1929 se stal symbolem zhroucení spekulativních očekávání a počátku hospodářské krize.",
+      "type": "event"
+    },
+    "idea-129": {
+      "point": "Pokus s malým Albertem měl ukázat naučení strachu spojením původně neutrálního podnětu s nepříjemným zážitkem.",
+      "type": "principle"
+    },
+    "idea-130": {
+      "point": "Dalího měkké hodiny v obraze Persistence paměti narušují běžnou představu pevných předmětů a času.",
+      "type": "work"
+    },
+    "idea-131": {
+      "point": "Orwellův román 1984 varuje před totalitní kontrolou myšlení, sledováním a přepisováním minulosti.",
+      "type": "work"
+    },
+    "idea-132": {
+      "point": "Nietzscheho smrt Boha pojmenovává ztrátu samozřejmé autority tradičních hodnot a problém jejich nového zdůvodnění.",
+      "type": "theory"
+    },
+    "idea-133": {
+      "point": "Eukleidova axiomatická metoda buduje geometrická tvrzení z výslovných předpokladů a důkazů.",
+      "type": "principle"
+    },
+    "idea-134": {
+      "point": "Turingova práce na britské Bombě pomáhala hledat nastavení Enigmy a využívat zachycené šifrované zprávy.",
+      "type": "discovery"
+    },
+    "idea-135": {
+      "point": "Pád Berlínské zdi roku 1989 proměnil rozdělení Německa a stal se symbolem konce studené války.",
+      "type": "event"
+    },
+    "idea-136": {
+      "point": "Tepelná roztažnost mění délku kovových konstrukcí, takže se mění i výška Eiffelovy věže.",
+      "type": "principle"
+    },
+    "idea-137": {
+      "point": "Objev a léčebné použití inzulinu změnily diabetes z rychle smrtelné nemoci v dlouhodobě léčitelný stav.",
+      "type": "discovery"
+    },
+    "idea-138": {
+      "point": "Rutherfordův rozptylový pokus ukázal malé husté kladné jádro uvnitř převážně prázdného atomu.",
+      "type": "discovery"
+    },
+    "idea-139": {
+      "point": "Překlasifikování Pluta ukazuje, že příslušnost k planetám závisí na dohodnuté odborné definici a dynamickém okolí tělesa.",
+      "type": "event"
+    },
+    "idea-140": {
+      "point": "Rok 476 je užitečným symbolem pádu západořímské říše, ale její proměna byla dlouhodobým procesem.",
+      "type": "principle"
+    },
+    "idea-141": {
+      "point": "Brettonwoodský systém spojil měnové kurzy s dolarem a dolar se zlatem jako základ poválečného měnového uspořádání.",
+      "type": "event"
+    },
+    "idea-142": {
+      "point": "Přítomnost více svědků může snížit ochotu jednotlivce pomoci rozptýlením odpovědnosti a nejistotou o situaci.",
+      "type": "principle"
+    },
+    "idea-143": {
+      "point": "Rembrandtova Noční hlídka nezobrazuje noční scénu; tmavý vzhled a název souvisely s pozdějším stavem obrazu.",
+      "type": "work"
+    },
+    "idea-144": {
+      "point": "Homérské eposy vycházejí z ústní tradice, která používala opakující se formule k předávání rozsáhlých příběhů.",
+      "type": "work"
+    },
+    "idea-145": {
+      "point": "Lockova tabula rasa odmítá vrozené hotové ideje a zdůrazňuje zkušenost při utváření poznání.",
+      "type": "theory"
+    },
+    "idea-146": {
+      "point": "Indická matematika rozvinula nulu jako číslo i prvek pozičního zápisu a umožnila účinnější početní postupy.",
+      "type": "discovery"
+    },
+    "idea-147": {
+      "point": "Programování ENIACu vyžadovalo zapojování a nastavování hardwaru místo dnešního běžného načítání programu z paměti.",
+      "type": "event"
+    },
+    "idea-148": {
+      "point": "Mélièsova Cesta na Měsíc využila filmové triky k inscenované fantazii místo pouhého záznamu skutečnosti.",
+      "type": "work"
+    },
+    "idea-149": {
+      "point": "Jazzový zpěvák se stal mezníkem nástupu synchronizované mluvené a zpívané složky v komerčním filmu.",
+      "type": "event"
+    },
+    "idea-150": {
+      "point": "Sprchová scéna Psycha vytváří dojem násilí rychlým střihem a zvukem místo souvislého explicitního zobrazení.",
+      "type": "work"
+    },
+    "idea-151": {
+      "point": "Botanické členění plodů podle vzniku se liší od kuchyňských názvů, takže banán je bobule a jahoda souplodí.",
+      "type": "principle"
+    },
+    "idea-152": {
+      "point": "Chobotnice mají tři srdce s rozdělenou úlohou při zásobování žaber a zbytku těla.",
+      "type": "principle"
+    },
+    "idea-153": {
+      "point": "Bellův telefon umožnil převést hlas na elektrický signál a přenášet jej na dálku.",
+      "type": "discovery"
+    },
+    "idea-154": {
+      "point": "Ochladíme-li rtuť pod kritickou teplotu, elektrický odpor přejde do supravodivého stavu.",
+      "type": "discovery"
+    },
+    "idea-155": {
+      "point": "Webbův dalekohled sleduje zejména infračervené záření, a proto může zkoumat chladné i velmi vzdálené objekty.",
+      "type": "principle"
+    },
+    "idea-156": {
+      "point": "Vylodění v Normandii otevřelo spojeneckou západní frontu a vyžadovalo rozsáhlou koordinaci sil i zásobování.",
+      "type": "event"
+    },
+    "idea-157": {
+      "point": "Smithova dělba práce zvyšuje produktivitu specializací, nácvikem a omezením přechodů mezi úkony.",
+      "type": "principle"
+    },
+    "idea-158": {
+      "point": "Harlowovy pokusy ukázaly význam tělesného kontaktu a pocitu bezpečí pro utváření vazby vedle samotného krmení.",
+      "type": "principle"
+    },
+    "idea-159": {
+      "point": "Leonardova experimentální technika Poslední večeře na suché zdi přispěla k její rychlé degradaci.",
+      "type": "work"
+    },
+    "idea-160": {
+      "point": "Dante napsal Božskou komedii v lidovém jazyce a pomohl posílit jeho literární postavení vedle latiny.",
+      "type": "work"
+    },
+    "idea-161": {
+      "point": "Arendtové banalita zla upozorňuje na účast běžného úředního myšlení a neochoty soudit na vykonávání zločinů.",
+      "type": "theory"
+    },
+    "idea-162": {
+      "point": "Odmocninu ze dvou nelze vyjádřit podílem dvou celých čísel, což lze ukázat sporem pomocí sudosti.",
+      "type": "principle"
+    },
+    "idea-163": {
+      "point": "Thalés hledal přírodní jednotící vysvětlení světa a za jeho základ pokládal vodu.",
+      "type": "theory"
+    },
+    "idea-164": {
+      "point": "Anaximandrovo apeiron chápe původ věcí jako neurčený základ přesahující jednotlivé známé látky.",
+      "type": "theory"
+    },
+    "idea-165": {
+      "point": "Parmenidés vyvozuje z nemožnosti nebytí závěr, že pravé jsoucno nemůže vznikat, zanikat ani se měnit.",
+      "type": "theory"
+    },
+    "idea-166": {
+      "point": "Empedoklés vysvětloval proměny mísením čtyř stálých kořenů působením spojujících a rozdělujících sil.",
+      "type": "theory"
+    },
+    "idea-167": {
+      "point": "Protágorův člověk jako míra věcí spojuje pravdivost nebo hodnocení s lidskou perspektivou.",
+      "type": "theory"
+    },
+    "idea-168": {
+      "point": "Mencius pokládá spontánní soucit za zárodek lidské dobroty, který je třeba rozvíjet.",
+      "type": "theory"
+    },
+    "idea-169": {
+      "point": "Sün-c’ odvozuje řádné jednání z výchovy a kultivace, které napravují neusměrněné přirozené sklony.",
+      "type": "theory"
+    },
+    "idea-170": {
+      "point": "Mohismus požaduje nestrannou péči přesahující přednostní zájem o vlastní rodinu či skupinu.",
+      "type": "theory"
+    },
+    "idea-171": {
+      "point": "Čínský legismus staví účinné řízení státu na pravidlech, odměnách a trestech místo důvěry ve ctnost vládců.",
+      "type": "theory"
+    },
+    "idea-172": {
+      "point": "Bhagavadgíta rozlišuje odpovědné vykonání činu od lpění na jeho osobním výsledku.",
+      "type": "theory"
+    },
+    "idea-173": {
+      "point": "Upanišadové spojení átmanu a brahmanu hledá jednotu vlastního já s nejzazší skutečností.",
+      "type": "theory"
+    },
+    "idea-174": {
+      "point": "Čárváka prosazovala materialistické a smyslově založené poznání proti náboženským autoritám a posmrtným jistotám.",
+      "type": "theory"
+    },
+    "idea-175": {
+      "point": "Nágárdžunova prázdnota znamená nepřítomnost samostatné neměnné podstaty věcí závislých na vztazích a podmínkách.",
+      "type": "theory"
+    },
+    "idea-176": {
+      "point": "Džinistická mnohostrannost připouští dílčí platnost různých pohledů na skutečnost a odmítá jejich předčasné absolutizování.",
+      "type": "theory"
+    },
+    "idea-177": {
+      "point": "Znovunalezení Lucretiova spisu obnovilo dostupnost antického atomistického výkladu přírody v evropské kultuře.",
+      "type": "event"
+    },
+    "idea-178": {
+      "point": "Skeptická epoché doporučuje pozastavit soud tam, kde soupeřící tvrzení nemají přesvědčivou převahu.",
+      "type": "theory"
+    },
+    "idea-179": {
+      "point": "Ciceronovo přirozené právo umožňuje posuzovat platné zákony podle rozumového měřítka spravedlnosti přesahujícího stát.",
+      "type": "theory"
+    },
+    "idea-180": {
+      "point": "Xenofanés upozorňoval, že lidé zobrazují bohy podle vlastních tělesných a kulturních vlastností.",
+      "type": "theory"
+    },
+    "idea-181": {
+      "point": "Anaxagorás vykládal Slunce jako přírodní žhavé těleso místo božské osoby.",
+      "type": "theory"
+    },
+    "idea-182": {
+      "point": "Théseova loď zkoumá, zda identita předmětu přetrvává po postupné výměně všech jeho částí.",
+      "type": "theory"
+    },
+    "idea-183": {
+      "point": "Occamova břitva dává mezi srovnatelnými vysvětleními přednost tomu, které nepotřebuje zbytečné předpoklady.",
+      "type": "principle"
+    },
+    "idea-184": {
+      "point": "Z pouhého popisu toho, co je, nelze bez dalšího normativního předpokladu odvodit, co má být.",
+      "type": "principle"
+    },
+    "idea-185": {
+      "point": "Kantův kategorický imperativ prověřuje jednání otázkou, zda lze jeho zásadu chtít jako obecné pravidlo.",
+      "type": "theory"
+    },
+    "idea-186": {
+      "point": "Rawlsův závoj nevědomosti vybírá pravidla společnosti bez znalosti vlastního budoucího postavení.",
+      "type": "theory"
+    },
+    "idea-187": {
+      "point": "Popperova falzifikovatelnost požaduje, aby vědecké tvrzení připouštělo zkušenost, která by je mohla vyvrátit.",
+      "type": "principle"
+    },
+    "idea-188": {
+      "point": "Vozíkové dilema rozlišuje záměrné použití člověka jako prostředku od jeho smrti jako vedlejšího důsledku záchrany jiných.",
+      "type": "theory"
+    },
+    "idea-189": {
+      "point": "Camusovo absurdno vzniká střetem lidské potřeby smyslu s mlčením světa a nevyžaduje rezignaci na život.",
+      "type": "theory"
+    },
+    "idea-190": {
+      "point": "Wittgenstein hledá význam ve způsobech užití a rodinných podobnostech místo jediné definice společné všem případům.",
+      "type": "theory"
+    },
+    "idea-191": {
+      "point": "Gilgamešovo hledání nesmrtelnosti staví lidskou konečnost proti touze překonat smrt.",
+      "type": "work"
+    },
+    "idea-192": {
+      "point": "Antikythérský mechanismus pomocí soukolí modeloval nebeské cykly a ukázal vysokou úroveň antické techniky.",
+      "type": "discovery"
+    },
+    "idea-193": {
+      "point": "Chammurapiho zákoník veřejně vymezoval pravidla a tresty, které se lišily podle společenského postavení.",
+      "type": "event"
+    },
+    "idea-194": {
+      "point": "Výbuch Vesuvu pohřbil Pompeje a zároveň uchoval mimořádné doklady každodenního římského života.",
+      "type": "event"
+    },
+    "idea-195": {
+      "point": "Severské osídlení v Americe dokládá evropské dosažení kontinentu několik století před Kolumbem.",
+      "type": "discovery"
+    },
+    "idea-196": {
+      "point": "Terakotová armáda byla součástí rozsáhlého pohřebního projektu prvního čínského císaře.",
+      "type": "discovery"
+    },
+    "idea-197": {
+      "point": "Göbekli Tepe zpochybnilo jednoduchou představu, že monumentální svatyně musely vzniknout až po rozvoji zemědělství.",
+      "type": "discovery"
+    },
+    "idea-198": {
+      "point": "Hedvábná stezka byla sítí cest, jimiž se vedle zboží šířily myšlenky, technologie a nemoci.",
+      "type": "principle"
+    },
+    "idea-199": {
+      "point": "Úpadek alexandrijské knihovny byl postupný a nelze jej spolehlivě shrnout jediným slavným požárem.",
+      "type": "event"
+    },
+    "idea-200": {
+      "point": "Název španělské chřipky souvisel s rozdílnou válečnou cenzurou zpráv, nikoli s prokázaným původem epidemie ve Španělsku.",
+      "type": "event"
+    },
+    "idea-201": {
+      "point": "Erupce Krakatoy měla ničivé místní účinky a ovlivnila ovzduší i pozorování oblohy na vzdálených místech.",
+      "type": "event"
+    },
+    "idea-202": {
+      "point": "Rozpoznatelnost Velké čínské zdi z vesmíru omezuje její šířka a kontrast, nikoli samotná celková délka.",
+      "type": "principle"
+    },
+    "idea-203": {
+      "point": "Velká část uhlíku v rostoucím stromu pochází z oxidu uhličitého ve vzduchu, nikoli přímo z půdy.",
+      "type": "principle"
+    },
+    "idea-204": {
+      "point": "Endosymbiotická teorie vysvětluje mitochondrie a chloroplasty jako potomky dříve samostatných mikroorganismů.",
+      "type": "theory"
+    },
+    "idea-205": {
+      "point": "Semmelweisovo zavedení dezinfekce rukou snížilo úmrtnost rodiček ještě před obecným přijetím zárodečné teorie.",
+      "type": "discovery"
+    },
+    "idea-206": {
+      "point": "Celosvětové očkování a cílená opatření umožnily eradikaci pravých neštovic.",
+      "type": "event"
+    },
+    "idea-207": {
+      "point": "Wegenerův kontinentální drift spojil geologické a fosilní podobnosti oddělených pevnin s jejich dávným spojením.",
+      "type": "theory"
+    },
+    "idea-208": {
+      "point": "Úbytek radioaktivního uhlíku v organických zbytcích umožňuje za stanovených předpokladů odhadnout dobu jejich vzniku.",
+      "type": "principle"
+    },
+    "idea-209": {
+      "point": "CRISPR využívá mechanismus bakteriální obrany k cíleným zásahům do genetické informace.",
+      "type": "discovery"
+    },
+    "idea-210": {
+      "point": "Lucy ukázala, že vzpřímená chůze lidských předků předcházela velkému zvětšení mozku.",
+      "type": "discovery"
+    },
+    "idea-211": {
+      "point": "Dvouštěrbinový pokus spojuje interferenci s dostupností informace o dráze částice.",
+      "type": "principle"
+    },
+    "idea-212": {
+      "point": "Kvantově provázané částice mají společné korelace, které samy neumožňují řízený přenos zpráv rychleji než světlo.",
+      "type": "principle"
+    },
+    "idea-213": {
+      "point": "První přímá detekce gravitačních vln zachytila deformace prostoru vzniklé splynutím černých děr.",
+      "type": "discovery"
+    },
+    "idea-214": {
+      "point": "Objev Higgsova bosonu podpořil mechanismus, jímž část elementárních částic získává hmotnost vazbou na Higgsovo pole.",
+      "type": "discovery"
+    },
+    "idea-215": {
+      "point": "Relativní pohyb zdroje a pozorovatele mění pozorovanou frekvenci vlnění.",
+      "type": "principle"
+    },
+    "idea-216": {
+      "point": "Absolutní nuly nelze dosáhnout konečnou posloupností běžných chladicích kroků.",
+      "type": "principle"
+    },
+    "idea-217": {
+      "point": "Změna směru roviny Foucaultova kyvadla poskytuje pozemský doklad rotace Země.",
+      "type": "discovery"
+    },
+    "idea-218": {
+      "point": "Zlaté desky Voyagerů nesou výběr pozemských zvuků a obrazů jako zamýšlené poselství případným nálezcům.",
+      "type": "work"
+    },
+    "idea-219": {
+      "point": "Reliktní mikrovlnné záření je pozůstatkem horké rané fáze vesmíru a důležitým dokladem jeho vývoje.",
+      "type": "discovery"
+    },
+    "idea-220": {
+      "point": "Pravidelné rádiové pulzy odhalené Jocelyn Bellovou Burnellovou vedly k poznání rychle rotujících neutronových hvězd.",
+      "type": "discovery"
+    },
+    "idea-221": {
+      "point": "Carringtonova sluneční bouře ukázala, že sluneční aktivita může výrazně narušit pozemské technické systémy.",
+      "type": "event"
+    },
+    "idea-222": {
+      "point": "Iridiová vrstva a kráter Chicxulub spojily hromadné vymírání na konci křídy s dopadem velkého tělesa.",
+      "type": "discovery"
+    },
+    "idea-223": {
+      "point": "Eulerova identita propojuje exponenciálu, komplexní čísla a základní matematické konstanty jediným vztahem.",
+      "type": "principle"
+    },
+    "idea-224": {
+      "point": "Eukleidův důkaz ukazuje, že žádný konečný seznam nemůže obsahovat všechna prvočísla.",
+      "type": "principle"
+    },
+    "idea-225": {
+      "point": "Möbiova páska má jedinou souvislou stranu a hranu díky spojení pásu s půlotáčkou.",
+      "type": "principle"
+    },
+    "idea-226": {
+      "point": "V Monty Hallově úloze zvyšuje změna volby šanci na výhru, protože moderátor odhaluje informaci podle známého pravidla.",
+      "type": "principle"
+    },
+    "idea-227": {
+      "point": "Shoda narozenin se ve skupině stává pravděpodobnou překvapivě brzy kvůli rychlému růstu počtu dvojic.",
+      "type": "principle"
+    },
+    "idea-228": {
+      "point": "Euler převedl královecké mosty na graf a rozhodl průchod podle počtu hran u jednotlivých vrcholů.",
+      "type": "discovery"
+    },
+    "idea-229": {
+      "point": "Cantor rozlišil různé velikosti nekonečných množin a ukázal, že některé nelze očíslovat přirozenými čísly.",
+      "type": "principle"
+    },
+    "idea-230": {
+      "point": "Shannon měří informaci snížením nejistoty o zprávě, nikoli jejím významem pro člověka.",
+      "type": "principle"
+    },
+    "idea-231": {
+      "point": "Asymetrická kryptografie odděluje veřejný a soukromý klíč a umožňuje bezpečné operace bez předchozího sdílení stejného tajemství.",
+      "type": "principle"
+    },
+    "idea-232": {
+      "point": "Moorův zákon byl vývojovým trendem a průmyslovým očekáváním růstu počtu tranzistorů, nikoli nezměnitelným fyzikálním zákonem.",
+      "type": "principle"
+    },
+    "idea-233": {
+      "point": "První pokus o přenos slova LOGIN přes ARPANET skončil po dvou písmenech a stal se symbolem počátků sítě.",
+      "type": "event"
+    },
+    "idea-234": {
+      "point": "Vítězství Deep Blue nad Kasparovem ukázalo sílu specializovaného výpočtu v šachu bez nutnosti obecné lidské inteligence.",
+      "type": "event"
+    },
+    "idea-235": {
+      "point": "Problém P versus NP se ptá, zda lze všechny efektivně ověřitelné úlohy také efektivně vyřešit.",
+      "type": "open-question"
+    },
+    "idea-236": {
+      "point": "Tulipánová horečka ukazuje spekulativní růst cen, který se může odtrhnout od běžné užitné hodnoty zboží.",
+      "type": "event"
+    },
+    "idea-237": {
+      "point": "Při složeném úročení se úročí i dřívější výnosy, takže čas zásadně ovlivňuje růst hodnoty.",
+      "type": "principle"
+    },
+    "idea-238": {
+      "point": "Utopené náklady mohou vést k pokračování v nevýhodné činnosti kvůli výdajům, které už nelze získat zpět.",
+      "type": "principle"
+    },
+    "idea-239": {
+      "point": "Ve vězňově dilematu může individuálně výhodná volba obou hráčů vést k horšímu společnému výsledku.",
+      "type": "principle"
+    },
+    "idea-240": {
+      "point": "Síťový efekt zvyšuje užitek služby s počtem dalších účastníků a může posilovat její převahu.",
+      "type": "principle"
+    },
+    "idea-241": {
+      "point": "Aschovy pokusy ukázaly, že jednomyslná skupina může přimět člověka veřejně přijmout zjevně nesprávnou odpověď.",
+      "type": "principle"
+    },
+    "idea-242": {
+      "point": "Paměť je rekonstruktivní a pozdější informace či formulace otázky mohou změnit výpověď o původní události.",
+      "type": "principle"
+    },
+    "idea-243": {
+      "point": "Zeigarnikové efekt spojuje nedokončené úkoly s jejich přetrvávající psychickou dostupností.",
+      "type": "principle"
+    },
+    "idea-244": {
+      "point": "Stejná informace podaná jako zisk nebo ztráta může vyvolat odlišné rozhodnutí.",
+      "type": "principle"
+    },
+    "idea-245": {
+      "point": "Ztráty lidé často hodnotí intenzivněji než srovnatelné zisky.",
+      "type": "principle"
+    },
+    "idea-246": {
+      "point": "Stroopův úkol ukazuje konflikt mezi automatickým čtením slova a záměrným pojmenováním jeho barvy.",
+      "type": "principle"
+    },
+    "idea-247": {
+      "point": "Spánek aktivně přispívá ke stabilizaci a reorganizaci paměťových stop vzniklých při učení.",
+      "type": "principle"
+    },
+    "idea-248": {
+      "point": "Zpřístupnění Lascaux návštěvníkům změnilo jeskynní prostředí a ohrozilo pravěké malby.",
+      "type": "event"
+    },
+    "idea-249": {
+      "point": "Japonské ukiyo-e ovlivnilo evropské malíře kompozicí, plochou barvou a neobvyklými výřezy.",
+      "type": "event"
+    },
+    "idea-250": {
+      "point": "Premiéra Svěcení jara vyvolala výrazné reakce kvůli novátorské hudbě a scénickému provedení.",
+      "type": "event"
+    },
+    "idea-251": {
+      "point": "Mendelssohnovo uvedení Matoušových pašijí pomohlo obnovit širší zájem o Bachovo dílo.",
+      "type": "event"
+    },
+    "idea-252": {
+      "point": "Označení impresionismu vzniklo jako posměšná reakce a později se stalo názvem uměleckého směru.",
+      "type": "event"
+    },
+    "idea-253": {
+      "point": "Klimatické následky erupce Tambory spoluutvářely okolnosti léta, během něhož Mary Shelleyová začala Frankensteina.",
+      "type": "event"
+    },
+    "idea-254": {
+      "point": "Vydání Prvního folia po Shakespearově smrti uchovalo řadu her, které by jinak nemusely přežít.",
+      "type": "event"
+    },
+    "idea-255": {
+      "point": "Soudní spory o Joyceova Odyssea pomáhaly vymezovat hranice obscenity a literární svobody.",
+      "type": "event"
+    },
+    "idea-256": {
+      "point": "Hloubka ostrosti v Občanu Kaneovi dovoluje sledovat více významových plánů obrazu současně.",
+      "type": "work"
+    },
+    "idea-257": {
+      "point": "Toy Story využil možnosti i omezení rané počítačové animace prostřednictvím světa hraček.",
+      "type": "work"
+    },
+    "idea-258": {
+      "point": "Rašomon staví proti sobě neslučitelné výpovědi o jedné události a zpochybňuje snadnou jistotu svědectví.",
+      "type": "work"
+    },
+    "idea-259": {
+      "point": "Ejzenštejnova montáž chápe význam jako výsledek spojení a střetu záběrů, nikoli jen obsah jednotlivého obrazu.",
+      "type": "principle"
+    },
+    "idea-260": {
+      "point": "Všeobecná deklarace lidských práv formulovala po druhé světové válce společný rámec práv přesahující jednotlivé státy.",
+      "type": "event"
+    },
+    "idea-261": {
+      "point": "Nový Zéland přiznal ženám parlamentní volební právo jako první samosprávná země.",
+      "type": "event"
+    },
+    "idea-262": {
+      "point": "Athénský ostrakismus umožňoval dočasné vypovězení vlivného občana jako ochranu před soustředěním moci.",
+      "type": "principle"
+    },
+    "idea-263": {
+      "point": "Aristotelský sylogismus odvozuje závěr z uspořádaného vztahu dvou premis a tří pojmů.",
+      "type": "principle"
+    },
+    "idea-264": {
+      "point": "Platónův Faidros upozorňuje, že psaný text nemůže odpovídat na otázky a může poskytovat zdání poznání bez porozumění.",
+      "type": "theory"
+    },
+    "idea-265": {
+      "point": "Aristotelés odlišuje přátelství založené na užitku, potěšení a společném dobru či ctnosti.",
+      "type": "theory"
+    },
+    "idea-266": {
+      "point": "Epikúros pokládá přátelství za významný zdroj bezpečí a klidného života.",
+      "type": "theory"
+    },
+    "idea-267": {
+      "point": "Sun-c’ považuje podrobení protivníka bez vyčerpávajícího boje za vyšší strategický úspěch než samotné vítězství v bitvě.",
+      "type": "theory"
+    },
+    "idea-268": {
+      "point": "Ašókovy edikty spojují zkušenost ničivé války s veřejně prosazovanými pravidly mravního vládnutí.",
+      "type": "event"
+    },
+    "idea-269": {
+      "point": "Šíření papíru změnilo náklady a dostupnost písemné komunikace mezi kulturami.",
+      "type": "event"
+    },
+    "idea-270": {
+      "point": "Vindolandské tabulky uchovaly zprávy o běžném životě lidí na římské hranici.",
+      "type": "discovery"
+    },
+    "idea-271": {
+      "point": "Osud roanocké kolonie nelze spolehlivě vyložit jediným doloženým příběhem na základě dochovaných stop.",
+      "type": "open-question"
+    },
+    "idea-272": {
+      "point": "Konzervační význam soli jí dával hospodářskou a politickou hodnotu přesahující běžné dochucování.",
+      "type": "principle"
+    },
+    "idea-273": {
+      "point": "Želvušky mohou v kryptobióze výrazně omezit metabolismus a přečkat extrémní podmínky.",
+      "type": "principle"
+    },
+    "idea-274": {
+      "point": "Pando tvoří propojený klonový organismus, takže velký počet kmenů nemusí znamenat velký počet genetických jedinců.",
+      "type": "principle"
+    },
+    "idea-275": {
+      "point": "Poušť se vymezuje nedostatkem srážek, takže mezi pouště patří i rozsáhlé polární oblasti.",
+      "type": "principle"
+    },
+    "idea-276": {
+      "point": "Blesk může opakovaně zasáhnout stejné místo a vysoké či exponované objekty k tomu mají zvlášť vhodné podmínky.",
+      "type": "principle"
+    },
+    "idea-277": {
+      "point": "Nejvyšší vrchol závisí na zvoleném měřítku: vzdálenost od středu Země dává jiné pořadí než výška nad mořem.",
+      "type": "principle"
+    },
+    "idea-278": {
+      "point": "Růžové zbarvení plameňáků souvisí s karotenoidy přijímanými potravou, nikoli s neměnnou barvou peří od narození.",
+      "type": "principle"
+    },
+    "idea-279": {
+      "point": "Opakované používání Wilhelmova výkřiku vytvořilo rozpoznatelnou zvukovou tradici napříč filmy.",
+      "type": "work"
+    },
+    "idea-280": {
+      "point": "Omezené fungování mechanického žraloka přispělo v Čelistech k napětí založenému na jeho nepřítomném či částečném zobrazení.",
+      "type": "work"
+    },
+    "idea-281": {
+      "point": "Nález ztracených záběrů Metropolis umožnil obnovit části filmu dlouho považované za nedochované.",
+      "type": "event"
+    },
+    "idea-282": {
+      "point": "Foleyho ruchy vznikají dodatečným fyzickým prováděním zvuků sladěných s obrazem.",
+      "type": "principle"
+    },
+    "idea-283": {
+      "point": "Švýcarský systém kombinuje zastupitelskou politiku s referendy a občanskými iniciativami.",
+      "type": "principle"
+    },
+    "idea-284": {
+      "point": "Norimberské procesy prosadily osobní odpovědnost za mezinárodní zločiny i přes odvolávání na státní rozkazy.",
+      "type": "event"
+    },
+    "idea-285": {
+      "point": "Kubánská raketová krize ukázala nebezpečí eskalace i význam komunikace a kompromisu mezi jadernými mocnostmi.",
+      "type": "event"
+    },
+    "idea-286": {
+      "point": "Ženevské úmluvy vymezují ochranu lidí, kteří se bojů neúčastní nebo už bojovat nemohou.",
+      "type": "principle"
+    },
+    "idea-287": {
+      "point": "Dělba zákonodárné, výkonné a soudní moci omezuje možnost soustředit státní rozhodování v jedněch rukou.",
+      "type": "theory"
+    },
+    "idea-288": {
+      "point": "Řízený zánik sondy Cassini měl zabránit pozdější kontaminaci prostředí Saturnových měsíců.",
+      "type": "event"
+    },
+    "idea-289": {
+      "point": "Ingenuity předvedla řízený motorový let v řídké atmosféře jiné planety.",
+      "type": "discovery"
+    },
+    "idea-290": {
+      "point": "Rotační rychlosti galaxií se neshodují s gravitačním působením samotné pozorované hmoty a podporují hypotézu temné hmoty.",
+      "type": "theory"
+    },
+    "idea-291": {
+      "point": "Olbersův paradox ukazuje nesoulad temné noční oblohy s jednoduchým modelem věčného rovnoměrného hvězdného vesmíru.",
+      "type": "theory"
+    },
+    "idea-292": {
+      "point": "Slapové působení přenáší část rotačního momentu Země do měsíční dráhy a Měsíc se postupně vzdaluje.",
+      "type": "principle"
+    },
+    "idea-293": {
+      "point": "Dráha a vlastnosti ʻOumuamua ukázaly mezihvězdný původ tělesa, aniž by samy dokazovaly mimozemskou technologii.",
+      "type": "discovery"
+    },
+    "idea-294": {
+      "point": "Tunguskou katastrofu vysvětluje rozpad kosmického tělesa v atmosféře bez nutnosti velkého dopadového kráteru.",
+      "type": "event"
+    },
+    "idea-295": {
+      "point": "Silnější rozptyl krátkovlnného slunečního světla v atmosféře vysvětluje modrou oblohu a barevné změny při západu.",
+      "type": "principle"
+    },
+    "idea-296": {
+      "point": "Satelitní navigace musí opravovat rychlost hodin o vlivy pohybu i gravitačního pole, jinak by narůstala chyba polohy.",
+      "type": "principle"
+    },
+    "idea-297": {
+      "point": "Změna magnetického toku vytváří elektrické napětí a umožňuje činnost generátorů i transformátorů.",
+      "type": "principle"
+    },
+    "idea-298": {
+      "point": "Rozlišení krevních skupin vysvětlilo část nebezpečných reakcí na transfuze a umožnilo bezpečnější výběr krve.",
+      "type": "discovery"
+    },
+    "idea-299": {
+      "point": "Neandertálská DNA v dnešních lidech dokládá křížení moderních lidí s další lidskou linií.",
+      "type": "discovery"
+    },
+    "idea-300": {
+      "point": "Chemosyntéza umožňuje některým ekosystémům využívat energii chemických reakcí místo přímého slunečního záření.",
+      "type": "principle"
+    },
+    "idea-301": {
+      "point": "Rozmístění listů a semen může odpovídat zlatému úhlu a Fibonacciho vzorům s účinným zaplněním prostoru.",
+      "type": "principle"
+    },
+    "idea-302": {
+      "point": "Důkaz věty o čtyřech barvách využil počítačovou kontrolu rozsáhlého konečného souboru případů.",
+      "type": "discovery"
+    },
+    "idea-303": {
+      "point": "V mnoha přirozených číselných souborech se první číslice nevyskytují rovnoměrně, což popisuje Benfordův zákon.",
+      "type": "principle"
+    },
+    "idea-304": {
+      "point": "Paretův princip popisuje nerovnoměrné soustředění výsledků do menší části příčin a není univerzálně přesným poměrem.",
+      "type": "principle"
+    },
+    "idea-305": {
+      "point": "Big Mac index porovnává ceny podobného výrobku jako zjednodušené vodítko kupní síly měn.",
+      "type": "principle"
+    },
+    "idea-306": {
+      "point": "Zimbabwská hyperinflace ukazuje rozpad kupní síly peněz při hospodářské a měnové krizi.",
+      "type": "event"
+    },
+    "idea-307": {
+      "point": "Kintsugi opravuje keramiku tak, že viditelně přiznává spoj a začleňuje poškození do podoby předmětu.",
+      "type": "principle"
+    },
+    "idea-308": {
+      "point": "Bauhaus propojoval umění, řemeslo a průmyslovou výrobu s důrazem na funkční návrh.",
+      "type": "theory"
+    },
+    "idea-309": {
+      "point": "Využití camery obscury u Vermeera je diskutovanou hypotézou, nikoli přímo doloženým vysvětlením všech jeho obrazů.",
+      "type": "open-question"
+    },
+    "idea-310": {
+      "point": "Příběh prince Gendžiho rozvíjí rozsáhlé psychologické vyprávění o vztazích v prostředí japonského dvora.",
+      "type": "work"
+    },
+    "idea-311": {
+      "point": "Tisíc a jedna noc vznikala vrstvením a předáváním příběhů z různých kulturních prostředí.",
+      "type": "work"
+    },
+    "idea-312": {
+      "point": "Rozšířené uspořádání QWERTY ukazuje, jak dřívější volby a náklady na změnu udržují zavedený standard.",
+      "type": "principle"
+    },
+    "idea-413": {
+      "point": "Zkušenost s neovlivnitelnými nepříjemnostmi může vést k pasivitě i tam, kde už změna možná je.",
+      "type": "principle"
+    },
+    "idea-414": {
+      "point": "Výrazná vlastnost člověka může nepřiměřeně ovlivnit hodnocení jeho dalších vlastností.",
+      "type": "principle"
+    },
+    "idea-415": {
+      "point": "Opakované setkávání s neutrálním podnětem může zvyšovat jeho oblibu bez nových věcných důvodů.",
+      "type": "principle"
+    },
+    "idea-416": {
+      "point": "Výsledek marshmallow testu souvisí vedle sebekontroly také s důvěrou v prostředí a rodinným zázemím dítěte.",
+      "type": "principle"
+    },
+    "idea-417": {
+      "point": "Flow vzniká při soustředěné činnosti, jejíž nároky přiměřeně odpovídají dovednostem člověka.",
+      "type": "principle"
+    },
+    "idea-418": {
+      "point": "Ainsworthové zkoumání vazby rozlišuje různé způsoby, jak dítě hledá bezpečí při odloučení a návratu pečující osoby.",
+      "type": "theory"
+    },
+    "idea-419": {
+      "point": "Vnější odměna může za určitých podmínek oslabit vnitřní zájem o činnost, která byla původně vykonávána sama pro sebe.",
+      "type": "principle"
+    },
+    "idea-420": {
+      "point": "Očekávání autority mohou změnit její jednání vůči lidem a tím přispět k výsledku, který předvídala.",
+      "type": "principle"
+    },
+    "idea-421": {
+      "point": "Chování druhých často přičítáme jejich povaze a podceňujeme vliv situace.",
+      "type": "principle"
+    },
+    "idea-422": {
+      "point": "Vzpomínkové hodnocení zážitku nepřiměřeně ovlivňuje jeho nejvýraznější okamžik a konec.",
+      "type": "principle"
+    },
+    "idea-423": {
+      "point": "Lidé mohou více oceňovat věci, do jejichž vytvoření vložili vlastní úsilí.",
+      "type": "principle"
+    },
+    "idea-424": {
+      "point": "Lidé obvykle přeceňují, kolik pozornosti ostatní věnují jejich vzhledu a drobným chybám.",
+      "type": "principle"
+    },
+    "idea-425": {
+      "point": "Obecné a vágní popisy osobnosti mohou lidé pokládat za překvapivě přesné osobní charakteristiky.",
+      "type": "principle"
+    },
+    "idea-426": {
+      "point": "Příliš mnoho možností může v některých situacích ztížit rozhodnutí a snížit spokojenost s volbou.",
+      "type": "principle"
+    },
+    "idea-427": {
+      "point": "Opakování tvrzení zvyšuje jeho známost a může posílit dojem pravdivosti nezávisle na důkazech.",
+      "type": "principle"
+    },
+    "idea-428": {
+      "point": "Uložený program sjednocuje práci s instrukcemi a daty, ale společný přenos mezi pamětí a procesorem může omezovat výkon.",
+      "type": "principle"
+    },
+    "idea-429": {
+      "point": "Booleova algebra umožňuje vyjadřovat logické operace, které se realizují digitálními obvody.",
+      "type": "principle"
+    },
+    "idea-430": {
+      "point": "Bushův memex předjímal propojování uložených informací pomocí asociativních cest místo pouhého pevného třídění.",
+      "type": "theory"
+    },
+    "idea-431": {
+      "point": "Tomlinson zvolil zavináč pro oddělení uživatele a počítače v adrese elektronické pošty.",
+      "type": "event"
+    },
+    "idea-432": {
+      "point": "Úsporné dvouciferné ukládání roku vytvořilo riziko chyb při přechodu do roku 2000 a vyvolalo rozsáhlé opravy systémů.",
+      "type": "event"
+    },
+    "idea-433": {
+      "point": "Paketové přepojování rozděluje zprávy na menší části sdílející síť a umožňuje pružnější přenos než pevný vyhrazený okruh.",
+      "type": "principle"
+    },
+    "idea-434": {
+      "point": "Neexistuje univerzální algoritmus, který pro každý program a vstup správně rozhodne, zda program někdy skončí.",
+      "type": "principle"
+    },
+    "idea-435": {
+      "point": "Sledování univerzitní konvice na kávu se stalo jednou z raných praktických ukázek webové kamery.",
+      "type": "event"
+    },
+    "idea-436": {
+      "point": "Colossus urychlil zpracování německé šifry Lorenz a představoval rané elektronické programovatelné výpočetní zařízení.",
+      "type": "event"
+    },
+    "idea-437": {
+      "point": "Vypnutí záměrného zhoršování civilního GPS zvýšilo přesnost dostupnou běžným uživatelům.",
+      "type": "event"
+    },
+    "idea-438": {
+      "point": "CAPTCHA využívá rozdílné schopnosti lidí a programů k omezování automatizovaného zneužití služeb.",
+      "type": "principle"
+    },
+    "idea-439": {
+      "point": "Morrisův červ ukázal, jak se samovolně šířící program může v propojené síti vymknout zamýšlenému rozsahu.",
+      "type": "event"
+    },
+    "idea-440": {
+      "point": "Evoluční linie žraloků existovala dříve než první stromy a připomíná rozdílné stáří dnešních skupin organismů.",
+      "type": "principle"
+    },
+    "idea-441": {
+      "point": "Kostkovitý trus vombatů vzniká působením rozdílně pružných částí střeva, nikoli hranatým řitním otvorem.",
+      "type": "principle"
+    },
+    "idea-442": {
+      "point": "Některé medúzy se mohou vrátit z dospělého stadia do polypa, což není totéž jako nezranitelnost či zaručená nesmrtelnost.",
+      "type": "principle"
+    },
+    "idea-443": {
+      "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+      "type": "principle"
+    },
+    "idea-444": {
+      "point": "Poškození buněk cibule spouští chemické reakce vedoucí ke vzniku těkavé látky dráždící oči.",
+      "type": "principle"
+    },
+    "idea-445": {
+      "point": "Lidské tělo vydává velmi slabé světlo z metabolických reakcí, které běžným zrakem nevidíme.",
+      "type": "principle"
+    },
+    "idea-446": {
+      "point": "Ryby se dokážou učit a uchovávat informace podstatně déle než několik vteřin připisovaných populárnímu mýtu.",
+      "type": "principle"
+    },
+    "idea-447": {
+      "point": "Rozdělení lidí na čistě levomozkové a pravomozkové osobnosti nevystihuje spolupráci obou mozkových hemisfér.",
+      "type": "principle"
+    },
+    "idea-448": {
+      "point": "Namodralý vzhled žil nevypovídá o modré krvi, ale o průchodu a odrazu světla v kůži.",
+      "type": "principle"
+    },
+    "idea-449": {
+      "point": "Mucholapka reaguje na více doteků v určitém časovém okně a tím omezuje zbytečné zavírání pasti.",
+      "type": "principle"
+    },
+    "idea-450": {
+      "point": "Eroze může odlehčením zemské kůry vyvolat izostatické nadzvedávání a podílet se na změnách výšky hor.",
+      "type": "principle"
+    },
+    "idea-451": {
+      "point": "Banány obsahují přirozeně radioaktivní draslík, ale přítomnost radioaktivity sama neznamená významné zdravotní riziko.",
+      "type": "principle"
+    },
+    "idea-452": {
+      "point": "Původní King Kong vytvářel dojem živého obra postupným snímáním pohybu modelu a kombinováním obrazových vrstev.",
+      "type": "work"
+    },
+    "idea-453": {
+      "point": "Disneyho Sněhurka ukázala komerční možnosti celovečerního animovaného filmu.",
+      "type": "work"
+    },
+    "idea-454": {
+      "point": "Godzilla spojila příběh monstra s japonskou zkušeností jaderného ničení a obavami z radioaktivity.",
+      "type": "work"
+    },
+    "idea-455": {
+      "point": "Vznik Casablanky provázely průběžné úpravy scénáře a nejistota, kterou hotový soudržný film neprozrazuje.",
+      "type": "work"
+    },
+    "idea-456": {
+      "point": "Ozu využíval barevné akcenty jako součást obrazové kompozice a vyprávění, nikoli jen jako technické vylepšení filmu.",
+      "type": "work"
+    },
+    "idea-457": {
+      "point": "Stereoskopický film vytváří dojem hloubky tím, že každému oku předkládá odlišný obrazový pohled.",
+      "type": "principle"
+    },
+    "idea-458": {
+      "point": "Zvuky fantastických technologií mohou vznikat tvořivou kombinací běžných reálných nahrávek.",
+      "type": "principle"
+    },
+    "idea-459": {
+      "point": "Motion capture převádí herecký pohyb do digitální postavy a propojuje výkon člověka s následnou animací.",
+      "type": "principle"
+    },
+    "idea-460": {
+      "point": "Dolbyho systémy omezují slyšitelný šum zvukového záznamu vhodným zpracováním signálu.",
+      "type": "principle"
+    },
+    "idea-461": {
+      "point": "Chroma key odděluje předem zvolenou barvu pozadí a umožňuje spojovat postavu s jiným obrazem.",
+      "type": "principle"
+    },
+    "idea-462": {
+      "point": "Chybějící paže Venuše Mélské neumožňují s jistotou rekonstruovat její původní gesto a předměty.",
+      "type": "open-question"
+    },
+    "idea-463": {
+      "point": "Michelangelo proměnil dříve odmítnutý mramorový blok ve sochu Davida.",
+      "type": "work"
+    },
+    "idea-464": {
+      "point": "Munchův Výkřik existuje v několika verzích a jeho příběh zahrnuje i známé krádeže.",
+      "type": "work"
+    },
+    "idea-465": {
+      "point": "Warholova opakování spotřebních předmětů rozostřují hranici mezi jedinečným uměleckým dílem a masovým produktem.",
+      "type": "work"
+    },
+    "idea-466": {
+      "point": "Rodinův Myslitel vznikl jako součást širší kompozice Brány pekel a teprve následně se prosadil samostatně.",
+      "type": "work"
+    },
+    "idea-467": {
+      "point": "Klimtova práce se zlatem navazovala na zkušenost s mozaikami a propojovala malbu s dekorativní plochou.",
+      "type": "work"
+    },
+    "idea-468": {
+      "point": "Banksyho skartování obrazu při aukci se samo proměnilo v součást uměleckého díla a jeho tržního příběhu.",
+      "type": "event"
+    },
+    "idea-469": {
+      "point": "Caravaggiovo výrazné světlo a stín soustřeďují pozornost a dramatizují tělesnou přítomnost postav.",
+      "type": "work"
+    },
+    "idea-470": {
+      "point": "Mondrian redukoval obraz na základní barvy a pravoúhlé vztahy jako hledání obecného řádu.",
+      "type": "theory"
+    },
+    "idea-471": {
+      "point": "Účel Willendorfské venuše nelze jednoznačně odvodit jen z její podoby a populárních představ o plodnosti.",
+      "type": "open-question"
+    },
+    "idea-472": {
+      "point": "Paradox vody a diamantů rozlišuje celkovou užitečnost statku od užitku jeho další dostupné jednotky.",
+      "type": "principle"
+    },
+    "idea-473": {
+      "point": "Vlastnictví věci může zvýšit částku požadovanou za její prodej oproti ceně, kterou by lidé zaplatili za její získání.",
+      "type": "principle"
+    },
+    "idea-474": {
+      "point": "Bublina Společnosti jižních moří ukazuje, jak spekulativní očekávání a finanční konstrukce mohou vyvolat prudký růst i pád cen.",
+      "type": "event"
+    },
+    "idea-475": {
+      "point": "Lafferova křivka rozlišuje výši daňové sazby od celkového výnosu a nepředepisuje univerzální optimální sazbu.",
+      "type": "theory"
+    },
+    "idea-476": {
+      "point": "Pigouovské zdanění má promítnout náklady škodící třetím osobám do rozhodování původce externality.",
+      "type": "theory"
+    },
+    "idea-477": {
+      "point": "Mikroúvěry mohou rozšířit přístup k financování, ale výzkum jejich dopadů nepodporuje jednoduchý univerzální příslib odstranění chudoby.",
+      "type": "principle"
+    },
+    "idea-478": {
+      "point": "Stagflace kombinuje slabý hospodářský výkon s inflací a narušuje jednoduchou představu jejich stálého protikladu.",
+      "type": "principle"
+    },
+    "idea-479": {
+      "point": "Lucasova kritika upozorňuje, že změna politiky mění očekávání a chování lidí, takže staré statistické vztahy nemusí zůstat platné.",
+      "type": "principle"
+    },
+    "idea-480": {
+      "point": "Hon na jelena ukazuje, že výhodnější spolupráci může bránit nedostatek důvěry v současnou spolupráci druhých.",
+      "type": "principle"
+    },
+    "idea-481": {
+      "point": "Užitek další jednotky stejného statku při rostoucí spotřebě zpravidla klesá.",
+      "type": "principle"
+    },
+    "idea-482": {
+      "point": "Vestfálské uspořádání je spojováno s vývojem státní suverenity a omezením nároků na jednotnou nadstátní autoritu.",
+      "type": "event"
+    },
+    "idea-483": {
+      "point": "Vídeňský kongres usiloval o stabilitu evropských mocností jejich vzájemným vyvažováním po napoleonských válkách.",
+      "type": "event"
+    },
+    "idea-484": {
+      "point": "Nouzové pravomoci článku 48 výmarské ústavy umožňovaly obcházet běžné parlamentní rozhodování.",
+      "type": "principle"
+    },
+    "idea-485": {
+      "point": "Změnou hranic volebních obvodů lze ovlivnit rozdělení mandátů bez změny celkového počtu hlasů.",
+      "type": "principle"
+    },
+    "idea-486": {
+      "point": "Filibuster využívá procedurální pravidla rozpravy k odkladu nebo blokování rozhodnutí většiny.",
+      "type": "principle"
+    },
+    "idea-487": {
+      "point": "Sametová revoluce vedla masovým občanským tlakem k pádu komunistické vlády v Československu.",
+      "type": "event"
+    },
+    "idea-488": {
+      "point": "Gándhího solný pochod spojil nenásilné porušení zákona s běžnou životní potřebou a odporem ke koloniální moci.",
+      "type": "event"
+    },
+    "idea-489": {
+      "point": "Slabé donucovací možnosti a neúplná účast mocností omezovaly schopnost Společnosti národů zastavit agresi.",
+      "type": "principle"
+    },
+    "idea-490": {
+      "point": "Omezení amerického prezidenta na dva volební mandáty proměnilo politickou tradici v ústavní pravidlo.",
+      "type": "principle"
+    },
+    "idea-491": {
+      "point": "Sufražetky organizovaným veřejným tlakem zpochybňovaly vyloučení žen z volebního rozhodování.",
+      "type": "event"
+    },
+    "idea-492": {
+      "point": "Bayesovské vyhodnocení testu vyžaduje kromě jeho přesnosti také základní četnost sledovaného jevu.",
+      "type": "principle"
+    },
+    "idea-493": {
+      "point": "Průměr velkého počtu vhodně nezávislých pozorování se přibližuje očekávané hodnotě, aniž by to napravovalo minulou smůlu jednotlivých pokusů.",
+      "type": "principle"
+    },
+    "idea-494": {
+      "point": "Po extrémním výsledku často následuje výsledek bližší průměru i bez účinku zásahu.",
+      "type": "principle"
+    },
+    "idea-495": {
+      "point": "Existence konzistentních neeukleidovských geometrií ukazuje, že pravidlo rovnoběžek není důsledkem ostatních eukleidovských předpokladů.",
+      "type": "principle"
+    },
+    "idea-496": {
+      "point": "Deterministické chaotické systémy mohou být dlouhodobě obtížně předvídatelné kvůli citlivosti na počáteční podmínky.",
+      "type": "principle"
+    },
+    "idea-497": {
+      "point": "Fraktály vykazují složitou strukturu napříč měřítky a mohou vyžadovat neceločíselný popis dimenze.",
+      "type": "principle"
+    },
+    "idea-498": {
+      "point": "Jednoduchá lokální pravidla Conwayovy Hry života vytvářejí složité a pohyblivé globální struktury.",
+      "type": "principle"
+    },
+    "idea-499": {
+      "point": "Fibonacciho model růstu králičí populace vytváří posloupnost, v níž každý další člen vzniká součtem předchozích dvou.",
+      "type": "principle"
+    },
+    "idea-500": {
+      "point": "Archimédés ohraničil hodnotu pí porovnáváním obvodů mnohoúhelníků vepsaných a opsaných kružnici.",
+      "type": "discovery"
+    },
+    "idea-501": {
+      "point": "Komplexní čísla rozšiřují číselný obor o odmocninu ze záporné jedničky a umožňují řešit dříve nepřípustné rovnice.",
+      "type": "principle"
+    },
+    "idea-502": {
+      "point": "Jenner využil souvislost kravských neštovic s ochranou před pravými neštovicemi k rozvoji očkování.",
+      "type": "discovery"
+    },
+    "idea-503": {
+      "point": "Buněčná teorie chápe buňku jako základní jednotku živých organismů a nové buňky jako potomky předchozích buněk.",
+      "type": "theory"
+    },
+    "idea-504": {
+      "point": "Pasteurovy pokusy podpořily mikrobiální původ kažení a ukázaly možnosti jeho omezování zahříváním a ochranou před kontaminací.",
+      "type": "discovery"
+    },
+    "idea-505": {
+      "point": "Lindovo porovnání léčebných postupů spojilo citrusy se zlepšením kurdějí ještě před poznáním vitaminu C.",
+      "type": "discovery"
+    },
+    "idea-506": {
+      "point": "Rentgenové záření umožnilo zobrazovat vnitřní struktury těla bez jejich chirurgického odkrytí.",
+      "type": "discovery"
+    },
+    "idea-507": {
+      "point": "Meitnerová s Frischem vysvětlili nečekané produkty ostřelování uranu jako rozštěpení těžkého jádra a uvolnění energie.",
+      "type": "discovery"
+    },
+    "idea-508": {
+      "point": "Dolly ukázala možnost vytvořit savce přenosem jádra diferencované dospělé buňky do vajíčka.",
+      "type": "discovery"
+    },
+    "idea-509": {
+      "point": "Někteří živočichové využívají zemské magnetické pole jako smyslové vodítko pro orientaci.",
+      "type": "principle"
+    },
+    "idea-510": {
+      "point": "Telomery chrání konce chromozomů a jejich změny souvisejí s omezeními buněčného dělení.",
+      "type": "principle"
+    },
+    "idea-511": {
+      "point": "Antibiotická rezistence se šíří selekcí a přenosem odolnosti mezi bakteriemi, nikoli zvykáním těla na lék.",
+      "type": "principle"
+    },
+    "idea-512": {
+      "point": "Harvey popsal krevní oběh jako uzavřený okruh poháněný srdcem místo průběžné spotřeby krve v těle.",
+      "type": "discovery"
+    },
+    "idea-513": {
+      "point": "Řecké vítězství u Platají přispělo k ukončení velké perské pozemní invaze do Řecka.",
+      "type": "event"
+    },
+    "idea-514": {
+      "point": "Příběh gordického uzlu připisuje Alexandrovi vyřešení zdánlivě neřešitelného zadání změnou přijatého postupu.",
+      "type": "event"
+    },
+    "idea-515": {
+      "point": "Založení Alexandrie propojilo strategický přístav, plán města a správu nové helénistické říše.",
+      "type": "event"
+    },
+    "idea-516": {
+      "point": "Bitva u Zamy změnila výsledek druhé punské války a upevnila římskou převahu nad Kartágem.",
+      "type": "event"
+    },
+    "idea-517": {
+      "point": "Řím během první punské války vybudoval námořní sílu a přizpůsobil námořní boj svým vojenským možnostem.",
+      "type": "event"
+    },
+    "idea-518": {
+      "point": "Fabiova strategie čelila Hannibalovi vyhýbáním se rozhodující bitvě a postupným vyčerpáváním protivníka.",
+      "type": "theory"
+    },
+    "idea-519": {
+      "point": "Pokusy Gracchů o pozemkové reformy odkryly sociální napětí a násilí uvnitř římské republiky.",
+      "type": "event"
+    },
+    "idea-520": {
+      "point": "Proměny římského vojska posílily závislost vojáků na velitelích a oslabovaly výlučnou loajalitu k republice.",
+      "type": "principle"
+    },
+    "idea-521": {
+      "point": "Sullova diktatura spojila násilné proskripce s posílením senátorského řádu a následným dobrovolným odchodem z úřadu.",
+      "type": "event"
+    },
+    "idea-522": {
+      "point": "Vítězství u Actia odstranilo Octavianovy hlavní soupeře a otevřelo cestu k císařskému uspořádání.",
+      "type": "event"
+    },
+    "idea-523": {
+      "point": "Kleopatřina vláda spojovala řeckou dynastickou kulturu s egyptským prostředím a skončila římským převzetím Egypta.",
+      "type": "principle"
+    },
+    "idea-524": {
+      "point": "Rok čtyř císařů ukázal rozhodující úlohu armád při předávání římské císařské moci.",
+      "type": "event"
+    },
+    "idea-525": {
+      "point": "Zákon dvanácti desek zpřístupnil pravidla římského práva ve veřejné písemné podobě.",
+      "type": "event"
+    },
+    "idea-526": {
+      "point": "Kalendářní reformy upravovaly délku roku a vkládání dnů, aby sladily občanský čas s astronomickým cyklem.",
+      "type": "event"
+    },
+    "idea-527": {
+      "point": "Gladiátorské hry se vyvinuly z pohřebních souvislostí v rozsáhlou veřejnou podívanou.",
+      "type": "event"
+    },
+    "idea-528": {
+      "point": "Římský cursus publicus usnadňoval státní komunikaci sítí cest, stanic a přepřahání.",
+      "type": "principle"
+    },
+    "idea-529": {
+      "point": "Cloaca Maxima dokládá význam odvodnění a městské infrastruktury při růstu Říma.",
+      "type": "event"
+    },
+    "idea-530": {
+      "point": "Římské nájemní domy a požární sbory ukazují rizika i správní řešení života v hustě obydleném městě.",
+      "type": "principle"
+    },
+    "idea-531": {
+      "point": "Pretoriánská garda mohla svou ozbrojenou blízkostí k císaři ovlivňovat jeho sesazení i výběr nástupce.",
+      "type": "principle"
+    },
+    "idea-532": {
+      "point": "Krize třetího století spojovala politickou nestabilitu římské říše s vojenskými a hospodářskými tlaky.",
+      "type": "event"
+    },
+    "idea-533": {
+      "point": "Justiniánova kodifikace shromáždila římské právní dědictví a umožnila jeho dlouhodobé další působení.",
+      "type": "event"
+    },
+    "idea-534": {
+      "point": "Hagia Sofia spojila mohutnou centrální kupoli s konstrukčním řešením přechodu na okolní podporu.",
+      "type": "work"
+    },
+    "idea-535": {
+      "point": "Byzantský řecký oheň byl významnou zápalnou zbraní, jejíž přesné složení zůstává nejisté.",
+      "type": "open-question"
+    },
+    "idea-536": {
+      "point": "Víceznačné věštby v Delfách umožňovaly různé výklady výsledku a obtížně se zpětně vyvracely.",
+      "type": "principle"
+    },
+    "idea-537": {
+      "point": "Řecké zakládání osad rozšiřovalo obchodní i kulturní sítě za hranice původních městských států.",
+      "type": "event"
+    },
+    "idea-538": {
+      "point": "Délský spolek se změnil z obranné spolupráce v nástroj athénské převahy nad spojenci.",
+      "type": "event"
+    },
+    "idea-539": {
+      "point": "Řecké symposion spojovalo společné pití s debatou a pravidly mužské elitní družnosti.",
+      "type": "principle"
+    },
+    "idea-540": {
+      "point": "Řekové upravili fénické písmo tak, aby systematicky zapisovalo i samohlásky.",
+      "type": "event"
+    },
+    "idea-541": {
+      "point": "Význam občanských veslařů v triérách posiloval politickou váhu nemajetných Athéňanů.",
+      "type": "principle"
+    },
+    "idea-542": {
+      "point": "Hoplítská falanga vyžadovala společné držení formace, takže bezpečí jednotlivce záviselo na sousedech.",
+      "type": "principle"
+    },
+    "idea-543": {
+      "point": "Xenofontova Anabáze vypráví návrat řeckých žoldnéřů, kteří museli po ztrátě velitelů obnovit vlastní organizaci.",
+      "type": "work"
+    },
+    "idea-544": {
+      "point": "Alexandrijský Faros sloužil jako monumentální pobřežní orientační bod a symbol významu přístavu.",
+      "type": "work"
+    },
+    "idea-545": {
+      "point": "Rhodský kolos byl mimořádnou sochou, ale jeho běžné zobrazování rozkročeného nad přístavem nemá spolehlivou oporu.",
+      "type": "work"
+    },
+    "idea-546": {
+      "point": "Vestálky měly v římském náboženství výjimečné postavení spojené s privilegii i přísnými povinnostmi.",
+      "type": "principle"
+    },
+    "idea-547": {
+      "point": "Diokleciánova tetrarchie rozdělila císařskou správu mezi více vládců ve snaze usnadnit řízení a nástupnictví.",
+      "type": "theory"
+    },
+    "idea-548": {
+      "point": "Obyvatelná zóna označuje podmínky umožňující za určitých předpokladů kapalnou vodu, nikoli důkaz přítomnosti života.",
+      "type": "principle"
+    },
+    "idea-549": {
+      "point": "Budoucí vývoj Slunce do rudého obra zásadně změní podmínky v jeho planetární soustavě.",
+      "type": "theory"
+    },
+    "idea-550": {
+      "point": "Bílého trpaslíka proti gravitačnímu zhroucení podpírá degenerovaný elektronový plyn, nikoli běžné jaderné hoření.",
+      "type": "principle"
+    },
+    "idea-551": {
+      "point": "Magnetary jsou neutronové hvězdy s mimořádně silným magnetickým polem a prudkými energetickými projevy.",
+      "type": "principle"
+    },
+    "idea-552": {
+      "point": "Informační paradox černých děr zkoumá napětí mezi jejich vypařováním a zachováním kvantové informace.",
+      "type": "open-question"
+    },
+    "idea-553": {
+      "point": "Horizont událostí vymezuje oblast, odkud už nelze vyslat signál k vzdálenému pozorovateli.",
+      "type": "principle"
+    },
+    "idea-554": {
+      "point": "Rozdílná gravitační síla na různých částech tělesa může v blízkosti černé díry způsobit jeho extrémní protažení.",
+      "type": "principle"
+    },
+    "idea-555": {
+      "point": "Pozorování hvězd při zatmění Slunce podpořilo předpověď ohybu světla gravitačním polem.",
+      "type": "discovery"
+    },
+    "idea-556": {
+      "point": "Pozorování vzdálených supernov vedla k závěru, že rozpínání vesmíru zrychluje, což se popisuje pomocí temné energie.",
+      "type": "discovery"
+    },
+    "idea-557": {
+      "point": "Vztah periody a svítivosti cefeid umožňuje odvozovat jejich vzdálenosti z pozorované jasnosti.",
+      "type": "principle"
+    },
+    "idea-559": {
+      "point": "Fermiho paradox staví odhady možného výskytu civilizací proti chybějícím zřejmým stopám jejich přítomnosti.",
+      "type": "open-question"
+    },
+    "idea-560": {
+      "point": "Drakeova rovnice rozkládá odhad počtu komunikujících civilizací na několik nejistých podmínek jejich vzniku a trvání.",
+      "type": "theory"
+    },
+    "idea-561": {
+      "point": "Jednorázový signál Wow! zůstává zajímavým pozorováním bez potvrzeného mimozemského původu.",
+      "type": "open-question"
+    },
+    "idea-562": {
+      "point": "Destičky Pioneerů se pokoušely jednoduchými symboly představit původ sond a lidské odesílatele.",
+      "type": "work"
+    },
+    "idea-563": {
+      "point": "Sputnik zahájil éru umělých družic a změnil technologické i politické soupeření velmocí.",
+      "type": "event"
+    },
+    "idea-564": {
+      "point": "Gagarinův let poprvé dopravil člověka na oběžnou dráhu a zpět na Zemi.",
+      "type": "event"
+    },
+    "idea-565": {
+      "point": "Záchrana Apolla 13 vyžadovala přizpůsobit dostupné prostředky novým podmínkám po poškození lodi.",
+      "type": "event"
+    },
+    "idea-566": {
+      "point": "Optická oprava Hubbleova dalekohledu kompenzovala chybu hlavního zrcadla a obnovila jeho zamýšlené možnosti.",
+      "type": "event"
+    },
+    "idea-567": {
+      "point": "Soustava TRAPPIST-1 obsahuje několik planet velikostí podobných Zemi kolem malé chladné hvězdy.",
+      "type": "discovery"
+    },
+    "idea-568": {
+      "point": "Planety mohou putovat mezihvězdným prostorem bez současné oběžné vazby na hvězdu.",
+      "type": "principle"
+    },
+    "idea-569": {
+      "point": "Hnědí trpaslíci leží mezi planetami a hvězdami a nemají dost hmotnosti pro dlouhodobé běžné vodíkové hoření.",
+      "type": "principle"
+    },
+    "idea-570": {
+      "point": "Pilíře stvoření zobrazují oblaka plynu a prachu tvarovaná zářením v oblasti vzniku hvězd.",
+      "type": "principle"
+    },
+    "idea-571": {
+      "point": "Těžší chemické prvky vznikají hvězdnými a dalšími kosmickými jadernými procesy a stávají se součástí nové hmoty.",
+      "type": "principle"
+    },
+    "idea-572": {
+      "point": "Srovnatelné vlastnosti supernov typu Ia umožňují po korekcích používat jejich jasnost jako měřítko kosmických vzdáleností.",
+      "type": "principle"
+    },
+    "idea-573": {
+      "point": "Gama záblesky představují krátké mimořádně energetické kosmické události související s kolapsem hvězd či splynutím kompaktních těles.",
+      "type": "principle"
+    },
+    "idea-574": {
+      "point": "Galaxie se na velkých škálách seskupují do vláken a stěn oddělených rozsáhlými prázdnějšími oblastmi.",
+      "type": "principle"
+    },
+    "idea-575": {
+      "point": "Jansky při studiu rádiového rušení rozpoznal kosmický zdroj signálu a pomohl otevřít radioastronomii.",
+      "type": "discovery"
+    },
+    "idea-576": {
+      "point": "Meteorické roje vznikají, když Země prochází proudem drobných částic zanechaných kosmickým tělesem.",
+      "type": "principle"
+    },
+    "idea-577": {
+      "point": "Směr kometárních ohonů určují především účinky Slunce, nikoli prosté zaostávání za pohybující se kometou.",
+      "type": "principle"
+    },
+    "idea-578": {
+      "point": "Cyklus saros přibližně opakuje geometrii zatmění díky sladění několika měsíčních period.",
+      "type": "principle"
+    },
+    "idea-579": {
+      "point": "Van Allenovy pásy obsahují nabité částice zachycené zemským magnetickým polem.",
+      "type": "discovery"
+    },
+    "idea-580": {
+      "point": "Titan má povrchové kapalné uhlovodíky a metanový cyklus připomínající v jiné chemii pozemský oběh vody.",
+      "type": "discovery"
+    },
+    "idea-581": {
+      "point": "Snímek Pale Blue Dot ukazuje Zemi jako nepatrný bod a mění běžnou představu jejího kosmického významu.",
+      "type": "work"
+    },
+    "idea-582": {
+      "point": "Zdánlivý zpětný pohyb planet na obloze vzniká vzájemným pohybem Země a planet, nikoli nutným obrácením jejich drah.",
+      "type": "principle"
+    },
+    "idea-583": {
+      "point": "Saussurova arbitrárnost znaku znamená, že spojení zvukové podoby a významu není přirozeně nutné.",
+      "type": "theory"
+    },
+    "idea-584": {
+      "point": "Saussure rozlišuje společenský jazykový systém langue od jednotlivého užití řeči parole.",
+      "type": "theory"
+    },
+    "idea-585": {
+      "point": "Synchronní popis zkoumá jazyk v určitém stavu, zatímco diachronní sleduje jeho historické proměny.",
+      "type": "principle"
+    },
+    "idea-586": {
+      "point": "Fonologické jednotky získávají funkci rozdíly vůči jiným jednotkám systému, nikoli jen samostatnou zvukovou podobou.",
+      "type": "theory"
+    },
+    "idea-587": {
+      "point": "Poetická funkce obrací pozornost k uspořádání samotného sdělení a ukazuje rozdíl mezi gramatickou správností a smysluplností.",
+      "type": "theory"
+    },
+    "idea-588": {
+      "point": "Strukturální analýza mýtů hledá vztahy a protiklady sdílené různými příběhy místo pouhého izolovaného děje.",
+      "type": "theory"
+    },
+    "idea-589": {
+      "point": "Zákaz incestu lze ve strukturální antropologii vykládat jako pravidlo vytvářející směnu a vazby mezi skupinami.",
+      "type": "theory"
+    },
+    "idea-590": {
+      "point": "Proppova analýza pohádek rozlišuje opakující se funkce děje nezávislé na konkrétních jménech postav.",
+      "type": "theory"
+    },
+    "idea-591": {
+      "point": "Genette rozlišuje čas příběhu a vyprávění pomocí pořadí, trvání a četnosti popisovaných událostí.",
+      "type": "theory"
+    },
+    "idea-592": {
+      "point": "Barthesova smrt autora odmítá záměr spisovatele jako jedinou konečnou autoritu významu textu.",
+      "type": "theory"
+    },
+    "idea-593": {
+      "point": "Barthesův mýtus proměňuje kulturně a historicky vzniklé významy v něco zdánlivě přirozeného a samozřejmého.",
+      "type": "theory"
+    },
+    "idea-594": {
+      "point": "Chomského rozlišení hloubkové a povrchové struktury hledá pravidla vztahu mezi různými podobami vět.",
+      "type": "theory"
+    },
+    "idea-595": {
+      "point": "Piagetova stadia popisují kvalitativní proměny dětského myšlení, nikoli jen přibývání jednotlivých vědomostí.",
+      "type": "theory"
+    },
+    "idea-596": {
+      "point": "Althusserova interpelace vysvětluje, jak ideologie oslovováním přiřazuje jednotlivci identitu a místo ve společenském řádu.",
+      "type": "theory"
+    },
+    "idea-597": {
+      "point": "Foucaultova epistémé označuje historické podmínky, které určují, co se v dané době může jevit jako platné vědění.",
+      "type": "theory"
+    },
+    "idea-598": {
+      "point": "Lacanovo zrcadlové stadium spojuje vznik obrazu vlastního já s identifikací s vnější sjednocenou podobou těla.",
+      "type": "theory"
+    },
+    "idea-599": {
+      "point": "Lacan vykládá nevědomí jako strukturované vztahy připomínající fungování jazyka.",
+      "type": "theory"
+    },
+    "idea-600": {
+      "point": "Peircova triáda rozlišuje znak, jeho objekt a interpretant a odlišuje ikonické, indexové a symbolické vztahy.",
+      "type": "theory"
+    },
+    "idea-601": {
+      "point": "Hjelmslev rozlišuje výraz a obsah a na obou rovinách sleduje formu i látku jazykového znaku.",
+      "type": "theory"
+    },
+    "idea-602": {
+      "point": "Lotmanova sémiosféra chápe kulturu jako prostor vzájemně závislých znakových systémů a jejich hranic.",
+      "type": "theory"
+    },
+    "idea-603": {
+      "point": "Intertextualita popisuje vznik významu textu skrze vztahy k jiným textům a kulturním formulacím.",
+      "type": "theory"
+    },
+    "idea-604": {
+      "point": "Ecovo otevřené dílo připouští více aktivních čtenářských interpretací, které ale nejsou zcela bez omezení samotným dílem.",
+      "type": "theory"
+    },
+    "idea-605": {
+      "point": "Derridova kritika logocentrismu zpochybňuje přednost přímé přítomnosti významu a řeči před písmem.",
+      "type": "theory"
+    },
+    "idea-606": {
+      "point": "Différance a dekonstrukce ukazují závislost významu na rozdílech a odkladech, které narušují jednoduché stabilní protiklady.",
+      "type": "theory"
+    },
+    "idea-607": {
+      "point": "Baudrillardova hyperrealita popisuje situaci, kdy obrazy a modely předcházejí zkušenosti a nahrazují jí měřítko skutečnosti.",
+      "type": "theory"
+    },
+    "idea-608": {
+      "point": "Bachtinův dialogismus a polyfonie chápou promluvy a románové hlasy jako vzájemně odpovídající, ale neredukovatelné na jedinou autoritu.",
+      "type": "theory"
+    },
+    "idea-609": {
+      "point": "Greimasův aktantový model rozlišuje obecné vztahové role v příběhu nezávislé na jednotlivých postavách.",
+      "type": "theory"
+    },
+    "idea-610": {
+      "point": "Mukařovského aktualizace narušuje navyklé užívání jazyka a obnovuje pozornost k jeho podobě.",
+      "type": "theory"
+    },
+    "idea-611": {
+      "point": "Spor existencialismu a strukturalismu se týká vztahu lidské svobody k neosobním společenským a jazykovým strukturám.",
+      "type": "theory"
+    },
+    "idea-612": {
+      "point": "Poststrukturalistické přístupy zpochybňují představu uzavřeného systému s jednou stabilní strukturou významu.",
+      "type": "theory"
+    },
+    "idea-613": {
+      "point": "Coriolisova síla je zdánlivý účinek popisu pohybu v rotující soustavě a podílí se na velkoplošném stáčení proudění.",
+      "type": "principle"
+    },
+    "idea-614": {
+      "point": "Při pádu v odporujícím prostředí může odpor vyrovnat tíhu, takže další zrychlování ustane.",
+      "type": "principle"
+    },
+    "idea-615": {
+      "point": "Kmitání konstrukcí může růst dodáváním energie ve vhodné fázi; příběh Tacomy ukazuje nebezpečí dynamického působení větru.",
+      "type": "principle"
+    },
+    "idea-616": {
+      "point": "Zmenšení momentu setrvačnosti při zachování momentu hybnosti zrychluje otáčení tělesa.",
+      "type": "principle"
+    },
+    "idea-617": {
+      "point": "Zrcadlo převrací směr kolmý ke své ploše, zatímco dojem záměny levé a pravé závisí na porovnávání orientace.",
+      "type": "principle"
+    },
+    "idea-618": {
+      "point": "Mechanické narušení některých krystalů může vyvolat světelný záblesk zvaný triboluminiscence.",
+      "type": "principle"
+    },
+    "idea-619": {
+      "point": "Magnetické monopóly jsou teoreticky zajímavé izolované póly, ale jejich existence není běžným pozorováním potvrzena.",
+      "type": "open-question"
+    },
+    "idea-620": {
+      "point": "Pohyb rychlejší než šíření zvuku skládá tlakové poruchy do rázové vlny vnímané jako sonický třesk.",
+      "type": "principle"
+    },
+    "idea-621": {
+      "point": "Piezoelektrický jev převádí mechanické namáhání vhodného materiálu na elektrické napětí a umožňuje i opačný převod.",
+      "type": "principle"
+    },
+    "idea-622": {
+      "point": "Kafkova Proměna spojuje ztrátu pracovní užitečnosti s proměnou vztahu rodiny k člověku.",
+      "type": "work"
+    },
+    "idea-623": {
+      "point": "Farma zvířat zobrazuje proměnu revoluční rovnosti v nové privilegované panství jako alegorii sovětského vývoje.",
+      "type": "work"
+    },
+    "idea-624": {
+      "point": "Malý princ využívá dětský pohled k prověření dospělých představ o hodnotě, přátelství a odpovědnosti.",
+      "type": "work"
+    },
+    "idea-625": {
+      "point": "Carrollova Alenka používá jazykové a logické nesmysly k narušení samozřejmých pravidel běžného světa.",
+      "type": "work"
+    },
+    "idea-626": {
+      "point": "Čekání na Godota staví lidské hledání smyslu a očekávání do situace bez slíbeného vyústění.",
+      "type": "work"
+    },
+    "idea-627": {
+      "point": "Velký Gatsby ukazuje napětí mezi bohatstvím, touhou obnovit minulost a nedosažitelností vysněného života.",
+      "type": "work"
+    },
+    "idea-628": {
+      "point": "Fahrenheit 451 spojuje zánik četby nejen se zákazem knih, ale i s dobrovolným příklonem k pohodlné povrchnosti.",
+      "type": "work"
+    },
+    "idea-629": {
+      "point": "Canterburské povídky propojují různorodé příběhy rámcem společné pouti a rozdílných vypravěčů.",
+      "type": "work"
+    },
+    "idea-630": {
+      "point": "Slovo robot se z Čapkovy hry R.U.R. rozšířilo do světových jazyků jako označení uměle vytvořeného pracovníka.",
+      "type": "event"
+    },
+    "idea-631": {
+      "point": "Chargaffovy poměry bází DNA poskytly důležitou stopu pro vysvětlení jejich párování ve struktuře molekuly.",
+      "type": "discovery"
+    },
+    "idea-632": {
+      "point": "PCR opakovaně zdvojuje vybraný úsek DNA a termostabilní polymeráza umožňuje automatické teplotní cyklování.",
+      "type": "principle"
+    },
+    "idea-633": {
+      "point": "Luciferázové reakce vytvářejí biologické světlo a lze je využít jako měřitelný signál v biologickém výzkumu.",
+      "type": "principle"
+    },
+    "idea-634": {
+      "point": "Cirkadiánní hodiny vznikají zpětnovazebnými molekulárními procesy, které sladí tělesné funkce s denním cyklem.",
+      "type": "principle"
+    },
+    "idea-635": {
+      "point": "Vysoký podíl odolných lidí omezuje šíření infekce a může nepřímo chránit i některé nechráněné osoby.",
+      "type": "principle"
+    },
+    "idea-636": {
+      "point": "Domestikace psů vznikala postupnou změnou vztahu mezi vlčími předky a lidskými skupinami.",
+      "type": "theory"
+    },
+    "idea-637": {
+      "point": "Výzkum Helicobacter pylori ukázal bakteriální podíl na žaludečních vředech proti převládajícímu čistě stresovému vysvětlení.",
+      "type": "discovery"
+    },
+    "idea-638": {
+      "point": "Možná role apendixu jako útočiště střevních mikroorganismů zpochybňuje představu zcela zbytečného orgánu.",
+      "type": "open-question"
+    },
+    "idea-639": {
+      "point": "Výzkum rozděleného mozku ukazuje oddělitelné zpracování informací hemisférami i omezení slovního vysvětlení vlastního jednání.",
+      "type": "discovery"
+    },
+    "idea-640": {
+      "point": "Negativní informace a zkušenosti často působí na hodnocení a paměť silněji než srovnatelné pozitivní podněty.",
+      "type": "principle"
+    },
+    "idea-641": {
+      "point": "Při společné práci může úsilí jednotlivce klesat, pokud se jeho příspěvek ztrácí v souhrnném výsledku skupiny.",
+      "type": "principle"
+    },
+    "idea-642": {
+      "point": "I nahodilé rozdělení lidí do skupin může vést ke zvýhodňování vlastní skupiny bez předchozího věcného konfliktu.",
+      "type": "principle"
+    },
+    "idea-643": {
+      "point": "Pravděpodobnost a četnost jevů odhadujeme podle snadnosti vybavení příkladů, která nemusí odpovídat skutečnému výskytu.",
+      "type": "principle"
+    },
+    "idea-644": {
+      "point": "Pocit podvodníka spojuje vlastní úspěch s náhodou či omylem druhých místo přijetí dokladů vlastní schopnosti.",
+      "type": "principle"
+    },
+    "idea-645": {
+      "point": "Znalost výsledku vede k přeceňování toho, nakolik byl výsledek předem zřejmý a předvídatelný.",
+      "type": "principle"
+    },
+    "idea-646": {
+      "point": "Víra ve spravedlivý svět může vést k připisování viny obětem, aby se zachoval dojem zasloužených následků.",
+      "type": "principle"
+    },
+    "idea-647": {
+      "point": "Přijetí malé žádosti může zvýšit ochotu později vyhovět většímu podobnému požadavku.",
+      "type": "principle"
+    },
+    "idea-648": {
+      "point": "Přijatá laskavost nebo dar vytváří pocit závazku oplatit pomoc, který může ovlivnit další rozhodování.",
+      "type": "principle"
+    },
+    "idea-649": {
+      "point": "Na kulové ploše nelze vytvořit všude nenulové spojité tečné vektorové pole bez víru či nulového místa.",
+      "type": "principle"
+    },
+    "idea-650": {
+      "point": "Směr vztahu v oddělených skupinách se může po jejich sloučení obrátit kvůli rozdílnému složení dat.",
+      "type": "principle"
+    },
+    "idea-651": {
+      "point": "Jednorázová šifra může poskytovat dokonalé utajení jen při skutečně náhodném stejně dlouhém klíči, který se neopakuje.",
+      "type": "principle"
+    },
+    "idea-652": {
+      "point": "Ramseyovské vztahy zaručují v dostatečně velké struktuře výskyt uspořádané podstruktury i bez zjevného celkového řádu.",
+      "type": "principle"
+    },
+    "idea-653": {
+      "point": "Hilbertův hotel ukazuje, že nekonečná obsazená množina může pojmout další prvky přeuspořádáním jejich přiřazení.",
+      "type": "principle"
+    },
+    "idea-654": {
+      "point": "Problém obchodního cestujícího má snadno popsatelný cíl, ale hledání optimální trasy se s velikostí vstupu prudce komplikuje.",
+      "type": "open-question"
+    },
+    "idea-655": {
+      "point": "Dokonalá a spřátelená čísla se vymezují zvláštními vztahy mezi číslem a součtem jeho vlastních dělitelů.",
+      "type": "principle"
+    },
+    "idea-656": {
+      "point": "Hráč s omezeným kapitálem může při dlouhé sérii sázek zkrachovat i ve hře bez zjevně nepříznivého jednotlivého kurzu.",
+      "type": "principle"
+    },
+    "idea-657": {
+      "point": "Modulární aritmetika počítá se zbytky po dělení a poskytuje pravidla pro cykly, kontroly i kryptografii.",
+      "type": "principle"
+    },
+    "idea-658": {
+      "point": "Versailleská smlouva po první světové válce měnila hranice i povinnosti poražených a přispěla k dalším politickým napětím.",
+      "type": "event"
+    },
+    "idea-659": {
+      "point": "Jaltská jednání řešila poválečné uspořádání při rozdílných zájmech a mocenských možnostech spojenců.",
+      "type": "event"
+    },
+    "idea-660": {
+      "point": "Mandela a vyjednávání o konci apartheidu ukazují přechod od rasového vyloučení k politické účasti a smíření.",
+      "type": "event"
+    },
+    "idea-661": {
+      "point": "Rozdělení Britské Indie vyvolalo masové přesuny obyvatel a násilí spojené s novými národními hranicemi.",
+      "type": "event"
+    },
+    "idea-662": {
+      "point": "Právo veta stálých členů Rady bezpečnosti OSN může zabránit rozhodnutí i při podpoře ostatních členů.",
+      "type": "principle"
+    },
+    "idea-663": {
+      "point": "Aféra Watergate ukázala, že vyšetřování a kontrolní instituce mohou přimět prezidenta k odchodu z úřadu.",
+      "type": "event"
+    },
+    "idea-664": {
+      "point": "Americký Civil Rights Act zakázal zásadní formy diskriminace a poskytl nástroje k prosazování občanské rovnosti.",
+      "type": "event"
+    },
+    "idea-665": {
+      "point": "Společná správa uhlí a oceli propojila strategické zdroje evropských států a připravila základy pozdější integrace.",
+      "type": "event"
+    },
+    "idea-666": {
+      "point": "Ombudsman poskytuje nezávislou cestu kontroly jednání veřejné správy a ochrany lidí před jejími pochybeními.",
+      "type": "principle"
+    },
+    "idea-667": {
+      "point": "Eratosthenés odhadl obvod Země porovnáním slunečních stínů a vzdálenosti mezi dvěma místy.",
+      "type": "discovery"
+    },
+    "idea-668": {
+      "point": "Aristarchos navrhl heliocentrické uspořádání dlouho před jeho novověkým prosazením.",
+      "type": "theory"
+    },
+    "idea-669": {
+      "point": "Hipparchos rozpoznal pomalou změnu polohy jarního bodu vůči hvězdám, známou jako precese.",
+      "type": "discovery"
+    },
+    "idea-670": {
+      "point": "Árjabhata vykládal denní pohyb oblohy pomocí rotace Země namísto nutného otáčení celé oblohy.",
+      "type": "theory"
+    },
+    "idea-671": {
+      "point": "Aristotelovy čtyři příčiny odlišují látku, tvar, působící zdroj a účel jako různé odpovědi na otázku proč.",
+      "type": "theory"
+    },
+    "idea-672": {
+      "point": "Euthyfrónovo dilema zkoumá, zda je jednání dobré proto, že je schvaluje božská autorita, nebo je schvalováno pro vlastní dobro.",
+      "type": "theory"
+    },
+    "idea-673": {
+      "point": "Gygův prsten prověřuje, zda člověk jedná spravedlivě i bez možnosti odhalení a trestu.",
+      "type": "theory"
+    },
+    "idea-674": {
+      "point": "Argument o bílém koni rozlišuje různé rozsahy pojmů a způsoby jejich používání.",
+      "type": "theory"
+    },
+    "idea-675": {
+      "point": "Pánini popsal sanskrt soustavou pravidel a metapravidel připomínající formální generativní systém.",
+      "type": "discovery"
+    },
+    "idea-676": {
+      "point": "Al-Chwárizmího jméno a práce přispěly k původu označení algoritmus a algebra v evropské tradici.",
+      "type": "event"
+    },
+    "idea-677": {
+      "point": "Ibn al-Hajsam vysvětloval vidění světlem vstupujícím do oka a podporoval výklad pokusy s jeho šířením.",
+      "type": "discovery"
+    },
+    "idea-678": {
+      "point": "Ibn Chaldúnova asabíja spojuje vzestup a úpadek vládnoucích skupin se silou jejich soudržnosti.",
+      "type": "theory"
+    },
+    "idea-679": {
+      "point": "Wang Jang-ming chápe skutečné poznání správnosti jako neoddělitelné od jednání, které je uskutečňuje.",
+      "type": "theory"
+    },
+    "idea-680": {
+      "point": "Augustin zkoumá čas skrze paměť minulého, pozornost přítomného a očekávání budoucího v lidské mysli.",
+      "type": "theory"
+    },
+    "idea-681": {
+      "point": "Veřejná promítání bratří Lumièrů pomohla vytvořit kino jako kolektivní způsob sledování pohyblivého obrazu.",
+      "type": "event"
+    },
+    "idea-682": {
+      "point": "Haysův kodex omezoval zobrazování témat v Hollywoodu a ovlivňoval samotné vyprávěcí postupy filmů.",
+      "type": "principle"
+    },
+    "idea-683": {
+      "point": "Italský neorealismus využíval prostředí mimo studio a neprofesionální herce k odlišnému dojmu každodenní skutečnosti.",
+      "type": "principle"
+    },
+    "idea-684": {
+      "point": "Nanuk člověk primitivní ukazuje, že i průkopnický dokument může rekonstruovat a inscenovat zobrazované jednání.",
+      "type": "work"
+    },
+    "idea-685": {
+      "point": "Laterna magika propojuje živé jevištní jednání s filmovou projekcí v jediné časované kompozici.",
+      "type": "principle"
+    },
+    "idea-686": {
+      "point": "Borgesova Babylonská knihovna zkoumá, zda úplnost všech kombinací textu poskytuje poznání, nebo převážně nerozlišitelný šum.",
+      "type": "work"
+    },
+    "idea-687": {
+      "point": "Moby-Dick získal postavení literární klasiky až dlouho po původním nevýrazném přijetí.",
+      "type": "event"
+    },
+    "idea-688": {
+      "point": "Švejkova doslovná poslušnost odhaluje rozpory a absurditu institucionálních rozkazů.",
+      "type": "work"
+    },
+    "idea-689": {
+      "point": "Oulipovská omezení, například vynechání určitého písmene, mohou tvořivost podporovat místo jejího pouhého omezování.",
+      "type": "principle"
+    },
+    "idea-690": {
+      "point": "Včelí tanec předává ostatním včelám informace o směru a vzdálenosti zdroje potravy.",
+      "type": "principle"
+    },
+    "idea-691": {
+      "point": "Slizovka může bez centrálního mozku vytvářet účinné spojovací sítě pomocí lokálních procesů růstu a ústupu.",
+      "type": "principle"
+    },
+    "idea-692": {
+      "point": "Australská emuí válka ukazuje limity vojenského řešení problému s pohyblivou početnou populací zvířat.",
+      "type": "event"
+    },
+    "idea-693": {
+      "point": "Štrasburské taneční šílenství je doloženou zvláštní událostí, jejíž přesnou příčinu nelze snadno určit.",
+      "type": "open-question"
+    },
+    "idea-694": {
+      "point": "Dijkstrův algoritmus určuje nejkratší cesty postupným výběrem nejbližšího nezpracovaného vrcholu.",
+      "type": "discovery"
+    },
+    "idea-695": {
+      "point": "Přidání lidí do zpožděného softwarového projektu může zvýšit náklady na koordinaci a projekt dále zpozdit.",
+      "type": "principle"
+    },
+    "idea-696": {
+      "point": "Thompsonův útok na důvěru ukazuje, že kompromitovaný překladač může šířit skryté chování i při zdánlivě čistém zdrojovém kódu.",
+      "type": "principle"
+    },
+    "idea-697": {
+      "point": "Jednovrstvý perceptron neumí oddělit vstupy XOR jedinou lineární hranicí, což ukazuje omezení dané architektury.",
+      "type": "principle"
+    },
+    "idea-698": {
+      "point": "Duchampův readymade přesouvá otázku umění od ruční výroby předmětu ke kontextu a aktu jeho výběru.",
+      "type": "theory"
+    },
+    "idea-699": {
+      "point": "Lineární perspektiva využívá geometrické vztahy a úběžníky k vytvoření dojmu hloubky na ploše.",
+      "type": "discovery"
+    },
+    "idea-700": {
+      "point": "Muchova Slovanská epopej vytváří rozsáhlou obrazovou interpretaci dějin a identity slovanských národů.",
+      "type": "work"
+    },
+    "idea-701": {
+      "point": "Kubismus skládá předmět z více pohledů a narušuje jediný neměnný bod perspektivního pozorování.",
+      "type": "theory"
+    },
+    "idea-702": {
+      "point": "Madison hledá omezení škodlivých frakcí v rozmanitosti zájmů a institucionálním uspořádání rozsáhlé republiky.",
+      "type": "theory"
+    },
+    "idea-703": {
+      "point": "Hobbes odůvodňuje silnou státní moc potřebou zabránit vzájemné nejistotě a násilí bez společné autority.",
+      "type": "theory"
+    },
+    "idea-704": {
+      "point": "Noetherové věta spojuje spojité symetrie fyzikálního systému s odpovídajícími zákony zachování.",
+      "type": "principle"
+    },
+    "idea-705": {
+      "point": "Brownův pohyb poskytl měřitelnou cestu k ověření molekulární povahy hmoty.",
+      "type": "discovery"
+    },
+    "idea-706": {
+      "point": "Landauerův princip spojuje nevratné mazání informace s minimální tepelnou cenou a objasňuje omezení Maxwellova démona.",
+      "type": "principle"
+    },
+    "idea-707": {
+      "point": "Jakmile se měřítko stane cílem, může změněné chování oslabit jeho původní vztah ke skutečně sledované kvalitě.",
+      "type": "principle"
+    },
+    "idea-708": {
+      "point": "Coase vysvětluje existenci firem tím, že organizování činností může snižovat náklady jednotlivých tržních transakcí.",
+      "type": "theory"
+    },
+    "idea-709": {
+      "point": "Veblenova demonstrativní spotřeba využívá drahé a viditelné statky jako signál společenského postavení.",
+      "type": "theory"
+    },
+    "idea-710": {
+      "point": "Collatzova domněnka má jednoduché opakované pravidlo, ale chybí důkaz, že každý kladný počátek dospěje k jedničce.",
+      "type": "open-question"
+    },
+    "idea-711": {
+      "point": "Banachův–Tarského paradox využívá abstraktní rozklady množin a nelze jej uskutečnit běžným fyzickým řezáním hmoty.",
+      "type": "principle"
+    },
+    "idea-712": {
+      "point": "Arrowův teorém ukazuje neslučitelnost souboru požadavků na agregaci neomezených preferencí u tří a více možností.",
+      "type": "principle"
+    },
+    "idea-713": {
+      "point": "Bandurovy pokusy ukázaly, že děti mohou přebírat chování pozorováním vzoru i bez vlastního přímého odměnění.",
+      "type": "principle"
+    },
+    "idea-714": {
+      "point": "Selektivní pozornost umožňuje sledovat jeden hlas mezi jinými, ale významný podnět může pozornost přesměrovat.",
+      "type": "principle"
+    },
+    "idea-715": {
+      "point": "Haberův–Boschův proces umožnil průmyslově vázat vzdušný dusík do amoniaku a zásadně rozšířil výrobu hnojiv.",
+      "type": "discovery"
+    },
+    "idea-716": {
+      "point": "Millerův–Ureyho pokus ukázal, že některé organické stavební látky mohou vznikat z jednodušších látek bez živých organismů.",
+      "type": "discovery"
+    },
+    "idea-717": {
+      "point": "Gettierovské příklady ukazují, že pravdivé zdůvodněné přesvědčení může vzniknout náhodou a nemusí stačit jako definice poznání.",
+      "type": "theory"
+    },
+    "idea-718": {
+      "point": "Platónův Menón vykládá část poznávání jako rozpomínání a zkoumá, jak lze hledat to, co ještě neznáme.",
+      "type": "theory"
+    },
+    "idea-719": {
+      "point": "Aristotelova budoucí námořní bitva zkoumá, zda již nyní pravdivé výroky o budoucnosti nutně znamenají předurčenost událostí.",
+      "type": "theory"
+    },
+    "idea-720": {
+      "point": "Čuang-cův spor o radost ryb zkoumá hranice poznání zkušenosti druhého a perspektivu tazatele.",
+      "type": "theory"
+    },
+    "idea-721": {
+      "point": "Njája rozlišuje zdroje platného poznání a zkoumá, jak lze zdůvodňovat úsudky a rozpoznávat omyly.",
+      "type": "theory"
+    },
+    "idea-722": {
+      "point": "Přirovnání člověka k vozu ukazuje osobu jako závislé uspořádání částí bez samostatného neměnného jádra.",
+      "type": "theory"
+    },
+    "idea-723": {
+      "point": "Aristotelova rétorika rozlišuje přesvědčování důvěryhodností mluvčího, emocemi publika a argumentem.",
+      "type": "theory"
+    },
+    "idea-724": {
+      "point": "Platónovo Symposion staví vedle sebe hledání chybějící poloviny a vzestup touhy od jednotlivého těla k obecnější kráse.",
+      "type": "theory"
+    },
+    "idea-725": {
+      "point": "Avicennův létající člověk zkoumá možnost vědomí vlastního já bez aktuálních smyslových vjemů těla.",
+      "type": "theory"
+    },
+    "idea-726": {
+      "point": "Theofrastos systematicky popisoval a srovnával rostliny a pomáhal vytvářet botaniku jako samostatné zkoumání.",
+      "type": "discovery"
+    },
+    "idea-727": {
+      "point": "Mélský dialog vystavuje spravedlnost nerovnému poměru sil a tvoří klasický příklad mocenského realismu.",
+      "type": "theory"
+    },
+    "idea-728": {
+      "point": "Kautiljova mandala vykládá spojence a protivníky podle strategických vztahů mezi sousedními státy.",
+      "type": "theory"
+    },
+    "idea-729": {
+      "point": "Hippokratovské pojetí epilepsie hledá přírodní příčiny nemoci místo jejího výlučně božského vysvětlení.",
+      "type": "theory"
+    },
+    "idea-730": {
+      "point": "Gorgiův argument rozlišuje existenci skutečnosti, možnost ji poznat a možnost poznání sdělit druhým.",
+      "type": "theory"
+    },
+    "idea-731": {
+      "point": "Dolly zoom kombinuje pohyb kamery se změnou ohniska a mění perspektivu pozadí při podobné velikosti hlavní postavy.",
+      "type": "principle"
+    },
+    "idea-732": {
+      "point": "Československé oscarové úspěchy ukazují mezinárodní dosah domácí filmové tvorby v konkrétních historických podmínkách.",
+      "type": "event"
+    },
+    "idea-733": {
+      "point": "Bechdelův test používá jednoduché podmínky ženského dialogu jako omezené vodítko reprezentace, nikoli úplné měřítko kvality filmu.",
+      "type": "principle"
+    },
+    "idea-734": {
+      "point": "Autorskoprávní spor o Nosferatu vedl k příkazu zničit kopie, ale dochované exempláře umožnily přežití filmu.",
+      "type": "event"
+    },
+    "idea-735": {
+      "point": "Dekameron rámuje rozmanité vyprávění skupinou lidí uchýlenou před morem mimo město.",
+      "type": "work"
+    },
+    "idea-736": {
+      "point": "Selkirkovo přežití na ostrově patří k historickým inspiracím Robinsona Crusoe, který není prostým přepisem jediné skutečné události.",
+      "type": "work"
+    },
+    "idea-737": {
+      "point": "Komenského Orbis pictus propojuje obraz a slovo při výuce a poznávání světa.",
+      "type": "work"
+    },
+    "idea-738": {
+      "point": "Axolotl umí obnovovat některé složité tkáně a části těla bez běžného zjizvení.",
+      "type": "principle"
+    },
+    "idea-739": {
+      "point": "Velmi staré borovice ukazují možnost dlouhověkosti jednotlivého organismu v náročných podmínkách.",
+      "type": "discovery"
+    },
+    "idea-740": {
+      "point": "Odhady stáří grónského žraloka ukazují mimořádně pomalý životní cyklus a dlouhověkost obratlovce.",
+      "type": "discovery"
+    },
+    "idea-741": {
+      "point": "Grace Hopperová pomáhala prosadit překladače, které oddělují lidsky přístupný zápis programu od strojových instrukcí.",
+      "type": "discovery"
+    },
+    "idea-742": {
+      "point": "Coddův relační model odděluje logické vztahy dat od konkrétního fyzického uložení.",
+      "type": "theory"
+    },
+    "idea-743": {
+      "point": "Conwayův zákon spojuje strukturu navrhovaných systémů s komunikační strukturou organizací, které je vytvářejí.",
+      "type": "principle"
+    },
+    "idea-744": {
+      "point": "Guidovy notační postupy usnadnily předávání a výuku melodie bez úplné závislosti na zapamatované ústní ukázce.",
+      "type": "discovery"
+    },
+    "idea-745": {
+      "point": "Giottovy objemné postavy a prostorové situace posilovaly dojem tělesnosti oproti plošnějším konvencím.",
+      "type": "work"
+    },
+    "idea-746": {
+      "point": "Vznik Československa spojil rozpad habsburské monarchie s domácími i zahraničními politickými kroky.",
+      "type": "event"
+    },
+    "idea-747": {
+      "point": "Charta 77 využila rozporu mezi oficiálními závazky státu a jejich nedodržováním při obraně lidských práv.",
+      "type": "event"
+    },
+    "idea-748": {
+      "point": "Duvergerův zákon spojuje většinové jednomandátové volby s tlakem k menšímu počtu silných stran.",
+      "type": "theory"
+    },
+    "idea-749": {
+      "point": "Pára vznikající pod kapkou na velmi horkém povrchu ji může dočasně izolovat a prodloužit její životnost.",
+      "type": "principle"
+    },
+    "idea-750": {
+      "point": "Vodivý obal přerozděluje náboj a omezuje působení určitých vnějších elektrických polí uvnitř Faradayovy klece.",
+      "type": "principle"
+    },
+    "idea-751": {
+      "point": "Pauli navrhl neutrino jako tehdy nepozorovanou částici, aby zachoval fyzikální bilanci při beta rozpadu.",
+      "type": "theory"
+    },
+    "idea-752": {
+      "point": "Akerlofův trh s ojetinami ukazuje, jak rozdílné informace o kvalitě mohou vytlačovat kvalitní nabídky z trhu.",
+      "type": "theory"
+    },
+    "idea-753": {
+      "point": "Baumolova nákladová nemoc vysvětluje růst relativních nákladů práce v oborech s pomalým zvyšováním produktivity.",
+      "type": "principle"
+    },
+    "idea-754": {
+      "point": "Schumpeterova tvořivá destrukce chápe inovace jako proces, který vytváří nové možnosti a současně ruší staré ekonomické struktury.",
+      "type": "theory"
+    },
+    "idea-755": {
+      "point": "Galoisova teorie spojuje řešitelnost rovnic pomocí odmocnin se strukturou jejich symetrií.",
+      "type": "discovery"
+    },
+    "idea-756": {
+      "point": "Bolzanovo pojetí spojitosti umožňuje přesně zdůvodnit existenci mezihodnot bez spoléhání na samotný obrázek křivky.",
+      "type": "principle"
+    },
+    "idea-757": {
+      "point": "Rozdělíme-li více předmětů do menšího počtu přihrádek, musí alespoň jedna obsahovat více než jeden předmět.",
+      "type": "principle"
+    },
+    "idea-758": {
+      "point": "Seskupování prvků do známých celků umožňuje efektivněji využívat omezenou kapacitu pracovní paměti.",
+      "type": "principle"
+    },
+    "idea-759": {
+      "point": "Rozložení opakování v čase pomáhá dlouhodobému zapamatování účinněji než soustředění stejné práce do jedné krátké série.",
+      "type": "practice"
+    },
+    "idea-760": {
+      "point": "Iluze gumové ruky ukazuje, že pocit vlastnictví těla závisí na slučování zrakových, dotykových a polohových informací.",
+      "type": "principle"
+    },
+    "idea-761": {
+      "point": "Tychovo pozorování nové hvězdy podpořilo závěr, že ani vzdálená hvězdná oblast není neměnná.",
+      "type": "discovery"
+    },
+    "idea-762": {
+      "point": "Gaussův výpočet dráhy umožnil z omezených pozorování znovu nalézt ztracenou Ceres.",
+      "type": "discovery"
+    },
+    "idea-763": {
+      "point": "Transpozony ukázaly, že části genetické informace se mohou v genomu přesouvat a měnit jeho fungování.",
+      "type": "discovery"
+    },
+    "idea-764": {
+      "point": "Piltdownský podvrh ukázal, jak očekávání odborníků a nedostatečné prověření mohou dlouho chránit falešný nález.",
+      "type": "event"
+    },
+    "idea-765": {
+      "point": "Kutnohorský dekret změnil rozdělení hlasů pražské univerzity a přispěl k odchodu části učenců do Lipska.",
+      "type": "event"
+    },
+    "idea-766": {
+      "point": "Zachycení a zveřejnění Zimmermannova telegramu ovlivnilo americké veřejné mínění během první světové války.",
+      "type": "event"
+    },
+    "idea-767": {
+      "point": "Název stoicismu pochází od veřejné sloupové síně, kde Zénón vyučoval, nikoli od osobnostní chladnosti.",
+      "type": "event"
+    },
+    "idea-768": {
+      "point": "Aristotelova katarze spojuje tragédii s působením soucitu a strachu na diváka.",
+      "type": "theory"
+    },
+    "idea-769": {
+      "point": "Chan Fejův příběh o čekání na zajíce kritizuje slepé opakování dříve náhodně úspěšného postupu v nových podmínkách.",
+      "type": "theory"
+    },
+    "idea-770": {
+      "point": "Chrysippova výroková logika zkoumá vztahy celých výroků pomocí spojek a platných odvozovacích pravidel.",
+      "type": "theory"
+    },
+    "idea-771": {
+      "point": "Plótínova emanace popisuje závislost mnohosti skutečnosti na jednotném prvním principu.",
+      "type": "theory"
+    },
+    "idea-772": {
+      "point": "Boethiova proměnlivá Štěstěna ukazuje nestálost vnějších výhod jako nedostatečný základ trvalého štěstí.",
+      "type": "theory"
+    },
+    "idea-773": {
+      "point": "Maimonides pokládá pomoc k vlastní soběstačnosti za hodnotnější než udržování dlouhodobé závislosti na daru.",
+      "type": "theory"
+    },
+    "idea-774": {
+      "point": "Averroes hájí slučitelnost rozumového zkoumání a náboženské pravdy pomocí odlišných způsobů výkladu.",
+      "type": "theory"
+    },
+    "idea-775": {
+      "point": "Al-Ghazálí zpochybňuje, že pravidelně pozorovaná následnost sama dokazuje nutné přírodní příčinné spojení.",
+      "type": "theory"
+    },
+    "idea-776": {
+      "point": "Konfuciovo napravení jmen požaduje soulad společenských označení s odpovídajícím skutečným jednáním a povinnostmi.",
+      "type": "theory"
+    },
+    "idea-777": {
+      "point": "Anaximenés vysvětloval různé látky zhušťováním a zřeďováním vzduchu jako společného základu světa.",
+      "type": "theory"
+    },
+    "idea-778": {
+      "point": "Védský hymnus o stvoření připouští nejistotu o původu světa i hranicích vědění božské autority.",
+      "type": "work"
+    },
+    "idea-779": {
+      "point": "Platón spojoval pravidelná tělesa s geometrickým řádem přírody a představou základních prvků.",
+      "type": "theory"
+    },
+    "idea-780": {
+      "point": "Sima Čchien pokračoval v psaní dějin navzdory osobnímu ponížení a trestu, aby dokončil zamýšlené dílo.",
+      "type": "event"
+    },
+    "idea-781": {
+      "point": "Theofrastovy Charaktery zachycují opakující se vzorce lidského chování stručnými typovými portréty.",
+      "type": "work"
+    },
+    "idea-782": {
+      "point": "Hitchcockův Provaz vytváří dojem souvislého záběru vhodným ukrýváním technicky nutných střihů.",
+      "type": "work"
+    },
+    "idea-783": {
+      "point": "Vertovův Muž s kinoaparátem zkoumá městský život a možnosti filmového vidění bez běžného hraného děje.",
+      "type": "work"
+    },
+    "idea-784": {
+      "point": "Karel Zeman propojoval herce a trikové postupy s výtvarným světem připomínajícím rytiny verneovek.",
+      "type": "work"
+    },
+    "idea-785": {
+      "point": "Kubrick pro scény při svíčkách využil mimořádně světelné objektivy a přizpůsobenou kamerovou techniku.",
+      "type": "work"
+    },
+    "idea-786": {
+      "point": "Sedm samurajů rozvinulo vyprávěcí vzorec sestavení různorodého týmu pro společný obranný úkol.",
+      "type": "work"
+    },
+    "idea-787": {
+      "point": "Voltairův Candide podrobuje bezvýhradný filozofický optimismus zkoušce konkrétního utrpení a katastrof.",
+      "type": "work"
+    },
+    "idea-788": {
+      "point": "Dochování Beowulfa záviselo na přežití jediného středověkého rukopisu, který později poškodil požár.",
+      "type": "event"
+    },
+    "idea-789": {
+      "point": "Poeův detektiv Dupin vytvořil vlivný vzorec řešení záhady analytickým vyvozováním z dostupných stop.",
+      "type": "work"
+    },
+    "idea-790": {
+      "point": "Jane Austenová vydávala romány bez vlastního jména a veřejné potvrzení autorství následovalo až po její smrti.",
+      "type": "event"
+    },
+    "idea-791": {
+      "point": "Rychlý úder strašíka vyvolává kavitaci, jejíž kolaps zesiluje účinek útoku na kořist.",
+      "type": "principle"
+    },
+    "idea-792": {
+      "point": "Bombardovací brouk se brání prudkou řízenou chemickou reakcí vytvářející horký vystřikovaný obsah.",
+      "type": "principle"
+    },
+    "idea-793": {
+      "point": "Jednotný úřední čas Číny se může výrazně lišit od místního slunečního času v jejích západních oblastech.",
+      "type": "principle"
+    },
+    "idea-794": {
+      "point": "Některé bambusy synchronně kvetou po dlouhých intervalech, což propojuje životní cyklus velkých populací.",
+      "type": "principle"
+    },
+    "idea-795": {
+      "point": "Engelbartova demonstrace představila propojené prvky interaktivní práce s počítačem včetně myši a spolupráce na dokumentu.",
+      "type": "event"
+    },
+    "idea-796": {
+      "point": "Hammingovy kódy přidávají strukturovanou redundanci, která umožňuje odhalit a v určitých mezích opravit chybný bit.",
+      "type": "principle"
+    },
+    "idea-797": {
+      "point": "Nehody Theracu-25 ukazují, že softwarové chyby a nedostatečné bezpečnostní pojistky mohou způsobit fyzické poškození pacientů.",
+      "type": "event"
+    },
+    "idea-798": {
+      "point": "Problém byzantských generálů zkoumá dosažení společné dohody při přítomnosti chybných nebo záměrně klamajících účastníků.",
+      "type": "principle"
+    },
+    "idea-799": {
+      "point": "Automatické uvolňování nepoužívané paměti v Lispu oddělilo část správy prostředků od ruční práce programátora.",
+      "type": "principle"
+    },
+    "idea-800": {
+      "point": "Vitruviánský muž propojuje idealizované proporce lidského těla s geometrickými tvary kruhu a čtverce.",
+      "type": "work"
+    },
+    "idea-801": {
+      "point": "Dvořákova americká tvorba ukazuje kulturní inspiraci místními hudebními tradicemi vedle vlastního skladatelského jazyka.",
+      "type": "work"
+    },
+    "idea-802": {
+      "point": "Smetana vytvořil Vltavu v období ztráty sluchu, což odděluje skladatelskou představivost od aktuálního slyšení.",
+      "type": "work"
+    },
+    "idea-803": {
+      "point": "Krádež části Gentského oltáře zanechala dlouhodobou mezeru v dochovaném uměleckém celku.",
+      "type": "event"
+    },
+    "idea-804": {
+      "point": "Islandský Althing působil jako shromáždění pro právo a spory bez běžné centralizované výkonné moci.",
+      "type": "principle"
+    },
+    "idea-805": {
+      "point": "Australské zavedení tajného hlasování omezovalo možnost kontroly a nátlaku nad individuální volební volbou.",
+      "type": "event"
+    },
+    "idea-806": {
+      "point": "Příběh Cincinnata staví dobrovolné vrácení mimořádné moci do role ideálu občanské služby republice.",
+      "type": "event"
+    },
+    "idea-807": {
+      "point": "Cavendishovo měření slabého gravitačního působení umožnilo odhadnout hustotu a hmotnost Země.",
+      "type": "discovery"
+    },
+    "idea-808": {
+      "point": "Hessův růst ionizujícího záření s výškou podpořil jeho kosmický původ místo čistě pozemského zdroje.",
+      "type": "discovery"
+    },
+    "idea-809": {
+      "point": "Fotoelektrický jev spojuje uvolnění elektronu s energií jednotlivého fotonu, takže rozhoduje frekvence světla, nikoli pouze intenzita.",
+      "type": "principle"
+    },
+    "idea-810": {
+      "point": "Olson vysvětluje obtížnou mobilizaci velkých skupin společným prospěchem dostupným i lidem, kteří k němu nepřispějí.",
+      "type": "theory"
+    },
+    "idea-811": {
+      "point": "Giniho koeficient shrnuje míru nerovnosti rozdělení, ale sám nepopisuje všechny rozdíly mezi společnostmi.",
+      "type": "principle"
+    },
+    "idea-812": {
+      "point": "Keynesova soutěž krásy ukazuje spekulaci založenou na odhadu očekávání ostatních místo vlastního hodnocení hodnoty.",
+      "type": "theory"
+    },
+    "idea-813": {
+      "point": "Trojúhelníkové uspořádání binomických koeficientů bylo známé v různých matematických tradicích před Pascalem.",
+      "type": "event"
+    },
+    "idea-814": {
+      "point": "Součty mnoha vhodných náhodných vlivů se po normalizaci často blíží normálnímu rozdělení i při jiném rozdělení jednotlivých vlivů.",
+      "type": "principle"
+    },
+    "idea-815": {
+      "point": "Číslo 1729 lze dvěma různými způsoby vyjádřit jako součet dvou kladných třetích mocnin.",
+      "type": "principle"
+    },
+    "idea-816": {
+      "point": "Drobná chyba může zvýšit sympatie k jinak schopnému člověku, ale stejný účinek nelze čekat u každého.",
+      "type": "principle"
+    },
+    "idea-817": {
+      "point": "Dojem, že jiné fronty postupují vždy rychleji, může posilovat nápadnost nevýhodných srovnání a selektivní paměť.",
+      "type": "principle"
+    },
+    "idea-818": {
+      "point": "Nekonečný desetinný zápis 0,999… označuje přesně stejné reálné číslo jako jedna.",
+      "type": "principle"
+    },
+    "idea-819": {
+      "point": "Posuzování jen přeživších případů může obrátit závěr, protože právě chybějící neúspěchy nesou rozhodující informaci.",
+      "type": "principle"
+    },
+    "idea-820": {
+      "point": "Průměrnou rychlost na stejně dlouhých úsecích určuje harmonický, nikoli prostý aritmetický průměr rychlostí.",
+      "type": "principle"
+    },
+    "idea-821": {
+      "point": "Fourierův rozklad vyjadřuje vhodné složité signály jako kombinace jednoduchých periodických složek.",
+      "type": "principle"
+    },
+    "idea-822": {
+      "point": "Opakovaný nevýznamný podnět může postupně vyvolávat slabší reakci, což pomáhá soustředit pozornost na změny.",
+      "type": "principle"
+    },
+    "idea-823": {
+      "point": "Rozpuštění zlatých Nobelových medailí v lučavce královské umožnilo jejich ukrytí a pozdější obnovení kovu.",
+      "type": "event"
+    },
+    "idea-824": {
+      "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+      "type": "principle"
+    },
+    "idea-825": {
+      "point": "Molekuly mýdla propojují vodomilnou a tukomilnou část a umožňují odnést mastnotu ve strukturách rozpustných ve vodním prostředí.",
+      "type": "principle"
+    },
+    "idea-826": {
+      "point": "Kočka se při pádu přetáčí změnou uspořádání částí těla bez nutnosti získat celkový moment hybnosti zvenčí.",
+      "type": "principle"
+    },
+    "idea-827": {
+      "point": "Muybridgeovy sekvenční fotografie rozlišily fáze koňského pohybu, které běžné lidské pozorování spolehlivě nerozezná.",
+      "type": "discovery"
+    },
+    "idea-828": {
+      "point": "Kulešovův efekt ukazuje, že divák přisuzuje témuž záběru jiný význam podle sousedících obrazů.",
+      "type": "principle"
+    },
+    "idea-829": {
+      "point": "Jazykové změny se šíří sociálními kontakty a jejich přijetí ovlivňují užitečnost a společenská prestiž mluvčích.",
+      "type": "theory"
+    },
+    "idea-830": {
+      "point": "Zipfovo rozdělení popisuje přibližně nepřímý vztah mezi četností slova a jeho pořadím podle četnosti.",
+      "type": "principle"
+    },
+    "idea-831": {
+      "point": "Diskuse o jazyce Pirahã prověřuje, nakolik jsou údajně univerzální jazykové vlastnosti skutečně obecné a jak se dokládají.",
+      "type": "open-question"
+    },
+    "idea-832": {
+      "point": "Pokusy s látkami ovlivňujícími nervovou soustavu pavouků ukazují změny ve struktuře vytvářených sítí.",
+      "type": "discovery"
+    },
+    "idea-833": {
+      "point": "Zachování hmyzu v jantaru samo nezaručuje zachování použitelné dávné DNA pro rekonstrukci vyhynulých organismů.",
+      "type": "principle"
+    },
+    "idea-834": {
+      "point": "Kelvinův odhad stáří Země byl omezen neznalostí dalších zdrojů tepla včetně radioaktivity.",
+      "type": "event"
+    },
+    "idea-835": {
+      "point": "Lisabonské zemětřesení podpořilo systematický sběr zpráv a hledání přírodních příčin seismických událostí.",
+      "type": "event"
+    },
+    "idea-836": {
+      "point": "Podobná úhlová velikost Slunce a Měsíce na pozemské obloze umožňuje úplná sluneční zatmění.",
+      "type": "principle"
+    },
+    "idea-837": {
+      "point": "Helium bylo rozpoznáno ve slunečním spektru před jeho identifikací v pozemském materiálu.",
+      "type": "discovery"
+    },
+    "idea-838": {
+      "point": "Snadná dostupnost vyhledávání může přesouvat paměť od samotné informace ke znalosti, kde ji znovu najít.",
+      "type": "principle"
+    },
+    "idea-839": {
+      "point": "Britská ústava tvoří soubor zákonů, zvyklostí a dalších pramenů namísto jediné úplné kodifikované listiny.",
+      "type": "principle"
+    },
+    "idea-840": {
+      "point": "Versailles soustředilo šlechtu v blízkosti krále a dvorským ceremoniálem ji činilo závislejší na jeho přízni.",
+      "type": "principle"
+    },
+    "idea-841": {
+      "point": "Čínské úřednické zkoušky propojovaly přístup ke státní správě se znalostí společného vzdělanostního kánonu.",
+      "type": "principle"
+    },
+    "idea-842": {
+      "point": "Datum začátku roku se mezi kulturami a obdobími měnilo podle společenských a kalendářních pravidel.",
+      "type": "event"
+    },
+    "idea-843": {
+      "point": "Vysoká hodnota koření podněcovala dálkové plavby, obchodní monopoly a koloniální soupeření.",
+      "type": "principle"
+    },
+    "idea-844": {
+      "point": "Význam obchodu s vlnou se promítal do anglických politických institucí a jejich symbolů.",
+      "type": "principle"
+    },
+    "idea-845": {
+      "point": "Příliv amerického stříbra do Evropy přispěl k růstu cen a ukázal vztah mezi množstvím peněz a jejich kupní silou.",
+      "type": "principle"
+    },
+    "idea-847": {
+      "point": "Postupná soustava stále větších domin může předávat účinek a spouštět uvolňování rostoucí zásoby potenciální energie.",
+      "type": "principle"
+    },
+    "idea-848": {
+      "point": "Dětská amnézie souvisí s vývojem paměťových a jazykových schopností a omezuje pozdější autobiografické vzpomínky na rané dětství.",
+      "type": "principle"
+    },
+    "idea-849": {
+      "point": "Nakažlivé zívání souvisí se sociálním vnímáním, ale jeho přesné funkce a mechanismy zůstávají předmětem výzkumu.",
+      "type": "open-question"
+    },
+    "idea-850": {
+      "point": "Vrásnění prstů ve vodě je aktivně řízenou reakcí nervové soustavy, nikoli jen pasivním nasáknutím kůže.",
+      "type": "principle"
+    },
+    "idea-851": {
+      "point": "Barva pozorovaného stínu závisí na okolním osvětlení a kontrastu, takže se může jevit jako doplňkový odstín.",
+      "type": "principle"
+    },
+    "idea-852": {
+      "point": "Nedostatečně rychlé vzorkování může převést rychlý pohyb nebo signál na zdánlivě pomalejší či obrácený průběh.",
+      "type": "principle"
+    },
+    "idea-853": {
+      "point": "Tlak, suchost a další podmínky letu mohou měnit čichové a chuťové vnímání stejného jídla.",
+      "type": "principle"
+    },
+    "idea-854": {
+      "point": "Pinyin zapisuje výslovnost čínštiny latinkou včetně tónů a není prostou náhradou původních znaků významově stejnými písmeny.",
+      "type": "principle"
+    },
+    "idea-855": {
+      "point": "Německý pravopis označuje podstatná jména velkým počátečním písmenem, čímž zvýrazňuje jejich gramatickou funkci.",
+      "type": "principle"
+    },
+    "idea-856": {
+      "point": "Rovnoměrná temperace rozděluje oktávu na stejné poměrové kroky a přijímá odchylky od některých čistých souzvuků.",
+      "type": "principle"
+    },
+    "idea-857": {
+      "point": "Stavba velkých katedrál mohla trvat generace kvůli rozměru projektu, proměnlivému financování a historickým přerušením.",
+      "type": "principle"
+    },
+    "idea-858": {
+      "point": "Gaudího závěsné modely převáděly tahové tvary zatížených řetízků obrácením na návrhy tlakových konstrukcí.",
+      "type": "principle"
+    },
+    "idea-859": {
+      "point": "Pohled portrétu může zdánlivě sledovat diváka, protože vztahy namalovaných očí a tváře zůstávají na ploše obrazu stejné.",
+      "type": "principle"
+    },
+    "idea-860": {
+      "point": "Dnešní barvy starých obrazů se mohou lišit od původních kvůli chemickým změnám pigmentů a dalších vrstev.",
+      "type": "principle"
+    },
+    "idea-861": {
+      "point": "Robin Hood je složenou tradicí a nelze jej bezpečně ztotožnit s jedinou prokázanou historickou osobou.",
+      "type": "open-question"
+    },
+    "idea-862": {
+      "point": "Hamlet ponechává otevřená místa pro různé výklady jednání a motivů hlavní postavy.",
+      "type": "work"
+    },
+    "idea-863": {
+      "point": "Divadelní pověra kolem Macbetha ovlivňuje způsob, jakým se o hře mluví mimo samotné představení.",
+      "type": "event"
+    },
+    "idea-864": {
+      "point": "Bratři Grimmové příběhy nejen sbírali, ale upravovali je a současně přispěli ke studiu dějin jazyka.",
+      "type": "event"
+    },
+    "idea-865": {
+      "point": "Šachový Turek vytvářel dojem samostatně hrajícího stroje, ale jeho výkon zajišťoval ukrytý člověk.",
+      "type": "event"
+    },
+    "idea-866": {
+      "point": "Huffmanovo kódování přiřazuje četným symbolům kratší prefixové kódy a omezuje průměrnou délku bezeztrátového zápisu.",
+      "type": "principle"
+    },
+    "idea-867": {
+      "point": "Velikost koalice potřebné k udržení vládce mění výhodnost soukromých odměn podporovatelům oproti veřejným službám.",
+      "type": "theory"
+    },
+    "idea-868": {
+      "point": "Při jednovrcholových preferencích na společné ose získává ideál mediánového voliče většinovou převahu nad alternativami.",
+      "type": "principle"
+    },
+    "idea-869": {
+      "point": "Specializace vedení organizace mu dává informační a organizační náskok, který může oslabovat kontrolu členskou základnou.",
+      "type": "theory"
+    },
+    "idea-870": {
+      "point": "Slabší vazby mohou spojovat různé sociální okruhy a zprostředkovat méně opakující se informace i pracovní příležitosti.",
+      "type": "principle"
+    },
+    "idea-871": {
+      "point": "Durkheimova anomie označuje oslabení sdílených pravidel a regulace očekávání také při rychlém společenském bohatnutí.",
+      "type": "theory"
+    },
+    "idea-872": {
+      "point": "Goffmanovo řízení dojmu rozlišuje veřejný výkon pro publikum od zákulisí, kde jej lidé připravují nebo odkládají.",
+      "type": "theory"
+    },
+    "idea-873": {
+      "point": "Solónova seisachtheia rušila dluhová břemena a zakázala zajišťovat půjčky osobou dlužníka, aniž zrušila veškeré otroctví.",
+      "type": "event"
+    },
+    "idea-874": {
+      "point": "Caracallův edikt rozšířil římské občanství téměř na všechny svobodné obyvatele říše, nikoli na otroky.",
+      "type": "event"
+    },
+    "idea-875": {
+      "point": "Římské sankce proti památce fyzicky měnily jména a portréty, ale viditelné zásahy mohly zavržení osoby dál připomínat.",
+      "type": "principle"
+    },
+    "idea-876": {
+      "point": "Aristotelova akrasie vysvětluje jednání proti lepšímu úsudku rozdílem mezi tím vědění mít a právě je používat.",
+      "type": "theory"
+    },
+    "idea-877": {
+      "point": "Aristotelova epieikeia napravuje obecnost zákona u výjimečného případu s ohledem na jeho zamýšlený účel.",
+      "type": "theory"
+    },
+    "idea-878": {
+      "point": "Chrysippův válec a kužel ukazují, jak může jednání vycházet z vlastní povahy člověka a být odpovědné i ve světě určujících příčin.",
+      "type": "theory"
+    },
+    "idea-879": {
+      "point": "Austinovy řečové akty ukazují, že vyslovení vhodné věty může za náležitých podmínek samo vykonat společenský čin.",
+      "type": "theory"
+    },
+    "idea-880": {
+      "point": "Osvojený nástroj může rozšířit tělesné schéma a vstoupit do praktického vnímání možností jednání.",
+      "type": "theory"
+    },
+    "idea-881": {
+      "point": "Elektromagnetické těsné průlety olověných jader mohou odtržením tří protonů vytvářet jádra zlata bez průmyslově využitelné výroby kovu.",
+      "type": "discovery"
+    },
+    "idea-882": {
+      "point": "LHCb v roce 2025 pozoroval porušení kombinované symetrie CP také v rozpadech baryonů.",
+      "type": "discovery"
+    },
+    "idea-883": {
+      "point": "Prototyp hodin z roku 2026 využil zpětnou vazbu na přechod jádra thoria k autonomní stabilizaci laserové frekvence.",
+      "type": "discovery"
+    },
+    "idea-884": {
+      "point": "Krátké procházky po hlavních jídlech snížily v pokusu u diabetu druhého typu glykemickou odezvu oproti doporučení stejně dlouhé chůze bez určení času.",
+      "type": "practice"
+    },
+    "idea-885": {
+      "point": "Viskózní ovesný beta-glukan může při dostatečném příjmu mírně snižovat LDL cholesterol, ale není náhradou potřebné léčby.",
+      "type": "practice"
+    },
+    "idea-886": {
+      "point": "Prodloužení obvykle krátkého spánku v krátkém randomizovaném pokusu snížilo příjem energie bez předepsané diety.",
+      "type": "practice"
+    },
+    "idea-887": {
+      "point": "Výsledek z roku 2025 překonal klasickou mez hledání nejkratších cest tím, že úloha nevyžaduje úplné seřazení všech vzdáleností.",
+      "type": "discovery"
+    },
+    "idea-888": {
+      "point": "Práce ze srpna 2026 snížila známou horní mez exponentu násobení matic pomocí optimalizace podporované strojovým učením.",
+      "type": "discovery"
+    },
+    "idea-889": {
+      "point": "Plně homomorfní šifrování umožňuje počítat nad šifrovanými vstupy a práce z roku 2026 zrychlila konkrétní kryptografické jádro.",
+      "type": "discovery"
+    },
+    "idea-890": {
+      "point": "Anamorfóza záměrně deformuje motiv, aby se správně rozpoznal z určitého šikmého pohledu, jako lebka v Holbeinových Vyslancích.",
+      "type": "principle"
+    },
+    "idea-891": {
+      "point": "Polopřímá řeč přenáší hodnocení a myšlení postavy do vyprávění bez uvozovek a výslovného uvedení její promluvy.",
+      "type": "principle"
+    },
+    "idea-892": {
+      "point": "Pravidlo osy zachovává při střihu prostorovou orientaci postav a směr pohledů tím, že kamera zůstává na stejné straně děje.",
+      "type": "principle"
+    },
+    "idea-893": {
+      "point": "Třináctistranná dlaždice klobouk může pokrýt rovinu, ale všechna její úplná pokrytí jsou neperiodická i při povolení zrcadlových kopií.",
+      "type": "discovery"
+    },
+    "idea-894": {
+      "point": "Soli ve vzorcích Bennu dokládají odpařování dávné solanky v mateřském tělese planetky, nikoli současné řeky na jejím povrchu.",
+      "type": "discovery"
+    },
+    "idea-895": {
+      "point": "Funkce římských děrovaných dvanáctistěnů není spolehlivě známa a současná funkční ukázka sama nedokazuje historické použití.",
+      "type": "open-question"
+    },
+    "idea-896": {
+      "point": "Cyklické párování biologicky nekompatibilních dvojic dárce a příjemce může umožnit transplantace bez peněžní směny orgánů.",
+      "type": "principle"
+    },
+    "idea-897": {
+      "point": "Velký zápach roku 1858 urychlil financování londýnské kanalizace, když důsledky znečištění zasáhly přímo parlament.",
+      "type": "event"
+    },
+    "idea-898": {
+      "point": "Letecký most umožnil zásobovat západní Berlín během sovětské blokády v letech 1948–1949 bez proražení pozemních tras.",
+      "type": "event"
+    },
+    "idea-899": {
+      "point": "Haitská revoluce proměnila povstání zotročených lidí v boj za nezávislost, který roku 1804 vytvořil Haiti.",
+      "type": "event"
+    },
+    "idea-900": {
+      "point": "Jacksonova Mary prověřuje, zda úplná znalost fyzikálních faktů zahrnuje i znalost toho, jaké je mít určitý vědomý prožitek.",
+      "type": "theory"
+    },
+    "idea-901": {
+      "point": "Nozickův stroj na zážitky zkoumá, zda vedle příjemných prožitků oceňujeme také skutečné jednání a kontakt se světem.",
+      "type": "theory"
+    },
+    "idea-902": {
+      "point": "Někteří mořští plži uchovávají chloroplasty pozřených řas funkční ve vlastních buňkách, aniž by tím přestali být živočichy.",
+      "type": "principle"
+    },
+    "idea-903": {
+      "point": "Skokan lesní snáší tvorbu ledu mimo buňky a hromaděním ochranných látek omezuje poškození tkání během zimního zamrznutí.",
+      "type": "principle"
+    },
+    "idea-904": {
+      "point": "Sliznatky uvolňují hlen a sbalená bílkovinná vlákna, která v mořské vodě vytvoří objemnou obrannou síť.",
+      "type": "principle"
+    },
+    "idea-905": {
+      "point": "Anna Atkinsová vytvářela kyanotypické obrazy řas přímým kontaktem rostlin se světlocitlivým papírem bez objektivu.",
+      "type": "work"
+    },
+    "idea-906": {
+      "point": "Whitereadové Ghost převádí dutinu obytného pokoje do hmotného odlitku s otisky vnitřních ploch obrácenými ven.",
+      "type": "work"
+    },
+    "idea-907": {
+      "point": "Černá stránka v Tristramu Shandym zobrazuje smutek po Yorickově smrti prostřednictvím fyzické podoby knihy.",
+      "type": "work"
+    },
+    "idea-908": {
+      "point": "Vražda Rogera Ackroyda využívá selektivní vyprávění k tomu, aby čtenář zaměnil přístup k vypravěčovým slovům za jeho spolehlivost.",
+      "type": "work"
+    },
+    "idea-909": {
+      "point": "Athénský klérótérion využíval los k obsazování občanských funkcí a porot, čímž omezoval předvídatelnost jejich složení.",
+      "type": "principle"
+    },
+    "idea-910": {
+      "point": "Novozélandský zákon z roku 2017 uznal Te Awa Tupua jako právní osobu, za kterou jednají lidští zástupci.",
+      "type": "event"
+    },
+    "idea-911": {
+      "point": "Gallium má teplotu tání blízko 30 °C, takže pevný kov může zkapalnět pouhým přijetím tepla z teplejšího okolí.",
+      "type": "principle"
+    },
+    "idea-912": {
+      "point": "V trojném bodě mohou pevná, kapalná a plynná fáze čisté vody koexistovat v rovnováze při určité teplotě a tlaku.",
+      "type": "principle"
+    },
+    "idea-913": {
+      "point": "Nad kritickou teplotou a tlakem mizí rozhraní kapaliny a plynu a superkritický oxid uhličitý lze využít k extrakci kofeinu.",
+      "type": "principle"
+    },
+    "idea-914": {
+      "point": "Venuše se otočí vůči hvězdám přibližně za 243 pozemských dní, ale dva východy Slunce dělí jen asi 117 dní.",
+      "type": "principle"
+    },
+    "idea-915": {
+      "point": "Výtrysky Enceladu vynášejí materiál podpovrchového oceánu nad ledovou kůru a umožnily jeho zkoumání průlety sondy.",
+      "type": "discovery"
+    },
+    "idea-916": {
+      "point": "Zlevnění energetické služby díky vyšší účinnosti může zvýšit její využití a tím část očekávané úspory vyrušit.",
+      "type": "principle"
+    },
+    "idea-917": {
+      "point": "V aukci se společnou nejistou hodnotou může výhra znamenat, že vítěz měl nejoptimističtější a nadhodnocený odhad.",
+      "type": "principle"
+    },
+    "idea-918": {
+      "point": "Při rychlém sledu podnětů může zpracování prvního cíle dočasně zhoršit rozpoznání druhého cíle o několik set milisekund později.",
+      "type": "principle"
+    },
+    "idea-919": {
+      "point": "McGurkův efekt ukazuje, že nesoulad pohybu rtů a zvuku může změnit vnímanou řeč, přestože zvukový signál zůstává stejný.",
+      "type": "principle"
+    },
+    "idea-920": {
+      "point": "Nitrocelulózový film podléhá chemickému rozkladu a snadno hoří, takže uchování filmů vyžaduje zvláštní péči o samotný nosič.",
+      "type": "principle"
+    },
+    "idea-921": {
+      "point": "Postup den za noc vytváří dojem noci z denního záběru řízením expozice, barev a světelných vodítek.",
+      "type": "practice"
+    },
+    "idea-922": {
+      "point": "Gabrielův roh má v matematickém modelu konečný objem a nekonečný povrch, protože příslušné integrály mají odlišnou konvergenci.",
+      "type": "principle"
+    },
+    "idea-923": {
+      "point": "U netranzitivních kostek může A častěji porážet B, B porážet C a C porážet A, takže párová převaha nevytváří pořadí.",
+      "type": "principle"
+    },
+    "idea-924": {
+      "point": "Pevná paměť navigačního počítače Apolla kódovala program způsobem provlečení vodičů magnetickými jádry.",
+      "type": "principle"
+    },
+    "idea-925": {
+      "point": "Řízení zahlcení TCP upravuje množství rozpracovaných dat podle odezvy sítě, aby odesílatel nepřetěžoval sdílenou trasu.",
+      "type": "principle"
+    },
+    "idea-926": {
+      "point": "Tři výrazné vyhledávací vzory QR kódu umožňují čtečce určit polohu a orientaci symbolu před čtením jeho dat.",
+      "type": "principle"
+    }
+  }
+}

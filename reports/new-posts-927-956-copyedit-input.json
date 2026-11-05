@@ -1,0 +1,35 @@
+[
+  {
+    "id": "931",
+    "source_hash": "e9891eb8b833d919a713a0acca18a9b5a1382b1966ff3a5e8523c853face4d68",
+    "title": "Proč teče rybí krev proti vodě",
+    "content": "<p>Ryba získává kyslík z vody, kde je ho mnohem méně než ve vzduchu. Pomáhá jí uspořádání žaber: krev v jejich jemných kapilárách teče proti směru vody.</p><p>Kdyby obě tekutiny proudily vedle sebe stejným směrem, rozdíl v koncentraci rozpuštěného kyslíku by se postupně zmenšil a výměna by slábla. Protiproud umožňuje udržovat rozdíl podél velké části výměnné plochy.</p><p>Krev se tak cestou setkává s vodou, ze které ještě může další kyslík přijímat. Důležitá není jen velikost žaber, ale také <strong>směr setkávání dvou proudů</strong>.</p><p>Jde o příklad, kdy účinnost nevzniká silnějším čerpáním, nýbrž vhodnou geometrií toku. Ryba nemusí z vody odebrat všechen kyslík, aby z tohoto uspořádání výrazně těžila.</p>",
+    "category": "biologie",
+    "knowledge": {
+      "point": "Protiproud vody a krve v rybích žábrách udržuje podél výměnné plochy rozdíl umožňující přestup kyslíku do krve.",
+      "type": "principle",
+      "idea": "idea-931",
+      "tags": [
+        "zoology",
+        "resources"
+      ]
+    }
+  },
+  {
+    "id": "950",
+    "source_hash": "0a690c2ba65d8b3c2a7cb166f2c9b5b242d02d2245b2b0dcc9edd787d0390738",
+    "title": "Dvakrát větší krychle se vzpírá pravítku a kružítku",
+    "content": "<p>Zdvojnásobit hranu krychle je snadné, ale tím zvětšíte její objem osmkrát. Pro přesně dvojnásobný objem potřebujete původní hranu vynásobit třetí odmocninou ze dvou.</p><p>Starověká úloha požadovala tuto délku sestrojit pouze kružítkem a neoznačeným pravítkem. Nešlo o nalezení dostatečně přesného náčrtu, ale o konečnou přesnou konstrukci.</p><p>Taková konstrukce <strong>není možná</strong>. Délky dostupné těmito nástroji vznikají pomocí posloupností kvadratických rozšíření; potřebná kubická odmocnina do této rodiny nepatří.</p><p>Omezení tedy neleží v lidské nešikovnosti. Změníte-li povolené nástroje, úloha může řešení mít. Matematický důkaz nemožnosti vždy říká také to, podle jakých pravidel je něco nemožné.</p>",
+    "category": "matematika",
+    "knowledge": {
+      "point": "Hranu krychle s dvojnásobným objemem nelze obecně přesně sestrojit pouze neoznačeným pravítkem a kružítkem.",
+      "type": "principle",
+      "idea": "idea-950",
+      "tags": [
+        "geometry",
+        "logic",
+        "limits"
+      ]
+    }
+  }
+]

@@ -1,5 +1,35 @@
 # Ilustrace — aktuální stav
 
+## Nové příspěvky a ilustrace 927–956
+
+Aktuální databáze má 856 příspěvků a 813 různých poznatků. Nová dávka přidává 30 textů a 30 statických ilustrací, po dvou ve všech 13 kategoriích; Historie, Biologie, Umění a Literatura mají po třech. Původních 826 objektů článků a 826 položek manifestu je zachováno. Všech 856 ID má registraci v produkčních kartách i galerii, která používá společný manifest.
+
+Nové RGBA WebP mají 640×360 px, nulovou alfu rohů a celkem 624 398 B; jednotlivé soubory 8 898–40 336 B. Vestavěný image_gen použil skutečné `transparent_background=true`; rozměry, kvalitu a cenu samotného generování nelze tímto nástrojem nastavit. Celkem 32 volání zahrnuje 30 prvních verzí a dvě věcné opravy: 935 odstranění šedého obdélníku za stránkou a 956 odstranění šipky ukazující chybný směr času. Původní zdroje, přesné prompty a otisky zůstávají v provenance; vstup úpravy 956 je také zachován samostatně.
+
+Motivy doprovázejí zvolený aspekt textu, nikoli celý mechanismus nebo historickou scénu. Dvojice měsíců 941 není v měřítku, síto 951 je metafora pravděpodobnostního filtru, otisk 952 metafora hashe a uzly 953 nekódují konkrétní historickou hodnotu. U 945 je anglické slovo na kartě ilustrační příklad, ne reprodukce experimentálního podnětu. Hodiny 956 už nevyjadřují směr. Některé výstupy mají více stínování či detailů než přísný cíl plochého stylu; čitelnost se posuzuje na miniaturách a skutečných kartách. Rozvržení, procedurální renderer ani zlaté otisky se nemění.
+
+Originalitu dokládá celý přečtený katalog 783 původních poznatků, plné blízké texty, plán a závěrečné rozhodnutí v `reports/new-posts-927-956-*`. Přístupové chyby webových zdrojů nejsou vydávány za úspěšné čtení: review rozlišuje otevřené stránky, primární PDF, abstrakty, indexovaný obsah a HTML s kontrolou prohlížeče. Náhled deterministického repairu nenavrhl změnu žádného nového příspěvku; žádné hromadné opravy se neaplikovaly. Verze aplikace i oba údaje lockfile zůstávají 1.3.0.
+
+Všech 30 skutečných karet bylo prohlédnuto při viewportu 390×844 a porovnáno s miniaturami 160×90; jejich obrazová plocha odpovídá přibližně 320×180 CSS px. Po korektuře byly znovu pořízeny karty 931 a 950. Pro snímání jsou vypnuté animace, rozvržení aplikace se nemění. Vnímaná vzdálenost od spodního alfa≥16 okraje motivu k hooku je 22,42–61,55 CSS px. Větší mezery mají 930, 938, 939, 941, 947 a 949; jde o zachované proporce širokých motivů, nikoli o stejnoměrnou viditelnou mezeru. Metriky, přijetí všech ilustrací, přesné konečné prompty a SHA-256 jsou v `reports/illustrations-927-956-*`; skutečné karty v `tmp/imagegen-batch-927/cards/`.
+
+Finální `npm test` prošel ve všech šesti testech; `npm run build` úspěšně zapsal web do `build/`. Zůstávají upozornění na existující Svelte markup a velikost balíku vývojové galerie. První běh buildu kolidoval se závěrečným zápisem JSON a byl ukončen; po dokončení korektury byl build zopakován bez dalších změn dat. Záznamy jsou v `reports/new-posts-927-956-tests.log`, `reports/new-posts-927-956-build-final.log` a `reports/new-posts-927-956-final.json`.
+
+## Nové příspěvky a ilustrace 897–926
+
+Aktuální databáze obsahuje 826 příspěvků a 783 různých poznatků. Všech 826 ID má statický WebP a registraci v produkčních kartách i vývojové galerii. Dávka 897–926 přidává 30 textů a 30 ilustrací: Historie, Biologie, Fyzika a chemie a Technologie po třech, zbývajících devět kategorií po dvou. Původních 796 objektů článků a 796 položek manifestu zůstalo zachováno. Významový index 473 byl podle celého textu opraven na efekt vlastnictví, beze změny článku.
+
+Nové RGBA WebP mají 640×360 px, nulovou alfu rohů, velikost 8 762–35 456 B a celkem 560 748 B. Vestavěný image_gen použil `transparent_background=true`; nastavení rozměru, kvality a ceny generování není dostupné. Celkem 33 volání: 30 prvních verzí a tři věcné opravy (898 odstranění zavěšené bedny pod letadlem; 906 plný odlitek místo dutého pokoje; 913 samotné kávové zrno místo zařízení připomínajícího vaření kávy). Původní i konečné přesné prompty, metadata a SHA-256 zachovává manifest. Ostatní přijaté obrázky se nepřegenerovaly.
+
+Ilustrace doprovázejí zvolený aspekt článku. U 906 jde o zjednodušený motiv pevného odlitku, ne přesnou repliku Ghost; u 923 dekorativní oka kostek neznázorňují zvláštní sadu z textu a 926 není skenovatelný QR obsah. Jednotlivé významové poznámky jsou v manifestu. Některé výstupy překračují přísný cíl počtu ploch, stínů a barev; nevznikají nové procedurální obrázky ani zlaté otisky.
+
+Originalitu a zdroje dokládají `reports/new-posts-897-926-review.md`, plán a závěrečné schválení s otisky. Datové, registrační a obrazové kontroly jsou v `reports/new-posts-897-926-validation.json` a `reports/illustrations-897-926-validation.json`. Náhled deterministického repairu byl posouzen, návrh pro 925 nepřijat a žádné hromadné opravy nebyly aplikovány. Všech šest testů `npm test` prošlo. Verze aplikace i oba záznamy lockfile zůstávají 1.3.0.
+
+Všech 30 skutečných líců karet bylo prohlédnuto při viewportu 390×844 (obrázek 317×178,3125 CSS px) a vedle miniatur 160×90. Náhledy jsou v `tmp/imagegen-batch-897/cards/`; metriky zachovává `reports/illustrations-897-926-card-layout.json`. CSS mezera je 14 px, ale vnímaná vzdálenost od alfa≥16 spodního okraje motivu k hooku vychází 19,45–63,53 px. Největší mezeru má široké letadlo 898; větší mezery mají také 899, 902, 904, 919 a 924. Jde o doložené omezení proporcí při zachování centrování, nikoli o tvrzení o jednotných viditelných mezerách. Rozvržení karet se neměnilo.
+
+Produkční `npm run build` dokončil statický export do `build/` včetně nových cest. Hlásí stávající upozornění Svelte na markup a velikost vývojové galerie; bez chyby. Přesné konečné prompty vestavěného image_gen jsou v `reports/illustrations-897-926-final-prompts.json`.
+
+Kategorie záznamů v `static/illustrations-ai/manifest.json` odpovídají aktuálním 13 kategoriím příspěvků. Úklid kategoriových polí nemění obrázky, prompty, ilustrační metadata ani jejich otisky; počet ilustrací a registrace zůstávají zachovány.
+
 ## Kontrola centrování a mezery k hooku
 
 Hlavní motiv se ve výchozím stavu opticky centruje vodorovně i svisle. Odchylka musí mít konkrétní význam uvnitř ilustrace. Při přejímce se nově porovnávají skutečné karty při stejné šířce, včetně viditelného spodního alfa okraje a měřítka motivu; samotný rozměr 640×360 ani CSS `gap` nezaručují stejnou viditelnou mezeru k hooku. Například aktuální soubory 878 a 879 mají při prahu alfa≥16 spodní odsazení 83 a 24 px, což při šířce 320 px přidává přibližně 30 px rozdílu. Jde o doložené omezení současných assetů, nikoli o již provedenou opravu.
@@ -8,7 +38,7 @@ Příprava má nejprve prověřit nadbytečné průhledné odsazení, vzdálené
 
 ## Nové příspěvky a ilustrace 867–896
 
-Databáze má 796 příspěvků; všech 796 ID má statický WebP, záznam v manifestu a registraci v kartách i galerii. Nová dávka obsahuje 30 textů v existujících 14 kategoriích a 30 ilustrací. Původních 766 příspěvků ani jejich ilustrační soubory a provenance se při připojení dávky nepřepisovaly. Úplnou významovou kontrolu původní databáze, nejbližší související příspěvky a verdikty ke všem hotovým textům evidují `reports/new-posts-867-896-review.md` a `reports/new-posts-867-896-originality.json`.
+Databáze má 796 příspěvků; všech 796 ID má statický WebP, záznam v manifestu a registraci v kartách i galerii. Nová dávka obsahuje 30 textů a 30 ilustrací; současná databáze používá 13 kategorií. Původních 766 příspěvků ani jejich ilustrační soubory a provenance se při připojení dávky nepřepisovaly. Úplnou významovou kontrolu původní databáze, nejbližší související příspěvky a verdikty ke všem hotovým textům evidují `reports/new-posts-867-896-review.md` a `reports/new-posts-867-896-originality.json`.
 
 Nové obrázky `static/illustrations-ai/867.webp` až `896.webp` jsou RGBA WebP 640×360 px s nulovou alfou rohů, jednotlivě 8 972–34 928 B, dohromady 658 610 B. Každý motiv byl prohlédnut při 160×90 i 320×180 px na tmavém podkladu. Vestavěný image_gen používal `transparent_background=true`; řízení rozměrů, kvality a ceny generování nebylo dostupné. Celkem 32 volání zahrnuje 30 prvních verzí a dvě věcné opravy: odstranění kouřového pozadí u 868 a náhradu nesprávného vzoru u 893 jediným správným třináctistranným obrysem. Původní varianty, skutečné prompty, metadata, reference a SHA-256 jsou zachované. Obrys 893 vychází z CC0 předlohy Christian Lawson-Perfect odkazované autory objevu; první odmítnutá varianta používala předlohu Smith/Myers/Kaplan/Goodman-Strauss, CC BY 4.0.
 
@@ -53,7 +83,7 @@ ID `501` now shows an anonymous puzzled Renaissance mathematician beside the lar
 
 ## Rozsah
 
-- Dostupné ilustrace: `1`–`312` a `413`–`896` (796 souborů, včetně sdílených kopií), všechny registrované v kartách i galerii.
+- Dostupné ilustrace: `1`–`312` a `413`–`926` (826 souborů, včetně sdílených kopií), všechny registrované v kartách i galerii.
 - Assety: `static/illustrations-ai/<id>.webp`.
 - Rozměr: 640×360 px, poměr 16:9, WebP quality 80.
 - Velikost souborů: pod 100 kB; typicky 5–35 kB.
@@ -67,7 +97,7 @@ Kategorie Literatura používá výraznou citronově žlutou barvu `#e6dc58` (`-
 
 `src/lib/components/PostIllustration.svelte` vykresluje dekorativní `<img>` pouze pro ID s vytvořeným assetem. Cesta respektuje SvelteKit base path `/faakt.io`. Obrázky mají prázdný alt text, pevný poměr stran a `object-fit: contain`.
 
-Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 796 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
+Vývojová galerie je na `/faakt.io/dev/illustrations-ai/` a zobrazuje všech 826 obrázků ve stylu karet; počet v nadpisu přebírá z manifestu. Obrázky nemají vlastní CSS pozadí; alfa kanál odkrývá gradient karty. Poznámky k významu a odchylkám jsou v `review` každého nového záznamu manifestu.
 
 ## Dávka 572–600 a 602–622
 

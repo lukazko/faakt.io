@@ -10,7 +10,7 @@ audit=json.loads((root/'reports/new-posts-867-896-originality.json').read_text(e
 assert posts[-30:]==drafts
 assert hashlib.sha256((root/'static/data/posts.json').read_bytes()).hexdigest()==audit['appendedDatabaseSha256']
 assert len(posts)==len({p['id'] for p in posts})==796
-categories={'historie','filozofie','veda','umeni','literatura','politika','fyzika','astronomie','zajimavost','ekonomie','psychologie','filmy','matematika','pocitacove-vedy'}
+categories=set(re.findall(r"^\s*'([^']+)':\s*\{",(root/'src/lib/categories.js').read_text(encoding='utf-8'),re.M))
 scenes={'portrait','interaction','process','diagram','environment','object'}
 moods={'contemplative','dramatic','dynamic','mysterious','neutral','playful'}
 palettes={'blue_gold','green_copper','indigo_cyan','monochrome_cool','monochrome_warm','teal_amber','terracotta_cream','violet_coral'}
@@ -40,4 +40,4 @@ if len(manifest)==796:
         assert item['imageSha256']==hashlib.sha256((root/('static'+item['image'])).read_bytes()).hexdigest()
     report['illustrationHashes']='30/30 metadata, exact submitted prompts and saved WebP hashes passed'
 (root/'reports/new-posts-867-896-validation.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
-print('30 new posts: schema, lengths, HTML, 14 categories, metadata, hashes and originality verdicts passed')
+print(f'30 new posts: schema, lengths, HTML, {len(categories)} categories, metadata, hashes and originality verdicts passed')

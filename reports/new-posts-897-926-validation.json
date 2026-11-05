@@ -1,0 +1,371 @@
+{
+  "records": 826,
+  "newRecords": 30,
+  "categories": {
+    "historie": 3,
+    "filozofie": 2,
+    "biologie": 3,
+    "umeni": 2,
+    "literatura": 2,
+    "politika": 2,
+    "fyzika": 3,
+    "astronomie": 2,
+    "ekonomie": 2,
+    "psychologie": 2,
+    "filmy": 2,
+    "matematika": 2,
+    "pocitacove-vedy": 3
+  },
+  "ids": [
+    "897",
+    "898",
+    "899",
+    "900",
+    "901",
+    "902",
+    "903",
+    "904",
+    "905",
+    "906",
+    "907",
+    "908",
+    "909",
+    "910",
+    "911",
+    "912",
+    "913",
+    "914",
+    "915",
+    "916",
+    "917",
+    "918",
+    "919",
+    "920",
+    "921",
+    "922",
+    "923",
+    "924",
+    "925",
+    "926"
+  ],
+  "existingArticleObjectsPreserved": true,
+  "existingManifestEntriesPreserved": true,
+  "allRegistered": true,
+  "version": "1.3.0",
+  "contentLengthRange": [
+    687,
+    799
+  ],
+  "imageBytes": 560748,
+  "images": [
+    {
+      "id": "897",
+      "bytes": 26306,
+      "alphaMargins": {
+        "left": 132,
+        "top": 13,
+        "right": 132,
+        "bottom": 13
+      }
+    },
+    {
+      "id": "898",
+      "bytes": 18484,
+      "alphaMargins": {
+        "left": 22,
+        "top": 100,
+        "right": 22,
+        "bottom": 100
+      }
+    },
+    {
+      "id": "899",
+      "bytes": 35456,
+      "alphaMargins": {
+        "left": 75,
+        "top": 81,
+        "right": 75,
+        "bottom": 81
+      }
+    },
+    {
+      "id": "900",
+      "bytes": 13892,
+      "alphaMargins": {
+        "left": 146,
+        "top": 26,
+        "right": 146,
+        "bottom": 27
+      }
+    },
+    {
+      "id": "901",
+      "bytes": 18652,
+      "alphaMargins": {
+        "left": 107,
+        "top": 51,
+        "right": 107,
+        "bottom": 52
+      }
+    },
+    {
+      "id": "902",
+      "bytes": 16674,
+      "alphaMargins": {
+        "left": 109,
+        "top": 67,
+        "right": 110,
+        "bottom": 67
+      }
+    },
+    {
+      "id": "903",
+      "bytes": 17022,
+      "alphaMargins": {
+        "left": 114,
+        "top": 60,
+        "right": 115,
+        "bottom": 60
+      }
+    },
+    {
+      "id": "904",
+      "bytes": 23944,
+      "alphaMargins": {
+        "left": 63,
+        "top": 85,
+        "right": 64,
+        "bottom": 85
+      }
+    },
+    {
+      "id": "905",
+      "bytes": 25418,
+      "alphaMargins": {
+        "left": 183,
+        "top": 18,
+        "right": 183,
+        "bottom": 19
+      }
+    },
+    {
+      "id": "906",
+      "bytes": 15352,
+      "alphaMargins": {
+        "left": 119,
+        "top": 29,
+        "right": 119,
+        "bottom": 29
+      }
+    },
+    {
+      "id": "907",
+      "bytes": 15242,
+      "alphaMargins": {
+        "left": 74,
+        "top": 50,
+        "right": 75,
+        "bottom": 50
+      }
+    },
+    {
+      "id": "908",
+      "bytes": 20302,
+      "alphaMargins": {
+        "left": 74,
+        "top": 35,
+        "right": 75,
+        "bottom": 35
+      }
+    },
+    {
+      "id": "909",
+      "bytes": 16282,
+      "alphaMargins": {
+        "left": 148,
+        "top": 44,
+        "right": 148,
+        "bottom": 44
+      }
+    },
+    {
+      "id": "910",
+      "bytes": 25682,
+      "alphaMargins": {
+        "left": 105,
+        "top": 15,
+        "right": 106,
+        "bottom": 15
+      }
+    },
+    {
+      "id": "911",
+      "bytes": 11820,
+      "alphaMargins": {
+        "left": 125,
+        "top": 53,
+        "right": 127,
+        "bottom": 54
+      }
+    },
+    {
+      "id": "912",
+      "bytes": 8762,
+      "alphaMargins": {
+        "left": 251,
+        "top": 11,
+        "right": 251,
+        "bottom": 11
+      }
+    },
+    {
+      "id": "913",
+      "bytes": 12574,
+      "alphaMargins": {
+        "left": 141,
+        "top": 23,
+        "right": 141,
+        "bottom": 24
+      }
+    },
+    {
+      "id": "914",
+      "bytes": 15842,
+      "alphaMargins": {
+        "left": 150,
+        "top": 39,
+        "right": 150,
+        "bottom": 39
+      }
+    },
+    {
+      "id": "915",
+      "bytes": 14106,
+      "alphaMargins": {
+        "left": 212,
+        "top": 33,
+        "right": 213,
+        "bottom": 33
+      }
+    },
+    {
+      "id": "916",
+      "bytes": 17850,
+      "alphaMargins": {
+        "left": 113,
+        "top": 16,
+        "right": 112,
+        "bottom": 16
+      }
+    },
+    {
+      "id": "917",
+      "bytes": 18438,
+      "alphaMargins": {
+        "left": 131,
+        "top": 36,
+        "right": 133,
+        "bottom": 36
+      }
+    },
+    {
+      "id": "918",
+      "bytes": 20324,
+      "alphaMargins": {
+        "left": 101,
+        "top": 11,
+        "right": 100,
+        "bottom": 11
+      }
+    },
+    {
+      "id": "919",
+      "bytes": 18342,
+      "alphaMargins": {
+        "left": 101,
+        "top": 73,
+        "right": 102,
+        "bottom": 73
+      }
+    },
+    {
+      "id": "920",
+      "bytes": 23430,
+      "alphaMargins": {
+        "left": 129,
+        "top": 44,
+        "right": 130,
+        "bottom": 44
+      }
+    },
+    {
+      "id": "921",
+      "bytes": 20144,
+      "alphaMargins": {
+        "left": 101,
+        "top": 35,
+        "right": 102,
+        "bottom": 35
+      }
+    },
+    {
+      "id": "922",
+      "bytes": 14040,
+      "alphaMargins": {
+        "left": 86,
+        "top": 54,
+        "right": 88,
+        "bottom": 54
+      }
+    },
+    {
+      "id": "923",
+      "bytes": 16308,
+      "alphaMargins": {
+        "left": 143,
+        "top": 19,
+        "right": 144,
+        "bottom": 19
+      }
+    },
+    {
+      "id": "924",
+      "bytes": 25956,
+      "alphaMargins": {
+        "left": 42,
+        "top": 79,
+        "right": 43,
+        "bottom": 79
+      }
+    },
+    {
+      "id": "925",
+      "bytes": 23582,
+      "alphaMargins": {
+        "left": 49,
+        "top": 23,
+        "right": 49,
+        "bottom": 23
+      }
+    },
+    {
+      "id": "926",
+      "bytes": 10522,
+      "alphaMargins": {
+        "left": 181,
+        "top": 40,
+        "right": 181,
+        "bottom": 41
+      }
+    }
+  ],
+  "databaseSha256": "dc9093be07d0a6dad836315460eeba9191bef7d398f31cd1a15b36f385b40d17",
+  "checks": {
+    "npmTest": "6 passed, 0 failed after final review",
+    "productionBuild": "static export completed; existing Svelte and chunk-size warnings",
+    "knowledge": "826 verified, 783 ideas, no problems",
+    "visualReview": "30 actual mobile cards and 160x90 thumbnails accepted",
+    "staticBuildCopies": "posts and final illustration manifest match source",
+    "newRoutes": "897–926 exported"
+  }
+}

@@ -147,7 +147,7 @@
 		"id": "010",
 		"title": "Tabulka prvků, kterou chemik uviděl ve snu",
 		"content": "<p>Ruský chemik Dmitrij Mendělejev v roce 1869 tvrdil, že uspořádání chemických prvků se mu zjevilo ve snu poté, co usnul nad kartami s jejich vlastnostmi.</p><p>Ať je to legenda nebo pravda, výsledek byl revoluční. Mendělejev prvky uspořádal podle atomové hmotnosti a odhalil, že se jejich vlastnosti pravidelně opakují.</p><p>Odvážně nechal v tabulce prázdná místa pro prvky, které ještě nikdo neobjevil, a dokonce předpověděl jejich vlastnosti. Galium a germanium byly objeveny během několika let přesně tam, kde je čekal.</p><p>Periodická tabulka se od té doby stala základní mapou chemie, kterou dnes visí v každé školní třídě.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Royal Society of Chemistry",
@@ -339,7 +339,7 @@
 		"id": "022",
 		"title": "Snímek, který ukázal tvar dědičnosti, aniž by ho jeho autorka viděla dokončený",
 		"content": "<p>V roce 1952 vytvořila chemička Rosalind Franklinová v Londýně rentgenový snímek nazvaný Fotografie 51. Pomocí techniky rentgenové difrakce zachytila charakteristický tvar písmene X, který odhaloval, že molekula DNA má <strong>šroubovicovou strukturu</strong>.</p><p>Tento snímek bez jejího vědomí využili James Watson a Francis Crick, kteří na jeho základě v roce 1953 publikovali model dvoušroubovice.</p><p>Watson, Crick a fyzik Maurice Wilkins získali za tento objev v roce 1962 Nobelovu cenu. Franklinová v té době už tři roky nežila — zemřela v roce 1958 na rakovinu vaječníků, pravděpodobně souvisejícím s dlouhodobou expozicí záření.</p><p>Nobelova cena se neuděluje posmrtně, a tak její zásadní přínos zůstal dlouho v pozadí.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nature",
@@ -499,7 +499,7 @@
 		"id": "032",
 		"title": "Plíseň na zapomenuté Petriho misce, která zachránila miliony životů",
 		"content": "<p>Co by se stalo, kdyby si skotský bakteriolog v roce 1928 nezapomněl umýt nádobí před odjezdem na dovolenou? Historie medicíny by možná vypadala úplně jinak.</p><p>Alexander Fleming se po návratu do laboratoře v Londýně všiml, že jedna z jeho zapomenutých misek s bakteriemi stafylokoka je zamořená plísní rodu <em>Penicillium</em> – a kolem ní bakterie odumřely. Objevil tak látku, kterou nazval penicilin.</p><p>Samotný Fleming netušil, jak látku vyrobit ve větším množství, a teprve o deset let později ji dokázali izolovat a vyrábět chemici Howard Florey a Ernst Chain. Během druhé světové války penicilin zachránil životy tisíců raněných vojáků.</p><p>Za tento objev získali všichni tři vědci v roce 1945 Nobelovu cenu za fyziologii a medicínu. Náhoda v laboratoři tak odstartovala éru antibiotik.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nobel Prize",
@@ -659,7 +659,7 @@
 		"id": "042",
 		"title": "Chemik, který dal jméno plynu, co udržuje oheň hořet",
 		"content": "<p>Proč hoří oheň a proč se dusíme bez vzduchu? Do 70. let 18. století panovala teorie, že za hořením stojí neviditelná látka flogiston, která z předmětu unikala.</p><p>Francouzský chemik Antoine Lavoisier tuto představu vyvrátil pečlivými váhovými experimenty a v roce 1778 popsal plyn, který hoření naopak umožňuje. Nazval ho <strong>oxygène</strong>, tedy kyslík.</p><p>Jeho práce položila základy moderní chemie a zákona zachování hmotnosti.</p><p>Osudná ironie: muž, který zásadně změnil chápání přírody, byl v roce 1794 popraven gilotinou během Francouzské revoluce, obviněn z podvodů coby bývalý výběrčí daní.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Encyclopedia Britannica",
@@ -819,7 +819,7 @@
 		"id": "052",
 		"title": "Mendělejev nechal v tabulce prázdná místa pro prvky, které ještě nikdo neviděl",
 		"content": "<p>Jak si můžete být jistí, že něco existuje, aniž byste to kdy viděli?</p><p>Ruský chemik Dmitrij Mendělejev v roce 1869 uspořádal známé chemické prvky podle atomové hmotnosti a všiml si opakujícího se vzoru vlastností. Když v tabulce narazil na mezeru, neignoroval ji — nechal ji prázdnou.</p><p>Na základě vzoru dokonce předpověděl vlastnosti dosud neobjevených prvků, které nazval eka-hliník a eka-silicium. Během několika let byly objeveny gallium a germanium — a jejich vlastnosti se s předpovědí téměř přesně shodovaly.</p><p>Periodická tabulka se tak stala nejen katalogem, ale nástrojem předpovědi. Dnes obsahuje 118 prvků a visí v každé učebně chemie na světě.</p>",
-		"category": "veda",
+		"category": "fyzika",
 		"sources": [
 			{
 				"label": "Royal Society of Chemistry",
@@ -1139,7 +1139,7 @@
 		"id": "072",
 		"title": "Mendel a hrách, který odhalil zákony dědičnosti",
 		"content": "<p>Jak zjistíte, podle jakých pravidel se dědí vlastnosti, aniž byste znali existenci genů?</p><p>Gregor Mendel, augustiniánský mnich působící v Brně, prováděl v 60. letech 19. století rozsáhlé pokusy s křížením hrachu. Sledoval tisíce rostlin a jejich barvu, tvar a velikost semen.</p><p>Zjistil, že vlastnosti se nedědí plynule, ale podle jasných poměrů — a formuloval pravidla, kterým dnes říkáme Mendelovy zákony dědičnosti.</p><p>Svou práci publikoval v roce 1866, ale vědecká obec ji tehdy téměř nezaznamenala. Uznání se mu dostalo až po jeho smrti, kdy jeho výsledky znovu objevili jiní badatelé.</p><p>Dnes je považován za zakladatele genetiky.</p>",
-		"category": "veda",
+		"category": "biologie",
 		"sources": [
 			{
 				"label": "Nature Education",

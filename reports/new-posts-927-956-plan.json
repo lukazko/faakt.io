@@ -1,0 +1,561 @@
+{
+  "snapshot": "7241d57f3be91d93504f8b232e5364a58442789a4b7098b977e52bcdb1cbe5ed",
+  "catalog_reviewed": "7241d57f3be91d93504f8b232e5364a58442789a4b7098b977e52bcdb1cbe5ed",
+  "proposals": [
+    {
+      "id": "927",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-927",
+        "point": "Prasknutí pivovarské kádě v Londýně roku 1814 vyvolalo ničivou záplavu v okolní obytné čtvrti.",
+        "tags": [
+          "modern-history",
+          "economic-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "897"
+      ],
+      "reason": "Havárie zásobníku je konkrétní průmyslová katastrofa, nikoli politická reakce na znečištění Temže.",
+      "verdict": "accept"
+    },
+    {
+      "id": "928",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-928",
+        "point": "Ruská flotila roku 1904 zaměnila britské rybářské lodě za japonské torpédovky a ostřelováním vyvolala mezinárodní incident.",
+        "tags": [
+          "military-history",
+          "international-relations"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "692"
+      ],
+      "reason": "Záměna civilního cíle v námořní operaci není vojenský neúspěch při regulaci populace emu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "929",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-929",
+        "point": "Problém morálního štěstí vzniká, když rozdílně soudíme stejné jednání podle následků, které jednající plně neovládal.",
+        "tags": [
+          "ethics",
+          "freedom"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "878"
+      ],
+      "reason": "Hodnocení podle náhodně odlišných následků není slučitelnost determinismu a jednání z vlastní povahy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "930",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-930",
+        "point": "Paradox hromady ukazuje napětí mezi vágní hranicí pojmu a opakováním zdánlivě neškodného kroku po jediné jednotce.",
+        "tags": [
+          "logic",
+          "philosophy-of-language",
+          "limits"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "190"
+      ],
+      "reason": "Kumulativní argument s vágní hranicí není hledání významu pomocí rodinných podobností.",
+      "verdict": "accept"
+    },
+    {
+      "id": "931",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-931",
+        "point": "Protiproud vody a krve v rybích žábrách udržuje podél výměnné plochy rozdíl umožňující přestup kyslíku do krve.",
+        "tags": [
+          "zoology",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "152"
+      ],
+      "reason": "Prostorový gradient výměny plynů není rozdělení práce tří srdcí chobotnice.",
+      "verdict": "accept"
+    },
+    {
+      "id": "932",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-932",
+        "point": "Chobotnice Octopus bimaculoides mění při změnách teploty rozsah editace nervové RNA, což může upravovat vlastnosti bílkovin bez změny DNA.",
+        "tags": [
+          "genetics",
+          "zoology",
+          "resilience"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "763"
+      ],
+      "reason": "Editace přepisu RNA při změně teploty není přesun úseků DNA v chromozomu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "933",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-933",
+        "point": "Stříbrná špička zanechává na připraveném abrazivním podkladu kovovou stopu a umožňuje kresbu bez grafitu či inkoustu.",
+        "tags": [
+          "painting",
+          "materials"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "905"
+      ],
+      "reason": "Mechanické nanášení kovu na podklad není světlocitlivý kontaktní otisk.",
+      "verdict": "accept"
+    },
+    {
+      "id": "934",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-934",
+        "point": "Skrytá malba na ořízce vzniká na hranách rozevřených listů a po zavření ji může zakrýt zlacení.",
+        "tags": [
+          "painting",
+          "preservation"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "890"
+      ],
+      "reason": "Odhalení malby rozvinutím fyzických listů není oprava deformované perspektivy změnou pozorovacího úhlu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "935",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-935",
+        "point": "Phillipsovo A Humument vytváří nový text z ponechaných slov staršího románu, zatímco ostatní původní slova zakrývá obrazem.",
+        "tags": [
+          "literature",
+          "painting",
+          "communication"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "689"
+      ],
+      "reason": "Výběr slov z již existující stránky vytváří konkrétní palimpsest; nejde o psaní nového románu s abecedním zákazem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "936",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-936",
+        "point": "Johnsonův román The Unfortunates ponechává prostředních 25 z 27 samostatných částí k libovolnému uspořádání a napodobuje nespořádané vybavování vzpomínek.",
+        "tags": [
+          "narratology",
+          "learning-memory"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "591"
+      ],
+      "reason": "Fyzicky proměnlivé pořadí kapitol je konkrétní čtenářský postup; starší text vysvětluje obecné naratologické roviny času.",
+      "verdict": "accept"
+    },
+    {
+      "id": "937",
+      "category": "politika",
+      "knowledge": {
+        "idea": "idea-937",
+        "point": "Konstruktivní vyslovení nedůvěry v Německu podmiňuje odvolání kancléře současnou volbou nástupce většinou všech poslanců.",
+        "tags": [
+          "democracy",
+          "law",
+          "power"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "484"
+      ],
+      "reason": "Pojistka kontinuity parlamentní většiny není mimořádné prezidentské vládnutí bez parlamentu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "938",
+      "category": "politika",
+      "knowledge": {
+        "idea": "idea-938",
+        "point": "Hamiltonova metoda rozdělování mandátů může při zvětšení celého sněmu snížit příděl některého státu i beze změny populace.",
+        "tags": [
+          "democracy",
+          "mathematics",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "485"
+      ],
+      "reason": "Paradox vzniká zaokrouhlováním při změně celkového počtu křesel, nikoli překreslováním hranic obvodů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "939",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-939",
+        "point": "Rychlé ochlazení Rupertovy kapky vytvoří tlak na povrchu a tah uvnitř, takže odolná hlava může po narušení ocásku explozivně zaniknout.",
+        "tags": [
+          "materials",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "911"
+      ],
+      "reason": "Vnitřní mechanické pnutí skla není skupenská změna gallia blízko pokojové teploty.",
+      "verdict": "accept"
+    },
+    {
+      "id": "940",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-940",
+        "point": "Magnetické nanočástice ve ferrofluidu umožňují poli měnit tvar kapaliny, zatímco povrchové napětí a gravitace změně odporují.",
+        "tags": [
+          "materials",
+          "electromagnetism"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "750"
+      ],
+      "reason": "Tvarování magnetické kapaliny není elektrostatické stínění vodivým obalem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "941",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-941",
+        "point": "Janus a Epimetheus se gravitačně ovlivňují tak, že si přibližně každé čtyři roky vymění vnitřní a vnější dráhu kolem Saturnu.",
+        "tags": [
+          "solar-system",
+          "saturn",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "292"
+      ],
+      "reason": "Vzájemná výměna téměř shodných drah dvou měsíců není dlouhodobý slapový ústup jediného Měsíce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "942",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-942",
+        "point": "Merkur je zachycen ve spinorbitální rezonanci 3:2, takže na dva oběhy kolem Slunce připadají tři otočení vůči hvězdám.",
+        "tags": [
+          "solar-system",
+          "mechanics",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "914"
+      ],
+      "reason": "Pointou je gravitační rezonance rotace a oběhu, nikoli rozdíl definic dne na retrográdní Venuši.",
+      "verdict": "accept"
+    },
+    {
+      "id": "943",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-943",
+        "point": "Morální hazard nastává, když ochrana před částí následků oslabuje pobídku předcházet riziku a toto jednání nelze plně kontrolovat.",
+        "tags": [
+          "microeconomics",
+          "incentives",
+          "uncertainty"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "752"
+      ],
+      "reason": "Změna skrytého jednání po uzavření smlouvy není nepříznivý výběr podle předem známé kvality.",
+      "verdict": "accept"
+    },
+    {
+      "id": "944",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-944",
+        "point": "V aukci druhé ceny s nezávislým soukromým oceněním je pravdivá nabídka slabě dominantní, protože cenu určuje nejvyšší soupeř.",
+        "tags": [
+          "game-theory",
+          "incentives"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "917"
+      ],
+      "reason": "Motivační vlastnost pravidla druhé ceny při soukromém ocenění není výběrové zkreslení u nejisté společné hodnoty.",
+      "verdict": "accept"
+    },
+    {
+      "id": "945",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-945",
+        "point": "Generační efekt označuje lepší zapamatování vhodně vytvořené odpovědi oproti pouhému přečtení téže informace.",
+        "tags": [
+          "learning-memory",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "423"
+      ],
+      "reason": "Měří se vybavení informace po jejím vytvoření, nikoli ocenění vlastnoručně sestavené věci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "946",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-946",
+        "point": "Vybavování již studovaných informací z paměti může zlepšit pozdější zapamatování více než další čtení téhož textu.",
+        "tags": [
+          "learning-memory",
+          "knowledge-evidence"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "759"
+      ],
+      "reason": "Aktivní vybavování místo čtení je samostatná intervence, nikoli rozložení opakování v čase.",
+      "verdict": "accept"
+    },
+    {
+      "id": "947",
+      "category": "filmy",
+      "knowledge": {
+        "idea": "idea-947",
+        "point": "Slit-scan v závěru filmu 2001 vytvářel světelné koridory fotografováním přes štěrbinu a řízeným pohybem při expozici.",
+        "tags": [
+          "film-technique",
+          "optics"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "731"
+      ],
+      "reason": "Časová integrace světla přes štěrbinu není kompenzace ohniska a pohybu v dolly zoomu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "948",
+      "category": "filmy",
+      "knowledge": {
+        "idea": "idea-948",
+        "point": "Multiplánová kamera snímá kresby v oddělených vrstvách a jejich rozdílným pohybem vytváří dojem prostorové hloubky.",
+        "tags": [
+          "animation",
+          "film-technique"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "257"
+      ],
+      "reason": "Paralaxa fyzických vrstev kreseb není modelování a vykreslování počítačových hraček.",
+      "verdict": "accept"
+    },
+    {
+      "id": "949",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-949",
+        "point": "Reuleauxův trojúhelník má konstantní vzdálenost rovnoběžných opěrných přímek, přestože není kruhem.",
+        "tags": [
+          "geometry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "893"
+      ],
+      "reason": "Konstantní šířka obloukového tělesa není schopnost vynutit neperiodickou dlažbu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "950",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-950",
+        "point": "Hranu krychle s dvojnásobným objemem nelze obecně přesně sestrojit pouze neoznačeným pravítkem a kružítkem.",
+        "tags": [
+          "geometry",
+          "logic",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "755"
+      ],
+      "reason": "Konkrétní nemožnost konstrukce kubické odmocniny není obecné kritérium řešitelnosti rovnic radikály.",
+      "verdict": "accept"
+    },
+    {
+      "id": "951",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-951",
+        "point": "Základní Bloomův filtr bez mazání šetří paměť za cenu falešně kladných odpovědí, ale vložený prvek nesmí mylně odmítnout.",
+        "tags": [
+          "algorithms",
+          "information-theory",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "866"
+      ],
+      "reason": "Pravděpodobnostní členství s jednostrannou chybou není bezeztrátová prefixová komprese.",
+      "verdict": "accept"
+    },
+    {
+      "id": "952",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-952",
+        "point": "Obsahově adresované úložiště odvozuje identifikátor objektu z jeho obsahu, takže změna obsahu vede prakticky k jinému identifikátoru.",
+        "tags": [
+          "programming",
+          "information-theory",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "742"
+      ],
+      "reason": "Odvození adresy z kryptografického otisku není oddělení relací od fyzického uložení tabulek.",
+      "verdict": "accept"
+    },
+    {
+      "id": "953",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-953",
+        "point": "Incká khipu zaznamenávala číselné údaje typem a polohou uzlů na provázcích v desítkové soustavě.",
+        "tags": [
+          "economic-history",
+          "archaeology",
+          "communication"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "525"
+      ],
+      "reason": "Kódování množství do textilního média není zveřejnění římských právních pravidel.",
+      "verdict": "accept"
+    },
+    {
+      "id": "954",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-954",
+        "point": "Preparovaný klavír mění barvu zvuku předměty vloženými mezi struny a dovoluje jednomu nástroji vytvářet i perkusivní zvuky.",
+        "tags": [
+          "music",
+          "innovation"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "856"
+      ],
+      "reason": "Změna zabarvení mechanickou úpravou strun není volba poměrů výšek tónů v temperovaném ladění.",
+      "verdict": "accept"
+    },
+    {
+      "id": "955",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-955",
+        "point": "Antarktické ledovky postrádají hemoglobin a kyslík přenášejí rozpuštěný v plazmě za pomoci zvláštních oběhových adaptací.",
+        "tags": [
+          "zoology",
+          "evolution",
+          "resilience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "448",
+        "152"
+      ],
+      "reason": "Ztráta kyslíkového přenašeče u obratlovce není optická barva lidských žil ani měďnatý přenašeč chobotnice.",
+      "verdict": "accept"
+    },
+    {
+      "id": "956",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-956",
+        "point": "Amisův román Time’s Arrow obrací čas prožívání nacistického lékaře a tím odhaluje děsivý rozpor mezi popsaným dějem a jeho skutečným mravním významem.",
+        "tags": [
+          "narratology",
+          "ethics"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "591",
+        "908"
+      ],
+      "reason": "Obrácený chod samotných úkonů převrací dojem léčení a násilí; nejde o obecnou anachronii ani vypravěčovo zamlčování.",
+      "verdict": "accept"
+    }
+  ]
+}

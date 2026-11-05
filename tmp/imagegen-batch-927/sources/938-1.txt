@@ -1,0 +1,1240 @@
+1. INTRODUCTION
+Article I, Section 2 of the U.S. Constitution requires that the House of Representatives "shall be
+apportioned among the several States---according to their respective Numbers," and that "each
+State shall have at least one Representative." That section also includes the requirement that an
+enumeration of the population for the purpose of apportioning the House be conducted every ten
+years. The quoted words obviously do not explicitly state what method should be used for
+apportionment, and for over 200 years the issues of which is the "best" method and which
+methods are constitutional have been debated. In fact, apportionment of the House was the
+subject of George Washington’s first veto.
+The "best" method issue is, in this author’s opinion, unresolvable, since it depends on the criteria
+employed. However, the constitutional question was at least partially resolved on March 31,
+1992, when Justice Stevens delivered an opinion for a unanimous Supreme Court upholding the
+constitutionality of the currently used apportionment method, equal proportions (EP), also known
+as the Hill or Huntington method.
+The path to this resolution began in 1991 when the states of Montana and Massachusetts initiated
+separate lawsuits in federal court ( Montana v. United States Department of Commerce 1991;
+Massachusetts v. Mosbacher 1992) challenging, for the first time in U.S. history, the
+constitutionality of the current method. Montana proposed two methods as alternatives to EP.
+Their preferred methods are the method of harmonic means (HM), also known as the Dean
+method, and the method of smallest divisors (SD), also known as the Adams method, both of
+which would have given Montana two seats instead of the single seat allocated by EP, but would
+have not increased Massachusetts’ EP allocation of ten seats. Massachusetts proposed, using
+different arguments, the use of the method of major fractions (MF), also known as the Webster
+method, which would have allocated eleven seats to Massachusetts, and one to Montana.
+The two cases were considered by separate three-judge panels. The panel in the Montana case,
+by a two-to-one vote, declared EP unconstitutional, while the judges in the Massachusetts case
+unanimously upheld the constitutionality of EP. The ruling in the Montana case was appealed 2
+to the Supreme Court ( United States Department of Commerce v. Montana 1992), with
+Massachusetts filing a friend-of-the-court brief before the Supreme Court in order to present their
+position in favor of MF. On March 4, 1992, the Supreme Court heard the case and 27 days later
+unanimously overruled the decision of the three-judge panel in the Montana case.
+This paper discusses the mathematical and statistical issues in these cases. This author wrote the
+declarations that served as a basis for many of the technical arguments used by the defense in
+these cases, and this paper is in part an outgrowth of that work. Section 2 of the paper provides
+an historical background on the apportionment issue and a discussion of the properties of the
+major apportionment methods. Balinski and Young (1982), the major source of the material in
+that section, provides a more detailed treatment of these matters. Sections 3 and 4 discuss the
+issues debated before the three-judge panels in the Montana and Massachusetts cases,
+respectively. Finally, the Supreme Court appeal is discussed in Section 5.
+2. HISTORICAL BACKGROUND AND PROPERTIES OF METHODS
+Six apportionment methods are considered here. They are the four methods mentioned in the
+Introduction, the method of greatest divisors (GD), also known as the Jefferson method, and the
+method of greatest remainders (GR), also known as the Hamilton or Vinton method.
+All of these methods except GR are members of a class of apportionment methods known as
+divisor methods. Although there are an infinite number of possible divisor methods, only the five
+considered here have had any significant role in apportionment history. They will be referred
+to as the historical divisor methods. With a divisor method, the number of seats assigned to a
+state is a function of its population, p, and a divisor, , which can be thought of as a targetλ
+district size. The same value of must be used for each state. If (where denotesλ p/λ b x
+the integer portion of x), then the state receives either b or b+1 seats. It receives b+1 seats if
+and b seats if where the function that determines the rounding, dependsp/λ> δ(b), p/λ< δ(b), δ,
+on the particular method. If the rounding is not unambiguously defined. is ap/λ δ(b), δ 3
+strictly increasing function of b satisfying for all nonnegative integers b.I nb ≤δ(b) ≤b 1
+Table 1, is presented for each of the five historical divisor methods.δ(b)
+Table 1. Rounding Criteria for Historical Divisor Methods
+Method δ(b)
+SD b
+HM 2b(b+1)/(2b+1)
+EP b(b 1)
+MF b+.5
+GD b+1
+Thus, SD rounds up and GD rounds down all fractional remainders, while MF rounds up
+fractional remainders greater than .5. HM rounds up quotients that exceed the harmonic mean
+of b and b+1. This can be shown to be equivalent to rounding up if the absolute difference
+between and the state’s average district size is minimized with b+1 seats, that is ifλ
+This was Dean’s original motivation for HM. Similarly, EP rounds upp/(b 1) λ < p/b λ .
+quotients that exceed the geometric mean of b and b+1, which is equivalent to minimizing the
+relative distance between and the average district size for the state. (The relative differenceλ
+between two positive numbers x,y is or, equivalently, (max{ x,y}/min{x,y}) -1.)x y /min{ x,y}
+Note also that for MF and GD, the modification is required to insure that all states, noδ(0) 0
+matter how small, receive at least one representative.
+A GR apportionment is obtained slightly differently. Begin with a fixed house size n, and a set
+of N states with populations i=1,..., N. Let the national average district size;pi , d
+N
+i 1
+pi /n, 4
+the exact quota for state i; and ai denote the number of seats allocated to state i underqi pi /d,
+any method. Then for GR, either with for theai qi or a i qi 1, ai qi 1 n
+N
+i 1
+qi
+states with largest fractional remainders, To illustrate how these six methods produceqi qi .
+apportionments, consider the example in Tables 2 and 3 for which N=7 and the populations are
+as given in the column of each of these two tables. Then with which correspondspi d 1000,
+to n=100, and with the divisor used for each of the divisor methods, the allocations for eachλ d
+of the historical divisor methods are given in Table 2. Note that with none of theseλ 1000,
+divisor methods gives a total allocation of 100 seats. To obtain an allocation of 100 seats, it is
+necessary to adjust the divisor upward for SD, HM and EP, and downward for MF and GD.λ
+The allocations for each of the divisor methods for n=100 and the minimum and maximum
+integer values of which yield these allocations are presented in Table 3, along with the GRλ
+allocation.
+Table 2. Divisor Methods Allocations for Example with λ 1000
+ai for Method
+State pi SD HM EP MF GD
+1 91,490 92 91 91 91 91
+2 1,660 22221
+3 1,460 22211
+4 1,450 22211
+5 1,440 22211
+6 1,400 22111
+7 1,100 2 1 1 1 1
+Totals 100,000 104 102 101 98 97
+Table 3. Allocations for Six Methods for Example with n=100
+ai for Method 5
+State pi qi GR SD HM EP MF GD
+1 91,490 91.490 92 88 89 90 93 94
+2 1,660 1.66 0222221
+3 1,460 1.46 0222211
+4 1,450 1.45 0122211
+5 1,440 1.44 0122211
+6 1,400 1.40 0122111
+7 1,100 1.100 1 2 1 1 1 1
+Totals 100,000 100.000 100 100 100 100 100 100
+Min λ 1,040 1,023 1,011 979 964
+Max λ 1,051 1,033 1,018 989 973
+An alternative to adjusting to obtain an apportionment for the House of Representatives withλ
+a fixed number of seats n, for a divisor method based on the function is to use the followingδ,
+recursive algorithm. Let denote the allocation to state i with k seats.aik, i 1,...,N, k N,N 1,...,n
+Then let For choose ik satisfyingaiN 1, i 1,...,N. k>N
+pik /δ(ai (k 1)k ) max{pi /δi(k 1) : i 1,...,N},
+and then let is then a apportionment for n seats.ai kk ai (k 1)k 1, aik ai(k 1) for i ≠ik . ain, i 1,...,n δ
+Note that in the rare case when in is not unique then there is a "tie" for the n-th seat and the
+apportionment is not unique.
+State i is said to satisfy quota if . Note that a quota violation occurs for i=1 forqi ≤ai < qi 1
+each of the five divisor methods for the allocations in Table 3, since GR, a1 <91 or a1 >92.
+however, can never violate quota. (Actually, because of the minimum requirement of 1
+representative per state, this last statement is theoretically only true for an apportionment of the 6
+House of Representatives if the exact quota qi is replaced by the modified exact quota
+where t satisfies as discussed in Balinski and Young˜qi max 1,tqi ,
+N
+i 1
+max 1,tqi N,
+(1982)). Furthermore, although all five historical divisor methods can violate quota in theory,
+EP, HM and MF would never have violated quota for any of the 21 censuses through 1990, while
+SD and GD would have violated quota for at least one state for each census since 1820. For
+example, for California for 1990, ai = 50 for SD and ai = 54 for GD, while qi = 52.124.
+GD was used to apportion the House for the first five censuses through 1830. Eventually,
+Congress became dissatisfied with this method because it appeared to favor large states,
+allocating 40 seats to New York in 1830, for example, despite an exact quota of 38.593. SD, MF
+and HM, were developed as alternatives by John Quincy Adams, Daniel Webster and James Dean
+(a professor at the University of Vermont), respectively. MF was used in 1840. GR was the
+specified method from 1850-1900, although as Balinski and Young (1982) note, for some of these
+censuses the GR allocation was altered so that no method was really used. However, Congress
+became disenchanted with GR, because under this method, unlike any divisor method, it is
+possible, with a fixed set of state populations, for a state to lose seats if the House size is
+increased. This anomaly is known as the "Alabama paradox" because it was observed that for
+the 1880 census, Alabama would have received 8 seats with a House size of 299 and 7 seats with
+a House of 300. This occurred because Alabama, Illinois and Texas had exacts quotas of 7.646,
+18.640 and 9.640, and allocations of 8, 18 and 9 seats, respectively, for a House size of 299, but
+these states had exact quotas of 7.671, 18.702 and 9.672, and allocations of 7, 19 and 10 seats,
+respectively, for a House size of 300. This was a particularly unpleasant property since the
+House was not automatically fixed by law during the period of use of GR, but was decided upon
+by Congress following each census, after reviewing the allocations with various House sizes.
+Congress returned to MF for the 1910 census. Congress also passed legislation which, after New
+Mexico and Arizona became states in 1912, fixed the House size at 435. About the time of the
+1920 census, Professor Edward Huntington of Harvard refined and became the principal
+champion of EP, which had first been developed by Joseph Hill of the Census Bureau in 1911. 7
+Huntington (1921) is one of the earliest of his many papers on this subject. The case for EP
+rested primarily on the pairwise optimality tests. An apportionment is said to be pairwise optimal
+with respect to a particular measure of inequity if no transfer of representatives between any pair
+of states can decrease the amount of inequity between these states. HM is pairwise optimal with
+respect to absolute difference in average district sizes, that is with respect to the measure,
+between states i and j. MF is pairwise optimal with respect to the absolutepi /ai pj /aj
+difference in per capita shares of a representative, that is However, EP is pairwiseai /pi aj /pj .
+optimal with respect to relative differences in both district sizes and shares of a representative,
+which became the key argument for EP. SD and GD are pairwise optimal with respect to two
+other tests, absolute representation surplus and absolute representation deficiency, respectively.
+(If then absolute representation surplus for the pair i,j is that is theai /aj >pi /pj , ai (pi /pj)aj,
+amount by which the allocation for state i exceeds the number of seats it would have if its
+allocation was directly proportional to the actual allocation for state j. Similarly, absolute
+representation deficiency is ) Furthermore, every transfer of seats between a pair of(pj /pi)ai aj.
+states from an apportionment obtained from the optimal method will actually strictly increase,
+as opposed to merely not decrease, the corresponding measure of inequity for the pair of states
+when the optimal method produces a unique apportionment, that is when there are no ties for the
+last seat.
+The opposition to the views of Huntington was led by Professor Walter Wilcox of Cornell, who
+supported MF. He was of the opinion that EP was biased in favor of small states, while MF was
+mathematically neutral between small and large states. Huntington disagreed, contending that
+it is actually EP that is mathematically neutral in this respect. Huntington’s argument was based
+on the fact that among SD, HM, EP, MF and GD, all transfers of seats that result from the
+replacing of one method with a method further to the right on this list are to states that are larger
+than the states losing seats. Thus, in a relative sense, EP favors smaller states less then SD and
+HM, and larger states less then GD and MF. This result alone does not establish anything about
+bias beyond how the methods compare in relation to each other. 8
+Congress failed to reapportion the House at all after the 1920 census, but in an attempt to resolve
+the technical dispute, the Speaker of the House requested that the National Academy of Sciences
+(NAS) review the mathematical aspects of the problem of reapportionment. A NAS committee
+issued a report in 1929 (Bliss et al.). The report considered the five divisor methods discussed
+in this paper and focused on the pairwise comparison tests described above. The committee
+adopted Huntington’s reasoning that EP is preferred on the basis of the pairwise tests for which
+it is optimal and also concluded that EP "occupies mathematically a neutral position with respect
+to emphasis on larger and smaller states."
+The 1930 allocations for EP and MF were identical, so Congress took no further action after that
+census. Under the applicable law, the House was automatically apportioned under the method
+last used, MF.
+In 1940, however, EP and MF differed, with Arkansas allocated 7 seats by EP and 6 by MF,
+while Michigan was allocated 17 by EP and 18 by MF. In 1941, on a mainly party line vote,
+legislation was enacted apportioning the House by EP. This method has been used ever since
+and, under the 1941 law, its continued use is automatic until superseding legislation is enacted.
+In 1948, a new NAS committee revisited the apportionment issue and also endorsed EP (Morse
+et al.). Their report included the new argument that among the four pairwise comparison tests
+previously mentioned for which either EP, HM or MF are optimal, EP is always superior to each
+of the other four divisor methods for at least three of them. For example, it can be shown that
+EP is superior to MF with respect to absolute difference in district sizes, in the sense that no
+transfer of seats resulting from the use of MF instead of EP can ever lower this measure of
+inequity for any pair of states. In this sense EP is, of course, also superior to MF and all other
+methods, with respect to relative differences in district sizes and shares of a representative, while 9
+MF is superior to EP with respect to absolute difference in shares of a representative.
+Analogously, EP is superior to HM for all of these tests except absolute difference in district
+sizes. The committee found the total score in favor of EP using this approach "decisive."
+Much of the interest in the apportionment issue since the mid 1970s is a result of the work of
+Michel Balinski and H. Peyton Young. In their early writings on apportionment (Balinski and
+Young 1975), they expressed the view that an apportionment method should never violate quota
+and should not be subject to the Alabama paradox. None of the six methods considered in this
+paper meet both of these conditions. However, Balinski and Young (1975) developed a
+modification of GD that they called the quota method, which does satisfy both of these
+conditions. Still (1979), among others, generalized Balinski and Young’s result and obtained
+modifications of all six methods considered in this paper which satisfy these two conditions.
+Unfortunately, all of these modified methods suffer from an unpleasant property that none of
+these methods possess in unmodified form. They allow a form of "population paradox" in which
+one state can have a population increase, while all other states and the total house size remained
+fixed, and yet the growing state can lose seats. Balinski and Young eventually abandoned their
+support of the quota method and became proponents of MF. Their main argument for MF was,
+like Wilcox’s decades earlier, their belief that MF is the only divisor method that is not biased
+in favor of either large or small states. Their work, culminating in the book Fair Representation
+(Balinski and Young 1982), presented a number of new theoretical and empirical results to
+support their view.
+For example, corresponding to a divisor and a divisor method based on they consideredλ δ,
+intervals
+(2.1)[δ(b 1)λ, δ(b)λ], b 1,2,3...,
+(where denotes that is populations for which b seats are assigned, and[α, β] {x: α≤ x ≤β}),
+established that MF is pairwise unbiased in the sense that if states 1 and 2 have independent
+populations p1 and p2, respectively, uniformly distributed in intervals 10
+respectively, for positive integers then the[δ(b1 1)λ, δ(b1)λ], [ δ(b2 1)λ, δ(b2)λ], b2 >b1 ,
+probability is .5 that state 2 is favored over state 1 in the sense that They alsob2/p2 >b1/p1.
+established that MF is the only proportional divisor method with this property, where proportional
+divisor methods are a set of "reasonable" divisor methods, defined in Balinski and Young (1982,
+p. 97), that include all five historical divisor methods. They then generalized this result from
+pairs of states to two groups of smaller and larger states, obtaining the result that MF is the
+unique unbiased proportional divisor method.
+Their empirical results include comparisons of the historical divisor methods for the "bias ratio"
+and "percentage bias," two measures of apportionment method bias developed by these authors.
+For both measures they excluded states with exact quotas below .5 as their means of
+compensating for the constitutional requirement of at least one representative per state, a
+provision which in effect creates a constitutionally mandated bias in favor of the small states.
+The bias ratio was obtained by first computing for each census the number of pairs of non-
+excluded states i,j with where state i, the smaller state, is favored in the sense thatpi < pj ,
+The total of the number of pairs for which the smaller state was favored, summedai /pi > aj /pj.
+over the 19 censuses through 1970, was then divided by the total number of pairs of non-
+excluded states in these 19 censuses to obtain the bias ratio. Balinski and Young’s results for
+the five historical divisor methods are presented in Table 4. The ideal ratio is, of course, 50%.
+Table 4. Bias Ratio of Censuses Through 1970
+SD HM EP MF GD
+Bias ratio 77.2% 56.6% 54.6% 51.5% 25.0%
+They computed percentage bias for each census by first dividing the non-excluded states into
+approximately equal classes of large (L), middle, and small states (S), with the middle class
+receiving the extra states when the number of non-excluded states was not divisible by three. 11
+The percentage bias for each census is then expressed as a(
+S
+ai /
+S
+pi)/(
+L
+aj /
+L
+pj) 1
+percentage. Balinski and Young’s (1982) results, averaged over the 19 censuses through 1970,
+are presented in Table 5. A positive percentage indicates that small states are favored and a
+negative value indicates that large states are favored.
+Table 5. Percentage Bias Averaged over Censuses Through 1970
+SD HM EP MF GD
+Average bias 18.3% 5.2% 3.4% 0.3% -15.7%
+Balinski and Young (1982) also presented a secondary reason for their support of MF, the "near
+the quota" property that they developed. They defined an apportionment to be "near the quota"
+if no transfer of a seat from one state to another can bring both states nearer to their exact
+quotas. They proved that MF is the unique divisor method that is "near the quota" for all
+apportionments and noted that this result is true whether distance is measured in absolute or
+relative terms. (GR apportionments also always satisfy this property.) By absolute terms, they
+meant, of course, the measure By relative terms, they meant not the relativeai qi . ai qi /qi,
+difference between ai and qi, which is Balinski and Young’s result isai qi /min ai,qi .
+equivalent to saying that MF is the only divisor method which can never produce an
+apportionment which rounds up qi for a state i with while rounding down qj for aqi qi <.5,
+state j with (Again, as these authors note, because of the minimum requirement ofqj qj >.5.
+1 representative per state, this result is actually only true for an apportionment of the House of
+Representatives if qi is replaced by the modified exact quota, ) ˜qi .
+A final set of properties of apportionment methods are measures of total error of an
+apportionment. Let and Three classes of error measuresdi pi /ai, d ( pj)/n, si 1/di, s 1/d.
+are, for ρ≥ 1, 12
+(2.2)
+N
+i 1
+ai qi ρ,
+(2.3)
+N
+i 1
+ai di d ρ,
+and
+(2.4)
+N
+i 1
+pi si s ρ.
+(2.2), (2.3) and (2.4) are, respectively, the sum of the ρ-th power of each state’s absolute
+deviation from its exact quota, each district’s absolute deviation from the national average district
+size, and each person’s absolute deviation from the national average share of a representative.
+The assumption that the districts within each state are of the same size are used in (2.3) and
+(2.4).
+GR minimizes (2.2) for all (Birkhoff 1976), while for EP minimizes (2.3)ρ≥ 1 ρ 2,
+(Huntington 1928) and MF minimizes (2.4) (Owen 1921). As observed by Gilford (1981), forρ 1,
+(2.3) and (2.4) are minimized by GR since they are constant multiples of (2.2) with ρ 1.
+Interestingly, the various measures of total error of an apportionment have generally not been a
+major focal point in the selection of a method for apportioning the House, perhaps because no
+apportionment method minimizes all these measures. As will be seen in the next two sections,
+these measures did become an issue in both apportionment cases. 13
+3. THE MONTANA DISTRICT COURT CASE
+The Montana lawsuit was primarily based on the following legal reasoning (Racicot et al. 1991).
+In Wesberry v. Sanders (1964), the U.S. Supreme Court had declared that the intrastate
+redistricting of congressional districts must be accomplished to provide "equal representation for
+equal numbers of people," that is the "one person, one vote" principle. That case did not set any
+test for meeting this principle, but in subsequent decisions, such as the Karcher v. Dagget (1983),
+the Supreme Court ruled that this principle required that "districts be apportioned to achieve
+population equality as nearly as practicable." The plaintiffs concluded from the intrastate
+redistricting cases they cited, that the courts required this principle be met in the intrastate
+context by minimizing "absolute population variances between districts" and that this requirement
+also applied to interstate apportionment. Of course, no court had previously ruled that the "one
+person, one vote" principle applied to interstate apportionment, much less that a certain test was
+superior to another for interstate apportionment. In fact, even for intrastate redistricting, no court
+had specifically ruled that a test based on district sizes is a better test than one based on shares
+of a representative, or that absolute difference is a better measure than relative difference.
+Furthermore, this issue of the best test would not even be relevant for intrastate redistricting since
+differences, at least in theory, can be made as close to zero as desired for any of these methods
+of measurement. Finally, the plaintiffs never offered any specific reasons why absolute
+difference in district sizes is the only appropriate test beyond citing these redistricting cases.
+After using these prior cases as their rationale for their view that absolute difference between
+district sizes is the only appropriate test, the plaintiffs noted in their briefs and the affidavits of
+their experts, that the pairwise test for which HM is optimal and Dean’s original motivation for
+HM are both criteria that they considered consistent with the cited cases. In addition, in the
+affidavits of the plaintiffs’ experts, Hill (1991) and Tiahrt (1991), it was observed that for the
+1990 census, among EP, HM and SD, HM produces the smallest variance while SD produces the
+smallest range, and the plaintiffs declared that either of these are appropriate tests of inequity
+among district sizes. Furthermore, the Hill affidavit included the formula used in computing the
+variances, namely, using the notation of Section 2, 14
+(3.1)
+50
+i 1
+(di d)2/49,
+and also an alternative formula with replacing d in (3.1).
+50
+i 1
+[pi /(50ai)]
+The defendants’ reply to the plaintiffs’ assertions (Gerson, Poppler et al. 1991) contained a
+number of legal arguments, including the argument that apportionment of the House is a political
+question to be decided by Congress, and that it should not be considered by the courts. It was
+also argued that in carrying out its constitutionally mandated duty to apportion the House,
+Congress should be allowed broad discretion by the courts even if the issue is considered
+justiciable. In addition, it was observed that interstate apportionment is very different from
+intrastate redistricting, since large differences in district sizes between states are inevitable
+because districts cannot cross state lines and each state must have at least one representative.
+Consequently, the defendants claimed that the redistricting cases cited by the plaintiffs are not
+applicable to interstate apportionments.
+The (U.S.) Government used these arguments before each of the courts that considered the two
+apportionment cases. As will be seen, the success with these arguments varied except for the
+political question argument, which was unsuccessful. In addition to the above arguments,
+substantive arguments were presented to demonstrate the advantages of EP, based primarily on
+the declaration of this author (Ernst 1991a), which will be the focus in this paper. There was no
+attempt to demonstrate that EP is clearly superior to all other apportionment methods, or the only
+constitutional method, but instead that neither of these claims is true for any other apportionment
+method or set of apportionment methods which exclude EP.
+After first reviewing the apportionment history, including the 1929 NAS report, we responded
+to the general argument that absolute differences in district sizes is the only proper criterion for 15
+evaluating an apportionment. We pointed out that it can be argued that a test involving
+differences in shares of a representative is a better test of "the one person, one vote" principle
+for interstate apportionment than a test involving differences in district sizes, since share of a
+representative measures the portion of a vote to which a person is entitled in the House. It was
+also observed that intrastate redistricting and interstate apportionment are conceptually very
+different, since in the former case, the people in each state are allocated to a fixed number of
+districts, while in the latter case, districts are allocated to the fixed number of people in the
+various states.
+An artificial example was presented to illustrate the distinction between absolute and relative
+difference, which noted that if the national average district size is 600,000 then, as measured by
+relative differences, a district of size 1,200,000, twice as large as the ideal, and a district of size
+300,000, twice as small as the ideal, are equally inequitable. In addition, while the relative
+difference between a district of size less than 300,000 and the ideal district of 600,000 is greater
+than the relative difference between the 1,200,000 and 600,000, the opposite relationship holds
+for absolute difference, even if the smaller district is of size 1.
+It was noted that for 1990, as guaranteed by the optimality results for the pairwise difference
+tests, the relative difference between Washington’s and Montana’s average district sizes and
+average shares of a representative under EP (48.0%) is smaller than under HM (52.1%). It was
+also observed that the relative difference between Montana’s average district size and the national
+average district size is 40.4% under EP and 42.5% under HM, while Washington’s is 5.4% under
+EP and 6.7% under HM. EP always gives a higher priority to awarding a seat to a state that
+would be moved closer to the ideal, as measured by relative difference, than to a state for which
+the opposite is the case.
+Although the plaintiffs declared the proper measure of inequity in an apportionment is absolute
+population variance among all districts and claimed that HM results in the smallest such variance,
+the defendants observed that it is actually EP that always minimizes this measure, since it
+minimizes (2.3) with ρ=2. The reason for the discrepancy in the claims is that the formula used 16
+by the plaintiffs, (3.1), did not take into account the number of districts in each state. Their
+formula measures variability among the mean district sizes of the 50 states, not the variance of
+the sizes of the 435 districts. Now, measuring variability among state average districts sizes is
+not necessarily an inappropriate criterion for comparing apportionments; it is simply that (2.3)
+with ρ=2, not (3.1), reflects the criterion actually stated in the plaintiffs’ briefs.
+As for SD, it is indeed true that SD minimizes the range of district sizes for the 1990 census
+among the three methods considered by the plaintiffs, and actually minimizes this measure for
+1990 among all possible apportionments. The defense case against SD focused on its tendency
+to violate quota. We noted that while, for 1990, California’s exact quota is 52.124 seats, SD only
+allocates it 50 seats and also results in quota violations for Illinois, New York and Ohio. It was
+also noted that if SD had been employed for all 21 censuses, quota violations would have
+resulted for every census since 1820, with a total of 47 violations.
+There is a requirement in federal law that redistricting cases be heard before a three-judge panel,
+instead of a single judge, with decisions of these panels generally appealable directly to the
+Supreme Court. Although the Government contended that this law does not apply to interstate
+apportionment cases, such panels did hear both the Montana and Massachusetts cases.
+By a two-to-one majority, the court in the Montana case upheld Montana’s position that equal
+proportions was unconstitutional (Lovell 1991). Judges Lovell and Battin, both from Montana,
+constituted the majority. They agreed with the plaintiffs’ argument that the "one person, one
+vote" principle applies to interstate apportionment and, citing prior intrastate redistricting cases,
+that absolute difference in district sizes is the only proper standard for testing this principle. The
+judges provided their rationale for rejecting tests involving representatives per person or using
+relative differences in two footnotes. First they dismissed relative difference (footnote 3) stating:
+By arguing that proportions and percentages are the proper criteria, rather than
+absolute numbers, Defendants ignore the fact that each number represents a person
+whose voting rights are potentially impacted by the population disparities. 17
+Concerning share of a representative, they observed (footnote 7):
+The Constitution decreed that one house should be chosen on the basis of
+population (persons per representative) and Congress cannot ignore that mandate
+by choosing a method which considers each person’s share of a representative.
+This author does not fully comprehend either of these quotes.
+The majority never made clear what specific tests involving absolute differences in district sizes
+should be used. They quoted various tests from previous opinions, including: "variances between
+the actual district and the district size," "range," "average deviation from the ideal district size,"
+and "maximum deviations above and below the mean district size," but never stated which, if
+any, of these tests they were adopting.
+However, the majority did state: "Courts traditionally look to variances from the ideal district
+size to determine whether a district is under or over represented" and, additionally, "absolute
+difference from the ideal is the proper criterion... ," statements which would appear to rule out
+range and pairwise difference tests. The majority did not directly address the defense point that
+it is actually EP that minimizes variance among all districts, although they may have been
+indirectly referring to it when they stated: "The Hill method can never meet the criteria proposed
+by Plaintiffs, because its express objective is to minimize the relative difference between the
+number of persons per representative and the relative difference between each person’s share of
+a representative." It is not clear if the majority meant by that statement that EP cannot possibly
+minimize (2.3) with ρ=2.
+In any case, whatever specific tests the majority had in mind, they considered that HM comes
+closer than EP to satisfying the "one person, one vote" principle, and concluded that the use of
+EP is unconstitutional. They did, however, reject SD from consideration based on the quota
+violations. 18
+Circuit Court Judge O’Scannlain of Oregon, while agreeing with the majority on the justiciability
+of the case, dissented on the merits, noting several points (O’Scannlain 1991). He first found,
+as did the majority, that SD is inconsistent with the constitutional requirement of allocating
+House seats by population, since it results in quota violations for four states in 1990. He cited
+the fact, from the defense declaration, that the relative difference between Montana’s and
+Washington’s average district size is larger under HM then EP. Judge O’Scannlain also stated
+that range of district sizes is not the best test of disparity, employing the most common argument
+against a range test, that it only considers the largest and smallest of the 435 congressional
+districts.
+Judge O’Scannlain’s opinion focused on measures of total error, which he referred to generically
+as variance. He cited Gilford’s (1981) testimony in which it was noted that different
+apportionment methods optimize (2.2), (2.3) and (2.4) with ρ=2 and ρ=1, as evidence that this
+is not a straightforward issue. Citing the defense declaration, he observed that (2.3) with ρ=2,
+not (3.1), measures variance among all districts, and that EP, not HM, minimizes the appropriate
+variance. Judge O’Scannlain also quoted the majority statement that "absolute difference from
+the ideal district is the proper criterion... ." He interpreted this as requiring the test (2.3) with
+ρ=1. He calculated that EP for 1990 produces a lower value for this measure than HM. (As
+noted in Section 2, it is actually GR that minimizes (2.3) with ρ=1, but Judge O’Scannlain
+prefaced his discussion by stating that three methods were before the court, EP, SD and HM.)
+The Judge concluded: "In sum, neither of the formulae proposed by the State lead to less
+population variance than the Hill equal proportions formula in use for the last fifty years. The
+State, in my view, has failed to demonstrate that a better formula exists than the one chosen by
+Congress."
+A number of questions naturally arise from the issues raised in this case that were not answered
+in the court documents. For example, the plaintiffs noted that for 1990, HM has a smaller value
+for (3.1) than EP, and both HM and SD have a smaller range of district sizes than EP. The
+example in Table 6 with N=3, n=5 illustrates that none of these relationships always hold. 19
+Table 6. Example for Which EP Minimizes Both Range of District Sizes and
+Variance Formula (3.1)
+HM and SD EP
+State pi qi ai di ai di
+1 2370 2.37 2 1185 3 790
+2 1320 1.32 2 660 1 1320
+3 1310 1.31 1 1310 1 1310
+For this example, the EP allocation results in values of 121,300 for (3.1) and 530 for the range,
+while the HM and SD allocation results in values of 122,962.5 for (3.1) and 650 for the range.
+The EP allocation is actually optimal among all apportionments for these two measures for this
+example.
+However, if the comparisons are limited to the 21 actual censuses, then among the nine censuses
+for which HM and EP did not produce identical apportionments, HM always yielded a lower
+value of (3.1) than EP, and a range of district sizes less than or equal to EP. EP did yield a
+smaller range of district sizes then SD for the 1810 and 1840 censuses. Furthermore, it can be
+argued that states with exact quotas less than 1 should be excluded from range computations,
+since they must receive one seat due to the constitutional provision of at least one representative
+per state. With such states excluded, EP produced a smaller range of district sizes than SD as
+recently as the 1940, 1950 and 1960 censuses.
+Judge O’Scannlain computed that (2.3) with ρ=1 is smaller for EP than HM for 1990. This is
+also true for the other eight censuses for which these two methods did not yield identical
+apportionments. However, for the example in Table 7 with N=3, n=5, the EP allocation has a
+value of 1344 for (2.3) with ρ=1, while the corresponding value for the HM and SD allocation
+is 1320. Furthermore, since HM, SD and GR have the same allocation for this example, HM and
+SD are optimal for this measure. 20
+Table 7. Example for Which HM and SD Minimize (2.3) with ρ=1
+HM and SD EP
+State pi qi ai di ai di
+1 2328 2.328 2 1164 3 776
+2 1340 1.340 2 670 1 1340
+3 1332 1.332 1 1332 1 1332
+Finally, a measure of total error that the plaintiffs never mentioned is
+(3.2)
+N
+i 1
+di d .
+Because of the pairwise difference test that HM optimizes, it might appear that HM is optimal
+for this measure. This is true with the qualifications given in the following theorem. (The proofs
+of all theorems are given in the Appendix.)
+Theorem 3.1. If HM produces an apportionment for which there are no quota violations, then
+HM minimizes (3.2) among all apportionments which do not violate quota.
+In particular, since HM has not violated quota for any of the 21 censuses, this result is applicable
+to all the actual censuses.
+However, the example in Table 8, with N=9, n=20, illustrates that without the quota restriction,
+HM does not always optimize (3.2). The value of (3.2) is 1210 for HM and 1095 for SD.
+However, SD violates quota for state 1. 21
+Table 8. Example for Which (3.2) is Smaller for SD than HM
+HM SD
+State pi qi ai di ai di
+1 4320 4.32 4 1080 3 1440
+2 2970 2.97 2 1485 3 990
+3-6
+7-9
+1820
+1810
+1.82
+1.81
+2
+2
+910
+905
+2
+2
+910
+905
+4. MASSACHUSETTS DISTRICT COURT CASE
+The Massachusetts case was much more complex than the Montana case in terms of the technical
+issues involved. The EP 1990 allocation of ten seats to Massachusetts is one less than its 1980
+allocation. Massachusetts would have received eleven seats for 1990 if either MF, GD or GR
+had been used. The plaintiffs chose only to claim that MF is constitutionally superior to EP
+(Harshbarger et al. 1991). MF, in addition to increasing Massachusetts’ EP allocation, would
+reduce Oklahoma’s EP allocation of six seats to five seats, but would produce the same
+apportionment for the remaining 48 states as EP.
+The plaintiffs claimed that EP is unconstitutional for three separate reasons, the first two of which
+were based on the work of Balinski and Young (1982). Their major claim was that EP is
+unconstitutionally biased on favor of small states. They also found EP lacking because it, unlike
+MF, can yield apportionments which violate the "near the quota" principle. Finally, the plaintiffs
+claimed that the "one person, one vote" principle in interstate apportionment is best met by the
+pairwise test for which MF is optimal, absolute difference in shares of a representative.
+Not surprisingly, the plaintiffs retained as their expert, H. Peyton Young, who wrote three
+affidavits in support of Massachusetts’ claims (Young 1991), which formed the heart of their
+case. 22
+The plaintiffs and their expert made the following key points on the bias issue. They described
+the percentage bias test, mentioned in Section 2, and presented the percentage bias figures
+averaged over all 21 censuses for EP and MF, which are virtually the same as those in Table 5
+for the first 19 censuses. They stated that the percentage bias (in absolute value) for MF was
+less than or equal to the percentage bias for EP for each of the 21 censuses. They also noted that
+while the fractional part of which they called the "rounding threshold," increases for EPδ(b),
+as b increases, the "rounding threshold" for MF is .5 regardless of the value of b, and stated that
+this provides an intuitive reason why EP is biased in favor of small states and MF is unbiased
+in its treatment of small and large states. They also referred to Balinski and Young’s theoretical
+result on the unbiasedness of MF mentioned in Section 2.
+Finally, the plaintiffs described computer simulations of Balinski and Young (1984) in which the
+allocations for each state were averaged over 1000 randomly generated populations and compared
+to the state’s modified exact quota. They stated that the results showed that EP tended to allocate
+more seats on average than the modified exact quotas for smaller states and to produce the
+opposite result for larger states, while MF produced no pattern of favoritism towards the smaller
+or larger states.
+On the "near the quota" property, the plaintiffs, in addition to explaining this property, provided
+illustrative examples from the 1970 and 1920 censuses. They noted that in 1970, EP rounded
+up South Dakota’s exact quota of 1.435 while rounding down Connecticut’s exact quota of 6.503.
+MF produced the opposite results for these states, and thus produced an allocation which brought
+both states closer to their exact quotas in absolute terms and relative terms (that is, with respect
+to the measures and as noted in Section 2) (Actually, this is not a goodai qi ai qi /qi ,
+example since Connecticut’s modified exact quota was 6.493). In 1920, they observed, three
+states with exact quotas with fractional part less than .5 would have been rounded up by EP and
+down by MF, while three states with exact quotas with fractional part greater than .5 would have
+been rounded down by EP and up by MF. (This also would have been true for modified exact
+quotas.) 23
+To support their claim that absolute difference in shares of a representative is the best pairwise
+test, the plaintiffs essentially used the same reasoning that the defendants had used in the
+Montana district court to argue the superiority of share of a representative over district size as
+a test of the "one person, one vote" principle. However, in their initial brief they had no real
+argument to support the claim that absolute difference is a better measure of inequity than
+relative difference. They were handicapped on this point because their expert was unable to
+provide support, since his view had always been that the choice between absolute and relative
+differences in pairwise comparisons is a "question of preference" (Balinski and Young 1982,
+p. 102). The plaintiffs initially were only able to argue that their preferred pairwise test is best
+since MF is optimal for it and MF is, in their opinion, unbiased. The defendants, criticized the
+logic of this argument. In their final brief, the plaintiffs developed a new argument that will be
+described later in this section.
+The technical arguments used by the defense (Gerson, Budd et al. 1991) were based primarily
+on three declarations written by this author (Ernst 1991b). Several points were raised in response
+to the plaintiffs’ claims on the bias issue. The key point of contention was the plaintiffs’
+assumption that only states with exact quotas less than .5 should be excluded in bias measures,
+an assumption on which much of their empirical and theoretical results were based. The defense
+claimed that it would be more appropriate to exclude all states with exact quotas less than 1,
+since even though all such states are overrepresented, this is an overrepresentation mandated by
+the Constitution.
+The following are some of the changes in the empirical results that we noted occurred with this
+change in the set of excluded states. While the bias ratio in Table 4 is 54.6% for EP and 51.5%
+for MF, this ratio for the same 19 censuses with all states with exact quotas below 1, instead of
+only those below .5, excluded is 50.8% for EP and 47.4% for MF. Similarly, the average
+percentage bias in Table 5 is 3.4% for EP and .3% for MF, while with all states with exact
+quotas below 1 excluded, it is 1.8% for EP and -.9% for MF. Furthermore, with all states with
+exact quotas less than 1 excluded, the plaintiffs assertion that the percentage bias for MF never
+exceeded the percentage bias for EP for each of the 21 censuses does not hold. In fact, with 24
+these states excluded, the percentage bias for the 1990 census is -.6% for EP and -1.0% for MF.
+That is, by this measure, the 1990 EP apportionment favors the large states and substitution of
+MF would simply increase the magnitude of the favoritism. Finally, we noted that, with states
+with exact quotas below 1 excluded, EP favored small states 13 times among the 21 censuses
+through 1990 using the percentage bias test, but MF favored large states 15 times.
+Two new theoretical results were obtained by the defendants. First it was observed that Balinski
+and Young’s (1982) result that MF is pairwise unbiased is dependent on use of the partition (2.1)
+(ignoring the overlap of endpoints), which for MF reduces to
+(4.1)[.5λ, 1.5 λ], [1.5 λ, 2.5 λ], [2.5 λ, 3.5 λ], ... .
+However, we argued that the alternate partition
+(4.2)[λ,2 λ], [2 λ,3 λ], [3 λ,4 λ], ...
+would be more consistent with the exclusion of all states with exact quotas less than 1. Partition
+(4.2) leads to the following, very different result than (4.1) on the pairwise bias of MF.
+Theorem 4.1 For a divisor , if states 1 and 2 have independent populations p1, p2 uniformlyλ
+distributed in intervals and respectively, for positive integers[b1λ,( b1 1)λ] [b2λ,( b2 1)λ],
+and the states have allocations a1 and a2, respectively, then for an MF apportionment theb2 >b1,
+probability is greater than .5 that a2/p2 >a1/p1.
+Thus, in the sense of Theorem 4.1, MF is pairwise biased in favor of large states.
+The defendants’ second theoretical result on bias is: 25
+Theorem 4.2 With the assumptions and notation of Theorem 4.1, for EP andE(d2) E(d1)
+for MF.E(d2)< E(d1)
+Thus, in the sense of Theorem 4.2, EP is unbiased and MF is biased in favor of large states.
+We also developed an alternate approach to measuring percentage bias consistent with Theorem
+4.2, namely
+(4.3)(
+S
+di /
+L
+di) 1,
+where S and L are as in Section 2, but with all states with exact quotas below 1 excluded.
+Positive values for (4.3) indicate that large states are favored and negative values, that small
+states are favored. Averaged over all 21 censuses through 1990, (4.3) is -1.0% for EP and 2.7%
+for MF. For 1990 alone, (4.3) is 3.9% for EP and 4.5% for MF. Among all 21 censuses, EP
+favored small states by this measure 13 times, while MF favored large states 17 times.
+The defendants responded to the plaintiffs’ argument that the "rounding thresholds" provided
+intuitive evidence to support their bias claims by simply pointing out that "rounding thresholds"
+are not always indicative of how the exact quota of a state would be rounded. It was noted that
+for 1990, New York, New Jersey, Massachusetts and Oklahoma have exact quotas of 31.521,
+13.536, 10.532 and 5.516, respectively. The fractional portion of the exact quota for each of
+these states is above the "rounding thresholds" for both MF and EP. Yet MF and EP round down
+the exact quota for each of these states, with the exception of Massachusetts for MF and
+Oklahoma for EP.
+The defendants’ response to the claims concerning the computer simulations of Balinski and
+Young (1984) was to note that the results of the original simulations done by these authors,
+which were based on random variations from the modified exact quotas computed from Census
+Bureau projections of the 1990 data, showed that for MF the average allocation exceeded the 26
+modified exact quota for each of the largest 22 states, while the opposite was true for each of
+the 6 smallest states. These results did not support the claim that MF is unbiased. They then
+rounded the modified exact quota of each state to the nearest integer and excluded the 6 smallest
+states, which were those that originally had modified exact quotas less than 1.5. New simulations
+based on random variations from the rounded values for the remaining 44 states then yielded
+results more in accordance with their bias claims. It was also noted that Balinski and Young’s
+exclusion of states with modified exact quotas less than 1.5 was not consistent with their usual
+exclusion criterion of .5.
+The plaintiffs rebutted the defendants’ claim that the exact quota cutoff for excluding states from
+bias computations should be 1, by citing a hypothetical example of a state with exact quota of
+.9 in one census that grew in the next census to have an exact quota of 1.1 and received one seat
+each time. Such a state would be fairly treated on average for the two censuses they argued, but
+if it was excluded from the bias calculations for the first census, then one would conclude
+incorrectly that it had been unfairly treated because in the second census, its allocation was less
+than its exact quota.
+The defendants responded to this rebuttal by noting that the plaintiffs’ position, unlike the
+defendants’, was based on averaging of exact quotas for a state over more than one census and
+assumed growth of a state to the point where its exact quota was over 1. We noted that the
+Constitution clearly requires that an apportionment be based solely on the current census
+numbers, not on averaging over past censuses or hypothesizing about future censuses. We also
+noted that two of the three states with exact quotas below 1 for the 1990 census, Alaska and
+Wyoming, have never had exact quotas above 1.
+The defendants responded to the plaintiffs’ "near the quota" claims in several ways. We first
+noted that while it was true that MF was the only divisor method for which a transfer of a seat
+between states can never bring both states’ allocations closer to their exact quotas, as measured
+by either for state i, it is actually EP that is the only divisor method withai qi or ai qi /qi 27
+this property if relative difference, that is is used as the measure ofai qi /min{ai,qi},
+discrepancy.
+We also noted that the Balinski and Young’s concept of "near the quota" can be generalized to
+"near the ideal." An apportionment method is said to be "near the ideal" if a transfer of a seat
+between two states can never bring both states’ allocations closer to the ideal. We considered
+the three ideals qi, d and s, and proved the following results.
+Theorem 4.3 For the ideals qi, d and s:
+a. MF is the only divisor method that is "near the ideal" for qi and s as measured by
+or, equivalently, byai qi and si s , ai qi /qi and si s /s.
+b. HM is the only divisor method that is "near the ideal" for d as measured by or,di d ,
+equivalently, by di d /d.
+c. EP is the divisor method that is "near the ideal" for all three ideals, qi, d and s as
+measured by relative difference, that is and ai qi /min{ai,qi}, di d /min{di,d}
+si s /min{si,s}.
+It was noted that the plaintiffs’ examples from the 1920 and 1970 censuses of "near the quota"
+violations would not hold if relative difference is used as the measure of discrepancy. In
+addition, the 1870 census was used to illustrate that MF was subject to "near the ideal"
+violations. For that census, MF would have allocated Illinois 20 seats and Florida 1. A transfer
+of a seat from Illinois to Florida, as would have occurred under EP, would have brought both
+states closer to the ideals qi, d and s as measured by relative difference and also brought both
+states closer to d as measured by absolute difference.
+The defendants also remarked that the term "near the quota" was somewhat of a misnomer since
+these words can be misinterpreted to imply more than the actual property. It was noted that it 28
+is actually GR that minimizes the overall measure of discrepancy of an apportionment from exact
+quotas, (2.2), and that EP can sometimes produce a smaller value for (2.2) than MF.
+The plaintiffs responded to the defendants’ arguments concerning "near the quota" by claiming
+that relative difference is not appropriate when comparing deviations from an ideal, with
+examples to illustrate this point.
+A key example concerned a city with an average annual rainfall of 20 inches, which had a
+rainfall of 15 inches one year. The plaintiffs noted that one might say that the rainfall was 5
+inches below normal (analogous to the measure ) or 25% below normal (analogous to theai qi
+measure ). However, they noted that relative difference between 20 and 15 is 33 1/3%,ai qi /qi
+which says that normal rainfall was 33 1/3% above the observed value. They stated that if one
+is interested in deviations from the mean, then the 33 1/3% relative difference is not relevant.
+The plaintiffs also observed, continuing this example, that if the following year the rainfall was
+25 inches, then the rainfall that year was 5 inches or 25% above normal, and that the differences
+above and below the mean balance out. However, the relative difference between 25 and 20 is
+25% and hence the relative differences do not balance out.
+This example and similar examples accompanied the last round of briefs and consequently, the
+defendants did not have an opportunity to fully respond to them. However, given the
+opportunity, the defendants could have observed, concerning the rainfall example, that in addition
+to talking about absolute amounts or percentages above or below normal, it is common to say
+that if the annual rainfall was 40 inches, it was twice the normal amount and if it was 10 inches,
+it was one-half the normal amount. Such phraseology corresponds to thinking in terms of ratios,
+which is the whole point of relative differences. That is, to measure discrepancy by dividing the
+smaller number into the larger number, as relative difference does, is as valid as measuring
+discrepancy by subtracting the smaller number from the larger, as absolute difference does. 29
+The defendants also could have noted, that the fact that the absolute differences over two years
+balance out while the relative differences do not, just establishes that absolute differences are
+different from relative differences, not that they are better. To illustrate, two numbers above and
+below 20 have the same absolute difference from 20 if and only if the arithmetic mean of the
+numbers is 20. Similarly, the relative distance between 20 and each of two numbers above and
+below 20 is the same if and only if the geometric mean of the two numbers is 20. (For example,
+the relative difference between 40 and 20 is 100% as is the relative difference between 10 and
+20, and the geometric mean of 40 and 10 is 20.) Thus, the plaintiffs’ claim that relative
+difference is not appropriate when comparing deviations from an ideal, is essentially equivalent
+to the claim that the geometric mean is an inappropriate statistic for this purpose.
+In addition, the defendants could have noted that Balinski and Young (1982) had observed,
+without criticism, that EP minimizes the relative difference between each state’s average district
+size and the divisor . λ
+The criticism of relative difference, which was in Young’s last affidavit, only applied to
+deviations from an ideal, not pairwise comparison tests. The distinction was not made in the
+plaintiffs’ accompanying brief, however. They used their expert’s claims concerning deviations
+from an ideal to argue that absolute difference between average shares of a representative is the
+best pairwise test. The defendants pointed out in oral arguments that the plaintiffs had failed to
+note this distinction.
+The defendants responded to the plaintiffs’ claim that absolute difference in average shares of
+a representative is the best test of the "one person, one vote" principle in several ways. We
+noted that for 1990, as guaranteed by the theory, the relative difference between Oklahoma’s and
+Massachusetts’ average district sizes and average shares of a representative, and the absolute
+difference between the two states’ average district sizes are smaller under EP than MF. (It is
+14.6% under EP and 15.2% under MF for the two relative difference tests, and 76,638 under EP
+and 83,425 under MF for the absolute difference in average district sizes.) 30
+The defendants noted the symmetry in the fact that among the four pairwise tests for which either
+EP, MF or HM are optimal, the plaintiffs in this case consider the one test for which MF is
+superior to EP to be the only appropriate test, just as the plaintiffs in the Montana case consider
+absolute difference in average district sizes to be the only appropriate test since it the only one
+of these four tests for which HM is superior to EP. The defendants expressed concurrence with
+Balinski and Young’s (1975, p. 709) rhetorical question: "Why choose.......one divisor criterion
+[rather] then another?"
+The three-judge panel in this case, in a unanimous decision, written by Judge Woodlock (1992)
+of Massachusetts, upheld the constitutionality of EP. Although the judges agreed with the
+plaintiffs that the "one person, one vote" principle applies to interstate apportionment, they
+rejected each of the three major substantive issues raised by the plaintiffs.
+On the bias issue, the court observed that with states with exact quotas below 1 excluded "the
+historical bias showing made by plaintiffs all but evaporates," and that for the 1990 census, EP
+yields an apportionment with a percentage bias closer to 0 than MF would. The court, noting
+the exclusion cutoff of 1.5 in Balinski and Young (1984), stated that any exclusion, at least up
+to 1.5, is a reasonable means of accounting for the special constitutional treatment of very small
+states.
+Judge Woodlock observed with regards to the plaintiffs’ "near the quota" claims, that the showing
+was "at best mixed." He noted that it is GR that satisfies (2.2), and while MF satisfies the "near
+the quota" property with respect to the measures and it is EP that possessesai qi ai qi /qi ,
+this property with respect to relative difference.
+The opinion explicitly addressed not only Massachusetts’ claim that the pairwise test that best
+meets the "one person, one vote" principle in interstate apportionment is absolute difference in
+average shares of a representative, but also the claim in the Montana case that absolute difference
+in average district sizes is the only constitutional test. Judge Woodlock stated simply that "we 31
+can find nothing in the Constitution mandating a particular mathematical formula be employed
+to the exclusion of others." He expressed agreement with Balinski and Young’s (1975) view that
+there is no reason to choose one divisor criterion over another.
+The decision also noted that courts in the intrastate context have consistently measured equity
+by relative departures from the ideal district. (It is not clear whether that meant or di d /d
+In the intrastate context, the ratio of these two measures would generally bedi d /min{di,d}.
+near 1 anyway, since di and d should always be close.) The judges found relative measurement
+to be a mathematically acceptable means of making equity comparisons and that nothing in case
+law or the Constitution prohibited its use.
+The court, summarizing their views, stated: "The Constitution does not prescribe a particular
+formula, a specific methodology or a set standard to embody the 'one person, one vote' principle
+in this complex setting." The judges concluded that EP does satisfy this principle and hence the
+courts have no authority to interpose a different method than the one adopted by Congress. It
+is clear from the opinion that their ruling would have been the same if they had the Montana case
+before them.
+Massachusetts did not appeal this decision to the Supreme Court. The Supreme Court’s decision
+in the Montana case had made an appeal on this issue futile. However, as detailed in the next
+section, Massachusetts did present their views on apportionment methods to the Supreme Court
+through a friend-of-the-court brief in the Montana case.
+Massachusetts also argued a second issue before the district court. They contended, using several
+arguments, that U.S. government employees working overseas, military and civilian, and their
+dependents, should not have been included in the apportionment counts. Massachusetts won on
+this issue before the district court on one of these points, namely that the decision to allocate
+overseas military personnel to the state designated as their "home of record" was arbitrary and
+capricious under the standards of the Administrative Procedures Act (APA). This decision, if 32
+upheld in its entirety, would have increased Massachusetts’ allocation to 11 seats and reduced
+Washington’s to 8 seats. However, the Government appealed this decision to the Supreme Court,
+which unanimously reversed the district court’s decision to exclude overseas federal employees
+from the apportionment counts ( Franklin v. Massachusetts 1992).
+In overturning the district court ruling on the overseas employees issue, five of the justices, in
+an opinion by Justice O’Conner, held that the APA was not applicable, since the apportionment
+law required an action by the President, namely the transmittal of the apportionment to Congress.
+These justices found that the APA did not apply to the President and hence never reached the
+merits of this issue. The other four justices, in an opinion by Justice Stevens, did find the APA
+to be applicable, reasoning that it is the Secretary of the Commerce, who is covered by the APA,
+that is authorized to conduct the decennial census, and that the President’s role is purely
+ministerial. However, these justices did not find the "home of record" method of allocating the
+overseas military personnel to be arbitrary and capricious.
+As in the Montana case, some issues arose in the Massachusetts case that were not answered in
+the court documents. For example, although the defendants noted that EP can sometimes produce
+a lower value for (2.2) than MF, no illustrative example was provided. We were well aware of
+a very important example. For the 1940 census, the one which resulted in the adoption of EP,
+Arkansas’ exact quota was 6.473 and Michigan’s was 17.453. The EP allocation of 7 seats and
+17 seats, respectively, to these two states yielded a lower value for (2.2) than the MF allocation
+of 6 seats and 18 seats, since the two apportionments were otherwise identical. However, this
+example was not mentioned by the defendants, because (2.2) for all ρ>1 would have been lower
+for MF than for EP for each of the other 11 censuses for which these two methods produced
+different apportionments.
+In the plaintiffs’ briefs, the assertion that MF is optimal with respect to absolute difference in
+shares of a representative, was generally not qualified to be limited to the pairwise comparison
+test. Some other possible interpretations of the plaintiffs’ statements include minimization of the
+following: range of si, (2.4) with ρ=1, 33
+(4.4)
+N
+i 1
+si s
+and
+(4.5)maxi si s .
+MF is not always optimal for any of these measures. EP would have produced a smaller range
+for si than MF for the first census in 1790. (Delaware had the maximum value for si under either
+method. However, the minimum value for si was .00002772 for Pennsylvania under EP and
+.00002338 for Vermont under MF.) As noted in Section 2, GR minimizes (2.4) with ρ=1. The
+EP and GR apportionments for 1940 coincided and hence both yielded a lower value for this
+measure than MF. The optimality of MF for (4.4) is analogous to the optimality of HM for (3.2),
+as stated in the following theorem, which is applicable to all 21 censuses.
+Theorem 4.4. If MF produces an apportionment for which there are no quota violations, then MF
+minimizes (4.4) among all apportionments which do not violate quota.
+The proof of this theorem is essentially identical to the proof of Theorem 3.1.
+However, without the quota restrictions, MF does not always minimize (4.4). The value of (4.4)
+for the example in Table 8 is .00111 for MF and .00103 for SD. The MF apportionment is
+identical to the HM apportionment for this example.
+Although MF minimizes (4.5) among all six apportionment methods for all 21 censuses, for the
+example in Table 9 with N=3, n=7, the value of (4.5) is .00026 for EP, the optimal value, and
+.00037 for MF. 34
+Table 9. Example for Which EP Minimizes (4.5)
+MF EP
+State pi ai si ai si
+1 2710 3 .00111 3 .00111
+2 2690 3 .00112 2 .00074
+3 1600 1 .00063 2 .00125
+5. THE SUPREME COURT CASE
+The (U.S.) Government appealed the decision of the three-judge district court in the Montana
+case to the Supreme Court, which granted an expedited review.
+Generally, new factual information is not introduced on appeal, and for the most part, both sides
+did adhere to this rule. The Government did note (Starr et al. 1992) that for 1990, HM rounded
+up Montana’s exact quota of 1.404 while rounding down Washington’s exact quota of 8.538,
+even though Washington had the higher fractional remainder. This issue had not been brought
+up previously, because in the Massachusetts case for the two states for which EP and MF
+disagree, Oklahoma, with an exact quota of 5.516, and Massachusetts, with an exact quota of
+10.532, it is MF that rounds up the state with the higher fractional remainder.
+The Government did reiterate most of the issues raised with the district court. In addition, the
+Government vigorously argued that EP unquestionably apportions representatives among the
+states "according to their respective Numbers," which is all that the Constitution requires.
+Montana, while raising no real new points, did clarify their position on the issue of variance
+among district sizes (Racicot et al. 1992). They stated that by "variance" in redistricting cases,
+the courts have not meant mathematical variance at all, in the sense of either (2.3) with ρ=2, or
+(3.1), but instead have meant 35
+(5.1)maxi di d .
+This had indeed been mentioned as one criterion in Montana’s district court briefs, but this
+measure has not been clearly referred to as a measure of variance previously. Furthermore, it
+does not appear from the affidavits of Montana’s experts that either of them understood that (5.1)
+is the proper measure of variance in this context, since they had only associated the word
+"variance" with (3.1).
+HM does indeed minimize (5.1) among the six apportionment methods considered in this paper,
+not only for 1990, but for all 21 censuses. However, for the example in Table 6, the value of
+(5.1) is 340 for HM and 320 for EP.
+Montana responded to the Government’s observation on the fractional remainders of Montana
+and Washington with their central argument that quota, like share of a representative and all
+factors other than absolute difference in district sizes, is an inappropriate criterion for measuring
+adherence to the "one person, one vote" principle.
+Massachusetts participated in the Supreme Court case through a friend-of-the-court brief
+(Harshbarger et al. 1992), after an unsuccessful request that the Supreme Court delay hearing the
+Montana case until a district court decision had been issued in the Massachusetts case, and then
+hear appeals of these two cases in tandem.
+Massachusetts’ friend-of-the-court brief was filed shortly before the district court ruling in their
+own case. A new affidavit from their expert, Peyton Young (1992), accompanied it. They raised
+the same three issues as had been raised in the district court. Their argument on the bias and the
+"near the quota" issues were similar to those in the district court. However, perhaps in
+recognition of the focus of Montana’s arguments, Massachusetts presented new arguments to
+support their contention that absolute deviations of shares of a representative is the only proper
+measure of equity in the interstate context. 36
+Massachusetts presented an interesting verbal argument for the superiority of share of a
+representative over district size as a test. They observed that: "To bring all district sizes as near
+equity as possible is to treat all representatives as equally as possible. The relevant principle is
+to treat all citizens as equally as possible."
+Massachusetts also provided an example that they stated showed a problem with average district
+size as a measure of equity. They considered a state with a population of 750,000 in each of two
+censuses, with d=500,000 in both censuses. The state’s allocations were 1 seat in census 1, and
+2 seats in census 2. They observed that averaged over the two censuses, the state’s allocations
+and its exact quotas are both 1.5. Also, the average share of a representative for the state
+averaged over the two censuses and s=1/500,000 are both the same. However, the state’s average
+district size averaged over the two censuses is greater than d=500,000.
+This example implied that exact quota and average share of a representative are consistent
+measures and that average district size is inconsistent with the other two. The implication that
+average share of a representative is consistent with exact quota in this respect is false. To see
+this, simply consider the same example except suppose that the state’s population is 600,000 in
+census 1 and 900,000 in census 2 (or any two numbers respectively, with arithmetic meanp1, p2 ,
+750,000, for which Then the state’s allocations and exact quotas500,000 < p1 < 750,000).
+averaged over the two censuses remain the same, but the average share of a representative
+averaged over these two censuses is less than 1/500,000.
+Massachusetts approached the absolute difference versus relative difference issue somewhat
+differently than previously. Citing case law, they claimed equity should be measured by
+deviations from the ideal, not pairwise comparisons. They repeated their claim that relative
+difference is inappropriate in measuring deviations from an ideal. They observed that MF
+minimizes (2.4) with ρ=2 and asserted that this measure is superior to (2.3) with ρ=2. 37
+Massachusetts presented one new idea relating to the "near the ideal" principle. EP for 1990
+does not violate this principle in any of the senses of Theorem 4.3. However, for states i,j,i f
+that is, the average share of a representative for the two states combined,sij (ai aj)/(pi pj),
+then the following result holds:
+Theorem 5.1. For a unique MF apportionment, every transfer of seats between states i,j increases
+both and (and, equivalently, andsi sij sj sij si sij /sij sj sij /sij.)
+This is equivalent to saying that any apportionment not agreeing with the MF apportionment for
+states i,j will violate the "near the ideal" principle for the ideal sij with respect to the measures
+given in the theorem.
+Massachusetts did not actually state this theorem, but instead illustrated this result by
+demonstrating that for the 1990 census, MF brings both Massachusetts and Oklahoma closer to
+their combined average share of a representative than EP does with respect to the measures of
+Theorem 5.1.
+The difficulty with this result is that it appears inconsistent to argue that deviations should be
+measured from an ideal, not by pairwise comparisons, and then use as an ideal sij, which is a
+function of a pair of states, instead of the traditional ideal s.
+Interestingly, the result that would be analogous to Theorem 5.1 for district size (that is with , si
+sj and sij replaced by di, dj and dij =1 / sij) does not hold for every HM apportionment. For
+example, for the 1990 HM apportionment, a transfer of a seat from Montana to Washington
+would bring Washington’s district size closer to the average district size for the two states
+combined as measured by ordi dij di dij /dij. 38
+The district court decision in the Massachusetts case was released after the filing of
+Massachusetts’ brief, but before the Government’s reply brief was due. The Government chose
+not to respond to the Massachusetts claims in detail, but simply to note that these claims had
+been answered in the district court and had been rejected by that court. The Government in
+response to the claims of both Montana and Massachusetts, did review the expert support that
+EP has historically had, in particular the reasoning in the 1948 National Academy of Science
+report. The Government also cited the example of Arkansas and Michigan for the 1940 census,
+for which EP but not MF awarded the seat in dispute to the state with the higher fractional
+remainder.
+On March 31, 1992, only 27 days after oral arguments, the Supreme Court unanimously upheld
+the constitutionality of EP, in an opinion written by Justice John Paul Stevens.
+Justice Stevens first considered and rejected, as had both district courts, the Government’s
+argument that Congress’ selection of an apportionment method is a "political question" not
+subject to judicial review.
+Justice Stevens then discussed the constitutional issues in dispute. He observed that while the
+same principle of equity that the Supreme Court requires in intrastate districting might apply to
+interstate apportionment, he did not find that the facts constituted a violation of the Wesberry
+standard. He noted that there is no incompatibility within a state in minimizing both absolute
+and relative differences, and that all districts within a state can be brought closer to the ideal
+simultaneously. However, for 1990, HM, while bringing Montana’s average district size closer
+to the ideal district size as measured by absolute difference, brings Washington’s average district
+further away from the ideal district size with respect to absolute difference, and moves both states
+further from this ideal with respect to relative difference.
+Justice Stevens also noted that it can be argued, as in Judge O’Scannlain’s dissent in the Montana
+district court case, that a measure of deviation from the ideal district size should take into
+account the number of districts in each state. 39
+Justice Stevens then made the critical observation that "neither mathematical nor constitutional
+interpretation provides a conclusive answer" to the question of the best measure of inequality
+among the four measures obtained by pairing either absolute or relative difference with either
+district size or share of a representative. As had Judge Woodlock in the Massachusetts district
+court case, he concluded: "The polestar of equal representation does not provide sufficient
+guidance to allow us to discern a single constitutionally permissible course." These comments
+amounted to a complete rejection of Montana’s entire argument and a rejection of one of
+Massachusetts’ key issues.
+The opinion further observed that the goal of mathematical equality, while appropriate in the
+intrastate context, is illusory for interstate apportionment, since each state must have at least one
+representative and districts cannot cross state lines. In addition, since the Constitution expressly
+authorizes Congress to enact legislation to carry out its delegated responsibilities, its choice of
+a method that apportions representatives "according to their respective Numbers" commands far
+more deference than a state redistricting decision that can be required to meet a rigid
+mathematical standard.
+The "near the quota" issue raised by Massachusetts was not mentioned in the opinion. The bias
+issue was discussed in a footnote, which first described Balinski and Young’s (1982) views and
+then simply noted, citing the opinion of the Massachusetts district court, that this contention has
+been disputed. Later in the opinion, Justice Stevens returned to this issue, stating that a fair
+apportionment required some compromise between the interests of the smaller and larger states,
+and indicating that Congress had been delegated the authority in the Constitution to reach this
+compromise.
+In addition to challenging the constitutionality of EP, Montana had challenged the
+constitutionality of the automatic apportionment law, claiming it deprived their congressional
+delegation of their right to vote on an apportionment. While not formally ruling on this claim,
+the district court majority stated that it had merit. Justice Stevens disagreed, stating that this
+claim had no merit. He found that an automatic use of an otherwise constitutional apportionment 40
+method is a sensible procedure that removed apportionment from political controversy. He found
+nothing in the Constitution that prevented the adoption of an automatic procedure.
+Justice Stevens concluded his answer to this 200 year old constitutional question, stating:
+The decision to adopt the method of equal proportions was made by Congress
+after decades of experience, experimentation, and debate about the substance of
+the constitutional requirement. Independent scholars supported both the basic
+decision to adopt a regular procedure to be followed after each census, and the
+particular decision to use the method of equal proportions. For a half century the
+results of that method have been accepted by the States and the Nation. That
+history supports our conclusion that Congress had ample power to enact the
+statutory procedure in 1941 and to apply the method of equal proportions after the
+1990 census. 41
+APPENDIX
+Proof of Theorem 3.1. Let di, i=1,...,N, denote the HM apportionment and anydi′, i 1,...,N,
+other apportionment satisfying quota. Let and m denote the number of elementsD {i: di ≠di′},
+in D. If then since both apportionments satisfy quota.i,j ∈D, i≠j, min{di,dj} ≤d ≤ max{di,dj}
+Consequently, . Therefore, fordi d dj d di dj i,j∈D, i≠j,
+di d dj d ≤ di′ dj′ ≤ di′ d dj′ d ,
+from which it follows that
+i∈D
+di d 1m(m 1) i,j∈D
+i≠j
+( di d dj d ) ≤
+i∈D
+di′ d .
+Proof of Theorem 4.1. The ordered pair ( p1, p2) is uniformly distributed in a square with
+vertices and area The region(b1λ, b2λ), (( b1 1)λ, b2λ), ( b1λ,( b2 1)λ), (( b1 1)λ,( b2 1)λ) λ2.
+within the square in which state 2 is favored over state 1, that is, for which is thea2 /p2 >a1 /p1 ,
+union of the following four regions: (1) A triangle with vertices
+(b1λ,b2λ), ( b1(b2 .5)λ/b2,b2λ), ( b1(b2 .5)λ/b2,( b2 .5)λ),
+and area .125 for which (2) A rectangle with verticesb1λ2 /b2, a1 b1, a2 b2.
+(b1(b2 .5)λ/b2, b2λ), (( b1 .5)λ, b2λ), ( b1(b2 .5)λ/b2,( b2 .5)λ), (( b1 .5)λ,( b2 .5)λ),
+and area .25 for which (3) A square with vertices(1 b1/b2)λ2, a1 b1, a2 b2.
+(b1λ,( b2 .5)λ), (( b1 .5)λ,( b2 .5)λ), ( b1λ,( b2 1)λ), (( b1 .5)λ,( b2 1)λ), 42
+and area .25 for which and (4) A triangle with verticesλ2, a1 b1 a2 b2 1.
+((b1 1)(b2 .5)λ/(b2 1), ( b2 .5)λ), (( b1 1)λ,( b2 .5)λ), (( b1 1)λ,( b2 1)λ)
+and area .125 for which The total area of these four(b1 1)λ2/(b2 1), a1 b1 1, a2 b2 1.
+regions is and the probability that state 2 is favored is, therefore,(.5 .125(b2 b1)/[b2(b2 1)])λ2
+.5 125(b2 b1)/[b2(b2 1)]>.5.
+Proof of Theorem 4.2. We drop all subscripts to obtain results that apply to both states. Since
+for EP, if and if it follows thatd p/b p< b(b 1) λ d p/(b 1) p> b(b 1) λ,
+(A.1)E(d) 1
+λ
+ ⌡⌠ b(b 1) λbλ pb dp ⌡⌠(b 1) λb(b 1) λ pb 1 dp λ
+for all b, where the term in (A.1) arises from the fact that is an interval of1/λ [bλ,( b 1)λ]
+length λ.
+Similarly, for MF,
+E(d) 1
+λ
+ ⌡⌠(b .5) λbλ pb dp ⌡⌠(b 1)λ(b .5) λ pb 1 dp  1 18b(b 1) λ,
+which is a decreasing function of b. 43
+Proof of Theorem 4.3.
+(a) The results for the ideal qi were established in Balinski and Young (1982, p. 132-133). The
+results for s follow from these results and the fact that since bringing si closersi s ai qi /pi,
+to s and ai closer to qi are equivalent.
+(b) Clearly it suffices to establish this result for the measure di d .
+Let b be a positive integer, the rounding function for HM, and p theδ(b) 2b(b 1)/(2b 1),
+population of a state. To prove that an HM apportionment is always "near the ideal" d for the
+measure first establish thatdi d ,
+if then (A.2)p/δ(b) ≥d p/b d ≥ p/(b 1) d .
+To do this, observe that
+p
+b
+p
+b 1
+2p
+δ(b)
+≥ 2d,
+and hence
+(A.3)p
+b d ≥ d pb 1 .
+In addition, clearly and (A.2) then follows.p/b d > p/(b 1) d,
+Similarly, it can be established that if both inequality signs in (A.2) are replaced by either " " ≤
+">" or "<" the statement remains true. Furthermore, (A.2) remains true if b is replaced by 0,
+with the convention that a convention that is used throughout this proof.p/0 ∞,
+Then consider an HM apportionment for which states i and j have populations andpi, pj 44
+allocations Then by the min-max inequality (Balinski and Youngai, aj. pi /δ(ai 1) ≥ pj /δ(aj)
+1982, p. 100). Consequently, if a seat is transferred from state i to state j then either
+in which case the transfer does not bring the allocation for state i closer to thepi /δ(ai 1) ≥ d,
+ideal by (A.2) with or in which case the allocation for state j is notb ai 1, pj /δ(aj) ≤ d,
+brought closer to the ideal by A.2, with the inequality signs reversed and b aj.
+To prove that any other divisor method, with rounding function is not always "near theδ (b),
+ideal" d for the measure first note that for some positive integersdi d , b1 ≠b2,
+δ(b2)
+δ (b2)
+> δ(b1)
+δ (b1)
+.
+(For otherwise, for all Then in which case can produceδ (b) δ(b) b>0. δ (0)>0, δ
+apportionments in which some states have 0 representatives and other states have more than 1
+representative, which would be a "near the ideal" violation.)
+Then consider a three state problem, for which
+p1 δ(b1) ε, p2 δ(b2) ε, p3 b1 b2 2 δ(b1) δ(b2),
+where satisfies the relationsε>0
+(A.4)p2
+δ (b2)
+> p1
+δ (b1)
+,
+(A.5)p2
+δ(b2 1)
+> p1
+δ(b1)
+, 45
+(A.6)p1
+δ(b1 1)
+<1 .
+Note that since and for it follows thatδ(1) 1 1/3 1/3< δ(b) b<1/2 b>1,
+(A.7)1< p3 <4/3.
+Furthermore, by (A.5),
+(A.8)p2
+δ(b2 1)
+>1 .
+Let ai, i=1,2,3, denote the apportionment corresponding to the rounding function for this setδ
+of populations and a house size of Since by the definitions of p1 and p2, and (A.7),b1 b2 2.
+p1
+δ(b1)
+>1>m a x
+ p2δ(b2) , p3δ(1) ,
+state 1 has a higher priority for b1+1 seats then either state 2 has for b2+1 seats or state 3 has for
+2 seats. Consequently Similarly, since by (A.5), (A.7) and (A.8),a1 ≥ b1 1.
+p2
+δ(b2 1)
+> max
+ p1δ(b1) , p3δ(1) , 46
+it follows that Finally, since the HM apportionment must bea2 ≥b2. a3 ≥1,
+Furthermore, since it follows froma1 b1 1, a2 b2, a3 1. pi /δ(ai 1) > 1 d > pi /δ(ai), i 1,2,3,
+the variations of (A.2) that is uniquely minimized for each i by this apportionment.di d
+Now for the apportionment, by (A.4) state 2 has a higher priority for b2+1 seats than stateδ (b)
+1 has for b1+1 seats. Consequently, the two apportionments are not identical, and hence the
+apportionment must switch seats between at least two states from the HM apportionment,δ (b)
+increasing for these states.di d
+(c) Since all three measures are identical. Therefore, itsi ai /pi , s qi /pi , di pi /ai , d pi /qi ,
+suffices to prove these results for any one of the ideals, say d.
+To prove that an EP apportionment is always "near the ideal" d for the measure
+simply establish that, withdi d /min di,d , δ(b) b(b 1),
+if then (A.9)p/δ(b) ≥ d p/b d
+min p/b,d ≥ p/(b 1) dmin d/(b 1),d
+and then proceed as in ( b). To prove (A.9), note that
+p/b d
+min p/b,d
+max p/(bd), bd/p 1 ≥ p/(bd) 1
+p/(b 1) d
+min p/(b 1),d
+max p/[(b 1)d], ( b 1)d/p 1. 47
+Now, can be obtained by algebraic manipulation of whilep/(bd) ≥ (b 1)d/p p/δ(b) ≥ d,
+clearly (A.9) can then be obtained by combining all the above relations.p/(bd)> p/[(b 1)d].
+To prove the converse, that is that no other divisor method is always "near the ideal" d for the
+measure proceed as in ( b).di d /min di, d ,
+Proof of Theorem 5.1. Let be the MF allocation for states i and j, and be anai, aj bi, bj
+allocation obtained by transferring seats between these two states. Then bi +b j = ai +a j, and
+hence
+bi
+pi
+sij
+bi
+pi
+bi bj
+pi pj
+bi pj bj pi
+pi (pi pj)
+pi pj bi /pi bj /pj
+pi(pi pj)
+> pi pj ai /pi aj /pj
+pi(pi pj)
+ai
+pi
+sij . 48
+ACKNOWLEDGEMENT
+The author thanks Bev Causey who did the programming that produced most of the new
+empirical results in Section 4.
+REFERENCES
+Balinski, M.L., and Young, H.P. (1975), "The Quota Method of Apportionment," American
+Mathematical Monthly, 82, 701-730.
+(1977), "Apportionment Schemes and the Quota Method," American
+Mathematical Monthly, 84, 450-455.
+(1982), Fair Representation, New Haven: Yale University Press.
+(1984), "Evaluation of Apportionment Methods," report prepared under Contract
+No. CRS 84-15 for the Congressional Research Service of the Library of Congress,
+Washington, D.C.
+Birkhoff, G. (1976), "House Monotone Apportionment Schemes," Proceedings of the National
+Academy of Sciences , U.S.A. 73, 684-686.
+Bliss, G.A., Brown, E.W., Eisenhart, L.P., and Pearl, R. (1929), report to the President of the
+National Academy of Sciences, February 9, 1929. In Congressional Record , 70th
+Congress, 2nd Session, 70, 4966-4967, March 2, 1929.
+Ernst, L.R. (1991a), declaration in Montana v. United States Department of Commerce ,
+CV 91-22-H-CCL, Helena, Montana.
+(1991b), declarations in Massachusetts v. Mosbacher , CA 91-11234-WD,
+Massachusetts. 49
+Gerson, S.M., Poppler, D.M., Linder, D.G., McLean, K.A., Schraibman, S.M., Korytkowski, S.L.,
+and Murphy, Mark H. (1991), defendants’ briefs in Montana v. United States Department
+of Commerce, CV 91-22-H-CCL, Helena, Montana.
+Gerson, S.M., Budd, W.A., Yogman, J.S., Schraibman, S.M., and Murphy, M.H. (1991),
+defendants’ briefs in Massachusetts v. Mosbacher , CA 91-11234-WD, Massachusetts.
+Gilford, L. (1981), testimony at hearing before the Subcommittee on Census and Population,
+97th Congress, 1st Session, on H.R. 1990, 97-18, 58-70.
+Harshbarger, S., Golann, D., Berenson, S., Driscoll, J.P., Jr., Leibensperger, E.P., and
+Motenko, N.P. (1991), plaintiffs’ briefs in Massachusetts v. Mosbacher ,
+CA 91-11234-WD, Massachusetts.
+(1992), Massachusetts’ amicus curiae brief in United States Department of Commerce
+v. Montana, U.S. Supreme Court, 91-860.
+Hill, D.M. (1991), affidavit in Montana v. United States Department of Commerce ,
+CV 91-22-H-CCL, Helena, Montana.
+Huntington, E.V. (1921), "A New Method of Apportionment of Representatives," Quarterly
+Publication of the American Statistical Association , 17, 859-870.
+(1928), "The Apportionment of Representatives in Congress," Transactions of
+the American Mathematical Society , 30, 85-110.
+Lovell, C.C. (Judge) (1991), majority opinion in Montana v. United States Department of
+Commerce, 775 F. Supp. 1358 (U.S.D.C. Mt.). 50
+Morse, M., von Neumann, J., and Eisenhart, L.P. (1948), report to the President of the National
+Academy of Sciences, May 28, 1948.
+O’Scannlain, D.F. (Judge) (1991), minority opinion in Montana v. United States Department of
+Commerce, 775 F. Supp. 1358 (U.S.D.C. Mt.).
+Owens, F.W. (1921), "On the Apportionment of Representatives," Quarterly Publication of the
+American Statistical Association , 17, 958-968.
+Racicot, M., Smith, C.R., and Baker, E.S. (1991), plaintiffs’ briefs in Montana v. United States
+Department of Commerce , CV 91-22-H-CCL, Helena, Montana.
+(1992), appellees’ briefs in United States Department of Commerce v. Montana ,
+U.S. Supreme Court, 91-860.
+Still, J.W. (1979), "A Class of New Methods for Congressional Apportionment," SIAM Journal
+on Applied Mathematics (1979), 37, No. 2, 401-418.
+Starr, K.W., Gerson, S.M., Roberts, J.G., Jr., Kneedler, E.S., Singer, M.J., Stern, M.B., and
+Raab, M.S. (1992), appellants’ briefs in United States Department of Commerce v.
+Montana, U.S. Supreme Court, 91-860.
+Stevens, J.P. (Justice) (1992), opinion in United States Department of Commerce v. Montana ,
+112 S. Ct. 1415.
+Tiahrt, K.J. (1991), affidavit in Montana v. United States Department of Commerce ,
+CV 91-22-H-CCL, Helena, Montana. 51
+Woodlock, D.P. (Judge) (1992), opinion in Massachusetts v. Mosbacher , 785 F. Supp. 230
+(U.S.D.C. Ma.).
+Young, H.P. (1991), affidavits in Massachusetts v. Mosbacher , CA 91-11234-WD,
+Massachusetts.
+(1992), affidavit in United States Department of Commerce v. Montana ,
+U.S. Supreme Court, 91-860.
+CASES CITED
+Franklin v. Massachusetts (1992), 112 S. Ct. 2767.
+Karcher v. Dagget (1983), 426 U.S. 725.
+Massachusetts v. Mosbacher (1992), 785 F. Supp. 230 (U.S.D.C. Ma.).
+Montana v. United States Department of Commerce (1991), 775 F. Supp. 1358 (U.S.D.C. Mt.).
+United States Department of Commerce v. Montana (1992), 112 S. Ct. 1415.
+Wesberry v. Sanders (1964), 376 U.S. 1.

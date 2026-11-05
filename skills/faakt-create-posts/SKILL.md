@@ -37,26 +37,27 @@ Před výběrem námětů přečti [známé obsahové duplicity](references/dupl
 
 ## Kategorie
 
-Použij přesně jeden slug z těchto 14 hodnot:
+Použij přesně jeden slug z těchto 13 hodnot:
 
 | Slug | Kategorie |
 |---|---|
 | `historie` | Historie |
 | `filozofie` | Filozofie |
-| `veda` | Věda |
+| `biologie` | Biologie |
 | `umeni` | Umění |
 | `literatura` | Literatura |
-| `politika` | Politika |
-| `fyzika` | Fyzika |
+| `politika` | Společnost a politika |
+| `fyzika` | Fyzika a chemie |
 | `astronomie` | Astronomie |
-| `zajimavost` | Zajímavost |
 | `ekonomie` | Ekonomie |
 | `psychologie` | Psychologie |
-| `filmy` | Filmy |
+| `filmy` | Kinematografie |
 | `matematika` | Matematika |
-| `pocitacove-vedy` | Počítačové vědy |
+| `pocitacove-vedy` | Technologie |
 
-Při jedné zadané kategorii zůstaň v ní. U smíšené dávky vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 14. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
+Biologie zahrnuje organismy, evoluci, genetiku, fyziologii i léčbu, nemoci, prevenci a životosprávu. Fyzika a chemie zahrnuje neživou přírodu včetně chemických reakcí a geofyziky. Technologie zahrnují informatiku a technické vynálezy. Společnost a politika zahrnuje také sociologii, instituce a právo. Jazyk a znaky patří jako podobor do Filozofie. Rozhoduje hlavní obsah celého příspěvku; přesahy zachycují řízené tagy. Slugy přejmenovaných kategorií zůstávají kvůli existujícím odkazům. Platné slugy určuje `src/lib/categories.js`.
+
+Při jedné zadané kategorii zůstaň v ní. U smíšené dávky vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 13. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
 
 ## Struktura a psaní
 

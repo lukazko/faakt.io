@@ -1,0 +1,2572 @@
+{
+  "status": "ok",
+  "input": "C:\\Users\\lukas\\GitHub\\thak.io\\static\\data\\posts.json",
+  "output": null,
+  "post_count": 856,
+  "modified_records": 94,
+  "changed_fields": {
+    "composition_hints": 29,
+    "concept": 74,
+    "primary_subject": 74,
+    "scene_type": 29,
+    "secondary_subjects": 8,
+    "visual_keywords": 74
+  },
+  "unresolved": [],
+  "changes": [
+    {
+      "id": "4",
+      "title": "Malíř, který za života prodal jen jeden jediný obraz",
+      "changes": {
+        "concept": {
+          "before": "Van Gogh stands among many unsold canvases, with The Red Vineyard singled out as a sale; artistic abundance contrasts with an almost empty purse.",
+          "after": "For the article “Malíř, který za života prodal jen jeden jediný obraz”: a recognizable geometric illustration of framed painting, with red vineyard painting, empty coin purse."
+        },
+        "primary_subject": {
+          "before": "vincent_van_gogh_unsold_paintings",
+          "after": "framed_painting"
+        },
+        "visual_keywords": {
+          "before": [
+            "vincent_van_gogh_unsold_paintings",
+            "red_vineyard_painting",
+            "empty_coin_purse"
+          ],
+          "after": [
+            "framed_painting",
+            "red_vineyard_painting",
+            "empty_coin_purse"
+          ]
+        }
+      }
+    },
+    {
+      "id": "7",
+      "title": "Ranní pád z okna, který rozpoutal třicetiletou válku",
+      "changes": {
+        "concept": {
+          "before": "Officials in early seventeenth-century dress fall from a Prague Castle office window into the moat, the local confrontation that ignited a wider war.",
+          "after": "For the article “Ranní pád z okna, který rozpoutal třicetiletou válku”: a recognizable geometric illustration of medieval castle, with falling officials, prague castle."
+        },
+        "scene_type": {
+          "before": "interaction",
+          "after": "environment"
+        },
+        "primary_subject": {
+          "before": "prague_defenestration_window",
+          "after": "medieval_castle"
+        },
+        "visual_keywords": {
+          "before": [
+            "prague_defenestration_window",
+            "falling_officials",
+            "prague_castle"
+          ],
+          "after": [
+            "medieval_castle",
+            "falling_officials",
+            "prague_castle"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ]
+        }
+      }
+    },
+    {
+      "id": "9",
+      "title": "Proč lidé po nudné práci tvrdili, že byla zábavná",
+      "changes": {
+        "concept": {
+          "before": "Two participants leave the same tedious peg-turning task with unequal payments; the poorly paid participant presents it enthusiastically to reconcile the lie with self-image.",
+          "after": "For the article “Proč lidé po nudné práci tvrdili, že byla zábavná”: a recognizable geometric illustration of peg turning board, with small payment, large payment."
+        },
+        "primary_subject": {
+          "before": "cognitive_dissonance_peg_task",
+          "after": "peg_turning_board"
+        },
+        "visual_keywords": {
+          "before": [
+            "cognitive_dissonance_peg_task",
+            "small_payment",
+            "large_payment"
+          ],
+          "after": [
+            "peg_turning_board",
+            "small_payment",
+            "large_payment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "12",
+      "title": "Proč nikdy nezměříte přesně, kde částice je a jak rychle letí",
+      "changes": {
+        "concept": {
+          "before": "Contrast a narrow particle-position wave packet with a broad one: sharper position corresponds to a wider momentum spread, a fundamental limit rather than faulty equipment.",
+          "after": "For the article “Proč nikdy nezměříte přesně, kde částice je a jak rychle letí”: a recognizable geometric illustration of electron measurement setup, with localized wave packet, spread out wave packet."
+        },
+        "primary_subject": {
+          "before": "position_momentum_uncertainty",
+          "after": "electron_measurement_setup"
+        },
+        "visual_keywords": {
+          "before": [
+            "position_momentum_uncertainty",
+            "localized_wave_packet",
+            "spread_out_wave_packet"
+          ],
+          "after": [
+            "electron_measurement_setup",
+            "localized_wave_packet",
+            "spread_out_wave_packet"
+          ]
+        }
+      }
+    },
+    {
+      "id": "61",
+      "title": "Dunning-Kruger efekt: proč nejméně schopní věří, že jsou nejlepší",
+      "changes": {
+        "concept": {
+          "before": "Compare low measured competence with an inflated self-assessment and more cautious expert estimates; show a calibration gap rather than an unsupported universal mountain-shaped curve.",
+          "after": "For the article “Dunning-Kruger efekt: proč nejméně schopní věří, že jsou nejlepší”: a recognizable geometric illustration of dunning kruger confidence chart, with novice self assessment, actual skill."
+        },
+        "primary_subject": {
+          "before": "confidence_and_competence_gap",
+          "after": "dunning_kruger_confidence_chart"
+        },
+        "visual_keywords": {
+          "before": [
+            "confidence_and_competence_gap",
+            "novice_self_assessment",
+            "actual_skill"
+          ],
+          "after": [
+            "dunning_kruger_confidence_chart",
+            "novice_self_assessment",
+            "actual_skill"
+          ]
+        }
+      }
+    },
+    {
+      "id": "72",
+      "title": "Mendel a hrách, který odhalil zákony dědičnosti",
+      "changes": {
+        "concept": {
+          "before": "Pea plants with contrasting traits are crossed across generations; offspring patterns reveal inherited factors that can disappear and reappear.",
+          "after": "For the article “Mendel a hrách, který odhalil zákony dědičnosti”: a recognizable geometric illustration of mendel pea plants, with contrasting pea traits, offspring generations."
+        },
+        "primary_subject": {
+          "before": "mendel_pea_crossbreeding",
+          "after": "mendel_pea_plants"
+        },
+        "visual_keywords": {
+          "before": [
+            "mendel_pea_crossbreeding",
+            "contrasting_pea_traits",
+            "offspring_generations"
+          ],
+          "after": [
+            "mendel_pea_plants",
+            "contrasting_pea_traits",
+            "offspring_generations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "76",
+      "title": "Zenónův paradox: proč Achilles nikdy nedostihne želvu",
+      "changes": {
+        "scene_type": {
+          "before": "diagram",
+          "after": "interaction"
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ]
+        }
+      }
+    },
+    {
+      "id": "83",
+      "title": "Beethoven složil svou nejslavnější symfonii jako hluchý",
+      "changes": {
+        "concept": {
+          "before": "A singer turns Beethoven toward a visibly applauding audience after the Ninth Symphony, revealing acclaim he cannot hear.",
+          "after": "For the article “Beethoven složil svou nejslavnější symfonii jako hluchý”: a recognizable geometric illustration of beethoven symphony score, with singer turning composer, applauding audience."
+        },
+        "primary_subject": {
+          "before": "beethoven_deaf_premiere",
+          "after": "beethoven_symphony_score"
+        },
+        "visual_keywords": {
+          "before": [
+            "beethoven_deaf_premiere",
+            "singer_turning_composer",
+            "applauding_audience"
+          ],
+          "after": [
+            "beethoven_symphony_score",
+            "singer_turning_composer",
+            "applauding_audience"
+          ]
+        }
+      }
+    },
+    {
+      "id": "113",
+      "title": "Marie Curie: jediná osoba, která získala Nobelovu cenu ve dvou vědách",
+      "changes": {
+        "concept": {
+          "before": "Marie Curie works with a radium sample, accompanied by paired physics and chemistry research details to distinguish her Nobel recognition in two sciences.",
+          "after": "For the article “Marie Curie: jediná osoba, která získala Nobelovu cenu ve dvou vědách”: a recognizable geometric illustration of marie curie radium flask, with radium flask, two scientific disciplines."
+        },
+        "primary_subject": {
+          "before": "marie_curie",
+          "after": "marie_curie_radium_flask"
+        },
+        "visual_keywords": {
+          "before": [
+            "marie_curie",
+            "radium_flask",
+            "two_scientific_disciplines"
+          ],
+          "after": [
+            "marie_curie_radium_flask",
+            "radium_flask",
+            "two_scientific_disciplines"
+          ]
+        }
+      }
+    },
+    {
+      "id": "120",
+      "title": "Krádež Mony Lisy, která ji proslavila po celém světě",
+      "changes": {
+        "concept": {
+          "before": "An empty Louvre frame and crowds reading news of the theft lead back to the recovered Mona Lisa, showing how disappearance amplified its fame.",
+          "after": "For the article “Krádež Mony Lisy, která ji proslavila po celém světě”: a recognizable geometric illustration of mona lisa portrait, with empty louvre frame, newspaper attention."
+        },
+        "scene_type": {
+          "before": "process",
+          "after": "portrait"
+        },
+        "primary_subject": {
+          "before": "mona_lisa_theft",
+          "after": "mona_lisa_portrait"
+        },
+        "visual_keywords": {
+          "before": [
+            "mona_lisa_theft",
+            "empty_louvre_frame",
+            "newspaper_attention"
+          ],
+          "after": [
+            "mona_lisa_portrait",
+            "empty_louvre_frame",
+            "newspaper_attention"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "stacked_or_sequential_arrangement",
+            "visual_cause_and_effect"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "134",
+      "title": "Alan Turing a stroj, který zkrátil válku o roky",
+      "changes": {
+        "concept": {
+          "before": "A British Bombe tests Enigma rotor settings beside an intercepted message, distinguishing the codebreaking machine from the German cipher machine it attacked.",
+          "after": "For the article “Alan Turing a stroj, který zkrátil válku o roky”: a recognizable geometric illustration of enigma cipher machine, with enigma rotors, cipher message."
+        },
+        "primary_subject": {
+          "before": "bletchley_park_bombe",
+          "after": "enigma_cipher_machine"
+        },
+        "visual_keywords": {
+          "before": [
+            "bletchley_park_bombe",
+            "enigma_rotors",
+            "cipher_message"
+          ],
+          "after": [
+            "enigma_cipher_machine",
+            "enigma_rotors",
+            "cipher_message"
+          ]
+        }
+      }
+    },
+    {
+      "id": "140",
+      "title": "Rok 476: symbolický konec Západořímské říše",
+      "changes": {
+        "concept": {
+          "before": "Western imperial insignia are set aside at a Roman gate, marking the deposition in 476 as a symbolic end of an already weakened empire.",
+          "after": "For the article “Rok 476: symbolický konec Západořímské říše”: a recognizable geometric illustration of fall of rome city gate, with removed imperial insignia, roman city gate."
+        },
+        "primary_subject": {
+          "before": "fall_of_western_rome",
+          "after": "fall_of_rome_city_gate"
+        },
+        "visual_keywords": {
+          "before": [
+            "fall_of_western_rome",
+            "removed_imperial_insignia",
+            "roman_city_gate"
+          ],
+          "after": [
+            "fall_of_rome_city_gate",
+            "removed_imperial_insignia",
+            "roman_city_gate"
+          ]
+        }
+      }
+    },
+    {
+      "id": "141",
+      "title": "Bretton Woods: dohoda, která na třicet let ukotvila světové měny ke zlatu",
+      "changes": {
+        "concept": {
+          "before": "Several currencies connect through the US dollar to a gold reserve, visualizing the postwar monetary system and its shared anchor.",
+          "after": "For the article “Bretton Woods: dohoda, která na třicet let ukotvila světové měny ke zlatu”: a recognizable geometric illustration of gold standard currency, with us dollar, gold reserve."
+        },
+        "primary_subject": {
+          "before": "bretton_woods_currency_links",
+          "after": "gold_standard_currency"
+        },
+        "visual_keywords": {
+          "before": [
+            "bretton_woods_currency_links",
+            "us_dollar",
+            "gold_reserve"
+          ],
+          "after": [
+            "gold_standard_currency",
+            "us_dollar",
+            "gold_reserve"
+          ]
+        }
+      }
+    },
+    {
+      "id": "150",
+      "title": "Psycho: jak Hitchcock přiměl diváky bát se sprchy",
+      "changes": {
+        "concept": {
+          "before": "A shower curtain and rapid fragments of a frightened silhouette imply Hitchcock's attack through editing and suggestion, without explicit injury.",
+          "after": "For the article “Psycho: jak Hitchcock přiměl diváky bát se sprchy”: a recognizable geometric illustration of shower scene silhouette, with shower curtain, rapid fragmented frames."
+        },
+        "primary_subject": {
+          "before": "psycho_shower_montage",
+          "after": "shower_scene_silhouette"
+        },
+        "visual_keywords": {
+          "before": [
+            "psycho_shower_montage",
+            "shower_curtain",
+            "rapid_fragmented_frames"
+          ],
+          "after": [
+            "shower_scene_silhouette",
+            "shower_curtain",
+            "rapid_fragmented_frames"
+          ]
+        }
+      }
+    },
+    {
+      "id": "163",
+      "title": "Když někdo poprvé hledal vysvětlení světa bez bohů",
+      "changes": {
+        "concept": {
+          "before": "Thales examines water as a proposed material origin of the world, emphasizing the turn toward natural explanations rather than divine intervention.",
+          "after": "For the article “Když někdo poprvé hledal vysvětlení světa bez bohů”: a recognizable geometric illustration of ancient greek philosopher, with water."
+        },
+        "scene_type": {
+          "before": "interaction",
+          "after": "portrait"
+        },
+        "primary_subject": {
+          "before": "thales_natural_explanation",
+          "after": "ancient_greek_philosopher"
+        },
+        "secondary_subjects": {
+          "before": [
+            "water",
+            "ancient_greek_philosopher"
+          ],
+          "after": [
+            "water"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "thales_natural_explanation",
+            "water",
+            "ancient_greek_philosopher"
+          ],
+          "after": [
+            "ancient_greek_philosopher",
+            "water"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "164",
+      "title": "Základem světa je něco neurčitého, co nemá hranice",
+      "changes": {
+        "concept": {
+          "before": "Opposing hot and cold, dry and wet forms emerge from an unbounded indistinct background, illustrating Anaximander's apeiron without making it one particular element.",
+          "after": "For the article “Základem světa je něco neurčitého, co nemá hranice”: a recognizable geometric illustration of apeiron abstract cosmos, with hot cold pair, dry wet pair."
+        },
+        "primary_subject": {
+          "before": "apeiron_emerging_opposites",
+          "after": "apeiron_abstract_cosmos"
+        },
+        "visual_keywords": {
+          "before": [
+            "apeiron_emerging_opposites",
+            "hot_cold_pair",
+            "dry_wet_pair"
+          ],
+          "after": [
+            "apeiron_abstract_cosmos",
+            "hot_cold_pair",
+            "dry_wet_pair"
+          ]
+        }
+      }
+    },
+    {
+      "id": "170",
+      "title": "Starověká kritika války, která počítala náklady a přínosy",
+      "changes": {
+        "concept": {
+          "before": "The resources and lost harvest consumed by an attacking army outweigh a small territorial gain, illustrating the Mohist practical case against offensive war.",
+          "after": "For the article “Starověká kritika války, která počítala náklady a přínosy”: a recognizable geometric illustration of ancient war strategy scroll, with wasted harvest, defended city."
+        },
+        "primary_subject": {
+          "before": "mohist_costs_of_aggression",
+          "after": "ancient_war_strategy_scroll"
+        },
+        "visual_keywords": {
+          "before": [
+            "mohist_costs_of_aggression",
+            "wasted_harvest",
+            "defended_city"
+          ],
+          "after": [
+            "ancient_war_strategy_scroll",
+            "wasted_harvest",
+            "defended_city"
+          ]
+        }
+      }
+    },
+    {
+      "id": "199",
+      "title": "Alexandrijská knihovna nezanikla při jediném požáru",
+      "changes": {
+        "concept": {
+          "before": "Library shelves lose scrolls across successive episodes of fire, political disruption and neglect, avoiding a single all-consuming blaze as the whole explanation.",
+          "after": "For the article “Alexandrijská knihovna nezanikla při jediném požáru”: a recognizable geometric illustration of ancient library scrolls, with multiple losses over time."
+        },
+        "primary_subject": {
+          "before": "alexandrian_library_gradual_decline",
+          "after": "ancient_library_scrolls"
+        },
+        "secondary_subjects": {
+          "before": [
+            "ancient_library_scrolls",
+            "multiple_losses_over_time"
+          ],
+          "after": [
+            "multiple_losses_over_time"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "alexandrian_library_gradual_decline",
+            "ancient_library_scrolls",
+            "multiple_losses_over_time"
+          ],
+          "after": [
+            "ancient_library_scrolls",
+            "multiple_losses_over_time"
+          ]
+        }
+      }
+    },
+    {
+      "id": "224",
+      "title": "Důkaz starý dva tisíce let: prvočísel nikdy nedojde",
+      "changes": {
+        "concept": {
+          "before": "A supposedly complete prime list generates a new number whose prime factors escape the list, showing why no finite list can contain all primes.",
+          "after": "For the article “Důkaz starý dva tisíce let: prvočísel nikdy nedojde”: a recognizable geometric illustration of prime number sequence, with finite prime list, new number construction."
+        },
+        "scene_type": {
+          "before": "diagram",
+          "after": "process"
+        },
+        "primary_subject": {
+          "before": "euclid_infinite_primes_proof",
+          "after": "prime_number_sequence"
+        },
+        "visual_keywords": {
+          "before": [
+            "euclid_infinite_primes_proof",
+            "finite_prime_list",
+            "new_number_construction"
+          ],
+          "after": [
+            "prime_number_sequence",
+            "finite_prime_list",
+            "new_number_construction"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "stacked_or_sequential_arrangement",
+            "visual_cause_and_effect"
+          ]
+        }
+      }
+    },
+    {
+      "id": "235",
+      "title": "Za vyřešení otázky P versus NP čeká milion dolarů",
+      "changes": {
+        "scene_type": {
+          "before": "diagram",
+          "after": "interaction"
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ]
+        }
+      }
+    },
+    {
+      "id": "259",
+      "title": "Střih dokáže vytvořit význam, který v jednotlivých záběrech není",
+      "changes": {
+        "concept": {
+          "before": "A film strip cuts between a baby carriage rolling down the Odessa steps and marching soldiers, showing how juxtaposition creates tension beyond either shot alone.",
+          "after": "For the article “Střih dokáže vytvořit význam, který v jednotlivých záběrech není”: a recognizable geometric illustration of film editing frames, with baby carriage on steps, marching soldiers film frame."
+        },
+        "primary_subject": {
+          "before": "eisenstein_odessa_steps_montage",
+          "after": "film_editing_frames"
+        },
+        "visual_keywords": {
+          "before": [
+            "eisenstein_odessa_steps_montage",
+            "baby_carriage_on_steps",
+            "marching_soldiers_film_frame"
+          ],
+          "after": [
+            "film_editing_frames",
+            "baby_carriage_on_steps",
+            "marching_soldiers_film_frame"
+          ]
+        }
+      }
+    },
+    {
+      "id": "274",
+      "title": "Les, který je ve skutečnosti jediný organismus s jedním kořenem",
+      "changes": {
+        "scene_type": {
+          "before": "diagram",
+          "after": "environment"
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ]
+        }
+      }
+    },
+    {
+      "id": "282",
+      "title": "Kroky a lámání kostí ve filmech vyrábí člověk v ateliéru",
+      "changes": {
+        "scene_type": {
+          "before": "interaction",
+          "after": "environment"
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ]
+        }
+      }
+    },
+    {
+      "id": "299",
+      "title": "Část lidí v sobě nosí geny po jiném lidském druhu",
+      "changes": {
+        "concept": {
+          "before": "Two ancient human lineages merge and pass small DNA segments to later descendants, showing genetic traces of interbreeding.",
+          "after": "For the article “Část lidí v sobě nosí geny po jiném lidském druhu”: a recognizable geometric illustration of dna double helix, with interbreeding lineages, inherited dna segment."
+        },
+        "primary_subject": {
+          "before": "neanderthal_human_admixture",
+          "after": "dna_double_helix"
+        },
+        "visual_keywords": {
+          "before": [
+            "neanderthal_human_admixture",
+            "interbreeding_lineages",
+            "inherited_dna_segment"
+          ],
+          "after": [
+            "dna_double_helix",
+            "interbreeding_lineages",
+            "inherited_dna_segment"
+          ]
+        }
+      }
+    },
+    {
+      "id": "415",
+      "title": "Čím častěji něco vidíme, tím víc se nám to začne líbit",
+      "changes": {
+        "concept": {
+          "before": "The same neutral image recurs over several encounters and becomes preferred to an unfamiliar alternative, showing familiarity rather than improved content.",
+          "after": "For the article “Čím častěji něco vidíme, tím víc se nám to začne líbit”: a recognizable geometric illustration of repeated image cards, with repeated familiar image, less familiar alternative."
+        },
+        "primary_subject": {
+          "before": "mere_exposure_image_cards",
+          "after": "repeated_image_cards"
+        },
+        "visual_keywords": {
+          "before": [
+            "mere_exposure_image_cards",
+            "repeated_familiar_image",
+            "less_familiar_alternative"
+          ],
+          "after": [
+            "repeated_image_cards",
+            "repeated_familiar_image",
+            "less_familiar_alternative"
+          ]
+        }
+      }
+    },
+    {
+      "id": "424",
+      "title": "Máme dojem, že si všichni všímají naší trapné chvilky víc, než tomu je",
+      "changes": {
+        "scene_type": {
+          "before": "environment",
+          "after": "portrait"
+        },
+        "composition_hints": {
+          "before": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "426",
+      "title": "Stánek s dvaceti čtyřmi druhy džemu prodal méně než stánek se šesti",
+      "changes": {
+        "concept": {
+          "before": "A large jam display draws attention but few purchases while a smaller display leads to more buying, distinguishing attraction from manageable choice.",
+          "after": "For the article “Stánek s dvaceti čtyřmi druhy džemu prodal méně než stánek se šesti”: a recognizable geometric illustration of jam tasting stall, with large jam display, small jam display."
+        },
+        "primary_subject": {
+          "before": "jam_choice_overload",
+          "after": "jam_tasting_stall"
+        },
+        "visual_keywords": {
+          "before": [
+            "jam_choice_overload",
+            "large_jam_display",
+            "small_jam_display"
+          ],
+          "after": [
+            "jam_tasting_stall",
+            "large_jam_display",
+            "small_jam_display"
+          ]
+        }
+      }
+    },
+    {
+      "id": "452",
+      "title": "Obří opice na plátně byla jen loutka vysoká pár desítek centimetrů",
+      "changes": {
+        "scene_type": {
+          "before": "interaction",
+          "after": "portrait"
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "479",
+      "title": "Lidé prý nereagují na politiku naivně, ale předvídají její důsledky",
+      "changes": {
+        "concept": {
+          "before": "Households and firms adjust before a policy takes effect, with their expectations feeding back into its actual economic outcome.",
+          "after": "For the article “Lidé prý nereagují na politiku naivně, ale předvídají její důsledky”: a recognizable geometric illustration of economic expectations chart, with announced policy, anticipating households."
+        },
+        "primary_subject": {
+          "before": "rational_expectations_feedback",
+          "after": "economic_expectations_chart"
+        },
+        "visual_keywords": {
+          "before": [
+            "rational_expectations_feedback",
+            "announced_policy",
+            "anticipating_households"
+          ],
+          "after": [
+            "economic_expectations_chart",
+            "announced_policy",
+            "anticipating_households"
+          ]
+        }
+      }
+    },
+    {
+      "id": "490",
+      "title": "Nepsané pravidlo o dvou funkčních obdobích vydrželo přes sto padesát let",
+      "changes": {
+        "concept": {
+          "before": "Two successive presidential terms establish a repeated precedent before a later extended presidency breaks it, distinguishing custom from a later formal limit.",
+          "after": "For the article “Nepsané pravidlo o dvou funkčních obdobích vydrželo přes sto padesát let”: a recognizable geometric illustration of two term presidency calendar, with washington precedent, roosevelt exception."
+        },
+        "primary_subject": {
+          "before": "two_term_presidency_tradition",
+          "after": "two_term_presidency_calendar"
+        },
+        "visual_keywords": {
+          "before": [
+            "two_term_presidency_tradition",
+            "washington_precedent",
+            "roosevelt_exception"
+          ],
+          "after": [
+            "two_term_presidency_calendar",
+            "washington_precedent",
+            "roosevelt_exception"
+          ]
+        }
+      }
+    },
+    {
+      "id": "494",
+      "title": "Po mimořádně dobrém výsledku obvykle následuje výsledek horší",
+      "changes": {
+        "scene_type": {
+          "before": "diagram",
+          "after": "process"
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "stacked_or_sequential_arrangement",
+            "visual_cause_and_effect"
+          ]
+        }
+      }
+    },
+    {
+      "id": "495",
+      "title": "Rovnoběžky, které se přece jen jednou setkají, pokud zakřivíte prostor",
+      "changes": {
+        "concept": {
+          "before": "Initially separated meridians meet on a curved surface, contrasting geometric behavior with the familiar flat-plane intuition.",
+          "after": "For the article “Rovnoběžky, které se přece jen jednou setkají, pokud zakřivíte prostor”: a recognizable geometric illustration of curved space parallel lines, with spherical surface, meeting meridians."
+        },
+        "primary_subject": {
+          "before": "curved_space_geodesics",
+          "after": "curved_space_parallel_lines"
+        },
+        "visual_keywords": {
+          "before": [
+            "curved_space_geodesics",
+            "spherical_surface",
+            "meeting_meridians"
+          ],
+          "after": [
+            "curved_space_parallel_lines",
+            "spherical_surface",
+            "meeting_meridians"
+          ]
+        }
+      }
+    },
+    {
+      "id": "497",
+      "title": "Útvar, jehož detail vypadá stejně spletitě jako celek",
+      "changes": {
+        "concept": {
+          "before": "A magnified region of a fractal reveals structures resembling the whole, with nested scales connected clearly.",
+          "after": "For the article “Útvar, jehož detail vypadá stejně spletitě jako celek”: a recognizable geometric illustration of fractal pattern, with magnified repeating detail."
+        },
+        "primary_subject": {
+          "before": "self_similar_fractal",
+          "after": "fractal_pattern"
+        },
+        "visual_keywords": {
+          "before": [
+            "self_similar_fractal",
+            "magnified_repeating_detail"
+          ],
+          "after": [
+            "fractal_pattern",
+            "magnified_repeating_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "498",
+      "title": "Jednoduchá pravidla na čtverečkované síti dokážou napodobit vznik i zánik",
+      "changes": {
+        "concept": {
+          "before": "A square grid evolves through successive generations under the same local rules, producing persistent and disappearing patterns from simple interactions.",
+          "after": "For the article “Jednoduchá pravidla na čtverečkované síti dokážou napodobit vznik i zánik”: a recognizable geometric illustration of cellular automaton grid, with successive generations."
+        },
+        "primary_subject": {
+          "before": "conway_game_of_life",
+          "after": "cellular_automaton_grid"
+        },
+        "secondary_subjects": {
+          "before": [
+            "cellular_automaton_grid",
+            "successive_generations"
+          ],
+          "after": [
+            "successive_generations"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "conway_game_of_life",
+            "cellular_automaton_grid",
+            "successive_generations"
+          ],
+          "after": [
+            "cellular_automaton_grid",
+            "successive_generations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "501",
+      "title": "Číslo, jehož druhá mocnina je záporná, matematici dlouho odmítali uznat",
+      "changes": {
+        "concept": {
+          "before": "A quarter-turn on the complex plane leads to the imaginary unit and a second quarter-turn to negative one, making its squared value intelligible.",
+          "after": "For the article “Číslo, jehož druhá mocnina je záporná, matematici dlouho odmítali uznat”: a recognizable geometric illustration of imaginary unit equation, with real axis, quarter turn."
+        },
+        "primary_subject": {
+          "before": "imaginary_unit_complex_plane",
+          "after": "imaginary_unit_equation"
+        },
+        "visual_keywords": {
+          "before": [
+            "imaginary_unit_complex_plane",
+            "real_axis",
+            "quarter_turn"
+          ],
+          "after": [
+            "imaginary_unit_equation",
+            "real_axis",
+            "quarter_turn"
+          ]
+        }
+      }
+    },
+    {
+      "id": "503",
+      "title": "Veškerý živý svět je nakonec postaven ze stejné základní jednotky",
+      "changes": {
+        "concept": {
+          "before": "Plant, animal and bacterial cells share basic cellular organization while retaining their differences, showing a common unit of life without making every cell a bacterium.",
+          "after": "For the article “Veškerý živý svět je nakonec postaven ze stejné základní jednotky”: a recognizable geometric illustration of bacterial cell, with plant cell, animal cell."
+        },
+        "primary_subject": {
+          "before": "shared_cellular_basis_of_life",
+          "after": "bacterial_cell"
+        },
+        "secondary_subjects": {
+          "before": [
+            "plant_cell",
+            "animal_cell",
+            "bacterial_cell"
+          ],
+          "after": [
+            "plant_cell",
+            "animal_cell"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "shared_cellular_basis_of_life",
+            "plant_cell",
+            "animal_cell",
+            "bacterial_cell"
+          ],
+          "after": [
+            "bacterial_cell",
+            "plant_cell",
+            "animal_cell"
+          ]
+        }
+      }
+    },
+    {
+      "id": "510",
+      "title": "Konce chromozomů se při každém dělení zkracují jako doutnák",
+      "changes": {
+        "concept": {
+          "before": "Successive cell divisions leave progressively shorter protective chromosome ends, identifying telomeres as buffers rather than reducing all aging to one mechanism.",
+          "after": "For the article “Konce chromozomů se při každém dělení zkracují jako doutnák”: a recognizable geometric illustration of chromosome telomeres, with repeated cell divisions, chromosome ends."
+        },
+        "primary_subject": {
+          "before": "chromosome_telomere_shortening",
+          "after": "chromosome_telomeres"
+        },
+        "visual_keywords": {
+          "before": [
+            "chromosome_telomere_shortening",
+            "repeated_cell_divisions",
+            "chromosome_ends"
+          ],
+          "after": [
+            "chromosome_telomeres",
+            "repeated_cell_divisions",
+            "chromosome_ends"
+          ]
+        }
+      }
+    },
+    {
+      "id": "513",
+      "title": "Poslední velká pozemní bitva zlomila perské tažení do Řecka",
+      "changes": {
+        "concept": {
+          "before": "Greek and Persian formations face one another on the Plataea battlefield, identifying the land victory that ended the invasion's decisive phase.",
+          "after": "For the article “Poslední velká pozemní bitva zlomila perské tažení do Řecka”: a recognizable geometric illustration of ancient battlefield, with greek hoplites, persian army."
+        },
+        "primary_subject": {
+          "before": "battle_of_plataea",
+          "after": "ancient_battlefield"
+        },
+        "visual_keywords": {
+          "before": [
+            "battle_of_plataea",
+            "greek_hoplites",
+            "persian_army"
+          ],
+          "after": [
+            "ancient_battlefield",
+            "greek_hoplites",
+            "persian_army"
+          ]
+        }
+      }
+    },
+    {
+      "id": "515",
+      "title": "Nové město bylo od počátku navrženo podle pravidelného plánu na papíře",
+      "changes": {
+        "scene_type": {
+          "before": "diagram",
+          "after": "environment"
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ]
+        }
+      }
+    },
+    {
+      "id": "531",
+      "title": "Osobní stráž císařů se postupně stala tvůrcem i vrahem samotných vládců",
+      "changes": {
+        "concept": {
+          "before": "Armed imperial guards surround the throne and direct who occupies it, showing protectors becoming decisive makers and removers of emperors.",
+          "after": "For the article “Osobní stráž císařů se postupně stala tvůrcem i vrahem samotných vládců”: a recognizable geometric illustration of praetorian guard, with armed guards, imperial throne."
+        },
+        "primary_subject": {
+          "before": "praetorian_guard_kingmakers",
+          "after": "praetorian_guard"
+        },
+        "visual_keywords": {
+          "before": [
+            "praetorian_guard_kingmakers",
+            "armed_guards",
+            "imperial_throne"
+          ],
+          "after": [
+            "praetorian_guard",
+            "armed_guards",
+            "imperial_throne"
+          ]
+        }
+      }
+    },
+    {
+      "id": "537",
+      "title": "Přebytek obyvatel poslal řecké osadníky zakládat města po celém Středomoří",
+      "changes": {
+        "concept": {
+          "before": "Ships connect Greek home cities to new coastal settlements across the Mediterranean, relating population pressure to a dispersed colonial network.",
+          "after": "For the article “Přebytek obyvatel poslal řecké osadníky zakládat města po celém Středomoří”: a recognizable geometric illustration of greek colonial ships, with colonial ships, mediterranean settlements."
+        },
+        "primary_subject": {
+          "before": "greek_colonization_network",
+          "after": "greek_colonial_ships"
+        },
+        "visual_keywords": {
+          "before": [
+            "greek_colonization_network",
+            "colonial_ships",
+            "mediterranean_settlements"
+          ],
+          "after": [
+            "greek_colonial_ships",
+            "colonial_ships",
+            "mediterranean_settlements"
+          ]
+        }
+      }
+    },
+    {
+      "id": "555",
+      "title": "Zatmění Slunce v roce 1919 posloužilo jako test správnosti nové teorie",
+      "changes": {
+        "concept": {
+          "before": "Stars near an eclipsed Sun appear shifted from their reference positions, showing the comparison used to test gravitational deflection of light.",
+          "after": "For the article “Zatmění Slunce v roce 1919 posloužilo jako test správnosti nové teorie”: a recognizable geometric illustration of solar eclipse starlight, with eclipsed sun, shifted star positions."
+        },
+        "primary_subject": {
+          "before": "nineteen_nineteen_eclipse_light_bending",
+          "after": "solar_eclipse_starlight"
+        },
+        "visual_keywords": {
+          "before": [
+            "nineteen_nineteen_eclipse_light_bending",
+            "eclipsed_sun",
+            "shifted_star_positions"
+          ],
+          "after": [
+            "solar_eclipse_starlight",
+            "eclipsed_sun",
+            "shifted_star_positions"
+          ]
+        }
+      }
+    },
+    {
+      "id": "559",
+      "title": "Otázka, proč jsme dosud nezachytili žádný signál od mimozemšťanů",
+      "changes": {
+        "scene_type": {
+          "before": "environment",
+          "after": "diagram"
+        },
+        "composition_hints": {
+          "before": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ],
+          "after": [
+            "optically_centered_motif",
+            "uncluttered_composition"
+          ]
+        }
+      }
+    },
+    {
+      "id": "564",
+      "title": "Let trval necelé dvě hodiny a udělal z pilota první osobu ve vesmíru",
+      "changes": {
+        "scene_type": {
+          "before": "environment",
+          "after": "diagram"
+        },
+        "composition_hints": {
+          "before": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ],
+          "after": [
+            "optically_centered_motif",
+            "uncluttered_composition"
+          ]
+        }
+      }
+    },
+    {
+      "id": "578",
+      "title": "Starověcí astronomové dokázali předpovědět zatmění díky opakujícímu se cyklu",
+      "changes": {
+        "scene_type": {
+          "before": "diagram",
+          "after": "process"
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "stacked_or_sequential_arrangement",
+            "visual_cause_and_effect"
+          ]
+        }
+      }
+    },
+    {
+      "id": "589",
+      "title": "Zákaz, který spojuje pravidla přírody s pravidly kultury",
+      "changes": {
+        "concept": {
+          "before": "Kinship groups maintain an internal prohibition while forming relationships across group boundaries, visualizing the proposed passage between nature and culture.",
+          "after": "For the article “Zákaz, který spojuje pravidla přírody s pravidly kultury”: a recognizable geometric illustration of kinship taboo symbol, with family boundaries, links between groups."
+        },
+        "primary_subject": {
+          "before": "kinship_taboo_and_exchange",
+          "after": "kinship_taboo_symbol"
+        },
+        "visual_keywords": {
+          "before": [
+            "kinship_taboo_and_exchange",
+            "family_boundaries",
+            "links_between_groups"
+          ],
+          "after": [
+            "kinship_taboo_symbol",
+            "family_boundaries",
+            "links_between_groups"
+          ]
+        }
+      }
+    },
+    {
+      "id": "593",
+      "title": "Obyčejná reklama nebo zápas může nenápadně prodávat i určitý pohled na svět",
+      "changes": {
+        "concept": {
+          "before": "An ordinary advertisement unfolds into a second layer of cultural assumptions, showing ideology carried by apparently everyday signs.",
+          "after": "For the article “Obyčejná reklama nebo zápas může nenápadně prodávat i určitý pohled na svět”: a recognizable geometric illustration of advertising poster, with hidden cultural message."
+        },
+        "primary_subject": {
+          "before": "barthes_advertising_myth",
+          "after": "advertising_poster"
+        },
+        "secondary_subjects": {
+          "before": [
+            "advertising_poster",
+            "hidden_cultural_message"
+          ],
+          "after": [
+            "hidden_cultural_message"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "barthes_advertising_myth",
+            "advertising_poster",
+            "hidden_cultural_message"
+          ],
+          "after": [
+            "advertising_poster",
+            "hidden_cultural_message"
+          ]
+        }
+      }
+    },
+    {
+      "id": "597",
+      "title": "Věda podle jedné teorie nepostupuje plynule, ale skokem mezi epochami",
+      "changes": {
+        "concept": {
+          "before": "An established scientific model accumulates anomalies before a reorganized model replaces its framework, showing discontinuity rather than a gradual pile of facts.",
+          "after": "For the article “Věda podle jedné teorie nepostupuje plynule, ale skokem mezi epochami”: a recognizable geometric illustration of scientific paradigm shift, with normal science, anomalies."
+        },
+        "primary_subject": {
+          "before": "kuhn_paradigm_shift",
+          "after": "scientific_paradigm_shift"
+        },
+        "visual_keywords": {
+          "before": [
+            "kuhn_paradigm_shift",
+            "normal_science",
+            "anomalies",
+            "reorganized_model"
+          ],
+          "after": [
+            "scientific_paradigm_shift",
+            "normal_science",
+            "anomalies",
+            "reorganized_model"
+          ]
+        }
+      }
+    },
+    {
+      "id": "598",
+      "title": "Dítě si poprvé uvědomí samo sebe jako celek při pohledu do zrcadla",
+      "changes": {
+        "scene_type": {
+          "before": "interaction",
+          "after": "environment"
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "wide_environmental_view",
+            "distinctive_foreground_object"
+          ]
+        }
+      }
+    },
+    {
+      "id": "599",
+      "title": "Nevědomí podle jedné teorie funguje jako věta, ne jako sklad citů",
+      "changes": {
+        "concept": {
+          "before": "Dream fragments connect through substitutions and associations in a language-like chain, representing Lacan's theory rather than a portrait or painted frame.",
+          "after": "For the article “Nevědomí podle jedné teorie funguje jako věta, ne jako sklad citů”: a recognizable geometric illustration of speech bubble letters, with linked signifiers, dream associations."
+        },
+        "primary_subject": {
+          "before": "lacan_unconscious_as_language",
+          "after": "speech_bubble_letters"
+        },
+        "visual_keywords": {
+          "before": [
+            "lacan_unconscious_as_language",
+            "linked_signifiers",
+            "dream_associations"
+          ],
+          "after": [
+            "speech_bubble_letters",
+            "linked_signifiers",
+            "dream_associations"
+          ]
+        }
+      }
+    },
+    {
+      "id": "609",
+      "title": "Vyprávění se dá rozložit na omezený počet rolí, které postavy hrají",
+      "changes": {
+        "concept": {
+          "before": "Different characters occupy recurring relational roles around a quest, separating structural roles from the particular people who fill them.",
+          "after": "For the article “Vyprávění se dá rozložit na omezený počet rolí, které postavy hrají”: a recognizable geometric illustration of fairy tale character roles, with subject object relation, helper opponent."
+        },
+        "primary_subject": {
+          "before": "greimas_actant_roles",
+          "after": "fairy_tale_character_roles"
+        },
+        "visual_keywords": {
+          "before": [
+            "greimas_actant_roles",
+            "subject_object_relation",
+            "helper_opponent"
+          ],
+          "after": [
+            "fairy_tale_character_roles",
+            "subject_object_relation",
+            "helper_opponent"
+          ]
+        }
+      }
+    },
+    {
+      "id": "610",
+      "title": "Umělecké dílo podle jedné teorie zaujme právě tím, že poruší zavedené normy",
+      "changes": {
+        "concept": {
+          "before": "A clearly established artistic pattern is interrupted by one deliberate deviation, showing aesthetic force arising against an expected norm.",
+          "after": "For the article “Umělecké dílo podle jedné teorie zaujme právě tím, že poruší zavedené normy”: a recognizable geometric illustration of artwork breaking frame, with established pattern, deliberate deviation."
+        },
+        "primary_subject": {
+          "before": "artistic_norm_violation",
+          "after": "artwork_breaking_frame"
+        },
+        "visual_keywords": {
+          "before": [
+            "artistic_norm_violation",
+            "established_pattern",
+            "deliberate_deviation"
+          ],
+          "after": [
+            "artwork_breaking_frame",
+            "established_pattern",
+            "deliberate_deviation"
+          ]
+        }
+      }
+    },
+    {
+      "id": "611",
+      "title": "Slavný spor otočil otázku, zda dějiny tvoří lidé, nebo neosobní struktury",
+      "changes": {
+        "concept": {
+          "before": "Two opposed thinkers look at the same historical scene through human choices and large structural relationships, making the debate's competing explanations visible.",
+          "after": "For the article “Slavný spor otočil otázku, zda dějiny tvoří lidé, nebo neosobní struktury”: a recognizable geometric illustration of historical debate two figures, with individual actions, impersonal structures."
+        },
+        "primary_subject": {
+          "before": "sartre_levi_strauss_history_debate",
+          "after": "historical_debate_two_figures"
+        },
+        "visual_keywords": {
+          "before": [
+            "sartre_levi_strauss_history_debate",
+            "individual_actions",
+            "impersonal_structures"
+          ],
+          "after": [
+            "historical_debate_two_figures",
+            "individual_actions",
+            "impersonal_structures"
+          ]
+        }
+      }
+    },
+    {
+      "id": "616",
+      "title": "Krasobruslař se roztočí rychleji jen tím, že přitáhne paže k tělu",
+      "changes": {
+        "scene_type": {
+          "before": "process",
+          "after": "portrait"
+        },
+        "composition_hints": {
+          "before": [
+            "stacked_or_sequential_arrangement",
+            "visual_cause_and_effect"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "626",
+      "title": "Divadelní hra, ve které se po celou dobu čeká na někoho, kdo nikdy nepřijde",
+      "changes": {
+        "concept": {
+          "before": "Two figures wait beside a sparse tree on an almost empty stage; repeated poses suggest time passing without the expected arrival.",
+          "after": "For the article “Divadelní hra, ve které se po celou dobu čeká na někoho, kdo nikdy nepřijde”: a recognizable geometric illustration of theater stage, with two waiting figures, sparse tree."
+        },
+        "primary_subject": {
+          "before": "waiting_for_godot_stage",
+          "after": "theater_stage"
+        },
+        "visual_keywords": {
+          "before": [
+            "waiting_for_godot_stage",
+            "two_waiting_figures",
+            "sparse_tree"
+          ],
+          "after": [
+            "theater_stage",
+            "two_waiting_figures",
+            "sparse_tree"
+          ]
+        }
+      }
+    },
+    {
+      "id": "640",
+      "title": "Špatná zpráva na nás působí silněji než stejně velká dobrá zpráva",
+      "changes": {
+        "concept": {
+          "before": "Equally significant positive and negative news compete, but the negative item receives more attention and leaves a stronger impression.",
+          "after": "For the article “Špatná zpráva na nás působí silněji než stejně velká dobrá zpráva”: a recognizable geometric illustration of negative positive news cards, with matched good bad news, unequal attention."
+        },
+        "primary_subject": {
+          "before": "negativity_bias",
+          "after": "negative_positive_news_cards"
+        },
+        "visual_keywords": {
+          "before": [
+            "negativity_bias",
+            "matched_good_bad_news",
+            "unequal_attention"
+          ],
+          "after": [
+            "negative_positive_news_cards",
+            "matched_good_bad_news",
+            "unequal_attention"
+          ]
+        }
+      }
+    },
+    {
+      "id": "645",
+      "title": "Po skončení zápasu si divák je jistý, že výsledek předem odhadl",
+      "changes": {
+        "concept": {
+          "before": "Several plausible pre-match outcomes collapse into one known score, after which a spectator remembers the result as having been obvious.",
+          "after": "For the article “Po skončení zápasu si divák je jistý, že výsledek předem odhadl”: a recognizable geometric illustration of sports score prediction, with uncertain pre match options, known final score."
+        },
+        "primary_subject": {
+          "before": "hindsight_sports_prediction",
+          "after": "sports_score_prediction"
+        },
+        "visual_keywords": {
+          "before": [
+            "hindsight_sports_prediction",
+            "uncertain_pre_match_options",
+            "known_final_score"
+          ],
+          "after": [
+            "sports_score_prediction",
+            "uncertain_pre_match_options",
+            "known_final_score"
+          ]
+        }
+      }
+    },
+    {
+      "id": "649",
+      "title": "Chlupatou kouli nelze učesat tak, aby na ní nezůstal aspoň jeden ochlup",
+      "changes": {
+        "concept": {
+          "before": "Direction lines combed along a sphere leave an unavoidable point of zero or undefined direction, distinguishing a topological obstruction from mere messy hair.",
+          "after": "For the article “Chlupatou kouli nelze učesat tak, aby na ní nezůstal aspoň jeden ochlup”: a recognizable geometric illustration of hairy ball sphere, with tangent direction field, singular cowlick."
+        },
+        "primary_subject": {
+          "before": "hairy_ball_theorem",
+          "after": "hairy_ball_sphere"
+        },
+        "visual_keywords": {
+          "before": [
+            "hairy_ball_theorem",
+            "tangent_direction_field",
+            "singular_cowlick"
+          ],
+          "after": [
+            "hairy_ball_sphere",
+            "tangent_direction_field",
+            "singular_cowlick"
+          ]
+        }
+      }
+    },
+    {
+      "id": "652",
+      "title": "Na jakékoli dostatečně velké párty se vždy najdou tři lidé, kteří se navzájem znají, nebo tři, kteří se neznají",
+      "changes": {
+        "concept": {
+          "before": "Six vertices linked in two relationship colors contain a monochromatic triangle, expressing the unavoidable trio of mutual acquaintances or mutual strangers.",
+          "after": "For the article “Na jakékoli dostatečně velké párty se vždy najdou tři lidé, kteří se navzájem znají, nebo tři, kteří se neznají”: a recognizable geometric illustration of party social network graph, with six people, three mutual acquaintances or strangers."
+        },
+        "primary_subject": {
+          "before": "ramsey_party_graph",
+          "after": "party_social_network_graph"
+        },
+        "visual_keywords": {
+          "before": [
+            "ramsey_party_graph",
+            "six_people",
+            "three_mutual_acquaintances_or_strangers"
+          ],
+          "after": [
+            "party_social_network_graph",
+            "six_people",
+            "three_mutual_acquaintances_or_strangers"
+          ]
+        }
+      }
+    },
+    {
+      "id": "668",
+      "title": "Slunce ve středu světa navrhl řecký astronom o 1800 let dřív než Koperník",
+      "changes": {
+        "concept": {
+          "before": "Earth circles a central Sun in an ancient geometric model, restoring Aristarchus's early heliocentric proposal without anachronistic machinery.",
+          "after": "For the article “Slunce ve středu světa navrhl řecký astronom o 1800 let dřív než Koperník”: a recognizable geometric illustration of heliocentric armillary sphere, with central sun, orbiting earth."
+        },
+        "primary_subject": {
+          "before": "aristarchus_heliocentrism",
+          "after": "heliocentric_armillary_sphere"
+        },
+        "visual_keywords": {
+          "before": [
+            "aristarchus_heliocentrism",
+            "central_sun",
+            "orbiting_earth",
+            "ancient_model"
+          ],
+          "after": [
+            "heliocentric_armillary_sphere",
+            "central_sun",
+            "orbiting_earth",
+            "ancient_model"
+          ]
+        }
+      }
+    },
+    {
+      "id": "672",
+      "title": "Je dobro dobré proto, že ho chce bůh, nebo ho chce proto, že je dobré?",
+      "changes": {
+        "concept": {
+          "before": "Socrates considers two opposed directions of explanation between divine approval and goodness, keeping the moral dilemma rather than a gauge at the center.",
+          "after": "For the article “Je dobro dobré proto, že ho chce bůh, nebo ho chce proto, že je dobré?”: a recognizable geometric illustration of socrates figure, with divine command, moral standard."
+        },
+        "scene_type": {
+          "before": "interaction",
+          "after": "portrait"
+        },
+        "primary_subject": {
+          "before": "euthyphro_dilemma",
+          "after": "socrates_figure"
+        },
+        "secondary_subjects": {
+          "before": [
+            "socrates_figure",
+            "divine_command",
+            "moral_standard"
+          ],
+          "after": [
+            "divine_command",
+            "moral_standard"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "euthyphro_dilemma",
+            "socrates_figure",
+            "divine_command",
+            "moral_standard"
+          ],
+          "after": [
+            "socrates_figure",
+            "divine_command",
+            "moral_standard"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "683",
+      "title": "Proč režisér obsadil do hlavní role skutečného dělníka",
+      "changes": {
+        "scene_type": {
+          "before": "interaction",
+          "after": "portrait"
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "684",
+      "title": "První dokument, ve kterém se skutečnost trochu inscenovala",
+      "changes": {
+        "concept": {
+          "before": "A documentary camera records an activity arranged for filming, showing how an apparent record of ordinary life may include staging.",
+          "after": "For the article “První dokument, ve kterém se skutečnost trochu inscenovala”: a recognizable geometric illustration of film camera, with camera, inuit participants."
+        },
+        "primary_subject": {
+          "before": "nanook_staged_documentary",
+          "after": "film_camera"
+        },
+        "visual_keywords": {
+          "before": [
+            "nanook_staged_documentary",
+            "camera",
+            "inuit_participants",
+            "recreated_activity"
+          ],
+          "after": [
+            "film_camera",
+            "camera",
+            "inuit_participants",
+            "recreated_activity"
+          ]
+        }
+      }
+    },
+    {
+      "id": "687",
+      "title": "Román, který za autorova života skoro nikdo nekupoval, je dnes klasika",
+      "changes": {
+        "concept": {
+          "before": "A neglected copy of Moby-Dick opens onto a whale and ship while later readers gather beyond it, contrasting limited initial reception with eventual canonical status.",
+          "after": "For the article “Román, který za autorova života skoro nikdo nekupoval, je dnes klasika”: a recognizable geometric illustration of open novel, with whaling scene, later readers."
+        },
+        "primary_subject": {
+          "before": "neglected_moby_dick_novel",
+          "after": "open_novel"
+        },
+        "visual_keywords": {
+          "before": [
+            "neglected_moby_dick_novel",
+            "whaling_scene",
+            "later_readers"
+          ],
+          "after": [
+            "open_novel",
+            "whaling_scene",
+            "later_readers"
+          ]
+        }
+      }
+    },
+    {
+      "id": "691",
+      "title": "Organismus bez mozku, který navrhl síť podobnou tokijské železnici",
+      "changes": {
+        "scene_type": {
+          "before": "process",
+          "after": "diagram"
+        },
+        "composition_hints": {
+          "before": [
+            "stacked_or_sequential_arrangement",
+            "visual_cause_and_effect"
+          ],
+          "after": [
+            "optically_centered_motif",
+            "uncluttered_composition"
+          ]
+        }
+      }
+    },
+    {
+      "id": "698",
+      "title": "Pisoár z roku 1917, který změnil představu o tom, co je umění",
+      "changes": {
+        "concept": {
+          "before": "An ordinary porcelain urinal is repositioned as an exhibited artwork, making selection and context challenge inherited definitions of art.",
+          "after": "For the article “Pisoár z roku 1917, který změnil představu o tom, co je umění”: a recognizable geometric illustration of porcelain urinal, with exhibition context."
+        },
+        "primary_subject": {
+          "before": "duchamp_fountain_readymade",
+          "after": "porcelain_urinal"
+        },
+        "secondary_subjects": {
+          "before": [
+            "porcelain_urinal",
+            "exhibition_context"
+          ],
+          "after": [
+            "exhibition_context"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "duchamp_fountain_readymade",
+            "porcelain_urinal",
+            "exhibition_context"
+          ],
+          "after": [
+            "porcelain_urinal",
+            "exhibition_context"
+          ]
+        }
+      }
+    },
+    {
+      "id": "717",
+      "title": "Co přesně znamená, že něco víme, a ne jen tipujeme?",
+      "changes": {
+        "concept": {
+          "before": "A belief has supporting reasons and happens to be true, yet a visible accidental link undermines its status as knowledge.",
+          "after": "For the article “Co přesně znamená, že něco víme, a ne jen tipujeme?”: a recognizable geometric illustration of knowledge vs guess scale, with belief, evidence."
+        },
+        "scene_type": {
+          "before": "diagram",
+          "after": "interaction"
+        },
+        "primary_subject": {
+          "before": "gettier_justified_true_belief",
+          "after": "knowledge_vs_guess_scale"
+        },
+        "visual_keywords": {
+          "before": [
+            "gettier_justified_true_belief",
+            "belief",
+            "evidence",
+            "lucky_true_outcome"
+          ],
+          "after": [
+            "knowledge_vs_guess_scale",
+            "belief",
+            "evidence",
+            "lucky_true_outcome"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ]
+        }
+      }
+    },
+    {
+      "id": "718",
+      "title": "Jak hledat něco, o čem nevíme, co to je?",
+      "changes": {
+        "concept": {
+          "before": "Socrates and a partner confront how to search for an unknown answer and recognize it on arrival, making inquiry itself the puzzle.",
+          "after": "For the article “Jak hledat něco, o čem nevíme, co to je?”: a recognizable geometric illustration of socrates figure, with unknown target, recognition."
+        },
+        "scene_type": {
+          "before": "interaction",
+          "after": "portrait"
+        },
+        "primary_subject": {
+          "before": "menos_paradox_of_inquiry",
+          "after": "socrates_figure"
+        },
+        "secondary_subjects": {
+          "before": [
+            "socrates_figure",
+            "unknown_target",
+            "recognition"
+          ],
+          "after": [
+            "unknown_target",
+            "recognition"
+          ]
+        },
+        "visual_keywords": {
+          "before": [
+            "menos_paradox_of_inquiry",
+            "socrates_figure",
+            "unknown_target",
+            "recognition"
+          ],
+          "after": [
+            "socrates_figure",
+            "unknown_target",
+            "recognition"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "721",
+      "title": "Čtyři způsoby poznání, které rozlišovali indičtí logikové",
+      "changes": {
+        "concept": {
+          "before": "Four distinct routes converge on a judgment, distinguishing direct perception, inference, comparison and trustworthy testimony.",
+          "after": "For the article “Čtyři způsoby poznání, které rozlišovali indičtí logikové”: a recognizable geometric illustration of indian philosopher seated, with perception, inference."
+        },
+        "scene_type": {
+          "before": "diagram",
+          "after": "portrait"
+        },
+        "primary_subject": {
+          "before": "nyaya_four_means_of_knowledge",
+          "after": "indian_philosopher_seated"
+        },
+        "visual_keywords": {
+          "before": [
+            "nyaya_four_means_of_knowledge",
+            "perception",
+            "inference",
+            "comparison",
+            "testimony"
+          ],
+          "after": [
+            "indian_philosopher_seated",
+            "perception",
+            "inference",
+            "comparison",
+            "testimony"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "723",
+      "title": "Tři způsoby, jak přesvědčit posluchače: charakter, cit a argument",
+      "changes": {
+        "concept": {
+          "before": "One speech reaches an audience through the speaker's character, emotional appeal and reasoning, giving three distinct routes to persuasion.",
+          "after": "For the article “Tři způsoby, jak přesvědčit posluchače: charakter, cit a argument”: a recognizable geometric illustration of aristotle figure, with speaker credibility, listener emotion."
+        },
+        "scene_type": {
+          "before": "diagram",
+          "after": "portrait"
+        },
+        "primary_subject": {
+          "before": "aristotelian_ethos_pathos_logos",
+          "after": "aristotle_figure"
+        },
+        "visual_keywords": {
+          "before": [
+            "aristotelian_ethos_pathos_logos",
+            "speaker_credibility",
+            "listener_emotion",
+            "argument_structure"
+          ],
+          "after": [
+            "aristotle_figure",
+            "speaker_credibility",
+            "listener_emotion",
+            "argument_structure"
+          ]
+        },
+        "composition_hints": {
+          "before": [
+            "asymmetric_composition",
+            "layered_scene"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "754",
+      "title": "Proč úspěšné firmy zanikají: Schumpeter o ničivé síle inovací",
+      "changes": {
+        "concept": {
+          "before": "A new production method expands as an older firm's equipment falls idle, showing innovation simultaneously creating economic opportunity and displacing incumbents.",
+          "after": "For the article “Proč úspěšné firmy zanikají: Schumpeter o ničivé síle inovací”: a recognizable geometric illustration of creative destruction factory, with established factory, new production method."
+        },
+        "primary_subject": {
+          "before": "schumpeter_creative_destruction",
+          "after": "creative_destruction_factory"
+        },
+        "visual_keywords": {
+          "before": [
+            "schumpeter_creative_destruction",
+            "established_factory",
+            "new_production_method"
+          ],
+          "after": [
+            "creative_destruction_factory",
+            "established_factory",
+            "new_production_method"
+          ]
+        }
+      }
+    },
+    {
+      "id": "767",
+      "title": "Stoikové se jmenují podle sloupořadí, ne podle nauky",
+      "changes": {
+        "concept": {
+          "before": "A philosopher teaches beneath an Athenian painted colonnade, connecting the school's name to its meeting place.",
+          "after": "For the article “Stoikové se jmenují podle sloupořadí, ne podle nauky”: a recognizable geometric illustration of stoic colonnade, with teaching philosopher, athenian stoa."
+        },
+        "primary_subject": {
+          "before": "stoic_painted_colonnade",
+          "after": "stoic_colonnade"
+        },
+        "visual_keywords": {
+          "before": [
+            "stoic_painted_colonnade",
+            "teaching_philosopher",
+            "athenian_stoa"
+          ],
+          "after": [
+            "stoic_colonnade",
+            "teaching_philosopher",
+            "athenian_stoa"
+          ]
+        }
+      }
+    },
+    {
+      "id": "771",
+      "title": "Plótínos: svět jako zář, která z Jednoho nepřestává vycházet",
+      "changes": {
+        "concept": {
+          "before": "Successive layers of reality radiate from one undiminished source, presenting Plotinus's emanation as a philosophical analogy rather than literal solar physics.",
+          "after": "For the article “Plótínos: svět jako zář, která z Jednoho nepřestává vycházet”: a recognizable geometric illustration of emanating light source, with single light source, successive radiant layers."
+        },
+        "primary_subject": {
+          "before": "plotinus_emanation",
+          "after": "emanating_light_source"
+        },
+        "visual_keywords": {
+          "before": [
+            "plotinus_emanation",
+            "single_light_source",
+            "successive_radiant_layers"
+          ],
+          "after": [
+            "emanating_light_source",
+            "single_light_source",
+            "successive_radiant_layers"
+          ]
+        }
+      }
+    },
+    {
+      "id": "779",
+      "title": "Pět těles, ze kterých Platón poskládal svět",
+      "changes": {
+        "concept": {
+          "before": "Five distinct regular solids are arranged with elemental associations, showing Plato's geometrical attempt to model the cosmos.",
+          "after": "For the article “Pět těles, ze kterých Platón poskládal svět”: a recognizable geometric illustration of platonic solids, with tetrahedron, cube."
+        },
+        "primary_subject": {
+          "before": "platos_five_regular_solids",
+          "after": "platonic_solids"
+        },
+        "visual_keywords": {
+          "before": [
+            "platos_five_regular_solids",
+            "tetrahedron",
+            "cube",
+            "octahedron",
+            "icosahedron",
+            "dodecahedron"
+          ],
+          "after": [
+            "platonic_solids",
+            "tetrahedron",
+            "cube",
+            "octahedron",
+            "icosahedron",
+            "dodecahedron"
+          ]
+        }
+      }
+    },
+    {
+      "id": "781",
+      "title": "Třicet portrétů lidských chyb napsaných v Athénách před 2300 lety",
+      "changes": {
+        "concept": {
+          "before": "Small contrasting scenes of recognizable human faults form a set of literary character sketches, showing behavior rather than physical portraiture.",
+          "after": "For the article “Třicet portrétů lidských chyb napsaných v Athénách před 2300 lety”: a recognizable geometric illustration of ancient character portraits, with contrasting social behaviors, thirty short portraits."
+        },
+        "primary_subject": {
+          "before": "theophrastus_characters",
+          "after": "ancient_character_portraits"
+        },
+        "visual_keywords": {
+          "before": [
+            "theophrastus_characters",
+            "contrasting_social_behaviors",
+            "thirty_short_portraits"
+          ],
+          "after": [
+            "ancient_character_portraits",
+            "contrasting_social_behaviors",
+            "thirty_short_portraits"
+          ]
+        }
+      }
+    },
+    {
+      "id": "801",
+      "title": "Symfonie z Nového světa se rodila v New Yorku",
+      "changes": {
+        "concept": {
+          "before": "An orchestral score is set against a restrained New York setting, connecting Dvorak's New World Symphony to its American period.",
+          "after": "For the article “Symfonie z Nového světa se rodila v New Yorku”: a recognizable geometric illustration of symphony orchestra score, with orchestral score, new york context."
+        },
+        "primary_subject": {
+          "before": "dvorak_new_world_symphony",
+          "after": "symphony_orchestra_score"
+        },
+        "visual_keywords": {
+          "before": [
+            "dvorak_new_world_symphony",
+            "orchestral_score",
+            "new_york_context"
+          ],
+          "after": [
+            "symphony_orchestra_score",
+            "orchestral_score",
+            "new_york_context"
+          ]
+        }
+      }
+    },
+    {
+      "id": "802",
+      "title": "Vltavu složil skladatel, který už neslyšel",
+      "changes": {
+        "concept": {
+          "before": "A flowing river motif becomes an orchestral score beside Smetana, connecting the tone poem's imagined sound to a composer who could no longer hear it.",
+          "after": "For the article “Vltavu složil skladatel, který už neslyšel”: a recognizable geometric illustration of musical score river, with river shaped score, composer."
+        },
+        "primary_subject": {
+          "before": "smetana_vltava_deaf_composer",
+          "after": "musical_score_river"
+        },
+        "visual_keywords": {
+          "before": [
+            "smetana_vltava_deaf_composer",
+            "river_shaped_score",
+            "composer"
+          ],
+          "after": [
+            "musical_score_river",
+            "river_shaped_score",
+            "composer"
+          ]
+        }
+      }
+    },
+    {
+      "id": "803",
+      "title": "Jeden panel Gentského oltáře byl ukraden v roce 1934 a nikdy se nenašel",
+      "changes": {
+        "concept": {
+          "before": "An elaborate multi-panel altarpiece contains a conspicuous missing panel, making the unresolved theft a visible absence within a larger work.",
+          "after": "For the article “Jeden panel Gentského oltáře byl ukraden v roce 1934 a nikdy se nenašel”: a recognizable geometric illustration of ghent altarpiece, with polyptych, empty panel space."
+        },
+        "primary_subject": {
+          "before": "ghent_altarpiece_missing_panel",
+          "after": "ghent_altarpiece"
+        },
+        "visual_keywords": {
+          "before": [
+            "ghent_altarpiece_missing_panel",
+            "polyptych",
+            "empty_panel_space"
+          ],
+          "after": [
+            "ghent_altarpiece",
+            "polyptych",
+            "empty_panel_space"
+          ]
+        }
+      }
+    },
+    {
+      "id": "806",
+      "title": "Římský diktátor, který se po vítězství vrátil k pluhu",
+      "changes": {
+        "concept": {
+          "before": "A Roman leader sets aside emergency military authority and returns to a plough, making voluntary relinquishment of power a civic ideal.",
+          "after": "For the article “Římský diktátor, který se po vítězství vrátil k pluhu”: a recognizable geometric illustration of roman farmer plough, with military insignia, ordinary fieldwork."
+        },
+        "primary_subject": {
+          "before": "cincinnatus_return_to_plough",
+          "after": "roman_farmer_plough"
+        },
+        "visual_keywords": {
+          "before": [
+            "cincinnatus_return_to_plough",
+            "military_insignia",
+            "ordinary_fieldwork"
+          ],
+          "after": [
+            "roman_farmer_plough",
+            "military_insignia",
+            "ordinary_fieldwork"
+          ]
+        }
+      }
+    },
+    {
+      "id": "815",
+      "title": "Taxi číslo 1729: nuda, kterou Ramanujan proměnil v objev",
+      "changes": {
+        "concept": {
+          "before": "A taxicab number connects to two distinct pairs of cubes with the same sum, making Ramanujan's recognition of mathematical structure the point.",
+          "after": "For the article “Taxi číslo 1729: nuda, kterou Ramanujan proměnil v objev”: a recognizable geometric illustration of taxicab 1729, with taxicab, paired sums of cubes."
+        },
+        "primary_subject": {
+          "before": "ramanujan_taxicab_number",
+          "after": "taxicab_1729"
+        },
+        "visual_keywords": {
+          "before": [
+            "ramanujan_taxicab_number",
+            "taxicab",
+            "paired_sums_of_cubes"
+          ],
+          "after": [
+            "taxicab_1729",
+            "taxicab",
+            "paired_sums_of_cubes"
+          ]
+        }
+      }
+    },
+    {
+      "id": "818",
+      "title": "Proč se v matematice 0,999… rovná jedné",
+      "changes": {
+        "concept": {
+          "before": "Successive finite approximations fill a unit length with a remainder tending to zero, illustrating why the infinite repeating decimal equals one exactly.",
+          "after": "For the article “Proč se v matematice 0,999… rovná jedné”: a recognizable geometric illustration of repeating decimal equation, with shrinking remainder, unit length."
+        },
+        "primary_subject": {
+          "before": "repeating_decimal_limit",
+          "after": "repeating_decimal_equation"
+        },
+        "visual_keywords": {
+          "before": [
+            "repeating_decimal_limit",
+            "shrinking_remainder",
+            "unit_length"
+          ],
+          "after": [
+            "repeating_decimal_equation",
+            "shrinking_remainder",
+            "unit_length"
+          ]
+        }
+      }
+    },
+    {
+      "id": "828",
+      "title": "Kuleshovův efekt: tentýž obličej, ale jiný cit podle následujícího záběru",
+      "changes": {
+        "concept": {
+          "before": "One unchanged facial close-up is paired with different subsequent images, causing viewers to infer different emotions from the same face.",
+          "after": "For the article “Kuleshovův efekt: tentýž obličej, ale jiný cit podle následujícího záběru”: a recognizable geometric illustration of film editing frames, with unchanged face, different following images."
+        },
+        "primary_subject": {
+          "before": "kuleshov_editing_effect",
+          "after": "film_editing_frames"
+        },
+        "visual_keywords": {
+          "before": [
+            "kuleshov_editing_effect",
+            "unchanged_face",
+            "different_following_images"
+          ],
+          "after": [
+            "film_editing_frames",
+            "unchanged_face",
+            "different_following_images"
+          ]
+        }
+      }
+    },
+    {
+      "id": "831",
+      "title": "Jazyk bez slov pro čísla: Pirahã a hranice počítání",
+      "changes": {
+        "scene_type": {
+          "before": "interaction",
+          "after": "diagram"
+        },
+        "composition_hints": {
+          "before": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ],
+          "after": [
+            "optically_centered_motif",
+            "uncluttered_composition"
+          ]
+        }
+      }
+    },
+    {
+      "id": "841",
+      "title": "Proč se čínské císařské zkoušky staly cestou k moci",
+      "changes": {
+        "concept": {
+          "before": "Candidates write in examination cells before a path toward official dress, linking mastery of classical texts to advancement in imperial administration.",
+          "after": "For the article “Proč se čínské císařské zkoušky staly cestou k moci”: a recognizable geometric illustration of imperial examination scroll, with examination cells, confucian texts."
+        },
+        "primary_subject": {
+          "before": "imperial_examination_path_to_office",
+          "after": "imperial_examination_scroll"
+        },
+        "visual_keywords": {
+          "before": [
+            "imperial_examination_path_to_office",
+            "examination_cells",
+            "confucian_texts",
+            "official_robe"
+          ],
+          "after": [
+            "imperial_examination_scroll",
+            "examination_cells",
+            "confucian_texts",
+            "official_robe"
+          ]
+        }
+      }
+    },
+    {
+      "id": "848",
+      "title": "Proč se tak těžko vzpomíná na dětství před třetím rokem života",
+      "changes": {
+        "concept": {
+          "before": "Early experiences leave traces but few accessible autobiographical episodes, connecting developing memory systems and language to a gap in later recall.",
+          "after": "For the article “Proč se tak těžko vzpomíná na dětství před třetím rokem života”: a recognizable geometric illustration of childhood memory silhouette, with early experiences, developing memory and language."
+        },
+        "primary_subject": {
+          "before": "childhood_amnesia",
+          "after": "childhood_memory_silhouette"
+        },
+        "visual_keywords": {
+          "before": [
+            "childhood_amnesia",
+            "early_experiences",
+            "developing_memory_and_language",
+            "later_recall_gap"
+          ],
+          "after": [
+            "childhood_memory_silhouette",
+            "early_experiences",
+            "developing_memory_and_language",
+            "later_recall_gap"
+          ]
+        }
+      }
+    },
+    {
+      "id": "850",
+      "title": "Proč máme prsty po dlouhé koupeli svraštělé",
+      "changes": {
+        "concept": {
+          "before": "Immersed fingertips develop ridges as underlying vessels constrict, distinguishing an active bodily response from skin merely swelling with absorbed water.",
+          "after": "For the article “Proč máme prsty po dlouhé koupeli svraštělé”: a recognizable geometric illustration of wrinkled fingertips, with smooth fingers, immersed fingers."
+        },
+        "primary_subject": {
+          "before": "wrinkled_wet_fingertips",
+          "after": "wrinkled_fingertips"
+        },
+        "visual_keywords": {
+          "before": [
+            "wrinkled_wet_fingertips",
+            "smooth_fingers",
+            "immersed_fingers",
+            "constricted_vessels"
+          ],
+          "after": [
+            "wrinkled_fingertips",
+            "smooth_fingers",
+            "immersed_fingers",
+            "constricted_vessels"
+          ]
+        }
+      }
+    },
+    {
+      "id": "852",
+      "title": "Proč se při pohledu z auta zdá, že kola se točí pozpátku",
+      "changes": {
+        "concept": {
+          "before": "Successive sampled spoke positions align slightly backward despite forward rotation, revealing the temporal aliasing behind the reversed-wheel appearance.",
+          "after": "For the article “Proč se při pohledu z auta zdá, že kola se točí pozpátku”: a recognizable geometric illustration of wagon wheel optical illusion, with rotating spokes, successive sampled frames."
+        },
+        "primary_subject": {
+          "before": "wagon_wheel_sampling_illusion",
+          "after": "wagon_wheel_optical_illusion"
+        },
+        "visual_keywords": {
+          "before": [
+            "wagon_wheel_sampling_illusion",
+            "rotating_spokes",
+            "successive_sampled_frames",
+            "apparent_reverse_step"
+          ],
+          "after": [
+            "wagon_wheel_optical_illusion",
+            "rotating_spokes",
+            "successive_sampled_frames",
+            "apparent_reverse_step"
+          ]
+        }
+      }
+    },
+    {
+      "id": "858",
+      "title": "Proč Gaudí navrhoval oblouky pomocí závěsných řetízků",
+      "changes": {
+        "concept": {
+          "before": "Weighted chains hang in tension and their inverted outlines become compression arches, making the physical design model's structural logic visible.",
+          "after": "For the article “Proč Gaudí navrhoval oblouky pomocí závěsných řetízků”: a recognizable geometric illustration of hanging chain model, with weighted chains, inverted arch profile."
+        },
+        "primary_subject": {
+          "before": "gaudi_hanging_chain_model",
+          "after": "hanging_chain_model"
+        },
+        "visual_keywords": {
+          "before": [
+            "gaudi_hanging_chain_model",
+            "weighted_chains",
+            "inverted_arch_profile"
+          ],
+          "after": [
+            "hanging_chain_model",
+            "weighted_chains",
+            "inverted_arch_profile"
+          ]
+        }
+      }
+    },
+    {
+      "id": "861",
+      "title": "Kdo byl skutečný Robin Hood a existoval vůbec",
+      "changes": {
+        "concept": {
+          "before": "A familiar outlaw archer stands against incomplete historical records, distinguishing a durable legend from uncertain identification of one real person.",
+          "after": "For the article “Kdo byl skutečný Robin Hood a existoval vůbec”: a recognizable geometric illustration of robin hood archer, with archer, fragmentary historical records."
+        },
+        "primary_subject": {
+          "before": "robin_hood_legend_and_evidence",
+          "after": "robin_hood_archer"
+        },
+        "visual_keywords": {
+          "before": [
+            "robin_hood_legend_and_evidence",
+            "archer",
+            "fragmentary_historical_records"
+          ],
+          "after": [
+            "robin_hood_archer",
+            "archer",
+            "fragmentary_historical_records"
+          ]
+        }
+      }
+    },
+    {
+      "id": "864",
+      "title": "Proč jsou Grimmové víc než sběratelé pohádek",
+      "changes": {
+        "concept": {
+          "before": "An oral tale passes through collected notes and successive edited pages into a printed book, showing the Grimms shaping as well as preserving folklore.",
+          "after": "For the article “Proč jsou Grimmové víc než sběratelé pohádek”: a recognizable geometric illustration of fairy tale wolf book, with oral storyteller, revised manuscript."
+        },
+        "primary_subject": {
+          "before": "grimm_tale_collection_editing",
+          "after": "fairy_tale_wolf_book"
+        },
+        "visual_keywords": {
+          "before": [
+            "grimm_tale_collection_editing",
+            "oral_storyteller",
+            "revised_manuscript",
+            "printed_collection"
+          ],
+          "after": [
+            "fairy_tale_wolf_book",
+            "oral_storyteller",
+            "revised_manuscript",
+            "printed_collection"
+          ]
+        }
+      }
+    },
+    {
+      "id": "871",
+      "title": "I rychlé bohatnutí může společnosti vzít pevnou půdu pod nohama",
+      "changes": {
+        "scene_type": {
+          "before": "environment",
+          "after": "portrait"
+        },
+        "composition_hints": {
+          "before": [
+            "dominant_central_motif",
+            "balanced_transparent_margins"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "886",
+      "title": "Delší spánek v pokusu snížil příjem jídla bez předepsané diety",
+      "changes": {
+        "scene_type": {
+          "before": "environment",
+          "after": "portrait"
+        },
+        "composition_hints": {
+          "before": [
+            "dominant_central_motif",
+            "balanced_transparent_margins"
+          ],
+          "after": [
+            "portrait_focus",
+            "symbolic_background_detail"
+          ]
+        }
+      }
+    },
+    {
+      "id": "896",
+      "title": "Výměna, při které ledvinu dostane i člověk s nevhodným dárcem",
+      "changes": {
+        "scene_type": {
+          "before": "diagram",
+          "after": "interaction"
+        },
+        "composition_hints": {
+          "before": [
+            "dominant_central_motif",
+            "balanced_transparent_margins"
+          ],
+          "after": [
+            "two_objects_in_interaction",
+            "clear_visual_contrast"
+          ]
+        }
+      }
+    },
+    {
+      "id": "925",
+      "title": "Proč odesílatel dat někdy záměrně zpomalí",
+      "changes": {
+        "scene_type": {
+          "before": "object",
+          "after": "diagram"
+        },
+        "composition_hints": {
+          "before": [
+            "dominant_central_object",
+            "balanced_transparent_margins"
+          ],
+          "after": [
+            "optically_centered_motif",
+            "uncluttered_composition"
+          ]
+        }
+      }
+    }
+  ]
+}
