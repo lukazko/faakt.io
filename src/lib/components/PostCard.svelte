@@ -47,6 +47,23 @@
 	// post.id, takže se nikdy nezobrazí rub u jiného příspěvku.
 	let flipped = $state(false);
 	let flipHint = $state(false);
+	let manualHint = $state(false);
+	let lastPointerType = '';
+	let hintRequest = 0;
+	let cardStageEl;
+
+	async function replayFlipHint() {
+		const request = ++hintRequest;
+		flipHint = false;
+		manualHint = false;
+		await tick();
+		if (request !== hintRequest || !active || flipped) return;
+		if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+		// Commit the removed animation before replaying it on another tap.
+		if (cardStageEl) void cardStageEl.offsetWidth;
+		manualHint = true;
+		flipHint = true;
+	}
 
 	$effect(() => {
 		if (!active || flipped) {
@@ -98,8 +115,16 @@
 		}
 	}
 
-	// Kliknutí kamkoli na kartu ji otočí. Ovládací prvky (tlačítka, odkazy)
+	// Dotyk na líci přehraje náznak, ostatní kliknutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
 	// si klik řeší samy, stejně jako dokončený výběr textu.
+	function handleCardPointerDown(event) {
+		lastPointerType = event.pointerType;
+		if (event.pointerType !== 'mouse' || event.button !== 0 || actionsOpen || flipped) return;
+		if (!(event.target instanceof Element)) return;
+		if (event.target.closest('a, button, input, textarea, select, label, summary')) return;
+		replayFlipHint();
+	}
+
 	function handleCardClick(event) {
 		const target = event.target;
 		if (!(target instanceof Element)) return;
@@ -115,6 +140,10 @@
 			return;
 		}
 
+		if (!flipped && lastPointerType === 'touch' && event.detail !== 0) {
+			replayFlipHint();
+			return;
+		}
 		if (flipped) flipToFront();
 		else flipToBack();
 	}
@@ -186,11 +215,13 @@
 	class="post-card"
 	class:flipped
 	class:flip-hint={flipHint}
+	class:manual-hint={manualHint}
 	class:is-active={active}
+	onpointerdown={handleCardPointerDown}
 	onkeydown={handleKeydown}
 	onclick={handleCardClick}
 >
-	<div class="card-stage" onanimationend={() => { flipHint = false; }}>
+	<div class="card-stage" bind:this={cardStageEl} onanimationend={() => { flipHint = false; }}>
 		<!-- LÍC -->
 		<section
 			id={frontId}
@@ -469,9 +500,14 @@
 		animation: flip-preview 1.2s ease-in-out 0.5s;
 	}
 
+	.post-card.flip-hint.manual-hint:not(.flipped) .card-stage {
+		--flip-preview-angle: 40deg;
+		animation-delay: 0s;
+	}
+
 	@keyframes flip-preview {
 		0%, 100% { transform: rotateY(0deg); }
-		45% { transform: rotateY(20deg); }
+		45% { transform: rotateY(var(--flip-preview-angle, 20deg)); }
 	}
 
 	.card-face {

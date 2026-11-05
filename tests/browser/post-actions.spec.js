@@ -123,6 +123,42 @@ test('flip hint returns in a new tab session', async ({ page, context }) => {
 	await expect.poll(() => nextPage.evaluate(() => window.flipHintStarts)).toBe(1);
 });
 
+test('touch tap replays flip hint after an actual flip', async ({ page }) => {
+	test.skip(await page.evaluate(() => navigator.maxTouchPoints === 0), 'Touch devices only');
+	await flip(page);
+	await page.keyboard.press('Escape');
+	const card = page.locator('.is-active');
+	await expect(card).not.toHaveClass(/flipped/);
+	for (let i = 0; i < 2; i++) {
+		const starts = await page.evaluate(() => window.flipHintStarts);
+		await activate(card.locator('.card-front h1, .card-front h2').first(), page);
+		await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
+		await expect(card).not.toHaveClass(/flipped/);
+		await expect(card).not.toHaveClass(/flip-hint/);
+	}
+	await flip(page);
+	await expect(card).toHaveClass(/flipped/);
+});
+
+test('mouse press replays flip hint before releasing the card', async ({ page }) => {
+	await flip(page);
+	await page.keyboard.press('Escape');
+	const card = page.locator('.is-active');
+	await expect(card).not.toHaveClass(/flipped/);
+	await card.locator('.card-stage').evaluate(async stage => {
+		await Promise.all(stage.getAnimations().map(animation => animation.finished));
+	});
+	const box = await card.locator('.card-front h1, .card-front h2').first().boundingBox();
+	const starts = await page.evaluate(() => window.flipHintStarts);
+	await page.mouse.move(box.x + box.width / 2, box.y + box.height / 2);
+	await page.mouse.down();
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
+	await expect(card).not.toHaveClass(/flipped/);
+	await expect(card).not.toHaveClass(/flip-hint/);
+	await page.mouse.up();
+	await expect(card).toHaveClass(/flipped/);
+});
+
 test('actual flip cancels the hint', async ({ page }) => {
 	await flip(page);
 	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBe('1');
