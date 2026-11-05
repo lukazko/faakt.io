@@ -288,6 +288,7 @@
 		   kdy má zmizet tlačítko akcí na odvrácené straně. */
 		--flip-duration: 0.42s;
 		--card-action-inset: clamp(18px, 5vw, 30px);
+		--card-meta-top: clamp(16px, 2.8vh, 22px);
 		-webkit-perspective: 1600px;
 	}
 
@@ -509,7 +510,7 @@
 		min-height: 0;
 		/* Spodní odsazení je stejné jako odsazení tlačítka sdílení, aby
 		   obě tlačítka seděla na stejné lince. */
-		padding: clamp(18px, 3.4vh, 28px) var(--card-action-inset) var(--card-action-inset);
+		padding: var(--card-meta-top) var(--card-action-inset) var(--card-action-inset);
 	}
 
 	.front-top {
@@ -529,7 +530,6 @@
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
 		justify-content: flex-start;
-		padding-top: calc(clamp(20px, 5vh, 44px) * 4 / 9);
 		gap: 14px;
 	}
 
@@ -645,7 +645,7 @@
 		scrollbar-color: #333 transparent;
 		/* Větší spodní odsazení, aby poslední řádky nezmizely pod tlačítkem
 		   akcí v pravém dolním rohu karty */
-		padding: clamp(16px, 2.8vh, 22px) clamp(18px, 5vw, 30px) clamp(56px, 7vh, 72px);
+		padding: var(--card-meta-top) var(--card-action-inset) clamp(56px, 7vh, 72px);
 	}
 
 	.back-inner {
@@ -672,12 +672,6 @@
 	@media (max-height: 560px) {
 		.front-inner {
 			gap: 10px;
-			padding-top: 20px;
-		}
-
-		/* V nízké kartě stačí menší odsazení, aby se text neusekl */
-		.front-main {
-			padding-top: calc(8px * 2 / 3);
 		}
 
 		.title {
