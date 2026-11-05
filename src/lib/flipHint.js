@@ -1,7 +1,7 @@
 const STORAGE_KEY = 'faakt:flip-hint-seen';
 let cardFlipped = false;
 
-// Each active card can show a hint until the first actual flip.
+// Each active card repeats the hint every seven seconds until the first actual flip.
 export function shouldShowFlipHint() {
 	if (cardFlipped) return false;
 	try {

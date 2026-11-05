@@ -87,16 +87,20 @@ async function flip(page) {
 	});
 }
 
-test('flip hint plays on each active card and after reload until a real flip', async ({ page }) => {
+test('flip hint repeats every seven seconds on each active card until a real flip', async ({ page }) => {
 	const stage = page.locator('.is-active .card-stage');
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
 	await stage.evaluate(async el => {
 		await Promise.all(el.getAnimations().map(animation => animation.finished));
 	});
 	await expect(page.locator('.flip-hint')).toHaveCount(0);
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(2);
+	await stage.evaluate(async el => {
+		await Promise.all(el.getAnimations().map(animation => animation.finished));
+	});
 	await page.locator('.feed-container').evaluate(el => { el.scrollTop = el.clientHeight; });
 	await expect(page.locator('.post-card').nth(1)).toHaveClass(/is-active/);
-	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(2);
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(3);
 	await expect.poll(() => page.evaluate(() => sessionStorage.getItem('faakt:flip-hint-seen'))).toBeNull();
 	await page.reload();
 	await expect(page.locator('.is-active .card-front')).toBeVisible();

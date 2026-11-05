@@ -70,8 +70,14 @@
 			flipHint = false;
 			return;
 		}
-		flipHint = shouldShowFlipHint()
-			&& !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		const showHint = () => {
+			manualHint = false;
+			flipHint = shouldShowFlipHint()
+				&& !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		};
+		showHint();
+		const interval = window.setInterval(showHint, 7000);
+		return () => window.clearInterval(interval);
 	});
 
 	let frontBtnEl = $state(null);
