@@ -538,7 +538,7 @@
 		overflow: hidden;
 		background: #101010;
 		background: linear-gradient(180deg, #141414 0%, #0d0d0d 100%);
-		border: 1px solid #262626;
+		border: none;
 		border-radius: 22px;
 		box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
 		-webkit-backface-visibility: hidden;
