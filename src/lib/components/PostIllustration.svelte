@@ -81,9 +81,11 @@
 		inset: 0;
 		display: block;
 		width: 100%;
-		height: 100%;
+		height: calc(100% * var(--art-canvas-height, 360) / var(--art-height, 360));
+		top: 50%;
+		transform: translateY(calc(-1 * var(--art-center, 50%)));
 		object-fit: contain;
-		object-position: center top;
+		object-position: var(--art-position, center top);
 		opacity: 0.92;
 		pointer-events: none;
 		user-select: none;

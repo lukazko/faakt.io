@@ -102,6 +102,8 @@ Check each new or explicitly repaired asset at 160×90 and 320×180 against both
 
 #### Check visible spacing to the hook
 
+Cards now use the content-aware Vite plugin `scripts/illustration-layout.mjs` for all numeric WebP assets, including future additions and replacements. It measures alpha≥16 and shortens frames with surplus bottom space, leaving 10 source pixels on each side at 640px width. Artwork scale and aspect ratio remain unchanged; the image is not cropped or rewritten. The dev server invalidates layout on asset changes, and every production build scans current assets. Do not add per-ID spacing overrides. Continue checking real cards, especially faint intentional details and constrained viewport heights; automatic alpha bounds do not replace visual review.
+
 Compare several actual cards at the same viewport width, including illustrations with different proportions. A shared 640×360 canvas and identical CSS gap do not make the gap from the visible artwork to the hook equal: transparent bottom padding adds to it. For an uncompressed 320×180 display, 60 extra source pixels of bottom padding add about 30 CSS pixels to the perceived gap. On constrained cards, inspect the actual `object-fit` placement as well.
 
 Record perceptible alpha bounds (the fitting helper reports alpha≥16 margins), visible motif scale and any conspicuous spacing outlier. Inspect the result at 160×90 and 320×180 together with the title and hook; a contact sheet of isolated assets is insufficient for judging text spacing. Optical centering alone does not establish that the motif fills the available area appropriately.

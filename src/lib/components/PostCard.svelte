@@ -1,4 +1,5 @@
 <script>
+	import { illustrationLayouts } from 'virtual:illustration-layout';
 	/**
 	 * Oboustranná karta příspěvku.
 	 * Líc: hook, titulek, kategorie a CTA, které kartu otočí.
@@ -258,7 +259,11 @@
 						{@render actionControls('front')}
 					</div>
 					<h2 id="{frontId}-title" class="title">{post.title}</h2>
-					<div class="front-art" aria-hidden="true">
+					<div class="front-art" aria-hidden="true"
+						style:--art-height={illustrationLayouts[post.id]?.height ?? 360}
+						style:--art-canvas-height={illustrationLayouts[post.id]?.canvasHeight ?? 360}
+						style:--art-center={`${illustrationLayouts[post.id]?.center ?? 50}%`}
+						style:--art-position={illustrationLayouts[post.id] ? 'center' : 'center top'}>
 						<PostIllustration {post} {active} />
 					</div>
 					<p class="teaser">{hook}</p>
@@ -622,8 +627,9 @@
 	.front-art {
 		position: relative;
 		flex: 0 1 auto;
+		margin-top: 12px;
 		width: 100%;
-		aspect-ratio: 16 / 9;
+		aspect-ratio: 640 / var(--art-height, 360);
 		min-height: 0;
 		display: flex;
 		align-items: flex-end;

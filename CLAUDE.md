@@ -164,6 +164,7 @@ Na místním Node.js 18 lze běh spustit bez změny systémové instalace přes
 - **Nastavení Pages**: Settings → Pages → branch `gh-pages`, folder `/ (root)`
 
 ## Pracovní postupy
+- **Uživatelské regrese:** při každé změně uživatelského chování aktualizuj ve stejné změně [docs/uzivatelske-regresni-testy.md](docs/uzivatelske-regresni-testy.md). Nové funkce doplň o konkrétní postup a očekávaný výsledek, změněné či odstraněné ovládání promítni do existujících scénářů a opravené regrese pokryj testem. Zachovej stabilní ID. Při interních změnách pouze ověř relevanci seznamu. Po nasazení použij checklist na skutečném webu; neoznačuj neprovedené ruční testy za úspěšné na základě buildu nebo automatických testů.
 - **Verze aplikace:** zdrojem pravdy je `version` v `package.json`, kterou uživatel obvykle upravuje ručně. Zachovej jeho zvolenou verzi a bez zadání ji nezvyšuj ani nevracej na starší hodnotu. Při změně verze a před odevzdáním změn ověř shodu s `version` a `packages[""].version` v `package-lock.json`; případný nesoulad oprav podle `package.json` bez změn verzí závislostí. Verze zobrazená ve faakt.io musí dál vycházet z `package.json` přes `__APP_VERSION__` ve `vite.config.js`, nikdy z další ručně udržované konstanty. Identifikátor buildu je samostatný údaj.
 - **Větve vol podle souvislosti a rozsahu práce; novou větev nezakládej automaticky pro každý požadavek nebo dávku.** Před změnou zkontroluj aktuální větev a rozpracované změny. Navazující úpravy stejného tématu mohou pokračovat v jedné vhodné pracovní větvi, například postupné dávky ilustrací ve větvi `new-illustrations`. Novou větev založ pro samostatný, nesouvisející úkol nebo pokud oddělení usnadní kontrolu a sloučení změn. Nepřimíchávej nesouvisející práci a zachovej rozpracované změny; respektuj výslovné zadání uživatele ohledně větve.
 - Commituj pravidelně s popisem v češtině
@@ -200,6 +201,8 @@ Doporučený postup:
 - Dev server s base path: app je na `http://localhost:5173/faakt.io/`, ne na `/`
 
 ## Shared skills for AI agents
+
+- **Automatická výška ilustrací na kartách:** Vite plugin `scripts/illustration-layout.mjs` při vývoji i buildu načítá aktuální číselné WebP soubory. Z alfa ≥16 určuje svislý rozsah kresby. Pokud spodní okraj přesahuje 20 pixelů a lze ušetřit alespoň 20 pixelů (v přepočtu na šířku 640), použije rám vysoký jako kresba + 20 pixelů a vycentruje v něm viditelný motiv. Zachovává měřítko, proporce i původní soubor; slabé alfa zbytky se neořezávají. Nové i nahrazené ilustrace se přepočítají automaticky, v běžícím dev serveru také při změně souboru. Ruční výjimky podle ID nejsou potřeba. Obvyklá registrace obrázku v kartách a galerii stále platí.
 
 - **Čitelnost ilustrací na barevné záři:** při generování počítej i s lokálním CSS experimentem v `CardGlow.svelte` (nepravidelná vícebarevná záře s opacitou 10 %, aktuálně jen v dev režimu). Zachovej skutečnou průhlednost obrázku, záři do něj nekresli. Silueta i podstatné detaily mají být čitelné díky světlostnímu i barevnému kontrastu na původním tmavém podkladu i na záři při 160×90 a 320×180; ověř také skutečnou kartu. Podrobný postup a společný prompt jsou v `skills/faakt-illustrations/`. Změna pravidel sama neautorizuje regeneraci přijatých obrázků.
 
