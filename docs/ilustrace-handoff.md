@@ -16,9 +16,9 @@ Assety a alfa okraje dokládá `reports/illustrations-313-352-validation.json`, 
 
 Prošlo všech šest kontrol `npm test` a 17 testů významového nástroje včetně nových regresí pro vyplňování mezer. Produkční `npm run build` vytvořil všech 40 nových statických stránek i obrázků. Zůstávají dřívější upozornění Svelte na markup a velikost balíku vývojové galerie. Verze aplikace i oba údaje lockfile jsou shodně 1.4.0. Lokální test používá `http://127.0.0.1:4192/faakt.io/?order=id&post=313`; veřejné nasazení neproběhlo. Závěrečný souhrn je v `reports/posts-gap-313-352-final.json`.
 
-## Lokální experiment se září za ilustrací
+## Záře karty ve všech prostředích
 
-Komponenta `src/lib/components/CardGlow.svelte` vykresluje na obou stranách karty čtyři radiální gradienty ze tří barev palety `illustration.palette`, se společnou opacitou 10 %. Každý vychází z jiného rohu; různé poloměry zachovávají asymetrii a gradienty do středu zcela vyhasínají. Střed karty tak zůstává nejtmavší. Záře pokrývá celý líc i rub pod obsahem, zůstává pevná při posouvání textu a nezachytává vstup. Jde stále pouze o lokální experiment v `npm run dev`; aktuální barvy a CSS jsou v `CardGlow.svelte`.
+Komponenta `src/lib/components/CardGlow.svelte` vykresluje na obou stranách karty čtyři radiální gradienty ze tří barev palety `illustration.palette`, se společnou opacitou 10 %. Každý vychází z jiného rohu; různé poloměry zachovávají asymetrii a gradienty do středu zcela vyhasínají. Střed karty tak zůstává nejtmavší. Záře pokrývá celý líc i rub pod obsahem, zůstává pevná při posouvání textu a nezachytává vstup. Záře je součástí vývojového i produkčního sestavení včetně GitHub Pages; aktuální barvy a CSS jsou v `CardGlow.svelte`.
 
 Generování s tímto podkladem počítá v `skills/faakt-illustrations/SKILL.md` i ve společném `STYLE` v `skills/faakt-illustrations/scripts/prompt.mjs`: motiv má mít čitelnou siluetu a důležité vnitřní hranice díky světlostnímu i barevnému kontrastu. Nové a výslovně opravované obrázky se kontrolují při 160×90 a 320×180 na původním tmavém podkladu i na aktuální vícebarevné CSS záři a ve skutečné vývojové kartě. Záře se nikdy nezapeče do obrázku; průhlednost zůstává nutná pro tento podklad. Změna instrukcí nespouští regenerování ani neznamená, že stávající obrázky prošly novou kontrolou.
 

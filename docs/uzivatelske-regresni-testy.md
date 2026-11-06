@@ -66,3 +66,9 @@ Celkový výsledek: prošlo / chyba / neúplné
 - Každou opravenou uživatelskou regresi zachyť konkrétním scénářem, pokud ji dosavadní body nepokrývají. Zachovávej stabilní ID testů; novým přiděluj další volné číslo a nepřečíslovávej existující.
 - Při změně mobilního vrstvení, sdílení nebo odkazů zachovej kontrolu skutečným klepnutím a na nasazeném webu. Automatické testy simulují systémové sdílení a schránku, takže jejich úspěch tyto ruční kontroly nenahrazuje.
 - Při čistě interní změně zkontroluj relevanci checklistu; bez změny očekávaného chování není potřeba přidávat formální bod ani měnit datum. Tento dokument popisuje aktuální testy, nikoli historii spuštění.
+
+## Záře karet (1.4.1)
+
+| Stav | ID | Postup | Očekávaný výsledek |
+|---|---|---|---|
+| [ ] | G01 | V dev serveru i produkčním náhledu otevři kartu, otoč ji a posuň text rubu. Zopakuj po nasazení na GitHub Pages. | Obě strany mají jemnou barevnou záři v rozích, střed zůstává tmavý. Záře se neposouvá s textem a neblokuje ovládání. |

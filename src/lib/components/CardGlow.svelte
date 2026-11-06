@@ -1,10 +1,9 @@
 <script>
-	import { dev } from '$app/environment';
 
 	/** @type {{ post?: { category?: string, illustration?: { palette?: string } } | null }} */
 	let { post = null } = $props();
 
-	// Lokální experiment: tři odlišné odstíny z ilustrační palety.
+	// Záře karty: tři odlišné odstíny z ilustrační palety ve všech prostředích.
 	const glowColors = {
 		blue_gold: ['#4285db', '#e2ad45', '#6570ce'],
 		green_copper: ['#49ac7c', '#d18350', '#399caa'],
@@ -20,7 +19,6 @@
 
 </script>
 
-{#if dev}
 	<span
 		class="illustration-glow"
 		style:--glow-primary={glowPalette[0]}
@@ -28,7 +26,6 @@
 		style:--glow-accent={glowPalette[2]}
 		aria-hidden="true"
 	></span>
-{/if}
 
 <style>
 	.illustration-glow {
