@@ -99,6 +99,14 @@ Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 - **Při každé změně datové struktury příspěvků, způsobu jejich generování nebo redakčních pravidel obsahu aktualizuj tento soubor ve stejné změně.** Udržuj v souladu ukázkový JSON, datové typy a povolené hodnoty včetně kategorií a ilustračních metadat.
 - Nové příspěvky obsahují `illustration` se všemi poli a pravidly uvedenými v zadání; metadata musí vycházet z titulku i celého obsahu.
 
+## Dokončení nové dávky postů
+
+Požadavek na přidání či vygenerování nových postů v tomto repozitáři standardně zahrnuje **obsah, ilustrace, plnohodnotné karty a spuštění pro lokální test**. Postupuj podle `skills/faakt-create-posts/SKILL.md`: ověř originalitu a zdroje, připoj posty přes hlídaný `append`, vytvoř skutečné ilustrace podle `skills/faakt-illustrations/SKILL.md`, zaregistruj je v kartách i galerii a dokonči projektové kontroly. Metadata obrázku ani JSON předaný do chatu nenahrazují hotový post v aplikaci. Na navazující ilustrace a lokální spuštění není potřeba další potvrzení.
+
+Po kontrolách spusť nebo znovu použij lokální server pro správný checkout, ověř v prohlížeči nové karty a předej skutečně dostupnou URL s base path `/faakt.io/` a odkazem na první nové ID. Server ponech běžet pro uživatelův test; samotný `npm run build` lokální test nezpřístupňuje. Build a dev server nespouštěj souběžně nad stejným `.svelte-kit`; po buildu lokální server případně znovu spusť. Podrobnosti a podmínky dokončení jsou ve skillu.
+
+Výslovné zadání pouze návrhů, textů nebo JSON má přednost. Lokální zpřístupnění není veřejná publikace: merge do `main`, push spouštějící Actions a `npm run deploy` vyžadují odpovídající zadání. Pokud některá část nejde dokončit, zachovej hotovou práci a konkrétně uveď překážku; neoznačuj dávku za kompletní.
+
 ## Skripty
 ```bash
 npm run dev              # Lokální vývoj (http://localhost:5173/faakt.io/)
@@ -156,6 +164,7 @@ Na místním Node.js 18 lze běh spustit bez změny systémové instalace přes
 - **Nastavení Pages**: Settings → Pages → branch `gh-pages`, folder `/ (root)`
 
 ## Pracovní postupy
+- **Uživatelské regrese:** při každé změně uživatelského chování aktualizuj ve stejné změně [docs/uzivatelske-regresni-testy.md](docs/uzivatelske-regresni-testy.md). Nové funkce doplň o konkrétní postup a očekávaný výsledek, změněné či odstraněné ovládání promítni do existujících scénářů a opravené regrese pokryj testem. Zachovej stabilní ID. Při interních změnách pouze ověř relevanci seznamu. Po nasazení použij checklist na skutečném webu; neoznačuj neprovedené ruční testy za úspěšné na základě buildu nebo automatických testů.
 - **Verze aplikace:** zdrojem pravdy je `version` v `package.json`, kterou uživatel obvykle upravuje ručně. Zachovej jeho zvolenou verzi a bez zadání ji nezvyšuj ani nevracej na starší hodnotu. Při změně verze a před odevzdáním změn ověř shodu s `version` a `packages[""].version` v `package-lock.json`; případný nesoulad oprav podle `package.json` bez změn verzí závislostí. Verze zobrazená ve faakt.io musí dál vycházet z `package.json` přes `__APP_VERSION__` ve `vite.config.js`, nikdy z další ručně udržované konstanty. Identifikátor buildu je samostatný údaj.
 - **Větve vol podle souvislosti a rozsahu práce; novou větev nezakládej automaticky pro každý požadavek nebo dávku.** Před změnou zkontroluj aktuální větev a rozpracované změny. Navazující úpravy stejného tématu mohou pokračovat v jedné vhodné pracovní větvi, například postupné dávky ilustrací ve větvi `new-illustrations`. Novou větev založ pro samostatný, nesouvisející úkol nebo pokud oddělení usnadní kontrolu a sloučení změn. Nepřimíchávej nesouvisející práci a zachovej rozpracované změny; respektuj výslovné zadání uživatele ohledně větve.
 - Commituj pravidelně s popisem v češtině
@@ -193,6 +202,10 @@ Doporučený postup:
 
 ## Shared skills for AI agents
 
+- **Automatická výška ilustrací na kartách:** Vite plugin `scripts/illustration-layout.mjs` při vývoji i buildu načítá aktuální číselné WebP soubory. Z alfa ≥16 určuje svislý rozsah kresby. Pokud spodní okraj přesahuje 20 pixelů a lze ušetřit alespoň 20 pixelů (v přepočtu na šířku 640), použije rám vysoký jako kresba + 20 pixelů a vycentruje v něm viditelný motiv. Zachovává měřítko, proporce i původní soubor; slabé alfa zbytky se neořezávají. Nové i nahrazené ilustrace se přepočítají automaticky, v běžícím dev serveru také při změně souboru. Ruční výjimky podle ID nejsou potřeba. Obvyklá registrace obrázku v kartách a galerii stále platí.
+
+- **Čitelnost ilustrací na barevné záři:** při generování počítej i s lokálním CSS experimentem v `CardGlow.svelte` (nepravidelná vícebarevná záře s opacitou 10 %, aktuálně jen v dev režimu). Zachovej skutečnou průhlednost obrázku, záři do něj nekresli. Silueta i podstatné detaily mají být čitelné díky světlostnímu i barevnému kontrastu na původním tmavém podkladu i na záři při 160×90 a 320×180; ověř také skutečnou kartu. Podrobný postup a společný prompt jsou v `skills/faakt-illustrations/`. Změna pravidel sama neautorizuje regeneraci přijatých obrázků.
+
 - **Ilustrace má vzbudit chuť číst:** výrazným motivem, gestem, atmosférou nebo kontrastem. Samotná přehlednost nestačí; i pár oddělených objektů s jedinou šipkou může působit jako rovnice vstupů a výsledku. Když myšlenku lépe nese přirozené setkání či soudržná scéna, propoj prvky pohledem, pózou, pohybem nebo společným prostorem. Růžový plameňák sklánějící se k šedému mláděti může zaujmout bez schématu mládě + potrava → dospělý. Nejde o zákaz diagramů, šipek či vysvětlení principu: mají své místo, když jejich vizuální forma sama dobře funguje jako ilustrace. Posuzuj celkovou kompozici, nikoli jen počet předmětů či kroků.
 
 - **Vycentrování ilustrací:** hlavní motiv má být opticky uprostřed celého obrázku **vodorovně i svisle**, s vyváženými prázdnými okraji. Nevycentrování je přípustné jen pro konkrétní význam, interakci nebo směr děje uvnitř ilustrace; důvod zaznamenej. Kontroluj skutečně viditelný hlavní motiv včetně alfa odsazení, nikoli pouze střed plátna či vzdálené téměř neviditelné pixely. Při finálním zmenšení lze odstranit nadbytečný plně průhledný okraj a motiv vycentrovat bez ořezu jeho částí. Nerezervuj volný sloupec pro text.
@@ -209,3 +222,5 @@ Doporučený postup:
 - Po odmítnutí ilustračního námětu pokračuj v rámci stejného ID náhradním motivem podle sekce „Fallback after a provider refusal“ v ilustračním skillu. U osoby zvol skutečně anonymní scénu, pokud nese téma, jinak relevantní motiv bez osoby; nepřejmenovávej stejnou podobiznu. Nejvýše dva odlišné fallbacky, potom poctivě nahlas případnou překážku. Přijatý výsledek ulož, eviduj původní pokusy a zapni v kartách i galerii.
 
 - For creating new posts, use [skills/faakt-create-posts/SKILL.md](skills/faakt-create-posts/SKILL.md). Read the full current posts database and reject any central idea already covered; title-only checks are insufficient. This provider-independent skill specifies current content structure, categories and illustration metadata together with the editorial handoff.
+<!-- Explicitní výjimka pro uživatelem zadané doplnění číselné mezery. -->
+Pokud uživatel výslovně požádá vyplnit chybějící ID, má tento požadavek přednost před výchozím pokračováním nad maximem. Ověř aktuální volná ID a použij je vzestupně; příkazy `check-plan`, `check-drafts` a `append` v `scripts/post-knowledge.py` v takovém případě vyžadují výslovné `--fill-gaps`. Režim neumožňuje přepsat existující ID ani přeskočit první volné ID. Bez této volby zůstává dosavadní pravidlo maxima + 1. Obsahové kontroly, zdroje a redakční schválení platí beze změny.

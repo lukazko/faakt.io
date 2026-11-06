@@ -1,0 +1,251 @@
+{
+  "snapshot": "9338aea8e5e12673455a3598daaf892e6ddf4e6f4fb1d92d6165b7c8001f43c0",
+  "catalog_reviewed": "9338aea8e5e12673455a3598daaf892e6ddf4e6f4fb1d92d6165b7c8001f43c0",
+  "drafts_hash": "c1e99e8355f8420152c6cc4caee953cfc9e9d33d2fb4b63afffd50467d71bc9f",
+  "decisions": [
+    {
+      "id": "957",
+      "verdict": "accept",
+      "compared_ids": [
+        "483",
+        "286"
+      ],
+      "reason": "483 vysvětluje poválečnou rovnováhu mocností; nový text popisuje organizaci rychlé zdravotnické evakuace. 286 vymezuje právní ochranu raněných, kdežto 957 vysvětluje rychlejší evakuaci lehkými vozy a přiblížení zdravotníků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "958",
+      "verdict": "accept",
+      "compared_ids": [
+        "483"
+      ],
+      "reason": "Poválečná diplomacie v 483 neobsahuje nahrazování třtinového cukru ani podporu řepařství. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "959",
+      "verdict": "accept",
+      "compared_ids": [
+        "483",
+        "542"
+      ],
+      "reason": "Nový poznatek se týká souhry operačního rozptýlení a soustředění bojeschopných sborů, nikoli diplomatické rovnováhy. 542 je o soudržnosti sousedních štítů v taktické formaci; 959 o operační samostatnosti smíšených sborů a koncentraci z oddělených pochodových tras.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "960",
+      "verdict": "accept",
+      "compared_ids": [
+        "232"
+      ],
+      "reason": "232 popisuje růst hustoty tranzistorů; katalog neobsahuje generativní odšumování ani jeho tréninkový mechanismus. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "961",
+      "verdict": "accept",
+      "compared_ids": [
+        "232"
+      ],
+      "reason": "232 zmiňuje nová pouzdra jen okrajově; nevysvětluje rozdělení funkcí mezi čiplety, výtěžnost a cenu komunikace. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "962",
+      "verdict": "accept",
+      "compared_ids": [
+        "231"
+      ],
+      "reason": "231 řeší sdílení tajemství a šifrování; novou pointou je doménově vázaná autentizace, která omezuje phishing. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "963",
+      "verdict": "accept",
+      "compared_ids": [
+        "179",
+        "703",
+        "266",
+        "877"
+      ],
+      "reason": "179 hájí nadčasové přirozené právo a 703 silného suveréna; Epikúros odvozuje platnost pravidla z aktuálního vzájemného prospěchu, nikoli z neomezené moci. 266 je o přátelství. 877 opravuje aplikaci obecného zákona na výjimečný případ podle původního záměru; 963 podmiňuje spravedlnost pravidla aktuálním vzájemným prospěchem a připouští změnu jeho platnosti při změně podmínek.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "964",
+      "verdict": "accept",
+      "compared_ids": [
+        "671",
+        "876"
+      ],
+      "reason": "671 rozlišuje čtyři druhy vysvětlení a 876 jednání proti lepšímu úsudku; zde jde o ontologický rozdíl mezi schopností a činností, ne o morální selhání. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "965",
+      "verdict": "accept",
+      "compared_ids": [
+        "876",
+        "673",
+        "47"
+      ],
+      "reason": "876 vysvětluje slabost vůle a 673 testuje jednání bez trestu; nový text vysvětluje trojčlenný model motivace a roli vznětlivosti. 47 je epistemologická jeskyně. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "966",
+      "verdict": "accept",
+      "compared_ids": [
+        "611",
+        "872",
+        "596"
+      ],
+      "reason": "611 je spor svobody a struktur, 872 řízení veřejného dojmu; nová pointa je asymetrická definice subjektu a Druhého v Druhém pohlaví. 596 popisuje vznik subjektu ideologickým oslovením, 966 asymetrii mezi univerzálním mužským subjektem a ženou ustavenou jako Druhý.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "967",
+      "verdict": "accept",
+      "compared_ids": [
+        "265",
+        "872",
+        "608"
+      ],
+      "reason": "265 třídí přátelství podle jejich základů a 872 společenské výkony; Buber rozlišuje dva způsoby vztahování ke skutečnosti, které se mohou střídat v jednom vztahu. 608 popisuje návaznost promluv a polyfonii románových hlasů; 967 odlišuje objektivující a bezprostřední způsob vztahování ke druhému.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "968",
+      "verdict": "accept",
+      "compared_ids": [
+        "155",
+        "569"
+      ],
+      "reason": "155 je obecná infračervená schopnost Webba a 569 definice hnědých trpaslíků; novým výsledkem je časové rozlišení oblačnosti a chemie konkrétní atmosféry. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "969",
+      "verdict": "accept",
+      "compared_ids": [
+        "577",
+        "155"
+      ],
+      "reason": "577 vysvětluje směr ohonu a 155 infračervený dalekohled; novým objevem je konkrétní kometa a postup její identifikace při kosmologickém průzkumu. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "970",
+      "verdict": "accept",
+      "compared_ids": [
+        "627",
+        "908",
+        "622"
+      ],
+      "reason": "627 je o nenaplnitelné touze po minulosti a 908 o nespolehlivém vypravěči; zde jde o nenápadnou integraci zázraku do každodenního vyprávění. 622 z fantastické proměny vyvozuje podmíněnou hodnotu člověka pro rodinu; 970 se soustředí na soužití magického a všedního ve vypravěčském režimu. 971 užívá strašení k trvání následků otroctví, nevysvětluje obecný režim magického realismu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "971",
+      "verdict": "accept",
+      "compared_ids": [
+        "956",
+        "622"
+      ],
+      "reason": "956 obrací čas a morální význam nacistických činů; 622 řeší rodinnou užitečnost. Milovaná zpřítomňuje přetrvávající zkušenost otroctví, ne převrácenou kauzalitu. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "972",
+      "verdict": "accept",
+      "compared_ids": [
+        "285",
+        "898"
+      ],
+      "reason": "285 je jaderná eskalace a 898 zásobování blokovaného města; Suez odhalil omezení koloniálních mocností a jejich závislost na podpoře USA. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "973",
+      "verdict": "accept",
+      "compared_ids": [
+        "487",
+        "660"
+      ],
+      "reason": "487 je občanský tlak v Československu a 660 vyjednaný konec apartheidu; zde koloniální války rozložily oporu diktatury uvnitř armády a následoval otevřený spor o režim. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "974",
+      "verdict": "accept",
+      "compared_ids": [
+        "487",
+        "660"
+      ],
+      "reason": "Na rozdíl od přechodů v 487 a 660 nový text sleduje rozchod revoluční koalice a ústavní institucionalizaci náboženského vedení. Finální text odpovídá plánované pointě a v nové dávce nepokrývá stejný mechanismus jako jiný návrh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "975",
+      "verdict": "accept",
+      "compared_ids": [
+        "640",
+        "265",
+        "418"
+      ],
+      "reason": "640 řeší převahu negativních podnětů a 265 filozofické typy přátelství; nový mechanismus je interpersonální sdílení a rozvíjení pozitivní události. 418 třídí citovou vazbu podle reakce na odloučení a návrat; 975 je specifický proces sdílené pozitivní události. Oproti 976 vysvětluje rozšiřování radosti z konkrétního úspěchu, nikoli obecnou intimitu sebeodhalení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "976",
+      "verdict": "accept",
+      "compared_ids": [
+        "418",
+        "265",
+        "158"
+      ],
+      "reason": "418 klasifikuje dětskou citovou vazbu a 265 typy přátelství; zde se vysvětluje průběžný proces sebeodhalení a vnímané odezvy v jednotlivých dospělých interakcích. 158 zkoumá preferenci tělesného kontaktu u mláďat; 976 vnímané porozumění po slovním sebeodhalení dospělých. Není zaměnitelné s 975: nevyžaduje pozitivní událost a vysvětluje roli přijetí emocionálního sdělení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

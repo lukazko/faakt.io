@@ -161,7 +161,7 @@ python scripts/post-knowledge.py append --drafts reports/drafts.json --approval 
 
 `append` odmítne známé shodné `idea`, identickou pointu pod jiným ID, opakování v dávce, neplatné tagy, chybné články a zastaralé rozhodnutí. Nemůže odhalit všechny významové parafráze; jejich kontrola patří editorovi. Zapíše články **bez** pracovního `knowledge`, významová data rozdělí do registrů a uloží kontrolní stav. Původní objekty článků zachová. Nejde o publikaci ani generování obrázků. Při přerušení mezi zápisy více souborů se stav musí znovu ověřit a opravit z uchovaného návrhu/rozhodnutí; neignoruj neúplný index.
 
-Poté pokračuj projektovými kontrolami a případně autorizovanými ilustracemi. Samotná změna významových souborů není důvod znovu generovat obrázky nebo měnit ilustrační metadata.
+Při běžném přidání nových postů poté pokračuj ilustracemi pro nová ID, jejich registrací v kartách a galerii, projektovými kontrolami a běžícím lokálním testem podle [faakt-create-posts](../skills/faakt-create-posts/SKILL.md). Tyto kroky jsou součástí zadání a nevyžadují další potvrzení; výslovné omezení pouze na návrhy či JSON má přednost. Samotná oprava významových souborů existujících článků není důvod znovu generovat jejich obrázky nebo měnit ilustrační metadata.
 
 ## Oprava změněných metadat
 
@@ -203,3 +203,5 @@ Doplněno 796 článků, 753 různých poznatků a 163 řízených tagů. Podkla
 Skript odstraňuje opakované předky tagů, validuje registr, hashe, úplnost a konzistenci. Není zdrojem úsudku o významu. Backfill ani následná práce nepoužívají AI API, externí služby či placené embeddingy. Stručný katalog má 87 565 znaků proti 628 377 znakům titulků a textů: přibližně o 86 % méně znaků, nikoli měřených tokenů. Aktuální počty a velikosti vždy vypočte `status`.
 
 `npm test` zahrnuje skutečný dataset, kontrolu zastarávání, hledání přes aliasy, seskupování duplicit a odmítání neplatných či zastaralých zápisů. `npm run build` ověří statické zabalení samostatných souborů.
+<!-- Explicitní výjimka pro uživatelem zadané doplnění číselné mezery. -->
+Pokud uživatel výslovně požádá vyplnit chybějící ID, má tento požadavek přednost před výchozím pokračováním nad maximem. Ověř aktuální volná ID a použij je vzestupně; příkazy `check-plan`, `check-drafts` a `append` v `scripts/post-knowledge.py` v takovém případě vyžadují výslovné `--fill-gaps`. Režim neumožňuje přepsat existující ID ani přeskočit první volné ID. Bez této volby zůstává dosavadní pravidlo maxima + 1. Obsahové kontroly, zdroje a redakční schválení platí beze změny.

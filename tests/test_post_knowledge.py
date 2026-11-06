@@ -158,5 +158,29 @@ class KnowledgeTests(unittest.TestCase):
            'compared_ids':['7'],'reason':'This should not be accepted because the point is identical.','verdict':'accept'}
         with self.assertRaises(ValueError): k.validate_plan(self.virtual(),{'snapshot':current,'catalog_reviewed':current,'proposals':[p]},self.tags)
 
+    def test_gap_ids_require_explicit_mode_and_ascending_free_ids(self):
+        draft=self.draft(id='1',idea='idea-1')
+        self.assertTrue(k.draft_check(self.virtual(),[draft],self.tags)['errors'])
+        self.assertFalse(k.draft_check(self.virtual(),[draft],self.tags,True)['errors'])
+        for invalid_id in ['2','7','8']:
+            draft['id']=invalid_id
+            self.assertTrue(k.draft_check(self.virtual(),[draft],self.tags,True)['errors'])
+
+    def test_gap_append_keeps_existing_posts_and_updates_index(self):
+        draft=self.draft(id='1',idea='idea-1')
+        drafts=self.root/'gap-drafts.json'; approval=self.root/'gap-approval.json'
+        k.write(drafts,[draft]); current=k.snapshot(self.virtual(),self.tags)
+        proposal={'id':'1','category':'filozofie','knowledge':draft['knowledge'],
+                  'compared_ids':['7'],'reason':'A different mechanism explicitly reviewed against the existing article.','verdict':'accept'}
+        plan={'snapshot':current,'catalog_reviewed':current,'proposals':[proposal]}
+        with self.assertRaises(ValueError): k.validate_plan(self.virtual(),plan,self.tags)
+        self.assertEqual(len(k.validate_plan(self.virtual(),plan,self.tags,True)),1)
+        decision={**proposal,'final_text_reviewed':True,'within_batch_reviewed':True,'sources_verified':True}
+        k.write(approval,{'snapshot':current,'catalog_reviewed':current,'drafts_hash':k.digest([draft]),'decisions':[decision]})
+        self.invoke('append','--fill-gaps','--drafts',str(drafts),'--approval',str(approval))
+        self.assertEqual(k.read(self.paths['posts'])[0],self.post)
+        self.assertEqual(set(k.read(self.paths['knowledge'])['posts']),{'1','7'})
+        self.assertEqual(self.invoke('status')[0],0)
+
 
 if __name__=='__main__': unittest.main()

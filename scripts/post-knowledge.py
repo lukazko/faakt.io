@@ -296,7 +296,7 @@ def snapshot(posts, tags):
                              for p in posts], 'tags': tags, 'version': VERSION})
 
 
-def draft_check(posts, drafts, tags):
+def draft_check(posts, drafts, tags, fill_gaps=False):
     existing_ideas = defaultdict(list)
     existing_points = defaultdict(list)
     for p in posts:
@@ -304,13 +304,15 @@ def draft_check(posts, drafts, tags):
         existing_points[normalize(p['knowledge']['point'])].append(p['id'])
     errors, seen_ideas, seen_ids, seen_points, rows = [], set(), set(), set(), []
     max_id = max((int(p['id']) for p in posts), default=0)
+    available = [str(i) for i in range(1, max_id) if str(i) not in {p['id'] for p in posts}] if fill_gaps else []
     for offset, p in enumerate(drafts, 1):
         id = p.get('id')
         try:
             if set(p) != {'id','title','content','category','sources','illustration','knowledge'}:
                 raise ValueError('Draft fields must match article schema plus working knowledge')
             validate_knowledge(p.get('knowledge'), tags)
-            if id != str(max_id+offset) or id in seen_ids:
+            expected = available[offset-1] if fill_gaps and offset <= len(available) else str(max_id+offset-len(available))
+            if id != expected or id in seen_ids:
                 raise ValueError('Draft IDs must follow the current maximum in order')
             m = p['knowledge']
             if m['idea'] in existing_ideas:
@@ -358,7 +360,7 @@ def draft_check(posts, drafts, tags):
     return {'errors': errors, 'candidates': rows, 'semantic_approval': 'required'}
 
 
-def validate_plan(posts, plan, tags):
+def validate_plan(posts, plan, tags, fill_gaps=False):
     current = snapshot(posts, tags)
     if plan.get('snapshot') != current or plan.get('catalog_reviewed') != current:
         raise ValueError('Plan requires current snapshot and explicit complete-catalog review')
@@ -370,9 +372,11 @@ def validate_plan(posts, plan, tags):
     points = {normalize(p['knowledge']['point']) for p in posts}
     categories = valid_categories()
     maximum = max(map(int, ids), default=0)
+    available = [str(i) for i in range(1, maximum) if str(i) not in ids] if fill_gaps else []
     for offset, p in enumerate(proposals, 1):
         validate_knowledge(p.get('knowledge'), tags)
-        if p.get('id') != str(maximum+offset) or p.get('category') not in categories:
+        expected = available[offset-1] if fill_gaps and offset <= len(available) else str(maximum+offset-len(available))
+        if p.get('id') != expected or p.get('category') not in categories:
             raise ValueError('Plan ID/category invalid')
         m = p['knowledge']
         if m['idea'] in ideas or normalize(m['point']) in points:
@@ -418,9 +422,11 @@ def main(argv=None):
     for name in ['check-drafts', 'append']:
         cmd = sub.add_parser(name)
         cmd.add_argument('--drafts', type=Path, required=True)
+        cmd.add_argument('--fill-gaps', action='store_true', help='Use only when the user explicitly requests filling missing IDs')
         if name == 'append': cmd.add_argument('--approval', type=Path, required=True)
     plan_cmd = sub.add_parser('check-plan')
     plan_cmd.add_argument('--plan', type=Path, required=True)
+    plan_cmd.add_argument('--fill-gaps', action='store_true', help='Use only when the user explicitly requests filling missing IDs')
     args = parser.parse_args(argv)
     input_paths = [args.posts, args.knowledge, args.ideas_file, args.tags_file, args.state]
     input_hashes = {p: file_hash(p) if p.exists() else None for p in input_paths}
@@ -519,11 +525,11 @@ def main(argv=None):
                            'knowledge': p['knowledge']} for p in posts if p['id'] in ids], ensure_ascii=False, indent=2))
     elif args.command == 'check-plan':
         plan = read(args.plan)
-        proposals = validate_plan(posts, plan, tags)
+        proposals = validate_plan(posts, plan, tags, args.fill_gaps)
         print(json.dumps({'accepted_proposals': len(proposals), 'snapshot': snapshot(posts, tags)}))
     elif args.command in {'check-drafts', 'append'}:
         drafts = read(args.drafts)
-        result = draft_check(posts, drafts, tags)
+        result = draft_check(posts, drafts, tags, args.fill_gaps)
         result.update({'snapshot': snapshot(posts, tags), 'drafts_hash': digest(drafts)})
         if args.command == 'check-drafts':
             print(json.dumps(result, ensure_ascii=False, indent=2)); return int(bool(result['errors']))

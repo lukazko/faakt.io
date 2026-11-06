@@ -1,6 +1,6 @@
 # Zadání pro AI agenta: nové příspěvky faakt.io
 
-Jsi editor obsahu aplikace faakt.io. Vytváříš nové, čtivé příspěvky v češtině založené výhradně na ověřitelných skutečnostech. Výstup se bude vkládat do databáze aplikace, proto dodrž její datový formát přesně.
+Jsi editor obsahu aplikace faakt.io. Vytváříš nové, čtivé příspěvky v češtině založené výhradně na ověřitelných skutečnostech. Při práci v repozitáři standardně dokonči celý postup: obsah, vložení do databáze, skutečné ilustrace, zapojení do karet a galerie, kontroly a běžící aplikaci pro lokální test. Podrobný postup a podmínky dokončení určuje [faakt-create-posts](../skills/faakt-create-posts/SKILL.md). Na ilustrace ani lokální spuštění se znovu neptej; jsou součástí běžného požadavku na nové posty. Výslovné zadání pouze návrhů, textů nebo JSON má přednost. Veřejné nasazení není součástí lokálního testu.
 
 ## Než začneš
 
@@ -100,16 +100,19 @@ Použij pouze tyto hodnoty:
 
 ## Výstup a kontrola
 
-- Vrať pouze jeden validní JSON seznam nových příspěvků. Bez Markdownových bloků, úvodu, závěru nebo komentářů mimo JSON.
+- Při přidání postů do aplikace dokonči celý postup podle skillu včetně ilustrací a běžícího lokálního testu. Předej dokončená ID, výsledky kontrol a ověřenou URL na nové posty; samotný build nestačí.
+- Pouze při výslovném zadání JSON výstupu vrať jeden validní JSON seznam nových příspěvků bez Markdownových bloků a komentářů. Takto lze použít zadání i u externího agenta, který připravuje pouze návrhy pro následný import.
 - Každý objekt musí mít přesně použitá pole a datové typy z uvedeného příkladu. Zachovej všechna pole; vynechaný zdroj nebo ilustrační metadata nejsou přijatelné.
 - Před odevzdáním zkontroluj validitu JSON, navazující jedinečná ID, délku a jazyk textu, 2 až 3 zdroje, kategorii a všechny hodnoty enumů.
 - Samostatně ověř, že první odstavec (hook) obsahuje 2 až 3 smysluplné věty a není prodloužený výplní.
 - Zkontroluj, že ilustrace vychází z konkrétního příspěvku, že hlavní a doplňkové motivy dávají smysl společně a že se kompozice v rámci dávky zbytečně neopakují.
 - `concept`, `scene_type` a `composition_hints` popisují stejný vybraný aspekt. Relevantní objekt je dostačující i u argumentu, paradoxu nebo mechanismu; není potřeba zobrazit celý vztah či důkaz. Klíčová slova nesmějí zbytečně rozšiřovat inventář obrázku.
-- Dodané existující příspěvky nikdy nepřepisuj, nemaž ani neupravuj. Vrať pouze nové záznamy.
+- Dodané existující příspěvky nikdy nepřepisuj, nemaž ani neupravuj. Připoj nebo exportuj pouze nové záznamy podle zadaného rozsahu.
 
 ## Údržba tohoto zadání
 
 Při změně datové struktury příspěvku, pravidel generování nebo redakčních pravidel obsahu v projektu faakt.io musí být tento soubor aktualizován ve stejné změně. Povolené kategorie, typy scén, nálady, palety, datové typy i ukázkový JSON musí odpovídat aktuálnímu projektu; neudržuj zastaralé hodnoty.
 
 Ilustrace musí mít rozpoznatelný hlavní motiv na první pohled. Vol podle kontextu: objekt, portrét, jednoduchý děj nebo vědecký vztah či kontrast čitelný na první pohled. Pokud by bylo potřeba mnoho samostatných předmětů, několik kroků nebo šipkový řetězec pro rozluštění vztahů, vyber jeden rozpoznatelný aspekt. Jedna užitečná šipka sama o sobě není problém. Drobné značky, grafy, přístroje a pozorovatele nepřidávej pro úplnost. Stručný známý symbol, například značka zákazu, je vhodný doplněk.
+<!-- Explicitní výjimka pro uživatelem zadané doplnění číselné mezery. -->
+Pokud uživatel výslovně požádá vyplnit chybějící ID, má tento požadavek přednost před výchozím pokračováním nad maximem. Ověř aktuální volná ID a použij je vzestupně; příkazy `check-plan`, `check-drafts` a `append` v `scripts/post-knowledge.py` v takovém případě vyžadují výslovné `--fill-gaps`. Režim neumožňuje přepsat existující ID ani přeskočit první volné ID. Bez této volby zůstává dosavadní pravidlo maxima + 1. Obsahové kontroly, zdroje a redakční schválení platí beze změny.

@@ -1,0 +1,399 @@
+{
+  "snapshot": "9338aea8e5e12673455a3598daaf892e6ddf4e6f4fb1d92d6165b7c8001f43c0",
+  "catalog_reviewed": "9338aea8e5e12673455a3598daaf892e6ddf4e6f4fb1d92d6165b7c8001f43c0",
+  "proposals": [
+    {
+      "id": "957",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-957",
+        "point": "Larreyho lehké koňské ambulance přiblížily zdravotní pomoc bojišti a urychlily odsun raněných již během boje.",
+        "tags": [
+          "military-history",
+          "innovation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "483"
+      ],
+      "reason": "483 vysvětluje poválečnou rovnováhu mocností; nový text popisuje organizaci rychlé zdravotnické evakuace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "958",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-958",
+        "point": "Omezení zámořského obchodu za napoleonských válek podnítilo francouzskou podporu výroby cukru z řepy v roce 1811.",
+        "tags": [
+          "economic-history",
+          "innovation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "483"
+      ],
+      "reason": "Poválečná diplomacie v 483 neobsahuje nahrazování třtinového cukru ani podporu řepařství.",
+      "verdict": "accept"
+    },
+    {
+      "id": "959",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-959",
+        "point": "Napoleonské sbory kombinovaly různé druhy vojska, aby mohly pochodovat odděleně a vydržet boj do příchodu posil.",
+        "tags": [
+          "military-history",
+          "organizations",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "483"
+      ],
+      "reason": "Nový poznatek se týká souhry operačního rozptýlení a soustředění bojeschopných sborů, nikoli diplomatické rovnováhy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "960",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-960",
+        "point": "Difuzní model se učí odstraňovat přidaný šum a při generování opakovanými odhady převádí náhodný vstup na obraz.",
+        "tags": [
+          "artificial-intelligence",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "232"
+      ],
+      "reason": "232 popisuje růst hustoty tranzistorů; katalog neobsahuje generativní odšumování ani jeho tréninkový mechanismus.",
+      "verdict": "accept"
+    },
+    {
+      "id": "961",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-961",
+        "point": "Čipletová konstrukce spojuje menší samostatně vyráběné čipy do pouzdra a vyměňuje výrobní flexibilitu za nároky na propojení.",
+        "tags": [
+          "computing",
+          "materials",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "232"
+      ],
+      "reason": "232 zmiňuje nová pouzdra jen okrajově; nevysvětluje rozdělení funkcí mezi čiplety, výtěžnost a cenu komunikace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "962",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-962",
+        "point": "Passkey váže podpis přihlašovací výzvy na doménu služby, takže napodobenina webu nemůže běžně využít její přihlašovací klíč.",
+        "tags": [
+          "computer-security",
+          "cryptography",
+          "privacy"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "231"
+      ],
+      "reason": "231 řeší sdílení tajemství a šifrování; novou pointou je doménově vázaná autentizace, která omezuje phishing.",
+      "verdict": "accept"
+    },
+    {
+      "id": "963",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-963",
+        "point": "Epikúros chápe spravedlnost jako vzájemně užitečnou dohodu neškodit si, jejíž konkrétní pravidla se mohou měnit s podmínkami.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "epicurus",
+          "fairness"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "179",
+        "703",
+        "266"
+      ],
+      "reason": "179 hájí nadčasové přirozené právo a 703 silného suveréna; Epikúros odvozuje platnost pravidla z aktuálního vzájemného prospěchu, nikoli z neomezené moci. 266 je o přátelství.",
+      "verdict": "accept"
+    },
+    {
+      "id": "964",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-964",
+        "point": "Aristotelés rozlišuje skutečnou schopnost od jejího uskutečnění, takže nečinný stavitel nepřestává být schopen stavět.",
+        "tags": [
+          "ancient-philosophy",
+          "metaphysics",
+          "aristotle"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "671",
+        "876"
+      ],
+      "reason": "671 rozlišuje čtyři druhy vysvětlení a 876 jednání proti lepšímu úsudku; zde jde o ontologický rozdíl mezi schopností a činností, ne o morální selhání.",
+      "verdict": "accept"
+    },
+    {
+      "id": "965",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-965",
+        "point": "Platón v Ústavě rozlišuje rozum, vznětlivou složku a žádostivost a spravedlnost duše chápe jako jejich uspořádaný vztah.",
+        "tags": [
+          "ancient-philosophy",
+          "philosophy-of-mind",
+          "plato"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "876",
+        "673",
+        "47"
+      ],
+      "reason": "876 vysvětluje slabost vůle a 673 testuje jednání bez trestu; nový text vysvětluje trojčlenný model motivace a roli vznětlivosti. 47 je epistemologická jeskyně.",
+      "verdict": "accept"
+    },
+    {
+      "id": "966",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-966",
+        "point": "Beauvoir vysvětluje podřízenost žen jejich vymezováním jako Druhého vůči muži přijímanému za obecnou lidskou normu.",
+        "tags": [
+          "existentialism",
+          "identity",
+          "fairness"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "611",
+        "872"
+      ],
+      "reason": "611 je spor svobody a struktur, 872 řízení veřejného dojmu; nová pointa je asymetrická definice subjektu a Druhého v Druhém pohlaví.",
+      "verdict": "accept"
+    },
+    {
+      "id": "967",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-967",
+        "point": "Buber rozlišuje poznávání a užívání druhého jako objektu od setkání Já–Ty, v němž člověk není redukován na vlastnosti či funkci.",
+        "tags": [
+          "modern-philosophy",
+          "identity",
+          "communication"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "265",
+        "872"
+      ],
+      "reason": "265 třídí přátelství podle jejich základů a 872 společenské výkony; Buber rozlišuje dva způsoby vztahování ke skutečnosti, které se mohou střídat v jednom vztahu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "968",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-968",
+        "point": "Časová spektroskopie WISE 0855 v práci z roku 2026 odlišila změny chemického složení od signálů proměnlivé tloušťky vodních oblaků.",
+        "tags": [
+          "stars",
+          "optics",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "155",
+        "569"
+      ],
+      "reason": "155 je obecná infračervená schopnost Webba a 569 definice hnědých trpaslíků; novým výsledkem je časové rozlišení oblačnosti a chemie konkrétní atmosféry.",
+      "verdict": "accept"
+    },
+    {
+      "id": "969",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-969",
+        "point": "Snímky Euclidu ze září 2026 odhalily novou kometu C/2026 S1 díky pohybu vůči vzdálenému pozadí a patrné komě.",
+        "tags": [
+          "solar-system",
+          "spaceflight",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "577",
+        "155"
+      ],
+      "reason": "577 vysvětluje směr ohonu a 155 infračervený dalekohled; novým objevem je konkrétní kometa a postup její identifikace při kosmologickém průzkumu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "970",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-970",
+        "point": "Sto roků samoty propojuje nadpřirozené a každodenní dění stejným vypravěčským tónem, čímž vytváří magický realismus Maconda.",
+        "tags": [
+          "narratology",
+          "perceived-reality"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "627",
+        "908"
+      ],
+      "reason": "627 je o nenaplnitelné touze po minulosti a 908 o nespolehlivém vypravěči; zde jde o nenápadnou integraci zázraku do každodenního vyprávění.",
+      "verdict": "accept"
+    },
+    {
+      "id": "971",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-971",
+        "point": "Morrisonové Milovaná zpřítomňuje následky otroctví jako strašení a vracející se paměť, takže právní svoboda neukončuje působení minulosti.",
+        "tags": [
+          "narratology",
+          "preservation",
+          "identity"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "956",
+        "622"
+      ],
+      "reason": "956 obrací čas a morální význam nacistických činů; 622 řeší rodinnou užitečnost. Milovaná zpřítomňuje přetrvávající zkušenost otroctví, ne převrácenou kauzalitu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "972",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-972",
+        "point": "Suezská krize roku 1956 ukázala, že britsko-francouzská vojenská převaha nestačí k prosazení cíle proti americkému a mezinárodnímu tlaku.",
+        "tags": [
+          "modern-history",
+          "international-relations",
+          "power"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "285",
+        "898"
+      ],
+      "reason": "285 je jaderná eskalace a 898 zásobování blokovaného města; Suez odhalil omezení koloniálních mocností a jejich závislost na podpoře USA.",
+      "verdict": "accept"
+    },
+    {
+      "id": "973",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-973",
+        "point": "Portugalská revoluce v dubnu 1974 vzešla z vojenského odporu spjatého s koloniálními válkami a otevřela sporný přechod k demokracii.",
+        "tags": [
+          "modern-history",
+          "democracy",
+          "freedom"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "487",
+        "660"
+      ],
+      "reason": "487 je občanský tlak v Československu a 660 vyjednaný konec apartheidu; zde koloniální války rozložily oporu diktatury uvnitř armády a následoval otevřený spor o režim.",
+      "verdict": "accept"
+    },
+    {
+      "id": "974",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-974",
+        "point": "Po pádu íránské monarchie v roce 1979 vytlačilo uspořádání s nadřazenou náboženskou autoritou jiné představy o výsledku revoluce.",
+        "tags": [
+          "modern-history",
+          "political-science",
+          "power"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "487",
+        "660"
+      ],
+      "reason": "Na rozdíl od přechodů v 487 a 660 nový text sleduje rozchod revoluční koalice a ústavní institucionalizaci náboženského vedení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "975",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-975",
+        "point": "Aktivní a vstřícná reakce na sdílený úspěch souvisí s kvalitou vztahu a může rozšiřovat přínos samotné dobré události.",
+        "tags": [
+          "social-psychology",
+          "communication",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "640",
+        "265"
+      ],
+      "reason": "640 řeší převahu negativních podnětů a 265 filozofické typy přátelství; nový mechanismus je interpersonální sdílení a rozvíjení pozitivní události.",
+      "verdict": "accept"
+    },
+    {
+      "id": "976",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-976",
+        "point": "Pocit intimity souvisí vedle sebeodhalení také s vnímaným porozuměním a přijetím v reakci druhého člověka.",
+        "tags": [
+          "social-psychology",
+          "communication",
+          "identity"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "418",
+        "265"
+      ],
+      "reason": "418 klasifikuje dětskou citovou vazbu a 265 typy přátelství; zde se vysvětluje průběžný proces sebeodhalení a vnímané odezvy v jednotlivých dospělých interakcích.",
+      "verdict": "accept"
+    }
+  ]
+}

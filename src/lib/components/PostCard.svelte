@@ -1,4 +1,5 @@
 <script>
+	import { illustrationLayouts } from 'virtual:illustration-layout';
 	/**
 	 * Oboustranná karta příspěvku.
 	 * Líc: hook, titulek, kategorie a CTA, které kartu otočí.
@@ -27,6 +28,7 @@
 	import CategoryBadge from './CategoryBadge.svelte';
 	import PostBody from './PostBody.svelte';
 	import PostIllustration from './PostIllustration.svelte';
+	import CardGlow from './CardGlow.svelte';
 	import { getHook } from '$lib/teaser.js';
 	import { shouldShowFlipHint, markCardFlipped } from '$lib/flipHint.js';
 
@@ -70,8 +72,14 @@
 			flipHint = false;
 			return;
 		}
-		flipHint = shouldShowFlipHint()
-			&& !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		const showHint = () => {
+			manualHint = false;
+			flipHint = shouldShowFlipHint()
+				&& !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+		};
+		showHint();
+		const interval = window.setInterval(showHint, 7000);
+		return () => window.clearInterval(interval);
 	});
 
 	let frontBtnEl = $state(null);
@@ -239,6 +247,7 @@
 			aria-hidden={flipped}
 			aria-labelledby="{frontId}-title"
 		>
+			<CardGlow {post} />
 			<div class="front-inner">
 				<div class="front-main">
 					<div class="front-top">
@@ -250,7 +259,11 @@
 						{@render actionControls('front')}
 					</div>
 					<h2 id="{frontId}-title" class="title">{post.title}</h2>
-					<div class="front-art" aria-hidden="true">
+					<div class="front-art" aria-hidden="true"
+						style:--art-height={illustrationLayouts[post.id]?.height ?? 360}
+						style:--art-canvas-height={illustrationLayouts[post.id]?.canvasHeight ?? 360}
+						style:--art-center={`${illustrationLayouts[post.id]?.center ?? 50}%`}
+						style:--art-position={illustrationLayouts[post.id] ? 'center' : 'center top'}>
 						<PostIllustration {post} {active} />
 					</div>
 					<p class="teaser">{hook}</p>
@@ -287,6 +300,7 @@
 			aria-hidden={!flipped}
 			aria-labelledby="{backId}-title"
 		>
+			<CardGlow {post} />
 			<!-- Vlastní scrollovací plocha rubu. Na konci textu se scroll
 			     přirozeně přelije do feedu — další gesto posune na další kartu. -->
 			<div class="back-scroll" bind:this={backScrollEl} tabindex="0" aria-label={`Celý text: ${post.title}`} aria-keyshortcuts="Escape">
@@ -529,7 +543,7 @@
 		overflow: hidden;
 		background: #101010;
 		background: linear-gradient(180deg, #141414 0%, #0d0d0d 100%);
-		border: 1px solid #262626;
+		border: none;
 		border-radius: 22px;
 		box-shadow: 0 12px 40px rgba(0, 0, 0, 0.45);
 		-webkit-backface-visibility: hidden;
@@ -548,6 +562,7 @@
 
 	/* --- Líc --- */
 	.front-inner {
+		position: relative;
 		display: flex;
 		flex-direction: column;
 		gap: 14px;
@@ -570,7 +585,7 @@
 	.front-main {
 		flex: 1 1 auto;
 		min-height: 0;
-		overflow: hidden;
+		overflow: visible;
 		display: flex;
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
@@ -612,14 +627,14 @@
 	.front-art {
 		position: relative;
 		flex: 0 1 auto;
+		margin-top: 12px;
 		width: 100%;
-		aspect-ratio: 16 / 9;
+		aspect-ratio: 640 / var(--art-height, 360);
 		min-height: 0;
 		display: flex;
 		align-items: flex-end;
 		justify-content: center;
-		overflow: hidden;
-		opacity: 0.92;
+		overflow: visible;
 	}
 
 	.front-footer {
@@ -679,6 +694,7 @@
 	   a posune na další kartu. Tenký pás pod kartou zůstává pro scrollování
 	   rovnou z rubu, takže o zpětný chod feedu není nouze. */
 	.back-scroll {
+		position: relative;
 		flex: 1;
 		min-height: 0;
 		outline: none;

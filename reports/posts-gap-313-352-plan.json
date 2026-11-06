@@ -1,0 +1,801 @@
+{
+  "snapshot": "29fdf633084b42b81b7e47542005dcfabed6dde6b45fe3339e4ebceb306bd8c1",
+  "catalog_reviewed": "29fdf633084b42b81b7e47542005dcfabed6dde6b45fe3339e4ebceb306bd8c1",
+  "id_policy": "User explicitly requested filling existing gaps; first 40 missing IDs are 313–352.",
+  "proposals": [
+    {
+      "id": "313",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-313",
+        "point": "Nelson u Trafalgaru rozdělil flotilu do dvou kolon, aby prorazil nepřátelskou linii a soustředil boj na její část navzdory riziku při přibližování.",
+        "tags": [
+          "military-history",
+          "decision-making"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "959"
+      ],
+      "reason": "Námořní prolomení bojové linie se liší od samostatnosti a soustřeďování pozemních sborů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "314",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-314",
+        "point": "Ztráty koní v ruském tažení roku 1812 oslabily nejen jezdectvo, ale také přesuny děl a zásobování a omezily Napoleonovu obnovu armády.",
+        "tags": [
+          "military-history",
+          "resources"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "957",
+        "959"
+      ],
+      "reason": "Jde o systémovou závislost dopravy a palebné síly na koních, nikoli o ambulance či organizaci sborů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "315",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-315",
+        "point": "Chappeho optický telegraf předával kódované polohy ramen mezi viditelnými stanicemi, takže urychloval státní komunikaci, ale závisel na dohlednosti.",
+        "tags": [
+          "modern-history",
+          "communication",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "528"
+      ],
+      "reason": "Optická retranslace kódu bez dopravy posla je odlišná od římské sítě přepřahacích stanic.",
+      "verdict": "accept"
+    },
+    {
+      "id": "316",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-316",
+        "point": "Francouzský občanský zákoník z roku 1804 sjednocoval soukromé právo, ale v manželství kodifikoval mužovu autoritu a omezenou právní samostatnost ženy.",
+        "tags": [
+          "modern-history",
+          "law",
+          "fairness"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "966",
+        "525"
+      ],
+      "reason": "Konkrétní právní omezení manželek v roce 1804 není Beauvoirina teorie Druhého ani samotné zveřejnění zákona.",
+      "verdict": "accept"
+    },
+    {
+      "id": "317",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-317",
+        "point": "Wellingtonovo rozmístění za hřebenem u Waterloo omezovalo přímé pozorování a účinky francouzské palby, zatímco armáda čekala na pruskou pomoc.",
+        "tags": [
+          "military-history",
+          "cooperation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "959",
+        "483"
+      ],
+      "reason": "Ochrana terénem v konkrétní bitvě je jiný mechanismus než sbory či poválečná mocenská rovnováha.",
+      "verdict": "accept"
+    },
+    {
+      "id": "318",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-318",
+        "point": "RAG přidává k dotazu dohledané dokumenty, aby model odpovídal s externím kontextem, ale nezaručuje správný výběr ani věrné použití podkladů.",
+        "tags": [
+          "artificial-intelligence",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "960"
+      ],
+      "reason": "Vyhledání externích dokumentů pro odpověď je jiný mechanismus než postupné odšumování při tvorbě obrazu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "319",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-319",
+        "point": "Spekulativní dekódování ověřuje více návrhů menšího modelu v jednom běhu většího modelu a při správném přijímání zachovává jeho výstupní rozdělení.",
+        "tags": [
+          "artificial-intelligence",
+          "algorithms",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "961",
+        "960"
+      ],
+      "reason": "Zrychlení inference pomocí návrhu a ověření se netýká čipletového pouzdra ani generování odšumováním.",
+      "verdict": "accept"
+    },
+    {
+      "id": "320",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-320",
+        "point": "Postkvantové algoritmy jako ML-KEM běží na běžných počítačích a mají odolat i známým útokům budoucích kvantových počítačů.",
+        "tags": [
+          "cryptography",
+          "computer-security",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "231",
+        "962"
+      ],
+      "reason": "Odolnost vůči kvantovým útokům je jiný problém než princip dvou klíčů či vazba přihlášení na doménu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "321",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-321",
+        "point": "Perovskitovo-křemíkový tandem využívá různé části slunečního spektra ve dvou polovodičových vrstvách, ale jeho nasazení omezuje i stabilita a výroba.",
+        "tags": [
+          "materials",
+          "optics",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "809"
+      ],
+      "reason": "Rozdělení spektra mezi dvě absorpční vrstvy není pouhé vysvětlení fotoelektrického jevu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "322",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-322",
+        "point": "Sodíkové akumulátory využívají dostupný sodík, ale odlišné ukládání iontů vyžaduje vhodné elektrody, například tvrdý uhlík místo běžné grafitové anody.",
+        "tags": [
+          "materials",
+          "chemistry",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "961"
+      ],
+      "reason": "Elektrochemické ukládání sodíku nemá v katalogu blízký mechanismus; čiplety jsou jen vzdálený technický námět.",
+      "verdict": "accept"
+    },
+    {
+      "id": "323",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-323",
+        "point": "Epikúros rozlišuje nutné přirozené touhy, nenutné přirozené touhy a prázdné touhy, aby oddělil dosažitelnou potřebu od neomezeného honu za uspokojením.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "epicurus",
+          "wellbeing"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "37",
+        "266",
+        "963"
+      ],
+      "reason": "Třídění tužeb není argument proti strachu ze smrti, hodnota přátelství ani smluvní spravedlnost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "324",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-324",
+        "point": "Aristotelés odlišuje poměrné rozdělování společných statků od nápravy škody, která vyrovnává neoprávněný zisk a ztrátu mezi stranami.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "aristotle",
+          "fairness"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "877",
+        "186"
+      ],
+      "reason": "Rozlišení dvou druhů spravedlnosti není oprava obecnosti zákona ani volba pravidel pod závojem nevědomosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "325",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-325",
+        "point": "Sókratés v Platónově Kritónovi odmítá oplácení bezpráví bezprávím, protože utrpěná křivda sama nečiní vlastní nespravedlivý čin správným.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "socrates"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "6",
+        "66"
+      ],
+      "reason": "Zákaz odplaty při již utrpěné křivdě je odlišný argument od reciprocity i tázací metody.",
+      "verdict": "accept"
+    },
+    {
+      "id": "326",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-326",
+        "point": "Aristotelés rozlišuje jednání z neznalosti konkrétních okolností od zaviněné nevědomosti, takže opilost nebo zanedbané poznání nemusí zbavovat odpovědnosti.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "aristotle",
+          "freedom"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "876",
+        "877"
+      ],
+      "reason": "Zaviněná neznalost a dobrovolnost činu je odlišná od slabé vůle navzdory vědění i opravy obecného zákona.",
+      "verdict": "accept"
+    },
+    {
+      "id": "327",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-327",
+        "point": "Platónovi filozofičtí vládci mají řídit obec díky poznání dobra a neochotě užívat moc pro vlastní prospěch, nikoli díky pouhé touze vládnout.",
+        "tags": [
+          "ancient-philosophy",
+          "political-philosophy",
+          "plato",
+          "power"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "965",
+        "47"
+      ],
+      "reason": "Způsobilost a motivace vládců je odlišná od členění duše a poznávacího obrazu jeskyně.",
+      "verdict": "accept"
+    },
+    {
+      "id": "328",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-328",
+        "point": "Russellova teorie deskripcí rozkládá určitý popis na existenci, jedinečnost a vlastnost, takže věta nemusí odkazovat na neexistující předmět.",
+        "tags": [
+          "philosophy-of-language",
+          "logic",
+          "knowledge-evidence"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "190",
+        "583"
+      ],
+      "reason": "Logická analýza existence určitého popisu není význam jako užití ani arbitrárnost znaku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "329",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-329",
+        "point": "Berlin odlišuje svobodu od zásahů druhých od otázky, kdo řídí můj život, a varuje před nucením člověka ve jménu jeho údajného pravého já.",
+        "tags": [
+          "political-philosophy",
+          "freedom",
+          "power"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "186",
+        "611"
+      ],
+      "reason": "Dva významy politické svobody se liší od nestranného návrhu institucí i sporu svobody se strukturami.",
+      "verdict": "accept"
+    },
+    {
+      "id": "330",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-330",
+        "point": "Dewey chápe zkoumání jako proměnu problémové situace prostřednictvím hypotéz a ověřování jejich důsledků, nikoli jako pasivní opis hotové skutečnosti.",
+        "tags": [
+          "epistemology",
+          "modern-philosophy",
+          "knowledge-evidence"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "187",
+        "679"
+      ],
+      "reason": "Deweyho cyklus problémové situace není Popperovo demarkační kritérium ani morální jednota poznání a činu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "331",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-331",
+        "point": "Gadamerovo splývání horizontů označuje proměnu porozumění při setkání vlastních historických předpokladů s nárokem textu či druhého člověka.",
+        "tags": [
+          "modern-philosophy",
+          "communication",
+          "perceived-reality"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "604",
+        "967"
+      ],
+      "reason": "Historická podmíněnost interpretace a její proměna není záměrná otevřenost díla ani Buberova dvojice vztahů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "332",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-332",
+        "point": "Searlův čínský pokoj zpochybňuje, že samotná manipulace se symboly podle pravidel postačuje k porozumění, a systémová námitka přesouvá otázku na celek.",
+        "tags": [
+          "philosophy-of-mind",
+          "artificial-intelligence",
+          "communication"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "55",
+        "900"
+      ],
+      "reason": "Čínský pokoj obsahuje vlastní argument syntaxe versus sémantika, nikoli jen test chování či Maryin problém prožitku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "333",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-333",
+        "point": "Při nárazu DART do Dimorphosu přenesla zpětná reakce vyvrženého materiálu další hybnost a zesílila změnu dráhy nad účinek samotné sondy.",
+        "tags": [
+          "spaceflight",
+          "mechanics",
+          "innovation"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "23",
+        "894"
+      ],
+      "reason": "Konkrétní měření zesílení hybnosti při řízeném odklonu není pouhé uvedení třetího Newtonova zákona ani chemie vzorků.",
+      "verdict": "accept"
+    },
+    {
+      "id": "334",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-334",
+        "point": "Ve vzorcích Ryugu dopravených sondou Hayabusa2 byl nalezen uracil, což dokládá mimozemskou organickou chemii, nikoli přítomnost RNA či organismů.",
+        "tags": [
+          "solar-system",
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "894",
+        "915"
+      ],
+      "reason": "Nukleová báze v čistě odebraném materiálu má jiný důkazní význam než evaporitové soli Bennu či odběr z výtrysků Enceladu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "335",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-335",
+        "point": "Tranzitní spektroskopie rozpoznává plyny z vlnových délek pohlcených v atmosféře planety a Webb tak roku 2022 doložil oxid uhličitý u WASP-39 b.",
+        "tags": [
+          "exoplanets",
+          "optics",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "155",
+        "567"
+      ],
+      "reason": "Měření absorpčních pásů při tranzitu není infračervené zaměření přístroje ani soupis planet TRAPPIST-1.",
+      "verdict": "accept"
+    },
+    {
+      "id": "336",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-336",
+        "point": "Gravitační manévr mění energii sondy vůči Slunci výměnou s pohybující se planetou, zatímco v idealizované soustavě planety se mění hlavně směr letu.",
+        "tags": [
+          "spaceflight",
+          "mechanics",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "288",
+        "915"
+      ],
+      "reason": "Výměna orbitální energie při průletu je odlišná od ukončení Cassini kvůli kontaminaci či analýzy výtrysků.",
+      "verdict": "accept"
+    },
+    {
+      "id": "337",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-337",
+        "point": "Sluneční plachta získává tah předáváním hybnosti fotonů, což meziplanetární sonda IKAROS ověřila bez spalování paliva pro tento tah.",
+        "tags": [
+          "spaceflight",
+          "electromagnetism",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "809",
+        "289"
+      ],
+      "reason": "Tlak světla na plachtu se liší od uvolňování elektronů i aerodynamického letu vrtulníku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "338",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-338",
+        "point": "Frankenstein staví vedle ambice stvořit život také odpovědnost za opuštěnou cítící bytost, jejíž osamění a odmítání spoluutváří tragédii.",
+        "tags": [
+          "literature",
+          "ethics",
+          "freedom"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "253"
+      ],
+      "reason": "Nový rozbor řeší etiku péče o stvořenou bytost; původní text vysvětluje klimatické okolnosti vzniku knihy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "339",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-339",
+        "point": "Raskolnikovův pokus ospravedlnit vraždu právem výjimečného člověka v románu Zločin a trest narazí na vinu a neschopnost žít odděleně od druhých.",
+        "tags": [
+          "literature",
+          "ethics",
+          "identity"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "673",
+        "688"
+      ],
+      "reason": "Románová zkouška nadčlověčí výjimky a viny není anonymita Gygova prstenu ani Švejkova doslovná poslušnost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "340",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-340",
+        "point": "Ibsenova Nora odhaluje manželství jako předepsanou roli, když manželova reakce na její čin ukáže přednost pověsti před uznáním její samostatnosti.",
+        "tags": [
+          "literature",
+          "identity",
+          "freedom"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "966",
+        "622"
+      ],
+      "reason": "Konkrétní dramatický obrat Nory a Torvalda není obecná teorie Druhého ani ztráta pracovní užitečnosti v Proměně.",
+      "verdict": "accept"
+    },
+    {
+      "id": "341",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-341",
+        "point": "Obraz Doriana Graye odděluje nezměněný krásný zevnějšek od portrétu nesoucího mravní rozklad, aby vystavil rozpor společenského zdání a odpovědnosti.",
+        "tags": [
+          "literature",
+          "ethics",
+          "perceived-reality"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "414",
+        "872"
+      ],
+      "reason": "Nadpřirozené přenesení následků na portrét vytváří konkrétní literární otázku; nejde o halo efekt ani běžné řízení dojmu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "342",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-342",
+        "point": "Huxleyho Konec civilizace zkoumá moc udržovanou předem formovanými potřebami, spotřebou a somou, za jejíž pohodlí se platí svobodou a hloubkou prožitku.",
+        "tags": [
+          "literature",
+          "freedom",
+          "power"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "131",
+        "628"
+      ],
+      "reason": "Biologické a psychické podmiňování kast se liší od Orwellova přepisování minulosti i Bradburyho zániku četby.",
+      "verdict": "accept"
+    },
+    {
+      "id": "343",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-343",
+        "point": "Maďarská revoluce roku 1956 dospěla k požadavku neutrality a odchodu ze sovětského bloku, ale listopadová intervence obnovila sovětskou kontrolu.",
+        "tags": [
+          "modern-history",
+          "international-relations",
+          "freedom"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "135",
+        "972"
+      ],
+      "reason": "Zvrat od revoluce k sovětskému zásahu v Maďarsku není pád Berlínské zdi ani britsko-francouzský neúspěch u Suezu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "344",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-344",
+        "point": "Invaze v srpnu 1968 zastavila československý reformní pokus uvnitř socialistického systému a prosadila omezenou suverenitu ve prospěch sovětského bloku.",
+        "tags": [
+          "modern-history",
+          "international-relations",
+          "power"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "487",
+        "747"
+      ],
+      "reason": "Potlačení reformního komunismu roku 1968 je jiná událost než občanská právní opozice a pád režimu roku 1989.",
+      "verdict": "accept"
+    },
+    {
+      "id": "345",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-345",
+        "point": "Americko-čínské sblížení roku 1972 využilo roztržky Číny se Sovětským svazem a umožnilo spolupráci bez vyřešení ideologických a tchajwanských sporů.",
+        "tags": [
+          "modern-history",
+          "international-relations",
+          "china"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "285",
+        "483"
+      ],
+      "reason": "Trojúhelníková diplomacie konkrétního sblížení není krizová deeskalace na Kubě ani systém Vídeňského kongresu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "346",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-346",
+        "point": "Vojenský převrat v Chile 11. září 1973 svrhl Allendeho ústavní vládu a nahradil politický konflikt autoritářskou juntou a represí.",
+        "tags": [
+          "modern-history",
+          "democracy",
+          "power"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "973",
+        "974"
+      ],
+      "reason": "Převrat proti zvolené vládě má odlišný směr a politický mechanismus než portugalský pád diktatury či íránská revoluce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "347",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-347",
+        "point": "Neúspěšný srpnový puč roku 1991 oslabil sovětské centrum a posílil republiky, jejichž osamostatňování vyústilo v prosincový zánik Sovětského svazu.",
+        "tags": [
+          "modern-history",
+          "international-relations",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "135",
+        "487"
+      ],
+      "reason": "Rozpad federálního státu po puči je jiný proces než odstranění hranice či pád jedné komunistické vlády.",
+      "verdict": "accept"
+    },
+    {
+      "id": "348",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-348",
+        "point": "Vzorec nátlaku a ústupu může v partnerském konfliktu zesilovat sám sebe a souvisí s nespokojeností, jeho význam však závisí i na situaci a dostupných možnostech.",
+        "tags": [
+          "social-psychology",
+          "communication",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "976"
+      ],
+      "reason": "Vzájemně se udržující konfliktní smyčka není mechanismus intimity při sebeodhalení a vstřícné reakci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "349",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-349",
+        "point": "V experimentech s omluvami patřilo uznání odpovědnosti a nabídka nápravy k nejúčinnějším složkám, ale hodnocení scénáře není zárukou obnovy skutečné důvěry.",
+        "tags": [
+          "social-psychology",
+          "communication",
+          "fairness"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "648",
+        "975"
+      ],
+      "reason": "Oprava narušené důvěry se liší od závazku oplatit dar i reakcí na úspěch partnera.",
+      "verdict": "accept"
+    },
+    {
+      "id": "350",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-350",
+        "point": "Vděčnost v blízkých vztazích souvisí s posilováním pouta, zejména když ocenění vyzdvihuje jednání druhého a je vnímáno jako upřímné a vstřícné.",
+        "tags": [
+          "social-psychology",
+          "communication",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "648",
+        "976"
+      ],
+      "reason": "Vděčnost jako rozpoznání hodnoty partnera se liší od tlaku vrátit laskavost; těžiště není sebeodhalení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "351",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-351",
+        "point": "V experimentech vedla společná nová a podnětná aktivita k většímu krátkodobému zlepšení hodnocení vztahu než rutinní úkol, nikoli k prokázané trvalé záchraně vztahu.",
+        "tags": [
+          "social-psychology",
+          "motivation",
+          "change"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "822",
+        "975"
+      ],
+      "reason": "Experimentálně sdílená nová aktivita není obecná habituace ani sdělení již dosaženého úspěchu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "352",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-352",
+        "point": "Horší spánek v partnerských studiích souvisel s více konflikty, menší empatií a obtížnějším řešením sporů, aniž tyto souvislosti vysvětlují každý konflikt.",
+        "tags": [
+          "social-psychology",
+          "sleep",
+          "communication"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "247",
+        "886"
+      ],
+      "reason": "Souvislost spánku s průběhem partnerského sporu není konsolidace paměti ani změna energetického příjmu.",
+      "verdict": "accept"
+    }
+  ]
+}

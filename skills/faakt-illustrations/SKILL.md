@@ -9,6 +9,8 @@ This repository-local workflow works with any AI agent with image-generation acc
 
 Create recognizable, restrained editorial raster artwork from each post's `illustration` metadata. Optimize for small mobile cards and one successful generation per post.
 
+When invoked as part of adding new posts through [faakt-create-posts](../faakt-create-posts/SKILL.md), illustration generation is already included in that request. Process the new post IDs explicitly, without another confirmation or selecting unrelated missing images through `--next`. After saving, registering and reviewing the assets, continue the parent workflow through checks and a running local test with a verified URL. A standalone illustration request retains the scope below.
+
 ## Repeatable next batch
 
 - Treat **„další ilustrace“** (or „vygeneruj další ilustrace“) as starting this workflow. If the user has not supplied a count, ask **„Pro kolik dalších příspěvků chceš vygenerovat ilustrace?“** and wait for their reply. A positive whole-number reply belongs to the pending batch; do not ask for confirmation again. Ask for a corrected count if the reply is invalid or ambiguous.
@@ -84,6 +86,9 @@ The helper contains the single shared STYLE; use it verbatim rather than adding 
 
 ### Background contract
 
+- Design for both the base dark card and the local multicolor glow experiment. `CardGlow.svelte` currently adds four asymmetrically sized corner radial gradients using three colors from `illustration.palette` at combined layer opacity 0.10; both card faces glow at their corners and fade fully to the darkest base surface at the center. It is currently dev-only, not a production background. Re-read that component and the card CSS before generation/review rather than assuming these settings are permanent.
+- Separate the main silhouette and essential internal features from the colored background by lightness as well as hue. Prefer solid, sufficiently opaque foreground shapes; avoid near-black subjects, low-contrast same-palette edges, faint thin marks or decorative translucency that disappears into the glow. Keep the palette restrained and the subject factual; do not add outlines, highlights or extra colors mechanically when existing value contrast is sufficient. For meaningful light/mist subjects, preserve the soft medium but check that its essential form remains visible.
+- The glow belongs to CSS, never to the generated bitmap: do not bake in colored clouds, light halos, shadows imitating the card background or a compensating opaque panel. A uniform opaque fallback cannot match this multicolor background; if transparency is unavailable, report that it is incompatible with the glow instead of claiming a seamless result.
 - A black, near-black or dark gradient is forbidden as image background in every mode. The card already owns its background; the asset must never imitate that gradient because any positional or compression difference creates a visible rectangle.
 - Preferred output: PNG or WebP with a real alpha channel. Empty areas must have alpha 0, including corners; there must be no baked-in black rectangle, halo, vignette or colored fringe.
 - If the selected tool cannot generate transparency, read the actual background at the illustration's placement from `src/lib/components/PostCard.svelte`. Use that exact CSS color as one uniform solid fill in both the prompt and any letterbox/padding operation. Every empty corner and edge pixel must use the identical value. For the current lower card area the fallback is `#0d0d0d`; re-check it whenever card styling changes.
@@ -93,7 +98,11 @@ The helper contains the single shared STYLE; use it verbatim rather than adding 
 
 ### Acceptance at thumbnail scale
 
+Check each new or explicitly repaired asset at 160×90 and 320×180 against both the base dark surface and the actual current multicolor CSS glow for its palette. Also inspect the real dev card with title and hook; a plain-background gallery alone does not verify glow compatibility. Confirm that the silhouette, important internal boundaries, gestures and any meaningful symbols remain readable in both versions, including where a foreground hue resembles a glow color. Record which backgrounds were inspected and any remaining contrast problem; do not describe an unperformed check as passed. A demonstrated loss of essential readability warrants a targeted correction within the existing retry limits, not a cosmetic regeneration of previously accepted assets.
+
 #### Check visible spacing to the hook
+
+Cards now use the content-aware Vite plugin `scripts/illustration-layout.mjs` for all numeric WebP assets, including future additions and replacements. It measures alpha≥16 and shortens frames with surplus bottom space, leaving 10 source pixels on each side at 640px width. Artwork scale and aspect ratio remain unchanged; the image is not cropped or rewritten. The dev server invalidates layout on asset changes, and every production build scans current assets. Do not add per-ID spacing overrides. Continue checking real cards, especially faint intentional details and constrained viewport heights; automatic alpha bounds do not replace visual review.
 
 Compare several actual cards at the same viewport width, including illustrations with different proportions. A shared 640×360 canvas and identical CSS gap do not make the gap from the visible artwork to the hook equal: transparent bottom padding adds to it. For an uncompressed 320×180 display, 60 extra source pixels of bottom padding add about 30 CSS pixels to the perceived gap. On constrained cards, inspect the actual `object-fit` placement as well.
 

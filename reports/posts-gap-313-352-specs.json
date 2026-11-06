@@ -1,0 +1,402 @@
+[
+  [
+    "historie",
+    "Trafalgar: proč Nelson plul přímo proti dělovým hlavním",
+    "Nelson u Trafalgaru rozdělil flotilu do dvou kolon, aby prorazil nepřátelskou linii a soustředil boj na její část navzdory riziku při přibližování.",
+    "military-history,decision-making",
+    "event",
+    "two_sailing_warships_crossing",
+    "959",
+    "Námořní prolomení bojové linie se liší od samostatnosti a soustřeďování pozemních sborů."
+  ],
+  [
+    "historie",
+    "Armáda, které nestačilo doplnit vojáky",
+    "Ztráty koní v ruském tažení roku 1812 oslabily nejen jezdectvo, ale také přesuny děl a zásobování a omezily Napoleonovu obnovu armády.",
+    "military-history,resources",
+    "event",
+    "exhausted_harnessed_horse",
+    "957,959",
+    "Jde o systémovou závislost dopravy a palebné síly na koních, nikoli o ambulance či organizaci sborů."
+  ],
+  [
+    "historie",
+    "Napoleonovy zprávy putovaly po pohyblivých ramenech",
+    "Chappeho optický telegraf předával kódované polohy ramen mezi viditelnými stanicemi, takže urychloval státní komunikaci, ale závisel na dohlednosti.",
+    "modern-history,communication,innovation",
+    "principle",
+    "chappe_semaphore_tower",
+    "528",
+    "Optická retranslace kódu bez dopravy posla je odlišná od římské sítě přepřahacích stanic."
+  ],
+  [
+    "historie",
+    "Pokrokový zákoník, který manželku podřídil muži",
+    "Francouzský občanský zákoník z roku 1804 sjednocoval soukromé právo, ale v manželství kodifikoval mužovu autoritu a omezenou právní samostatnost ženy.",
+    "modern-history,law,fairness",
+    "event",
+    "civil_code_book_with_wedding_ring",
+    "966,525",
+    "Konkrétní právní omezení manželek v roce 1804 není Beauvoirina teorie Druhého ani samotné zveřejnění zákona."
+  ],
+  [
+    "historie",
+    "U Waterloo chránil vojáky i opačný svah",
+    "Wellingtonovo rozmístění za hřebenem u Waterloo omezovalo přímé pozorování a účinky francouzské palby, zatímco armáda čekala na pruskou pomoc.",
+    "military-history,cooperation",
+    "event",
+    "infantry_sheltering_behind_ridge",
+    "959,483",
+    "Ochrana terénem v konkrétní bitvě je jiný mechanismus než sbory či poválečná mocenská rovnováha."
+  ],
+  [
+    "pocitacove-vedy",
+    "Proč si jazykový model před odpovědí otevře knihovnu",
+    "RAG přidává k dotazu dohledané dokumenty, aby model odpovídal s externím kontextem, ale nezaručuje správný výběr ani věrné použití podkladů.",
+    "artificial-intelligence,knowledge-evidence",
+    "principle",
+    "open_book_beside_search_lens",
+    "960",
+    "Vyhledání externích dokumentů pro odpověď je jiný mechanismus než postupné odšumování při tvorbě obrazu."
+  ],
+  [
+    "pocitacove-vedy",
+    "Malý model navrhuje, velký kontroluje",
+    "Spekulativní dekódování ověřuje více návrhů menšího modelu v jednom běhu většího modelu a při správném přijímání zachovává jeho výstupní rozdělení.",
+    "artificial-intelligence,algorithms,resources",
+    "principle",
+    "small_and_large_chip_reviewing_token_strip",
+    "961,960",
+    "Zrychlení inference pomocí návrhu a ověření se netýká čipletového pouzdra ani generování odšumováním."
+  ],
+  [
+    "pocitacove-vedy",
+    "Postkvantové šifrování nepotřebuje kvantový počítač",
+    "Postkvantové algoritmy jako ML-KEM běží na běžných počítačích a mají odolat i známým útokům budoucích kvantových počítačů.",
+    "cryptography,computer-security,innovation",
+    "principle",
+    "lattice_pattern_padlock",
+    "231,962",
+    "Odolnost vůči kvantovým útokům je jiný problém než princip dvou klíčů či vazba přihlášení na doménu."
+  ],
+  [
+    "pocitacove-vedy",
+    "Dvě vrstvy solárního článku si rozdělí světlo",
+    "Perovskitovo-křemíkový tandem využívá různé části slunečního spektra ve dvou polovodičových vrstvách, ale jeho nasazení omezuje i stabilita a výroba.",
+    "materials,optics,innovation",
+    "principle",
+    "two_layer_solar_cell",
+    "809",
+    "Rozdělení spektra mezi dvě absorpční vrstvy není pouhé vysvětlení fotoelektrického jevu."
+  ],
+  [
+    "pocitacove-vedy",
+    "Baterie se sodíkem není jen lithium s jinou nálepkou",
+    "Sodíkové akumulátory využívají dostupný sodík, ale odlišné ukládání iontů vyžaduje vhodné elektrody, například tvrdý uhlík místo běžné grafitové anody.",
+    "materials,chemistry,resources",
+    "principle",
+    "cutaway_sodium_battery",
+    "961",
+    "Elektrochemické ukládání sodíku nemá v katalogu blízký mechanismus; čiplety jsou jen vzdálený technický námět."
+  ],
+  [
+    "filozofie",
+    "Epikúros by se nejprve zeptal, co vlastně potřebujete",
+    "Epikúros rozlišuje nutné přirozené touhy, nenutné přirozené touhy a prázdné touhy, aby oddělil dosažitelnou potřebu od neomezeného honu za uspokojením.",
+    "ancient-philosophy,ethics,epicurus,wellbeing",
+    "theory",
+    "simple_bread_and_water",
+    "37,266,963",
+    "Třídění tužeb není argument proti strachu ze smrti, hodnota přátelství ani smluvní spravedlnost."
+  ],
+  [
+    "filozofie",
+    "Spravedlivě rozdělit a spravedlivě napravit jsou dvě věci",
+    "Aristotelés odlišuje poměrné rozdělování společných statků od nápravy škody, která vyrovnává neoprávněný zisk a ztrátu mezi stranami.",
+    "ancient-philosophy,ethics,aristotle,fairness",
+    "theory",
+    "balance_scales_with_restored_weight",
+    "877,186",
+    "Rozlišení dvou druhů spravedlnosti není oprava obecnosti zákona ani volba pravidel pod závojem nevědomosti."
+  ],
+  [
+    "filozofie",
+    "Sókratés: křivda nedává povolení ke křivdě",
+    "Sókratés v Platónově Kritónovi odmítá oplácení bezpráví bezprávím, protože utrpěná křivda sama nečiní vlastní nespravedlivý čin správným.",
+    "ancient-philosophy,ethics,socrates",
+    "theory",
+    "open_hand_stopping_retaliatory_fist",
+    "6,66",
+    "Zákaz odplaty při již utrpěné křivdě je odlišný argument od reciprocity i tázací metody."
+  ],
+  [
+    "filozofie",
+    "Aristotelés: ne každé nevěděl jsem je omluva",
+    "Aristotelés rozlišuje jednání z neznalosti konkrétních okolností od zaviněné nevědomosti, takže opilost nebo zanedbané poznání nemusí zbavovat odpovědnosti.",
+    "ancient-philosophy,ethics,aristotle,freedom",
+    "theory",
+    "overturned_wine_cup_beside_hand",
+    "876,877",
+    "Zaviněná neznalost a dobrovolnost činu je odlišná od slabé vůle navzdory vědění i opravy obecného zákona."
+  ],
+  [
+    "filozofie",
+    "Platón chtěl vládce, kteří o vládu nestojí kvůli sobě",
+    "Platónovi filozofičtí vládci mají řídit obec díky poznání dobra a neochotě užívat moc pro vlastní prospěch, nikoli díky pouhé touze vládnout.",
+    "ancient-philosophy,political-philosophy,plato,power",
+    "theory",
+    "philosopher_setting_down_crown",
+    "965,47",
+    "Způsobilost a motivace vládců je odlišná od členění duše a poznávacího obrazu jeskyně."
+  ],
+  [
+    "filozofie",
+    "Jak může být věta o neexistujícím králi nepravdivá",
+    "Russellova teorie deskripcí rozkládá určitý popis na existenci, jedinečnost a vlastnost, takže věta nemusí odkazovat na neexistující předmět.",
+    "philosophy-of-language,logic,knowledge-evidence",
+    "theory",
+    "empty_throne",
+    "190,583",
+    "Logická analýza existence určitého popisu není význam jako užití ani arbitrárnost znaku."
+  ],
+  [
+    "filozofie",
+    "Dvě svobody, které se nemusejí potkat",
+    "Berlin odlišuje svobodu od zásahů druhých od otázky, kdo řídí můj život, a varuje před nucením člověka ve jménu jeho údajného pravého já.",
+    "political-philosophy,freedom,power",
+    "theory",
+    "person_at_open_gate_holding_reins",
+    "186,611",
+    "Dva významy politické svobody se liší od nestranného návrhu institucí i sporu svobody se strukturami."
+  ],
+  [
+    "filozofie",
+    "Dewey: myšlenka je návrh, který musí obstát v jednání",
+    "Dewey chápe zkoumání jako proměnu problémové situace prostřednictvím hypotéz a ověřování jejich důsledků, nikoli jako pasivní opis hotové skutečnosti.",
+    "epistemology,modern-philosophy,knowledge-evidence",
+    "theory",
+    "hands_testing_bridge_model",
+    "187,679",
+    "Deweyho cyklus problémové situace není Popperovo demarkační kritérium ani morální jednota poznání a činu."
+  ],
+  [
+    "filozofie",
+    "Gadamer: minulost nečteme z místa mimo dějiny",
+    "Gadamerovo splývání horizontů označuje proměnu porozumění při setkání vlastních historických předpokladů s nárokem textu či druhého člověka.",
+    "modern-philosophy,communication,perceived-reality",
+    "theory",
+    "two_overlapping_horizon_frames",
+    "604,967",
+    "Historická podmíněnost interpretace a její proměna není záměrná otevřenost díla ani Buberova dvojice vztahů."
+  ],
+  [
+    "filozofie",
+    "Čínský pokoj: správná odpověď ještě nemusí být porozumění",
+    "Searlův čínský pokoj zpochybňuje, že samotná manipulace se symboly podle pravidel postačuje k porozumění, a systémová námitka přesouvá otázku na celek.",
+    "philosophy-of-mind,artificial-intelligence,communication",
+    "theory",
+    "person_sorting_symbol_cards_in_room",
+    "55,900",
+    "Čínský pokoj obsahuje vlastní argument syntaxe versus sémantika, nikoli jen test chování či Maryin problém prožitku."
+  ],
+  [
+    "astronomie",
+    "DART: planetku postrčil i materiál, který z ní vyletěl",
+    "Při nárazu DART do Dimorphosu přenesla zpětná reakce vyvrženého materiálu další hybnost a zesílila změnu dráhy nad účinek samotné sondy.",
+    "spaceflight,mechanics,innovation",
+    "discovery",
+    "asteroid_with_ejecta_fan",
+    "23,894",
+    "Konkrétní měření zesílení hybnosti při řízeném odklonu není pouhé uvedení třetího Newtonova zákona ani chemie vzorků."
+  ],
+  [
+    "astronomie",
+    "Uracil z planetky není důkaz mimozemského života",
+    "Ve vzorcích Ryugu dopravených sondou Hayabusa2 byl nalezen uracil, což dokládá mimozemskou organickou chemii, nikoli přítomnost RNA či organismů.",
+    "solar-system,chemistry,knowledge-evidence",
+    "discovery",
+    "ryugu_sample_grain_in_capsule",
+    "894,915",
+    "Nukleová báze v čistě odebraném materiálu má jiný důkazní význam než evaporitové soli Bennu či odběr z výtrysků Enceladu."
+  ],
+  [
+    "astronomie",
+    "Atmosféru cizí planety přečteme z chybějícího světla",
+    "Tranzitní spektroskopie rozpoznává plyny z vlnových délek pohlcených v atmosféře planety a Webb tak roku 2022 doložil oxid uhličitý u WASP-39 b.",
+    "exoplanets,optics,knowledge-evidence",
+    "discovery",
+    "starlight_filtering_through_planet_rim",
+    "155,567",
+    "Měření absorpčních pásů při tranzitu není infračervené zaměření přístroje ani soupis planet TRAPPIST-1."
+  ],
+  [
+    "astronomie",
+    "Když sonda zrychlí u planety, energii si nevymyslí",
+    "Gravitační manévr mění energii sondy vůči Slunci výměnou s pohybující se planetou, zatímco v idealizované soustavě planety se mění hlavně směr letu.",
+    "spaceflight,mechanics,resources",
+    "principle",
+    "probe_swinging_past_planet",
+    "288,915",
+    "Výměna orbitální energie při průletu je odlišná od ukončení Cassini kvůli kontaminaci či analýzy výtrysků."
+  ],
+  [
+    "astronomie",
+    "Plachetnici ve vesmíru netlačí sluneční vítr",
+    "Sluneční plachta získává tah předáváním hybnosti fotonů, což meziplanetární sonda IKAROS ověřila bez spalování paliva pro tento tah.",
+    "spaceflight,electromagnetism,innovation",
+    "principle",
+    "ikaros_square_solar_sail",
+    "809,289",
+    "Tlak světla na plachtu se liší od uvolňování elektronů i aerodynamického letu vrtulníku."
+  ],
+  [
+    "literatura",
+    "Frankenstein: problém začíná také opuštěním výtvoru",
+    "Frankenstein staví vedle ambice stvořit život také odpovědnost za opuštěnou cítící bytost, jejíž osamění a odmítání spoluutváří tragédii.",
+    "literature,ethics,freedom",
+    "work",
+    "abandoned_creature_reaching_toward_door",
+    "253",
+    "Nový rozbor řeší etiku péče o stvořenou bytost; původní text vysvětluje klimatické okolnosti vzniku knihy."
+  ],
+  [
+    "literatura",
+    "Zločin a trest: teorie výjimečného člověka narazí na člověka",
+    "Raskolnikovův pokus ospravedlnit vraždu právem výjimečného člověka v románu Zločin a trest narazí na vinu a neschopnost žít odděleně od druhých.",
+    "literature,ethics,identity",
+    "work",
+    "isolated_man_with_divided_shadow",
+    "673,688",
+    "Románová zkouška nadčlověčí výjimky a viny není anonymita Gygova prstenu ani Švejkova doslovná poslušnost."
+  ],
+  [
+    "literatura",
+    "Nora: dveře, které zavřely domeček pro panenky",
+    "Ibsenova Nora odhaluje manželství jako předepsanou roli, když manželova reakce na její čin ukáže přednost pověsti před uznáním její samostatnosti.",
+    "literature,identity,freedom",
+    "work",
+    "woman_leaving_dollhouse_door",
+    "966,622",
+    "Konkrétní dramatický obrat Nory a Torvalda není obecná teorie Druhého ani ztráta pracovní užitečnosti v Proměně."
+  ],
+  [
+    "literatura",
+    "Dorian Gray: následky nelze odložit do zamčeného pokoje",
+    "Obraz Doriana Graye odděluje nezměněný krásný zevnějšek od portrétu nesoucího mravní rozklad, aby vystavil rozpor společenského zdání a odpovědnosti.",
+    "literature,ethics,perceived-reality",
+    "work",
+    "youthful_portrait_with_cracked_reflection",
+    "414,872",
+    "Nadpřirozené přenesení následků na portrét vytváří konkrétní literární otázku; nejde o halo efekt ani běžné řízení dojmu."
+  ],
+  [
+    "literatura",
+    "Konec civilizace: vláda, kterou si lidé užívají",
+    "Huxleyho Konec civilizace zkoumá moc udržovanou předem formovanými potřebami, spotřebou a somou, za jejíž pohodlí se platí svobodou a hloubkou prožitku.",
+    "literature,freedom,power",
+    "work",
+    "hand_offering_tablet_beside_identical_bottles",
+    "131,628",
+    "Biologické a psychické podmiňování kast se liší od Orwellova přepisování minulosti i Bradburyho zániku četby."
+  ],
+  [
+    "historie",
+    "Maďarsko 1956: neutralita, kterou tanky nepřipustily",
+    "Maďarská revoluce roku 1956 dospěla k požadavku neutrality a odchodu ze sovětského bloku, ale listopadová intervence obnovila sovětskou kontrolu.",
+    "modern-history,international-relations,freedom",
+    "event",
+    "tank_facing_budapest_street_barricade",
+    "135,972",
+    "Zvrat od revoluce k sovětskému zásahu v Maďarsku není pád Berlínské zdi ani britsko-francouzský neúspěch u Suezu."
+  ],
+  [
+    "historie",
+    "Srpen 1968: spojenci ukončili reformu silou",
+    "Invaze v srpnu 1968 zastavila československý reformní pokus uvnitř socialistického systému a prosadila omezenou suverenitu ve prospěch sovětského bloku.",
+    "modern-history,international-relations,power",
+    "event",
+    "tank_over_trampled_newspaper",
+    "487,747",
+    "Potlačení reformního komunismu roku 1968 je jiná událost než občanská právní opozice a pád režimu roku 1989."
+  ],
+  [
+    "historie",
+    "Nixon v Číně: společný soupeř přiblížil protivníky",
+    "Americko-čínské sblížení roku 1972 využilo roztržky Číny se Sovětským svazem a umožnilo spolupráci bez vyřešení ideologických a tchajwanských sporů.",
+    "modern-history,international-relations,china",
+    "event",
+    "two_teacups_across_diplomatic_table",
+    "285,483",
+    "Trojúhelníková diplomacie konkrétního sblížení není krizová deeskalace na Kubě ani systém Vídeňského kongresu."
+  ],
+  [
+    "historie",
+    "Chile 1973: zvolenou vládu vystřídala junta",
+    "Vojenský převrat v Chile 11. září 1973 svrhl Allendeho ústavní vládu a nahradil politický konflikt autoritářskou juntou a represí.",
+    "modern-history,democracy,power",
+    "event",
+    "la_moneda_facade_with_smoke",
+    "973,974",
+    "Převrat proti zvolené vládě má odlišný směr a politický mechanismus než portugalský pád diktatury či íránská revoluce."
+  ],
+  [
+    "historie",
+    "Puč měl Sovětský svaz zachránit, urychlil jeho konec",
+    "Neúspěšný srpnový puč roku 1991 oslabil sovětské centrum a posílil republiky, jejichž osamostatňování vyústilo v prosincový zánik Sovětského svazu.",
+    "modern-history,international-relations,change",
+    "event",
+    "fallen_soviet_flagpole",
+    "135,487",
+    "Rozpad federálního státu po puči je jiný proces než odstranění hranice či pád jedné komunistické vlády."
+  ],
+  [
+    "psychologie",
+    "Když jeden naléhá a druhý mizí z rozhovoru",
+    "Vzorec nátlaku a ústupu může v partnerském konfliktu zesilovat sám sebe a souvisí s nespokojeností, jeho význam však závisí i na situaci a dostupných možnostech.",
+    "social-psychology,communication,cooperation",
+    "principle",
+    "one_partner_reaching_other_turning_away",
+    "976",
+    "Vzájemně se udržující konfliktní smyčka není mechanismus intimity při sebeodhalení a vstřícné reakci."
+  ],
+  [
+    "psychologie",
+    "Omluvu nenese počet slov, ale přijetí odpovědnosti",
+    "V experimentech s omluvami patřilo uznání odpovědnosti a nabídka nápravy k nejúčinnějším složkám, ale hodnocení scénáře není zárukou obnovy skutečné důvěry.",
+    "social-psychology,communication,fairness",
+    "practice",
+    "hands_repairing_broken_cup",
+    "648,975",
+    "Oprava narušené důvěry se liší od závazku oplatit dar i reakcí na úspěch partnera."
+  ],
+  [
+    "psychologie",
+    "Poděkování může říkat víc o druhém než o našem zisku",
+    "Vděčnost v blízkých vztazích souvisí s posilováním pouta, zejména když ocenění vyzdvihuje jednání druhého a je vnímáno jako upřímné a vstřícné.",
+    "social-psychology,communication,cooperation",
+    "principle",
+    "two_people_exchanging_warm_thanks",
+    "648,976",
+    "Vděčnost jako rozpoznání hodnoty partnera se liší od tlaku vrátit laskavost; těžiště není sebeodhalení."
+  ],
+  [
+    "psychologie",
+    "Společný nový zážitek může rozhýbat zaběhnutý vztah",
+    "V experimentech vedla společná nová a podnětná aktivita k většímu krátkodobému zlepšení hodnocení vztahu než rutinní úkol, nikoli k prokázané trvalé záchraně vztahu.",
+    "social-psychology,motivation,change",
+    "practice",
+    "couple_learning_simple_dance",
+    "822,975",
+    "Experimentálně sdílená nová aktivita není obecná habituace ani sdělení již dosaženého úspěchu."
+  ],
+  [
+    "psychologie",
+    "Po špatné noci může stejný spor vypadat jinak",
+    "Horší spánek v partnerských studiích souvisel s více konflikty, menší empatií a obtížnějším řešením sporů, aniž tyto souvislosti vysvětlují každý konflikt.",
+    "social-psychology,sleep,communication",
+    "principle",
+    "sleepy_couple_talking_across_table",
+    "247,886",
+    "Souvislost spánku s průběhem partnerského sporu není konsolidace paměti ani změna energetického příjmu."
+  ]
+]

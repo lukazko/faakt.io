@@ -61,6 +61,8 @@ Požadavky na generování:
 
 ## Nasazení
 
+Po každém nasazení projdi [uživatelské regresní testy](docs/uzivatelske-regresni-testy.md). Checklist obsahuje kroky, očekávané výsledky a šablonu záznamu; při změnách funkcí jej aktualizujeme spolu s aplikací.
+
 ### GitHub Pages
 
 1. Přejmenuj repozitář na GitHubu na `faakt.io`
