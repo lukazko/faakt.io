@@ -1,0 +1,21 @@
+import { chromium } from 'playwright';
+import { writeFileSync } from 'node:fs';
+const url='http://127.0.0.1:4192/faakt.io/?order=id&post=313';
+let response;const deadline=Date.now()+90000;
+while(Date.now()<deadline){try{response=await fetch(url);if(response.ok)break;}catch{}await new Promise(r=>setTimeout(r,500));}
+if(!response?.ok)throw Error('Local server unavailable');
+const posts=await fetch('http://127.0.0.1:4192/faakt.io/data/posts.json').then(r=>r.json());
+if(posts.length!==916)throw Error('Wrong checkout or stale data');
+const browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:390,height:844}});
+page.setDefaultTimeout(120000);page.setDefaultNavigationTimeout(180000);
+const errors=[];page.on('pageerror',e=>errors.push(e.message));
+await page.goto(url,{waitUntil:'domcontentloaded'});
+const card=page.locator('.is-active .card-front');
+await card.locator('h2').filter({hasText:posts.find(p=>p.id==='313').title}).waitFor();
+await card.locator('img').evaluate(async im=>await im.decode());
+if(await card.locator('img').getAttribute('src')!=='/faakt.io/illustrations-ai/313.webp')throw Error('Wrong first image');
+await page.addStyleTag({content:'* { animation:none !important; transition:none !important; }'});
+await page.screenshot({path:'tmp/posts-gap-313-352/final-local.png'});
+await browser.close();if(errors.length)throw Error(errors.join('\n'));
+writeFileSync('reports/posts-gap-313-352-local.json',JSON.stringify({url,status:200,records:posts.length,firstPost:'313',imageVerified:true,runtimeErrors:errors},null,2)+'\n');
+console.log('Verified live URL: '+url);

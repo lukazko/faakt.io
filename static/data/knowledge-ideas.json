@@ -3332,6 +3332,166 @@
     "idea-976": {
       "point": "Pocit intimity souvisí vedle sebeodhalení také s vnímaným porozuměním a přijetím v reakci druhého člověka.",
       "type": "principle"
+    },
+    "idea-313": {
+      "point": "Nelson u Trafalgaru rozdělil flotilu do dvou kolon, aby prorazil nepřátelskou linii a soustředil boj na její část navzdory riziku při přibližování.",
+      "type": "event"
+    },
+    "idea-314": {
+      "point": "Ztráty koní v ruském tažení roku 1812 oslabily nejen jezdectvo, ale také přesuny děl a zásobování a omezily Napoleonovu obnovu armády.",
+      "type": "event"
+    },
+    "idea-315": {
+      "point": "Chappeho optický telegraf předával kódované polohy ramen mezi viditelnými stanicemi, takže urychloval státní komunikaci, ale závisel na dohlednosti.",
+      "type": "principle"
+    },
+    "idea-316": {
+      "point": "Francouzský občanský zákoník z roku 1804 sjednocoval soukromé právo, ale v manželství kodifikoval mužovu autoritu a omezenou právní samostatnost ženy.",
+      "type": "event"
+    },
+    "idea-317": {
+      "point": "Wellingtonovo rozmístění za hřebenem u Waterloo omezovalo přímé pozorování a účinky francouzské palby, zatímco armáda čekala na pruskou pomoc.",
+      "type": "event"
+    },
+    "idea-318": {
+      "point": "RAG přidává k dotazu dohledané dokumenty, aby model odpovídal s externím kontextem, ale nezaručuje správný výběr ani věrné použití podkladů.",
+      "type": "principle"
+    },
+    "idea-319": {
+      "point": "Spekulativní dekódování ověřuje více návrhů menšího modelu v jednom běhu většího modelu a při správném přijímání zachovává jeho výstupní rozdělení.",
+      "type": "principle"
+    },
+    "idea-320": {
+      "point": "Postkvantové algoritmy jako ML-KEM běží na běžných počítačích a mají odolat i známým útokům budoucích kvantových počítačů.",
+      "type": "principle"
+    },
+    "idea-321": {
+      "point": "Perovskitovo-křemíkový tandem využívá různé části slunečního spektra ve dvou polovodičových vrstvách, ale jeho nasazení omezuje i stabilita a výroba.",
+      "type": "principle"
+    },
+    "idea-322": {
+      "point": "Sodíkové akumulátory využívají dostupný sodík, ale odlišné ukládání iontů vyžaduje vhodné elektrody, například tvrdý uhlík místo běžné grafitové anody.",
+      "type": "principle"
+    },
+    "idea-323": {
+      "point": "Epikúros rozlišuje nutné přirozené touhy, nenutné přirozené touhy a prázdné touhy, aby oddělil dosažitelnou potřebu od neomezeného honu za uspokojením.",
+      "type": "theory"
+    },
+    "idea-324": {
+      "point": "Aristotelés odlišuje poměrné rozdělování společných statků od nápravy škody, která vyrovnává neoprávněný zisk a ztrátu mezi stranami.",
+      "type": "theory"
+    },
+    "idea-325": {
+      "point": "Sókratés v Platónově Kritónovi odmítá oplácení bezpráví bezprávím, protože utrpěná křivda sama nečiní vlastní nespravedlivý čin správným.",
+      "type": "theory"
+    },
+    "idea-326": {
+      "point": "Aristotelés rozlišuje jednání z neznalosti konkrétních okolností od zaviněné nevědomosti, takže opilost nebo zanedbané poznání nemusí zbavovat odpovědnosti.",
+      "type": "theory"
+    },
+    "idea-327": {
+      "point": "Platónovi filozofičtí vládci mají řídit obec díky poznání dobra a neochotě užívat moc pro vlastní prospěch, nikoli díky pouhé touze vládnout.",
+      "type": "theory"
+    },
+    "idea-328": {
+      "point": "Russellova teorie deskripcí rozkládá určitý popis na existenci, jedinečnost a vlastnost, takže věta nemusí odkazovat na neexistující předmět.",
+      "type": "theory"
+    },
+    "idea-329": {
+      "point": "Berlin odlišuje svobodu od zásahů druhých od otázky, kdo řídí můj život, a varuje před nucením člověka ve jménu jeho údajného pravého já.",
+      "type": "theory"
+    },
+    "idea-330": {
+      "point": "Dewey chápe zkoumání jako proměnu problémové situace prostřednictvím hypotéz a ověřování jejich důsledků, nikoli jako pasivní opis hotové skutečnosti.",
+      "type": "theory"
+    },
+    "idea-331": {
+      "point": "Gadamerovo splývání horizontů označuje proměnu porozumění při setkání vlastních historických předpokladů s nárokem textu či druhého člověka.",
+      "type": "theory"
+    },
+    "idea-332": {
+      "point": "Searlův čínský pokoj zpochybňuje, že samotná manipulace se symboly podle pravidel postačuje k porozumění, a systémová námitka přesouvá otázku na celek.",
+      "type": "theory"
+    },
+    "idea-333": {
+      "point": "Při nárazu DART do Dimorphosu přenesla zpětná reakce vyvrženého materiálu další hybnost a zesílila změnu dráhy nad účinek samotné sondy.",
+      "type": "discovery"
+    },
+    "idea-334": {
+      "point": "Ve vzorcích Ryugu dopravených sondou Hayabusa2 byl nalezen uracil, což dokládá mimozemskou organickou chemii, nikoli přítomnost RNA či organismů.",
+      "type": "discovery"
+    },
+    "idea-335": {
+      "point": "Tranzitní spektroskopie rozpoznává plyny z vlnových délek pohlcených v atmosféře planety a Webb tak roku 2022 doložil oxid uhličitý u WASP-39 b.",
+      "type": "discovery"
+    },
+    "idea-336": {
+      "point": "Gravitační manévr mění energii sondy vůči Slunci výměnou s pohybující se planetou, zatímco v idealizované soustavě planety se mění hlavně směr letu.",
+      "type": "principle"
+    },
+    "idea-337": {
+      "point": "Sluneční plachta získává tah předáváním hybnosti fotonů, což meziplanetární sonda IKAROS ověřila bez spalování paliva pro tento tah.",
+      "type": "principle"
+    },
+    "idea-338": {
+      "point": "Frankenstein staví vedle ambice stvořit život také odpovědnost za opuštěnou cítící bytost, jejíž osamění a odmítání spoluutváří tragédii.",
+      "type": "work"
+    },
+    "idea-339": {
+      "point": "Raskolnikovův pokus ospravedlnit vraždu právem výjimečného člověka v románu Zločin a trest narazí na vinu a neschopnost žít odděleně od druhých.",
+      "type": "work"
+    },
+    "idea-340": {
+      "point": "Ibsenova Nora odhaluje manželství jako předepsanou roli, když manželova reakce na její čin ukáže přednost pověsti před uznáním její samostatnosti.",
+      "type": "work"
+    },
+    "idea-341": {
+      "point": "Obraz Doriana Graye odděluje nezměněný krásný zevnějšek od portrétu nesoucího mravní rozklad, aby vystavil rozpor společenského zdání a odpovědnosti.",
+      "type": "work"
+    },
+    "idea-342": {
+      "point": "Huxleyho Konec civilizace zkoumá moc udržovanou předem formovanými potřebami, spotřebou a somou, za jejíž pohodlí se platí svobodou a hloubkou prožitku.",
+      "type": "work"
+    },
+    "idea-343": {
+      "point": "Maďarská revoluce roku 1956 dospěla k požadavku neutrality a odchodu ze sovětského bloku, ale listopadová intervence obnovila sovětskou kontrolu.",
+      "type": "event"
+    },
+    "idea-344": {
+      "point": "Invaze v srpnu 1968 zastavila československý reformní pokus uvnitř socialistického systému a prosadila omezenou suverenitu ve prospěch sovětského bloku.",
+      "type": "event"
+    },
+    "idea-345": {
+      "point": "Americko-čínské sblížení roku 1972 využilo roztržky Číny se Sovětským svazem a umožnilo spolupráci bez vyřešení ideologických a tchajwanských sporů.",
+      "type": "event"
+    },
+    "idea-346": {
+      "point": "Vojenský převrat v Chile 11. září 1973 svrhl Allendeho ústavní vládu a nahradil politický konflikt autoritářskou juntou a represí.",
+      "type": "event"
+    },
+    "idea-347": {
+      "point": "Neúspěšný srpnový puč roku 1991 oslabil sovětské centrum a posílil republiky, jejichž osamostatňování vyústilo v prosincový zánik Sovětského svazu.",
+      "type": "event"
+    },
+    "idea-348": {
+      "point": "Vzorec nátlaku a ústupu může v partnerském konfliktu zesilovat sám sebe a souvisí s nespokojeností, jeho význam však závisí i na situaci a dostupných možnostech.",
+      "type": "principle"
+    },
+    "idea-349": {
+      "point": "V experimentech s omluvami patřilo uznání odpovědnosti a nabídka nápravy k nejúčinnějším složkám, ale hodnocení scénáře není zárukou obnovy skutečné důvěry.",
+      "type": "practice"
+    },
+    "idea-350": {
+      "point": "Vděčnost v blízkých vztazích souvisí s posilováním pouta, zejména když ocenění vyzdvihuje jednání druhého a je vnímáno jako upřímné a vstřícné.",
+      "type": "principle"
+    },
+    "idea-351": {
+      "point": "V experimentech vedla společná nová a podnětná aktivita k většímu krátkodobému zlepšení hodnocení vztahu než rutinní úkol, nikoli k prokázané trvalé záchraně vztahu.",
+      "type": "practice"
+    },
+    "idea-352": {
+      "point": "Horší spánek v partnerských studiích souvisel s více konflikty, menší empatií a obtížnějším řešením sporů, aniž tyto souvislosti vysvětlují každý konflikt.",
+      "type": "principle"
     }
   }
 }

@@ -1,0 +1,12 @@
+{
+  "count": 40,
+  "sizes": [
+    "160x90",
+    "320x180"
+  ],
+  "backgrounds": [
+    "actual computed card gradient",
+    "exact current CardGlow.svelte CSS"
+  ],
+  "background": "linear-gradient(rgb(20, 20, 20) 0%, rgb(13, 13, 13) 100%)"
+}

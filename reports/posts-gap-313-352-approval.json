@@ -1,0 +1,483 @@
+{
+  "snapshot": "29fdf633084b42b81b7e47542005dcfabed6dde6b45fe3339e4ebceb306bd8c1",
+  "catalog_reviewed": "29fdf633084b42b81b7e47542005dcfabed6dde6b45fe3339e4ebceb306bd8c1",
+  "drafts_hash": "6eef812302ded408193ab31372421cf382d5f9e40da406ec1868ba9d103ff4bd",
+  "reviewer": "Codex editorial review 2026-11-06",
+  "scope": "40 posts, five per requested topic, filling IDs 313–352 at the user’s explicit request.",
+  "decisions": [
+    {
+      "id": "313",
+      "verdict": "accept",
+      "compared_ids": [
+        "959"
+      ],
+      "reason": "Námořní prolomení bojové linie se liší od samostatnosti a soustřeďování pozemních sborů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "314",
+      "verdict": "accept",
+      "compared_ids": [
+        "957",
+        "959"
+      ],
+      "reason": "Jde o systémovou závislost dopravy a palebné síly na koních, nikoli o ambulance či organizaci sborů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "315",
+      "verdict": "accept",
+      "compared_ids": [
+        "528"
+      ],
+      "reason": "Optická retranslace kódu bez dopravy posla je odlišná od římské sítě přepřahacích stanic.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "316",
+      "verdict": "accept",
+      "compared_ids": [
+        "966",
+        "525"
+      ],
+      "reason": "Konkrétní právní omezení manželek v roce 1804 není Beauvoirina teorie Druhého ani samotné zveřejnění zákona.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "317",
+      "verdict": "accept",
+      "compared_ids": [
+        "959",
+        "483"
+      ],
+      "reason": "Ochrana terénem v konkrétní bitvě je jiný mechanismus než sbory či poválečná mocenská rovnováha.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "318",
+      "verdict": "accept",
+      "compared_ids": [
+        "960"
+      ],
+      "reason": "Vyhledání externích dokumentů pro odpověď je jiný mechanismus než postupné odšumování při tvorbě obrazu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "319",
+      "verdict": "accept",
+      "compared_ids": [
+        "961",
+        "960"
+      ],
+      "reason": "Zrychlení inference pomocí návrhu a ověření se netýká čipletového pouzdra ani generování odšumováním.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "320",
+      "verdict": "accept",
+      "compared_ids": [
+        "231",
+        "962"
+      ],
+      "reason": "Odolnost vůči kvantovým útokům je jiný problém než princip dvou klíčů či vazba přihlášení na doménu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "321",
+      "verdict": "accept",
+      "compared_ids": [
+        "809"
+      ],
+      "reason": "Rozdělení spektra mezi dvě absorpční vrstvy není pouhé vysvětlení fotoelektrického jevu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "322",
+      "verdict": "accept",
+      "compared_ids": [
+        "961"
+      ],
+      "reason": "Elektrochemické ukládání sodíku nemá v katalogu blízký mechanismus; čiplety jsou jen vzdálený technický námět.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "323",
+      "verdict": "accept",
+      "compared_ids": [
+        "37",
+        "266",
+        "963"
+      ],
+      "reason": "Třídění tužeb není argument proti strachu ze smrti, hodnota přátelství ani smluvní spravedlnost.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "324",
+      "verdict": "accept",
+      "compared_ids": [
+        "877",
+        "186"
+      ],
+      "reason": "Rozlišení dvou druhů spravedlnosti není oprava obecnosti zákona ani volba pravidel pod závojem nevědomosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "325",
+      "verdict": "accept",
+      "compared_ids": [
+        "6",
+        "66"
+      ],
+      "reason": "Zákaz odplaty při již utrpěné křivdě je odlišný argument od reciprocity i tázací metody.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "326",
+      "verdict": "accept",
+      "compared_ids": [
+        "876",
+        "877"
+      ],
+      "reason": "Zaviněná neznalost a dobrovolnost činu je odlišná od slabé vůle navzdory vědění i opravy obecného zákona.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "327",
+      "verdict": "accept",
+      "compared_ids": [
+        "965",
+        "47"
+      ],
+      "reason": "Způsobilost a motivace vládců je odlišná od členění duše a poznávacího obrazu jeskyně.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "328",
+      "verdict": "accept",
+      "compared_ids": [
+        "190",
+        "583"
+      ],
+      "reason": "Logická analýza existence určitého popisu není význam jako užití ani arbitrárnost znaku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "329",
+      "verdict": "accept",
+      "compared_ids": [
+        "186",
+        "611"
+      ],
+      "reason": "Dva významy politické svobody se liší od nestranného návrhu institucí i sporu svobody se strukturami.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "330",
+      "verdict": "accept",
+      "compared_ids": [
+        "187",
+        "679"
+      ],
+      "reason": "Deweyho cyklus problémové situace není Popperovo demarkační kritérium ani morální jednota poznání a činu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "331",
+      "verdict": "accept",
+      "compared_ids": [
+        "604",
+        "967"
+      ],
+      "reason": "Historická podmíněnost interpretace a její proměna není záměrná otevřenost díla ani Buberova dvojice vztahů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "332",
+      "verdict": "accept",
+      "compared_ids": [
+        "55",
+        "900"
+      ],
+      "reason": "Čínský pokoj obsahuje vlastní argument syntaxe versus sémantika, nikoli jen test chování či Maryin problém prožitku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "333",
+      "verdict": "accept",
+      "compared_ids": [
+        "23",
+        "894"
+      ],
+      "reason": "Konkrétní měření zesílení hybnosti při řízeném odklonu není pouhé uvedení třetího Newtonova zákona ani chemie vzorků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "334",
+      "verdict": "accept",
+      "compared_ids": [
+        "894",
+        "915"
+      ],
+      "reason": "Nukleová báze v čistě odebraném materiálu má jiný důkazní význam než evaporitové soli Bennu či odběr z výtrysků Enceladu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "335",
+      "verdict": "accept",
+      "compared_ids": [
+        "155",
+        "567"
+      ],
+      "reason": "Měření absorpčních pásů při tranzitu není infračervené zaměření přístroje ani soupis planet TRAPPIST-1.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "336",
+      "verdict": "accept",
+      "compared_ids": [
+        "288",
+        "915"
+      ],
+      "reason": "Výměna orbitální energie při průletu je odlišná od ukončení Cassini kvůli kontaminaci či analýzy výtrysků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "337",
+      "verdict": "accept",
+      "compared_ids": [
+        "809",
+        "289"
+      ],
+      "reason": "Tlak světla na plachtu se liší od uvolňování elektronů i aerodynamického letu vrtulníku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "338",
+      "verdict": "accept",
+      "compared_ids": [
+        "253"
+      ],
+      "reason": "Nový rozbor řeší etiku péče o stvořenou bytost; původní text vysvětluje klimatické okolnosti vzniku knihy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "339",
+      "verdict": "accept",
+      "compared_ids": [
+        "673",
+        "688"
+      ],
+      "reason": "Románová zkouška nadčlověčí výjimky a viny není anonymita Gygova prstenu ani Švejkova doslovná poslušnost.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "340",
+      "verdict": "accept",
+      "compared_ids": [
+        "966",
+        "622"
+      ],
+      "reason": "Konkrétní dramatický obrat Nory a Torvalda není obecná teorie Druhého ani ztráta pracovní užitečnosti v Proměně.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "341",
+      "verdict": "accept",
+      "compared_ids": [
+        "414",
+        "872"
+      ],
+      "reason": "Nadpřirozené přenesení následků na portrét vytváří konkrétní literární otázku; nejde o halo efekt ani běžné řízení dojmu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "342",
+      "verdict": "accept",
+      "compared_ids": [
+        "131",
+        "628"
+      ],
+      "reason": "Biologické a psychické podmiňování kast se liší od Orwellova přepisování minulosti i Bradburyho zániku četby.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "343",
+      "verdict": "accept",
+      "compared_ids": [
+        "135",
+        "972"
+      ],
+      "reason": "Zvrat od revoluce k sovětskému zásahu v Maďarsku není pád Berlínské zdi ani britsko-francouzský neúspěch u Suezu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "344",
+      "verdict": "accept",
+      "compared_ids": [
+        "487",
+        "747"
+      ],
+      "reason": "Potlačení reformního komunismu roku 1968 je jiná událost než občanská právní opozice a pád režimu roku 1989.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "345",
+      "verdict": "accept",
+      "compared_ids": [
+        "285",
+        "483"
+      ],
+      "reason": "Trojúhelníková diplomacie konkrétního sblížení není krizová deeskalace na Kubě ani systém Vídeňského kongresu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "346",
+      "verdict": "accept",
+      "compared_ids": [
+        "973",
+        "974"
+      ],
+      "reason": "Převrat proti zvolené vládě má odlišný směr a politický mechanismus než portugalský pád diktatury či íránská revoluce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "347",
+      "verdict": "accept",
+      "compared_ids": [
+        "135",
+        "487"
+      ],
+      "reason": "Rozpad federálního státu po puči je jiný proces než odstranění hranice či pád jedné komunistické vlády.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "348",
+      "verdict": "accept",
+      "compared_ids": [
+        "976"
+      ],
+      "reason": "Vzájemně se udržující konfliktní smyčka není mechanismus intimity při sebeodhalení a vstřícné reakci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "349",
+      "verdict": "accept",
+      "compared_ids": [
+        "648",
+        "975"
+      ],
+      "reason": "Oprava narušené důvěry se liší od závazku oplatit dar i reakcí na úspěch partnera.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "350",
+      "verdict": "accept",
+      "compared_ids": [
+        "648",
+        "976"
+      ],
+      "reason": "Vděčnost jako rozpoznání hodnoty partnera se liší od tlaku vrátit laskavost; těžiště není sebeodhalení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "351",
+      "verdict": "accept",
+      "compared_ids": [
+        "822",
+        "975"
+      ],
+      "reason": "Experimentálně sdílená nová aktivita není obecná habituace ani sdělení již dosaženého úspěchu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "352",
+      "verdict": "accept",
+      "compared_ids": [
+        "247",
+        "886"
+      ],
+      "reason": "Souvislost spánku s průběhem partnerského sporu není konsolidace paměti ani změna energetického příjmu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}
