@@ -9,6 +9,8 @@ This repository-local workflow works with any AI agent with image-generation acc
 
 Create recognizable, restrained editorial raster artwork from each post's `illustration` metadata. Optimize for small mobile cards and one successful generation per post.
 
+When invoked as part of adding new posts through [faakt-create-posts](../faakt-create-posts/SKILL.md), illustration generation is already included in that request. Process the new post IDs explicitly, without another confirmation or selecting unrelated missing images through `--next`. After saving, registering and reviewing the assets, continue the parent workflow through checks and a running local test with a verified URL. A standalone illustration request retains the scope below.
+
 ## Repeatable next batch
 
 - Treat **„další ilustrace“** (or „vygeneruj další ilustrace“) as starting this workflow. If the user has not supplied a count, ask **„Pro kolik dalších příspěvků chceš vygenerovat ilustrace?“** and wait for their reply. A positive whole-number reply belongs to the pending batch; do not ask for confirmation again. Ask for a corrected count if the reply is invalid or ambiguous.

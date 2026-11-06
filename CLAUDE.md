@@ -99,6 +99,14 @@ Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 - **Při každé změně datové struktury příspěvků, způsobu jejich generování nebo redakčních pravidel obsahu aktualizuj tento soubor ve stejné změně.** Udržuj v souladu ukázkový JSON, datové typy a povolené hodnoty včetně kategorií a ilustračních metadat.
 - Nové příspěvky obsahují `illustration` se všemi poli a pravidly uvedenými v zadání; metadata musí vycházet z titulku i celého obsahu.
 
+## Dokončení nové dávky postů
+
+Požadavek na přidání či vygenerování nových postů v tomto repozitáři standardně zahrnuje **obsah, ilustrace, plnohodnotné karty a spuštění pro lokální test**. Postupuj podle `skills/faakt-create-posts/SKILL.md`: ověř originalitu a zdroje, připoj posty přes hlídaný `append`, vytvoř skutečné ilustrace podle `skills/faakt-illustrations/SKILL.md`, zaregistruj je v kartách i galerii a dokonči projektové kontroly. Metadata obrázku ani JSON předaný do chatu nenahrazují hotový post v aplikaci. Na navazující ilustrace a lokální spuštění není potřeba další potvrzení.
+
+Po kontrolách spusť nebo znovu použij lokální server pro správný checkout, ověř v prohlížeči nové karty a předej skutečně dostupnou URL s base path `/faakt.io/` a odkazem na první nové ID. Server ponech běžet pro uživatelův test; samotný `npm run build` lokální test nezpřístupňuje. Build a dev server nespouštěj souběžně nad stejným `.svelte-kit`; po buildu lokální server případně znovu spusť. Podrobnosti a podmínky dokončení jsou ve skillu.
+
+Výslovné zadání pouze návrhů, textů nebo JSON má přednost. Lokální zpřístupnění není veřejná publikace: merge do `main`, push spouštějící Actions a `npm run deploy` vyžadují odpovídající zadání. Pokud některá část nejde dokončit, zachovej hotovou práci a konkrétně uveď překážku; neoznačuj dávku za kompletní.
+
 ## Skripty
 ```bash
 npm run dev              # Lokální vývoj (http://localhost:5173/faakt.io/)

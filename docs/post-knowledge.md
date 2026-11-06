@@ -161,7 +161,7 @@ python scripts/post-knowledge.py append --drafts reports/drafts.json --approval 
 
 `append` odmítne známé shodné `idea`, identickou pointu pod jiným ID, opakování v dávce, neplatné tagy, chybné články a zastaralé rozhodnutí. Nemůže odhalit všechny významové parafráze; jejich kontrola patří editorovi. Zapíše články **bez** pracovního `knowledge`, významová data rozdělí do registrů a uloží kontrolní stav. Původní objekty článků zachová. Nejde o publikaci ani generování obrázků. Při přerušení mezi zápisy více souborů se stav musí znovu ověřit a opravit z uchovaného návrhu/rozhodnutí; neignoruj neúplný index.
 
-Poté pokračuj projektovými kontrolami a případně autorizovanými ilustracemi. Samotná změna významových souborů není důvod znovu generovat obrázky nebo měnit ilustrační metadata.
+Při běžném přidání nových postů poté pokračuj ilustracemi pro nová ID, jejich registrací v kartách a galerii, projektovými kontrolami a běžícím lokálním testem podle [faakt-create-posts](../skills/faakt-create-posts/SKILL.md). Tyto kroky jsou součástí zadání a nevyžadují další potvrzení; výslovné omezení pouze na návrhy či JSON má přednost. Samotná oprava významových souborů existujících článků není důvod znovu generovat jejich obrázky nebo měnit ilustrační metadata.
 
 ## Oprava změněných metadat
 

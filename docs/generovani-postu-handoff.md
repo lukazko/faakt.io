@@ -1,6 +1,6 @@
 # Zadání pro AI agenta: nové příspěvky faakt.io
 
-Jsi editor obsahu aplikace faakt.io. Vytváříš nové, čtivé příspěvky v češtině založené výhradně na ověřitelných skutečnostech. Výstup se bude vkládat do databáze aplikace, proto dodrž její datový formát přesně.
+Jsi editor obsahu aplikace faakt.io. Vytváříš nové, čtivé příspěvky v češtině založené výhradně na ověřitelných skutečnostech. Při práci v repozitáři standardně dokonči celý postup: obsah, vložení do databáze, skutečné ilustrace, zapojení do karet a galerie, kontroly a běžící aplikaci pro lokální test. Podrobný postup a podmínky dokončení určuje [faakt-create-posts](../skills/faakt-create-posts/SKILL.md). Na ilustrace ani lokální spuštění se znovu neptej; jsou součástí běžného požadavku na nové posty. Výslovné zadání pouze návrhů, textů nebo JSON má přednost. Veřejné nasazení není součástí lokálního testu.
 
 ## Než začneš
 
@@ -100,13 +100,14 @@ Použij pouze tyto hodnoty:
 
 ## Výstup a kontrola
 
-- Vrať pouze jeden validní JSON seznam nových příspěvků. Bez Markdownových bloků, úvodu, závěru nebo komentářů mimo JSON.
+- Při přidání postů do aplikace dokonči celý postup podle skillu včetně ilustrací a běžícího lokálního testu. Předej dokončená ID, výsledky kontrol a ověřenou URL na nové posty; samotný build nestačí.
+- Pouze při výslovném zadání JSON výstupu vrať jeden validní JSON seznam nových příspěvků bez Markdownových bloků a komentářů. Takto lze použít zadání i u externího agenta, který připravuje pouze návrhy pro následný import.
 - Každý objekt musí mít přesně použitá pole a datové typy z uvedeného příkladu. Zachovej všechna pole; vynechaný zdroj nebo ilustrační metadata nejsou přijatelné.
 - Před odevzdáním zkontroluj validitu JSON, navazující jedinečná ID, délku a jazyk textu, 2 až 3 zdroje, kategorii a všechny hodnoty enumů.
 - Samostatně ověř, že první odstavec (hook) obsahuje 2 až 3 smysluplné věty a není prodloužený výplní.
 - Zkontroluj, že ilustrace vychází z konkrétního příspěvku, že hlavní a doplňkové motivy dávají smysl společně a že se kompozice v rámci dávky zbytečně neopakují.
 - `concept`, `scene_type` a `composition_hints` popisují stejný vybraný aspekt. Relevantní objekt je dostačující i u argumentu, paradoxu nebo mechanismu; není potřeba zobrazit celý vztah či důkaz. Klíčová slova nesmějí zbytečně rozšiřovat inventář obrázku.
-- Dodané existující příspěvky nikdy nepřepisuj, nemaž ani neupravuj. Vrať pouze nové záznamy.
+- Dodané existující příspěvky nikdy nepřepisuj, nemaž ani neupravuj. Připoj nebo exportuj pouze nové záznamy podle zadaného rozsahu.
 
 ## Údržba tohoto zadání
 

@@ -1,11 +1,26 @@
 ---
 name: faakt-create-posts
-description: Vytváření nových českých postů pro faakt.io, ověření originality proti celé databázi a příprava úplných ilustračních metadat. Použij při zadání nových postů nebo tematické dávky, nikoli pouze pro audit metadat či generování obrázků.
+description: Přidání nových českých postů do faakt.io od ověřeného originálního obsahu přes ilustrace a karty až po běžící lokální test. Použij pro nové posty či tematickou dávku; respektuj výslovné omezení pouze na návrhy nebo JSON. Samostatné ilustrace a audit metadat mají vlastní skilly.
 ---
 
 # Nové posty faakt.io
 
 Skill je použitelný libovolným AI agentem schopným číst soubory a ověřovat webové zdroje. Nevyžaduje konkrétní model, SDK ani placené API. Relativní odkazy níže vycházejí z adresáře tohoto skillu; příkazy spouštěj z kořene repozitáře.
+
+## Výchozí rozsah a dokončení
+
+„Přidej nové posty“ i „vygeneruj N nových postů“ v tomto repozitáři znamená dodat plnohodnotné posty v aplikaci. Součástí zadání jsou obsah, skutečné ilustrace, karty a běžící lokální test; na tyto navazující kroky nevyžaduj další potvrzení. Výslovný požadavek pouze na návrhy, texty či JSON má přednost a omezuje postup na požadovaný výstup.
+
+Pro běžné přidání postů dokonči:
+
+1. Ověřené originální texty, zdroje a metadata podle níže uvedených pravidel; zápis do `posts.json` a významových registrů přes hlídaný `append`.
+2. Skutečné ilustrace pro přesně nová ID podle [faakt-illustrations](../faakt-illustrations/SKILL.md). Použij explicitní `--ids`, nikoli `--next`, které by mohlo vybrat jiné chybějící obrázky. Ulož assety a provenance, zapoj ID do produkčních karet a společného manifestu galerie a aktualizuj `docs/ilustrace-handoff.md`. Samotná pole `illustration` tuto fázi nesplňují. Platí pravidla ilustračního skillu pro cache, dostupný generátor a případný API fallback.
+3. Kontrolu skutečných mobilních karet s titulkem a hookem, zobrazení ilustrací, otočení na úplný text a dostupnosti zdrojů. Zachovej stávající komponenty a vzhled, pokud zadání nepožaduje jejich změnu.
+4. Kontroly významového indexu, náhled deterministického repairu, `npm test` a `npm run build`; ověř nové statické stránky a obrazové soubory. Hotový build je kontrola, nikoli spuštěná aplikace.
+5. Lokální zpřístupnění: znovu použij běžící server pro tento checkout, pokud zobrazuje aktuální změny, jinak spusť `npm run dev -- --host 127.0.0.1` nebo po buildu `npm run preview -- --host 127.0.0.1`. Použij skutečný port z výstupu, ověř URL v prohlížeči a ponech server běžet pro uživatelův test. Před buildem pozastav vlastní dev server používající stejný `.svelte-kit` a po buildu jej případně obnov; nezastavuj cizí procesy jen kvůli obsazenému portu. Pro test přes síť použij `--host` podle zadání.
+6. Stručné předání dokončených ID, výsledků kontrol a funkční lokální URL. U dev serveru lze odkázat na `/faakt.io/?order=id&post=<první nové ID>`; u produkčního preview na `/faakt.io/post/<ID>/`. Respektuj `/faakt.io/` a skutečně ověř, že odkaz otevře novou kartu.
+
+Neukončuj běžný požadavek jen JSONem, metadaty, uloženými obrázky nebo sestaveným webem bez běžícího serveru. Pokud chybí potřebný nástroj nebo server nelze zpřístupnit, zachovej dokončené části a uveď konkrétní nedokončený krok. Lokální spuštění nezahrnuje automatickou publikaci, merge do `main` ani push spouštějící veřejný deploy.
 
 ## Zdroje a zadání
 
@@ -97,6 +112,6 @@ Hlavní motiv má být opticky vycentrovaný v celém obrázku vodorovně i svis
 
 Před odevzdáním ověř úplnost kontroly originality, jedinečnost ID, JSON a datové typy, délky, HTML, češtinu, kategorie, 2–3 ověřené zdroje, všech osm polí ilustrace a enumy. Samostatně posuď věrnost ilustrace celému textu a nepotřebné vedlejší motivy. Pro podrobný sémantický audit lze použít [faakt-metadata-review](../faakt-metadata-review/SKILL.md).
 
-Při požadavku na nové posty vrať pouze validní JSON pole nových objektů bez Markdownu a komentářů, není-li zadán jiný způsob předání. Při požadavku na vložení do databáze připoj jen nové záznamy a zachovej existující obsah i rozpracované změny; dodrž projektové kontroly v CLAUDE.md včetně náhledu repairu. Generovací skript není zárukou originality ani úplných metadat. Nepublikuj automaticky a nespouštěj generování obrázků bez odpovídajícího zadání.
+Při běžném přidání postů dokonči celý postup v části „Výchozí rozsah a dokončení“ a předej stručný stav s funkčním lokálním odkazem. Pouze při výslovném zadání JSON výstupu vrať validní pole nových objektů bez Markdownu a komentářů. Do databáze připojuj jen nové záznamy a zachovej existující obsah i rozpracované změny. Generovací skript není zárukou originality ani úplných metadat. Ilustrace jsou autorizovanou součástí běžného přidání postů; veřejná publikace tím autorizována není.
 
 Při změně schématu nebo redakčních pravidel udržuj tento skill a redakční handoff ve vzájemném souladu ve stejné změně.
