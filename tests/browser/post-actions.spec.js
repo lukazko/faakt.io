@@ -127,26 +127,34 @@ test('flip hint returns in a new tab session', async ({ page, context }) => {
 	await expect.poll(() => nextPage.evaluate(() => window.flipHintStarts)).toBe(1);
 });
 
-test('touch tap replays flip hint after an actual flip', async ({ page }) => {
-	test.skip(await page.evaluate(() => navigator.maxTouchPoints === 0), 'Touch devices only');
+test('short tap or click on the front flips the card repeatedly', async ({ page }) => {
+	const card = page.locator('.is-active');
+	for (let i = 0; i < 2; i++) {
+		await activate(card.locator('.card-front h1, .card-front h2').first(), page);
+		await expect(card).toHaveClass(/flipped/);
+		await expect(card.locator('.card-back')).toHaveAttribute('aria-hidden', 'false');
+		await page.keyboard.press('Escape');
+		await expect(card).not.toHaveClass(/flipped/);
+		await card.locator('.card-stage').evaluate(async stage => {
+			await Promise.all(stage.getAnimations().map(animation => animation.finished));
+		});
+	}
+});
+
+test('touch press starts a flip hint before release', async ({ page }) => {
 	await flip(page);
 	await page.keyboard.press('Escape');
 	const card = page.locator('.is-active');
-	await expect(card).not.toHaveClass(/flipped/);
-	// The class changes before the 3D return transition finishes. Hit testing
-	// the front while it is still rotating can hit the stage instead.
 	await card.locator('.card-stage').evaluate(async stage => {
 		await Promise.all(stage.getAnimations().map(animation => animation.finished));
 	});
-	for (let i = 0; i < 2; i++) {
-		const starts = await page.evaluate(() => window.flipHintStarts);
-		await activate(card.locator('.card-front h1, .card-front h2').first(), page);
-		await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
-		await expect(card).not.toHaveClass(/flipped/);
-		await expect(card).not.toHaveClass(/flip-hint/);
-	}
-	await flip(page);
-	await expect(card).toHaveClass(/flipped/);
+	const starts = await page.evaluate(() => window.flipHintStarts);
+	// Pointer dispatch checks the hold separately; the tap test uses real browser input.
+	await card.locator('.card-front h1, .card-front h2').first().dispatchEvent('pointerdown', {
+		pointerType: 'touch', pointerId: 1, isPrimary: true, button: 0
+	});
+	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
+	await expect(card).not.toHaveClass(/flipped/);
 });
 
 test('mouse press replays flip hint before releasing the card', async ({ page }) => {
