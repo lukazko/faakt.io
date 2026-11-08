@@ -13,7 +13,7 @@ test.beforeEach(async ({ page }, testInfo) => {
 	await page.addInitScript(() => {
 		window.flipHintStarts = 0;
 		document.addEventListener('animationstart', event => {
-			if (event.animationName.endsWith('flip-preview')) window.flipHintStarts++;
+			if (/flip-preview|hold-preview/.test(event.animationName)) window.flipHintStarts++;
 		});
 		window.actionCalls = [];
 		window.shareError = null;
@@ -155,6 +155,12 @@ test('touch press starts a flip hint before release', async ({ page }) => {
 	});
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
 	await expect(card).not.toHaveClass(/flipped/);
+	await page.waitForTimeout(1400);
+	await expect(card).toHaveClass(/manual-hint/);
+	await card.dispatchEvent('pointerup', { pointerType: 'touch', pointerId: 1, isPrimary: true, button: 0 });
+	await card.locator('.card-front h1, .card-front h2').first().dispatchEvent('click');
+	await expect(card).not.toHaveClass(/flipped/);
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'none');
 });
 
 test('mouse press replays flip hint before releasing the card', async ({ page }) => {
@@ -171,9 +177,12 @@ test('mouse press replays flip hint before releasing the card', async ({ page })
 	await page.mouse.down();
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
 	await expect(card).not.toHaveClass(/flipped/);
-	await expect(card).not.toHaveClass(/flip-hint/);
+	await page.waitForTimeout(1400);
+	await expect(card).toHaveClass(/flip-hint/);
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'matrix3d(0.866025, 0, -0.5, 0, 0, 1, 0, 0, 0.5, 0, 0.866025, 0, 0, 0, 0, 1)');
 	await page.mouse.up();
-	await expect(card).toHaveClass(/flipped/);
+	await expect(card).not.toHaveClass(/flipped/);
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'none');
 });
 
 test('quick mouse click transitions from the flip hint to the back', async ({ page }) => {

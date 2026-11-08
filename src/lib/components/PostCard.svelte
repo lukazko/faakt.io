@@ -52,6 +52,34 @@
 	let manualHint = $state(false);
 	let hintRequest = 0;
 	let cardStageEl;
+	let heldPointer = null;
+	let pressStarted = 0;
+	let suppressHoldClick = false;
+	let pressX = 0;
+	let pressY = 0;
+
+	async function releaseCardPress(event) {
+		if (event.pointerId !== heldPointer) return;
+		const stage = cardStageEl;
+		const transform = manualHint && stage ? getComputedStyle(stage).transform : null;
+		suppressHoldClick = event.type !== 'pointerup' || performance.now() - pressStarted >= 350;
+		heldPointer = null;
+		++hintRequest;
+		if (manualHint) flipHint = false;
+		manualHint = false;
+		if (transform) {
+			stage.style.transform = transform;
+			await tick();
+			void stage.offsetWidth;
+			stage.style.removeProperty('transform');
+		}
+	}
+
+	function moveCardPress(event) {
+		if (event.pointerId === heldPointer && Math.hypot(event.clientX - pressX, event.clientY - pressY) > 12) {
+			releaseCardPress(event);
+		}
+	}
 
 	async function replayFlipHint() {
 		const request = ++hintRequest;
@@ -72,6 +100,7 @@
 			return;
 		}
 		const showHint = () => {
+			if (heldPointer !== null) return;
 			manualHint = false;
 			flipHint = shouldShowFlipHint()
 				&& !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -131,16 +160,25 @@
 		}
 	}
 
-	// Stisk na líci přehraje náznak, kliknutí i klepnutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
+	// Dlouhý stisk drží náklon a po puštění se vrátí; krátké klepnutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
 	// si klik řeší samy, stejně jako dokončený výběr textu.
 	function handleCardPointerDown(event) {
 		if (!event.isPrimary || event.button !== 0 || actionsOpen || flipped) return;
 		if (!(event.target instanceof Element)) return;
 		if (event.target.closest('a, button, input, textarea, select, label, summary')) return;
+		heldPointer = event.pointerId;
+		pressStarted = performance.now();
+		pressX = event.clientX;
+		pressY = event.clientY;
+		suppressHoldClick = false;
 		replayFlipHint();
 	}
 
 	function handleCardClick(event) {
+		if (suppressHoldClick) {
+			suppressHoldClick = false;
+			return;
+		}
 		const target = event.target;
 		if (!(target instanceof Element)) return;
 		if (target.closest('a, button, input, textarea, select, label, summary')) return;
@@ -159,6 +197,10 @@
 		else flipToBack();
 	}
 </script>
+
+<svelte:window onpointerup={releaseCardPress} onpointercancel={releaseCardPress} onpointermove={moveCardPress} onblur={() => {
+	if (heldPointer !== null) releaseCardPress({ pointerId: heldPointer, type: 'blur' });
+}} />
 
 <!-- More options in the category row on each side of the card. -->
 {#snippet actionControls(side)}
@@ -232,7 +274,7 @@
 	onkeydown={handleKeydown}
 	onclick={handleCardClick}
 >
-	<div class="card-stage" bind:this={cardStageEl} onanimationend={() => { flipHint = false; }}>
+	<div class="card-stage" bind:this={cardStageEl} onanimationend={() => { if (!manualHint) flipHint = false; }}>
 		<!-- LÍC -->
 		<section
 			id={frontId}
@@ -518,8 +560,12 @@
 	}
 
 	.post-card.flip-hint.manual-hint:not(.flipped) .card-stage {
-		--flip-preview-angle: 40deg;
-		animation-delay: 0s;
+		animation: hold-preview 0.3s ease-out forwards;
+	}
+
+	@keyframes hold-preview {
+		from { transform: rotateY(0deg); }
+		to { transform: rotateY(30deg); }
 	}
 
 	@keyframes flip-preview {
