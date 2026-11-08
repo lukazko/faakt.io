@@ -1,0 +1,1889 @@
+[
+  {
+    "id": "13",
+    "title": "Listina, kterou král podepsal, aby si zachránil trůn",
+    "content": "<p>15. června 1215 stál anglický král Jan Bezzemek na louce Runnymede a pod tlakem vzbouřených baronů podepsal dokument, který mu vzal část absolutní moci.</p><p>Magna Carta poprvé v historii stanovila, že ani král nestojí nad zákonem a že nikoho nelze uvěznit nebo potrestat bez řádného soudu.</p><p>Král se sice pokusil dohodu okamžitě zrušit a papež ji zprvu prohlásil za neplatnou, ale myšlenka v ní obsažená přežila. Stala se inspirací pro anglické parlamentarismus i pro pozdější americkou ústavu.</p><p>Z jednorázové dohody mezi šlechtou a panovníkem vznikl jeden z nejdůležitějších základů moderního právního státu.</p>",
+    "category": "politika",
+    "sources": [
+      {
+        "label": "British Library",
+        "url": "https://www.bl.uk/magna-carta"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://cs.wikipedia.org/wiki/Magna_charta"
+      }
+    ],
+    "illustration": {
+      "concept": "King John and demanding barons face a sealed Magna Carta parchment, showing royal power being constrained by a negotiated legal charter.",
+      "scene_type": "interaction",
+      "primary_subject": "magna_carta_parchment",
+      "secondary_subjects": [
+        "king_john",
+        "barons"
+      ],
+      "visual_keywords": [
+        "magna_carta_parchment",
+        "king_john",
+        "barons"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "17",
+    "title": "Aristotelova zlatá střední cesta ke šťastnému životu",
+    "content": "<p>Je odvaha ctnost, nebo jen chybějící strach? Aristotelés ve spise <em>Etika Níkomachova</em>, napsaném kolem roku 340 př. n. l., tvrdil, že každá ctnost leží uprostřed mezi dvěma extrémy.</p><p>Odvaha je střed mezi zbabělostí a bezhlavou zbrklostí. Štědrost stojí mezi skrblictvím a marnotratností. Přílišné množství i naprostý nedostatek jsou stejně škodlivé.</p><p>Klíčové slovo je <strong>fronésis</strong> — praktická rozumnost, schopnost správně posoudit konkrétní situaci, nikoli slepě dodržovat pravidlo.</p><p>Cílem života není potěšení ani bohatství, ale <em>eudaimonia</em> — naplněné vzkvétání, dosažené trvalým cvičením ctnosti v každodenních rozhodnutích.</p><p>Aristotelés tak nabízí návod, který moderní psychologie znovu objevuje pod pojmem emoční regulace.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/aristotle-ethics/"
+      },
+      {
+        "label": "Wikipedia",
+        "url": "https://cs.wikipedia.org/wiki/Etika_Nikomachova"
+      }
+    ],
+    "illustration": {
+      "concept": "Aristotle indicates a viable path between cowardice and recklessness; the fitting middle depends on the situation rather than a fixed arithmetic average.",
+      "scene_type": "diagram",
+      "primary_subject": "aristotelian_golden_mean",
+      "secondary_subjects": [
+        "aristotle_figure",
+        "balanced_path_between_extremes"
+      ],
+      "visual_keywords": [
+        "aristotelian_golden_mean",
+        "aristotle_figure",
+        "balanced_path_between_extremes"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "86",
+    "title": "Marcus Aurelius: císař, který si psal deník o vlastních slabostech",
+    "content": "<p>Co dělá muž, který má absolutní moc nad největší říší světa? Marcus Aurelius, římský císař žijící v letech 121 až 180 n. l., si každý večer psal poznámky sám pro sebe — ne pro potomky, ale aby si připomněl vlastní chyby a slabosti.</p><p>Tyto zápisky se dodnes čtou pod názvem <em>Hovory k sobě</em> a jsou jedním z nejosobnějších dokladů stoické filozofie. Aurelius si v nich připomínal, že hněv, závist a strach ze smrti jsou věci, které si člověk způsobuje sám svým myšlením.</p><p>Stoikové věřili, že klid mysli nezávisí na okolnostech, ale na tom, jak k nim přistupujeme. Císař, který mohl rozkázat cokoliv, si tak každý den připomínal, že jediné, co skutečně ovládá, je jeho vlastní úsudek.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Wikipedia",
+        "url": "https://cs.wikipedia.org/wiki/Marcus_Aurelius"
+      },
+      {
+        "label": "Stanford Encyclopedia of Philosophy",
+        "url": "https://plato.stanford.edu/entries/stoicism/"
+      }
+    ],
+    "illustration": {
+      "concept": "A Roman emperor sets imperial insignia aside to write a private journal, emphasizing self-examination and control of judgment rather than command over others.",
+      "scene_type": "interaction",
+      "primary_subject": "marcus_aurelius_journal",
+      "secondary_subjects": [
+        "roman_emperor",
+        "private_writing"
+      ],
+      "visual_keywords": [
+        "marcus_aurelius_journal",
+        "roman_emperor",
+        "private_writing"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "145",
+    "title": "John Locke a mysl jako nepopsaná deska při narození",
+    "content": "<p>Rodíme se s vrozenými myšlenkami, nebo je naše mysl při narození prázdná?</p><p>Anglický filozof <strong>John Locke</strong> ve svém díle <em>Esej o lidském rozumu</em> z roku 1689 odmítl tehdy rozšířenou představu vrozených idejí. Tvrdil, že mysl novorozence je jako <strong>tabula rasa</strong> – nepopsaná deska.</p><p>Veškeré poznání podle Locka pochází ze zkušenosti, buď ze smyslového vnímání vnějšího světa, nebo z vnitřní reflexe vlastních myšlenkových procesů.</p><p>Tato myšlenka měla dalekosáhlé politické i sociální důsledky: pokud lidé nemají vrozené předurčení, jsou v zásadě rovni a formuje je hlavně výchova a prostředí. Lockeho empirismus výrazně ovlivnil pozdější osvícenské myšlení i moderní pedagogiku.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – John Locke",
+        "url": "https://plato.stanford.edu/entries/locke/"
+      },
+      {
+        "label": "Britannica – John Locke",
+        "url": "https://www.britannica.com/biography/John-Locke"
+      }
+    ],
+    "illustration": {
+      "concept": "An initially blank tablet gradually acquires impressions from experience, expressing Locke's account of how the mind gains knowledge.",
+      "scene_type": "diagram",
+      "primary_subject": "locke_tabula_rasa",
+      "secondary_subjects": [
+        "blank_tablet",
+        "sensory_impressions"
+      ],
+      "visual_keywords": [
+        "locke_tabula_rasa",
+        "blank_tablet",
+        "sensory_impressions"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "156",
+    "title": "D-Day 1944: největší námořní invaze v dějinách",
+    "content": "<p>6. června 1944, v den označovaný jako <strong>D-Day</strong>, zahájily spojenecké síly rozsáhlou invazi na pláže francouzské Normandie okupované nacistickým Německem.</p><p>Na pěti plážích s krycími názvy Utah, Omaha, Gold, Juno a Sword vylodilo během jediného dne přes 150 000 vojáků za podpory téměř 7 000 lodí a více než 11 000 letadel.</p><p>Boje byly obzvlášť krvavé na pláži Omaha, kde němečtí obránci způsobili spojencům tisíce obětí ještě před tím, než se podařilo prolomit obranné linie.</p><p>Invaze otevřela na západě druhou frontu proti Německu a stala se rozhodujícím krokem k jeho porážce o necelý rok později, v květnu 1945.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "National WWII Museum – D-Day",
+        "url": "https://www.nationalww2museum.org/war/topics/d-day"
+      },
+      {
+        "label": "Britannica – D-Day",
+        "url": "https://www.britannica.com/event/D-Day"
+      }
+    ],
+    "illustration": {
+      "concept": "Landing craft deliver soldiers to Normandy beaches as a large fleet fills the horizon, conveying the scale of the D-Day invasion.",
+      "scene_type": "environment",
+      "primary_subject": "normandy_landing_craft",
+      "secondary_subjects": [
+        "soldiers_on_beach",
+        "allied_fleet"
+      ],
+      "visual_keywords": [
+        "normandy_landing_craft",
+        "soldiers_on_beach",
+        "allied_fleet"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "157",
+    "title": "Adam Smith a továrna na špendlíky, která vysvětlila dělbu práce",
+    "content": "<p>Kolik špendlíků dokáže vyrobit jeden zručný dělník za den, když dělá úplně vše sám? Podle odhadu skotského ekonoma Adama Smithe možná jen jeden, možná ani to ne.</p><p>Smith ve svém díle <em>Bohatství národů</em> z roku 1776 popsal manufakturu na výrobu špendlíků, kde bylo místo jediného řemeslníka rozděleno osmnáct dílčích úkonů mezi deset dělníků.</p><p>Jeden dělník tak natahoval drát, druhý ho rovnal, třetí řezal, čtvrtý brousil hrot a tak dál. Výsledkem bylo, že společně dokázali vyrobit přes 48 000 špendlíků denně, tedy tisíce na jednoho pracovníka.</p><p>Tímto příkladem Smith ilustroval princip <strong>dělby práce</strong> – specializace jednotlivých úkonů dramaticky zvyšuje celkovou produktivitu, což se stalo jedním ze základních principů moderního průmyslu.</p>",
+    "category": "ekonomie",
+    "sources": [
+      {
+        "label": "Econlib – Wealth of Nations, Book I",
+        "url": "https://www.econlib.org/library/Smith/smWN1.html"
+      },
+      {
+        "label": "Britannica – Division of labour",
+        "url": "https://www.britannica.com/topic/division-of-labour"
+      }
+    ],
+    "illustration": {
+      "concept": "Different workers repeatedly perform individual stages of pin production, turning division of labor into greater combined output.",
+      "scene_type": "process",
+      "primary_subject": "pin_factory_assembly_line",
+      "secondary_subjects": [
+        "specialized_workers",
+        "finished_pins"
+      ],
+      "visual_keywords": [
+        "pin_factory_assembly_line",
+        "specialized_workers",
+        "finished_pins"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "170",
+    "title": "Starověká kritika války, která počítala náklady a přínosy",
+    "content": "<p>Ve 4. století př. n. l. se v Číně objevila škola, která odmítala myšlenku, že máme milovat vlastní rodinu víc než cizí lidi.</p><p>Mo-c' a jeho následovníci hlásali nestranný ohled ke všem, protože právě oddanost jen vlastní skupině podle nich stojí za válkami mezi státy i za spory mezi rody.</p><p>Jejich argumentace byla nezvykle praktická: útočná válka se nevyplácí ani vítězi, protože náklady na vojsko, ztracenou úrodu a mrtvé převáží zisk z dobytého území.</p><p>Mohisté zůstali u teorie jen zčásti. Proslavili se jako <strong>odborníci na obranu měst</strong>, kteří pomáhali ohroženým stranám opevnit hradby, aby se útok nevyplatil.</p><p>Jejich spisy obsahují i první čínské úvahy o logice a optice.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Mohism",
+        "url": "https://plato.stanford.edu/entries/mohism/"
+      },
+      {
+        "label": "Britannica – Mozi",
+        "url": "https://www.britannica.com/biography/Mozi"
+      }
+    ],
+    "illustration": {
+      "concept": "The resources and lost harvest consumed by an attacking army outweigh a small territorial gain, illustrating the Mohist practical case against offensive war.",
+      "scene_type": "diagram",
+      "primary_subject": "mohist_costs_of_aggression",
+      "secondary_subjects": [
+        "wasted_harvest",
+        "defended_city"
+      ],
+      "visual_keywords": [
+        "mohist_costs_of_aggression",
+        "wasted_harvest",
+        "defended_city"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "185",
+    "title": "Test morálky: co kdyby to dělali úplně všichni?",
+    "content": "<p>Je v pořádku slíbit něco, co nemám v úmyslu splnit, když se mi to zrovna hodí?</p><p>Německý filozof Immanuel Kant nabídl v 18. století zkoušku, kterou nazval <strong>kategorický imperativ</strong>. Zní zhruba takto: jednej jen podle pravidla, o kterém můžeš zároveň chtít, aby platilo pro všechny.</p><p>U falešného slibu test selže. Kdyby ho dávali všichni, nikdo by slibům nevěřil a instituce slibování by zanikla, takže by ho nešlo ani použít.</p><p>Druhá formulace téhož principu žádá, abychom v druhém člověku vždy viděli také cíl, nikdy pouze prostředek.</p><p>Kantova etika tím posouvá důraz z následků jednání na jeho vnitřní logiku. Správné je to, co obstojí, i kdyby to dělal každý.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Kant's Moral Philosophy",
+        "url": "https://plato.stanford.edu/entries/kant-moral/"
+      },
+      {
+        "label": "Britannica – Categorical imperative",
+        "url": "https://www.britannica.com/topic/categorical-imperative"
+      }
+    ],
+    "illustration": {
+      "concept": "A convenient false promise is repeated by everyone until the network of trust breaks, testing whether the action's rule can hold universally.",
+      "scene_type": "process",
+      "primary_subject": "kant_universalized_false_promise",
+      "secondary_subjects": [
+        "individual_promise",
+        "collapsed_collective_trust"
+      ],
+      "visual_keywords": [
+        "kant_universalized_false_promise",
+        "individual_promise",
+        "collapsed_collective_trust"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "187",
+    "title": "Vědecká je jen ta teorie, která může být vyvrácena",
+    "content": "<p>Co odlišuje vědu od nauk, které vysvětlí naprosto všechno?</p><p>Rakousko-britský filozof Karl Popper navrhl ve 30. letech 20. století kritérium, které tuto hranici posouvá jinam, než by člověk čekal. Podstatné podle něj není, kolik důkazů teorii potvrzuje, ale zda vůbec dokáže říct, co by ji vyvrátilo.</p><p>Žádné množství pozorovaných bílých labutí nedokazuje, že všechny labutě jsou bílé. Jediná černá labuť ale tvrzení vyvrátí.</p><p>Teorie, která se dokáže obhájit při každém výsledku, proto podle Poppera není silná, ale prázdná. Vědecká síla spočívá v riskantních předpovědích, které se mohou nepovést.</p><p><strong>Věda nepostupuje hromaděním jistot, ale vyřazováním omylů.</strong></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Karl Popper",
+        "url": "https://plato.stanford.edu/entries/popper/"
+      },
+      {
+        "label": "Britannica – Falsifiability",
+        "url": "https://www.britannica.com/topic/criterion-of-falsifiability"
+      }
+    ],
+    "illustration": {
+      "concept": "A single black swan interrupts a row of white swans, showing that one genuine counterexample can falsify a universal claim.",
+      "scene_type": "diagram",
+      "primary_subject": "popper_black_swan_counterexample",
+      "secondary_subjects": [
+        "white_swans",
+        "black_swan"
+      ],
+      "visual_keywords": [
+        "popper_black_swan_counterexample",
+        "white_swans",
+        "black_swan"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "206",
+    "title": "Jediná nemoc, kterou se podařilo z planety zcela vymýtit",
+    "content": "<p>Pravé neštovice provázely lidstvo staletí a jen ve 20. století si podle odhadů vyžádaly stovky milionů obětí.</p><p>Světová zdravotnická organizace zahájila v roce 1967 zesílený program eradikace. Nespoléhal na proočkování celé populace, ale na rychlé vyhledávání ohnisek a očkování všech osob v okolí nemocného.</p><p>Poslední případ přirozeného nákazy byl zaznamenán v Somálsku v roce 1977 a v roce 1980 WHO prohlásila nemoc za vymýcenou.</p><p>Pomohlo několik okolností: nemoc se nešířila skrytě, měla nezaměnitelné příznaky, neměla zvířecí rezervoár a existovala stabilní vakcína.</p><p><strong>Zatím jde o jedinou lidskou nemoc, u níž se tento cíl podařilo naplnit.</strong></p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "WHO – Smallpox eradication",
+        "url": "https://www.who.int/health-topics/smallpox"
+      },
+      {
+        "label": "CDC – History of Smallpox",
+        "url": "https://www.cdc.gov/smallpox/about/history.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A ring of vaccinated contacts surrounds a detected smallpox case and stops outward transmission, illustrating the targeted campaign that eradicated the disease.",
+      "scene_type": "diagram",
+      "primary_subject": "smallpox_ring_vaccination",
+      "secondary_subjects": [
+        "isolated_case",
+        "vaccinated_contacts"
+      ],
+      "visual_keywords": [
+        "smallpox_ring_vaccination",
+        "isolated_case",
+        "vaccinated_contacts"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "209",
+    "title": "Bakteriální obrana proti virům se stala nástrojem na úpravu genů",
+    "content": "<p>Bakterie se brání virům tím, že si ukládají kousky jejich genetického kódu a podle nich pak cizí DNA rozpoznají a rozstřihnou.</p><p>Tento systém, označovaný jako <strong>CRISPR</strong>, popsaly badatelky Emmanuelle Charpentierová a Jennifer Doudnaová v roce 2012 jako programovatelný nástroj. Ukázaly, že navedením krátké vodicí molekuly lze střih zacílit prakticky na libovolné místo v genomu.</p><p>Tím se úprava genů zlevnila a zrychlila natolik, že se rozšířila do běžných laboratoří.</p><p>V roce 2020 obě vědkyně získaly Nobelovu cenu za chemii.</p><p>Technologie otevřela cestu k léčbě dědičných chorob i k debatě o tom, kde jsou hranice zásahů do lidského dědictví.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Nobel Prize – Chemistry 2020",
+        "url": "https://www.nobelprize.org/prizes/chemistry/2020/summary/"
+      },
+      {
+        "label": "Broad Institute – What is CRISPR?",
+        "url": "https://www.broadinstitute.org/what-broad/areas-focus/project-spotlight/questions-and-answers-about-crispr"
+      }
+    ],
+    "illustration": {
+      "concept": "A bacterial defense against viral DNA becomes a guided molecular tool that locates and cuts a chosen genetic sequence.",
+      "scene_type": "process",
+      "primary_subject": "crispr_gene_editing",
+      "secondary_subjects": [
+        "bacterial_viral_memory",
+        "guide_rna",
+        "cut_dna"
+      ],
+      "visual_keywords": [
+        "crispr_gene_editing",
+        "bacterial_viral_memory",
+        "guide_rna",
+        "cut_dna"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "234",
+    "title": "Rok 1997: stroj poprvé porazil úřadujícího mistra světa v šachu",
+    "content": "<p>V květnu 1997 skončil zápas mezi mistrem světa Garrim Kasparovem a počítačem <strong>Deep Blue</strong> společnosti IBM výhrou stroje v poměru 3,5 ku 2,5.</p><p>O rok dříve přitom stejný soupeř lidskému hráči podlehl. Mezi oběma zápasy byl systém výrazně posílen a doplněn o rozsáhlou práci šachových konzultantů.</p><p>Deep Blue nehrál lidským způsobem. Spoléhal na obrovský počet prohledaných pozic za sekundu a na hodnotící funkci, ne na porozumění strategii.</p><p>Symbolický dopad byl přesto velký. Ukázalo se, že hrubá výpočetní síla stačí k překonání člověka v úloze, která platila za výsostně intelektuální.</p><p>O necelých dvacet let později padla stejná hranice i ve hře go, tentokrát díky strojovému učení.</p>",
+    "category": "pocitacove-vedy",
+    "sources": [
+      {
+        "label": "IBM – Deep Blue",
+        "url": "https://www.ibm.com/history/deep-blue"
+      },
+      {
+        "label": "Britannica – Deep Blue",
+        "url": "https://www.britannica.com/topic/Deep-Blue"
+      }
+    ],
+    "illustration": {
+      "concept": "Kasparov faces a computer across a chessboard, focusing on the 1997 defeat of the reigning world champion by Deep Blue.",
+      "scene_type": "interaction",
+      "primary_subject": "deep_blue_kasparov_match",
+      "secondary_subjects": [
+        "chessboard",
+        "computer_cabinet"
+      ],
+      "visual_keywords": [
+        "deep_blue_kasparov_match",
+        "chessboard",
+        "computer_cabinet"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "239",
+    "title": "Když je rozumné rozhodnutí obou stran horší než spolupráce",
+    "content": "<p>Dva zadržení jsou vyslýcháni odděleně. Pokud budou oba mlčet, dostanou mírné tresty. Pokud jeden promluví a druhý mlčí, mluvčí vyvázne a mlčící dostane vysoký trest. Pokud promluví oba, čeká je střední trest.</p><p>Z pohledu každého z nich je výhodnější promluvit, ať už druhý udělá cokoli. Proto promluví oba a skončí hůř, než kdyby oba mlčeli.</p><p>Tato úloha, známá jako <strong>vězňovo dilema</strong>, je klasickým příkladem stavu, kdy individuálně nejlepší volba vede ke společně horšímu výsledku. Takovému stavu se říká Nashova rovnováha.</p><p>Vysvětluje závody ve zbrojení, cenové války i vyčerpávání sdílených zdrojů.</p><p>Při opakované hře se ale spolupráce může vyplatit, protože do hry vstupuje pověst a možnost odplaty.</p>",
+    "category": "ekonomie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Prisoner's Dilemma",
+        "url": "https://plato.stanford.edu/entries/prisoner-dilemma/"
+      },
+      {
+        "label": "Britannica – Prisoner's dilemma",
+        "url": "https://www.britannica.com/science/prisoners-dilemma"
+      }
+    ],
+    "illustration": {
+      "concept": "Two separated decision makers each choose self-protection, landing together in a worse outcome than mutual cooperation would have produced.",
+      "scene_type": "diagram",
+      "primary_subject": "prisoners_dilemma",
+      "secondary_subjects": [
+        "two_separated_decision_makers",
+        "payoff_grid"
+      ],
+      "visual_keywords": [
+        "prisoners_dilemma",
+        "two_separated_decision_makers",
+        "payoff_grid"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "247",
+    "title": "Mozek se během spánku učí to, co přes den zažil",
+    "content": "<p>Spánek dlouho platil za pouhý odpočinek. Výzkumy posledních desetiletí ukazují, že jde o aktivní fázi zpracování.</p><p>Během noci dochází ke <strong>konsolidaci paměti</strong>: nově vytvořené stopy se stabilizují a přenášejí z hipokampu do mozkové kůry. Měření u zvířat prokázala, že se přitom přehrávají obdobné vzorce nervové aktivity jako při původním učení.</p><p>Různé fáze spánku přispívají různě. Hluboký spánek souvisí spíš s pamětí na fakta a události, fáze REM se spojuje s emočním zpracováním a s učením dovedností.</p><p>Nedostatek spánku proto zhoršuje nejen pozornost, ale i schopnost si nové věci vůbec uložit.</p><p><em>Učení tedy nekončí zavřením knihy, ale až po probuzení.</em></p>",
+    "category": "psychologie",
+    "sources": [
+      {
+        "label": "NIH – Brain Basics: Understanding Sleep",
+        "url": "https://www.ninds.nih.gov/health-information/public-education/brain-basics/brain-basics-understanding-sleep"
+      },
+      {
+        "label": "Harvard Health – Sleep and memory",
+        "url": "https://www.health.harvard.edu/mind-and-mood/sleep-and-mental-health"
+      }
+    ],
+    "illustration": {
+      "concept": "Patterns learned during the day reappear and strengthen while a person sleeps, linking rest to memory consolidation.",
+      "scene_type": "process",
+      "primary_subject": "sleep_memory_consolidation",
+      "secondary_subjects": [
+        "sleeping_person",
+        "reactivated_daytime_patterns"
+      ],
+      "visual_keywords": [
+        "sleep_memory_consolidation",
+        "sleeping_person",
+        "reactivated_daytime_patterns"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "261",
+    "title": "Volební právo žen prosadila nejdřív země na okraji mapy",
+    "content": "<p>Který stát dal jako první ženám právo volit v celostátních volbách? Nebyla to žádná z tehdejších velmocí.</p><p>Byl to <strong>Nový Zéland</strong>, kde byl příslušný zákon přijat v roce 1893. Zásadní roli sehrála kampaň s rozsáhlými peticemi, z nichž ta největší nesla desítky tisíc podpisů a byla do sněmovny přinesena na velkém svitku.</p><p>Právo volit ale ještě neznamenalo právo kandidovat. To ženy na Novém Zélandu získaly až v roce 1919.</p><p>V Evropě následovalo Finsko v roce 1906, které jako první přiznalo ženám obě práva zároveň, a další státy přibývaly hlavně po první světové válce.</p><p>Změna přišla postupně a v každé zemi vyžadovala vlastní zápas.</p>",
+    "category": "politika",
+    "sources": [
+      {
+        "label": "New Zealand History – Women's suffrage",
+        "url": "https://nzhistory.govt.nz/politics/womens-suffrage"
+      },
+      {
+        "label": "Britannica – Woman suffrage",
+        "url": "https://www.britannica.com/topic/woman-suffrage"
+      }
+    ],
+    "illustration": {
+      "concept": "Women bring a long petition toward a ballot box in New Zealand, connecting organized pressure to national voting rights.",
+      "scene_type": "interaction",
+      "primary_subject": "new_zealand_womens_suffrage",
+      "secondary_subjects": [
+        "women_voters",
+        "suffrage_petition"
+      ],
+      "visual_keywords": [
+        "new_zealand_womens_suffrage",
+        "women_voters",
+        "suffrage_petition"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "263",
+    "title": "Pravidla usuzování, která platí bez ohledu na obsah vět",
+    "content": "<p>Všichni lidé jsou smrtelní. Sókratés je člověk. Tedy je smrtelný. Tento jednoduchý postup má jednu pozoruhodnou vlastnost: funguje i tehdy, když slova nahradíme písmeny.</p><p>Právě to byl objev řecké logiky ve 4. století př. n. l. Sylogismus se nezabývá tím, zda jsou premisy pravdivé, ale tím, zda z nich závěr <strong>nutně plyne</strong>.</p><p>Vznikla tak představa formy argumentu oddělené od jeho tématu. Platnost se dá posoudit stejně u vět o zvířatech jako o číslech.</p><p>Soubor těchto pravidel zůstal v evropském vzdělání prakticky beze změny až do 19. století, kdy ho rozšířila moderní matematická logika.</p><p><em>Bez tohoto kroku by nevznikly ani důkazy v matematice, ani algoritmy v počítačích.</em></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Aristotle's Logic",
+        "url": "https://plato.stanford.edu/entries/aristotle-logic/"
+      },
+      {
+        "label": "Britannica – Syllogism",
+        "url": "https://www.britannica.com/topic/syllogism"
+      }
+    ],
+    "illustration": {
+      "concept": "Aristotle holds a scroll in a thoughtful teaching pose, accompanying the ancient Greek development of formal syllogistic logic without pretending to diagram a proof.",
+      "scene_type": "portrait",
+      "primary_subject": "aristotle_formal_logic",
+      "secondary_subjects": [
+        "plain_teaching_scroll"
+      ],
+      "visual_keywords": [
+        "aristotle_formal_logic",
+        "plain_teaching_scroll"
+      ],
+      "composition_hints": [
+        "portrait_focus",
+        "single_uncluttered_silhouette"
+      ],
+      "mood": "contemplative",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "273",
+    "title": "Mikroskopický tvor přežije vakuum i extrémní záření",
+    "content": "<p>Želvušky, drobní osminozí živočichové dlouzí zlomky milimetru, žijí běžně v mechu, v půdě i v mořském dnu.</p><p>Jejich pověst plyne ze schopnosti přejít do stavu zvaného kryptobióza. Tvor vyschne, stáhne se do soudečkovitého tvaru a jeho metabolismus klesne prakticky k nule. V tomto stavu snáší podmínky, které by ho jinak zabily.</p><p>Experimenty ukázaly, že vysušené želvušky přežily pobyt ve vesmírném vakuu vystavené kosmickému záření a po návratu na Zemi se probraly.</p><p>Nejde o nezničitelnost. V aktivním stavu jsou zranitelné jako jiní živočichové a citlivé i na obyčejné vyschnutí.</p><p><em>Odolnost tu neznamená sílu, ale schopnost dočasně přestat žít.</em></p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Smithsonian – Tardigrades",
+        "url": "https://www.smithsonianmag.com/science-nature/water-bears-tardigrades-180970520/"
+      },
+      {
+        "label": "ESA – Tardigrades in space",
+        "url": "https://www.esa.int/Science_Exploration/Human_and_Robotic_Exploration/Tiny_animals_survive_exposure_to_space"
+      }
+    ],
+    "illustration": {
+      "concept": "A recognizable eight-legged tardigrade contracts into a dormant tun, linking survival of harsh conditions to suspended activity rather than permanent invulnerability.",
+      "scene_type": "diagram",
+      "primary_subject": "tardigrade_cryptobiosis",
+      "secondary_subjects": [
+        "active_tardigrade",
+        "contracted_tun"
+      ],
+      "visual_keywords": [
+        "tardigrade_cryptobiosis",
+        "active_tardigrade",
+        "contracted_tun"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "287",
+    "title": "Moc se má dělit, aby ji bylo čím zastavit",
+    "content": "<p>Jak zabránit zneužití moci, když se na ni nedá dohlížet zvenčí?</p><p>Odpověď, kterou v 18. století rozpracoval francouzský myslitel Montesquieu v díle <em>O duchu zákonů</em>, zní: rozdělit ji. Moc zákonodárná, výkonná a soudní mají být v odlišných rukou a vzájemně se omezovat.</p><p>Základní myšlenka je nedůvěřivá k lidské povaze. Předpokládá, že kdo má moc, má sklon ji rozšiřovat, dokud nenarazí na jinou moc.</p><p>Tento princip se promítl do ústavy Spojených států z roku 1787 v podobě systému brzd a protivah, kde prezident, Kongres a soudy navzájem kontrolují své kroky.</p><p><strong>Ústavní pojistky nepředpokládají ctnostné politiky, ale počítají s jejich absencí.</strong></p>",
+    "category": "politika",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Montesquieu",
+        "url": "https://plato.stanford.edu/entries/montesquieu/"
+      },
+      {
+        "label": "National Archives – The Constitution",
+        "url": "https://www.archives.gov/founding-docs/constitution"
+      }
+    ],
+    "illustration": {
+      "concept": "Three distinct institutions constrain one another through reciprocal connections, showing divided authority and checks on concentrated power.",
+      "scene_type": "diagram",
+      "primary_subject": "separation_of_powers",
+      "secondary_subjects": [
+        "legislature",
+        "executive",
+        "judiciary"
+      ],
+      "visual_keywords": [
+        "separation_of_powers",
+        "legislature",
+        "executive",
+        "judiciary"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "300",
+    "title": "V hlubinách bez světla žijí celá společenstva nezávislá na Slunci",
+    "content": "<p>Základ potravních řetězců obvykle tvoří fotosyntéza. Ve tmě několika kilometrů pod hladinou ale žádné světlo není.</p><p>V roce 1977 objevila hlubinná výprava u Galapág horké vývěry na dně oceánu obklopené bohatým životem, včetně velkých trubicovitých červů a měkkýšů.</p><p>Základem tohoto společenstva jsou bakterie, které získávají energii z chemických sloučenin, zejména sirovodíku, unikajících z vývěrů. Tomuto procesu se říká <strong>chemosyntéza</strong>.</p><p>Objev ukázal, že život nemusí být závislý na Slunci, pokud má zdroj chemické energie a kapalnou vodu.</p><p><em>Proto se pozornost při hledání života ve sluneční soustavě obrátila k ledovým měsícům, pod jejichž krustou se předpokládají oceány.</em></p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "NOAA Ocean Exploration – Hydrothermal vents",
+        "url": "https://oceanexplorer.noaa.gov/facts/hydrothermal-vents.html"
+      },
+      {
+        "label": "Woods Hole Oceanographic Institution – Hydrothermal vents",
+        "url": "https://www.whoi.edu/know-your-ocean/ocean-topics/seafloor-below/hydrothermal-vents/"
+      }
+    ],
+    "illustration": {
+      "concept": "An unlit seafloor community surrounds a mineral-rich vent, with bacteria converting chemical energy into the base of a food web independent of sunlight.",
+      "scene_type": "environment",
+      "primary_subject": "deep_sea_vent_ecosystem",
+      "secondary_subjects": [
+        "mineral_vent",
+        "chemosynthetic_bacteria",
+        "tube_worms"
+      ],
+      "visual_keywords": [
+        "deep_sea_vent_ecosystem",
+        "mineral_vent",
+        "chemosynthetic_bacteria",
+        "tube_worms"
+      ],
+      "composition_hints": [
+        "wide_environmental_view",
+        "distinctive_foreground_object"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "313",
+    "title": "Trafalgar: proč Nelson plul přímo proti dělovým hlavním",
+    "content": "<p>Proti řadě nepřátelských lodí se dá plout bokem a vyměňovat salvy. Nelson u Trafalgaru zvolil nebezpečnější přiblížení, aby změnil podobu celého střetnutí.</p><p>V říjnu 1805 rozdělil britské loďstvo do dvou kolon, které mířily napříč francouzsko-španělskou linií. Při přibližování vystavovaly vedoucí lodě nepřátelské palbě, aniž mohly stejně účinně odpovídat svými bočními bateriemi.</p><p>Proražení však rozbilo souvislou sestavu protivníka. Část jeho lodí se nemohla okamžitě zapojit a boj zblízka zvýhodnil připravenost britských posádek a jejich dělostřelbu.</p><p>Nešlo o vítězství kouzelného manévru bez ceny. Nelson vědomě vyměnil nebezpečí během přiblížení za možnost soustředit sílu tam, kde chtěl rozhodnout.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Royal Museums Greenwich: Nelsonův plán",
+        "url": "https://www.rmg.co.uk/stories/maritime-history/battle-trafalgar-background"
+      },
+      {
+        "label": "National Maritime Museum: Nelsonova taktika",
+        "url": "https://doi.org/10.1080/21533369.2005.9668348"
+      }
+    ],
+    "illustration": {
+      "concept": "Two Napoleonic sailing warships crossing at close quarters, with clearly perpendicular headings.",
+      "scene_type": "interaction",
+      "primary_subject": "two_sailing_warships_crossing",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "sailing_warships",
+        "square_sails",
+        "crossing_headings"
+      ],
+      "composition_hints": [
+        "dominant_central_subject",
+        "balanced_transparent_margins",
+        "single_coherent_scene"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "318",
+    "title": "Proč si jazykový model před odpovědí otevře knihovnu",
+    "content": "<p>Jazykový model nemusí odpovídat pouze z toho, co se naučil při tréninku. Před sestavením odpovědi může dostat konkrétní pasáže právě dohledaných dokumentů.</p><p>Tomuto přístupu se říká retrieval-augmented generation, zkráceně RAG. Vyhledávací část vybere podklady související s dotazem a generující model je použije jako dodatečný kontext.</p><p>Firma tak může zpřístupnit vlastní návody, aniž by každou změnu musela znovu učit do vah modelu. Výsledek lze také propojit s odkazy na použité dokumenty.</p><p>Vyhledání ale není ověření pravdy. Systém může najít zastaralý text, přehlédnout rozhodující výjimku nebo podklady nesprávně shrnout. U RAG proto záleží jak na kvalitě knihovny a vyhledávání, tak na věrnosti odpovědi vůči skutečně nalezenému textu.</p>",
+    "category": "pocitacove-vedy",
+    "sources": [
+      {
+        "label": "Lewis a kol.: Retrieval-Augmented Generation",
+        "url": "https://arxiv.org/abs/2005.11401"
+      },
+      {
+        "label": "Gao a kol.: Přehled metod RAG",
+        "url": "https://arxiv.org/abs/2312.10997"
+      }
+    ],
+    "illustration": {
+      "concept": "An open reference book beside a magnifying glass, a simple accompaniment to document retrieval.",
+      "scene_type": "object",
+      "primary_subject": "open_book_beside_search_lens",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "open_book",
+        "magnifying_glass",
+        "visible_pages"
+      ],
+      "composition_hints": [
+        "dominant_central_subject",
+        "balanced_transparent_margins",
+        "single_coherent_scene"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "327",
+    "title": "Platón chtěl vládce, kteří o vládu nestojí kvůli sobě",
+    "content": "<p>Člověk může toužit po úřadu právě proto, že z něj chce těžit. Platón proto v Ústavě hledá vládce, pro které moc není největší osobní odměnou.</p><p>Filozofové mají poznávat dobro a posuzovat obec jako celek. Nemají rozhodovat podle toho, co zvětší jejich majetek nebo prestiž, ale podle toho, co prospívá spravovanému společenství.</p><p>Paradoxem je, že filozof by raději zůstal u poznávání. K vládnutí má přijmout závazek vůči obci, která ho vychovala, místo aby se o úřad pral s ostatními zájemci o kořist.</p><p>Nejde o důkaz, že vzdělanost sama zaručuje dobrého politika, ani o současný demokratický model. Platón spojuje dvě náročné podmínky: vládce musí rozumět cíli vlády a nesmí si tento cíl plést se svým vlastním prospěchem.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy: Platónova etika a politika",
+        "url": "https://plato.stanford.edu/entries/plato-ethics-politics/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy: Platónova politická filozofie",
+        "url": "https://iep.utm.edu/platopol/"
+      }
+    ],
+    "illustration": {
+      "concept": "An ancient Greek philosopher sets a crown aside while considering a civic responsibility.",
+      "scene_type": "portrait",
+      "primary_subject": "philosopher_setting_down_crown",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "greek_philosopher",
+        "crown",
+        "setting_aside_gesture"
+      ],
+      "composition_hints": [
+        "portrait_focus",
+        "symbolic_background_detail"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "341",
+    "title": "Dorian Gray: následky nelze odložit do zamčeného pokoje",
+    "content": "<p>Dorian Gray zůstává mladý a krásný, zatímco jeho portrét se mění. To, co společnost nevidí na jeho tváři, se stává stále hrozivější součástí obrazu v úkrytu.</p><p>Oscar Wilde v románu odděluje přitažlivý zevnějšek od následků života, který vede. Krása pomáhá Dorianovi udržovat společenský dojem, ale portrét zaznamenává mravní rozklad, jemuž nechce čelit.</p><p>Obraz proto není jen nadpřirozený trik umožňující věčné mládí. Zpřítomňuje něco, co Dorian může schovat před návštěvou, ale ne tím zrušit: vztah mezi vlastními činy a tím, kým se stává.</p><p>Kniha nechává prostor sporům o umění, vliv i požitek. Jednu ostrou otázku však její ústřední motiv drží pevně: co by s námi udělala možnost uchovat si krásnou veřejnou podobu a následky zamykat do vedlejšího pokoje?</p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "Oscar Wilde: Obraz Doriana Graye, úplný text",
+        "url": "https://www.gutenberg.org/files/174/174-h/174-h.htm"
+      },
+      {
+        "label": "British Library: The Picture of Dorian Gray",
+        "url": "https://www.britishlibrary.cn/en/works/picture-of-dorian-gray/"
+      }
+    ],
+    "illustration": {
+      "concept": "A youthful Victorian portrait whose painted face has a subtly corrupted half, one framed portrait only.",
+      "scene_type": "portrait",
+      "primary_subject": "youthful_portrait_with_cracked_reflection",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "framed_portrait",
+        "youthful_face",
+        "corrupted_painted_half"
+      ],
+      "composition_hints": [
+        "portrait_focus",
+        "symbolic_background_detail"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "345",
+    "title": "Nixon v Číně: společný soupeř přiblížil protivníky",
+    "content": "<p>Americký prezident mohl navštívit komunistickou Čínu, aniž by mezi oběma státy zmizel ideologický spor. Nixonova cesta roku 1972 ukázala, jak silně diplomacii mění vztah ke třetímu soupeři.</p><p>Čínsko-sovětská roztržka zkomplikovala představu jednotného komunistického tábora. Peking i Washington měly důvod omezit vzájemné nepřátelství a získat větší prostor vůči Moskvě.</p><p>Po tajných přípravách následovala veřejná návštěva a Šanghajské komuniké. Zůstaly zásadní rozdíly, zejména kolem Tchaj-wanu; plné diplomatické vztahy vznikly až v roce 1979.</p><p>Sblížení tedy nevyžadovalo shodu ve všem ani náhlé přátelství. Využilo situace, kdy se dvěma protivníkům změnil výpočet nákladů spolupráce. Mapa vzájemných obav se ukázala pružnější než mapa ideologických nálepek.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Office of the Historian: Sblížení s Čínou",
+        "url": "https://history.state.gov/milestones/1969-1976/rapprochement-china"
+      },
+      {
+        "label": "Nixon Presidential Library: The Opening to China",
+        "url": "https://www.nixonfoundation.org/2014/11/the-opening-of-china/"
+      }
+    ],
+    "illustration": {
+      "concept": "Two simple porcelain tea cups face each other across a diplomatic table, accompanying the opening to China.",
+      "scene_type": "object",
+      "primary_subject": "two_teacups_across_diplomatic_table",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "porcelain_cups",
+        "diplomatic_table",
+        "facing_placement"
+      ],
+      "composition_hints": [
+        "dominant_central_subject",
+        "balanced_transparent_margins",
+        "single_coherent_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "420",
+    "title": "Učitelé, kterým řekli, že mají ve třídě nadané žáky, je nevědomky zvýhodnili",
+    "content": "<p>Psychologové Robert Rosenthal a Lenore Jacobsonová v roce 1965 náhodně vybrali skupinu žáků a učitelům sdělili, že podle testů mají tito žáci mimořádný intelektuální potenciál.</p><p>Ve skutečnosti se od ostatních nijak nelišili. Přesto tito žáci na konci roku vykázali výraznější zlepšení výsledků než jejich spolužáci.</p><p>Vysvětlením je <strong>Pygmalionský efekt</strong>: očekávání učitele se nevědomky promítlo do jemných rozdílů v pozornosti, zpětné vazbě a příležitostech, které daným žákům poskytoval.</p><p>Jev se dnes zkoumá i mimo školství, například ve vztahu nadřízených k zaměstnancům.</p><p><em>Předpoklad o schopnostech druhého člověka tak může nenápadně ovlivnit chování, které tento předpoklad nakonec potvrdí.</em></p>",
+    "category": "psychologie",
+    "sources": [
+      {
+        "label": "APA – Pygmalion effect",
+        "url": "https://www.apa.org/pubs/journals/releases/edu-1121006.pdf"
+      },
+      {
+        "label": "Britannica – Self-fulfilling prophecy",
+        "url": "https://www.britannica.com/topic/self-fulfilling-prophecy"
+      }
+    ],
+    "illustration": {
+      "concept": "A teacher gives extra encouragement and opportunities to pupils expected to excel, showing how expectations can help produce the improvement they predict.",
+      "scene_type": "interaction",
+      "primary_subject": "pygmalion_teacher_expectations",
+      "secondary_subjects": [
+        "teacher_attention",
+        "randomly_selected_pupils"
+      ],
+      "visual_keywords": [
+        "pygmalion_teacher_expectations",
+        "teacher_attention",
+        "randomly_selected_pupils"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "502",
+    "title": "Lékař naočkoval chlapci hnis z krávy, aby ho ochránil před smrtelnou nemocí",
+    "content": "<p>Venkovský lékař Edward Jenner si na konci 18. století všiml, že dojičky, které prodělaly mírné onemocnění zvané kravské neštovice, zůstávaly odolné vůči mnohem nebezpečnějším pravým neštovicím.</p><p>V roce 1796 tuto zkušenost otestoval. Naočkoval chlapci hmotu z kožní léze nakažené dojičky a později ho záměrně vystavil viru pravých neštovic. Chlapec neonemocněl.</p><p>Postup, který Jenner nazval <strong>vakcinací</strong> podle latinského slova pro krávu, se rychle rozšířil po Evropě, přestože tehdejší medicína neznala princip imunity ani viry samotné.</p><p>Metoda položila základ celé pozdější imunizaci a o téměř dvě století později umožnila úplné vymýcení pravých neštovic.</p><p><em>Podle dnešních etických standardů by takový pokus na dítěti bez informovaného souhlasu nebyl přípustný.</em></p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Britannica – Edward Jenner",
+        "url": "https://www.britannica.com/biography/Edward-Jenner"
+      },
+      {
+        "label": "World Health Organization – History of vaccination",
+        "url": "https://www.who.int/news-room/spotlight/history-of-vaccination"
+      }
+    ],
+    "illustration": {
+      "concept": "A historical inoculation sequence connects cowpox exposure to later protection against smallpox, identifying Jenner's experiment rather than a modern medicine bottle.",
+      "scene_type": "process",
+      "primary_subject": "jenner_cowpox_vaccination",
+      "secondary_subjects": [
+        "cowpox_source",
+        "inoculation",
+        "smallpox_protection"
+      ],
+      "visual_keywords": [
+        "jenner_cowpox_vaccination",
+        "cowpox_source",
+        "inoculation",
+        "smallpox_protection"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "dramatic",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "512",
+    "title": "Krevní oběh se donedávna popisoval opačně, než ve skutečnosti funguje",
+    "content": "<p>Starověká medicína vycházející z učení Galéna předpokládala, že krev vzniká v játrech a je spotřebovávána tkáněmi jako palivo, bez oběhu zpět k srdci.</p><p>Anglický lékař William Harvey tuto představu v roce 1628 vyvrátil pečlivými výpočty a pozorováním. Ukázal, že srdce funguje jako pumpa a stejná krev neustále obíhá tělem v uzavřeném okruhu.</p><p>Jeho argument byl kvantitativní: srdce by za den přečerpalo mnohem víc krve, než kolik jí tělo vůbec obsahuje, pokud by se krev jen spotřebovávala a nevracela.</p><p>Harvey nemohl přímo pozorovat nejmenší cévy, vlásečnice, protože mikroskop v dostatečném rozlišení tehdy neexistoval, a jejich existenci pouze logicky předpověděl.</p><p><em>Objevil je až o několik desetiletí později italský lékař Marcello Malpighi.</em></p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Britannica – William Harvey",
+        "url": "https://www.britannica.com/biography/William-Harvey"
+      },
+      {
+        "label": "National Institutes of Health – History of circulation",
+        "url": "https://www.nlm.nih.gov/exhibition/historicalanatomies/harvey_home.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A closed loop carries blood from the pumping heart through the body and back, replacing the idea of one-way production and consumption.",
+      "scene_type": "diagram",
+      "primary_subject": "harvey_blood_circulation",
+      "secondary_subjects": [
+        "heart",
+        "arterial_flow",
+        "venous_return"
+      ],
+      "visual_keywords": [
+        "harvey_blood_circulation",
+        "heart",
+        "arterial_flow",
+        "venous_return"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "527",
+    "title": "Zápasy gladiátorů vznikly jako součást pohřebních obřadů, ne jako zábava",
+    "content": "<p>Nejstarší doložené gladiátorské souboje v Římě z 3. století př. n. l. se odehrávaly při pohřbech významných mužů a měly rituální charakter.</p><p>Podle tehdejší představy měl prolitá krev bojovníků doprovázet zesnulého na onen svět a sloužit jako čestná oběť, podobně jako u některých jiných starověkých kultur, kde se s mrtvým pohřbívali služebníci nebo zvířata.</p><p>Postupem staletí se z omezeného soukromého obřadu stala masová veřejná podívaná financovaná politiky, kteří si tím kupovali přízeň obyvatel, a náboženský původ se z veřejného vnímání her postupně vytratil.</p><p>Hry byly nakonec v pozdní antice utlumeny v souvislosti se šířením křesťanství, které je odmítalo jako kruté a v rozporu s novou vírou.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Britannica – Gladiator",
+        "url": "https://www.britannica.com/topic/gladiator"
+      },
+      {
+        "label": "World History Encyclopedia – Gladiator",
+        "url": "https://www.worldhistory.org/gladiator/"
+      }
+    ],
+    "illustration": {
+      "concept": "A funeral offering of armed combat gradually becomes a public spectacle, restoring the funerary origin of gladiatorial games.",
+      "scene_type": "process",
+      "primary_subject": "gladiatorial_funeral_origins",
+      "secondary_subjects": [
+        "roman_funeral",
+        "paired_combatants"
+      ],
+      "visual_keywords": [
+        "gladiatorial_funeral_origins",
+        "roman_funeral",
+        "paired_combatants"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "dramatic",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "541",
+    "title": "Rychlá válečná loď potřebovala k pohonu stovku sesynchronizovaných veslařů",
+    "content": "<p>Hlavní bojovou lodí starověkého Řecka byla <strong>triéra</strong>, štíhlé plavidlo poháněné třemi řadami veslařů umístěnými nad sebou.</p><p>Posádka čítala kolem 170 veslařů, kteří museli pracovat naprosto synchronizovaně, aby loď dosáhla potřebné rychlosti a obratnosti, nezbytné pro hlavní bojovou taktiku: proražení boku nepřátelské lodi kovovým klounem na přídi.</p><p>Veslaři nebyli otroci, jak se často mylně předpokládá, ale zpravidla svobodní občané z nižších majetkových vrstev, pro které služba na lodích představovala způsob obživy i politický vliv, protože právě na nich stála athénská námořní moc.</p><p>Stavba a údržba takové lodi byla nákladná a organizace posádek vyžadovala rozsáhlou administrativu.</p><p><em>Bez tisíců takto vycvičených veslařů by athénská vítězství jako Salamína nebyla možná.</em></p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Britannica – Trireme",
+        "url": "https://www.britannica.com/technology/trireme"
+      },
+      {
+        "label": "World History Encyclopedia – Trireme",
+        "url": "https://www.worldhistory.org/trireme/"
+      }
+    ],
+    "illustration": {
+      "concept": "A cutaway trireme reveals coordinated banks of oarsmen beneath a long light hull, emphasizing human synchronization as the engine of speed.",
+      "scene_type": "object",
+      "primary_subject": "greek_trireme_oar_banks",
+      "secondary_subjects": [
+        "synchronized_rowers",
+        "bronze_ram"
+      ],
+      "visual_keywords": [
+        "greek_trireme_oar_banks",
+        "synchronized_rowers",
+        "bronze_ram"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "616",
+    "title": "Krasobruslař se roztočí rychleji jen tím, že přitáhne paže k tělu",
+    "content": "<p>Krasobruslař na začátku piruety rozpřáhne paže a roztočí se pomalu. Jakmile paže přitáhne k tělu, rotace se výrazně zrychlí, aniž by musel vynaložit další sílu.</p><p>Vysvětlením je <strong>zákon zachování momentu hybnosti</strong>. Moment hybnosti závisí na rozložení hmoty vůči ose otáčení a na úhlové rychlosti. Pokud se hmota přesune blíž k ose, jako když se paže přitáhnou k tělu, musí se úhlová rychlost zvýšit, aby zůstal moment hybnosti zachován.</p><p>Stejný princip funguje i obráceně: rozpažením se rotace zpomalí, čehož krasobruslaři využívají k plynulému vyjetí z piruety.</p><p><em>Tentýž zákon platí i v astronomii, kde vysvětluje, proč se hroutící se mračno plynu při formování hvězdy začne díky zmenšujícímu se poloměru točit stále rychleji.</em></p>",
+    "category": "fyzika",
+    "sources": [
+      {
+        "label": "Britannica – Conservation of angular momentum",
+        "url": "https://www.britannica.com/science/angular-momentum"
+      },
+      {
+        "label": "NASA – Angular momentum in the universe",
+        "url": "https://science.nasa.gov/universe/"
+      }
+    ],
+    "illustration": {
+      "concept": "A skater draws extended arms inward and rotates faster, comparing body configuration while preserving angular momentum.",
+      "scene_type": "process",
+      "primary_subject": "figure_skater_angular_momentum",
+      "secondary_subjects": [
+        "extended_arms",
+        "drawn_in_arms"
+      ],
+      "visual_keywords": [
+        "figure_skater_angular_momentum",
+        "extended_arms",
+        "drawn_in_arms"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "623",
+    "title": "Zvířata na farmě svrhnou člověka, aby si za pár let zvolila jinou tyranii",
+    "content": "<p>V alegorické novele z roku 1945 vyženou zvířata na farmě svého lidského majitele a pokusí se vybudovat společnost založenou na rovnosti všech zvířat.</p><p>Postupně ale prasata, jako nejchytřejší zvířata, přebírají vedení a začínají si přivlastňovat výhody, které kdysi kritizovala u lidí. Původní zásada, že všechna zvířata jsou si rovna, se v průběhu příběhu tiše přepisuje dodatkem, že některá zvířata jsou si rovnější než jiná.</p><p>Text je čitelnou alegorií na vývoj Sovětského svazu od revoluce po stalinismus, s jednotlivými postavami odpovídajícími konkrétním historickým osobnostem a událostem.</p><p><em>Díky jednoduchému, pohádkovému stylu zůstává příběh srozumitelný i bez znalosti historického kontextu, na který přímo naráží.</em></p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "Britannica – Animal Farm",
+        "url": "https://www.britannica.com/topic/Animal-Farm"
+      },
+      {
+        "label": "The Orwell Foundation – Animal Farm",
+        "url": "https://www.orwellfoundation.com/the-orwell-foundation/orwell/books-by-orwell/animal-farm/"
+      }
+    ],
+    "illustration": {
+      "concept": "Farm animals overthrow their human master before a privileged group of pigs reproduces the old domination, forming a cycle of betrayed equality.",
+      "scene_type": "process",
+      "primary_subject": "animal_farm_new_tyranny",
+      "secondary_subjects": [
+        "rebelling_animals",
+        "privileged_pig_rulers"
+      ],
+      "visual_keywords": [
+        "animal_farm_new_tyranny",
+        "rebelling_animals",
+        "privileged_pig_rulers"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "dramatic",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "632",
+    "title": "Enzym z horkého pramene umožnil kopírovat DNA v laboratoři",
+    "content": "<p>Metoda pro rychlé kopírování krátkých úseků DNA vyžaduje opakované zahřívání vzorku na vysokou teplotu, při které se obvykle bílkoviny nevratně poškodí.</p><p>Řešení nabídla bakterie <em>Thermus aquaticus</em>, objevená v horkých pramenech Yellowstonského národního parku, jejíž enzym kopírující DNA je uzpůsobený k přežití při extrémně vysokých teplotách.</p><p>Chemik Kary Mullis využil tento teplotně odolný enzym, nazvaný <strong>Taq polymeráza</strong>, při vývoji metody zvané polymerázová řetězová reakce, která umožňuje z nepatrného vzorku DNA vyrobit miliony kopií během několika hodin.</p><p>Za tuto metodu, dnes základní nástroj genetiky, forenzní analýzy i testování na infekční nemoci, získal Mullis v roce 1993 Nobelovu cenu za chemii.</p><p><em>Bez organismu přizpůsobeného extrémnímu prostředí by metoda nebyla možná.</em></p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Nobel Prize – Kary B. Mullis",
+        "url": "https://www.nobelprize.org/prizes/chemistry/1993/mullis/facts/"
+      },
+      {
+        "label": "National Park Service – Thermus aquaticus",
+        "url": "https://www.nps.gov/yell/learn/nature/thermus-aquaticus.htm"
+      }
+    ],
+    "illustration": {
+      "concept": "DNA strands separate and are copied through repeated temperature cycles using a heat-stable enzyme, leading to rapidly increasing copies.",
+      "scene_type": "process",
+      "primary_subject": "pcr_thermal_cycling",
+      "secondary_subjects": [
+        "dna_strands",
+        "heat_stable_polymerase",
+        "doubling_copies"
+      ],
+      "visual_keywords": [
+        "pcr_thermal_cycling",
+        "dna_strands",
+        "heat_stable_polymerase",
+        "doubling_copies"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "671",
+    "title": "Čtyři různé odpovědi na otázku, proč něco existuje",
+    "content": "<p>Proč existuje bronzová socha? Aristotelés ve 4. století př. n. l. tvrdil, že na takovou otázku nelze odpovědět jedním způsobem, protože má čtyři různé odpovědi.</p><p>První je <strong>látková příčina</strong>: socha je z bronzu. Druhá je <strong>tvarová</strong>: má podobu určité postavy. Třetí je <strong>působící</strong>: vytvořil ji sochař. Čtvrtá je <strong>účelová</strong>: má třeba uctít zasloužilého člověka.</p><p>Moderní věda převzala hlavně třetí příčinu, tedy hledání toho, co jev vyvolalo. Otázka účelu ale nezmizela. Biologové se stále ptají, k čemu slouží srdce nebo křídlo, a odpovídají pomocí přirozeného výběru.</p><p>Aristotelův rozbor dodnes funguje jako kontrolní seznam: kdo chce něčemu skutečně porozumět, měl by vědět, z čeho to je, jakou to má strukturu, co to způsobilo a k čemu to slouží.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Aristotle on Causality",
+        "url": "https://plato.stanford.edu/entries/aristotle-causality/"
+      },
+      {
+        "label": "Wikipedia – Four causes",
+        "url": "https://en.wikipedia.org/wiki/Four_causes"
+      }
+    ],
+    "illustration": {
+      "concept": "One bronze statue connects to its material, form, maker and purpose, distinguishing Aristotle's four causes from the four classical elements.",
+      "scene_type": "diagram",
+      "primary_subject": "aristotle_four_causes_statue",
+      "secondary_subjects": [
+        "bronze_material",
+        "sculpted_form",
+        "sculptor",
+        "commemorative_purpose"
+      ],
+      "visual_keywords": [
+        "aristotle_four_causes_statue",
+        "bronze_material",
+        "sculpted_form",
+        "sculptor",
+        "commemorative_purpose"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "673",
+    "title": "Zůstali byste poctiví, kdybyste byli neviditelní?",
+    "content": "<p>Představte si, že máte prsten, který vás učiní neviditelným. Zůstali byste poctiví, kdybyste věděli, že vás nikdo nemůže přistihnout?</p><p>Tuto otázku staví v Platónově <em>Ústavě</em>, napsané kolem roku 375 př. n. l., Glaukón. Vypráví o pastýři Gygovi, který podle příběhu našel takový prsten a použil jej k tomu, aby svedl královnu, zabil krále a ujal se vlády.</p><p>Glaukón tím nehájí nespravedlnost. Zkouší Sókrata. Chce, aby dokázal, že spravedlnost má cenu sama o sobě, a nikoli jen kvůli pověsti a trestům.</p><p>Myšlenkový pokus se používá dodnes, třeba v úvahách o tom, jak se lidé chovají při anonymitě. Ukazuje, že chceme-li vědět, co člověk skutečně pokládá za správné, musíme se ptát, co by dělal bez svědků.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Wikipedia – Ring of Gyges",
+        "url": "https://en.wikipedia.org/wiki/Ring_of_Gyges"
+      },
+      {
+        "label": "Wikipedia – Republic (Plato)",
+        "url": "https://en.wikipedia.org/wiki/Republic_(Plato)"
+      }
+    ],
+    "illustration": {
+      "concept": "A ring renders its wearer unseen beside an opportunity for wrongdoing, asking whether moral restraint survives the removal of social consequences.",
+      "scene_type": "interaction",
+      "primary_subject": "ring_of_gyges_invisibility",
+      "secondary_subjects": [
+        "hidden_actor",
+        "unguarded_opportunity"
+      ],
+      "visual_keywords": [
+        "ring_of_gyges_invisibility",
+        "hidden_actor",
+        "unguarded_opportunity"
+      ],
+      "composition_hints": [
+        "two_objects_in_interaction",
+        "clear_visual_contrast"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "702",
+    "title": "Proč podle Madisona velký stát lépe brzdí mocné zájmové skupiny",
+    "content": "<p>Jak zabránit tomu, aby se v zemi prosadila vlastní zájmová skupina na úkor ostatních? James Madison na to odpověděl v eseji, který roku 1787 vyšel v souboru <em>Federalist Papers</em> jako číslo deset.</p><p>Madison tvrdil, že <strong>frakce</strong>, tedy skupiny spojené společným zájmem, nelze odstranit bez zničení svobody. Lze ale omezit jejich škody.</p><p>Paradoxně vidí lék ve velikosti státu. V malé republice snadno vznikne většina se shodným zájmem. Ve velkém státě je zájmů mnoho a těžko se spojí do jedné skupiny, která by ostatní přehlasovala.</p><p>Z toho vyplývá i podpora zastupitelské vlády. Volení zástupci mají podle Madisona zmírnit vášně veřejnosti. Argument ovlivnil ústavní uspořádání USA a dodnes se cituje při diskusích o roli politických stran.</p>",
+    "category": "politika",
+    "sources": [
+      {
+        "label": "Wikipedia – Federalist No. 10",
+        "url": "https://en.wikipedia.org/wiki/Federalist_No._10"
+      },
+      {
+        "label": "Wikipedia – The Federalist Papers",
+        "url": "https://en.wikipedia.org/wiki/The_Federalist_Papers"
+      }
+    ],
+    "illustration": {
+      "concept": "Many competing interests spread across a large republic prevent one faction from easily controlling the whole, illustrating Madison's institutional argument.",
+      "scene_type": "diagram",
+      "primary_subject": "madison_extended_republic",
+      "secondary_subjects": [
+        "many_competing_factions",
+        "distributed_influence"
+      ],
+      "visual_keywords": [
+        "madison_extended_republic",
+        "many_competing_factions",
+        "distributed_influence"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "719",
+    "title": "Je zítřejší námořní bitva už dnes pravdivá, nebo nepravdivá?",
+    "content": "<p>Tvrdím dnes, že zítra bude námořní bitva. Je moje tvrzení už teď pravdivé, nebo nepravdivé? Pokud pravdivé, zdá se, že bitva nastat musí. Pokud nepravdivé, nastat nesmí.</p><p>Aristotelés tento problém nastolil ve 4. století př. n. l. v pojednání <em>O vyjadřování</em>. Znepokojivý je důsledek: kdyby byly všechny výroky o budoucnosti už nyní pravdivé nebo nepravdivé, byla by budoucnost pevně daná a rozhodování by ztratilo smysl.</p><p>Jak přesně Aristotelés odpověděl, se historici filozofie dodnes přou. Častý výklad říká, že u budoucích nahodilých událostí zatím pravdivostní hodnota určena není.</p><p>Tato úvaha vedla ve 20. století polského logika Jana Łukasiewicze k vytvoření třístavové logiky, v níž má výrok kromě pravdy a nepravdy i třetí hodnotu.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Future Contingents",
+        "url": "https://plato.stanford.edu/entries/future-contingents/"
+      },
+      {
+        "label": "Wikipedia – Problem of future contingents",
+        "url": "https://en.wikipedia.org/wiki/Problem_of_future_contingents"
+      }
+    ],
+    "illustration": {
+      "concept": "The present branches toward a naval battle or its absence tomorrow, posing whether future contingent statements already have a fixed truth value.",
+      "scene_type": "diagram",
+      "primary_subject": "aristotle_future_sea_battle",
+      "secondary_subjects": [
+        "tomorrow_branches",
+        "battle_or_no_battle"
+      ],
+      "visual_keywords": [
+        "aristotle_future_sea_battle",
+        "tomorrow_branches",
+        "battle_or_no_battle"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "747",
+    "title": "Dokument, který komunisty usvědčil z porušování jejich vlastních závazků",
+    "content": "<p>V lednu 1977 se objevil v západních novinách text, který nesl podpisy několika set Čechoslováků a zněl jako právní stížnost: stát nedodržuje to, co sám slíbil.</p><p><strong>Charta 77</strong> odkazovala na dokumenty, které Československo podepsalo, například Závěrečný akt helsinské konference z roku 1975 a mezinárodní pakty o lidských právech. Tvrdila, že občané tato práva fakticky nemají.</p><p>Prvními mluvčími byli filozof Jan Patočka, dramatik Václav Havel a bývalý ministr zahraničí Jiří Hájek. Prvních signatářů bylo 242.</p><p>Režim odpověděl represemi. Patočka zemřel v březnu 1977 po opakovaných výsleších. Iniciativa přesto přetrvala až do roku 1989 a patřila k základům opozice, která pomohla režim svrhnout.</p>",
+    "category": "politika",
+    "sources": [
+      {
+        "label": "Wikipedia – Charter 77",
+        "url": "https://en.wikipedia.org/wiki/Charter_77"
+      },
+      {
+        "label": "Britannica – Charter 77",
+        "url": "https://www.britannica.com/topic/Charter-77"
+      }
+    ],
+    "illustration": {
+      "concept": "A signed civic declaration is placed alongside the regime's own human-rights promises, exposing the gap between formal commitments and actual practice.",
+      "scene_type": "object",
+      "primary_subject": "charter_seventy_seven",
+      "secondary_subjects": [
+        "human_rights_commitments",
+        "signatures"
+      ],
+      "visual_keywords": [
+        "charter_seventy_seven",
+        "human_rights_commitments",
+        "signatures"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "subtle_background_context"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "775",
+    "title": "Spaluje oheň vatu? Al-Ghazálí zpochybnil příčinnost o šest set let před Humem",
+    "content": "<p>Zapálíte kus vaty a vzplane. Zdá se zřejmé, že ji spálil oheň. Perský učenec Al-Ghazálí, který zemřel roku 1111, v knize <em>Nesoudržnost filozofů</em> namítl, že vidíme jen to, že po sobě oba jevy následují.</p><p>Nutné spojení mezi nimi podle něj nevidíme. Podle jeho výkladu, nazývaného okazionalismus, působí přímo Bůh, a oheň je jen příležitost, při které se to děje.</p><p>Důvody byly teologické. Al-Ghazálí chtěl obhájit možnost zázraků, které by nebylo možné, kdyby příroda fungovala s nutností.</p><p>Obdobný argument, že příčinnost nepozorujeme, ale předpokládáme, vyslovil Skot David Hume až v 18. století. Oba ukazují, že vysvětlení se nemůže spoléhat jen na pouhé opakování.</p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Al-Ghazali",
+        "url": "https://plato.stanford.edu/entries/al-ghazali/"
+      },
+      {
+        "label": "Wikipedia – Occasionalism",
+        "url": "https://en.wikipedia.org/wiki/Occasionalism"
+      }
+    ],
+    "illustration": {
+      "concept": "Fire approaches cotton while a visible break in the causal link questions whether regular succession establishes necessary causation.",
+      "scene_type": "diagram",
+      "primary_subject": "al_ghazali_fire_cotton_causation",
+      "secondary_subjects": [
+        "flame",
+        "cotton",
+        "questioned_necessity"
+      ],
+      "visual_keywords": [
+        "al_ghazali_fire_cotton_causation",
+        "flame",
+        "cotton",
+        "questioned_necessity"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "797",
+    "title": "Ozařovací přístroj, který zabíjel kvůli chybě v softwaru",
+    "content": "<p>V letech 1985 až 1987 došlo v několika nemocnicích v USA a Kanadě k šesti nehodám se zařízením <strong>Therac-25</strong>, které sloužilo k ozařování nádorů. Pacienti dostali dávky záření mnohonásobně vyšší než určené a nejméně tři z nich zemřeli.</p><p>Vyšetřování ukázalo, že příčinou byly chyby v řídicím softwaru, mimo jiné takzvaný souběh. Pokud obsluha zadávala údaje dostatečně rychle, program se dostal do nebezpečného stavu.</p><p>Starší modely měly mechanické pojistky, které takovému nastavení bránily. U Therac-25 se výrobce spolehl na software a pojistky odstranil. Chybová hlášení navíc byla nesrozumitelná a obsluha je často ignorovala.</p><p>Případ se dodnes vyučuje jako varování. Bezpečnost kritických systémů nemá záviset jen na jedné vrstvě ochrany.</p>",
+    "category": "pocitacove-vedy",
+    "sources": [
+      {
+        "label": "Wikipedia – Therac-25",
+        "url": "https://en.wikipedia.org/wiki/Therac-25"
+      },
+      {
+        "label": "Wikipedia – Race condition",
+        "url": "https://en.wikipedia.org/wiki/Race_condition"
+      }
+    ],
+    "illustration": {
+      "concept": "Conflicting control paths in a radiotherapy machine bypass a missing physical safeguard, connecting a software race condition to an unsafe radiation dose.",
+      "scene_type": "diagram",
+      "primary_subject": "therac_twenty_five_software_failure",
+      "secondary_subjects": [
+        "radiotherapy_machine",
+        "race_condition",
+        "missing_interlock"
+      ],
+      "visual_keywords": [
+        "therac_twenty_five_software_failure",
+        "radiotherapy_machine",
+        "race_condition",
+        "missing_interlock"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "dramatic",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "819",
+    "title": "Proč přeživší z letadel prý nenapovědí, kam přidat pancíř",
+    "content": "<p>Za druhé světové války zkoumali američtí vojenští analytici, kam mají vojáci vyztužit bombardéry. Počítali díry po kulkách u letadel, která se vrátila, a ty se soustředily na křídlech a trupu.</p><p>Matematik Abraham Wald, který pracoval ve skupině při Kolumbijské univerzitě, poukázal na chybu. Vidíme jen stroje, které přežily. Letadla zasažená do motoru se pravděpodobně nevrátila, takže jejich zásahy v datech chybějí.</p><p>Pancíř proto patří tam, kde se na vrácených letadlech zásahy nevyskytují. Tato úvaha se označuje jako <strong>zkreslení přeživších</strong>.</p><p>Příběh se často vypráví zjednodušeně, ale Waldova skutečná práce z roku 1943 se týkala statistických metod pro odhad zranitelnosti. Princip je platný všude, kde vidíme jen úspěšné případy.</p>",
+    "category": "matematika",
+    "sources": [
+      {
+        "label": "Wikipedia – Survivorship bias",
+        "url": "https://en.wikipedia.org/wiki/Survivorship_bias"
+      },
+      {
+        "label": "Wikipedia – Abraham Wald",
+        "url": "https://en.wikipedia.org/wiki/Abraham_Wald"
+      }
+    ],
+    "illustration": {
+      "concept": "Damage on returning wartime bombers is contrasted with critical areas absent from the surviving sample, showing why missing aircraft matter for armor placement.",
+      "scene_type": "diagram",
+      "primary_subject": "survivorship_bias_aircraft",
+      "secondary_subjects": [
+        "returning_bomber_bullet_holes",
+        "missing_nonreturners"
+      ],
+      "visual_keywords": [
+        "survivorship_bias_aircraft",
+        "returning_bomber_bullet_holes",
+        "missing_nonreturners"
+      ],
+      "composition_hints": [
+        "asymmetric_composition",
+        "layered_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "826",
+    "title": "Proč se kočky vždy přizemní na nohy a co s tím mají společného zákony fyziky",
+    "content": "<p>Kočka, která padá hřbetem dolů, se zpravidla dokáže otočit a dopadne na nohy. Zdá se, že porušuje zákon zachování momentu hybnosti, podle kterého se bez vnější síly nelze otočit.</p><p>Francouzský fyziolog Étienne-Jules Marey zachytil tento pohyb roku 1894 na sérii fotografií. Vysvětlení je v tom, že kočka není tuhé těleso. Ohýbá se v pase a otáčí přední i zadní část těla v opačných směrech, a to s různým rozložením končetin.</p><p>Přední část těla, s přitaženými předními tlapkami, se otočí víc než zadní, s roztaženými zadními. Po prohození stahování a roztahování se kočka otočí celkově, aniž by moment hybnosti porušila.</p><p>Podobné techniky využívají astronauti a roboti, kteří se potřebují otáčet bez opory.</p>",
+    "category": "fyzika",
+    "sources": [
+      {
+        "label": "Wikipedia – Cat righting reflex",
+        "url": "https://en.wikipedia.org/wiki/Cat_righting_reflex"
+      },
+      {
+        "label": "Wikipedia – Étienne-Jules Marey",
+        "url": "https://en.wikipedia.org/wiki/%C3%89tienne-Jules_Marey"
+      }
+    ],
+    "illustration": {
+      "concept": "A falling cat bends and rotates body sections in sequence to reorient toward its feet, showing an angular-momentum-compatible righting maneuver rather than guaranteeing a safe landing.",
+      "scene_type": "process",
+      "primary_subject": "cat_righting_reflex",
+      "secondary_subjects": [
+        "twisting_body",
+        "changed_moments_of_inertia"
+      ],
+      "visual_keywords": [
+        "cat_righting_reflex",
+        "twisting_body",
+        "changed_moments_of_inertia"
+      ],
+      "composition_hints": [
+        "stacked_or_sequential_arrangement",
+        "visual_cause_and_effect"
+      ],
+      "mood": "playful",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "884",
+    "title": "Deset minut chůze po jídle může změnit víc než její délka",
+    "content": "<p>Stejnou půlhodinu chůze můžete absolvovat najednou nebo rozdělit po hlavních jídlech. V malém klinickém pokusu nebyly tyto rozvrhy z hlediska hladiny glukózy rovnocenné.</p><p>Randomizovaná zkřížená studie zveřejněná v roce 2016 sledovala 41 dospělých s diabetem druhého typu. Porovnávala doporučení chodit třicet minut denně bez určeného času se třemi desetiminutovými procházkami po jídlech.</p><p>Při rozdělené chůzi byla glukózová odpověď po jídle nižší, zvlášť po večeři. Další experimenty podporují význam pohybu brzy po jídle, nejde tedy jen o to nasbírat stejný počet minut kdykoli během dne.</p><p><strong>Praktický podnět je jednoduchý: po jídle lze zařadit krátkou procházku.</strong> Studie ale měřila krátkodobou glykemii u konkrétní skupiny, nikoli vyléčení diabetu nebo náhradu jeho léčby.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Reynolds a kolegové: Advice to walk after meals",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27747394/"
+      },
+      {
+        "label": "Bellini a kolegové: Immediate post-breakfast physical activity",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/31396757/"
+      }
+    ],
+    "illustration": {
+      "concept": "A person sets out for a relaxed walk from a small dining table with an empty plate.",
+      "scene_type": "interaction",
+      "primary_subject": "after_meal_walker",
+      "secondary_subjects": [
+        "small_table_with_plate"
+      ],
+      "visual_keywords": [
+        "gentle_walking",
+        "empty_plate",
+        "casual_shoes"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins",
+        "natural_shared_space"
+      ],
+      "mood": "dramatic",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "885",
+    "title": "Co má ovesná kaše společného s cholesterolem",
+    "content": "<p>Oves není zajímavý jen tím, kolik obsahuje energie nebo vitaminů. Jeho rozpustná vláknina beta-glukan může při pravidelném příjmu mírně snižovat hladinu LDL cholesterolu.</p><p>Souhrny randomizovaných studií tento účinek opakovaně doložily. Důležitá je také <strong>viskozita</strong>: beta-glukan vytváří v trávicím traktu hustší prostředí a ovlivňuje hospodaření se žlučovými kyselinami, k jejichž tvorbě tělo využívá cholesterol.</p><p>Výzkum často pracuje s příjmem nejméně tří gramů ovesného beta-glukanu denně. To není totéž jako tři gramy vloček, protože vločky obsahují i mnoho jiných složek.</p><p>Prakticky lze ovesné potraviny zařadit do pestré stravy, ale samotná porce není zárukou určitého výsledku. Účinek ovlivňuje množství, zpracování vlákniny i celkový jídelníček a nezaměňuje se s léčbou vysokého cholesterolu.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Whitehead a kolegové: Cholesterol-lowering effects of oat beta-glucan",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5394769/"
+      },
+      {
+        "label": "Ho a kolegové: Oat beta-glucan and LDL cholesterol",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27724985/"
+      }
+    ],
+    "illustration": {
+      "concept": "A warm bowl of thick oatmeal holds a single spoon.",
+      "scene_type": "object",
+      "primary_subject": "bowl_of_oatmeal",
+      "secondary_subjects": [
+        "single_spoon"
+      ],
+      "visual_keywords": [
+        "oat_bowl",
+        "thick_porridge",
+        "simple_spoon"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "dynamic",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "886",
+    "title": "Delší spánek v pokusu snížil příjem jídla bez předepsané diety",
+    "content": "<p>Účastníci neměli počítat kalorie ani začít cvičit. Vědci jim pomohli prodloužit obvykle krátký spánek a sledovali, zda se změní jejich příjem energie.</p><p>Randomizovaná studie z roku 2022 zahrnula 80 dospělých s nadváhou, kteří běžně spali méně než šest a půl hodiny. Po individuální konzultaci spala intervenční skupina průměrně asi o 1,2 hodiny déle.</p><p>Během dvoutýdenního zásahu přijímala oproti kontrolní skupině přibližně o <strong>270 kilokalorií denně méně</strong>. Příjem vědci odvozovali z objektivně měřeného výdeje a změn tělesných zásob, ne pouze z jídelních deníků.</p><p>Výsledek podporuje ochranu dostatečného času na spánek jako součást životosprávy. Krátké trvání a výběr účastníků však nedovolují z čísla udělat univerzální slib dlouhodobého hubnutí.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Tasali a kolegové: Effect of Sleep Extension on Energy Intake",
+        "url": "https://jamanetwork.com/journals/jamainternalmedicine/fullarticle/2788694"
+      },
+      {
+        "label": "University of Chicago: Getting more sleep reduces caloric intake",
+        "url": "https://medicine.uchicago.edu/news/getting-more-sleep-reduces-caloric-intake-game-changer-weight-loss-programs"
+      }
+    ],
+    "illustration": {
+      "concept": "A peacefully sleeping person rests under a simple blanket, with a quiet bedside lamp turned off.",
+      "scene_type": "environment",
+      "primary_subject": "restful_sleeping_person",
+      "secondary_subjects": [
+        "unlit_bedside_lamp"
+      ],
+      "visual_keywords": [
+        "closed_eyes",
+        "soft_blanket",
+        "restful_posture"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "mysterious",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "889",
+    "title": "Počítač může zpracovat data, aniž by je rozšifroval",
+    "content": "<p>Zašifrovaný soubor obvykle chráníte jen do chvíle, kdy s ním někdo začne počítat. Plně homomorfní šifrování umožňuje zvláštní výjimku: určité výpočty proběhnou přímo nad šifrovanými daty.</p><p>Server vrátí zašifrovaný výsledek, který si rozšifruje držitel klíče. Server tak pro samotný výpočet nepotřebuje přístup k otevřeným vstupům, ale platí se za to značnou výpočetní náročností.</p><p>Preprint z května 2026 popsal optimalizaci vybraných kryptografických jader na čipech TPUv5e pomocí AlphaEvolve. U operace obnovující použitelný šifrový text ve schématu TFHE autoři uvádějí 2,5násobné zrychlení oproti své výchozí implementaci.</p><p><strong>Šifrované zpracování není totéž jako bezplatné soukromí.</strong> Výsledek zrychluje konkrétní část systému a neznamená, že zmizely všechny náklady ani rizika okolní aplikace.</p>",
+    "category": "pocitacove-vedy",
+    "sources": [
+      {
+        "label": "Gorantala a kolegové: Adapting AlphaEvolve to Optimize Fully Homomorphic Encryption",
+        "url": "https://arxiv.org/abs/2605.14718"
+      },
+      {
+        "label": "Google: Jaxite — fully homomorphic encryption library",
+        "url": "https://github.com/google/jaxite"
+      }
+    ],
+    "illustration": {
+      "concept": "A closed padlock sits integrated into a simple computing chip.",
+      "scene_type": "object",
+      "primary_subject": "locked_computing_chip",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "closed_padlock",
+        "compact_chip",
+        "sealed_center"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "dramatic",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "891",
+    "title": "Když vypravěč začne myslet hlasem postavy",
+    "content": "<p>Vyprávění může zůstat ve třetí osobě a přesto převzít rozhořčení nebo nadšení jedné postavy. Čtenář pak musí poznat, zda slyší její úsudek, nebo stanovisko samotného vypravěče.</p><p>Tomuto postupu se říká <strong>polopřímá řeč</strong>. Myšlenka či promluva vstoupí do vyprávění bez uvozovek a bez výslovného uvedení, že si něco někdo pomyslel.</p><p>Jane Austenová techniku výrazně rozvinula. Jazyk vyprávění může převzít sebejistotu hrdinky, zatímco širší kontext čtenáři dovoluje zahlédnout její omyl. Blízkost k postavě tak nevylučuje ironický odstup.</p><p>Rozpoznat tuto dvojí perspektivu je užitečné při čtení: věta v románu nemusí být autorovým schválením názoru, který obsahuje. Může předvádět, jak právě uvažuje člověk uvnitř příběhu.</p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "University of Nebraska–Lincoln: Austen and Free Indirect Discourse",
+        "url": "https://austen.unl.edu/background"
+      },
+      {
+        "label": "Jane Austen’s House: New writing techniques",
+        "url": "https://janeaustens.house/learn/school-visits/online-resources/who-is-jane-austen/new-writing-techniques/"
+      }
+    ],
+    "illustration": {
+      "concept": "An open book and a single character silhouette share one flowing speech shape without lettering.",
+      "scene_type": "object",
+      "primary_subject": "book_with_character_voice",
+      "secondary_subjects": [
+        "character_silhouette"
+      ],
+      "visual_keywords": [
+        "open_book",
+        "shared_speech_shape",
+        "small_character"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "mysterious",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "899",
+    "title": "Povstání zotročených lidí, ze kterého vznikl stát",
+    "content": "<p>Zotročení lidé v karibské kolonii Saint-Domingue nepovstali jen proto, aby vyměnili jednoho vládce za jiného. Jejich zápas nakonec proměnil samotnou mapu světa.</p><p>Rozsáhlé povstání začalo v srpnu 1791. V následujících letech se prolínalo rušení otroctví, soupeření evropských mocností a boje o kontrolu nad francouzskou kolonií.</p><p>Hrozba obnovení otroctví posílila boj za úplnou nezávislost. Dne 1. ledna 1804 ji revolucionáři vyhlásili a přijali pro zemi jméno Haiti.</p><p><strong>Vítězství znamenalo víc než osamostatnění kolonie: lidé považovaní za majetek se podíleli na vytvoření vlastního státu.</strong> Příběh zároveň připomíná, že evropské deklarace svobody se do kolonií nepromítaly automaticky.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Museum of the American Revolution: Haiti",
+        "url": "https://www.amrevmuseum.org/the-declaration-around-the-world-haiti"
+      },
+      {
+        "label": "Office of the Historian: Haitian Revolution",
+        "url": "https://history.state.gov/milestones/1784-1800/haitian-rev/1000"
+      }
+    ],
+    "illustration": {
+      "concept": "A broken iron shackle with its two halves falling apart",
+      "scene_type": "object",
+      "primary_subject": "broken_shackles",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "broken_shackle",
+        "iron_links",
+        "separated_halves"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "908",
+    "title": "Vypravěč detektivky nemusí být váš spojenec",
+    "content": "<p>Detektivovi nevěříme automaticky, vypravěči často ano. V románu <em>Vražda Rogera Ackroyda</em> z roku 1926 Agatha Christieová využívá právě tuto nerovnost čtenářské důvěry.</p><p>Vyprávění doktora Shepparda poskytuje zdánlivě důvěrný přístup k událostem. To ale neznamená úplný záznam: podstatné je i to, které okamžiky popíše stručně, co vynechá a kam přesune pozornost.</p><p>Bez prozrazení rozuzlení lze říci, že román vyžaduje kontrolovat způsob vyprávění stejně pečlivě jako nalezené stopy. Plynulý a věcný hlas není zárukou otevřenosti.</p><p><strong>Vypravěč může čtenáře vést k chybnému závěru i výběrem toho, co vůbec sdělí.</strong> Při opětovném čtení tak mohou tytéž věty působit jinak, aniž se v nich změnilo jediné slovo.</p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "Tulane University: The Unreliable Narrator",
+        "url": "https://libguides.tulane.edu/c.php?g=1544262&p=11577787"
+      },
+      {
+        "label": "Alexander: Cognitive-Linguistic Manipulation in Agatha Christie",
+        "url": "https://theses.gla.ac.uk/3022/1/2006alexandermphil.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A hand concealing a narrow part of an open manuscript page",
+      "scene_type": "interaction",
+      "primary_subject": "concealed_book_page",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "manuscript_page",
+        "concealing_hand",
+        "folded_fingers"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "dynamic",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "923",
+    "title": "Kostky, mezi kterými neexistuje nejsilnější",
+    "content": "<p>Kdyby kostka A častěji porážela B a B častěji porážela C, čekali bychom, že A porazí také C. U vhodně očíslovaných kostek to nemusí platit.</p><p>Zvažte šestistěnné kostky A: 2, 2, 4, 4, 9, 9; B: 1, 1, 6, 6, 8, 8; C: 3, 3, 5, 5, 7, 7. Vyšší hodnota vyhrává a všechny stěny mají stejnou šanci padnout.</p><p>Z 36 stejně pravděpodobných dvojic výsledků vyhraje A nad B ve 20 případech. Stejně tak B nad C a C nad A. Každá převaha tedy činí 5/9, ale vytvářejí kruh.</p><p>Jde o <strong>netranzitivní kostky</strong>. Žádná z nich není nejsilnější proti všem: výhoda závisí na zvoleném soupeři. Párové pravděpodobnostní porovnání se proto nemusí chovat jako běžné pořadí čísel, i když každá jednotlivá hra má zcela jasná pravidla.</p>",
+    "category": "matematika",
+    "sources": [
+      {
+        "label": "Microsoft Research: Non-transitive Dice",
+        "url": "https://www.microsoft.com/en-us/research/project/non-transitive-dice/"
+      },
+      {
+        "label": "Komisarski: Nontransitive Random Variables and Dice",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/00029890.2021.1889921"
+      }
+    ],
+    "illustration": {
+      "concept": "Three colored dice nestled together in a compact circular group",
+      "scene_type": "object",
+      "primary_subject": "nontransitive_dice",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "three_dice",
+        "colored_faces",
+        "compact_group"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "960",
+    "title": "Jak může z náhodného šumu vzniknout obraz",
+    "content": "<p>Na začátku není obrys ani prázdné plátno, ale změť náhodných hodnot. Difuzní model z ní přesto dokáže postupně vytvořit rozpoznatelný obraz.</p><p>Při trénování dostává obrázky znehodnocené různě silným šumem. Neuronová síť se učí odhadovat přidanou poruchu, případně jinou veličinu potřebnou k jejímu odstranění.</p><p>Při generování začne náhodným vstupem a opakovaně vypočítává kroky odšumování. Každý krok navazuje na předchozí stav; nejde o jediné odhalení hotového obrázku ukrytého pod zrněním.</p><p>Model tak využívá naučenou strukturu obrazových dat k vytvoření nového vzorku. Původní difuzní postupy potřebovaly mnoho kroků, pozdější metody jejich počet zmenšovaly. <strong>Způsob, jakým se síť učí, a postup, jakým pak obraz vzniká, jsou dvě propojené části celého mechanismu.</strong></p>",
+    "category": "pocitacove-vedy",
+    "sources": [
+      {
+        "label": "Ho, Jain a Abbeel – Denoising Diffusion Probabilistic Models",
+        "url": "https://arxiv.org/abs/2006.11239"
+      },
+      {
+        "label": "Song, Meng a Ermon – Denoising Diffusion Implicit Models",
+        "url": "https://arxiv.org/abs/2010.02502"
+      }
+    ],
+    "illustration": {
+      "concept": "A single bird silhouette gradually emerges from grainy visual noise.",
+      "scene_type": "process",
+      "primary_subject": "bird_emerging_from_noise",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "grainy_surface",
+        "emerging_wings",
+        "clear_silhouette"
+      ],
+      "composition_hints": [
+        "single_centered_transition",
+        "no_extra_panels"
+      ],
+      "mood": "mysterious",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "961",
+    "title": "Proč moderní procesor připomíná stavebnici",
+    "content": "<p>Pod kovovým krytem procesoru nemusí ležet jediný velký kus křemíku. Stále důležitější konstrukční přístup skládá celý systém z menších čipů zvaných čiplety.</p><p>Výpočetní jádra mohou být na jiném čipu než obvody zajišťující komunikaci s okolím. Jednotlivé části lze vyrábět odlišnými technologiemi podle toho, co potřebují, a následně je propojit uvnitř společného pouzdra.</p><p>Menší čipy mohou zvýšit výrobní výtěžnost: vada nemusí znehodnotit tak velkou plochu drahého křemíku. Stejné díly lze také využít v různých sestavách.</p><p>Rozdělení však něco stojí. Přenos mezi čiplety spotřebovává energii a vyžaduje rychlé spoje i pečlivé pouzdření. <strong>Čiplet není pouhé další zmenšení tranzistoru; je to změna v tom, jak se části procesoru navrhují, vyrábějí a skládají dohromady.</strong></p>",
+    "category": "pocitacove-vedy",
+    "sources": [
+      {
+        "label": "AMD – Chiplet Architecture White Paper",
+        "url": "https://www.amd.com/content/dam/amd/en/documents/solutions/technologies/chiplet-architecture-white-paper.pdf"
+      },
+      {
+        "label": "Arm – Chiplets",
+        "url": "https://www.arm.com/markets/chiplets"
+      }
+    ],
+    "illustration": {
+      "concept": "Several distinct silicon dies share one processor package.",
+      "scene_type": "object",
+      "primary_subject": "open_chiplet_processor_package",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "silicon_tiles",
+        "shared_substrate",
+        "fine_interconnects"
+      ],
+      "composition_hints": [
+        "large_centered_package",
+        "clear_separation_of_dies"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "966",
+    "title": "Kdo se smí vydávat za výchozího člověka",
+    "content": "<p>Když je muž považován za obecnou normu, žena se snadno ocitne v roli odchylky, kterou je třeba vysvětlovat. Simone de Beauvoir z této nerovnosti učinila ústřední problém <em>Druhého pohlaví</em> z roku 1949.</p><p>Člověk podle ní získává postavení subjektu tím, že jedná, plánuje a určuje vlastní život. V historickém vztahu pohlaví si však muž přisvojil roli samozřejmého subjektu a ženu vymezoval jako <strong>Druhého</strong>: především ve vztahu k sobě.</p><p>Takové rozdělení nepovažuje za nevyhnutelný důsledek tělesných rozdílů. Zkoumá, jak je udržují výchova, mýty, instituce i hospodářská závislost.</p><p>Její argument proto přesahuje požadavek zdvořilejšího zacházení. Ptá se, kdo má prostor vytvářet vlastní projekty a kdo je předem uzavřen do předepsané role. <strong>Domněle neutrální norma může sama nést nerovnost.</strong></p>",
+    "category": "filozofie",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy – Simone de Beauvoir",
+        "url": "https://plato.stanford.edu/entries/beauvoir/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy – Simone de Beauvoir",
+        "url": "https://iep.utm.edu/simone-de-beauvoir/"
+      }
+    ],
+    "illustration": {
+      "concept": "Simone de Beauvoir looks directly outward with a composed expression.",
+      "scene_type": "portrait",
+      "primary_subject": "simone_de_beauvoir_portrait",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "recognizable_turban",
+        "direct_gaze",
+        "composed_expression"
+      ],
+      "composition_hints": [
+        "centered_portrait",
+        "balanced_margins"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "971",
+    "title": "Milovaná: minulost, která se nastěhuje do domu",
+    "content": "<p>V domě bývalé zotročené ženy straší, přestože otroctví už právně skončilo. Román <em>Milovaná</em> Toni Morrisonové z roku 1987 tak dává minulosti téměř hmatatelnou přítomnost.</p><p>Sethe žije po americké občanské válce v Ohiu, ale události spojené s útěkem z otroctví stále zasahují do její domácnosti. Vyprávění přechází mezi přítomností a roztříštěnými vzpomínkami.</p><p>Strašení lze číst jako součást děje i jako způsob, kterým kniha zpřítomňuje následky zotročení. Čtenář nedostává pouze historický přehled zvenčí: vstupuje do zkušenosti lidí, kteří se snaží žít s tím, co přežili.</p><p><strong>Právní konec násilného systému není totožný s koncem jeho působení.</strong> Právě tuto mezeru mezi svobodou na papíře a možností skutečně žít dál Morrisonová proměňuje v prostor románu.</p>",
+    "category": "literatura",
+    "sources": [
+      {
+        "label": "National Endowment for the Arts – Beloved",
+        "url": "https://www.arts.gov/initiatives/nea-big-read/beloved"
+      },
+      {
+        "label": "Harvard Gazette – Beloved",
+        "url": "https://news.harvard.edu/gazette/books/beloved/"
+      }
+    ],
+    "illustration": {
+      "concept": "A modest nineteenth-century Ohio house has a subtly unsettling open doorway.",
+      "scene_type": "environment",
+      "primary_subject": "sethe_haunted_ohio_house",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "wooden_house",
+        "dark_doorway",
+        "quiet_windows"
+      ],
+      "composition_hints": [
+        "large_centered_house",
+        "doorway_as_focal_point"
+      ],
+      "mood": "mysterious",
+      "palette": "monochrome_warm"
+    }
+  }
+]

@@ -14,7 +14,8 @@ export const categoryMeta = {
 	'psychologie': { label: 'Psychologie', color: 'var(--cat-psychologie)' },
 	'filmy':       { label: 'Kinematografie',       color: 'var(--cat-filmy)' },
 	'matematika':  { label: 'Matematika',  color: 'var(--cat-matematika)' },
-	'pocitacove-vedy': { label: 'Technologie', color: 'var(--cat-pocitacove-vedy)' }
+	'pocitacove-vedy': { label: 'Technologie', color: 'var(--cat-pocitacove-vedy)' },
+	'sport': { label: 'Sport', color: 'var(--cat-sport)' }
 };
 
 /** Seznam platných slugů kategorií. */

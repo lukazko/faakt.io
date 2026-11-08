@@ -75,7 +75,7 @@ Význam článku popisují čtyři logické atributy `idea`, `point`, `tags`, `t
 Před generováním spusť `python scripts/post-knowledge.py status`, přečti celý kompaktní katalog přes stránkovaný `catalog` a vyhledej související texty přes `search`. Celé články znovu čti jen u neověřených, změněných a blízkých případů; platný významový index nahrazuje opakované úplné čtení nezměněné databáze. Automatické hledání nenahrazuje sémantický verdikt. Nové pracovní návrhy obsahují navíc `knowledge`; nástroj `append` je po doložené kontrole rozdělí do článků a samostatných registrů. Používej řízené tagy, ne slova získaná pouze z ilustračního motivu.
 
 ## Kategorie
-`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`
+`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`, `sport`
 
 Zobrazované názvy: `politika` = **Společnost a politika**, `fyzika` = **Fyzika a chemie**, `pocitacove-vedy` = **Technologie**, `filmy` = **Kinematografie**. Původní slugy přejmenovaných kategorií zůstávají kvůli kompatibilitě odkazů. Platné kategorie určuje výhradně `src/lib/categories.js`; neznámý kategoriový filtr otevře smíšený feed.
 
@@ -224,3 +224,6 @@ Doporučený postup:
 - For creating new posts, use [skills/faakt-create-posts/SKILL.md](skills/faakt-create-posts/SKILL.md). Read the full current posts database and reject any central idea already covered; title-only checks are insufficient. This provider-independent skill specifies current content structure, categories and illustration metadata together with the editorial handoff.
 <!-- Explicitní výjimka pro uživatelem zadané doplnění číselné mezery. -->
 Pokud uživatel výslovně požádá vyplnit chybějící ID, má tento požadavek přednost před výchozím pokračováním nad maximem. Ověř aktuální volná ID a použij je vzestupně; příkazy `check-plan`, `check-drafts` a `append` v `scripts/post-knowledge.py` v takovém případě vyžadují výslovné `--fill-gaps`. Režim neumožňuje přepsat existující ID ani přeskočit první volné ID. Bez této volby zůstává dosavadní pravidlo maxima + 1. Obsahové kontroly, zdroje a redakční schválení platí beze změny.
+
+
+Kategorie `sport` (Sport) zahrnuje dějiny sportu, soutěže, pravidla, sportovní kuriozity a teorie výkonu či strategie. Zdravotní účinky pohybu a životospráva zůstávají v Biologii. Tematické zadání dávky má přednost před obecným doporučením pokrýt všechny kategorie.
