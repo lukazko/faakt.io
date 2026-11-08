@@ -1,0 +1,366 @@
+{
+  "snapshot": "82a7f117195b6b97913a6ce2fde39b99632c5907b5a7eaa65388b6cad698e3dd",
+  "catalog_reviewed": "82a7f117195b6b97913a6ce2fde39b99632c5907b5a7eaa65388b6cad698e3dd",
+  "drafts_hash": "b9b1a5a63b8aed5b00ac9bdc78c95154b2b5e73651d3dff3316c2ed97ece3b19",
+  "decisions": [
+    {
+      "id": "383",
+      "verdict": "accept",
+      "compared_ids": [
+        "766",
+        "156"
+      ],
+      "reason": "766 řeší zachycení skutečné depeše, 156 skutečné vylodění v Normandii; zde je mechanismem cílené podstrčení falešného nálezu před invazí na Sicílii.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "384",
+      "verdict": "accept",
+      "compared_ids": [
+        "39",
+        "895"
+      ],
+      "reason": "39 pojednává o identifikované egyptské hrobce, 895 o neznámé funkci předmětů; zde se rekonstruuje zaniklé plavidlo a odděluje identita pohřbeného od fyzického nálezu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "385",
+      "verdict": "accept",
+      "compared_ids": [
+        "768",
+        "144"
+      ],
+      "reason": "768 řeší emoční účinek tragédie a 144 ústní formule eposu; zde je odlišný druh poznání univerzálního možného děje oproti konkrétnímu historickému záznamu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "386",
+      "verdict": "accept",
+      "compared_ids": [
+        "76",
+        "229",
+        "964"
+      ],
+      "reason": "76 řeší paradox dokončení pohybu, 229 velikosti množin, 964 obecně schopnost a uskutečnění; zde je samostatným předmětem status potenciálního nekonečna.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "387",
+      "verdict": "accept",
+      "compared_ids": [
+        "152",
+        "740"
+      ],
+      "reason": "152 řeší krevní oběh hlavonožců a 740 délku života grónského žraloka; v katalogu není anatomický původ narvalího klu ani jeho pohlavní rozdíly.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "388",
+      "verdict": "accept",
+      "compared_ids": [
+        "633",
+        "691"
+      ],
+      "reason": "633 popisuje reakci vytvářející světlo a 691 optimalizaci sítě slizovkou; zde je mechanismem chemická regulace genů v bakteriální populaci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "389",
+      "verdict": "accept",
+      "compared_ids": [
+        "463",
+        "906"
+      ],
+      "reason": "463 je opracování mramoru, 906 pozitivní odlitek dutiny místnosti; nový text vysvětluje nahrazení vosku kovem a rozdíl přímé a nepřímé metody.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "390",
+      "verdict": "accept",
+      "compared_ids": [
+        "933",
+        "905"
+      ],
+      "reason": "933 zanechává kovovou stopu stříbrnou špičkou, 905 využívá světlocitlivý papír; zde určuje tón množství barvy zachycené zdrsněnou deskou.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "391",
+      "verdict": "accept",
+      "compared_ids": [
+        "587",
+        "689"
+      ],
+      "reason": "587 řeší zaměření na formu sdělení a 689 tvorbu omezením; zde je novým poznatkem sezónní a kulturní funkce kigo, nikoli počet slabik či obecná stručnost.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "392",
+      "verdict": "accept",
+      "compared_ids": [
+        "936",
+        "686"
+      ],
+      "reason": "936 modeluje paměť volným pořadím samostatných částí, 686 úplnost kombinací knih; zde je tématem vyprávěná honba za přerušeným pokračováním a oslovení Čtenáře.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "393",
+      "verdict": "accept",
+      "compared_ids": [
+        "284",
+        "260"
+      ],
+      "reason": "284 je osobní odpovědnost za mezinárodní zločiny, 260 obecná deklarace práv; zde je konkrétní procesní rozdělení důkazního břemene před odsouzením.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "394",
+      "verdict": "accept",
+      "compared_ids": [
+        "287",
+        "665"
+      ],
+      "reason": "287 rozděluje druhy státní moci, 665 je historická integrace uhlí a oceli; zde jde o test vhodné úrovně výkonu nevýlučné pravomoci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "395",
+      "verdict": "accept",
+      "compared_ids": [
+        "912",
+        "443"
+      ],
+      "reason": "912 je rovnováha tří fází a 443 hustota vody a ledu; zde jde o metastabilní kapalinu a spuštění krystalizace.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "396",
+      "verdict": "accept",
+      "compared_ids": [
+        "911",
+        "939"
+      ],
+      "reason": "911 je tání galia a 939 vnitřní pnutí skla; zde se opravuje záměna amorfní struktury s tokem historického okna.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "397",
+      "verdict": "accept",
+      "compared_ids": [
+        "292",
+        "915"
+      ],
+      "reason": "292 řeší přenos momentu a vzdalování Měsíce, 915 vzorkování oceánu Enceladu; zde je mechanismem disipace slapových deformací pohánějící sopky Io.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "398",
+      "verdict": "accept",
+      "compared_ids": [
+        "941",
+        "296"
+      ],
+      "reason": "941 jsou výměny drah dvojice měsíců a 296 relativistické opravy hodin GPS; zde se vysvětlují rovnovážné polohy v rotující soustavě a jejich odlišná stabilita.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "399",
+      "verdict": "accept",
+      "compared_ids": [
+        "481",
+        "709"
+      ],
+      "reason": "481 řeší mezní užitek, 709 statusovou drahou spotřebu; zde roste poptávka s cenou kvůli rozpočtovému omezení, nikoli kvůli prestiži.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "400",
+      "verdict": "accept",
+      "compared_ids": [
+        "141",
+        "479"
+      ],
+      "reason": "141 je konkrétní historické uspořádání Bretton Woods, 479 změna očekávání při politice; zde je vysvětlen konflikt tří měnových cílů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "401",
+      "verdict": "accept",
+      "compared_ids": [
+        "918",
+        "714"
+      ],
+      "reason": "918 řeší krátké časové okno zpracování druhého cíle a 714 výběr zvukového kanálu; zde je přehlédnuté porovnání změn mezi obrazy scény.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "402",
+      "verdict": "accept",
+      "compared_ids": [
+        "758",
+        "838"
+      ],
+      "reason": "758 řeší chunking pracovní paměti; plný text 838 ve skutečnosti řeší právní odstranění odkazů a jeho chybný index byl opraven. Zde jde o dočasnou nedostupnost slovní podoby při pocitu znalosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "403",
+      "verdict": "accept",
+      "compared_ids": [
+        "459",
+        "452"
+      ],
+      "reason": "459 zaznamenává pohyb jako data pro digitální postavu, 452 snímá pohybovaný model; rotoskopie používá obraz jednotlivých hraných políček jako kreslířskou předlohu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "404",
+      "verdict": "accept",
+      "compared_ids": [
+        "282",
+        "460"
+      ],
+      "reason": "282 je tvorba ruchů fyzickými předměty a 460 potlačení šumu; ADR vytváří novou synchronní řečovou nahrávku samotné postavy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "405",
+      "verdict": "accept",
+      "compared_ids": [
+        "500",
+        "493"
+      ],
+      "reason": "500 ohraničuje pí mnohoúhelníky a 493 obecně zákon velkých čísel; zde je nový konkrétní geometricko-pravděpodobnostní vztah daný polohou a orientací jehly.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "406",
+      "verdict": "accept",
+      "compared_ids": [
+        "757",
+        "302"
+      ],
+      "reason": "757 je počítání přihrádek a 302 barvení map; zde barvení vytváří invariant při pokrývání a dokazuje nemožnost konkrétní dlažby.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "407",
+      "verdict": "accept",
+      "compared_ids": [
+        "952",
+        "742"
+      ],
+      "reason": "952 určuje identitu podle obsahu, 742 logický relační model; zde je cílem stabilní rozdělení klíčů mezi měnící se množinu uzlů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "408",
+      "verdict": "accept",
+      "compared_ids": [
+        "798",
+        "925"
+      ],
+      "reason": "798 řeší dohodu při zrádných uzlech a 925 síťové zahlcení; zde jde o atomické dokončení distribuované transakce s blokující připravenou fází.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "409",
+      "verdict": "accept",
+      "compared_ids": [
+        "378",
+        "379"
+      ],
+      "reason": "378 je změna skokanské techniky a 379 průběh maratonu; zde je samostatný vznik pravidel a vybavení basketbalu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "410",
+      "verdict": "accept",
+      "compared_ids": [
+        "380",
+        "277"
+      ],
+      "reason": "380 řeší vodiče při míli a 277 definici výšky hor; zde se porovnávají protichůdné účinky prostředí na krátký a vytrvalostní výkon.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "411",
+      "verdict": "accept",
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "378 mění polohu těla při překonání laťky; zde je novým mechanismem kloubové oddělení paty boty od nože při odrazu na ledě.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "412",
+      "verdict": "accept",
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "382 řeší strategickou náhodnost při penaltě, nikoli pravidla ukončení setu; katalog neobsahuje jiný poznatek o tenisovém skórování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

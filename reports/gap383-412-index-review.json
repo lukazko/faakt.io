@@ -1,0 +1,14 @@
+[
+  {
+    "id": "838",
+    "source_hash": "42de21a9d3b0dd2065d0f8d7c156430b26b21aad07808528cd2223e1d0a7f457",
+    "verdict": "verified",
+    "reason": "Při kontrole blízkého plného textu byl zjištěn zcela jiný obsah než v indexu: článek popisuje rozsudek o vyřazení odkazů a vyvažování soukromí a veřejného zájmu, nikoli paměťový Google efekt. Opraven pouze významový index; článek zachován.",
+    "knowledge": {
+      "idea": "idea-838",
+      "point": "Právo na zapomnění umožňuje za určitých podmínek odstranit odkazy z výsledků hledání jména bez smazání původního článku a vyžaduje vážit soukromí proti veřejnému zájmu.",
+      "tags": ["law", "privacy", "human-computer-interaction"],
+      "type": "event"
+    }
+  }
+]
