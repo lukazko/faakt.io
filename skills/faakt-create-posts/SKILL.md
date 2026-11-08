@@ -61,7 +61,7 @@ Použij přesně jeden slug z těchto 14 hodnot:
 | `biologie` | Biologie |
 | `umeni` | Umění |
 | `literatura` | Literatura |
-| `politika` | Společnost a politika |
+| `spolecnost` | Společnost |
 | `fyzika` | Fyzika a chemie |
 | `astronomie` | Astronomie |
 | `ekonomie` | Ekonomie |
@@ -71,7 +71,7 @@ Použij přesně jeden slug z těchto 14 hodnot:
 | `pocitacove-vedy` | Technologie |
 | `sport` | Sport |
 
-Biologie zahrnuje organismy, evoluci, genetiku, fyziologii i léčbu, nemoci, prevenci a životosprávu. Fyzika a chemie zahrnuje neživou přírodu včetně chemických reakcí a geofyziky. Technologie zahrnují informatiku a technické vynálezy. Společnost a politika zahrnuje také sociologii, instituce a právo. Jazyk a znaky patří jako podobor do Filozofie. Rozhoduje hlavní obsah celého příspěvku; přesahy zachycují řízené tagy. Slugy přejmenovaných kategorií zůstávají kvůli existujícím odkazům. Platné slugy určuje `src/lib/categories.js`.
+Biologie zahrnuje organismy, evoluci, genetiku, fyziologii i léčbu, nemoci, prevenci a životosprávu. Fyzika a chemie zahrnuje neživou přírodu včetně chemických reakcí a geofyziky. Technologie zahrnují informatiku a technické vynálezy. Společnost zahrnuje také sociologii, instituce a právo. Jazyk a znaky patří jako podobor do Filozofie. Rozhoduje hlavní obsah celého příspěvku; přesahy zachycují řízené tagy. Společnost používá slug `spolecnost` bez aliasu pro staré URL. Ostatní dříve přejmenované kategorie si ponechávají původní slugy. Platné slugy určuje `src/lib/categories.js`.
 
 Při jedné zadané kategorii zůstaň v ní. U smíšené dávky bez tematického omezení vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 14. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
 

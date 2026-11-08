@@ -40,9 +40,9 @@ Při generování napříč kategoriemi pokrývej všech 14 kategorií a témata
 
 Povolené hodnoty `category`:
 
-`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`, `sport`.
+`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `spolecnost`, `fyzika`, `astronomie`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`, `sport`.
 
-Zobrazované názvy a hranice: `politika` = Společnost a politika (společenské normy, instituce, právo, vládnutí); `fyzika` = Fyzika a chemie (neživá příroda včetně chemie a geofyziky); `pocitacove-vedy` = Technologie (informatika a technické vynálezy). Biologie zahrnuje organismy, genetiku, evoluci, fyziologii i nemoci, léčbu, prevenci a životosprávu. Jazyk a znaky jsou podoborem Filozofie. Rozhoduje hlavní obsah a pointa, přesahy se zapisují do řízených tagů. Platné slugy určuje `src/lib/categories.js`.
+Zobrazované názvy a hranice: `spolecnost` = Společnost (společenské normy, instituce, právo, vládnutí); `fyzika` = Fyzika a chemie (neživá příroda včetně chemie a geofyziky); `pocitacove-vedy` = Technologie (informatika a technické vynálezy). Biologie zahrnuje organismy, genetiku, evoluci, fyziologii i nemoci, léčbu, prevenci a životosprávu. Jazyk a znaky jsou podoborem Filozofie. Rozhoduje hlavní obsah a pointa, přesahy se zapisují do řízených tagů. Platné slugy určuje `src/lib/categories.js`.
 
 ## Ilustrační metadata
 

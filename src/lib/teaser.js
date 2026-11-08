@@ -262,7 +262,7 @@ export function getHook(html, maxLength = 150) {
 // Text CTA podle žánru kategorie
 const CTA_BY_CATEGORY = {
 	'historie': 'Co se stalo?',
-	'politika': 'Co se stalo?',
+	'spolecnost': 'Co se stalo?',
 	'psychologie': 'Proč se to děje?',
 	'filozofie': 'Co tím myslel?',
 	'biologie': 'Jak to funguje?',

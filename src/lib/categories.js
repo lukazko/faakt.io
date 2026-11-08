@@ -7,7 +7,7 @@ export const categoryMeta = {
 	'biologie':    { label: 'Biologie',    color: 'var(--cat-biologie)' },
 	'umeni':       { label: 'Umění',       color: 'var(--cat-umeni)' },
 	'literatura':  { label: 'Literatura',  color: 'var(--cat-literatura)' },
-	'politika':    { label: 'Společnost a politika', color: 'var(--cat-politika)' },
+	'spolecnost':  { label: 'Společnost', color: 'var(--cat-spolecnost)' },
 	'fyzika':      { label: 'Fyzika a chemie', color: 'var(--cat-fyzika)' },
 	'astronomie':  { label: 'Astronomie',  color: 'var(--cat-astronomie)' },
 	'ekonomie':    { label: 'Ekonomie',    color: 'var(--cat-ekonomie)' },
