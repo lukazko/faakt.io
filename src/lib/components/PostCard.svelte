@@ -50,7 +50,6 @@
 	let flipped = $state(false);
 	let flipHint = $state(false);
 	let manualHint = $state(false);
-	let lastPointerType = '';
 	let hintRequest = 0;
 	let cardStageEl;
 
@@ -132,11 +131,10 @@
 		}
 	}
 
-	// Dotyk na líci přehraje náznak, ostatní kliknutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
+	// Stisk na líci přehraje náznak, kliknutí i klepnutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
 	// si klik řeší samy, stejně jako dokončený výběr textu.
 	function handleCardPointerDown(event) {
-		lastPointerType = event.pointerType;
-		if (event.pointerType !== 'mouse' || event.button !== 0 || actionsOpen || flipped) return;
+		if (!event.isPrimary || event.button !== 0 || actionsOpen || flipped) return;
 		if (!(event.target instanceof Element)) return;
 		if (event.target.closest('a, button, input, textarea, select, label, summary')) return;
 		replayFlipHint();
@@ -157,10 +155,6 @@
 			return;
 		}
 
-		if (!flipped && lastPointerType === 'touch' && event.detail !== 0) {
-			replayFlipHint();
-			return;
-		}
 		if (flipped) flipToFront();
 		else flipToBack();
 	}
