@@ -236,12 +236,19 @@ for (const side of ['front', 'back']) {
 				// deterministický ekvivalent reprodukuje překryv nad celým feedem.
 				await page.addStyleTag({ content: '.feed-container { isolation: isolate; }' });
 			}
-			if (side === 'back') await flip(page);
+			if (side === 'back') {
+				await flip(page);
+				await expect(page.getByRole('button', { name: 'Sdílet', exact: true })).toHaveCount(0);
+				await activate(page.getByRole('button', { name: 'Otočit na přední stranu', exact: true }), page);
+				await expect(page.locator('.is-active .card-front')).toHaveAttribute('aria-hidden', 'false');
+				await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([]);
+			}
 			await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 			await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([
 				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=1', title: posts.find(post => post.id === '1').title } }
 			]);
 			await expect(page.getByRole('menu')).toHaveCount(0);
+			if (side === 'back') await flip(page);
 			await openMenu(page);
 			const popupPromise = page.waitForEvent('popup');
 			await activate(page.getByRole('menuitem', { name: 'Nahlásit problém' }), page);

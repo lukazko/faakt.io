@@ -136,13 +136,14 @@
 		// pokračovat ve čtení a skrytý líc nezůstane zaměřený.
 		await tick();
 		if (previewTransform) cardStageEl.style.removeProperty('transform');
-		// Na rubu není žádné tlačítko — fokus dostane scrollovací plocha,
+		// Fokus dostane scrollovací plocha,
 		// aby se klávesnicí dalo rovnou číst a Escape vrátil kartu zpět.
 		backScrollEl?.focus({ preventScroll: true });
 	}
 
 	async function flipToFront() {
 		if (!flipped) return;
+		onCloseActions?.();
 		flipped = false;
 		await tick();
 		frontBtnEl?.focus({ preventScroll: true });
@@ -248,6 +249,22 @@
 {#snippet shareControl(side)}
 	{@const gradientId = `share-gradient-${post.id}-${side}`}
 	<button class="action-btn share-btn" type="button" aria-label="Sdílet" onclick={() => { onShare?.(post); onCloseActions?.(); }}>
+		{#if side === 'front'}
+			<svg class="lucide lucide-share-2" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="url(#{gradientId})" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<defs>
+					<linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
+						<stop offset="0%" style="stop-color: var(--share-start, var(--accent))" />
+						<stop offset="100%" style="stop-color: var(--share-end, var(--accent-secondary))" />
+					</linearGradient>
+				</defs>
+				<circle cx="18" cy="5" r="3" />
+				<circle cx="6" cy="12" r="3" />
+				<circle cx="18" cy="19" r="3" />
+				<line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+				<line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
+			</svg>
+			<span>Sdílet</span>
+		{:else}
 		<svg class="share-ring" width="42" height="42" viewBox="0 0 42 42" fill="none" aria-hidden="true">
 			<circle cx="21" cy="21" r="19.5" stroke="currentColor" stroke-width="1" />
 		</svg>
@@ -260,6 +277,7 @@
 			</defs>
 			<path d="M14 3v5C6.5 8 3 12.5 2 20c2.5-4.5 6-6 12-6v5l8-8-8-8Z" />
 		</svg>
+		{/if}
 	</button>
 {/snippet}
 
@@ -306,6 +324,7 @@
 				</div>
 
 				<div class="front-footer">
+					{@render shareControl('front')}
 					<button
 						bind:this={frontBtnEl}
 						type="button"
@@ -315,17 +334,23 @@
 						aria-label={`Otevřít celý text: ${post.title}`}
 						onclick={flipToBack}
 					>
-						<svg class="flip-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-							<path d="m15.194 13.707 3.814 1.86-1.86 3.814" />
-							<path d="M16.47214 7.52786 A 5 10 0 1 0 13 21.79796" />
-							<path d="M21.79796 11 A 10 5 0 1 0 19 15.57071" />
+						<svg class="front-flip-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="url(#flip-gradient-{post.id})" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<defs>
+								<linearGradient id={`flip-gradient-${post.id}`} x1="0%" y1="0%" x2="100%" y2="100%">
+									<stop offset="0%" style="stop-color: var(--accent)" />
+									<stop offset="100%" style="stop-color: var(--accent-secondary)" />
+								</linearGradient>
+							</defs>
+							<path d="M3 12a9 9 0 0 1 15.36-6.36L21 8" />
+							<path d="M21 3v5h-5" />
+							<path d="M21 12a9 9 0 0 1-15.36 6.36L3 16" />
+							<path d="M8 16H3v5" />
 						</svg>
 						<span class="flip-btn-text">Otočit a číst</span>
 					</button>
 				</div>
 			</div>
 
-			{@render shareControl('front')}
 		</section>
 
 		<!-- RUB -->
@@ -354,7 +379,6 @@
 				</div>
 			</div>
 
-			{@render shareControl('back')}
 		</section>
 	</div>
 
@@ -445,6 +469,44 @@
 		height: 42px;
 		appearance: none;
 		border: none;
+	}
+
+	.card-front .share-btn {
+		--share-start: var(--text-muted);
+		--share-end: var(--text-muted);
+		color: var(--text-muted);
+		position: static;
+		left: var(--card-action-inset);
+		right: auto;
+		width: auto;
+		min-height: 44px;
+		gap: 8px;
+		padding: 0;
+		border-radius: 0;
+		background: transparent;
+		font: inherit;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.card-front .share-btn span {
+		background: linear-gradient(135deg, var(--share-start), var(--share-end));
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.card-front .share-btn:active,
+	.card-front .share-btn:focus-visible {
+		--share-start: var(--accent);
+		--share-end: var(--accent-secondary);
+	}
+
+	@media (hover: hover) {
+		.card-front .share-btn:hover {
+			--share-start: var(--accent);
+			--share-end: var(--accent-secondary);
+		}
 	}
 
 	.share-ring {
@@ -679,22 +741,30 @@
 
 	.front-footer {
 		flex: none;
+		min-height: 44px;
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
 	}
 
-	/* CTA zůstává textový odkaz, ne pill — drží vizuální jazyk feedu */
+	.front-footer .flip-btn {
+		position: static;
+	}
+
+	/* Primární akce: obrysová ikona a text bez pozadí. */
 	.flip-btn {
+		position: relative;
 		display: inline-flex;
 		outline: none;
 		align-items: center;
-		gap: 6px;
-		/* Stejná výška jako kruhové tlačítko akcí — středy obou tlačítek
-		   tak leží v jedné ose. */
-		min-height: 42px;
-		padding: 8px 0;
+		gap: 8px;
+		/* Společná výška a spodní odsazení se Sdílet zarovnají středy. */
+		min-height: 44px;
+		padding: 0;
 		border: none;
 		background: none;
+		color: var(--accent);
 		font-family: inherit;
 		font-size: 0.95rem;
 		font-weight: 600;
@@ -703,31 +773,21 @@
 	}
 
 	.flip-btn-text {
-		font-size: 1.12rem;
+		font-size: 15px;
+		font-weight: 650;
+		color: inherit;
 		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
-		color: var(--accent-secondary);
 		line-height: 1.3;
 		text-decoration: none;
 	}
 
-	.flip-icon {
+	.front-flip-icon {
 		flex: none;
-		stroke-width: 2.2;
-		width: 1em;
-		height: 1em;
-		position: relative;
-		top: 1px;
-		color: var(--accent);
-		opacity: 0.8;
-		transition: transform 0.3s;
 	}
 
-	.flip-btn:hover .flip-icon {
-		transform: rotateY(180deg);
-	}
 
 	/* --- Rub --- */
 	/* Rub scrolluje sám; po dojetí na konec textu se gesto přelije do feedu
@@ -801,10 +861,6 @@
 		.post-card.flipped .card-front .action-btn,
 		.post-card:not(.flipped) .card-back .action-btn {
 			transition-delay: 0s;
-		}
-
-		.flip-btn:hover .flip-icon {
-			transform: none;
 		}
 	}
 </style>
