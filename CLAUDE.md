@@ -84,6 +84,8 @@ Zařazuj podle hlavního obsahu celého článku. Biologie zahrnuje organismy, g
 Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 
 ## Klíčová pravidla pro obsah
+
+Hook se vždy zobrazuje celý a nesmí končit výpustkou (`…` ani `...`) kvůli zkrácení. Na líci nepoužívej pro hook `line-clamp`, ani v pravidlech pro nízký viewport. Pokud obsah přesáhne dostupnou výšku, úvodní plocha umožní posun a dočtení celých vět; spodní akce zůstávají mimo ni.
 1. **100% reálná fakta** — žádné AI výmysly, fabulace nebo přibližné informace
 2. **Každý příspěvek musí mít 2-3 zdroje** s reálnými URL
 3. **Žádné smyšlené citáty**, přibližné letopočty nebo „lidé říkají“

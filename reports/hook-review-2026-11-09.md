@@ -29,3 +29,7 @@ Titulky, kategorie, zdroje, ilustrační metadata a bitmapy se nemění. Hlavní
 - Skutečné karty v Chromium při 390 × 844 px: ověřeny 48, 90, 134, 149, 154, 263, 417, 477, 594, 610, 637 a 643. Hooky se zobrazily celé, ilustrace se načetly a text nepřekrýval tlačítko otočení. Snímky 48 a 417 byly také vizuálně posouzeny.
 - Závěrečné měření všech 378 upravených hooků v reálném prvku karty při 390 × 844 px: žádný hook se neořezává šestřádkovým limitem. Navíc ověřeny skutečné karty 106, 124, 416, 645 a 740, včetně načtení ilustrace a absence překryvu textu s tlačítkem.
 - Lokální test aktuálních zdrojů: `http://127.0.0.1:5173/faakt.io/?order=id&post=48`. Server je ponechán běžet.
+
+Navazující pravidlo zobrazení: hook nikdy nekončí výpustkou. Řádkový limit byl proto z líce zcela odstraněn, včetně varianty pro nízká okna; při nedostatku místa lze úvod posunout a dočíst celý. Původní měření šestřádkového limitu výše zaznamenává stav při redakční kontrole, nikoli současné omezení rozhraní.
+
+Navazující ověření: 9 prohlížečových kontrol úspěšných v emulaci Android Chromium, iPhone WebKit a desktop Chromium (390 × 844 a 360 × 540 px), včetně dočtení klávesnicí, dostupného otočení a kontroly všech uložených hooků. Desktopový nízký viewport byl po přerušení načítání lokálním restartem opakován samostatně a prošel. Dvě jednotkové kontroly navíc ověřují, že ani náhradní zpracování textu bez odstavcových značek nepřidává výpustku. Nejde o ruční test fyzických telefonů ani o dokončení celé ostatní prohlížečové sady.

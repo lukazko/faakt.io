@@ -14,8 +14,9 @@ Checklist proveď po každé nové verzi na skutečně nasazeném webu. Odkazy n
 
 | Hotovo | ID | Postup | Očekávaný výsledek |
 | --- | --- | --- | --- |
+| [ ] | R17 | Otevři `?post=417` na úzkém mobilu, otoč telefon na šířku a zvětši písmo. Pokud líc přesahuje, posuň úvodní plochu až na konec. Potom použij „Otočit a číst“. | Hook je tvořen celými větami a nikdy nekončí výpustkou kvůli ořezání. Celý úvod lze dočíst posunem i klávesnicí po zaměření úvodní plochy. Text nepřekrývá spodní akce, ilustrace není deformovaná a posun sám kartu neotočí. Tlačítko otočení funguje. |
 | [ ] | R01 | Otevři kořen webu a obnov stránku. V nabídce zkontroluj verzi/build. | Načte se feed se styly a obsahem, načítání skončí, údaje odpovídají nasazení. Nejsou vidět vývojové přepínače „Podle ID“ ani odznak ID. |
-| [ ] | R02 | Prohlédni několik karet, včetně dlouhého titulku a příspěvku s ilustrací. | Titulek, kategorie, úvod a „Otočit a číst“ jsou čitelné a dostupné. Na líci je sdílení vlevo dole a „Otočit a číst“ vpravo dole, obě tlačítka jsou na stejné lince a nepřekrývají se. Ikonka otočení je za textem a její pravý okraj má stejné odsazení jako text příspěvku. Ilustrace není rozbitá, deformovaná ani oříznutá; nezasahuje do textu a nevytváří nápadně nevyváženou mezeru. |
+| [ ] | R02 | Prohlédni několik karet, včetně dlouhého titulku a příspěvku s ilustrací. | Titulek, kategorie, úvod a „Otočit a číst“ jsou čitelné a dostupné. Na líci je sdílení vlevo dole a „Otočit a číst“ vpravo dole, obě tlačítka jsou na stejné lince a nepřekrývají se. Spodní odsazení akcí je o 8 px menší než boční odsazení; celé dotykové plochy zůstávají uvnitř karty. Ikonka otočení je za textem a její pravý okraj má stejné odsazení jako text příspěvku. Ilustrace není rozbitá, deformovaná ani oříznutá; nezasahuje do textu a nevytváří nápadně nevyváženou mezeru. |
 | [ ] | R03 | Posuň feed o několik karet dolů a zpět, pomalu i rychle. | Karty se zarovnají pod hlavičkou, aktivní karta jde ovládat. Feed nezůstane mezi kartami a obsah nekryje hlavička; ukazatel postupu reaguje. |
 | [ ] | R04 | Na mobilu krátce klepni do úvodu karty, na počítači klikni na neinteraktivní plochu. Zopakuj s podržením prstu i myši a ověř také „Otočit a číst“. | Krátké klepnutí i kliknutí otočí kartu. Při podržení se před uvolněním přehraje náznak otočení. Tlačítko otevře celý text. Rub patří stejnému příspěvku, nic není zrcadlové a feed neposkočí. |
 | [ ] | R05 | Na rubu dlouhého příspěvku roluj až ke zdrojům; potom dalším gestem pokračuj ve feedu. Klepnutím do textu vrať kartu na líc. | Lze přečíst celý článek. Rolování textu kartu neotočí, na konci lze pokračovat dál. Návrat na líc funguje; jiný příspěvek nepřebírá obsah předchozí karty. |
@@ -54,7 +55,7 @@ Datum:
 URL:
 Verze / build:
 Zařízení / OS / prohlížeč (fyzické nebo emulace):
-Výsledky R01–R16:
+Výsledky R01–R17:
 Výsledky relevantních X01–X06:
 Neprovedeno / netýká se a důvod:
 Chyby (ID testu, URL postu, kroky, očekávání, skutečnost, příloha):

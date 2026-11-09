@@ -104,7 +104,7 @@ Použij pouze tyto hodnoty:
 - Pouze při výslovném zadání JSON výstupu vrať jeden validní JSON seznam nových příspěvků bez Markdownových bloků a komentářů. Takto lze použít zadání i u externího agenta, který připravuje pouze návrhy pro následný import.
 - Každý objekt musí mít přesně použitá pole a datové typy z uvedeného příkladu. Zachovej všechna pole; vynechaný zdroj nebo ilustrační metadata nejsou přijatelné.
 - Před odevzdáním zkontroluj validitu JSON, navazující jedinečná ID, délku a jazyk textu, 2 až 3 zdroje, kategorii a všechny hodnoty enumů.
-- Samostatně ověř, že první odstavec (hook) obsahuje 2 až 3 smysluplné věty a není prodloužený výplní.
+- Samostatně ověř, že první odstavec (hook) obsahuje 2 až 3 smysluplné věty a není prodloužený výplní. Hook nesmí končit výpustkou (`…` ani `...`) místo dokončené věty; i na nízké kartě musí být dostupný celý.
 - Zkontroluj, že ilustrace vychází z konkrétního příspěvku, že hlavní a doplňkové motivy dávají smysl společně a že se kompozice v rámci dávky zbytečně neopakují.
 - `concept`, `scene_type` a `composition_hints` popisují stejný vybraný aspekt. Relevantní objekt je dostačující i u argumentu, paradoxu nebo mechanismu; není potřeba zobrazit celý vztah či důkaz. Klíčová slova nesmějí zbytečně rozšiřovat inventář obrázku.
 - Dodané existující příspěvky nikdy nepřepisuj, nemaž ani neupravuj. Připoj nebo exportuj pouze nové záznamy podle zadaného rozsahu.

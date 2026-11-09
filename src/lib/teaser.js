@@ -206,7 +206,7 @@ function pickBest(candidates) {
  */
 export function getHook(html, maxLength = 150) {
 	const paragraphs = getParagraphs(html);
-	if (paragraphs.length === 0) return getTeaser(html, maxLength);
+	if (paragraphs.length === 0) return htmlToText(html);
 
 	// DOČASNĚ: výběr hooku je zaslepený — hookem je vždy první odstavec.
 	// Přepnutím na `false` se vrátí původní skórování vět.
@@ -231,7 +231,7 @@ export function getHook(html, maxLength = 150) {
 		}))
 		.filter(hook => hook.sentence !== lastSentence);
 
-	if (hooks.length === 0) return getTeaser(html, maxLength);
+	if (hooks.length === 0) return source[0] ?? htmlToText(html);
 
 	// Délka se poměřuje podle samotné věty, ne podle doplněného textu —
 	// doplnění je nutná oprava, ne stylistická volba

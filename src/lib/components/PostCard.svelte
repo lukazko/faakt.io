@@ -303,7 +303,7 @@
 		>
 			<CardGlow {post} />
 			<div class="front-inner">
-				<div class="front-main">
+				<div class="front-main" role="region" aria-label={`Úvod: ${post.title}`} tabindex="0">
 					<div class="front-top">
 						<CategoryBadge
 							category={post.category}
@@ -670,9 +670,8 @@
 		gap: 14px;
 		height: 100%;
 		min-height: 0;
-		/* Spodní odsazení je stejné jako odsazení tlačítka sdílení, aby
-		   obě tlačítka seděla na stejné lince. */
-		padding: var(--card-meta-top) var(--card-action-inset) var(--card-action-inset);
+		/* Společný footer drží obě akce na stejné lince, o 8 px níž. */
+		padding: var(--card-meta-top) var(--card-action-inset) calc(var(--card-action-inset) - 8px);
 	}
 
 	.front-top {
@@ -682,12 +681,16 @@
 		min-height: 26px;
 	}
 
-	/* Hook i titulek jsou omezené počtem řádků — dlouhý text nikdy
-	   neroztáhne kartu ani nepřekryje CTA. */
+	/* Celý hook zůstává dostupný i při velkém písmu nebo nízkém okně.
+	   Případný přesah scrolluje uvnitř líce, CTA zůstává mimo něj. */
 	.front-main {
 		flex: 1 1 auto;
 		min-height: 0;
-		overflow: visible;
+		overflow-x: hidden;
+		overflow-y: auto;
+		touch-action: pan-y;
+		overscroll-behavior-y: auto;
+		scrollbar-width: thin;
 		display: flex;
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
@@ -705,9 +708,7 @@
 		line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
-		/* Text se nikdy nesmršťuje — jinak by ho při dlouhém hooku
-		   ukrojila flexová kolize s ilustrací. Veškeré smrštění řeší
-		   až .front-art, který jako jediný smí na výšku ustoupit. */
+		/* Text se nikdy nesmršťuje uvnitř scrollovací plochy. */
 		flex: 0 0 auto;
 	}
 
@@ -715,20 +716,14 @@
 		font-size: 0.95rem;
 		line-height: 1.68;
 		color: var(--text-muted);
-		display: -webkit-box;
-		-webkit-line-clamp: 6;
-		line-clamp: 6;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		/* Stejně jako titulek: hook dostane celou svou výšku a nikdy
-		   nezmizí pod ilustrací. */
+		/* Hook vždy končí celou větou, bez ořezání a výpustky. */
 		flex: 0 0 auto;
 	}
 
 	/* Illustration sits between title and hook; spare space stays below the hook. */
 	.front-art {
 		position: relative;
-		flex: 0 1 auto;
+		flex: 0 0 auto;
 		margin-top: 12px;
 		width: 100%;
 		aspect-ratio: 640 / var(--art-height, 360);
@@ -828,8 +823,7 @@
 		color: var(--text);
 	}
 
-	/* Nízký viewport (např. mobil na šířku) — méně řádků, aby zůstalo
-	   vidět CTA a karta nepůsobila přeplácaně */
+	/* Nízký viewport — kompaktnější mezery a titulek; hook zůstává celý. */
 	@media (max-height: 560px) {
 		.front-inner {
 			gap: 10px;
@@ -838,11 +832,6 @@
 		.title {
 			-webkit-line-clamp: 2;
 			line-clamp: 2;
-		}
-
-		.teaser {
-			-webkit-line-clamp: 3;
-			line-clamp: 3;
 		}
 
 	}

@@ -1,5 +1,9 @@
 # Ilustrace — aktuální stav
 
+## Celý hook na líci
+
+Hook nemá řádkový limit ani výpustku, včetně nízkého viewportu. Titulek, ilustrace a celý hook sdílejí posuvnou plochu líce; spodní akce zůstávají dostupné. Ilustrace si zachovává rozměry a poměr stran i při přesahu obsahu. Bitmapy, registrace, palety, mapování a zlaté otisky se nemění. Regresi celého hooku, posunu na nízké kartě a otočení pokrývá `tests/browser/complete-hooks.spec.js`.
+
 ## Doplněná mezera ID 383–412
 
 Aktuální databáze má **976 příspěvků, 933 různých poznatků a 14 kategorií**. Všechna ID 1–976 jsou obsazená; každý post má statický WebP, registraci v produkčních kartách a položku společného manifestu galerie. Verze aplikace a oba údaje lockfile zůstávají 1.5.0. Dávka přidala 30 textů: po dvou v každé kategorii a další dva ve Sportu. Původních 946 článků a 946 položek manifestu je obsahově přesně zachováno. U starého 838 byl podle celého článku opraven pouze nesprávný významový index o právu na zapomnění. Redakční kontrolu, celý přečtený katalog, zdroje a srovnání uchovávají `reports/gap383-412-editorial-review.md`, plán, návrhy, hledání a schválení.

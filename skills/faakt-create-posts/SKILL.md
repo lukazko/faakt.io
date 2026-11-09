@@ -77,6 +77,8 @@ Při jedné zadané kategorii zůstaň v ní. U smíšené dávky bez tematické
 
 ## Struktura a psaní
 
+Hook nikdy nezakončuj výpustkou (`…` ani `...`) místo dokončené věty. Musí být dostupný celý; řádkový limit rozhraní nesmí useknout text uprostřed věty.
+
 Každý uložený objekt článku má přesně pole `id`, `title`, `content`, `category`, `sources`, `illustration`. Pracovní návrh má navíc `knowledge` (`idea`, `point`, `tags`, `type`); při zápisu se přesune do samostatných registrů podle `docs/post-knowledge.md`. První čtyři jsou řetězce. `sources` je pole 2–3 objektů s řetězci `label` a `url`; `illustration` je objekt popsaný níže. Kompletní ukázka je v propojeném redakčním zadání.
 
 - Český konkrétní a poutavý `title` má nejvýše 80 znaků.
