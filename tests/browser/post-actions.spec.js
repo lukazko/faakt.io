@@ -87,6 +87,31 @@ async function flip(page) {
 	});
 }
 
+for (const reducedMotion of ['no-preference', 'reduce']) {
+	test(`outgoing face stays hidden after repeated flips (${reducedMotion})`, async ({ page }) => {
+		await page.emulateMedia({ reducedMotion });
+		const card = page.locator('.is-active');
+		for (let repeat = 0; repeat < 3; repeat++) {
+			await flip(page);
+			await expect(card.locator('.card-front')).toBeHidden();
+			await expect(card.locator('.card-back')).toBeVisible();
+			// Sample frames after layer compositing settles, when the reported flash occurs.
+			const hiddenFrames = await card.locator('.card-front').evaluate(async face => {
+				const frames = [];
+				for (let i = 0; i < 12; i++) {
+					await new Promise(requestAnimationFrame);
+					frames.push(getComputedStyle(face).visibility);
+				}
+				return frames;
+			});
+			expect(hiddenFrames.every(value => value === 'hidden')).toBe(true);
+			await card.locator('.back-scroll').press('Escape');
+			await expect(card.locator('.card-front')).toBeVisible();
+			await expect(card.locator('.card-back')).toBeHidden();
+		}
+	});
+}
+
 test('flip hint repeats every seven seconds on each active card until a real flip', async ({ page }) => {
 	const stage = page.locator('.is-active .card-stage');
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);

@@ -657,10 +657,14 @@
 		transform: rotateY(180deg);
 	}
 
-	/* Skrytá strana nesmí chytat tapnutí ani myš */
+	/* Mobile compositors can briefly repaint the back-facing surface when
+	   the transform transition finishes. Hide it explicitly once it turns
+	   away, and reveal the incoming face immediately on a reverse flip. */
 	.post-card.flipped .card-front,
 	.post-card:not(.flipped) .card-back {
 		pointer-events: none;
+		visibility: hidden;
+		transition: visibility 0s linear calc(var(--flip-duration) * 0.16);
 	}
 
 	/* --- Líc --- */
@@ -856,6 +860,8 @@
 		}
 
 		/* Bez animace není co otáčet — tlačítko odvrácené strany zmizí hned */
+		.post-card.flipped .card-front,
+		.post-card:not(.flipped) .card-back,
 		.post-card.flipped .card-front .action-btn,
 		.post-card:not(.flipped) .card-back .action-btn {
 			transition-delay: 0s;
