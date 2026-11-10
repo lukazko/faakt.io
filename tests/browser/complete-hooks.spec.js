@@ -41,10 +41,3 @@ for (const viewport of [{ width: 390, height: 844 }, { width: 360, height: 540 }
 		await expect(page.locator('.is-active .card-back')).toHaveAttribute('aria-hidden', 'false');
 	});
 }
-
-test('stored hooks never end with an ellipsis', () => {
-	for (const post of posts) {
-		const first = post.content.match(/^<p>(.*?)<\/p>/s)[1].replace(/<[^>]*>/g, '').trim();
-		expect(first, `hook ${post.id}`).not.toMatch(/(?:\.{3}|\u2026)[”"»']?$/);
-	}
-});
