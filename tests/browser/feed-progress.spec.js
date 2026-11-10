@@ -8,16 +8,16 @@ test('progress reaches 100% on load more and updates for the next batch', async 
 	await page.goto('./?order=id');
 	const progress = page.locator('.progress-bar');
 	await expect(page.locator('.card-front')).toHaveCount(20);
-	await expect(progress).toHaveAttribute('style', 'width: 0%');
+	await expect.poll(() => progress.evaluate(el => el.style.width)).toBe('0%');
 	await page.locator('.feed-container').evaluate(el => {
 		el.style.scrollBehavior = 'auto';
 		el.scrollTop = el.scrollHeight;
 	});
-	await expect(progress).toHaveAttribute('style', 'width: 100%');
+	await expect.poll(() => progress.evaluate(el => el.style.width)).toBe('100%');
 	await expect(page.locator('.dev-post-badge')).toContainText('konec');
 	await page.getByRole('button', { name: 'Nee, dej mi víc!' }).click();
 	await expect(page.locator('.card-front')).toHaveCount(40);
-	await expect(progress).toHaveAttribute('style', 'width: 50%');
+	await expect.poll(() => progress.evaluate(el => el.style.width)).toBe('50%');
 	await page.locator('.feed-container').evaluate(el => { el.scrollTop = 0; });
-	await expect(progress).toHaveAttribute('style', 'width: 0%');
+	await expect.poll(() => progress.evaluate(el => el.style.width)).toBe('0%');
 });
