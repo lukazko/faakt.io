@@ -75,15 +75,17 @@ Význam článku popisují čtyři logické atributy `idea`, `point`, `tags`, `t
 Před generováním spusť `python scripts/post-knowledge.py status`, přečti celý kompaktní katalog přes stránkovaný `catalog` a vyhledej související texty přes `search`. Celé články znovu čti jen u neověřených, změněných a blízkých případů; platný významový index nahrazuje opakované úplné čtení nezměněné databáze. Automatické hledání nenahrazuje sémantický verdikt. Nové pracovní návrhy obsahují navíc `knowledge`; nástroj `append` je po doložené kontrole rozdělí do článků a samostatných registrů. Používej řízené tagy, ne slova získaná pouze z ilustračního motivu.
 
 ## Kategorie
-`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`
+`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `spolecnost`, `fyzika`, `chemie`, `vesmir`, `ekonomie`, `psychologie`, `kinematografie`, `matematika`, `technologie`, `sport`
 
-Zobrazované názvy: `politika` = **Společnost a politika**, `fyzika` = **Fyzika a chemie**, `pocitacove-vedy` = **Technologie**, `filmy` = **Kinematografie**. Původní slugy přejmenovaných kategorií zůstávají kvůli kompatibilitě odkazů. Platné kategorie určuje výhradně `src/lib/categories.js`; neznámý kategoriový filtr otevře smíšený feed.
+Zobrazované názvy: `spolecnost` = **Společnost**, `fyzika` = **Fyzika**, `chemie` = **Chemie**, `vesmir` = **Vesmír**, `technologie` = **Technologie**, `kinematografie` = **Kinematografie**. Společnost používá slug `spolecnost` bez aliasu pro staré URL. Vesmír používá slug `vesmir` bez aliasu `astronomie`. Slugy odpovídají aktuálním názvům bez diakritiky; při přejmenování se staré slugy ani aliasy neudržují. Platné kategorie určuje výhradně `src/lib/categories.js`; neznámý kategoriový filtr otevře smíšený feed.
 
-Zařazuj podle hlavního obsahu celého článku. Biologie zahrnuje organismy, genetiku, evoluci, fyziologii i nemoci, léčbu, prevenci, zdravotní výzkum a životosprávu. Fyzika a chemie zahrnuje neživou přírodu, chemické reakce, materiály i geofyzikální procesy. Technologie zahrnují informatiku, technické vynálezy a jejich fungování. Společnost a politika zahrnuje společenské normy, instituce, právo a vládnutí. Jazyk a znaky zůstávají podoborem Filozofie; literární a psychologické teorie již zařazené ve Filozofii se při této změně nepřesouvaly. Přesahy zachycují existující tagy, ne další kategorie.
+Zařazuj podle hlavního obsahu celého článku. Biologie zahrnuje organismy, genetiku, evoluci, fyziologii i nemoci, léčbu, prevenci, zdravotní výzkum a životosprávu. Fyzika zahrnuje fyzikální zákony, skupenství, záření, jaderné a geofyzikální procesy. Chemie zahrnuje chemické prvky, složení látek, reakce a separace. Vesmír zahrnuje astronomii a kosmický výzkum. Technologie zahrnují informatiku, technické vynálezy a jejich fungování. Společnost zahrnuje společenské normy, instituce, právo a vládnutí. Jazyk a znaky zůstávají podoborem Filozofie; literární a psychologické teorie již zařazené ve Filozofii se při této změně nepřesouvaly. Přesahy zachycují existující tagy, ne další kategorie.
 
 Barvy v `:root` CSS proměnných: `--cat-{kategorie}`.
 
 ## Klíčová pravidla pro obsah
+
+Hook se vždy zobrazuje celý a nesmí končit výpustkou (`…` ani `...`) kvůli zkrácení. Na líci nepoužívej pro hook `line-clamp`, ani v pravidlech pro nízký viewport. Pokud obsah přesáhne dostupnou výšku, úvodní plocha umožní posun a dočtení celých vět; spodní akce zůstávají mimo ni.
 1. **100% reálná fakta** — žádné AI výmysly, fabulace nebo přibližné informace
 2. **Každý příspěvek musí mít 2-3 zdroje** s reálnými URL
 3. **Žádné smyšlené citáty**, přibližné letopočty nebo „lidé říkají“
@@ -224,3 +226,6 @@ Doporučený postup:
 - For creating new posts, use [skills/faakt-create-posts/SKILL.md](skills/faakt-create-posts/SKILL.md). Read the full current posts database and reject any central idea already covered; title-only checks are insufficient. This provider-independent skill specifies current content structure, categories and illustration metadata together with the editorial handoff.
 <!-- Explicitní výjimka pro uživatelem zadané doplnění číselné mezery. -->
 Pokud uživatel výslovně požádá vyplnit chybějící ID, má tento požadavek přednost před výchozím pokračováním nad maximem. Ověř aktuální volná ID a použij je vzestupně; příkazy `check-plan`, `check-drafts` a `append` v `scripts/post-knowledge.py` v takovém případě vyžadují výslovné `--fill-gaps`. Režim neumožňuje přepsat existující ID ani přeskočit první volné ID. Bez této volby zůstává dosavadní pravidlo maxima + 1. Obsahové kontroly, zdroje a redakční schválení platí beze změny.
+
+
+Kategorie `sport` (Sport) zahrnuje dějiny sportu, soutěže, pravidla, sportovní kuriozity a teorie výkonu či strategie. Zdravotní účinky pohybu a životospráva zůstávají v Biologii. Tematické zadání dávky má přednost před obecným doporučením pokrýt všechny kategorie.

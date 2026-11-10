@@ -52,6 +52,34 @@
 	let manualHint = $state(false);
 	let hintRequest = 0;
 	let cardStageEl;
+	let heldPointer = null;
+	let pressStarted = 0;
+	let suppressHoldClick = false;
+	let pressX = 0;
+	let pressY = 0;
+
+	async function releaseCardPress(event) {
+		if (event.pointerId !== heldPointer) return;
+		const stage = cardStageEl;
+		const transform = manualHint && stage ? getComputedStyle(stage).transform : null;
+		suppressHoldClick = event.type !== 'pointerup' || performance.now() - pressStarted >= 350;
+		heldPointer = null;
+		++hintRequest;
+		if (manualHint) flipHint = false;
+		manualHint = false;
+		if (transform) {
+			stage.style.transform = transform;
+			await tick();
+			void stage.offsetWidth;
+			stage.style.removeProperty('transform');
+		}
+	}
+
+	function moveCardPress(event) {
+		if (event.pointerId === heldPointer && Math.hypot(event.clientX - pressX, event.clientY - pressY) > 12) {
+			releaseCardPress(event);
+		}
+	}
 
 	async function replayFlipHint() {
 		const request = ++hintRequest;
@@ -72,6 +100,7 @@
 			return;
 		}
 		const showHint = () => {
+			if (heldPointer !== null) return;
 			manualHint = false;
 			flipHint = shouldShowFlipHint()
 				&& !window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -107,13 +136,14 @@
 		// pokračovat ve čtení a skrytý líc nezůstane zaměřený.
 		await tick();
 		if (previewTransform) cardStageEl.style.removeProperty('transform');
-		// Na rubu není žádné tlačítko — fokus dostane scrollovací plocha,
+		// Fokus dostane scrollovací plocha,
 		// aby se klávesnicí dalo rovnou číst a Escape vrátil kartu zpět.
 		backScrollEl?.focus({ preventScroll: true });
 	}
 
 	async function flipToFront() {
 		if (!flipped) return;
+		onCloseActions?.();
 		flipped = false;
 		await tick();
 		frontBtnEl?.focus({ preventScroll: true });
@@ -131,16 +161,25 @@
 		}
 	}
 
-	// Stisk na líci přehraje náznak, kliknutí i klepnutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
+	// Dlouhý stisk drží náklon a po puštění se vrátí; krátké klepnutí kartu otočí. Ovládací prvky (tlačítka, odkazy)
 	// si klik řeší samy, stejně jako dokončený výběr textu.
 	function handleCardPointerDown(event) {
 		if (!event.isPrimary || event.button !== 0 || actionsOpen || flipped) return;
 		if (!(event.target instanceof Element)) return;
 		if (event.target.closest('a, button, input, textarea, select, label, summary')) return;
+		heldPointer = event.pointerId;
+		pressStarted = performance.now();
+		pressX = event.clientX;
+		pressY = event.clientY;
+		suppressHoldClick = false;
 		replayFlipHint();
 	}
 
 	function handleCardClick(event) {
+		if (suppressHoldClick) {
+			suppressHoldClick = false;
+			return;
+		}
 		const target = event.target;
 		if (!(target instanceof Element)) return;
 		if (target.closest('a, button, input, textarea, select, label, summary')) return;
@@ -159,6 +198,10 @@
 		else flipToBack();
 	}
 </script>
+
+<svelte:window onpointerup={releaseCardPress} onpointercancel={releaseCardPress} onpointermove={moveCardPress} onblur={() => {
+	if (heldPointer !== null) releaseCardPress({ pointerId: heldPointer, type: 'blur' });
+}} />
 
 <!-- More options in the category row on each side of the card. -->
 {#snippet actionControls(side)}
@@ -206,6 +249,22 @@
 {#snippet shareControl(side)}
 	{@const gradientId = `share-gradient-${post.id}-${side}`}
 	<button class="action-btn share-btn" type="button" aria-label="Sdílet" onclick={() => { onShare?.(post); onCloseActions?.(); }}>
+		{#if side === 'front'}
+			<svg class="lucide lucide-share-2" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="url(#{gradientId})" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+				<defs>
+					<linearGradient id={gradientId} x1="0%" y1="0%" x2="100%" y2="100%">
+						<stop offset="0%" style="stop-color: var(--share-start, var(--accent))" />
+						<stop offset="100%" style="stop-color: var(--share-end, var(--accent-secondary))" />
+					</linearGradient>
+				</defs>
+				<circle cx="18" cy="5" r="3" />
+				<circle cx="6" cy="12" r="3" />
+				<circle cx="18" cy="19" r="3" />
+				<line x1="8.59" x2="15.42" y1="13.51" y2="17.49" />
+				<line x1="15.41" x2="8.59" y1="6.51" y2="10.49" />
+			</svg>
+			<span>Sdílet</span>
+		{:else}
 		<svg class="share-ring" width="42" height="42" viewBox="0 0 42 42" fill="none" aria-hidden="true">
 			<circle cx="21" cy="21" r="19.5" stroke="currentColor" stroke-width="1" />
 		</svg>
@@ -218,6 +277,7 @@
 			</defs>
 			<path d="M14 3v5C6.5 8 3 12.5 2 20c2.5-4.5 6-6 12-6v5l8-8-8-8Z" />
 		</svg>
+		{/if}
 	</button>
 {/snippet}
 
@@ -232,7 +292,7 @@
 	onkeydown={handleKeydown}
 	onclick={handleCardClick}
 >
-	<div class="card-stage" bind:this={cardStageEl} onanimationend={() => { flipHint = false; }}>
+	<div class="card-stage" bind:this={cardStageEl} onanimationend={() => { if (!manualHint) flipHint = false; }}>
 		<!-- LÍC -->
 		<section
 			id={frontId}
@@ -243,7 +303,7 @@
 		>
 			<CardGlow {post} />
 			<div class="front-inner">
-				<div class="front-main">
+				<div class="front-main" role="region" aria-label={`Úvod: ${post.title}`} tabindex="0">
 					<div class="front-top">
 						<CategoryBadge
 							category={post.category}
@@ -264,6 +324,7 @@
 				</div>
 
 				<div class="front-footer">
+					{@render shareControl('front')}
 					<button
 						bind:this={frontBtnEl}
 						type="button"
@@ -273,17 +334,23 @@
 						aria-label={`Otevřít celý text: ${post.title}`}
 						onclick={flipToBack}
 					>
-						<svg class="flip-icon" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-							<path d="m15.194 13.707 3.814 1.86-1.86 3.814" />
-							<path d="M16.47214 7.52786 A 5 10 0 1 0 13 21.79796" />
-							<path d="M21.79796 11 A 10 5 0 1 0 19 15.57071" />
+						<svg class="front-flip-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="url(#flip-gradient-{post.id})" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+							<defs>
+								<linearGradient id={`flip-gradient-${post.id}`} x1="0%" y1="0%" x2="100%" y2="100%">
+									<stop offset="0%" style="stop-color: var(--accent)" />
+									<stop offset="100%" style="stop-color: var(--accent-secondary)" />
+								</linearGradient>
+							</defs>
+							<path d="M3 12a9 9 0 0 1 15.36-6.36L21 8" />
+							<path d="M21 3v5h-5" />
+							<path d="M21 12a9 9 0 0 1-15.36 6.36L3 16" />
+							<path d="M8 16H3v5" />
 						</svg>
 						<span class="flip-btn-text">Otočit a číst</span>
 					</button>
 				</div>
 			</div>
 
-			{@render shareControl('front')}
 		</section>
 
 		<!-- RUB -->
@@ -312,7 +379,6 @@
 				</div>
 			</div>
 
-			{@render shareControl('back')}
 		</section>
 	</div>
 
@@ -337,6 +403,7 @@
 		--flip-duration: 0.42s;
 		--card-action-inset: clamp(18px, 5vw, 30px);
 		--card-meta-top: var(--card-action-inset);
+		--card-footer-bottom: calc(var(--card-action-inset) - 10px);
 		-webkit-perspective: 1600px;
 	}
 
@@ -403,6 +470,44 @@
 		height: 42px;
 		appearance: none;
 		border: none;
+	}
+
+	.card-front .share-btn {
+		--share-start: var(--text-muted);
+		--share-end: var(--text-muted);
+		color: var(--text-muted);
+		position: static;
+		left: var(--card-action-inset);
+		right: auto;
+		width: auto;
+		min-height: 44px;
+		gap: 8px;
+		padding: 0;
+		border-radius: 0;
+		background: transparent;
+		font: inherit;
+		font-size: 14px;
+		font-weight: 500;
+	}
+
+	.card-front .share-btn span {
+		background: linear-gradient(135deg, var(--share-start), var(--share-end));
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+	}
+
+	.card-front .share-btn:active,
+	.card-front .share-btn:focus-visible {
+		--share-start: var(--text);
+		--share-end: var(--text);
+	}
+
+	@media (hover: hover) {
+		.card-front .share-btn:hover {
+			--share-start: var(--text);
+			--share-end: var(--text);
+		}
 	}
 
 	.share-ring {
@@ -518,8 +623,12 @@
 	}
 
 	.post-card.flip-hint.manual-hint:not(.flipped) .card-stage {
-		--flip-preview-angle: 40deg;
-		animation-delay: 0s;
+		animation: hold-preview 0.3s ease-out forwards;
+	}
+
+	@keyframes hold-preview {
+		from { transform: rotateY(0deg); }
+		to { transform: rotateY(30deg); }
 	}
 
 	@keyframes flip-preview {
@@ -548,10 +657,14 @@
 		transform: rotateY(180deg);
 	}
 
-	/* Skrytá strana nesmí chytat tapnutí ani myš */
+	/* Mobile compositors can briefly repaint the back-facing surface when
+	   the transform transition finishes. Hide it explicitly once it turns
+	   away, and reveal the incoming face immediately on a reverse flip. */
 	.post-card.flipped .card-front,
 	.post-card:not(.flipped) .card-back {
 		pointer-events: none;
+		visibility: hidden;
+		transition: visibility 0s linear calc(var(--flip-duration) * 0.16);
 	}
 
 	/* --- Líc --- */
@@ -559,12 +672,11 @@
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		gap: 14px;
+		gap: 12px;
 		height: 100%;
 		min-height: 0;
-		/* Spodní odsazení je stejné jako odsazení tlačítka sdílení, aby
-		   obě tlačítka seděla na stejné lince. */
-		padding: var(--card-meta-top) var(--card-action-inset) var(--card-action-inset);
+		/* Společný footer drží obě akce na stejné lince. */
+		padding: var(--card-meta-top) var(--card-action-inset) var(--card-footer-bottom);
 	}
 
 	.front-top {
@@ -574,12 +686,16 @@
 		min-height: 26px;
 	}
 
-	/* Hook i titulek jsou omezené počtem řádků — dlouhý text nikdy
-	   neroztáhne kartu ani nepřekryje CTA. */
+	/* Celý hook zůstává dostupný i při velkém písmu nebo nízkém okně.
+	   Případný přesah scrolluje uvnitř líce, CTA zůstává mimo něj. */
 	.front-main {
 		flex: 1 1 auto;
 		min-height: 0;
-		overflow: visible;
+		overflow-x: hidden;
+		overflow-y: auto;
+		touch-action: pan-y;
+		overscroll-behavior-y: auto;
+		scrollbar-width: thin;
 		display: flex;
 		flex-direction: column;
 		/* Titulek s hookem sedí v horní části karty, ne uprostřed */
@@ -597,9 +713,7 @@
 		line-clamp: 3;
 		-webkit-box-orient: vertical;
 		overflow: hidden;
-		/* Text se nikdy nesmršťuje — jinak by ho při dlouhém hooku
-		   ukrojila flexová kolize s ilustrací. Veškeré smrštění řeší
-		   až .front-art, který jako jediný smí na výšku ustoupit. */
+		/* Text se nikdy nesmršťuje uvnitř scrollovací plochy. */
 		flex: 0 0 auto;
 	}
 
@@ -607,20 +721,14 @@
 		font-size: 0.95rem;
 		line-height: 1.68;
 		color: var(--text-muted);
-		display: -webkit-box;
-		-webkit-line-clamp: 6;
-		line-clamp: 6;
-		-webkit-box-orient: vertical;
-		overflow: hidden;
-		/* Stejně jako titulek: hook dostane celou svou výšku a nikdy
-		   nezmizí pod ilustrací. */
+		/* Hook vždy končí celou větou, bez ořezání a výpustky. */
 		flex: 0 0 auto;
 	}
 
 	/* Illustration sits between title and hook; spare space stays below the hook. */
 	.front-art {
 		position: relative;
-		flex: 0 1 auto;
+		flex: 0 0 auto;
 		margin-top: 12px;
 		width: 100%;
 		aspect-ratio: 640 / var(--art-height, 360);
@@ -633,22 +741,30 @@
 
 	.front-footer {
 		flex: none;
+		min-height: 44px;
 		display: flex;
 		align-items: center;
+		justify-content: space-between;
+		gap: 16px;
 	}
 
-	/* CTA zůstává textový odkaz, ne pill — drží vizuální jazyk feedu */
+	.front-footer .flip-btn {
+		position: static;
+	}
+
+	/* Primární akce: obrysová ikona a text bez pozadí. */
 	.flip-btn {
+		position: relative;
 		display: inline-flex;
 		outline: none;
 		align-items: center;
-		gap: 6px;
-		/* Stejná výška jako kruhové tlačítko akcí — středy obou tlačítek
-		   tak leží v jedné ose. */
-		min-height: 42px;
-		padding: 8px 0;
+		gap: 8px;
+		/* Společná výška a spodní odsazení se Sdílet zarovnají středy. */
+		min-height: 44px;
+		padding: 0;
 		border: none;
 		background: none;
+		color: var(--accent);
 		font-family: inherit;
 		font-size: 0.95rem;
 		font-weight: 600;
@@ -657,31 +773,21 @@
 	}
 
 	.flip-btn-text {
-		font-size: 1.12rem;
+		font-size: 15px;
+		font-weight: 650;
+		color: inherit;
 		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
 		-webkit-background-clip: text;
 		background-clip: text;
 		-webkit-text-fill-color: transparent;
-		color: var(--accent-secondary);
 		line-height: 1.3;
 		text-decoration: none;
 	}
 
-	.flip-icon {
+	.front-flip-icon {
 		flex: none;
-		stroke-width: 2.2;
-		width: 1em;
-		height: 1em;
-		position: relative;
-		top: 1px;
-		color: var(--accent);
-		opacity: 0.8;
-		transition: transform 0.3s;
 	}
 
-	.flip-btn:hover .flip-icon {
-		transform: rotateY(180deg);
-	}
 
 	/* --- Rub --- */
 	/* Rub scrolluje sám; po dojetí na konec textu se gesto přelije do feedu
@@ -722,21 +828,23 @@
 		color: var(--text);
 	}
 
-	/* Nízký viewport (např. mobil na šířku) — méně řádků, aby zůstalo
-	   vidět CTA a karta nepůsobila přeplácaně */
+	/* Na mobilu ponecháme ovládání více prostoru od hran karty. */
+	@media (max-width: 600px) {
+		.post-card {
+			--card-meta-top: 28px;
+			--card-footer-bottom: 20px;
+		}
+	}
+
+	/* Nízký viewport — kompaktnější mezery a titulek; hook zůstává celý. */
 	@media (max-height: 560px) {
 		.front-inner {
-			gap: 10px;
+			gap: 8px;
 		}
 
 		.title {
 			-webkit-line-clamp: 2;
 			line-clamp: 2;
-		}
-
-		.teaser {
-			-webkit-line-clamp: 3;
-			line-clamp: 3;
 		}
 
 	}
@@ -752,13 +860,11 @@
 		}
 
 		/* Bez animace není co otáčet — tlačítko odvrácené strany zmizí hned */
+		.post-card.flipped .card-front,
+		.post-card:not(.flipped) .card-back,
 		.post-card.flipped .card-front .action-btn,
 		.post-card:not(.flipped) .card-back .action-btn {
 			transition-delay: 0s;
-		}
-
-		.flip-btn:hover .flip-icon {
-			transform: none;
 		}
 	}
 </style>

@@ -36,17 +36,17 @@ Pracovní nový objekt obsahuje vedle článku `knowledge` se čtyřmi poli:
 
 Všechna faktická tvrzení musí být pravdivá a ověřitelná. Každý příspěvek musí mít 2 až 3 konkrétní, důvěryhodné zdroje, jejichž obsah tvrzení skutečně podporuje. Odkazy ověř; nevymýšlej názvy publikací, URL, citace ani bibliografické údaje. Upřednostňuj primární zdroje, odborné instituce a uznávané encyklopedie. Pokud tvrzení nelze spolehlivě ověřit, nepoužívej ho.
 
-Při generování napříč kategoriemi pokrývej všech 13 kategorií a témata vyvažuj. Přibližně 30 % dávky mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí; zbývající část rozlož napříč ostatními kategoriemi podle seznamu níže. Neopakuj téma ani úhel pohledu. Pokud je zadána jediná kategorie, všechny příspěvky musí patřit do ní.
+Při generování napříč kategoriemi pokrývej všech 15 kategorií a témata vyvažuj. Přibližně 30 % dávky mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí; zbývající část rozlož napříč ostatními kategoriemi podle seznamu níže. Neopakuj téma ani úhel pohledu. Pokud je zadána jediná kategorie, všechny příspěvky musí patřit do ní.
 
 Povolené hodnoty `category`:
 
-`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `politika`, `fyzika`, `astronomie`, `ekonomie`, `psychologie`, `filmy`, `matematika`, `pocitacove-vedy`.
+`historie`, `filozofie`, `biologie`, `umeni`, `literatura`, `spolecnost`, `fyzika`, `chemie`, `vesmir`, `ekonomie`, `psychologie`, `kinematografie`, `matematika`, `technologie`, `sport`.
 
-Zobrazované názvy a hranice: `politika` = Společnost a politika (společenské normy, instituce, právo, vládnutí); `fyzika` = Fyzika a chemie (neživá příroda včetně chemie a geofyziky); `pocitacove-vedy` = Technologie (informatika a technické vynálezy). Biologie zahrnuje organismy, genetiku, evoluci, fyziologii i nemoci, léčbu, prevenci a životosprávu. Jazyk a znaky jsou podoborem Filozofie. Rozhoduje hlavní obsah a pointa, přesahy se zapisují do řízených tagů. Platné slugy určuje `src/lib/categories.js`.
+Zobrazované názvy a hranice: `spolecnost` = Společnost (společenské normy, instituce, právo, vládnutí); `fyzika` = Fyzika (fyzikální a geofyzikální procesy); `chemie` = Chemie (prvky, složení látek, reakce a separace); `vesmir` = Vesmír (astronomie a kosmický výzkum); `technologie` = Technologie (informatika a technické vynálezy). Biologie zahrnuje organismy, genetiku, evoluci, fyziologii i nemoci, léčbu, prevenci a životosprávu. Jazyk a znaky jsou podoborem Filozofie. Rozhoduje hlavní obsah a pointa, přesahy se zapisují do řízených tagů. Platné slugy určuje `src/lib/categories.js`.
 
 ## Ilustrační metadata
 
-Kategorie `filmy` se zobrazuje jako **Kinematografie**; slug zůstává zachován pro existující odkazy.
+Kategorie `kinematografie` se zobrazuje jako **Kinematografie**. Slugy odpovídají aktuálním názvům; staré slugy ani aliasy se neudržují.
 
 Každý nový příspěvek musí obsahovat objekt `illustration`. Po přečtení titulku i celého obsahu vyber jeden rozpoznatelný aspekt: objekt, osobu, jednoduchý děj nebo stručnou metaforu. Ilustrace doprovází text; nemusí vysvětlit mechanismus, rekonstruovat experiment ani shrnout celou pointu. Jedoucí sanitka stačí k Dopplerovu jevu, kniha se zákazem k zakázanému románu a pulsar s paprskem k pravidelným pulzům. Metadata nejsou seznam všech souvisejících objektů. `secondary_subjects` může zůstat prázdné; doplňky přidávej jen pro lepší rozpoznání vybraného motivu. Zachovej faktickou identitu a čitelnost při 160×90 px, nepřidávej dekorace kvůli rozmanitosti.
 
@@ -104,7 +104,7 @@ Použij pouze tyto hodnoty:
 - Pouze při výslovném zadání JSON výstupu vrať jeden validní JSON seznam nových příspěvků bez Markdownových bloků a komentářů. Takto lze použít zadání i u externího agenta, který připravuje pouze návrhy pro následný import.
 - Každý objekt musí mít přesně použitá pole a datové typy z uvedeného příkladu. Zachovej všechna pole; vynechaný zdroj nebo ilustrační metadata nejsou přijatelné.
 - Před odevzdáním zkontroluj validitu JSON, navazující jedinečná ID, délku a jazyk textu, 2 až 3 zdroje, kategorii a všechny hodnoty enumů.
-- Samostatně ověř, že první odstavec (hook) obsahuje 2 až 3 smysluplné věty a není prodloužený výplní.
+- Samostatně ověř, že první odstavec (hook) obsahuje 2 až 3 smysluplné věty a není prodloužený výplní. Hook nesmí končit výpustkou (`…` ani `...`) místo dokončené věty; i na nízké kartě musí být dostupný celý.
 - Zkontroluj, že ilustrace vychází z konkrétního příspěvku, že hlavní a doplňkové motivy dávají smysl společně a že se kompozice v rámci dávky zbytečně neopakují.
 - `concept`, `scene_type` a `composition_hints` popisují stejný vybraný aspekt. Relevantní objekt je dostačující i u argumentu, paradoxu nebo mechanismu; není potřeba zobrazit celý vztah či důkaz. Klíčová slova nesmějí zbytečně rozšiřovat inventář obrázku.
 - Dodané existující příspěvky nikdy nepřepisuj, nemaž ani neupravuj. Připoj nebo exportuj pouze nové záznamy podle zadaného rozsahu.
@@ -116,3 +116,6 @@ Při změně datové struktury příspěvku, pravidel generování nebo redakčn
 Ilustrace musí mít rozpoznatelný hlavní motiv na první pohled. Vol podle kontextu: objekt, portrét, jednoduchý děj nebo vědecký vztah či kontrast čitelný na první pohled. Pokud by bylo potřeba mnoho samostatných předmětů, několik kroků nebo šipkový řetězec pro rozluštění vztahů, vyber jeden rozpoznatelný aspekt. Jedna užitečná šipka sama o sobě není problém. Drobné značky, grafy, přístroje a pozorovatele nepřidávej pro úplnost. Stručný známý symbol, například značka zákazu, je vhodný doplněk.
 <!-- Explicitní výjimka pro uživatelem zadané doplnění číselné mezery. -->
 Pokud uživatel výslovně požádá vyplnit chybějící ID, má tento požadavek přednost před výchozím pokračováním nad maximem. Ověř aktuální volná ID a použij je vzestupně; příkazy `check-plan`, `check-drafts` a `append` v `scripts/post-knowledge.py` v takovém případě vyžadují výslovné `--fill-gaps`. Režim neumožňuje přepsat existující ID ani přeskočit první volné ID. Bez této volby zůstává dosavadní pravidlo maxima + 1. Obsahové kontroly, zdroje a redakční schválení platí beze změny.
+
+
+Kategorie `sport` (Sport) zahrnuje dějiny sportu, soutěže, pravidla, sportovní kuriozity a teorie výkonu či strategie. Zdravotní účinky pohybu a životospráva zůstávají v Biologii. Tematické zadání dávky má přednost před obecným doporučením pokrýt všechny kategorie.

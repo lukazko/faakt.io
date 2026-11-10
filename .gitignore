@@ -8,3 +8,15 @@ build/
 test-results/
 playwright-report/
 __pycache__/
+
+# Local builds, previews and scratch work
+/.local-preview/
+/build-*/
+/build_*/
+/tmp/
+/tmp-*.json
+/.venv/
+/Microsoft/
+*.log
+.env.*
+!.env.example

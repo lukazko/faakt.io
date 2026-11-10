@@ -13,7 +13,7 @@ test.beforeEach(async ({ page }, testInfo) => {
 	await page.addInitScript(() => {
 		window.flipHintStarts = 0;
 		document.addEventListener('animationstart', event => {
-			if (event.animationName.endsWith('flip-preview')) window.flipHintStarts++;
+			if (/flip-preview|hold-preview/.test(event.animationName)) window.flipHintStarts++;
 		});
 		window.actionCalls = [];
 		window.shareError = null;
@@ -87,6 +87,31 @@ async function flip(page) {
 	});
 }
 
+for (const reducedMotion of ['no-preference', 'reduce']) {
+	test(`outgoing face stays hidden after repeated flips (${reducedMotion})`, async ({ page }) => {
+		await page.emulateMedia({ reducedMotion });
+		const card = page.locator('.is-active');
+		for (let repeat = 0; repeat < 3; repeat++) {
+			await flip(page);
+			await expect(card.locator('.card-front')).toBeHidden();
+			await expect(card.locator('.card-back')).toBeVisible();
+			// Sample frames after layer compositing settles, when the reported flash occurs.
+			const hiddenFrames = await card.locator('.card-front').evaluate(async face => {
+				const frames = [];
+				for (let i = 0; i < 12; i++) {
+					await new Promise(requestAnimationFrame);
+					frames.push(getComputedStyle(face).visibility);
+				}
+				return frames;
+			});
+			expect(hiddenFrames.every(value => value === 'hidden')).toBe(true);
+			await card.locator('.back-scroll').press('Escape');
+			await expect(card.locator('.card-front')).toBeVisible();
+			await expect(card.locator('.card-back')).toBeHidden();
+		}
+	});
+}
+
 test('flip hint repeats every seven seconds on each active card until a real flip', async ({ page }) => {
 	const stage = page.locator('.is-active .card-stage');
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(1);
@@ -155,6 +180,12 @@ test('touch press starts a flip hint before release', async ({ page }) => {
 	});
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
 	await expect(card).not.toHaveClass(/flipped/);
+	await page.waitForTimeout(1400);
+	await expect(card).toHaveClass(/manual-hint/);
+	await card.dispatchEvent('pointerup', { pointerType: 'touch', pointerId: 1, isPrimary: true, button: 0 });
+	await card.locator('.card-front h1, .card-front h2').first().dispatchEvent('click');
+	await expect(card).not.toHaveClass(/flipped/);
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'none');
 });
 
 test('mouse press replays flip hint before releasing the card', async ({ page }) => {
@@ -171,9 +202,12 @@ test('mouse press replays flip hint before releasing the card', async ({ page })
 	await page.mouse.down();
 	await expect.poll(() => page.evaluate(() => window.flipHintStarts)).toBe(starts + 1);
 	await expect(card).not.toHaveClass(/flipped/);
-	await expect(card).not.toHaveClass(/flip-hint/);
+	await page.waitForTimeout(1400);
+	await expect(card).toHaveClass(/flip-hint/);
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'matrix3d(0.866025, 0, -0.5, 0, 0, 1, 0, 0, 0.5, 0, 0.866025, 0, 0, 0, 0, 1)');
 	await page.mouse.up();
-	await expect(card).toHaveClass(/flipped/);
+	await expect(card).not.toHaveClass(/flipped/);
+	await expect(card.locator('.card-stage')).toHaveCSS('transform', 'none');
 });
 
 test('quick mouse click transitions from the flip hint to the back', async ({ page }) => {
@@ -227,12 +261,19 @@ for (const side of ['front', 'back']) {
 				// deterministický ekvivalent reprodukuje překryv nad celým feedem.
 				await page.addStyleTag({ content: '.feed-container { isolation: isolate; }' });
 			}
-			if (side === 'back') await flip(page);
+			if (side === 'back') {
+				await flip(page);
+				await expect(page.getByRole('button', { name: 'Sdílet', exact: true })).toHaveCount(0);
+				await activate(page.getByRole('button', { name: 'Otočit na přední stranu', exact: true }), page);
+				await expect(page.locator('.is-active .card-front')).toHaveAttribute('aria-hidden', 'false');
+				await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([]);
+			}
 			await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
 			await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([
 				{ type: 'share', data: { url: 'http://127.0.0.1:4175/faakt.io/?post=1', title: posts.find(post => post.id === '1').title } }
 			]);
 			await expect(page.getByRole('menu')).toHaveCount(0);
+			if (side === 'back') await flip(page);
 			await openMenu(page);
 			const popupPromise = page.waitForEvent('popup');
 			await activate(page.getByRole('menuitem', { name: 'Nahlásit problém' }), page);

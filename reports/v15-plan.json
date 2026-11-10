@@ -1,0 +1,602 @@
+{
+  "snapshot": "63d20eae87d070199b90a49a947cb723a5ca0aa696678d4c2a9d6e9d97125528",
+  "catalog_reviewed": "63d20eae87d070199b90a49a947cb723a5ca0aa696678d4c2a9d6e9d97125528",
+  "proposals": [
+    {
+      "id": "353",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Aristotelův argument funkce odvozuje lidské dobro od rozumové činnosti vykonávané dobře, nikoli od pouhého pocitu spokojenosti.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "aristotle"
+        ],
+        "type": "theory",
+        "idea": "idea-353"
+      },
+      "compared_ids": [
+        "17",
+        "671"
+      ],
+      "reason": "17 vysvětluje střed mezi extrémy, 671 druhy příčin; nový text rekonstruuje argument funkce pro určení lidského dobra.",
+      "verdict": "accept"
+    },
+    {
+      "id": "354",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Aristotelův princip sporu vylučuje připsat i upřít tutéž vlastnost témuž předmětu současně a v témže ohledu.",
+        "tags": [
+          "ancient-philosophy",
+          "logic",
+          "aristotle"
+        ],
+        "type": "theory",
+        "idea": "idea-354"
+      },
+      "compared_ids": [
+        "263",
+        "719"
+      ],
+      "reason": "263 řeší odvození sylogismu, 719 budoucí pravdivost; zde jde o přesné podmínky nemožnosti rozporu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "355",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Stoická oikeiósis rozšiřuje přirozenou péči o sebe směrem k druhým a Hieroklovy kruhy ji vztahují až k celému lidstvu.",
+        "tags": [
+          "stoicism",
+          "ethics",
+          "cooperation"
+        ],
+        "type": "theory",
+        "idea": "idea-355"
+      },
+      "compared_ids": [
+        "86",
+        "170"
+      ],
+      "reason": "86 řeší ovládání úsudku, 170 nestrannost jako požadavek; nový text vysvětluje stoické rozšiřování okruhu příslušnosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "356",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Humův problém indukce ukazuje, že budoucí podobnost přírody s minulostí nelze nekruhově dokázat poukazem na dosavadní úspěch zkušenosti.",
+        "tags": [
+          "epistemology",
+          "modern-philosophy",
+          "uncertainty"
+        ],
+        "type": "theory",
+        "idea": "idea-356"
+      },
+      "compared_ids": [
+        "775",
+        "187"
+      ],
+      "reason": "775 zpochybňuje nutnou kauzální vazbu; zde je samostatným problémem kruhové zdůvodnění přenosu zkušenosti do budoucnosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "357",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Kant vysvětluje možnost zkušenosti tím, že mysl přispívá formami prostoru a času i kategoriemi, aniž tím poznává věci samy o sobě.",
+        "tags": [
+          "epistemology",
+          "modern-philosophy",
+          "perceived-reality"
+        ],
+        "type": "theory",
+        "idea": "idea-357"
+      },
+      "compared_ids": [
+        "145",
+        "185"
+      ],
+      "reason": "145 popisuje původ idejí ze zkušenosti, 185 morální test; zde jde o apriorní podmínky možnosti zkušenosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "358",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Rousseau odlišuje obecnou vůli zaměřenou na společný zájem od součtu soukromých přání a nepokládá každé hlasování za její jistý výraz.",
+        "tags": [
+          "political-philosophy",
+          "democracy",
+          "fairness"
+        ],
+        "type": "theory",
+        "idea": "idea-358"
+      },
+      "compared_ids": [
+        "702",
+        "287"
+      ],
+      "reason": "702 omezuje frakce velikostí republiky, 287 rozdělením pravomocí; zde jde o rozdíl společného a soukromého zájmu v legitimitě zákona.",
+      "verdict": "accept"
+    },
+    {
+      "id": "359",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Wollstonecraftová vysvětluje domnělou ženskou rozumovou méněcennost výchovou k závislosti a požaduje vzdělání pro samostatné mravní jednání.",
+        "tags": [
+          "ethics",
+          "modern-philosophy",
+          "fairness"
+        ],
+        "type": "theory",
+        "idea": "idea-359"
+      },
+      "compared_ids": [
+        "966",
+        "261"
+      ],
+      "reason": "966 vysvětluje konstrukci Druhého, 261 volební reformu; zde jde o kruh odepřeného vzdělání a vydávání jeho následků za přirozenou neschopnost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "360",
+      "category": "filozofie",
+      "knowledge": {
+        "point": "Kant roku 1784 rozlišuje služební užití rozumu v přidělené roli od svobodného veřejného rozvažování určeného čtenářské obci.",
+        "tags": [
+          "modern-philosophy",
+          "political-philosophy",
+          "freedom"
+        ],
+        "type": "theory",
+        "idea": "idea-360"
+      },
+      "compared_ids": [
+        "185",
+        "747"
+      ],
+      "reason": "185 se týká univerzalizace mravních zásad, 747 využití právních závazků; zde je odlišena služební role od veřejné kritiky pravidel.",
+      "verdict": "accept"
+    },
+    {
+      "id": "361",
+      "category": "historie",
+      "knowledge": {
+        "point": "Britská kapitulace u Saratogy v roce 1777 pomohla přesvědčit Francii k formálnímu spojenectví s americkými povstalci v roce 1778.",
+        "tags": [
+          "military-history",
+          "international-relations",
+          "cooperation"
+        ],
+        "type": "event",
+        "idea": "idea-361"
+      },
+      "compared_ids": [
+        "345",
+        "156"
+      ],
+      "reason": "345 popisuje geopolitické sblížení roku 1972, 156 invazní koordinaci; zde je konkrétním novým poznatkem diplomatický dopad Saratogy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "362",
+      "category": "historie",
+      "knowledge": {
+        "point": "Francouzské ovládnutí Chesapeacké zátoky roku 1781 odřízlo Cornwallise od námořní pomoci a umožnilo úspěch obléhání Yorktownu.",
+        "tags": [
+          "military-history",
+          "international-relations",
+          "cooperation"
+        ],
+        "type": "event",
+        "idea": "idea-362"
+      },
+      "compared_ids": [
+        "313",
+        "156"
+      ],
+      "reason": "313 řeší Nelsonovu taktiku, 156 vyloďování; zde je mechanismem odříznutí obležené armády od konkrétní námořní zásobovací cesty.",
+      "verdict": "accept"
+    },
+    {
+      "id": "363",
+      "category": "historie",
+      "knowledge": {
+        "point": "Washington v roce 1777 nařídil organizovanou variolaci vojáků proti neštovicím, přestože dočasně oslabovala bojeschopnost a sama nesla riziko.",
+        "tags": [
+          "military-history",
+          "public-health",
+          "decision-making"
+        ],
+        "type": "event",
+        "idea": "idea-363"
+      },
+      "compared_ids": [
+        "206",
+        "502"
+      ],
+      "reason": "206 řeší eradikaci a 502 Jennerovu vakcinaci; nový text je o dřívější rizikové variolaci a načasování ochrany válečné armády.",
+      "verdict": "accept"
+    },
+    {
+      "id": "364",
+      "category": "historie",
+      "knowledge": {
+        "point": "Paineův Common Sense v lednu 1776 veřejně hájil úplnou nezávislost a napadl dědičnou monarchii místo pouhého požadavku napravit koloniální křivdy.",
+        "tags": [
+          "modern-history",
+          "political-philosophy",
+          "communication"
+        ],
+        "type": "work",
+        "idea": "idea-364"
+      },
+      "compared_ids": [
+        "702",
+        "13"
+      ],
+      "reason": "702 je institucionální argument z roku 1787 a 13 omezení krále; zde jde o Paineův přechod od nápravy vztahu k odmítnutí monarchie.",
+      "verdict": "accept"
+    },
+    {
+      "id": "365",
+      "category": "literatura",
+      "knowledge": {
+        "point": "Goethův Werther zprostředkuje svět převážně hrdinovými dopisy a ukazuje, jak se intenzivní cit může uzavřít před perspektivami druhých.",
+        "tags": [
+          "literature",
+          "identity",
+          "perceived-reality"
+        ],
+        "type": "work",
+        "idea": "idea-365"
+      },
+      "compared_ids": [
+        "891",
+        "908"
+      ],
+      "reason": "891 vysvětluje polopřímou řeč, 908 záměrné zatajování; nový text rozebírá citovou uzavřenost epistolárního Werthera.",
+      "verdict": "accept"
+    },
+    {
+      "id": "366",
+      "category": "literatura",
+      "knowledge": {
+        "point": "Chaloupka strýčka Toma využila příběhy rozdělovaných rodin k mobilizaci proti otroctví, přičemž její vlastní rasové stereotypy zůstávají předmětem kritiky.",
+        "tags": [
+          "literature",
+          "human-rights",
+          "fairness"
+        ],
+        "type": "work",
+        "idea": "idea-366"
+      },
+      "compared_ids": [
+        "971",
+        "899"
+      ],
+      "reason": "971 je o přetrvávajícím traumatu po otroctví, 899 o revoluci; zde jde o mobilizační účinek sentimentálního románu a jeho limity.",
+      "verdict": "accept"
+    },
+    {
+      "id": "367",
+      "category": "literatura",
+      "knowledge": {
+        "point": "Herbertova Duna a její pokračování zpochybňují mesiášské vůdcovství tím, že vítězství charismatického hrdiny spojují s neovladatelnými následky jeho kultu.",
+        "tags": [
+          "literature",
+          "power",
+          "freedom"
+        ],
+        "type": "work",
+        "idea": "idea-367"
+      },
+      "compared_ids": [
+        "623",
+        "327"
+      ],
+      "reason": "623 je alegorie zrazené revoluce, 327 model poznávajícího vládce; zde je nebezpečím samotné odevzdání úsudku charismatickému zachránci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "368",
+      "category": "literatura",
+      "knowledge": {
+        "point": "Pán prstenů spojuje odmítnutí všemocného prostředku s pokušením ovládat druhé i pro domněle dobrý cíl.",
+        "tags": [
+          "literature",
+          "power",
+          "ethics"
+        ],
+        "type": "work",
+        "idea": "idea-368"
+      },
+      "compared_ids": [
+        "673",
+        "341"
+      ],
+      "reason": "673 zkoumá beztrestnost neviditelného jednání a 341 skrytý mravní úpadek; zde jde o odmítnutí prostředku nadvlády i pro dobrý účel.",
+      "verdict": "accept"
+    },
+    {
+      "id": "369",
+      "category": "literatura",
+      "knowledge": {
+        "point": "Carsonové Mlčící jaro zpřístupnilo veřejnosti ekologické důsledky necíleného používání pesticidů a proměnilo otázku jejich kontroly.",
+        "tags": [
+          "literature",
+          "ecology",
+          "public-health"
+        ],
+        "type": "work",
+        "idea": "idea-369"
+      },
+      "compared_ids": [
+        "300",
+        "885"
+      ],
+      "reason": "300 vysvětluje zdroj energie ekosystému a 885 výživu; zde je nové konkrétní dílo a jeho argument o důsledcích pesticidů v propojené přírodě.",
+      "verdict": "accept"
+    },
+    {
+      "id": "370",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "point": "Federované učení sdružuje lokální aktualizace modelu místo centrálního sběru tréninkových dat, ale samotné toto uspořádání nezaručuje úplné soukromí.",
+        "tags": [
+          "artificial-intelligence",
+          "privacy"
+        ],
+        "type": "principle",
+        "idea": "idea-370"
+      },
+      "compared_ids": [
+        "318",
+        "889"
+      ],
+      "reason": "318 přidává dokumenty při odpovědi a 889 počítá nad šiframi; zde se trénink přesouvá k datům a sdružují se aktualizace vah.",
+      "verdict": "accept"
+    },
+    {
+      "id": "371",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "point": "Self-attention v transformeru vytváří kontextovou reprezentaci tokenu váženým kombinováním informací z dalších dostupných pozic sekvence.",
+        "tags": [
+          "artificial-intelligence",
+          "communication"
+        ],
+        "type": "principle",
+        "idea": "idea-371"
+      },
+      "compared_ids": [
+        "318",
+        "960"
+      ],
+      "reason": "318 řeší externí podklady a 960 odšumování obrazů; zde se vysvětluje vnitřní výpočet kontextových vazeb mezi tokeny.",
+      "verdict": "accept"
+    },
+    {
+      "id": "372",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "point": "Aditivní výroba skládá díl po vrstvách podle digitálního modelu, což umožňuje nové geometrie, ale nezaručuje stejné vlastnosti ve všech směrech.",
+        "tags": [
+          "materials",
+          "innovation"
+        ],
+        "type": "principle",
+        "idea": "idea-372"
+      },
+      "compared_ids": [
+        "961",
+        "157"
+      ],
+      "reason": "961 řeší skládání čipů a 157 dělbu práce; nový poznatek je vrstvená konstrukce a její geometrické i materiálové důsledky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "373",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "point": "Lipidové nanočástice chrání mRNA před rozkladem a pomáhají jejímu doručení do cytoplazmy, přičemž významnou překážkou zůstává únik z endozomu.",
+        "tags": [
+          "genetics",
+          "innovation"
+        ],
+        "type": "principle",
+        "idea": "idea-373"
+      },
+      "compared_ids": [
+        "209",
+        "632"
+      ],
+      "reason": "209 je cílená úprava genomu, 632 množení DNA; zde jde o ochranu a intracelulární doručení křehké RNA.",
+      "verdict": "accept"
+    },
+    {
+      "id": "374",
+      "category": "biologie",
+      "knowledge": {
+        "point": "Ve zkříženém pokusu dávka 400 mg kofeinu narušovala spánek i šest hodin před spaním; účinek závisí na dávce, načasování a jednotlivci.",
+        "tags": [
+          "sleep",
+          "nutrition",
+          "wellbeing"
+        ],
+        "type": "discovery",
+        "idea": "idea-374"
+      },
+      "compared_ids": [
+        "247",
+        "886"
+      ],
+      "reason": "247 je konsolidace paměti a 886 účinek prodloužení spánku na příjem energie; zde je dávkově a časově vymezený účinek kofeinu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "375",
+      "category": "biologie",
+      "knowledge": {
+        "point": "Pravidelné ponořování do studené vody bezprostředně po silovém tréninku může tlumit svalovou hypertrofii, takže krátkodobá regenerace a dlouhodobá adaptace nejsou totožné.",
+        "tags": [
+          "exercise",
+          "wellbeing",
+          "decision-making"
+        ],
+        "type": "discovery",
+        "idea": "idea-375"
+      },
+      "compared_ids": [
+        "884",
+        "273"
+      ],
+      "reason": "884 řeší glykemii po chůzi, 273 kryptobiózu; zde se odlišuje akutní regenerace od tréninkové hypertrofie po chlazení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "376",
+      "category": "biologie",
+      "knowledge": {
+        "point": "Roční studie u lidí s obezitou neprokázala významně větší úbytek hmotnosti přidáním osmihodinového jídelního okna ke kalorickému omezení.",
+        "tags": [
+          "nutrition",
+          "wellbeing",
+          "knowledge-evidence"
+        ],
+        "type": "discovery",
+        "idea": "idea-376"
+      },
+      "compared_ids": [
+        "886",
+        "884"
+      ],
+      "reason": "886 mění příjem jídla prodloužením spánku, 884 načasováním pohybu glykemii; zde se porovnává přidaný efekt jídelního okna při omezení energie.",
+      "verdict": "accept"
+    },
+    {
+      "id": "377",
+      "category": "biologie",
+      "knowledge": {
+        "point": "Kreatin zvyšuje svalové zásoby kreatinu a fosfokreatinu, které pomáhají rychle obnovovat ATP při krátkých intenzivních výkonech.",
+        "tags": [
+          "exercise",
+          "nutrition",
+          "wellbeing"
+        ],
+        "type": "principle",
+        "idea": "idea-377"
+      },
+      "compared_ids": [
+        "512",
+        "886"
+      ],
+      "reason": "512 vysvětluje krevní oběh, 886 spánek a příjem energie; zde je hlavním mechanismem fosfokreatinová obnova ATP.",
+      "verdict": "accept"
+    },
+    {
+      "id": "378",
+      "category": "sport",
+      "knowledge": {
+        "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+        "tags": [
+          "sport",
+          "innovation",
+          "change"
+        ],
+        "type": "event",
+        "idea": "idea-378"
+      },
+      "compared_ids": [
+        "826",
+        "616"
+      ],
+      "reason": "826 řeší přetočení kočky a 616 zachování momentu hybnosti; zde jde o konkrétní historickou inovaci sportovní techniky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "379",
+      "category": "sport",
+      "knowledge": {
+        "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+        "tags": [
+          "sport",
+          "modern-history",
+          "fairness"
+        ],
+        "type": "event",
+        "idea": "idea-379"
+      },
+      "compared_ids": [
+        "527",
+        "797"
+      ],
+      "reason": "527 je gladiátorská podívaná a 797 bezpečnost přístroje; zde je konkrétní olympijský závod a jeho dobové normy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "380",
+      "category": "sport",
+      "knowledge": {
+        "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+        "tags": [
+          "sport",
+          "cooperation",
+          "modern-history"
+        ],
+        "type": "event",
+        "idea": "idea-380"
+      },
+      "compared_ids": [
+        "234",
+        "541"
+      ],
+      "reason": "234 je výkon specializovaného počítače a 541 politická váha veslařů; zde je týmové rozvržení tempa při individuálním atletickém rekordu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "381",
+      "category": "sport",
+      "knowledge": {
+        "point": "Efekt relativního věku vzniká při ročníkovém třídění sportovců, kdy vývojová výhoda starších dětí může ovlivnit výběr i další přístup k tréninku.",
+        "tags": [
+          "sport",
+          "development",
+          "fairness"
+        ],
+        "type": "principle",
+        "idea": "idea-381"
+      },
+      "compared_ids": [
+        "420",
+        "819"
+      ],
+      "reason": "420 popisuje očekávání autorit a 819 chybějící neúspěchy; zde je specifickým spouštěčem výběru věkový rozdíl uvnitř ročníku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "382",
+      "category": "sport",
+      "knowledge": {
+        "point": "Smíšená strategie při penaltě záměrně střídá volby s vhodnými pravděpodobnostmi, aby soupeř nemohl využít předvídatelný vzorec.",
+        "tags": [
+          "sport",
+          "game-theory",
+          "uncertainty"
+        ],
+        "type": "theory",
+        "idea": "idea-382"
+      },
+      "compared_ids": [
+        "239",
+        "923"
+      ],
+      "reason": "239 řeší nesoulad společného a osobního prospěchu, 923 netranzitivitu; zde je důvod strategické náhodnosti proti přizpůsobujícímu se soupeři.",
+      "verdict": "accept"
+    }
+  ]
+}

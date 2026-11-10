@@ -1,0 +1,66 @@
+[
+  {
+    "id": "364",
+    "source_hash": "dc2c0ef07d6af842c045f4ab4a2dffb80553f22325a5c452eb261abcd0f448e2",
+    "verdict": "verified",
+    "reason": "Source labels corrected after full text review; the article and its approved knowledge point are unchanged.",
+    "knowledge": {
+      "point": "Paineův Common Sense v lednu 1776 veřejně hájil úplnou nezávislost a napadl dědičnou monarchii místo pouhého požadavku napravit koloniální křivdy.",
+      "type": "work",
+      "idea": "idea-364",
+      "tags": [
+        "modern-history",
+        "political-philosophy",
+        "communication"
+      ]
+    }
+  },
+  {
+    "id": "368",
+    "source_hash": "581ddc23568ee6cddfc7a4d0d21d94a52d5d64e2f72a3f5585becf901655d5a0",
+    "verdict": "verified",
+    "reason": "Source labels corrected after full text review; the article and its approved knowledge point are unchanged.",
+    "knowledge": {
+      "point": "Pán prstenů spojuje odmítnutí všemocného prostředku s pokušením ovládat druhé i pro domněle dobrý cíl.",
+      "type": "work",
+      "idea": "idea-368",
+      "tags": [
+        "literature",
+        "power",
+        "ethics"
+      ]
+    }
+  },
+  {
+    "id": "375",
+    "source_hash": "cbfb3facaf512d890a903c71027d866851bf22d841e1dd6bdd30dc8bd726705c",
+    "verdict": "verified",
+    "reason": "Source labels corrected after full text review; the article and its approved knowledge point are unchanged.",
+    "knowledge": {
+      "point": "Pravidelné ponořování do studené vody bezprostředně po silovém tréninku může tlumit svalovou hypertrofii, takže krátkodobá regenerace a dlouhodobá adaptace nejsou totožné.",
+      "type": "discovery",
+      "idea": "idea-375",
+      "tags": [
+        "exercise",
+        "wellbeing",
+        "decision-making"
+      ]
+    }
+  },
+  {
+    "id": "380",
+    "source_hash": "8db6cfb30ebdfa83a06ac77caa951f079a837ac9935ea2b65906e394c85c65e9",
+    "verdict": "verified",
+    "reason": "Source labels corrected after full text review; the article and its approved knowledge point are unchanged.",
+    "knowledge": {
+      "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+      "type": "event",
+      "idea": "idea-380",
+      "tags": [
+        "sport",
+        "cooperation",
+        "modern-history"
+      ]
+    }
+  }
+]

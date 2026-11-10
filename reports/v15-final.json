@@ -1,0 +1,263 @@
+{
+  "version": "1.5.0",
+  "records": 946,
+  "ideas": 903,
+  "newIds": [
+    "353",
+    "354",
+    "355",
+    "356",
+    "357",
+    "358",
+    "359",
+    "360",
+    "361",
+    "362",
+    "363",
+    "364",
+    "365",
+    "366",
+    "367",
+    "368",
+    "369",
+    "370",
+    "371",
+    "372",
+    "373",
+    "374",
+    "375",
+    "376",
+    "377",
+    "378",
+    "379",
+    "380",
+    "381",
+    "382"
+  ],
+  "remainingGap": "383-412",
+  "originalPostsPreserved": 916,
+  "originalManifestEntriesPreserved": 916,
+  "knowledge": {
+    "records": 946,
+    "verified": 946,
+    "problems": [],
+    "snapshot": "b092f42ba5ddf6b185bceff1a7121fa08c64c74327dd6ad90d391a0f0595a963",
+    "database_sha256": "9ac3c501e10e844905d49675210dab072046b0d7448b1cd31cecb965d952c8b9",
+    "ideas": 903,
+    "compact_catalog_chars": 109002,
+    "full_text_chars": 751157
+  },
+  "posts": [
+    {
+      "id": "353",
+      "length": 798,
+      "hookSentences": 2,
+      "category": "filozofie"
+    },
+    {
+      "id": "354",
+      "length": 779,
+      "hookSentences": 2,
+      "category": "filozofie"
+    },
+    {
+      "id": "355",
+      "length": 807,
+      "hookSentences": 2,
+      "category": "filozofie"
+    },
+    {
+      "id": "356",
+      "length": 808,
+      "hookSentences": 2,
+      "category": "filozofie"
+    },
+    {
+      "id": "357",
+      "length": 823,
+      "hookSentences": 2,
+      "category": "filozofie"
+    },
+    {
+      "id": "358",
+      "length": 812,
+      "hookSentences": 2,
+      "category": "filozofie"
+    },
+    {
+      "id": "359",
+      "length": 765,
+      "hookSentences": 2,
+      "category": "filozofie"
+    },
+    {
+      "id": "360",
+      "length": 775,
+      "hookSentences": 3,
+      "category": "filozofie"
+    },
+    {
+      "id": "361",
+      "length": 804,
+      "hookSentences": 2,
+      "category": "historie"
+    },
+    {
+      "id": "362",
+      "length": 784,
+      "hookSentences": 3,
+      "category": "historie"
+    },
+    {
+      "id": "363",
+      "length": 835,
+      "hookSentences": 2,
+      "category": "historie"
+    },
+    {
+      "id": "364",
+      "length": 790,
+      "hookSentences": 2,
+      "category": "historie"
+    },
+    {
+      "id": "365",
+      "length": 825,
+      "hookSentences": 2,
+      "category": "literatura"
+    },
+    {
+      "id": "366",
+      "length": 835,
+      "hookSentences": 2,
+      "category": "literatura"
+    },
+    {
+      "id": "367",
+      "length": 843,
+      "hookSentences": 2,
+      "category": "literatura"
+    },
+    {
+      "id": "368",
+      "length": 808,
+      "hookSentences": 2,
+      "category": "literatura"
+    },
+    {
+      "id": "369",
+      "length": 827,
+      "hookSentences": 2,
+      "category": "literatura"
+    },
+    {
+      "id": "370",
+      "length": 833,
+      "hookSentences": 2,
+      "category": "pocitacove-vedy"
+    },
+    {
+      "id": "371",
+      "length": 848,
+      "hookSentences": 2,
+      "category": "pocitacove-vedy"
+    },
+    {
+      "id": "372",
+      "length": 825,
+      "hookSentences": 2,
+      "category": "pocitacove-vedy"
+    },
+    {
+      "id": "373",
+      "length": 773,
+      "hookSentences": 2,
+      "category": "pocitacove-vedy"
+    },
+    {
+      "id": "374",
+      "length": 802,
+      "hookSentences": 2,
+      "category": "biologie"
+    },
+    {
+      "id": "375",
+      "length": 820,
+      "hookSentences": 2,
+      "category": "biologie"
+    },
+    {
+      "id": "376",
+      "length": 812,
+      "hookSentences": 2,
+      "category": "biologie"
+    },
+    {
+      "id": "377",
+      "length": 828,
+      "hookSentences": 2,
+      "category": "biologie"
+    },
+    {
+      "id": "378",
+      "length": 759,
+      "hookSentences": 2,
+      "category": "sport"
+    },
+    {
+      "id": "379",
+      "length": 814,
+      "hookSentences": 2,
+      "category": "sport"
+    },
+    {
+      "id": "380",
+      "length": 817,
+      "hookSentences": 2,
+      "category": "sport"
+    },
+    {
+      "id": "381",
+      "length": 829,
+      "hookSentences": 2,
+      "category": "sport"
+    },
+    {
+      "id": "382",
+      "length": 834,
+      "hookSentences": 2,
+      "category": "sport"
+    }
+  ],
+  "artworks": 30,
+  "generationCalls": 31,
+  "imageBytes": 705432,
+  "unitTests": {
+    "node": 22,
+    "passed": 9
+  },
+  "browserTests": {
+    "passed": 81,
+    "projects": [
+      "android-chromium",
+      "iphone-webkit",
+      "desktop-chromium"
+    ],
+    "target": "isolated production preview",
+    "originOverride": "4175 to 4195 in validation copy only"
+  },
+  "build": {
+    "passed": true,
+    "directory": "tmp/v15-validation/build",
+    "newRoutes": 30,
+    "newAssets": 30
+  },
+  "live": {
+    "first": "http://127.0.0.1:4195/faakt.io/post/353/",
+    "sport": "http://127.0.0.1:4195/faakt.io/?category=sport&post=378",
+    "version": "v1.5.0 · build 20261108122315",
+    "status": 200,
+    "correctedImageVerified": true,
+    "runtimeErrors": []
+  }
+}

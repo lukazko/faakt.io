@@ -7,14 +7,16 @@ export const categoryMeta = {
 	'biologie':    { label: 'Biologie',    color: 'var(--cat-biologie)' },
 	'umeni':       { label: 'Umění',       color: 'var(--cat-umeni)' },
 	'literatura':  { label: 'Literatura',  color: 'var(--cat-literatura)' },
-	'politika':    { label: 'Společnost a politika', color: 'var(--cat-politika)' },
-	'fyzika':      { label: 'Fyzika a chemie', color: 'var(--cat-fyzika)' },
-	'astronomie':  { label: 'Astronomie',  color: 'var(--cat-astronomie)' },
+	'spolecnost':  { label: 'Společnost', color: 'var(--cat-spolecnost)' },
+	'fyzika':      { label: 'Fyzika', color: 'var(--cat-fyzika)' },
+	'chemie':      { label: 'Chemie', color: 'var(--cat-chemie)' },
+	'vesmir':      { label: 'Vesmír', color: 'var(--cat-vesmir)' },
 	'ekonomie':    { label: 'Ekonomie',    color: 'var(--cat-ekonomie)' },
 	'psychologie': { label: 'Psychologie', color: 'var(--cat-psychologie)' },
-	'filmy':       { label: 'Kinematografie',       color: 'var(--cat-filmy)' },
+	'kinematografie':       { label: 'Kinematografie',       color: 'var(--cat-kinematografie)' },
 	'matematika':  { label: 'Matematika',  color: 'var(--cat-matematika)' },
-	'pocitacove-vedy': { label: 'Technologie', color: 'var(--cat-pocitacove-vedy)' }
+	'technologie': { label: 'Technologie', color: 'var(--cat-technologie)' },
+	'sport': { label: 'Sport', color: 'var(--cat-sport)' }
 };
 
 /** Seznam platných slugů kategorií. */

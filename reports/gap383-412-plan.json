@@ -1,0 +1,602 @@
+{
+  "snapshot": "82a7f117195b6b97913a6ce2fde39b99632c5907b5a7eaa65388b6cad698e3dd",
+  "catalog_reviewed": "82a7f117195b6b97913a6ce2fde39b99632c5907b5a7eaa65388b6cad698e3dd",
+  "proposals": [
+    {
+      "id": "383",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-383",
+        "point": "Operace Mincemeat podsunula roku 1943 falešné invazní plány prostřednictvím těla s vytvořenou identitou, aby odvedla německou pozornost od Sicílie.",
+        "tags": [
+          "military-history",
+          "communication"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "766",
+        "156"
+      ],
+      "reason": "766 řeší zachycení skutečné depeše, 156 skutečné vylodění v Normandii; zde je mechanismem cílené podstrčení falešného nálezu před invazí na Sicílii.",
+      "verdict": "accept"
+    },
+    {
+      "id": "384",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-384",
+        "point": "Sutton Hoo uchovalo tvar raně středověké pohřební lodi v půdě a železných spojích, ale bohatá výbava sama neurčuje totožnost pohřbeného.",
+        "tags": [
+          "archaeology",
+          "medieval-history",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "39",
+        "895"
+      ],
+      "reason": "39 pojednává o identifikované egyptské hrobce, 895 o neznámé funkci předmětů; zde se rekonstruuje zaniklé plavidlo a odděluje identita pohřbeného od fyzického nálezu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "385",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-385",
+        "point": "Aristotelés odlišuje historii toho, co se stalo, od básnictví toho, co by se pravděpodobně či nutně mohlo stát; rozdíl není v použití veršů.",
+        "tags": [
+          "ancient-philosophy",
+          "literature",
+          "aristotle",
+          "knowledge-evidence"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "768",
+        "144"
+      ],
+      "reason": "768 řeší emoční účinek tragédie a 144 ústní formule eposu; zde je odlišný druh poznání univerzálního možného děje oproti konkrétnímu historickému záznamu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "386",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-386",
+        "point": "Aristotelovo potenciální nekonečno označuje neomezenou možnost pokračovat například v dělení, nikoli dokončený nekonečný souhrn všech kroků.",
+        "tags": [
+          "ancient-philosophy",
+          "metaphysics",
+          "aristotle",
+          "limits"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "76",
+        "229",
+        "964"
+      ],
+      "reason": "76 řeší paradox dokončení pohybu, 229 velikosti množin, 964 obecně schopnost a uskutečnění; zde je samostatným předmětem status potenciálního nekonečna.",
+      "verdict": "accept"
+    },
+    {
+      "id": "387",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-387",
+        "point": "Narvalí kel je prodloužený, obvykle levý horní zub prorůstající pyskem, nikoli roh; typicky jej mají samci, ale existují výjimky.",
+        "tags": [
+          "zoology",
+          "evolution",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "152",
+        "740"
+      ],
+      "reason": "152 řeší krevní oběh hlavonožců a 740 délku života grónského žraloka; v katalogu není anatomický původ narvalího klu ani jeho pohlavní rozdíly.",
+      "verdict": "accept"
+    },
+    {
+      "id": "388",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-388",
+        "point": "Quorum sensing koordinuje bakteriální genovou aktivitu prostřednictvím koncentrace uvolňovaných signálů, kterou kromě hustoty buněk ovlivňuje také prostředí.",
+        "tags": [
+          "microbiology",
+          "communication",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "633",
+        "691"
+      ],
+      "reason": "633 popisuje reakci vytvářející světlo a 691 optimalizaci sítě slizovkou; zde je mechanismem chemická regulace genů v bakteriální populaci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "389",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-389",
+        "point": "Lití na ztracený vosk nahrazuje odstraněný voskový model kovem v žáruvzdorné formě; nepřímý postup zachovává původní model pomocí voskových kopií.",
+        "tags": [
+          "sculpture",
+          "materials",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "463",
+        "906"
+      ],
+      "reason": "463 je opracování mramoru, 906 pozitivní odlitek dutiny místnosti; nový text vysvětluje nahrazení vosku kovem a rozdíl přímé a nepřímé metody.",
+      "verdict": "accept"
+    },
+    {
+      "id": "390",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-390",
+        "point": "Mezzotinta získává světlé tóny vyhlazováním celoplošně zdrsněné kovové desky, protože hladší místa při hlubotisku zadrží méně barvy.",
+        "tags": [
+          "painting",
+          "materials",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "933",
+        "905"
+      ],
+      "reason": "933 zanechává kovovou stopu stříbrnou špičkou, 905 využívá světlocitlivý papír; zde určuje tón množství barvy zachycené zdrsněnou deskou.",
+      "verdict": "accept"
+    },
+    {
+      "id": "391",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-391",
+        "point": "Kigo v tradičním haiku ukotvuje báseň v ročním období a aktivuje sdílené kulturní asociace, které se mezi jazyky a místy nemusejí přenést beze změny.",
+        "tags": [
+          "literature",
+          "communication",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "587",
+        "689"
+      ],
+      "reason": "587 řeší zaměření na formu sdělení a 689 tvorbu omezením; zde je novým poznatkem sezónní a kulturní funkce kigo, nikoli počet slabik či obecná stručnost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "392",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-392",
+        "point": "Calvinův román Když jedné zimní noci cestující mění přerušované čtení a touhu po pokračování v příběh samotného Čtenáře.",
+        "tags": [
+          "narratology",
+          "perceived-reality"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "936",
+        "686"
+      ],
+      "reason": "936 modeluje paměť volným pořadím samostatných částí, 686 úplnost kombinací knih; zde je tématem vyprávěná honba za přerušeným pokračováním a oslovení Čtenáře.",
+      "verdict": "accept"
+    },
+    {
+      "id": "393",
+      "category": "politika",
+      "knowledge": {
+        "idea": "idea-393",
+        "point": "Presumpce neviny podle článku 6 Evropské úmluvy chrání obviněného před předčasným přisouzením viny a v zásadě ukládá její prokázání obžalobě.",
+        "tags": [
+          "human-rights",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "284",
+        "260"
+      ],
+      "reason": "284 je osobní odpovědnost za mezinárodní zločiny, 260 obecná deklarace práv; zde je konkrétní procesní rozdělení důkazního břemene před odsouzením.",
+      "verdict": "accept"
+    },
+    {
+      "id": "394",
+      "category": "politika",
+      "knowledge": {
+        "idea": "idea-394",
+        "point": "Subsidiarita v EU mimo výlučné pravomoci podmiňuje unijní zásah nedostatečností řešení členskými státy a lepší dosažitelností cíle na unijní úrovni.",
+        "tags": [
+          "institutions",
+          "political-science",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "287",
+        "665"
+      ],
+      "reason": "287 rozděluje druhy státní moci, 665 je historická integrace uhlí a oceli; zde jde o test vhodné úrovně výkonu nevýlučné pravomoci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "395",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-395",
+        "point": "Podchlazená voda zůstává kapalná pod bodem mrazu, dokud nezačne krystalizace; její přítomnost v oblacích je důležitá i pro vznik námrazy.",
+        "tags": [
+          "thermodynamics",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "912",
+        "443"
+      ],
+      "reason": "912 je rovnováha tří fází a 443 hustota vody a ledu; zde jde o metastabilní kapalinu a spuštění krystalizace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "396",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-396",
+        "point": "Běžné okenní sklo je za pokojové teploty amorfní pevná látka a nerovnoměrná tloušťka historických tabulí nedokládá jejich stékání během staletí.",
+        "tags": [
+          "materials",
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "911",
+        "939"
+      ],
+      "reason": "911 je tání galia a 939 vnitřní pnutí skla; zde se opravuje záměna amorfní struktury s tokem historického okna.",
+      "verdict": "accept"
+    },
+    {
+      "id": "397",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-397",
+        "point": "Proměnlivé slapové deformace Io při oběhu v gravitačně vázané soustavě Jupiterových měsíců přeměňují mechanickou energii na teplo pohánějící vulkanismus.",
+        "tags": [
+          "solar-system",
+          "mechanics",
+          "jupiter"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "292",
+        "915"
+      ],
+      "reason": "292 řeší přenos momentu a vzdalování Měsíce, 915 vzorkování oceánu Enceladu; zde je mechanismem disipace slapových deformací pohánějící sopky Io.",
+      "verdict": "accept"
+    },
+    {
+      "id": "398",
+      "category": "astronomie",
+      "knowledge": {
+        "idea": "idea-398",
+        "point": "Lagrangeovy body umožňují malému tělesu držet polohu vůči dvěma obíhajícím velkým tělesům; L1–L3 jsou nestabilní, zatímco L4 a L5 mohou být za vhodných podmínek stabilní.",
+        "tags": [
+          "solar-system",
+          "spaceflight",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "941",
+        "296"
+      ],
+      "reason": "941 jsou výměny drah dvojice měsíců a 296 relativistické opravy hodin GPS; zde se vysvětlují rovnovážné polohy v rotující soustavě a jejich odlišná stabilita.",
+      "verdict": "accept"
+    },
+    {
+      "id": "399",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-399",
+        "point": "U Giffenova statku může zlevnění snížit poptávané množství, pokud u velmi omezeného rozpočtu převáží důchodový účinek nad substitucí.",
+        "tags": [
+          "microeconomics",
+          "resources",
+          "decision-making"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "481",
+        "709"
+      ],
+      "reason": "481 řeší mezní užitek, 709 statusovou drahou spotřebu; zde roste poptávka s cenou kvůli rozpočtovému omezení, nikoli kvůli prestiži.",
+      "verdict": "accept"
+    },
+    {
+      "id": "400",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-400",
+        "point": "Měnové trilema říká, že nelze současně plně udržovat pevný kurz, volný pohyb kapitálu a nezávislou měnovou politiku.",
+        "tags": [
+          "macroeconomics",
+          "finance",
+          "limits"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "141",
+        "479"
+      ],
+      "reason": "141 je konkrétní historické uspořádání Bretton Woods, 479 změna očekávání při politice; zde je vysvětlen konflikt tří měnových cílů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "401",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-401",
+        "point": "Krátké přerušení mezi verzemi scény může skrýt i velkou změnu potlačením místních pohybových vodítek; cílená pozornost její rozpoznání usnadňuje.",
+        "tags": [
+          "perception",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "918",
+        "714"
+      ],
+      "reason": "918 řeší krátké časové okno zpracování druhého cíle a 714 výběr zvukového kanálu; zde je přehlédnuté porovnání změn mezi obrazy scény.",
+      "verdict": "accept"
+    },
+    {
+      "id": "402",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-402",
+        "point": "Fenomén špičky jazyka je dočasné selhání vybavení slova při pocitu jeho znalosti, někdy s dostupným významem či částí zvukové podoby.",
+        "tags": [
+          "learning-memory",
+          "linguistics",
+          "uncertainty"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "758",
+        "838"
+      ],
+      "reason": "758 řeší chunking pracovní paměti; plný text 838 ve skutečnosti řeší právní odstranění odkazů a jeho chybný index byl opraven. Zde jde o dočasnou nedostupnost slovní podoby při pocitu znalosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "403",
+      "category": "filmy",
+      "knowledge": {
+        "idea": "idea-403",
+        "point": "Rotoskopie převádí pohyb z hraných záběrů do animace po jednotlivých snímcích, aniž by vyžadovala zachovat fotografický vzhled předlohy.",
+        "tags": [
+          "animation",
+          "film-technique",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "459",
+        "452"
+      ],
+      "reason": "459 zaznamenává pohyb jako data pro digitální postavu, 452 snímá pohybovaný model; rotoskopie používá obraz jednotlivých hraných políček jako kreslířskou předlohu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "404",
+      "category": "filmy",
+      "knowledge": {
+        "idea": "idea-404",
+        "point": "ADR nahrazuje nebo doplňuje dialog novou studiovou nahrávkou synchronizovanou s obrazem a hereckým výkonem z natáčení.",
+        "tags": [
+          "sound",
+          "film-technique",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "282",
+        "460"
+      ],
+      "reason": "282 je tvorba ruchů fyzickými předměty a 460 potlačení šumu; ADR vytváří novou synchronní řečovou nahrávku samotné postavy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "405",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-405",
+        "point": "Buffonova jehla protíná rovnoběžné čáry s pravděpodobností 2l/(pí·d) pro l nejvýše d při rovnoměrné nezávislé poloze a orientaci, což umožňuje odhad pí.",
+        "tags": [
+          "probability",
+          "geometry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "500",
+        "493"
+      ],
+      "reason": "500 ohraničuje pí mnohoúhelníky a 493 obecně zákon velkých čísel; zde je nový konkrétní geometricko-pravděpodobnostní vztah daný polohou a orientací jehly.",
+      "verdict": "accept"
+    },
+    {
+      "id": "406",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-406",
+        "point": "Šachovnici bez dvou protilehlých rohů nelze pokrýt dominy 1×2, protože každé kryje obě barvy stejně, ale zbylá deska má jejich počty rozdílné.",
+        "tags": [
+          "combinatorics",
+          "geometry",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "757",
+        "302"
+      ],
+      "reason": "757 je počítání přihrádek a 302 barvení map; zde barvení vytváří invariant při pokrývání a dokazuje nemožnost konkrétní dlažby.",
+      "verdict": "accept"
+    },
+    {
+      "id": "407",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-407",
+        "point": "Konzistentní hašování mapuje klíče a uzly do společného prostoru tak, aby přidání či odebrání uzlu přesouvalo jen omezenou část přiřazení.",
+        "tags": [
+          "algorithms",
+          "networks",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "952",
+        "742"
+      ],
+      "reason": "952 určuje identitu podle obsahu, 742 logický relační model; zde je cílem stabilní rozdělení klíčů mezi měnící se množinu uzlů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "408",
+      "category": "pocitacove-vedy",
+      "knowledge": {
+        "idea": "idea-408",
+        "point": "Dvoufázové potvrzení odděluje přípravu všech účastníků od konečného rozhodnutí o transakci, ale při poruše může ponechat připravené účastníky čekat se zámky.",
+        "tags": [
+          "programming",
+          "networks",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "798",
+        "925"
+      ],
+      "reason": "798 řeší dohodu při zrádných uzlech a 925 síťové zahlcení; zde jde o atomické dokončení distribuované transakce s blokující připravenou fází.",
+      "verdict": "accept"
+    },
+    {
+      "id": "409",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-409",
+        "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+        "tags": [
+          "sport",
+          "modern-history",
+          "innovation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "378",
+        "379"
+      ],
+      "reason": "378 je změna skokanské techniky a 379 průběh maratonu; zde je samostatný vznik pravidel a vybavení basketbalu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "410",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-410",
+        "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+        "tags": [
+          "sport",
+          "mechanics",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "380",
+        "277"
+      ],
+      "reason": "380 řeší vodiče při míli a 277 definici výšky hor; zde se porovnávají protichůdné účinky prostředí na krátký a vytrvalostní výkon.",
+      "verdict": "accept"
+    },
+    {
+      "id": "411",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-411",
+        "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+        "tags": [
+          "sport",
+          "mechanics",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "378 mění polohu těla při překonání laťky; zde je novým mechanismem kloubové oddělení paty boty od nože při odrazu na ledě.",
+      "verdict": "accept"
+    },
+    {
+      "id": "412",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-412",
+        "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+        "tags": [
+          "sport",
+          "institutions",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "382 řeší strategickou náhodnost při penaltě, nikoli pravidla ukončení setu; katalog neobsahuje jiný poznatek o tenisovém skórování.",
+      "verdict": "accept"
+    }
+  ]
+}

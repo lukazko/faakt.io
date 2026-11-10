@@ -1,6 +1,6 @@
 {
   "name": "faakt.io",
-  "version": "1.4.2",
+  "version": "1.5.0",
   "private": true,
   "type": "module",
   "description": "doomscrolling, ale lepší",
@@ -12,7 +12,7 @@
     "og-image": "python scripts/generate-og-image.py",
     "repair-illustrations": "python scripts/repair-illustrations.py",
     "deploy": "node scripts/deploy-gh-pages.mjs",
-    "test": "node --test tests/illustrations-ai.test.mjs tests/post-knowledge.test.mjs",
+    "test": "node --test tests/illustrations-ai.test.mjs tests/post-knowledge.test.mjs tests/complete-hooks.test.mjs",
     "knowledge": "python scripts/post-knowledge.py",
     "test:knowledge": "python -m unittest discover -s tests -p test_post_knowledge.py",
     "test:e2e": "playwright test"

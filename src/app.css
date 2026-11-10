@@ -21,14 +21,16 @@
 	--cat-biologie: #34d399;
 	--cat-umeni: #f472b6;
 	--cat-literatura: #e6dc58;
-	--cat-politika: #f87171;
+	--cat-spolecnost: #f87171;
 	--cat-fyzika: #22d3ee;
-	--cat-astronomie: #818cf8;
+	--cat-chemie: #2dd4bf;
+	--cat-vesmir: #818cf8;
 		--cat-ekonomie: #84cc16;
 		--cat-psychologie: #c084fc;
-		--cat-filmy: #e879f9;
+		--cat-kinematografie: #e879f9;
 		--cat-matematika: #2dd4bf;
-		--cat-pocitacove-vedy: #10b981;
+		--cat-technologie: #10b981;
+		--cat-sport: #fb923c;
 }
 
 html,

@@ -52,7 +52,7 @@ Před výběrem námětů přečti [známé obsahové duplicity](references/dupl
 
 ## Kategorie
 
-Použij přesně jeden slug z těchto 13 hodnot:
+Použij přesně jeden slug z těchto 14 hodnot:
 
 | Slug | Kategorie |
 |---|---|
@@ -61,20 +61,24 @@ Použij přesně jeden slug z těchto 13 hodnot:
 | `biologie` | Biologie |
 | `umeni` | Umění |
 | `literatura` | Literatura |
-| `politika` | Společnost a politika |
-| `fyzika` | Fyzika a chemie |
-| `astronomie` | Astronomie |
+| `spolecnost` | Společnost |
+| `fyzika` | Fyzika |
+| `chemie` | Chemie |
+| `vesmir` | Vesmír |
 | `ekonomie` | Ekonomie |
 | `psychologie` | Psychologie |
-| `filmy` | Kinematografie |
+| `kinematografie` | Kinematografie |
 | `matematika` | Matematika |
-| `pocitacove-vedy` | Technologie |
+| `technologie` | Technologie |
+| `sport` | Sport |
 
-Biologie zahrnuje organismy, evoluci, genetiku, fyziologii i léčbu, nemoci, prevenci a životosprávu. Fyzika a chemie zahrnuje neživou přírodu včetně chemických reakcí a geofyziky. Technologie zahrnují informatiku a technické vynálezy. Společnost a politika zahrnuje také sociologii, instituce a právo. Jazyk a znaky patří jako podobor do Filozofie. Rozhoduje hlavní obsah celého příspěvku; přesahy zachycují řízené tagy. Slugy přejmenovaných kategorií zůstávají kvůli existujícím odkazům. Platné slugy určuje `src/lib/categories.js`.
+Biologie zahrnuje organismy, evoluci, genetiku, fyziologii i léčbu, nemoci, prevenci a životosprávu. Fyzika zahrnuje fyzikální zákony, skupenství, záření, jaderné a geofyzikální procesy. Chemie zahrnuje chemické prvky, složení látek, reakce a separace. Vesmír zahrnuje astronomii a kosmický výzkum. Technologie zahrnují informatiku a technické vynálezy. Společnost zahrnuje také sociologii, instituce a právo. Jazyk a znaky patří jako podobor do Filozofie. Rozhoduje hlavní obsah celého příspěvku; přesahy zachycují řízené tagy. Společnost používá slug `spolecnost` bez aliasu pro staré URL. Vesmír používá slug `vesmir` bez aliasu `astronomie`. Slugy odpovídají aktuálním názvům bez diakritiky; při přejmenování se staré slugy ani aliasy neudržují. Platné slugy určuje `src/lib/categories.js`.
 
-Při jedné zadané kategorii zůstaň v ní. U smíšené dávky vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 13. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
+Při jedné zadané kategorii zůstaň v ní. U smíšené dávky bez tematického omezení vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 14. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
 
 ## Struktura a psaní
+
+Hook nikdy nezakončuj výpustkou (`…` ani `...`) místo dokončené věty. Musí být dostupný celý; řádkový limit rozhraní nesmí useknout text uprostřed věty.
 
 Každý uložený objekt článku má přesně pole `id`, `title`, `content`, `category`, `sources`, `illustration`. Pracovní návrh má navíc `knowledge` (`idea`, `point`, `tags`, `type`); při zápisu se přesune do samostatných registrů podle `docs/post-knowledge.md`. První čtyři jsou řetězce. `sources` je pole 2–3 objektů s řetězci `label` a `url`; `illustration` je objekt popsaný níže. Kompletní ukázka je v propojeném redakčním zadání.
 
@@ -117,3 +121,6 @@ Při běžném přidání postů dokonči celý postup v části „Výchozí ro
 Při změně schématu nebo redakčních pravidel udržuj tento skill a redakční handoff ve vzájemném souladu ve stejné změně.
 <!-- Explicitní výjimka pro uživatelem zadané doplnění číselné mezery. -->
 Pokud uživatel výslovně požádá vyplnit chybějící ID, má tento požadavek přednost před výchozím pokračováním nad maximem. Ověř aktuální volná ID a použij je vzestupně; příkazy `check-plan`, `check-drafts` a `append` v `scripts/post-knowledge.py` v takovém případě vyžadují výslovné `--fill-gaps`. Režim neumožňuje přepsat existující ID ani přeskočit první volné ID. Bez této volby zůstává dosavadní pravidlo maxima + 1. Obsahové kontroly, zdroje a redakční schválení platí beze změny.
+
+
+Kategorie `sport` (Sport) zahrnuje dějiny sportu, soutěže, pravidla, sportovní kuriozity a teorie výkonu či strategie. Zdravotní účinky pohybu a životospráva zůstávají v Biologii. Tematické zadání dávky má přednost před obecným doporučením pokrýt všechny kategorie.

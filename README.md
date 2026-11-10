@@ -16,7 +16,7 @@ npm install
 npm run dev
 ```
 
-Otevři **http://localhost:5173/** v prohlížeči.
+Otevři **http://localhost:5173/faakt.io/** v prohlížeči.
 
 ### Zobrazení na mobilu
 
@@ -33,7 +33,15 @@ npm run build
 npm run preview
 ```
 
-Build vygeneruje statické soubory do `build/` a `preview` je obslouží na **http://localhost:4173/**.
+Build vygeneruje statické soubory do `build/` a `preview` je obslouží na **http://localhost:4173/faakt.io/**.
+
+## Testy a pracovní soubory
+
+Pro vývoj a testy používej Node.js 22. `npm test` kontroluje identifikátory a odkazy příspěvků, úplné hooky, ilustrace a redakční index; zahrnuje i Python testy bezpečného zápisu obsahu. `npm run test:knowledge` je samostatné spuštění téže Python sady, není potřeba jej opakovat po `npm test`.
+
+`npm run test:e2e` ověřuje feed, načítání dalších karet, filtrování, otáčení, sdílení, hlášení chyb a čitelnost na Android Chromium, iPhone WebKit a desktop Chromium. Před prvním spuštěním nainstaluj prohlížeče: `npx playwright install chromium webkit`. Podrobnosti auditu pokrytí jsou v [docs/test-audit.md](docs/test-audit.md).
+
+Buildy (`build/`, `build-*/`, `build_*/`), lokální náhledy (`.local-preview/`), pracovní soubory (`tmp/`, `tmp-*.json`), Python prostředí a logy patří pouze na lokální disk. Git je ignoruje. `reports/` uchovává redakční rozhodnutí a doklady kontrol; nejde o buildovou cache. Přijaté ilustrace patří do `static/illustrations-ai/`, ne do dočasných adresářů.
 
 ## Generování obsahu
 

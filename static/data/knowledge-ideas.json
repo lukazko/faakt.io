@@ -2782,8 +2782,8 @@
       "type": "discovery"
     },
     "idea-838": {
-      "point": "Snadná dostupnost vyhledávání může přesouvat paměť od samotné informace ke znalosti, kde ji znovu najít.",
-      "type": "principle"
+      "point": "Právo na zapomnění umožňuje za určitých podmínek odstranit odkazy z výsledků hledání jména bez smazání původního článku a vyžaduje vážit soukromí proti veřejnému zájmu.",
+      "type": "event"
     },
     "idea-839": {
       "point": "Britská ústava tvoří soubor zákonů, zvyklostí a dalších pramenů namísto jediné úplné kodifikované listiny.",
@@ -3491,6 +3491,246 @@
     },
     "idea-352": {
       "point": "Horší spánek v partnerských studiích souvisel s více konflikty, menší empatií a obtížnějším řešením sporů, aniž tyto souvislosti vysvětlují každý konflikt.",
+      "type": "principle"
+    },
+    "idea-353": {
+      "point": "Aristotelův argument funkce odvozuje lidské dobro od rozumové činnosti vykonávané dobře, nikoli od pouhého pocitu spokojenosti.",
+      "type": "theory"
+    },
+    "idea-354": {
+      "point": "Aristotelův princip sporu vylučuje připsat i upřít tutéž vlastnost témuž předmětu současně a v témže ohledu.",
+      "type": "theory"
+    },
+    "idea-355": {
+      "point": "Stoická oikeiósis rozšiřuje přirozenou péči o sebe směrem k druhým a Hieroklovy kruhy ji vztahují až k celému lidstvu.",
+      "type": "theory"
+    },
+    "idea-356": {
+      "point": "Humův problém indukce ukazuje, že budoucí podobnost přírody s minulostí nelze nekruhově dokázat poukazem na dosavadní úspěch zkušenosti.",
+      "type": "theory"
+    },
+    "idea-357": {
+      "point": "Kant vysvětluje možnost zkušenosti tím, že mysl přispívá formami prostoru a času i kategoriemi, aniž tím poznává věci samy o sobě.",
+      "type": "theory"
+    },
+    "idea-358": {
+      "point": "Rousseau odlišuje obecnou vůli zaměřenou na společný zájem od součtu soukromých přání a nepokládá každé hlasování za její jistý výraz.",
+      "type": "theory"
+    },
+    "idea-359": {
+      "point": "Wollstonecraftová vysvětluje domnělou ženskou rozumovou méněcennost výchovou k závislosti a požaduje vzdělání pro samostatné mravní jednání.",
+      "type": "theory"
+    },
+    "idea-360": {
+      "point": "Kant roku 1784 rozlišuje služební užití rozumu v přidělené roli od svobodného veřejného rozvažování určeného čtenářské obci.",
+      "type": "theory"
+    },
+    "idea-361": {
+      "point": "Britská kapitulace u Saratogy v roce 1777 pomohla přesvědčit Francii k formálnímu spojenectví s americkými povstalci v roce 1778.",
+      "type": "event"
+    },
+    "idea-362": {
+      "point": "Francouzské ovládnutí Chesapeacké zátoky roku 1781 odřízlo Cornwallise od námořní pomoci a umožnilo úspěch obléhání Yorktownu.",
+      "type": "event"
+    },
+    "idea-363": {
+      "point": "Washington v roce 1777 nařídil organizovanou variolaci vojáků proti neštovicím, přestože dočasně oslabovala bojeschopnost a sama nesla riziko.",
+      "type": "event"
+    },
+    "idea-364": {
+      "point": "Paineův Common Sense v lednu 1776 veřejně hájil úplnou nezávislost a napadl dědičnou monarchii místo pouhého požadavku napravit koloniální křivdy.",
+      "type": "work"
+    },
+    "idea-365": {
+      "point": "Goethův Werther zprostředkuje svět převážně hrdinovými dopisy a ukazuje, jak se intenzivní cit může uzavřít před perspektivami druhých.",
+      "type": "work"
+    },
+    "idea-366": {
+      "point": "Chaloupka strýčka Toma využila příběhy rozdělovaných rodin k mobilizaci proti otroctví, přičemž její vlastní rasové stereotypy zůstávají předmětem kritiky.",
+      "type": "work"
+    },
+    "idea-367": {
+      "point": "Herbertova Duna a její pokračování zpochybňují mesiášské vůdcovství tím, že vítězství charismatického hrdiny spojují s neovladatelnými následky jeho kultu.",
+      "type": "work"
+    },
+    "idea-368": {
+      "point": "Pán prstenů spojuje odmítnutí všemocného prostředku s pokušením ovládat druhé i pro domněle dobrý cíl.",
+      "type": "work"
+    },
+    "idea-369": {
+      "point": "Carsonové Mlčící jaro zpřístupnilo veřejnosti ekologické důsledky necíleného používání pesticidů a proměnilo otázku jejich kontroly.",
+      "type": "work"
+    },
+    "idea-370": {
+      "point": "Federované učení sdružuje lokální aktualizace modelu místo centrálního sběru tréninkových dat, ale samotné toto uspořádání nezaručuje úplné soukromí.",
+      "type": "principle"
+    },
+    "idea-371": {
+      "point": "Self-attention v transformeru vytváří kontextovou reprezentaci tokenu váženým kombinováním informací z dalších dostupných pozic sekvence.",
+      "type": "principle"
+    },
+    "idea-372": {
+      "point": "Aditivní výroba skládá díl po vrstvách podle digitálního modelu, což umožňuje nové geometrie, ale nezaručuje stejné vlastnosti ve všech směrech.",
+      "type": "principle"
+    },
+    "idea-373": {
+      "point": "Lipidové nanočástice chrání mRNA před rozkladem a pomáhají jejímu doručení do cytoplazmy, přičemž významnou překážkou zůstává únik z endozomu.",
+      "type": "principle"
+    },
+    "idea-374": {
+      "point": "Ve zkříženém pokusu dávka 400 mg kofeinu narušovala spánek i šest hodin před spaním; účinek závisí na dávce, načasování a jednotlivci.",
+      "type": "discovery"
+    },
+    "idea-375": {
+      "point": "Pravidelné ponořování do studené vody bezprostředně po silovém tréninku může tlumit svalovou hypertrofii, takže krátkodobá regenerace a dlouhodobá adaptace nejsou totožné.",
+      "type": "discovery"
+    },
+    "idea-376": {
+      "point": "Roční studie u lidí s obezitou neprokázala významně větší úbytek hmotnosti přidáním osmihodinového jídelního okna ke kalorickému omezení.",
+      "type": "discovery"
+    },
+    "idea-377": {
+      "point": "Kreatin zvyšuje svalové zásoby kreatinu a fosfokreatinu, které pomáhají rychle obnovovat ATP při krátkých intenzivních výkonech.",
+      "type": "principle"
+    },
+    "idea-378": {
+      "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+      "type": "event"
+    },
+    "idea-379": {
+      "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+      "type": "event"
+    },
+    "idea-380": {
+      "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+      "type": "event"
+    },
+    "idea-381": {
+      "point": "Efekt relativního věku vzniká při ročníkovém třídění sportovců, kdy vývojová výhoda starších dětí může ovlivnit výběr i další přístup k tréninku.",
+      "type": "principle"
+    },
+    "idea-382": {
+      "point": "Smíšená strategie při penaltě záměrně střídá volby s vhodnými pravděpodobnostmi, aby soupeř nemohl využít předvídatelný vzorec.",
+      "type": "theory"
+    },
+    "idea-383": {
+      "point": "Operace Mincemeat podsunula roku 1943 falešné invazní plány prostřednictvím těla s vytvořenou identitou, aby odvedla německou pozornost od Sicílie.",
+      "type": "event"
+    },
+    "idea-384": {
+      "point": "Sutton Hoo uchovalo tvar raně středověké pohřební lodi v půdě a železných spojích, ale bohatá výbava sama neurčuje totožnost pohřbeného.",
+      "type": "discovery"
+    },
+    "idea-385": {
+      "point": "Aristotelés odlišuje historii toho, co se stalo, od básnictví toho, co by se pravděpodobně či nutně mohlo stát; rozdíl není v použití veršů.",
+      "type": "theory"
+    },
+    "idea-386": {
+      "point": "Aristotelovo potenciální nekonečno označuje neomezenou možnost pokračovat například v dělení, nikoli dokončený nekonečný souhrn všech kroků.",
+      "type": "theory"
+    },
+    "idea-387": {
+      "point": "Narvalí kel je prodloužený, obvykle levý horní zub prorůstající pyskem, nikoli roh; typicky jej mají samci, ale existují výjimky.",
+      "type": "principle"
+    },
+    "idea-388": {
+      "point": "Quorum sensing koordinuje bakteriální genovou aktivitu prostřednictvím koncentrace uvolňovaných signálů, kterou kromě hustoty buněk ovlivňuje také prostředí.",
+      "type": "principle"
+    },
+    "idea-389": {
+      "point": "Lití na ztracený vosk nahrazuje odstraněný voskový model kovem v žáruvzdorné formě; nepřímý postup zachovává původní model pomocí voskových kopií.",
+      "type": "principle"
+    },
+    "idea-390": {
+      "point": "Mezzotinta získává světlé tóny vyhlazováním celoplošně zdrsněné kovové desky, protože hladší místa při hlubotisku zadrží méně barvy.",
+      "type": "principle"
+    },
+    "idea-391": {
+      "point": "Kigo v tradičním haiku ukotvuje báseň v ročním období a aktivuje sdílené kulturní asociace, které se mezi jazyky a místy nemusejí přenést beze změny.",
+      "type": "principle"
+    },
+    "idea-392": {
+      "point": "Calvinův román Když jedné zimní noci cestující mění přerušované čtení a touhu po pokračování v příběh samotného Čtenáře.",
+      "type": "work"
+    },
+    "idea-393": {
+      "point": "Presumpce neviny podle článku 6 Evropské úmluvy chrání obviněného před předčasným přisouzením viny a v zásadě ukládá její prokázání obžalobě.",
+      "type": "principle"
+    },
+    "idea-394": {
+      "point": "Subsidiarita v EU mimo výlučné pravomoci podmiňuje unijní zásah nedostatečností řešení členskými státy a lepší dosažitelností cíle na unijní úrovni.",
+      "type": "principle"
+    },
+    "idea-395": {
+      "point": "Podchlazená voda zůstává kapalná pod bodem mrazu, dokud nezačne krystalizace; její přítomnost v oblacích je důležitá i pro vznik námrazy.",
+      "type": "principle"
+    },
+    "idea-396": {
+      "point": "Běžné okenní sklo je za pokojové teploty amorfní pevná látka a nerovnoměrná tloušťka historických tabulí nedokládá jejich stékání během staletí.",
+      "type": "principle"
+    },
+    "idea-397": {
+      "point": "Proměnlivé slapové deformace Io při oběhu v gravitačně vázané soustavě Jupiterových měsíců přeměňují mechanickou energii na teplo pohánějící vulkanismus.",
+      "type": "principle"
+    },
+    "idea-398": {
+      "point": "Lagrangeovy body umožňují malému tělesu držet polohu vůči dvěma obíhajícím velkým tělesům; L1–L3 jsou nestabilní, zatímco L4 a L5 mohou být za vhodných podmínek stabilní.",
+      "type": "principle"
+    },
+    "idea-399": {
+      "point": "U Giffenova statku může zlevnění snížit poptávané množství, pokud u velmi omezeného rozpočtu převáží důchodový účinek nad substitucí.",
+      "type": "principle"
+    },
+    "idea-400": {
+      "point": "Měnové trilema říká, že nelze současně plně udržovat pevný kurz, volný pohyb kapitálu a nezávislou měnovou politiku.",
+      "type": "theory"
+    },
+    "idea-401": {
+      "point": "Krátké přerušení mezi verzemi scény může skrýt i velkou změnu potlačením místních pohybových vodítek; cílená pozornost její rozpoznání usnadňuje.",
+      "type": "discovery"
+    },
+    "idea-402": {
+      "point": "Fenomén špičky jazyka je dočasné selhání vybavení slova při pocitu jeho znalosti, někdy s dostupným významem či částí zvukové podoby.",
+      "type": "principle"
+    },
+    "idea-403": {
+      "point": "Rotoskopie převádí pohyb z hraných záběrů do animace po jednotlivých snímcích, aniž by vyžadovala zachovat fotografický vzhled předlohy.",
+      "type": "principle"
+    },
+    "idea-404": {
+      "point": "ADR nahrazuje nebo doplňuje dialog novou studiovou nahrávkou synchronizovanou s obrazem a hereckým výkonem z natáčení.",
+      "type": "principle"
+    },
+    "idea-405": {
+      "point": "Buffonova jehla protíná rovnoběžné čáry s pravděpodobností 2l/(pí·d) pro l nejvýše d při rovnoměrné nezávislé poloze a orientaci, což umožňuje odhad pí.",
+      "type": "principle"
+    },
+    "idea-406": {
+      "point": "Šachovnici bez dvou protilehlých rohů nelze pokrýt dominy 1×2, protože každé kryje obě barvy stejně, ale zbylá deska má jejich počty rozdílné.",
+      "type": "principle"
+    },
+    "idea-407": {
+      "point": "Konzistentní hašování mapuje klíče a uzly do společného prostoru tak, aby přidání či odebrání uzlu přesouvalo jen omezenou část přiřazení.",
+      "type": "principle"
+    },
+    "idea-408": {
+      "point": "Dvoufázové potvrzení odděluje přípravu všech účastníků od konečného rozhodnutí o transakci, ale při poruše může ponechat připravené účastníky čekat se zámky.",
+      "type": "principle"
+    },
+    "idea-409": {
+      "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+      "type": "event"
+    },
+    "idea-410": {
+      "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+      "type": "principle"
+    },
+    "idea-411": {
+      "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+      "type": "principle"
+    },
+    "idea-412": {
+      "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
       "type": "principle"
     }
   }
