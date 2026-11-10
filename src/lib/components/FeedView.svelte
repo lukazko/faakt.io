@@ -39,7 +39,7 @@
 	// Příspěvek, na kterém uživatel právě stojí. Nabídka akcí bydlí v kartě,
 	// ale její stav drží feed — otevírá se jen u aktivní karty a při scrollu
 	// se zavře. Na koncové kartě ("načíst další") žádný příspěvek není.
-	let activePost = $derived(posts[currentIndex] ?? null);
+	let activePost = $derived(currentIndex < visibleCount ? posts[currentIndex] ?? null : null);
 
 	// --- Rozměry karty ---------------------------------------------------
 	// Karta má pevnou výšku, kterou dopočítáme z reálného prostoru feedu:
@@ -245,7 +245,9 @@
 		const step = cardStep || el.clientHeight;
 		const scrollTop = el.scrollTop;
 		const idx = Math.round(scrollTop / step);
-		if (idx !== currentIndex && idx >= 0 && idx < posts.length) {
+		const loadedCount = Math.min(visibleCount, totalPosts);
+		const lastIndex = visibleCount < totalPosts || activeCategory ? loadedCount : loadedCount - 1;
+		if (idx !== currentIndex && idx >= 0 && idx <= lastIndex) {
 			currentIndex = idx;
 			// Nabídka patří k příspěvku, na kterém uživatel stál — po posunu zavřít.
 			menuOpen = false;
@@ -321,7 +323,7 @@
 	function getProgress() {
 		const denom = Math.min(visibleCount, totalPosts);
 		if (denom === 0) return 0;
-		return Math.round((Math.min(currentIndex, denom - 1) / denom) * 100);
+		return Math.round((Math.min(currentIndex, denom) / denom) * 100);
 	}
 
 	$effect(() => {
