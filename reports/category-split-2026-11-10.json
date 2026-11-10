@@ -1,0 +1,460 @@
+{
+  "reason": "Split physics and chemistry by full article content; rename astronomy to vesmir without alias. Only categories and corresponding source fingerprints changed; texts and semantic metadata preserved.",
+  "changes": [
+    {
+      "id": "3",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "10",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "14",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "24",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "42",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "44",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "52",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "54",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "64",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "74",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "85",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "96",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "113",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "115",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "126",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "139",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "155",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "218",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "219",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "220",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "221",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "288",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "289",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "290",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "291",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "292",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "293",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "294",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "548",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "549",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "550",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "551",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "552",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "553",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "554",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "555",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "556",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "557",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "558",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "559",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "560",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "561",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "562",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "563",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "564",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "565",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "566",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "567",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "568",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "569",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "570",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "571",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "572",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "573",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "574",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "575",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "576",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "577",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "578",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "579",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "580",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "581",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "582",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "667",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "668",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "669",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "670",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "715",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "716",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "761",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "762",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "823",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "824",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "825",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "836",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "837",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "894",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "913",
+      "from": "fyzika",
+      "to": "chemie"
+    },
+    {
+      "id": "914",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "915",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "941",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "942",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "968",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "969",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "333",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "334",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "335",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "336",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "337",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "397",
+      "from": "astronomie",
+      "to": "vesmir"
+    },
+    {
+      "id": "398",
+      "from": "astronomie",
+      "to": "vesmir"
+    }
+  ]
+}

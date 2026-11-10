@@ -267,10 +267,11 @@ const CTA_BY_CATEGORY = {
 	'filozofie': 'Co tím myslel?',
 	'biologie': 'Jak to funguje?',
 	'fyzika': 'Jak to funguje?',
-	'astronomie': 'Jak to funguje?',
+	'chemie': 'Jak to funguje?',
+	'vesmir': 'Jak to funguje?',
 	'matematika': 'Jak to funguje?',
 	'ekonomie': 'Jak to funguje?',
-	'pocitacove-vedy': 'Jak to funguje?',
+	'technologie': 'Jak to funguje?',
 	'literatura': 'Zjistit, co následovalo'
 };
 

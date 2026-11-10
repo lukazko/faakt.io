@@ -1,0 +1,550 @@
+{
+  "mapping": {
+    "filmy": "kinematografie",
+    "pocitacove-vedy": "technologie"
+  },
+  "changes": [
+    {
+      "id": "55",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "65",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "75",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "97",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "117",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "134",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "147",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "148",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "149",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "150",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "153",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "230",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "231",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "232",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "233",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "234",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "235",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "256",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "257",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "258",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "259",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "279",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "280",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "281",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "282",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "312",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "428",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "429",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "430",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "431",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "432",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "433",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "434",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "435",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "436",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "437",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "438",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "439",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "452",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "453",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "454",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "455",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "456",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "457",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "458",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "459",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "460",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "461",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "675",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "681",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "682",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "683",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "684",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "685",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "694",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "695",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "696",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "697",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "731",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "732",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "733",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "734",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "741",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "742",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "743",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "782",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "783",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "784",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "785",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "786",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "795",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "796",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "797",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "798",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "799",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "827",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "828",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "865",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "866",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "887",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "888",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "889",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "892",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "920",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "921",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "924",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "925",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "926",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "947",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "948",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "951",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "952",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "960",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "961",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "962",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "318",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "319",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "320",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "321",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "322",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "370",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "371",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "372",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "373",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "403",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "404",
+      "from": "filmy",
+      "to": "kinematografie"
+    },
+    {
+      "id": "407",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    },
+    {
+      "id": "408",
+      "from": "pocitacove-vedy",
+      "to": "technologie"
+    }
+  ],
+  "gallery_categories_synchronized": 167,
+  "note": "Only category fields and matching source hashes changed; content, semantic metadata, images and generation provenance preserved."
+}

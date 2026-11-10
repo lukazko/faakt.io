@@ -75,7 +75,7 @@
     "id": "3",
     "title": "Hvězda, kterou vidíte dnes, možná už dávno nesvítí",
     "content": "<p>Když se v noci podíváte na oblohu, díváte se do minulosti. Ne v přeneseném smyslu — doslova.</p><p>Světlo se šíří rychlostí zhruba 300 000 kilometrů za sekundu, ale vesmír je tak obrovský, že mu cesta k nám trvá roky, staletí, i miliony let.</p><p>Hvězda Betelgeuze je od Země vzdálená přibližně 640 světelných let. To znamená, že světlo, které z ní dnes vidíme, vyslala v době, kdy v Evropě panovala renesance.</p><p>Pokud by Betelgeuze dnes explodovala jako supernova, dozvěděli bychom se to až za staletí.</p><p>Díváme se na obraz vesmíru, který už možná neexistuje.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – How Far Away Is It?",
@@ -327,7 +327,7 @@
     "id": "10",
     "title": "Tabulka prvků, kterou chemik uviděl ve snu",
     "content": "<p>Ruský chemik Dmitrij Mendělejev v roce 1869 tvrdil, že uspořádání chemických prvků se mu zjevilo ve snu poté, co usnul nad kartami s jejich vlastnostmi. Ať je to legenda nebo pravda, výsledek byl revoluční.</p><p>Mendělejev prvky uspořádal podle atomové hmotnosti a odhalil, že se jejich vlastnosti pravidelně opakují.</p><p>Odvážně nechal v tabulce prázdná místa pro prvky, které ještě nikdo neobjevil, a dokonce předpověděl jejich vlastnosti. Galium a germanium byly objeveny během několika let přesně tam, kde je čekal.</p><p>Periodická tabulka se od té doby stala základní mapou chemie, kterou dnes visí v každé školní třídě.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Royal Society of Chemistry",
@@ -471,7 +471,7 @@
     "id": "14",
     "title": "První fotografie něčeho, co pohltí i světlo",
     "content": "<p>Jak vyfotit něco, odkud neunikne ani světlo? Dne 10. dubna 2019 zveřejnil projekt Event Horizon Telescope první skutečný snímek černé díry.</p><p>Snímek zachytil obří černou díru v centru galaxie M87, vzdálené asi 55 milionů světelných let od Země, s hmotností odpovídající šesti a půl miliardám Sluncí.</p><p>Na fotografii je vidět oranžový prstenec rozpáleného plynu kolem temného středu, přesně toho místa, odkud už ani světlo nemůže uniknout. Ke vzniku snímku bylo potřeba propojit osm radioteleskopů rozmístěných po celé planetě.</p><p>Do té doby existovaly černé díry jen jako matematický důsledek Einsteinových rovnic. Poprvé je lidstvo skutečně uviděla.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Event Horizon Telescope",
@@ -831,7 +831,7 @@
     "id": "24",
     "title": "Planety nejezdí po kruzích, jak si tisíce let myslel celý svět",
     "content": "<p>Po dva tisíce let si astronomové mysleli, že planety obíhají po dokonalých kruzích, protože kruh byl považován za symbol božské dokonalosti. Johannes Kepler ale při zkoumání pozorovacích dat Tychona Braha zjistil, že se tato představa neshoduje s realitou.</p><p>V roce 1609 publikoval svůj první zákon: <strong>planety obíhají Slunce po elipsách, ne po kružnicích</strong>, přičemž Slunce leží v jednom z jejich ohnisek.</p><p>Zjistil také, že se planety pohybují rychleji, když jsou blíž Slunci, a pomaleji, když jsou dál — díky čemu opsaný obsah plochy za stejný čas zůstává vždy stejný.</p><p>Tyto tři Keplerovy zákony později Newton matematicky odvodil ze svého gravitačního zákona a dodnes se používají k výpočtu drah satelitů a sond.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA",
@@ -1474,7 +1474,7 @@
     "id": "42",
     "title": "Chemik, který dal jméno plynu, co udržuje oheň hořet",
     "content": "<p>Proč hoří oheň a proč se dusíme bez vzduchu? Do 70. let 18. století panovala teorie, že za hořením stojí neviditelná látka flogiston, která z předmětu unikala.</p><p>Francouzský chemik Antoine Lavoisier tuto představu vyvrátil pečlivými váhovými experimenty a v roce 1778 popsal plyn, který hoření naopak umožňuje. Nazval ho <strong>oxygène</strong>, tedy kyslík.</p><p>Jeho práce položila základy moderní chemie a zákona zachování hmotnosti.</p><p>Osudná ironie: muž, který zásadně změnil chápání přírody, byl v roce 1794 popraven gilotinou během Francouzské revoluce, obviněn z podvodů coby bývalý výběrčí daní.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Encyclopedia Britannica",
@@ -1546,7 +1546,7 @@
     "id": "44",
     "title": "První planeta objevená u cizí hvězdy podobné Slunci",
     "content": "<p>Existují planety i mimo naši sluneční soustavu? Do roku 1995 to bylo jen teoretickou možností, kterou nikdo nepotvrdil.</p><p>Švýcarští astronomové Michel Mayor a Didier Queloz tehdy oznámili objev planety <strong>51 Pegasi b</strong>, obíhající hvězdu podobnou Slunci ve vzdálenosti přibližně 50 světelných let od Země.</p><p>Planeta byla překvapením i pro samotné astronomy — obíhala svou hvězdu extrémně blízko, s oběžnou dobou pouhých 4 dní, což tehdejší teorie o vzniku planet nepředpokládaly.</p><p>Objev odstartoval intenzivní hledání exoplanet, dnes jich známe přes pět tisíc, a v roce 2019 za něj Mayor a Queloz získali Nobelovu cenu za fyziku.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA Exoplanet Exploration",
@@ -1833,7 +1833,7 @@
     "id": "52",
     "title": "Mendělejev nechal v tabulce prázdná místa pro prvky, které ještě nikdo neviděl",
     "content": "<p>Jak si můžete být jistí, že něco existuje, aniž byste to kdy viděli? Ruský chemik Dmitrij Mendělejev v roce 1869 uspořádal známé chemické prvky podle atomové hmotnosti a všiml si opakujícího se vzoru vlastností.</p><p>Když v tabulce narazil na mezeru, neignoroval ji — nechal ji prázdnou.</p><p>Na základě vzoru dokonce předpověděl vlastnosti dosud neobjevených prvků, které nazval eka-hliník a eka-silicium. Během několika let byly objeveny gallium a germanium — a jejich vlastnosti se s předpovědí téměř přesně shodovaly.</p><p>Periodická tabulka se tak stala nejen katalogem, ale nástrojem předpovědi. Dnes obsahuje 118 prvků a visí v každé učebně chemie na světě.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Royal Society of Chemistry",
@@ -1905,7 +1905,7 @@
     "id": "54",
     "title": "První fotografie objektu, ze kterého nemůže uniknout ani světlo",
     "content": "<p>Jak vyfotíte něco, co ze své podstaty nevydává ani nepropouští žádné světlo? Přesně tento problém řešil mezinárodní tým Event Horizon Telescope, když v roce 2019 zveřejnil první snímek černé díry.</p><p>Nešlo o fotografii samotné díry, ale o obraz jejího horizontu událostí — hranice, za kterou už světlo nemá šanci uniknout.</p><p>Snímek zachycuje černou díru v centru galaxie M87, vzdálené asi 55 milionů světelných let, a vznikl kombinací dat z osmi radioteleskopů rozmístěných po celé Zeměkouli, které fungovaly jako jeden virtuální teleskop o velikosti planety.</p><p>Tmavý střed obklopený zářícím prstencem přesně odpovídal předpovědím Einsteinovy obecné teorie relativity z roku 1915, publikované více než sto let předtím.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Event Horizon Telescope",
@@ -1941,7 +1941,7 @@
     "id": "55",
     "title": "Turingův test: jak poznat, že s vámi mluví stroj",
     "content": "<p>Jak byste zjistili, že váš protějšek v textové konverzaci není člověk, ale program? Britský matematik Alan Turing si tuto otázku položil v roce 1950 ve svém článku „Computing Machinery and Intelligence“.</p><p>Navrhl místo otázky „Umí stroje myslet?“ jednodušší test: pokud tazatel po textové konverzaci nepozná, zda mluví s člověkem nebo strojem, lze stroj považovat za myslící.</p><p>Turing tím obešel filozoficky nekonečnou debatu o podstatě myšlení a nahradil ji prakticky ověřitelným kritériem chování.</p><p>Test se stal ikonou umělé inteligence a je dodnes referenčním bodem, přestože moderní jazykové modely otevírají otázku, zda je schopnost napodobit konverzaci skutečně totéž jako myslet.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Stanford Encyclopedia of Philosophy",
@@ -2265,7 +2265,7 @@
     "id": "64",
     "title": "Halleyova kometa: první úspěšně předpovězený návrat z vesmíru",
     "content": "<p>Jak se pozná, že kometa na obloze není nová, ale ta stejná, kterou lidé viděli už před desítkami let? Astronom Edmond Halley v roce 1705 propočítal dráhy komet zaznamenaných v letech 1531, 1607 a 1682 a všiml si, že se jejich oběžné dráhy téměř shodují.</p><p>Usoudil, že jde o jedno a totéž těleso, které se vrací přibližně každých 76 let, a předpověděl jeho návrat na rok 1758.</p><p>Halley se toho návratu nedožil, zemřel v roce 1742, ale kometa se skutečně objevila přesně v předpovězeném roce a na jeho počest ji nazvali Halleyova kometa.</p><p>Naposledy byla viditelná ze Země v roce 1986 a další návrat je očekáván v roce 2061.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Halley's Comet",
@@ -2301,7 +2301,7 @@
     "id": "65",
     "title": "Ada Lovelace psala programy pro stroj, který nikdy nebyl postaven",
     "content": "<p>Jak lze naprogramovat počítač, který ještě neexistuje? Přesně tento problém řešila Ada Lovelace v roce 1843.</p><p>Britská matematička se věnovala Analytickému stroji Charlese Babbage — mechanickému zařízení, které mělo počítat pomocí ozubených kol a karet podobných těm z tkalcovských stavů. Stroj sám nikdy nebyl za jejich života dokončen.</p><p>Ve svých poznámkách k překladu italského textu o stroji Lovelace popsala postup, jak by na něm bylo možné vypočítat Bernoulliova čísla — dnes se tento algoritmus považuje za jeden z prvních počítačových programů v historii.</p><p>Ještě zajímavější je její poznámka, že stroj bude umět jen to, co mu člověk přesně nařídí — myšlenka, která předjímá diskuse o strojové inteligenci o více než sto let dopředu.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – Ada Lovelace",
@@ -2625,7 +2625,7 @@
     "id": "74",
     "title": "Kepler zjistil, že planety létají po elipsách, ne po kruzích",
     "content": "<p>Co když je celý model vesmíru, kterému staletí věřili, prostě špatně? Johannes Kepler pracoval s pozorovacími daty svého učitele Tychona Braha a snažil se pochopit pohyb planety Mars.</p><p>Kruhové dráhy, se kterými počítala tehdejší astronomie, jeho výpočtům neseděly.</p><p>V roce 1609 přišel s převratným řešením: planety se nepohybují po kružnicích, ale po elipsách se Sluncem v jednom z ohnisek. O deset let později doplnil třetí zákon, který popisuje vztah mezi vzdáleností planety od Slunce a délkou jejího oběhu.</p><p>Keplerovy zákony později posloužily Newtonovi jako podklad pro formulaci gravitačního zákona.</p><p>Trvalo tisíce let pozorování, než si lidstvo uvědomilo, že vesmír není tak souměrný, jak si přál.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA",
@@ -2661,7 +2661,7 @@
     "id": "75",
     "title": "Mol, který uvízl v počítači a dal jméno chybám v programech",
     "content": "<p>Víte, proč chybě v softwaru říkáme anglicky <em>bug</em>, tedy brouk? V roce 1947 pracoval tým kolem programátorky Grace Hopperové na počítači Harvard Mark II.</p><p>Stroj se nečekaně přestal chovat správně a technici při hledání příčiny objevili v jednom z relé uvízlého mola.</p><p>Hmyz vylepili do provozního deníku počítače s poznámkou, že šlo o první nalezený skutečný <em>bug</em>. Samotné slovo pro technickou závadu se používalo už dříve, například u Thomase Edisona v 19. století, ale tento konkrétní zápis se stal legendárním symbolem.</p><p>Původní stránka deníku s přilepeným molem se dnes uchovává ve Smithsonově institutu.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Smithsonian National Museum of American History",
@@ -3019,7 +3019,7 @@
     "id": "85",
     "title": "Koperník postavil Slunce do středu vesmíru a čekal s vydáním knihy",
     "content": "<p>Co dělat s myšlenkou, o které víte, že popudí celou tehdejší autoritu? Polský astronom Mikuláš Koperník dopracoval svou heliocentrickou teorii, podle níž se Země a ostatní planety otáčejí kolem Slunce, už kolem roku 1510.</p><p>Se zveřejněním díla <em>De revolutionibus orbium coelestium</em> ale otálel víc než tři desetiletí.</p><p>Kniha vyšla až v roce 1543, krátce před Kopernikovou smrtí, a podle historiků se poslední výtisk k autorovi dostal jen několik týdnů před jeho úmrtím.</p><p>Model, který nahradil dosavadní geocentrickou představu vesmíru, se prosadil až o desítky let později díky Galileovi a Keplerovi.</p><p>Někdy revoluce nezačíná bouřlivým prohlášením, ale tichou knihou vydanou na smrtelném loži.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Britannica",
@@ -3412,7 +3412,7 @@
     "id": "96",
     "title": "Černé díry: místa, kde se hroutí i samotný prostor",
     "content": "<p>Co se stane s hmotou, která je tak hustá, že jí ani světlo nedokáže uniknout? Řešení Einsteinových rovnic obecné relativity, které popisuje černé díry, odvodil německý fyzik Karl Schwarzschild už v roce 1916, jen měsíce po vydání teorie samotné.</p><p>Dlouho se ale považovalo za matematickou kuriozitu, ne za skutečný objekt.</p><p>Až v roce 2019 se týmu Event Horizon Telescope povedlo pořídit první skutečnou fotografii černé díry v centru galaxie M87, vzdálené 55 milionů světelných let. Snímek ukázal charakteristický záři obklopující temný horizont, ze kterého neunikne žádná informace.</p><p>Dnes víme, že v centru téměř každé galaxie, včetně naší Mléčné dráhy, se skrývá supermasivní černá díra.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA",
@@ -3448,7 +3448,7 @@
     "id": "97",
     "title": "Turingův test: může stroj předstírat, že je člověk?",
     "content": "<p>Jak rozeznat, jestli s vámi mluví člověk, nebo stroj? Britský matematik Alan Turing tuto otázku formuloval v roce 1950 v článku <em>Computing Machinery and Intelligence</em>.</p><p>Navrhl test, ve kterém hodnotitel komunikuje písemně s neznámým partnerem — člověkem nebo počítačem — a snaží se rozpoznat, s kým mluví.</p><p>Pokud stroj dokáže hodnotitele přesvědčit natolik, že jej nerozliší od člověka, Turing navrhl, že bychom mohli uvažovat o strojovém myšlení jako o rovnocenném lidskému.</p><p>Test se stal základním kamenem debat o umělé inteligenci na celá desetiletí, i když mnozí vědci dnes namítají, že schopnost napodobit konverzaci ještě neznamená skutečné myšlení nebo vědomí.</p><p>Turing zemřel v roce 1954, dlouho před tím, než se jeho myšlenka stala centrem moderní informatiky.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Stanford Encyclopedia of Philosophy",
@@ -4024,7 +4024,7 @@
     "id": "113",
     "title": "Marie Curie: jediná osoba, která získala Nobelovu cenu ve dvou vědách",
     "content": "<p>Marie Curie-Skłodowská spolu s manželem Pierrem objevila polonium a radium. Dva nové chemické prvky vstoupily do vědy na konci 19. století.</p><p>Za výzkum radioaktivity, pojmu, který sama zavedla, získala v roce 1903 Nobelovu cenu za fyziku, kterou sdílela s manželem a Henrim Becquerelem.</p><p>V roce 1911 přišla druhá Nobelova cena, tentokrát za chemii, za izolaci čistého radia. Stala se tak první osobou v historii, která obdržela Nobelovu cenu ve dvou různých vědních oborech.</p><p>Celoživotní práce s radioaktivními látkami bez ochranných pomůcek jí pravděpodobně přivodila leukémii, na kterou v roce 1934 zemřela.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Nobel Prize – Marie Curie 1903",
@@ -4099,7 +4099,7 @@
     "id": "115",
     "title": "Apollo 11: den, kdy člověk poprvé vkročil na jiné těleso",
     "content": "<p>Dne 20. července 1969 vystoupil Neil Armstrong z lunárního modulu Eagle. Jako první člověk vkročil na povrch jiného vesmírného tělesa než Země.</p><p>Krátce po něm ho následoval Buzz Aldrin, zatímco třetí člen posádky Michael Collins zůstal na oběžné dráze v řídicím modulu Columbia.</p><p>Mise Apollo 11 byla vyvrcholením amerického vesmírného programu spuštěného po slibu prezidenta Johna F. Kennedyho z roku 1961, že USA dopraví člověka na Měsíc do konce dekády.</p><p>Astronauti na Zemi přivezli přes 21 kilogramů měsíčních hornin a na povrchu Měsíce strávili přibližně 21 hodin, než se bezpečně vrátili domů.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Apollo 11",
@@ -4171,7 +4171,7 @@
     "id": "117",
     "title": "Tim Berners-Lee a vynález, který proměnil internet ve web",
     "content": "<p>Internet jako propojená síť počítačů existoval už od 60. let. Chyběl mu však jednoduchý způsob, jak se v obsahu orientovat.</p><p>Britský informatik <strong>Tim Berners-Lee</strong>, pracující v laboratoři CERN ve Švýcarsku, v roce 1989 navrhl systém hypertextových odkazů, který nazval World Wide Web.</p><p>V roce 1990 vytvořil první webový server, první webovou stránku i první prohlížeč. Adresa první stránky patřila samotnému projektu CERN.</p><p>Berners-Lee se rozhodl svůj vynález nepatentovat a zpřístupnit ho zdarma celému světu, což umožnilo jeho raketový růst v následujících desetiletích.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "CERN – The birth of the Web",
@@ -4502,7 +4502,7 @@
     "id": "126",
     "title": "Edwin Hubble a objev, že se vesmír neustále rozpíná",
     "content": "<p>Do 20. let 20. století panovala představa statického vesmíru. Kosmos měl být neměnný, nikoli se rozpínat.</p><p>Americký astronom <strong>Edwin Hubble</strong> pozoroval pomocí dalekohledu na observatoři Mount Wilson vzdálené galaxie a zjistil, že jejich světlo je systematicky posunuto směrem k červené barvě spektra.</p><p>V roce 1929 publikoval zjištění, že čím dál je galaxie od nás, tím rychleji se od nás vzdaluje – vztah dnes známý jako Hubbleův zákon.</p><p>Tento objev poskytl první přímý důkaz, že se vesmír rozpíná, a stal se jedním z pilířů teorie velkého třesku. Na jeho počest byl pojmenován Hubbleův vesmírný dalekohled vypuštěný v roce 1990.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Edwin Hubble and the expanding universe",
@@ -4790,7 +4790,7 @@
     "id": "134",
     "title": "Alan Turing a stroj, který zkrátil válku o roky",
     "content": "<p>Za druhé světové války používalo nacistické Německo k šifrování vojenských zpráv stroj <strong>Enigma</strong>. Jeho miliardy možných nastavení tehdy platily za prakticky neprolomitelné.</p><p>Britský matematik <strong>Alan Turing</strong> vedl v tajné šifrovací stanici Bletchley Park tým, který navrhl elektromechanický stroj zvaný Bombe, schopný postupně vyloučit nesprávná nastavení Enigmy a odhalit denní šifrovací klíč.</p><p>Rozluštěné zprávy, souhrnně označované krycím jménem Ultra, poskytovaly spojencům klíčové informace o pohybu německých ponorek a vojsk.</p><p>Podle odhadů historiků toto rozluštění zkrátilo válku o dva až čtyři roky a zachránilo miliony životů, přestože práce Bletchley Parku zůstala tajná ještě desetiletí po válce.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Bletchley Park – Enigma and the Bombe",
@@ -4970,7 +4970,7 @@
     "id": "139",
     "title": "Clyde Tombaugh a objev Pluta v roce 1930",
     "content": "<p>Clyde Tombaugh hledal na observatoři Lowell v Arizoně hypotetickou Planetu X. Bylo mu třiadvacet let a neměl univerzitní vzdělání.</p><p>18. února 1930 při pečlivém porovnávání fotografických desek noční oblohy objevil malý pohybující se bod světla, který se ukázal být novým tělesem sluneční soustavy.</p><p>Objev byl oznámen 13. března 1930 a nové těleso dostalo název Pluto, navržený jedenáctiletou britskou dívkou Venetií Burneyovou podle římského boha podsvětí.</p><p>Pluto bylo po sedmdesát šest let označováno za devátou planetu sluneční soustavy, než ho Mezinárodní astronomická unie v roce 2006 překlasifikovala na trpasličí planetu.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Pluto",
@@ -5258,7 +5258,7 @@
     "id": "147",
     "title": "ENIAC: první elektronický počítač vážil 27 tun",
     "content": "<p>ENIAC byl dokončen v roce 1945 na University of Pennsylvania. Patřil k prvním elektronickým, plně programovatelným počítačům obecného určení.</p><p>Zabíral plochu přibližně 167 metrů čtverečních, vážil přes 27 tun a obsahoval téměř 18 000 elektronek, které se často přepalovaly a vyžadovaly neustálou údržbu.</p><p>Stroj byl navržen primárně pro výpočty dělostřeleckých tabulek pro americkou armádu, ale díky své univerzálnosti zvládal i další složité matematické úlohy.</p><p>Programování probíhalo ručně přepojováním kabelů a přepínačů, což mohlo trvat i několik dní – tuto náročnou práci vykonávaly převážně ženy, dnes označované jako „ENIAC programátorky“.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "University of Pennsylvania – ENIAC",
@@ -5294,7 +5294,7 @@
     "id": "148",
     "title": "Cesta na Měsíc: film z roku 1902, který vynalezl filmové triky",
     "content": "<p>Georges Méliès natočil v roce 1902 čtrnáctiminutovou Cestu na Měsíc. Průkopník filmové sci-fi byl původně profesionálním kouzelníkem.</p><p>Film ukazuje skupinu vědců, kteří vystřelí z obřího děla kabinu s posádkou na Měsíc, kde narazí na obyvatele zvané Selenité. Nejznámějším záběrem je dělová koule zabodnutá do oka antropomorfizovaného Měsíce.</p><p>Méliès při natáčení vynalezl řadu technik, které se staly základem filmových triků, včetně vícenásobné expozice, rozpouštění záběrů a ručně malovaného kolorování políček filmu.</p><p>Přestože byl film v době vydání komerčně pirátsky kopírován v USA bez Méliésova svolení, dodnes patří k nejvlivnějším dílům rané kinematografie.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "MoMA – A Trip to the Moon",
@@ -5330,7 +5330,7 @@
     "id": "149",
     "title": "Jazzový zpěvák: film, který ukončil éru němého filmu",
     "content": "<p>Do roku 1927 byly filmy prakticky výhradně němé a doprovázela je živá hudba v kině. Jazzový zpěvák přinesl na plátno synchronizované dialogy i zpěv.</p><p>Americké studio Warner Bros. toho roku uvedlo film <em>Jazzový zpěvák</em> (The Jazz Singer), který jako první celovečerní film obsahoval synchronizované mluvené dialogy a zpěv díky technologii Vitaphone.</p><p>Většina filmu byla stále němá s titulky, ale několik scén, včetně hlavní hercovy repliky „Ještě jste nic neslyšeli“, diváky ohromilo natolik, že film odstartoval rychlý přechod celého Hollywoodu ke zvukovým filmům.</p><p>Do konce 20. let 20. století se němé filmy staly prakticky historií a filmový průmysl prošel jednou z nejrychlejších technologických proměn ve své historii.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Film Registry",
@@ -5366,7 +5366,7 @@
     "id": "150",
     "title": "Psycho: jak Hitchcock přiměl diváky bát se sprchy",
     "content": "<p>Alfred Hitchcock natočil v roce 1960 thriller Psycho s poměrně nízkým rozpočtem. Aby ušetřil náklady studia, využil částečně vlastní televizní štáb.</p><p>Nejslavnější scéna filmu, vražda ve sprše, trvá na plátně necelé tři minuty, ale její natočení zabralo štábu přibližně sedm dní a obsahuje přes sedmdesát různých kamerových záběrů.</p><p>Hitchcock trval na tom, aby diváci do kina nesměli po začátku promítání, čímž tehdy porušil zavedenou konvenci pozdních příchodů, a vytvořil tak jeden z prvních marketingových triků moderní kinematografie.</p><p>Film je dodnes považován za jeden z nejvlivnějších hororových a thrillerových snímků historie a ovlivnil generace filmařů.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "BFI – Psycho facts",
@@ -5474,7 +5474,7 @@
     "id": "153",
     "title": "Alexander Graham Bell a telefonát, který odstartoval novou éru",
     "content": "<p>Dne 10. března 1876 zavolal Alexander Graham Bell přes svůj experimentální přístroj na asistenta. Watson ve vedlejší místnosti jeho slova skutečně slyšel.</p><p>Watson větu skutečně slyšel přes drát, což se stalo prvním úspěšným přenosem srozumitelné lidské řeči na dálku pomocí elektrického signálu.</p><p>Bell podal patent na telefon jen několik hodin před svým konkurentem Elishou Grayem, což později vedlo k dlouholetým soudním sporům o prvenství vynálezu.</p><p>Během několika desetiletí se telefon rozšířil po celém světě a zásadně změnil způsob, jakým lidé komunikují na dálku.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Library of Congress – Bell and the telephone",
@@ -5546,7 +5546,7 @@
     "id": "155",
     "title": "James Webb: teleskop, který vidí nejstarší galaxie vesmíru",
     "content": "<p>Vesmírný dalekohled <strong>James Webb</strong> byl vypuštěn 25. prosince 2021 do vesmíru. Umístěn byl do vzdálenosti asi 1,5 milionu kilometrů od Země, v takzvaném Lagrangeově bodě L2.</p><p>Na rozdíl od svého předchůdce, Hubbleova teleskopu, pozoruje Webb vesmír především v infračerveném spektru, což mu umožňuje vidět skrz oblaka prachu a zachytit světlo velmi vzdálených a tedy i velmi starých galaxií.</p><p>V červenci 2022 zveřejnila NASA první ostré snímky, včetně hlubokého pole vesmíru s tisíci galaxiemi, z nichž některé vznikly už několik set milionů let po velkém třesku.</p><p>Teleskop, vyvíjený přes dvacet let za náklady přesahující 10 miliard dolarů, dnes patří k nejvýkonnějším vědeckým nástrojům, jaké lidstvo kdy vytvořilo.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – James Webb Space Telescope",
@@ -7810,7 +7810,7 @@
     "id": "218",
     "title": "Nejvzdálenější lidský výtvor nese desku se zvuky Země",
     "content": "<p>Sonda Voyager 1 odstartovala v roce 1977, prozkoumala Jupiter a Saturn a pak pokračovala ven ze sluneční soustavy. V roce 2012 překročila hranici heliosféry a ocitla se v mezihvězdném prostoru.</p><p>Na palubě nese pozlacenou <strong>zlatou desku</strong> se záznamem zvuků a obrazů ze Země: pozdravy v desítkách jazyků, hudbu různých kultur, zpěv ptáků i schéma, které naznačuje polohu Slunce vůči skupině pulsarů.</p><p>Šance, že ji někdo najde, je mizivá. Vznikla spíš jako sdělení o tom, jak se lidstvo chtělo představit.</p><p>Sonda dodnes komunikuje se Zemí, signál k ní ale putuje mnoho hodin a zdroj energie postupně slábne.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Voyager Golden Record",
@@ -7846,7 +7846,7 @@
     "id": "219",
     "title": "Šum v anténě se ukázal být ozvěnou raného vesmíru",
     "content": "<p>V roce 1964 zápasili dva radioastronomové v New Jersey s přetrvávajícím šumem v citlivé anténě. Vyloučili poruchu i městské rušení a vyčistili anténu od holubího trusu. Šum zůstal.</p><p>Signál přicházel rovnoměrně ze všech směrů. Ukázalo se, že jde o <strong>reliktní záření</strong>, tedy zbytkové mikrovlnné záření z doby, kdy se vesmír zhruba 380 tisíc let po velkém třesku natolik ochladil, že se stal průhledným.</p><p>Nález se stal jedním z nejsilnějších důkazů ve prospěch teorie velkého třesku a v roce 1978 za něj byla udělena Nobelova cena za fyziku.</p><p>Pozdější družice změřily v tomto záření nepatrné nerovnoměrnosti, ze kterých vyrostly dnešní galaxie.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Cosmic Microwave Background",
@@ -7882,7 +7882,7 @@
     "id": "220",
     "title": "Pravidelné pulzy z vesmíru dostaly zprvu přezdívku malí zelení mužíčci",
     "content": "<p>V roce 1967 zachytil nový radioteleskop v Cambridge pozoruhodně pravidelný signál. Opakoval se zhruba každou sekundu a třetinu.</p><p>Taková přesnost neodpovídala tehdy známým přírodním zdrojům, a tak dostal zdroj pracovní označení odkazující na mimozemšťany. Objev učinila doktorandka Jocelyn Bellová při pečlivém procházení kilometrů papírových záznamů.</p><p>Brzy se ukázalo, že jde o <strong>pulsary</strong>, tedy rychle rotující neutronové hvězdy, které vysílají úzký svazek záření. Ten při každé otáčce přejde přes Zemi jako světlo majáku.</p><p>Neutronová hvězda o průměru jednotek kilometrů má hmotnost srovnatelnou se Sluncem, takže krychlový centimetr její hmoty váží miliardy tun.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Neutron stars and pulsars",
@@ -7915,7 +7915,7 @@
     "id": "221",
     "title": "Sluneční bouře roku 1859 rozžhavila telegrafní dráty",
     "content": "<p>V září 1859 zasáhla Zemi mimořádně silná geomagnetická bouře, vyvolaná erupcí na Slunci, kterou pozoroval britský astronom Richard Carrington. Polární záře byly viditelné i v nízkých zeměpisných šířkách, kde je lidé nikdy předtím neviděli.</p><p>Na některých místech byla obloha tak jasná, že se dalo číst.</p><p>Nejcitelnější následky zasáhly tehdy nejmodernější technologii, telegraf. Indukované proudy vyřadily linky z provozu, některé přístroje jiskřily a podle dobových zpráv šlo chvílemi telegrafovat i po odpojení baterií.</p><p>Podobná bouře by dnes ohrozila rozvodné sítě, družice i navigační systémy. Proto se stav sluneční aktivity soustavně sleduje.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – The Carrington Event",
@@ -8237,7 +8237,7 @@
     "id": "230",
     "title": "Informace se dá měřit a jednotkou je bit",
     "content": "<p>Lze změřit, kolik informace obsahuje zpráva, bez ohledu na to, zda jde o text, hudbu, nebo obrázek? Americký matematik Claude Shannon v roce 1948 ukázal, že ano.</p><p>V práci o matematické teorii komunikace zavedl jednotku <strong>bit</strong> a definoval informaci jako míru odstraněné nejistoty.</p><p>Z toho plyne nečekaný důsledek: sdělení, které se dá snadno uhodnout, nese málo informace. Čím je zpráva předvídatelnější, tím víc se dá zkrátit.</p><p>Shannon odvodil i mez, pod kterou už data bez ztráty stlačit nelze, a určil maximální rychlost spolehlivého přenosu zašuměným kanálem.</p><p>Na těchto výsledcích stojí komprese souborů, mobilní sítě i opravné kódy, díky nimž signál přežije cestu z vnějších planet.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Bell Labs – A Mathematical Theory of Communication",
@@ -8271,7 +8271,7 @@
     "id": "231",
     "title": "Šifra, kterou lze zveřejnit, aniž by se dala prolomit",
     "content": "<p>Po tisíce let platilo, že obě strany musely nejdřív tajně sdílet klíč. Jak si ale domluvit klíč s někým, koho jste nikdy nepotkali?</p><p>Řešením je <strong>asymetrická kryptografie</strong>, navržená v 70. letech 20. století. Každý má dvojici klíčů: veřejný, který může zveřejnit, a soukromý, který si nechává.</p><p>Zprávu zašifrovanou veřejným klíčem dokáže rozluštit jen držitel toho soukromého. Bezpečnost stojí na úlohách, které se snadno počítají jedním směrem a velmi obtížně zpět, jako je rozklad velmi velkého čísla na prvočinitele.</p><p>Metodu popsali v roce 1976 Whitfield Diffie a Martin Hellman, algoritmus RSA následoval o rok později.</p><p>Bez tohoto principu by neexistovalo bezpečné bankovnictví ani zabezpečené weby.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – Public-key cryptography",
@@ -8309,7 +8309,7 @@
     "id": "232",
     "title": "Předpověď z roku 1965, která se stala plánem celého odvětví",
     "content": "<p>V roce 1965 si spoluzakladatel firmy Intel Gordon Moore všiml, že počet součástek, které se vyplatí umístit na jeden čip, se pravidelně zdvojnásobuje. Z krátkého článku vznikl takzvaný <strong>Moorův zákon</strong>.</p><p>Nejde o fyzikální zákon, ale o pozorování trendu, který se později ustálil zhruba na zdvojnásobení každé dva roky.</p><p>Zajímavé je, že se předpověď stala sebenaplňující. Výrobci podle ní plánovali investice a vývoj, takže se z popisu stal cíl, který bylo třeba splnit.</p><p>Zmenšování struktur ale naráží na fyzikální meze i na rostoucí náklady továren. Výkon se proto dnes zvyšuje spíš vyšším počtem jader, specializovanými čipy a novým uspořádáním pouzder.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Intel – Moore's Law",
@@ -8345,7 +8345,7 @@
     "id": "233",
     "title": "První zpráva poslaná mezi počítači skončila po dvou písmenech",
     "content": "<p>29. října 1969 se na univerzitě v Los Angeles pokusili odeslat text do vzdáleného počítače ve Stanfordu. Byl to první provozní přenos v síti <strong>ARPANET</strong>, předchůdci internetu.</p><p>Odesílané slovo znělo login. Systém se zhroutil poté, co prošla první dvě písmena. Spojení bylo obnoveno o něco později a přenos se dokončil.</p><p>Síť byla navržena tak, aby data putovala po částech a hledala si cestu podle aktuálního stavu spojů. Právě tato odolnost vůči výpadku jednotlivých uzlů se stala jejím hlavním rysem.</p><p>Do konce roku 1969 byly připojeny čtyři uzly. Dnešní internet z tohoto principu vychází dodnes.</p><p><em>Začátek světové sítě tedy vypadal jako neúspěšné přihlášení.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "UCLA – The first internet message",
@@ -8381,7 +8381,7 @@
     "id": "234",
     "title": "Rok 1997: stroj poprvé porazil úřadujícího mistra světa v šachu",
     "content": "<p>V květnu 1997 skončil zápas mezi mistrem světa Garrim Kasparovem a počítačem <strong>Deep Blue</strong> společnosti IBM výhrou stroje v poměru 3,5 ku 2,5. O rok dříve přitom stejný soupeř lidskému hráči podlehl.</p><p>Mezi oběma zápasy byl systém výrazně posílen a doplněn o rozsáhlou práci šachových konzultantů.</p><p>Deep Blue nehrál lidským způsobem. Spoléhal na obrovský počet prohledaných pozic za sekundu a na hodnotící funkci, ne na porozumění strategii.</p><p>Symbolický dopad byl přesto velký. Ukázalo se, že hrubá výpočetní síla stačí k překonání člověka v úloze, která platila za výsostně intelektuální.</p><p>O necelých dvacet let později padla stejná hranice i ve hře go, tentokrát díky strojovému učení.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "IBM – Deep Blue",
@@ -8417,7 +8417,7 @@
     "id": "235",
     "title": "Za vyřešení otázky P versus NP čeká milion dolarů",
     "content": "<p>U některých úloh je snadné ověřit hotové řešení, ale těžké ho najít. Naskládat zavazadla do kufru optimálně je pracné, zkontrolovat hotový výsledek je hned.</p><p>Otázka <strong>P versus NP</strong> se ptá, zda je tento rozdíl skutečný, nebo jen důsledek toho, že jsme dosud nenašli dost chytrý postup.</p><p>Kdyby platilo, že P se rovná NP, existoval by rychlý algoritmus pro obrovskou třídu úloh od plánování až po hledání důkazů. Zároveň by se zhroutila většina dnešní kryptografie, která právě na obtížnosti takových úloh stojí.</p><p>Většina odborníků předpokládá, že rovnost neplatí, důkaz ale chybí.</p><p>Problém patří mezi sedm takzvaných problémů tisíciletí s odměnou jednoho milionu dolarů.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Clay Mathematics Institute – P vs NP",
@@ -9169,7 +9169,7 @@
     "id": "256",
     "title": "Film z roku 1941 přinesl techniku, kde je ostré popředí i pozadí",
     "content": "<p>Snímek <em>Občan Kane</em> bývá uváděn na čelních místech žebříčků nejlepších filmů historie. Důvodem není jen příběh o mocném vydavateli novin, ale hlavně řemeslo.</p><p>Kameraman Gregg Toland zde soustavně využil takzvanou hloubku ostrosti, při níž je zřetelně vidět blízké popředí i vzdálené pozadí. Divák tak sleduje několik dějů v jednom záběru současně.</p><p>K tomu se přidaly nízké úhly záběrů, pro které bylo nutné stavět stropy do kulis, a překrývané dialogy, které působí jako skutečná mluva.</p><p>Film v roce 1941 komerčně neuspěl. Jeho postavení vyrostlo až později, s novou generací kritiků a filmařů.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Film Registry",
@@ -9205,7 +9205,7 @@
     "id": "257",
     "title": "Rok 1995 přinesl první celovečerní film vytvořený zcela v počítači",
     "content": "<p>Do poloviny 90. let se animované filmy kreslily ručně. Počítač sloužil nanejvýš jako pomůcka pro jednotlivé záběry.</p><p>Film <em>Toy Story</em>, uvedený v roce 1995, byl prvním celovečerním snímkem vytvořeným výhradně počítačovou animací.</p><p>Volba námětu souvisela s technickými možnostmi. Plastové hračky s hladkým povrchem se tehdy modelovaly a osvětlovaly podstatně snáz než lidská kůže, vlasy nebo srst, které zůstávaly pro tehdejší software velmi obtížné.</p><p>Vykreslení jednotlivých políček probíhalo na sestavě propojených počítačů a u složitějších záběrů trvalo mnoho hodin na jeden snímek.</p><p>Úspěch filmu zásadně urychlil přechod celého odvětví k digitální animaci.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Computer History Museum – Toy Story",
@@ -9238,7 +9238,7 @@
     "id": "258",
     "title": "Film, po kterém se rozporuplným výpovědím říká rašomonský efekt",
     "content": "<p>Japonský snímek <em>Rašomon</em> z roku 1950 vypráví o jediné události, přepadení v lese, hned několikrát. Pokaždé z pohledu jiného účastníka a pokaždé jinak.</p><p>Výpovědi se neliší jen v detailech. Každá verze staví vypravěče do lepšího světla a je vnitřně soudržná, takže divák nedostane jednoznačné rozřešení.</p><p>Film získal v roce 1951 hlavní cenu na festivalu v Benátkách a zásadně otevřel západním divákům japonskou kinematografii.</p><p>Z jeho názvu se stal pojem. <strong>Rašomonský efekt</strong> se používá v psychologii, právu i žurnalistice pro situace, kdy svědci téže události podávají neslučitelné a přitom upřímné výpovědi.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Britannica – Rashomon",
@@ -9274,7 +9274,7 @@
     "id": "259",
     "title": "Střih dokáže vytvořit význam, který v jednotlivých záběrech není",
     "content": "<p>Sovětští filmaři 20. let 20. století si všimli, že divák si mezi dvěma po sobě jdoucími záběry automaticky domýšlí souvislost, i když mezi nimi žádná není. Na tomto principu postavil Sergej Ejzenštejn svou teorii montáže.</p><p>Význam podle něj nevzniká uvnitř záběru, ale ze srážky dvou obrazů.</p><p>Nejcitovanějším příkladem je sekvence na schodech v Oděse z filmu <em>Křižník Potěmkin</em> z roku 1925. Rychlé střídání detailů, kočárku a pochodujících vojáků vytváří napětí, které v jednotlivých záběrech není obsaženo.</p><p>Tento způsob práce se stal součástí základní filmové řeči a používá se dodnes, od akčních sekvencí až po reklamu.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Britannica – Sergei Eisenstein",
@@ -9996,7 +9996,7 @@
     "id": "279",
     "title": "Jeden výkřik se ve filmech opakuje už sedmdesát let",
     "content": "<p>Ve stovkách filmů zazní při pádu nebo zásahu shodný krátký mužský výkřik. Nejde o náhodu, ale o tutéž nahrávku.</p><p>Zvuk vznikl v roce 1951 pro western <em>Distant Drums</em> a jméno získal podle postavy vojáka Wilhelma z jiného snímku, ve kterém byl znovu použit.</p><p>Nahrávka se dostala do zvukové knihovny studia a zvukaři po ní sahali dál. Od 70. let z ní udělala skupina filmařů poloskrytou poctu, vkládanou do filmů záměrně, včetně velkých hollywoodských sérií.</p><p>Z technické úspornosti se tak stala tradice a nakonec i vnitřní vtip profese.</p><p>V posledních letech ho řada tvůrců vědomě vynechává, protože se stal příliš rozpoznatelným.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – Sound effects and film history",
@@ -10032,7 +10032,7 @@
     "id": "280",
     "title": "Porouchaný mechanický žralok naučil film ukazovat méně",
     "content": "<p>Při natáčení filmu <em>Čelisti</em> v roce 1974 selhávala mechanická maketa žraloka. Slaná voda zařízení poškozovala a záběry s ním se často nedaly použít.</p><p>Režisér Steven Spielberg proto přepracoval postup. Přítomnost zvířete naznačoval pohledem z podhladiny, plovoucími sudy a především hudebním motivem Johna Williamse, postaveným na dvou střídajících se tónech.</p><p>Divák si hrozbu domýšlel a napětí tím vzrostlo.</p><p>Film uvedený v roce 1975 se stal obrovským komerčním úspěchem a spolu s širokou distribucí a televizní reklamou zavedl model letního <strong>blockbusteru</strong>, který studia používají dodnes.</p><p><em>Technická porucha tak zásadně ovlivnila jazyk napětí v moderním filmu.</em></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Film Registry",
@@ -10068,7 +10068,7 @@
     "id": "281",
     "title": "Ztracené minuty němého velkofilmu se našly po osmdesáti letech",
     "content": "<p>Německý snímek <em>Metropolis</em> z roku 1927 patřil k nejdražším filmům své doby. Vypráví o městě rozděleném na vrstvu žijící v luxusu a dělníky pod zemí.</p><p>Po neúspěchu v kinech byl film zkrácen a části negativu se ztratily. Desítky let byl dostupný jen v porušené podobě s chybějícími scénami.</p><p>V roce 2008 se v archivu v argentinském Buenos Aires našla kopie na šestnáctimilimetrovém materiálu, která obsahovala většinu chybějících minut. Obraz byl silně poškozený, ale děj bylo možné doplnit.</p><p>Rekonstruovaná verze byla uvedena v roce 2010.</p><p><strong>Značná část rané kinematografie se nedochovala a její osud často závisí na náhodných nálezech v archivech.</strong></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Deutsche Kinemathek – Metropolis",
@@ -10104,7 +10104,7 @@
     "id": "282",
     "title": "Kroky a lámání kostí ve filmech vyrábí člověk v ateliéru",
     "content": "<p>Zvuky, které ve filmu slyšíte, obvykle nepocházejí z natáčení. Mikrofony při něm zachycují hlavně dialogy, zatímco ostatní ruchy se dotáčejí zvlášť.</p><p>Této profesi se říká <strong>ruchař</strong> a v angličtině nese jméno podle průkopníka zvukové éry Jacka Foleyho. Pracuje v ateliéru s různými povrchy a rekvizitami a přesně synchronizuje pohyb na plátně se zvukem.</p><p>Výsledný zvuk často nevzniká z původního materiálu. Kroky v sněhu se běžně dělají mačkáním škrobu, praskání kostí se napodobuje lámáním zeleniny a mávání křídel tlustou látkou.</p><p>Důvodem je srozumitelnost. Skutečný zvuk bývá slabý a nevýrazný, takže by ve výsledné stopě zanikl.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Britannica – Motion picture sound",
@@ -10324,7 +10324,7 @@
     "id": "288",
     "title": "Sonda na konci mise zamířila záměrně do atmosféry planety",
     "content": "<p>Sonda Cassini zkoumala soustavu Saturnu od roku 2004. Odhalila mimo jiné gejzíry vodní páry tryskající z ledového měsíce Enceladus a jezera kapalných uhlovodíků na Titanu.</p><p>V roce 2017 jí docházelo palivo. Řídicí tým proto zvolil <strong>řízený zánik</strong> a poslal ji do atmosféry Saturnu, kde shořela.</p><p>Důvodem byla ochrana před znečištěním. Kdyby sonda zůstala na nestabilní dráze, mohla by v budoucnu dopadnout na Enceladus nebo Titan a zanést tam pozemské mikroorganismy. Tím by znehodnotila případné pátrání po místním životě.</p><p>Během posledních měsíců mise ještě proletěla mezerou mezi planetou a prstenci a odeslala data z míst, kam se předtím nikdo nedostal.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Cassini Grand Finale",
@@ -10360,7 +10360,7 @@
     "id": "289",
     "title": "První řízený let stroje v atmosféře jiné planety trval čtyřicet sekund",
     "content": "<p>Létat na Marsu je obtížné. Atmosféra má u povrchu jen zlomek hustoty té pozemské, takže vrtule má výrazně méně vzduchu, o který se může opřít.</p><p>Přesto se to podařilo. 19. dubna 2021 se vrtulník <strong>Ingenuity</strong>, dopravený na planetu spolu s vozítkem Perseverance, zvedl do výšky několika metrů, chvíli se udržel a přistál.</p><p>Let trval necelou minutu a byl řízen automaticky, protože signál ze Země putuje k Marsu příliš dlouho na dálkové ovládání.</p><p>Stroj měl původně provést pouhých pět zkušebních letů. Nakonec jich zvládl desítky a sloužil i jako průzkumník terénu pro vozítko, dokud se mu při přistání nepoškodil rotor.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Ingenuity Mars Helicopter",
@@ -10396,7 +10396,7 @@
     "id": "290",
     "title": "Galaxie se točí tak, jako by v nich bylo mnohem víc hmoty",
     "content": "<p>Ve sluneční soustavě obíhají vzdálenější planety pomaleji než ty bližší, protože gravitace Slunce s rostoucí vzdáleností slábne. U galaxií to neplatí.</p><p>Měření rychlostí hvězd na okrajích spirálních galaxií, která v 70. letech 20. století provedla Vera Rubinová s kolegy, ukázala, že vnější oblasti obíhají mnohem rychleji, než by odpovídalo viditelné hmotě.</p><p>Nabízejí se dvě vysvětlení. Buď je v galaxiích hmota, kterou nevidíme, protože nezáří, nebo gravitace na velkých škálách funguje jinak, než předpokládáme.</p><p>Převažuje první výklad, označovaný jako <strong>temná hmota</strong>. Podporují ho i pozorování ohybu světla a struktura raného vesmíru.</p><p><em>Přímý detektor ji zatím nezachytil, takže jde o dobře podloženou, ale neuzavřenou otázku.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Dark matter",
@@ -10432,7 +10432,7 @@
     "id": "291",
     "title": "Kdyby byl vesmír nekonečný a věčný, nebyla by v noci tma",
     "content": "<p>Zdánlivě banální pozorování skrývá hluboký problém. Kdyby byl vesmír nekonečně starý, nekonečně velký a rovnoměrně zaplněný hvězdami, musel by každý směr pohledu skončit na povrchu nějaké hvězdy. Noční obloha by zářila.</p><p>Tato úvaha se označuje jako <strong>Olbersův paradox</strong> podle astronoma, který ji formuloval na počátku 19. století, ačkoli podobné otázky si kladli badatelé už dřív.</p><p>Dnešní vysvětlení má dvě části. Vesmír má konečné stáří, takže k nám světlo nejvzdálenějších oblastí ještě nedorazilo. Navíc se rozpíná, takže se záření posouvá k delším vlnovým délkám a slábne.</p><p><em>Tma na obloze je tedy stopa po tom, že vesmír měl počátek.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Britannica – Olbers's paradox",
@@ -10468,7 +10468,7 @@
     "id": "292",
     "title": "Měsíc se od Země každý rok o kousek vzdaluje",
     "content": "<p>Odrazné hranoly, které na povrchu Měsíce zanechaly vesmírné mise, umožňují měřit vzdálenost laserem s přesností na centimetry. Z těchto měření vyplývá, že se Měsíc vzdaluje zhruba o necelé čtyři centimetry ročně.</p><p>Příčinou je slapové působení. Měsíc vyvolává na Zemi příliv a odliv, přičemž vodní masy a tření zpomalují rotaci planety. Část ztraceného rotačního momentu přechází na Měsíc a ten se dostává na vyšší dráhu.</p><p>Důsledkem je i pozvolné prodlužování pozemského dne, které potvrzují záznamy dávných zatmění i růstové vrstvy fosilních schránek.</p><p><strong>Za miliony let proto zmizí i možnost vidět úplné zatmění Slunce, protože Měsíc už sluneční kotouč nezakryje celý.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Lunar Laser Ranging",
@@ -10504,7 +10504,7 @@
     "id": "293",
     "title": "Podivné těleso z roku 2017 přiletělo odjinud a hned zase zmizelo",
     "content": "<p>V říjnu 2017 zachytil havajský dalekohled objekt, jehož dráha byla neobvyklá. Nešlo o elipsu kolem Slunce, ale o průlet po dráze, která tělesu umožnila sluneční soustavu jen protnout a pokračovat dál.</p><p>Objekt dostal havajské jméno <strong>ʻOumuamua</strong> a stal se prvním potvrzeným mezihvězdným návštěvníkem.</p><p>Pozorování byla krátká, protože se rychle vzdaloval. Změny jasnosti naznačovaly silně protáhlý nebo naopak plochý tvar a chybělo mu viditelné odplyňování typické pro komety.</p><p>Vysvětlení jeho nepatrného zrychlení je stále předmětem odborné diskuse a nejčastěji se vysvětluje unikáním těkavých látek.</p><p>V roce 2019 byl objeven druhý mezihvězdný objekt, kometa 2I/Borisov, která se chovala mnohem obvykleji.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – 'Oumuamua",
@@ -10540,7 +10540,7 @@
     "id": "294",
     "title": "Výbuch nad sibiřskou tajgou roku 1908 porazil miliony stromů",
     "content": "<p>30. června 1908 došlo nad řídce osídlenou oblastí u řeky Podkamenná Tunguska k obrovské explozi. Tlaková vlna byla zaznamenána barografy i v Evropě.</p><p>První vědecká výprava dorazila na místo až po téměř dvaceti letech. Našla plochu o rozloze více než dva tisíce kilometrů čtverečních s povalenými stromy, které ležely vějířovitě od středu.</p><p>Chyběl ale dopadový kráter i větší zbytky tělesa.</p><p>Nejpřijímanější vysvětlení proto počítá s tím, že se asteroid nebo kometa rozpadly a explodovaly ještě v atmosféře, ve výšce několika kilometrů.</p><p><strong>Událost se dnes používá jako referenční příklad při odhadech rizika, které pro obydlené oblasti představují menší vesmírná tělesa.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Tunguska event",
@@ -11190,7 +11190,7 @@
     "id": "312",
     "title": "Rozložení kláves na klávesnici řešilo problém, který zmizel",
     "content": "<p>Písmena na klávesnici nejsou uspořádána abecedně ani podle četnosti. Rozložení označované jako <strong>QWERTY</strong> vzniklo v 70. letech 19. století u mechanických psacích strojů.</p><p>U nich hrozilo, že typové páky často používaných dvojic písmen do sebe narazí a zaseknou se. Uspořádání proto některé časté kombinace rozmístilo od sebe.</p><p>Mechanická příčina dnes neexistuje. Rozložení přesto zůstalo, protože na ně byly vycvičeny miliony písařů a každá změna by znamenala náklady na přeučení.</p><p>Pokusy zavést jiná uspořádání, například Dvorakovo, se nikdy výrazně neprosadily.</p><p><em>Jde o učebnicový příklad závislosti na zvolené cestě, kdy se udrží ne nejlepší řešení, ale to, které se prosadilo první.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Smithsonian – History of the typewriter",
@@ -11770,7 +11770,7 @@
     "id": "428",
     "title": "Počítač se má sám sobě podobat, ne řešenému problému",
     "content": "<p>Rané počítače bývaly stavěny na míru jedné úloze. Přeprogramovat je znamenalo fyzicky přepojovat kabely.</p><p>V roce 1945 popsal matematik John von Neumann v návrhu na stavbu počítače princip, podle kterého se instrukce ukládají ve stejné paměti jako data a zpracovávají se postupně podle pořadí.</p><p>Z toho plyne, že stroj lze přeprogramovat pouhou změnou obsahu paměti, bez zásahu do hardwaru. Tento model, dnes označovaný jako <strong>von Neumannova architektura</strong>, tvoří základ naprosté většiny dnešních počítačů.</p><p>Nese s sebou i známé úzké hrdlo, protože procesor a paměť si musí data průběžně předávat jednou sdílenou cestou, což limituje rychlost zpracování.</p><p><em>Téměř osmdesát let starý koncept tak stále určuje, jak jsou stavěny čipy v telefonech i serverech.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – Von Neumann architecture",
@@ -11808,7 +11808,7 @@
     "id": "429",
     "title": "Skutečná logika se dá zapsat jako počítání s nulou a jedničkou",
     "content": "<p>George Boole navrhl, že pravdu a nepravdu lze zapsat jako nulu a jedničku. S výroky se pak dá počítat podle přesných pravidel podobně jako v algebře.</p><p>Vznikla tak <strong>booleovská algebra</strong> s operacemi, které dnes známe jako logický součin, součet a negaci.</p><p>Boole sám tvořil čistě abstraktní systém bez ohledu na jakékoli strojové využití. Až o sto let později ukázal americký inženýr Claude Shannon ve své diplomové práci, že tatáž pravidla přesně odpovídají zapojení elektrických spínacích obvodů.</p><p>Tímto propojením vznikl teoretický základ digitální elektroniky.</p><p><strong>Každý čip v dnešním zařízení tak v jádru provádí operace, které byly popsány dřív, než existovala elektřina v domácnostech.</strong></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – George Boole",
@@ -11844,7 +11844,7 @@
     "id": "430",
     "title": "Myšlenka propojeného vědění vznikla ještě před elektronickým počítačem",
     "content": "<p>Vannevar Bush popsal v roce 1945 mechanický stůl zvaný memex. Měl ukládat dokumenty a dovolovat mezi nimi vytvářet osobní stopy odkazů podle asociací uživatele.</p><p>Zařízení nikdy nebylo postaveno, protože tehdejší technologie mikrofilmu na takový úkol nestačila.</p><p>Myšlenka propojených dokumentů, mezi kterými lze skákat podle odkazů místo lineárního čtení, ale předjímala princip, který se o desítky let později stal základem <em>hypertextu</em> a webových stránek.</p><p>Bush psal text jako reakci na obavu, že věda produkuje víc poznatků, než je lidská mysl schopna zvládnout a propojit.</p><p><em>Řešení, které navrhl, nefungovalo technicky, ale směr, kterým ukázal, se ukázal správný.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – Vannevar Bush",
@@ -11880,7 +11880,7 @@
     "id": "431",
     "title": "Než internet znal e-mail, adresa potřebovala nový symbol",
     "content": "<p>Ray Tomlinson řešil v roce 1971 praktický problém raného e-mailu. Jak v adrese oddělit jméno uživatele od názvu počítače, na kterém má schránku?</p><p>Vybral znak zavináč, protože se v tehdejších textech běžně nepoužíval jinak a na klávesnici byl snadno dostupný.</p><p>Podle pozdějších vzpomínek si sám přesně nepamatoval obsah úplně první zprávy, kterou si tímto způsobem poslal, protože v tu chvíli nešlo o nic zvláštního.</p><p>Formát jméno zavináč doména se od té doby nezměnil a používá ho dnes prakticky každá e-mailová adresa na světě.</p><p><strong>Drobné technické rozhodnutí se tak stalo jedním z nejrozšířenějších symbolů digitální komunikace.</strong></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Smithsonian Magazine – The Man Who Invented Email",
@@ -11916,7 +11916,7 @@
     "id": "432",
     "title": "Rok 1999 byl v počítačích zapsán na dvě číslice a hrozil zmatek",
     "content": "<p>Aby ušetřily paměť, ukládaly starší programy rok jen jako dvě poslední číslice, tedy 99 místo 1999. Problém vznikl s příchodem roku 2000.</p><p>Systémy mohly zápis 00 vyhodnotit jako rok 1900, což hrozilo chybami ve výpočtech úroků, důchodů, platnosti smluv i v řízení průmyslových zařízení.</p><p>Označení <strong>Y2K</strong> se stalo synonymem pro tuto hrozbu a vlády i firmy investovaly do kontroly a přepisu kódu odhadem stovky miliard dolarů po celém světě.</p><p>Po půlnoci 1. ledna 2000 se objevily jen ojedinělé menší poruchy, žádný rozsáhlý kolaps nenastal.</p><p><em>Spor dodnes trvá o to, zda šlo o úspěch prevence, nebo o přehnaně vnímané riziko, protože srovnávací scénář bez příprav chybí.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – Y2K bug",
@@ -11952,7 +11952,7 @@
     "id": "433",
     "title": "Přepínání sítě na kousky dat mělo přežít i výpadek jejích částí",
     "content": "<p>Telefonní síť fungovala na principu vyhrazeného spojení mezi dvěma účastníky po celou dobu hovoru. Takové spojení je ale zranitelné, protože výpadek jediného uzlu na trase přeruší celou komunikaci.</p><p>Na počátku 60. let 20. století navrhli nezávisle na sobě Paul Baran v USA a Donald Davies ve Velké Británii jiný princip. Zpráva se rozdělí na menší kusy, které putují sítí každý zvlášť a mohou si hledat cestu podle toho, které spoje jsou zrovna dostupné.</p><p>Tomuto principu se říká <strong>přepojování paketů</strong>. Baranova motivace souvisela s odolností komunikace vůči částečnému zničení sítě.</p><p>Právě tento princip, nikoli vyhrazené linky, se stal základem sítě ARPANET a později celého internetu.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – Packet switching",
@@ -11990,7 +11990,7 @@
     "id": "434",
     "title": "Existují úlohy, u kterých počítač nikdy dopředu nepozná, že se zacyklí",
     "content": "<p>Programátoři by rádi měli univerzální nástroj, který zkontroluje libovolný program a předem řekne, zda se při běhu nezasekne v nekonečné smyčce. Alan Turing v roce 1936 dokázal, že takový obecný nástroj nemůže existovat.</p><p>Úloha zvaná <strong>problém zastavení</strong> je algoritmicky neřešitelná pro všechny možné případy najednou.</p><p>Důkaz využívá sporu podobného tomu, kterým se dokazuje nekonečnost prvočísel. Předpokládá se, že univerzální kontrolní program existuje, a pak se zkonstruuje speciální vstup, na kterém tento program nutně selže sám na sobě.</p><p>Výsledek neznamená, že nelze ověřit konkrétní jednodušší programy, jen že univerzální metoda pro všechny případy chybí.</p><p><strong>Jde o jeden ze základních limitů, které platí pro výpočty obecně, bez ohledu na budoucí pokrok techniky.</strong></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Stanford Encyclopedia of Philosophy – Turing Machines",
@@ -12026,7 +12026,7 @@
     "id": "435",
     "title": "Kamera na hrnek s kávou spustila éru webových kamer",
     "content": "<p>Zaměstnanci laboratoře v Cambridgi sdíleli v roce 1991 konvici s kávou na chodbě. Někteří k ní však z jiné části budovy často dorazili, když byla prázdná.</p><p>Řešením se stala kamera namířená na konvici, jejíž obraz se aktualizoval na počítačích v místní síti a ukazoval aktuální stav nápoje.</p><p>Po připojení instituce k internetu v roce 1993 se obraz zpřístupnil i mimo budovu a stal se jednou z prvních veřejně dostupných webových kamer na světě.</p><p>Konvice sloužila skutečnému účelu ještě několik dalších let, než byla laboratoř zrušena a přístroj v roce 2001 vypnut.</p><p><em>Ryze praktický problém tak neúmyslně předznamenal pozdější rozmach kamer sledujících cokoli na dálku.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "University of Cambridge – The Trojan Room coffee pot",
@@ -12062,7 +12062,7 @@
     "id": "436",
     "title": "Šifrovací stroj z druhé světové války neluštil Enigmu, ale jiný, silnější kód",
     "content": "<p>Vedle proslulé Enigmy používalo německé velení pro nejdůležitější zprávy ještě složitější šifrovací systém zvaný Lorenz. S ním komunikovalo vrchní velení s frontami.</p><p>K jeho prolomení postavili britští specialisté v týmu kolem Tommyho Flowerse v letech 1943 a 1944 stroj <strong>Colossus</strong>, považovaný za jeden z prvních programovatelných elektronických počítačů na světě.</p><p>Na rozdíl od pozdějších strojů nebyl univerzální, ale specializovaný na hledání nastavení šifrovacích koleček pomocí rychlého porovnávání vzorů.</p><p>Existence stroje zůstala tajná desítky let po válce, takže veřejné dějiny počítačů dlouho začínaly až pozdějšími americkými projekty.</p><p><strong>Historie výpočetní techniky tak byla po dlouhou dobu neúplná kvůli utajení jednoho klíčového stroje.</strong></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Bletchley Park – Colossus",
@@ -12098,7 +12098,7 @@
     "id": "437",
     "title": "Přesná poloha z družic byla civilistům dlouho záměrně rozmazávána",
     "content": "<p>Systém GPS byl od 70. let 20. století vyvíjen americkou armádou a od počátku byl dostupný i pro civilní použití. Aby případný protivník nezískal vojensky využitelnou přesnost, byl civilní signál záměrně zhoršován náhodnou odchylkou zvanou <strong>selektivní dostupnost</strong>.</p><p>Běžný přijímač tak měl chybu v řádu desítek metrů, zatímco vojenské přijímače pracovaly přesně.</p><p>V roce 2000 rozhodla americká vláda toto zhoršování vypnout, mimo jiné kvůli rozvoji civilních a komerčních aplikací, jejichž přesnost limitovalo.</p><p>Přesnost civilního signálu se tím zlepšila zhruba desetinásobně prakticky přes noc.</p><p><em>Tento krok umožnil rozšíření navigací do automobilů, telefonů a záchranných služeb v podobě, jakou známe dnes.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "GPS.gov – Selective Availability",
@@ -12134,7 +12134,7 @@
     "id": "438",
     "title": "Rozmazaný text ve formuláři měl odlišit člověka od automatu",
     "content": "<p>Automatické programy dokázaly zakládat účty nebo skupovat vstupenky rychleji než člověk. Weby proto začaly hledat test, který lidé zvládnou snadno a stroje obtížně.</p><p>Řešením se na počátku 21. století stal test, který lidé zvládnou snadno, ale tehdejší počítačové vidění mělo s jeho rozpoznáním potíže: zdeformovaný nebo přeškrtnutý text na obrázku.</p><p>Tento nástroj, označovaný zkratkou <strong>CAPTCHA</strong>, se rychle rozšířil na přihlašovací formuláře a komentáře.</p><p>Pokrok v rozpoznávání obrazu ale postupně schopnost strojů dohnal, takže dnešní verze často místo čtení textu měří jemné vzorce v pohybu myši nebo dotyku.</p><p><strong>Nástroj určený k odlišení člověka od stroje se tak sám stal daty, na kterých se stroje učí být lidem podobnější.</strong></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Carnegie Mellon University – CAPTCHA project",
@@ -12170,7 +12170,7 @@
     "id": "439",
     "title": "Program, který se měl jen počítat, omylem zahltil rané sítě",
     "content": "<p>Robert Tappan Morris vypustil v roce 1988 do sítě program, který měl podle něj jen spočítat připojená zařízení. Program se ale sám kopíroval na další počítače.</p><p>Program se ale dokázal sám kopírovat na další počítače, a kvůli chybě v návrhu se na některých strojích instaloval mnohonásobně. Zařízení se tím přetížila a přestala fungovat.</p><p>Zasaženo bylo podle odhadů několik tisíc počítačů, tehdy značná část celé sítě, a škody se odhadovaly v milionech dolarů.</p><p>Případ vedl k prvnímu odsouzení podle amerického zákona o počítačových podvodech a k založení týmů pro reakci na bezpečnostní incidenty.</p><p><em>Bez zjevně škodlivého úmyslu tak vznikl jeden z prvních rozsáhlých výpadků způsobených softwarem šířícím se samostatně.</em></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "FBI – The Morris Worm",
@@ -12644,7 +12644,7 @@
     "id": "452",
     "title": "Obří opice na plátně byla jen loutka vysoká pár desítek centimetrů",
     "content": "<p>King Kong v roce 1933 šplhal na plátně po mrakodrapu. Při natáčení však před kamerou nestál žádný takový tvor v životní velikosti.</p><p>Animátor Willis O'Brien použil techniku <strong>stop motion</strong>: menší modely opice, vysoké pouze desítky centimetrů a pokryté králičí srstí, byly pro každý snímek filmu nepatrně poposunuty a vyfoceny zvlášť.</p><p>Při přehrání tisíců takto pořízených záběrů za sebou vznikl dojem plynulého pohybu.</p><p>Práce byla mimořádně zdlouhavá, natočení jediné minuty filmu mohlo zabrat i několik dní.</p><p><strong>Postup položil základ pozdější trikové tvorbě a inspiroval generace pozdějších filmařů, včetně tvůrců, kteří animovali dinosaury o desítky let později.</strong></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Film Registry",
@@ -12680,7 +12680,7 @@
     "id": "453",
     "title": "Vůbec první celovečerní animovaný film odmítali distributoři financovat",
     "content": "<p>Do poloviny 30. let 20. století platily animované filmy za krátké doplňkové snímky před hlavním programem. Myšlenka celovečerní kreslené pohádky se tehdy jevila jako zbytečně nákladný experiment.</p><p>Walt Disney přesto v roce 1937 dokončil <em>Sněhurku a sedm trpaslíků</em>. Produkce trvala roky, vyžádala si statisíce kreslených políček a rozpočet mnohonásobně převýšil původní odhad.</p><p>Film musel navíc řešit problémy, které krátké grotesky neznaly, jako je vedení emocionálně věrohodného příběhu přes celou stopáž.</p><p>Komerční úspěch byl obrovský a vydělané prostředky umožnily vybudovat nové ateliéry studia.</p><p><em>Snímek tím založil žánr celovečerní animace, ve kterém dodnes pokračují desítky studií po celém světě.</em></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Film Registry",
@@ -12714,7 +12714,7 @@
     "id": "454",
     "title": "Obří ještěr ničící město byl v roce 1954 obrazem strachu z bomby",
     "content": "<p>Japonský film o obřím netvorovi ničícím město vznikl necelou dekádu po svržení atomových bomb na Hirošimu a Nagasaki. Jen měsíce předtím americké jaderné testy na Bikini kontaminovaly posádku japonské rybářské lodi.</p><p>Tvor v příběhu je probuzen a zmutován právě jaderným testem, což dobové publikum vnímalo jako přímou narážku na skutečné události.</p><p>Film záměrně kombinoval žánr katastrofického monstra s vážným tónem a záběry zničených čtvrtí, které připomínaly poválečné fotografie.</p><p>Pro americké uvedení byl snímek výrazně přestříhán a politický podtext byl oslaben přidáním nových scén.</p><p><strong>Postava se od té doby stala jednou z nejznámějších filmových metafor pro nekontrolovatelnou sílu jaderné technologie.</strong></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Britannica – Godzilla",
@@ -12750,7 +12750,7 @@
     "id": "455",
     "title": "Konec slavného filmu se dopisoval, ještě když se natáčely úvodní scény",
     "content": "<p>Casablanca z roku 1942 vznikala podle tehdy nehrané divadelní hry. Její scénář se opakovaně přepisoval ještě během natáčení.</p><p>Podle vzpomínek zúčastněných nebylo dlouho jasné, se kterým mužem hlavní hrdinka na konci odletí, a herečka Ingrid Bergmanová si stěžovala, že neví, jak má scény hrát emocionálně, když neznala rozuzlení.</p><p>Nejistota paradoxně přispěla k výslednému dojmu, protože i herci působili nerozhodně stejně jako jejich postavy.</p><p>Film získal Oscara za nejlepší snímek a jeho hlášky se staly součástí běžné filmové kultury, přestože vznikal v chvatu a bez jasné vize závěru.</p><p><em>Nejistota tvůrců se tak nakonec proměnila v součást síly příběhu.</em></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Film Registry",
@@ -12786,7 +12786,7 @@
     "id": "456",
     "title": "Přechod z černobílého filmu do barvy byl technickým i vypravěčským trikem",
     "content": "<p>Film <em>Čaroděj ze země Oz</em> z roku 1939 začíná i končí v odstínech sépiové černobílé, zatímco většina děje odehrávající se v kouzelné zemi je natočena v sytém barevném procesu Technicolor. Přechod nebyl jen ozdobou.</p><p>Vizuálně oddělil skutečný, všední svět od fantazie a divákům okamžitě signalizoval, že hrdinka vstoupila do jiné reality.</p><p>Použití procesu Technicolor bylo v té době mimořádně nákladné a technicky náročné, protože vyžadovalo speciální kamery a mnohem silnější osvětlení scény než běžné natáčení.</p><p>Podobný barevný obrat později převzaly i jiné filmy jako vizuální zkratku pro vstup do snu nebo jiného světa.</p><p><strong>Tento postup se stal jedním z prvních výrazných příkladů, kdy technologie sama nesla část vyprávění.</strong></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Film Registry",
@@ -12822,7 +12822,7 @@
     "id": "457",
     "title": "Krátká módní vlna filmů, na které se dívalo přes barevné brýle",
     "content": "<p>Na počátku 50. let 20. století čelila kina konkurenci televize a hledala způsob, jak diváky přilákat něčím, co domácí obrazovka nabídnout nemohla. Řešením byl trojrozměrný efekt.</p><p>Film se snímal dvěma kamerami z mírně odlišných úhlů, napodobujících rozestup lidských očí, a promítal se současně dvěma projektory přes odlišně polarizované nebo barevné filtry. Diváci pak nasazovali speciální brýle, které každému oku propustily jen jeden z obrazů.</p><p>Vlna byla krátká. Technika vyžadovala dokonalou synchronizaci projektorů, brýle byly nepohodlné a mnoho filmů efekt využívalo spíš násilně, což zájem diváků rychle unavilo.</p><p>Podobná technologie se v obměněné podobě vrátila o desítky let později s nástupem digitálního promítání.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Smithsonian Magazine – A Brief History of 3D Movies",
@@ -12858,7 +12858,7 @@
     "id": "458",
     "title": "Zvuk vesmírné lodi je stejný recyklovaný záznam napříč sérií filmů",
     "content": "<p>Ben Burtt hledal pro Star Wars z roku 1977 neobvyklé zvuky vesmírných technologií a zbraní. Chtěl se vyhnout obvyklým elektronickým tónům.</p><p>Bzučení laserového meče vzniklo kombinací hučení staré filmové promítačky a zpětné vazby mikrofonu poblíž televizního obrazu. Řev blasteru zase pochází z úderu do napnutého ocelového lana na vysílacím stožáru.</p><p>Tyto konkrétní zvukové stopy se pak s drobnými úpravami používaly ve všech pokračováních série po desetiletí, takže diváci podvědomě rozpoznávají sérii i podle zvuku, nejen podle obrazu.</p><p><em>Přístup, kdy se ruchy hledají v reálném světě místo generují elektronicky, ovlivnil zvukovou tvorbu velké části pozdějších velkofilmů.</em></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress – National Recording Registry",
@@ -12894,7 +12894,7 @@
     "id": "459",
     "title": "Postava vzniklá záznamem herce se dostala do souboje o Oscara",
     "content": "<p>Postava Glumma ve filmové trilogii <em>Pán prstenů</em>, uvedené od roku 2001, vznikla technikou <strong>snímání pohybu</strong>. Herec Andy Serkis nosil na natáčecí ploše speciální oblek se senzory a jeho pohyby, mimika i hlas se digitálně přenesly na počítačem vytvořenou postavu.</p><p>Šlo o jedno z prvních využití této techniky v takto ústřední a emocionálně náročné roli, nikoli jen pro pozadí nebo efekty.</p><p>Výkon vyvolal veřejnou debatu, zda by měl být herec za takto vytvořenou roli způsobilý k hereckým cenám, protože akademie tehdy neměla pro tento typ výkonu jasnou kategorii.</p><p>Technika se od té doby rozšířila a stala se standardním nástrojem pro postavy, které kombinují herecký výkon s počítačovou animací.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "BBC – Motion capture and Andy Serkis",
@@ -12930,7 +12930,7 @@
     "id": "460",
     "title": "Technologie proti šumu magnetofonů skončila i v kinosálech",
     "content": "<p>Analogové magnetické záznamy zvuku trpěly šelestem a šumem, který byl zvlášť patrný v tichých pasážích. Inženýr Ray Dolby v roce 1965 navrhl systém, který před nahráváním potichlé zvuky zesílí a při přehrávání je zase zeslabí zpět na původní úroveň.</p><p>Tím se šum, který vzniká hlavně při přehrávání, poměrově sníží, aniž by byl ovlivněn samotný užitečný signál.</p><p>Systém se nejprve rozšířil v hudebním průmyslu a od 70. let pronikl i do filmové zvukové stopy, kde umožnil věrnější a čistší přenos dialogů i hudby v kinech.</p><p>Pozdější varianty stejné technologie se rozšířily i do domácích videí a kazetových přehrávačů.</p><p><em>Řešení problému s technickým šumem tak zásadně zvýšilo kvalitu zvukového zážitku v kině.</em></p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Britannica – Dolby noise reduction",
@@ -12966,7 +12966,7 @@
     "id": "461",
     "title": "Zelené pozadí umožňuje vyměnit scénu, aniž by herec cokoli poznal",
     "content": "<p>Herec může hrát před jednobarevným pozadím. V postprodukci se pak pozadí nahradí úplně jinou scénou pomocí techniky chroma key.</p><p>Software rozpozná pixely konkrétní barvy a učiní je průhlednými, takže se do vzniklého prostoru vloží nový obraz.</p><p>Zelená barva se používá především proto, že se v lidské pokožce a běžném oblečení přirozeně vyskytuje jen zřídka, takže riziko, že se omylem odstraní i část herce, je nižší. Modré pozadí se z podobných důvodů využívalo dřív, než se rozšířily citlivější digitální kamery.</p><p>Kořeny techniky sahají k optickým trikům z poloviny 20. století a dnes je základem počasí ve zpravodajství i rozsáhlých vizuálních efektů ve filmu.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Britannica – Chroma key",
@@ -16114,7 +16114,7 @@
     "id": "548",
     "title": "Pásmo kolem hvězdy, kde by na planetě mohla existovat kapalná voda",
     "content": "<p>Příliš blízko u hvězdy se voda na povrchu planety vypaří, příliš daleko naopak zamrzne. Mezi těmito krajnostmi leží pás vzdáleností, kde by při vhodné atmosféře mohla voda zůstat v kapalném stavu.</p><p>Tento pás se neformálně označuje jako <strong>obyvatelná zóna</strong> nebo zóna Zlatovlásky, podle pohádky, ve které hrdinka hledá kaši ani příliš horkou, ani příliš studenou.</p><p>Poloha zóny závisí na jasnosti a teplotě dané hvězdy. U menších a chladnějších hvězd leží mnohem blíž k samotné hvězdě než u těch jasnějších.</p><p>Nacházet se v této zóně je jen jednou z podmínek, nikoli zárukou obyvatelnosti. Roli hraje i složení atmosféry, magnetické pole nebo geologická aktivita planety.</p><p><em>Proto astronomové při hledání exoplanet berou tento pás jako první, ale zdaleka ne poslední vodítko.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Habitable zone",
@@ -16154,7 +16154,7 @@
     "id": "549",
     "title": "Slunce jednou zvětší svůj průměr natolik, že pohltí vnitřní planety",
     "content": "<p>Slunce už zhruba čtyři a půl miliardy let přeměňuje ve svém jádru vodík na helium a díky tomu svítí stabilně. Jednou ale vodíkové palivo v jádru dojde.</p><p>Podle současných modelů se za přibližně pět miliard let jádro smrští a vnější vrstvy hvězdy se naopak prudce rozepnou, čímž se ze Slunce stane <strong>rudý obr</strong>, mnohonásobně větší a chladnější na povrchu než dnes.</p><p>Jeho průměr by měl v tomto stadiu dosáhnout až k dráze Země, možná i za ni, což by znamenalo zánik vnitřních planet sluneční soustavy.</p><p>Po vyčerpání dalšího paliva vnější vrstvy hvězdy odvane do prostoru a zbytek jádra se smrští na kompaktní <strong>bílého trpaslíka</strong>, který bude postupně chladnout po miliardy let.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – The Sun's Life Cycle",
@@ -16192,7 +16192,7 @@
     "id": "550",
     "title": "Lžička hmoty z jisté hvězdy by na Zemi vážila tuny",
     "content": "<p>Bílý trpaslík je pozůstatkem hvězdy podobné Slunci poté, co vyčerpala své jaderné palivo a odvrhla vnější vrstvy. Zbylé jádro je extrémně husté, protože se do objemu srovnatelného se Zemí vejde hmota blízká hmotnosti celého Slunce.</p><p>Látku v takovém stavu už neudržuje běžný tlak, ale kvantový jev zvaný <strong>degenerační tlak elektronů</strong>, který vzniká z toho, že elektrony nemohou být podle Pauliho principu nahuštěny do zcela stejných stavů.</p><p>Výsledná hustota je tak vysoká, že jediná čajová lžička látky z povrchu bílého trpaslíka by na Zemi vážila několik tun.</p><p><strong>Takto stlačená hvězda dál nezáří vlastní energií, jen pomalu vyzařuje zbytkové teplo do prostoru po miliardy let.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – White dwarfs",
@@ -16228,7 +16228,7 @@
     "id": "551",
     "title": "Nejsilnější magnetická pole ve vesmíru patří jednomu typu mrtvých hvězd",
     "content": "<p>Některé neutronové hvězdy, pozůstatky po výbuchu masivnějších hvězd, mají magnetické pole miliardkrát až biliardkrát silnější než nejsilnější magnety vyrobené na Zemi. Takovým objektům se říká <strong>magnetary</strong>.</p><p>Jejich magnetické pole je tak intenzivní, že by v jeho blízkosti teoreticky přestaly fungovat běžné elektronické přístroje a mohlo by narušit i chemické vazby v molekulách.</p><p>Magnetary byly poprvé rozpoznány díky prudkým výbuchům záření gama, které vysílají při náhlých přeskupeních svého magnetického pole, podobných zemětřesením na jejich kůře.</p><p>Jeden takový výbuch zaznamenaný v roce 2004 byl natolik silný, že dočasně ovlivnil i horní vrstvy zemské atmosféry, přestože zdroj byl vzdálen desítky tisíc světelných let.</p><p><em>Přesný mechanismus vzniku tak silného pole zůstává předmětem výzkumu.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Magnetars",
@@ -16264,7 +16264,7 @@
     "id": "552",
     "title": "Co se stane s informací, která spadne do černé díry, zůstává sporné",
     "content": "<p>Podle kvantové fyziky by informace o stavu jakéhokoli systému neměla nikdy zcela zmizet, i když se stav sám může nevratně zamíchat. Podle teoretických výpočtů z 70. let 20. století ale černé díry pomalu vyzařují záření a nakonec se mohou úplně vypařit.</p><p>Otázkou je, co se stane s informací o všem, co do nich kdy spadlo, pokud díra zanikne.</p><p>Tento rozpor mezi obecnou teorií relativity a kvantovou mechanikou se nazývá <strong>informační paradox černých děr</strong>.</p><p>Navrhovaná řešení zahrnují myšlenku, že informace unikne zakódovaná ve vyzařovaném záření, nebo že zůstává zachycena v jemné struktuře na samotném horizontu díry.</p><p><strong>Spor není čistě akademický, protože jeho vyřešení by pomohlo sjednotit dvě základní fyzikální teorie, které si dosud navzájem odporují.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Black hole information paradox",
@@ -16300,7 +16300,7 @@
     "id": "553",
     "title": "Hranici černé díry vymezuje bod, odkud už nic neuteče ani rychlostí světla",
     "content": "<p>Aby těleso opustilo gravitační pole jiného tělesa, potřebuje dosáhnout takzvané únikové rychlosti. U Země je to necelých dvanáct kilometrů za sekundu.</p><p>Pokud je těleso natolik husté a hmotné, že by únikovou rychlost z jeho povrchu překonala i rychlost světla, nemůže z něj uniknout vůbec nic, ani samotné světlo.</p><p>Pomyslná hranice, za kterou už tento únik není možný, se nazývá <strong>horizont událostí</strong> a definuje samotnou černou díru.</p><p>Uvnitř horizontu podle obecné teorie relativity veškerá hmota směřuje nevyhnutelně k centrálnímu bodu zvanému singularita, kde současné fyzikální teorie přestávají dávat smysluplné předpovědi.</p><p><em>Horizont sám o sobě není fyzickou plochou, kterou by bylo možné nějak zdola narazit, jde jen o hranici definovanou geometrií prostoru.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Black holes",
@@ -16336,7 +16336,7 @@
     "id": "554",
     "title": "Pád k černé díře by tělo natáhl jako těsto, dřív než by je pohltila",
     "content": "<p>Gravitace slábne se čtvercem vzdálenosti. U velmi hmotného a kompaktního tělesa je rozdíl přitažlivosti mezi bližším a vzdálenějším koncem padajícího objektu extrémně velký.</p><p>U menší černé díry by tento rozdíl u lidského těla padajícího nohama napřed znamenal, že nohy jsou přitahovány mnohem silněji než hlava, což by tělo protáhlo do dlouhého tenkého vlákna.</p><p>Tomuto efektu se žertem říká <strong>spaghettifikace</strong>.</p><p>U mnohem hmotnějších černých děr, jaké se nacházejí v centrech galaxií, je gradient gravitace kolem horizontu mírnější, takže by k tomuto natažení došlo až hlouběji uvnitř, nikoli hned při překročení horizontu.</p><p><em>Jev tak paradoxně dopadá hůř u menších černých děr než u těch obřích.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Tidal forces near black holes",
@@ -16372,7 +16372,7 @@
     "id": "555",
     "title": "Zatmění Slunce v roce 1919 posloužilo jako test správnosti nové teorie",
     "content": "<p>Einsteinova obecná relativita předpovídala ohyb světla kolem hmotných těles. Ohyb měl být větší, než by odpovídalo starší newtonovské fyzice.</p><p>Ověřit to bylo možné jen za úplného zatmění Slunce, kdy jsou vidět hvězdy těsně u slunečního kotouče a lze změřit, zda se jejich zdánlivá poloha posune vlivem ohybu jejich světla kolem Slunce.</p><p>Britský astronom Arthur Eddington zorganizoval v roce 1919 dvě expedice, které při zatmění tento posun skutečně naměřily, a to v souladu s Einsteinovou předpovědí, nikoli s tou starší.</p><p>Výsledek Einsteina proslavil po celém světě téměř přes noc.</p><p><strong>Stejný princip, <em>gravitační čočkování</em>, se dnes běžně používá k mapování rozložení hmoty ve vzdálených galaxiích, včetně té temné.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Einstein and the 1919 eclipse",
@@ -16408,7 +16408,7 @@
     "id": "556",
     "title": "Většina energie ve vesmíru pohání jeho rozpínání, a přesto nevíme, co to je",
     "content": "<p>Na konci 90. let 20. století pozorovaly dva nezávislé týmy vzdálené výbuchy supernov a očekávaly, že rozpínání vesmíru se kvůli vzájemné gravitaci galaxií postupně zpomaluje. Data ukázala opak: rozpínání se v posledních miliardách let zrychluje.</p><p>Pro sílu, která toto zrychlování způsobuje, se vžil název <strong>temná energie</strong>. Podle odhadů tvoří většinu veškeré energie ve vesmíru, přesto zůstává její fyzikální podstata neznámá.</p><p>Jedna z hypotéz ji ztotožňuje s energií samotného prázdného prostoru, jiné navrhují dosud neznámé pole nebo úpravu samotných gravitačních rovnic.</p><p><strong>Za objev zrychlujícího se rozpínání získal tým v roce 2011 Nobelovu cenu za fyziku, i když vysvětlení jeho příčiny na cenu teprve čeká.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Nobel Prize – Physics 2011",
@@ -16444,7 +16444,7 @@
     "id": "557",
     "title": "Pulzující hvězdy posloužily jako první spolehlivé kosmické měřítko",
     "content": "<p>Určit vzdálenost blízkých hvězd lze pomocí paralaxy, tedy jejich zdánlivého posunu vůči pozadí při pohledu z různých míst dráhy Země. Tato metoda ale u velmi vzdálených objektů selhává, protože posun je příliš malý na změření.</p><p>Řešení přinesla na počátku 20. století astronomka Henrietta Leavittová, která zkoumala hvězdy zvané cefeidy, jejichž jasnost se pravidelně mění. Zjistila, že perioda tohoto kolísání přesně souvisí se skutečnou zářivostí hvězdy.</p><p>Pokud tedy astronomové znají periodu a naměří pozorovanou jasnost, dokážou spočítat vzdálenost, i když paralaxa už nefunguje.</p><p><strong>Tyto proměnné hvězdy se staly klíčovým stupněm takzvaného kosmického žebříku vzdáleností a umožnily poprvé určit vzdálenost jiných galaxií.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Henrietta Leavitt and cosmic distances",
@@ -16482,7 +16482,7 @@
     "id": "558",
     "title": "Čím dál je galaxie, tím rychleji se od nás vzdaluje, zjistilo měření z roku 1929",
     "content": "<p>Edwin Hubble porovnával ve 20. letech 20. století vzdálenosti galaxií s jejich světlem. Čím byla galaxie dál, tím větší posun jejích spektrálních čar k červené nacházel.</p><p>Zjistil jasný vztah: čím dál galaxie leží, tím větší je tento <strong>rudý posuv</strong>, a tedy tím rychleji se od nás vzdaluje.</p><p>Vztah mezi vzdáleností a rychlostí vzdalování se dnes nazývá <strong>Hubbleův zákon</strong> a byl prvním přímým pozorovacím důkazem, že se vesmír jako celek rozpíná.</p><p>Přesná hodnota konstanty, která tento vztah popisuje, se dodnes zpřesňuje a různé metody měření dávají mírně odlišné výsledky, což je jedna z otevřených otázek dnešní kosmologie.</p><p><em>Bez tohoto pozorování by teorie velkého třesku postrádala svůj klíčový empirický základ.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Edwin Hubble",
@@ -16518,7 +16518,7 @@
     "id": "559",
     "title": "Otázka, proč jsme dosud nezachytili žádný signál od mimozemšťanů",
     "content": "<p>Vesmír je nesmírně starý a obsahuje miliardy hvězd jen v naší galaxii. Podle jednoduché úvahy by se tedy dala očekávat existence mnoha technologicky vyspělých civilizací, a přinejmenším některé z nich by měly zanechat pozorovatelnou stopu.</p><p>Fyzik Enrico Fermi v roce 1950 při neformálním rozhovoru položil otázku, proč žádnou takovou stopu nevidíme, přestože k tomu měl vesmír dostatek času.</p><p>Tento rozpor se dnes nazývá <strong>Fermiho paradox</strong>.</p><p>Navrhovaná vysvětlení sahají od možnosti, že inteligentní život je extrémně vzácný, přes riziko, že civilizace samy sebe zničí dřív, než se rozšíří do vesmíru, až po myšlenku, že komunikace mezi hvězdami je prostě příliš obtížná nebo nezajímavá.</p><p><em>Žádné z vysvětlení není potvrzené, otázka zůstává otevřená.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – The Fermi Paradox",
@@ -16554,7 +16554,7 @@
     "id": "560",
     "title": "Vzorec pro odhad počtu vysílajících civilizací obsahuje víc neznámých než jistot",
     "content": "<p>Astronom Frank Drake v roce 1961 sestavil rovnici. Měla strukturovat diskusi o tom, kolik technologicky vyspělých civilizací by mohlo v naší galaxii existovat a být schopno komunikace.</p><p><strong>Drakeova rovnice</strong> násobí řadu faktorů: tempo vzniku hvězd, podíl hvězd s planetami, podíl planet vhodných pro život, pravděpodobnost, že na nich život vznikne a vyvine inteligenci schopnou komunikace, a nakonec dobu, po kterou taková civilizace vysílá signály.</p><p>Většinu těchto hodnot dnes věda nedokáže spolehlivě odhadnout, takže výsledek rovnice se u různých autorů liší o mnoho řádů.</p><p>Rovnice tak neslouží jako předpověď, ale jako přehledný seznam otázek, na které je třeba postupně hledat odpovědi.</p><p><em>Sám Drake ji navrhl jako pomůcku pro jednu konferenci, ne jako definitivní vzorec.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "SETI Institute – Drake Equation",
@@ -16592,7 +16592,7 @@
     "id": "561",
     "title": "Silný krátký signál z roku 1977 dodnes nemá spolehlivé vysvětlení",
     "content": "<p>Astronom Jerry Ehman v srpnu 1977 procházel výstup radioteleskopu zapojeného do projektu hledání mimozemských signálů a narazil na překvapení. Objevil neobvykle silný a úzkopásmový záznam, výrazně převyšující okolní šum.</p><p>Signál trval asi sedmdesát dva sekund, tedy tak dlouho, jak dlouho mohl bod na obloze zůstat v zorném poli teleskopu díky otáčení Země, a nikdy se od té doby, přes opakované pokusy, na stejném místě nezopakoval.</p><p>Ehman na výtisk vedle příslušných hodnot poznamenal jediné slovo, a odtud pochází dnešní název <strong>signál Wow</strong>.</p><p>Navrhovaná vysvětlení zahrnují odraz pozemského signálu, průlet komety uvolňující vodíkové záření, nebo technickou chybu přístroje, žádné z nich ale zatím nebylo jednoznačně potvrzeno.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – The Wow! Signal",
@@ -16628,7 +16628,7 @@
     "id": "562",
     "title": "K sondám mířícím z naší soustavy přidali projektanti mapu k domovu",
     "content": "<p>Pioneery 10 a 11 měly dostatečnou rychlost k opuštění sluneční soustavy. Ke svým cestám za obřími planetami odstartovaly v letech 1972 a 1973.</p><p>Na jejich trup byla připevněna zlatem pokrytá hliníková destička s rytinou navrženou astronomem Carlem Saganem a jeho kolegy.</p><p>Kresba zobrazuje postavu muže a ženy, schéma sluneční soustavy s vyznačenou trasou sondy a mapu poloh pulsarů, podle které by případný nálezce teoreticky mohl určit, ze které hvězdné soustavy sonda pochází a kdy odstartovala.</p><p>Šlo o první pokus zanechat srozumitelný vzkaz pro potenciální mimozemskou inteligenci, o pět let dřív, než podobnou, mnohem obsáhlejší desku nesly sondy Voyager.</p><p><em>Šance, že destičku někdy někdo najde, zůstává mimořádně malá.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Pioneer plaque",
@@ -16666,7 +16666,7 @@
     "id": "563",
     "title": "Malá kovová koule na oběžné dráze odstartovala závod o vesmír",
     "content": "<p>Dne 4. října 1957 vypustil Sovětský svaz první umělou družici Země. Sputnik 1 byl kovovou koulí s jednoduchým rádiovým vysílačem.</p><p>Šlo o kovovou kouli o průměru necelých šedesáti centimetrů, vybavenou jen jednoduchým vysílačem, který produkoval charakteristické pravidelné pípání zachytitelné i amatérskými rádii po celém světě.</p><p>Úspěšný start vyvolal ve Spojených státech značný politický a bezpečnostní šok, protože ukázal, že Sovětský svaz disponuje raketami schopnými dosáhnout oběžné dráhy, a tedy potenciálně i vzdálených cílů na Zemi.</p><p>Reakcí bylo mimo jiné založení americké kosmické agentury NASA a výrazné navýšení investic do vědy a technického vzdělávání.</p><p><strong>Start jediné jednoduché družice tak spustil kosmický závod, který během necelých dvanácti let vyvrcholil přistáním lidí na Měsíci.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Sputnik and the Dawn of the Space Age",
@@ -16704,7 +16704,7 @@
     "id": "564",
     "title": "Let trval necelé dvě hodiny a udělal z pilota první osobu ve vesmíru",
     "content": "<p>Jurij Gagarin odstartoval 12. dubna 1961 v lodi Vostok 1. Jako první člověk obletěl Zemi na oběžné dráze.</p><p>Celý let trval necelých sto osm minut, přičemž samotné přistání proběhlo jinak, než je dnes obvyklé: Gagarin se v závěrečné fázi katapultoval z kabiny a k zemi klesal na padáku odděleně od vlastní lodi.</p><p>Tato skutečnost byla sovětskou stranou po nějakou dobu tajena, protože podle tehdejších pravidel pro uznání rekordu měl pilot přistát spolu se svým strojem.</p><p>Úspěšný let znamenal další ránu pro americkou snahu vést v kosmickém závodě a urychlil rozhodnutí prezidenta Kennedyho vytyčit cíl dopravit člověka na Měsíc do konce dekády.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – This Month in Exploration: Yuri Gagarin",
@@ -16742,7 +16742,7 @@
     "id": "565",
     "title": "Výbuch nádrže na cestě k Měsíci proměnil misi v boj o přežití posádky",
     "content": "<p>V dubnu 1970 mířila mise Apollo 13 k Měsíci, kde měla posádka provést jeho třetí lidské přistání. Zhruba dva dny po startu explodovala jedna z nádrží s kyslíkem v servisním modulu, čímž loď přišla o velkou část elektrické energie, vody a dýchacího vzduchu.</p><p>Přistání na Měsíci muselo být okamžitě zrušeno a posádka se přesunula do menšího přistávacího modulu, který za normálních okolností sloužil jen jako výsadkový člun, ale nyní posloužil jako záchranný člun pro zpáteční cestu.</p><p>Řídicí středisko na Zemi improvizovalo řešení pro filtraci vzduchu i pro úsporu energie natolik nedostatku, aby posádka přežila cestu zpět.</p><p><strong>Všichni tři členové posádky se bezpečně vrátili na Zemi, a mise se přesto stala symbolem úspěšného zvládnutí krize.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Apollo 13",
@@ -16778,7 +16778,7 @@
     "id": "566",
     "title": "Vesmírný teleskop musel krátce po startu do vesmíru dostat brýle",
     "content": "<p>Hubbleův teleskop měl po vypuštění v roce 1990 přinést ostřejší snímky než pozemské dalekohledy. Ve vesmíru jeho výhled neruší chvění zemské atmosféry.</p><p>Po prvních snímcích se ukázalo, že hlavní zrcadlo teleskopu má vadu způsobenou chybou při jeho výrobním testování, kvůli které byly obrazy neostré.</p><p>Vada byla natolik malá, jen zlomek tloušťky lidského vlasu, že se neprojevila při pozemních testech, ale u přesného optického přístroje měla zásadní dopad.</p><p>V roce 1993 vyslala NASA k teleskopu servisní misi raketoplánu, jejíž posádka nainstalovala korekční optiku, která chybu zrcadla kompenzovala, podobně jako brýle kompenzují vadu lidského oka.</p><p><em>Po opravě teleskop poskytl některé z nejvlivnějších astronomických snímků v historii.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Hubble's mirror flaw and repair",
@@ -16816,7 +16816,7 @@
     "id": "567",
     "title": "Kolem jedné malé hvězdy obíhá hned sedm planet přibližně velikosti Země",
     "content": "<p>Trpasličí hvězda TRAPPIST-1, vzdálená přibližně čtyřicet světelných let, je mnohem menší a chladnější než Slunce. Přesto kolem ní bylo v letech 2016 a 2017 potvrzeno hned sedm planet srovnatelných velikostí se Zemí.</p><p>Kvůli malé velikosti a nízké teplotě mateřské hvězdy obíhají všechny planety velmi blízko a jejich oběžné doby se pohybují od necelého do necelých dvaceti dní.</p><p>Několik z nich leží v pásu, kde by za vhodných podmínek atmosféry mohla existovat kapalná voda.</p><p>Pozorování pomocí vesmírného teleskopu Jamese Webba se od jeho spuštění zaměřují na zjištění, zda tyto planety vůbec mají atmosféru, protože blízkost k aktivní hvězdě ji mohla dávno erodovat.</p><p><strong>Soustava patří k nejpodrobněji zkoumaným systémům exoplanet vůbec.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – TRAPPIST-1",
@@ -16852,7 +16852,7 @@
     "id": "568",
     "title": "Vesmírem se pohybují i planety, které nepatří k žádné hvězdě",
     "content": "<p>Ne všechny planety vznikají a zůstávají navázané na svou mateřskou hvězdu. Některé jsou gravitačním působením sousedních planet nebo procházející hvězdy vymrštěny ze své soustavy a dál putují mezihvězdným prostorem osaměle.</p><p>Takovým tělesům se říká <strong>toulavé planety</strong>. Bez blízké hvězdy nezáří a jejich detekce je proto mimořádně obtížná, protože je nelze zachytit odraženým světlem jako běžné planety.</p><p>Astronomové je nacházejí hlavně díky jevu zvanému gravitační mikročočkování, kdy toulavá planeta svou gravitací dočasně zesílí a zdeformuje světlo vzdálenější hvězdy, kolem které náhodou prochází.</p><p>Odhady na základě dosavadních pozorování naznačují, že takových samostatných planet může být v naší galaxii velmi mnoho, možná víc než hvězd samotných.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Rogue planets",
@@ -16888,7 +16888,7 @@
     "id": "569",
     "title": "Objekt příliš velký na planetu, ale příliš malý na to, aby se stal hvězdou",
     "content": "<p>Aby těleso trvale spalovalo vodík jako hvězda, musí mít dostatečnou hmotnost. Potřebuje zhruba osmdesátinásobek hmotnosti Jupiteru.</p><p>Tělesa, která tuto hranici nedosáhnou, ale zároveň jsou příliš hmotná na to, aby se počítala mezi obyčejné planety, se nazývají <strong>hnědí trpaslíci</strong>.</p><p>V jejich nitru může krátce probíhat fúze těžšího izotopu vodíku zvaného deuterium, ale tento zdroj energie se rychle vyčerpá. Poté už jen pomalu chladnou a slábnou po miliardy let.</p><p>Kvůli slabému záření byly první potvrzené hnědí trpaslíci objeveni až v polovině 90. let 20. století, přestože jejich existenci teoreticky předpověděli astronomové o desítky let dříve.</p><p><em>Dnes se odhaduje, že takových neúspěšných hvězd může být v galaxii srovnatelné množství jako běžných hvězd.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Brown dwarfs",
@@ -16926,7 +16926,7 @@
     "id": "570",
     "title": "Hvězdy se rodí ve sloupech prachu a plynu vysokých světelné roky",
     "content": "<p>V mlhovině Orel, vzdálené několik tisíc světelných let, se nacházejí mohutné útvary z chladného vodíkového plynu a prachu. Díky snímku Hubbleova teleskopu z roku 1995 vešly ve známost jako <strong>Pilíře stvoření</strong>.</p><p>Uvnitř těchto sloupů, vysokých v přepočtu několik světelných let, probíhá gravitační hroucení hustších oblastí plynu, ze kterých se postupně formují nové hvězdy.</p><p>Okolní záření mladých, již vzniklých hvězd zvenčí postupně tento plyn odpařuje, což vytváří charakteristické erodované tvary sloupů viditelné na snímku.</p><p>Pozdější pozorování v infračerveném spektru ukázala, že vzdálenější části pilířů už mohla zničit rázová vlna z blízké výbušné události, jejíž světlo k nám ale ještě nedorazilo.</p><p><em>Přesný stav struktury tak závisí na tom, ze které vzdálenosti a v jakém světle se na ni díváme.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Pillars of Creation",
@@ -16962,7 +16962,7 @@
     "id": "571",
     "title": "Prvky těžší než železo vznikly hlavně při explozích umírajících hvězd",
     "content": "<p>Ve hvězdách vznikají jadernou fúzí postupně těžší prvky, od vodíku přes helium až po železo. Fúze těžších prvků než železo už ale energii nevytváří, nýbrž ji spotřebovává, takže tímto způsobem vzniknout nemohou.</p><p>Chybějící těžké prvky, jako je zlato, stříbro nebo uran, vznikají hlavně při extrémně násilných událostech: výbuchu masivních hvězd jako <strong>supernova</strong> a při srážkách neutronových hvězd, kdy prudký nával neutronů umožní jádrům zachytit je rychleji, než se stihnou rozpadnout.</p><p>Tyto exploze zároveň rozmetávají vzniklé prvky do mezihvězdného prostoru, odkud se stávají součástí nových hvězd, planet a nakonec i živých organismů.</p><p><strong>Většina atomů v lidském těle, s výjimkou vodíku, tak prošla nitrem nějaké dávno zaniklé hvězdy.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Stellar nucleosynthesis",
@@ -16998,7 +16998,7 @@
     "id": "572",
     "title": "Jeden typ hvězdného výbuchu svítí vždy stejně jasně, ať nastane kdekoli",
     "content": "<p>Určitý typ supernovy vzniká, když bílý trpaslík v těsné dvojhvězdě nasaje z partnera dostatek hmoty, aby překročil přesně danou hranici hmotnosti. Po jejím dosažení dojde k prudkému termonukleárnímu výbuchu celé hvězdy.</p><p>Protože k výbuchu dochází vždy při téže hraniční hmotnosti, mají tyto <strong>supernovy typu Ia</strong> velmi podobnou skutečnou svítivost bez ohledu na to, ve které galaxii se odehrají.</p><p>Astronomové proto z pozorované jasnosti takové supernovy dokážou spočítat, jak daleko od nás vlastně vybuchla, podobně jako lze odhadnout vzdálenost žárovky známého výkonu podle toho, jak jasně svítí.</p><p>Právě pozorování mnoha těchto supernov v různých vzdálenostech vedlo v 90. letech k objevu zrychlujícího se rozpínání vesmíru.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Type Ia supernovae as standard candles",
@@ -17034,7 +17034,7 @@
     "id": "573",
     "title": "Vzdálený záblesk trval pár sekund a uvolnil energii celé galaxie",
     "content": "<p>Vojenské družice zachytily koncem 60. let 20. století krátké záblesky záření gama. Přicházely z vesmíru, nikoli z jaderných zkoušek na Zemi.</p><p>Tyto <strong>záblesky gama záření</strong> patří k energeticky nejsilnějším pozorovaným událostem ve vesmíru. Trvají od zlomků sekundy po několik minut, ale během té krátké doby mohou vyzářit tolik energie, kolik Slunce vyprodukuje za celou svou dosavadní existenci.</p><p>Delší záblesky se spojují se zhroucením jádra extrémně hmotné umírající hvězdy, zatímco krátké záblesky vznikají pravděpodobně při srážce dvou neutronových hvězd.</p><p>Kvůli extrémní vzdálenosti většiny pozorovaných zdrojů nepředstavují pro Zemi bezprostřední riziko, přestože záblesk namířený přímo k nám z relativně blízkého zdroje by mohl mít vážné důsledky pro atmosféru.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Gamma-ray bursts",
@@ -17070,7 +17070,7 @@
     "id": "574",
     "title": "Galaxie nejsou ve vesmíru rozmístěné náhodně, ale tvoří obří vlákna",
     "content": "<p>Galaxie nejsou ve vesmíru rozmístěné rovnoměrně. Rozsáhlé přehlídky oblohy ukázaly, že se soustřeďují do dlouhých vláken a shluků.</p><p>Galaxie se soustřeďují do dlouhých vláknitých struktur a shluků, mezi kterými se rozprostírají obrovské, téměř prázdné oblasti zvané <strong>kosmické prázdnoty</strong>. Tato síť vláken a prázdnot se souhrnně nazývá <strong>kosmická síť</strong>.</p><p>Počítačové simulace ukazují, že tato struktura vznikla postupným zesilováním nepatrných nerovnoměrností přítomných už v raném vesmíru, na které dále působila gravitace, včetně gravitace temné hmoty.</p><p>Mapování této sítě patří k důležitým nástrojům, jak testovat modely vzniku a vývoje vesmíru na největších pozorovatelných škálách.</p><p><em>Na této úrovni přestávají být jednotlivé galaxie důležité a strukturu tvoří až jejich vzájemné seskupení.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Large-scale structure of the universe",
@@ -17106,7 +17106,7 @@
     "id": "575",
     "title": "Rušení telefonních hovorů vedlo k náhodnému objevu rádiových vln z vesmíru",
     "content": "<p>Inženýr Karl Jansky dostal ve 30. letech 20. století za úkol zjistit zdroj rušení. Rušení narušovalo tehdejší transatlantické rádiové telefonní spojení.</p><p>Pomocí otočné antény vlastní konstrukce zjistil, že část rušení pochází ze zdroje, který se pravidelně posouvá po obloze v rytmu hvězdného, nikoli slunečního dne, což naznačovalo, že jde o zdroj mimo sluneční soustavu.</p><p>Nakonec identifikoval směr odpovídající centru naší galaxie.</p><p>Jansky tím nezáměrně založil obor <strong>radioastronomie</strong>, tedy pozorování vesmíru v jiné části elektromagnetického spektra, než je viditelné světlo.</p><p><strong>Tento přístup později umožnil objevy, které by v optickém oboru nikdy nebyly možné, včetně reliktního záření a pulsarů.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NRAO – Karl Jansky and the discovery of radio astronomy",
@@ -17142,7 +17142,7 @@
     "id": "576",
     "title": "Meteorický roj se každý rok vrací proto, že Země prochází stopou po kometě",
     "content": "<p>Komety při průletu kolem Slunce ztrácejí částice ledu a prachu. Ty zůstávají rozptýlené podél jejich dráhy.</p><p>Pokud dráha Země protíná takovou stopu, vlétávají tyto drobné částice každý rok ve stejnou dobu do zemské atmosféry vysokou rychlostí a shoří jako světelné stopy, které vnímáme jako <strong>meteory</strong>.</p><p>Protože všechny částice v jednom roji přilétají rovnoběžně ze stejného směru, zdají se pozorovateli vylétat z jednoho bodu oblohy, podle kterého se roj obvykle pojmenovává.</p><p>Perseidy v srpnu tak pocházejí z prachu zanechaného kometou Swift-Tuttle, zatímco Leonidy v listopadu souvisejí s kometou Tempel-Tuttle.</p><p><em>Intenzita roje v jednotlivých letech kolísá podle toho, jak hustou částí kometární stopy Země zrovna prochází.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Meteor showers",
@@ -17178,7 +17178,7 @@
     "id": "577",
     "title": "Kometární ohon vždy směřuje pryč od Slunce, i když kometa letí opačně",
     "content": "<p>Intuice by čekala, že ohon komety táhne za ní, podobně jako vlečka za letícím předmětem. Skutečnost je jiná.</p><p>Ohon komety vzniká tlakem slunečního záření a slunečního větru na uvolněný prach a plyn z jádra komety, a proto směřuje vždy přímo od Slunce, bez ohledu na to, kterým směrem se kometa právě pohybuje.</p><p>Když se kometa ke Slunci přibližuje, ohon ji tedy sleduje vzadu, ale při vzdalování od Slunce po průletu perihelem letí ohon vlastně před ní.</p><p>Komety navíc často mají dva odlišné ohony: prašný, který je zakřivený a odráží sluneční světlo, a iontový, tvořený ionizovaným plynem, který je téměř přímý a svítí vlastním světlem.</p><p><strong>Pozorování směru ohonu tak bylo jedním z raných vodítek k pochopení existence slunečního větru.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Comets",
@@ -17214,7 +17214,7 @@
     "id": "578",
     "title": "Starověcí astronomové dokázali předpovědět zatmění díky opakujícímu se cyklu",
     "content": "<p>Zatmění Slunce i Měsíce se neopakují nahodile. Babylonští astronomové si už před více než dvěma tisíci lety všimli, že podobná zatmění se vracejí po cyklu dlouhém přibližně osmnáct let a jedenáct dní, dnes nazývaném <strong>Saros</strong>.</p><p>Cyklus vzniká tím, že po této době se do velmi podobného vzájemného postavení vrátí tři různé periody měsíčního pohybu: oběh vůči hvězdám, oběh vůči Slunci a oběh vůči uzlům dráhy, ve kterých dochází k zatměním.</p><p>Znalost cyklu umožňovala předpovídat, kdy přibližně další zatmění nastane, i bez podrobného pochopení mechaniky sluneční soustavy.</p><p>Přesná poloha viditelnosti se ale mezi jednotlivými cykly posouvá, takže totéž zatmění není vidět ze stejného místa na Zemi.</p><p><em>Moderní astronomie stejný cyklus dodnes používá k organizaci zatmění do přehledných sérií.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Saros cycle",
@@ -17250,7 +17250,7 @@
     "id": "579",
     "title": "Vypuštění první americké družice odhalilo neviditelné pásy záření kolem Země",
     "content": "<p>Při přípravě první úspěšné americké družice Explorer 1 v roce 1958 přidal fyzik James Van Allen na její palubu jednoduchý přístroj. Měl počítat nabité částice.</p><p>Data ukázala něco neočekávaného: v určité výšce nad Zemí počet zaznamenaných částic prudce klesl na nulu, což se ukázalo být důsledkem přetížení detektoru extrémně vysokou intenzitou záření, nikoli jeho absencí.</p><p>Vysvětlením byla existence pásů nabitých částic zachycených zemským magnetickým polem, dnes nazývaných <strong>Van Allenovy pásy</strong>.</p><p>Tyto pásy představují reálné riziko pro elektroniku družic i pro posádky, které by jimi musely proletět, a jejich existence musela být zohledněna při plánování pilotovaných letů k Měsíci.</p><p><em>Objev patřil mezi první významné vědecké výsledky celého kosmického programu.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Van Allen Probes",
@@ -17288,7 +17288,7 @@
     "id": "580",
     "title": "Jediný měsíc sluneční soustavy má na povrchu tekutá jezera",
     "content": "<p>Na Titanu byla jako na jediném tělese mimo Zemi přímo potvrzena stálá tekutá jezera a moře. Netvoří je však voda, ale kapalný metan a etan.</p><p>Kvůli extrémně nízké povrchové teplotě, kolem minus 180 stupňů Celsia, nejde o vodu, ale o kapalný metan a etan, které za těchto podmínek zůstávají v tekutém skupenství.</p><p>Sonda Cassini a přistávací modul Huygens, který na Titanu přistál v roce 2005, zaznamenaly hustou dusíkatou atmosféru, říční koryta vytvarovaná tekoucí kapalinou a duny z uhlovodíkových zrn.</p><p>Tento koloběh kapalného metanu mezi atmosférou, srážkami a jezery připomíná pozemský koloběh vody, jen probíhá při zcela odlišné teplotě a s jinou chemickou látkou.</p><p><strong>Titan proto patří k nejzajímavějším místům pro studium chemických procesů podobných těm, které mohly předcházet vzniku života.</strong></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Titan",
@@ -17324,7 +17324,7 @@
     "id": "581",
     "title": "Snímek pořízený na žádost vědce ukázal Zemi jako nepatrnou tečku",
     "content": "<p>Voyager 1 otočil v únoru 1990 na žádost Carla Sagana kameru zpět k vnitřní sluneční soustavě. Krátce nato měl své kamery natrvalo vypnout.</p><p>Ze vzdálenosti přibližně šesti miliard kilometrů, tedy z okraje planetárního systému, pořídila sonda snímek, na kterém Země zabírá zlomek jediného obrazového bodu.</p><p>Snímek, dnes známý jako <strong>Pale Blue Dot</strong>, Sagan později použil jako výchozí bod pro úvahu o nepatrnosti lidského světa v měřítku celého vesmíru.</p><p>Technicky šlo o poslední snímky vůbec pořízené sondou Voyager 1 její kamerou, protože ta byla krátce poté kvůli úspoře energie natrvalo vypnuta.</p><p><em>Fotografie se stala jedním z nejcitovanějších symbolů pohledu na Zemi zvenčí.</em></p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Pale Blue Dot",
@@ -17360,7 +17360,7 @@
     "id": "582",
     "title": "Planety se na obloze občas vracejí zpět, což museli vysvětlit staří astronomové",
     "content": "<p>Pozorovaná dráha planet na noční obloze není rovnoměrná. Planeta se obvykle pohybuje jedním směrem vůči hvězdám, ale v pravidelných intervalech se na čas zastaví, vrátí se kousek zpět a pak pokračuje dál původním směrem.</p><p>Tomuto jevu se říká <strong>zpětný pohyb</strong> a ve starověkém modelu, kde Země stála nehybně uprostřed a vše obíhalo kolem ní, jej bylo možné vysvětlit jen složitým systémem takzvaných epicyklů, tedy menších kruhů, po kterých se planeta pohybovala navíc k té hlavní dráze.</p><p>Model dokázal pohyb popsat s poměrně velkou přesností, ale byl matematicky velmi komplikovaný a s každým zpřesněním pozorování vyžadoval další epicykly.</p><p>Jednoduché vysvětlení nabídl až heliocentrický model. Zdánlivý zpětný pohyb vzniká, když Země na své rychlejší vnitřní dráze předbíhá pomalejší vnější planetu.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Britannica – Retrograde motion",
@@ -20454,7 +20454,7 @@
     "id": "667",
     "title": "Jak se z délky stínu v Alexandrii spočítal obvod celé Země",
     "content": "<p>Kolem roku 240 př. n. l. si učenec z alexandrijské knihovny všiml nenápadného rozdílu. V egyptském městě Syene, dnešním Asuánu, prý o letním slunovratu v poledne osvítilo slunce dno hluboké studny, takže na svislých předmětech nebyl stín.</p><p>V Alexandrii ve stejnou chvíli stín byl. Eratosthenés z Kyrény z jeho délky určil, že sluneční paprsky tam dopadají pod úhlem asi sedmi stupňů, tedy zhruba padesátinou celého kruhu.</p><p>Pokud jsou paprsky téměř rovnoběžné, musí být padesátinou obvodu Země také vzdálenost mezi oběma městy. Tu odhadl na pět tisíc stadií, a obvod planety proto na zhruba 250 tisíc stadií.</p><p>Přesnost výsledku se dnes obtížně hodnotí, protože délka tehdejšího stadia není jistá. Podstatná je metoda: z geometrie a dvou měření spočítal rozměr celé Země.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Britannica – Eratosthenes",
@@ -20492,7 +20492,7 @@
     "id": "668",
     "title": "Slunce ve středu světa navrhl řecký astronom o 1800 let dřív než Koperník",
     "content": "<p>Koperník nebyl první, kdo posadil Slunce do středu světa. Už ve 3. století př. n. l. to navrhl řecký astronom Aristarchos ze Samu.</p><p>Jeho vlastní spis se nedochoval. Víme o něm hlavně z Archimédova díla, který uvádí, že Aristarchos předpokládal Slunce a hvězdy nehybné a Zemi obíhající po kruhu kolem Slunce.</p><p>Aristarchos se navíc pokusil odhadnout vzdálenosti a velikosti Slunce a Měsíce. Jeho čísla byla nepřesná, ale z úvah vyšlo, že Slunce je mnohem větší než Země, což mohlo vést k myšlence, že menší těleso obíhá větší.</p><p>Model se neprosadil. Chyběl totiž pozorovatelný posun hvězd při pohybu Země a odporoval i tehdejší fyzice. Tento posun, hvězdnou paralaxu, se podařilo změřit až v roce 1838.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Britannica – Aristarchus of Samos",
@@ -20530,7 +20530,7 @@
     "id": "669",
     "title": "Hvězdy se posouvají, protože se kývá osa naší planety",
     "content": "<p>Zdá se, že hvězdy na obloze mění svou polohu zcela pravidelně. Kolem roku 130 př. n. l. si ale Hipparchos z Nikaje všiml drobné odchylky, kterou nešlo přehlédnout.</p><p>Porovnal své měření poloh hvězd s údaji starších řeckých astronomů a zjistil, že se body jarní a podzimní rovnodennosti posouvají vůči hvězdám. Odhadl, že posun činí nejméně stupeň za století.</p><p>Dnes víme, že jde o <strong>precesi zemské osy</strong>. Osa naší planety opisuje kužel podobně jako osa rotujícího vlčku a celý cyklus trvá asi 26 tisíc let.</p><p>Důsledek je vidět i dnes: polohu severního pólu oblohy označuje Polárka, ale před pěti tisíci lety jím byla jiná hvězda, Thuban. Teprve srovnání dlouhých řad pozorování odhalí jevy, které jedna generace nevidí.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Britannica – Hipparchus",
@@ -20568,7 +20568,7 @@
     "id": "670",
     "title": "Proč se hvězdy točí: indický astronom v roce 499 tvrdil, že Země rotuje",
     "content": "<p>V roce 499 n. l. sepsal indický matematik a astronom Árjabhata spis <em>Árjabhatíja</em>. Podle vlastního údaje byl tehdy dvaadvacetiletý a jeho tvrzení bylo na dobu odvážné.</p><p>Zdánlivý pohyb hvězd po obloze podle něj nezpůsobuje otáčení nebes, ale otáčení Země kolem vlastní osy. Přirovnával to k pozorovateli na lodi, kterému se břeh zdá plynout opačným směrem.</p><p>Správně také vysvětloval zatmění: nejde o zásah démonů, ale o stíny, které vrhají Země a Měsíc. Hodnotu čísla pí uvedl jako 3,1416.</p><p>Jeho model nebyl v každém ohledu moderní, ale ukazuje, že myšlenka rotující Země se objevila v matematické astronomii dávno před novověkem a nezávisle na evropské tradici.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Britannica – Aryabhata I",
@@ -20754,7 +20754,7 @@
     "id": "675",
     "title": "Gramatika z 4. století př. n. l., která funguje jako program",
     "content": "<p>Dlouho před vznikem počítačů vytvořil indický gramatik <strong>Pánini</strong> něco, co se dnes podobá programu. Žil zřejmě kolem 4. století př. n. l. a sepsal <em>Aštádhjájí</em>, gramatiku sanskrtu.</p><p>Dílo obsahuje zhruba čtyři tisíce krátkých pravidel, uspořádaných tak, aby popsala celý jazyk co nejstručněji. Pánini k tomu používal vlastní umělé označení hlásek a pomocné symboly, což připomíná metajazyk.</p><p>Pravidla se aplikují v určitém pořadí a mají přesně vymezené podmínky, takže z kořenů a přípon lze mechanicky odvodit správné tvary slov.</p><p>Moderní badatelé proto Páninimu přisuzují jeden z prvních formálních popisů jazyka. Jeho přístup připomněl lingvistům i informatikům 20. století pravidla, kterými se dodnes popisují programovací jazyky.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Britannica – Panini",
@@ -20976,7 +20976,7 @@
     "id": "681",
     "title": "První placené promítání filmu: deset krátkých záběrů v pařížské kavárně",
     "content": "<p>28. prosince 1895 se v pařížské kavárně Grand Café na Boulevard des Capucines konalo první veřejné placené promítání filmu. Pořádali ho bratři Auguste a Louis Lumièrové.</p><p>Program tvořilo asi deset krátkých záběrů, každý dlouhý kolem padesáti sekund. Ukazovaly třeba dělníky vycházející z továrny. Pořídili je pomocí přístroje <strong>kinematograf</strong>, který byl kamerou, promítačkou i kopírkou najednou.</p><p>Známá historka tvrdí, že diváci při záběru přijíždějícího vlaku v panice utíkali ze sálu. Historici ji považují spíš za pozdější legendu. Divákům však muselo připadat zázračné, že se fotografie hýbe.</p><p>Z technické novinky se přitom za pár desetiletí stal základ celého filmového průmyslu.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Lumière brothers",
@@ -21014,7 +21014,7 @@
     "id": "682",
     "title": "Pravidla, která v Hollywoodu čtyřicet let určovala, co smí divák vidět",
     "content": "<p>Od 30. do 60. let 20. století platila v hollywoodských studiích soustava pravidel, která určovala, co smí film ukázat. Říkalo se jí <strong>Haysův kodex</strong> podle Willa Haye, předsedy producentského svazu.</p><p>Kodex vznikl roku 1930, ale důsledně se prosazoval až od roku 1934, kdy dohled převzal úřad vedený Josephem Breenem. Bez schválení úřadu bylo téměř nemožné film široce uvést.</p><p>Zakazoval například otevřenou nahotu nebo zobrazení zločinu bez trestu. Tvůrci se proto museli naučit sdělovat věci nepřímo, narážkami, střihem nebo dvojsmyslem.</p><p>Systém postupně zeslábl pod tlakem televize a zahraničních filmů. V roce 1968 ho nahradil systém věkových kategorií, který diváky informuje, místo aby tvůrcům zakazoval.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Motion Picture Production Code",
@@ -21050,7 +21050,7 @@
     "id": "683",
     "title": "Proč režisér obsadil do hlavní role skutečného dělníka",
     "content": "<p>Film <em>Zloději kol</em> z roku 1948 vypráví o dělníkovi v poválečném Římě, kterému někdo ukradne kolo nutné k práci. Režisér Vittorio De Sica do hlavní role obsadil skutečného dělníka z továrny, Lamberta Maggioraniho.</p><p>Natáčelo se přímo na římských ulicích a velká část herců nebyla profesionální. Chyběl luxus ateliéru, ale právě to dodalo příběhu naléhavost.</p><p>Film je považován za klíčový příklad <strong>italského neorealismu</strong>, směru, který vznikl po druhé světové válce a zobrazoval obyčejné lidi, bídu a každodenní problémy bez zkrášlování.</p><p>Neorealisté ukázali, že film nemusí stát na hvězdách a velkém rozpočtu. Stačí příběh, který diváci poznávají ze svého okolí.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Bicycle Thieves",
@@ -21086,7 +21086,7 @@
     "id": "684",
     "title": "První dokument, ve kterém se skutečnost trochu inscenovala",
     "content": "<p>Film <em>Nanuk ze severu</em> z roku 1922 bývá označován za první celovečerní dokument. Režisér Robert Flaherty v něm sledoval život inuitské rodiny v severní Kanadě.</p><p>Přesto nešlo o neutrální záznam. Flaherty některé scény inscenoval. Lovec, kterého ve filmu vidíme jako Nanuka, se ve skutečnosti jmenoval Allakariallak a Flaherty ho nechal používat starší harpuny, i když tehdy už lovci běžně používali pušky.</p><p>Iglú bylo navíc postaveno větší a rozříznuto, aby do něj pronikla kamera a světlo.</p><p>Film tak položil otázku, která provází dokument dodnes: kde končí zachycení skutečnosti a kde začíná její režie? Flaherty svůj postup obhajoval snahou ukázat dřívější způsob života.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Nanook of the North",
@@ -21124,7 +21124,7 @@
     "id": "685",
     "title": "Herec na jevišti a postava na plátně: Laterna magika z Expo 58",
     "content": "<p>Na světové výstavě Expo 58 v Bruselu vzbudil velkou pozornost československý pavilon. Hlavním lákadlem byla nová podívaná, <strong>Laterna magika</strong>.</p><p>Vytvořili ji režisér Alfréd Radok a scénograf Josef Svoboda. Na jevišti spojovali živé herce s filmovým plátnem tak, že postavy mezi oběma světy jakoby přecházely, komunikovaly s promítanými obrazy a reagovaly na ně.</p><p>Technicky šlo o pečlivě synchronizované představení, kde chyba v časování zničila celý dojem. Divák musel mít pocit, že herec na jevišti podává předmět někomu na plátně.</p><p>Laterna magika se stala trvalou součástí pražské kultury a ukazuje, že česká scénografie měla v 50. letech světový dosah.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Laterna magika",
@@ -21450,7 +21450,7 @@
     "id": "694",
     "title": "Algoritmus nejkratší cesty, který vznikl za dvacet minut v kavárně",
     "content": "<p>Dnes pomocí něj navigace počítá nejkratší trasu. Nizozemský informatik Edsger Dijkstra ho vymyslel roku 1956 v Amsterdamu a podle vlastních slov na to potřeboval asi dvacet minut.</p><p>Seděl údajně na kavárenské terase s přítelkyní a přemýšlel, jak předvést možnosti nového počítače. Napadlo ho najít nejkratší cestu mezi dvěma městy.</p><p>Postup funguje tak, že z výchozího místa postupně prozkoumává nejbližší dosud nenavštívené uzly a u každého si pamatuje dosud nejkratší nalezenou cestu. Publikoval ho v roce 1959.</p><p>Dijkstra později říkal, že algoritmus byl jednoduchý i proto, že ho vymýšlel bez tužky a papíru. Takto vzniklý nástroj se používá v počítačových sítích i v mapových aplikacích.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Dijkstra's algorithm",
@@ -21486,7 +21486,7 @@
     "id": "695",
     "title": "Proč přidání lidí do zpožděného projektu zpoždění zvětší",
     "content": "<p>Projekt se zpožďuje, a proto manažer přidá další programátory. Výsledek: zpoždění se zvětší. Tento zdánlivý paradox popsal Fred Brooks v knize <em>The Mythical Man-Month</em> z roku 1975.</p><p>Čerpal z vlastní zkušenosti s vývojem operačního systému OS/360 ve firmě IBM. Nově příchozí musí nejdřív získat znalosti, což odčerpává čas těm, kdo už práci rozumějí.</p><p>Druhým problémem je komunikace. Počet vzájemných spojení mezi lidmi roste rychleji než počet lidí: u deseti pracovníků je jich 45, u dvaceti už 190.</p><p>Brooksův zákon platí hlavně u úkolů, které nelze snadno rozdělit. Brooks to přirovnal k tomu, že devět žen nezvládne porodit dítě za měsíc. Lidská práce a čas tedy nejsou zaměnitelné.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Brooks's law",
@@ -21524,7 +21524,7 @@
     "id": "696",
     "title": "Jak lze do programu vložit zadní vrátka, která ve zdrojovém kódu nenajdete",
     "content": "<p>V roce 1984 pronesl Ken Thompson, spoluautor operačního systému Unix, přednášku při přebírání Turingovy ceny. Popsal v ní nepříjemný trik.</p><p>Do kompilátoru, tedy programu překládajícího zdrojový kód na strojový, lze tajně vložit instrukci, která při překladu přihlašovacího programu přidá zadní vrátka. Druhá část triku zajistí, aby kompilátor při překladu sám sebe vložil tutéž instrukci znovu.</p><p>Poté lze úpravu ze zdrojového kódu kompilátoru odstranit. Čtenář zdrojů nic podezřelého nenajde, ale spustitelná verze zůstane nakažená.</p><p>Thompson z toho vyvodil, že nelze plně důvěřovat kódu, který jsme si celý sami nevytvořili včetně všech nástrojů. Problém se dnes řeší například reprodukovatelnými, transparentními překlady.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Ken Thompson",
@@ -21562,7 +21562,7 @@
     "id": "697",
     "title": "Stroj, který se učil z příkladů a málem ukončil výzkum neuronových sítí",
     "content": "<p>V roce 1958 představil americký psycholog Frank Rosenblatt z Cornellovy univerzity <strong>perceptron</strong>, jednoduchý model umělého neuronu, který se dokázal učit z příkladů. Stroj se naučil třeba rozlišovat jednoduché tvary.</p><p>Tisk tehdy psal o počítačích, které by mohly chodit, mluvit i vidět, a očekávání byla obrovská.</p><p>V roce 1969 vydali Marvin Minsky a Seymour Papert knihu <em>Perceptrons</em>, v níž dokázali, že jednovrstvý perceptron nezvládne ani jednoduchou úlohu zvanou XOR. Zájem a financování výzkumu neuronových sítí výrazně poklesly.</p><p>Řešením byly sítě s více vrstvami a algoritmus zpětného šíření chyby, který se prosadil v 80. letech. Dnešní hluboké učení tak vychází z myšlenky, která byla kdysi považována za slepou uličku.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Perceptron",
@@ -22220,7 +22220,7 @@
     "id": "715",
     "title": "Průmyslový proces, díky kterému se uživí zhruba polovina lidstva",
     "content": "<p>Podle odhadů pochází zhruba polovina dusíku v lidském těle z jediného průmyslového procesu. Za jeho vznikem stojí dva němečtí chemici, Fritz Haber a Carl Bosch.</p><p>Rostliny potřebují dusík, ten je ve vzduchu ve velkém množství, ale v podobě, kterou rostliny nevyužijí. Haber v roce 1909 předvedl, že se dá spojit s vodíkem na čpavek při vysokém tlaku a teplotě za pomoci katalyzátoru. Bosch postup v roce 1913 převedl do průmyslu.</p><p>Díky umělým hnojivům se výnosy zemědělství dramaticky zvýšily a svět dnes uživí podstatně víc lidí než dřív. Haber dostal Nobelovu cenu za chemii za rok 1918, Bosch v roce 1931.</p><p>Příběh má temnou stránku: Haber se podílel i na vývoji chemických zbraní za první světové války.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Nobel Prize – Fritz Haber",
@@ -22258,7 +22258,7 @@
     "id": "716",
     "title": "Pokus s jiskrami a plyny, při kterém z jednoduché směsi vznikly aminokyseliny",
     "content": "<p>Jak mohl vzniknout život na Zemi? V roce 1952 se tuto otázku pokusil řešit chemik Stanley Miller na Chicagské univerzitě pod vedením Harolda Ureyho.</p><p>Sestavil uzavřenou aparaturu s vodou a plyny, o kterých se tehdy předpokládalo, že tvořily rané ovzduší: methan, čpavek a vodík. Směs vystavil elektrickým výbojům, které napodobovaly blesky.</p><p>Po týdnu se v kapalině objevily aminokyseliny, tedy stavební kameny bílkovin. Pozdější rozbor uchovaných vzorků odhalil, že jich vzniklo víc, než Miller původně zjistil.</p><p>Dnes vědci pochybují, že raná atmosféra měla přesně takové složení. Pokus přesto ukázal, že složité organické molekuly mohou vznikat z jednoduchých látek přirozeně, a otevřel obor zkoumající chemický původ života.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Wikipedia – Miller–Urey experiment",
@@ -22826,7 +22826,7 @@
     "id": "731",
     "title": "Jak kamera dokáže vyvolat závrať, aniž by se pohnul obraz",
     "content": "<p>Postava stojí na místě, ale svět za ní se roztahuje a zkresluje. Divák cítí závrať, přestože se nic nepohybuje.</p><p>Za tímto efektem stojí <strong>dolly zoom</strong>. Kamera se na pojízdném vozíku přibližuje k postavě, zatímco objektiv se současně oddaluje, takže velikost postavy zůstává stejná, ale perspektiva pozadí se mění.</p><p>Poprvé ho ve filmu použil Alfred Hitchcock v roce 1958 v thrilleru <em>Vertigo</em>, kde hlavní hrdina trpí strachem z výšek. Techniku podle dochovaných zpráv vyvinul Irmin Roberts.</p><p>Později efekt využil například Steven Spielberg ve filmu <em>Čelisti</em> ve chvíli, kdy policejní náčelník na pláži zpozoruje útok. Je to příklad toho, že tvůrci umějí zprostředkovat pocit tělesně, jen pomocí optiky.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Dolly zoom",
@@ -22864,7 +22864,7 @@
     "id": "732",
     "title": "Dva Oscary za tři roky: jak československý film oslnil Hollywood",
     "content": "<p>V dubnu 1966 získal film <em>Obchod na korze</em> režisérů Jána Kadára a Elmara Klose Oscara za nejlepší cizojazyčný film. Byl to první československý snímek, který tuto cenu dostal.</p><p>Příběh o slovenském truhláři, který se za války stane takzvaným arizátorem obchodu staré židovské ženy, ukazuje, jak obyčejný člověk dostává do rukou moc, kterou nechce.</p><p>O dva roky později, v dubnu 1968, přidal druhou sošku film <em>Ostře sledované vlaky</em> Jiřího Menzela podle novely Bohumila Hrabala. Odehrává se za války na malém nádraží a spojuje komedii s tragédií.</p><p>Třetího Oscara v této kategorii přinesl českému filmu v roce 1997 <em>Kolja</em>. Šedesátá léta se dodnes označují za zlatou éru československé kinematografie.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – The Shop on Main Street",
@@ -22904,7 +22904,7 @@
     "id": "733",
     "title": "Test tří otázek, který odhaluje, jak filmy zobrazují ženy",
     "content": "<p>Existuje jednoduchý test, který lze provést na jakémkoli filmu. Vystupují v něm aspoň dvě ženy, které mají jména? A mluví spolu o něčem jiném než o muži?</p><p>Test se podle původní verze objevil roku 1985 v komiksu <em>Dykes to Watch Out For</em> americké kreslířky Alison Bechdelové. Autorka ho později spojila s nápadem své přítelkyně Liz Wallaceové a s úvahami Virginie Woolfové.</p><p>Překvapivě velké množství populárních filmů testem neprojde, i když by to splnit nebylo těžké.</p><p>Test sám neříká nic o kvalitě. Film může být vynikající a neprojít, nebo úspěšně projít a být špatný. Ukazuje spíše na to, jak často jsou ženy ve vyprávění definovány vztahem k mužům.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Bechdel test",
@@ -22942,7 +22942,7 @@
     "id": "734",
     "title": "Neoficiální Drákula, jehož kopie soud nařídil zničit",
     "content": "<p>Německý film <em>Nosferatu</em> z roku 1922 režiséra Friedricha W. Murnaua vychází z románu <em>Drákula</em> Brama Stokera z roku 1897, ale bez povolení jeho dědiců. Tvůrci změnili jména postav, hrabě se jmenoval Orlok, a doufali, že tím právní potíže odvrátí.</p><p>Vdova po autorovi, Florence Stokerová, přesto podala žalobu.</p><p>Soud jí dal za pravdu a v roce 1925 nařídil zničit všechny kopie filmu. Rozkaz se ale nepodařilo splnit úplně. Několik kopií přežilo v různých zemích a film se později rekonstruoval.</p><p>Dnes patří k nejvlivnějším hororům němé éry. Jeho stíny, výrazná postava upíra a atmosféra ovlivnily generace filmařů.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Nosferatu",
@@ -23200,7 +23200,7 @@
     "id": "741",
     "title": "Překladač, který přiměl počítače rozumět lidštějšímu zápisu",
     "content": "<p>Na počátku 50. let 20. století se programy psaly přímo ve strojovém kódu. Programátor musel pro každou operaci zapsat číselné instrukce a drobná chyba znamenala hodiny hledání.</p><p>Americká matematička a námořní důstojnice Grace Hopperová roku 1952 vyvinula pro počítač UNIVAC I systém <strong>A-0</strong>, který z jednodušších značek sestavil strojový kód. Často se označuje za první překladač.</p><p>Podle jejích vzpomínek jí tehdy tvrdili, že počítače umějí jen počítat a programy musí psát lidé. Hopperová věřila, že programování lze přiblížit angličtině.</p><p>Její pozdější práce ovlivnila vznik jazyka COBOL, který se objevil roku 1959 a dodnes funguje v bankovních systémech.</p><p>Princip překladu z čitelného zápisu do strojového se stal základem všech dnešních programovacích jazyků.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Grace Hopper",
@@ -23236,7 +23236,7 @@
     "id": "742",
     "title": "Data v tabulkách: myšlenka z roku 1970, na které stojí databáze",
     "content": "<p>Před rokem 1970 bylo uspořádání dat v počítačích těsně svázáno s tím, jak byla fyzicky uložena. Změna uložení znamenala přepisování programů.</p><p>Britský informatik Edgar F. Codd, pracující ve firmě IBM, publikoval roku 1970 článek <em>A Relational Model of Data for Large Shared Data Banks</em>. Navrhl ukládat data do tabulek, tedy relací, a dotazovat se na ně nezávisle na způsobu uložení.</p><p>IBM tuto myšlenku zpočátku nevyužila naplno, a první komerčně dostupnou relační databázi tak uvedla firma, která se později stala společností Oracle.</p><p>Z Coddova modelu vychází jazyk SQL, kterým se dodnes ptáme na data. Codd za svou práci získal v roce 1981 Turingovu cenu.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "ACM – A Relational Model of Data for Large Shared Data Banks",
@@ -23274,7 +23274,7 @@
     "id": "743",
     "title": "Software se podobá firmě, která ho vytvořila",
     "content": "<p>Proč mívá program strukturu, která odpovídá rozdělení týmů, jež ho vytvářely? Americký programátor Melvin Conway to popsal v roce 1967 a jeho článek vyšel v roce 1968.</p><p>Jeho pozorování se dnes nazývá <strong>Conwayův zákon</strong>: organizace, které navrhují systémy, vytvářejí návrhy odrážející jejich vlastní komunikační strukturu.</p><p>Důvod je praktický. Části systému, které spolu musejí komunikovat, se snadno dohodnou jen tehdy, pokud spolu komunikují i lidé, kteří je tvoří. Rozhraní mezi moduly pak odpovídá rozhraní mezi týmy.</p><p>Z toho plyne užitečný závěr pro řízení: chcete-li jinou architekturu, někdy je třeba změnit nejdřív uspořádání týmů. Zákon není přírodní zákon, ale zkušenost, kterou potvrdila řada projektů.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Conway's law",
@@ -23938,7 +23938,7 @@
     "id": "761",
     "title": "Nová hvězda z roku 1572, která zpochybnila neměnnost nebes",
     "content": "<p>V listopadu 1572 se v souhvězdí Kasiopeji objevil jasný bod, který tam dřív nebyl. Svítil tak silně, že byl za dne viditelný.</p><p>Dánský astronom Tycho Brahe ho pečlivě sledoval. Podle tehdejší aristotelské představy byla oblast za Měsícem dokonalá a neměnná a změny se mohly odehrávat jen v atmosféře Země.</p><p>Tycho zjistil, že se poloha objektu vůči okolním hvězdám v rámci přesnosti měření nemění ani při pozorování z různých míst. Z toho vyplynulo, že leží daleko za Měsícem.</p><p>Své poznatky vydal roku 1573 ve spisu <em>De nova stella</em>. Dnes víme, že šlo o <strong>supernovu</strong>, výbuch hvězdy. Pro tehdejší učence byla přesvědčivým důkazem, že nebesa se mění.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Wikipedia – SN 1572",
@@ -23974,7 +23974,7 @@
     "id": "762",
     "title": "Ztracená planetka, kterou našla až matematika mladého Gausse",
     "content": "<p>Na Nový rok 1801 objevil sicilský astronom Giuseppe Piazzi v Palermu nový objekt mezi Marsem a Jupiterem. Šlo o první těleso objevené v oblasti, kde astronomové tušili chybějící planetu.</p><p>Piazzi ho sledoval jen několik týdnů, než zmizelo v záři Slunce. Zbývalo příliš málo měření a astronomové nevěděli, kde ho hledat.</p><p>Tehdy mladý německý matematik Carl Friedrich Gauss vypracoval novou metodu výpočtu dráhy z mála pozorování. Díky jeho předpovědi se těleso podařilo znovu najít koncem roku 1801.</p><p>Objekt dostal jméno <strong>Ceres</strong>. Dnes patří mezi trpasličí planety a je největším tělesem hlavního pásu planetek.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Wikipedia – Ceres (dwarf planet)",
@@ -24716,7 +24716,7 @@
     "id": "782",
     "title": "Film, který se tváří jako jediný záběr, ale má střihy ukryté v temnotě",
     "content": "<p>Thriller <em>Provaz</em> z roku 1948 se odehrává v jediném bytě a diváci mají dojem, že je natočen na jeden záběr. Režisér Alfred Hitchcock tomu chtěl dosáhnout záměrně.</p><p>Technické omezení ale bránilo. Kotouč filmu tehdy vystačil asi na deset minut, a tak bylo nutné film na několika místech přerušit.</p><p>Hitchcock střihy skryl: kamera se v určitých chvílích přiblíží k tmavému předmětu, například ke hřbetu saka, vyplní celý obraz, a po výměně kotouče z něj zase odjede. Divák si střihu nevšimne.</p><p>Film je navíc natočen ve výrazných barvách a stěny kulis se musely během záběrů tiše posouvat, aby kamera mohla projet. Dlouhé záběry se podařilo plánovat jen s přesnou choreografií herců a štábu.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Rope (film)",
@@ -24754,7 +24754,7 @@
     "id": "783",
     "title": "Film z roku 1929 bez herců, scénáře i titulků",
     "content": "<p>Sovětský režisér Dziga Vertov natočil roku 1929 film <em>Muž s kinoaparátem</em>. Neměl scénář, nehráli v něm herci a neobsahoval mezititulky, které němé filmy běžně používaly.</p><p>Ukazuje jeden den ve městě, natáčený v několika sovětských městech. Kameraman, kterým byl Vertovův bratr Michail Kaufman, se do obrazu opakovaně vrací a divák vidí i střih filmu, který dělala Vertovova žena Jelizaveta Svilová.</p><p>Vertov využil dvojí expozici, rozdělené plátno, zpomalený i zrychlený pohyb. Chtěl, aby se kino odpoutalo od divadla a literatury a stalo se samostatným uměním.</p><p>V anketě kritiků časopisu <em>Sight and Sound</em> z roku 2012 skončil film osmý mezi nejlepšími filmy všech dob.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Man with a Movie Camera",
@@ -24792,7 +24792,7 @@
     "id": "784",
     "title": "Film, který vypadá jako ožívající rytiny z knih Julesa Verna",
     "content": "<p>Český režisér Karel Zeman natočil roku 1958 film <em>Vynález zkázy</em>. Podle románu Julesa Verna vypráví o vynálezci, který se skrývá se svým tajemstvím na vzdáleném ostrově.</p><p>Nejvýraznější je vzhled. Zeman spojil hrané záběry, kresbu, loutky a animaci tak, aby výsledek připomínal ocelorytiny, kterými byly vernovky původně ilustrovány. Herci často stojí před malovanými pozadími.</p><p>Snímek vznikl v době, kdy československý film hledal vlastní vizuální jazyk. Zeman v něm využil postupy, které rozvíjel už ve svých dřívějších filmech.</p><p>Film byl uveden i v zahraničí, kde ho pro jeho neobvyklý vzhled oceňovali kritici. Dodnes se uvádí jako ukázka, že trik může být zároveň stylem a ne jen pomůckou.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – The Fabulous World of Jules Verne",
@@ -24830,7 +24830,7 @@
     "id": "785",
     "title": "Objektiv určený pro NASA umožnil natočit film jen při svíčkách",
     "content": "<p>Film <em>Barry Lyndon</em> z roku 1975 se odehrává v 18. století, a režisér Stanley Kubrick chtěl, aby vnitřní scény osvětlovaly jen svíčky, tak jako tehdy. Obyčejný filmový materiál ale při tak slabém světle nestačil.</p><p>Našel řešení u objektivů značky Zeiss, původně vyrobených pro NASA k fotografování tmavé strany Měsíce. Měly mimořádně světelnou clonu f/0,7. Kubrick koupil tři kusy a nechal je upravit pro filmovou kameru.</p><p>Cenou byla extrémně malá hloubka ostrosti. Herci se museli ve scéně téměř nehýbat, jinak by vypadli z ostrosti.</p><p>Kameraman John Alcott za film získal Oscara. Výsledné záběry připomínají dobové malby a patří k nejznámějším technickým kouskům světové kinematografie.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Barry Lyndon",
@@ -24866,7 +24866,7 @@
     "id": "786",
     "title": "Sedm samurajů: film, jehož schéma zná dnes každý",
     "content": "<p>Vesnice je ohrožena lupiči a vesničané nemají zbraně. Rozhodnou se najmout bojovníky bez pána, kteří za jídlo ochrání jejich pole. Tak začíná film <em>Sedm samurajů</em>, který natočil Akira Kurosawa roku 1954.</p><p>Příběh sleduje známý postup: sestavení týmu, příprava obrany a závěrečný střet. Každý ze sedmi bojovníků má jiný charakter a dovednost a film má přes tři hodiny, aby je rozvinul.</p><p>Schéma se stalo vzorem. Roku 1960 vznikl americký western <em>Sedm statečných</em> Johna Sturgese a podobnou stavbu mají i pozdější filmy o dobrodružných týmech.</p><p>Kurosawa tím ukázal, že akční film může být zároveň studií lidí: každý hrdina má motiv, slabost a vlastní důvod, proč nasazuje život.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Seven Samurai",
@@ -25200,7 +25200,7 @@
     "id": "795",
     "title": "Devadesátiminutová ukázka z roku 1968, která předvedla budoucnost počítačů",
     "content": "<p>9. prosince 1968 vystoupil na konferenci v San Franciscu Douglas Engelbart z Výzkumného ústavu Stanfordské univerzity. Za ním stála obří promítací plocha a před ním klávesnice a dosud nevídané zařízení.</p><p>V devadesátiminutovém vystoupení předvedl <strong>myš</strong>, okna na obrazovce, hypertextové odkazy, úpravu textu s kolegou na dálku a videokonferenci. Většina z toho tehdy nikoho nenapadla jako každodenní nástroj.</p><p>Systém se jmenoval NLS a Engelbart ho vyvíjel s týmem několik let. Cílem bylo rozšířit schopnost lidí společně řešit složité problémy.</p><p>Pozdější historici vystoupení pojmenovali <em>Matka všech ukázek</em>. Mnoho prvků se dostalo do osobních počítačů až o patnáct let později, zejména díky laboratořím Xerox PARC.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – The Mother of All Demos",
@@ -25238,7 +25238,7 @@
     "id": "796",
     "title": "Chyba o víkendu přivedla Hamminga k vynálezu kódů opravujících chyby",
     "content": "<p>V 40. letech 20. století pracoval matematik Richard Hamming v Bellových laboratořích s počítači, které četly děrné štítky. Když stroj o víkendu narazil na chybu, úloha se zastavila a čekala do pondělí.</p><p>Hamming se rozhodl, že když stroj chybu pozná, měl by ji umět i opravit. Roku 1950 popsal metodu, kterou dnes nazýváme <strong>Hammingův kód</strong>.</p><p>K datovým bitům se přidají kontrolní bity, které kontrolují různé skupiny dat. Z toho, které kontroly selžou, lze vyčíst, který bit je chybný, a opravit ho. Kód označovaný (7,4) přidá ke čtyřem datovým bitům tři kontrolní.</p><p>Principy opravy chyb se dnes používají v paměti počítačů, při přenosu z kosmických sond a v mnoha dalších zařízeních.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Hamming code",
@@ -25276,7 +25276,7 @@
     "id": "797",
     "title": "Ozařovací přístroj, který zabíjel kvůli chybě v softwaru",
     "content": "<p>V letech 1985 až 1987 došlo v několika nemocnicích v USA a Kanadě k šesti nehodám se zařízením <strong>Therac-25</strong>, které sloužilo k ozařování nádorů. Pacienti dostali dávky záření mnohonásobně vyšší než určené a nejméně tři z nich zemřeli.</p><p>Vyšetřování ukázalo, že příčinou byly chyby v řídicím softwaru, mimo jiné takzvaný souběh. Pokud obsluha zadávala údaje dostatečně rychle, program se dostal do nebezpečného stavu.</p><p>Starší modely měly mechanické pojistky, které takovému nastavení bránily. U Therac-25 se výrobce spolehl na software a pojistky odstranil. Chybová hlášení navíc byla nesrozumitelná a obsluha je často ignorovala.</p><p>Případ se dodnes vyučuje jako varování. Bezpečnost kritických systémů nemá záviset jen na jedné vrstvě ochrany.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Therac-25",
@@ -25314,7 +25314,7 @@
     "id": "798",
     "title": "Jak se dohodnout, když někteří z účastníků lžou",
     "content": "<p>Několik byzantských generálů obléhá město; každý velí své armádě a musejí se společně dohodnout, zda zaútočit, nebo ustoupit. Útok jen části vojska by skončil katastrofou. Komunikovat mohou jen posly a někteří z generálů mohou být zrádci.</p><p>Tuto úlohu formulovali v roce 1982 informatici Leslie Lamport, Robert Shostak a Marshall Pease a nazvali ji <strong>problém byzantských generálů</strong>. Zrádci mohou různým generálům poslat protichůdné zprávy.</p><p>Autoři dokázali, že při určitém typu komunikace je dohoda možná, jen když zrádců je méně než třetina.</p><p>Úloha popisuje situaci v distribuovaných systémech, kde některé počítače selhávají nebo se chovají škodlivě. Navazují na ni protokoly, které používají i dnešní sítě založené na blockchainu.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "ACM – The Byzantine Generals Problem",
@@ -25350,7 +25350,7 @@
     "id": "799",
     "title": "Jazyk z roku 1958, který vymyslel úklid paměti",
     "content": "<p>Americký informatik John McCarthy navrhl v roce 1958 na MIT programovací jazyk <strong>Lisp</strong>. Starší jazyky se zaměřovaly na čísla, Lisp pracoval se seznamy a symboly, což vyhovovalo výzkumu umělé inteligence.</p><p>Roku 1960 popsal jeho principy v článku o rekurzivních funkcích symbolických výrazů. Zavedl v něm podmíněné výrazy a rekurzi a program mohl zacházet s kódem jako s daty.</p><p>Součástí byla i novinka, která dnes patří ke každodennímu programování: <strong>automatický úklid paměti</strong>. Programátor nemusí ručně uvolňovat paměť, kterou už nikdo nepoužívá, protože se o to stará systém.</p><p>Lisp je po Fortranu druhým nejstarším jazykem, který se stále používá. Mnohé jeho myšlenky se objevují v moderních jazycích jako Python nebo JavaScript.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Lisp (programming language)",
@@ -26230,7 +26230,7 @@
     "id": "823",
     "title": "Proč se zlato nerozpouští v kyselinách, kromě té královské",
     "content": "<p>Zlato odolává většině chemikálií a nekoroduje, proto se ve špercích i elektronice používá po tisíciletí. Alchymisté ale znali směs, která ho rozpustí: lučavku královskou.</p><p>Je to směs koncentrované kyseliny dusičné a chlorovodíkové, obvykle v poměru jedna ku třem. Název vznikl proto, že rozpouští <em>krále kovů</em>.</p><p>Žádná z kyselin zlato samostatně nerozpustí. Dusičná ho oxiduje jen nepatrně, ale chloridové ionty z druhé kyseliny vytvoří se zlatem stabilní komplex a oxidace může pokračovat.</p><p>Příběh z druhé světové války: maďarský chemik George de Hevesy rozpustil zlaté nobelovské medaile Maxe von Laueho a Jamese Francka v lučavce, aby je ukryl před nacisty, a po válce zlato vysrážel a medaile znovu vyrobila Nobelova nadace.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Wikipedia – Aqua regia",
@@ -26268,7 +26268,7 @@
     "id": "824",
     "title": "Proč se dřevo v kamnech nespálí hned, ale hoří v plamenech",
     "content": "<p>Polínko v kamnech nehoří přímo na povrchu. Plamen, který vidíte, tvoří hořící plyny, které se z dřeva uvolňují, když je žárem rozkládáno.</p><p>Tento proces se nazývá <strong>pyrolýza</strong>. Při teplotách nad zhruba 200 až 300 °C se dřevo bez dostatku kyslíku rozpadá na těkavé látky a pevný zbytek, uhlík.</p><p>Plyny shoří v plameni a po jejich odchodu zůstane žhavé dřevěné uhlí, které hoří bez plamene. Proto se kamna chovají ve dvou fázích: zprvu plamenně a poté zvolna žhnou.</p><p>Z uhlí se kdysi vyráběla i prostředí pro kovářství a tavbu rud. Postup, při kterém se dřevo zahřívá bez přístupu vzduchu, se nazývá výroba dřevěného uhlí a je známý tisíciletí.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Wikipedia – Pyrolysis",
@@ -26306,7 +26306,7 @@
     "id": "825",
     "title": "Proč mýdlo odstraní mastnotu, kterou voda sama nesmyje",
     "content": "<p>Voda a olej se nemíchají. Proto samotná voda špatně odstraňuje mastné skvrny z rukou nebo nádobí. Mýdlo tento problém řeší díky zvláštní stavbě molekul.</p><p>Molekula mýdla má dva konce. Jeden je hydrofilní, tedy přitahuje vodu, druhý hydrofobní a přitahuje tuky. Takové látky se nazývají <strong>povrchově aktivní</strong>.</p><p>Hydrofobní konce se zachytí na kapce tuku a hydrofilní směřují do vody. Vzniknou drobné kuličky zvané micely, které voda odnese.</p><p>Mýdlo se vyrábí tisíce let ze zásady a tuku. Ničí také obaly některých virů, které obsahují lipidovou membránu, a proto důkladné mytí rukou pomáhá proti infekcím.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "Wikipedia – Soap",
@@ -26380,7 +26380,7 @@
     "id": "827",
     "title": "Fotografie koně v cvalu, která vyřešila sázku o nohy",
     "content": "<p>Oddělují se při cvalu všechny čtyři nohy koně od země současně? Malíři to po staletí zobrazovali různě. Roku 1872 se o tom vsadil kalifornský podnikatel Leland Stanford a najal fotografa Eadwearda Muybridge.</p><p>Muybridge podél dráhy postavil řadu fotoaparátů, jejichž závěrky spouštěly nitě napnuté přes trať. Kůň při průběhu přerušil jednotlivé nitě a zachytil se v sérii snímků.</p><p>Výsledek ukázal, že v určité fázi cvalu se kůň skutečně vznáší nad zemí, ale nohy má pokrčené pod tělem, a ne rozpažené, jak je malovali.</p><p>Serie fotografií z roku 1878 se stala jedním z předchůdců filmu. Muybridge později vytvořil přístroj zoopraxiskop, který snímky promítal za sebou a vyvolával dojem pohybu.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Eadweard Muybridge",
@@ -26416,7 +26416,7 @@
     "id": "828",
     "title": "Kuleshovův efekt: tentýž obličej, ale jiný cit podle následujícího záběru",
     "content": "<p>Ruský režisér Lev Kulešov ve 20. letech 20. století spojil záběr herce s neutrální tváří s různými dalšími záběry: talíř polévky, rakev, žena na pohovce. Podle pozdějších popisů diváci tvrdili, že herec vyjadřuje hlad, zármutek nebo touhu.</p><p>Tvář byla ve všech případech stejná. Význam vznikl ve střihu, v mysli diváka, který si mezi záběry domyslel souvislost.</p><p>Tomuto jevu se říká <strong>Kulešovův efekt</strong>. Je jedním ze základů filmové montáže a ukazuje, že vyprávění nevzniká jen v jednotlivých záběrech, ale v jejich spojení.</p><p>Původní pokus se nedochoval a pozdější výzkumy ukazují, že účinek je slabší, než se dříve tvrdilo. Princip ale používají filmaři dodnes, například při střihu reakcí.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Wikipedia – Kuleshov effect",
@@ -26714,7 +26714,7 @@
     "id": "836",
     "title": "Proč se Slunce zdá menší než Měsíc na hodině zeměpisu, ale při zatmění stejné",
     "content": "<p>Slunce je zhruba 400krát větší než Měsíc, ale zároveň je zhruba 400krát dál. Proto se oba na obloze jeví přibližně stejně velké, asi půl stupně.</p><p>Díky této shodě je možné <strong>úplné zatmění Slunce</strong>, při kterém Měsíc zakryje sluneční kotouč a odhalí se koróna, vnější vrstva slunečního plynu.</p><p>Shoda je náhodná. Měsíc se od Země vzdaluje a pozorování se mění: při větší vzdálenosti Měsíce vzniká prstencové zatmění, při kterém kolem Měsíce zůstává světelný kroužek.</p><p>V historii hrála zatmění významnou roli. Při zatmění v roce 1919 se potvrdila Einsteinova předpověď ohybu světla a roku 1868 při něm objevili helium.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Eclipses",
@@ -26752,7 +26752,7 @@
     "id": "837",
     "title": "Helium bylo nalezeno na Slunci dřív než na Zemi",
     "content": "<p>Jules Janssen zaznamenal při zatmění Slunce 18. srpna 1868 neznámou žlutou spektrální čáru. Pozoroval v Indii sluneční protuberance.</p><p>Podobné pozorování učinil později téhož roku Angličan Norman Lockyer. Společně s chemikem Edwardem Franklandem navrhl, že jde o nový prvek, a pojmenovali ho podle řeckého slova pro Slunce, <em>hélios</em>.</p><p>Na Zemi helium izoloval až roku 1895 skotský chemik William Ramsay z uranového minerálu. Poté se ukázalo, že vzniká radioaktivním rozpadem a hromadí se v zemním plynu.</p><p>Příběh ukazuje sílu <strong>spektroskopie</strong>: z rozkladu světla lze určit složení hvězd, které nikdy nenavštívíme.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Wikipedia – Helium",
@@ -27794,7 +27794,7 @@
     "id": "865",
     "title": "Proč se šachový stroj z 18. století ukázal být podvodem",
     "content": "<p>V roce 1770 předvedl uherský vynálezce Wolfgang von Kempelen na vídeňském dvoře šachového automata, který se nazýval <strong>Turek</strong>. Skříň s loutkou v turbanu hrála šachy a porážela i zkušené soupeře.</p><p>Stroj putoval po Evropě i Americe. Hrál proti Napoleonovi a Benjaminu Franklinovi. Diváci si lámali hlavu, jak je to možné.</p><p>Ve skutečnosti byl uvnitř ukrytý šachista, který pohyboval figurkami pomocí soustavy pák a magnetů. Skříň byla uspořádána tak, aby při ukazování vnitřku vypadala prázdně.</p><p>Tajemství bylo definitivně odhaleno až v 19. století. Název <strong>Mechanical Turk</strong> převzala platforma Amazonu, na které lidé vykonávají drobné úkoly, jež strojům stále dělají potíže.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Mechanical Turk",
@@ -27830,7 +27830,7 @@
     "id": "866",
     "title": "Proč se kompresní algoritmus z roku 1952 používá dodnes",
     "content": "<p>David Huffman, tehdy student MIT, dostal roku 1951 od profesora Roberta Fana úlohu: najít nejúspornější způsob zápisu zpráv pomocí nul a jedniček. Měl si vybrat mezi zkouškou a vyřešením problému.</p><p>Huffman s úlohou dlouho zápasil a podle vlastních slov se chystal vzdát, když ho napadlo řešení. Roku 1952 publikoval metodu, dnes zvanou <strong>Huffmanovo kódování</strong>.</p><p>Principem je přiřadit častým znakům krátké kódy a vzácným dlouhé. Kódy se sestavují pomocí stromu, který se staví od nejméně četných znaků k nejčastějším.</p><p>Metoda je v jistém smyslu optimální pro kódování jednotlivých znaků. Používá se jako součást formátů JPEG a MP3 i komprese souborů ZIP.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Wikipedia – Huffman coding",
@@ -28568,7 +28568,7 @@
     "id": "887",
     "title": "Nejkratší cestu lze najít bez úplného seřazení vzdáleností",
     "content": "<p>Dijkstrův algoritmus při hledání cest opakovaně vybírá nejbližší dosud nezpracované místo. Výsledek z roku 2025 ukázal, že tento zvyk obsahuje práci, kterou samotná úloha nutně nevyžaduje.</p><p>Pětice autorů představila deterministický algoritmus pro orientované grafy s nezápornými reálnými vahami. V modelu porovnávání a sčítání dosáhl času <strong>O(m log^(2/3) n)</strong>, kde n značí počet vrcholů a m počet hran.</p><p>Na řídkých grafech tím překonal klasickou mez O(m + n log n). Podstatné je, že určení vzdáleností od jednoho zdroje nemusí současně vytvořit jejich úplné seřazené pořadí.</p><p>Jde o teoretický výsledek o počtu operací za přesných předpokladů. Neznamená automaticky rychlejší navigaci v každém telefonu, ale vyvrací představu, že řazení je nevyhnutelnou cenou této úlohy.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Duan a kolegové: Breaking the Sorting Barrier for Directed Single-Source Shortest Paths",
@@ -28601,7 +28601,7 @@
     "id": "888",
     "title": "Matice lze násobit úsporněji, než napovídá školní postup",
     "content": "<p>Školní násobení dvou čtvercových matic zvětšuje počet operací přibližně s třetí mocninou rozměru. Teoretická informatika ale zkoumá, o kolik níž lze tento exponent stlačit.</p><p>Preprint zveřejněný v srpnu 2026 uvedl horní mez <strong>omega &lt; 2,371177</strong>. Autoři zlepšili optimalizační problém uvnitř pokročilé metody násobení matic a do hledání zapojili strojové učení i systém AlphaEvolve.</p><p>Ten navrhuje změny programů a nechává je procházet automatickým vyhodnocením. Důležitý je ověřený výsledek hledání, nikoli přesvědčivost slovního návrhu.</p><p>Nová horní mez popisuje růst potřebné práce pro velmi velké vstupy a sama neurčuje nejrychlejší praktickou knihovnu. Datovaný výsledek je dalším krokem ve výzkumu, ne tvrzením, že rychlost násobení matic je definitivně vyřešena.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Dupont a kolegové: Improving the matrix multiplication exponent",
@@ -28634,7 +28634,7 @@
     "id": "889",
     "title": "Počítač může zpracovat data, aniž by je rozšifroval",
     "content": "<p>Zašifrovaný soubor obvykle chráníte jen do chvíle, kdy s ním někdo začne počítat. Plně homomorfní šifrování umožňuje zvláštní výjimku: určité výpočty proběhnou přímo nad šifrovanými daty.</p><p>Server vrátí zašifrovaný výsledek, který si rozšifruje držitel klíče. Server tak pro samotný výpočet nepotřebuje přístup k otevřeným vstupům, ale platí se za to značnou výpočetní náročností.</p><p>Preprint z května 2026 popsal optimalizaci vybraných kryptografických jader na čipech TPUv5e pomocí AlphaEvolve. U operace obnovující použitelný šifrový text ve schématu TFHE autoři uvádějí 2,5násobné zrychlení oproti své výchozí implementaci.</p><p><strong>Šifrované zpracování není totéž jako bezplatné soukromí.</strong> Výsledek zrychluje konkrétní část systému a neznamená, že zmizely všechny náklady ani rizika okolní aplikace.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Gorantala a kolegové: Adapting AlphaEvolve to Optimize Fully Homomorphic Encryption",
@@ -28735,7 +28735,7 @@
     "id": "892",
     "title": "Neviditelná čára, díky které se ve filmu neztratíte",
     "content": "<p>Dva lidé spolu mluví a film mezi nimi střídá záběry. Přesto obvykle hned víte, který stojí vlevo a který vpravo, i když kamera pokaždé ukazuje jen jednoho.</p><p>Pomáhá <strong>pravidlo osy neboli 180 stupňů</strong>. Mezi postavami si představte čáru: zůstávají-li kamery na jedné její straně, zachovává se směr pohledů i orientace postav na plátně.</p><p>Při neoznačeném přechodu na druhou stranu mohou postavy zdánlivě prohodit místa nebo se náhle dívat stejným směrem. Divák musí prostor znovu skládat, přestože se v samotné scéně nikdo nepohnul.</p><p>Nejde o zákaz pro všechny filmy. Osu lze překročit záměrně nebo přechod ukázat pohybem kamery; pravidlo vysvětluje především, proč střih často působí tak nenápadně.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Columbia University: 180-Degree Rule",
@@ -28805,7 +28805,7 @@
     "id": "894",
     "title": "Sůl z planetky Bennu prozradila dávnou mimozemskou vodu",
     "content": "<p>Černé zrníčko z planetky může uchovávat stopu vody, která se vypařila dávno před vznikem dnešních krajin Země. Rozbory vzorků Bennu zveřejněné roku 2025 odhalily soubor minerálních solí spojených s takovým procesem.</p><p>Sonda OSIRIS-REx přivezla materiál na Zemi v roce 2023. Vědci v něm identifikovali posloupnost solí, které se mohly vysrážet při postupném odpařování <strong>solanky</strong> v mateřském tělese Bennu.</p><p>Nejde tedy o tvrzení, že po dnešním povrchu malé planetky teče řeka. Bennu je pozůstatkem staršího tělesa, v němž kdysi probíhaly reakce vody s horninou.</p><p>Některé nalezené soli by pozemská vlhkost nebo průlet meteoritu snadno pozměnily. Přímý odběr a pečlivé uchování vzorků proto umožnily přečíst část chemické historie, která se v běžných meteoritech ztrácí.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA: Asteroid Bennu Sample Reveals Mix of Life’s Ingredients",
@@ -29432,7 +29432,7 @@
     "id": "913",
     "title": "Jak dostat kofein ze zrna pomocí oxidu uhličitého",
     "content": "<p>Oxid uhličitý může pomáhat odstraňovat kofein z kávových zrn. V zařízení přitom nemusí být ani obyčejným plynem, ani kapalinou s jasnou hladinou.</p><p>Nad kritickou teplotou a tlakem přechází do <strong>superkritického stavu</strong>, kde mizí rozhraní mezi plynnou a kapalnou fází. U CO₂ leží kritický bod přibližně při 31 °C a 7,4 megapascalu.</p><p>Taková tekutina proniká do materiálu a může rozpouštět vybrané látky. Při dekofeinizaci se těchto vlastností využívá k extrakci kofeinu; pracovní podmínky jsou nastaveny podle konkrétního procesu.</p><p>Po snížení tlaku lze oxid uhličitý oddělit a znovu využít. <strong>Změna podmínek tak nemění jen vzhled látky, ale i to, k jakému průmyslovému úkolu se hodí.</strong> Zrno se zbavuje složky extrakcí, nikoli jejím spálením.</p>",
-    "category": "fyzika",
+    "category": "chemie",
     "sources": [
       {
         "label": "NIST: Carbon Dioxide",
@@ -29465,7 +29465,7 @@
     "id": "914",
     "title": "Na Venuši musíte rozlišovat dva druhy dne",
     "content": "<p>Často se říká, že na Venuši trvá den déle než rok. Tvrzení je správné jen tehdy, když upřesníme, co právě slovem den měříme.</p><p>Jedno otočení planety vůči vzdáleným hvězdám trvá přibližně 243 pozemských dní. Jeden oběh kolem Slunce zabere asi 225 dní, takže tento <strong>hvězdný den</strong> skutečně rok převyšuje.</p><p>Venuše však rotuje opačným směrem než Země. Kombinace jejího otáčení a oběhu způsobí, že mezi dvěma po sobě následujícími východy Slunce uplyne přibližně 117 pozemských dní.</p><p>Sluneční den je tedy na Venuši kratší než rok. Nejde o rozpor v měření: návrat stejného místa ke hvězdám a návrat Slunce nad místní obzor jsou dvě různé události, které nemusejí mít stejnou periodu.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA: Venus Fact Sheet",
@@ -29498,7 +29498,7 @@
     "id": "915",
     "title": "Měsíc, který svůj oceán vystřikuje do vesmíru",
     "content": "<p>Chcete-li zkoumat oceán pod ledovou kůrou cizího měsíce, nemusíte se k němu vždy provrtat. Enceladus část jeho materiálu sám vynáší do okolního prostoru.</p><p>Z prasklin poblíž jižního pólu tohoto Saturnova měsíce tryská vodní pára a ledové částice. Sonda Cassini dokázala výtrysky prolétat a analyzovat jejich složení.</p><p>Výzkum odhalil mimo jiné soli a organické sloučeniny a přinesl důkazy podporující existenci podpovrchového oceánu i jeho chemické aktivity. Výtrysk se tak stal dostupným vzorkem jinak skrytého prostředí.</p><p><strong>Organické látky ovšem samy o sobě nejsou důkazem života.</strong> Ukazují zajímavou chemii a pomáhají zkoumat obyvatelnost. Velkou výhodou Enceladu je právě to, že oceán posílá část svého obsahu až k přístrojům.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA: Hydrothermal Activity on Enceladus",
@@ -29663,7 +29663,7 @@
     "id": "920",
     "title": "Filmová historie byla natočena na hořlavý materiál",
     "content": "<p>Starý film není jen příběh uložený v archivu. Je také chemický materiál, který se může rozkládat a za určitých podmínek představuje vážné požární nebezpečí.</p><p>Raná kinematografie používala podložku z nitrocelulózy. Nitrátový film je vysoce hořlavý a jeho stárnutí může vést ke změně barvy, lepkavosti i rozpadu obrazového nosiče.</p><p>Archiv proto nechrání pouze autorská práva nebo pořadí záběrů. Musí určit druh podložky, sledovat její stav a zajistit odpovídající skladování i převod obrazu na další nosiče.</p><p><strong>Dílo může zmizet i bez zákazu a bez nezájmu publika.</strong> O jeho přežití rozhoduje rovněž fyzická stabilita materiálu. Digitalizace umožňuje další přístup k obrazu, ale nenahrazuje péči o dochovaný originál.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Library of Congress: Care of Motion Picture Film",
@@ -29696,7 +29696,7 @@
     "id": "921",
     "title": "Filmová noc se někdy natáčí za slunce",
     "content": "<p>Noční krajina ve filmu nemusela být natočena po setmění. Kameraman mohl využít denní světlo a následně obraz upravit tak, aby jej divák četl jako noc.</p><p>Postupu se říká <strong>den za noc</strong>, případně americká noc. Pracuje s expozicí, filtry či barevným zpracováním a s výběrem úhlu, který omezí příliš světlou oblohu nebo jiné prozrazující prvky.</p><p>Pomáhá tam, kde by bylo obtížné osvětlit skutečně rozsáhlý noční exteriér. Samotné ztmavení ale nestačí: směr světla, stíny a jasové vztahy musí působit věrohodně v rámci scény.</p><p>Divák navíc potřebuje rozeznat jednání postav. Filmová noc je proto pečlivě vytvořený soubor vodítek, nikoli pouhý záznam nedostatku světla; technické podmínky natáčení se mohou zásadně lišit od zobrazované denní doby.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Columbia University: Day for Night",
@@ -29795,7 +29795,7 @@
     "id": "924",
     "title": "Software Apolla byl doslova propletený dráty",
     "content": "<p>Část programu navigačního počítače Apolla nebyla uložena změnou elektrického náboje v čipu. Její bity určovalo to, kudy při výrobě prošel drát.</p><p>V pevné paměti označované jako <strong>core rope</strong> vedly vodiče skrz magnetická jádra, nebo kolem nich. Zapojení umožňovalo při čtení rozlišit binární hodnoty a znovu získat instrukce programu.</p><p>Nešlo o totéž jako přepisovatelná feritová paměť, ve které se měnil magnetický stav jednotlivých jader. Zde byl obsah pevně zakódovaný samotným uspořádáním vodičů.</p><p>Schválený software se tak musel převést do přesně vyrobeného fyzického modulu. Příběh propojuje dvě práce, které dnes snadno oddělujeme: návrh programu a výrobu hardwaru. Změnit hotový obsah bylo podstatně náročnější než nahrát nový soubor.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Smithsonian: The Rope Mother, Margaret Hamilton",
@@ -29828,7 +29828,7 @@
     "id": "925",
     "title": "Proč odesílatel dat někdy záměrně zpomalí",
     "content": "<p>Posílat co nejvíce dat co nejrychleji nemusí urychlit jejich doručení. Když se přetíží sdílená síť, narůstají fronty a část paketů se ztrácí.</p><p>TCP proto používá <strong>řízení zahlcení</strong>. Odesílatel omezuje množství odeslaných, ale dosud nepotvrzených dat pomocí okna a podle potvrzení upravuje tempo dalšího přenosu.</p><p>Při pomalém startu okno postupně zvětšuje, aby zjistil, co trasa snese. Při známkách zahlcení je omezí; konkrétní průběh závisí na použitém algoritmu a situaci v síti.</p><p>Je to zpětná vazba, nikoli předem sjednaná neměnná rychlost. Odesílatel musí reagovat na prostředí, které sdílí s ostatními. Úspěšný přenos tak někdy vyžaduje ubrat, místo aby dalšími daty posiloval problém, který právě zpomaluje všechny.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "RFC 5681: TCP Congestion Control",
@@ -29861,7 +29861,7 @@
     "id": "926",
     "title": "Tři čtverce, díky kterým telefon pozná QR kód",
     "content": "<p>Telefon najde QR kód, i když jej držíte pootočený. Pomáhají mu tři nápadné čtvercové vzory, které nejsou jen součástí zapsané zprávy.</p><p>Leží ve třech rozích symbolu a slouží k určení jeho polohy a orientace. Jejich charakteristické střídání světlých a tmavých pásů umožňuje čtečce odlišit kód od okolního obrazu.</p><p>Teprve po lokalizaci a geometrickém srovnání může zařízení správně vyhodnocovat datovou mřížku. Vývojáři DENSO WAVE při návrhu zveřejněném roku 1994 řešili právě i rychlé a spolehlivé nalezení symbolu.</p><p><strong>Uložit informaci nestačí: čtenář musí nejprve poznat, kde začíná a jak ji natočit.</strong> Tři čtverce jsou jednoduchou vizuální odpovědí na problém, který při běžném skenování téměř nevnímáme.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "DENSO WAVE: History of QR Code",
@@ -30356,7 +30356,7 @@
     "id": "941",
     "title": "Dva měsíce si pravidelně vyměňují místa",
     "content": "<p>Dva Saturnovy měsíce obíhají tak blízko stejné dráhy, že by rychlejší měl pomalejší dohonit. Janus a Epimetheus se však pravidelně vyhnou srážce výměnou rolí.</p><p>Vnitřní měsíc obíhá rychleji. Při přiblížení se tělesa gravitačně ovlivní: dosud vnitřní přejde na vyšší, pomalejší dráhu a dosud vnější na nižší, rychlejší.</p><p>Přibližně každé čtyři roky se tak vymění, který z dvojice je blíž Saturnu. Neznamená to, že si v jediném okamžiku vymění přesné polohy nebo proletí skrz sebe.</p><p><strong>Právě vzájemné rušení zde pomáhá udržovat společné uspořádání.</strong> Dvojice není složená ze dvou nezávislých hodin na neměnných kolejích: dráhy tvoří propojený dynamický systém.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA: Janus-Epimetheus Swing",
@@ -30389,7 +30389,7 @@
     "id": "942",
     "title": "Merkur netočí ke Slunci stále stejnou tvář",
     "content": "<p>Merkur neukazuje Slunci stále jednu stranu jako Měsíc Zemi. Jeho otáčení a oběh přesto nejsou nezávislé: svazuje je jednoduchý poměr.</p><p>Na dva oběhy kolem Slunce připadají tři otočení planety vůči vzdáleným hvězdám. Astronomové tomu říkají <strong>spinorbitální rezonance 3:2</strong>.</p><p>Merkurova protáhlá dráha i nepatrná nesouměrnost jeho tvaru umožňují, aby sluneční gravitace působila na orientaci planety. Spolu se slapovým vývojem to pomohlo zachytit rotaci v tomto zvláštním rytmu.</p><p>Gravitační vazba tedy nemusí vždy skončit poměrem jedna ku jedné. Merkur ukazuje jiné stabilní propojení dvou pohybů: planeta se otáčí dál, ale její dlouhodobé tempo není vůči oběžné dráze libovolné.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA Goddard: Mercury",
@@ -30554,7 +30554,7 @@
     "id": "947",
     "title": "Let hvězdnou branou vznikl průchodem světla štěrbinou",
     "content": "<p>Barevný průlet hvězdnou branou ve filmu <em>2001: Vesmírná odysea</em> nevznikl běžnou počítačovou animací. Douglas Trumbull využil fotografickou techniku zvanou slit-scan.</p><p>Světlo z pohybujícího se obrazce procházelo úzkou štěrbinou. Řízený pohyb kamery během dlouhé expozice pak postupně rozprostíral jeho stopu do jediného políčka filmu.</p><p>Opakováním s proměňovanou polohou vznikaly světelné koridory, kterými se zdálo možné letět. Obraz tedy nebyl záznamem skutečného tunelu, ale sestavenou stopou světla a pohybu.</p><p><strong>Filmový prostor může vzniknout i uvnitř expozice.</strong> Místo stavby obrovských kulis stačilo přesně řídit, která část světla dopadne na které místo a v jakém okamžiku.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Smithsonian National Air and Space Museum: The Making of 2001’s Star Gate Sequence",
@@ -30587,7 +30587,7 @@
     "id": "948",
     "title": "Kreslený les získal hloubku díky několika sklům",
     "content": "<p>Kreslený les může působit prostorově, i když každý strom vznikl na plochém podkladu. Pomůže rozdělit scénu na několik vrstev a nenechat je pohybovat se stejně.</p><p>Multiplánová kamera snímá jednotlivé obrazové plány oddělené v prostoru. Blízké větve, vzdálenější stromy a pozadí lze posouvat samostatně, takže vzniká dojem průchodu hloubkou.</p><p>Využívá se <strong>paralaxa</strong>: při pohybu pozorovatele se blízké věci vůči vzdáleným zdánlivě posouvají výrazněji. U jediné malované plochy tento rozdíl chybí.</p><p>Disneyho studio postup využívalo k bohatšímu prostoru ručně kreslených filmů. Iluze nevzniká tím, že by se kresba změnila v sochu; stačí vhodně uspořádat několik ploch a pohyb mezi nimi.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Walt Disney Family Museum: Pinocchio and the Multiplane Camera",
@@ -30686,7 +30686,7 @@
     "id": "951",
     "title": "Filtr, který umí říct jen „určitě ne“ a „možná ano“",
     "content": "<p>Počítač se může ptát, zda už určitý údaj viděl, aniž si ukládá úplný seznam. Bloomův filtr mu za málo paměti poskytne dvě odpovědi: určitě ne, nebo možná ano.</p><p>Při vložení položky několik hashovacích funkcí označí pozice v poli bitů. Dotaz zkontroluje stejné pozice: pokud některá označená není, položka ve filtru není.</p><p>Jsou-li označené všechny, mohly je vyplnit i jiné položky. Vzniká <strong>falešně kladná odpověď</strong>, kterou lze ověřit v úplném úložišti.</p><p>Základní filtr při správném použití bez mazání neodmítne skutečně vloženou položku. Šetří tak paměť a zbytečné drahé kontroly tím, že se vzdá úplné jistoty pouze na jedné straně odpovědi. Není to komprimovaný seznam, ze kterého by šlo původní položky zase vyčíst.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Burton Bloom: Space/Time Trade-offs in Hash Coding with Allowable Errors",
@@ -30719,7 +30719,7 @@
     "id": "952",
     "title": "Soubor může dostat adresu podle toho, co obsahuje",
     "content": "<p>Dva soubory se mohou jmenovat jinak a přesto mít stejný obsah. Obsahově adresované úložiště se proto může při pojmenování objektu řídit tím, co obsahuje, místo toho, kam ho někdo ručně zařadil.</p><p>Z obsahu vypočte kryptografický otisk neboli hash. Takto funguje i objektové úložiště Gitu: identifikátor vychází z dat objektu spolu s jeho typem a délkou.</p><p>Změna obsahu zpravidla vytvoří jiný identifikátor. Shodné objekty mohou sdílet uložení a kontrola otisku pomáhá odhalit, že se data oproti očekávání změnila.</p><p><strong>Adresa se stává tvrzením o obsahu.</strong> Hash ovšem není matematicky jedinečné jméno pro všechny možné vstupy; kolize existovat mohou. Systém spoléhá na vhodnou funkci a praktickou obtížnost takovou záměnu způsobit.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Pro Git: Git Objects",
@@ -30983,7 +30983,7 @@
     "id": "960",
     "title": "Jak může z náhodného šumu vzniknout obraz",
     "content": "<p>Na začátku není obrys ani prázdné plátno, ale změť náhodných hodnot. Difuzní model z ní přesto dokáže postupně vytvořit rozpoznatelný obraz.</p><p>Při trénování dostává obrázky znehodnocené různě silným šumem. Neuronová síť se učí odhadovat přidanou poruchu, případně jinou veličinu potřebnou k jejímu odstranění.</p><p>Při generování začne náhodným vstupem a opakovaně vypočítává kroky odšumování. Každý krok navazuje na předchozí stav; nejde o jediné odhalení hotového obrázku ukrytého pod zrněním.</p><p>Model tak využívá naučenou strukturu obrazových dat k vytvoření nového vzorku. Původní difuzní postupy potřebovaly mnoho kroků, pozdější metody jejich počet zmenšovaly. <strong>Způsob, jakým se síť učí, a postup, jakým pak obraz vzniká, jsou dvě propojené části celého mechanismu.</strong></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Ho, Jain a Abbeel – Denoising Diffusion Probabilistic Models",
@@ -31016,7 +31016,7 @@
     "id": "961",
     "title": "Proč moderní procesor připomíná stavebnici",
     "content": "<p>Pod kovovým krytem procesoru nemusí ležet jediný velký kus křemíku. Stále důležitější konstrukční přístup skládá celý systém z menších čipů zvaných čiplety.</p><p>Výpočetní jádra mohou být na jiném čipu než obvody zajišťující komunikaci s okolím. Jednotlivé části lze vyrábět odlišnými technologiemi podle toho, co potřebují, a následně je propojit uvnitř společného pouzdra.</p><p>Menší čipy mohou zvýšit výrobní výtěžnost: vada nemusí znehodnotit tak velkou plochu drahého křemíku. Stejné díly lze také využít v různých sestavách.</p><p>Rozdělení však něco stojí. Přenos mezi čiplety spotřebovává energii a vyžaduje rychlé spoje i pečlivé pouzdření. <strong>Čiplet není pouhé další zmenšení tranzistoru; je to změna v tom, jak se části procesoru navrhují, vyrábějí a skládají dohromady.</strong></p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "AMD – Chiplet Architecture White Paper",
@@ -31049,7 +31049,7 @@
     "id": "962",
     "title": "Přihlašovací klíč, který pozná falešný web",
     "content": "<p>Falešná přihlašovací stránka může vypadat dokonale a přesto narazit na technickou překážku. Passkey totiž neověřuje jen uživatele: jeho použití je svázáno s doménou služby.</p><p>Při registraci vznikne dvojice klíčů. Web si uloží veřejný klíč, zatímco soukromý spravuje autentizátor, například zabezpečená součást telefonu nebo správce přihlašovacích údajů.</p><p>Při přihlášení zařízení podepíše čerstvou výzvu serveru. Prohlížeč hlídá, pro kterou doménu je klíč použitelný, a server kontroluje i původ požadavku. Napodobenina na jiné doméně proto nemůže jednoduše převzít přihlašovací údaj jako opsané heslo.</p><p>Otisk prstu či PIN obvykle jen odemkne použití klíče. Tato ochrana neřeší všechny útoky: slabým místem může zůstat napadené zařízení nebo obnova účtu. Její zvláštní síla spočívá v <strong>omezení přihlášení přes podvržený web</strong>.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "MDN – Passkeys",
@@ -31249,7 +31249,7 @@
     "id": "968",
     "title": "Webb zachytil proměnlivé počasí za Sluneční soustavou",
     "content": "<p>Na chladném tělese WISE 0855 se mění oblačnost, přestože ho nemůžeme sledovat jako běžnou předpověď počasí. Studie představená na podzim 2026 získala informace o změnách atmosféry ze světla přicházejícího v různých časech.</p><p>Webbův dalekohled pořizoval spektra jedenáct hodin, přibližně po patnácti minutách. WISE 0855 má teplotu kolem 265 kelvinů a v práci je označeno jako nejchladnější známý hnědý trpaslík.</p><p>Vědci oddělili změny absorpce oxidu uhelnatého a fosfinu od signálů, které při porovnání s modely ukazují na proměnlivou tloušťku vodních oblaků. Jediná celková hodnota jasnosti by tyto vlivy směšovala.</p><p><strong>Nejde o fotografii mraků ani o objev života.</strong> Novinkou je možnost rozlišovat chemii a oblačnost vzdálené atmosféry podle toho, jak se její spektrum mění v čase.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Miles a kol. – Water Cloud and Chemical Modulations in the Coldest Brown Dwarf, 2026",
@@ -31282,7 +31282,7 @@
     "id": "969",
     "title": "Euclid hledal galaxie a našel novou kometu",
     "content": "<p>Mezi vzdálenými galaxiemi se objevila drobná pohybující se šmouha. Dalekohled Euclid tak v roce 2026 objevil svou první dosud neznámou kometu, přestože jeho hlavním úkolem je zkoumat vzdálený vesmír.</p><p>Těleso dostalo označení <strong>C/2026 S1 (Euclid)</strong>. Na snímcích ze 17. září měnilo polohu vůči hvězdám a galaxiím; dlouhá expozice jeho pohyb protáhla do krátké čárky a kolem byla patrná rozptýlená koma.</p><p>Samotný pohyb ještě nedokazuje nový objev. Bylo nutné vyloučit shodu se známými tělesy a dodat měření k ověření. Minor Planet Center kometu potvrdil 8. října; oznámení následovalo 19. října 2026.</p><p>Případ ukazuje, že záběr určený pro jeden výzkum může obsahovat cenná data pro jiný. Vzdálené galaxie zde zároveň vytvořily pozadí, vůči němuž vynikl blízký návštěvník Sluneční soustavy.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "ESA – Comet C/2026 S1 (Euclid) streaks across the sky",
@@ -31718,7 +31718,7 @@
     "id": "318",
     "title": "Proč si jazykový model před odpovědí otevře knihovnu",
     "content": "<p>Jazykový model nemusí odpovídat pouze z toho, co se naučil při tréninku. Před sestavením odpovědi může dostat konkrétní pasáže právě dohledaných dokumentů.</p><p>Tomuto přístupu se říká retrieval-augmented generation, zkráceně RAG. Vyhledávací část vybere podklady související s dotazem a generující model je použije jako dodatečný kontext.</p><p>Firma tak může zpřístupnit vlastní návody, aniž by každou změnu musela znovu učit do vah modelu. Výsledek lze také propojit s odkazy na použité dokumenty.</p><p>Vyhledání ale není ověření pravdy. Systém může najít zastaralý text, přehlédnout rozhodující výjimku nebo podklady nesprávně shrnout. U RAG proto záleží jak na kvalitě knihovny a vyhledávání, tak na věrnosti odpovědi vůči skutečně nalezenému textu.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Lewis a kol.: Retrieval-Augmented Generation",
@@ -31752,7 +31752,7 @@
     "id": "319",
     "title": "Malý model navrhuje, velký kontroluje",
     "content": "<p>Velký jazykový model často vytváří odpověď po jednotlivých tokenech. Každý další krok něco stojí, i když následující slovo dokáže dobře odhadnout mnohem menší model.</p><p>Spekulativní dekódování této nerovnosti využívá. Menší model rychle navrhne několik pokračování a velký model je následně ověřuje společně, místo aby všechno od začátku navrhoval sám.</p><p>Přijatý začátek se použije, po odmítnutém návrhu přijde oprava. Správně navržené pravděpodobnostní přijímání zachovává stejné rozdělení výstupů jako původní velký model; nejde prostě o slepé přebírání levnější odpovědi.</p><p>Zrychlení závisí na shodě modelů i hardwaru. Když návrhy často neprocházejí, přibývá práce navíc. Úsporu přináší možnost levně předvídat a draze kontrolovat více kroků najednou.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Leviathan a kol.: Fast Inference from Transformers",
@@ -31786,7 +31786,7 @@
     "id": "320",
     "title": "Postkvantové šifrování nepotřebuje kvantový počítač",
     "content": "<p>Postkvantové šifrování neznamená posílat zprávy kvantovou linkou. Jde o matematické postupy pro běžné počítače, které mají obstát i proti budoucím kvantovým útokům.</p><p>Dostatečně výkonný kvantový počítač by pomocí známých algoritmů ohrozil například RSA. Proto vznikají postupy založené na jiných obtížných úlohách, pro něž podobně účinný útok znám není.</p><p>NIST v roce 2024 zveřejnil mimo jiné standard ML-KEM. Ten slouží k ustavení sdíleného tajemství; samotná velká zpráva se potom může šifrovat jiným, symetrickým algoritmem.</p><p>Význam změny není v tvrzení o absolutní neprolomitelnosti. Dlouho utajované údaje lze zachytit dnes a zkusit rozluštit později. Přechod proto řeší životnost tajemství, nejen schopnosti právě dostupných strojů.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "NIST: Standard ML-KEM",
@@ -31820,7 +31820,7 @@
     "id": "321",
     "title": "Dvě vrstvy solárního článku si rozdělí světlo",
     "content": "<p>Sluneční světlo obsahuje fotony s různými energiemi, ale jediný polovodič je nevyužívá stejně dobře. Tandemový článek proto skládá dva různé materiály nad sebe.</p><p>Horní perovskitová vrstva zachytává zejména energetičtější část světla. Část záření s nižší energií nechá projít ke křemíku pod sebou, který ji může dále využít.</p><p>Rozdělení práce omezuje ztráty typické pro jediný absorpční materiál a dovoluje překročit účinnost samostatného křemíkového článku. Nestačí ovšem libovolně přilepit dva hotové panely: vrstvy i jejich elektrické propojení musejí spolupracovat.</p><p>Výzkum proto řeší také rozhraní, rovnoměrnost větších ploch a dlouhodobou stabilitu. Laboratorní rekord je důležitý výsledek, ale sám ještě neříká, kolik let bude levný panel spolehlivě vyrábět elektřinu na střeše.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Nature: Perovskite/silicon tandem solar cells",
@@ -31854,7 +31854,7 @@
     "id": "322",
     "title": "Baterie se sodíkem není jen lithium s jinou nálepkou",
     "content": "<p>Sodík je dostupnější než lithium, ale baterii nelze změnit pouhou výměnou názvu prvku. Větší sodíkový iont se v elektrodách nechová stejně jako lithiový.</p><p>Při nabíjení a vybíjení se ionty přesouvají mezi elektrodami, zatímco elektrony proudí vnějším obvodem. Konstrukce musí nabídnout místa, kam se ionty opakovaně uloží a odkud se zase vrátí.</p><p>U sodíkových článků proto hraje důležitou roli tvrdý uhlík. Jeho neuspořádaná struktura a póry poskytují jiná úložiště než běžná grafitová anoda používaná v lithiových článcích.</p><p>Slib levnějšího materiálu je jen část příběhu. O využitelnosti rozhoduje také energetická hustota, životnost, účinnost a výroba. Sodíkový akumulátor může být vhodnou volbou pro určité použití, aniž by musel ve všem překonat lithium.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Nature Reviews Materials: Anody pro sodíkové baterie",
@@ -32225,7 +32225,7 @@
     "id": "333",
     "title": "DART: planetku postrčil i materiál, který z ní vyletěl",
     "content": "<p>Sonda může do planetky narazit a předat jí svou hybnost. DART však ukázal, že účinek srážky dokáže významně zesílit také to, co z planetky vyletí opačným směrem.</p><p>Při řízeném nárazu v září 2022 sonda zasáhla Dimorphos, který obíhá větší Didymos. Vyvržené úlomky odnášely hybnost a jejich zpětná reakce přidala další postrčení zbylému tělesu.</p><p>První rozbor z roku 2023 při předpokladu stejné hustoty obou planetek odhadl přenos hybnosti asi na 3,6násobek případu, kdy by Dimorphos sondu pouze pohltil bez vyvržení materiálu. Je to podmíněný odhad, který další měření zpřesňují.</p><p>Výsledek je důležitý pro planetární obranu: nestačí znát hmotnost a rychlost nárazové sondy. Musíme také vědět, jak se zasažené těleso rozpadá a kolik hybnosti odnese vyvržená hmota.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA: První výsledky mise DART",
@@ -32259,7 +32259,7 @@
     "id": "334",
     "title": "Uracil z planetky není důkaz mimozemského života",
     "content": "<p>Jedna ze součástek pozemské RNA byla nalezena také v materiálu z planetky. Zpráva o uracilu ve vzorcích Ryugu ovšem neznamená, že sonda přivezla mimozemské organismy.</p><p>Japonská mise Hayabusa2 odebrala materiál přímo z planetky a v roce 2020 ho dopravila na Zemi. Rozbor zveřejněný roku 2023 v něm identifikoval uracil i další organické látky.</p><p>Výhodou přímého odběru je omezení pochybností o pozemském znečištění, které komplikují výklad meteoritu nalezeného na zemi. Chemická stavebnice mohla vznikat mimo živé organismy a být součástí malých těles Sluneční soustavy.</p><p>Samostatná nukleová báze však není RNA, natož buňka. Nález podporuje zkoumání mimozemských zdrojů prebiotických látek; nepřeskakuje mezery mezi vznikem jednoduchých sloučenin, dědičného systému a života.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "Nature Communications: Uracil v planetce Ryugu",
@@ -32293,7 +32293,7 @@
     "id": "335",
     "title": "Atmosféru cizí planety přečteme z chybějícího světla",
     "content": "<p>Vzdálenou atmosféru nemusíme nabrat do lahvičky, abychom zjistili část jejího složení. Někdy stačí zachytit, které barvy hvězdného světla na cestě k nám zeslábnou.</p><p>Při přechodu planety před hvězdou prochází malá část světla jejím plynným okrajem. Molekuly pohlcují určité vlnové délky, takže planeta při těchto vlnových délkách zastíní o něco více světla.</p><p>Webbův přístroj NIRSpec tak v roce 2022 zachytil výraznou stopu oxidu uhličitého v atmosféře horkého plynného obra WASP-39 b. Spektrum je měření proměnlivého útlumu, nikoli fotografie jednotlivých molekul.</p><p>Výklad musí zohlednit i oblaka a vlastnosti hvězdy. Samotný oxid uhličitý navíc není důkaz života: zde pomáhá poznávat chemii a vznik planety s podmínkami velmi odlišnými od Země.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA: Transmisní spektrum WASP-39 b",
@@ -32327,7 +32327,7 @@
     "id": "336",
     "title": "Když sonda zrychlí u planety, energii si nevymyslí",
     "content": "<p>Sonda po průletu kolem planety může odletět rychleji, aniž zapálí motor. Energie se však nevytvořila z ničeho: rozhoduje, vůči čemu rychlost měříme.</p><p>V jednoduchém modelu vidí pozorovatel spojený s planetou sondu přilétat a odlétat stejně rychle, jen jiným směrem. Planeta se ale sama pohybuje kolem Slunce a do sluneční soustavy rychlostí vstupuje i tento pohyb.</p><p>Vhodně vedený průlet umožní sondě převzít nepatrnou část orbitální energie planety. Jiná geometrie ji naopak může zpomalit. Pro mohutnou planetu je odpovídající změna nepatrná, pro lehkou sondu zásadní.</p><p>Cassini proto cestou k Saturnu využila průletů kolem Venuše, Země a Jupiteru. Gravitační manévr je pečlivě načasovaná výměna energie, ne trvalé padání do bezedné gravitační zásobárny.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA: Gravitační manévry Cassini",
@@ -32361,7 +32361,7 @@
     "id": "337",
     "title": "Plachetnici ve vesmíru netlačí sluneční vítr",
     "content": "<p>Sluneční plachta připomíná plachtu lodní, ale nepotřebuje proud vzduchu. Pohon získává od světla, jehož fotony předávají při dopadu a odrazu hybnost.</p><p>Japonská sonda IKAROS rozvinula v roce 2010 tenkou plachtu a měření její dráhy potvrdilo zrychlování tlakem slunečního záření. Síla byla malá, mohla však působit průběžně bez spalování paliva pro tento tah.</p><p>Změnou orientace plachty lze ovlivnit směr výsledné síly a postupně měnit dráhu. Nejde přitom o totéž co sluneční vítr, tedy proud nabitých částic od Slunce.</p><p>Metoda nevynese loď ze zemského povrchu a neposkytuje prudký raketový rozjezd. Ve vesmíru ale ukazuje jiný obchod: přijmout malý tah po dlouhou dobu a nemuset pro něj s sebou vézt zásobu pohonné látky.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "JAXA: Potvrzení zrychlování IKAROS",
@@ -33467,7 +33467,7 @@
   },
   {
     "title": "Model se může učit z telefonu, aniž převezme jeho zápisky",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "McMahan a kol.: Federated Learning",
@@ -33500,7 +33500,7 @@
   },
   {
     "title": "Attention: slovo mění význam podle toho, kam se model podívá",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Vaswani a kol.: Attention Is All You Need",
@@ -33533,7 +33533,7 @@
   },
   {
     "title": "3D tisk mění výrobu tím, že přidává místo odebírání",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "NIST: What is Additive Manufacturing?",
@@ -33566,7 +33566,7 @@
   },
   {
     "title": "mRNA potřebuje obal: proč je důležitý tukový nanonosič",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Hou a kol.: Lipid nanoparticles for mRNA delivery",
@@ -34360,7 +34360,7 @@
     "id": "397",
     "title": "Io hřeje gravitační mačkání",
     "content": "<p>Daleko od Slunce existuje měsíc posetý aktivními sopkami. Jupiterův Io ukazuje, že výrazné vnitřní teplo nemusí pocházet jen ze slunečních paprsků nebo radioaktivního rozpadu.</p><p>Jupiter na různá místa měsíce působí různě silnou gravitací. Io navíc obíhá po mírně protáhlé dráze, jejíž podobu pomáhají udržovat gravitační vazby s dalšími měsíci. Slapové deformace se během oběhu mění a jejich energie se uvnitř mění v teplo.</p><p>Výsledkem je mimořádně intenzivní vulkanismus. Nejde o tření měsíce o okolní plyn ani o přímé zahřívání povrchu Jupiterem. Energie pochází z dynamiky gravitačně propojené soustavy. I na vzdáleném světě tak může být rozhodující to, jak jej jeho sousedé neustále natahují a stlačují.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA – Juno Takes Temperature of Io",
@@ -34393,7 +34393,7 @@
     "id": "398",
     "title": "Ve vesmíru existují místa, která drží krok s planetou",
     "content": "<p>Sonda může obíhat Slunce a přitom se držet přibližně na stejném místě vůči Zemi. Neznamená to, že tam gravitace zmizela nebo že sonda ve vesmíru stojí.</p><p>V idealizované soustavě dvou velkých těles existuje pět Lagrangeových bodů. Umožňují malému tělesu zachovat stálou polohu v soustavě, která se otáčí spolu s nimi. Body L1, L2 a L3 leží na společné přímce, L4 a L5 tvoří s velkými tělesy rovnostranné trojúhelníky.</p><p>Rozdílná je i stabilita. Okolí L1 a L2 využívají sondy, které potřebují korekce dráhy; za vhodného poměru hmotností jsou L4 a L5 stabilnější a mohou hostit skupiny planetek. Kosmické parkoviště je tedy jen přirovnání. Pořád jde o pohyb po dráze a přesně vyváženou dynamiku, nikoli o vypnutí přitažlivosti.</p>",
-    "category": "astronomie",
+    "category": "vesmir",
     "sources": [
       {
         "label": "NASA Science – What are Lagrange Points?",
@@ -34558,7 +34558,7 @@
     "id": "403",
     "title": "Kreslená postava si může vypůjčit lidský pohyb",
     "content": "<p>Kreslená postava se pohne tak přirozeně, až připomíná živého herce. Někdy je důvod doslovný: animátor vycházel z natočeného člověka políčko po políčku.</p><p>Rotoskopie používá hraný záznam jako podklad pro kreslenou animaci. Max Fleischer vyvinul zařízení, které umožňovalo jednotlivá filmová políčka promítat a jejich pohyb převádět do kresby. Jeho bratr Dave poskytl pohybovou předlohu pro rané pokusy.</p><p>Výsledek nemusí být pouhou obkreslenou kopií. Animátor může měnit proporce, výtvarnou podobu i míru zachovaného detailu. Důležité je rozlišení mezi zdrojem pohybu a konečnou podobou obrazu: skutečný herecký výkon může být oporou i pro svět, který se na plátně vůbec netváří jako fotografie.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "Fleischer Studios – Rotoscope",
@@ -34591,7 +34591,7 @@
     "id": "404",
     "title": "Herec může stejnou větu zahrát ještě po natáčení",
     "content": "<p>Na plátně vidíš herce mluvit v ulici, ale jeho hlas mohl vzniknout až ve studiu. Hluk dopravy či vítr totiž může původní dialog znehodnotit, i když obraz zůstane výborný.</p><p>Při postsynchronu označovaném jako ADR herec znovu nahraje vybrané repliky podle hotového obrazu. Musí sladit načasování, rytmus a výraz s původním výkonem. Zvukový tým pak novou nahrávku upraví a zasadí do zvukového prostředí scény.</p><p>Není to jen překladový dabing do jiného jazyka ani pouhé odstranění šumu ze staré stopy. Vzniká nový hlasový výkon, který má s natočeným tělem působit jako jediný okamžik. Přirozeně znějící filmový rozhovor tak může být velmi pečlivě sestaveným setkáním obrazu a později pořízeného zvuku.</p>",
-    "category": "filmy",
+    "category": "kinematografie",
     "sources": [
       {
         "label": "ScreenSkills – ADR editor",
@@ -34690,7 +34690,7 @@
     "id": "407",
     "title": "Nový server nemusí přestěhovat skoro všechna data",
     "content": "<p>Rozdělit data mezi servery je snadné, dokud se počet serverů nemění. Naivní pravidlo založené na zbytku po dělení jejich počtem může při přidání stroje přidělit jinam velkou část klíčů.</p><p>Konzistentní hašování umisťuje klíče i servery do společného kruhového prostoru. V jednoduché variantě patří klíč nejbližšímu následujícímu serveru. Přidání nového uzlu tak změní hlavně odpovědnost za sousední úsek, místo aby přepsalo pravidlo pro všechny.</p><p>Více virtuálních pozic jednoho serveru pomáhá rozložit zátěž rovnoměrněji. Samotná metoda ovšem nezaručuje zálohy ani správnost souběžných zápisů. Řeší jinou praktickou věc: jak při změnách členství omezit množství dat, která musejí dostat nového správce.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "Karger a kol. – Consistent Hashing and Random Trees",
@@ -34723,7 +34723,7 @@
     "id": "408",
     "title": "Databáze si nejprve slíbí, že jsou připravené",
     "content": "<p>Převod nesmí v jedné databázi peníze odečíst a v druhé je zapomenout přičíst. Když jedna operace zasahuje více účastníků, potřebuje způsob, jak sladit její společný výsledek.</p><p>Dvoufázové potvrzení nejprve požádá účastníky, aby transakci připravili a trvale uchovali možnost ji dokončit. Teprve po úspěšné přípravě všech přijde rozhodnutí potvrdit; při neúspěchu se operace ruší.</p><p>Cena za tuto koordinaci se ukáže při poruše. Připravený účastník může čekat na konečné rozhodnutí a přitom dál držet zámky. PostgreSQL proto varuje před dlouho otevřenými připravenými transakcemi. Společné všechno, nebo nic není zadarmo: může vyměnit část dostupnosti za jistotu, že se jednotlivé části operace nerozejdou.</p>",
-    "category": "pocitacove-vedy",
+    "category": "technologie",
     "sources": [
       {
         "label": "PostgreSQL – Two-Phase Transactions",
