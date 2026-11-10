@@ -499,14 +499,14 @@
 
 	.card-front .share-btn:active,
 	.card-front .share-btn:focus-visible {
-		--share-start: var(--accent);
-		--share-end: var(--accent-secondary);
+		--share-start: var(--text);
+		--share-end: var(--text);
 	}
 
 	@media (hover: hover) {
 		.card-front .share-btn:hover {
-			--share-start: var(--accent);
-			--share-end: var(--accent-secondary);
+			--share-start: var(--text);
+			--share-end: var(--text);
 		}
 	}
 
