@@ -264,8 +264,12 @@ for (const side of ['front', 'back']) {
 			if (side === 'back') {
 				await flip(page);
 				await expect(page.getByRole('button', { name: 'Sdílet', exact: true })).toHaveCount(0);
-				await activate(page.getByRole('button', { name: 'Otočit na přední stranu', exact: true }), page);
+				// Návrat z rubu používá klepnutí do textu (R05).
+				await activate(page.locator('.is-active .card-back h2'), page);
 				await expect(page.locator('.is-active .card-front')).toHaveAttribute('aria-hidden', 'false');
+				await page.locator('.is-active .card-stage').evaluate(async stage => {
+					await Promise.all(stage.getAnimations().map(animation => animation.finished));
+				});
 				await expect.poll(() => page.evaluate(() => window.actionCalls)).toEqual([]);
 			}
 			await activate(page.getByRole('button', { name: 'Sdílet', exact: true }), page);
