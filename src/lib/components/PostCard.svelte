@@ -403,6 +403,7 @@
 		--flip-duration: 0.42s;
 		--card-action-inset: clamp(18px, 5vw, 30px);
 		--card-meta-top: var(--card-action-inset);
+		--card-footer-bottom: calc(var(--card-action-inset) - 10px);
 		-webkit-perspective: 1600px;
 	}
 
@@ -667,11 +668,11 @@
 		position: relative;
 		display: flex;
 		flex-direction: column;
-		gap: 14px;
+		gap: 12px;
 		height: 100%;
 		min-height: 0;
-		/* Společný footer drží obě akce na stejné lince, o 8 px níž. */
-		padding: var(--card-meta-top) var(--card-action-inset) calc(var(--card-action-inset) - 8px);
+		/* Společný footer drží obě akce na stejné lince. */
+		padding: var(--card-meta-top) var(--card-action-inset) var(--card-footer-bottom);
 	}
 
 	.front-top {
@@ -823,10 +824,18 @@
 		color: var(--text);
 	}
 
+	/* Na mobilu ponecháme ovládání více prostoru od hran karty. */
+	@media (max-width: 600px) {
+		.post-card {
+			--card-meta-top: 28px;
+			--card-footer-bottom: 20px;
+		}
+	}
+
 	/* Nízký viewport — kompaktnější mezery a titulek; hook zůstává celý. */
 	@media (max-height: 560px) {
 		.front-inner {
-			gap: 10px;
+			gap: 8px;
 		}
 
 		.title {

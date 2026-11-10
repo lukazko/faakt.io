@@ -1,6 +1,10 @@
 # Ilustrace — aktuální stav
 
+Při šířce viewportu do 600 px je horní odsazení kategorie a nabídky 28 px a spodní odsazení akcí na líci 20 px. Desktopové odsazení zůstává zachované.
+
 ## Celý hook na líci
+
+Mezera nad spodními akcemi: **12 px**, pro viewport do výšky 560 px **8 px**.
 
 Hook nemá řádkový limit ani výpustku, včetně nízkého viewportu. Titulek, ilustrace a celý hook sdílejí posuvnou plochu líce; spodní akce zůstávají dostupné. Ilustrace si zachovává rozměry a poměr stran i při přesahu obsahu. Bitmapy, registrace, palety, mapování a zlaté otisky se nemění. Regresi celého hooku, posunu na nízké kartě a otočení pokrývá `tests/browser/complete-hooks.spec.js`.
 
