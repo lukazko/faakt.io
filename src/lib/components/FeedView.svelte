@@ -429,9 +429,18 @@
 			{#if visibleCount < totalPosts}
 				<div class="end-card">
 					<p class="end-card-text">Nesedíš už na tom záchodě moc dlouho?</p>
-					<button class="load-more-btn" onclick={loadMore}>
-						<span class="load-more-icon">+</span>
-						Nee, dej mi víc!
+					<button class="load-more-btn load-more-btn-outline" onclick={loadMore}>
+						<svg class="load-more-icon" width="23" height="23" viewBox="0 0 24 24" fill="none" stroke="url(#load-more-plus-gradient)" stroke-width="3" stroke-linecap="round" aria-hidden="true">
+							<defs>
+								<linearGradient id="load-more-plus-gradient" x1="0" y1="0" x2="1" y2="1">
+									<stop stop-color="var(--accent)" />
+									<stop offset="0.5" stop-color="var(--accent)" />
+									<stop offset="1" stop-color="var(--accent-secondary)" />
+								</linearGradient>
+							</defs>
+							<path d="M12 5v14M5 12h14" />
+						</svg>
+						<span class="load-more-text">Nee, dej mi víc!</span>
 					</button>
 				</div>
 			{:else if totalPosts === 0}
@@ -711,9 +720,39 @@
 	}
 
 	.load-more-icon {
-		font-size: 1.3rem;
-		font-weight: 300;
-		line-height: 1;
+		display: block;
+		flex: none;
+		width: 24px;
+		height: 24px;
+	}
+
+	.load-more-btn-outline {
+		gap: 5px;
+		min-height: 48px;
+		padding: 11px 27px;
+		border: 1px solid var(--accent);
+		background: transparent;
+		color: var(--accent);
+		font-family: inherit;
+		font-size: 16px;
+		font-weight: 650;
+		box-shadow: none;
+		transition: transform 0.15s;
+	}
+
+	.load-more-btn-outline:hover,
+	.load-more-btn-outline:focus-visible,
+	.load-more-btn-outline:active {
+		box-shadow: none;
+		transform: scale(1.025);
+	}
+
+	.load-more-text {
+		background: linear-gradient(135deg, var(--accent), var(--accent-secondary));
+		-webkit-background-clip: text;
+		background-clip: text;
+		-webkit-text-fill-color: transparent;
+		line-height: 1.3;
 	}
 
 	/* Loading overlay — blokující stav, proto nad čtečkou (400) i nad
