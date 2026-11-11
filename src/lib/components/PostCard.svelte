@@ -437,15 +437,14 @@
 	}
 
 
-	/* Pojistka pro prohlížeče, které vrstvu tlačítka neflattenují do plochy
-	   strany: tlačítko odvrácené strany zmizí ve chvíli, kdy se karta otáčí
-	   hranou — v polovině symetrické easingové křivky, ne až po otočení.
-	   Do té doby se viditelně otáčí s kartou. */
+	/* Během pohybu řídí viditelnost skutečný úhel a backface-visibility.
+	   Pojistné skrytí přijde až na konci, aby časovač nepřepnul obsah
+	   na dosud viditelné ploše při navázání z náznaku nebo obrácení směru. */
 	.post-card.flipped .card-front .action-btn,
 	.post-card:not(.flipped) .card-back .action-btn {
 		visibility: hidden;
 		transition: background 0.2s, transform 0.15s,
-			visibility 0s linear calc(var(--flip-duration) * 0.5);
+			visibility 0s linear var(--flip-duration);
 	}
 
 	/* Tlačítko patří jen kartě, na které uživatel právě stojí. Karta nad ní
@@ -657,14 +656,14 @@
 		transform: rotateY(180deg);
 	}
 
-	/* Mobile compositors can briefly repaint the back-facing surface when
-	   the transform transition finishes. Hide it explicitly once it turns
-	   away, and reveal the incoming face immediately on a reverse flip. */
+	/* Keep both surfaces available throughout the rotation: backface-visibility
+	   switches them at the actual edge-on angle, including interrupted flips.
+	   Explicit hiding only guards against mobile repaint flashes after the turn. */
 	.post-card.flipped .card-front,
 	.post-card:not(.flipped) .card-back {
 		pointer-events: none;
 		visibility: hidden;
-		transition: visibility 0s linear calc(var(--flip-duration) * 0.5);
+		transition: visibility 0s linear var(--flip-duration);
 	}
 
 	/* --- Líc --- */
