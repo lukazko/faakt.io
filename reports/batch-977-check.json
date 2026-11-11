@@ -1,0 +1,5933 @@
+{
+  "errors": [],
+  "candidates": [
+    {
+      "id": "977",
+      "candidates": [
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 17.189,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 16.687,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 11.408,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "381",
+          "idea": "idea-381",
+          "point": "Efekt relativního věku vzniká při ročníkovém třídění sportovců, kdy vývojová výhoda starších dětí může ovlivnit výběr i další přístup k tréninku.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "development",
+            "fairness"
+          ],
+          "score": 10.279,
+          "same_idea": false,
+          "ids": [
+            "381"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "486",
+          "idea": "idea-486",
+          "point": "Filibuster využívá procedurální pravidla rozpravy k odkladu nebo blokování rozhodnutí většiny.",
+          "type": "principle",
+          "tags": [
+            "democracy",
+            "law",
+            "power"
+          ],
+          "score": 9.634,
+          "same_idea": false,
+          "ids": [
+            "486"
+          ]
+        },
+        {
+          "id": "869",
+          "idea": "idea-869",
+          "point": "Specializace vedení organizace mu dává informační a organizační náskok, který může oslabovat kontrolu členskou základnou.",
+          "type": "theory",
+          "tags": [
+            "organizations",
+            "power"
+          ],
+          "score": 9.447,
+          "same_idea": false,
+          "ids": [
+            "869"
+          ]
+        },
+        {
+          "id": "479",
+          "idea": "idea-479",
+          "point": "Lucasova kritika upozorňuje, že změna politiky mění očekávání a chování lidí, takže staré statistické vztahy nemusí zůstat platné.",
+          "type": "principle",
+          "tags": [
+            "macroeconomics",
+            "uncertainty",
+            "incentives"
+          ],
+          "score": 9.411,
+          "same_idea": false,
+          "ids": [
+            "479"
+          ]
+        },
+        {
+          "id": "286",
+          "idea": "idea-286",
+          "point": "Ženevské úmluvy vymezují ochranu lidí, kteří se bojů neúčastní nebo už bojovat nemohou.",
+          "type": "principle",
+          "tags": [
+            "human-rights",
+            "military-history"
+          ],
+          "score": 8.913,
+          "same_idea": false,
+          "ids": [
+            "286"
+          ]
+        },
+        {
+          "id": "316",
+          "idea": "idea-316",
+          "point": "Francouzský občanský zákoník z roku 1804 sjednocoval soukromé právo, ale v manželství kodifikoval mužovu autoritu a omezenou právní samostatnost ženy.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "law",
+            "fairness"
+          ],
+          "score": 8.815,
+          "same_idea": false,
+          "ids": [
+            "316"
+          ]
+        },
+        {
+          "id": "943",
+          "idea": "idea-943",
+          "point": "Morální hazard nastává, když ochrana před částí následků oslabuje pobídku předcházet riziku a toto jednání nelze plně kontrolovat.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "incentives",
+            "uncertainty"
+          ],
+          "score": 8.815,
+          "same_idea": false,
+          "ids": [
+            "943"
+          ]
+        },
+        {
+          "id": "973",
+          "idea": "idea-973",
+          "point": "Portugalská revoluce v dubnu 1974 vzešla z vojenského odporu spjatého s koloniálními válkami a otevřela sporný přechod k demokracii.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "democracy",
+            "freedom"
+          ],
+          "score": 8.815,
+          "same_idea": false,
+          "ids": [
+            "973"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "978",
+      "candidates": [
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 10.501,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "156",
+          "idea": "idea-156",
+          "point": "Vylodění v Normandii otevřelo spojeneckou západní frontu a vyžadovalo rozsáhlou koordinaci sil i zásobování.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "military-history",
+            "cooperation"
+          ],
+          "score": 10.098,
+          "same_idea": false,
+          "ids": [
+            "156"
+          ]
+        },
+        {
+          "id": "786",
+          "idea": "idea-786",
+          "point": "Sedm samurajů rozvinulo vyprávěcí vzorec sestavení různorodého týmu pro společný obranný úkol.",
+          "type": "work",
+          "tags": [
+            "cinema",
+            "narratology",
+            "cooperation"
+          ],
+          "score": 10.098,
+          "same_idea": false,
+          "ids": [
+            "786"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "234",
+          "idea": "idea-234",
+          "point": "Vítězství Deep Blue nad Kasparovem ukázalo sílu specializovaného výpočtu v šachu bez nutnosti obecné lidské inteligence.",
+          "type": "event",
+          "tags": [
+            "artificial-intelligence",
+            "algorithms",
+            "limits"
+          ],
+          "score": 9.207,
+          "same_idea": false,
+          "ids": [
+            "234"
+          ]
+        },
+        {
+          "id": "92",
+          "idea": "idea-92",
+          "point": "Obchod může prospívat oběma stranám, když se specializují podle relativních nákladů i při rozdílné celkové výkonnosti.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "cooperation",
+            "resources"
+          ],
+          "score": 9.068,
+          "same_idea": false,
+          "ids": [
+            "92"
+          ]
+        },
+        {
+          "id": "388",
+          "idea": "idea-388",
+          "point": "Quorum sensing koordinuje bakteriální genovou aktivitu prostřednictvím koncentrace uvolňovaných signálů, kterou kromě hustoty buněk ovlivňuje také prostředí.",
+          "type": "principle",
+          "tags": [
+            "microbiology",
+            "communication",
+            "cooperation"
+          ],
+          "score": 9.068,
+          "same_idea": false,
+          "ids": [
+            "388"
+          ]
+        },
+        {
+          "id": "355",
+          "idea": "idea-355",
+          "point": "Stoická oikeiósis rozšiřuje přirozenou péči o sebe směrem k druhým a Hieroklovy kruhy ji vztahují až k celému lidstvu.",
+          "type": "theory",
+          "tags": [
+            "stoicism",
+            "ethics",
+            "cooperation"
+          ],
+          "score": 7.833,
+          "same_idea": false,
+          "ids": [
+            "355"
+          ]
+        },
+        {
+          "id": "8",
+          "idea": "idea-8",
+          "point": "Smithova neviditelná ruka vysvětluje, jak může sledování vlastního zájmu za určitých podmínek přispět ke společnému prospěchu.",
+          "type": "theory",
+          "tags": [
+            "microeconomics",
+            "cooperation",
+            "adam-smith"
+          ],
+          "score": 7.306,
+          "same_idea": false,
+          "ids": [
+            "8",
+            "50",
+            "105"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 7.306,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "589",
+          "idea": "idea-589",
+          "point": "Zákaz incestu lze ve strukturální antropologii vykládat jako pravidlo vytvářející směnu a vazby mezi skupinami.",
+          "type": "theory",
+          "tags": [
+            "sociology",
+            "structuralism",
+            "cooperation"
+          ],
+          "score": 7.306,
+          "same_idea": false,
+          "ids": [
+            "589"
+          ]
+        },
+        {
+          "id": "896",
+          "idea": "idea-896",
+          "point": "Cyklické párování biologicky nekompatibilních dvojic dárce a příjemce může umožnit transplantace bez peněžní směny orgánů.",
+          "type": "principle",
+          "tags": [
+            "institutions",
+            "algorithms",
+            "cooperation"
+          ],
+          "score": 7.306,
+          "same_idea": false,
+          "ids": [
+            "896"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "979",
+      "candidates": [
+        {
+          "id": "292",
+          "idea": "idea-292",
+          "point": "Slapové působení přenáší část rotačního momentu Země do měsíční dráhy a Měsíc se postupně vzdaluje.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "mechanics",
+            "change",
+            "moon"
+          ],
+          "score": 18.059,
+          "same_idea": false,
+          "ids": [
+            "292"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 17.719,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 14.945,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "126",
+          "idea": "idea-126",
+          "point": "Vzdálenější galaxie se v průměru vzdalují rychleji, což podporuje popis rozpínajícího se vesmíru.",
+          "type": "discovery",
+          "tags": [
+            "cosmology",
+            "patterns",
+            "change"
+          ],
+          "score": 13.822,
+          "same_idea": false,
+          "ids": [
+            "126",
+            "558"
+          ]
+        },
+        {
+          "id": "127",
+          "idea": "idea-127",
+          "point": "Kolumbova plavba vycházela z chybného odhadu cesty do Asie a otevřela evropskou kolonizaci Ameriky.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "geoscience",
+            "perceived-reality"
+          ],
+          "score": 11.965,
+          "same_idea": false,
+          "ids": [
+            "127"
+          ]
+        },
+        {
+          "id": "524",
+          "idea": "idea-524",
+          "point": "Rok čtyř císařů ukázal rozhodující úlohu armád při předávání římské císařské moci.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 11.965,
+          "same_idea": false,
+          "ids": [
+            "524"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 11.408,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "450",
+          "idea": "idea-450",
+          "point": "Eroze může odlehčením zemské kůry vyvolat izostatické nadzvedávání a podílet se na změnách výšky hor.",
+          "type": "principle",
+          "tags": [
+            "geoscience",
+            "mechanics",
+            "change"
+          ],
+          "score": 11.408,
+          "same_idea": false,
+          "ids": [
+            "450"
+          ]
+        },
+        {
+          "id": "136",
+          "idea": "idea-136",
+          "point": "Tepelná roztažnost mění délku kovových konstrukcí, takže se mění i výška Eiffelovy věže.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "change"
+          ],
+          "score": 11.104,
+          "same_idea": false,
+          "ids": [
+            "136"
+          ]
+        },
+        {
+          "id": "23",
+          "idea": "idea-23",
+          "point": "Dvě tělesa na sebe působí současně stejně velkými silami opačného směru.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "patterns"
+          ],
+          "score": 10.819,
+          "same_idea": false,
+          "ids": [
+            "23"
+          ]
+        },
+        {
+          "id": "222",
+          "idea": "idea-222",
+          "point": "Iridiová vrstva a kráter Chicxulub spojily hromadné vymírání na konci křídy s dopadem velkého tělesa.",
+          "type": "discovery",
+          "tags": [
+            "geoscience",
+            "evolution",
+            "knowledge-evidence"
+          ],
+          "score": 10.695,
+          "same_idea": false,
+          "ids": [
+            "222"
+          ]
+        },
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "980",
+      "candidates": [
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 13.796,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 10.098,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "151",
+          "idea": "idea-151",
+          "point": "Botanické členění plodů podle vzniku se liší od kuchyňských názvů, takže banán je bobule a jahoda souplodí.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "patterns"
+          ],
+          "score": 10.053,
+          "same_idea": false,
+          "ids": [
+            "151"
+          ]
+        },
+        {
+          "id": "602",
+          "idea": "idea-602",
+          "point": "Lotmanova sémiosféra chápe kulturu jako prostor vzájemně závislých znakových systémů a jejich hranic.",
+          "type": "theory",
+          "tags": [
+            "semiotics",
+            "sociology",
+            "communication"
+          ],
+          "score": 9.411,
+          "same_idea": false,
+          "ids": [
+            "602"
+          ]
+        },
+        {
+          "id": "135",
+          "idea": "idea-135",
+          "point": "Pád Berlínské zdi roku 1989 proměnil rozdělení Německa a stal se symbolem konce studené války.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "freedom",
+            "change"
+          ],
+          "score": 8.392,
+          "same_idea": false,
+          "ids": [
+            "135"
+          ]
+        },
+        {
+          "id": "160",
+          "idea": "idea-160",
+          "point": "Dante napsal Božskou komedii v lidovém jazyce a pomohl posílit jeho literární postavení vedle latiny.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "linguistics",
+            "communication"
+          ],
+          "score": 8.391,
+          "same_idea": false,
+          "ids": [
+            "160"
+          ]
+        },
+        {
+          "id": "190",
+          "idea": "idea-190",
+          "point": "Wittgenstein hledá význam ve způsobech užití a rodinných podobnostech místo jediné definice společné všem případům.",
+          "type": "theory",
+          "tags": [
+            "philosophy-of-language",
+            "communication",
+            "patterns"
+          ],
+          "score": 8.391,
+          "same_idea": false,
+          "ids": [
+            "190"
+          ]
+        },
+        {
+          "id": "587",
+          "idea": "idea-587",
+          "point": "Poetická funkce obrací pozornost k uspořádání samotného sdělení a ukazuje rozdíl mezi gramatickou správností a smysluplností.",
+          "type": "theory",
+          "tags": [
+            "linguistics",
+            "literature",
+            "communication"
+          ],
+          "score": 8.391,
+          "same_idea": false,
+          "ids": [
+            "587"
+          ]
+        },
+        {
+          "id": "829",
+          "idea": "idea-829",
+          "point": "Jazykové změny se šíří sociálními kontakty a jejich přijetí ovlivňují užitečnost a společenská prestiž mluvčích.",
+          "type": "theory",
+          "tags": [
+            "linguistics",
+            "social-networks",
+            "communication"
+          ],
+          "score": 8.391,
+          "same_idea": false,
+          "ids": [
+            "829"
+          ]
+        },
+        {
+          "id": "610",
+          "idea": "idea-610",
+          "point": "Mukařovského aktualizace narušuje navyklé užívání jazyka a obnovuje pozornost k jeho podobě.",
+          "type": "theory",
+          "tags": [
+            "linguistics",
+            "literature",
+            "perception"
+          ],
+          "score": 7.802,
+          "same_idea": false,
+          "ids": [
+            "610"
+          ]
+        },
+        {
+          "id": "153",
+          "idea": "idea-153",
+          "point": "Bellův telefon umožnil převést hlas na elektrický signál a přenášet jej na dálku.",
+          "type": "discovery",
+          "tags": [
+            "electromagnetism",
+            "communication",
+            "innovation"
+          ],
+          "score": 7.604,
+          "same_idea": false,
+          "ids": [
+            "153"
+          ]
+        },
+        {
+          "id": "269",
+          "idea": "idea-269",
+          "point": "Šíření papíru změnilo náklady a dostupnost písemné komunikace mezi kulturami.",
+          "type": "event",
+          "tags": [
+            "writing-systems",
+            "communication",
+            "innovation",
+            "china"
+          ],
+          "score": 7.604,
+          "same_idea": false,
+          "ids": [
+            "269"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "981",
+      "candidates": [
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 14.191,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "563",
+          "idea": "idea-563",
+          "point": "Sputnik zahájil éru umělých družic a změnil technologické i politické soupeření velmocí.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "international-relations",
+            "innovation"
+          ],
+          "score": 11.335,
+          "same_idea": false,
+          "ids": [
+            "563"
+          ]
+        },
+        {
+          "id": "437",
+          "idea": "idea-437",
+          "point": "Vypnutí záměrného zhoršování civilního GPS zvýšilo přesnost dostupnou běžným uživatelům.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "human-computer-interaction",
+            "change"
+          ],
+          "score": 10.098,
+          "same_idea": false,
+          "ids": [
+            "437"
+          ]
+        },
+        {
+          "id": "253",
+          "idea": "idea-253",
+          "point": "Klimatické následky erupce Tambory spoluutvářely okolnosti léta, během něhož Mary Shelleyová začala Frankensteina.",
+          "type": "event",
+          "tags": [
+            "literature",
+            "geoscience",
+            "change"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "253"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "381",
+          "idea": "idea-381",
+          "point": "Efekt relativního věku vzniká při ročníkovém třídění sportovců, kdy vývojová výhoda starších dětí může ovlivnit výběr i další přístup k tréninku.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "development",
+            "fairness"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "381"
+          ]
+        },
+        {
+          "id": "382",
+          "idea": "idea-382",
+          "point": "Smíšená strategie při penaltě záměrně střídá volby s vhodnými pravděpodobnostmi, aby soupeř nemohl využít předvídatelný vzorec.",
+          "type": "theory",
+          "tags": [
+            "sport",
+            "game-theory",
+            "uncertainty"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "382"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 9.191,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "982",
+      "candidates": [
+        {
+          "id": "466",
+          "idea": "idea-466",
+          "point": "Rodinův Myslitel vznikl jako součást širší kompozice Brány pekel a teprve následně se prosadil samostatně.",
+          "type": "work",
+          "tags": [
+            "sculpture",
+            "identity",
+            "change"
+          ],
+          "score": 16.197,
+          "same_idea": false,
+          "ids": [
+            "466"
+          ]
+        },
+        {
+          "id": "33",
+          "idea": "idea-33",
+          "point": "Michelangelova výmalba stropu Sixtinské kaple spojila náročnou freskovou techniku s rozsáhlou biblickou kompozicí.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "architecture",
+            "innovation"
+          ],
+          "score": 12.837,
+          "same_idea": false,
+          "ids": [
+            "33",
+            "73"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 12.718,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 12.557,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "961",
+          "idea": "idea-961",
+          "point": "Čipletová konstrukce spojuje menší samostatně vyráběné čipy do pouzdra a vyměňuje výrobní flexibilitu za nároky na propojení.",
+          "type": "principle",
+          "tags": [
+            "computing",
+            "materials",
+            "innovation"
+          ],
+          "score": 12.244,
+          "same_idea": false,
+          "ids": [
+            "961"
+          ]
+        },
+        {
+          "id": "460",
+          "idea": "idea-460",
+          "point": "Dolbyho systémy omezují slyšitelný šum zvukového záznamu vhodným zpracováním signálu.",
+          "type": "principle",
+          "tags": [
+            "sound",
+            "information-theory",
+            "innovation"
+          ],
+          "score": 11.626,
+          "same_idea": false,
+          "ids": [
+            "460"
+          ]
+        },
+        {
+          "id": "117",
+          "idea": "idea-117",
+          "point": "Berners-Lee spojil hypertext s internetem a vytvořil základ webu pro propojování dokumentů.",
+          "type": "discovery",
+          "tags": [
+            "networks",
+            "human-computer-interaction",
+            "innovation"
+          ],
+          "score": 11.625,
+          "same_idea": false,
+          "ids": [
+            "117"
+          ]
+        },
+        {
+          "id": "508",
+          "idea": "idea-508",
+          "point": "Dolly ukázala možnost vytvořit savce přenosem jádra diferencované dospělé buňky do vajíčka.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "development",
+            "innovation"
+          ],
+          "score": 11.465,
+          "same_idea": false,
+          "ids": [
+            "508"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 11.192,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "467",
+          "idea": "idea-467",
+          "point": "Klimtova práce se zlatem navazovala na zkušenost s mozaikami a propojovala malbu s dekorativní plochou.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "innovation"
+          ],
+          "score": 10.788,
+          "same_idea": false,
+          "ids": [
+            "467"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 10.279,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "960",
+          "idea": "idea-960",
+          "point": "Difuzní model se učí odstraňovat přidaný šum a při generování opakovanými odhady převádí náhodný vstup na obraz.",
+          "type": "principle",
+          "tags": [
+            "artificial-intelligence",
+            "innovation"
+          ],
+          "score": 10.275,
+          "same_idea": false,
+          "ids": [
+            "960"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "983",
+      "candidates": [
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 26.923,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 11.54,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 11.443,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "897",
+          "idea": "idea-897",
+          "point": "Velký zápach roku 1858 urychlil financování londýnské kanalizace, když důsledky znečištění zasáhly přímo parlament.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "public-health"
+          ],
+          "score": 10.939,
+          "same_idea": false,
+          "ids": [
+            "897"
+          ]
+        },
+        {
+          "id": "927",
+          "idea": "idea-927",
+          "point": "Prasknutí pivovarské kádě v Londýně roku 1814 vyvolalo ničivou záplavu v okolní obytné čtvrti.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "economic-history"
+          ],
+          "score": 10.939,
+          "same_idea": false,
+          "ids": [
+            "927"
+          ]
+        },
+        {
+          "id": "972",
+          "idea": "idea-972",
+          "point": "Suezská krize roku 1956 ukázala, že britsko-francouzská vojenská převaha nestačí k prosazení cíle proti americkému a mezinárodnímu tlaku.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "power"
+          ],
+          "score": 10.939,
+          "same_idea": false,
+          "ids": [
+            "972"
+          ]
+        },
+        {
+          "id": "133",
+          "idea": "idea-133",
+          "point": "Eukleidova axiomatická metoda buduje geometrická tvrzení z výslovných předpokladů a důkazů.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "logic",
+            "patterns"
+          ],
+          "score": 10.633,
+          "same_idea": false,
+          "ids": [
+            "133"
+          ]
+        },
+        {
+          "id": "620",
+          "idea": "idea-620",
+          "point": "Pohyb rychlejší než šíření zvuku skládá tlakové poruchy do rázové vlny vnímané jako sonický třesk.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "patterns"
+          ],
+          "score": 10.501,
+          "same_idea": false,
+          "ids": [
+            "620"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 10.098,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 10.098,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "984",
+      "candidates": [
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 39.112,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "966",
+          "idea": "idea-966",
+          "point": "Beauvoir vysvětluje podřízenost žen jejich vymezováním jako Druhého vůči muži přijímanému za obecnou lidskou normu.",
+          "type": "theory",
+          "tags": [
+            "existentialism",
+            "identity",
+            "fairness"
+          ],
+          "score": 14.36,
+          "same_idea": false,
+          "ids": [
+            "966"
+          ]
+        },
+        {
+          "id": "261",
+          "idea": "idea-261",
+          "point": "Nový Zéland přiznal ženám parlamentní volební právo jako první samosprávná země.",
+          "type": "event",
+          "tags": [
+            "democracy",
+            "human-rights",
+            "fairness"
+          ],
+          "score": 14.355,
+          "same_idea": false,
+          "ids": [
+            "261"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 14.34,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 12.667,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "660",
+          "idea": "idea-660",
+          "point": "Mandela a vyjednávání o konci apartheidu ukazují přechod od rasového vyloučení k politické účasti a smíření.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "human-rights",
+            "fairness"
+          ],
+          "score": 12.569,
+          "same_idea": false,
+          "ids": [
+            "660"
+          ]
+        },
+        {
+          "id": "491",
+          "idea": "idea-491",
+          "point": "Sufražetky organizovaným veřejným tlakem zpochybňovaly vyloučení žen z volebního rozhodování.",
+          "type": "event",
+          "tags": [
+            "democracy",
+            "human-rights",
+            "fairness"
+          ],
+          "score": 12.394,
+          "same_idea": false,
+          "ids": [
+            "491"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 12.29,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "347",
+          "idea": "idea-347",
+          "point": "Neúspěšný srpnový puč roku 1991 oslabil sovětské centrum a posílil republiky, jejichž osamostatňování vyústilo v prosincový zánik Sovětského svazu.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "change"
+          ],
+          "score": 11.909,
+          "same_idea": false,
+          "ids": [
+            "347"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 11.54,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "316",
+          "idea": "idea-316",
+          "point": "Francouzský občanský zákoník z roku 1804 sjednocoval soukromé právo, ale v manželství kodifikoval mužovu autoritu a omezenou právní samostatnost ženy.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "law",
+            "fairness"
+          ],
+          "score": 11.443,
+          "same_idea": false,
+          "ids": [
+            "316"
+          ]
+        },
+        {
+          "id": "359",
+          "idea": "idea-359",
+          "point": "Wollstonecraftová vysvětluje domnělou ženskou rozumovou méněcennost výchovou k závislosti a požaduje vzdělání pro samostatné mravní jednání.",
+          "type": "theory",
+          "tags": [
+            "ethics",
+            "modern-philosophy",
+            "fairness"
+          ],
+          "score": 10.939,
+          "same_idea": false,
+          "ids": [
+            "359"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "985",
+      "candidates": [
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 21.005,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 19.259,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "747",
+          "idea": "idea-747",
+          "point": "Charta 77 využila rozporu mezi oficiálními závazky státu a jejich nedodržováním při obraně lidských práv.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "human-rights",
+            "power"
+          ],
+          "score": 16.503,
+          "same_idea": false,
+          "ids": [
+            "747"
+          ]
+        },
+        {
+          "id": "147",
+          "idea": "idea-147",
+          "point": "Programování ENIACu vyžadovalo zapojování a nastavování hardwaru místo dnešního běžného načítání programu z paměti.",
+          "type": "event",
+          "tags": [
+            "computer-history",
+            "programming",
+            "innovation"
+          ],
+          "score": 12.582,
+          "same_idea": false,
+          "ids": [
+            "147"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 11.581,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "156",
+          "idea": "idea-156",
+          "point": "Vylodění v Normandii otevřelo spojeneckou západní frontu a vyžadovalo rozsáhlou koordinaci sil i zásobování.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "military-history",
+            "cooperation"
+          ],
+          "score": 9.945,
+          "same_idea": false,
+          "ids": [
+            "156"
+          ]
+        },
+        {
+          "id": "732",
+          "idea": "idea-732",
+          "point": "Československé oscarové úspěchy ukazují mezinárodní dosah domácí filmové tvorby v konkrétních historických podmínkách.",
+          "type": "event",
+          "tags": [
+            "cinema",
+            "modern-history",
+            "identity"
+          ],
+          "score": 9.812,
+          "same_idea": false,
+          "ids": [
+            "732"
+          ]
+        },
+        {
+          "id": "823",
+          "idea": "idea-823",
+          "point": "Rozpuštění zlatých Nobelových medailí v lučavce královské umožnilo jejich ukrytí a pozdější obnovení kovu.",
+          "type": "event",
+          "tags": [
+            "chemistry",
+            "modern-history",
+            "preservation"
+          ],
+          "score": 9.812,
+          "same_idea": false,
+          "ids": [
+            "823"
+          ]
+        },
+        {
+          "id": "899",
+          "idea": "idea-899",
+          "point": "Haitská revoluce proměnila povstání zotročených lidí v boj za nezávislost, který roku 1804 vytvořil Haiti.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "freedom"
+          ],
+          "score": 8.958,
+          "same_idea": false,
+          "ids": [
+            "899"
+          ]
+        },
+        {
+          "id": "157",
+          "idea": "idea-157",
+          "point": "Smithova dělba práce zvyšuje produktivitu specializací, nácvikem a omezením přechodů mezi úkony.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "organizations",
+            "adam-smith"
+          ],
+          "score": 8.956,
+          "same_idea": false,
+          "ids": [
+            "157"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 8.908,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "986",
+      "candidates": [
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 17.459,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "491",
+          "idea": "idea-491",
+          "point": "Sufražetky organizovaným veřejným tlakem zpochybňovaly vyloučení žen z volebního rozhodování.",
+          "type": "event",
+          "tags": [
+            "democracy",
+            "human-rights",
+            "fairness"
+          ],
+          "score": 16.776,
+          "same_idea": false,
+          "ids": [
+            "491"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 15,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 12.403,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "693",
+          "idea": "idea-693",
+          "point": "Štrasburské taneční šílenství je doloženou zvláštní událostí, jejíž přesnou příčinu nelze snadno určit.",
+          "type": "open-question",
+          "tags": [
+            "modern-history",
+            "social-psychology",
+            "uncertainty"
+          ],
+          "score": 11.995,
+          "same_idea": false,
+          "ids": [
+            "693"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 11.625,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 11.625,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "830",
+          "idea": "idea-830",
+          "point": "Zipfovo rozdělení popisuje přibližně nepřímý vztah mezi četností slova a jeho pořadím podle četnosti.",
+          "type": "principle",
+          "tags": [
+            "linguistics",
+            "statistics",
+            "patterns"
+          ],
+          "score": 11.459,
+          "same_idea": false,
+          "ids": [
+            "830"
+          ]
+        },
+        {
+          "id": "119",
+          "idea": "idea-119",
+          "point": "Pavlovovo podmiňování ukazuje, že opakovaně spojený podnět může sám vyvolat dříve nepodmíněnou reakci.",
+          "type": "principle",
+          "tags": [
+            "learning-memory",
+            "patterns"
+          ],
+          "score": 10.822,
+          "same_idea": false,
+          "ids": [
+            "119"
+          ]
+        },
+        {
+          "id": "692",
+          "idea": "idea-692",
+          "point": "Australská emuí válka ukazuje limity vojenského řešení problému s pohyblivou početnou populací zvířat.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "zoology",
+            "limits"
+          ],
+          "score": 10.788,
+          "same_idea": false,
+          "ids": [
+            "692"
+          ]
+        },
+        {
+          "id": "316",
+          "idea": "idea-316",
+          "point": "Francouzský občanský zákoník z roku 1804 sjednocoval soukromé právo, ale v manželství kodifikoval mužovu autoritu a omezenou právní samostatnost ženy.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "law",
+            "fairness"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "316"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "987",
+      "candidates": [
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 22.291,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 19.288,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 14.288,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 14.288,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 14.191,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 14.191,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "200",
+          "idea": "idea-200",
+          "point": "Název španělské chřipky souvisel s rozdílnou válečnou cenzurou zpráv, nikoli s prokázaným původem epidemie ve Španělsku.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "public-health",
+            "communication"
+          ],
+          "score": 13.282,
+          "same_idea": false,
+          "ids": [
+            "200"
+          ]
+        },
+        {
+          "id": "897",
+          "idea": "idea-897",
+          "point": "Velký zápach roku 1858 urychlil financování londýnské kanalizace, když důsledky znečištění zasáhly přímo parlament.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "public-health"
+          ],
+          "score": 12.619,
+          "same_idea": false,
+          "ids": [
+            "897"
+          ]
+        },
+        {
+          "id": "972",
+          "idea": "idea-972",
+          "point": "Suezská krize roku 1956 ukázala, že britsko-francouzská vojenská převaha nestačí k prosazení cíle proti americkému a mezinárodnímu tlaku.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "international-relations",
+            "power"
+          ],
+          "score": 12.619,
+          "same_idea": false,
+          "ids": [
+            "972"
+          ]
+        },
+        {
+          "id": "823",
+          "idea": "idea-823",
+          "point": "Rozpuštění zlatých Nobelových medailí v lučavce královské umožnilo jejich ukrytí a pozdější obnovení kovu.",
+          "type": "event",
+          "tags": [
+            "chemistry",
+            "modern-history",
+            "preservation"
+          ],
+          "score": 11.192,
+          "same_idea": false,
+          "ids": [
+            "823"
+          ]
+        },
+        {
+          "id": "450",
+          "idea": "idea-450",
+          "point": "Eroze může odlehčením zemské kůry vyvolat izostatické nadzvedávání a podílet se na změnách výšky hor.",
+          "type": "principle",
+          "tags": [
+            "geoscience",
+            "mechanics",
+            "change"
+          ],
+          "score": 10.788,
+          "same_idea": false,
+          "ids": [
+            "450"
+          ]
+        },
+        {
+          "id": "687",
+          "idea": "idea-687",
+          "point": "Moby-Dick získal postavení literární klasiky až dlouho po původním nevýrazném přijetí.",
+          "type": "event",
+          "tags": [
+            "literature",
+            "preservation",
+            "change"
+          ],
+          "score": 10.276,
+          "same_idea": false,
+          "ids": [
+            "687"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "988",
+      "candidates": [
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 22.456,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "614",
+          "idea": "idea-614",
+          "point": "Při pádu v odporujícím prostředí může odpor vyrovnat tíhu, takže další zrychlování ustane.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "limits"
+          ],
+          "score": 19.078,
+          "same_idea": false,
+          "ids": [
+            "614"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 16.968,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "336",
+          "idea": "idea-336",
+          "point": "Gravitační manévr mění energii sondy vůči Slunci výměnou s pohybující se planetou, zatímco v idealizované soustavě planety se mění hlavně směr letu.",
+          "type": "principle",
+          "tags": [
+            "spaceflight",
+            "mechanics",
+            "resources"
+          ],
+          "score": 16.075,
+          "same_idea": false,
+          "ids": [
+            "336"
+          ]
+        },
+        {
+          "id": "620",
+          "idea": "idea-620",
+          "point": "Pohyb rychlejší než šíření zvuku skládá tlakové poruchy do rázové vlny vnímané jako sonický třesk.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "patterns"
+          ],
+          "score": 16.075,
+          "same_idea": false,
+          "ids": [
+            "620"
+          ]
+        },
+        {
+          "id": "616",
+          "idea": "idea-616",
+          "point": "Zmenšení momentu setrvačnosti při zachování momentu hybnosti zrychluje otáčení tělesa.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "patterns"
+          ],
+          "score": 10.978,
+          "same_idea": false,
+          "ids": [
+            "616"
+          ]
+        },
+        {
+          "id": "791",
+          "idea": "idea-791",
+          "point": "Rychlý úder strašíka vyvolává kavitaci, jejíž kolaps zesiluje účinek útoku na kořist.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "mechanics",
+            "limits"
+          ],
+          "score": 10.978,
+          "same_idea": false,
+          "ids": [
+            "791"
+          ]
+        },
+        {
+          "id": "289",
+          "idea": "idea-289",
+          "point": "Ingenuity předvedla řízený motorový let v řídké atmosféře jiné planety.",
+          "type": "discovery",
+          "tags": [
+            "spaceflight",
+            "mechanics",
+            "innovation",
+            "mars"
+          ],
+          "score": 10.098,
+          "same_idea": false,
+          "ids": [
+            "289"
+          ]
+        },
+        {
+          "id": "853",
+          "idea": "idea-853",
+          "point": "Tlak, suchost a další podmínky letu mohou měnit čichové a chuťové vnímání stejného jídla.",
+          "type": "principle",
+          "tags": [
+            "perception",
+            "nutrition",
+            "change"
+          ],
+          "score": 9.91,
+          "same_idea": false,
+          "ids": [
+            "853"
+          ]
+        },
+        {
+          "id": "292",
+          "idea": "idea-292",
+          "point": "Slapové působení přenáší část rotačního momentu Země do měsíční dráhy a Měsíc se postupně vzdaluje.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "mechanics",
+            "change",
+            "moon"
+          ],
+          "score": 9.812,
+          "same_idea": false,
+          "ids": [
+            "292"
+          ]
+        },
+        {
+          "id": "613",
+          "idea": "idea-613",
+          "point": "Coriolisova síla je zdánlivý účinek popisu pohybu v rotující soustavě a podílí se na velkoplošném stáčení proudění.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "geoscience",
+            "perceived-reality"
+          ],
+          "score": 9.812,
+          "same_idea": false,
+          "ids": [
+            "613"
+          ]
+        },
+        {
+          "id": "961",
+          "idea": "idea-961",
+          "point": "Čipletová konstrukce spojuje menší samostatně vyráběné čipy do pouzdra a vyměňuje výrobní flexibilitu za nároky na propojení.",
+          "type": "principle",
+          "tags": [
+            "computing",
+            "materials",
+            "innovation"
+          ],
+          "score": 9.506,
+          "same_idea": false,
+          "ids": [
+            "961"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "989",
+      "candidates": [
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 16.408,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "453",
+          "idea": "idea-453",
+          "point": "Disneyho Sněhurka ukázala komerční možnosti celovečerního animovaného filmu.",
+          "type": "work",
+          "tags": [
+            "animation",
+            "innovation"
+          ],
+          "score": 13.461,
+          "same_idea": false,
+          "ids": [
+            "453"
+          ]
+        },
+        {
+          "id": "75",
+          "idea": "idea-75",
+          "point": "Můra nalezená v relé se stala známým příběhem počítačové chyby, přestože označení bug existovalo už dříve.",
+          "type": "event",
+          "tags": [
+            "computer-history",
+            "programming",
+            "communication"
+          ],
+          "score": 13.275,
+          "same_idea": false,
+          "ids": [
+            "75"
+          ]
+        },
+        {
+          "id": "411",
+          "idea": "idea-411",
+          "point": "Klapací rychlobruslařská brusle má přední kloub umožňující zdvih paty při delším kontaktu nože s ledem a změně mechaniky odrazu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "innovation"
+          ],
+          "score": 12.833,
+          "same_idea": false,
+          "ids": [
+            "411"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 12.691,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "681",
+          "idea": "idea-681",
+          "point": "Veřejná promítání bratří Lumièrů pomohla vytvořit kino jako kolektivní způsob sledování pohyblivého obrazu.",
+          "type": "event",
+          "tags": [
+            "cinema",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 12.691,
+          "same_idea": false,
+          "ids": [
+            "681"
+          ]
+        },
+        {
+          "id": "315",
+          "idea": "idea-315",
+          "point": "Chappeho optický telegraf předával kódované polohy ramen mezi viditelnými stanicemi, takže urychloval státní komunikaci, ale závisel na dohlednosti.",
+          "type": "principle",
+          "tags": [
+            "modern-history",
+            "communication",
+            "innovation"
+          ],
+          "score": 11.955,
+          "same_idea": false,
+          "ids": [
+            "315"
+          ]
+        },
+        {
+          "id": "501",
+          "idea": "idea-501",
+          "point": "Komplexní čísla rozšiřují číselný obor o odmocninu ze záporné jedničky a umožňují řešit dříve nepřípustné rovnice.",
+          "type": "principle",
+          "tags": [
+            "number-theory",
+            "analysis",
+            "innovation"
+          ],
+          "score": 11.604,
+          "same_idea": false,
+          "ids": [
+            "501"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 11.408,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "33",
+          "idea": "idea-33",
+          "point": "Michelangelova výmalba stropu Sixtinské kaple spojila náročnou freskovou techniku s rozsáhlou biblickou kompozicí.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "architecture",
+            "innovation"
+          ],
+          "score": 11.054,
+          "same_idea": false,
+          "ids": [
+            "33",
+            "73"
+          ]
+        },
+        {
+          "id": "148",
+          "idea": "idea-148",
+          "point": "Mélièsova Cesta na Měsíc využila filmové triky k inscenované fantazii místo pouhého záznamu skutečnosti.",
+          "type": "work",
+          "tags": [
+            "film-technique",
+            "innovation"
+          ],
+          "score": 11.054,
+          "same_idea": false,
+          "ids": [
+            "148"
+          ]
+        },
+        {
+          "id": "467",
+          "idea": "idea-467",
+          "point": "Klimtova práce se zlatem navazovala na zkušenost s mozaikami a propojovala malbu s dekorativní plochou.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "innovation"
+          ],
+          "score": 11.054,
+          "same_idea": false,
+          "ids": [
+            "467"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "990",
+      "candidates": [
+        {
+          "id": "382",
+          "idea": "idea-382",
+          "point": "Smíšená strategie při penaltě záměrně střídá volby s vhodnými pravděpodobnostmi, aby soupeř nemohl využít předvídatelný vzorec.",
+          "type": "theory",
+          "tags": [
+            "sport",
+            "game-theory",
+            "uncertainty"
+          ],
+          "score": 16.305,
+          "same_idea": false,
+          "ids": [
+            "382"
+          ]
+        },
+        {
+          "id": "881",
+          "idea": "idea-881",
+          "point": "Elektromagnetické těsné průlety olověných jader mohou odtržením tří protonů vytvářet jádra zlata bez průmyslově využitelné výroby kovu.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "change"
+          ],
+          "score": 15.335,
+          "same_idea": false,
+          "ids": [
+            "881"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 15.138,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "232",
+          "idea": "idea-232",
+          "point": "Moorův zákon byl vývojovým trendem a průmyslovým očekáváním růstu počtu tranzistorů, nikoli nezměnitelným fyzikálním zákonem.",
+          "type": "principle",
+          "tags": [
+            "computer-history",
+            "materials",
+            "change"
+          ],
+          "score": 15.109,
+          "same_idea": false,
+          "ids": [
+            "232"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 12.562,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "85",
+          "idea": "idea-85",
+          "point": "Koperníkovo zveřejnění heliocentrického modelu přesunulo Zemi mezi planety obíhající Slunce.",
+          "type": "event",
+          "tags": [
+            "history-of-science",
+            "astronomy",
+            "change"
+          ],
+          "score": 11.885,
+          "same_idea": false,
+          "ids": [
+            "85"
+          ]
+        },
+        {
+          "id": "765",
+          "idea": "idea-765",
+          "point": "Kutnohorský dekret změnil rozdělení hlasů pražské univerzity a přispěl k odchodu části učenců do Lipska.",
+          "type": "event",
+          "tags": [
+            "medieval-history",
+            "institutions",
+            "change"
+          ],
+          "score": 11.885,
+          "same_idea": false,
+          "ids": [
+            "765"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 11.704,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 11.704,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "888",
+          "idea": "idea-888",
+          "point": "Práce ze srpna 2026 snížila známou horní mez exponentu násobení matic pomocí optimalizace podporované strojovým učením.",
+          "type": "discovery",
+          "tags": [
+            "complexity",
+            "artificial-intelligence",
+            "innovation"
+          ],
+          "score": 11.321,
+          "same_idea": false,
+          "ids": [
+            "888"
+          ]
+        },
+        {
+          "id": "201",
+          "idea": "idea-201",
+          "point": "Erupce Krakatoy měla ničivé místní účinky a ovlivnila ovzduší i pozorování oblohy na vzdálených místech.",
+          "type": "event",
+          "tags": [
+            "geoscience",
+            "modern-history",
+            "change"
+          ],
+          "score": 10.996,
+          "same_idea": false,
+          "ids": [
+            "201"
+          ]
+        },
+        {
+          "id": "80",
+          "idea": "idea-19",
+          "point": "Dobytí Konstantinopole Osmany roku 1453 ukončilo byzantskou říši a proměnilo politické poměry oblasti.",
+          "type": "event",
+          "tags": [
+            "medieval-history",
+            "military-history",
+            "change"
+          ],
+          "score": 10.25,
+          "same_idea": false,
+          "ids": [
+            "19",
+            "80"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "991",
+      "candidates": [
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 14.503,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "252",
+          "idea": "idea-252",
+          "point": "Označení impresionismu vzniklo jako posměšná reakce a později se stalo názvem uměleckého směru.",
+          "type": "event",
+          "tags": [
+            "painting",
+            "communication",
+            "change"
+          ],
+          "score": 13.42,
+          "same_idea": false,
+          "ids": [
+            "252"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 12.871,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "249",
+          "idea": "idea-249",
+          "point": "Japonské ukiyo-e ovlivnilo evropské malíře kompozicí, plochou barvou a neobvyklými výřezy.",
+          "type": "event",
+          "tags": [
+            "painting",
+            "communication",
+            "change"
+          ],
+          "score": 11.443,
+          "same_idea": false,
+          "ids": [
+            "249"
+          ]
+        },
+        {
+          "id": "765",
+          "idea": "idea-765",
+          "point": "Kutnohorský dekret změnil rozdělení hlasů pražské univerzity a přispěl k odchodu části učenců do Lipska.",
+          "type": "event",
+          "tags": [
+            "medieval-history",
+            "institutions",
+            "change"
+          ],
+          "score": 10.909,
+          "same_idea": false,
+          "ids": [
+            "765"
+          ]
+        },
+        {
+          "id": "562",
+          "idea": "idea-562",
+          "point": "Destičky Pioneerů se pokoušely jednoduchými symboly představit původ sond a lidské odesílatele.",
+          "type": "work",
+          "tags": [
+            "spaceflight",
+            "communication",
+            "identity"
+          ],
+          "score": 10.279,
+          "same_idea": false,
+          "ids": [
+            "562"
+          ]
+        },
+        {
+          "id": "935",
+          "idea": "idea-935",
+          "point": "Phillipsovo A Humument vytváří nový text z ponechaných slov staršího románu, zatímco ostatní původní slova zakrývá obrazem.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "painting",
+            "communication"
+          ],
+          "score": 10.099,
+          "same_idea": false,
+          "ids": [
+            "935"
+          ]
+        },
+        {
+          "id": "570",
+          "idea": "idea-570",
+          "point": "Pilíře stvoření zobrazují oblaka plynu a prachu tvarovaná zářením v oblasti vzniku hvězd.",
+          "type": "principle",
+          "tags": [
+            "stars",
+            "change"
+          ],
+          "score": 9.863,
+          "same_idea": false,
+          "ids": [
+            "570"
+          ]
+        },
+        {
+          "id": "761",
+          "idea": "idea-761",
+          "point": "Tychovo pozorování nové hvězdy podpořilo závěr, že ani vzdálená hvězdná oblast není neměnná.",
+          "type": "discovery",
+          "tags": [
+            "astronomy",
+            "history-of-science",
+            "change"
+          ],
+          "score": 9.863,
+          "same_idea": false,
+          "ids": [
+            "761"
+          ]
+        },
+        {
+          "id": "312",
+          "idea": "idea-312",
+          "point": "Rozšířené uspořádání QWERTY ukazuje, jak dřívější volby a náklady na změnu udržují zavedený standard.",
+          "type": "principle",
+          "tags": [
+            "human-computer-interaction",
+            "institutions",
+            "change"
+          ],
+          "score": 9.739,
+          "same_idea": false,
+          "ids": [
+            "312"
+          ]
+        },
+        {
+          "id": "528",
+          "idea": "idea-528",
+          "point": "Římský cursus publicus usnadňoval státní komunikaci sítí cest, stanic a přepřahání.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "communication",
+            "organizations",
+            "roman-empire"
+          ],
+          "score": 9.739,
+          "same_idea": false,
+          "ids": [
+            "528"
+          ]
+        },
+        {
+          "id": "539",
+          "idea": "idea-539",
+          "point": "Řecké symposion spojovalo společné pití s debatou a pravidly mužské elitní družnosti.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "sociology",
+            "communication"
+          ],
+          "score": 9.739,
+          "same_idea": false,
+          "ids": [
+            "539"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "992",
+      "candidates": [
+        {
+          "id": "874",
+          "idea": "idea-874",
+          "point": "Caracallův edikt rozšířil římské občanství téměř na všechny svobodné obyvatele říše, nikoli na otroky.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 27.664,
+          "same_idea": false,
+          "ids": [
+            "874"
+          ]
+        },
+        {
+          "id": "542",
+          "idea": "idea-542",
+          "point": "Hoplítská falanga vyžadovala společné držení formace, takže bezpečí jednotlivce záviselo na sousedech.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "cooperation"
+          ],
+          "score": 23.679,
+          "same_idea": false,
+          "ids": [
+            "542"
+          ]
+        },
+        {
+          "id": "525",
+          "idea": "idea-525",
+          "point": "Zákon dvanácti desek zpřístupnil pravidla římského práva ve veřejné písemné podobě.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 22.444,
+          "same_idea": false,
+          "ids": [
+            "525"
+          ]
+        },
+        {
+          "id": "516",
+          "idea": "idea-516",
+          "point": "Bitva u Zamy změnila výsledek druhé punské války a upevnila římskou převahu nad Kartágem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "roman-empire"
+          ],
+          "score": 21.92,
+          "same_idea": false,
+          "ids": [
+            "516"
+          ]
+        },
+        {
+          "id": "520",
+          "idea": "idea-520",
+          "point": "Proměny římského vojska posílily závislost vojáků na velitelích a oslabovaly výlučnou loajalitu k republice.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "incentives",
+            "roman-empire"
+          ],
+          "score": 20.287,
+          "same_idea": false,
+          "ids": [
+            "520"
+          ]
+        },
+        {
+          "id": "517",
+          "idea": "idea-517",
+          "point": "Řím během první punské války vybudoval námořní sílu a přizpůsobil námořní boj svým vojenským možnostem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "innovation",
+            "roman-empire"
+          ],
+          "score": 18.06,
+          "same_idea": false,
+          "ids": [
+            "517"
+          ]
+        },
+        {
+          "id": "518",
+          "idea": "idea-518",
+          "point": "Fabiova strategie čelila Hannibalovi vyhýbáním se rozhodující bitvě a postupným vyčerpáváním protivníka.",
+          "type": "theory",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "resources",
+            "roman-empire"
+          ],
+          "score": 18.06,
+          "same_idea": false,
+          "ids": [
+            "518"
+          ]
+        },
+        {
+          "id": "522",
+          "idea": "idea-522",
+          "point": "Vítězství u Actia odstranilo Octavianovy hlavní soupeře a otevřelo cestu k císařskému uspořádání.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 18.06,
+          "same_idea": false,
+          "ids": [
+            "522"
+          ]
+        },
+        {
+          "id": "521",
+          "idea": "idea-521",
+          "point": "Sullova diktatura spojila násilné proskripce s posílením senátorského řádu a následným dobrovolným odchodem z úřadu.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 17.44,
+          "same_idea": false,
+          "ids": [
+            "521"
+          ]
+        },
+        {
+          "id": "806",
+          "idea": "idea-806",
+          "point": "Příběh Cincinnata staví dobrovolné vrácení mimořádné moci do role ideálu občanské služby republice.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 17.44,
+          "same_idea": false,
+          "ids": [
+            "806"
+          ]
+        },
+        {
+          "id": "524",
+          "idea": "idea-524",
+          "point": "Rok čtyř císařů ukázal rozhodující úlohu armád při předávání římské císařské moci.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 16.92,
+          "same_idea": false,
+          "ids": [
+            "524"
+          ]
+        },
+        {
+          "id": "528",
+          "idea": "idea-528",
+          "point": "Římský cursus publicus usnadňoval státní komunikaci sítí cest, stanic a přepřahání.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "communication",
+            "organizations",
+            "roman-empire"
+          ],
+          "score": 16.92,
+          "same_idea": false,
+          "ids": [
+            "528"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "993",
+      "candidates": [
+        {
+          "id": "194",
+          "idea": "idea-194",
+          "point": "Výbuch Vesuvu pohřbil Pompeje a zároveň uchoval mimořádné doklady každodenního římského života.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "archaeology",
+            "preservation",
+            "roman-empire"
+          ],
+          "score": 18.499,
+          "same_idea": false,
+          "ids": [
+            "194"
+          ]
+        },
+        {
+          "id": "529",
+          "idea": "idea-529",
+          "point": "Cloaca Maxima dokládá význam odvodnění a městské infrastruktury při růstu Říma.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "architecture",
+            "public-health",
+            "roman-empire"
+          ],
+          "score": 13.499,
+          "same_idea": false,
+          "ids": [
+            "529"
+          ]
+        },
+        {
+          "id": "271",
+          "idea": "idea-271",
+          "point": "Osud roanocké kolonie nelze spolehlivě vyložit jediným doloženým příběhem na základě dochovaných stop.",
+          "type": "open-question",
+          "tags": [
+            "modern-history",
+            "archaeology",
+            "uncertainty"
+          ],
+          "score": 13.405,
+          "same_idea": false,
+          "ids": [
+            "271"
+          ]
+        },
+        {
+          "id": "270",
+          "idea": "idea-270",
+          "point": "Vindolandské tabulky uchovaly zprávy o běžném životě lidí na římské hranici.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "ancient-history",
+            "roman-empire"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "270"
+          ]
+        },
+        {
+          "id": "895",
+          "idea": "idea-895",
+          "point": "Funkce římských děrovaných dvanáctistěnů není spolehlivě známa a současná funkční ukázka sama nedokazuje historické použití.",
+          "type": "open-question",
+          "tags": [
+            "archaeology",
+            "ancient-history",
+            "knowledge-evidence",
+            "roman-empire"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "895"
+          ]
+        },
+        {
+          "id": "953",
+          "idea": "idea-953",
+          "point": "Incká khipu zaznamenávala číselné údaje typem a polohou uzlů na provázcích v desítkové soustavě.",
+          "type": "principle",
+          "tags": [
+            "economic-history",
+            "archaeology",
+            "communication"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "953"
+          ]
+        },
+        {
+          "id": "140",
+          "idea": "idea-140",
+          "point": "Rok 476 je užitečným symbolem pádu západořímské říše, ale její proměna byla dlouhodobým procesem.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "roman-empire",
+            "change"
+          ],
+          "score": 9.591,
+          "same_idea": false,
+          "ids": [
+            "140"
+          ]
+        },
+        {
+          "id": "522",
+          "idea": "idea-522",
+          "point": "Vítězství u Actia odstranilo Octavianovy hlavní soupeře a otevřelo cestu k císařskému uspořádání.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 9.591,
+          "same_idea": false,
+          "ids": [
+            "522"
+          ]
+        },
+        {
+          "id": "524",
+          "idea": "idea-524",
+          "point": "Rok čtyř císařů ukázal rozhodující úlohu armád při předávání římské císařské moci.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 9.591,
+          "same_idea": false,
+          "ids": [
+            "524"
+          ]
+        },
+        {
+          "id": "525",
+          "idea": "idea-525",
+          "point": "Zákon dvanácti desek zpřístupnil pravidla římského práva ve veřejné písemné podobě.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 9.591,
+          "same_idea": false,
+          "ids": [
+            "525"
+          ]
+        },
+        {
+          "id": "530",
+          "idea": "idea-530",
+          "point": "Římské nájemní domy a požární sbory ukazují rizika i správní řešení života v hustě obydleném městě.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "architecture",
+            "resilience",
+            "roman-empire"
+          ],
+          "score": 9.591,
+          "same_idea": false,
+          "ids": [
+            "530"
+          ]
+        },
+        {
+          "id": "533",
+          "idea": "idea-533",
+          "point": "Justiniánova kodifikace shromáždila římské právní dědictví a umožnila jeho dlouhodobé další působení.",
+          "type": "event",
+          "tags": [
+            "law",
+            "medieval-history",
+            "preservation",
+            "roman-empire"
+          ],
+          "score": 9.591,
+          "same_idea": false,
+          "ids": [
+            "533"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "994",
+      "candidates": [
+        {
+          "id": "525",
+          "idea": "idea-525",
+          "point": "Zákon dvanácti desek zpřístupnil pravidla římského práva ve veřejné písemné podobě.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 26.603,
+          "same_idea": false,
+          "ids": [
+            "525"
+          ]
+        },
+        {
+          "id": "524",
+          "idea": "idea-524",
+          "point": "Rok čtyř císařů ukázal rozhodující úlohu armád při předávání římské císařské moci.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 20.053,
+          "same_idea": false,
+          "ids": [
+            "524"
+          ]
+        },
+        {
+          "id": "874",
+          "idea": "idea-874",
+          "point": "Caracallův edikt rozšířil římské občanství téměř na všechny svobodné obyvatele říše, nikoli na otroky.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 18.86,
+          "same_idea": false,
+          "ids": [
+            "874"
+          ]
+        },
+        {
+          "id": "546",
+          "idea": "idea-546",
+          "point": "Vestálky měly v římském náboženství výjimečné postavení spojené s privilegii i přísnými povinnostmi.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "sociology",
+            "power",
+            "roman-empire"
+          ],
+          "score": 16.605,
+          "same_idea": false,
+          "ids": [
+            "546"
+          ]
+        },
+        {
+          "id": "875",
+          "idea": "idea-875",
+          "point": "Římské sankce proti památce fyzicky měnily jména a portréty, ale viditelné zásahy mohly zavržení osoby dál připomínat.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "preservation",
+            "power",
+            "roman-empire"
+          ],
+          "score": 16.605,
+          "same_idea": false,
+          "ids": [
+            "875"
+          ]
+        },
+        {
+          "id": "531",
+          "idea": "idea-531",
+          "point": "Pretoriánská garda mohla svou ozbrojenou blízkostí k císaři ovlivňovat jeho sesazení i výběr nástupce.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "power",
+            "incentives",
+            "roman-empire"
+          ],
+          "score": 16.192,
+          "same_idea": false,
+          "ids": [
+            "531"
+          ]
+        },
+        {
+          "id": "806",
+          "idea": "idea-806",
+          "point": "Příběh Cincinnata staví dobrovolné vrácení mimořádné moci do role ideálu občanské služby republice.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 15.303,
+          "same_idea": false,
+          "ids": [
+            "806"
+          ]
+        },
+        {
+          "id": "194",
+          "idea": "idea-194",
+          "point": "Výbuch Vesuvu pohřbil Pompeje a zároveň uchoval mimořádné doklady každodenního římského života.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "archaeology",
+            "preservation",
+            "roman-empire"
+          ],
+          "score": 14.188,
+          "same_idea": false,
+          "ids": [
+            "194"
+          ]
+        },
+        {
+          "id": "520",
+          "idea": "idea-520",
+          "point": "Proměny římského vojska posílily závislost vojáků na velitelích a oslabovaly výlučnou loajalitu k republice.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "incentives",
+            "roman-empire"
+          ],
+          "score": 14.127,
+          "same_idea": false,
+          "ids": [
+            "520"
+          ]
+        },
+        {
+          "id": "516",
+          "idea": "idea-516",
+          "point": "Bitva u Zamy změnila výsledek druhé punské války a upevnila římskou převahu nad Kartágem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "roman-empire"
+          ],
+          "score": 13.86,
+          "same_idea": false,
+          "ids": [
+            "516"
+          ]
+        },
+        {
+          "id": "521",
+          "idea": "idea-521",
+          "point": "Sullova diktatura spojila násilné proskripce s posílením senátorského řádu a následným dobrovolným odchodem z úřadu.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 13.86,
+          "same_idea": false,
+          "ids": [
+            "521"
+          ]
+        },
+        {
+          "id": "523",
+          "idea": "idea-523",
+          "point": "Kleopatřina vláda spojovala řeckou dynastickou kulturu s egyptským prostředím a skončila římským převzetím Egypta.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "identity",
+            "roman-empire"
+          ],
+          "score": 13.86,
+          "same_idea": false,
+          "ids": [
+            "523"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "995",
+      "candidates": [
+        {
+          "id": "520",
+          "idea": "idea-520",
+          "point": "Proměny římského vojska posílily závislost vojáků na velitelích a oslabovaly výlučnou loajalitu k republice.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "incentives",
+            "roman-empire"
+          ],
+          "score": 20.997,
+          "same_idea": false,
+          "ids": [
+            "520"
+          ]
+        },
+        {
+          "id": "525",
+          "idea": "idea-525",
+          "point": "Zákon dvanácti desek zpřístupnil pravidla římského práva ve veřejné písemné podobě.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 19.411,
+          "same_idea": false,
+          "ids": [
+            "525"
+          ]
+        },
+        {
+          "id": "527",
+          "idea": "idea-527",
+          "point": "Gladiátorské hry se vyvinuly z pohřebních souvislostí v rozsáhlou veřejnou podívanou.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "society",
+            "change",
+            "roman-empire"
+          ],
+          "score": 19.006,
+          "same_idea": false,
+          "ids": [
+            "527"
+          ]
+        },
+        {
+          "id": "523",
+          "idea": "idea-523",
+          "point": "Kleopatřina vláda spojovala řeckou dynastickou kulturu s egyptským prostředím a skončila římským převzetím Egypta.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "identity",
+            "roman-empire"
+          ],
+          "score": 18.319,
+          "same_idea": false,
+          "ids": [
+            "523"
+          ]
+        },
+        {
+          "id": "546",
+          "idea": "idea-546",
+          "point": "Vestálky měly v římském náboženství výjimečné postavení spojené s privilegii i přísnými povinnostmi.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "sociology",
+            "power",
+            "roman-empire"
+          ],
+          "score": 18.319,
+          "same_idea": false,
+          "ids": [
+            "546"
+          ]
+        },
+        {
+          "id": "874",
+          "idea": "idea-874",
+          "point": "Caracallův edikt rozšířil římské občanství téměř na všechny svobodné obyvatele říše, nikoli na otroky.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 17.176,
+          "same_idea": false,
+          "ids": [
+            "874"
+          ]
+        },
+        {
+          "id": "806",
+          "idea": "idea-806",
+          "point": "Příběh Cincinnata staví dobrovolné vrácení mimořádné moci do role ideálu občanské služby republice.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 16.944,
+          "same_idea": false,
+          "ids": [
+            "806"
+          ]
+        },
+        {
+          "id": "524",
+          "idea": "idea-524",
+          "point": "Rok čtyř císařů ukázal rozhodující úlohu armád při předávání římské císařské moci.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 15.178,
+          "same_idea": false,
+          "ids": [
+            "524"
+          ]
+        },
+        {
+          "id": "522",
+          "idea": "idea-522",
+          "point": "Vítězství u Actia odstranilo Octavianovy hlavní soupeře a otevřelo cestu k císařskému uspořádání.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 14.445,
+          "same_idea": false,
+          "ids": [
+            "522"
+          ]
+        },
+        {
+          "id": "140",
+          "idea": "idea-140",
+          "point": "Rok 476 je užitečným symbolem pádu západořímské říše, ale její proměna byla dlouhodobým procesem.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "roman-empire",
+            "change"
+          ],
+          "score": 14.259,
+          "same_idea": false,
+          "ids": [
+            "140"
+          ]
+        },
+        {
+          "id": "910",
+          "idea": "idea-910",
+          "point": "Novozélandský zákon z roku 2017 uznal Te Awa Tupua jako právní osobu, za kterou jednají lidští zástupci.",
+          "type": "event",
+          "tags": [
+            "law",
+            "ecology"
+          ],
+          "score": 13.029,
+          "same_idea": false,
+          "ids": [
+            "910"
+          ]
+        },
+        {
+          "id": "534",
+          "idea": "idea-534",
+          "point": "Hagia Sofia spojila mohutnou centrální kupoli s konstrukčním řešením přechodu na okolní podporu.",
+          "type": "work",
+          "tags": [
+            "architecture",
+            "medieval-history",
+            "innovation"
+          ],
+          "score": 12.359,
+          "same_idea": false,
+          "ids": [
+            "534"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "996",
+      "candidates": [
+        {
+          "id": "194",
+          "idea": "idea-194",
+          "point": "Výbuch Vesuvu pohřbil Pompeje a zároveň uchoval mimořádné doklady každodenního římského života.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "archaeology",
+            "preservation",
+            "roman-empire"
+          ],
+          "score": 21.141,
+          "same_idea": false,
+          "ids": [
+            "194"
+          ]
+        },
+        {
+          "id": "895",
+          "idea": "idea-895",
+          "point": "Funkce římských děrovaných dvanáctistěnů není spolehlivě známa a současná funkční ukázka sama nedokazuje historické použití.",
+          "type": "open-question",
+          "tags": [
+            "archaeology",
+            "ancient-history",
+            "knowledge-evidence",
+            "roman-empire"
+          ],
+          "score": 19.699,
+          "same_idea": false,
+          "ids": [
+            "895"
+          ]
+        },
+        {
+          "id": "516",
+          "idea": "idea-516",
+          "point": "Bitva u Zamy změnila výsledek druhé punské války a upevnila římskou převahu nad Kartágem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "roman-empire"
+          ],
+          "score": 19.411,
+          "same_idea": false,
+          "ids": [
+            "516"
+          ]
+        },
+        {
+          "id": "517",
+          "idea": "idea-517",
+          "point": "Řím během první punské války vybudoval námořní sílu a přizpůsobil námořní boj svým vojenským možnostem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "innovation",
+            "roman-empire"
+          ],
+          "score": 19.411,
+          "same_idea": false,
+          "ids": [
+            "517"
+          ]
+        },
+        {
+          "id": "522",
+          "idea": "idea-522",
+          "point": "Vítězství u Actia odstranilo Octavianovy hlavní soupeře a otevřelo cestu k císařskému uspořádání.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 19.374,
+          "same_idea": false,
+          "ids": [
+            "522"
+          ]
+        },
+        {
+          "id": "270",
+          "idea": "idea-270",
+          "point": "Vindolandské tabulky uchovaly zprávy o běžném životě lidí na římské hranici.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "ancient-history",
+            "roman-empire"
+          ],
+          "score": 18.615,
+          "same_idea": false,
+          "ids": [
+            "270"
+          ]
+        },
+        {
+          "id": "111",
+          "idea": "idea-39",
+          "point": "Objev téměř neporušené Tutanchamonovy hrobky poskytl mimořádný soubor dokladů o starověkém Egyptě.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "ancient-history",
+            "preservation"
+          ],
+          "score": 17.988,
+          "same_idea": false,
+          "ids": [
+            "39",
+            "111"
+          ]
+        },
+        {
+          "id": "806",
+          "idea": "idea-806",
+          "point": "Příběh Cincinnata staví dobrovolné vrácení mimořádné moci do role ideálu občanské služby republice.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "power",
+            "roman-empire"
+          ],
+          "score": 16.937,
+          "same_idea": false,
+          "ids": [
+            "806"
+          ]
+        },
+        {
+          "id": "196",
+          "idea": "idea-196",
+          "point": "Terakotová armáda byla součástí rozsáhlého pohřebního projektu prvního čínského císaře.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "ancient-history",
+            "power",
+            "china"
+          ],
+          "score": 16.141,
+          "same_idea": false,
+          "ids": [
+            "196"
+          ]
+        },
+        {
+          "id": "195",
+          "idea": "idea-195",
+          "point": "Severské osídlení v Americe dokládá evropské dosažení kontinentu několik století před Kolumbem.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "medieval-history",
+            "knowledge-evidence"
+          ],
+          "score": 16.086,
+          "same_idea": false,
+          "ids": [
+            "195"
+          ]
+        },
+        {
+          "id": "518",
+          "idea": "idea-518",
+          "point": "Fabiova strategie čelila Hannibalovi vyhýbáním se rozhodující bitvě a postupným vyčerpáváním protivníka.",
+          "type": "theory",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "resources",
+            "roman-empire"
+          ],
+          "score": 16.084,
+          "same_idea": false,
+          "ids": [
+            "518"
+          ]
+        },
+        {
+          "id": "520",
+          "idea": "idea-520",
+          "point": "Proměny římského vojska posílily závislost vojáků na velitelích a oslabovaly výlučnou loajalitu k republice.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "military-history",
+            "incentives",
+            "roman-empire"
+          ],
+          "score": 16.084,
+          "same_idea": false,
+          "ids": [
+            "520"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "997",
+      "candidates": [
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 14.746,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "802",
+          "idea": "idea-802",
+          "point": "Smetana vytvořil Vltavu v období ztráty sluchu, což odděluje skladatelskou představivost od aktuálního slyšení.",
+          "type": "work",
+          "tags": [
+            "music",
+            "resilience",
+            "perception"
+          ],
+          "score": 13.445,
+          "same_idea": false,
+          "ids": [
+            "802"
+          ]
+        },
+        {
+          "id": "280",
+          "idea": "idea-280",
+          "point": "Omezené fungování mechanického žraloka přispělo v Čelistech k napětí založenému na jeho nepřítomném či částečném zobrazení.",
+          "type": "work",
+          "tags": [
+            "film-technique",
+            "resources"
+          ],
+          "score": 12.319,
+          "same_idea": false,
+          "ids": [
+            "280"
+          ]
+        },
+        {
+          "id": "133",
+          "idea": "idea-133",
+          "point": "Eukleidova axiomatická metoda buduje geometrická tvrzení z výslovných předpokladů a důkazů.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "logic",
+            "patterns"
+          ],
+          "score": 11.192,
+          "same_idea": false,
+          "ids": [
+            "133"
+          ]
+        },
+        {
+          "id": "574",
+          "idea": "idea-574",
+          "point": "Galaxie se na velkých škálách seskupují do vláken a stěn oddělených rozsáhlými prázdnějšími oblastmi.",
+          "type": "principle",
+          "tags": [
+            "cosmology",
+            "patterns"
+          ],
+          "score": 10.788,
+          "same_idea": false,
+          "ids": [
+            "574"
+          ]
+        },
+        {
+          "id": "387",
+          "idea": "idea-387",
+          "point": "Narvalí kel je prodloužený, obvykle levý horní zub prorůstající pyskem, nikoli roh; typicky jej mají samci, ale existují výjimky.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "evolution",
+            "patterns"
+          ],
+          "score": 10.539,
+          "same_idea": false,
+          "ids": [
+            "387"
+          ]
+        },
+        {
+          "id": "815",
+          "idea": "idea-815",
+          "point": "Číslo 1729 lze dvěma různými způsoby vyjádřit jako součet dvou kladných třetích mocnin.",
+          "type": "principle",
+          "tags": [
+            "number-theory",
+            "patterns"
+          ],
+          "score": 10.392,
+          "same_idea": false,
+          "ids": [
+            "815"
+          ]
+        },
+        {
+          "id": "744",
+          "idea": "idea-744",
+          "point": "Guidovy notační postupy usnadnily předávání a výuku melodie bez úplné závislosti na zapamatované ústní ukázce.",
+          "type": "discovery",
+          "tags": [
+            "music",
+            "writing-systems",
+            "innovation"
+          ],
+          "score": 10.279,
+          "same_idea": false,
+          "ids": [
+            "744"
+          ]
+        },
+        {
+          "id": "801",
+          "idea": "idea-801",
+          "point": "Dvořákova americká tvorba ukazuje kulturní inspiraci místními hudebními tradicemi vedle vlastního skladatelského jazyka.",
+          "type": "work",
+          "tags": [
+            "music",
+            "identity",
+            "innovation"
+          ],
+          "score": 10.279,
+          "same_idea": false,
+          "ids": [
+            "801"
+          ]
+        },
+        {
+          "id": "16",
+          "idea": "idea-16",
+          "point": "Pythagorejská tradice spojovala číselné poměry hudebních souzvuků s představou řádu celého světa.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "music",
+            "patterns"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "16",
+            "56",
+            "89"
+          ]
+        },
+        {
+          "id": "465",
+          "idea": "idea-465",
+          "point": "Warholova opakování spotřebních předmětů rozostřují hranici mezi jedinečným uměleckým dílem a masovým produktem.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "communication",
+            "patterns"
+          ],
+          "score": 10.0,
+          "same_idea": false,
+          "ids": [
+            "465"
+          ]
+        },
+        {
+          "id": "856",
+          "idea": "idea-856",
+          "point": "Rovnoměrná temperace rozděluje oktávu na stejné poměrové kroky a přijímá odchylky od některých čistých souzvuků.",
+          "type": "principle",
+          "tags": [
+            "music",
+            "analysis",
+            "patterns"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "856"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "998",
+      "candidates": [
+        {
+          "id": "578",
+          "idea": "idea-578",
+          "point": "Cyklus saros přibližně opakuje geometrii zatmění díky sladění několika měsíčních period.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "patterns",
+            "moon"
+          ],
+          "score": 15.153,
+          "same_idea": false,
+          "ids": [
+            "578"
+          ]
+        },
+        {
+          "id": "588",
+          "idea": "idea-588",
+          "point": "Strukturální analýza mýtů hledá vztahy a protiklady sdílené různými příběhy místo pouhého izolovaného děje.",
+          "type": "theory",
+          "tags": [
+            "structuralism",
+            "narratology",
+            "patterns"
+          ],
+          "score": 14.94,
+          "same_idea": false,
+          "ids": [
+            "588"
+          ]
+        },
+        {
+          "id": "599",
+          "idea": "idea-599",
+          "point": "Lacan vykládá nevědomí jako strukturované vztahy připomínající fungování jazyka.",
+          "type": "theory",
+          "tags": [
+            "philosophy-of-language",
+            "psychology",
+            "patterns"
+          ],
+          "score": 12.334,
+          "same_idea": false,
+          "ids": [
+            "599"
+          ]
+        },
+        {
+          "id": "856",
+          "idea": "idea-856",
+          "point": "Rovnoměrná temperace rozděluje oktávu na stejné poměrové kroky a přijímá odchylky od některých čistých souzvuků.",
+          "type": "principle",
+          "tags": [
+            "music",
+            "analysis",
+            "patterns"
+          ],
+          "score": 12.242,
+          "same_idea": false,
+          "ids": [
+            "856"
+          ]
+        },
+        {
+          "id": "954",
+          "idea": "idea-954",
+          "point": "Preparovaný klavír mění barvu zvuku předměty vloženými mezi struny a dovoluje jednomu nástroji vytvářet i perkusivní zvuky.",
+          "type": "practice",
+          "tags": [
+            "music",
+            "innovation"
+          ],
+          "score": 11.926,
+          "same_idea": false,
+          "ids": [
+            "954"
+          ]
+        },
+        {
+          "id": "948",
+          "idea": "idea-948",
+          "point": "Multiplánová kamera snímá kresby v oddělených vrstvách a jejich rozdílným pohybem vytváří dojem prostorové hloubky.",
+          "type": "principle",
+          "tags": [
+            "animation",
+            "film-technique"
+          ],
+          "score": 11.338,
+          "same_idea": false,
+          "ids": [
+            "948"
+          ]
+        },
+        {
+          "id": "782",
+          "idea": "idea-782",
+          "point": "Hitchcockův Provaz vytváří dojem souvislého záběru vhodným ukrýváním technicky nutných střihů.",
+          "type": "work",
+          "tags": [
+            "film-technique",
+            "perceived-reality",
+            "innovation"
+          ],
+          "score": 11.258,
+          "same_idea": false,
+          "ids": [
+            "782"
+          ]
+        },
+        {
+          "id": "800",
+          "idea": "idea-800",
+          "point": "Vitruviánský muž propojuje idealizované proporce lidského těla s geometrickými tvary kruhu a čtverce.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "geometry",
+            "patterns"
+          ],
+          "score": 10.822,
+          "same_idea": false,
+          "ids": [
+            "800"
+          ]
+        },
+        {
+          "id": "240",
+          "idea": "idea-240",
+          "point": "Síťový efekt zvyšuje užitek služby s počtem dalších účastníků a může posilovat její převahu.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "social-networks",
+            "patterns"
+          ],
+          "score": 10.562,
+          "same_idea": false,
+          "ids": [
+            "240"
+          ]
+        },
+        {
+          "id": "276",
+          "idea": "idea-276",
+          "point": "Blesk může opakovaně zasáhnout stejné místo a vysoké či exponované objekty k tomu mají zvlášť vhodné podmínky.",
+          "type": "principle",
+          "tags": [
+            "electromagnetism",
+            "geoscience",
+            "patterns"
+          ],
+          "score": 10.016,
+          "same_idea": false,
+          "ids": [
+            "276"
+          ]
+        },
+        {
+          "id": "465",
+          "idea": "idea-465",
+          "point": "Warholova opakování spotřebních předmětů rozostřují hranici mezi jedinečným uměleckým dílem a masovým produktem.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "communication",
+            "patterns"
+          ],
+          "score": 10.016,
+          "same_idea": false,
+          "ids": [
+            "465"
+          ]
+        },
+        {
+          "id": "713",
+          "idea": "idea-713",
+          "point": "Bandurovy pokusy ukázaly, že děti mohou přebírat chování pozorováním vzoru i bez vlastního přímého odměnění.",
+          "type": "principle",
+          "tags": [
+            "learning-memory",
+            "social-psychology",
+            "patterns"
+          ],
+          "score": 10.016,
+          "same_idea": false,
+          "ids": [
+            "713"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "999",
+      "candidates": [
+        {
+          "id": "744",
+          "idea": "idea-744",
+          "point": "Guidovy notační postupy usnadnily předávání a výuku melodie bez úplné závislosti na zapamatované ústní ukázce.",
+          "type": "discovery",
+          "tags": [
+            "music",
+            "writing-systems",
+            "innovation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "744"
+          ]
+        },
+        {
+          "id": "801",
+          "idea": "idea-801",
+          "point": "Dvořákova americká tvorba ukazuje kulturní inspiraci místními hudebními tradicemi vedle vlastního skladatelského jazyka.",
+          "type": "work",
+          "tags": [
+            "music",
+            "identity",
+            "innovation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "801"
+          ]
+        },
+        {
+          "id": "954",
+          "idea": "idea-954",
+          "point": "Preparovaný klavír mění barvu zvuku předměty vloženými mezi struny a dovoluje jednomu nástroji vytvářet i perkusivní zvuky.",
+          "type": "practice",
+          "tags": [
+            "music",
+            "innovation"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "954"
+          ]
+        },
+        {
+          "id": "16",
+          "idea": "idea-16",
+          "point": "Pythagorejská tradice spojovala číselné poměry hudebních souzvuků s představou řádu celého světa.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "music",
+            "patterns"
+          ],
+          "score": 9.591,
+          "same_idea": false,
+          "ids": [
+            "16",
+            "56",
+            "89"
+          ]
+        },
+        {
+          "id": "297",
+          "idea": "idea-297",
+          "point": "Změna magnetického toku vytváří elektrické napětí a umožňuje činnost generátorů i transformátorů.",
+          "type": "principle",
+          "tags": [
+            "electromagnetism",
+            "innovation"
+          ],
+          "score": 9.497,
+          "same_idea": false,
+          "ids": [
+            "297"
+          ]
+        },
+        {
+          "id": "321",
+          "idea": "idea-321",
+          "point": "Perovskitovo-křemíkový tandem využívá různé části slunečního spektra ve dvou polovodičových vrstvách, ale jeho nasazení omezuje i stabilita a výroba.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "optics",
+            "innovation"
+          ],
+          "score": 8.908,
+          "same_idea": false,
+          "ids": [
+            "321"
+          ]
+        },
+        {
+          "id": "460",
+          "idea": "idea-460",
+          "point": "Dolbyho systémy omezují slyšitelný šum zvukového záznamu vhodným zpracováním signálu.",
+          "type": "principle",
+          "tags": [
+            "sound",
+            "information-theory",
+            "innovation"
+          ],
+          "score": 8.908,
+          "same_idea": false,
+          "ids": [
+            "460"
+          ]
+        },
+        {
+          "id": "762",
+          "idea": "idea-762",
+          "point": "Gaussův výpočet dráhy umožnil z omezených pozorování znovu nalézt ztracenou Ceres.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "analysis",
+            "innovation"
+          ],
+          "score": 8.615,
+          "same_idea": false,
+          "ids": [
+            "762"
+          ]
+        },
+        {
+          "id": "137",
+          "idea": "idea-137",
+          "point": "Objev a léčebné použití inzulinu změnily diabetes z rychle smrtelné nemoci v dlouhodobě léčitelný stav.",
+          "type": "discovery",
+          "tags": [
+            "medicine",
+            "biology",
+            "innovation"
+          ],
+          "score": 7.557,
+          "same_idea": false,
+          "ids": [
+            "137"
+          ]
+        },
+        {
+          "id": "206",
+          "idea": "idea-206",
+          "point": "Celosvětové očkování a cílená opatření umožnily eradikaci pravých neštovic.",
+          "type": "event",
+          "tags": [
+            "public-health",
+            "cooperation",
+            "innovation"
+          ],
+          "score": 7.557,
+          "same_idea": false,
+          "ids": [
+            "206"
+          ]
+        },
+        {
+          "id": "269",
+          "idea": "idea-269",
+          "point": "Šíření papíru změnilo náklady a dostupnost písemné komunikace mezi kulturami.",
+          "type": "event",
+          "tags": [
+            "writing-systems",
+            "communication",
+            "innovation",
+            "china"
+          ],
+          "score": 7.557,
+          "same_idea": false,
+          "ids": [
+            "269"
+          ]
+        },
+        {
+          "id": "296",
+          "idea": "idea-296",
+          "point": "Satelitní navigace musí opravovat rychlost hodin o vlivy pohybu i gravitačního pole, jinak by narůstala chyba polohy.",
+          "type": "principle",
+          "tags": [
+            "relativity",
+            "spaceflight",
+            "innovation",
+            "einstein"
+          ],
+          "score": 7.557,
+          "same_idea": false,
+          "ids": [
+            "296"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1000",
+      "candidates": [
+        {
+          "id": "609",
+          "idea": "idea-609",
+          "point": "Greimasův aktantový model rozlišuje obecné vztahové role v příběhu nezávislé na jednotlivých postavách.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "structuralism",
+            "patterns"
+          ],
+          "score": 14.866,
+          "same_idea": false,
+          "ids": [
+            "609"
+          ]
+        },
+        {
+          "id": "371",
+          "idea": "idea-371",
+          "point": "Self-attention v transformeru vytváří kontextovou reprezentaci tokenu váženým kombinováním informací z dalších dostupných pozic sekvence.",
+          "type": "principle",
+          "tags": [
+            "artificial-intelligence",
+            "communication"
+          ],
+          "score": 13.892,
+          "same_idea": false,
+          "ids": [
+            "371"
+          ]
+        },
+        {
+          "id": "588",
+          "idea": "idea-588",
+          "point": "Strukturální analýza mýtů hledá vztahy a protiklady sdílené různými příběhy místo pouhého izolovaného děje.",
+          "type": "theory",
+          "tags": [
+            "structuralism",
+            "narratology",
+            "patterns"
+          ],
+          "score": 13.79,
+          "same_idea": false,
+          "ids": [
+            "588"
+          ]
+        },
+        {
+          "id": "956",
+          "idea": "idea-956",
+          "point": "Amisův román Time’s Arrow obrací čas prožívání nacistického lékaře a tím odhaluje děsivý rozpor mezi popsaným dějem a jeho skutečným mravním významem.",
+          "type": "work",
+          "tags": [
+            "narratology",
+            "ethics"
+          ],
+          "score": 13.576,
+          "same_idea": false,
+          "ids": [
+            "956"
+          ]
+        },
+        {
+          "id": "16",
+          "idea": "idea-16",
+          "point": "Pythagorejská tradice spojovala číselné poměry hudebních souzvuků s představou řádu celého světa.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "music",
+            "patterns"
+          ],
+          "score": 13.199,
+          "same_idea": false,
+          "ids": [
+            "16",
+            "56",
+            "89"
+          ]
+        },
+        {
+          "id": "603",
+          "idea": "idea-603",
+          "point": "Intertextualita popisuje vznik významu textu skrze vztahy k jiným textům a kulturním formulacím.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "patterns"
+          ],
+          "score": 13.003,
+          "same_idea": false,
+          "ids": [
+            "603"
+          ]
+        },
+        {
+          "id": "954",
+          "idea": "idea-954",
+          "point": "Preparovaný klavír mění barvu zvuku předměty vloženými mezi struny a dovoluje jednomu nástroji vytvářet i perkusivní zvuky.",
+          "type": "practice",
+          "tags": [
+            "music",
+            "innovation"
+          ],
+          "score": 12.912,
+          "same_idea": false,
+          "ids": [
+            "954"
+          ]
+        },
+        {
+          "id": "198",
+          "idea": "idea-198",
+          "point": "Hedvábná stezka byla sítí cest, jimiž se vedle zboží šířily myšlenky, technologie a nemoci.",
+          "type": "principle",
+          "tags": [
+            "economic-history",
+            "social-networks",
+            "communication"
+          ],
+          "score": 12.598,
+          "same_idea": false,
+          "ids": [
+            "198"
+          ]
+        },
+        {
+          "id": "251",
+          "idea": "idea-251",
+          "point": "Mendelssohnovo uvedení Matoušových pašijí pomohlo obnovit širší zájem o Bachovo dílo.",
+          "type": "event",
+          "tags": [
+            "music",
+            "preservation"
+          ],
+          "score": 12.465,
+          "same_idea": false,
+          "ids": [
+            "251"
+          ]
+        },
+        {
+          "id": "591",
+          "idea": "idea-591",
+          "point": "Genette rozlišuje čas příběhu a vyprávění pomocí pořadí, trvání a četnosti popisovaných událostí.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "patterns"
+          ],
+          "score": 12.367,
+          "same_idea": false,
+          "ids": [
+            "591"
+          ]
+        },
+        {
+          "id": "608",
+          "idea": "idea-608",
+          "point": "Bachtinův dialogismus a polyfonie chápou promluvy a románové hlasy jako vzájemně odpovídající, ale neredukovatelné na jedinou autoritu.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "identity"
+          ],
+          "score": 12.367,
+          "same_idea": false,
+          "ids": [
+            "608"
+          ]
+        },
+        {
+          "id": "891",
+          "idea": "idea-891",
+          "point": "Polopřímá řeč přenáší hodnocení a myšlení postavy do vyprávění bez uvozovek a výslovného uvedení její promluvy.",
+          "type": "principle",
+          "tags": [
+            "narratology",
+            "communication",
+            "jane-austen"
+          ],
+          "score": 12.367,
+          "same_idea": false,
+          "ids": [
+            "891"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1001",
+      "candidates": [
+        {
+          "id": "448",
+          "idea": "idea-448",
+          "point": "Namodralý vzhled žil nevypovídá o modré krvi, ale o průchodu a odrazu světla v kůži.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "medicine",
+            "perception"
+          ],
+          "score": 14.756,
+          "same_idea": false,
+          "ids": [
+            "448"
+          ]
+        },
+        {
+          "id": "335",
+          "idea": "idea-335",
+          "point": "Tranzitní spektroskopie rozpoznává plyny z vlnových délek pohlcených v atmosféře planety a Webb tak roku 2022 doložil oxid uhličitý u WASP-39 b.",
+          "type": "discovery",
+          "tags": [
+            "exoplanets",
+            "optics",
+            "knowledge-evidence"
+          ],
+          "score": 13.715,
+          "same_idea": false,
+          "ids": [
+            "335"
+          ]
+        },
+        {
+          "id": "598",
+          "idea": "idea-598",
+          "point": "Lacanovo zrcadlové stadium spojuje vznik obrazu vlastního já s identifikací s vnější sjednocenou podobou těla.",
+          "type": "theory",
+          "tags": [
+            "philosophy-of-mind",
+            "development",
+            "identity"
+          ],
+          "score": 13.036,
+          "same_idea": false,
+          "ids": [
+            "598"
+          ]
+        },
+        {
+          "id": "900",
+          "idea": "idea-900",
+          "point": "Jacksonova Mary prověřuje, zda úplná znalost fyzikálních faktů zahrnuje i znalost toho, jaké je mít určitý vědomý prožitek.",
+          "type": "theory",
+          "tags": [
+            "philosophy-of-mind",
+            "epistemology"
+          ],
+          "score": 12.995,
+          "same_idea": false,
+          "ids": [
+            "900"
+          ]
+        },
+        {
+          "id": "528",
+          "idea": "idea-528",
+          "point": "Římský cursus publicus usnadňoval státní komunikaci sítí cest, stanic a přepřahání.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "communication",
+            "organizations",
+            "roman-empire"
+          ],
+          "score": 12.897,
+          "same_idea": false,
+          "ids": [
+            "528"
+          ]
+        },
+        {
+          "id": "743",
+          "idea": "idea-743",
+          "point": "Conwayův zákon spojuje strukturu navrhovaných systémů s komunikační strukturou organizací, které je vytvářejí.",
+          "type": "principle",
+          "tags": [
+            "programming",
+            "organizations",
+            "communication"
+          ],
+          "score": 12.897,
+          "same_idea": false,
+          "ids": [
+            "743"
+          ]
+        },
+        {
+          "id": "836",
+          "idea": "idea-836",
+          "point": "Podobná úhlová velikost Slunce a Měsíce na pozemské obloze umožňuje úplná sluneční zatmění.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "optics",
+            "moon"
+          ],
+          "score": 12.875,
+          "same_idea": false,
+          "ids": [
+            "836"
+          ]
+        },
+        {
+          "id": "145",
+          "idea": "idea-145",
+          "point": "Lockova tabula rasa odmítá vrozené hotové ideje a zdůrazňuje zkušenost při utváření poznání.",
+          "type": "theory",
+          "tags": [
+            "epistemology",
+            "development",
+            "knowledge-evidence"
+          ],
+          "score": 12.814,
+          "same_idea": false,
+          "ids": [
+            "145"
+          ]
+        },
+        {
+          "id": "461",
+          "idea": "idea-461",
+          "point": "Chroma key odděluje předem zvolenou barvu pozadí a umožňuje spojovat postavu s jiným obrazem.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "optics",
+            "innovation"
+          ],
+          "score": 12.743,
+          "same_idea": false,
+          "ids": [
+            "461"
+          ]
+        },
+        {
+          "id": "157",
+          "idea": "idea-157",
+          "point": "Smithova dělba práce zvyšuje produktivitu specializací, nácvikem a omezením přechodů mezi úkony.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "organizations",
+            "adam-smith"
+          ],
+          "score": 11.668,
+          "same_idea": false,
+          "ids": [
+            "157"
+          ]
+        },
+        {
+          "id": "597",
+          "idea": "idea-597",
+          "point": "Foucaultova epistémé označuje historické podmínky, které určují, co se v dané době může jevit jako platné vědění.",
+          "type": "theory",
+          "tags": [
+            "epistemology",
+            "modern-philosophy",
+            "power"
+          ],
+          "score": 11.668,
+          "same_idea": false,
+          "ids": [
+            "597"
+          ]
+        },
+        {
+          "id": "390",
+          "idea": "idea-390",
+          "point": "Mezzotinta získává světlé tóny vyhlazováním celoplošně zdrsněné kovové desky, protože hladší místa při hlubotisku zadrží méně barvy.",
+          "type": "principle",
+          "tags": [
+            "painting",
+            "materials",
+            "patterns"
+          ],
+          "score": 11.646,
+          "same_idea": false,
+          "ids": [
+            "390"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1002",
+      "candidates": [
+        {
+          "id": "912",
+          "idea": "idea-912",
+          "point": "V trojném bodě mohou pevná, kapalná a plynná fáze čisté vody koexistovat v rovnováze při určité teplotě a tlaku.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry"
+          ],
+          "score": 31.49,
+          "same_idea": false,
+          "ids": [
+            "912"
+          ]
+        },
+        {
+          "id": "749",
+          "idea": "idea-749",
+          "point": "Pára vznikající pod kapkou na velmi horkém povrchu ji může dočasně izolovat a prodloužit její životnost.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "perceived-reality"
+          ],
+          "score": 30.88,
+          "same_idea": false,
+          "ids": [
+            "749"
+          ]
+        },
+        {
+          "id": "911",
+          "idea": "idea-911",
+          "point": "Gallium má teplotu tání blízko 30 °C, takže pevný kov může zkapalnět pouhým přijetím tepla z teplejšího okolí.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "thermodynamics"
+          ],
+          "score": 23.609,
+          "same_idea": false,
+          "ids": [
+            "911"
+          ]
+        },
+        {
+          "id": "913",
+          "idea": "idea-913",
+          "point": "Nad kritickou teplotou a tlakem mizí rozhraní kapaliny a plynu a superkritický oxid uhličitý lze využít k extrakci kofeinu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 23.609,
+          "same_idea": false,
+          "ids": [
+            "913"
+          ]
+        },
+        {
+          "id": "395",
+          "idea": "idea-395",
+          "point": "Podchlazená voda zůstává kapalná pod bodem mrazu, dokud nezačne krystalizace; její přítomnost v oblacích je důležitá i pro vznik námrazy.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials"
+          ],
+          "score": 19.994,
+          "same_idea": false,
+          "ids": [
+            "395"
+          ]
+        },
+        {
+          "id": "443",
+          "idea": "idea-443",
+          "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 19.994,
+          "same_idea": false,
+          "ids": [
+            "443"
+          ]
+        },
+        {
+          "id": "136",
+          "idea": "idea-136",
+          "point": "Tepelná roztažnost mění délku kovových konstrukcí, takže se mění i výška Eiffelovy věže.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "change"
+          ],
+          "score": 19.345,
+          "same_idea": false,
+          "ids": [
+            "136"
+          ]
+        },
+        {
+          "id": "916",
+          "idea": "idea-916",
+          "point": "Zlevnění energetické služby díky vyšší účinnosti může zvýšit její využití a tím část očekávané úspory vyrušit.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "resources",
+            "incentives"
+          ],
+          "score": 16.436,
+          "same_idea": false,
+          "ids": [
+            "916"
+          ]
+        },
+        {
+          "id": "715",
+          "idea": "idea-715",
+          "point": "Haberův–Boschův proces umožnil průmyslově vázat vzdušný dusík do amoniaku a zásadně rozšířil výrobu hnojiv.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "economic-history",
+            "resources"
+          ],
+          "score": 14.891,
+          "same_idea": false,
+          "ids": [
+            "715"
+          ]
+        },
+        {
+          "id": "38",
+          "idea": "idea-38",
+          "point": "Vztlaková síla odpovídá tíze vytlačené kapaliny a umožňuje porovnávat objem a hustotu těles.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "resources",
+            "archimedes"
+          ],
+          "score": 14.862,
+          "same_idea": false,
+          "ids": [
+            "38",
+            "110"
+          ]
+        },
+        {
+          "id": "216",
+          "idea": "idea-216",
+          "point": "Absolutní nuly nelze dosáhnout konečnou posloupností běžných chladicích kroků.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "limits"
+          ],
+          "score": 14.323,
+          "same_idea": false,
+          "ids": [
+            "216"
+          ]
+        },
+        {
+          "id": "824",
+          "idea": "idea-824",
+          "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics",
+            "change"
+          ],
+          "score": 14.323,
+          "same_idea": false,
+          "ids": [
+            "824"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1003",
+      "candidates": [
+        {
+          "id": "457",
+          "idea": "idea-457",
+          "point": "Stereoskopický film vytváří dojem hloubky tím, že každému oku předkládá odlišný obrazový pohled.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "cinema",
+            "perception"
+          ],
+          "score": 24.829,
+          "same_idea": false,
+          "ids": [
+            "457"
+          ]
+        },
+        {
+          "id": "215",
+          "idea": "idea-215",
+          "point": "Relativní pohyb zdroje a pozorovatele mění pozorovanou frekvenci vlnění.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "optics",
+            "perception"
+          ],
+          "score": 16.663,
+          "same_idea": false,
+          "ids": [
+            "215"
+          ]
+        },
+        {
+          "id": "295",
+          "idea": "idea-295",
+          "point": "Silnější rozptyl krátkovlnného slunečního světla v atmosféře vysvětluje modrou oblohu a barevné změny při západu.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "geoscience",
+            "perception"
+          ],
+          "score": 16.663,
+          "same_idea": false,
+          "ids": [
+            "295"
+          ]
+        },
+        {
+          "id": "448",
+          "idea": "idea-448",
+          "point": "Namodralý vzhled žil nevypovídá o modré krvi, ale o průchodu a odrazu světla v kůži.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "medicine",
+            "perception"
+          ],
+          "score": 14.865,
+          "same_idea": false,
+          "ids": [
+            "448"
+          ]
+        },
+        {
+          "id": "566",
+          "idea": "idea-566",
+          "point": "Optická oprava Hubbleova dalekohledu kompenzovala chybu hlavního zrcadla a obnovila jeho zamýšlené možnosti.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "optics",
+            "innovation"
+          ],
+          "score": 13.637,
+          "same_idea": false,
+          "ids": [
+            "566"
+          ]
+        },
+        {
+          "id": "918",
+          "idea": "idea-918",
+          "point": "Při rychlém sledu podnětů může zpracování prvního cíle dočasně zhoršit rozpoznání druhého cíle o několik set milisekund později.",
+          "type": "principle",
+          "tags": [
+            "perception",
+            "limits"
+          ],
+          "score": 13.357,
+          "same_idea": false,
+          "ids": [
+            "918"
+          ]
+        },
+        {
+          "id": "469",
+          "idea": "idea-469",
+          "point": "Caravaggiovo výrazné světlo a stín soustřeďují pozornost a dramatizují tělesnou přítomnost postav.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "optics",
+            "perception"
+          ],
+          "score": 12.849,
+          "same_idea": false,
+          "ids": [
+            "469"
+          ]
+        },
+        {
+          "id": "617",
+          "idea": "idea-617",
+          "point": "Zrcadlo převrací směr kolmý ke své ploše, zatímco dojem záměny levé a pravé závisí na porovnávání orientace.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "geometry",
+            "perception"
+          ],
+          "score": 12.849,
+          "same_idea": false,
+          "ids": [
+            "617"
+          ]
+        },
+        {
+          "id": "677",
+          "idea": "idea-677",
+          "point": "Ibn al-Hajsam vysvětloval vidění světlem vstupujícím do oka a podporoval výklad pokusy s jeho šířením.",
+          "type": "discovery",
+          "tags": [
+            "optics",
+            "perception",
+            "knowledge-evidence"
+          ],
+          "score": 12.849,
+          "same_idea": false,
+          "ids": [
+            "677"
+          ]
+        },
+        {
+          "id": "731",
+          "idea": "idea-731",
+          "point": "Dolly zoom kombinuje pohyb kamery se změnou ohniska a mění perspektivu pozadí při podobné velikosti hlavní postavy.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "optics",
+            "perception"
+          ],
+          "score": 12.849,
+          "same_idea": false,
+          "ids": [
+            "731"
+          ]
+        },
+        {
+          "id": "851",
+          "idea": "idea-851",
+          "point": "Barva pozorovaného stínu závisí na okolním osvětlení a kontrastu, takže se může jevit jako doplňkový odstín.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "perception",
+            "perceived-reality"
+          ],
+          "score": 12.849,
+          "same_idea": false,
+          "ids": [
+            "851"
+          ]
+        },
+        {
+          "id": "509",
+          "idea": "idea-509",
+          "point": "Někteří živočichové využívají zemské magnetické pole jako smyslové vodítko pro orientaci.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "perception",
+            "patterns"
+          ],
+          "score": 12.675,
+          "same_idea": false,
+          "ids": [
+            "509"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1004",
+      "candidates": [
+        {
+          "id": "939",
+          "idea": "idea-939",
+          "point": "Rychlé ochlazení Rupertovy kapky vytvoří tlak na povrchu a tah uvnitř, takže odolná hlava může po narušení ocásku explozivně zaniknout.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "mechanics"
+          ],
+          "score": 21.646,
+          "same_idea": false,
+          "ids": [
+            "939"
+          ]
+        },
+        {
+          "id": "749",
+          "idea": "idea-749",
+          "point": "Pára vznikající pod kapkou na velmi horkém povrchu ji může dočasně izolovat a prodloužit její životnost.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "perceived-reality"
+          ],
+          "score": 15.512,
+          "same_idea": false,
+          "ids": [
+            "749"
+          ]
+        },
+        {
+          "id": "222",
+          "idea": "idea-222",
+          "point": "Iridiová vrstva a kráter Chicxulub spojily hromadné vymírání na konci křídy s dopadem velkého tělesa.",
+          "type": "discovery",
+          "tags": [
+            "geoscience",
+            "evolution",
+            "knowledge-evidence"
+          ],
+          "score": 15.385,
+          "same_idea": false,
+          "ids": [
+            "222"
+          ]
+        },
+        {
+          "id": "321",
+          "idea": "idea-321",
+          "point": "Perovskitovo-křemíkový tandem využívá různé části slunečního spektra ve dvou polovodičových vrstvách, ale jeho nasazení omezuje i stabilita a výroba.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "optics",
+            "innovation"
+          ],
+          "score": 13.603,
+          "same_idea": false,
+          "ids": [
+            "321"
+          ]
+        },
+        {
+          "id": "933",
+          "idea": "idea-933",
+          "point": "Stříbrná špička zanechává na připraveném abrazivním podkladu kovovou stopu a umožňuje kresbu bez grafitu či inkoustu.",
+          "type": "practice",
+          "tags": [
+            "painting",
+            "materials"
+          ],
+          "score": 12.756,
+          "same_idea": false,
+          "ids": [
+            "933"
+          ]
+        },
+        {
+          "id": "444",
+          "idea": "idea-444",
+          "point": "Poškození buněk cibule spouští chemické reakce vedoucí ke vzniku těkavé látky dráždící oči.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "chemistry",
+            "perception"
+          ],
+          "score": 12.167,
+          "same_idea": false,
+          "ids": [
+            "444"
+          ]
+        },
+        {
+          "id": "823",
+          "idea": "idea-823",
+          "point": "Rozpuštění zlatých Nobelových medailí v lučavce královské umožnilo jejich ukrytí a pozdější obnovení kovu.",
+          "type": "event",
+          "tags": [
+            "chemistry",
+            "modern-history",
+            "preservation"
+          ],
+          "score": 12.054,
+          "same_idea": false,
+          "ids": [
+            "823"
+          ]
+        },
+        {
+          "id": "136",
+          "idea": "idea-136",
+          "point": "Tepelná roztažnost mění délku kovových konstrukcí, takže se mění i výška Eiffelovy věže.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "change"
+          ],
+          "score": 11.979,
+          "same_idea": false,
+          "ids": [
+            "136"
+          ]
+        },
+        {
+          "id": "750",
+          "idea": "idea-750",
+          "point": "Vodivý obal přerozděluje náboj a omezuje působení určitých vnějších elektrických polí uvnitř Faradayovy klece.",
+          "type": "principle",
+          "tags": [
+            "electromagnetism",
+            "computer-security",
+            "privacy"
+          ],
+          "score": 11.664,
+          "same_idea": false,
+          "ids": [
+            "750"
+          ]
+        },
+        {
+          "id": "860",
+          "idea": "idea-860",
+          "point": "Dnešní barvy starých obrazů se mohou lišit od původních kvůli chemickým změnám pigmentů a dalších vrstev.",
+          "type": "principle",
+          "tags": [
+            "painting",
+            "chemistry",
+            "preservation"
+          ],
+          "score": 11.39,
+          "same_idea": false,
+          "ids": [
+            "860"
+          ]
+        },
+        {
+          "id": "621",
+          "idea": "idea-621",
+          "point": "Piezoelektrický jev převádí mechanické namáhání vhodného materiálu na elektrické napětí a umožňuje i opačný převod.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "electromagnetism",
+            "innovation"
+          ],
+          "score": 10.816,
+          "same_idea": false,
+          "ids": [
+            "621"
+          ]
+        },
+        {
+          "id": "52",
+          "idea": "idea-10",
+          "point": "Mendělejev uspořádal prvky podle opakujících se vlastností a předpověděl dosud neobjevené prvky.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "patterns",
+            "knowledge-evidence"
+          ],
+          "score": 10.788,
+          "same_idea": false,
+          "ids": [
+            "10",
+            "52"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1005",
+      "candidates": [
+        {
+          "id": "406",
+          "idea": "idea-406",
+          "point": "Šachovnici bez dvou protilehlých rohů nelze pokrýt dominy 1×2, protože každé kryje obě barvy stejně, ale zbylá deska má jejich počty rozdílné.",
+          "type": "principle",
+          "tags": [
+            "combinatorics",
+            "geometry",
+            "limits"
+          ],
+          "score": 16.526,
+          "same_idea": false,
+          "ids": [
+            "406"
+          ]
+        },
+        {
+          "id": "757",
+          "idea": "idea-757",
+          "point": "Rozdělíme-li více předmětů do menšího počtu přihrádek, musí alespoň jedna obsahovat více než jeden předmět.",
+          "type": "principle",
+          "tags": [
+            "combinatorics",
+            "logic",
+            "patterns"
+          ],
+          "score": 16.526,
+          "same_idea": false,
+          "ids": [
+            "757"
+          ]
+        },
+        {
+          "id": "941",
+          "idea": "idea-941",
+          "point": "Janus a Epimetheus se gravitačně ovlivňují tak, že si přibližně každé čtyři roky vymění vnitřní a vnější dráhu kolem Saturnu.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "saturn",
+            "patterns"
+          ],
+          "score": 14.517,
+          "same_idea": false,
+          "ids": [
+            "941"
+          ]
+        },
+        {
+          "id": "853",
+          "idea": "idea-853",
+          "point": "Tlak, suchost a další podmínky letu mohou měnit čichové a chuťové vnímání stejného jídla.",
+          "type": "principle",
+          "tags": [
+            "perception",
+            "nutrition",
+            "change"
+          ],
+          "score": 14.114,
+          "same_idea": false,
+          "ids": [
+            "853"
+          ]
+        },
+        {
+          "id": "892",
+          "idea": "idea-892",
+          "point": "Pravidlo osy zachovává při střihu prostorovou orientaci postav a směr pohledů tím, že kamera zůstává na stejné straně děje.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "geometry",
+            "perception"
+          ],
+          "score": 12.844,
+          "same_idea": false,
+          "ids": [
+            "892"
+          ]
+        },
+        {
+          "id": "444",
+          "idea": "idea-444",
+          "point": "Poškození buněk cibule spouští chemické reakce vedoucí ke vzniku těkavé látky dráždící oči.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "chemistry",
+            "perception"
+          ],
+          "score": 12.678,
+          "same_idea": false,
+          "ids": [
+            "444"
+          ]
+        },
+        {
+          "id": "396",
+          "idea": "idea-396",
+          "point": "Běžné okenní sklo je za pokojové teploty amorfní pevná látka a nerovnoměrná tloušťka historických tabulí nedokládá jejich stékání během staletí.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 12.021,
+          "same_idea": false,
+          "ids": [
+            "396"
+          ]
+        },
+        {
+          "id": "322",
+          "idea": "idea-322",
+          "point": "Sodíkové akumulátory využívají dostupný sodík, ale odlišné ukládání iontů vyžaduje vhodné elektrody, například tvrdý uhlík místo běžné grafitové anody.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "chemistry",
+            "resources"
+          ],
+          "score": 11.585,
+          "same_idea": false,
+          "ids": [
+            "322"
+          ]
+        },
+        {
+          "id": "503",
+          "idea": "idea-503",
+          "point": "Buněčná teorie chápe buňku jako základní jednotku živých organismů a nové buňky jako potomky předchozích buněk.",
+          "type": "theory",
+          "tags": [
+            "biology",
+            "patterns"
+          ],
+          "score": 11.39,
+          "same_idea": false,
+          "ids": [
+            "503"
+          ]
+        },
+        {
+          "id": "859",
+          "idea": "idea-859",
+          "point": "Pohled portrétu může zdánlivě sledovat diváka, protože vztahy namalovaných očí a tváře zůstávají na ploše obrazu stejné.",
+          "type": "principle",
+          "tags": [
+            "painting",
+            "perception",
+            "perceived-reality"
+          ],
+          "score": 11.004,
+          "same_idea": false,
+          "ids": [
+            "859"
+          ]
+        },
+        {
+          "id": "825",
+          "idea": "idea-825",
+          "point": "Molekuly mýdla propojují vodomilnou a tukomilnou část a umožňují odnést mastnotu ve strukturách rozpustných ve vodním prostředí.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "public-health",
+            "resources"
+          ],
+          "score": 10.805,
+          "same_idea": false,
+          "ids": [
+            "825"
+          ]
+        },
+        {
+          "id": "329",
+          "idea": "idea-329",
+          "point": "Berlin odlišuje svobodu od zásahů druhých od otázky, kdo řídí můj život, a varuje před nucením člověka ve jménu jeho údajného pravého já.",
+          "type": "theory",
+          "tags": [
+            "political-philosophy",
+            "freedom",
+            "power"
+          ],
+          "score": 10.792,
+          "same_idea": false,
+          "ids": [
+            "329"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1006",
+      "candidates": [
+        {
+          "id": "322",
+          "idea": "idea-322",
+          "point": "Sodíkové akumulátory využívají dostupný sodík, ale odlišné ukládání iontů vyžaduje vhodné elektrody, například tvrdý uhlík místo běžné grafitové anody.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "chemistry",
+            "resources"
+          ],
+          "score": 22.727,
+          "same_idea": false,
+          "ids": [
+            "322"
+          ]
+        },
+        {
+          "id": "443",
+          "idea": "idea-443",
+          "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 19.59,
+          "same_idea": false,
+          "ids": [
+            "443"
+          ]
+        },
+        {
+          "id": "716",
+          "idea": "idea-716",
+          "point": "Millerův–Ureyho pokus ukázal, že některé organické stavební látky mohou vznikat z jednodušších látek bez živých organismů.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "evolution",
+            "knowledge-evidence"
+          ],
+          "score": 18.268,
+          "same_idea": false,
+          "ids": [
+            "716"
+          ]
+        },
+        {
+          "id": "396",
+          "idea": "idea-396",
+          "point": "Běžné okenní sklo je za pokojové teploty amorfní pevná látka a nerovnoměrná tloušťka historických tabulí nedokládá jejich stékání během staletí.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 18.158,
+          "same_idea": false,
+          "ids": [
+            "396"
+          ]
+        },
+        {
+          "id": "633",
+          "idea": "idea-633",
+          "point": "Luciferázové reakce vytvářejí biologické světlo a lze je využít jako měřitelný signál v biologickém výzkumu.",
+          "type": "principle",
+          "tags": [
+            "biology",
+            "chemistry",
+            "innovation"
+          ],
+          "score": 16.543,
+          "same_idea": false,
+          "ids": [
+            "633"
+          ]
+        },
+        {
+          "id": "825",
+          "idea": "idea-825",
+          "point": "Molekuly mýdla propojují vodomilnou a tukomilnou část a umožňují odnést mastnotu ve strukturách rozpustných ve vodním prostředí.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "public-health",
+            "resources"
+          ],
+          "score": 15.47,
+          "same_idea": false,
+          "ids": [
+            "825"
+          ]
+        },
+        {
+          "id": "495",
+          "idea": "idea-495",
+          "point": "Existence konzistentních neeukleidovských geometrií ukazuje, že pravidlo rovnoběžek není důsledkem ostatních eukleidovských předpokladů.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "logic",
+            "limits"
+          ],
+          "score": 14.136,
+          "same_idea": false,
+          "ids": [
+            "495",
+            "846"
+          ]
+        },
+        {
+          "id": "631",
+          "idea": "idea-631",
+          "point": "Chargaffovy poměry bází DNA poskytly důležitou stopu pro vysvětlení jejich párování ve struktuře molekuly.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 13.889,
+          "same_idea": false,
+          "ids": [
+            "631"
+          ]
+        },
+        {
+          "id": "388",
+          "idea": "idea-388",
+          "point": "Quorum sensing koordinuje bakteriální genovou aktivitu prostřednictvím koncentrace uvolňovaných signálů, kterou kromě hustoty buněk ovlivňuje také prostředí.",
+          "type": "principle",
+          "tags": [
+            "microbiology",
+            "communication",
+            "cooperation"
+          ],
+          "score": 13.171,
+          "same_idea": false,
+          "ids": [
+            "388"
+          ]
+        },
+        {
+          "id": "912",
+          "idea": "idea-912",
+          "point": "V trojném bodě mohou pevná, kapalná a plynná fáze čisté vody koexistovat v rovnováze při určité teplotě a tlaku.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry"
+          ],
+          "score": 12.264,
+          "same_idea": false,
+          "ids": [
+            "912"
+          ]
+        },
+        {
+          "id": "634",
+          "idea": "idea-634",
+          "point": "Cirkadiánní hodiny vznikají zpětnovazebnými molekulárními procesy, které sladí tělesné funkce s denním cyklem.",
+          "type": "principle",
+          "tags": [
+            "genetics",
+            "sleep",
+            "patterns"
+          ],
+          "score": 11.651,
+          "same_idea": false,
+          "ids": [
+            "634"
+          ]
+        },
+        {
+          "id": "478",
+          "idea": "idea-478",
+          "point": "Stagflace kombinuje slabý hospodářský výkon s inflací a narušuje jednoduchou představu jejich stálého protikladu.",
+          "type": "principle",
+          "tags": [
+            "macroeconomics",
+            "uncertainty"
+          ],
+          "score": 11.621,
+          "same_idea": false,
+          "ids": [
+            "478"
+          ]
+        }
+      ]
+    }
+  ],
+  "semantic_approval": "required",
+  "snapshot": "ec6d0f5b4ae65376be3fc6564b78a7aaabf1670edf3b12bfc14946ee8b957207",
+  "drafts_hash": "bc6c63de3c52572347af99955b6f8660549b27d7c43e613ca6de5e0288b9cbda"
+}

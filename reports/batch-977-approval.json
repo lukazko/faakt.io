@@ -1,0 +1,354 @@
+{
+  "snapshot": "ec6d0f5b4ae65376be3fc6564b78a7aaabf1670edf3b12bfc14946ee8b957207",
+  "catalog_reviewed": "ec6d0f5b4ae65376be3fc6564b78a7aaabf1670edf3b12bfc14946ee8b957207",
+  "drafts_hash": "bc6c63de3c52572347af99955b6f8660549b27d7c43e613ca6de5e0288b9cbda",
+  "decisions": [
+    {
+      "id": "977",
+      "verdict": "accept",
+      "compared_ids": [
+        "409"
+      ],
+      "reason": "409 je o vzniku basketbalu; zde jde o pozdější odstranění zdržování časovým limitem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "978",
+      "verdict": "accept",
+      "compared_ids": [
+        "381"
+      ],
+      "reason": "381 řeší věkové zkreslení výběru dětí; zde jde o pravidly vytvořenou obrannou pozici.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "979",
+      "verdict": "accept",
+      "compared_ids": [
+        "378",
+        "411"
+      ],
+      "reason": "378 mění pohyb skokana a 411 spojení boty a nože; zde jde o vyvážení oštěpu a posuzování jeho dopadu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "980",
+      "verdict": "accept",
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "382 je o nepředvídatelnosti penalty; zde jde o veřejné rozpoznání rozhodnutí rozhodčího.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "981",
+      "verdict": "accept",
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "411 vysvětluje kloubovou brusli; zde jde o historickou změnu rozměru soutěžního míčku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "982",
+      "verdict": "accept",
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "378 je nová technika uvnitř jedné disciplíny; zde technická varianta vedla k rozdělení plaveckých stylů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "983",
+      "verdict": "accept",
+      "compared_ids": [
+        "379"
+      ],
+      "reason": "379 řeší podvod a nebezpečné povzbuzování v roce 1904; zde jde o sjednocení vzdálenosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "984",
+      "verdict": "accept",
+      "compared_ids": [
+        "381"
+      ],
+      "reason": "381 analyzuje věkové zvýhodnění; zde jde o pozdní otevření olympijské disciplíny ženám.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "985",
+      "verdict": "accept",
+      "compared_ids": [
+        "380"
+      ],
+      "reason": "380 vysvětluje Bannisterovy vodiče; zde jde o kombinaci tří vítězství a maratonský debut.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "986",
+      "verdict": "accept",
+      "compared_ids": [
+        "382",
+        "379"
+      ],
+      "reason": "382 je náhodná penalta a 379 podpora běžce; zde jde o kriketovou taktiku vyvolávající obranné údery pod hrozbou zásahu těla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "987",
+      "verdict": "accept",
+      "compared_ids": [
+        "409"
+      ],
+      "reason": "409 je vznik basketbalu; zde jde o někdejší olympijské postavení přetahování a jeho medailisty.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "988",
+      "verdict": "accept",
+      "compared_ids": [
+        "410",
+        "614"
+      ],
+      "reason": "410 řeší nadmořskou výšku a 614 mezní rychlost pádu; zde jde o brzdění sportovního projektilu po úderu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "989",
+      "verdict": "accept",
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "411 je o biomechanice klapací brusle; zde jde o opožděné soutěžní povolení již existující techniky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "990",
+      "verdict": "accept",
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "382 je o nepředvídatelnosti penalty; zde jde o změnu prostorového omezení útočné hry.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "991",
+      "verdict": "accept",
+      "compared_ids": [
+        "412"
+      ],
+      "reason": "412 mění rozhodování setu; zde jde o barvu vybavení kvůli televiznímu přenosu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "992",
+      "verdict": "accept",
+      "compared_ids": [
+        "874",
+        "520",
+        "270"
+      ],
+      "reason": "874 je plošný Caracallův edikt, 520 vazba republikánských vojáků na velitele a 270 osobní dopisy; zde jde o konkrétní právní odměnu pomocných vojáků a její doklad.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "993",
+      "verdict": "accept",
+      "compared_ids": [
+        "270",
+        "529"
+      ],
+      "reason": "270 ukazuje osobní korespondenci a 529 kanalizaci; zde keramický odpad dokládá dovoz oleje a hospodářské vazby.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "994",
+      "verdict": "accept",
+      "compared_ids": [
+        "874",
+        "875"
+      ],
+      "reason": "874 rozšiřuje občanství na svobodné obyvatele a 875 maže památku; zde jde o přístup provinčních elit k nejvyšším funkcím a dochovaný projev.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "995",
+      "verdict": "accept",
+      "compared_ids": [
+        "547"
+      ],
+      "reason": "547 je uspořádání spoluvlády; zde jde o náboženskou toleranci a restituci majetku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "996",
+      "verdict": "accept",
+      "compared_ids": [
+        "516",
+        "518"
+      ],
+      "reason": "516 je Zama a 518 vyčerpávání Hannibala; nový text řeší konkrétní Varovu porážku a meze její archeologické rekonstrukce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "997",
+      "verdict": "accept",
+      "compared_ids": [
+        "954",
+        "250"
+      ],
+      "reason": "954 mění zvuk vloženými předměty do klavíru a 250 je skandál premiéry; zde je princip orchestrace a crescenda konkrétní skladby.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "998",
+      "verdict": "accept",
+      "compared_ids": [
+        "954",
+        "856"
+      ],
+      "reason": "954 je úprava nástroje a 856 ladění; zde novou strukturu vytváří relativní časový posun stejných vzorců.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "999",
+      "verdict": "accept",
+      "compared_ids": [
+        "801",
+        "856"
+      ],
+      "reason": "801 řeší Dvořákovu kulturní inspiraci a 856 temperaci; zde jde o organizaci jazzové improvizace pomocí pomalu se měnící modality.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1000",
+      "verdict": "accept",
+      "compared_ids": [
+        "744",
+        "801"
+      ],
+      "reason": "744 řeší zápis melodie a 801 kulturní inspiraci; zde jde o vyprávěcí funkci návratných motivů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1001",
+      "verdict": "accept",
+      "compared_ids": [
+        "617",
+        "677"
+      ],
+      "reason": "617 je orientace zrcadlového obrazu a 677 vstup světla do oka; zde jde o podmínky úplného odrazu na rozhraní.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1002",
+      "verdict": "accept",
+      "compared_ids": [
+        "749",
+        "912"
+      ],
+      "reason": "749 je izolace kapky párou a 912 trojný bod; zde je energetická bilance skupenské změny při varu za stálého tlaku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1003",
+      "verdict": "accept",
+      "compared_ids": [
+        "457",
+        "617"
+      ],
+      "reason": "457 je stereoskopické vidění a 617 zrcadlové převrácení; zde filtr vybírá směr polarizace odraženého světla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1004",
+      "verdict": "accept",
+      "compared_ids": [
+        "823"
+      ],
+      "reason": "823 vysvětluje rozpouštění zlata a ukrytí medailí; zde jde o pasivaci reaktivního kovu přilnavým oxidem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1005",
+      "verdict": "accept",
+      "compared_ids": [
+        "825",
+        "617"
+      ],
+      "reason": "825 je amfifilní stavba mýdla a 617 orientace obrazu; zde jde o chemickou chiralitu a rozdílnou vůni enantiomerů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1006",
+      "verdict": "accept",
+      "compared_ids": [
+        "913",
+        "825"
+      ],
+      "reason": "913 je extrakce superkritickým CO2 a 825 micely; zde jde o selektivní vstup molekul do krystalických pórů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}
