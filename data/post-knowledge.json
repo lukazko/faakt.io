@@ -1,0 +1,7929 @@
+{
+  "version": 1,
+  "posts": {
+    "1": {
+      "idea": "idea-1",
+      "tags": [
+        "macroeconomics",
+        "resources",
+        "keynes"
+      ]
+    },
+    "2": {
+      "idea": "idea-2",
+      "tags": [
+        "social-psychology",
+        "power"
+      ]
+    },
+    "3": {
+      "idea": "idea-3",
+      "tags": [
+        "astronomy",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "4": {
+      "idea": "idea-4",
+      "tags": [
+        "painting",
+        "preservation"
+      ]
+    },
+    "5": {
+      "idea": "idea-5",
+      "tags": [
+        "quantum-physics",
+        "perceived-reality"
+      ]
+    },
+    "6": {
+      "idea": "idea-6",
+      "tags": [
+        "confucianism",
+        "ethics",
+        "confucius"
+      ]
+    },
+    "7": {
+      "idea": "idea-7",
+      "tags": [
+        "modern-history",
+        "military-history",
+        "power"
+      ]
+    },
+    "8": {
+      "idea": "idea-8",
+      "tags": [
+        "microeconomics",
+        "cooperation",
+        "adam-smith"
+      ]
+    },
+    "9": {
+      "idea": "idea-9",
+      "tags": [
+        "social-psychology",
+        "cognitive-biases",
+        "identity"
+      ]
+    },
+    "10": {
+      "idea": "idea-10",
+      "tags": [
+        "chemistry",
+        "patterns",
+        "knowledge-evidence"
+      ]
+    },
+    "11": {
+      "idea": "idea-11",
+      "tags": [
+        "painting",
+        "military-history",
+        "communication"
+      ]
+    },
+    "12": {
+      "idea": "idea-12",
+      "tags": [
+        "quantum-physics",
+        "limits"
+      ]
+    },
+    "13": {
+      "idea": "idea-13",
+      "tags": [
+        "medieval-history",
+        "law",
+        "power"
+      ]
+    },
+    "14": {
+      "idea": "idea-14",
+      "tags": [
+        "black-holes",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "15": {
+      "idea": "idea-15",
+      "tags": [
+        "literature",
+        "preservation",
+        "kafka"
+      ]
+    },
+    "16": {
+      "idea": "idea-16",
+      "tags": [
+        "ancient-philosophy",
+        "music",
+        "patterns"
+      ]
+    },
+    "17": {
+      "idea": "idea-17",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "18": {
+      "idea": "idea-18",
+      "tags": [
+        "taoism",
+        "resilience",
+        "laozi"
+      ]
+    },
+    "19": {
+      "idea": "idea-19",
+      "tags": [
+        "medieval-history",
+        "military-history",
+        "change"
+      ]
+    },
+    "20": {
+      "idea": "idea-20",
+      "tags": [
+        "economic-history",
+        "macroeconomics",
+        "uncertainty"
+      ]
+    },
+    "21": {
+      "idea": "idea-21",
+      "tags": [
+        "cognitive-biases",
+        "decision-making"
+      ]
+    },
+    "22": {
+      "idea": "idea-22",
+      "tags": [
+        "genetics",
+        "history-of-science",
+        "knowledge-evidence"
+      ]
+    },
+    "23": {
+      "idea": "idea-23",
+      "tags": [
+        "mechanics",
+        "patterns"
+      ]
+    },
+    "24": {
+      "idea": "idea-24",
+      "tags": [
+        "astronomy",
+        "history-of-science",
+        "patterns"
+      ]
+    },
+    "25": {
+      "idea": "idea-15",
+      "tags": [
+        "literature",
+        "preservation",
+        "kafka"
+      ]
+    },
+    "26": {
+      "idea": "idea-26",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "change"
+      ]
+    },
+    "27": {
+      "idea": "idea-27",
+      "tags": [
+        "epistemology",
+        "ancient-philosophy",
+        "socrates"
+      ]
+    },
+    "28": {
+      "idea": "idea-28",
+      "tags": [
+        "buddhism",
+        "ethics",
+        "resilience"
+      ]
+    },
+    "29": {
+      "idea": "idea-29",
+      "tags": [
+        "archaeology",
+        "writing-systems",
+        "knowledge-evidence"
+      ]
+    },
+    "30": {
+      "idea": "idea-30",
+      "tags": [
+        "microeconomics",
+        "decision-making",
+        "resources"
+      ]
+    },
+    "31": {
+      "idea": "idea-31",
+      "tags": [
+        "psychology",
+        "identity"
+      ]
+    },
+    "32": {
+      "idea": "idea-32",
+      "tags": [
+        "medicine",
+        "microbiology",
+        "innovation"
+      ]
+    },
+    "33": {
+      "idea": "idea-33",
+      "tags": [
+        "painting",
+        "architecture",
+        "innovation"
+      ]
+    },
+    "34": {
+      "idea": "idea-34",
+      "tags": [
+        "relativity",
+        "optics",
+        "limits",
+        "einstein"
+      ]
+    },
+    "35": {
+      "idea": "idea-35",
+      "tags": [
+        "ancient-history",
+        "democracy",
+        "fairness",
+        "ancient-athens"
+      ]
+    },
+    "36": {
+      "idea": "idea-36",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "patterns"
+      ]
+    },
+    "37": {
+      "idea": "idea-37",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "epicurus"
+      ]
+    },
+    "38": {
+      "idea": "idea-38",
+      "tags": [
+        "mechanics",
+        "resources",
+        "archimedes"
+      ]
+    },
+    "39": {
+      "idea": "idea-39",
+      "tags": [
+        "archaeology",
+        "ancient-history",
+        "preservation"
+      ]
+    },
+    "40": {
+      "idea": "idea-40",
+      "tags": [
+        "macroeconomics",
+        "institutions",
+        "keynes"
+      ]
+    },
+    "41": {
+      "idea": "idea-41",
+      "tags": [
+        "cognitive-biases",
+        "knowledge-evidence"
+      ]
+    },
+    "42": {
+      "idea": "idea-42",
+      "tags": [
+        "chemistry",
+        "history-of-science",
+        "knowledge-evidence"
+      ]
+    },
+    "43": {
+      "idea": "idea-43",
+      "tags": [
+        "architecture",
+        "preservation",
+        "gaudi"
+      ]
+    },
+    "44": {
+      "idea": "idea-44",
+      "tags": [
+        "exoplanets",
+        "knowledge-evidence"
+      ]
+    },
+    "45": {
+      "idea": "idea-15",
+      "tags": [
+        "literature",
+        "preservation",
+        "kafka"
+      ]
+    },
+    "46": {
+      "idea": "idea-6",
+      "tags": [
+        "confucianism",
+        "ethics",
+        "confucius"
+      ]
+    },
+    "47": {
+      "idea": "idea-47",
+      "tags": [
+        "epistemology",
+        "ancient-philosophy",
+        "perceived-reality",
+        "plato"
+      ]
+    },
+    "48": {
+      "idea": "idea-48",
+      "tags": [
+        "stoicism",
+        "resilience",
+        "seneca"
+      ]
+    },
+    "49": {
+      "idea": "idea-49",
+      "tags": [
+        "medieval-history",
+        "economic-history",
+        "change"
+      ]
+    },
+    "50": {
+      "idea": "idea-8",
+      "tags": [
+        "microeconomics",
+        "cooperation",
+        "adam-smith"
+      ]
+    },
+    "51": {
+      "idea": "idea-2",
+      "tags": [
+        "social-psychology",
+        "power"
+      ]
+    },
+    "52": {
+      "idea": "idea-10",
+      "tags": [
+        "chemistry",
+        "patterns",
+        "knowledge-evidence"
+      ]
+    },
+    "53": {
+      "idea": "idea-53",
+      "tags": [
+        "logic",
+        "mathematics",
+        "limits"
+      ]
+    },
+    "54": {
+      "idea": "idea-14",
+      "tags": [
+        "black-holes",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "55": {
+      "idea": "idea-55",
+      "tags": [
+        "artificial-intelligence",
+        "philosophy-of-mind",
+        "perceived-reality"
+      ]
+    },
+    "56": {
+      "idea": "idea-16",
+      "tags": [
+        "ancient-philosophy",
+        "music",
+        "patterns"
+      ]
+    },
+    "57": {
+      "idea": "idea-17",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "58": {
+      "idea": "idea-18",
+      "tags": [
+        "taoism",
+        "resilience",
+        "laozi"
+      ]
+    },
+    "59": {
+      "idea": "idea-59",
+      "tags": [
+        "modern-history",
+        "writing-systems",
+        "innovation"
+      ]
+    },
+    "60": {
+      "idea": "idea-60",
+      "tags": [
+        "macroeconomics",
+        "incentives"
+      ]
+    },
+    "61": {
+      "idea": "idea-61",
+      "tags": [
+        "cognitive-biases",
+        "knowledge-evidence"
+      ]
+    },
+    "62": {
+      "idea": "idea-62",
+      "tags": [
+        "thermodynamics",
+        "change"
+      ]
+    },
+    "63": {
+      "idea": "idea-4",
+      "tags": [
+        "painting",
+        "preservation"
+      ]
+    },
+    "64": {
+      "idea": "idea-64",
+      "tags": [
+        "solar-system",
+        "history-of-science",
+        "uncertainty"
+      ]
+    },
+    "65": {
+      "idea": "idea-65",
+      "tags": [
+        "computer-history",
+        "programming",
+        "innovation"
+      ]
+    },
+    "66": {
+      "idea": "idea-66",
+      "tags": [
+        "epistemology",
+        "ancient-philosophy",
+        "socrates"
+      ]
+    },
+    "67": {
+      "idea": "idea-26",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "change"
+      ]
+    },
+    "68": {
+      "idea": "idea-28",
+      "tags": [
+        "buddhism",
+        "ethics",
+        "resilience"
+      ]
+    },
+    "69": {
+      "idea": "idea-29",
+      "tags": [
+        "archaeology",
+        "writing-systems",
+        "knowledge-evidence"
+      ]
+    },
+    "70": {
+      "idea": "idea-70",
+      "tags": [
+        "macroeconomics",
+        "incentives"
+      ]
+    },
+    "71": {
+      "idea": "idea-71",
+      "tags": [
+        "social-psychology",
+        "power"
+      ]
+    },
+    "72": {
+      "idea": "idea-72",
+      "tags": [
+        "genetics",
+        "patterns"
+      ]
+    },
+    "73": {
+      "idea": "idea-33",
+      "tags": [
+        "painting",
+        "architecture",
+        "innovation"
+      ]
+    },
+    "74": {
+      "idea": "idea-24",
+      "tags": [
+        "astronomy",
+        "history-of-science",
+        "patterns"
+      ]
+    },
+    "75": {
+      "idea": "idea-75",
+      "tags": [
+        "computer-history",
+        "programming",
+        "communication"
+      ]
+    },
+    "76": {
+      "idea": "idea-76",
+      "tags": [
+        "ancient-philosophy",
+        "analysis",
+        "limits"
+      ]
+    },
+    "77": {
+      "idea": "idea-36",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "patterns"
+      ]
+    },
+    "78": {
+      "idea": "idea-6",
+      "tags": [
+        "confucianism",
+        "ethics",
+        "confucius"
+      ]
+    },
+    "79": {
+      "idea": "idea-37",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "epicurus"
+      ]
+    },
+    "80": {
+      "idea": "idea-19",
+      "tags": [
+        "medieval-history",
+        "military-history",
+        "change"
+      ]
+    },
+    "81": {
+      "idea": "idea-1",
+      "tags": [
+        "macroeconomics",
+        "resources",
+        "keynes"
+      ]
+    },
+    "82": {
+      "idea": "idea-9",
+      "tags": [
+        "social-psychology",
+        "cognitive-biases",
+        "identity"
+      ]
+    },
+    "83": {
+      "idea": "idea-83",
+      "tags": [
+        "music",
+        "resilience"
+      ]
+    },
+    "84": {
+      "idea": "idea-84",
+      "tags": [
+        "optics",
+        "astronomy",
+        "knowledge-evidence"
+      ]
+    },
+    "85": {
+      "idea": "idea-85",
+      "tags": [
+        "history-of-science",
+        "astronomy",
+        "change"
+      ]
+    },
+    "86": {
+      "idea": "idea-86",
+      "tags": [
+        "stoicism",
+        "freedom",
+        "resilience"
+      ]
+    },
+    "87": {
+      "idea": "idea-87",
+      "tags": [
+        "ancient-philosophy",
+        "ethics",
+        "freedom"
+      ]
+    },
+    "88": {
+      "idea": "idea-17",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "89": {
+      "idea": "idea-16",
+      "tags": [
+        "ancient-philosophy",
+        "music",
+        "patterns"
+      ]
+    },
+    "90": {
+      "idea": "idea-86",
+      "tags": [
+        "stoicism",
+        "freedom",
+        "resilience"
+      ]
+    },
+    "91": {
+      "idea": "idea-49",
+      "tags": [
+        "medieval-history",
+        "economic-history",
+        "change"
+      ]
+    },
+    "92": {
+      "idea": "idea-92",
+      "tags": [
+        "microeconomics",
+        "cooperation",
+        "resources"
+      ]
+    },
+    "93": {
+      "idea": "idea-93",
+      "tags": [
+        "medicine",
+        "psychology",
+        "perceived-reality"
+      ]
+    },
+    "94": {
+      "idea": "idea-11",
+      "tags": [
+        "painting",
+        "military-history",
+        "communication"
+      ]
+    },
+    "95": {
+      "idea": "idea-12",
+      "tags": [
+        "quantum-physics",
+        "limits"
+      ]
+    },
+    "96": {
+      "idea": "idea-14",
+      "tags": [
+        "black-holes",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "97": {
+      "idea": "idea-55",
+      "tags": [
+        "artificial-intelligence",
+        "philosophy-of-mind",
+        "perceived-reality"
+      ]
+    },
+    "98": {
+      "idea": "idea-26",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "change"
+      ]
+    },
+    "99": {
+      "idea": "idea-18",
+      "tags": [
+        "taoism",
+        "resilience",
+        "laozi"
+      ]
+    },
+    "100": {
+      "idea": "idea-66",
+      "tags": [
+        "epistemology",
+        "ancient-philosophy",
+        "socrates"
+      ]
+    },
+    "101": {
+      "idea": "idea-101",
+      "tags": [
+        "archaeology",
+        "ancient-history",
+        "knowledge-evidence"
+      ]
+    },
+    "102": {
+      "idea": "idea-28",
+      "tags": [
+        "buddhism",
+        "ethics",
+        "resilience"
+      ]
+    },
+    "103": {
+      "idea": "idea-103",
+      "tags": [
+        "stoicism",
+        "resources",
+        "seneca"
+      ]
+    },
+    "104": {
+      "idea": "idea-29",
+      "tags": [
+        "archaeology",
+        "writing-systems",
+        "knowledge-evidence"
+      ]
+    },
+    "105": {
+      "idea": "idea-8",
+      "tags": [
+        "microeconomics",
+        "cooperation",
+        "adam-smith"
+      ]
+    },
+    "106": {
+      "idea": "idea-2",
+      "tags": [
+        "social-psychology",
+        "power"
+      ]
+    },
+    "107": {
+      "idea": "idea-47",
+      "tags": [
+        "epistemology",
+        "ancient-philosophy",
+        "perceived-reality",
+        "plato"
+      ]
+    },
+    "108": {
+      "idea": "idea-36",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "patterns"
+      ]
+    },
+    "109": {
+      "idea": "idea-109",
+      "tags": [
+        "taoism",
+        "philosophy-of-mind",
+        "identity"
+      ]
+    },
+    "110": {
+      "idea": "idea-38",
+      "tags": [
+        "mechanics",
+        "resources",
+        "archimedes"
+      ]
+    },
+    "111": {
+      "idea": "idea-39",
+      "tags": [
+        "archaeology",
+        "ancient-history",
+        "preservation"
+      ]
+    },
+    "112": {
+      "idea": "idea-112",
+      "tags": [
+        "institutions",
+        "ecology",
+        "cooperation"
+      ]
+    },
+    "113": {
+      "idea": "idea-113",
+      "tags": [
+        "chemistry",
+        "particle-physics",
+        "knowledge-evidence"
+      ]
+    },
+    "114": {
+      "idea": "idea-114",
+      "tags": [
+        "particle-physics",
+        "history-of-science",
+        "patterns"
+      ]
+    },
+    "115": {
+      "idea": "idea-115",
+      "tags": [
+        "spaceflight",
+        "innovation",
+        "moon"
+      ]
+    },
+    "116": {
+      "idea": "idea-116",
+      "tags": [
+        "number-theory",
+        "knowledge-evidence"
+      ]
+    },
+    "117": {
+      "idea": "idea-117",
+      "tags": [
+        "networks",
+        "human-computer-interaction",
+        "innovation"
+      ]
+    },
+    "118": {
+      "idea": "idea-118",
+      "tags": [
+        "modern-history",
+        "economic-history",
+        "cooperation"
+      ]
+    },
+    "119": {
+      "idea": "idea-119",
+      "tags": [
+        "learning-memory",
+        "patterns"
+      ]
+    },
+    "120": {
+      "idea": "idea-120",
+      "tags": [
+        "painting",
+        "preservation"
+      ]
+    },
+    "121": {
+      "idea": "idea-121",
+      "tags": [
+        "literature",
+        "perceived-reality"
+      ]
+    },
+    "122": {
+      "idea": "idea-122",
+      "tags": [
+        "epistemology",
+        "philosophy-of-mind",
+        "knowledge-evidence"
+      ]
+    },
+    "123": {
+      "idea": "idea-123",
+      "tags": [
+        "modern-history",
+        "power",
+        "freedom"
+      ]
+    },
+    "124": {
+      "idea": "idea-124",
+      "tags": [
+        "chemistry",
+        "microbiology",
+        "preservation"
+      ]
+    },
+    "125": {
+      "idea": "idea-125",
+      "tags": [
+        "optics",
+        "history-of-science",
+        "knowledge-evidence"
+      ]
+    },
+    "126": {
+      "idea": "idea-126",
+      "tags": [
+        "cosmology",
+        "patterns",
+        "change"
+      ]
+    },
+    "127": {
+      "idea": "idea-127",
+      "tags": [
+        "modern-history",
+        "geoscience",
+        "perceived-reality"
+      ]
+    },
+    "128": {
+      "idea": "idea-128",
+      "tags": [
+        "economic-history",
+        "finance",
+        "uncertainty"
+      ]
+    },
+    "129": {
+      "idea": "idea-129",
+      "tags": [
+        "learning-memory",
+        "social-psychology"
+      ]
+    },
+    "130": {
+      "idea": "idea-130",
+      "tags": [
+        "painting",
+        "perceived-reality"
+      ]
+    },
+    "131": {
+      "idea": "idea-131",
+      "tags": [
+        "literature",
+        "power",
+        "orwell"
+      ]
+    },
+    "132": {
+      "idea": "idea-132",
+      "tags": [
+        "modern-philosophy",
+        "ethics",
+        "change"
+      ]
+    },
+    "133": {
+      "idea": "idea-133",
+      "tags": [
+        "geometry",
+        "logic",
+        "patterns"
+      ]
+    },
+    "134": {
+      "idea": "idea-134",
+      "tags": [
+        "cryptography",
+        "computer-history",
+        "innovation"
+      ]
+    },
+    "135": {
+      "idea": "idea-135",
+      "tags": [
+        "modern-history",
+        "freedom",
+        "change"
+      ]
+    },
+    "136": {
+      "idea": "idea-136",
+      "tags": [
+        "thermodynamics",
+        "materials",
+        "change"
+      ]
+    },
+    "137": {
+      "idea": "idea-137",
+      "tags": [
+        "medicine",
+        "biology",
+        "innovation"
+      ]
+    },
+    "138": {
+      "idea": "idea-138",
+      "tags": [
+        "particle-physics",
+        "knowledge-evidence"
+      ]
+    },
+    "139": {
+      "idea": "idea-139",
+      "tags": [
+        "solar-system",
+        "patterns"
+      ]
+    },
+    "140": {
+      "idea": "idea-140",
+      "tags": [
+        "ancient-history",
+        "roman-empire",
+        "change"
+      ]
+    },
+    "141": {
+      "idea": "idea-141",
+      "tags": [
+        "economic-history",
+        "macroeconomics",
+        "cooperation"
+      ]
+    },
+    "142": {
+      "idea": "idea-142",
+      "tags": [
+        "social-psychology",
+        "cooperation"
+      ]
+    },
+    "143": {
+      "idea": "idea-143",
+      "tags": [
+        "painting",
+        "perceived-reality"
+      ]
+    },
+    "144": {
+      "idea": "idea-144",
+      "tags": [
+        "literature",
+        "communication",
+        "preservation"
+      ]
+    },
+    "145": {
+      "idea": "idea-145",
+      "tags": [
+        "epistemology",
+        "development",
+        "knowledge-evidence"
+      ]
+    },
+    "146": {
+      "idea": "idea-146",
+      "tags": [
+        "number-theory",
+        "history-of-science",
+        "india"
+      ]
+    },
+    "147": {
+      "idea": "idea-147",
+      "tags": [
+        "computer-history",
+        "programming",
+        "innovation"
+      ]
+    },
+    "148": {
+      "idea": "idea-148",
+      "tags": [
+        "film-technique",
+        "innovation"
+      ]
+    },
+    "149": {
+      "idea": "idea-149",
+      "tags": [
+        "sound",
+        "change"
+      ]
+    },
+    "150": {
+      "idea": "idea-150",
+      "tags": [
+        "film-technique",
+        "perceived-reality"
+      ]
+    },
+    "151": {
+      "idea": "idea-151",
+      "tags": [
+        "botany",
+        "patterns"
+      ]
+    },
+    "152": {
+      "idea": "idea-152",
+      "tags": [
+        "zoology",
+        "patterns"
+      ]
+    },
+    "153": {
+      "idea": "idea-153",
+      "tags": [
+        "electromagnetism",
+        "communication",
+        "innovation"
+      ]
+    },
+    "154": {
+      "idea": "idea-154",
+      "tags": [
+        "materials",
+        "quantum-physics",
+        "limits"
+      ]
+    },
+    "155": {
+      "idea": "idea-155",
+      "tags": [
+        "spaceflight",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "156": {
+      "idea": "idea-156",
+      "tags": [
+        "modern-history",
+        "military-history",
+        "cooperation"
+      ]
+    },
+    "157": {
+      "idea": "idea-157",
+      "tags": [
+        "microeconomics",
+        "organizations",
+        "adam-smith"
+      ]
+    },
+    "158": {
+      "idea": "idea-158",
+      "tags": [
+        "development",
+        "social-psychology",
+        "wellbeing"
+      ]
+    },
+    "159": {
+      "idea": "idea-159",
+      "tags": [
+        "painting",
+        "art-conservation",
+        "preservation"
+      ]
+    },
+    "160": {
+      "idea": "idea-160",
+      "tags": [
+        "literature",
+        "linguistics",
+        "communication"
+      ]
+    },
+    "161": {
+      "idea": "idea-161",
+      "tags": [
+        "ethics",
+        "political-philosophy",
+        "power"
+      ]
+    },
+    "162": {
+      "idea": "idea-162",
+      "tags": [
+        "number-theory",
+        "logic",
+        "limits"
+      ]
+    },
+    "163": {
+      "idea": "idea-163",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "knowledge-evidence"
+      ]
+    },
+    "164": {
+      "idea": "idea-164",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "patterns"
+      ]
+    },
+    "165": {
+      "idea": "idea-165",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "change"
+      ]
+    },
+    "166": {
+      "idea": "idea-166",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "change"
+      ]
+    },
+    "167": {
+      "idea": "idea-167",
+      "tags": [
+        "epistemology",
+        "ancient-philosophy",
+        "perceived-reality"
+      ]
+    },
+    "168": {
+      "idea": "idea-168",
+      "tags": [
+        "confucianism",
+        "ethics",
+        "development"
+      ]
+    },
+    "169": {
+      "idea": "idea-169",
+      "tags": [
+        "confucianism",
+        "ethics",
+        "development"
+      ]
+    },
+    "170": {
+      "idea": "idea-170",
+      "tags": [
+        "asian-philosophy",
+        "ethics",
+        "fairness"
+      ]
+    },
+    "171": {
+      "idea": "idea-171",
+      "tags": [
+        "asian-philosophy",
+        "political-science",
+        "incentives"
+      ]
+    },
+    "172": {
+      "idea": "idea-172",
+      "tags": [
+        "asian-philosophy",
+        "ethics",
+        "india"
+      ]
+    },
+    "173": {
+      "idea": "idea-173",
+      "tags": [
+        "asian-philosophy",
+        "metaphysics",
+        "identity",
+        "india"
+      ]
+    },
+    "174": {
+      "idea": "idea-174",
+      "tags": [
+        "asian-philosophy",
+        "epistemology",
+        "india"
+      ]
+    },
+    "175": {
+      "idea": "idea-175",
+      "tags": [
+        "buddhism",
+        "metaphysics",
+        "patterns"
+      ]
+    },
+    "176": {
+      "idea": "idea-176",
+      "tags": [
+        "asian-philosophy",
+        "epistemology",
+        "india"
+      ]
+    },
+    "177": {
+      "idea": "idea-177",
+      "tags": [
+        "ancient-philosophy",
+        "literature",
+        "preservation"
+      ]
+    },
+    "178": {
+      "idea": "idea-178",
+      "tags": [
+        "epistemology",
+        "ancient-philosophy",
+        "uncertainty"
+      ]
+    },
+    "179": {
+      "idea": "idea-179",
+      "tags": [
+        "law",
+        "political-philosophy",
+        "fairness"
+      ]
+    },
+    "180": {
+      "idea": "idea-180",
+      "tags": [
+        "ancient-philosophy",
+        "perceived-reality",
+        "identity"
+      ]
+    },
+    "181": {
+      "idea": "idea-181",
+      "tags": [
+        "ancient-philosophy",
+        "astronomy",
+        "sun"
+      ]
+    },
+    "182": {
+      "idea": "idea-182",
+      "tags": [
+        "philosophy-of-mind",
+        "metaphysics",
+        "identity"
+      ]
+    },
+    "183": {
+      "idea": "idea-183",
+      "tags": [
+        "epistemology",
+        "knowledge-evidence",
+        "resources"
+      ]
+    },
+    "184": {
+      "idea": "idea-184",
+      "tags": [
+        "ethics",
+        "logic",
+        "limits"
+      ]
+    },
+    "185": {
+      "idea": "idea-185",
+      "tags": [
+        "ethics",
+        "modern-philosophy",
+        "fairness"
+      ]
+    },
+    "186": {
+      "idea": "idea-186",
+      "tags": [
+        "political-philosophy",
+        "fairness",
+        "decision-making"
+      ]
+    },
+    "187": {
+      "idea": "idea-187",
+      "tags": [
+        "epistemology",
+        "knowledge-evidence"
+      ]
+    },
+    "188": {
+      "idea": "idea-188",
+      "tags": [
+        "ethics",
+        "decision-making",
+        "fairness"
+      ]
+    },
+    "189": {
+      "idea": "idea-189",
+      "tags": [
+        "existentialism",
+        "ethics",
+        "resilience"
+      ]
+    },
+    "190": {
+      "idea": "idea-190",
+      "tags": [
+        "philosophy-of-language",
+        "communication",
+        "patterns"
+      ]
+    },
+    "191": {
+      "idea": "idea-191",
+      "tags": [
+        "literature",
+        "ancient-history",
+        "limits"
+      ]
+    },
+    "192": {
+      "idea": "idea-192",
+      "tags": [
+        "archaeology",
+        "astronomy",
+        "innovation"
+      ]
+    },
+    "193": {
+      "idea": "idea-193",
+      "tags": [
+        "ancient-history",
+        "law",
+        "fairness"
+      ]
+    },
+    "194": {
+      "idea": "idea-194",
+      "tags": [
+        "ancient-history",
+        "archaeology",
+        "preservation",
+        "roman-empire"
+      ]
+    },
+    "195": {
+      "idea": "idea-195",
+      "tags": [
+        "archaeology",
+        "medieval-history",
+        "knowledge-evidence"
+      ]
+    },
+    "196": {
+      "idea": "idea-196",
+      "tags": [
+        "archaeology",
+        "ancient-history",
+        "power",
+        "china"
+      ]
+    },
+    "197": {
+      "idea": "idea-197",
+      "tags": [
+        "archaeology",
+        "change",
+        "knowledge-evidence"
+      ]
+    },
+    "198": {
+      "idea": "idea-198",
+      "tags": [
+        "economic-history",
+        "social-networks",
+        "communication"
+      ]
+    },
+    "199": {
+      "idea": "idea-199",
+      "tags": [
+        "ancient-history",
+        "preservation",
+        "knowledge-evidence"
+      ]
+    },
+    "200": {
+      "idea": "idea-200",
+      "tags": [
+        "modern-history",
+        "public-health",
+        "communication"
+      ]
+    },
+    "201": {
+      "idea": "idea-201",
+      "tags": [
+        "geoscience",
+        "modern-history",
+        "change"
+      ]
+    },
+    "202": {
+      "idea": "idea-202",
+      "tags": [
+        "optics",
+        "geoscience",
+        "china",
+        "perceived-reality"
+      ]
+    },
+    "203": {
+      "idea": "idea-203",
+      "tags": [
+        "botany",
+        "chemistry",
+        "resources"
+      ]
+    },
+    "204": {
+      "idea": "idea-204",
+      "tags": [
+        "evolution",
+        "genetics",
+        "cooperation"
+      ]
+    },
+    "205": {
+      "idea": "idea-205",
+      "tags": [
+        "public-health",
+        "microbiology",
+        "knowledge-evidence"
+      ]
+    },
+    "206": {
+      "idea": "idea-206",
+      "tags": [
+        "public-health",
+        "cooperation",
+        "innovation"
+      ]
+    },
+    "207": {
+      "idea": "idea-207",
+      "tags": [
+        "geoscience",
+        "change",
+        "knowledge-evidence"
+      ]
+    },
+    "208": {
+      "idea": "idea-208",
+      "tags": [
+        "archaeology",
+        "particle-physics",
+        "knowledge-evidence"
+      ]
+    },
+    "209": {
+      "idea": "idea-209",
+      "tags": [
+        "genetics",
+        "microbiology",
+        "innovation"
+      ]
+    },
+    "210": {
+      "idea": "idea-210",
+      "tags": [
+        "evolution",
+        "archaeology",
+        "change"
+      ]
+    },
+    "211": {
+      "idea": "idea-211",
+      "tags": [
+        "quantum-physics",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "212": {
+      "idea": "idea-212",
+      "tags": [
+        "quantum-physics",
+        "communication",
+        "limits"
+      ]
+    },
+    "213": {
+      "idea": "idea-213",
+      "tags": [
+        "relativity",
+        "black-holes",
+        "knowledge-evidence"
+      ]
+    },
+    "214": {
+      "idea": "idea-214",
+      "tags": [
+        "particle-physics",
+        "patterns",
+        "knowledge-evidence"
+      ]
+    },
+    "215": {
+      "idea": "idea-215",
+      "tags": [
+        "mechanics",
+        "optics",
+        "perception"
+      ]
+    },
+    "216": {
+      "idea": "idea-216",
+      "tags": [
+        "thermodynamics",
+        "limits"
+      ]
+    },
+    "217": {
+      "idea": "idea-217",
+      "tags": [
+        "mechanics",
+        "geoscience",
+        "knowledge-evidence"
+      ]
+    },
+    "218": {
+      "idea": "idea-218",
+      "tags": [
+        "spaceflight",
+        "communication",
+        "preservation"
+      ]
+    },
+    "219": {
+      "idea": "idea-219",
+      "tags": [
+        "cosmology",
+        "knowledge-evidence"
+      ]
+    },
+    "220": {
+      "idea": "idea-220",
+      "tags": [
+        "stars",
+        "uncertainty",
+        "knowledge-evidence"
+      ]
+    },
+    "221": {
+      "idea": "idea-221",
+      "tags": [
+        "solar-system",
+        "electromagnetism",
+        "resilience",
+        "sun"
+      ]
+    },
+    "222": {
+      "idea": "idea-222",
+      "tags": [
+        "geoscience",
+        "evolution",
+        "knowledge-evidence"
+      ]
+    },
+    "223": {
+      "idea": "idea-223",
+      "tags": [
+        "analysis",
+        "number-theory",
+        "patterns"
+      ]
+    },
+    "224": {
+      "idea": "idea-224",
+      "tags": [
+        "number-theory",
+        "logic",
+        "limits"
+      ]
+    },
+    "225": {
+      "idea": "idea-225",
+      "tags": [
+        "geometry",
+        "perceived-reality"
+      ]
+    },
+    "226": {
+      "idea": "idea-226",
+      "tags": [
+        "probability",
+        "decision-making"
+      ]
+    },
+    "227": {
+      "idea": "idea-227",
+      "tags": [
+        "probability",
+        "patterns"
+      ]
+    },
+    "228": {
+      "idea": "idea-228",
+      "tags": [
+        "combinatorics",
+        "algorithms",
+        "patterns"
+      ]
+    },
+    "229": {
+      "idea": "idea-229",
+      "tags": [
+        "analysis",
+        "logic",
+        "limits"
+      ]
+    },
+    "230": {
+      "idea": "idea-230",
+      "tags": [
+        "information-theory",
+        "uncertainty",
+        "communication"
+      ]
+    },
+    "231": {
+      "idea": "idea-231",
+      "tags": [
+        "cryptography",
+        "privacy",
+        "innovation"
+      ]
+    },
+    "232": {
+      "idea": "idea-232",
+      "tags": [
+        "computer-history",
+        "materials",
+        "change"
+      ]
+    },
+    "233": {
+      "idea": "idea-233",
+      "tags": [
+        "networks",
+        "computer-history",
+        "innovation"
+      ]
+    },
+    "234": {
+      "idea": "idea-234",
+      "tags": [
+        "artificial-intelligence",
+        "algorithms",
+        "limits"
+      ]
+    },
+    "235": {
+      "idea": "idea-235",
+      "tags": [
+        "complexity",
+        "logic",
+        "limits"
+      ]
+    },
+    "236": {
+      "idea": "idea-236",
+      "tags": [
+        "economic-history",
+        "finance",
+        "incentives"
+      ]
+    },
+    "237": {
+      "idea": "idea-237",
+      "tags": [
+        "finance",
+        "change",
+        "resources"
+      ]
+    },
+    "238": {
+      "idea": "idea-238",
+      "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "resources"
+      ]
+    },
+    "239": {
+      "idea": "idea-239",
+      "tags": [
+        "game-theory",
+        "cooperation",
+        "incentives"
+      ]
+    },
+    "240": {
+      "idea": "idea-240",
+      "tags": [
+        "microeconomics",
+        "social-networks",
+        "patterns"
+      ]
+    },
+    "241": {
+      "idea": "idea-241",
+      "tags": [
+        "social-psychology",
+        "decision-making"
+      ]
+    },
+    "242": {
+      "idea": "idea-242",
+      "tags": [
+        "learning-memory",
+        "knowledge-evidence"
+      ]
+    },
+    "243": {
+      "idea": "idea-243",
+      "tags": [
+        "learning-memory",
+        "motivation"
+      ]
+    },
+    "244": {
+      "idea": "idea-244",
+      "tags": [
+        "cognitive-biases",
+        "decision-making",
+        "communication"
+      ]
+    },
+    "245": {
+      "idea": "idea-245",
+      "tags": [
+        "cognitive-biases",
+        "decision-making"
+      ]
+    },
+    "246": {
+      "idea": "idea-246",
+      "tags": [
+        "perception",
+        "learning-memory",
+        "limits"
+      ]
+    },
+    "247": {
+      "idea": "idea-247",
+      "tags": [
+        "sleep",
+        "learning-memory",
+        "wellbeing"
+      ]
+    },
+    "248": {
+      "idea": "idea-248",
+      "tags": [
+        "archaeology",
+        "art-conservation",
+        "preservation"
+      ]
+    },
+    "249": {
+      "idea": "idea-249",
+      "tags": [
+        "painting",
+        "communication",
+        "change"
+      ]
+    },
+    "250": {
+      "idea": "idea-250",
+      "tags": [
+        "music",
+        "modern-history",
+        "change"
+      ]
+    },
+    "251": {
+      "idea": "idea-251",
+      "tags": [
+        "music",
+        "preservation"
+      ]
+    },
+    "252": {
+      "idea": "idea-252",
+      "tags": [
+        "painting",
+        "communication",
+        "change"
+      ]
+    },
+    "253": {
+      "idea": "idea-253",
+      "tags": [
+        "literature",
+        "geoscience",
+        "change"
+      ]
+    },
+    "254": {
+      "idea": "idea-254",
+      "tags": [
+        "literature",
+        "preservation",
+        "shakespeare"
+      ]
+    },
+    "255": {
+      "idea": "idea-255",
+      "tags": [
+        "literature",
+        "law",
+        "freedom"
+      ]
+    },
+    "256": {
+      "idea": "idea-256",
+      "tags": [
+        "film-technique",
+        "perception"
+      ]
+    },
+    "257": {
+      "idea": "idea-257",
+      "tags": [
+        "animation",
+        "computer-history",
+        "innovation"
+      ]
+    },
+    "258": {
+      "idea": "idea-258",
+      "tags": [
+        "cinema",
+        "knowledge-evidence",
+        "perceived-reality"
+      ]
+    },
+    "259": {
+      "idea": "idea-259",
+      "tags": [
+        "film-technique",
+        "communication"
+      ]
+    },
+    "260": {
+      "idea": "idea-260",
+      "tags": [
+        "human-rights",
+        "international-relations",
+        "fairness"
+      ]
+    },
+    "261": {
+      "idea": "idea-261",
+      "tags": [
+        "democracy",
+        "human-rights",
+        "fairness"
+      ]
+    },
+    "262": {
+      "idea": "idea-262",
+      "tags": [
+        "ancient-history",
+        "democracy",
+        "power",
+        "ancient-athens"
+      ]
+    },
+    "263": {
+      "idea": "idea-263",
+      "tags": [
+        "logic",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "264": {
+      "idea": "idea-264",
+      "tags": [
+        "philosophy-of-language",
+        "writing-systems",
+        "plato"
+      ]
+    },
+    "265": {
+      "idea": "idea-265",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "266": {
+      "idea": "idea-266",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "epicurus"
+      ]
+    },
+    "267": {
+      "idea": "idea-267",
+      "tags": [
+        "asian-philosophy",
+        "military-history",
+        "resources",
+        "china"
+      ]
+    },
+    "268": {
+      "idea": "idea-268",
+      "tags": [
+        "ancient-history",
+        "ethics",
+        "power",
+        "india"
+      ]
+    },
+    "269": {
+      "idea": "idea-269",
+      "tags": [
+        "writing-systems",
+        "communication",
+        "innovation",
+        "china"
+      ]
+    },
+    "270": {
+      "idea": "idea-270",
+      "tags": [
+        "archaeology",
+        "ancient-history",
+        "roman-empire"
+      ]
+    },
+    "271": {
+      "idea": "idea-271",
+      "tags": [
+        "modern-history",
+        "archaeology",
+        "uncertainty"
+      ]
+    },
+    "272": {
+      "idea": "idea-272",
+      "tags": [
+        "economic-history",
+        "chemistry",
+        "resources"
+      ]
+    },
+    "273": {
+      "idea": "idea-273",
+      "tags": [
+        "zoology",
+        "resilience",
+        "limits"
+      ]
+    },
+    "274": {
+      "idea": "idea-274",
+      "tags": [
+        "botany",
+        "genetics",
+        "identity"
+      ]
+    },
+    "275": {
+      "idea": "idea-275",
+      "tags": [
+        "geoscience",
+        "patterns"
+      ]
+    },
+    "276": {
+      "idea": "idea-276",
+      "tags": [
+        "electromagnetism",
+        "geoscience",
+        "patterns"
+      ]
+    },
+    "277": {
+      "idea": "idea-277",
+      "tags": [
+        "geoscience",
+        "geometry",
+        "perceived-reality"
+      ]
+    },
+    "278": {
+      "idea": "idea-278",
+      "tags": [
+        "zoology",
+        "nutrition",
+        "change"
+      ]
+    },
+    "279": {
+      "idea": "idea-279",
+      "tags": [
+        "sound",
+        "communication",
+        "preservation"
+      ]
+    },
+    "280": {
+      "idea": "idea-280",
+      "tags": [
+        "film-technique",
+        "resources"
+      ]
+    },
+    "281": {
+      "idea": "idea-281",
+      "tags": [
+        "cinema",
+        "art-conservation",
+        "preservation"
+      ]
+    },
+    "282": {
+      "idea": "idea-282",
+      "tags": [
+        "sound",
+        "perceived-reality",
+        "innovation"
+      ]
+    },
+    "283": {
+      "idea": "idea-283",
+      "tags": [
+        "democracy",
+        "decision-making"
+      ]
+    },
+    "284": {
+      "idea": "idea-284",
+      "tags": [
+        "law",
+        "military-history",
+        "freedom"
+      ]
+    },
+    "285": {
+      "idea": "idea-285",
+      "tags": [
+        "international-relations",
+        "military-history",
+        "uncertainty"
+      ]
+    },
+    "286": {
+      "idea": "idea-286",
+      "tags": [
+        "human-rights",
+        "military-history"
+      ]
+    },
+    "287": {
+      "idea": "idea-287",
+      "tags": [
+        "political-science",
+        "law",
+        "power"
+      ]
+    },
+    "288": {
+      "idea": "idea-288",
+      "tags": [
+        "spaceflight",
+        "ecology",
+        "saturn"
+      ]
+    },
+    "289": {
+      "idea": "idea-289",
+      "tags": [
+        "spaceflight",
+        "mechanics",
+        "innovation",
+        "mars"
+      ]
+    },
+    "290": {
+      "idea": "idea-290",
+      "tags": [
+        "cosmology",
+        "knowledge-evidence"
+      ]
+    },
+    "291": {
+      "idea": "idea-291",
+      "tags": [
+        "cosmology",
+        "optics",
+        "limits"
+      ]
+    },
+    "292": {
+      "idea": "idea-292",
+      "tags": [
+        "solar-system",
+        "mechanics",
+        "change",
+        "moon"
+      ]
+    },
+    "293": {
+      "idea": "idea-293",
+      "tags": [
+        "solar-system",
+        "uncertainty",
+        "knowledge-evidence"
+      ]
+    },
+    "294": {
+      "idea": "idea-294",
+      "tags": [
+        "geoscience",
+        "solar-system",
+        "uncertainty"
+      ]
+    },
+    "295": {
+      "idea": "idea-295",
+      "tags": [
+        "optics",
+        "geoscience",
+        "perception"
+      ]
+    },
+    "296": {
+      "idea": "idea-296",
+      "tags": [
+        "relativity",
+        "spaceflight",
+        "innovation",
+        "einstein"
+      ]
+    },
+    "297": {
+      "idea": "idea-297",
+      "tags": [
+        "electromagnetism",
+        "innovation"
+      ]
+    },
+    "298": {
+      "idea": "idea-298",
+      "tags": [
+        "medicine",
+        "genetics",
+        "knowledge-evidence"
+      ]
+    },
+    "299": {
+      "idea": "idea-299",
+      "tags": [
+        "evolution",
+        "genetics",
+        "identity"
+      ]
+    },
+    "300": {
+      "idea": "idea-300",
+      "tags": [
+        "microbiology",
+        "ecology",
+        "resources"
+      ]
+    },
+    "301": {
+      "idea": "idea-301",
+      "tags": [
+        "botany",
+        "geometry",
+        "patterns"
+      ]
+    },
+    "302": {
+      "idea": "idea-302",
+      "tags": [
+        "combinatorics",
+        "algorithms",
+        "knowledge-evidence"
+      ]
+    },
+    "303": {
+      "idea": "idea-303",
+      "tags": [
+        "statistics",
+        "patterns",
+        "knowledge-evidence"
+      ]
+    },
+    "304": {
+      "idea": "idea-304",
+      "tags": [
+        "statistics",
+        "economics",
+        "resources"
+      ]
+    },
+    "305": {
+      "idea": "idea-305",
+      "tags": [
+        "macroeconomics",
+        "perceived-reality"
+      ]
+    },
+    "306": {
+      "idea": "idea-306",
+      "tags": [
+        "economic-history",
+        "macroeconomics",
+        "uncertainty"
+      ]
+    },
+    "307": {
+      "idea": "idea-307",
+      "tags": [
+        "art-conservation",
+        "perceived-reality",
+        "preservation"
+      ]
+    },
+    "308": {
+      "idea": "idea-308",
+      "tags": [
+        "architecture",
+        "resources"
+      ]
+    },
+    "309": {
+      "idea": "idea-309",
+      "tags": [
+        "painting",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "310": {
+      "idea": "idea-310",
+      "tags": [
+        "narratology",
+        "identity"
+      ]
+    },
+    "311": {
+      "idea": "idea-311",
+      "tags": [
+        "narratology",
+        "preservation"
+      ]
+    },
+    "312": {
+      "idea": "idea-312",
+      "tags": [
+        "human-computer-interaction",
+        "institutions",
+        "change"
+      ]
+    },
+    "413": {
+      "idea": "idea-413",
+      "tags": [
+        "learning-memory",
+        "motivation",
+        "resilience"
+      ]
+    },
+    "414": {
+      "idea": "idea-414",
+      "tags": [
+        "cognitive-biases",
+        "perceived-reality"
+      ]
+    },
+    "415": {
+      "idea": "idea-415",
+      "tags": [
+        "social-psychology",
+        "perception"
+      ]
+    },
+    "416": {
+      "idea": "idea-416",
+      "tags": [
+        "development",
+        "decision-making",
+        "knowledge-evidence"
+      ]
+    },
+    "417": {
+      "idea": "idea-417",
+      "tags": [
+        "motivation",
+        "learning-memory",
+        "wellbeing"
+      ]
+    },
+    "418": {
+      "idea": "idea-418",
+      "tags": [
+        "development",
+        "social-psychology",
+        "identity"
+      ]
+    },
+    "419": {
+      "idea": "idea-419",
+      "tags": [
+        "motivation",
+        "incentives"
+      ]
+    },
+    "420": {
+      "idea": "idea-420",
+      "tags": [
+        "social-psychology",
+        "learning-memory",
+        "perceived-reality"
+      ]
+    },
+    "421": {
+      "idea": "idea-421",
+      "tags": [
+        "cognitive-biases",
+        "social-psychology"
+      ]
+    },
+    "422": {
+      "idea": "idea-422",
+      "tags": [
+        "cognitive-biases",
+        "learning-memory"
+      ]
+    },
+    "423": {
+      "idea": "idea-423",
+      "tags": [
+        "cognitive-biases",
+        "resources",
+        "identity"
+      ]
+    },
+    "424": {
+      "idea": "idea-424",
+      "tags": [
+        "social-psychology",
+        "perception",
+        "identity"
+      ]
+    },
+    "425": {
+      "idea": "idea-425",
+      "tags": [
+        "cognitive-biases",
+        "identity",
+        "knowledge-evidence"
+      ]
+    },
+    "426": {
+      "idea": "idea-426",
+      "tags": [
+        "decision-making",
+        "cognitive-biases",
+        "limits"
+      ]
+    },
+    "427": {
+      "idea": "idea-427",
+      "tags": [
+        "cognitive-biases",
+        "communication",
+        "knowledge-evidence"
+      ]
+    },
+    "428": {
+      "idea": "idea-428",
+      "tags": [
+        "computer-history",
+        "programming",
+        "resources"
+      ]
+    },
+    "429": {
+      "idea": "idea-429",
+      "tags": [
+        "logic",
+        "programming",
+        "patterns"
+      ]
+    },
+    "430": {
+      "idea": "idea-430",
+      "tags": [
+        "human-computer-interaction",
+        "information-theory",
+        "innovation"
+      ]
+    },
+    "431": {
+      "idea": "idea-431",
+      "tags": [
+        "networks",
+        "communication",
+        "innovation"
+      ]
+    },
+    "432": {
+      "idea": "idea-432",
+      "tags": [
+        "programming",
+        "computer-history",
+        "resilience"
+      ]
+    },
+    "433": {
+      "idea": "idea-433",
+      "tags": [
+        "networks",
+        "resources",
+        "resilience"
+      ]
+    },
+    "434": {
+      "idea": "idea-434",
+      "tags": [
+        "complexity",
+        "logic",
+        "limits"
+      ]
+    },
+    "435": {
+      "idea": "idea-435",
+      "tags": [
+        "networks",
+        "human-computer-interaction",
+        "innovation"
+      ]
+    },
+    "436": {
+      "idea": "idea-436",
+      "tags": [
+        "computer-history",
+        "cryptography",
+        "innovation"
+      ]
+    },
+    "437": {
+      "idea": "idea-437",
+      "tags": [
+        "spaceflight",
+        "human-computer-interaction",
+        "change"
+      ]
+    },
+    "438": {
+      "idea": "idea-438",
+      "tags": [
+        "computer-security",
+        "artificial-intelligence",
+        "limits"
+      ]
+    },
+    "439": {
+      "idea": "idea-439",
+      "tags": [
+        "computer-security",
+        "networks",
+        "resilience"
+      ]
+    },
+    "440": {
+      "idea": "idea-440",
+      "tags": [
+        "evolution",
+        "zoology",
+        "change"
+      ]
+    },
+    "441": {
+      "idea": "idea-441",
+      "tags": [
+        "zoology",
+        "mechanics",
+        "patterns"
+      ]
+    },
+    "442": {
+      "idea": "idea-442",
+      "tags": [
+        "zoology",
+        "development",
+        "resilience"
+      ]
+    },
+    "443": {
+      "idea": "idea-443",
+      "tags": [
+        "thermodynamics",
+        "chemistry",
+        "patterns"
+      ]
+    },
+    "444": {
+      "idea": "idea-444",
+      "tags": [
+        "botany",
+        "chemistry",
+        "perception"
+      ]
+    },
+    "445": {
+      "idea": "idea-445",
+      "tags": [
+        "biology",
+        "chemistry",
+        "perception"
+      ]
+    },
+    "446": {
+      "idea": "idea-446",
+      "tags": [
+        "zoology",
+        "learning-memory",
+        "knowledge-evidence"
+      ]
+    },
+    "447": {
+      "idea": "idea-447",
+      "tags": [
+        "neuroscience",
+        "identity",
+        "knowledge-evidence"
+      ]
+    },
+    "448": {
+      "idea": "idea-448",
+      "tags": [
+        "optics",
+        "medicine",
+        "perception"
+      ]
+    },
+    "449": {
+      "idea": "idea-449",
+      "tags": [
+        "botany",
+        "neuroscience",
+        "decision-making"
+      ]
+    },
+    "450": {
+      "idea": "idea-450",
+      "tags": [
+        "geoscience",
+        "mechanics",
+        "change"
+      ]
+    },
+    "451": {
+      "idea": "idea-451",
+      "tags": [
+        "particle-physics",
+        "nutrition",
+        "knowledge-evidence"
+      ]
+    },
+    "452": {
+      "idea": "idea-452",
+      "tags": [
+        "animation",
+        "film-technique",
+        "innovation"
+      ]
+    },
+    "453": {
+      "idea": "idea-453",
+      "tags": [
+        "animation",
+        "innovation"
+      ]
+    },
+    "454": {
+      "idea": "idea-454",
+      "tags": [
+        "cinema",
+        "military-history",
+        "communication"
+      ]
+    },
+    "455": {
+      "idea": "idea-455",
+      "tags": [
+        "cinema",
+        "uncertainty",
+        "resources"
+      ]
+    },
+    "456": {
+      "idea": "idea-456",
+      "tags": [
+        "cinema",
+        "perception",
+        "communication"
+      ]
+    },
+    "457": {
+      "idea": "idea-457",
+      "tags": [
+        "optics",
+        "cinema",
+        "perception"
+      ]
+    },
+    "458": {
+      "idea": "idea-458",
+      "tags": [
+        "sound",
+        "innovation",
+        "perceived-reality"
+      ]
+    },
+    "459": {
+      "idea": "idea-459",
+      "tags": [
+        "animation",
+        "film-technique",
+        "identity"
+      ]
+    },
+    "460": {
+      "idea": "idea-460",
+      "tags": [
+        "sound",
+        "information-theory",
+        "innovation"
+      ]
+    },
+    "461": {
+      "idea": "idea-461",
+      "tags": [
+        "film-technique",
+        "optics",
+        "innovation"
+      ]
+    },
+    "462": {
+      "idea": "idea-462",
+      "tags": [
+        "sculpture",
+        "archaeology",
+        "uncertainty"
+      ]
+    },
+    "463": {
+      "idea": "idea-463",
+      "tags": [
+        "sculpture",
+        "resources",
+        "innovation"
+      ]
+    },
+    "464": {
+      "idea": "idea-464",
+      "tags": [
+        "painting",
+        "preservation"
+      ]
+    },
+    "465": {
+      "idea": "idea-465",
+      "tags": [
+        "painting",
+        "communication",
+        "patterns"
+      ]
+    },
+    "466": {
+      "idea": "idea-466",
+      "tags": [
+        "sculpture",
+        "identity",
+        "change"
+      ]
+    },
+    "467": {
+      "idea": "idea-467",
+      "tags": [
+        "painting",
+        "innovation"
+      ]
+    },
+    "468": {
+      "idea": "idea-468",
+      "tags": [
+        "painting",
+        "finance",
+        "perceived-reality"
+      ]
+    },
+    "469": {
+      "idea": "idea-469",
+      "tags": [
+        "painting",
+        "optics",
+        "perception"
+      ]
+    },
+    "470": {
+      "idea": "idea-470",
+      "tags": [
+        "painting",
+        "patterns"
+      ]
+    },
+    "471": {
+      "idea": "idea-471",
+      "tags": [
+        "sculpture",
+        "archaeology",
+        "uncertainty"
+      ]
+    },
+    "472": {
+      "idea": "idea-472",
+      "tags": [
+        "microeconomics",
+        "resources",
+        "decision-making"
+      ]
+    },
+    "473": {
+      "idea": "idea-473",
+      "tags": [
+        "microeconomics",
+        "cognitive-biases",
+        "decision-making"
+      ]
+    },
+    "474": {
+      "idea": "idea-474",
+      "tags": [
+        "economic-history",
+        "finance",
+        "incentives"
+      ]
+    },
+    "475": {
+      "idea": "idea-475",
+      "tags": [
+        "macroeconomics",
+        "incentives",
+        "resources"
+      ]
+    },
+    "476": {
+      "idea": "idea-476",
+      "tags": [
+        "microeconomics",
+        "ecology",
+        "incentives"
+      ]
+    },
+    "477": {
+      "idea": "idea-477",
+      "tags": [
+        "finance",
+        "fairness",
+        "knowledge-evidence"
+      ]
+    },
+    "478": {
+      "idea": "idea-478",
+      "tags": [
+        "macroeconomics",
+        "uncertainty"
+      ]
+    },
+    "479": {
+      "idea": "idea-479",
+      "tags": [
+        "macroeconomics",
+        "uncertainty",
+        "incentives"
+      ]
+    },
+    "480": {
+      "idea": "idea-480",
+      "tags": [
+        "game-theory",
+        "cooperation",
+        "privacy"
+      ]
+    },
+    "481": {
+      "idea": "idea-481",
+      "tags": [
+        "microeconomics",
+        "resources"
+      ]
+    },
+    "482": {
+      "idea": "idea-482",
+      "tags": [
+        "international-relations",
+        "law",
+        "power"
+      ]
+    },
+    "483": {
+      "idea": "idea-483",
+      "tags": [
+        "international-relations",
+        "modern-history",
+        "power"
+      ]
+    },
+    "484": {
+      "idea": "idea-484",
+      "tags": [
+        "law",
+        "democracy",
+        "power"
+      ]
+    },
+    "485": {
+      "idea": "idea-485",
+      "tags": [
+        "democracy",
+        "fairness",
+        "power"
+      ]
+    },
+    "486": {
+      "idea": "idea-486",
+      "tags": [
+        "democracy",
+        "law",
+        "power"
+      ]
+    },
+    "487": {
+      "idea": "idea-487",
+      "tags": [
+        "modern-history",
+        "democracy",
+        "freedom"
+      ]
+    },
+    "488": {
+      "idea": "idea-488",
+      "tags": [
+        "modern-history",
+        "human-rights",
+        "freedom",
+        "india"
+      ]
+    },
+    "489": {
+      "idea": "idea-489",
+      "tags": [
+        "international-relations",
+        "institutions",
+        "limits"
+      ]
+    },
+    "490": {
+      "idea": "idea-490",
+      "tags": [
+        "democracy",
+        "law",
+        "power"
+      ]
+    },
+    "491": {
+      "idea": "idea-491",
+      "tags": [
+        "democracy",
+        "human-rights",
+        "fairness"
+      ]
+    },
+    "492": {
+      "idea": "idea-492",
+      "tags": [
+        "probability",
+        "statistics",
+        "knowledge-evidence"
+      ]
+    },
+    "493": {
+      "idea": "idea-493",
+      "tags": [
+        "probability",
+        "statistics",
+        "uncertainty"
+      ]
+    },
+    "494": {
+      "idea": "idea-494",
+      "tags": [
+        "statistics",
+        "knowledge-evidence"
+      ]
+    },
+    "495": {
+      "idea": "idea-495",
+      "tags": [
+        "geometry",
+        "logic",
+        "limits"
+      ]
+    },
+    "496": {
+      "idea": "idea-496",
+      "tags": [
+        "analysis",
+        "uncertainty",
+        "patterns"
+      ]
+    },
+    "497": {
+      "idea": "idea-497",
+      "tags": [
+        "geometry",
+        "patterns"
+      ]
+    },
+    "498": {
+      "idea": "idea-498",
+      "tags": [
+        "algorithms",
+        "combinatorics",
+        "patterns"
+      ]
+    },
+    "499": {
+      "idea": "idea-499",
+      "tags": [
+        "number-theory",
+        "patterns"
+      ]
+    },
+    "500": {
+      "idea": "idea-500",
+      "tags": [
+        "geometry",
+        "analysis",
+        "archimedes"
+      ]
+    },
+    "501": {
+      "idea": "idea-501",
+      "tags": [
+        "number-theory",
+        "analysis",
+        "innovation"
+      ]
+    },
+    "502": {
+      "idea": "idea-502",
+      "tags": [
+        "public-health",
+        "microbiology",
+        "innovation"
+      ]
+    },
+    "503": {
+      "idea": "idea-503",
+      "tags": [
+        "biology",
+        "patterns"
+      ]
+    },
+    "504": {
+      "idea": "idea-504",
+      "tags": [
+        "microbiology",
+        "public-health",
+        "knowledge-evidence"
+      ]
+    },
+    "505": {
+      "idea": "idea-505",
+      "tags": [
+        "nutrition",
+        "knowledge-evidence"
+      ]
+    },
+    "506": {
+      "idea": "idea-506",
+      "tags": [
+        "optics",
+        "medicine",
+        "innovation"
+      ]
+    },
+    "507": {
+      "idea": "idea-507",
+      "tags": [
+        "particle-physics",
+        "chemistry",
+        "knowledge-evidence"
+      ]
+    },
+    "508": {
+      "idea": "idea-508",
+      "tags": [
+        "genetics",
+        "development",
+        "innovation"
+      ]
+    },
+    "509": {
+      "idea": "idea-509",
+      "tags": [
+        "zoology",
+        "perception",
+        "patterns"
+      ]
+    },
+    "510": {
+      "idea": "idea-510",
+      "tags": [
+        "genetics",
+        "development",
+        "limits"
+      ]
+    },
+    "511": {
+      "idea": "idea-511",
+      "tags": [
+        "microbiology",
+        "evolution",
+        "resilience"
+      ]
+    },
+    "512": {
+      "idea": "idea-512",
+      "tags": [
+        "medicine",
+        "biology",
+        "knowledge-evidence"
+      ]
+    },
+    "513": {
+      "idea": "idea-513",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "cooperation"
+      ]
+    },
+    "514": {
+      "idea": "idea-514",
+      "tags": [
+        "ancient-history",
+        "decision-making",
+        "perceived-reality"
+      ]
+    },
+    "515": {
+      "idea": "idea-515",
+      "tags": [
+        "ancient-history",
+        "architecture",
+        "power"
+      ]
+    },
+    "516": {
+      "idea": "idea-516",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "roman-empire"
+      ]
+    },
+    "517": {
+      "idea": "idea-517",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "innovation",
+        "roman-empire"
+      ]
+    },
+    "518": {
+      "idea": "idea-518",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "resources",
+        "roman-empire"
+      ]
+    },
+    "519": {
+      "idea": "idea-519",
+      "tags": [
+        "ancient-history",
+        "institutions",
+        "fairness",
+        "roman-empire"
+      ]
+    },
+    "520": {
+      "idea": "idea-520",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "incentives",
+        "roman-empire"
+      ]
+    },
+    "521": {
+      "idea": "idea-521",
+      "tags": [
+        "ancient-history",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "522": {
+      "idea": "idea-522",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "523": {
+      "idea": "idea-523",
+      "tags": [
+        "ancient-history",
+        "identity",
+        "roman-empire"
+      ]
+    },
+    "524": {
+      "idea": "idea-524",
+      "tags": [
+        "ancient-history",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "525": {
+      "idea": "idea-525",
+      "tags": [
+        "ancient-history",
+        "law",
+        "fairness",
+        "roman-empire"
+      ]
+    },
+    "526": {
+      "idea": "idea-526",
+      "tags": [
+        "ancient-history",
+        "astronomy",
+        "patterns",
+        "roman-empire"
+      ]
+    },
+    "527": {
+      "idea": "idea-527",
+      "tags": [
+        "ancient-history",
+        "society",
+        "change",
+        "roman-empire"
+      ]
+    },
+    "528": {
+      "idea": "idea-528",
+      "tags": [
+        "ancient-history",
+        "communication",
+        "organizations",
+        "roman-empire"
+      ]
+    },
+    "529": {
+      "idea": "idea-529",
+      "tags": [
+        "ancient-history",
+        "architecture",
+        "public-health",
+        "roman-empire"
+      ]
+    },
+    "530": {
+      "idea": "idea-530",
+      "tags": [
+        "ancient-history",
+        "architecture",
+        "resilience",
+        "roman-empire"
+      ]
+    },
+    "531": {
+      "idea": "idea-531",
+      "tags": [
+        "ancient-history",
+        "power",
+        "incentives",
+        "roman-empire"
+      ]
+    },
+    "532": {
+      "idea": "idea-532",
+      "tags": [
+        "ancient-history",
+        "macroeconomics",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "533": {
+      "idea": "idea-533",
+      "tags": [
+        "law",
+        "medieval-history",
+        "preservation",
+        "roman-empire"
+      ]
+    },
+    "534": {
+      "idea": "idea-534",
+      "tags": [
+        "architecture",
+        "medieval-history",
+        "innovation"
+      ]
+    },
+    "535": {
+      "idea": "idea-535",
+      "tags": [
+        "military-history",
+        "chemistry",
+        "privacy"
+      ]
+    },
+    "536": {
+      "idea": "idea-536",
+      "tags": [
+        "ancient-history",
+        "communication",
+        "uncertainty"
+      ]
+    },
+    "537": {
+      "idea": "idea-537",
+      "tags": [
+        "ancient-history",
+        "economic-history",
+        "change"
+      ]
+    },
+    "538": {
+      "idea": "idea-538",
+      "tags": [
+        "ancient-history",
+        "international-relations",
+        "power",
+        "ancient-athens"
+      ]
+    },
+    "539": {
+      "idea": "idea-539",
+      "tags": [
+        "ancient-history",
+        "sociology",
+        "communication"
+      ]
+    },
+    "540": {
+      "idea": "idea-540",
+      "tags": [
+        "writing-systems",
+        "ancient-history",
+        "innovation"
+      ]
+    },
+    "541": {
+      "idea": "idea-541",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "democracy",
+        "ancient-athens"
+      ]
+    },
+    "542": {
+      "idea": "idea-542",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "cooperation"
+      ]
+    },
+    "543": {
+      "idea": "idea-543",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "resilience"
+      ]
+    },
+    "544": {
+      "idea": "idea-544",
+      "tags": [
+        "ancient-history",
+        "architecture",
+        "innovation"
+      ]
+    },
+    "545": {
+      "idea": "idea-545",
+      "tags": [
+        "ancient-history",
+        "sculpture",
+        "knowledge-evidence"
+      ]
+    },
+    "546": {
+      "idea": "idea-546",
+      "tags": [
+        "ancient-history",
+        "sociology",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "547": {
+      "idea": "idea-547",
+      "tags": [
+        "ancient-history",
+        "organizations",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "548": {
+      "idea": "idea-548",
+      "tags": [
+        "exoplanets",
+        "biology",
+        "limits"
+      ]
+    },
+    "549": {
+      "idea": "idea-549",
+      "tags": [
+        "stars",
+        "change",
+        "sun"
+      ]
+    },
+    "550": {
+      "idea": "idea-550",
+      "tags": [
+        "stars",
+        "quantum-physics",
+        "limits"
+      ]
+    },
+    "551": {
+      "idea": "idea-551",
+      "tags": [
+        "stars",
+        "electromagnetism",
+        "limits"
+      ]
+    },
+    "552": {
+      "idea": "idea-552",
+      "tags": [
+        "black-holes",
+        "quantum-physics",
+        "limits"
+      ]
+    },
+    "553": {
+      "idea": "idea-553",
+      "tags": [
+        "black-holes",
+        "relativity",
+        "limits"
+      ]
+    },
+    "554": {
+      "idea": "idea-554",
+      "tags": [
+        "black-holes",
+        "mechanics",
+        "limits"
+      ]
+    },
+    "555": {
+      "idea": "idea-555",
+      "tags": [
+        "relativity",
+        "optics",
+        "knowledge-evidence",
+        "einstein"
+      ]
+    },
+    "556": {
+      "idea": "idea-556",
+      "tags": [
+        "cosmology",
+        "uncertainty",
+        "knowledge-evidence"
+      ]
+    },
+    "557": {
+      "idea": "idea-557",
+      "tags": [
+        "stars",
+        "cosmology",
+        "knowledge-evidence"
+      ]
+    },
+    "558": {
+      "idea": "idea-126",
+      "tags": [
+        "cosmology",
+        "patterns",
+        "change"
+      ]
+    },
+    "559": {
+      "idea": "idea-559",
+      "tags": [
+        "astronomy",
+        "biology",
+        "uncertainty"
+      ]
+    },
+    "560": {
+      "idea": "idea-560",
+      "tags": [
+        "astronomy",
+        "probability",
+        "uncertainty"
+      ]
+    },
+    "561": {
+      "idea": "idea-561",
+      "tags": [
+        "astronomy",
+        "communication",
+        "uncertainty"
+      ]
+    },
+    "562": {
+      "idea": "idea-562",
+      "tags": [
+        "spaceflight",
+        "communication",
+        "identity"
+      ]
+    },
+    "563": {
+      "idea": "idea-563",
+      "tags": [
+        "spaceflight",
+        "international-relations",
+        "innovation"
+      ]
+    },
+    "564": {
+      "idea": "idea-564",
+      "tags": [
+        "spaceflight",
+        "innovation",
+        "limits"
+      ]
+    },
+    "565": {
+      "idea": "idea-565",
+      "tags": [
+        "spaceflight",
+        "cooperation",
+        "resilience"
+      ]
+    },
+    "566": {
+      "idea": "idea-566",
+      "tags": [
+        "spaceflight",
+        "optics",
+        "innovation"
+      ]
+    },
+    "567": {
+      "idea": "idea-567",
+      "tags": [
+        "exoplanets",
+        "stars",
+        "patterns"
+      ]
+    },
+    "568": {
+      "idea": "idea-568",
+      "tags": [
+        "exoplanets",
+        "mechanics",
+        "change"
+      ]
+    },
+    "569": {
+      "idea": "idea-569",
+      "tags": [
+        "stars",
+        "particle-physics",
+        "limits"
+      ]
+    },
+    "570": {
+      "idea": "idea-570",
+      "tags": [
+        "stars",
+        "change"
+      ]
+    },
+    "571": {
+      "idea": "idea-571",
+      "tags": [
+        "stars",
+        "particle-physics",
+        "change"
+      ]
+    },
+    "572": {
+      "idea": "idea-572",
+      "tags": [
+        "stars",
+        "cosmology",
+        "knowledge-evidence"
+      ]
+    },
+    "573": {
+      "idea": "idea-573",
+      "tags": [
+        "stars",
+        "black-holes",
+        "limits"
+      ]
+    },
+    "574": {
+      "idea": "idea-574",
+      "tags": [
+        "cosmology",
+        "patterns"
+      ]
+    },
+    "575": {
+      "idea": "idea-575",
+      "tags": [
+        "astronomy",
+        "electromagnetism",
+        "innovation"
+      ]
+    },
+    "576": {
+      "idea": "idea-576",
+      "tags": [
+        "solar-system",
+        "patterns"
+      ]
+    },
+    "577": {
+      "idea": "idea-577",
+      "tags": [
+        "solar-system",
+        "electromagnetism",
+        "sun"
+      ]
+    },
+    "578": {
+      "idea": "idea-578",
+      "tags": [
+        "solar-system",
+        "patterns",
+        "moon"
+      ]
+    },
+    "579": {
+      "idea": "idea-579",
+      "tags": [
+        "solar-system",
+        "electromagnetism",
+        "patterns"
+      ]
+    },
+    "580": {
+      "idea": "idea-580",
+      "tags": [
+        "solar-system",
+        "chemistry",
+        "saturn"
+      ]
+    },
+    "581": {
+      "idea": "idea-581",
+      "tags": [
+        "spaceflight",
+        "identity",
+        "perception"
+      ]
+    },
+    "582": {
+      "idea": "idea-582",
+      "tags": [
+        "solar-system",
+        "perceived-reality",
+        "patterns"
+      ]
+    },
+    "583": {
+      "idea": "idea-583",
+      "tags": [
+        "linguistics",
+        "semiotics",
+        "saussure"
+      ]
+    },
+    "584": {
+      "idea": "idea-584",
+      "tags": [
+        "linguistics",
+        "sociology",
+        "saussure"
+      ]
+    },
+    "585": {
+      "idea": "idea-585",
+      "tags": [
+        "linguistics",
+        "change",
+        "saussure"
+      ]
+    },
+    "586": {
+      "idea": "idea-586",
+      "tags": [
+        "linguistics",
+        "patterns"
+      ]
+    },
+    "587": {
+      "idea": "idea-587",
+      "tags": [
+        "linguistics",
+        "literature",
+        "communication"
+      ]
+    },
+    "588": {
+      "idea": "idea-588",
+      "tags": [
+        "structuralism",
+        "narratology",
+        "patterns"
+      ]
+    },
+    "589": {
+      "idea": "idea-589",
+      "tags": [
+        "sociology",
+        "structuralism",
+        "cooperation"
+      ]
+    },
+    "590": {
+      "idea": "idea-590",
+      "tags": [
+        "narratology",
+        "structuralism",
+        "patterns"
+      ]
+    },
+    "591": {
+      "idea": "idea-591",
+      "tags": [
+        "narratology",
+        "communication",
+        "patterns"
+      ]
+    },
+    "592": {
+      "idea": "idea-592",
+      "tags": [
+        "narratology",
+        "epistemology",
+        "barthes"
+      ]
+    },
+    "593": {
+      "idea": "idea-593",
+      "tags": [
+        "semiotics",
+        "power",
+        "barthes"
+      ]
+    },
+    "594": {
+      "idea": "idea-594",
+      "tags": [
+        "linguistics",
+        "patterns"
+      ]
+    },
+    "595": {
+      "idea": "idea-595",
+      "tags": [
+        "development",
+        "learning-memory",
+        "change"
+      ]
+    },
+    "596": {
+      "idea": "idea-596",
+      "tags": [
+        "political-philosophy",
+        "sociology",
+        "identity"
+      ]
+    },
+    "597": {
+      "idea": "idea-597",
+      "tags": [
+        "epistemology",
+        "modern-philosophy",
+        "power"
+      ]
+    },
+    "598": {
+      "idea": "idea-598",
+      "tags": [
+        "philosophy-of-mind",
+        "development",
+        "identity"
+      ]
+    },
+    "599": {
+      "idea": "idea-599",
+      "tags": [
+        "philosophy-of-language",
+        "psychology",
+        "patterns"
+      ]
+    },
+    "600": {
+      "idea": "idea-600",
+      "tags": [
+        "semiotics",
+        "communication",
+        "perceived-reality"
+      ]
+    },
+    "601": {
+      "idea": "idea-601",
+      "tags": [
+        "semiotics",
+        "linguistics",
+        "patterns"
+      ]
+    },
+    "602": {
+      "idea": "idea-602",
+      "tags": [
+        "semiotics",
+        "sociology",
+        "communication"
+      ]
+    },
+    "603": {
+      "idea": "idea-603",
+      "tags": [
+        "narratology",
+        "communication",
+        "patterns"
+      ]
+    },
+    "604": {
+      "idea": "idea-604",
+      "tags": [
+        "narratology",
+        "perceived-reality",
+        "freedom"
+      ]
+    },
+    "605": {
+      "idea": "idea-605",
+      "tags": [
+        "philosophy-of-language",
+        "structuralism",
+        "derrida"
+      ]
+    },
+    "606": {
+      "idea": "idea-606",
+      "tags": [
+        "philosophy-of-language",
+        "structuralism",
+        "derrida"
+      ]
+    },
+    "607": {
+      "idea": "idea-607",
+      "tags": [
+        "semiotics",
+        "modern-philosophy",
+        "perceived-reality"
+      ]
+    },
+    "608": {
+      "idea": "idea-608",
+      "tags": [
+        "narratology",
+        "communication",
+        "identity"
+      ]
+    },
+    "609": {
+      "idea": "idea-609",
+      "tags": [
+        "narratology",
+        "structuralism",
+        "patterns"
+      ]
+    },
+    "610": {
+      "idea": "idea-610",
+      "tags": [
+        "linguistics",
+        "literature",
+        "perception"
+      ]
+    },
+    "611": {
+      "idea": "idea-611",
+      "tags": [
+        "existentialism",
+        "structuralism",
+        "freedom"
+      ]
+    },
+    "612": {
+      "idea": "idea-612",
+      "tags": [
+        "structuralism",
+        "epistemology",
+        "uncertainty"
+      ]
+    },
+    "613": {
+      "idea": "idea-613",
+      "tags": [
+        "mechanics",
+        "geoscience",
+        "perceived-reality"
+      ]
+    },
+    "614": {
+      "idea": "idea-614",
+      "tags": [
+        "mechanics",
+        "limits"
+      ]
+    },
+    "615": {
+      "idea": "idea-615",
+      "tags": [
+        "mechanics",
+        "architecture",
+        "resilience"
+      ]
+    },
+    "616": {
+      "idea": "idea-616",
+      "tags": [
+        "mechanics",
+        "patterns"
+      ]
+    },
+    "617": {
+      "idea": "idea-617",
+      "tags": [
+        "optics",
+        "geometry",
+        "perception"
+      ]
+    },
+    "618": {
+      "idea": "idea-618",
+      "tags": [
+        "materials",
+        "optics",
+        "innovation"
+      ]
+    },
+    "619": {
+      "idea": "idea-619",
+      "tags": [
+        "electromagnetism",
+        "particle-physics",
+        "patterns"
+      ]
+    },
+    "620": {
+      "idea": "idea-620",
+      "tags": [
+        "mechanics",
+        "patterns"
+      ]
+    },
+    "621": {
+      "idea": "idea-621",
+      "tags": [
+        "materials",
+        "electromagnetism",
+        "innovation"
+      ]
+    },
+    "622": {
+      "idea": "idea-622",
+      "tags": [
+        "literature",
+        "identity",
+        "incentives",
+        "kafka"
+      ]
+    },
+    "623": {
+      "idea": "idea-623",
+      "tags": [
+        "literature",
+        "power",
+        "fairness",
+        "orwell"
+      ]
+    },
+    "624": {
+      "idea": "idea-624",
+      "tags": [
+        "literature",
+        "identity",
+        "perceived-reality"
+      ]
+    },
+    "625": {
+      "idea": "idea-625",
+      "tags": [
+        "literature",
+        "logic",
+        "perceived-reality"
+      ]
+    },
+    "626": {
+      "idea": "idea-626",
+      "tags": [
+        "literature",
+        "existentialism",
+        "uncertainty"
+      ]
+    },
+    "627": {
+      "idea": "idea-627",
+      "tags": [
+        "literature",
+        "identity",
+        "limits"
+      ]
+    },
+    "628": {
+      "idea": "idea-628",
+      "tags": [
+        "literature",
+        "communication",
+        "power"
+      ]
+    },
+    "629": {
+      "idea": "idea-629",
+      "tags": [
+        "narratology",
+        "patterns"
+      ]
+    },
+    "630": {
+      "idea": "idea-630",
+      "tags": [
+        "literature",
+        "linguistics",
+        "innovation"
+      ]
+    },
+    "631": {
+      "idea": "idea-631",
+      "tags": [
+        "genetics",
+        "chemistry",
+        "patterns"
+      ]
+    },
+    "632": {
+      "idea": "idea-632",
+      "tags": [
+        "genetics",
+        "algorithms",
+        "innovation"
+      ]
+    },
+    "633": {
+      "idea": "idea-633",
+      "tags": [
+        "biology",
+        "chemistry",
+        "innovation"
+      ]
+    },
+    "634": {
+      "idea": "idea-634",
+      "tags": [
+        "genetics",
+        "sleep",
+        "patterns"
+      ]
+    },
+    "635": {
+      "idea": "idea-635",
+      "tags": [
+        "public-health",
+        "cooperation",
+        "resilience"
+      ]
+    },
+    "636": {
+      "idea": "idea-636",
+      "tags": [
+        "evolution",
+        "zoology",
+        "cooperation"
+      ]
+    },
+    "637": {
+      "idea": "idea-637",
+      "tags": [
+        "medicine",
+        "microbiology",
+        "knowledge-evidence"
+      ]
+    },
+    "638": {
+      "idea": "idea-638",
+      "tags": [
+        "medicine",
+        "microbiology",
+        "resilience"
+      ]
+    },
+    "639": {
+      "idea": "idea-639",
+      "tags": [
+        "neuroscience",
+        "philosophy-of-mind",
+        "identity"
+      ]
+    },
+    "640": {
+      "idea": "idea-640",
+      "tags": [
+        "cognitive-biases",
+        "perception",
+        "decision-making"
+      ]
+    },
+    "641": {
+      "idea": "idea-641",
+      "tags": [
+        "social-psychology",
+        "organizations",
+        "incentives"
+      ]
+    },
+    "642": {
+      "idea": "idea-642",
+      "tags": [
+        "social-psychology",
+        "identity",
+        "fairness"
+      ]
+    },
+    "643": {
+      "idea": "idea-643",
+      "tags": [
+        "cognitive-biases",
+        "uncertainty",
+        "decision-making"
+      ]
+    },
+    "644": {
+      "idea": "idea-644",
+      "tags": [
+        "psychology",
+        "identity",
+        "knowledge-evidence"
+      ]
+    },
+    "645": {
+      "idea": "idea-645",
+      "tags": [
+        "cognitive-biases",
+        "uncertainty",
+        "knowledge-evidence"
+      ]
+    },
+    "646": {
+      "idea": "idea-646",
+      "tags": [
+        "cognitive-biases",
+        "fairness",
+        "perceived-reality"
+      ]
+    },
+    "647": {
+      "idea": "idea-647",
+      "tags": [
+        "social-psychology",
+        "decision-making",
+        "incentives"
+      ]
+    },
+    "648": {
+      "idea": "idea-648",
+      "tags": [
+        "social-psychology",
+        "cooperation",
+        "incentives"
+      ]
+    },
+    "649": {
+      "idea": "idea-649",
+      "tags": [
+        "geometry",
+        "limits",
+        "patterns"
+      ]
+    },
+    "650": {
+      "idea": "idea-650",
+      "tags": [
+        "statistics",
+        "knowledge-evidence",
+        "perceived-reality"
+      ]
+    },
+    "651": {
+      "idea": "idea-651",
+      "tags": [
+        "cryptography",
+        "privacy",
+        "limits"
+      ]
+    },
+    "652": {
+      "idea": "idea-652",
+      "tags": [
+        "combinatorics",
+        "patterns"
+      ]
+    },
+    "653": {
+      "idea": "idea-653",
+      "tags": [
+        "analysis",
+        "limits",
+        "perceived-reality"
+      ]
+    },
+    "654": {
+      "idea": "idea-654",
+      "tags": [
+        "complexity",
+        "resources"
+      ]
+    },
+    "655": {
+      "idea": "idea-655",
+      "tags": [
+        "number-theory",
+        "patterns"
+      ]
+    },
+    "656": {
+      "idea": "idea-656",
+      "tags": [
+        "probability",
+        "finance",
+        "limits"
+      ]
+    },
+    "657": {
+      "idea": "idea-657",
+      "tags": [
+        "number-theory",
+        "patterns",
+        "innovation"
+      ]
+    },
+    "658": {
+      "idea": "idea-658",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "power"
+      ]
+    },
+    "659": {
+      "idea": "idea-659",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "power"
+      ]
+    },
+    "660": {
+      "idea": "idea-660",
+      "tags": [
+        "modern-history",
+        "human-rights",
+        "fairness"
+      ]
+    },
+    "661": {
+      "idea": "idea-661",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "identity",
+        "india"
+      ]
+    },
+    "662": {
+      "idea": "idea-662",
+      "tags": [
+        "international-relations",
+        "institutions",
+        "power"
+      ]
+    },
+    "663": {
+      "idea": "idea-663",
+      "tags": [
+        "modern-history",
+        "democracy",
+        "power"
+      ]
+    },
+    "664": {
+      "idea": "idea-664",
+      "tags": [
+        "human-rights",
+        "fairness"
+      ]
+    },
+    "665": {
+      "idea": "idea-665",
+      "tags": [
+        "international-relations",
+        "institutions",
+        "cooperation"
+      ]
+    },
+    "666": {
+      "idea": "idea-666",
+      "tags": [
+        "law",
+        "institutions",
+        "power"
+      ]
+    },
+    "667": {
+      "idea": "idea-667",
+      "tags": [
+        "geometry",
+        "astronomy",
+        "knowledge-evidence"
+      ]
+    },
+    "668": {
+      "idea": "idea-668",
+      "tags": [
+        "ancient-philosophy",
+        "astronomy",
+        "sun"
+      ]
+    },
+    "669": {
+      "idea": "idea-669",
+      "tags": [
+        "astronomy",
+        "patterns",
+        "change"
+      ]
+    },
+    "670": {
+      "idea": "idea-670",
+      "tags": [
+        "astronomy",
+        "history-of-science",
+        "india"
+      ]
+    },
+    "671": {
+      "idea": "idea-671",
+      "tags": [
+        "ancient-philosophy",
+        "epistemology",
+        "aristotle"
+      ]
+    },
+    "672": {
+      "idea": "idea-672",
+      "tags": [
+        "ethics",
+        "logic",
+        "plato"
+      ]
+    },
+    "673": {
+      "idea": "idea-673",
+      "tags": [
+        "ethics",
+        "political-philosophy",
+        "plato"
+      ]
+    },
+    "674": {
+      "idea": "idea-674",
+      "tags": [
+        "philosophy-of-language",
+        "logic",
+        "china"
+      ]
+    },
+    "675": {
+      "idea": "idea-675",
+      "tags": [
+        "linguistics",
+        "logic",
+        "patterns",
+        "india"
+      ]
+    },
+    "676": {
+      "idea": "idea-676",
+      "tags": [
+        "mathematics",
+        "linguistics",
+        "innovation"
+      ]
+    },
+    "677": {
+      "idea": "idea-677",
+      "tags": [
+        "optics",
+        "perception",
+        "knowledge-evidence"
+      ]
+    },
+    "678": {
+      "idea": "idea-678",
+      "tags": [
+        "sociology",
+        "political-science",
+        "cooperation"
+      ]
+    },
+    "679": {
+      "idea": "idea-679",
+      "tags": [
+        "asian-philosophy",
+        "ethics",
+        "china"
+      ]
+    },
+    "680": {
+      "idea": "idea-680",
+      "tags": [
+        "philosophy-of-mind",
+        "metaphysics",
+        "perception"
+      ]
+    },
+    "681": {
+      "idea": "idea-681",
+      "tags": [
+        "cinema",
+        "modern-history",
+        "innovation"
+      ]
+    },
+    "682": {
+      "idea": "idea-682",
+      "tags": [
+        "cinema",
+        "law",
+        "power"
+      ]
+    },
+    "683": {
+      "idea": "idea-683",
+      "tags": [
+        "film-technique",
+        "perceived-reality"
+      ]
+    },
+    "684": {
+      "idea": "idea-684",
+      "tags": [
+        "cinema",
+        "knowledge-evidence",
+        "perceived-reality"
+      ]
+    },
+    "685": {
+      "idea": "idea-685",
+      "tags": [
+        "cinema",
+        "innovation"
+      ]
+    },
+    "686": {
+      "idea": "idea-686",
+      "tags": [
+        "literature",
+        "information-theory",
+        "limits"
+      ]
+    },
+    "687": {
+      "idea": "idea-687",
+      "tags": [
+        "literature",
+        "preservation",
+        "change"
+      ]
+    },
+    "688": {
+      "idea": "idea-688",
+      "tags": [
+        "literature",
+        "power",
+        "communication"
+      ]
+    },
+    "689": {
+      "idea": "idea-689",
+      "tags": [
+        "literature",
+        "patterns",
+        "innovation"
+      ]
+    },
+    "690": {
+      "idea": "idea-690",
+      "tags": [
+        "zoology",
+        "communication",
+        "cooperation"
+      ]
+    },
+    "691": {
+      "idea": "idea-691",
+      "tags": [
+        "biology",
+        "algorithms",
+        "resources"
+      ]
+    },
+    "692": {
+      "idea": "idea-692",
+      "tags": [
+        "modern-history",
+        "zoology",
+        "limits"
+      ]
+    },
+    "693": {
+      "idea": "idea-693",
+      "tags": [
+        "modern-history",
+        "social-psychology",
+        "uncertainty"
+      ]
+    },
+    "694": {
+      "idea": "idea-694",
+      "tags": [
+        "algorithms",
+        "computer-history",
+        "innovation"
+      ]
+    },
+    "695": {
+      "idea": "idea-695",
+      "tags": [
+        "programming",
+        "organizations",
+        "resources"
+      ]
+    },
+    "696": {
+      "idea": "idea-696",
+      "tags": [
+        "computer-security",
+        "programming",
+        "privacy"
+      ]
+    },
+    "697": {
+      "idea": "idea-697",
+      "tags": [
+        "artificial-intelligence",
+        "geometry",
+        "limits"
+      ]
+    },
+    "698": {
+      "idea": "idea-698",
+      "tags": [
+        "arts",
+        "perceived-reality",
+        "innovation"
+      ]
+    },
+    "699": {
+      "idea": "idea-699",
+      "tags": [
+        "painting",
+        "geometry",
+        "perception"
+      ]
+    },
+    "700": {
+      "idea": "idea-700",
+      "tags": [
+        "painting",
+        "modern-history",
+        "identity"
+      ]
+    },
+    "701": {
+      "idea": "idea-701",
+      "tags": [
+        "painting",
+        "geometry",
+        "perception"
+      ]
+    },
+    "702": {
+      "idea": "idea-702",
+      "tags": [
+        "political-philosophy",
+        "democracy",
+        "power"
+      ]
+    },
+    "703": {
+      "idea": "idea-703",
+      "tags": [
+        "political-philosophy",
+        "law",
+        "power"
+      ]
+    },
+    "704": {
+      "idea": "idea-704",
+      "tags": [
+        "physics",
+        "analysis",
+        "patterns"
+      ]
+    },
+    "705": {
+      "idea": "idea-705",
+      "tags": [
+        "mechanics",
+        "particle-physics",
+        "knowledge-evidence",
+        "einstein"
+      ]
+    },
+    "706": {
+      "idea": "idea-706",
+      "tags": [
+        "thermodynamics",
+        "information-theory",
+        "limits"
+      ]
+    },
+    "707": {
+      "idea": "idea-707",
+      "tags": [
+        "statistics",
+        "institutions",
+        "incentives"
+      ]
+    },
+    "708": {
+      "idea": "idea-708",
+      "tags": [
+        "institutions",
+        "organizations",
+        "resources"
+      ]
+    },
+    "709": {
+      "idea": "idea-709",
+      "tags": [
+        "microeconomics",
+        "sociology",
+        "identity"
+      ]
+    },
+    "710": {
+      "idea": "idea-710",
+      "tags": [
+        "number-theory",
+        "algorithms",
+        "uncertainty"
+      ]
+    },
+    "711": {
+      "idea": "idea-711",
+      "tags": [
+        "geometry",
+        "analysis",
+        "limits"
+      ]
+    },
+    "712": {
+      "idea": "idea-712",
+      "tags": [
+        "democracy",
+        "logic",
+        "limits"
+      ]
+    },
+    "713": {
+      "idea": "idea-713",
+      "tags": [
+        "learning-memory",
+        "social-psychology",
+        "patterns"
+      ]
+    },
+    "714": {
+      "idea": "idea-714",
+      "tags": [
+        "perception",
+        "neuroscience",
+        "limits"
+      ]
+    },
+    "715": {
+      "idea": "idea-715",
+      "tags": [
+        "chemistry",
+        "economic-history",
+        "resources"
+      ]
+    },
+    "716": {
+      "idea": "idea-716",
+      "tags": [
+        "chemistry",
+        "evolution",
+        "knowledge-evidence"
+      ]
+    },
+    "717": {
+      "idea": "idea-717",
+      "tags": [
+        "epistemology",
+        "logic",
+        "plato"
+      ]
+    },
+    "718": {
+      "idea": "idea-718",
+      "tags": [
+        "epistemology",
+        "learning-memory",
+        "plato"
+      ]
+    },
+    "719": {
+      "idea": "idea-719",
+      "tags": [
+        "logic",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "720": {
+      "idea": "idea-720",
+      "tags": [
+        "taoism",
+        "philosophy-of-mind",
+        "knowledge-evidence"
+      ]
+    },
+    "721": {
+      "idea": "idea-721",
+      "tags": [
+        "asian-philosophy",
+        "epistemology",
+        "india"
+      ]
+    },
+    "722": {
+      "idea": "idea-722",
+      "tags": [
+        "buddhism",
+        "philosophy-of-mind",
+        "identity"
+      ]
+    },
+    "723": {
+      "idea": "idea-723",
+      "tags": [
+        "communication",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "724": {
+      "idea": "idea-724",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "plato"
+      ]
+    },
+    "725": {
+      "idea": "idea-725",
+      "tags": [
+        "asian-philosophy",
+        "philosophy-of-mind",
+        "identity"
+      ]
+    },
+    "726": {
+      "idea": "idea-726",
+      "tags": [
+        "botany",
+        "history-of-science",
+        "patterns"
+      ]
+    },
+    "727": {
+      "idea": "idea-727",
+      "tags": [
+        "ancient-history",
+        "international-relations",
+        "power"
+      ]
+    },
+    "728": {
+      "idea": "idea-728",
+      "tags": [
+        "asian-philosophy",
+        "international-relations",
+        "india"
+      ]
+    },
+    "729": {
+      "idea": "idea-729",
+      "tags": [
+        "medicine",
+        "ancient-philosophy",
+        "knowledge-evidence"
+      ]
+    },
+    "730": {
+      "idea": "idea-730",
+      "tags": [
+        "epistemology",
+        "philosophy-of-language",
+        "limits"
+      ]
+    },
+    "731": {
+      "idea": "idea-731",
+      "tags": [
+        "film-technique",
+        "optics",
+        "perception"
+      ]
+    },
+    "732": {
+      "idea": "idea-732",
+      "tags": [
+        "cinema",
+        "modern-history",
+        "identity"
+      ]
+    },
+    "733": {
+      "idea": "idea-733",
+      "tags": [
+        "cinema",
+        "sociology",
+        "fairness"
+      ]
+    },
+    "734": {
+      "idea": "idea-734",
+      "tags": [
+        "cinema",
+        "law",
+        "preservation"
+      ]
+    },
+    "735": {
+      "idea": "idea-735",
+      "tags": [
+        "public-health",
+        "narratology"
+      ]
+    },
+    "736": {
+      "idea": "idea-736",
+      "tags": [
+        "literature",
+        "modern-history",
+        "perceived-reality"
+      ]
+    },
+    "737": {
+      "idea": "idea-737",
+      "tags": [
+        "literature",
+        "learning-memory",
+        "innovation"
+      ]
+    },
+    "738": {
+      "idea": "idea-738",
+      "tags": [
+        "zoology",
+        "development",
+        "resilience"
+      ]
+    },
+    "739": {
+      "idea": "idea-739",
+      "tags": [
+        "botany",
+        "geoscience",
+        "limits"
+      ]
+    },
+    "740": {
+      "idea": "idea-740",
+      "tags": [
+        "zoology",
+        "limits"
+      ]
+    },
+    "741": {
+      "idea": "idea-741",
+      "tags": [
+        "programming",
+        "computer-history",
+        "innovation"
+      ]
+    },
+    "742": {
+      "idea": "idea-742",
+      "tags": [
+        "programming",
+        "information-theory",
+        "patterns"
+      ]
+    },
+    "743": {
+      "idea": "idea-743",
+      "tags": [
+        "programming",
+        "organizations",
+        "communication"
+      ]
+    },
+    "744": {
+      "idea": "idea-744",
+      "tags": [
+        "music",
+        "writing-systems",
+        "innovation"
+      ]
+    },
+    "745": {
+      "idea": "idea-745",
+      "tags": [
+        "painting",
+        "perception",
+        "change"
+      ]
+    },
+    "746": {
+      "idea": "idea-746",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "identity"
+      ]
+    },
+    "747": {
+      "idea": "idea-747",
+      "tags": [
+        "modern-history",
+        "human-rights",
+        "power"
+      ]
+    },
+    "748": {
+      "idea": "idea-748",
+      "tags": [
+        "democracy",
+        "institutions",
+        "incentives"
+      ]
+    },
+    "749": {
+      "idea": "idea-749",
+      "tags": [
+        "thermodynamics",
+        "materials",
+        "perceived-reality"
+      ]
+    },
+    "750": {
+      "idea": "idea-750",
+      "tags": [
+        "electromagnetism",
+        "computer-security",
+        "privacy"
+      ]
+    },
+    "751": {
+      "idea": "idea-751",
+      "tags": [
+        "particle-physics",
+        "knowledge-evidence"
+      ]
+    },
+    "752": {
+      "idea": "idea-752",
+      "tags": [
+        "microeconomics",
+        "privacy",
+        "incentives"
+      ]
+    },
+    "753": {
+      "idea": "idea-753",
+      "tags": [
+        "macroeconomics",
+        "resources",
+        "change"
+      ]
+    },
+    "754": {
+      "idea": "idea-754",
+      "tags": [
+        "economics",
+        "innovation",
+        "change"
+      ]
+    },
+    "755": {
+      "idea": "idea-755",
+      "tags": [
+        "number-theory",
+        "logic",
+        "limits"
+      ]
+    },
+    "756": {
+      "idea": "idea-756",
+      "tags": [
+        "analysis",
+        "logic",
+        "knowledge-evidence"
+      ]
+    },
+    "757": {
+      "idea": "idea-757",
+      "tags": [
+        "combinatorics",
+        "logic",
+        "patterns"
+      ]
+    },
+    "758": {
+      "idea": "idea-758",
+      "tags": [
+        "learning-memory",
+        "information-theory",
+        "limits"
+      ]
+    },
+    "759": {
+      "idea": "idea-759",
+      "tags": [
+        "learning-memory",
+        "wellbeing",
+        "resources"
+      ]
+    },
+    "760": {
+      "idea": "idea-760",
+      "tags": [
+        "perception",
+        "neuroscience",
+        "identity"
+      ]
+    },
+    "761": {
+      "idea": "idea-761",
+      "tags": [
+        "astronomy",
+        "history-of-science",
+        "change"
+      ]
+    },
+    "762": {
+      "idea": "idea-762",
+      "tags": [
+        "solar-system",
+        "analysis",
+        "innovation"
+      ]
+    },
+    "763": {
+      "idea": "idea-763",
+      "tags": [
+        "genetics",
+        "change",
+        "patterns"
+      ]
+    },
+    "764": {
+      "idea": "idea-764",
+      "tags": [
+        "evolution",
+        "archaeology",
+        "knowledge-evidence"
+      ]
+    },
+    "765": {
+      "idea": "idea-765",
+      "tags": [
+        "medieval-history",
+        "institutions",
+        "change"
+      ]
+    },
+    "766": {
+      "idea": "idea-766",
+      "tags": [
+        "modern-history",
+        "cryptography",
+        "communication"
+      ]
+    },
+    "767": {
+      "idea": "idea-767",
+      "tags": [
+        "linguistics",
+        "stoicism"
+      ]
+    },
+    "768": {
+      "idea": "idea-768",
+      "tags": [
+        "literature",
+        "perception",
+        "aristotle"
+      ]
+    },
+    "769": {
+      "idea": "idea-769",
+      "tags": [
+        "asian-philosophy",
+        "decision-making",
+        "china"
+      ]
+    },
+    "770": {
+      "idea": "idea-770",
+      "tags": [
+        "logic",
+        "ancient-philosophy",
+        "chrysippus"
+      ]
+    },
+    "771": {
+      "idea": "idea-771",
+      "tags": [
+        "metaphysics",
+        "ancient-philosophy",
+        "patterns"
+      ]
+    },
+    "772": {
+      "idea": "idea-772",
+      "tags": [
+        "ethics",
+        "philosophy-of-mind",
+        "resilience"
+      ]
+    },
+    "773": {
+      "idea": "idea-773",
+      "tags": [
+        "ethics",
+        "cooperation",
+        "freedom"
+      ]
+    },
+    "774": {
+      "idea": "idea-774",
+      "tags": [
+        "epistemology",
+        "asian-philosophy",
+        "knowledge-evidence"
+      ]
+    },
+    "775": {
+      "idea": "idea-775",
+      "tags": [
+        "metaphysics",
+        "epistemology",
+        "uncertainty"
+      ]
+    },
+    "776": {
+      "idea": "idea-776",
+      "tags": [
+        "confucianism",
+        "philosophy-of-language",
+        "confucius"
+      ]
+    },
+    "777": {
+      "idea": "idea-777",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "change"
+      ]
+    },
+    "778": {
+      "idea": "idea-778",
+      "tags": [
+        "asian-philosophy",
+        "literature",
+        "uncertainty",
+        "india"
+      ]
+    },
+    "779": {
+      "idea": "idea-779",
+      "tags": [
+        "geometry",
+        "ancient-philosophy",
+        "plato"
+      ]
+    },
+    "780": {
+      "idea": "idea-780",
+      "tags": [
+        "ancient-history",
+        "literature",
+        "preservation",
+        "china"
+      ]
+    },
+    "781": {
+      "idea": "idea-781",
+      "tags": [
+        "literature",
+        "social-psychology",
+        "identity"
+      ]
+    },
+    "782": {
+      "idea": "idea-782",
+      "tags": [
+        "film-technique",
+        "perceived-reality",
+        "innovation"
+      ]
+    },
+    "783": {
+      "idea": "idea-783",
+      "tags": [
+        "film-technique",
+        "perception"
+      ]
+    },
+    "784": {
+      "idea": "idea-784",
+      "tags": [
+        "animation",
+        "film-technique",
+        "innovation"
+      ]
+    },
+    "785": {
+      "idea": "idea-785",
+      "tags": [
+        "film-technique",
+        "optics",
+        "innovation"
+      ]
+    },
+    "786": {
+      "idea": "idea-786",
+      "tags": [
+        "cinema",
+        "narratology",
+        "cooperation"
+      ]
+    },
+    "787": {
+      "idea": "idea-787",
+      "tags": [
+        "literature",
+        "modern-philosophy",
+        "knowledge-evidence"
+      ]
+    },
+    "788": {
+      "idea": "idea-788",
+      "tags": [
+        "literature",
+        "preservation"
+      ]
+    },
+    "789": {
+      "idea": "idea-789",
+      "tags": [
+        "narratology",
+        "knowledge-evidence"
+      ]
+    },
+    "790": {
+      "idea": "idea-790",
+      "tags": [
+        "literature",
+        "sociology",
+        "jane-austen"
+      ]
+    },
+    "791": {
+      "idea": "idea-791",
+      "tags": [
+        "zoology",
+        "mechanics",
+        "limits"
+      ]
+    },
+    "792": {
+      "idea": "idea-792",
+      "tags": [
+        "zoology",
+        "chemistry",
+        "resilience"
+      ]
+    },
+    "793": {
+      "idea": "idea-793",
+      "tags": [
+        "geoscience",
+        "institutions",
+        "china"
+      ]
+    },
+    "794": {
+      "idea": "idea-794",
+      "tags": [
+        "botany",
+        "evolution",
+        "patterns"
+      ]
+    },
+    "795": {
+      "idea": "idea-795",
+      "tags": [
+        "human-computer-interaction",
+        "computer-history",
+        "innovation"
+      ]
+    },
+    "796": {
+      "idea": "idea-796",
+      "tags": [
+        "information-theory",
+        "computer-security",
+        "resilience"
+      ]
+    },
+    "797": {
+      "idea": "idea-797",
+      "tags": [
+        "programming",
+        "medicine",
+        "resilience"
+      ]
+    },
+    "798": {
+      "idea": "idea-798",
+      "tags": [
+        "networks",
+        "algorithms",
+        "privacy"
+      ]
+    },
+    "799": {
+      "idea": "idea-799",
+      "tags": [
+        "programming",
+        "resources",
+        "innovation"
+      ]
+    },
+    "800": {
+      "idea": "idea-800",
+      "tags": [
+        "painting",
+        "geometry",
+        "patterns"
+      ]
+    },
+    "801": {
+      "idea": "idea-801",
+      "tags": [
+        "music",
+        "identity",
+        "innovation"
+      ]
+    },
+    "802": {
+      "idea": "idea-802",
+      "tags": [
+        "music",
+        "resilience",
+        "perception"
+      ]
+    },
+    "803": {
+      "idea": "idea-803",
+      "tags": [
+        "painting",
+        "art-conservation",
+        "preservation"
+      ]
+    },
+    "804": {
+      "idea": "idea-804",
+      "tags": [
+        "medieval-history",
+        "law",
+        "cooperation"
+      ]
+    },
+    "805": {
+      "idea": "idea-805",
+      "tags": [
+        "democracy",
+        "privacy",
+        "freedom"
+      ]
+    },
+    "806": {
+      "idea": "idea-806",
+      "tags": [
+        "ancient-history",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "807": {
+      "idea": "idea-807",
+      "tags": [
+        "mechanics",
+        "history-of-science",
+        "knowledge-evidence"
+      ]
+    },
+    "808": {
+      "idea": "idea-808",
+      "tags": [
+        "particle-physics",
+        "astronomy",
+        "knowledge-evidence"
+      ]
+    },
+    "809": {
+      "idea": "idea-809",
+      "tags": [
+        "quantum-physics",
+        "optics",
+        "einstein"
+      ]
+    },
+    "810": {
+      "idea": "idea-810",
+      "tags": [
+        "institutions",
+        "organizations",
+        "cooperation"
+      ]
+    },
+    "811": {
+      "idea": "idea-811",
+      "tags": [
+        "statistics",
+        "economics",
+        "fairness"
+      ]
+    },
+    "812": {
+      "idea": "idea-812",
+      "tags": [
+        "finance",
+        "decision-making",
+        "keynes"
+      ]
+    },
+    "813": {
+      "idea": "idea-813",
+      "tags": [
+        "number-theory",
+        "history-of-science",
+        "china"
+      ]
+    },
+    "814": {
+      "idea": "idea-814",
+      "tags": [
+        "statistics",
+        "probability",
+        "patterns"
+      ]
+    },
+    "815": {
+      "idea": "idea-815",
+      "tags": [
+        "number-theory",
+        "patterns"
+      ]
+    },
+    "816": {
+      "idea": "idea-816",
+      "tags": [
+        "social-psychology",
+        "perception"
+      ]
+    },
+    "817": {
+      "idea": "idea-817",
+      "tags": [
+        "cognitive-biases",
+        "learning-memory",
+        "perception"
+      ]
+    },
+    "818": {
+      "idea": "idea-818",
+      "tags": [
+        "analysis",
+        "number-theory",
+        "patterns"
+      ]
+    },
+    "819": {
+      "idea": "idea-819",
+      "tags": [
+        "statistics",
+        "knowledge-evidence",
+        "decision-making"
+      ]
+    },
+    "820": {
+      "idea": "idea-820",
+      "tags": [
+        "statistics",
+        "mechanics",
+        "patterns"
+      ]
+    },
+    "821": {
+      "idea": "idea-821",
+      "tags": [
+        "analysis",
+        "information-theory",
+        "patterns"
+      ]
+    },
+    "822": {
+      "idea": "idea-822",
+      "tags": [
+        "perception",
+        "learning-memory",
+        "resilience"
+      ]
+    },
+    "823": {
+      "idea": "idea-823",
+      "tags": [
+        "chemistry",
+        "modern-history",
+        "preservation"
+      ]
+    },
+    "824": {
+      "idea": "idea-824",
+      "tags": [
+        "chemistry",
+        "thermodynamics",
+        "change"
+      ]
+    },
+    "825": {
+      "idea": "idea-825",
+      "tags": [
+        "chemistry",
+        "public-health",
+        "resources"
+      ]
+    },
+    "826": {
+      "idea": "idea-826",
+      "tags": [
+        "zoology",
+        "mechanics",
+        "patterns"
+      ]
+    },
+    "827": {
+      "idea": "idea-827",
+      "tags": [
+        "cinema",
+        "zoology",
+        "knowledge-evidence"
+      ]
+    },
+    "828": {
+      "idea": "idea-828",
+      "tags": [
+        "film-technique",
+        "perception",
+        "communication"
+      ]
+    },
+    "829": {
+      "idea": "idea-829",
+      "tags": [
+        "linguistics",
+        "social-networks",
+        "communication"
+      ]
+    },
+    "830": {
+      "idea": "idea-830",
+      "tags": [
+        "linguistics",
+        "statistics",
+        "patterns"
+      ]
+    },
+    "831": {
+      "idea": "idea-831",
+      "tags": [
+        "linguistics",
+        "epistemology",
+        "knowledge-evidence"
+      ]
+    },
+    "832": {
+      "idea": "idea-832",
+      "tags": [
+        "zoology",
+        "neuroscience",
+        "knowledge-evidence"
+      ]
+    },
+    "833": {
+      "idea": "idea-833",
+      "tags": [
+        "genetics",
+        "archaeology",
+        "limits"
+      ]
+    },
+    "834": {
+      "idea": "idea-834",
+      "tags": [
+        "geoscience",
+        "particle-physics",
+        "knowledge-evidence"
+      ]
+    },
+    "835": {
+      "idea": "idea-835",
+      "tags": [
+        "geoscience",
+        "history-of-science",
+        "knowledge-evidence"
+      ]
+    },
+    "836": {
+      "idea": "idea-836",
+      "tags": [
+        "solar-system",
+        "optics",
+        "moon"
+      ]
+    },
+    "837": {
+      "idea": "idea-837",
+      "tags": [
+        "chemistry",
+        "astronomy",
+        "knowledge-evidence",
+        "sun"
+      ]
+    },
+    "838": {
+      "idea": "idea-838",
+      "tags": [
+        "law",
+        "privacy",
+        "human-computer-interaction"
+      ]
+    },
+    "839": {
+      "idea": "idea-839",
+      "tags": [
+        "law",
+        "institutions",
+        "patterns"
+      ]
+    },
+    "840": {
+      "idea": "idea-840",
+      "tags": [
+        "modern-history",
+        "architecture",
+        "power"
+      ]
+    },
+    "841": {
+      "idea": "idea-841",
+      "tags": [
+        "institutions",
+        "learning-memory",
+        "power",
+        "china"
+      ]
+    },
+    "842": {
+      "idea": "idea-842",
+      "tags": [
+        "history",
+        "astronomy",
+        "patterns"
+      ]
+    },
+    "843": {
+      "idea": "idea-843",
+      "tags": [
+        "economic-history",
+        "international-relations",
+        "resources"
+      ]
+    },
+    "844": {
+      "idea": "idea-844",
+      "tags": [
+        "economic-history",
+        "institutions",
+        "power"
+      ]
+    },
+    "845": {
+      "idea": "idea-845",
+      "tags": [
+        "economic-history",
+        "macroeconomics",
+        "change"
+      ]
+    },
+    "846": {
+      "idea": "idea-495",
+      "tags": [
+        "geometry",
+        "logic",
+        "limits"
+      ]
+    },
+    "847": {
+      "idea": "idea-847",
+      "tags": [
+        "mechanics",
+        "resources",
+        "patterns"
+      ]
+    },
+    "848": {
+      "idea": "idea-848",
+      "tags": [
+        "development",
+        "learning-memory",
+        "identity"
+      ]
+    },
+    "849": {
+      "idea": "idea-849",
+      "tags": [
+        "social-psychology",
+        "zoology",
+        "uncertainty"
+      ]
+    },
+    "850": {
+      "idea": "idea-850",
+      "tags": [
+        "neuroscience",
+        "medicine",
+        "patterns"
+      ]
+    },
+    "851": {
+      "idea": "idea-851",
+      "tags": [
+        "optics",
+        "perception",
+        "perceived-reality"
+      ]
+    },
+    "852": {
+      "idea": "idea-852",
+      "tags": [
+        "information-theory",
+        "perception",
+        "limits"
+      ]
+    },
+    "853": {
+      "idea": "idea-853",
+      "tags": [
+        "perception",
+        "nutrition",
+        "change"
+      ]
+    },
+    "854": {
+      "idea": "idea-854",
+      "tags": [
+        "writing-systems",
+        "china"
+      ]
+    },
+    "855": {
+      "idea": "idea-855",
+      "tags": [
+        "writing-systems",
+        "patterns"
+      ]
+    },
+    "856": {
+      "idea": "idea-856",
+      "tags": [
+        "music",
+        "analysis",
+        "patterns"
+      ]
+    },
+    "857": {
+      "idea": "idea-857",
+      "tags": [
+        "architecture",
+        "economic-history",
+        "resources"
+      ]
+    },
+    "858": {
+      "idea": "idea-858",
+      "tags": [
+        "architecture",
+        "mechanics",
+        "gaudi"
+      ]
+    },
+    "859": {
+      "idea": "idea-859",
+      "tags": [
+        "painting",
+        "perception",
+        "perceived-reality"
+      ]
+    },
+    "860": {
+      "idea": "idea-860",
+      "tags": [
+        "painting",
+        "chemistry",
+        "preservation"
+      ]
+    },
+    "861": {
+      "idea": "idea-861",
+      "tags": [
+        "medieval-history",
+        "literature",
+        "knowledge-evidence"
+      ]
+    },
+    "862": {
+      "idea": "idea-862",
+      "tags": [
+        "narratology",
+        "shakespeare"
+      ]
+    },
+    "863": {
+      "idea": "idea-863",
+      "tags": [
+        "literature",
+        "communication",
+        "shakespeare"
+      ]
+    },
+    "864": {
+      "idea": "idea-864",
+      "tags": [
+        "literature",
+        "linguistics",
+        "preservation"
+      ]
+    },
+    "865": {
+      "idea": "idea-865",
+      "tags": [
+        "computer-history",
+        "artificial-intelligence",
+        "perceived-reality"
+      ]
+    },
+    "866": {
+      "idea": "idea-866",
+      "tags": [
+        "information-theory",
+        "algorithms",
+        "resources"
+      ]
+    },
+    "867": {
+      "idea": "idea-867",
+      "tags": [
+        "political-science",
+        "institutions",
+        "incentives"
+      ]
+    },
+    "868": {
+      "idea": "idea-868",
+      "tags": [
+        "democracy",
+        "logic",
+        "decision-making"
+      ]
+    },
+    "869": {
+      "idea": "idea-869",
+      "tags": [
+        "organizations",
+        "power"
+      ]
+    },
+    "870": {
+      "idea": "idea-870",
+      "tags": [
+        "social-networks",
+        "resources"
+      ]
+    },
+    "871": {
+      "idea": "idea-871",
+      "tags": [
+        "sociology",
+        "change",
+        "uncertainty"
+      ]
+    },
+    "872": {
+      "idea": "idea-872",
+      "tags": [
+        "sociology",
+        "social-psychology",
+        "identity"
+      ]
+    },
+    "873": {
+      "idea": "idea-873",
+      "tags": [
+        "ancient-history",
+        "law",
+        "freedom",
+        "ancient-athens"
+      ]
+    },
+    "874": {
+      "idea": "idea-874",
+      "tags": [
+        "ancient-history",
+        "law",
+        "fairness",
+        "roman-empire"
+      ]
+    },
+    "875": {
+      "idea": "idea-875",
+      "tags": [
+        "ancient-history",
+        "preservation",
+        "power",
+        "roman-empire"
+      ]
+    },
+    "876": {
+      "idea": "idea-876",
+      "tags": [
+        "ethics",
+        "ancient-philosophy",
+        "aristotle"
+      ]
+    },
+    "877": {
+      "idea": "idea-877",
+      "tags": [
+        "law",
+        "ethics",
+        "aristotle"
+      ]
+    },
+    "878": {
+      "idea": "idea-878",
+      "tags": [
+        "stoicism",
+        "freedom",
+        "chrysippus"
+      ]
+    },
+    "879": {
+      "idea": "idea-879",
+      "tags": [
+        "philosophy-of-language",
+        "communication",
+        "institutions"
+      ]
+    },
+    "880": {
+      "idea": "idea-880",
+      "tags": [
+        "phenomenology",
+        "philosophy-of-mind",
+        "identity"
+      ]
+    },
+    "881": {
+      "idea": "idea-881",
+      "tags": [
+        "particle-physics",
+        "chemistry",
+        "change"
+      ]
+    },
+    "882": {
+      "idea": "idea-882",
+      "tags": [
+        "particle-physics",
+        "patterns",
+        "knowledge-evidence"
+      ]
+    },
+    "883": {
+      "idea": "idea-883",
+      "tags": [
+        "particle-physics",
+        "optics",
+        "innovation"
+      ]
+    },
+    "884": {
+      "idea": "idea-884",
+      "tags": [
+        "exercise",
+        "nutrition",
+        "wellbeing"
+      ]
+    },
+    "885": {
+      "idea": "idea-885",
+      "tags": [
+        "nutrition",
+        "wellbeing"
+      ]
+    },
+    "886": {
+      "idea": "idea-886",
+      "tags": [
+        "sleep",
+        "nutrition",
+        "wellbeing"
+      ]
+    },
+    "887": {
+      "idea": "idea-887",
+      "tags": [
+        "complexity",
+        "innovation"
+      ]
+    },
+    "888": {
+      "idea": "idea-888",
+      "tags": [
+        "complexity",
+        "artificial-intelligence",
+        "innovation"
+      ]
+    },
+    "889": {
+      "idea": "idea-889",
+      "tags": [
+        "cryptography",
+        "artificial-intelligence",
+        "privacy"
+      ]
+    },
+    "890": {
+      "idea": "idea-890",
+      "tags": [
+        "painting",
+        "geometry",
+        "perception"
+      ]
+    },
+    "891": {
+      "idea": "idea-891",
+      "tags": [
+        "narratology",
+        "communication",
+        "jane-austen"
+      ]
+    },
+    "892": {
+      "idea": "idea-892",
+      "tags": [
+        "film-technique",
+        "geometry",
+        "perception"
+      ]
+    },
+    "893": {
+      "idea": "idea-893",
+      "tags": [
+        "geometry",
+        "combinatorics",
+        "patterns"
+      ]
+    },
+    "894": {
+      "idea": "idea-894",
+      "tags": [
+        "solar-system",
+        "chemistry",
+        "knowledge-evidence"
+      ]
+    },
+    "895": {
+      "idea": "idea-895",
+      "tags": [
+        "archaeology",
+        "ancient-history",
+        "knowledge-evidence",
+        "roman-empire"
+      ]
+    },
+    "896": {
+      "idea": "idea-896",
+      "tags": [
+        "institutions",
+        "algorithms",
+        "cooperation"
+      ]
+    },
+    "897": {
+      "idea": "idea-897",
+      "tags": [
+        "modern-history",
+        "public-health"
+      ]
+    },
+    "898": {
+      "idea": "idea-898",
+      "tags": [
+        "modern-history",
+        "cooperation"
+      ]
+    },
+    "899": {
+      "idea": "idea-899",
+      "tags": [
+        "modern-history",
+        "freedom"
+      ]
+    },
+    "900": {
+      "idea": "idea-900",
+      "tags": [
+        "philosophy-of-mind",
+        "epistemology"
+      ]
+    },
+    "901": {
+      "idea": "idea-901",
+      "tags": [
+        "ethics",
+        "philosophy-of-mind"
+      ]
+    },
+    "902": {
+      "idea": "idea-902",
+      "tags": [
+        "zoology",
+        "botany"
+      ]
+    },
+    "903": {
+      "idea": "idea-903",
+      "tags": [
+        "zoology",
+        "resilience"
+      ]
+    },
+    "904": {
+      "idea": "idea-904",
+      "tags": [
+        "zoology",
+        "materials"
+      ]
+    },
+    "905": {
+      "idea": "idea-905",
+      "tags": [
+        "arts",
+        "botany",
+        "innovation"
+      ]
+    },
+    "906": {
+      "idea": "idea-906",
+      "tags": [
+        "sculpture",
+        "perceived-reality"
+      ]
+    },
+    "907": {
+      "idea": "idea-907",
+      "tags": [
+        "literature",
+        "communication"
+      ]
+    },
+    "908": {
+      "idea": "idea-908",
+      "tags": [
+        "narratology",
+        "knowledge-evidence"
+      ]
+    },
+    "909": {
+      "idea": "idea-909",
+      "tags": [
+        "democracy",
+        "ancient-history"
+      ]
+    },
+    "910": {
+      "idea": "idea-910",
+      "tags": [
+        "law",
+        "ecology"
+      ]
+    },
+    "911": {
+      "idea": "idea-911",
+      "tags": [
+        "materials",
+        "thermodynamics"
+      ]
+    },
+    "912": {
+      "idea": "idea-912",
+      "tags": [
+        "thermodynamics",
+        "chemistry"
+      ]
+    },
+    "913": {
+      "idea": "idea-913",
+      "tags": [
+        "chemistry",
+        "thermodynamics"
+      ]
+    },
+    "914": {
+      "idea": "idea-914",
+      "tags": [
+        "solar-system",
+        "venus"
+      ]
+    },
+    "915": {
+      "idea": "idea-915",
+      "tags": [
+        "solar-system",
+        "saturn",
+        "knowledge-evidence"
+      ]
+    },
+    "916": {
+      "idea": "idea-916",
+      "tags": [
+        "microeconomics",
+        "resources",
+        "incentives"
+      ]
+    },
+    "917": {
+      "idea": "idea-917",
+      "tags": [
+        "game-theory",
+        "uncertainty"
+      ]
+    },
+    "918": {
+      "idea": "idea-918",
+      "tags": [
+        "perception",
+        "limits"
+      ]
+    },
+    "919": {
+      "idea": "idea-919",
+      "tags": [
+        "perception",
+        "neuroscience"
+      ]
+    },
+    "920": {
+      "idea": "idea-920",
+      "tags": [
+        "cinema",
+        "art-conservation",
+        "preservation"
+      ]
+    },
+    "921": {
+      "idea": "idea-921",
+      "tags": [
+        "film-technique",
+        "perceived-reality"
+      ]
+    },
+    "922": {
+      "idea": "idea-922",
+      "tags": [
+        "analysis",
+        "geometry",
+        "limits"
+      ]
+    },
+    "923": {
+      "idea": "idea-923",
+      "tags": [
+        "probability",
+        "game-theory"
+      ]
+    },
+    "924": {
+      "idea": "idea-924",
+      "tags": [
+        "computer-history",
+        "programming"
+      ]
+    },
+    "925": {
+      "idea": "idea-925",
+      "tags": [
+        "networks",
+        "cooperation"
+      ]
+    },
+    "926": {
+      "idea": "idea-926",
+      "tags": [
+        "information-theory",
+        "human-computer-interaction"
+      ]
+    },
+    "927": {
+      "idea": "idea-927",
+      "tags": [
+        "modern-history",
+        "economic-history"
+      ]
+    },
+    "928": {
+      "idea": "idea-928",
+      "tags": [
+        "military-history",
+        "international-relations"
+      ]
+    },
+    "929": {
+      "idea": "idea-929",
+      "tags": [
+        "ethics",
+        "freedom"
+      ]
+    },
+    "930": {
+      "idea": "idea-930",
+      "tags": [
+        "logic",
+        "philosophy-of-language",
+        "limits"
+      ]
+    },
+    "931": {
+      "idea": "idea-931",
+      "tags": [
+        "zoology",
+        "resources"
+      ]
+    },
+    "932": {
+      "idea": "idea-932",
+      "tags": [
+        "genetics",
+        "zoology",
+        "resilience"
+      ]
+    },
+    "933": {
+      "idea": "idea-933",
+      "tags": [
+        "painting",
+        "materials"
+      ]
+    },
+    "934": {
+      "idea": "idea-934",
+      "tags": [
+        "painting",
+        "preservation"
+      ]
+    },
+    "935": {
+      "idea": "idea-935",
+      "tags": [
+        "literature",
+        "painting",
+        "communication"
+      ]
+    },
+    "936": {
+      "idea": "idea-936",
+      "tags": [
+        "narratology",
+        "learning-memory"
+      ]
+    },
+    "937": {
+      "idea": "idea-937",
+      "tags": [
+        "democracy",
+        "law",
+        "power"
+      ]
+    },
+    "938": {
+      "idea": "idea-938",
+      "tags": [
+        "democracy",
+        "mathematics",
+        "fairness"
+      ]
+    },
+    "939": {
+      "idea": "idea-939",
+      "tags": [
+        "materials",
+        "mechanics"
+      ]
+    },
+    "940": {
+      "idea": "idea-940",
+      "tags": [
+        "materials",
+        "electromagnetism"
+      ]
+    },
+    "941": {
+      "idea": "idea-941",
+      "tags": [
+        "solar-system",
+        "saturn",
+        "patterns"
+      ]
+    },
+    "942": {
+      "idea": "idea-942",
+      "tags": [
+        "solar-system",
+        "mechanics",
+        "patterns"
+      ]
+    },
+    "943": {
+      "idea": "idea-943",
+      "tags": [
+        "microeconomics",
+        "incentives",
+        "uncertainty"
+      ]
+    },
+    "944": {
+      "idea": "idea-944",
+      "tags": [
+        "game-theory",
+        "incentives"
+      ]
+    },
+    "945": {
+      "idea": "idea-945",
+      "tags": [
+        "learning-memory",
+        "knowledge-evidence"
+      ]
+    },
+    "946": {
+      "idea": "idea-946",
+      "tags": [
+        "learning-memory",
+        "knowledge-evidence"
+      ]
+    },
+    "947": {
+      "idea": "idea-947",
+      "tags": [
+        "film-technique",
+        "optics"
+      ]
+    },
+    "948": {
+      "idea": "idea-948",
+      "tags": [
+        "animation",
+        "film-technique"
+      ]
+    },
+    "949": {
+      "idea": "idea-949",
+      "tags": [
+        "geometry",
+        "patterns"
+      ]
+    },
+    "950": {
+      "idea": "idea-950",
+      "tags": [
+        "geometry",
+        "logic",
+        "limits"
+      ]
+    },
+    "951": {
+      "idea": "idea-951",
+      "tags": [
+        "algorithms",
+        "information-theory",
+        "resources"
+      ]
+    },
+    "952": {
+      "idea": "idea-952",
+      "tags": [
+        "programming",
+        "information-theory",
+        "patterns"
+      ]
+    },
+    "953": {
+      "idea": "idea-953",
+      "tags": [
+        "economic-history",
+        "archaeology",
+        "communication"
+      ]
+    },
+    "954": {
+      "idea": "idea-954",
+      "tags": [
+        "music",
+        "innovation"
+      ]
+    },
+    "955": {
+      "idea": "idea-955",
+      "tags": [
+        "zoology",
+        "evolution",
+        "resilience"
+      ]
+    },
+    "956": {
+      "idea": "idea-956",
+      "tags": [
+        "narratology",
+        "ethics"
+      ]
+    },
+    "957": {
+      "idea": "idea-957",
+      "tags": [
+        "military-history",
+        "innovation"
+      ]
+    },
+    "958": {
+      "idea": "idea-958",
+      "tags": [
+        "economic-history",
+        "innovation"
+      ]
+    },
+    "959": {
+      "idea": "idea-959",
+      "tags": [
+        "military-history",
+        "organizations",
+        "cooperation"
+      ]
+    },
+    "960": {
+      "idea": "idea-960",
+      "tags": [
+        "artificial-intelligence",
+        "innovation"
+      ]
+    },
+    "961": {
+      "idea": "idea-961",
+      "tags": [
+        "computing",
+        "materials",
+        "innovation"
+      ]
+    },
+    "962": {
+      "idea": "idea-962",
+      "tags": [
+        "computer-security",
+        "cryptography",
+        "privacy"
+      ]
+    },
+    "963": {
+      "idea": "idea-963",
+      "tags": [
+        "ancient-philosophy",
+        "ethics",
+        "epicurus",
+        "fairness"
+      ]
+    },
+    "964": {
+      "idea": "idea-964",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "aristotle"
+      ]
+    },
+    "965": {
+      "idea": "idea-965",
+      "tags": [
+        "ancient-philosophy",
+        "philosophy-of-mind",
+        "plato"
+      ]
+    },
+    "966": {
+      "idea": "idea-966",
+      "tags": [
+        "existentialism",
+        "identity",
+        "fairness"
+      ]
+    },
+    "967": {
+      "idea": "idea-967",
+      "tags": [
+        "modern-philosophy",
+        "identity",
+        "communication"
+      ]
+    },
+    "968": {
+      "idea": "idea-968",
+      "tags": [
+        "stars",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "969": {
+      "idea": "idea-969",
+      "tags": [
+        "solar-system",
+        "spaceflight",
+        "knowledge-evidence"
+      ]
+    },
+    "970": {
+      "idea": "idea-970",
+      "tags": [
+        "narratology",
+        "perceived-reality"
+      ]
+    },
+    "971": {
+      "idea": "idea-971",
+      "tags": [
+        "narratology",
+        "preservation",
+        "identity"
+      ]
+    },
+    "972": {
+      "idea": "idea-972",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "power"
+      ]
+    },
+    "973": {
+      "idea": "idea-973",
+      "tags": [
+        "modern-history",
+        "democracy",
+        "freedom"
+      ]
+    },
+    "974": {
+      "idea": "idea-974",
+      "tags": [
+        "modern-history",
+        "political-science",
+        "power"
+      ]
+    },
+    "975": {
+      "idea": "idea-975",
+      "tags": [
+        "social-psychology",
+        "communication",
+        "cooperation"
+      ]
+    },
+    "976": {
+      "idea": "idea-976",
+      "tags": [
+        "social-psychology",
+        "communication",
+        "identity"
+      ]
+    },
+    "313": {
+      "idea": "idea-313",
+      "tags": [
+        "military-history",
+        "decision-making"
+      ]
+    },
+    "314": {
+      "idea": "idea-314",
+      "tags": [
+        "military-history",
+        "resources"
+      ]
+    },
+    "315": {
+      "idea": "idea-315",
+      "tags": [
+        "modern-history",
+        "communication",
+        "innovation"
+      ]
+    },
+    "316": {
+      "idea": "idea-316",
+      "tags": [
+        "modern-history",
+        "law",
+        "fairness"
+      ]
+    },
+    "317": {
+      "idea": "idea-317",
+      "tags": [
+        "military-history",
+        "cooperation"
+      ]
+    },
+    "318": {
+      "idea": "idea-318",
+      "tags": [
+        "artificial-intelligence",
+        "knowledge-evidence"
+      ]
+    },
+    "319": {
+      "idea": "idea-319",
+      "tags": [
+        "artificial-intelligence",
+        "algorithms",
+        "resources"
+      ]
+    },
+    "320": {
+      "idea": "idea-320",
+      "tags": [
+        "cryptography",
+        "computer-security",
+        "innovation"
+      ]
+    },
+    "321": {
+      "idea": "idea-321",
+      "tags": [
+        "materials",
+        "optics",
+        "innovation"
+      ]
+    },
+    "322": {
+      "idea": "idea-322",
+      "tags": [
+        "materials",
+        "chemistry",
+        "resources"
+      ]
+    },
+    "323": {
+      "idea": "idea-323",
+      "tags": [
+        "ancient-philosophy",
+        "ethics",
+        "epicurus",
+        "wellbeing"
+      ]
+    },
+    "324": {
+      "idea": "idea-324",
+      "tags": [
+        "ancient-philosophy",
+        "ethics",
+        "aristotle",
+        "fairness"
+      ]
+    },
+    "325": {
+      "idea": "idea-325",
+      "tags": [
+        "ancient-philosophy",
+        "ethics",
+        "socrates"
+      ]
+    },
+    "326": {
+      "idea": "idea-326",
+      "tags": [
+        "ancient-philosophy",
+        "ethics",
+        "aristotle",
+        "freedom"
+      ]
+    },
+    "327": {
+      "idea": "idea-327",
+      "tags": [
+        "ancient-philosophy",
+        "political-philosophy",
+        "plato",
+        "power"
+      ]
+    },
+    "328": {
+      "idea": "idea-328",
+      "tags": [
+        "philosophy-of-language",
+        "logic",
+        "knowledge-evidence"
+      ]
+    },
+    "329": {
+      "idea": "idea-329",
+      "tags": [
+        "political-philosophy",
+        "freedom",
+        "power"
+      ]
+    },
+    "330": {
+      "idea": "idea-330",
+      "tags": [
+        "epistemology",
+        "modern-philosophy",
+        "knowledge-evidence"
+      ]
+    },
+    "331": {
+      "idea": "idea-331",
+      "tags": [
+        "modern-philosophy",
+        "communication",
+        "perceived-reality"
+      ]
+    },
+    "332": {
+      "idea": "idea-332",
+      "tags": [
+        "philosophy-of-mind",
+        "artificial-intelligence",
+        "communication"
+      ]
+    },
+    "333": {
+      "idea": "idea-333",
+      "tags": [
+        "spaceflight",
+        "mechanics",
+        "innovation"
+      ]
+    },
+    "334": {
+      "idea": "idea-334",
+      "tags": [
+        "solar-system",
+        "chemistry",
+        "knowledge-evidence"
+      ]
+    },
+    "335": {
+      "idea": "idea-335",
+      "tags": [
+        "exoplanets",
+        "optics",
+        "knowledge-evidence"
+      ]
+    },
+    "336": {
+      "idea": "idea-336",
+      "tags": [
+        "spaceflight",
+        "mechanics",
+        "resources"
+      ]
+    },
+    "337": {
+      "idea": "idea-337",
+      "tags": [
+        "spaceflight",
+        "electromagnetism",
+        "innovation"
+      ]
+    },
+    "338": {
+      "idea": "idea-338",
+      "tags": [
+        "literature",
+        "ethics",
+        "freedom"
+      ]
+    },
+    "339": {
+      "idea": "idea-339",
+      "tags": [
+        "literature",
+        "ethics",
+        "identity"
+      ]
+    },
+    "340": {
+      "idea": "idea-340",
+      "tags": [
+        "literature",
+        "identity",
+        "freedom"
+      ]
+    },
+    "341": {
+      "idea": "idea-341",
+      "tags": [
+        "literature",
+        "ethics",
+        "perceived-reality"
+      ]
+    },
+    "342": {
+      "idea": "idea-342",
+      "tags": [
+        "literature",
+        "freedom",
+        "power"
+      ]
+    },
+    "343": {
+      "idea": "idea-343",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "freedom"
+      ]
+    },
+    "344": {
+      "idea": "idea-344",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "power"
+      ]
+    },
+    "345": {
+      "idea": "idea-345",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "china"
+      ]
+    },
+    "346": {
+      "idea": "idea-346",
+      "tags": [
+        "modern-history",
+        "democracy",
+        "power"
+      ]
+    },
+    "347": {
+      "idea": "idea-347",
+      "tags": [
+        "modern-history",
+        "international-relations",
+        "change"
+      ]
+    },
+    "348": {
+      "idea": "idea-348",
+      "tags": [
+        "social-psychology",
+        "communication",
+        "cooperation"
+      ]
+    },
+    "349": {
+      "idea": "idea-349",
+      "tags": [
+        "social-psychology",
+        "communication",
+        "fairness"
+      ]
+    },
+    "350": {
+      "idea": "idea-350",
+      "tags": [
+        "social-psychology",
+        "communication",
+        "cooperation"
+      ]
+    },
+    "351": {
+      "idea": "idea-351",
+      "tags": [
+        "social-psychology",
+        "motivation",
+        "change"
+      ]
+    },
+    "352": {
+      "idea": "idea-352",
+      "tags": [
+        "social-psychology",
+        "sleep",
+        "communication"
+      ]
+    },
+    "353": {
+      "idea": "idea-353",
+      "tags": [
+        "ancient-philosophy",
+        "ethics",
+        "aristotle"
+      ]
+    },
+    "354": {
+      "idea": "idea-354",
+      "tags": [
+        "ancient-philosophy",
+        "logic",
+        "aristotle"
+      ]
+    },
+    "355": {
+      "idea": "idea-355",
+      "tags": [
+        "stoicism",
+        "ethics",
+        "cooperation"
+      ]
+    },
+    "356": {
+      "idea": "idea-356",
+      "tags": [
+        "epistemology",
+        "modern-philosophy",
+        "uncertainty"
+      ]
+    },
+    "357": {
+      "idea": "idea-357",
+      "tags": [
+        "epistemology",
+        "modern-philosophy",
+        "perceived-reality"
+      ]
+    },
+    "358": {
+      "idea": "idea-358",
+      "tags": [
+        "political-philosophy",
+        "democracy",
+        "fairness"
+      ]
+    },
+    "359": {
+      "idea": "idea-359",
+      "tags": [
+        "ethics",
+        "modern-philosophy",
+        "fairness"
+      ]
+    },
+    "360": {
+      "idea": "idea-360",
+      "tags": [
+        "modern-philosophy",
+        "political-philosophy",
+        "freedom"
+      ]
+    },
+    "361": {
+      "idea": "idea-361",
+      "tags": [
+        "military-history",
+        "international-relations",
+        "cooperation"
+      ]
+    },
+    "362": {
+      "idea": "idea-362",
+      "tags": [
+        "military-history",
+        "international-relations",
+        "cooperation"
+      ]
+    },
+    "363": {
+      "idea": "idea-363",
+      "tags": [
+        "military-history",
+        "public-health",
+        "decision-making"
+      ]
+    },
+    "364": {
+      "idea": "idea-364",
+      "tags": [
+        "modern-history",
+        "political-philosophy",
+        "communication"
+      ]
+    },
+    "365": {
+      "idea": "idea-365",
+      "tags": [
+        "literature",
+        "identity",
+        "perceived-reality"
+      ]
+    },
+    "366": {
+      "idea": "idea-366",
+      "tags": [
+        "literature",
+        "human-rights",
+        "fairness"
+      ]
+    },
+    "367": {
+      "idea": "idea-367",
+      "tags": [
+        "literature",
+        "power",
+        "freedom"
+      ]
+    },
+    "368": {
+      "idea": "idea-368",
+      "tags": [
+        "literature",
+        "power",
+        "ethics"
+      ]
+    },
+    "369": {
+      "idea": "idea-369",
+      "tags": [
+        "literature",
+        "ecology",
+        "public-health"
+      ]
+    },
+    "370": {
+      "idea": "idea-370",
+      "tags": [
+        "artificial-intelligence",
+        "privacy"
+      ]
+    },
+    "371": {
+      "idea": "idea-371",
+      "tags": [
+        "artificial-intelligence",
+        "communication"
+      ]
+    },
+    "372": {
+      "idea": "idea-372",
+      "tags": [
+        "materials",
+        "innovation"
+      ]
+    },
+    "373": {
+      "idea": "idea-373",
+      "tags": [
+        "genetics",
+        "innovation"
+      ]
+    },
+    "374": {
+      "idea": "idea-374",
+      "tags": [
+        "sleep",
+        "nutrition",
+        "wellbeing"
+      ]
+    },
+    "375": {
+      "idea": "idea-375",
+      "tags": [
+        "exercise",
+        "wellbeing",
+        "decision-making"
+      ]
+    },
+    "376": {
+      "idea": "idea-376",
+      "tags": [
+        "nutrition",
+        "wellbeing",
+        "knowledge-evidence"
+      ]
+    },
+    "377": {
+      "idea": "idea-377",
+      "tags": [
+        "exercise",
+        "nutrition",
+        "wellbeing"
+      ]
+    },
+    "378": {
+      "idea": "idea-378",
+      "tags": [
+        "sport",
+        "innovation",
+        "change"
+      ]
+    },
+    "379": {
+      "idea": "idea-379",
+      "tags": [
+        "sport",
+        "modern-history",
+        "fairness"
+      ]
+    },
+    "380": {
+      "idea": "idea-380",
+      "tags": [
+        "sport",
+        "cooperation",
+        "modern-history"
+      ]
+    },
+    "381": {
+      "idea": "idea-381",
+      "tags": [
+        "sport",
+        "development",
+        "fairness"
+      ]
+    },
+    "382": {
+      "idea": "idea-382",
+      "tags": [
+        "sport",
+        "game-theory",
+        "uncertainty"
+      ]
+    },
+    "383": {
+      "idea": "idea-383",
+      "tags": [
+        "military-history",
+        "communication"
+      ]
+    },
+    "384": {
+      "idea": "idea-384",
+      "tags": [
+        "archaeology",
+        "medieval-history",
+        "knowledge-evidence"
+      ]
+    },
+    "385": {
+      "idea": "idea-385",
+      "tags": [
+        "ancient-philosophy",
+        "literature",
+        "aristotle",
+        "knowledge-evidence"
+      ]
+    },
+    "386": {
+      "idea": "idea-386",
+      "tags": [
+        "ancient-philosophy",
+        "metaphysics",
+        "aristotle",
+        "limits"
+      ]
+    },
+    "387": {
+      "idea": "idea-387",
+      "tags": [
+        "zoology",
+        "evolution",
+        "patterns"
+      ]
+    },
+    "388": {
+      "idea": "idea-388",
+      "tags": [
+        "microbiology",
+        "communication",
+        "cooperation"
+      ]
+    },
+    "389": {
+      "idea": "idea-389",
+      "tags": [
+        "sculpture",
+        "materials",
+        "preservation"
+      ]
+    },
+    "390": {
+      "idea": "idea-390",
+      "tags": [
+        "painting",
+        "materials",
+        "patterns"
+      ]
+    },
+    "391": {
+      "idea": "idea-391",
+      "tags": [
+        "literature",
+        "communication",
+        "patterns"
+      ]
+    },
+    "392": {
+      "idea": "idea-392",
+      "tags": [
+        "narratology",
+        "perceived-reality"
+      ]
+    },
+    "393": {
+      "idea": "idea-393",
+      "tags": [
+        "human-rights",
+        "fairness"
+      ]
+    },
+    "394": {
+      "idea": "idea-394",
+      "tags": [
+        "institutions",
+        "political-science",
+        "cooperation"
+      ]
+    },
+    "395": {
+      "idea": "idea-395",
+      "tags": [
+        "thermodynamics",
+        "materials"
+      ]
+    },
+    "396": {
+      "idea": "idea-396",
+      "tags": [
+        "materials",
+        "chemistry",
+        "knowledge-evidence"
+      ]
+    },
+    "397": {
+      "idea": "idea-397",
+      "tags": [
+        "solar-system",
+        "mechanics",
+        "jupiter"
+      ]
+    },
+    "398": {
+      "idea": "idea-398",
+      "tags": [
+        "solar-system",
+        "spaceflight",
+        "mechanics"
+      ]
+    },
+    "399": {
+      "idea": "idea-399",
+      "tags": [
+        "microeconomics",
+        "resources",
+        "decision-making"
+      ]
+    },
+    "400": {
+      "idea": "idea-400",
+      "tags": [
+        "macroeconomics",
+        "finance",
+        "limits"
+      ]
+    },
+    "401": {
+      "idea": "idea-401",
+      "tags": [
+        "perception",
+        "knowledge-evidence"
+      ]
+    },
+    "402": {
+      "idea": "idea-402",
+      "tags": [
+        "learning-memory",
+        "linguistics",
+        "uncertainty"
+      ]
+    },
+    "403": {
+      "idea": "idea-403",
+      "tags": [
+        "animation",
+        "film-technique",
+        "innovation"
+      ]
+    },
+    "404": {
+      "idea": "idea-404",
+      "tags": [
+        "sound",
+        "film-technique",
+        "preservation"
+      ]
+    },
+    "405": {
+      "idea": "idea-405",
+      "tags": [
+        "probability",
+        "geometry",
+        "patterns"
+      ]
+    },
+    "406": {
+      "idea": "idea-406",
+      "tags": [
+        "combinatorics",
+        "geometry",
+        "limits"
+      ]
+    },
+    "407": {
+      "idea": "idea-407",
+      "tags": [
+        "algorithms",
+        "networks",
+        "resources"
+      ]
+    },
+    "408": {
+      "idea": "idea-408",
+      "tags": [
+        "programming",
+        "networks",
+        "cooperation"
+      ]
+    },
+    "409": {
+      "idea": "idea-409",
+      "tags": [
+        "sport",
+        "modern-history",
+        "innovation"
+      ]
+    },
+    "410": {
+      "idea": "idea-410",
+      "tags": [
+        "sport",
+        "mechanics",
+        "limits"
+      ]
+    },
+    "411": {
+      "idea": "idea-411",
+      "tags": [
+        "sport",
+        "mechanics",
+        "innovation"
+      ]
+    },
+    "412": {
+      "idea": "idea-412",
+      "tags": [
+        "sport",
+        "institutions",
+        "patterns"
+      ]
+    },
+    "977": {
+      "idea": "idea-977",
+      "tags": [
+        "sport",
+        "incentives",
+        "modern-history"
+      ]
+    },
+    "978": {
+      "idea": "idea-978",
+      "tags": [
+        "sport",
+        "cooperation"
+      ]
+    },
+    "979": {
+      "idea": "idea-979",
+      "tags": [
+        "sport",
+        "mechanics",
+        "change"
+      ]
+    },
+    "980": {
+      "idea": "idea-980",
+      "tags": [
+        "sport",
+        "communication"
+      ]
+    },
+    "981": {
+      "idea": "idea-981",
+      "tags": [
+        "sport",
+        "change"
+      ]
+    },
+    "982": {
+      "idea": "idea-982",
+      "tags": [
+        "sport",
+        "innovation"
+      ]
+    },
+    "983": {
+      "idea": "idea-983",
+      "tags": [
+        "sport",
+        "modern-history",
+        "patterns"
+      ]
+    },
+    "984": {
+      "idea": "idea-984",
+      "tags": [
+        "sport",
+        "fairness",
+        "modern-history"
+      ]
+    },
+    "985": {
+      "idea": "idea-985",
+      "tags": [
+        "sport",
+        "modern-history"
+      ]
+    },
+    "986": {
+      "idea": "idea-986",
+      "tags": [
+        "sport",
+        "fairness",
+        "modern-history"
+      ]
+    },
+    "987": {
+      "idea": "idea-987",
+      "tags": [
+        "sport",
+        "modern-history",
+        "change"
+      ]
+    },
+    "988": {
+      "idea": "idea-988",
+      "tags": [
+        "sport",
+        "mechanics"
+      ]
+    },
+    "989": {
+      "idea": "idea-989",
+      "tags": [
+        "sport",
+        "innovation",
+        "modern-history"
+      ]
+    },
+    "990": {
+      "idea": "idea-990",
+      "tags": [
+        "sport",
+        "change"
+      ]
+    },
+    "991": {
+      "idea": "idea-991",
+      "tags": [
+        "sport",
+        "communication",
+        "change"
+      ]
+    },
+    "992": {
+      "idea": "idea-992",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "roman-empire"
+      ]
+    },
+    "993": {
+      "idea": "idea-993",
+      "tags": [
+        "archaeology",
+        "economic-history",
+        "roman-empire"
+      ]
+    },
+    "994": {
+      "idea": "idea-994",
+      "tags": [
+        "ancient-history",
+        "law",
+        "roman-empire"
+      ]
+    },
+    "995": {
+      "idea": "idea-995",
+      "tags": [
+        "ancient-history",
+        "law",
+        "roman-empire"
+      ]
+    },
+    "996": {
+      "idea": "idea-996",
+      "tags": [
+        "ancient-history",
+        "military-history",
+        "roman-empire"
+      ]
+    },
+    "997": {
+      "idea": "idea-997",
+      "tags": [
+        "music",
+        "patterns"
+      ]
+    },
+    "998": {
+      "idea": "idea-998",
+      "tags": [
+        "music",
+        "patterns"
+      ]
+    },
+    "999": {
+      "idea": "idea-999",
+      "tags": [
+        "music",
+        "innovation"
+      ]
+    },
+    "1000": {
+      "idea": "idea-1000",
+      "tags": [
+        "music",
+        "narratology",
+        "communication"
+      ]
+    },
+    "1001": {
+      "idea": "idea-1001",
+      "tags": [
+        "optics",
+        "communication"
+      ]
+    },
+    "1002": {
+      "idea": "idea-1002",
+      "tags": [
+        "thermodynamics",
+        "resources"
+      ]
+    },
+    "1003": {
+      "idea": "idea-1003",
+      "tags": [
+        "optics",
+        "perception"
+      ]
+    },
+    "1004": {
+      "idea": "idea-1004",
+      "tags": [
+        "chemistry",
+        "materials"
+      ]
+    },
+    "1005": {
+      "idea": "idea-1005",
+      "tags": [
+        "chemistry",
+        "perception"
+      ]
+    },
+    "1006": {
+      "idea": "idea-1006",
+      "tags": [
+        "chemistry",
+        "materials"
+      ]
+    }
+  }
+}
