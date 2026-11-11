@@ -19,6 +19,11 @@ jobs:
       - run: npx playwright install --with-deps chromium webkit
       - run: npm test
       - run: npm run test:e2e
+      - run: npm run build
+      - name: Test category pagination in production build
+        run: npx playwright test tests/browser/feed-category-pagination.spec.js
+        env:
+          TEST_PRODUCTION: '1'
       - uses: actions/upload-artifact@v6
         if: failure()
         with:
