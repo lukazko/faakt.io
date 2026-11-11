@@ -1,5 +1,17 @@
 # Ilustrace — aktuální stav
 
+## Dávka 977–1006: sport, římská říše, hudba, fyzika a chemie
+
+Prošlo všech **13 testů `npm test`** a následná cílená kontrola registrace všech přijatých ilustrací. Produkční build vytvořil všech 30 nových statických stránek, jejich WebP, galerii se 1006 položkami a `.nojekyll`; zbývají dosavadní upozornění Svelte a velikost balíčku galerie. Závěrečný souhrn je v `reports/batch-977-final-validation.json`. Běžící ověřený náhled tohoto checkoutu: `http://127.0.0.1:4200/faakt.io/post/977/`. Původní objekty manifestu a původní obrázky se nemění.
+
+Databáze má **1006 příspěvků, 963 různých poznatků a 15 kategorií**. Dávka přidává 15 postů ve Sportu, 5 v Historii o římské říši, 4 hudební v Umění, 3 ve Fyzice a 3 v Chemii. Původních 976 článků zůstává obsahově zachováno. Verze aplikace a obě verze lockfile jsou shodně **1.5.1**. Redakční podklady, kontrola originality a věcné hranice jsou v `reports/batch-977-editorial-review.md`, plánu, návrzích a schválení.
+
+Nových 30 ilustrací vzniklo 30 samostatnými voláními vestavěného `image_gen` s `transparent_background=true`, se společným STYLE a kompaktními metadaty. Přesné prompty a zdrojové cesty uchovávají `reports/batch-977-image-<ID>.json`. U Bodyline 986 byla cíleně opravena moderní přilba na dobovou měkkou čepici; původní generování i opravný prompt zůstávají doloženy. Rozměry, kvalitu a náklady generování nástroj nenabízí. Výstupní WebP používají skutečnou alfu a rozměr 640×360, nikoli pozadí napodobující kartu.
+
+Mapování motivů: 977 časomíra a basketbalový míč, 978 obranný zákrok ve volejbalu, 979 oštěp, 980 ruka s kartami, 981 pálka a míčky, 982 motýlkář, 983 cílový oblouk, 984 anonymní běžkyně, 985 tři medaile, 986 kriketový pálkař, 987 přetahující se tým, 988 péřový míček, 989 přehazovačka, 990 fotbalová situace, 991 žlutý míček, 992 bronzový vojenský diplom, 993 amfora a střepy, 994 bronzová deska, 995 otevřený kostelní vstup, 996 římská jezdecká maska, 997 malý buben, 998 dvojice klaviatur, 999 trubka, 1000 prsten s hudebním motivem, 1001 optické vlákno, 1002 hrnec s párou, 1003 brýle, 1004 hliníkový plech, 1005 máta a kmín, 1006 porézní krystal. Ilustrace jsou doprovodné motivy: 989 není výkres konkrétního modelu z roku 1937, 990 není úplný diagram ofsajdu, 995 není rekonstrukce určité stavby a 987 nereprodukuje složení policejního družstva 1908. Běžkyně 984 není portrétem Joan Benoit.
+
+Zachovávají se všechny dosavadní palety, CardGlow, renderer i zlaté otisky. Náhled deterministického repairu pro žádné nové ID nenavrhuje změnu; staré návrhy nebyly aplikovány. Všech 30 RGBA WebP má ověřené nulové alfy rohů a dohromady 670 812 B. Všech 30 skutečných karet bylo prohlédnuto při 390×844 na základním gradientu i s aktuálním CardGlow; motivy také při 160×90 a 320×180. Prošlo 30 otočení a kontrol úplných textů i zdrojových odkazů, bez runtime chyb. Viditelná mezera od alfa≥16 okraje k hooku je 18,49–22,47 CSS px. Při 390×500 lze dočíst konec hooku posunem a otočit kartu; ověřen byl i desktop. Výsledky jsou v `reports/batch-977-art-validation.json`, `reports/batch-977-local-validation.json` a pěti přehledech karet.
+
 Při šířce viewportu do 600 px je horní odsazení kategorie a nabídky 28 px a spodní odsazení akcí na líci 20 px. Desktopové odsazení zůstává zachované.
 
 ## Celý hook na líci
@@ -10,7 +22,7 @@ Hook nemá řádkový limit ani výpustku, včetně nízkého viewportu. Titulek
 
 ## Doplněná mezera ID 383–412
 
-Aktuální databáze má **976 příspěvků, 933 různých poznatků a 14 kategorií**. Všechna ID 1–976 jsou obsazená; každý post má statický WebP, registraci v produkčních kartách a položku společného manifestu galerie. Verze aplikace a oba údaje lockfile zůstávají 1.5.0. Dávka přidala 30 textů: po dvou v každé kategorii a další dva ve Sportu. Původních 946 článků a 946 položek manifestu je obsahově přesně zachováno. U starého 838 byl podle celého článku opraven pouze nesprávný významový index o právu na zapomnění. Redakční kontrolu, celý přečtený katalog, zdroje a srovnání uchovávají `reports/gap383-412-editorial-review.md`, plán, návrhy, hledání a schválení.
+Stav před dávkou 977–1006 byl **976 příspěvků, 933 různých poznatků a 15 kategorií**. Všechna ID 1–976 jsou obsazená; každý post má statický WebP, registraci v produkčních kartách a položku společného manifestu galerie. Tehdejší verze aplikace a obou údajů lockfile byla 1.5.0. Dávka přidala 30 textů: po dvou v každé kategorii a další dva ve Sportu. Původních 946 článků a 946 položek manifestu je obsahově přesně zachováno. U starého 838 byl podle celého článku opraven pouze nesprávný významový index o právu na zapomnění. Redakční kontrolu, celý přečtený katalog, zdroje a srovnání uchovávají `reports/gap383-412-editorial-review.md`, plán, návrhy, hledání a schválení.
 
 Nových 30 RGBA WebP má 640×360 px, nulovou alfu rohů, jednotlivě 9 418–31 962 B a dohromady **611 466 B**. Vznikly 30 samostatnými voláními vestavěného `image_gen` a jednou věcnou úpravou, vždy s `transparent_background=true`. U Sutton Hoo 384 byl původní zachovaný dřevěný trup nahrazen otiskem v písčité půdě s několika železnými spoji. Původní obrázek, editovaný výsledek, přesné prompty a zdrojové cesty zůstávají v `reports/gap383-412-image-*.json`; otisky a přejímku obsahuje společný manifest. Rozměry, kvalitu a cenu generování nástroj nenabízí; následné zmenšení náklady generování neurčuje.
 
@@ -60,7 +72,7 @@ Komponenta `src/lib/components/CardGlow.svelte` vykresluje na obou stranách kar
 
 Generování s tímto podkladem počítá v `skills/faakt-illustrations/SKILL.md` i ve společném `STYLE` v `skills/faakt-illustrations/scripts/prompt.mjs`: motiv má mít čitelnou siluetu a důležité vnitřní hranice díky světlostnímu i barevnému kontrastu. Nové a výslovně opravované obrázky se kontrolují při 160×90 a 320×180 na původním tmavém podkladu i na aktuální vícebarevné CSS záři a ve skutečné vývojové kartě. Záře se nikdy nezapeče do obrázku; průhlednost zůstává nutná pro tento podklad. Změna instrukcí nespouští regenerování ani neznamená, že stávající obrázky prošly novou kontrolou.
 
-Každá vrstva používá jednu z trojice barev přiřazené k paletě (osm barevných trojic); při chybějící paletě se kombinuje CSS barva kategorie se zlatavým a fialovým odstínem. Obrázky zůstávají průhledné a zachovávají opacitu 0,92. Layout, počty ilustrací, soubory, metadata, manifest a otisky se nemění. Produkční build záři nezobrazuje.
+Každá vrstva používá jednu z trojice barev přiřazené k paletě (osm barevných trojic); při chybějící paletě se kombinuje CSS barva kategorie se zlatavým a fialovým odstínem. Obrázky zůstávají průhledné a zachovávají opacitu 0,92. Layout, počty ilustrací, soubory, metadata, manifest a otisky se nemění. Produkční build záři zobrazuje.
 
 ## Nové příspěvky a ilustrace 927–956
 
