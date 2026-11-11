@@ -1,0 +1,577 @@
+{
+  "snapshot": "ec6d0f5b4ae65376be3fc6564b78a7aaabf1670edf3b12bfc14946ee8b957207",
+  "catalog_reviewed": "ec6d0f5b4ae65376be3fc6564b78a7aaabf1670edf3b12bfc14946ee8b957207",
+  "proposals": [
+    {
+      "id": "977",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-977",
+        "point": "Časový limit útoku zavedený NBA v roce 1954 omezil možnost chránit náskok pouhým držením míče.",
+        "tags": [
+          "sport",
+          "incentives",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "409"
+      ],
+      "reason": "409 je o vzniku basketbalu; zde jde o pozdější odstranění zdržování časovým limitem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "978",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-978",
+        "point": "Libero na volejbalovém mistrovství světa 1998 vyčlenilo obrannou specializaci s omezením útočných a blokařských činností.",
+        "tags": [
+          "sport",
+          "cooperation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "381"
+      ],
+      "reason": "381 řeší věkové zkreslení výběru dětí; zde jde o pravidly vytvořenou obrannou pozici.",
+      "verdict": "accept"
+    },
+    {
+      "id": "979",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-979",
+        "point": "Posunutí těžiště mužského oštěpu o čtyři centimetry vpřed v roce 1986 podpořilo dopad špičkou a zahájilo novou řadu rekordů.",
+        "tags": [
+          "sport",
+          "mechanics",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "378",
+        "411"
+      ],
+      "reason": "378 mění pohyb skokana a 411 spojení boty a nože; zde jde o vyvážení oštěpu a posuzování jeho dopadu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "980",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-980",
+        "point": "Žluté a červené karty zavedené na MS 1970 zviditelnily napomenutí a vyloučení přes jazykové bariéry.",
+        "tags": [
+          "sport",
+          "communication"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "382 je o nepředvídatelnosti penalty; zde jde o veřejné rozpoznání rozhodnutí rozhodčího.",
+      "verdict": "accept"
+    },
+    {
+      "id": "981",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-981",
+        "point": "Stolní tenis od října 2000 přešel v mezinárodní soutěži z míčku o průměru 38 mm na 40 mm.",
+        "tags": [
+          "sport",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "411 vysvětluje kloubovou brusli; zde jde o historickou změnu rozměru soutěžního míčku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "982",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-982",
+        "point": "Motýlkový přenos paží původně patřil do závodů na prsa a teprve oddělení stylů vytvořilo samostatnou disciplínu.",
+        "tags": [
+          "sport",
+          "innovation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "378 je nová technika uvnitř jedné disciplíny; zde technická varianta vedla k rozdělení plaveckých stylů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "983",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-983",
+        "point": "Délka maratonu 42,195 km byla standardizována roku 1921 podle londýnské olympijské trasy z roku 1908.",
+        "tags": [
+          "sport",
+          "modern-history",
+          "patterns"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "379"
+      ],
+      "reason": "379 řeší podvod a nebezpečné povzbuzování v roce 1904; zde jde o sjednocení vzdálenosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "984",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-984",
+        "point": "První olympijský maraton žen roku 1984 následoval až po existenci ženských maratonských závodů mimo olympijský program.",
+        "tags": [
+          "sport",
+          "fairness",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "381"
+      ],
+      "reason": "381 analyzuje věkové zvýhodnění; zde jde o pozdní otevření olympijské disciplíny ženám.",
+      "verdict": "accept"
+    },
+    {
+      "id": "985",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-985",
+        "point": "Emil Zátopek v Helsinkách 1952 přidal k vítězstvím na 5000 a 10 000 metrů zlato při svém prvním maratonu.",
+        "tags": [
+          "sport",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "380"
+      ],
+      "reason": "380 vysvětluje Bannisterovy vodiče; zde jde o kombinaci tří vítězství a maratonský debut.",
+      "verdict": "accept"
+    },
+    {
+      "id": "986",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-986",
+        "point": "Anglická taktika Bodyline v sérii 1932–33 spojila krátké rychlé míče na tělo s chytači na nožní straně a vyvolala spor o bezpečnost hry.",
+        "tags": [
+          "sport",
+          "fairness",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "382",
+        "379"
+      ],
+      "reason": "382 je náhodná penalta a 379 podpora běžce; zde jde o kriketovou taktiku vyvolávající obranné údery pod hrozbou zásahu těla.",
+      "verdict": "accept"
+    },
+    {
+      "id": "987",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-987",
+        "point": "Přetahování lanem bylo medailovou olympijskou soutěží v letech 1900 až 1920 a londýnské medaile 1908 získaly britské policejní týmy.",
+        "tags": [
+          "sport",
+          "modern-history",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "409"
+      ],
+      "reason": "409 je vznik basketbalu; zde jde o někdejší olympijské postavení přetahování a jeho medailisty.",
+      "verdict": "accept"
+    },
+    {
+      "id": "988",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-988",
+        "point": "Velký odpor badmintonového míčku rychle snižuje jeho rychlost a vytváří dráhu odlišnou od letu běžného míče.",
+        "tags": [
+          "sport",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "410",
+        "614"
+      ],
+      "reason": "410 řeší nadmořskou výšku a 614 mezní rychlost pádu; zde jde o brzdění sportovního projektilu po úderu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "989",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-989",
+        "point": "Tour de France povolila přehazovačky v roce 1937, přestože tato technika existovala již dříve.",
+        "tags": [
+          "sport",
+          "innovation",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "411 je o biomechanice klapací brusle; zde jde o opožděné soutěžní povolení již existující techniky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "990",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-990",
+        "point": "Změna ofsajdu v roce 1925 snížila počet soupeřů potřebných mezi útočníkem a brankovou čárou ze tří na dva.",
+        "tags": [
+          "sport",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "382 je o nepředvídatelnosti penalty; zde jde o změnu prostorového omezení útočné hry.",
+      "verdict": "accept"
+    },
+    {
+      "id": "991",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-991",
+        "point": "Žluté tenisové míčky byly do pravidel připuštěny roku 1972 kvůli viditelnosti v televizi; Wimbledon je přijal až roku 1986.",
+        "tags": [
+          "sport",
+          "communication",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "412"
+      ],
+      "reason": "412 mění rozhodování setu; zde jde o barvu vybavení kvůli televiznímu přenosu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "992",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-992",
+        "point": "Bronzové vojenské diplomy dokládají udělování občanství a práva řádného sňatku propuštěným příslušníkům římských pomocných jednotek.",
+        "tags": [
+          "ancient-history",
+          "military-history",
+          "roman-empire"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "874",
+        "520",
+        "270"
+      ],
+      "reason": "874 je plošný Caracallův edikt, 520 vazba republikánských vojáků na velitele a 270 osobní dopisy; zde jde o konkrétní právní odměnu pomocných vojáků a její doklad.",
+      "verdict": "accept"
+    },
+    {
+      "id": "993",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-993",
+        "point": "Monte Testaccio je řízeně navršená skládka zlomků zejména olejových amfor, která dokládá zásobování císařského Říma.",
+        "tags": [
+          "archaeology",
+          "economic-history",
+          "roman-empire"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "270",
+        "529"
+      ],
+      "reason": "270 ukazuje osobní korespondenci a 529 kanalizaci; zde keramický odpad dokládá dovoz oleje a hospodářské vazby.",
+      "verdict": "accept"
+    },
+    {
+      "id": "994",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-994",
+        "point": "Claudiův projev z roku 48 prosazoval přístup galských elit k římským úřadům a senátu; jeho část zachovala bronzová deska z Lyonu.",
+        "tags": [
+          "ancient-history",
+          "law",
+          "roman-empire"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "874",
+        "875"
+      ],
+      "reason": "874 rozšiřuje občanství na svobodné obyvatele a 875 maže památku; zde jde o přístup provinčních elit k nejvyšším funkcím a dochovaný projev.",
+      "verdict": "accept"
+    },
+    {
+      "id": "995",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-995",
+        "point": "Dohoda Konstantina a Licinia roku 313 podporovala náboženskou toleranci a vracení křesťanského majetku, nikoli povinné křesťanství.",
+        "tags": [
+          "ancient-history",
+          "law",
+          "roman-empire"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "547"
+      ],
+      "reason": "547 je uspořádání spoluvlády; zde jde o náboženskou toleranci a restituci majetku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "996",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-996",
+        "point": "Arminiova koalice roku 9 porazila tři Varovy legie; archeologie v Kalkriese zpřesňuje místo konfliktu, ale neuzavírá všechny otázky průběhu.",
+        "tags": [
+          "ancient-history",
+          "military-history",
+          "roman-empire"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "516",
+        "518"
+      ],
+      "reason": "516 je Zama a 518 vyčerpávání Hannibala; nový text řeší konkrétní Varovu porážku a meze její archeologické rekonstrukce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "997",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-997",
+        "point": "Ravelovo Bolero buduje napětí především proměnou instrumentace a zesilováním při opakování dvou melodií nad vytrvalým rytmem.",
+        "tags": [
+          "music",
+          "patterns"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "954",
+        "250"
+      ],
+      "reason": "954 mění zvuk vloženými předměty do klavíru a 250 je skandál premiéry; zde je princip orchestrace a crescenda konkrétní skladby.",
+      "verdict": "accept"
+    },
+    {
+      "id": "998",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-998",
+        "point": "Reichovo Piano Phase vytváří nové slyšitelné vztahy postupným časovým posouváním stejného opakovaného vzorce mezi dvěma hráči.",
+        "tags": [
+          "music",
+          "patterns"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "954",
+        "856"
+      ],
+      "reason": "954 je úprava nástroje a 856 ladění; zde novou strukturu vytváří relativní časový posun stejných vzorců.",
+      "verdict": "accept"
+    },
+    {
+      "id": "999",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-999",
+        "point": "So What z alba Kind of Blue omezuje rychlé střídání harmonií a otevírá improvizaci delší pobyt v modálních tónových oblastech.",
+        "tags": [
+          "music",
+          "innovation"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "801",
+        "856"
+      ],
+      "reason": "801 řeší Dvořákovu kulturní inspiraci a 856 temperaci; zde jde o organizaci jazzové improvizace pomocí pomalu se měnící modality.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1000",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1000",
+        "point": "Leitmotivy v Prstenu Nibelungově propojují hudbu s postavami, předměty a idejemi a jejich proměny vytvářejí vztahy napříč dějem.",
+        "tags": [
+          "music",
+          "narratology",
+          "communication"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "744",
+        "801"
+      ],
+      "reason": "744 řeší zápis melodie a 801 kulturní inspiraci; zde jde o vyprávěcí funkci návratných motivů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1001",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1001",
+        "point": "Úplný vnitřní odraz nastává při přechodu k nižšímu indexu lomu nad mezním úhlem a umožňuje vedení světla optickým vláknem.",
+        "tags": [
+          "optics",
+          "communication"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "617",
+        "677"
+      ],
+      "reason": "617 je orientace zrcadlového obrazu a 677 vstup světla do oka; zde jde o podmínky úplného odrazu na rozhraní.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1002",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1002",
+        "point": "Při varu čisté vody za stálého tlaku dodané teplo převážně mění kapalinu v páru místo zvyšování její teploty.",
+        "tags": [
+          "thermodynamics",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "749",
+        "912"
+      ],
+      "reason": "749 je izolace kapky párou a 912 trojný bod; zde je energetická bilance skupenské změny při varu za stálého tlaku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1003",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1003",
+        "point": "Polarizační brýle potlačují odlesky výběrem směru kmitání elektrického pole, protože odražené světlo bývá částečně polarizované.",
+        "tags": [
+          "optics",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "457",
+        "617"
+      ],
+      "reason": "457 je stereoskopické vidění a 617 zrcadlové převrácení; zde filtr vybírá směr polarizace odraženého světla.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1004",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1004",
+        "point": "Tenká přilnavá oxidická vrstva omezuje další korozi hliníku, takže reaktivita kovu může vytvořit jeho povrchovou ochranu.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "823"
+      ],
+      "reason": "823 vysvětluje rozpouštění zlata a ukrytí medailí; zde jde o pasivaci reaktivního kovu přilnavým oxidem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1005",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1005",
+        "point": "Dva enantiomery karvonu mají stejné složení a propojení atomů, ale odlišné prostorové uspořádání a rozlišitelnou mátovou či kmínovou vůni.",
+        "tags": [
+          "chemistry",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "825",
+        "617"
+      ],
+      "reason": "825 je amfifilní stavba mýdla a 617 orientace obrazu; zde jde o chemickou chiralitu a rozdílnou vůni enantiomerů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1006",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1006",
+        "point": "Pravidelné póry zeolitů mohou propouštět menší molekuly a vylučovat větší, přičemž výběr ovlivňují i chemické interakce s vnitřním povrchem.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "913",
+        "825"
+      ],
+      "reason": "913 je extrakce superkritickým CO2 a 825 micely; zde jde o selektivní vstup molekul do krystalických pórů.",
+      "verdict": "accept"
+    }
+  ]
+}

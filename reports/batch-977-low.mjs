@@ -1,0 +1,22 @@
+import {chromium} from 'playwright';
+import {readFileSync,writeFileSync} from 'node:fs';
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:390,height:500}});
+await page.emulateMedia({reducedMotion:'reduce'});
+await page.goto('http://127.0.0.1:4200/faakt.io/post/1006/',{waitUntil:'domcontentloaded'});
+await page.locator('.is-active .card-front h2').waitFor();
+await page.locator('.is-active .card-front img').evaluate(im=>im.decode());
+const low=await page.locator('.is-active .front-main').evaluate(el=>{
+ el.scrollTop=el.scrollHeight;
+ const box=el.getBoundingClientRect(),hook=el.querySelector('.teaser').getBoundingClientRect();
+ return {scrollHeight:el.scrollHeight,clientHeight:el.clientHeight,hookEndReachable:hook.bottom<=box.bottom+2};
+});
+if(!low.hookEndReachable)throw Error('Hook end cannot be reached');
+await page.screenshot({path:'reports/batch-977-cards/low.png'});
+await page.locator('.is-active .card-front .flip-btn').click();
+await page.locator('.is-active .card-back .post-body').waitFor({state:'visible'});
+low.flipVerified=true;
+const report=JSON.parse(readFileSync('reports/batch-977-local-validation.json','utf8'));
+report.lowViewport=low;
+writeFileSync('reports/batch-977-local-validation.json',JSON.stringify(report,null,2)+'\n');
+await browser.close();console.log(low);

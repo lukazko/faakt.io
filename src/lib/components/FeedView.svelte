@@ -143,12 +143,16 @@
 	 * Zarovnání na zvolený příspěvek (bez animace).
 	 */
 	function resetScroll() {
+		// Scroll při změně délky/pořadí DOM může mezitím změnit currentIndex.
+		// Cíl patří k nově sestavenému feedu, nikoli k pozdější scroll události.
+		const targetIndex = currentIndex;
 		requestAnimationFrame(() => {
 			const container = document.querySelector('.feed-container');
 			if (!container) return;
 			container.style.scrollBehavior = 'auto';
 			container.style.scrollSnapType = 'none';
-			container.scrollTop = currentIndex * (cardStep || container.clientHeight);
+			container.scrollTop = targetIndex * (cardStep || container.clientHeight);
+			currentIndex = targetIndex;
 			container.style.scrollBehavior = '';
 			container.style.scrollSnapType = '';
 		});

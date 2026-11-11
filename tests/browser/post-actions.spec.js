@@ -87,6 +87,33 @@ async function flip(page) {
 	});
 }
 
+test('flip surfaces stay rendered until the rotation finishes', async ({ page }) => {
+	const card = page.locator('.is-active');
+	for (const side of ['front', 'back']) {
+		if (side === 'front') await card.locator('.flip-btn').evaluate(button => button.click());
+		else await card.locator('.back-scroll').press('Escape');
+		const visibility = await card.evaluate(async (element, outgoingSide) => {
+			const stage = element.querySelector('.card-stage');
+			getComputedStyle(stage).transform;
+			const rotation = stage.getAnimations().find(animation => animation.transitionProperty === 'transform');
+			if (!rotation) throw new Error('Missing flip transition');
+			const transitions = element.getAnimations({ subtree: true });
+			for (const animation of transitions) {
+				animation.pause();
+				animation.currentTime = rotation.effect.getTiming().duration * 0.75;
+			}
+			const outgoing = element.querySelector(`.card-${outgoingSide}`);
+			const during = getComputedStyle(outgoing).visibility;
+			for (const animation of transitions) animation.finish();
+			await Promise.all(transitions.map(animation => animation.finished));
+			return { during, after: getComputedStyle(outgoing).visibility };
+		}, side);
+		// Backface culling hides the surface geometrically. A visibility timer
+		// must not replace its contents while the rotation is still running.
+		expect(visibility).toEqual({ during: 'visible', after: 'hidden' });
+	}
+});
+
 for (const reducedMotion of ['no-preference', 'reduce']) {
 	test(`outgoing face stays hidden after repeated flips (${reducedMotion})`, async ({ page }) => {
 		await page.emulateMedia({ reducedMotion });

@@ -18,7 +18,10 @@ export default defineConfig({
 		{ name: 'desktop-chromium', use: { ...devices['Desktop Chrome'] } }
 	],
 	webServer: {
-		command: 'npm run dev -- --host 127.0.0.1 --port 4175 --strictPort',
+		timeout: 180_000,
+		command: process.env.TEST_PRODUCTION
+			? 'npm run preview -- --host 127.0.0.1 --port 4175 --strictPort'
+			: 'npm run dev -- --host 127.0.0.1 --port 4175 --strictPort',
 		url: 'http://127.0.0.1:4175/faakt.io/',
 		reuseExistingServer: false
 	}

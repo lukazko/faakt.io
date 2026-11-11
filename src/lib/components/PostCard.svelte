@@ -400,7 +400,7 @@
 		perspective: 1600px;
 		/* Délka otočení na jednom místě — od ní se odvozuje i okamžik,
 		   kdy má zmizet tlačítko akcí na odvrácené straně. */
-		--flip-duration: 0.42s;
+		--flip-duration: 0.52s;
 		--card-action-inset: clamp(18px, 5vw, 30px);
 		--card-meta-top: var(--card-action-inset);
 		--card-footer-bottom: calc(var(--card-action-inset) - 10px);
@@ -437,15 +437,14 @@
 	}
 
 
-	/* Pojistka pro prohlížeče, které vrstvu tlačítka neflattenují do plochy
-	   strany: tlačítko odvrácené strany zmizí ve chvíli, kdy se karta otáčí
-	   hranou — tedy zhruba ve čtvrtině easingové křivky, ne až po otočení.
-	   Do té doby se viditelně otáčí s kartou. */
+	/* Během pohybu řídí viditelnost skutečný úhel a backface-visibility.
+	   Pojistné skrytí přijde až na konci, aby časovač nepřepnul obsah
+	   na dosud viditelné ploše při navázání z náznaku nebo obrácení směru. */
 	.post-card.flipped .card-front .action-btn,
 	.post-card:not(.flipped) .card-back .action-btn {
 		visibility: hidden;
 		transition: background 0.2s, transform 0.15s,
-			visibility 0s linear calc(var(--flip-duration) * 0.16);
+			visibility 0s linear var(--flip-duration);
 	}
 
 	/* Tlačítko patří jen kartě, na které uživatel právě stojí. Karta nad ní
@@ -611,7 +610,7 @@
 		width: 100%;
 		height: 100%;
 		transform-style: preserve-3d;
-		transition: transform var(--flip-duration) cubic-bezier(0.2, 0.75, 0.25, 1);
+		transition: transform var(--flip-duration) cubic-bezier(0.4, 0, 0.6, 1);
 	}
 
 	.post-card.flipped .card-stage {
@@ -657,14 +656,14 @@
 		transform: rotateY(180deg);
 	}
 
-	/* Mobile compositors can briefly repaint the back-facing surface when
-	   the transform transition finishes. Hide it explicitly once it turns
-	   away, and reveal the incoming face immediately on a reverse flip. */
+	/* Keep both surfaces available throughout the rotation: backface-visibility
+	   switches them at the actual edge-on angle, including interrupted flips.
+	   Explicit hiding only guards against mobile repaint flashes after the turn. */
 	.post-card.flipped .card-front,
 	.post-card:not(.flipped) .card-back {
 		pointer-events: none;
 		visibility: hidden;
-		transition: visibility 0s linear calc(var(--flip-duration) * 0.16);
+		transition: visibility 0s linear var(--flip-duration);
 	}
 
 	/* --- Líc --- */
