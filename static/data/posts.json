@@ -37089,5 +37089,1053 @@
       "mood": "contemplative",
       "palette": "teal_amber"
     }
+  },
+  {
+    "id": "1042",
+    "title": "Vánoce, kdy se nepřátelé setkali mezi zákopy",
+    "category": "historie",
+    "content": "<p>Na Vánoce roku 1914 vyšli někteří vojáci ze zákopů a setkali se s protivníky. Válka přitom neskončila a na jiných místech se dál bojovalo.</p><p>Podél částí západní fronty vznikla neoficiální příměří. Britští a němečtí vojáci si vyměňovali drobné dárky, mluvili spolu a využívali klidu také k pohřbívání mrtvých. Rozsah i průběh se lišily místo od místa.</p><p>Nešlo o jedinou akci řízenou z velitelství ani o všeobecný vánoční mír. Známý obraz velkého fotbalového utkání navíc nelze jednoduše přenést na celou frontu.</p><p>Právě místní a dočasný charakter události je podstatný. Lidé, kteří měli plnit roli nepřítele, na krátkou dobu navázali přímý kontakt, aniž se změnily politické cíle válčících států.</p>",
+    "sources": [
+      {
+        "label": "National Army Museum: Christmas truce",
+        "url": "https://ww1.nam.ac.uk/1331/news/christmas-truce/"
+      },
+      {
+        "label": "National Army Museum: A First World War Christmas",
+        "url": "https://www.nam.ac.uk/explore/christmas-ww1"
+      }
+    ],
+    "illustration": {
+      "concept": "Two anonymous British and German soldiers of 1914 exchange a small gift between trenches; no battle, flags or football.",
+      "scene_type": "interaction",
+      "primary_subject": "two_wwi_soldiers_exchanging_a_small_gift",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "two",
+        "wwi",
+        "soldiers",
+        "exchanging",
+        "a"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1043",
+    "title": "Hořící loď proměnila Halifax v trosky",
+    "category": "historie",
+    "content": "<p>Z přístavu se stalo bojiště, přestože na Halifax nikdo nezaútočil. Dne 6. prosince 1917 se tam srazily lodě Imo a Mont-Blanc a vznikl požár s katastrofálním pokračováním.</p><p>Mont-Blanc vezl výbušniny určené pro válku v Evropě. Po srážce začal hořet a následná exploze zničila rozsáhlé části okolní zástavby. Zahynuly téměř dva tisíce lidí a další tisíce utrpěly zranění.</p><p>Nebezpečí tak nebylo omezené na palubu. Přístav spojoval vojenské zásobování s každodenním životem města a ničivá energie nákladu zasáhla i lidi, kteří s přepravou neměli nic společného.</p><p>Halifax připomíná méně viditelnou stránku světové války: její logistika vytvářela vážná rizika daleko od fronty. K rozsáhlému zničení města stačila nehoda v dopravním uzlu.</p>",
+    "sources": [
+      {
+        "label": "Nova Scotia Museum: Explosion in The Narrows",
+        "url": "https://museum.novascotia.ca/stories/explosion-narrows-1917-halifax-harbour-explosion"
+      },
+      {
+        "label": "Parks Canada: The Halifax Explosion",
+        "url": "https://www.canada.ca/en/parks-canada/news/2016/07/the-halifax-explosion.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A single early twentieth-century cargo steamship burning in a harbour, restrained small flame and hull; no victims or explosion diagram.",
+      "scene_type": "environment",
+      "primary_subject": "burning_cargo_steamship_in_harbour",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "burning",
+        "cargo",
+        "steamship",
+        "in",
+        "harbour"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1044",
+    "title": "Spinoza: trvat ve svém bytí není pouhé přežívání",
+    "category": "filozofie",
+    "content": "<p>Touha podle Spinozy není cizí síla, která se občas připojí k rozumnému člověku. Vychází ze základnějšího úsilí, jímž každá věc setrvává ve svém bytí.</p><p>V Etice označuje toto úsilí slovem <em>conatus</em>. U člověka se promítá do žádosti a při vědomí této žádosti do touhy. Nejde pouze o rozhodnutí za každou cenu prodloužit vlastní život, ale o základ jeho výkladu lidského jednání.</p><p>Radost a smutek pak souvisejí s přechody k větší nebo menší schopnosti jednat. To, co nás posiluje či oslabuje, mění také naše citové vztahy ke světu.</p><p>Je to součást určitého filozofického systému, nikoli experimentálně prokázaný zákon psychologie. Spinoza tím ale obrací běžnou otázku: člověka nelze pochopit jen podle vyhlášených zásad, je třeba zkoumat i to, co jeho jednání udržuje a pohání.</p>",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy: Spinoza",
+        "url": "https://plato.stanford.edu/entries/spinoza/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy: Spinoza",
+        "url": "https://iep.utm.edu/spinoza/"
+      }
+    ],
+    "illustration": {
+      "concept": "One young sapling pushing upward, a concise metaphor for striving to persevere; not a botanical claim about consciousness.",
+      "scene_type": "object",
+      "primary_subject": "young_sapling_pushing_upward",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "young",
+        "sapling",
+        "pushing",
+        "upward"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1045",
+    "title": "Pascalova sázka nedokazuje existenci Boha",
+    "category": "filozofie",
+    "content": "<p>Vyplatilo by se věřit v Boha, i kdybychom jeho existenci neuměli dokázat? Pascalova sázka přesouvá pozornost od důkazů k tomu, co můžeme získat nebo ztratit.</p><p>V jejím známém podání má víra při existenci Boha přinést nekonečně hodnotnou spásu, zatímco pozemská cena náboženského života je konečná. I malá kladná pravděpodobnost tak má dát víře rozhodující očekávaný užitek.</p><p>Výpočet ovšem stojí na předpokladech. Proč zvažovat právě Boha, který odměňuje tento typ víry? Jiná náboženská možnost může mít odlišné podmínky. A přesvědčení nemusí jít prostě zapnout rozhodnutím.</p><p>Sázka tedy není důkazem Boží existence. Je to sporný argument o rozhodování v nejistotě, který ukazuje rozdíl mezi důvodem pokládat tvrzení za pravdivé a důvodem chtít podle něj žít.</p>",
+    "sources": [
+      {
+        "label": "Stanford Encyclopedia of Philosophy: Pascal’s Wager",
+        "url": "https://plato.stanford.edu/entries/pascal-wager/"
+      },
+      {
+        "label": "Internet Encyclopedia of Philosophy: Pascal’s Wager",
+        "url": "https://iep.utm.edu/pasc-wag/"
+      }
+    ],
+    "illustration": {
+      "concept": "One die beside an open book, a restrained metaphor for Pascal’s decision argument, no writing or religious emblems.",
+      "scene_type": "object",
+      "primary_subject": "single_die_beside_open_book",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "single",
+        "die",
+        "beside",
+        "open",
+        "book"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1046",
+    "title": "Ryba, která kořist sestřelí vodou",
+    "category": "biologie",
+    "content": "<p>Stříkoun nemusí kvůli hmyzu opustit vodu. Kořist nad hladinou zasáhne proudem z tlamy a pak ji může sebrat z povrchu.</p><p>Proud přitom není jen voda vystříknutá stále stejným způsobem. Pokusy ukázaly, že ryba aktivně řídí jeho hydrodynamiku podle vzdálenosti cíle. Průběh výstřiku upravuje tak, aby se voda soustředila do účinného úderu u kořisti.</p><p>Záleží tedy nejen na směru míření, ale také na tom, jak se jednotlivé části proudu během letu dohánějí. Výsledkem je použití okolní vody jako loveckého nástroje.</p><p>Neznamená to, že ryba vědomě počítá rovnice proudění nebo nikdy nemine. Její chování však ukazuje, že přesný zásah může vyžadovat průběžně přizpůsobený pohyb, nikoli pouze spuštění neměnného reflexu.</p>",
+    "sources": [
+      {
+        "label": "Gerl a Schuster: Archerfish actively control the hydrodynamics of their jets",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/25201684/"
+      },
+      {
+        "label": "Archerfish use their shooting technique to produce adaptive underwater jets",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/28082614/"
+      }
+    ],
+    "illustration": {
+      "concept": "An archerfish at the water surface shoots one clean jet toward a single small insect above it.",
+      "scene_type": "interaction",
+      "primary_subject": "archerfish_shooting_a_water_jet_at_insect",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "archerfish",
+        "shooting",
+        "a",
+        "water",
+        "jet"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1047",
+    "title": "Kukaččí mládě si obsadí cizí domácnost",
+    "category": "biologie",
+    "content": "<p>Malý pták přináší potravu mláděti, které ho velikostí přerůstá. U kukačky obecné jde o důsledek hnízdního parazitismu: odchov zajišťuje jiný druh.</p><p>Samice vloží vejce do hostitelského hnízda, často po odstranění jednoho původního vejce. Kukaččí mládě po vylíhnutí může vytlačit ostatní vejce nebo mláďata přes okraj, a získat tak potravu pro sebe.</p><p>Hostitelé ale nejsou vždy bezbranní. Rozpoznávání cizích vajec vytváří selekční tlak na jejich podobnost s hostitelskou snůškou; kukaččí vejce se proto mezi samičími liniemi liší barvou a vzorem.</p><p>Není to morální selhání zvířete ani vědomý lidský podvod. Jde o evoluční střet rozmnožovacích strategií, v němž náklady péče nese hostitel a parazit těží z jeho rodičovského chování.</p>",
+    "sources": [
+      {
+        "label": "Oxford University Museum: The Common Cuckoo",
+        "url": "https://www.oumnh.ox.ac.uk/node/4964346"
+      },
+      {
+        "label": "RSPB: Cuckoo",
+        "url": "https://www.rspb.org.uk/birds-and-wildlife/cuckoo"
+      }
+    ],
+    "illustration": {
+      "concept": "One large cuckoo chick with open beak sitting in a small host nest, emphasizing the scale mismatch without showing harm.",
+      "scene_type": "object",
+      "primary_subject": "large_cuckoo_chick_in_small_nest",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "large",
+        "cuckoo",
+        "chick",
+        "in",
+        "small"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1048",
+    "title": "Litografie tiskne z rovné plochy",
+    "category": "umeni",
+    "content": "<p>Tisková deska nemusí mít vystouplý obraz ani vyryté rýhy. Litografie dokáže oddělit obraz od okolí na téměř rovné ploše kamene.</p><p>V tradičním postupu umělec kreslí mastnou tuší či křídou na vápenec. Chemické zpracování připraví povrch tak, aby netisknoucí místa přijímala vodu. Po navlhčení se mastná tisková barva zachytává na místech obrazu, zatímco vodní film chrání okolí.</p><p>Papír pak převezme obraz při průchodu lisem. Výběr tisknoucích míst tedy zajišťují vlastnosti povrchu a vztah vody s mastnotou, nikoli rozdílná výška jako u dřevořezu.</p><p>To pomohlo přenášet do tisku charakter volné kresby. Zdánlivě obyčejný hladký kámen se mění v přesný nástroj rozmnožování obrazu díky chemii, kterou na hotovém otisku nevidíme.</p>",
+    "sources": [
+      {
+        "label": "The Metropolitan Museum of Art: Lithograph",
+        "url": "https://www.metmuseum.org/perspectives/materials-and-techniques-printmaking-lithograph"
+      },
+      {
+        "label": "MoMA: Lithography",
+        "url": "https://www.moma.org/collection/terms/lithography"
+      }
+    ],
+    "illustration": {
+      "concept": "A lithographic limestone slab with a simple greasy drawing and an ink roller resting beside it, flat printing surface.",
+      "scene_type": "object",
+      "primary_subject": "lithographic_stone_and_ink_roller",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "lithographic",
+        "stone",
+        "and",
+        "ink",
+        "roller"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "1049",
+    "title": "Socha, kterou pokaždé přeskupí vzduch",
+    "category": "umeni",
+    "content": "<p>Socha může změnit kompozici, i když se divák nepohne. Stačí, aby kolem Calderova závěsného mobilu prošel slabý proud vzduchu.</p><p>Alexander Calder spojoval vyvážené prvky pomocí drátů a závěsů. Jednotlivé části se mohou pohybovat vůči sobě, takže jejich vztahy nejsou jednou provždy určeny jako u pevné sochy.</p><p>Vzduch vytváří pomalé otáčení, proměňuje překryvy i vzdálenosti a někdy zapojuje také stíny. Pohyb tu není pouze zobrazený postojem figur: skutečně se odehrává v čase před divákem.</p><p>Vyvážení je přitom stejně důležité jako barva nebo tvar. Mobil není náhodná hromádka zavěšených předmětů; jeho konstrukce určuje možné pohyby. Autor tak navrhuje nejen jednu výslednou podobu, ale také prostor pro její další proměny.</p>",
+    "sources": [
+      {
+        "label": "SFMOMA: Alexander Calder",
+        "url": "https://www.sfmoma.org/exhibition/alexander-calder/"
+      },
+      {
+        "label": "National Gallery of Art: Alexander Calder",
+        "url": "https://www.nga.gov/artists/2047-alexander-calder"
+      }
+    ],
+    "illustration": {
+      "concept": "A freely suspended balanced mobile with just three broad colored leaf shapes on clearly connected arms; original generic arrangement.",
+      "scene_type": "object",
+      "primary_subject": "balanced_hanging_mobile_with_three_colored_leaves",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "balanced",
+        "hanging",
+        "mobile",
+        "with",
+        "three"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1050",
+    "title": "Oidipús hledá vraha, kterého divák už zná",
+    "category": "literatura",
+    "content": "<p>Král Oidipús slíbí odhalit vraha a potrestat ho. Divák obeznámený s mýtem však ví, že hrdina právě zahajuje pátrání po sobě samém.</p><p>Sofoklova tragédie využívá rozdílu mezi tím, co zná postava, a tím, co chápe publikum. Oidipovy hrozby provinilci získávají druhý význam: dopadají i na jejich vlastního původce, aniž to on v danou chvíli tuší.</p><p>Tomuto vztahu se říká dramatická ironie. Napětí nestojí pouze na otázce, kdo zločin spáchal, ale na sledování cesty, po níž se hrdina přibližuje pravdě o své totožnosti.</p><p>Předem známý výsledek proto nemusí příběh oslabit. Může naopak zesílit každou repliku, jejíž důsledky divák vidí dříve než mluvčí. Hrůza vzniká i z toho, že dobře míněné pátrání nelze jednoduše oddělit od vlastního osudu.</p>",
+    "sources": [
+      {
+        "label": "Harvard CHS: Sophocles, Oedipus Tyrannus",
+        "url": "https://chs.harvard.edu/primary-source/sophocles-oedipus-tyrannus-sb/"
+      },
+      {
+        "label": "EBSCO Research Starters: Dramatic irony",
+        "url": "https://www.ebsco.com/research-starters/literature-and-writing/dramatic-irony"
+      }
+    ],
+    "illustration": {
+      "concept": "A simple ancient Greek theatrical mask accompanying the tragedy Oedipus; intact face, no violence.",
+      "scene_type": "object",
+      "primary_subject": "greek_theatre_mask_with_one_open_eye",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "greek",
+        "theatre",
+        "mask",
+        "with",
+        "one"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1051",
+    "title": "Polibek na urně se nikdy nedokončí",
+    "category": "literatura",
+    "content": "<p>Milenci na zdobené urně zůstávají těsně před polibkem. Nikdy nezestárnou, ale také nikdy nedosáhnou okamžiku, k němuž se naklánějí.</p><p>John Keats v <em>Ódě na řeckou urnu</em> oslovuje postavy a výjevy na starověké nádobě. To, co obraz uchovává, báseň rozvíjí jako zastavený děj: hudebník hraje neslyšenou hudbu a touha se nemůže vyčerpat naplněním.</p><p>Trvalost umění tak není jen vítězství nad časem. Má i svou cenu: zobrazené bytosti jsou chráněné před zánikem právě tím, že nemohou prožít pokračování.</p><p>Báseň pracuje s ekfrází, tedy slovním ztvárněním výtvarného díla. Místo pouhého popisu nádoby zkoumá rozdíl mezi životem, který plyne a končí, a obrazem, který dokáže uchovat krásu za cenu nehybnosti.</p>",
+    "sources": [
+      {
+        "label": "Poetry Foundation: Ode on a Grecian Urn",
+        "url": "https://www.poetryfoundation.org/poems/44477/ode-on-a-grecian-urn"
+      },
+      {
+        "label": "Poetry Foundation: rozbor Keatsovy ódy",
+        "url": "https://www.poetryfoundation.org/articles/145240/john-keats-ode-on-a-grecian-urn"
+      }
+    ],
+    "illustration": {
+      "concept": "A Greek urn with two profile figures whose faces nearly meet; the suspended almost-kiss is a decorative image on the vessel.",
+      "scene_type": "object",
+      "primary_subject": "greek_urn_with_two_nearly_touching_profile_figures",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "greek",
+        "urn",
+        "with",
+        "two",
+        "nearly"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1052",
+    "title": "Když obyvatelé rozdělují část městských peněz",
+    "category": "spolecnost",
+    "content": "<p>O tom, zda má obec opravit hřiště nebo upravit park, mohou rozhodovat i samotní obyvatelé. Participativní rozpočet jim otevírá část rozhodování o veřejných penězích.</p><p>Známým průkopníkem bylo brazilské Porto Alegre, kde proces začal roku 1989. Obyvatelé na setkáních a prostřednictvím zástupců určovali priority městských investic. Nešlo jen o odevzdání hlasu politické straně jednou za několik let.</p><p>Pod tímto názvem ale fungují různé modely. Někde se vybírají konkrétní projekty z vyčleněné částky, jinde se vyjednávají širší investiční priority. Podstatná jsou pravidla, dostupné prostředky i to, zda město výsledek skutečně provede.</p><p>Samotné hlasování tedy ještě nezaručuje velký vliv. Rozdíl mezi konzultací a rozhodnutím poznáme podle toho, jakou část rozpočtu může veřejnost opravdu změnit.</p>",
+    "sources": [
+      {
+        "label": "World Bank: Participatory Budgeting in Porto Alegre",
+        "url": "https://documents1.worldbank.org/curated/en/778301468019774995/pdf/401440v10ER0P01sclosed0March0302008.pdf"
+      },
+      {
+        "label": "PADECO: Participatory Budgeting in Porto Alegre",
+        "url": "https://www.padeco.co.jp/en/projects/detail.html?cmid=573&pdid=25020"
+      }
+    ],
+    "illustration": {
+      "concept": "Two hands place large voting tokens into one shared municipal budget bowl; anonymous, no charts or labels.",
+      "scene_type": "interaction",
+      "primary_subject": "hands_placing_tokens_into_a_shared_budget_bowl",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "hands",
+        "placing",
+        "tokens",
+        "into",
+        "a"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1053",
+    "title": "Pravomocný rozsudek nemá být nekonečnou smyčkou",
+    "category": "spolecnost",
+    "content": "<p>Konečné rozhodnutí soudu by nemělo být jen přestávkou před stejným trestním řízením. Pravidlo <em>ne bis in idem</em> chrání člověka před tím, aby stát uzavřený případ bez omezení otevíral znovu.</p><p>Článek 4 Protokolu č. 7 k Evropské úmluvě chrání před novým trestním stíháním či potrestáním za týž skutek v témže státě po konečném osvobození nebo odsouzení. Rozhodující nemusí být jen jiná právní nálepka činu, ale totožnost podstatných skutkových okolností.</p><p>Ochrana má vymezené hranice. Protokol připouští obnovu při nových skutečnostech nebo zásadní vadě předchozího řízení. Složitější pravidla platí i pro vzájemně propojené souběžné postupy.</p><p>Nejde tedy o zákaz opravit každý chybný rozsudek. Smyslem je, aby pravomocné uzavření věci mělo váhu a trestní moc nemohla stejnou otázku libovolně opakovat.</p>",
+    "sources": [
+      {
+        "label": "ESLP: Guide on Article 4 of Protocol No. 7",
+        "url": "https://ks.echr.coe.int/documents/d/echr-ks/guide_art_4_protocol_7_eng"
+      },
+      {
+        "label": "ESLP: Article 4 of Protocol No. 7",
+        "url": "https://ks.echr.coe.int/en/web/echr-ks/article-4-protocol-7"
+      }
+    ],
+    "illustration": {
+      "concept": "A closed legal case folder with one simple lock, illustrating finality; no text or repetitive arrows.",
+      "scene_type": "object",
+      "primary_subject": "closed_case_file_with_a_single_lock",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "closed",
+        "case",
+        "file",
+        "with",
+        "a"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "1054",
+    "title": "Dva stálé tóny mohou společně pulzovat",
+    "category": "fyzika",
+    "content": "<p>Dvě ladičky mohou znít každá rovnoměrně, ale společně vytvářet pulzující zvuk. Zesilování a zeslabování nevzniká tím, že by je někdo střídavě rozezníval.</p><p>Mají-li blízké frekvence, jejich vlny se postupně dostávají do stejné a opačné fáze. Chvíli se tedy zesilují a chvíli částečně ruší. Tomuto kolísání amplitudy se říká rázy neboli zázněje.</p><p>Při tónech 440 a 442 hertzů uslyšíme dva rázy za sekundu: četnost kolísání odpovídá absolutnímu rozdílu frekvencí. Neznamená to, že z reproduktoru začal samostatně vycházet běžně slyšitelný tón o dvou hertzech.</p><p>Rázy pomáhají při ladění nástrojů. Jak se frekvence přibližují, pulzování zpomaluje. Ucho tak může velmi malý rozdíl výšek převést na snadněji rozpoznatelné tempo změn hlasitosti.</p>",
+    "sources": [
+      {
+        "label": "OpenStax: Beats",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/17-6-beats"
+      },
+      {
+        "label": "OpenStax: Sound Interference and Resonance",
+        "url": "https://openstax.org/books/physics/pages/14-4-sound-interference-and-resonance"
+      }
+    ],
+    "illustration": {
+      "concept": "Two tuning forks close together, visibly slightly different size; no waveform chart needed.",
+      "scene_type": "object",
+      "primary_subject": "two_tuning_forks_of_slightly_different_sizes",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "two",
+        "tuning",
+        "forks",
+        "of",
+        "slightly"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1055",
+    "title": "Proč se roztočený setrvačník stáčí stranou",
+    "category": "fyzika",
+    "content": "<p>Podepřený setrvačník se nerozpadá ani neuniká gravitaci. Když se rychle otáčí, může se jeho nakloněná osa začít stáčet kolem svislice místo prostého překlopení.</p><p>Tíha působí vůči místu podepření momentem síly. U rychle rotujícího tělesa tento moment mění především směr jeho momentu hybnosti. Osa pak opisuje kuželovitý pohyb označovaný jako precese.</p><p>Právě směr je klíčový. Kdyby se setrvačník netočil, stejná tíha by vedla k obvyklému pádu. Rotace však dává tělesu moment hybnosti, jehož změnu musíme posuzovat jako změnu vektoru.</p><p>Při postupném zpomalování může přibývat kývání a setrvačník nakonec spadne. Není to tedy trvalé vyvážení bez podmínek, ale zvláštní dynamika tělesa, jehož osa už před působením síly rychle rotuje.</p>",
+    "sources": [
+      {
+        "label": "OpenStax: Precession of a Gyroscope",
+        "url": "https://openstax.org/books/university-physics-volume-1/pages/11-4-precession-of-a-gyroscope"
+      },
+      {
+        "label": "University of Texas: Gyroscopic Precession",
+        "url": "https://farside.ph.utexas.edu/teaching/336k/lectures/node70.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A tilted spinning gyroscope balanced on one pivot; recognizable frame and wheel, no force arrows.",
+      "scene_type": "object",
+      "primary_subject": "tilted_spinning_gyroscope_on_single_pivot",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "tilted",
+        "spinning",
+        "gyroscope",
+        "on",
+        "single"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1056",
+    "title": "Červené zelí prozradí kyselé prostředí",
+    "category": "chemie",
+    "content": "<p>Fialový výluh z červeného zelí může po přidání citronové šťávy zrůžovět. V zásaditém prostředí se naopak posouvá k zeleným až žlutým odstínům.</p><p>Za proměnou stojí antokyanová barviva. Jejich chemická forma závisí na pH prostředí a různé formy pohlcují viditelné světlo odlišně. Stejný rostlinný výluh tak může ukázat, že dva čiré roztoky mají rozdílné acidobazické vlastnosti.</p><p>Nejde přitom o přesný laboratorní pH metr. Výslednou barvu ovlivňuje složení výluhu, koncentrace i další vlastnosti vzorku. Bez kalibrace z ní nelze spolehlivě vyčíst konkrétní číselnou hodnotu.</p><p>Zelí je proto dobrým příkladem chemického indikátoru: změnu, kterou samotným pohledem na roztok nevidíme, převede na barvu. Údaj o prostředí se objeví díky reakci přidané látky.</p>",
+    "sources": [
+      {
+        "label": "American Chemical Society: Red Cabbage Indicator",
+        "url": "https://www.acs.org/education/activities/red-cabbage-indicator.html"
+      },
+      {
+        "label": "Anthocyanins contents, profiles, and color characteristics of red cabbage extracts",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/24991694/"
+      }
+    ],
+    "illustration": {
+      "concept": "Three small identical glasses containing pink, purple and green cabbage indicator; no extra laboratory objects or labels.",
+      "scene_type": "object",
+      "primary_subject": "three_small_glasses_of_pink_purple_green_cabbage_extract",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "three",
+        "small",
+        "glasses",
+        "of",
+        "pink"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1057",
+    "title": "Zinek se může obětovat za ocel",
+    "category": "chemie",
+    "content": "<p>Povlak na oceli nemusí chránit jen tím, že zakryje povrch. Zinek dokáže za vhodných podmínek pomoci i tam, kde se v ochranné vrstvě objeví škrábanec.</p><p>Je-li elektricky spojený s ocelí a oba kovy jsou ve vhodném elektrolytu, zinek se snáze oxiduje. Stává se obětovanou anodou a dodává elektrony dějům na chráněném kovu, čímž omezuje jeho rozpouštění.</p><p>Podobně fungují samostatné zinkové anody připevněné například k lodnímu trupu. Postupně se spotřebovávají, takže je třeba kontrolovat jejich stav a včas je nahradit.</p><p>Ochrana tedy neznamená, že koroze úplně zmizela. Probíhá přednostně na zvoleném kusu jiného kovu. Bez elektrického spojení nebo po spotřebování anody nelze stejný účinek očekávat: důležitý je celý elektrochemický obvod, nikoli pouhá blízkost zinku.</p>",
+    "sources": [
+      {
+        "label": "OpenStax: Corrosion",
+        "url": "https://openstax.org/books/chemistry/pages/17-6-corrosion"
+      },
+      {
+        "label": "Penn State: Corrosion and cathodic protection",
+        "url": "https://psu.pb.unizin.org/chem112masp18/chapter/17-6-corrosion/"
+      }
+    ],
+    "illustration": {
+      "concept": "A simple steel boat hull with one attached pale zinc anode block; no rust diagrams or extra apparatus.",
+      "scene_type": "object",
+      "primary_subject": "steel_boat_hull_with_attached_zinc_anode",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "steel",
+        "boat",
+        "hull",
+        "with",
+        "attached"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "1058",
+    "title": "Na Uranu trvá roční období přes dvacet let",
+    "category": "vesmir",
+    "content": "<p>Na Uranu se jaro neměří několika měsíci. Jeden oběh planety kolem Slunce trvá asi 84 pozemských let a roční období zabere přibližně jejich čtvrtinu.</p><p>Rotační osa je skloněná zhruba o 98 stupňů vůči kolmici k rovině oběhu. Planeta se tak obrazně otáčí na boku. Kolem slunovratu míří jeden pól ke Slunci a druhý od něj, což vytváří mimořádně dlouhá období polárního dne a noci.</p><p>Pomalý oběh a extrémní sklon se tu doplňují. Samotná velká vzdálenost od Slunce by takové střídání nezpůsobila; rozhoduje také orientace osy vůči dopadajícím paprskům.</p><p>Atmosféra navíc nereaguje na změny osvětlení okamžitě. Dlouhá roční období proto nejsou jednoduchým zvětšením pozemského kalendáře: tepelné zpoždění ovlivňuje, kdy a jak se proměny projeví v oblačnosti.</p>",
+    "sources": [
+      {
+        "label": "NASA: Uranus Facts",
+        "url": "https://science.nasa.gov/uranus/facts/"
+      },
+      {
+        "label": "University of Wisconsin: Seasonal Change on Uranus",
+        "url": "https://www.ssec.wisc.edu/planetary/uranus/science/"
+      }
+    ],
+    "illustration": {
+      "concept": "Uranus as a pale cyan sphere with thin rings in a nearly vertical projected plane; no arrows, orbit or stars.",
+      "scene_type": "object",
+      "primary_subject": "uranus_with_nearly_vertical_ring_system",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "uranus",
+        "with",
+        "nearly",
+        "vertical",
+        "ring"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1059",
+    "title": "Jupiterova rudá skvrna mění tvar",
+    "category": "vesmir",
+    "content": "<p>Velká rudá skvrna vypadá na Jupiteru jako stálá značka. Ve skutečnosti je to atmosférický vír, jehož obrys se mění i během několika měsíců.</p><p>Hubbleův dalekohled ji od prosince 2023 do března 2024 sledoval po dobu přibližně devadesáti dnů. Snímky ukázaly, že se její eliptický tvar stlačuje a roztahuje v souvislosti s kolísáním pohybu bouře.</p><p>Jde o anticyklonu sevřenou mezi proudy Jupiterovy atmosféry. Není to pevný útvar na povrchu planety a slavný ovál nezaručuje neměnnou velikost. Dlouhodobá pozorování navíc dokládají zmenšování skvrny.</p><p>Časosběr tedy odhaluje něco, co osamělá fotografie skrývá. Zdánlivě známý symbol planety je dynamický meteorologický systém; ani po staletích pozorování nemusejí být podrobnosti jeho proměn úplně vysvětlené.</p>",
+    "sources": [
+      {
+        "label": "NASA: Hubble Watches Jupiter’s Great Red Spot Behave Like a Stress Ball",
+        "url": "https://science.nasa.gov/missions/hubble/nasas-hubble-watches-jupiters-great-red-spot-behave-like-a-stress-ball/"
+      },
+      {
+        "label": "NASA: Jupiter’s Great Red Spot",
+        "url": "https://science.nasa.gov/asset/hubble/jupiters-great-red-spot-2/"
+      }
+    ],
+    "illustration": {
+      "concept": "One Jupiter globe with a few broad cloud bands and one prominent red oval storm; no moons or labels.",
+      "scene_type": "object",
+      "primary_subject": "jupiter_cloud_bands_with_large_red_oval_storm",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "jupiter",
+        "cloud",
+        "bands",
+        "with",
+        "large"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1060",
+    "title": "Dnešní vysoká cena může připravit zítřejší přebytek",
+    "category": "ekonomie",
+    "content": "<p>Letos je brambor málo, a tak jsou drahé. Pěstitelé rozšíří výsadbu, jenže nová úroda dorazí až v době, kdy stejné rozhodnutí učinili i ostatní.</p><p>Tak začíná pavučinový model trhu. Výrobci určují budoucí nabídku podle předchozí ceny, zatímco cena při sklizni už reaguje na nové množství. Velká úroda srazí cenu, omezení další výsadby pak může připravit nový nedostatek.</p><p>Střídání nemusí vyžadovat opakované sucho nebo jiný vnější šok. Vzniká uvnitř modelu kombinací výrobního zpoždění a způsobu, jakým si producenti tvoří očekávání.</p><p>Nejde o zákon, podle něhož musí každý zemědělský trh věčně oscilovat. Podle citlivosti nabídky a poptávky se mohou výkyvy tlumit, přetrvávat nebo zvětšovat. Lepší předvídání budoucího trhu také mění předpoklady celého příběhu.</p>",
+    "sources": [
+      {
+        "label": "MENDELU: Cobweb model of economics",
+        "url": "https://user.mendelu.cz/marik/frvs/cobweb.pdf"
+      },
+      {
+        "label": "Production delays and price dynamics",
+        "url": "https://www.sciencedirect.com/science/article/abs/pii/S0167268121005436"
+      }
+    ],
+    "illustration": {
+      "concept": "A single overflowing crate of potatoes accompanies the delayed harvest supply story; no chart or price labels.",
+      "scene_type": "object",
+      "primary_subject": "overflowing_crate_of_potatoes",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "overflowing",
+        "crate",
+        "of",
+        "potatoes"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1061",
+    "title": "Surovinové bohatství může ztížit jiný vývoz",
+    "category": "ekonomie",
+    "content": "<p>Objev zemního plynu může zemi obohatit a současně ztížit život jiným vývozcům. Ekonomové tento možný vedlejší účinek surovinového boomu označují jako holandskou nemoc.</p><p>Příjmy ze surovin mohou vést k reálnému zhodnocení měny: domácí výrobky se vůči zahraničním zdraží. Rostoucí odvětví navíc přitahuje pracovníky a kapitál, o které pak soutěží ostatní firmy.</p><p>Výrobce, který suroviny netěží, tak může ztrácet konkurenceschopnost, přestože sám nezačal vyrábět hůře. Důležité jsou změny relativních cen a rozdělení zdrojů uvnitř hospodářství.</p><p>Název odkazuje k nizozemské zkušenosti s plynem, mechanismus ale není omezený na tuto zemi. Neznamená, že bohaté naleziště musí hospodářství poškodit; ukazuje, proč výsledek závisí i na nakládání s příjmy a na podmínkách ostatních odvětví.</p>",
+    "sources": [
+      {
+        "label": "IMF: Dutch Disease",
+        "url": "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/dutch-disease"
+      },
+      {
+        "label": "World Bank: Sudden Influxes of Resource Wealth",
+        "url": "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/518791586875176017"
+      }
+    ],
+    "illustration": {
+      "concept": "A broad gas pipeline beside a compact factory silhouette in one coherent industrial vignette; no money symbols or charts.",
+      "scene_type": "object",
+      "primary_subject": "gas_pipeline_beside_small_factory",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "gas",
+        "pipeline",
+        "beside",
+        "small",
+        "factory"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1062",
+    "title": "Dokážeme vysvětlit volbu, kterou jsme neudělali",
+    "category": "psychologie",
+    "content": "<p>Vyberete přitažlivější ze dvou tváří a potom vysvětlujete proč. Jenže výzkumník vám mezitím nenápadně podstrčil fotografii, kterou jste nevybrali.</p><p>V experimentu Johanssona a kolegů z roku 2005 si účastníci části takových záměn nevšimli. Přesto dokázali zdůvodňovat předložený výsledek, jako by šlo o jejich původní volbu. Výzkumníci jev označili jako slepotu k volbě.</p><p>Nejde jen o přehlédnutí změny obrazu. Podstatné je, že slovní vysvětlení může vzniknout až nad nesprávně předloženou možností a přitom působit jako zpráva o vlastních předchozích důvodech.</p><p>Pokus nedokazuje, že všechny preference jsou náhodné nebo že lidé vždy nevědí, co chtějí. Ukazuje užší omezení introspekce: přesvědčivé dodatečné vysvětlení samo nezaručuje, že opravdu zachycuje příčinu konkrétního rozhodnutí.</p>",
+    "sources": [
+      {
+        "label": "Johansson a kol.: Failure to detect mismatches between intention and outcome",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/16210542/"
+      },
+      {
+        "label": "Science: původní studie slepoty k volbě",
+        "url": "https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/Consciousness_2014/Johansson_ChoiceBlindness_Science2005.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "One hand holds two simple portrait cards, suggesting exchanged choices; anonymous faces and no labels.",
+      "scene_type": "object",
+      "primary_subject": "hand_holding_two_swapped_portrait_cards",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "hand",
+        "holding",
+        "two",
+        "swapped",
+        "portrait"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1063",
+    "title": "Vlastní názor není průzkum veřejného mínění",
+    "category": "psychologie",
+    "content": "<p>Když byste na určitou nabídku kývli vy, snadno čekáte podobnou reakci od ostatních. Vaše vlastní volba se tak může nenápadně proměnit v odhad společenské normy.</p><p>Ross, Greene a House zkoumali tento efekt mimo jiné žádostí, aby studenti nosili reklamní tabuli. Ti, kteří souhlasili, odhadovali souhlas ostatních jako častější než studenti, kteří nabídku odmítli.</p><p>Efekt falešného konsenzu tedy porovnává různé skupiny podle jejich vlastní volby. Není nutné, aby každý účastník tvrdil, že s ním souhlasí úplně všichni, ani aby byl každý jednotlivý odhad chybný.</p><p>Výsledek varuje před záměnou osobního stanoviska za reprezentativní vzorek. Když potřebujeme vědět, co si myslí veřejnost, silný pocit samozřejmosti není náhradou za údaje o tom, jak byly názory skutečně zjišťovány.</p>",
+    "sources": [
+      {
+        "label": "Ross, Greene a House: The False Consensus Effect",
+        "url": "https://web.mit.edu/curhan/www/docs/Articles/biases/13_J_Experimental_Social_Psychology_279_%28Ross%29.pdf"
+      },
+      {
+        "label": "Mullen a kol.: A meta-analysis of 115 hypothesis tests",
+        "url": "https://www.sciencedirect.com/science/article/pii/0022103185900204"
+      }
+    ],
+    "illustration": {
+      "concept": "One large speech bubble overlaps two smaller empty speech bubbles; a concise metaphor for projecting one’s view onto others, no words.",
+      "scene_type": "interaction",
+      "primary_subject": "person_facing_three_speech_bubbles_with_same_symbol",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "person",
+        "facing",
+        "three",
+        "speech",
+        "bubbles"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1064",
+    "title": "Široký film se může zaznamenat zmáčknutý",
+    "category": "kinematografie",
+    "content": "<p>Na surovém záběru vypadají lidé nezvykle úzcí. Po správném zobrazení se jejich proporce napraví a před očima se otevře široký filmový obraz.</p><p>Anamorfotický objektiv zmenšuje obraz v jednom směru jinak než ve druhém. Běžná dvounásobná horizontální komprese vtěsná širší zorné pole do záznamu, který by bez tohoto postupu měl jiný poměr stran.</p><p>Při promítání nebo digitálním zpracování se provede odpovídající roztažení. Faktor musí odpovídat použitému objektivu; jinak zůstane obraz deformovaný. Ne každý anamorfotický objektiv přitom používá stejný poměr stlačení.</p><p>Široký obraz tedy nemusí vzniknout pouhým oříznutím horního a dolního okraje. Může být do záznamu opticky zakódován a teprve později rozvinut do správných proporcí. Samotný pohled na neroztažený snímek proto neukazuje zamýšlenou podobu filmu.</p>",
+    "sources": [
+      {
+        "label": "ARRI: ALEXA LF & Anamorphic Lenses",
+        "url": "https://www.arri.com/resource/blob/41434/9093dd51fa56328b70f56a718bac0e22/2018-10-26-alexa-lf-and-anamorphic-lenses-pdf-data.pdf"
+      },
+      {
+        "label": "ARRI: Anamorphic Formats in Post-Production",
+        "url": "https://www.arri.com/resource/blob/388830/8e291fd59589918e30d20677af9f0290/arri-alexa-35-anamorphic-formats-in-post-production-workflow-guideline-data.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "One cinema camera lens with a visibly oval front element, accompanying anamorphic cinematography; no flares or labels.",
+      "scene_type": "object",
+      "primary_subject": "cinema_lens_with_horizontal_oval_front_glass",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "cinema",
+        "lens",
+        "with",
+        "horizontal",
+        "oval"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1065",
+    "title": "Střih obrazu a zvuku nemusí přijít současně",
+    "category": "kinematografie",
+    "content": "<p>Ještě vidíte pokoj, ale už slyšíte ruch následující ulice. Střihač nemusí obraz a zvuk přepnout ve stejném okamžiku, aby mezi scénami vytvořil plynulý vztah.</p><p>Při děleném střihu má obrazová a zvuková stopa hranici jinde. U střihu označovaného jako J-cut přichází zvuk dalšího záběru před jeho obrazem. U L-cutu naopak zvuk předchozího záběru pokračuje i přes nový obraz.</p><p>V rozhovoru tak můžeme sledovat posluchačovu reakci, zatímco mluvčí ještě dokončuje větu. Přechod pozornosti se oddělí od konce repliky a dialog nemusí působit jako mechanické střídání tváří.</p><p>Názvy odkazují k tvaru uspořádání stop na časové ose. Podstatná ale není grafická značka v programu: je to možnost vést divákovo očekávání sluchem jinak než zrakem, aniž by se musel přidat nový záběr nebo vysvětlující text.</p>",
+    "sources": [
+      {
+        "label": "Avid: Using L-Cuts in the Timeline",
+        "url": "https://resources.avid.com/supportfiles/attach/interplay_central/ipc_help/InterplayCentral_Help/UG_Sequences.15.55.html"
+      },
+      {
+        "label": "Pearson: Video Production 101 – Delivering the Message",
+        "url": "https://ptgmedia.pearsoncmg.com/images/9780321990198/samplepages/9780321990198.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "Two broad stacked film and audio timeline strips whose change boundaries are offset, no labels, tiny frames or graphs.",
+      "scene_type": "diagram",
+      "primary_subject": "two_offset_film_and_audio_strips",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "two",
+        "offset",
+        "film",
+        "and",
+        "audio"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1066",
+    "title": "Obsah obrazce lze spočítat z teček",
+    "category": "matematika",
+    "content": "<p>Nakreslete mnohoúhelník, jehož vrcholy leží na tečkách pravidelné čtvercové sítě. Jeho obsah můžete získat počítáním bodů, aniž změříte délku jediné šikmé strany.</p><p>Pickova věta říká: obsah se rovná počtu vnitřních mřížových bodů plus polovině počtu bodů na hranici minus jedna. Jednotkou je obsah základního čtverce sítě a každý hraniční bod započítáme jen jednou.</p><p>Čtverec o straně dva má jeden vnitřní a osm hraničních bodů. Výpočet tedy dává jedna plus čtyři minus jedna, což jsou čtyři čtvereční jednotky.</p><p>Podmínky jsou zásadní: mnohoúhelník má mít vrcholy v mříži, nesmí se sám křížit a v tomto základním znění nemá díry. Věta tak neslibuje obsah libovolné křivky podle počtu teček; spojuje přesnou geometrii s konkrétní diskrétní strukturou.</p>",
+    "sources": [
+      {
+        "label": "Wolfram MathWorld: Pick’s Theorem",
+        "url": "https://mathworld.wolfram.com/PicksTheorem.html"
+      },
+      {
+        "label": "New York University: Pick’s Theorem",
+        "url": "https://math.nyu.edu/Archimedes/Stomachion/Pick.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A single simple polygon over a sparse square lattice of prominent dots; no equations or labels.",
+      "scene_type": "diagram",
+      "primary_subject": "simple_lattice_polygon_on_sparse_dot_grid",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "simple",
+        "lattice",
+        "polygon",
+        "on",
+        "sparse"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1067",
+    "title": "Tři řezy rozdělí pizzu až na sedm dílů",
+    "category": "matematika",
+    "content": "<p>Tři rovné řezy nemusí znamenat šest porcí pizzy. Pokud nepřesouváte díly a řezy se vhodně protínají, lze získat až sedm částí.</p><p>První řez rozdělí kruh na dvě oblasti. Druhý může přidat další dvě. Třetí protne oba předchozí v různých bodech uvnitř pizzy, rozdělí se tím na tři úseky a každý může rozdělit jinou oblast.</p><p>Obecně může n-tý řez přidat nejvýše n nových částí. Součet jedna plus jedna plus dvě až po n dává maximum <strong>1 + n(n + 1)/2</strong>. Je třeba vyhnout se rovnoběžným řezům a společnému průsečíku tří čar.</p><p>Porce nemusejí být stejně velké a vzorec není návodem na spravedlivé servírování. Ukazuje jinou věc: počet vzniklých oblastí závisí na uspořádání průsečíků, nejen na počtu pohybů nože.</p>",
+    "sources": [
+      {
+        "label": "Wolfram MathWorld: Circle Division by Lines",
+        "url": "https://mathworld.wolfram.com/CircleDivisionbyLines.html"
+      },
+      {
+        "label": "Wolfram MathWorld: Plane Division by Lines",
+        "url": "https://mathworld.wolfram.com/PlaneDivisionbyLines.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A plain circular pizza with exactly three straight cuts whose three pairwise intersections are distinct and inside the circle, making seven regions; no toppings.",
+      "scene_type": "diagram",
+      "primary_subject": "round_pizza_with_three_nonconcurrent_straight_cuts",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "round",
+        "pizza",
+        "with",
+        "three",
+        "nonconcurrent"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1068",
+    "title": "Změna DNS se nemusí projevit všem najednou",
+    "category": "technologie",
+    "content": "<p>Web se přestěhoval na novou adresu, ale část lidí ještě míří na starý server. Důvodem může být mezipaměť DNS, nikoli pomalé šíření souborů samotného webu.</p><p>Resolver si odpověď na dotaz po doméně může uložit. Záznam nese časovou platnost TTL, která omezuje běžnou dobu jeho uchovávání bez nového dotazu. Dva resolvery se ale mohly ptát v jinou chvíli a mít různé zbývající časy.</p><p>Změna u autoritativního serveru proto nevymaže okamžitě všechny již uložené odpovědi. Nižší TTL může tento přechod zkrátit, pokud bylo nastaveno s dostatečným předstihem.</p><p>Existují i standardizované režimy, které při potížích dovolují dočasně použít zastaralá data. TTL je tedy pravidlo práce s kopií odpovědi, nikoli záruka, že všichni uživatelé na světě ve stejnou sekundu uvidí stejný stav.</p>",
+    "sources": [
+      {
+        "label": "RFC 1035: Domain Names – Implementation and Specification",
+        "url": "https://www.rfc-editor.org/rfc/rfc1035.html"
+      },
+      {
+        "label": "RFC 8767: Serving Stale Data to Improve DNS Resiliency",
+        "url": "https://www.rfc-editor.org/rfc/rfc8767.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A simple network direction sign beside a small hourglass as metaphor for a cached address expiry; no letters or arrows network.",
+      "scene_type": "object",
+      "primary_subject": "network_signpost_with_small_hourglass",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "network",
+        "signpost",
+        "with",
+        "small",
+        "hourglass"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1069",
+    "title": "Jedno stisknutí tlačítka může vytvořit mnoho impulzů",
+    "category": "technologie",
+    "content": "<p>Prst stiskne tlačítko jednou, ale elektronika může naměřit několik rychlých přepnutí. Mechanický kontakt totiž při dosednutí krátce odskakuje.</p><p>Pro rychlý digitální vstup může každý takový zákmit vypadat jako další změna stavu. Počítadlo bez ošetření pak z jednoho úmyslného stisku získá několik událostí.</p><p>Postup zvaný debounce tyto krátké přechody filtruje. Program může přijmout nový stav až po jeho dostatečně dlouhém ustálení; obvodové řešení může použít vhodné časové zpracování a vstup s hysterezí.</p><p>Univerzální čekací doba pro každé tlačítko neexistuje. Příliš krátký interval nechá rušení projít, zbytečně dlouhý zhorší odezvu. Rozdíl mezi lidským úkonem a elektrickým signálem tak musí návrhář výslovně překlenout: součástka sama neposílá abstraktní zprávu o jednom stisknutí.</p>",
+    "sources": [
+      {
+        "label": "Texas Instruments: Debounce a Switch",
+        "url": "https://www.ti.com/lit/ab/scea094/scea094.pdf"
+      },
+      {
+        "label": "Arduino: Debounce on a Pushbutton",
+        "url": "https://docs.arduino.cc/built-in-examples/digital/Debounce/"
+      }
+    ],
+    "illustration": {
+      "concept": "A large mechanical pushbutton with a visible single spring, accompanying contact bounce; no waveform or circuitry.",
+      "scene_type": "object",
+      "primary_subject": "large_push_button_with_small_spring",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "large",
+        "push",
+        "button",
+        "with",
+        "small"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1070",
+    "title": "Trojka změnila cenu vzdálené střely",
+    "category": "sport",
+    "content": "<p>Koš ze vzdálenosti může mít větší cenu než bližší úspěšný pokus. NBA tuto možnost zavedla pro sezonu 1979–80 přijetím tříbodové čáry.</p><p>Za úspěšnou střelu zpoza čáry získá tým tři body místo dvou. Tím se mění vztah mezi obtížností pokusu a jeho bodovou odměnou. Pro ilustraci: čtyřicet procent proměněných trojek dává v průměru 1,2 bodu na střelu, stejně jako šedesát procent proměněných dvojek.</p><p>Tento jednoduchý výpočet ovšem pomíjí doskoky, fauly, ztráty i možnosti spoluhráčů. Sám tedy neurčuje nejlepší střelu v konkrétní situaci.</p><p>Ukazuje však, proč čára na podlaze není jen geometrická pomůcka. Pravidlo oceňuje část prostoru jinak a nutí útok i obranu přemýšlet o vzdálenosti novým způsobem. Proměna strategie pak může pokračovat dlouho po zavedení pravidla.</p>",
+    "sources": [
+      {
+        "label": "FIBA: The Birth of the Three-Point Line",
+        "url": "https://assets.fiba.basketball/image/upload/documents-corporate-others-90th-anniversary-book-single-page.pdf"
+      },
+      {
+        "label": "Shot distribution in the NBA: výzkumná studie",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7712598/"
+      }
+    ],
+    "illustration": {
+      "concept": "One basketball near a simple hoop and a single curved court line; no score, text or entire court.",
+      "scene_type": "object",
+      "primary_subject": "basketball_and_hoop_with_curved_three_point_line",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "basketball",
+        "and",
+        "hoop",
+        "with",
+        "curved"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1071",
+    "title": "Lyže do V přinesly metry i srážky za styl",
+    "category": "sport",
+    "content": "<p>Skokan roztáhne špičky lyží a vytvoří písmeno V. Dnes známá silueta kdysi přinášela srážky za styl, přestože pomáhala prodloužit let.</p><p>Švéd Jan Boklöv techniku prosazoval v osmdesátých letech. Oproti souběžným lyžím nabízela výhodnější aerodynamické uspořádání, ale neodpovídala tehdejším představám rozhodčích o správném provedení.</p><p>Boklöv přesto vyhrál celkové hodnocení Světového poháru v sezoně 1988–89. Úspěch přispěl k šíření V-stylu a postupné změně soutěžního standardu.</p><p>Příběh tedy není jen o nápadu letět dál. Skoky kombinují měřitelnou vzdálenost s bodovým hodnocením stylu a nová technika musí obstát v obou složkách. Způsob, kterým soutěž měří kvalitu, může nejprve penalizovat postup, který se později stane normou.</p>",
+    "sources": [
+      {
+        "label": "Sveriges Radio: rozhovor o Boklövově V-stylu",
+        "url": "https://www.sverigesradio.se/artikel/jan-boklovs-v-stil-fyller-40-ar-dyraste-inom-idrotten"
+      },
+      {
+        "label": "Even eagles struggle to fly: historická studie s rozhovory",
+        "url": "https://www.tandfonline.com/doi/full/10.1080/17430437.2025.2596505"
+      }
+    ],
+    "illustration": {
+      "concept": "One anonymous airborne ski jumper with two clearly separated skis forming a V in front; compact side-front view, no mountains.",
+      "scene_type": "object",
+      "primary_subject": "ski_jumper_with_skis_in_clear_v_shape",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "ski",
+        "jumper",
+        "with",
+        "skis",
+        "in"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
   }
 ]

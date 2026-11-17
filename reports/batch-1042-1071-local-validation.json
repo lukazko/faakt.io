@@ -1,0 +1,702 @@
+{
+  "base": "http://127.0.0.1:5183/faakt.io/",
+  "rows": [
+    {
+      "id": "1042",
+      "title": "Vánoce, kdy se nepřátelé setkali mezi zákopy",
+      "src": "/faakt.io/illustrations-ai/1042.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://ww1.nam.ac.uk/1331/news/christmas-truce/",
+        "https://www.nam.ac.uk/explore/christmas-ww1"
+      ]
+    },
+    {
+      "id": "1043",
+      "title": "Hořící loď proměnila Halifax v trosky",
+      "src": "/faakt.io/illustrations-ai/1043.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.3046875,
+          "bottom": 391.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98650173611111,
+        "alphaBottom": 337,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://museum.novascotia.ca/stories/explosion-narrows-1917-halifax-harbour-explosion",
+        "https://www.canada.ca/en/parks-canada/news/2016/07/the-halifax-explosion.html"
+      ]
+    },
+    {
+      "id": "1044",
+      "title": "Spinoza: trvat ve svém bytí není pouhé přežívání",
+      "src": "/faakt.io/illustrations-ai/1044.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.8203125,
+          "bottom": 387.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98767361111112,
+        "alphaBottom": 328,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://plato.stanford.edu/entries/spinoza/",
+        "https://iep.utm.edu/spinoza/"
+      ]
+    },
+    {
+      "id": "1045",
+      "title": "Pascalova sázka nedokazuje existenci Boha",
+      "src": "/faakt.io/illustrations-ai/1045.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 195.3515625,
+          "bottom": 374.7734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994401041666663,
+        "alphaBottom": 303,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://plato.stanford.edu/entries/pascal-wager/",
+        "https://iep.utm.edu/pasc-wag/"
+      ]
+    },
+    {
+      "id": "1046",
+      "title": "Ryba, která kořist sestřelí vodou",
+      "src": "/faakt.io/illustrations-ai/1046.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 193.390625,
+          "bottom": 372.828125
+        },
+        "frameGap": 14,
+        "visibleGap": 23.96875,
+        "alphaBottom": 340,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/25201684/",
+        "https://pubmed.ncbi.nlm.nih.gov/28082614/"
+      ]
+    },
+    {
+      "id": "1047",
+      "title": "Kukaččí mládě si obsadí cizí domácnost",
+      "src": "/faakt.io/illustrations-ai/1047.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 22.97187500000001,
+        "alphaBottom": 342,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.oumnh.ox.ac.uk/node/4964346",
+        "https://www.rspb.org.uk/birds-and-wildlife/cuckoo"
+      ]
+    },
+    {
+      "id": "1048",
+      "title": "Litografie tiskne z rovné plochy",
+      "src": "/faakt.io/illustrations-ai/1048.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 174.9453125,
+          "bottom": 354.3671875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994835069444434,
+        "alphaBottom": 313,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.metmuseum.org/perspectives/materials-and-techniques-printmaking-lithograph",
+        "https://www.moma.org/collection/terms/lithography"
+      ]
+    },
+    {
+      "id": "1049",
+      "title": "Socha, kterou pokaždé přeskupí vzduch",
+      "src": "/faakt.io/illustrations-ai/1049.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.975000000000023,
+        "alphaBottom": 344,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.sfmoma.org/exhibition/alexander-calder/",
+        "https://www.nga.gov/artists/2047-alexander-calder"
+      ]
+    },
+    {
+      "id": "1050",
+      "title": "Oidipús hledá vraha, kterého divák už zná",
+      "src": "/faakt.io/illustrations-ai/1050.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.4765625,
+        "alphaBottom": 345,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://chs.harvard.edu/primary-source/sophocles-oedipus-tyrannus-sb/",
+        "https://www.ebsco.com/research-starters/literature-and-writing/dramatic-irony"
+      ]
+    },
+    {
+      "id": "1051",
+      "title": "Polibek na urně se nikdy nedokončí",
+      "src": "/faakt.io/illustrations-ai/1051.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 23.470312499999977,
+        "alphaBottom": 341,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.poetryfoundation.org/poems/44477/ode-on-a-grecian-urn",
+        "https://www.poetryfoundation.org/articles/145240/john-keats-ode-on-a-grecian-urn"
+      ]
+    },
+    {
+      "id": "1052",
+      "title": "Když obyvatelé rozdělují část městských peněz",
+      "src": "/faakt.io/illustrations-ai/1052.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 211.296875,
+          "bottom": 390.734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 335,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://documents1.worldbank.org/curated/en/778301468019774995/pdf/401440v10ER0P01sclosed0March0302008.pdf",
+        "https://www.padeco.co.jp/en/projects/detail.html?cmid=573&pdid=25020"
+      ]
+    },
+    {
+      "id": "1053",
+      "title": "Pravomocný rozsudek nemá být nekonečnou smyčkou",
+      "src": "/faakt.io/illustrations-ai/1053.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 208.8125,
+          "bottom": 388.25
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 330,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://ks.echr.coe.int/documents/d/echr-ks/guide_art_4_protocol_7_eng",
+        "https://ks.echr.coe.int/en/web/echr-ks/article-4-protocol-7"
+      ]
+    },
+    {
+      "id": "1054",
+      "title": "Dva stálé tóny mohou společně pulzovat",
+      "src": "/faakt.io/illustrations-ai/1054.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.3046875,
+          "bottom": 388.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99249131944441,
+        "alphaBottom": 331,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/university-physics-volume-1/pages/17-6-beats",
+        "https://openstax.org/books/physics/pages/14-4-sound-interference-and-resonance"
+      ]
+    },
+    {
+      "id": "1055",
+      "title": "Proč se roztočený setrvačník stáčí stranou",
+      "src": "/faakt.io/illustrations-ai/1055.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 19.482812500000023,
+        "alphaBottom": 349,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/university-physics-volume-1/pages/11-4-precession-of-a-gyroscope",
+        "https://farside.ph.utexas.edu/teaching/336k/lectures/node70.html"
+      ]
+    },
+    {
+      "id": "1056",
+      "title": "Červené zelí prozradí kyselé prostředí",
+      "src": "/faakt.io/illustrations-ai/1056.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 173.92889404296875,
+          "bottom": 353.35076904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.987034776475696,
+        "alphaBottom": 259,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.acs.org/education/activities/red-cabbage-indicator.html",
+        "https://pubmed.ncbi.nlm.nih.gov/24991694/"
+      ]
+    },
+    {
+      "id": "1057",
+      "title": "Zinek se může obětovat za ocel",
+      "src": "/faakt.io/illustrations-ai/1057.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 174.4453125,
+          "bottom": 353.8671875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99322916666665,
+        "alphaBottom": 312,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry/pages/17-6-corrosion",
+        "https://psu.pb.unizin.org/chem112masp18/chapter/17-6-corrosion/"
+      ]
+    },
+    {
+      "id": "1058",
+      "title": "Na Uranu trvá roční období přes dvacet let",
+      "src": "/faakt.io/illustrations-ai/1058.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 22.97187500000001,
+        "alphaBottom": 342,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://science.nasa.gov/uranus/facts/",
+        "https://www.ssec.wisc.edu/planetary/uranus/science/"
+      ]
+    },
+    {
+      "id": "1059",
+      "title": "Jupiterova rudá skvrna mění tvar",
+      "src": "/faakt.io/illustrations-ai/1059.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 193.390625,
+          "bottom": 372.828125
+        },
+        "frameGap": 14,
+        "visibleGap": 21.975000000000023,
+        "alphaBottom": 344,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://science.nasa.gov/missions/hubble/nasas-hubble-watches-jupiters-great-red-spot-behave-like-a-stress-ball/",
+        "https://science.nasa.gov/asset/hubble/jupiters-great-red-spot-2/"
+      ]
+    },
+    {
+      "id": "1060",
+      "title": "Dnešní vysoká cena může připravit zítřejší přebytek",
+      "src": "/faakt.io/illustrations-ai/1060.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.8046875,
+          "bottom": 389.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994097222222194,
+        "alphaBottom": 332,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://user.mendelu.cz/marik/frvs/cobweb.pdf",
+        "https://www.sciencedirect.com/science/article/abs/pii/S0167268121005436"
+      ]
+    },
+    {
+      "id": "1061",
+      "title": "Surovinové bohatství může ztížit jiný vývoz",
+      "src": "/faakt.io/illustrations-ai/1061.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.8046875,
+          "bottom": 389.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994097222222194,
+        "alphaBottom": 332,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/dutch-disease",
+        "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/518791586875176017"
+      ]
+    },
+    {
+      "id": "1062",
+      "title": "Dokážeme vysvětlit volbu, kterou jsme neudělali",
+      "src": "/faakt.io/illustrations-ai/1062.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.3046875,
+          "bottom": 391.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98650173611111,
+        "alphaBottom": 337,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://pubmed.ncbi.nlm.nih.gov/16210542/",
+        "https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/Consciousness_2014/Johansson_ChoiceBlindness_Science2005.pdf"
+      ]
+    },
+    {
+      "id": "1063",
+      "title": "Vlastní názor není průzkum veřejného mínění",
+      "src": "/faakt.io/illustrations-ai/1063.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 208.3203125,
+          "bottom": 387.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.989279513888903,
+        "alphaBottom": 329,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://web.mit.edu/curhan/www/docs/Articles/biases/13_J_Experimental_Social_Psychology_279_%28Ross%29.pdf",
+        "https://www.sciencedirect.com/science/article/pii/0022103185900204"
+      ]
+    },
+    {
+      "id": "1064",
+      "title": "Široký film se může zaznamenat zmáčknutý",
+      "src": "/faakt.io/illustrations-ai/1064.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 199.83514404296875,
+          "bottom": 379.25701904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99241672092012,
+        "alphaBottom": 311,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.arri.com/resource/blob/41434/9093dd51fa56328b70f56a718bac0e22/2018-10-26-alexa-lf-and-anamorphic-lenses-pdf-data.pdf",
+        "https://www.arri.com/resource/blob/388830/8e291fd59589918e30d20677af9f0290/arri-alexa-35-anamorphic-formats-in-post-production-workflow-guideline-data.pdf"
+      ]
+    },
+    {
+      "id": "1065",
+      "title": "Střih obrazu a zvuku nemusí přijít současně",
+      "src": "/faakt.io/illustrations-ai/1065.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 195.3515625,
+          "bottom": 374.7734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994401041666663,
+        "alphaBottom": 303,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://resources.avid.com/supportfiles/attach/interplay_central/ipc_help/InterplayCentral_Help/UG_Sequences.15.55.html",
+        "https://ptgmedia.pearsoncmg.com/images/9780321990198/samplepages/9780321990198.pdf"
+      ]
+    },
+    {
+      "id": "1066",
+      "title": "Obsah obrazce lze spočítat z teček",
+      "src": "/faakt.io/illustrations-ai/1066.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 173.46014404296875,
+          "bottom": 352.88201904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.989204915364553,
+        "alphaBottom": 309,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://mathworld.wolfram.com/PicksTheorem.html",
+        "https://math.nyu.edu/Archimedes/Stomachion/Pick.html"
+      ]
+    },
+    {
+      "id": "1067",
+      "title": "Tři řezy rozdělí pizzu až na sedm dílů",
+      "src": "/faakt.io/illustrations-ai/1067.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 19.981250000000045,
+        "alphaBottom": 348,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://mathworld.wolfram.com/CircleDivisionbyLines.html",
+        "https://mathworld.wolfram.com/PlaneDivisionbyLines.html"
+      ]
+    },
+    {
+      "id": "1068",
+      "title": "Změna DNS se nemusí projevit všem najednou",
+      "src": "/faakt.io/illustrations-ai/1068.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 208.3203125,
+          "bottom": 387.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.989279513888903,
+        "alphaBottom": 329,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.rfc-editor.org/rfc/rfc1035.html",
+        "https://www.rfc-editor.org/rfc/rfc8767.html"
+      ]
+    },
+    {
+      "id": "1069",
+      "title": "Jedno stisknutí tlačítka může vytvořit mnoho impulzů",
+      "src": "/faakt.io/illustrations-ai/1069.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.8203125,
+          "bottom": 387.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98767361111112,
+        "alphaBottom": 328,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.ti.com/lit/ab/scea094/scea094.pdf",
+        "https://docs.arduino.cc/built-in-examples/digital/Debounce/"
+      ]
+    },
+    {
+      "id": "1070",
+      "title": "Trojka změnila cenu vzdálené střely",
+      "src": "/faakt.io/illustrations-ai/1070.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.80389404296875,
+          "bottom": 389.22576904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99328477647566,
+        "alphaBottom": 331,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://assets.fiba.basketball/image/upload/documents-corporate-others-90th-anniversary-book-single-page.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC7712598/"
+      ]
+    },
+    {
+      "id": "1071",
+      "title": "Lyže do V přinesly metry i srážky za styl",
+      "src": "/faakt.io/illustrations-ai/1071.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 350,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.sverigesradio.se/artikel/jan-boklovs-v-stil-fyller-40-ar-dyraste-inom-idrotten",
+        "https://www.tandfonline.com/doi/full/10.1080/17430437.2025.2596505"
+      ]
+    }
+  ],
+  "low": {
+    "textBottom": 400.125,
+    "mainBottom": 400,
+    "buttonTop": 408,
+    "scrollTop": 24
+  },
+  "errors": []
+}

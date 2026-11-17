@@ -1,0 +1,346 @@
+{
+  "snapshot": "81321a1d35e39a23619d4f5bca3ac04d4a19aecbab6968f68a97e38aa58299b4",
+  "catalog_reviewed": "81321a1d35e39a23619d4f5bca3ac04d4a19aecbab6968f68a97e38aa58299b4",
+  "drafts_hash": "acf7f186d959dd49f836e8f89724cfa4df46c673eb0e586bbc8d49f02a373f56",
+  "decisions": [
+    {
+      "id": "1042",
+      "verdict": "accept",
+      "compared_ids": [
+        "285"
+      ],
+      "reason": "Místní iniciativa vojáků a dočasná fraternizace, oproti mezistátní dohodě v raketové krizi.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1043",
+      "verdict": "accept",
+      "compared_ids": [
+        "927"
+      ],
+      "reason": "Výbuch vojenského nákladu po srážce lodí, nikoli záplava způsobená prasknutím zásobníku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1044",
+      "verdict": "accept",
+      "compared_ids": [
+        "901"
+      ],
+      "reason": "Ontologický základ touhy u Spinozy, nikoli Nozickův test hodnoty skutečnosti proti příjemným prožitkům.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1045",
+      "verdict": "accept",
+      "compared_ids": [
+        "901"
+      ],
+      "reason": "Prudenciální argument s nekonečným užitkem a námitkou více bohů, nikoli hedonismus stroje na zážitky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1046",
+      "verdict": "accept",
+      "compared_ids": [
+        "446",
+        "791"
+      ],
+      "reason": "Řízení hydrodynamiky loveckého proudu, nikoli obecná schopnost ryb pamatovat si naučené úkoly. Na rozdíl od kavitačního úderu strašíka zde ryba řídí sbíhání částí vystříknutého proudu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1047",
+      "verdict": "accept",
+      "compared_ids": [
+        "642"
+      ],
+      "reason": "Mezidruhový hnízdní parazitismus, nikoli sociálně psychologické zvýhodňování vlastní skupiny.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1048",
+      "verdict": "accept",
+      "compared_ids": [
+        "1014"
+      ],
+      "reason": "Planografický chemický výběr barvy, oproti mechanicky vyvýšeným tisknoucím místům dřevořezu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1049",
+      "verdict": "accept",
+      "compared_ids": [
+        "465",
+        "466"
+      ],
+      "reason": "Skutečný fyzický pohyb vyvážené sochy, oproti opakování spotřebních obrazů v pop artu. Rodinův článek řeší osamostatnění figury z většího díla, nikoli pohyb součástí skutečné sochy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1050",
+      "verdict": "accept",
+      "compared_ids": [
+        "768"
+      ],
+      "reason": "Asymetrie informací mezi divákem a postavou, nikoli obecný účinek tragédie označovaný katarze.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1051",
+      "verdict": "accept",
+      "compared_ids": [
+        "907",
+        "626"
+      ],
+      "reason": "Zastavený děj a cena neměnnosti ve specifické básni, oproti černé stránce jako knižnímu vyjádření smutku. Godot řeší absurdní očekávání bez vyústění; urna zkoumá uchování výjevu uměním a cenu zastaveného času.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1052",
+      "verdict": "accept",
+      "compared_ids": [
+        "112"
+      ],
+      "reason": "Spolurozhodování o veřejném rozpočtu, nikoli správa vyčerpatelného společného přírodního zdroje.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1053",
+      "verdict": "accept",
+      "compared_ids": [
+        "393"
+      ],
+      "reason": "Zákaz opakování po konečném rozhodnutí, oproti důkaznímu břemeni před rozhodnutím o vině.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1054",
+      "verdict": "accept",
+      "compared_ids": [
+        "821",
+        "998"
+      ],
+      "reason": "Časové kolísání amplitudy dvou blízkých tónů, nikoli rozklad složitého tónu na frekvenční složky. Piano Phase posouvá rytmické vzorce, zatímco zde skládání akustických kmitů vytváří měřitelné rázy rozdílové frekvence.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1055",
+      "verdict": "accept",
+      "compared_ids": [
+        "616",
+        "669"
+      ],
+      "reason": "Změna směru momentu hybnosti vnějším momentem, nikoli zrychlení při zmenšení momentu setrvačnosti. Hipparchův článek popisuje astronomické rozpoznání precese a změnu oblohy; nový text vysvětluje mechanický účinek vnějšího momentu na vektor momentu hybnosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1056",
+      "verdict": "accept",
+      "compared_ids": [
+        "860"
+      ],
+      "reason": "Vratné změny chemické formy podle pH, oproti dlouhodobému rozkladu malířských pigmentů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1057",
+      "verdict": "accept",
+      "compared_ids": [
+        "1004"
+      ],
+      "reason": "Obětovaná anoda spotřebovává jiný kov, oproti bariérové pasivační vrstvě na samotném hliníku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1058",
+      "verdict": "accept",
+      "compared_ids": [
+        "914"
+      ],
+      "reason": "Sklon osy a sezónní osvětlení, oproti rozdílu hvězdného a slunečního dne Venuše.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1059",
+      "verdict": "accept",
+      "compared_ids": [
+        "613"
+      ],
+      "reason": "Konkrétní pozorované proměny rozměru jovianské bouře, nikoli výklad Coriolisovy síly a směru pozemských cyklon.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1060",
+      "verdict": "accept",
+      "compared_ids": [
+        "479"
+      ],
+      "reason": "Dynamika nabídky s výrobním zpožděním a jednoduchým očekáváním, nikoli změna chování po změně hospodářské politiky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1061",
+      "verdict": "accept",
+      "compared_ids": [
+        "845"
+      ],
+      "reason": "Relativní konkurenceschopnost odvětví přes reálný kurz a přesun zdrojů, nikoli samotný růst cen z přílivu stříbra.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1062",
+      "verdict": "accept",
+      "compared_ids": [
+        "401",
+        "639"
+      ],
+      "reason": "Dodatečné zdůvodňování podstrčeného výsledku vlastní volby u běžných účastníků, nikoli pouhá slepota ke změně či neurochirurgické odpojení hemisfér.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1063",
+      "verdict": "accept",
+      "compared_ids": [
+        "241"
+      ],
+      "reason": "Odhad četnosti vlastního postoje, nikoli přizpůsobení veřejné odpovědi jednomyslné skupině.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1064",
+      "verdict": "accept",
+      "compared_ids": [
+        "457",
+        "890"
+      ],
+      "reason": "Směrově odlišné optické zvětšení a následná inverze, nikoli stereoobraz pro dvě oči ani obraz závislý na šikmém stanovišti diváka.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1065",
+      "verdict": "accept",
+      "compared_ids": [
+        "892",
+        "404"
+      ],
+      "reason": "Časový přesah existující zvukové stopy přes hranici záběru, nikoli prostorové pravidlo osy nebo nové nahrávání dialogu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1066",
+      "verdict": "accept",
+      "compared_ids": [
+        "1033"
+      ],
+      "reason": "Metrický obsah rovinného mřížového mnohoúhelníku, nikoli topologický vztah vrcholů hran a stěn mnohostěnu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1067",
+      "verdict": "accept",
+      "compared_ids": [
+        "1034"
+      ],
+      "reason": "Maximalizace počtu oblastí pomocí průsečíků, nikoli pravděpodobnost délky náhodné tětivy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1068",
+      "verdict": "accept",
+      "compared_ids": [
+        "952"
+      ],
+      "reason": "Časově omezená cache překladu názvu, nikoli adresa objektu odvozená z jeho obsahu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1069",
+      "verdict": "accept",
+      "compared_ids": [
+        "1036"
+      ],
+      "reason": "Časové filtrování mechanických zákmitů vstupu, nikoli rozkládání opotřebení flash paměti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1070",
+      "verdict": "accept",
+      "compared_ids": [
+        "977"
+      ],
+      "reason": "Prostorově odlišené bodování střely, oproti časové povinnosti útok zakončit.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1071",
+      "verdict": "accept",
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "Konflikt účinnějšího letu se subjektivním bodováním stylu, nikoli pouze nová poloha těla při překonávání laťky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ],
+  "reviewer": "Codex editorial review, 2026-11-17"
+}

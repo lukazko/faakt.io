@@ -1,8 +1,24 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1042–1071: po dvou příspěvcích ve všech kategoriích
+
+Databáze má **1071 příspěvků, 1028 různých poznatků a 15 kategorií**. Dávka přidala přesně dva nové příspěvky do každé kategorie. Všech 1041 původních objektů článků i položek obrazového manifestu je obsahově zachováno. Verze aplikace a obě verze lockfile zůstávají **1.5.2**.
+
+Všech 30 nových ID má registrovaný statický RGBA WebP 640×360 v kartách i společném manifestu galerie. Dohromady mají **583554 B**, rohy mají nulovou alfu. Vzniklo 30 samostatných generování vestavěným image_gen a jedna cílená úprava britské čepice u 1042: původní ocelová přilba byla pro rok 1914 anachronická. První verze je uchována v `reports/batch-1042-1071-1042-first.webp`; přesné prompty, zdrojové cesty a oprava v `reports/batch-1042-1071-images.json` a manifestu. Nástroj nenabízí řízení rozměrů, kvality ani ceny generování. Následné zmenšení neomezuje spotřebu generování.
+
+Motivy: 1042 výměna dárku mezi vojáky, 1043 hořící parník, 1044 rostoucí výhonek jako metafora conatu, 1045 kniha a kostka, 1046 lovící stříkoun, 1047 kukaččí mládě, 1048 litografický kámen, 1049 závěsný mobil, 1050 divadelní maska, 1051 urna s téměř se líbající dvojicí, 1052 společné hlasovací žetony, 1053 uzavřený spis, 1054 ladičky, 1055 gyroskop, 1056 barevný indikátor, 1057 loď se zinkovou anodou, 1058 Uran, 1059 Jupiterova skvrna, 1060 brambory, 1061 plynovod a továrna, 1062 karty s tvářemi, 1063 promítnutý názor v bublinách, 1064 filmový objektiv, 1065 přesah zvukové stopy, 1066 mřížový mnohoúhelník, 1067 tři řezy pizzy, 1068 směrovka s přesýpacími hodinami, 1069 tlačítko, 1070 míč s košem, 1071 skokan s lyžemi do V. Jde o doprovodné motivy a stručné metafory, nikoli o rekonstrukci konkrétních osob, úplné experimenty nebo technické výkresy. Některé kresby překračují přísný cíl počtu ploch či míry stínování; čitelnost zůstává zachována.
+
+Všech 30 motivů bylo prohlédnuto při 160×90 a 320×180 na základním gradientu a přesném současném CardGlow. Prohlédnuto bylo rovněž všech 30 skutečných mobilních karet při 390×844 na obou pozadích. Browser ověřil 30 otočení, úplný text a správné odkazy na zdroje, bez runtime chyb; ověřen byl nízký viewport 390×500 a desktop. Viditelná mezera od alfa≥16 kresby k hooku je **18.49–23.97 CSS px**. Bez ručních výjimek pro odsazení a bez změny společného rozložení, palet či rendereru. Podklady: `reports/batch-1042-1071-review/` a `reports/batch-1042-1071-local-validation.json`.
+
+Významový index je kompletní a platný; prošlo všech 13 datových a obrazových testů. Deterministický repair byl pouze prohlédnut: nové návrhy 1062 a 1063 na portrét a 1068 na diagram nejsou pro zvolený doprovodný motiv potřebné a nebyly aplikovány. Původní metadata a zlaté otisky se nemění. Redakční kontrolu uchovávají plán, návrhy, hledání, závěrečné schválení a `reports/batch-1042-1071-editorial-review.md`.
+
+Produkční build prošel: všech 30 nových statických cest a identické WebP jsou přítomné, stejně jako `.nojekyll`. Přetrvávají dosavadní upozornění Svelte na markup a velikost balíku vývojové galerie. Běžící náhled byl v prohlížeči ověřen na první nové kartě včetně otočení a zdrojů; přes HTTP vrací přesně aktuálních 1071 článků. Původní server na 5182 držel starý stav statických cest, proto nový náhled běží na samostatném portu.
+
+**Lokální produkční náhled:** [http://127.0.0.1:5184/faakt.io/post/1042/](http://127.0.0.1:5184/faakt.io/post/1042/). Konečný souhrn: `reports/batch-1042-1071-final-validation.json`.
+
 ## Verze 1.5.2: 35 nových příspěvků 1007–1041
 
-Databáze má **1041 příspěvků, 998 různých poznatků a 15 kategorií**. Nová dávka rovnoměrně přidává po dvou textech ve všech kategoriích a třetí v Chemii, Vesmíru, Matematice, Technologiích a Sportu. Původních 1006 objektů článků, položek manifestu i obrázků zůstává zachováno. Verze `package.json` a oba údaje lockfile jsou **1.5.2**. Zobrazení verze nadále používá `__APP_VERSION__`, bez nové konstanty.
+Před dávkou 1042–1071 měla databáze **1041 příspěvků, 998 různých poznatků a 15 kategorií**. Nová dávka rovnoměrně přidává po dvou textech ve všech kategoriích a třetí v Chemii, Vesmíru, Matematice, Technologiích a Sportu. Původních 1006 objektů článků, položek manifestu i obrázků zůstává zachováno. Verze `package.json` a oba údaje lockfile jsou **1.5.2**. Zobrazení verze nadále používá `__APP_VERSION__`, bez nové konstanty.
 
 Všech 35 nových ID má RGBA WebP 640×360 s nulovou alfou v rozích; dohromady **682660 B**. Vzniklo 35 samostatných generování vestavěným image_gen a jedna cílená průhledná úprava topinky 1021 po nalezení obdélníkového pozadí. První verze, přesné prompty, skutečné zdrojové cesty a oprava jsou doložené v `reports/v152-image-*.json`, `reports/v152-1021-first.webp` a společném manifestu. Rozměry, kvalitu a cenu generování nástroj neumožňuje nastavit; následná konverze spotřebu generování neurčuje. Nová ID jsou registrována v produkčních kartách i galerii. Dosavadní palety, CardGlow, renderer a zlaté otisky se nemění.
 
