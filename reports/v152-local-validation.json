@@ -1,0 +1,817 @@
+{
+  "base": "http://127.0.0.1:5182/faakt.io/",
+  "rows": [
+    {
+      "id": "1007",
+      "title": "Hodinky, které pomohly najít místo uprostřed oceánu",
+      "src": "/faakt.io/illustrations-ai/1007.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 20.47968750000001,
+        "alphaBottom": 347,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.rmg.co.uk/stories/time/harrisons-clocks-longitude-problem",
+        "https://www.rmg.co.uk/collections/objects/rmgc-object-79142"
+      ]
+    },
+    {
+      "id": "1008",
+      "title": "Po požáru Londýna se měnila i pravidla stavění",
+      "src": "/faakt.io/illustrations-ai/1008.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.975000000000023,
+        "alphaBottom": 344,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.parliament.uk/about/living-heritage/transformingsociety/towncountry/towns/collections/collections-great-fire-1666/1666-act-to-rebuild-the-city-of-london/",
+        "https://www.londonmuseum.org.uk/collections/london-stories/myths-great-fire-london/"
+      ]
+    },
+    {
+      "id": "1009",
+      "title": "Kdy smí okolí rozhodovat za vás?",
+      "src": "/faakt.io/illustrations-ai/1009.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 176.9453125,
+          "bottom": 356.3671875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.985633680555566,
+        "alphaBottom": 317,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://plato.stanford.edu/entries/law-limits/",
+        "https://plato.stanford.edu/entries/mill-moral-political/"
+      ]
+    },
+    {
+      "id": "1010",
+      "title": "Osel, kterému jsou obě večeře stejně dobré",
+      "src": "/faakt.io/illustrations-ai/1010.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 208.3203125,
+          "bottom": 387.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.989279513888903,
+        "alphaBottom": 329,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://plato.stanford.edu/entries/buridan/",
+        "https://classics.mit.edu/Aristotle/heavens.2.ii.html"
+      ]
+    },
+    {
+      "id": "1011",
+      "title": "Ptakopysk loví se zavřenýma očima",
+      "src": "/faakt.io/illustrations-ai/1011.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 184.390625,
+          "bottom": 363.796875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99470486111113,
+        "alphaBottom": 281,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.amnh.org/explore/news-blogs/platypus-electroreception-hunting",
+        "https://www.uwa.edu.au/science/-/media/Faculties/Science/Docs/Platypus-electroreception.pdf"
+      ]
+    },
+    {
+      "id": "1012",
+      "title": "Vydra si při česání udržuje vlastní izolaci",
+      "src": "/faakt.io/illustrations-ai/1012.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 204.3203125,
+          "bottom": 383.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.992057291666697,
+        "alphaBottom": 321,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.montereybayaquarium.org/animals-the-ocean/animals-a-to-z/sea-otter",
+        "https://www.fws.gov/species/southern-sea-otter-enhydra-lutris-nereis"
+      ]
+    },
+    {
+      "id": "1013",
+      "title": "Malíř nechal barvy setkat až ve vašem pohledu",
+      "src": "/faakt.io/illustrations-ai/1013.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 205.3203125,
+          "bottom": 384.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995269097222263,
+        "alphaBottom": 323,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://courtauld.ac.uk/take-part/schools/secondary/focus-seurat-colour-and-water/",
+        "https://www.nationalgalleries.org/art-and-artists/glossary-terms/pointillism"
+      ]
+    },
+    {
+      "id": "1014",
+      "title": "Dřevořez tiskne právě to, co rytec neodřízne",
+      "src": "/faakt.io/illustrations-ai/1014.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 210.8046875,
+          "bottom": 390.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99730902777776,
+        "alphaBottom": 334,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.metmuseum.org/perspectives/materials-and-techniques-printmaking-woodcut",
+        "https://www.metmuseum.org/essays/the-printed-image-in-the-west-woodcut"
+      ]
+    },
+    {
+      "id": "1015",
+      "title": "Román, který vám uteče do poznámek",
+      "src": "/faakt.io/illustrations-ai/1015.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 202.8359375,
+          "bottom": 382.2578125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98723958333335,
+        "alphaBottom": 318,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://api.pageplace.de/preview/DT0400.9781400823192_A25050773/preview-9781400823192_A25050773.pdf",
+        "https://www.penguinrandomhouse.com/books/119451/pale-fire-by-vladimir-nabokov-introduction-by-richard-rorty/"
+      ]
+    },
+    {
+      "id": "1016",
+      "title": "Hrůza, o které postavy mluví jako o běžném životě",
+      "src": "/faakt.io/illustrations-ai/1016.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 211.296875,
+          "bottom": 390.734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 335,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.penguinrandomhouse.com/books/85609/never-let-me-go-by-kazuo-ishiguro/readers-guide",
+        "https://www.faber.co.uk/journal/never-let-me-go-by-kazuo-ishiguro-a-study-guide/"
+      ]
+    },
+    {
+      "id": "1017",
+      "title": "Železnice sjednotily hodiny dřív než federální zákon",
+      "src": "/faakt.io/illustrations-ai/1017.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.4765625,
+        "alphaBottom": 345,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://guides.loc.gov/this-month-in-business-history/november/day-of-two-noons",
+        "https://railroads.unl.edu/documents/view_document_id=rail.gen.0002.html"
+      ]
+    },
+    {
+      "id": "1018",
+      "title": "Rodný list a občanství nejsou stejná věc",
+      "src": "/faakt.io/illustrations-ai/1018.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 211.8046875,
+          "bottom": 391.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984895833333326,
+        "alphaBottom": 336,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.unicef.ca/en/what-we-do/our-work-globally/child-protection/birth-registration",
+        "https://desapublications.un.org/file/1149/download"
+      ]
+    },
+    {
+      "id": "1019",
+      "title": "Voda může v tenké trubičce vystoupat nad hladinu",
+      "src": "/faakt.io/illustrations-ai/1019.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 211.296875,
+          "bottom": 390.734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 335,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.usgs.gov/water-science-school/science/capillary-action-and-water",
+        "https://openstax.org/books/college-physics-2e/pages/11-8-cohesion-and-adhesion-in-liquids-surface-tension-and-capillary-action"
+      ]
+    },
+    {
+      "id": "1020",
+      "title": "Termoska potřebuje víc než prázdnou mezeru",
+      "src": "/faakt.io/illustrations-ai/1020.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 23.470312499999977,
+        "alphaBottom": 341,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.rigb.org/explore-science/explore/collection/james-dewars-vacuum-flask",
+        "https://www.physics.hku.hk/~phys1055/lectures/chap01.html"
+      ]
+    },
+    {
+      "id": "1021",
+      "title": "Hnědá kůrka není jen zkaramelizovaný cukr",
+      "src": "/faakt.io/illustrations-ai/1021.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 204.8203125,
+          "bottom": 384.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99366319444448,
+        "alphaBottom": 322,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://asbe.org/article/maillard-reaction/",
+        "https://pubmed.ncbi.nlm.nih.gov/15309575/"
+      ]
+    },
+    {
+      "id": "1022",
+      "title": "Tvrdá voda spotřebuje část mýdla dřív než mastnota",
+      "src": "/faakt.io/illustrations-ai/1022.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 194.359375,
+          "bottom": 373.765625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.996440972222217,
+        "alphaBottom": 301,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.usgs.gov/water-science-school/science/hardness-water",
+        "https://www.usgs.gov/faqs/why-does-it-take-so-long-rinse-soap-my-hands-what-are-hard-water-and-soft-water"
+      ]
+    },
+    {
+      "id": "1023",
+      "title": "Aktivní uhlí čistí povrchem, který zvenku nevidíte",
+      "src": "/faakt.io/illustrations-ai/1023.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.8203125,
+          "bottom": 387.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98767361111112,
+        "alphaBottom": 328,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://19january2021snapshot.epa.gov/sites/static/files/2015-04/documents/a_citizens_guide_to_activated_carbon_treatment.pdf",
+        "https://guidelines.nhmrc.gov.au/australian-drinking-water-guidelines/part-5/treatment-chemicals/carbon-granulated-activated"
+      ]
+    },
+    {
+      "id": "1024",
+      "title": "Ze Země lze zahlédnout víc než polovinu Měsíce",
+      "src": "/faakt.io/illustrations-ai/1024.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 205.8203125,
+          "bottom": 385.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99687499999999,
+        "alphaBottom": 324,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://cdaweb.gsfc.nasa.gov/pub/documents/archived_websites/pwg.gsfc.nasa.gov/stargaze/Smoon4.htm",
+        "https://my.weather.gov.hk/en/education/astronomy-and-time/astronomy/00777-what-is-lunar-libration.html"
+      ]
+    },
+    {
+      "id": "1025",
+      "title": "Saturnův prstenec není pevná obruč",
+      "src": "/faakt.io/illustrations-ai/1025.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 198.84375,
+          "bottom": 378.28125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 310,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://science.nasa.gov/mission/cassini/science/rings/",
+        "https://science.nasa.gov/mission/cassini/faq/"
+      ]
+    },
+    {
+      "id": "1026",
+      "title": "Na Marsu může západ Slunce zmodrat",
+      "src": "/faakt.io/illustrations-ai/1026.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 194.359375,
+          "bottom": 373.765625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.996440972222217,
+        "alphaBottom": 301,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://science.nasa.gov/solar-system/planets/mars/what-does-a-sunrise-sunset-look-like-on-mars/",
+        "https://svs.gsfc.nasa.gov/11875"
+      ]
+    },
+    {
+      "id": "1027",
+      "title": "Když úroková sazba narazí na svou spodní mez",
+      "src": "/faakt.io/illustrations-ai/1027.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.federalreserve.gov/econres/feds/monetary-policy-in-deflation-the-liquidity-trap-in-history-and-practice.htm",
+        "https://www.imf.org/en/publications/wp/issues/2016/12/31/liquidity-trap-and-excessive-leverage-41769"
+      ]
+    },
+    {
+      "id": "1028",
+      "title": "Stejné sedadlo, jiná cena",
+      "src": "/faakt.io/illustrations-ai/1028.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 178.9296875,
+          "bottom": 358.3515625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.992057291666697,
+        "alphaBottom": 321,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://ocw.mit.edu/ans7870/14/14.01SC/MIT14_01SCF11_rttext.pdf",
+        "https://prawo.uwr.edu.pl/wp-content/uploads/sites/210/2023/08/J._R._Church_Roger_Ware_Industrial_organization_Irwin_McGraw_Hill_1999_.pdf"
+      ]
+    },
+    {
+      "id": "1029",
+      "title": "Gorila může projít obrazem a vy ji nezahlédnete",
+      "src": "/faakt.io/illustrations-ai/1029.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.8046875,
+          "bottom": 392.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98810763888889,
+        "alphaBottom": 338,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.chabris.com/Simons1999.pdf",
+        "https://www.open.edu/openlearn/mod/oucontent/view.php?id=88410&section=_unit4.1.1"
+      ]
+    },
+    {
+      "id": "1030",
+      "title": "Nápad může být vzpomínka se ztraceným původem",
+      "src": "/faakt.io/illustrations-ai/1030.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.3203125,
+          "bottom": 386.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986067708333337,
+        "alphaBottom": 327,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://warwick.ac.uk/fac/sci/psych/people/fsch/fsch/studentresources/3rdyearprojects/projects/plag2.pdf",
+        "https://pubmed.ncbi.nlm.nih.gov/8501434/"
+      ]
+    },
+    {
+      "id": "1031",
+      "title": "Němý film nemá jednu povinnou rychlost",
+      "src": "/faakt.io/illustrations-ai/1031.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.8046875,
+          "bottom": 392.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98810763888889,
+        "alphaBottom": 338,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.fiafnet.org/pages/E-Resources/Digital-Statement-part-III.html",
+        "https://www.screenculture.org/cesif/sites/default/files/CESIF_Primer_FINAL.pdf"
+      ]
+    },
+    {
+      "id": "1032",
+      "title": "Filmový palác se může vejít na malované sklo",
+      "src": "/faakt.io/illustrations-ai/1032.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 200.83673095703125,
+          "bottom": 380.25860595703125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99725341796875,
+        "alphaBottom": 315,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.oscars.org/sites/oscars/files/complete_visual_effects_activities_guide.pdf",
+        "https://www.starwars.com/news/empire-at-40-5-amazing-matte-paintings-from-star-wars-the-empire-strikes-back"
+      ]
+    },
+    {
+      "id": "1033",
+      "title": "Na krychli vyjde dvojka. Na čtyřstěnu také",
+      "src": "/faakt.io/illustrations-ai/1033.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.3046875,
+          "bottom": 391.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98650173611111,
+        "alphaBottom": 337,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://mathworld.wolfram.com/PolyhedralFormula.html",
+        "https://cs.cas.cz/portal/AlgoMath/Geometry/SpatialGeometry/Polyhedra/EulerPolyhedronTheorem.htm"
+      ]
+    },
+    {
+      "id": "1034",
+      "title": "Náhodná tětiva nestačí jako zadání",
+      "src": "/faakt.io/illustrations-ai/1034.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://mathworld.wolfram.com/BertrandsProblem.html",
+        "https://stats.libretexts.org/Bookshelves/Probability_Theory_(Grinstead_and_Snell)/02:_Continuous_Probability_Densities/2.01:_Simulation_of_Continuous_Probabilities"
+      ]
+    },
+    {
+      "id": "1035",
+      "title": "Nejkratší skluz nemusí být nejrychlejší",
+      "src": "/faakt.io/illustrations-ai/1035.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 195.3515625,
+          "bottom": 374.7734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994401041666663,
+        "alphaBottom": 303,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://mathworld.wolfram.com/BrachistochroneProblem.html",
+        "https://people.math.osu.edu/gerlach.1/math5451/book/CVtypsetnew.pdf"
+      ]
+    },
+    {
+      "id": "1036",
+      "title": "SSD stěhuje data, aby neopotřeboval jedno místo",
+      "src": "/faakt.io/illustrations-ai/1036.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.30548095703125,
+          "bottom": 391.72735595703125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98731418185764,
+        "alphaBottom": 338,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.macronix.com/Lists/ApplicationNote/Attachments/1913/AN0289V1-Wear%20Leveling%20in%20NAND%20Flash%20Memory.pdf",
+        "https://www.kioxia.com/content/dam/kioxia/shared/business/memory/mlc-nand/asset/productbrief/KIOXIA_Understanding_Wear_Leveling_Tech_Brief.pdf"
+      ]
+    },
+    {
+      "id": "1037",
+      "title": "Databáze si změnu nejdřív zapíše vedle",
+      "src": "/faakt.io/illustrations-ai/1037.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 201.8359375,
+          "bottom": 381.2578125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984027777777783,
+        "alphaBottom": 316,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.sqlite.org/wal.html",
+        "https://www.sqlite.org/fileformat2.html"
+      ]
+    },
+    {
+      "id": "1038",
+      "title": "Dva správně přenesené bajty mohou dát špatné číslo",
+      "src": "/faakt.io/illustrations-ai/1038.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 197.3515625,
+          "bottom": 376.7734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.985199652777737,
+        "alphaBottom": 307,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.nist.gov/glossary-term/22791",
+        "https://www.rfc-editor.org/rfc/rfc1700"
+      ]
+    },
+    {
+      "id": "1039",
+      "title": "Cílová fotografie nemá na šířku prostor, ale čas",
+      "src": "/faakt.io/illustrations-ai/1039.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 204.8203125,
+          "bottom": 384.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99366319444448,
+        "alphaBottom": 322,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.seiko-stc.co.jp/e/products/uploads/docs/trackandfield_e.pdf",
+        "https://www.englandathletics.org/news/olympic-factoid-snap-happy/"
+      ]
+    },
+    {
+      "id": "1040",
+      "title": "V čele cyklistické skupiny se platí víc",
+      "src": "/faakt.io/illustrations-ai/1040.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.42189025878906,
+          "top": 198.34996032714844,
+          "bottom": 377.7718505859375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986788813273108,
+        "alphaBottom": 307,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://annex.exploratorium.edu/cycling/aerodynamics2.html",
+        "https://pure.tue.nl/ws/files/101844924/1_s2.0_S0167610518303751_main.pdf"
+      ]
+    },
+    {
+      "id": "1041",
+      "title": "Než rozhodovaly penalty, mohl rozhodnout los",
+      "src": "/faakt.io/illustrations-ai/1041.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 195.35076904296875,
+          "bottom": 374.77264404296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99358859592013,
+        "alphaBottom": 302,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.fifamuseum.com/en/explore/fifamuseumplus/blog/Why-penalty-shootout",
+        "https://downloads.theifab.com/downloads/laws-of-the-game-1982-83?l=en"
+      ]
+    }
+  ],
+  "low": {
+    "textBottom": 400.40625,
+    "mainBottom": 400,
+    "buttonTop": 408,
+    "scrollTop": 93
+  },
+  "errors": []
+}

@@ -52,7 +52,7 @@ Před výběrem námětů přečti [známé obsahové duplicity](references/dupl
 
 ## Kategorie
 
-Použij přesně jeden slug z těchto 14 hodnot:
+Použij přesně jeden slug z těchto 15 hodnot:
 
 | Slug | Kategorie |
 |---|---|
@@ -74,7 +74,7 @@ Použij přesně jeden slug z těchto 14 hodnot:
 
 Biologie zahrnuje organismy, evoluci, genetiku, fyziologii i léčbu, nemoci, prevenci a životosprávu. Fyzika zahrnuje fyzikální zákony, skupenství, záření, jaderné a geofyzikální procesy. Chemie zahrnuje chemické prvky, složení látek, reakce a separace. Vesmír zahrnuje astronomii a kosmický výzkum. Technologie zahrnují informatiku a technické vynálezy. Společnost zahrnuje také sociologii, instituce a právo. Jazyk a znaky patří jako podobor do Filozofie. Rozhoduje hlavní obsah celého příspěvku; přesahy zachycují řízené tagy. Společnost používá slug `spolecnost` bez aliasu pro staré URL. Vesmír používá slug `vesmir` bez aliasu `astronomie`. Slugy odpovídají aktuálním názvům bez diakritiky; při přejmenování se staré slugy ani aliasy neudržují. Platné slugy určuje `src/lib/categories.js`.
 
-Při jedné zadané kategorii zůstaň v ní. U smíšené dávky bez tematického omezení vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 14. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
+Při jedné zadané kategorii zůstaň v ní. U smíšené dávky bez tematického omezení vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 15. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
 
 ## Struktura a psaní
 

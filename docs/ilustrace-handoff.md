@@ -1,5 +1,19 @@
 # Ilustrace — aktuální stav
 
+## Verze 1.5.2: 35 nových příspěvků 1007–1041
+
+Databáze má **1041 příspěvků, 998 různých poznatků a 15 kategorií**. Nová dávka rovnoměrně přidává po dvou textech ve všech kategoriích a třetí v Chemii, Vesmíru, Matematice, Technologiích a Sportu. Původních 1006 objektů článků, položek manifestu i obrázků zůstává zachováno. Verze `package.json` a oba údaje lockfile jsou **1.5.2**. Zobrazení verze nadále používá `__APP_VERSION__`, bez nové konstanty.
+
+Všech 35 nových ID má RGBA WebP 640×360 s nulovou alfou v rozích; dohromady **682660 B**. Vzniklo 35 samostatných generování vestavěným image_gen a jedna cílená průhledná úprava topinky 1021 po nalezení obdélníkového pozadí. První verze, přesné prompty, skutečné zdrojové cesty a oprava jsou doložené v `reports/v152-image-*.json`, `reports/v152-1021-first.webp` a společném manifestu. Rozměry, kvalitu a cenu generování nástroj neumožňuje nastavit; následná konverze spotřebu generování neurčuje. Nová ID jsou registrována v produkčních kartách i galerii. Dosavadní palety, CardGlow, renderer a zlaté otisky se nemění.
+
+Motivy: 1007 H4, 1008 zděný londýnský dům, 1009 ruka a hranice donucení, 1010 osel mezi senem, 1011 ptakopysk, 1012 upravující se vydra, 1013 malířská paleta, 1014 dřevořez, 1015 kniha a komentář, 1016 prázdná školní židle, 1017 nádražní hodiny, 1018 záznam narození, 1019 kapilára, 1020 termoska, 1021 topinka, 1022 mýdlo a povlak, 1023 porézní uhlí, 1024 Měsíc, 1025 Saturn, 1026 marťanský západ, 1027 sazební ovladač s dorazem, 1028 vstupenky, 1029 gorilí kostým, 1030 poznámka bez atribuce, 1031 promítačka, 1032 dokreslovačka, 1033 krychle, 1034 tětivy, 1035 zakřivený skluz, 1036 flash paměť, 1037 databáze a deník, 1038 pořadí bajtů, 1039 cílová kamera, 1040 dvojice cyklistů, 1041 míč na penaltě. Jde o doprovodné redakční motivy, nikoli úplné rekonstrukce nebo přesné měřicí diagramy. U 1040 zůstávají tmavé linie kol při 160×90 méně výrazné; cyklisté a děj jsou rozpoznatelní. Některé motivy mají více detailů a stínování než přísný cíl 5–8 ploch.
+
+Všech 35 motivů bylo prohlédnuto při 160×90 a 320×180 na původním gradientu i přesném aktuálním CardGlow. Prohlédnuty byly také skutečné mobilní karty při 390×844 na obou pozadích; browser ověřil 35 otočení, úplné texty a správné zdrojové odkazy bez runtime chyb. Viditelná mezera od alfa≥16 kresby k hooku je **18.49–23.47 CSS px**. Nízký viewport 390×500 umožňuje dočíst hook posunem a otočit kartu; ověřen je i desktop. Bez ručních výjimek pro odsazení. Podklady jsou v `reports/v152-review/`, metriky v `reports/v152-local-validation.json` a `reports/v152-art-validation.json`.
+
+Významový index je úplný a platný. Náhled deterministického repairu nenavrhuje změny u nových ID; staré návrhy nebyly aplikovány. **Všech 13 projektových testů prošlo pod Node.js 22.23.4**; systémový Node 18 nepodporuje syntaxi aktuálního sharp. Produkční build vytvořil všech 35 nových stránek a obrázků i `.nojekyll`. Přetrvávají dosavadní upozornění Svelte a velikost balíčku vývojové galerie. Redakční rozhodnutí a zdroje: `reports/v152-editorial-review.md`, plán, návrhy a schválení. Souhrn: `reports/v152-final-validation.json`.
+
+**Běžící lokální náhled:** [http://127.0.0.1:5182/faakt.io/post/1007/](http://127.0.0.1:5182/faakt.io/post/1007/).
+
 ## Dávka 977–1006: sport, římská říše, hudba, fyzika a chemie
 
 Prošlo všech **13 testů `npm test`** a následná cílená kontrola registrace všech přijatých ilustrací. Produkční build vytvořil všech 30 nových statických stránek, jejich WebP, galerii se 1006 položkami a `.nojekyll`; zbývají dosavadní upozornění Svelte a velikost balíčku galerie. Závěrečný souhrn je v `reports/batch-977-final-validation.json`. Běžící ověřený náhled tohoto checkoutu: `http://127.0.0.1:4200/faakt.io/post/977/`. Původní objekty manifestu a původní obrázky se nemění.
