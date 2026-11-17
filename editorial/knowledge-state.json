@@ -3199,11 +3199,11 @@
     "456": {
       "version": 1,
       "source_hash": "76fa9217d23774698708ef7169829cc96ccc4cd14caac7c27c006580916b59e8",
-      "knowledge_hash": "36d02bb10e34678bae6399688d190ff1cab0ca8695dd66ae1026e2d246a50879",
+      "knowledge_hash": "4bc7c482ab463977f31ca5ecf2946a69456ca83313632974d5c9cd8726a3f2e6",
       "tags_hash": "9f10e6579309904197908ad01b387149f05abe97e819168b09c93f4c2a57dfd1",
       "status": "verified",
-      "reviewer": "hook-editorial-review",
-      "reviewed_at": "2026-11-09"
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
     },
     "457": {
       "version": 1,
@@ -9636,6 +9636,276 @@
       "source_hash": "46e6955dd17f4e3b34c68392392f80bb44612a0922eb5a83ab40280ab49023b5",
       "knowledge_hash": "8252c80d9443894bddb023f68832983fe08cb201a5aee56ecde27583bac3ec0a",
       "tags_hash": "75596b4d8725904fede72f437b36c3cdc9516d35d9d2d9f9e0839abb9b0f2be1",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1072": {
+      "version": 1,
+      "source_hash": "8f194fedaaaf55631932fd5368004e92c3553aaf55f128c7f9cd9513eeb5dbeb",
+      "knowledge_hash": "446ef619e5908c05079d39e0d61455715599d65f503a88fb54f19d79121dac95",
+      "tags_hash": "2758fca0d71e5385cc49d0297bb490fae24324b26dec7bda7c09924a1a5f2975",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1073": {
+      "version": 1,
+      "source_hash": "5c607bd18240937ef09c2d770e5cc7a340963232195fd74f07784b4b4b3c4cd8",
+      "knowledge_hash": "27dceb5a83a9fd9f704509c5f41981590b3b178baa34c97609d3929d7382f453",
+      "tags_hash": "3ababb28fa83bd2170be3c8d970b7ca78f770cf4f49d6206bdbd1c9046e3c10e",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1074": {
+      "version": 1,
+      "source_hash": "5acfefd9cebcdd34cd0809b8311c621c81af006ce3b1aa973aebdf93e0e66cb6",
+      "knowledge_hash": "2b4d5c81fc36d26c7007390fa02bc969b28ed02eded11a69a7432b56ad976d7a",
+      "tags_hash": "2758fca0d71e5385cc49d0297bb490fae24324b26dec7bda7c09924a1a5f2975",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1075": {
+      "version": 1,
+      "source_hash": "fc7ed12a293f0801a9ed079d3875cbd8c64d8e21257eadf2828b9f6f0c99943a",
+      "knowledge_hash": "9dd19207945d0d824976bf8ecd5f68daf6b3601a1f8d3e1c5266ed3bf4beb4df",
+      "tags_hash": "79d9942e35f0187d09dead94ab3df4d048e221d19843e7d0ba1012fb60f505f0",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1076": {
+      "version": 1,
+      "source_hash": "ce0fe22cf7a390b383d940a80bc5296ddbe5d5eecbdc1477c2499a4da7b02201",
+      "knowledge_hash": "0d5c2c301eb0aec6d853b1d0942586f1e03178f4003c6c5844a6382f200ad3ca",
+      "tags_hash": "e029b5771f08077605fe97ef1825c1c99bf1d5f080ab712edd87848a942f3b58",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1077": {
+      "version": 1,
+      "source_hash": "860b11fe9de9c61e7cccd0aac8e7dfaab014bde2041c00bf7999ed1e7bdfa48d",
+      "knowledge_hash": "814599be1db907d9b881021918186f9b2bccb14902eb0607bab14c76b1162783",
+      "tags_hash": "79d9942e35f0187d09dead94ab3df4d048e221d19843e7d0ba1012fb60f505f0",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1078": {
+      "version": 1,
+      "source_hash": "8e0bd65a9fced23cd3b63cf52f93fada339a4287bcc01cc256c294811c75e7b0",
+      "knowledge_hash": "934c230fd347838ebfdbb818d5c1fd286e82bbda8b1e3023dfec5659d4944792",
+      "tags_hash": "0af3598955fbf2f86f969b9d2e481f2b8be30cad30dc5a5de81d7dd27ac2dbe0",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1079": {
+      "version": 1,
+      "source_hash": "1ecca4aa9d29630b26dcc21bbb1665f957e88a86684f0240126bf021f7b18aa9",
+      "knowledge_hash": "6bbfe51037fd15e062076bb6224966c3f0cd1490879fced634cfba0240d75a81",
+      "tags_hash": "2758fca0d71e5385cc49d0297bb490fae24324b26dec7bda7c09924a1a5f2975",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1080": {
+      "version": 1,
+      "source_hash": "ab7fa1d9555ae7e1bff96997a683b7c9ec5b6d7e11da25cebc0e53d156b48e11",
+      "knowledge_hash": "b06fd3833f48aa951384cba524211cde3373e7fcbf45f8e50d0e52acd1d79526",
+      "tags_hash": "af5c255cf40cf4267524501183e99b045e3e35381a1b9f4c7b3fde4cd374f502",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1081": {
+      "version": 1,
+      "source_hash": "17cce0c6e80ffb825821d2765fb1b13df3db739228c177e04d3d61eb319c39b2",
+      "knowledge_hash": "1e0762f81457af4eec6bc3518ad73fe0514658a302eb65409480c9ddd7afb5a2",
+      "tags_hash": "7e3db29f6c16529a2d7200bae25442ad17ab1a593891456690853dd2982abeb5",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1082": {
+      "version": 1,
+      "source_hash": "614a79bd1ca71428578e06be436a166d93bbfdcaeb882698e18cd724f3cb0de2",
+      "knowledge_hash": "f784b0dd10b387117f15735cf161ecca4642e5af0e69b85d8571e33dbfe8fd40",
+      "tags_hash": "79d9942e35f0187d09dead94ab3df4d048e221d19843e7d0ba1012fb60f505f0",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1083": {
+      "version": 1,
+      "source_hash": "c0cb75d4a7e9319c74b42e57aa02ea7b9224eb0e5e8a31ff04d6955ec7be3d0d",
+      "knowledge_hash": "5c740328c7d54ad3bb53293bfbbebe040734f8404a5e4ef4e6c404cd1fdb96dc",
+      "tags_hash": "3ababb28fa83bd2170be3c8d970b7ca78f770cf4f49d6206bdbd1c9046e3c10e",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1084": {
+      "version": 1,
+      "source_hash": "cdf81663b19675cc1f2c289e092fa1a78fe1456b5bf4e2961645356b4c2c39e5",
+      "knowledge_hash": "b7ae36f1d6dad055c9b8e232b8662556bdd8c7341ce552a5810d02355782c51c",
+      "tags_hash": "791516c0ff3a6ccb05735a0b9f29d9ebd52e4b0c6f62890ef522ffb4c5959d9e",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1085": {
+      "version": 1,
+      "source_hash": "f1123b6e77c87182702db1a0b8a826beb31e4b174078ed6d51118d9b14304145",
+      "knowledge_hash": "f08bb92a3c2aad758d6b7277aa9ba24680531a8985dc6a57d38787245c26380a",
+      "tags_hash": "79d9942e35f0187d09dead94ab3df4d048e221d19843e7d0ba1012fb60f505f0",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1086": {
+      "version": 1,
+      "source_hash": "4ba76860cb42ef22912e4cad6386249e2059cdb4f864cb370730f02751611af7",
+      "knowledge_hash": "9e4d083a6489ce5a593c59a1b03ba31914dcc9be40a45b1718fb33881e5b99d8",
+      "tags_hash": "73b4ae9fe9160bc43688c1999f95c37285f101574e9239d3e9c341f1c8d4dd4a",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1087": {
+      "version": 1,
+      "source_hash": "de064e550c4fef812467d629ef89a142637c49c13c8a949d0c55dd4677f5bf6b",
+      "knowledge_hash": "460ed69cd0b6a0007e61e97186f0fc9f89ba818119bacc41d75cfd92b7aa6500",
+      "tags_hash": "62b84030c21e84e2574bea03ba030196f1b8bb9cddb17c99e0a61fb264ded22b",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1088": {
+      "version": 1,
+      "source_hash": "a782e544e52b8f48515e69293f7f38dd418a41e82fb32e5a16e59584216c4b48",
+      "knowledge_hash": "e82a100941881c31b32ac4b7ae043e9a1a3bf72a9ac53dd1d4220882903a0adc",
+      "tags_hash": "aa7f5c0e7d3ba76d0667336f79b8729731ceaa3ffabfa7a31eaeeafd7a6526b2",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1089": {
+      "version": 1,
+      "source_hash": "10b893cde4dc4f7013d598dbf3314374f7b0805e90e4abf385b691b0ce997f99",
+      "knowledge_hash": "90be4222523ff1c3e67306f540ef4c88baceef5663634d0517f8b3fcbaf98c90",
+      "tags_hash": "4bc03053503b6148ee4601e1c1990e70f870c5099492bdebf4f879c29cda75ea",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1090": {
+      "version": 1,
+      "source_hash": "0e6d4b4c98d3cb90592812b74e02b511290d2dd0727a1434e5ae846b78754e04",
+      "knowledge_hash": "e8e81e1feb353f3578b87497bb1f465adbb8a9ab80faac5476718f82ead6a6c0",
+      "tags_hash": "7efa176733c4abdf2d76aad34433774c5a9710813b307605c2a67c64b8eeb509",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1091": {
+      "version": 1,
+      "source_hash": "09ceca1e07792a5d36f20d8dbcf8c1d2658bc151658a67e4643dbbf70f1a5cbf",
+      "knowledge_hash": "3b32f6898b93f3ec5ab5200822c267b4a1dffeec791d3f8afff7f5a7236c44e6",
+      "tags_hash": "bcdfaf8cb8d686ebc6d6a43ace8aaa622280edb42f4bd73c5d1ae0003e6c18c8",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1092": {
+      "version": 1,
+      "source_hash": "b4b8e8995a70e9b8b93a5d58d11b63167133c363cc60ed655b13f63361a41b7f",
+      "knowledge_hash": "6aa9d5587d00ea8195b2048819ee7d8298b3454f8abea80d04b6969dee1e2275",
+      "tags_hash": "fb5013fa1f693221d0445fd2b44563cdf0863d6dbcac6c7b336068b7f0ab5548",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1093": {
+      "version": 1,
+      "source_hash": "50340479b407bb9920584bb4f47bba54c1b91bcaba2c9d2bad31b38256755912",
+      "knowledge_hash": "56991bac1701fd5c9f3e874b6594b1769b5c7f6f28ed790e8eb11ca508095400",
+      "tags_hash": "7efa176733c4abdf2d76aad34433774c5a9710813b307605c2a67c64b8eeb509",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1094": {
+      "version": 1,
+      "source_hash": "806dcee614baed6dcf43d5d09cf48c71f231c042ae3b67db5d5874535fd8f1aa",
+      "knowledge_hash": "c61e802a6ad7ed694bf64fe11aeb2f9f5e26ca127dfced64c62177c8048f26a3",
+      "tags_hash": "2937b06245bc5126d2bafcf2ebc045d2e559423077d813a7dfe62b6d7a1fa9bf",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1095": {
+      "version": 1,
+      "source_hash": "d8cadb01a8cc496670c5c6827c413c9885e3b20fba90e22a53b36796ae9eb57d",
+      "knowledge_hash": "74d64bcfb73a00a618af32fadf7d72673ade2f8e431da7f9533010b489542ddd",
+      "tags_hash": "7efa176733c4abdf2d76aad34433774c5a9710813b307605c2a67c64b8eeb509",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1096": {
+      "version": 1,
+      "source_hash": "f2aa7e89c03fdfe291d97ab5ebd2d0f133d57b30fa0fed63a24505ed89083ff5",
+      "knowledge_hash": "ff06dd5f338adc8ab6bfa5a7a0673eaa13991f1047f30bc03d1ac0b56eccbfc9",
+      "tags_hash": "1f2e91bc7557b4051165dc4bc96c435dbff3ff01d456bce19afb389b65324e7c",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1097": {
+      "version": 1,
+      "source_hash": "68d4055cf050be470f7dd1b24f1ab851e2aa14c247bff96fb5653d7e1f541540",
+      "knowledge_hash": "2b2e136725aa55231d28c818bfc62588af49cc2a67988e209465d62333a67b63",
+      "tags_hash": "32ff788b113c54156eae9f978b0dba4d33c09bacf84433ddcf2d058559a9a616",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1098": {
+      "version": 1,
+      "source_hash": "7f1462c14c528bdbfb1d8e3808df1f7e4fd82b8a9e064181395dc60ee89047aa",
+      "knowledge_hash": "0a2f667bdbbca25fca744baf186935b5c8357e6cbaa12f09d019fb3842c39c46",
+      "tags_hash": "32ff788b113c54156eae9f978b0dba4d33c09bacf84433ddcf2d058559a9a616",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1099": {
+      "version": 1,
+      "source_hash": "1a0ca5f3d1eef8bd52c3af0211a12b28bec15deaa7472ffa5bd937ad3ce5b099",
+      "knowledge_hash": "c231d25057e11158b1cbd83799952bdf832d2ee7523c39e5beb46501bb31a516",
+      "tags_hash": "ddaa42805456c5ab5a311e32d8eb81803713e530d4976356b86bbceb865e24bd",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1100": {
+      "version": 1,
+      "source_hash": "26f6cfee5d377df47168f179be0164522911b29e5d80a5a656a86b5756568789",
+      "knowledge_hash": "c61aa5c3c3ce97dc44511e468d4cda10023853407044c09532ad3f583ec1aa18",
+      "tags_hash": "cea56b05b9c73cd623c0b45e1db230b799220826f5b2972f01fdacc9abfd924e",
+      "status": "verified",
+      "reviewer": "Codex editorial review, 2026-11-17",
+      "reviewed_at": "2026-11-17"
+    },
+    "1101": {
+      "version": 1,
+      "source_hash": "a14763711493064e3be512615c26294b2a9426798463ad6b7bb427858685d4c8",
+      "knowledge_hash": "6087891f2dedf3840026cc93a9cdecae1aa631e0510f82886d3473ffec16b363",
+      "tags_hash": "0c25b8cbf47259c9033617e893ee0940e0a3af7793ffbe08f9d8c53117bd6b50",
       "status": "verified",
       "reviewer": "Codex editorial review, 2026-11-17",
       "reviewed_at": "2026-11-17"

@@ -1,0 +1,356 @@
+{
+  "snapshot": "1a4844bd30a7171db2722df072c5af25f7f6e99a8f5da87ecee03f7295a4965a",
+  "catalog_reviewed": "1a4844bd30a7171db2722df072c5af25f7f6e99a8f5da87ecee03f7295a4965a",
+  "drafts_hash": "e6b2da1f3f355c7655cfa5c74719922062dddb64efb0dd2493b627f70c45cb0a",
+  "decisions": [
+    {
+      "id": "1072",
+      "verdict": "accept",
+      "compared_ids": [
+        "1056",
+        "1023",
+        "1022"
+      ],
+      "reason": "Indikátor pH pouze ukazuje; pufr změnu chemicky tlumí. Pufrační kapacita je schopnost chemicky tlumit přídavek kyseliny či zásady, ne kapacita adsorbentu ani srážení mýdla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1073",
+      "verdict": "accept",
+      "compared_ids": [
+        "1006"
+      ],
+      "reason": "Rozdílná migrace mezi dvěma fázemi, nikoli selekce velikostí póru zeolitu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1074",
+      "verdict": "accept",
+      "compared_ids": [
+        "913",
+        "1002",
+        "912"
+      ],
+      "reason": "Rovnost složení dvou fází omezuje destilaci; nejde o extrakci superkritickým rozpouštědlem. Mez separace dvousložkové směsi je odlišná od latentního tepla varu čisté látky i trojného bodu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1075",
+      "verdict": "accept",
+      "compared_ids": [
+        "1005",
+        "322",
+        "396"
+      ],
+      "reason": "Různá síť vazeb v alotropech, nikoli zrcadlové uspořádání téže molekuly. Propojení uhlíku ve vrstvách a prostorové síti, nikoli ukládání sodných iontů či mýtus o stékání amorfního skla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1076",
+      "verdict": "accept",
+      "compared_ids": [
+        "824"
+      ],
+      "reason": "Síťování existujících polymerů, nikoli tepelný rozklad materiálu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1077",
+      "verdict": "accept",
+      "compared_ids": [
+        "825"
+      ],
+      "reason": "Vznik kovalentního polymeru na rozhraní, nikoli uspořádání molekul mýdla kolem tuku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1078",
+      "verdict": "accept",
+      "compared_ids": [
+        "1004",
+        "1057"
+      ],
+      "reason": "Podmínky a postup oxidace železa, oproti ochranné pasivaci či obětované anodě. Srovnán celý text pasivace i obětované anody; nový článek učí nutnou účast vody a kyslíku při rezivění železa.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1079",
+      "verdict": "accept",
+      "compared_ids": [
+        "715"
+      ],
+      "reason": "Obecné odlišení kinetiky od rovnovážného složení, nikoli průmyslové vázání dusíku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1080",
+      "verdict": "accept",
+      "compared_ids": [
+        "395"
+      ],
+      "reason": "Pohlcení tepla při rozpouštění soli, nikoli podchlazení vody před krystalizací.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1081",
+      "verdict": "accept",
+      "compared_ids": [
+        "912",
+        "913"
+      ],
+      "reason": "Rozpuštěný plyn a jeho parciální tlak, nikoli koexistence tří fází čisté vody. Rozpustnost CO2 v nápoji podle parciálního tlaku není extrakční schopnost superkritického CO2.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1082",
+      "verdict": "accept",
+      "compared_ids": [
+        "1022"
+      ],
+      "reason": "Rozpustný koordinační komplex místo srážení iontů tvrdé vody mýdlem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1083",
+      "verdict": "accept",
+      "compared_ids": [
+        "837"
+      ],
+      "reason": "Pozemská kvalitativní analýza solí a omezení směsí, nikoli objev helia ve slunečním spektru.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1084",
+      "verdict": "accept",
+      "compared_ids": [
+        "1004"
+      ],
+      "reason": "Redukce rudy v tavenině, nikoli pasivace již vyrobeného kovu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1085",
+      "verdict": "accept",
+      "compared_ids": [
+        "389"
+      ],
+      "reason": "Chemická hydratace a krystalizace pojiva, nikoli náhrada voskového modelu roztaveným kovem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1086",
+      "verdict": "accept",
+      "compared_ids": [
+        "990",
+        "977"
+      ],
+      "reason": "Omezení konkrétního způsobu vracení míče, nikoli ofsajd či časový limit zakončení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1087",
+      "verdict": "accept",
+      "compared_ids": [
+        "978",
+        "412"
+      ],
+      "reason": "Kdo může získat bod za výměnu, nikoli role libera ani rozhodovací tenisový tie-break.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1088",
+      "verdict": "accept",
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "Geometrická rovnost vzdálenosti obou závodníků, nikoli mechanismus klapací brusle.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1089",
+      "verdict": "accept",
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "Odlišné následky střelecké chyby podle formátu, nikoli nepředvídatelnost smíšené volby při penaltě.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1090",
+      "verdict": "accept",
+      "compared_ids": [
+        "1040"
+      ],
+      "reason": "Úprava třecího povrchu před pohybujícím se kamenem, nikoli snížení odporu vzduchu za cyklistou.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1091",
+      "verdict": "accept",
+      "compared_ids": [
+        "1070"
+      ],
+      "reason": "Převod nesouměřitelných měření na součet bodů, nikoli prostorová odměna za vzdálenou střelu. Převod absolutních výkonů různých jednotek na nelineární body, nikoli vzdálenostní hranice hodnoty střely.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1092",
+      "verdict": "accept",
+      "compared_ids": [
+        "1039"
+      ],
+      "reason": "Zakódování výsledku první části do startovního času druhé, nikoli měření cílového času kamerou. Záměrné vložení skokanského výsledku do startovních časů místo optického měření dojezdu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1093",
+      "verdict": "accept",
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "Uložení a návrat pružné energie náčiním, nikoli technika přechodu výškařské laťky zády.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1094",
+      "verdict": "accept",
+      "compared_ids": [
+        "412"
+      ],
+      "reason": "Podmíněné doplnění pavouku náhradníkem, nikoli rozhodování vyrovnaného setu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1095",
+      "verdict": "accept",
+      "compared_ids": [
+        "982",
+        "1071",
+        "411"
+      ],
+      "reason": "Šikmý odraz přes hranu, přenos hmotnosti a absence stoupacího vosku jsou mechanicky odlišné od návratu paží nad vodou u motýlku, aerodynamiky V-stylu i kloubu klapací brusle. Námět byl zúžen z institucionálního dělení technik, aby neopakoval pointu 982.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1096",
+      "verdict": "accept",
+      "compared_ids": [
+        "896"
+      ],
+      "reason": "Odhad zbývajícího bodovacího potenciálu při přerušení, nikoli algoritmus párování dárců.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1097",
+      "verdict": "accept",
+      "compared_ids": [
+        "404",
+        "1065"
+      ],
+      "reason": "Sladění dvou původních záznamů, nikoli nové nahrání dialogu v postsynchronu. Jednorázový společný impuls pro zarovnání nezávislých záznamů, nikoli jejich umělecké rozdělení nebo nové nahrání hlasu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1098",
+      "verdict": "accept",
+      "compared_ids": [
+        "149",
+        "460"
+      ],
+      "reason": "Fyzické kódování a snímání stopy na filmu, nikoli nástup mluveného filmu či potlačení šumu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1099",
+      "verdict": "accept",
+      "compared_ids": [
+        "731",
+        "1032",
+        "256"
+      ],
+      "reason": "Iluze velikosti prostorovým umístěním před kamerou, nikoli změna ohniska při jízdě či namalovaná část scény. Vzdálenost a měřítko předmětů před kamerou vytváří iluzi velikosti; nejde o současnou ostrost různých plánů ani připojení malby.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1100",
+      "verdict": "accept",
+      "compared_ids": [
+        "456"
+      ],
+      "reason": "Fyzické oddělení barevných výtažků a přenos barviv, nikoli vypravěčská funkce přechodu ze sépie do barev v Čaroději ze země Oz.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1101",
+      "verdict": "accept",
+      "compared_ids": [
+        "782",
+        "1065",
+        "892"
+      ],
+      "reason": "Záměrně viditelná časová elipsa v podobném obrazu, nikoli maskování střihu či přesah zvuku. Časová elipsa s viditelným poskokem při podobném rámování, nikoli prostorová orientace po stranách dialogové osy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ],
+  "reviewer": "Codex editorial review, 2026-11-17"
+}

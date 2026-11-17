@@ -1,0 +1,702 @@
+{
+  "base": "http://127.0.0.1:5185/faakt.io/",
+  "rows": [
+    {
+      "id": "1072",
+      "title": "Roztok, který se brání změně pH",
+      "src": "/faakt.io/illustrations-ai/1072.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 193.390625,
+          "bottom": 372.828125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 350,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-atoms-first-2e/pages/14-6-buffers",
+        "https://www.purdue.edu/science/K12/LabPages/bufferspart3.html"
+      ]
+    },
+    {
+      "id": "1073",
+      "title": "Černý inkoust se může rozběhnout do barev",
+      "src": "/faakt.io/illustrations-ai/1073.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 162.46875,
+          "bottom": 341.875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984635416666663,
+        "alphaBottom": 237,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/resources/chromatography/11333.article",
+        "https://edu.rsc.org/cpd/how-to-teach-chromatography-at-post-16/4019097.article"
+      ]
+    },
+    {
+      "id": "1074",
+      "title": "Proč opakovaná destilace nedá čistý líh",
+      "src": "/faakt.io/illustrations-ai/1074.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 209.31167602539062,
+          "bottom": 388.7179260253906
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99821980794269,
+        "alphaBottom": 330,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.chemguide.co.uk/physical/phaseeqia/nonideal.html",
+        "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/05%3A_Distillation/5.02%3A_Simple_Distillation/5.2B%3A_Separation_Theory"
+      ]
+    },
+    {
+      "id": "1075",
+      "title": "Diamant a tuha: stejné atomy, jiné vazby",
+      "src": "/faakt.io/illustrations-ai/1075.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 195.8515625,
+          "bottom": 375.2734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.996006944444446,
+        "alphaBottom": 304,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.open.edu/openlearn/mod/oucontent/view.php?id=9265&section=1.4.3",
+        "https://openstax.org/books/chemistry-atoms-first-2e/pages/10-5-the-solid-state-of-matter"
+      ]
+    },
+    {
+      "id": "1076",
+      "title": "Síra proměnila kaučuk v odolnější pryž",
+      "src": "/faakt.io/illustrations-ai/1076.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 23.96875,
+        "alphaBottom": 340,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.chempap.org/?id=7&paper=8743",
+        "https://books.rsc.org/books/monograph/662/chapter/356886/Polymer-Chemistry"
+      ]
+    },
+    {
+      "id": "1077",
+      "title": "Nylonové vlákno roste na hranici dvou kapalin",
+      "src": "/faakt.io/illustrations-ai/1077.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.975000000000023,
+        "alphaBottom": 344,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/download?ac=522709",
+        "https://zeus.plmsc.psu.edu/~manias/MatSE259/lecture3.pdf"
+      ]
+    },
+    {
+      "id": "1078",
+      "title": "Rez potřebuje víc než samotný vzduch",
+      "src": "/faakt.io/illustrations-ai/1078.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.30389404296875,
+          "bottom": 391.72576904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.985689290364576,
+        "alphaBottom": 336,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/experiments/what-causes-iron-to-rust/434.article",
+        "https://openstax.org/books/chemistry-atoms-first/pages/16-6-corrosion"
+      ]
+    },
+    {
+      "id": "1079",
+      "title": "Katalyzátor urychlí děj, ale nepřidá výtěžek rovnováhy",
+      "src": "/faakt.io/illustrations-ai/1079.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.8046875,
+          "bottom": 389.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994097222222194,
+        "alphaBottom": 332,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/experiments/hydrogen-peroxide-decomposition-using-different-catalysts/831.article",
+        "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis"
+      ]
+    },
+    {
+      "id": "1080",
+      "title": "Chladivý sáček nepotřebuje led",
+      "src": "/faakt.io/illustrations-ai/1080.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 181.9296875,
+          "bottom": 361.3515625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986067708333337,
+        "alphaBottom": 327,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://demolab.chem.wisc.edu/thermochemistry-chemical-cold-pack/",
+        "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson9.html"
+      ]
+    },
+    {
+      "id": "1081",
+      "title": "Otevřením lahve změníš podmínky pro bubliny",
+      "src": "/faakt.io/illustrations-ai/1081.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 20.978124999999977,
+        "alphaBottom": 346,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson8.html",
+        "https://openstax.org/books/chemistry-2e/pages/11-3-solubility"
+      ]
+    },
+    {
+      "id": "1082",
+      "title": "Molekula, která uchopí kov na několika místech",
+      "src": "/faakt.io/illustrations-ai/1082.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 23.96875,
+        "alphaBottom": 340,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.chem.purdue.edu/gchelp/cchem/polys.html",
+        "https://openstax.org/books/chemistry-2e/pages/19-2-coordination-chemistry-of-transition-metals"
+      ]
+    },
+    {
+      "id": "1083",
+      "title": "Sodík se v plameni prozradí žlutě",
+      "src": "/faakt.io/illustrations-ai/1083.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 193.390625,
+          "bottom": 372.828125
+        },
+        "frameGap": 14,
+        "visibleGap": 20.978124999999977,
+        "alphaBottom": 346,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/resources/flame-colours-a-demonstration/760.article",
+        "https://edu.rsc.org/infographics/how-to-carry-out-flame-tests/4024075.article"
+      ]
+    },
+    {
+      "id": "1084",
+      "title": "Elektrický proud pomohl získat hliník z rudy",
+      "src": "/faakt.io/illustrations-ai/1084.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 205.3203125,
+          "bottom": 384.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995269097222263,
+        "alphaBottom": 323,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.acs.org/education/whatischemistry/landmarks/aluminumprocess.html",
+        "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis"
+      ]
+    },
+    {
+      "id": "1085",
+      "title": "Sádra tvrdne tím, že si vezme vodu",
+      "src": "/faakt.io/illustrations-ai/1085.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 208.8125,
+          "bottom": 388.25
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 330,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-plaster-paris.html",
+        "https://onlinelibrary.wiley.com/doi/full/10.1107/S1600577519001929"
+      ]
+    },
+    {
+      "id": "1086",
+      "title": "Malá změna pravidla rozehrála brankáře",
+      "src": "/faakt.io/illustrations-ai/1086.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 20.978124999999977,
+        "alphaBottom": 346,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.theifab.com/laws/latest/fouls-and-misconduct/",
+        "https://www.royalgazette.com/other/sport/article/20110208/fifa-refs-instructor-to-explain-back-pass-rule/"
+      ]
+    },
+    {
+      "id": "1087",
+      "title": "Ve volejbalu se kdysi hrálo i bez bodu",
+      "src": "/faakt.io/illustrations-ai/1087.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 211.8046875,
+          "bottom": 391.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984895833333326,
+        "alphaBottom": 336,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.fivb.com/volleyball/the-game/",
+        "https://www.fivb.com/volleyball/the-game/basic-rules/"
+      ]
+    },
+    {
+      "id": "1088",
+      "title": "Proč si rychlobruslaři vyměňují dráhy",
+      "src": "/faakt.io/illustrations-ai/1088.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 205.3203125,
+          "bottom": 384.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995269097222263,
+        "alphaBottom": 323,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.isu-skating.com/en/speed-skating/news/explained-why-speed-skaters-switch-lanes/",
+        "https://isu-d8g8b4b7ece7aphs.a03.azurefd.net/isudamcontainer/CMS/Corporate-Site/Governance/Isu-Regulations/2026-Speed-Skating-Sports-Rules-20260514-FINAL-as-of-12-June-2026--1--1780932044-4787.pdf"
+      ]
+    },
+    {
+      "id": "1089",
+      "title": "Biatlonová chyba nemusí mít stejnou cenu",
+      "src": "/faakt.io/illustrations-ai/1089.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 193.3671875,
+          "bottom": 372.7890625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98797743055559,
+        "alphaBottom": 299,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.biathlonworld.com/discover-biathlon/how-it-works/competition-formats",
+        "https://www.biathlonworld.com/fr/discover-biathlon/how-it-works/rules-overview"
+      ]
+    },
+    {
+      "id": "1090",
+      "title": "Koště v curlingu ovlivní i kámen, kterého se nedotkne",
+      "src": "/faakt.io/illustrations-ai/1090.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 202.3359375,
+          "bottom": 381.7578125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.985633680555566,
+        "alphaBottom": 317,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://worldcurling.org/about/curling/",
+        "https://www.usacurling.org/intro-to-curling"
+      ]
+    },
+    {
+      "id": "1091",
+      "title": "Desetiboj není součtem deseti pořadí",
+      "src": "/faakt.io/illustrations-ai/1091.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://worldathletics.org/disciplines/combinedevents/decathlon",
+        "https://0092469e90.clvaw-cdnwnd.com/ca11286dfd7cc4a4d81cd9baa1a60473/200000700-722d4722d7/tabela_pontos_combinadas_iaaf.pdf"
+      ]
+    },
+    {
+      "id": "1092",
+      "title": "Náskok ze skoku se promění v čekání na startu",
+      "src": "/faakt.io/illustrations-ai/1092.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 20.47968750000001,
+        "alphaBottom": 347,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.fis-ski.com/nordic-combined/news/2025-26/nordic-combined-101-individual-competition-formats",
+        "https://medias3.fis-ski.com/pdf/2015/NK/4171/2015NK4171RL.pdf"
+      ]
+    },
+    {
+      "id": "1093",
+      "title": "Tyč není jen dlouhý žebřík",
+      "src": "/faakt.io/illustrations-ai/1093.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 182.9296875,
+          "bottom": 362.3515625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.989279513888903,
+        "alphaBottom": 329,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://worldathletics.org/disciplines/field-events/pole-vault",
+        "https://www.mdpi.com/2673-7078/6/1/28"
+      ]
+    },
+    {
+      "id": "1094",
+      "title": "Prohra v kvalifikaci nemusí ukončit turnaj",
+      "src": "/faakt.io/illustrations-ai/1094.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 202.8359375,
+          "bottom": 382.2578125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98723958333335,
+        "alphaBottom": 318,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://prod.lta.org.uk/fan-zone/how-do-tennis-players-get-into-grand-slam-tournaments/",
+        "https://www.wimbledon.com/pdf/Grand_Slam_Rulebook_2025.pdf"
+      ]
+    },
+    {
+      "id": "1095",
+      "title": "Běžkař se může odrážet i bez stoupacího vosku",
+      "src": "/faakt.io/illustrations-ai/1095.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.4765625,
+        "alphaBottom": 345,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://nordicskimuseum.sixmilesourdough.com/evolution/hidden-parent/race-technique-evolution/the-history-of-the-skate-technique/",
+        "https://jyx.jyu.fi/bitstream/handle/123456789/64605/1/978-951-39-7797-9_vaitos29062019.pdf"
+      ]
+    },
+    {
+      "id": "1096",
+      "title": "Déšť v kriketu mění víc než počet míčů",
+      "src": "/faakt.io/illustrations-ai/1096.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 20.47968750000001,
+        "alphaBottom": 347,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.icc-cricket.com/news/icc-media-information-duckworthlewis-calculations-explained",
+        "https://resources.ecb.co.uk/ecb/document/2025/03/03/b086cf26-f1d4-4ab1-aa68-a7bcfbef32a2/Duckworth-Lewis-Stern-Methodology.pdf"
+      ]
+    },
+    {
+      "id": "1097",
+      "title": "Proč musí filmová klapka opravdu klapnout",
+      "src": "/faakt.io/illustrations-ai/1097.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 208.8125,
+          "bottom": 388.25
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 330,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://elokuvantaju.uiah.fi/english/study_material/production/klaffi.jsp",
+        "https://www.nfi.edu/clapperboard/2/"
+      ]
+    },
+    {
+      "id": "1098",
+      "title": "Zvuk se ve filmu dá přečíst světlem",
+      "src": "/faakt.io/illustrations-ai/1098.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 194.359375,
+          "bottom": 373.765625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.996440972222217,
+        "alphaBottom": 301,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.ucl.ac.uk/mathematical-physical-sciences/image-sound-alchemy-issue-3",
+        "https://scienceandfilm.org/articles/sound-in-silent-cinema/"
+      ]
+    },
+    {
+      "id": "1099",
+      "title": "Hobita může zmenšit vzdálenost od kamery",
+      "src": "/faakt.io/illustrations-ai/1099.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.3046875,
+          "bottom": 388.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99249131944441,
+        "alphaBottom": 331,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://theasc.com/article/lord-of-the-rings-fellowship-of-the-rings-vfx/",
+        "https://theasc.com/article/peter-jackson-lord-of-the-rings-interview/"
+      ]
+    },
+    {
+      "id": "1100",
+      "title": "Tři černobílé pásy dokázaly zachytit barvy",
+      "src": "/faakt.io/illustrations-ai/1100.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 201.328125,
+          "bottom": 380.765625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 315,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.eastman.org/technicolor/technology/three-strip-camera",
+        "https://www.eastman.org/technicolor/technology/dye-transfer-printing"
+      ]
+    },
+    {
+      "id": "1101",
+      "title": "Střih, při kterém je časový skok vidět",
+      "src": "/faakt.io/illustrations-ai/1101.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 196.34375,
+          "bottom": 375.78125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 305,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.adobe.com/uk/creativecloud/video/discover/jump-cut.html",
+        "https://www.adobe.com/creativecloud/video/post-production/cuts-in-film"
+      ]
+    }
+  ],
+  "low": {
+    "textBottom": 399.953125,
+    "mainBottom": 400,
+    "buttonTop": 408,
+    "scrollTop": 89
+  },
+  "errors": []
+}
