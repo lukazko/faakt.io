@@ -250,7 +250,7 @@
 		const scrollTop = el.scrollTop;
 		const idx = Math.round(scrollTop / step);
 		const loadedCount = Math.min(visibleCount, totalPosts);
-		const lastIndex = visibleCount < totalPosts || activeCategory ? loadedCount : loadedCount - 1;
+		const lastIndex = loadedCount;
 		if (idx !== currentIndex && idx >= 0 && idx <= lastIndex) {
 			currentIndex = idx;
 			// Nabídka patří k příspěvku, na kterém uživatel stál — po posunu zavřít.
@@ -447,21 +447,23 @@
 						<span class="load-more-text">Nee, dej mi víc!</span>
 					</button>
 				</div>
-			{:else if totalPosts === 0}
+			{:else if totalPosts === 0 && activeCategory}
 				<div class="end-card">
-					<p class="end-card-text">
-						V této kategorii zatím žádné příspěvky nejsou.
-					</p>
-					<button class="load-more-btn" onclick={() => applyCategory(null)}>
-						Zpět na všechny kategorie
+					<p class="end-card-text">V této kategorii zatím žádné příspěvky nejsou.</p>
+					<button class="load-more-btn load-more-btn-outline" onclick={() => applyCategory(null)}>
+						<span class="load-more-text">Zpět na všechny kategorie</span>
 					</button>
 				</div>
 			{:else if activeCategory}
 				<div class="end-card">
 					<p class="end-card-text">To je vše z této kategorie.</p>
-					<button class="load-more-btn" onclick={() => applyCategory(null)}>
-						Zpět na všechny kategorie
+					<button class="load-more-btn load-more-btn-outline" onclick={() => applyCategory(null)}>
+						<span class="load-more-text">Zpět na všechny kategorie</span>
 					</button>
+				</div>
+			{:else}
+				<div class="end-card">
+					<p class="end-card-text">Teď už víš úplně všechno.</p>
 				</div>
 			{/if}
 		</div>

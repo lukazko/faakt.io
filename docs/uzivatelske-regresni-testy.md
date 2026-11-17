@@ -31,6 +31,7 @@ Checklist proveď po každé nové verzi na skutečně nasazeném webu. Odkazy n
 | [ ] | R12 | Na obou stranách otevři „Další možnosti“ a klepni na „Nahlásit problém“ a „Podpořit“. | Každý odkaz reaguje na první klepnutí. Hlášení otevře GitHub s odpovídajícím ID, titulkem, kategorií a odkazem; podpora otevře Revolut. Stačí ověřit cíle, hlášení neodesílej a platbu neprováděj. |
 | [ ] | R13 | Otevři nabídku, zavři ji klepnutím mimo ni, znovu ji otevři a posuň feed. | Klepnutí mimo nabídku ji pouze zavře, neotočí kartu. Po posunu nezůstane nabídka nad jiným příspěvkem; ovládání nepohlcuje neviditelný překryv. |
 | [ ] | R14 | Dojeď za prvních 20 karet a stiskni „Nee, dej mi víc!“. | Přibude další dávka, zobrazí se první nová karta a načítací překryv zmizí. Původní karty nezmizí a nové se neopakují kvůli načtení dávky. |
+| [ ] | R19 | Ve smíšeném feedu postupně načti všechny dávky a posuň se za poslední příspěvek. Vrať se o kartu zpět. Totéž zopakuj ve filtru kategorie a použij koncové návratové tlačítko. | Smíšený feed končí prázdnou plochou pouze s textem „Teď už víš úplně všechno.“, bez tlačítka. Kategorie zachovává „To je vše z této kategorie.“ a „Zpět na všechny kategorie“; prázdná kategorie zachovává původní hlášku o chybějících příspěvcích. Text má stejné formátování jako výzva k načtení další dávky a návratové tlačítko stejný obrys a gradient textu jako „Nee, dej mi víc!“. Návrat otevře smíšený feed. Po dočtení neprázdného feedu je postup 100 % a zpětný posun vrátí poslední kartu. |
 | [ ] | R15 | Otoč telefon, skryj a vysuň lištu prohlížeče; na počítači změň velikost okna a zvětši stránku na 200 %. | Text i ovládání zůstanou dostupné, nic podstatného nekryje výřez telefonu či spodní lišta. Líc i rub lze používat bez nechtěného vodorovného rolování. |
 | [ ] | R16 | Klávesou Tab dojdi na otočení, aktivuj Enterem, čti rub a použij Escape. S otevřenou nabídkou stiskni Escape dvakrát. | Zaměření je viditelné a nevstupuje do skryté strany karty. Otočení přesune fokus na rub, návrat na tlačítko líce. První Escape zavře nabídku, další vrátí rub na líc. |
 
@@ -56,7 +57,7 @@ Datum:
 URL:
 Verze / build:
 Zařízení / OS / prohlížeč (fyzické nebo emulace):
-Výsledky R01–R17:
+Výsledky R01–R19 (včetně R07-S):
 Výsledky relevantních X01–X06:
 Neprovedeno / netýká se a důvod:
 Chyby (ID testu, URL postu, kroky, očekávání, skutečnost, příloha):
