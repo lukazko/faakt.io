@@ -1,0 +1,348 @@
+{
+  "snapshot": "8e72084ac17f8286343a2bc5617b19889513e2ce714d2e74221f41ac77d0cbc7",
+  "catalog_reviewed": "8e72084ac17f8286343a2bc5617b19889513e2ce714d2e74221f41ac77d0cbc7",
+  "drafts_hash": "719e49d6e4f0d499352637261378b76c147a8bace62f59c8b85f485c0d140d0d",
+  "decisions": [
+    {
+      "id": "1102",
+      "verdict": "accept",
+      "compared_ids": [
+        "1006"
+      ],
+      "reason": "Zeolit vybírá molekuly vstupující do krystalu; nový text vysvětluje obrácení osmotického toku tlakem přes membránu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1103",
+      "verdict": "accept",
+      "compared_ids": [
+        "1085"
+      ],
+      "reason": "Sádra hydratuje za vzniku dihydrátu; vzdušné vápno vytváří uhličitan reakcí se vzdušným CO2.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1104",
+      "verdict": "accept",
+      "compared_ids": [
+        "1056",
+        "1083"
+      ],
+      "reason": "Zelný indikátor reaguje na pH; jódová zkouška rozpoznává škrob tvorbou jiného komplexu. Plamenová emise identifikuje některé kovy; nový článek využívá komplex amylózy s jódem k průkazu škrobu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1105",
+      "verdict": "accept",
+      "compared_ids": [
+        "1100"
+      ],
+      "reason": "Technicolor skládá barviva ze tří výtažků; nový text řeší chemické zesílení latentního černobílého obrazu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1106",
+      "verdict": "accept",
+      "compared_ids": [
+        "1076"
+      ],
+      "reason": "Vulkanizace mění pružnost vazbami mezi řetězci; nový poznatek je osmotické bobtnání iontové sítě a vliv soli.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1107",
+      "verdict": "accept",
+      "compared_ids": [
+        "1084"
+      ],
+      "reason": "Výroba hliníku vyžaduje taveninu; zde jde o povrchové nanášení mědi z vodného elektrolytu na katodu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1108",
+      "verdict": "accept",
+      "compared_ids": [
+        "1022",
+        "1023"
+      ],
+      "reason": "Starší článek vysvětluje srážení mýdla v tvrdé vodě; nový mechanismus je vratná výměna iontů na pryskyřici. Adsorpce na uhlí není stechiometrická výměna kationtů s regenerací solankou.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1109",
+      "verdict": "accept",
+      "compared_ids": [
+        "1085",
+        "395"
+      ],
+      "reason": "Sádra vytváří nový hydrát a podchlazená voda zamrzá; zde se odděluje rozpuštěná sacharóza podle rozpustnosti roztoku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1110",
+      "verdict": "accept",
+      "compared_ids": [
+        "1079"
+      ],
+      "reason": "Katalyzátor nemění rovnováhu; zde je konkrétním poznatkem tvorba esterové vazby a vratnost esterifikace.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1111",
+      "verdict": "accept",
+      "compared_ids": [
+        "825",
+        "1022"
+      ],
+      "reason": "825 vysvětluje mytí amfifilními molekulami a výrobu pouze zmiňuje; nový text vysvětluje štěpení triglyceridu a vznik produktů. Srážení vápenatého mýdla nastává až s hotovou solí mastné kyseliny; zmýdelnění ji teprve vyrábí štěpením esterových vazeb.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1112",
+      "verdict": "accept",
+      "compared_ids": [
+        "912"
+      ],
+      "reason": "Trojný bod popisuje koexistenci fází; nový text rozlišuje přímý přechod pevná látka–plyn od mylného tvrzení, že jód nemůže tát.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1113",
+      "verdict": "accept",
+      "compared_ids": [
+        "395",
+        "1080"
+      ],
+      "reason": "Podchlazení je metastabilita čisté vody a sáček využívá entalpii rozpouštění; zde se mění rovnovážný bod tuhnutí roztoku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1114",
+      "verdict": "accept",
+      "compared_ids": [
+        "1079",
+        "1081"
+      ],
+      "reason": "Katalýza mění rychlost a láhev rozpustnost; zde objem posouvá chemickou rovnováhu mezi dvěma plynnými látkami.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1115",
+      "verdict": "accept",
+      "compared_ids": [
+        "1078"
+      ],
+      "reason": "Rez železa souvisí s kyslíkem a vodou; nový text určuje sulfidový povlak stříbra a materiálovou cenu jeho odstraňování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1116",
+      "verdict": "accept",
+      "compared_ids": [
+        "1056"
+      ],
+      "reason": "Indikátor zelí pouze odhaduje prostředí; titrace měří látkové množství pomocí objemu a reakčního poměru.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1117",
+      "verdict": "accept",
+      "compared_ids": [
+        "1081"
+      ],
+      "reason": "Otevřená láhev uvolňuje už rozpuštěný plyn; zde CO2 nově vzniká reakcí hydrogenuhličitanu s kyselinou.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1118",
+      "verdict": "accept",
+      "compared_ids": [
+        "380"
+      ],
+      "reason": "Vodiči pomáhají tempu jednotlivce; štafeta navíc vyžaduje předání společného předmětu v právně vymezeném prostoru.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1119",
+      "verdict": "accept",
+      "compared_ids": [
+        "884"
+      ],
+      "reason": "884 řeší zdravotní načasování chůze; nový článek pravidlové vymezení soutěžní lokomoce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1120",
+      "verdict": "accept",
+      "compared_ids": [
+        "980"
+      ],
+      "reason": "Karty sdělují trest; zde signalizace zásahu sama nestačí k přidělení bodu kvůli prioritě akcí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1121",
+      "verdict": "accept",
+      "compared_ids": [
+        "990"
+      ],
+      "reason": "Ofsajd omezuje postavení příjemce; zde je omezen samotný směr hodu rukama, nikoli počet obránců před hráčem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1122",
+      "verdict": "accept",
+      "compared_ids": [
+        "977"
+      ],
+      "reason": "Čas útoku nutí vystřelit; goaltending omezuje přípustný okamžik bloku střely.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1123",
+      "verdict": "accept",
+      "compared_ids": [
+        "1093"
+      ],
+      "reason": "Tyč ukládá a vrací energii ohybem; zde je novým mechanismem proměnný převod kladek a pokles přídržné síly.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1124",
+      "verdict": "accept",
+      "compared_ids": [
+        "981"
+      ],
+      "reason": "Velikost míčku je specifikace náčiní; nový text řeší kontrolovatelný sled činností při podání.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1125",
+      "verdict": "accept",
+      "compared_ids": [
+        "978",
+        "1087"
+      ],
+      "reason": "Libero je speciální výměna a rally bodování přiděluje body; rotace určuje pořadí běžné sestavy a střídání řad.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1126",
+      "verdict": "accept",
+      "compared_ids": [
+        "982"
+      ],
+      "reason": "Historie oddělení motýlku od prsou je jiný poznatek než současné rozdílné pořadí dvou polohových formátů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1127",
+      "verdict": "accept",
+      "compared_ids": [
+        "380"
+      ],
+      "reason": "Vodič sám běží a udává tempo; kormidelník přímo nevyvíjí záběry a přispívá řízením a koordinací z lodi.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1128",
+      "verdict": "accept",
+      "compared_ids": [
+        "461",
+        "1032"
+      ],
+      "reason": "Klíčování odstraňuje barvu a dokreslovačka používá malbu; zde jde o fyzicky promítané pohyblivé pozadí během snímání.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1129",
+      "verdict": "accept",
+      "compared_ids": [
+        "256"
+      ],
+      "reason": "Kane nabízí současnou ostrost více plánů; nový text přesouvá ostrost postupně z jednoho plánu do druhého.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1130",
+      "verdict": "accept",
+      "compared_ids": [
+        "282",
+        "1065"
+      ],
+      "reason": "Foley popisuje výrobu ruchu a J-cut časové spojení; diegeze vymezuje místo zdroje v příběhu nezávisle na výrobě či střihu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1131",
+      "verdict": "accept",
+      "compared_ids": [
+        "828",
+        "1101"
+      ],
+      "reason": "Kulešov mění interpretaci tváře kontextem a jump cut vynechává čas v podobném rámu; zde podobnost kompozic propojuje různé objekty a prostory.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ],
+  "reviewer": "Codex editorial review 2026-11-17"
+}

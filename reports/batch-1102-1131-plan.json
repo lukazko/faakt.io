@@ -1,0 +1,555 @@
+{
+  "snapshot": "8e72084ac17f8286343a2bc5617b19889513e2ce714d2e74221f41ac77d0cbc7",
+  "catalog_reviewed": "8e72084ac17f8286343a2bc5617b19889513e2ce714d2e74221f41ac77d0cbc7",
+  "proposals": [
+    {
+      "id": "1102",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1102",
+        "point": "Reverzní osmóza využívá tlak větší než osmotický k přenosu vody přes selektivní membránu z koncentrovanějšího roztoku.",
+        "tags": [
+          "chemistry",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1006"
+      ],
+      "reason": "Zeolit vybírá molekuly vstupující do krystalu; nový text vysvětluje obrácení osmotického toku tlakem přes membránu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1103",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1103",
+        "point": "Vzdušné vápno v maltě reaguje s oxidem uhličitým na uhličitan vápenatý; tvrdnutí proto není jen vysychání.",
+        "tags": [
+          "chemistry",
+          "materials",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1085"
+      ],
+      "reason": "Sádra hydratuje za vzniku dihydrátu; vzdušné vápno vytváří uhličitan reakcí se vzdušným CO2.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1104",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1104",
+        "point": "Modročerné zbarvení při jódové zkoušce vzniká komplexem jódových částic s helikální amylózou, nikoli pouhou přítomností libovolného cukru.",
+        "tags": [
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1056"
+      ],
+      "reason": "Zelný indikátor reaguje na pH; jódová zkouška rozpoznává škrob tvorbou jiného komplexu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1105",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1105",
+        "point": "Světlo vytváří v halogenidech stříbra zárodky latentního obrazu, které vývojka zesílí na kovové stříbro; ustalovač odstraní zbývající halogenidy.",
+        "tags": [
+          "chemistry",
+          "optics",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1100"
+      ],
+      "reason": "Technicolor skládá barviva ze tří výtažků; nový text řeší chemické zesílení latentního černobílého obrazu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1106",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1106",
+        "point": "Zesíťovaný polyakrylát sodný bobtná příjmem vody do polymerní sítě a jeho nasákavost klesá s rostoucí koncentrací rozpuštěných solí.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1076"
+      ],
+      "reason": "Vulkanizace mění pružnost vazbami mezi řetězci; nový poznatek je osmotické bobtnání iontové sítě a vliv soli.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1107",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1107",
+        "point": "Při galvanickém pokovování se na vodivém předmětu připojeném jako katoda redukují kovové ionty a vytvářejí povrchovou vrstvu.",
+        "tags": [
+          "chemistry",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1084"
+      ],
+      "reason": "Výroba hliníku vyžaduje taveninu; zde jde o povrchové nanášení mědi z vodného elektrolytu na katodu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1108",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1108",
+        "point": "Iontoměnič změkčuje vodu výměnou vápenatých a hořečnatých iontů za sodné či draselné a po vyčerpání potřebuje regeneraci solankou.",
+        "tags": [
+          "chemistry",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1022"
+      ],
+      "reason": "Starší článek vysvětluje srážení mýdla v tvrdé vodě; nový mechanismus je vratná výměna iontů na pryskyřici.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1109",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1109",
+        "point": "Ochladnutí nebo odpařování může cukerný roztok přesytit a umožnit růst krystalů na zárodku bez chemické přeměny cukru.",
+        "tags": [
+          "chemistry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1085",
+        "395"
+      ],
+      "reason": "Sádra vytváří nový hydrát a podchlazená voda zamrzá; zde se odděluje rozpuštěná sacharóza podle rozpustnosti roztoku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1110",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1110",
+        "point": "Při Fischerově esterifikaci vzniká z karboxylové kyseliny a alkoholu ester a voda, přičemž vratná reakce omezuje výtěžek.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1079"
+      ],
+      "reason": "Katalyzátor nemění rovnováhu; zde je konkrétním poznatkem tvorba esterové vazby a vratnost esterifikace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1111",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1111",
+        "point": "Zmýdelnění štěpí esterové vazby triglyceridů zásadou a vytváří glycerol a soli mastných kyselin, které tvoří mýdlo.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "825"
+      ],
+      "reason": "825 vysvětluje mytí amfifilními molekulami a výrobu pouze zmiňuje; nový text vysvětluje štěpení triglyceridu a vznik produktů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1112",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1112",
+        "point": "Pevný jód může sublimovat a jeho pára se na chladném povrchu ukládá jako krystaly, ale za vhodných podmínek jód také taje.",
+        "tags": [
+          "chemistry",
+          "thermodynamics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "912"
+      ],
+      "reason": "Trojný bod popisuje koexistenci fází; nový text rozlišuje přímý přechod pevná látka–plyn od mylného tvrzení, že jód nemůže tát.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1113",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1113",
+        "point": "Rozpuštěná sůl snižuje rovnovážný bod tuhnutí vody, takže tání ledu v solance může probíhat i pod nulou, v mezích závislých na složení.",
+        "tags": [
+          "chemistry",
+          "thermodynamics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "395",
+        "1080"
+      ],
+      "reason": "Podchlazení je metastabilita čisté vody a sáček využívá entalpii rozpouštění; zde se mění rovnovážný bod tuhnutí roztoku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1114",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1114",
+        "point": "Zmenšení objemu plynné rovnovážné směsi při stálé teplotě zvýhodní stranu s menším počtem plynných částic, pokud se jejich počty liší.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1079",
+        "1081"
+      ],
+      "reason": "Katalýza mění rychlost a láhev rozpustnost; zde objem posouvá chemickou rovnováhu mezi dvěma plynnými látkami.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1115",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1115",
+        "point": "Tmavý povlak stříbra tvoří hlavně sulfid stříbrný vznikající působením sloučenin síry a jeho opakované leštění odnáší i materiál povrchu.",
+        "tags": [
+          "chemistry",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1078"
+      ],
+      "reason": "Rez železa souvisí s kyslíkem a vodou; nový text určuje sulfidový povlak stříbra a materiálovou cenu jeho odstraňování.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1116",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1116",
+        "point": "Titrace určuje množství analytu ze známé koncentrace a spotřebovaného objemu činidla podle stechiometrie; barevný konec jen indikuje blízkost ekvivalence.",
+        "tags": [
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1056"
+      ],
+      "reason": "Indikátor zelí pouze odhaduje prostředí; titrace měří látkové množství pomocí objemu a reakčního poměru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1117",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1117",
+        "point": "Jedlá soda s kyselinou uvolňuje oxid uhličitý zachycovaný v těstě, zatímco kypřicí prášek obsahuje sodu i kyselou složku.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1081"
+      ],
+      "reason": "Otevřená láhev uvolňuje už rozpuštěný plyn; zde CO2 nově vzniká reakcí hydrogenuhličitanu s kyselinou.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1118",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1118",
+        "point": "Platnost štafetové předávky určuje poloha celého kolíku v předávacím území od prvního dotyku přebírajícího po úplné převzetí.",
+        "tags": [
+          "sport",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "380"
+      ],
+      "reason": "Vodiči pomáhají tempu jednotlivce; štafeta navíc vyžaduje předání společného předmětu v právně vymezeném prostoru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1119",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1119",
+        "point": "Závodní chůze vyžaduje lidským okem viditelný nepřerušený kontakt se zemí a napnutou postupující nohu od došlapu do svislé polohy.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "884"
+      ],
+      "reason": "884 řeší zdravotní načasování chůze; nový článek pravidlové vymezení soutěžní lokomoce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1120",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1120",
+        "point": "Ve fleretu a šavli rozhoduje při vzájemných zásazích také priorita šermířských akcí, zatímco kord pravidlo priority nepoužívá.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "980"
+      ],
+      "reason": "Karty sdělují trest; zde signalizace zásahu sama nestačí k přidělení bodu kvůli prioritě akcí.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1121",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1121",
+        "point": "Ragby zakazuje přihrávku rukama vpřed a vymezuje ji dopředným pohybem paží přihrávajícího, takže útok kombinuje běh s příčnými či zpětnými přihrávkami.",
+        "tags": [
+          "sport",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "990"
+      ],
+      "reason": "Ofsajd omezuje postavení příjemce; zde je omezen samotný směr hodu rukama, nikoli počet obránců před hráčem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1122",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1122",
+        "point": "Pravidla NBA chrání sestupující střelu s možností skórovat před zásahem nad úrovní obroučky a při obranném porušení přiznávají body.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "977"
+      ],
+      "reason": "Čas útoku nutí vystřelit; goaltending omezuje přípustný okamžik bloku střely.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1123",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1123",
+        "point": "Excentrické kladky mění průběh nátahové síly luku tak, že po překonání maxima může při plném nátahu klesnout síla potřebná k držení tětivy.",
+        "tags": [
+          "sport",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1093"
+      ],
+      "reason": "Tyč ukládá a vrací energii ohybem; zde je novým mechanismem proměnný převod kladek a pokles přídržné síly.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1124",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1124",
+        "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "981"
+      ],
+      "reason": "Velikost míčku je specifikace náčiní; nový text řeší kontrolovatelný sled činností při podání.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1125",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1125",
+        "point": "Při získání podání od soupeře volejbalové družstvo rotuje o jednu pozici po směru hodinových ručiček a tím se mění i přední a zadní role hráčů.",
+        "tags": [
+          "sport",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "978",
+        "1087"
+      ],
+      "reason": "Libero je speciální výměna a rally bodování přiděluje body; rotace určuje pořadí běžné sestavy a střídání řad.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1126",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1126",
+        "point": "Individuální polohový závod řadí motýlek, znak, prsa a volný způsob, zatímco polohová štafeta začíná znakem kvůli jeho startu z vody.",
+        "tags": [
+          "sport",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "982"
+      ],
+      "reason": "Historie oddělení motýlku od prsou je jiný poznatek než současné rozdílné pořadí dvou polohových formátů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1127",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1127",
+        "point": "Kormidelník závodní veslařské posádky nevesluje, ale řídí směr, vydává pokyny a koordinuje závodní strategii a výkon ostatních.",
+        "tags": [
+          "sport",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "380"
+      ],
+      "reason": "Vodič sám běží a udává tempo; kormidelník přímo nevyvíjí záběry a přispívá řízením a koordinací z lodi.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1128",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1128",
+        "point": "Zadní projekce promítá předem natočené pozadí zezadu na průsvitné plátno za herci a spojuje je s ním již při snímání kamerou.",
+        "tags": [
+          "film-technique",
+          "perceived-reality"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "461",
+        "1032"
+      ],
+      "reason": "Klíčování odstraňuje barvu a dokreslovačka používá malbu; zde jde o fyzicky promítané pohyblivé pozadí během snímání.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1129",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1129",
+        "point": "Přeostření během souvislého záběru přesune rovinu ostrého zobrazení mezi různě vzdálenými motivy a tím řídí divákovu pozornost bez střihu.",
+        "tags": [
+          "film-technique",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "256"
+      ],
+      "reason": "Kane nabízí současnou ostrost více plánů; nový text přesouvá ostrost postupně z jednoho plánu do druhého.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1130",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1130",
+        "point": "Diegetický zvuk je ve vyprávění připsán zdroji uvnitř světa příběhu, i když zdroj není v obraze a zvuk vznikl dodatečně.",
+        "tags": [
+          "sound",
+          "narratology"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "282",
+        "1065"
+      ],
+      "reason": "Foley popisuje výrobu ruchu a J-cut časové spojení; diegeze vymezuje místo zdroje v příběhu nezávisle na výrobě či střihu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1131",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1131",
+        "point": "Grafický střih spojuje po sobě jdoucí záběry výraznou podobností tvaru, barvy či kompozice, i když zobrazují různé časy a místa.",
+        "tags": [
+          "film-technique",
+          "narratology"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "828",
+        "1101"
+      ],
+      "reason": "Kulešov mění interpretaci tváře kontextem a jump cut vynechává čas v podobném rámu; zde podobnost kompozic propojuje různé objekty a prostory.",
+      "verdict": "accept"
+    }
+  ]
+}
