@@ -1,0 +1,5757 @@
+{
+  "errors": [],
+  "candidates": [
+    {
+      "id": "1132",
+      "candidates": [
+        {
+          "id": "881",
+          "idea": "idea-881",
+          "point": "Elektromagnetické těsné průlety olověných jader mohou odtržením tří protonů vytvářet jádra zlata bez průmyslově využitelné výroby kovu.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "change"
+          ],
+          "score": 23.429,
+          "same_idea": false,
+          "ids": [
+            "881"
+          ]
+        },
+        {
+          "id": "1056",
+          "idea": "idea-1056",
+          "point": "Antokyanová barviva červeného zelí mění při změně pH své chemické formy a tím i barvu, takže výluh funguje jako orientační indikátor.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "botany"
+          ],
+          "score": 20.859,
+          "same_idea": false,
+          "ids": [
+            "1056"
+          ]
+        },
+        {
+          "id": "1105",
+          "idea": "idea-1105",
+          "point": "Světlo vytváří v halogenidech stříbra zárodky latentního obrazu, které vývojka zesílí na kovové stříbro; ustalovač odstraní zbývající halogenidy.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "optics",
+            "preservation"
+          ],
+          "score": 20.792,
+          "same_idea": false,
+          "ids": [
+            "1105"
+          ]
+        },
+        {
+          "id": "1083",
+          "idea": "idea-1083",
+          "point": "Plamenová zkouška pomáhá rozpoznat některé kovy podle světla emitovaného excitovanými atomy, ale příměsi mohou výsledek překrýt.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 19.529,
+          "same_idea": false,
+          "ids": [
+            "1083"
+          ]
+        },
+        {
+          "id": "824",
+          "idea": "idea-824",
+          "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics",
+            "change"
+          ],
+          "score": 17.095,
+          "same_idea": false,
+          "ids": [
+            "824"
+          ]
+        },
+        {
+          "id": "633",
+          "idea": "idea-633",
+          "point": "Luciferázové reakce vytvářejí biologické světlo a lze je využít jako měřitelný signál v biologickém výzkumu.",
+          "type": "principle",
+          "tags": [
+            "biology",
+            "chemistry",
+            "innovation"
+          ],
+          "score": 16.524,
+          "same_idea": false,
+          "ids": [
+            "633"
+          ]
+        },
+        {
+          "id": "1078",
+          "idea": "idea-1078",
+          "point": "Běžné rezivění železa vyžaduje vodu i kyslík a jeho porézní produkty nechrání kov tak jako přilnavá pasivační vrstva.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "preservation"
+          ],
+          "score": 15.967,
+          "same_idea": false,
+          "ids": [
+            "1078"
+          ]
+        },
+        {
+          "id": "883",
+          "idea": "idea-883",
+          "point": "Prototyp hodin z roku 2026 využil zpětnou vazbu na přechod jádra thoria k autonomní stabilizaci laserové frekvence.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "optics",
+            "innovation"
+          ],
+          "score": 15.892,
+          "same_idea": false,
+          "ids": [
+            "883"
+          ]
+        },
+        {
+          "id": "1102",
+          "idea": "idea-1102",
+          "point": "Reverzní osmóza využívá tlak větší než osmotický k přenosu vody přes selektivní membránu z koncentrovanějšího roztoku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "resources"
+          ],
+          "score": 15.424,
+          "same_idea": false,
+          "ids": [
+            "1102"
+          ]
+        },
+        {
+          "id": "1081",
+          "idea": "idea-1081",
+          "point": "Pokles tlaku oxidu uhličitého nad nápojem po otevření lahve snižuje jeho rovnovážnou rozpustnost a podporuje unikání plynu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 15.366,
+          "same_idea": false,
+          "ids": [
+            "1081"
+          ]
+        },
+        {
+          "id": "1110",
+          "idea": "idea-1110",
+          "point": "Při Fischerově esterifikaci vzniká z karboxylové kyseliny a alkoholu ester a voda, přičemž vratná reakce omezuje výtěžek.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 15.366,
+          "same_idea": false,
+          "ids": [
+            "1110"
+          ]
+        },
+        {
+          "id": "1111",
+          "idea": "idea-1111",
+          "point": "Zmýdelnění štěpí esterové vazby triglyceridů zásadou a vytváří glycerol a soli mastných kyselin, které tvoří mýdlo.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 15.366,
+          "same_idea": false,
+          "ids": [
+            "1111"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1133",
+      "candidates": [
+        {
+          "id": "1080",
+          "idea": "idea-1080",
+          "point": "Rozpouštění dusičnanu amonného ve vodě může odebírat teplo okolí, což využívají některé jednorázové chladivé sáčky.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 37.376,
+          "same_idea": false,
+          "ids": [
+            "1080"
+          ]
+        },
+        {
+          "id": "824",
+          "idea": "idea-824",
+          "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics",
+            "change"
+          ],
+          "score": 23.881,
+          "same_idea": false,
+          "ids": [
+            "824"
+          ]
+        },
+        {
+          "id": "1112",
+          "idea": "idea-1112",
+          "point": "Pevný jód může sublimovat a jeho pára se na chladném povrchu ukládá jako krystaly, ale za vhodných podmínek jód také taje.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 22.918,
+          "same_idea": false,
+          "ids": [
+            "1112"
+          ]
+        },
+        {
+          "id": "1113",
+          "idea": "idea-1113",
+          "point": "Rozpuštěná sůl snižuje rovnovážný bod tuhnutí vody, takže tání ledu v solance může probíhat i pod nulou, v mezích závislých na složení.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 22.918,
+          "same_idea": false,
+          "ids": [
+            "1113"
+          ]
+        },
+        {
+          "id": "443",
+          "idea": "idea-443",
+          "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 21.922,
+          "same_idea": false,
+          "ids": [
+            "443"
+          ]
+        },
+        {
+          "id": "507",
+          "idea": "idea-507",
+          "point": "Meitnerová s Frischem vysvětlili nečekané produkty ostřelování uranu jako rozštěpení těžkého jádra a uvolnění energie.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 21.293,
+          "same_idea": false,
+          "ids": [
+            "507"
+          ]
+        },
+        {
+          "id": "633",
+          "idea": "idea-633",
+          "point": "Luciferázové reakce vytvářejí biologické světlo a lze je využít jako měřitelný signál v biologickém výzkumu.",
+          "type": "principle",
+          "tags": [
+            "biology",
+            "chemistry",
+            "innovation"
+          ],
+          "score": 20.252,
+          "same_idea": false,
+          "ids": [
+            "633"
+          ]
+        },
+        {
+          "id": "1116",
+          "idea": "idea-1116",
+          "point": "Titrace určuje množství analytu ze známé koncentrace a spotřebovaného objemu činidla podle stechiometrie; barevný konec jen indikuje blízkost ekvivalence.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 19.418,
+          "same_idea": false,
+          "ids": [
+            "1116"
+          ]
+        },
+        {
+          "id": "912",
+          "idea": "idea-912",
+          "point": "V trojném bodě mohou pevná, kapalná a plynná fáze čisté vody koexistovat v rovnováze při určité teplotě a tlaku.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry"
+          ],
+          "score": 19.325,
+          "same_idea": false,
+          "ids": [
+            "912"
+          ]
+        },
+        {
+          "id": "913",
+          "idea": "idea-913",
+          "point": "Nad kritickou teplotou a tlakem mizí rozhraní kapaliny a plynu a superkritický oxid uhličitý lze využít k extrakci kofeinu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 19.325,
+          "same_idea": false,
+          "ids": [
+            "913"
+          ]
+        },
+        {
+          "id": "1079",
+          "idea": "idea-1079",
+          "point": "Katalyzátor nabízí rychlejší reakční cestu a urychluje dosažení rovnováhy, aniž mění její polohu při stejné teplotě.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 19.291,
+          "same_idea": false,
+          "ids": [
+            "1079"
+          ]
+        },
+        {
+          "id": "1085",
+          "idea": "idea-1085",
+          "point": "Tuhnutí pálené sádry zahrnuje hydrataci hemihydrátu síranu vápenatého na dihydrát a růst propojených krystalů.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 18.881,
+          "same_idea": false,
+          "ids": [
+            "1085"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1134",
+      "candidates": [
+        {
+          "id": "631",
+          "idea": "idea-631",
+          "point": "Chargaffovy poměry bází DNA poskytly důležitou stopu pro vysvětlení jejich párování ve struktuře molekuly.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 18.361,
+          "same_idea": false,
+          "ids": [
+            "631"
+          ]
+        },
+        {
+          "id": "1066",
+          "idea": "idea-1066",
+          "point": "Pickova věta určuje obsah jednoduchého mřížového mnohoúhelníku jako počet vnitřních bodů plus polovinu hraničních bodů minus jedna.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "patterns"
+          ],
+          "score": 17.254,
+          "same_idea": false,
+          "ids": [
+            "1066"
+          ]
+        },
+        {
+          "id": "1067",
+          "idea": "idea-1067",
+          "point": "Maximum částí kruhu vytvořených n přímými řezy bez přesouvání dílů je 1+n(n+1)/2 při vhodně zvolených průsečících.",
+          "type": "principle",
+          "tags": [
+            "combinatorics",
+            "geometry",
+            "patterns"
+          ],
+          "score": 16.997,
+          "same_idea": false,
+          "ids": [
+            "1067"
+          ]
+        },
+        {
+          "id": "820",
+          "idea": "idea-820",
+          "point": "Průměrnou rychlost na stejně dlouhých úsecích určuje harmonický, nikoli prostý aritmetický průměr rychlostí.",
+          "type": "principle",
+          "tags": [
+            "statistics",
+            "mechanics",
+            "patterns"
+          ],
+          "score": 16.247,
+          "same_idea": false,
+          "ids": [
+            "820"
+          ]
+        },
+        {
+          "id": "52",
+          "idea": "idea-10",
+          "point": "Mendělejev uspořádal prvky podle opakujících se vlastností a předpověděl dosud neobjevené prvky.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "patterns",
+            "knowledge-evidence"
+          ],
+          "score": 14.876,
+          "same_idea": false,
+          "ids": [
+            "10",
+            "52"
+          ]
+        },
+        {
+          "id": "301",
+          "idea": "idea-301",
+          "point": "Rozmístění listů a semen může odpovídat zlatému úhlu a Fibonacciho vzorům s účinným zaplněním prostoru.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "geometry",
+            "patterns"
+          ],
+          "score": 14.282,
+          "same_idea": false,
+          "ids": [
+            "301"
+          ]
+        },
+        {
+          "id": "405",
+          "idea": "idea-405",
+          "point": "Buffonova jehla protíná rovnoběžné čáry s pravděpodobností 2l/(pí·d) pro l nejvýše d při rovnoměrné nezávislé poloze a orientaci, což umožňuje odhad pí.",
+          "type": "principle",
+          "tags": [
+            "probability",
+            "geometry",
+            "patterns"
+          ],
+          "score": 14.282,
+          "same_idea": false,
+          "ids": [
+            "405"
+          ]
+        },
+        {
+          "id": "497",
+          "idea": "idea-497",
+          "point": "Fraktály vykazují složitou strukturu napříč měřítky a mohou vyžadovat neceločíselný popis dimenze.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "patterns"
+          ],
+          "score": 14.282,
+          "same_idea": false,
+          "ids": [
+            "497"
+          ]
+        },
+        {
+          "id": "649",
+          "idea": "idea-649",
+          "point": "Na kulové ploše nelze vytvořit všude nenulové spojité tečné vektorové pole bez víru či nulového místa.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "limits",
+            "patterns"
+          ],
+          "score": 14.282,
+          "same_idea": false,
+          "ids": [
+            "649"
+          ]
+        },
+        {
+          "id": "893",
+          "idea": "idea-893",
+          "point": "Třináctistranná dlaždice klobouk může pokrýt rovinu, ale všechna její úplná pokrytí jsou neperiodická i při povolení zrcadlových kopií.",
+          "type": "discovery",
+          "tags": [
+            "geometry",
+            "combinatorics",
+            "patterns"
+          ],
+          "score": 14.282,
+          "same_idea": false,
+          "ids": [
+            "893"
+          ]
+        },
+        {
+          "id": "1077",
+          "idea": "idea-1077",
+          "point": "Při mezifázové přípravě nylonu reagují monomery z oddělených kapalin na jejich rozhraní a vznikající polymer lze vytahovat jako vlákno.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 13.757,
+          "same_idea": false,
+          "ids": [
+            "1077"
+          ]
+        },
+        {
+          "id": "443",
+          "idea": "idea-443",
+          "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 13.624,
+          "same_idea": false,
+          "ids": [
+            "443"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1135",
+      "candidates": [
+        {
+          "id": "1091",
+          "idea": "idea-1091",
+          "point": "Desetibojař získává body za absolutní výkon v každé disciplíně podle nelineárních tabulek, nikoli za umístění mezi soupeři.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mathematics"
+          ],
+          "score": 23.999,
+          "same_idea": false,
+          "ids": [
+            "1091"
+          ]
+        },
+        {
+          "id": "881",
+          "idea": "idea-881",
+          "point": "Elektromagnetické těsné průlety olověných jader mohou odtržením tří protonů vytvářet jádra zlata bez průmyslově využitelné výroby kovu.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "change"
+          ],
+          "score": 18.898,
+          "same_idea": false,
+          "ids": [
+            "881"
+          ]
+        },
+        {
+          "id": "631",
+          "idea": "idea-631",
+          "point": "Chargaffovy poměry bází DNA poskytly důležitou stopu pro vysvětlení jejich párování ve struktuře molekuly.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 18.799,
+          "same_idea": false,
+          "ids": [
+            "631"
+          ]
+        },
+        {
+          "id": "507",
+          "idea": "idea-507",
+          "point": "Meitnerová s Frischem vysvětlili nečekané produkty ostřelování uranu jako rozštěpení těžkého jádra a uvolnění energie.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 17.466,
+          "same_idea": false,
+          "ids": [
+            "507"
+          ]
+        },
+        {
+          "id": "443",
+          "idea": "idea-443",
+          "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 16.502,
+          "same_idea": false,
+          "ids": [
+            "443"
+          ]
+        },
+        {
+          "id": "10",
+          "idea": "idea-10",
+          "point": "Mendělejev uspořádal prvky podle opakujících se vlastností a předpověděl dosud neobjevené prvky.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "patterns",
+            "knowledge-evidence"
+          ],
+          "score": 16.441,
+          "same_idea": false,
+          "ids": [
+            "10",
+            "52"
+          ]
+        },
+        {
+          "id": "1116",
+          "idea": "idea-1116",
+          "point": "Titrace určuje množství analytu ze známé koncentrace a spotřebovaného objemu činidla podle stechiometrie; barevný konec jen indikuje blízkost ekvivalence.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 16.271,
+          "same_idea": false,
+          "ids": [
+            "1116"
+          ]
+        },
+        {
+          "id": "949",
+          "idea": "idea-949",
+          "point": "Reuleauxův trojúhelník má konstantní vzdálenost rovnoběžných opěrných přímek, přestože není kruhem.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "patterns"
+          ],
+          "score": 16.169,
+          "same_idea": false,
+          "ids": [
+            "949"
+          ]
+        },
+        {
+          "id": "998",
+          "idea": "idea-998",
+          "point": "Reichovo Piano Phase vytváří nové slyšitelné vztahy postupným časovým posouváním stejného opakovaného vzorce mezi dvěma hráči.",
+          "type": "work",
+          "tags": [
+            "music",
+            "patterns"
+          ],
+          "score": 16.006,
+          "same_idea": false,
+          "ids": [
+            "998"
+          ]
+        },
+        {
+          "id": "1067",
+          "idea": "idea-1067",
+          "point": "Maximum částí kruhu vytvořených n přímými řezy bez přesouvání dílů je 1+n(n+1)/2 při vhodně zvolených průsečících.",
+          "type": "principle",
+          "tags": [
+            "combinatorics",
+            "geometry",
+            "patterns"
+          ],
+          "score": 15.952,
+          "same_idea": false,
+          "ids": [
+            "1067"
+          ]
+        },
+        {
+          "id": "1109",
+          "idea": "idea-1109",
+          "point": "Ochladnutí nebo odpařování může cukerný roztok přesytit a umožnit růst krystalů na zárodku bez chemické přeměny cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "patterns"
+          ],
+          "score": 15.216,
+          "same_idea": false,
+          "ids": [
+            "1109"
+          ]
+        },
+        {
+          "id": "1098",
+          "idea": "idea-1098",
+          "point": "Analogová optická zvuková stopa kóduje signál změnami průsvitnosti či šířky pruhu na filmu a při projekci se snímá světlem a fotodetektorem.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "sound"
+          ],
+          "score": 15.099,
+          "same_idea": false,
+          "ids": [
+            "1098"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1136",
+      "candidates": [
+        {
+          "id": "507",
+          "idea": "idea-507",
+          "point": "Meitnerová s Frischem vysvětlili nečekané produkty ostřelování uranu jako rozštěpení těžkého jádra a uvolnění energie.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 22.148,
+          "same_idea": false,
+          "ids": [
+            "507"
+          ]
+        },
+        {
+          "id": "881",
+          "idea": "idea-881",
+          "point": "Elektromagnetické těsné průlety olověných jader mohou odtržením tří protonů vytvářet jádra zlata bez průmyslově využitelné výroby kovu.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "change"
+          ],
+          "score": 20.03,
+          "same_idea": false,
+          "ids": [
+            "881"
+          ]
+        },
+        {
+          "id": "1075",
+          "idea": "idea-1075",
+          "point": "Diamant a grafit mají rozdílné vlastnosti kvůli odlišnému propojení uhlíkových atomů v prostorové síti a vrstvách.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 17.85,
+          "same_idea": false,
+          "ids": [
+            "1075"
+          ]
+        },
+        {
+          "id": "113",
+          "idea": "idea-113",
+          "point": "Marie Curieová získala Nobelovy ceny ve fyzice a chemii za výzkum radioaktivity a radioaktivních prvků.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "particle-physics",
+            "knowledge-evidence"
+          ],
+          "score": 17.652,
+          "same_idea": false,
+          "ids": [
+            "113"
+          ]
+        },
+        {
+          "id": "571",
+          "idea": "idea-571",
+          "point": "Těžší chemické prvky vznikají hvězdnými a dalšími kosmickými jadernými procesy a stávají se součástí nové hmoty.",
+          "type": "principle",
+          "tags": [
+            "stars",
+            "particle-physics",
+            "change"
+          ],
+          "score": 17.61,
+          "same_idea": false,
+          "ids": [
+            "571"
+          ]
+        },
+        {
+          "id": "10",
+          "idea": "idea-10",
+          "point": "Mendělejev uspořádal prvky podle opakujících se vlastností a předpověděl dosud neobjevené prvky.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "patterns",
+            "knowledge-evidence"
+          ],
+          "score": 17.422,
+          "same_idea": false,
+          "ids": [
+            "10",
+            "52"
+          ]
+        },
+        {
+          "id": "1056",
+          "idea": "idea-1056",
+          "point": "Antokyanová barviva červeného zelí mění při změně pH své chemické formy a tím i barvu, takže výluh funguje jako orientační indikátor.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "botany"
+          ],
+          "score": 16.166,
+          "same_idea": false,
+          "ids": [
+            "1056"
+          ]
+        },
+        {
+          "id": "396",
+          "idea": "idea-396",
+          "point": "Běžné okenní sklo je za pokojové teploty amorfní pevná látka a nerovnoměrná tloušťka historických tabulí nedokládá jejich stékání během staletí.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 15.669,
+          "same_idea": false,
+          "ids": [
+            "396"
+          ]
+        },
+        {
+          "id": "451",
+          "idea": "idea-451",
+          "point": "Banány obsahují přirozeně radioaktivní draslík, ale přítomnost radioaktivity sama neznamená významné zdravotní riziko.",
+          "type": "principle",
+          "tags": [
+            "particle-physics",
+            "nutrition",
+            "knowledge-evidence"
+          ],
+          "score": 13.741,
+          "same_idea": false,
+          "ids": [
+            "451"
+          ]
+        },
+        {
+          "id": "1114",
+          "idea": "idea-1114",
+          "point": "Zmenšení objemu plynné rovnovážné směsi při stálé teplotě zvýhodní stranu s menším počtem plynných částic, pokud se jejich počty liší.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 13.498,
+          "same_idea": false,
+          "ids": [
+            "1114"
+          ]
+        },
+        {
+          "id": "1105",
+          "idea": "idea-1105",
+          "point": "Světlo vytváří v halogenidech stříbra zárodky latentního obrazu, které vývojka zesílí na kovové stříbro; ustalovač odstraní zbývající halogenidy.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "optics",
+            "preservation"
+          ],
+          "score": 13.404,
+          "same_idea": false,
+          "ids": [
+            "1105"
+          ]
+        },
+        {
+          "id": "569",
+          "idea": "idea-569",
+          "point": "Hnědí trpaslíci leží mezi planetami a hvězdami a nemají dost hmotnosti pro dlouhodobé běžné vodíkové hoření.",
+          "type": "principle",
+          "tags": [
+            "stars",
+            "particle-physics",
+            "limits"
+          ],
+          "score": 13.403,
+          "same_idea": false,
+          "ids": [
+            "569"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1137",
+      "candidates": [
+        {
+          "id": "1084",
+          "idea": "idea-1084",
+          "point": "Hallův–Héroultův proces vyrábí hliník elektrolýzou oxidu hlinitého rozpuštěného v roztaveném kryolitu, nikoli elektrolýzou vodného roztoku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "innovation"
+          ],
+          "score": 28.975,
+          "same_idea": false,
+          "ids": [
+            "1084"
+          ]
+        },
+        {
+          "id": "1106",
+          "idea": "idea-1106",
+          "point": "Zesíťovaný polyakrylát sodný bobtná příjmem vody do polymerní sítě a jeho nasákavost klesá s rostoucí koncentrací rozpuštěných solí.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 20.542,
+          "same_idea": false,
+          "ids": [
+            "1106"
+          ]
+        },
+        {
+          "id": "1107",
+          "idea": "idea-1107",
+          "point": "Při galvanickém pokovování se na vodivém předmětu připojeném jako katoda redukují kovové ionty a vytvářejí povrchovou vrstvu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "innovation"
+          ],
+          "score": 19.838,
+          "same_idea": false,
+          "ids": [
+            "1107"
+          ]
+        },
+        {
+          "id": "823",
+          "idea": "idea-823",
+          "point": "Rozpuštění zlatých Nobelových medailí v lučavce královské umožnilo jejich ukrytí a pozdější obnovení kovu.",
+          "type": "event",
+          "tags": [
+            "chemistry",
+            "modern-history",
+            "preservation"
+          ],
+          "score": 19.497,
+          "same_idea": false,
+          "ids": [
+            "823"
+          ]
+        },
+        {
+          "id": "1111",
+          "idea": "idea-1111",
+          "point": "Zmýdelnění štěpí esterové vazby triglyceridů zásadou a vytváří glycerol a soli mastných kyselin, které tvoří mýdlo.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 18.669,
+          "same_idea": false,
+          "ids": [
+            "1111"
+          ]
+        },
+        {
+          "id": "1117",
+          "idea": "idea-1117",
+          "point": "Jedlá soda s kyselinou uvolňuje oxid uhličitý zachycovaný v těstě, zatímco kypřicí prášek obsahuje sodu i kyselou složku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 18.669,
+          "same_idea": false,
+          "ids": [
+            "1117"
+          ]
+        },
+        {
+          "id": "1104",
+          "idea": "idea-1104",
+          "point": "Modročerné zbarvení při jódové zkoušce vzniká komplexem jódových částic s helikální amylózou, nikoli pouhou přítomností libovolného cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 17.914,
+          "same_idea": false,
+          "ids": [
+            "1104"
+          ]
+        },
+        {
+          "id": "1081",
+          "idea": "idea-1081",
+          "point": "Pokles tlaku oxidu uhličitého nad nápojem po otevření lahve snižuje jeho rovnovážnou rozpustnost a podporuje unikání plynu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 17.356,
+          "same_idea": false,
+          "ids": [
+            "1081"
+          ]
+        },
+        {
+          "id": "1080",
+          "idea": "idea-1080",
+          "point": "Rozpouštění dusičnanu amonného ve vodě může odebírat teplo okolí, což využívají některé jednorázové chladivé sáčky.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 16.834,
+          "same_idea": false,
+          "ids": [
+            "1080"
+          ]
+        },
+        {
+          "id": "824",
+          "idea": "idea-824",
+          "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics",
+            "change"
+          ],
+          "score": 15.818,
+          "same_idea": false,
+          "ids": [
+            "824"
+          ]
+        },
+        {
+          "id": "1072",
+          "idea": "idea-1072",
+          "point": "Pufr spotřebovává malé přídavky kyseliny či zásady pomocí konjugovaného páru, ale po vyčerpání jeho kapacity se pH výrazně změní.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 14.894,
+          "same_idea": false,
+          "ids": [
+            "1072"
+          ]
+        },
+        {
+          "id": "1004",
+          "idea": "idea-1004",
+          "point": "Tenká přilnavá oxidická vrstva omezuje další korozi hliníku, takže reaktivita kovu může vytvořit jeho povrchovou ochranu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 14.528,
+          "same_idea": false,
+          "ids": [
+            "1004"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1138",
+      "candidates": [
+        {
+          "id": "1110",
+          "idea": "idea-1110",
+          "point": "Při Fischerově esterifikaci vzniká z karboxylové kyseliny a alkoholu ester a voda, přičemž vratná reakce omezuje výtěžek.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 21.631,
+          "same_idea": false,
+          "ids": [
+            "1110"
+          ]
+        },
+        {
+          "id": "1116",
+          "idea": "idea-1116",
+          "point": "Titrace určuje množství analytu ze známé koncentrace a spotřebovaného objemu činidla podle stechiometrie; barevný konec jen indikuje blízkost ekvivalence.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 18.584,
+          "same_idea": false,
+          "ids": [
+            "1116"
+          ]
+        },
+        {
+          "id": "1079",
+          "idea": "idea-1079",
+          "point": "Katalyzátor nabízí rychlejší reakční cestu a urychluje dosažení rovnováhy, aniž mění její polohu při stejné teplotě.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 16.917,
+          "same_idea": false,
+          "ids": [
+            "1079"
+          ]
+        },
+        {
+          "id": "1111",
+          "idea": "idea-1111",
+          "point": "Zmýdelnění štěpí esterové vazby triglyceridů zásadou a vytváří glycerol a soli mastných kyselin, které tvoří mýdlo.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 16.722,
+          "same_idea": false,
+          "ids": [
+            "1111"
+          ]
+        },
+        {
+          "id": "1074",
+          "idea": "idea-1074",
+          "point": "Azeotrop ethanolu a vody má při daném tlaku stejné složení páry a kapaliny, což omezuje oddělení běžnou frakční destilací.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 16.096,
+          "same_idea": false,
+          "ids": [
+            "1074"
+          ]
+        },
+        {
+          "id": "1072",
+          "idea": "idea-1072",
+          "point": "Pufr spotřebovává malé přídavky kyseliny či zásady pomocí konjugovaného páru, ale po vyčerpání jeho kapacity se pH výrazně změní.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 15.528,
+          "same_idea": false,
+          "ids": [
+            "1072"
+          ]
+        },
+        {
+          "id": "1004",
+          "idea": "idea-1004",
+          "point": "Tenká přilnavá oxidická vrstva omezuje další korozi hliníku, takže reaktivita kovu může vytvořit jeho povrchovou ochranu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 14.752,
+          "same_idea": false,
+          "ids": [
+            "1004"
+          ]
+        },
+        {
+          "id": "1085",
+          "idea": "idea-1085",
+          "point": "Tuhnutí pálené sádry zahrnuje hydrataci hemihydrátu síranu vápenatého na dihydrát a růst propojených krystalů.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 12.93,
+          "same_idea": false,
+          "ids": [
+            "1085"
+          ]
+        },
+        {
+          "id": "1109",
+          "idea": "idea-1109",
+          "point": "Ochladnutí nebo odpařování může cukerný roztok přesytit a umožnit růst krystalů na zárodku bez chemické přeměny cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "patterns"
+          ],
+          "score": 12.93,
+          "same_idea": false,
+          "ids": [
+            "1109"
+          ]
+        },
+        {
+          "id": "124",
+          "idea": "idea-124",
+          "point": "Nízký obsah dostupné vody a kyselé prostředí medu omezují růst mikroorganismů a podporují jeho trvanlivost.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "microbiology",
+            "preservation"
+          ],
+          "score": 12.312,
+          "same_idea": false,
+          "ids": [
+            "124"
+          ]
+        },
+        {
+          "id": "444",
+          "idea": "idea-444",
+          "point": "Poškození buněk cibule spouští chemické reakce vedoucí ke vzniku těkavé látky dráždící oči.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "chemistry",
+            "perception"
+          ],
+          "score": 12.312,
+          "same_idea": false,
+          "ids": [
+            "444"
+          ]
+        },
+        {
+          "id": "569",
+          "idea": "idea-569",
+          "point": "Hnědí trpaslíci leží mezi planetami a hvězdami a nemají dost hmotnosti pro dlouhodobé běžné vodíkové hoření.",
+          "type": "principle",
+          "tags": [
+            "stars",
+            "particle-physics",
+            "limits"
+          ],
+          "score": 12.093,
+          "same_idea": false,
+          "ids": [
+            "569"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1139",
+      "candidates": [
+        {
+          "id": "1109",
+          "idea": "idea-1109",
+          "point": "Ochladnutí nebo odpařování může cukerný roztok přesytit a umožnit růst krystalů na zárodku bez chemické přeměny cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "patterns"
+          ],
+          "score": 25.609,
+          "same_idea": false,
+          "ids": [
+            "1109"
+          ]
+        },
+        {
+          "id": "631",
+          "idea": "idea-631",
+          "point": "Chargaffovy poměry bází DNA poskytly důležitou stopu pro vysvětlení jejich párování ve struktuře molekuly.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 20.103,
+          "same_idea": false,
+          "ids": [
+            "631"
+          ]
+        },
+        {
+          "id": "443",
+          "idea": "idea-443",
+          "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 19.469,
+          "same_idea": false,
+          "ids": [
+            "443"
+          ]
+        },
+        {
+          "id": "1081",
+          "idea": "idea-1081",
+          "point": "Pokles tlaku oxidu uhličitého nad nápojem po otevření lahve snižuje jeho rovnovážnou rozpustnost a podporuje unikání plynu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 19.174,
+          "same_idea": false,
+          "ids": [
+            "1081"
+          ]
+        },
+        {
+          "id": "1057",
+          "idea": "idea-1057",
+          "point": "Zinek elektricky spojený s ocelí ve vhodném elektrolytu přednostně oxiduje a může chránit ocel i při místním poškození povlaku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials",
+            "preservation"
+          ],
+          "score": 18.734,
+          "same_idea": false,
+          "ids": [
+            "1057"
+          ]
+        },
+        {
+          "id": "1079",
+          "idea": "idea-1079",
+          "point": "Katalyzátor nabízí rychlejší reakční cestu a urychluje dosažení rovnováhy, aniž mění její polohu při stejné teplotě.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 18.012,
+          "same_idea": false,
+          "ids": [
+            "1079"
+          ]
+        },
+        {
+          "id": "1056",
+          "idea": "idea-1056",
+          "point": "Antokyanová barviva červeného zelí mění při změně pH své chemické formy a tím i barvu, takže výluh funguje jako orientační indikátor.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "botany"
+          ],
+          "score": 17.299,
+          "same_idea": false,
+          "ids": [
+            "1056"
+          ]
+        },
+        {
+          "id": "1114",
+          "idea": "idea-1114",
+          "point": "Zmenšení objemu plynné rovnovážné směsi při stálé teplotě zvýhodní stranu s menším počtem plynných částic, pokud se jejich počty liší.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 17.299,
+          "same_idea": false,
+          "ids": [
+            "1114"
+          ]
+        },
+        {
+          "id": "1108",
+          "idea": "idea-1108",
+          "point": "Iontoměnič změkčuje vodu výměnou vápenatých a hořečnatých iontů za sodné či draselné a po vyčerpání potřebuje regeneraci solankou.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "resources"
+          ],
+          "score": 16.886,
+          "same_idea": false,
+          "ids": [
+            "1108"
+          ]
+        },
+        {
+          "id": "334",
+          "idea": "idea-334",
+          "point": "Ve vzorcích Ryugu dopravených sondou Hayabusa2 byl nalezen uracil, což dokládá mimozemskou organickou chemii, nikoli přítomnost RNA či organismů.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 16.585,
+          "same_idea": false,
+          "ids": [
+            "334"
+          ]
+        },
+        {
+          "id": "881",
+          "idea": "idea-881",
+          "point": "Elektromagnetické těsné průlety olověných jader mohou odtržením tří protonů vytvářet jádra zlata bez průmyslově využitelné výroby kovu.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "change"
+          ],
+          "score": 16.585,
+          "same_idea": false,
+          "ids": [
+            "881"
+          ]
+        },
+        {
+          "id": "1104",
+          "idea": "idea-1104",
+          "point": "Modročerné zbarvení při jódové zkoušce vzniká komplexem jódových částic s helikální amylózou, nikoli pouhou přítomností libovolného cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 16.585,
+          "same_idea": false,
+          "ids": [
+            "1104"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1140",
+      "candidates": [
+        {
+          "id": "1022",
+          "idea": "idea-1022",
+          "point": "Ionty vápníku a hořčíku v tvrdé vodě tvoří s mýdlem špatně rozpustné soli, čímž spotřebují část mýdla a omezí pěnění.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 22.989,
+          "same_idea": false,
+          "ids": [
+            "1022"
+          ]
+        },
+        {
+          "id": "1116",
+          "idea": "idea-1116",
+          "point": "Titrace určuje množství analytu ze známé koncentrace a spotřebovaného objemu činidla podle stechiometrie; barevný konec jen indikuje blízkost ekvivalence.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 22.334,
+          "same_idea": false,
+          "ids": [
+            "1116"
+          ]
+        },
+        {
+          "id": "1109",
+          "idea": "idea-1109",
+          "point": "Ochladnutí nebo odpařování může cukerný roztok přesytit a umožnit růst krystalů na zárodku bez chemické přeměny cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "patterns"
+          ],
+          "score": 20.868,
+          "same_idea": false,
+          "ids": [
+            "1109"
+          ]
+        },
+        {
+          "id": "1073",
+          "idea": "idea-1073",
+          "point": "Chromatografie odděluje složky směsi podle jejich rozdílného rozdělování mezi pohyblivou a nepohyblivou fázi.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 20.694,
+          "same_idea": false,
+          "ids": [
+            "1073"
+          ]
+        },
+        {
+          "id": "1106",
+          "idea": "idea-1106",
+          "point": "Zesíťovaný polyakrylát sodný bobtná příjmem vody do polymerní sítě a jeho nasákavost klesá s rostoucí koncentrací rozpuštěných solí.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 19.463,
+          "same_idea": false,
+          "ids": [
+            "1106"
+          ]
+        },
+        {
+          "id": "823",
+          "idea": "idea-823",
+          "point": "Rozpuštění zlatých Nobelových medailí v lučavce královské umožnilo jejich ukrytí a pozdější obnovení kovu.",
+          "type": "event",
+          "tags": [
+            "chemistry",
+            "modern-history",
+            "preservation"
+          ],
+          "score": 18.349,
+          "same_idea": false,
+          "ids": [
+            "823"
+          ]
+        },
+        {
+          "id": "507",
+          "idea": "idea-507",
+          "point": "Meitnerová s Frischem vysvětlili nečekané produkty ostřelování uranu jako rozštěpení těžkého jádra a uvolnění energie.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 18.263,
+          "same_idea": false,
+          "ids": [
+            "507"
+          ]
+        },
+        {
+          "id": "1113",
+          "idea": "idea-1113",
+          "point": "Rozpuštěná sůl snižuje rovnovážný bod tuhnutí vody, takže tání ledu v solance může probíhat i pod nulou, v mezích závislých na složení.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 16.464,
+          "same_idea": false,
+          "ids": [
+            "1113"
+          ]
+        },
+        {
+          "id": "1108",
+          "idea": "idea-1108",
+          "point": "Iontoměnič změkčuje vodu výměnou vápenatých a hořečnatých iontů za sodné či draselné a po vyčerpání potřebuje regeneraci solankou.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "resources"
+          ],
+          "score": 16.434,
+          "same_idea": false,
+          "ids": [
+            "1108"
+          ]
+        },
+        {
+          "id": "1102",
+          "idea": "idea-1102",
+          "point": "Reverzní osmóza využívá tlak větší než osmotický k přenosu vody přes selektivní membránu z koncentrovanějšího roztoku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "resources"
+          ],
+          "score": 16.105,
+          "same_idea": false,
+          "ids": [
+            "1102"
+          ]
+        },
+        {
+          "id": "904",
+          "idea": "idea-904",
+          "point": "Sliznatky uvolňují hlen a sbalená bílkovinná vlákna, která v mořské vodě vytvoří objemnou obrannou síť.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "materials"
+          ],
+          "score": 16.046,
+          "same_idea": false,
+          "ids": [
+            "904"
+          ]
+        },
+        {
+          "id": "1117",
+          "idea": "idea-1117",
+          "point": "Jedlá soda s kyselinou uvolňuje oxid uhličitý zachycovaný v těstě, zatímco kypřicí prášek obsahuje sodu i kyselou složku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 15.527,
+          "same_idea": false,
+          "ids": [
+            "1117"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1141",
+      "candidates": [
+        {
+          "id": "443",
+          "idea": "idea-443",
+          "point": "Voda má nejvyšší hustotu poblíž čtyř stupňů Celsia a při mrznutí se rozpíná, takže led plave.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "chemistry",
+            "patterns"
+          ],
+          "score": 19.762,
+          "same_idea": false,
+          "ids": [
+            "443"
+          ]
+        },
+        {
+          "id": "1110",
+          "idea": "idea-1110",
+          "point": "Při Fischerově esterifikaci vzniká z karboxylové kyseliny a alkoholu ester a voda, přičemž vratná reakce omezuje výtěžek.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 18.675,
+          "same_idea": false,
+          "ids": [
+            "1110"
+          ]
+        },
+        {
+          "id": "1109",
+          "idea": "idea-1109",
+          "point": "Ochladnutí nebo odpařování může cukerný roztok přesytit a umožnit růst krystalů na zárodku bez chemické přeměny cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "patterns"
+          ],
+          "score": 18.107,
+          "same_idea": false,
+          "ids": [
+            "1109"
+          ]
+        },
+        {
+          "id": "1085",
+          "idea": "idea-1085",
+          "point": "Tuhnutí pálené sádry zahrnuje hydrataci hemihydrátu síranu vápenatého na dihydrát a růst propojených krystalů.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 17.461,
+          "same_idea": false,
+          "ids": [
+            "1085"
+          ]
+        },
+        {
+          "id": "1067",
+          "idea": "idea-1067",
+          "point": "Maximum částí kruhu vytvořených n přímými řezy bez přesouvání dílů je 1+n(n+1)/2 při vhodně zvolených průsečících.",
+          "type": "principle",
+          "tags": [
+            "combinatorics",
+            "geometry",
+            "patterns"
+          ],
+          "score": 17.194,
+          "same_idea": false,
+          "ids": [
+            "1067"
+          ]
+        },
+        {
+          "id": "228",
+          "idea": "idea-228",
+          "point": "Euler převedl královecké mosty na graf a rozhodl průchod podle počtu hran u jednotlivých vrcholů.",
+          "type": "discovery",
+          "tags": [
+            "combinatorics",
+            "algorithms",
+            "patterns"
+          ],
+          "score": 16.053,
+          "same_idea": false,
+          "ids": [
+            "228"
+          ]
+        },
+        {
+          "id": "498",
+          "idea": "idea-498",
+          "point": "Jednoduchá lokální pravidla Conwayovy Hry života vytvářejí složité a pohyblivé globální struktury.",
+          "type": "principle",
+          "tags": [
+            "algorithms",
+            "combinatorics",
+            "patterns"
+          ],
+          "score": 16.053,
+          "same_idea": false,
+          "ids": [
+            "498"
+          ]
+        },
+        {
+          "id": "1074",
+          "idea": "idea-1074",
+          "point": "Azeotrop ethanolu a vody má při daném tlaku stejné složení páry a kapaliny, což omezuje oddělení běžnou frakční destilací.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 15.779,
+          "same_idea": false,
+          "ids": [
+            "1074"
+          ]
+        },
+        {
+          "id": "652",
+          "idea": "idea-652",
+          "point": "Ramseyovské vztahy zaručují v dostatečně velké struktuře výskyt uspořádané podstruktury i bez zjevného celkového řádu.",
+          "type": "principle",
+          "tags": [
+            "combinatorics",
+            "patterns"
+          ],
+          "score": 14.917,
+          "same_idea": false,
+          "ids": [
+            "652"
+          ]
+        },
+        {
+          "id": "1114",
+          "idea": "idea-1114",
+          "point": "Zmenšení objemu plynné rovnovážné směsi při stálé teplotě zvýhodní stranu s menším počtem plynných částic, pokud se jejich počty liší.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 14.495,
+          "same_idea": false,
+          "ids": [
+            "1114"
+          ]
+        },
+        {
+          "id": "1116",
+          "idea": "idea-1116",
+          "point": "Titrace určuje množství analytu ze známé koncentrace a spotřebovaného objemu činidla podle stechiometrie; barevný konec jen indikuje blízkost ekvivalence.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 14.495,
+          "same_idea": false,
+          "ids": [
+            "1116"
+          ]
+        },
+        {
+          "id": "655",
+          "idea": "idea-655",
+          "point": "Dokonalá a spřátelená čísla se vymezují zvláštními vztahy mezi číslem a součtem jeho vlastních dělitelů.",
+          "type": "principle",
+          "tags": [
+            "number-theory",
+            "patterns"
+          ],
+          "score": 14.411,
+          "same_idea": false,
+          "ids": [
+            "655"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1142",
+      "candidates": [
+        {
+          "id": "1022",
+          "idea": "idea-1022",
+          "point": "Ionty vápníku a hořčíku v tvrdé vodě tvoří s mýdlem špatně rozpustné soli, čímž spotřebují část mýdla a omezí pěnění.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 18.494,
+          "same_idea": false,
+          "ids": [
+            "1022"
+          ]
+        },
+        {
+          "id": "1023",
+          "idea": "idea-1023",
+          "point": "Aktivní uhlí odstraňuje některé látky adsorpcí na rozsáhlém vnitřním povrchu, jehož kapacita je omezená a účinnost závisí na kontaminantu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials",
+            "resources"
+          ],
+          "score": 16.612,
+          "same_idea": false,
+          "ids": [
+            "1023"
+          ]
+        },
+        {
+          "id": "1075",
+          "idea": "idea-1075",
+          "point": "Diamant a grafit mají rozdílné vlastnosti kvůli odlišnému propojení uhlíkových atomů v prostorové síti a vrstvách.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 16.274,
+          "same_idea": false,
+          "ids": [
+            "1075"
+          ]
+        },
+        {
+          "id": "580",
+          "idea": "idea-580",
+          "point": "Titan má povrchové kapalné uhlovodíky a metanový cyklus připomínající v jiné chemii pozemský oběh vody.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "chemistry",
+            "saturn"
+          ],
+          "score": 16.064,
+          "same_idea": false,
+          "ids": [
+            "580"
+          ]
+        },
+        {
+          "id": "396",
+          "idea": "idea-396",
+          "point": "Běžné okenní sklo je za pokojové teploty amorfní pevná látka a nerovnoměrná tloušťka historických tabulí nedokládá jejich stékání během staletí.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 15.506,
+          "same_idea": false,
+          "ids": [
+            "396"
+          ]
+        },
+        {
+          "id": "1085",
+          "idea": "idea-1085",
+          "point": "Tuhnutí pálené sádry zahrnuje hydrataci hemihydrátu síranu vápenatého na dihydrát a růst propojených krystalů.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 13.624,
+          "same_idea": false,
+          "ids": [
+            "1085"
+          ]
+        },
+        {
+          "id": "1004",
+          "idea": "idea-1004",
+          "point": "Tenká přilnavá oxidická vrstva omezuje další korozi hliníku, takže reaktivita kovu může vytvořit jeho povrchovou ochranu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 12.988,
+          "same_idea": false,
+          "ids": [
+            "1004"
+          ]
+        },
+        {
+          "id": "1006",
+          "idea": "idea-1006",
+          "point": "Pravidelné póry zeolitů mohou propouštět menší molekuly a vylučovat větší, přičemž výběr ovlivňují i chemické interakce s vnitřním povrchem.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials"
+          ],
+          "score": 12.988,
+          "same_idea": false,
+          "ids": [
+            "1006"
+          ]
+        },
+        {
+          "id": "1057",
+          "idea": "idea-1057",
+          "point": "Zinek elektricky spojený s ocelí ve vhodném elektrolytu přednostně oxiduje a může chránit ocel i při místním poškození povlaku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials",
+            "preservation"
+          ],
+          "score": 12.988,
+          "same_idea": false,
+          "ids": [
+            "1057"
+          ]
+        },
+        {
+          "id": "1103",
+          "idea": "idea-1103",
+          "point": "Vzdušné vápno v maltě reaguje s oxidem uhličitým na uhličitan vápenatý; tvrdnutí proto není jen vysychání.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "materials",
+            "preservation"
+          ],
+          "score": 12.988,
+          "same_idea": false,
+          "ids": [
+            "1103"
+          ]
+        },
+        {
+          "id": "444",
+          "idea": "idea-444",
+          "point": "Poškození buněk cibule spouští chemické reakce vedoucí ke vzniku těkavé látky dráždící oči.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "chemistry",
+            "perception"
+          ],
+          "score": 11.612,
+          "same_idea": false,
+          "ids": [
+            "444"
+          ]
+        },
+        {
+          "id": "824",
+          "idea": "idea-824",
+          "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics",
+            "change"
+          ],
+          "score": 11.612,
+          "same_idea": false,
+          "ids": [
+            "824"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1143",
+      "candidates": [
+        {
+          "id": "1111",
+          "idea": "idea-1111",
+          "point": "Zmýdelnění štěpí esterové vazby triglyceridů zásadou a vytváří glycerol a soli mastných kyselin, které tvoří mýdlo.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 22.473,
+          "same_idea": false,
+          "ids": [
+            "1111"
+          ]
+        },
+        {
+          "id": "1112",
+          "idea": "idea-1112",
+          "point": "Pevný jód může sublimovat a jeho pára se na chladném povrchu ukládá jako krystaly, ale za vhodných podmínek jód také taje.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 19.712,
+          "same_idea": false,
+          "ids": [
+            "1112"
+          ]
+        },
+        {
+          "id": "124",
+          "idea": "idea-124",
+          "point": "Nízký obsah dostupné vody a kyselé prostředí medu omezují růst mikroorganismů a podporují jeho trvanlivost.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "microbiology",
+            "preservation"
+          ],
+          "score": 18.578,
+          "same_idea": false,
+          "ids": [
+            "124"
+          ]
+        },
+        {
+          "id": "1110",
+          "idea": "idea-1110",
+          "point": "Při Fischerově esterifikaci vzniká z karboxylové kyseliny a alkoholu ester a voda, přičemž vratná reakce omezuje výtěžek.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 17.707,
+          "same_idea": false,
+          "ids": [
+            "1110"
+          ]
+        },
+        {
+          "id": "1104",
+          "idea": "idea-1104",
+          "point": "Modročerné zbarvení při jódové zkoušce vzniká komplexem jódových částic s helikální amylózou, nikoli pouhou přítomností libovolného cukru.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 17.459,
+          "same_idea": false,
+          "ids": [
+            "1104"
+          ]
+        },
+        {
+          "id": "1056",
+          "idea": "idea-1056",
+          "point": "Antokyanová barviva červeného zelí mění při změně pH své chemické formy a tím i barvu, takže výluh funguje jako orientační indikátor.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "botany"
+          ],
+          "score": 17.207,
+          "same_idea": false,
+          "ids": [
+            "1056"
+          ]
+        },
+        {
+          "id": "1113",
+          "idea": "idea-1113",
+          "point": "Rozpuštěná sůl snižuje rovnovážný bod tuhnutí vody, takže tání ledu v solance může probíhat i pod nulou, v mezích závislých na složení.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics"
+          ],
+          "score": 15.436,
+          "same_idea": false,
+          "ids": [
+            "1113"
+          ]
+        },
+        {
+          "id": "1079",
+          "idea": "idea-1079",
+          "point": "Katalyzátor nabízí rychlejší reakční cestu a urychluje dosažení rovnováhy, aniž mění její polohu při stejné teplotě.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "limits"
+          ],
+          "score": 15.187,
+          "same_idea": false,
+          "ids": [
+            "1079"
+          ]
+        },
+        {
+          "id": "1117",
+          "idea": "idea-1117",
+          "point": "Jedlá soda s kyselinou uvolňuje oxid uhličitý zachycovaný v těstě, zatímco kypřicí prášek obsahuje sodu i kyselou složku.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "change"
+          ],
+          "score": 15.015,
+          "same_idea": false,
+          "ids": [
+            "1117"
+          ]
+        },
+        {
+          "id": "777",
+          "idea": "idea-777",
+          "point": "Anaximenés vysvětloval různé látky zhušťováním a zřeďováním vzduchu jako společného základu světa.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "change"
+          ],
+          "score": 13.639,
+          "same_idea": false,
+          "ids": [
+            "777"
+          ]
+        },
+        {
+          "id": "824",
+          "idea": "idea-824",
+          "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics",
+            "change"
+          ],
+          "score": 13.624,
+          "same_idea": false,
+          "ids": [
+            "824"
+          ]
+        },
+        {
+          "id": "1115",
+          "idea": "idea-1115",
+          "point": "Tmavý povlak stříbra tvoří hlavně sulfid stříbrný vznikající působením sloučenin síry a jeho opakované leštění odnáší i materiál povrchu.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "preservation"
+          ],
+          "score": 13.416,
+          "same_idea": false,
+          "ids": [
+            "1115"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1144",
+      "candidates": [
+        {
+          "id": "234",
+          "idea": "idea-234",
+          "point": "Vítězství Deep Blue nad Kasparovem ukázalo sílu specializovaného výpočtu v šachu bez nutnosti obecné lidské inteligence.",
+          "type": "event",
+          "tags": [
+            "artificial-intelligence",
+            "algorithms",
+            "limits"
+          ],
+          "score": 13.279,
+          "same_idea": false,
+          "ids": [
+            "234"
+          ]
+        },
+        {
+          "id": "585",
+          "idea": "idea-585",
+          "point": "Synchronní popis zkoumá jazyk v určitém stavu, zatímco diachronní sleduje jeho historické proměny.",
+          "type": "principle",
+          "tags": [
+            "linguistics",
+            "change",
+            "saussure"
+          ],
+          "score": 12.274,
+          "same_idea": false,
+          "ids": [
+            "585"
+          ]
+        },
+        {
+          "id": "1094",
+          "idea": "idea-1094",
+          "point": "Lucky loser může po prohře v tenisové kvalifikaci obsadit uvolněné místo v hlavní soutěži podle pravidel pro náhradníky.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions"
+          ],
+          "score": 11.095,
+          "same_idea": false,
+          "ids": [
+            "1094"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "656",
+          "idea": "idea-656",
+          "point": "Hráč s omezeným kapitálem může při dlouhé sérii sázek zkrachovat i ve hře bez zjevně nepříznivého jednotlivého kurzu.",
+          "type": "principle",
+          "tags": [
+            "probability",
+            "finance",
+            "limits"
+          ],
+          "score": 9.958,
+          "same_idea": false,
+          "ids": [
+            "656"
+          ]
+        },
+        {
+          "id": "978",
+          "idea": "idea-978",
+          "point": "Libero na volejbalovém mistrovství světa 1998 vyčlenilo obrannou specializaci s omezením útočných a blokařských činností.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 9.958,
+          "same_idea": false,
+          "ids": [
+            "978"
+          ]
+        },
+        {
+          "id": "980",
+          "idea": "idea-980",
+          "point": "Žluté a červené karty zavedené na MS 1970 zviditelnily napomenutí a vyloučení přes jazykové bariéry.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "communication"
+          ],
+          "score": 9.958,
+          "same_idea": false,
+          "ids": [
+            "980"
+          ]
+        },
+        {
+          "id": "1124",
+          "idea": "idea-1124",
+          "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 9.958,
+          "same_idea": false,
+          "ids": [
+            "1124"
+          ]
+        },
+        {
+          "id": "1125",
+          "idea": "idea-1125",
+          "point": "Při získání podání od soupeře volejbalové družstvo rotuje o jednu pozici po směru hodinových ručiček a tím se mění i přední a zadní role hráčů.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 9.958,
+          "same_idea": false,
+          "ids": [
+            "1125"
+          ]
+        },
+        {
+          "id": "697",
+          "idea": "idea-697",
+          "point": "Jednovrstvý perceptron neumí oddělit vstupy XOR jedinou lineární hranicí, což ukazuje omezení dané architektury.",
+          "type": "principle",
+          "tags": [
+            "artificial-intelligence",
+            "geometry",
+            "limits"
+          ],
+          "score": 9.156,
+          "same_idea": false,
+          "ids": [
+            "697"
+          ]
+        },
+        {
+          "id": "977",
+          "idea": "idea-977",
+          "point": "Časový limit útoku zavedený NBA v roce 1954 omezil možnost chránit náskok pouhým držením míče.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "incentives",
+            "modern-history"
+          ],
+          "score": 9.156,
+          "same_idea": false,
+          "ids": [
+            "977"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 8.143,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1145",
+      "candidates": [
+        {
+          "id": "990",
+          "idea": "idea-990",
+          "point": "Změna ofsajdu v roce 1925 snížila počet soupeřů potřebných mezi útočníkem a brankovou čárou ze tří na dva.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "change"
+          ],
+          "score": 14.937,
+          "same_idea": false,
+          "ids": [
+            "990"
+          ]
+        },
+        {
+          "id": "1124",
+          "idea": "idea-1124",
+          "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 12.666,
+          "same_idea": false,
+          "ids": [
+            "1124"
+          ]
+        },
+        {
+          "id": "1091",
+          "idea": "idea-1091",
+          "point": "Desetibojař získává body za absolutní výkon v každé disciplíně podle nelineárních tabulek, nikoli za umístění mezi soupeři.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mathematics"
+          ],
+          "score": 12.635,
+          "same_idea": false,
+          "ids": [
+            "1091"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 12.312,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "1039",
+          "idea": "idea-1039",
+          "point": "Cílová kamera sestavuje obraz z opakovaných úzkých záznamů cílové čáry, takže jeho vodorovná osa zachycuje čas místo vzdálenosti podél dráhy.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "innovation",
+            "knowledge-evidence"
+          ],
+          "score": 11.959,
+          "same_idea": false,
+          "ids": [
+            "1039"
+          ]
+        },
+        {
+          "id": "1122",
+          "idea": "idea-1122",
+          "point": "Pravidla NBA chrání sestupující střelu s možností skórovat před zásahem nad úrovní obroučky a při obranném porušení přiznávají body.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 10.928,
+          "same_idea": false,
+          "ids": [
+            "1122"
+          ]
+        },
+        {
+          "id": "649",
+          "idea": "idea-649",
+          "point": "Na kulové ploše nelze vytvořit všude nenulové spojité tečné vektorové pole bez víru či nulového místa.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "limits",
+            "patterns"
+          ],
+          "score": 10.333,
+          "same_idea": false,
+          "ids": [
+            "649"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 10.04,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "1089",
+          "idea": "idea-1089",
+          "point": "Ve sprintu se minutý terč trestá okruhem, zatímco v klasickém vytrvalostním biatlonovém závodě časovou přirážkou, takže formát mění cenu rizika.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "decision-making"
+          ],
+          "score": 10,
+          "same_idea": false,
+          "ids": [
+            "1089"
+          ]
+        },
+        {
+          "id": "977",
+          "idea": "idea-977",
+          "point": "Časový limit útoku zavedený NBA v roce 1954 omezil možnost chránit náskok pouhým držením míče.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "incentives",
+            "modern-history"
+          ],
+          "score": 9.863,
+          "same_idea": false,
+          "ids": [
+            "977"
+          ]
+        },
+        {
+          "id": "1120",
+          "idea": "idea-1120",
+          "point": "Ve fleretu a šavli rozhoduje při vzájemných zásazích také priorita šermířských akcí, zatímco kord pravidlo priority nepoužívá.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 9.863,
+          "same_idea": false,
+          "ids": [
+            "1120"
+          ]
+        },
+        {
+          "id": "391",
+          "idea": "idea-391",
+          "point": "Kigo v tradičním haiku ukotvuje báseň v ročním období a aktivuje sdílené kulturní asociace, které se mezi jazyky a místy nemusejí přenést beze změny.",
+          "type": "principle",
+          "tags": [
+            "literature",
+            "communication",
+            "patterns"
+          ],
+          "score": 9.196,
+          "same_idea": false,
+          "ids": [
+            "391"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1146",
+      "candidates": [
+        {
+          "id": "1121",
+          "idea": "idea-1121",
+          "point": "Ragby zakazuje přihrávku rukama vpřed a vymezuje ji dopředným pohybem paží přihrávajícího, takže útok kombinuje běh s příčnými či zpětnými přihrávkami.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 16.87,
+          "same_idea": false,
+          "ids": [
+            "1121"
+          ]
+        },
+        {
+          "id": "1118",
+          "idea": "idea-1118",
+          "point": "Platnost štafetové předávky určuje poloha celého kolíku v předávacím území od prvního dotyku přebírajícího po úplné převzetí.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 16.285,
+          "same_idea": false,
+          "ids": [
+            "1118"
+          ]
+        },
+        {
+          "id": "1119",
+          "idea": "idea-1119",
+          "point": "Závodní chůze vyžaduje lidským okem viditelný nepřerušený kontakt se zemí a napnutou postupující nohu od došlapu do svislé polohy.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 15.993,
+          "same_idea": false,
+          "ids": [
+            "1119"
+          ]
+        },
+        {
+          "id": "1089",
+          "idea": "idea-1089",
+          "point": "Ve sprintu se minutý terč trestá okruhem, zatímco v klasickém vytrvalostním biatlonovém závodě časovou přirážkou, takže formát mění cenu rizika.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "decision-making"
+          ],
+          "score": 14.064,
+          "same_idea": false,
+          "ids": [
+            "1089"
+          ]
+        },
+        {
+          "id": "1088",
+          "idea": "idea-1088",
+          "point": "Povinné střídání vnitřní a vnější dráhy při párovém rychlobruslení vyrovnává rozdílné délky oblouků.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 12.352,
+          "same_idea": false,
+          "ids": [
+            "1088"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 11.837,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "1124",
+          "idea": "idea-1124",
+          "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 11.675,
+          "same_idea": false,
+          "ids": [
+            "1124"
+          ]
+        },
+        {
+          "id": "409",
+          "idea": "idea-409",
+          "point": "Naismithův basketbal vznikl roku 1891 jako zimní hra v tělocvičně s fotbalovým míčem a skutečnými koši na broskve, přičemž původní pravidla zakazovala běh s míčem.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 10.935,
+          "same_idea": false,
+          "ids": [
+            "409"
+          ]
+        },
+        {
+          "id": "1009",
+          "idea": "idea-1009",
+          "point": "Millův princip újmy rozlišuje zásah kvůli ochraně druhých od donucování dospělého jen pro jeho vlastní dobro či kvůli pohoršení okolí.",
+          "type": "theory",
+          "tags": [
+            "political-philosophy",
+            "freedom"
+          ],
+          "score": 10.847,
+          "same_idea": false,
+          "ids": [
+            "1009"
+          ]
+        },
+        {
+          "id": "988",
+          "idea": "idea-988",
+          "point": "Velký odpor badmintonového míčku rychle snižuje jeho rychlost a vytváří dráhu odlišnou od letu běžného míče.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics"
+          ],
+          "score": 10.793,
+          "same_idea": false,
+          "ids": [
+            "988"
+          ]
+        },
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 10.673,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "1123",
+          "idea": "idea-1123",
+          "point": "Excentrické kladky mění průběh nátahové síly luku tak, že po překonání maxima může při plném nátahu klesnout síla potřebná k držení tětivy.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics"
+          ],
+          "score": 10.623,
+          "same_idea": false,
+          "ids": [
+            "1123"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1147",
+      "candidates": [
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 19.458,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "978",
+          "idea": "idea-978",
+          "point": "Libero na volejbalovém mistrovství světa 1998 vyčlenilo obrannou specializaci s omezením útočných a blokařských činností.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 15.852,
+          "same_idea": false,
+          "ids": [
+            "978"
+          ]
+        },
+        {
+          "id": "1094",
+          "idea": "idea-1094",
+          "point": "Lucky loser může po prohře v tenisové kvalifikaci obsadit uvolněné místo v hlavní soutěži podle pravidel pro náhradníky.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions"
+          ],
+          "score": 14.458,
+          "same_idea": false,
+          "ids": [
+            "1094"
+          ]
+        },
+        {
+          "id": "983",
+          "idea": "idea-983",
+          "point": "Délka maratonu 42,195 km byla standardizována roku 1921 podle londýnské olympijské trasy z roku 1908.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "patterns"
+          ],
+          "score": 13.403,
+          "same_idea": false,
+          "ids": [
+            "983"
+          ]
+        },
+        {
+          "id": "1126",
+          "idea": "idea-1126",
+          "point": "Individuální polohový závod řadí motýlek, znak, prsa a volný způsob, zatímco polohová štafeta začíná znakem kvůli jeho startu z vody.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "patterns"
+          ],
+          "score": 13.403,
+          "same_idea": false,
+          "ids": [
+            "1126"
+          ]
+        },
+        {
+          "id": "465",
+          "idea": "idea-465",
+          "point": "Warholova opakování spotřebních předmětů rozostřují hranici mezi jedinečným uměleckým dílem a masovým produktem.",
+          "type": "work",
+          "tags": [
+            "painting",
+            "communication",
+            "patterns"
+          ],
+          "score": 12.814,
+          "same_idea": false,
+          "ids": [
+            "465"
+          ]
+        },
+        {
+          "id": "1119",
+          "idea": "idea-1119",
+          "point": "Závodní chůze vyžaduje lidským okem viditelný nepřerušený kontakt se zemí a napnutou postupující nohu od došlapu do svislé polohy.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 12.807,
+          "same_idea": false,
+          "ids": [
+            "1119"
+          ]
+        },
+        {
+          "id": "240",
+          "idea": "idea-240",
+          "point": "Síťový efekt zvyšuje užitek služby s počtem dalších účastníků a může posilovat její převahu.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "social-networks",
+            "patterns"
+          ],
+          "score": 12.683,
+          "same_idea": false,
+          "ids": [
+            "240"
+          ]
+        },
+        {
+          "id": "1124",
+          "idea": "idea-1124",
+          "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 12.347,
+          "same_idea": false,
+          "ids": [
+            "1124"
+          ]
+        },
+        {
+          "id": "1030",
+          "idea": "idea-1030",
+          "point": "Kryptomnézie vzniká, když se vybaví dříve převzatý obsah bez vzpomínky na jeho původ a člověk jej mylně pokládá za vlastní nový nápad.",
+          "type": "principle",
+          "tags": [
+            "learning-memory",
+            "identity"
+          ],
+          "score": 12.34,
+          "same_idea": false,
+          "ids": [
+            "1030"
+          ]
+        },
+        {
+          "id": "119",
+          "idea": "idea-119",
+          "point": "Pavlovovo podmiňování ukazuje, že opakovaně spojený podnět může sám vyvolat dříve nepodmíněnou reakci.",
+          "type": "principle",
+          "tags": [
+            "learning-memory",
+            "patterns"
+          ],
+          "score": 12.206,
+          "same_idea": false,
+          "ids": [
+            "119"
+          ]
+        },
+        {
+          "id": "991",
+          "idea": "idea-991",
+          "point": "Žluté tenisové míčky byly do pravidel připuštěny roku 1972 kvůli viditelnosti v televizi; Wimbledon je přijal až roku 1986.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "communication",
+            "change"
+          ],
+          "score": 10.648,
+          "same_idea": false,
+          "ids": [
+            "991"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1148",
+      "candidates": [
+        {
+          "id": "1125",
+          "idea": "idea-1125",
+          "point": "Při získání podání od soupeře volejbalové družstvo rotuje o jednu pozici po směru hodinových ručiček a tím se mění i přední a zadní role hráčů.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 16.069,
+          "same_idea": false,
+          "ids": [
+            "1125"
+          ]
+        },
+        {
+          "id": "1087",
+          "idea": "idea-1087",
+          "point": "Přechod na bodování každé výměny odstranil u běžných setů podmínku vlastního podání pro získání bodu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "incentives"
+          ],
+          "score": 15.776,
+          "same_idea": false,
+          "ids": [
+            "1087"
+          ]
+        },
+        {
+          "id": "1124",
+          "idea": "idea-1124",
+          "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 13.894,
+          "same_idea": false,
+          "ids": [
+            "1124"
+          ]
+        },
+        {
+          "id": "655",
+          "idea": "idea-655",
+          "point": "Dokonalá a spřátelená čísla se vymezují zvláštními vztahy mezi číslem a součtem jeho vlastních dělitelů.",
+          "type": "principle",
+          "tags": [
+            "number-theory",
+            "patterns"
+          ],
+          "score": 13.11,
+          "same_idea": false,
+          "ids": [
+            "655"
+          ]
+        },
+        {
+          "id": "1121",
+          "idea": "idea-1121",
+          "point": "Ragby zakazuje přihrávku rukama vpřed a vymezuje ji dopředným pohybem paží přihrávajícího, takže útok kombinuje běh s příčnými či zpětnými přihrávkami.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 13.105,
+          "same_idea": false,
+          "ids": [
+            "1121"
+          ]
+        },
+        {
+          "id": "710",
+          "idea": "idea-710",
+          "point": "Collatzova domněnka má jednoduché opakované pravidlo, ale chybí důkaz, že každý kladný počátek dospěje k jedničce.",
+          "type": "open-question",
+          "tags": [
+            "number-theory",
+            "algorithms",
+            "uncertainty"
+          ],
+          "score": 12.274,
+          "same_idea": false,
+          "ids": [
+            "710"
+          ]
+        },
+        {
+          "id": "983",
+          "idea": "idea-983",
+          "point": "Délka maratonu 42,195 km byla standardizována roku 1921 podle londýnské olympijské trasy z roku 1908.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "patterns"
+          ],
+          "score": 12.175,
+          "same_idea": false,
+          "ids": [
+            "983"
+          ]
+        },
+        {
+          "id": "988",
+          "idea": "idea-988",
+          "point": "Velký odpor badmintonového míčku rychle snižuje jeho rychlost a vytváří dráhu odlišnou od letu běžného míče.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics"
+          ],
+          "score": 11.339,
+          "same_idea": false,
+          "ids": [
+            "988"
+          ]
+        },
+        {
+          "id": "821",
+          "idea": "idea-821",
+          "point": "Fourierův rozklad vyjadřuje vhodné složité signály jako kombinace jednoduchých periodických složek.",
+          "type": "principle",
+          "tags": [
+            "analysis",
+            "information-theory",
+            "patterns"
+          ],
+          "score": 11.227,
+          "same_idea": false,
+          "ids": [
+            "821"
+          ]
+        },
+        {
+          "id": "1096",
+          "idea": "idea-1096",
+          "point": "Metoda DLS upravuje cíl přerušeného kriketového zápasu podle kombinace zbývajících nadhozů a neztracených branek, nikoli jen poměrem času.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "algorithms",
+            "fairness"
+          ],
+          "score": 10.935,
+          "same_idea": false,
+          "ids": [
+            "1096"
+          ]
+        },
+        {
+          "id": "296",
+          "idea": "idea-296",
+          "point": "Satelitní navigace musí opravovat rychlost hodin o vlivy pohybu i gravitačního pole, jinak by narůstala chyba polohy.",
+          "type": "principle",
+          "tags": [
+            "relativity",
+            "spaceflight",
+            "innovation",
+            "einstein"
+          ],
+          "score": 10.853,
+          "same_idea": false,
+          "ids": [
+            "296"
+          ]
+        },
+        {
+          "id": "301",
+          "idea": "idea-301",
+          "point": "Rozmístění listů a semen může odpovídat zlatému úhlu a Fibonacciho vzorům s účinným zaplněním prostoru.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "geometry",
+            "patterns"
+          ],
+          "score": 10.426,
+          "same_idea": false,
+          "ids": [
+            "301"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1149",
+      "candidates": [
+        {
+          "id": "1122",
+          "idea": "idea-1122",
+          "point": "Pravidla NBA chrání sestupující střelu s možností skórovat před zásahem nad úrovní obroučky a při obranném porušení přiznávají body.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 23.451,
+          "same_idea": false,
+          "ids": [
+            "1122"
+          ]
+        },
+        {
+          "id": "1119",
+          "idea": "idea-1119",
+          "point": "Závodní chůze vyžaduje lidským okem viditelný nepřerušený kontakt se zemí a napnutou postupující nohu od došlapu do svislé polohy.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 19.031,
+          "same_idea": false,
+          "ids": [
+            "1119"
+          ]
+        },
+        {
+          "id": "986",
+          "idea": "idea-986",
+          "point": "Anglická taktika Bodyline v sérii 1932–33 spojila krátké rychlé míče na tělo s chytači na nožní straně a vyvolala spor o bezpečnost hry.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "fairness",
+            "modern-history"
+          ],
+          "score": 18.211,
+          "same_idea": false,
+          "ids": [
+            "986"
+          ]
+        },
+        {
+          "id": "1088",
+          "idea": "idea-1088",
+          "point": "Povinné střídání vnitřní a vnější dráhy při párovém rychlobruslení vyrovnává rozdílné délky oblouků.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 16.915,
+          "same_idea": false,
+          "ids": [
+            "1088"
+          ]
+        },
+        {
+          "id": "1120",
+          "idea": "idea-1120",
+          "point": "Ve fleretu a šavli rozhoduje při vzájemných zásazích také priorita šermířských akcí, zatímco kord pravidlo priority nepoužívá.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 16.244,
+          "same_idea": false,
+          "ids": [
+            "1120"
+          ]
+        },
+        {
+          "id": "1096",
+          "idea": "idea-1096",
+          "point": "Metoda DLS upravuje cíl přerušeného kriketového zápasu podle kombinace zbývajících nadhozů a neztracených branek, nikoli jen poměrem času.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "algorithms",
+            "fairness"
+          ],
+          "score": 15.235,
+          "same_idea": false,
+          "ids": [
+            "1096"
+          ]
+        },
+        {
+          "id": "1124",
+          "idea": "idea-1124",
+          "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 15.235,
+          "same_idea": false,
+          "ids": [
+            "1124"
+          ]
+        },
+        {
+          "id": "1070",
+          "idea": "idea-1070",
+          "point": "Tříbodová čára přijatá NBA pro sezonu 1979–80 změnila bodovou odměnu střel podle vzdálenosti a tím i jejich strategickou hodnotu.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "incentives",
+            "change"
+          ],
+          "score": 14.736,
+          "same_idea": false,
+          "ids": [
+            "1070"
+          ]
+        },
+        {
+          "id": "1126",
+          "idea": "idea-1126",
+          "point": "Individuální polohový závod řadí motýlek, znak, prsa a volný způsob, zatímco polohová štafeta začíná znakem kvůli jeho startu z vody.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "patterns"
+          ],
+          "score": 14.501,
+          "same_idea": false,
+          "ids": [
+            "1126"
+          ]
+        },
+        {
+          "id": "988",
+          "idea": "idea-988",
+          "point": "Velký odpor badmintonového míčku rychle snižuje jeho rychlost a vytváří dráhu odlišnou od letu běžného míče.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics"
+          ],
+          "score": 13.211,
+          "same_idea": false,
+          "ids": [
+            "988"
+          ]
+        },
+        {
+          "id": "1053",
+          "idea": "idea-1053",
+          "point": "Článek 4 Protokolu č. 7 chrání před opakováním trestního řízení za stejný skutek v témže státě po konečném rozhodnutí, s vymezenými výjimkami obnovy.",
+          "type": "principle",
+          "tags": [
+            "human-rights",
+            "fairness"
+          ],
+          "score": 13.078,
+          "same_idea": false,
+          "ids": [
+            "1053"
+          ]
+        },
+        {
+          "id": "1118",
+          "idea": "idea-1118",
+          "point": "Platnost štafetové předávky určuje poloha celého kolíku v předávacím území od prvního dotyku přebírajícího po úplné převzetí.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 12.392,
+          "same_idea": false,
+          "ids": [
+            "1118"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1150",
+      "candidates": [
+        {
+          "id": "378",
+          "idea": "idea-378",
+          "point": "Fosburyho olympijské vítězství roku 1968 ukázalo účinnost přechodu laťky zády a urychlilo proměnu techniky skoku do výšky.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "change"
+          ],
+          "score": 20.525,
+          "same_idea": false,
+          "ids": [
+            "378"
+          ]
+        },
+        {
+          "id": "1122",
+          "idea": "idea-1122",
+          "point": "Pravidla NBA chrání sestupující střelu s možností skórovat před zásahem nad úrovní obroučky a při obranném porušení přiznávají body.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 17.433,
+          "same_idea": false,
+          "ids": [
+            "1122"
+          ]
+        },
+        {
+          "id": "380",
+          "idea": "idea-380",
+          "point": "Bannisterovu první míli pod čtyři minuty v roce 1954 umožnila vedle jeho výkonu i plánovaná spolupráce vodičů Brashera a Chatawaye.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation",
+            "modern-history"
+          ],
+          "score": 16.769,
+          "same_idea": false,
+          "ids": [
+            "380"
+          ]
+        },
+        {
+          "id": "1093",
+          "idea": "idea-1093",
+          "point": "Pružná tyč při skoku dočasně ukládá energii rozběhu a odrazu do ohybu a vrací ji při narovnání, zatímco závodník dál aktivně pracuje.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics"
+          ],
+          "score": 16.189,
+          "same_idea": false,
+          "ids": [
+            "1093"
+          ]
+        },
+        {
+          "id": "1071",
+          "idea": "idea-1071",
+          "point": "Boklövova V-technika ve skoku na lyžích přinášela výhodu v letu navzdory původním srážkám za styl a pomohla změnit soutěžní normu.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "incentives"
+          ],
+          "score": 16.09,
+          "same_idea": false,
+          "ids": [
+            "1071"
+          ]
+        },
+        {
+          "id": "241",
+          "idea": "idea-241",
+          "point": "Aschovy pokusy ukázaly, že jednomyslná skupina může přimět člověka veřejně přijmout zjevně nesprávnou odpověď.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "decision-making"
+          ],
+          "score": 14.844,
+          "same_idea": false,
+          "ids": [
+            "241"
+          ]
+        },
+        {
+          "id": "1119",
+          "idea": "idea-1119",
+          "point": "Závodní chůze vyžaduje lidským okem viditelný nepřerušený kontakt se zemí a napnutou postupující nohu od došlapu do svislé polohy.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 13.518,
+          "same_idea": false,
+          "ids": [
+            "1119"
+          ]
+        },
+        {
+          "id": "1120",
+          "idea": "idea-1120",
+          "point": "Ve fleretu a šavli rozhoduje při vzájemných zásazích také priorita šermířských akcí, zatímco kord pravidlo priority nepoužívá.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 13.518,
+          "same_idea": false,
+          "ids": [
+            "1120"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 13.452,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "979",
+          "idea": "idea-979",
+          "point": "Posunutí těžiště mužského oštěpu o čtyři centimetry vpřed v roce 1986 podpořilo dopad špičkou a zahájilo novou řadu rekordů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "mechanics",
+            "change"
+          ],
+          "score": 12.313,
+          "same_idea": false,
+          "ids": [
+            "979"
+          ]
+        },
+        {
+          "id": "982",
+          "idea": "idea-982",
+          "point": "Motýlkový přenos paží původně patřil do závodů na prsa a teprve oddělení stylů vytvořilo samostatnou disciplínu.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation"
+          ],
+          "score": 12.313,
+          "same_idea": false,
+          "ids": [
+            "982"
+          ]
+        },
+        {
+          "id": "381",
+          "idea": "idea-381",
+          "point": "Efekt relativního věku vzniká při ročníkovém třídění sportovců, kdy vývojová výhoda starších dětí může ovlivnit výběr i další přístup k tréninku.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "development",
+            "fairness"
+          ],
+          "score": 11.467,
+          "same_idea": false,
+          "ids": [
+            "381"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1151",
+      "candidates": [
+        {
+          "id": "1124",
+          "idea": "idea-1124",
+          "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 24.039,
+          "same_idea": false,
+          "ids": [
+            "1124"
+          ]
+        },
+        {
+          "id": "1096",
+          "idea": "idea-1096",
+          "point": "Metoda DLS upravuje cíl přerušeného kriketového zápasu podle kombinace zbývajících nadhozů a neztracených branek, nikoli jen poměrem času.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "algorithms",
+            "fairness"
+          ],
+          "score": 20.708,
+          "same_idea": false,
+          "ids": [
+            "1096"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 20.069,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "381",
+          "idea": "idea-381",
+          "point": "Efekt relativního věku vzniká při ročníkovém třídění sportovců, kdy vývojová výhoda starších dětí může ovlivnit výběr i další přístup k tréninku.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "development",
+            "fairness"
+          ],
+          "score": 18.112,
+          "same_idea": false,
+          "ids": [
+            "381"
+          ]
+        },
+        {
+          "id": "978",
+          "idea": "idea-978",
+          "point": "Libero na volejbalovém mistrovství světa 1998 vyčlenilo obrannou specializaci s omezením útočných a blokařských činností.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 17.288,
+          "same_idea": false,
+          "ids": [
+            "978"
+          ]
+        },
+        {
+          "id": "1092",
+          "idea": "idea-1092",
+          "point": "Gundersenova metoda převádí rozdíly skokanských bodů na časové rozestupy pro následný běh, takže cílové pořadí určí vítěze celé soutěže.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "information-theory"
+          ],
+          "score": 15.51,
+          "same_idea": false,
+          "ids": [
+            "1092"
+          ]
+        },
+        {
+          "id": "1088",
+          "idea": "idea-1088",
+          "point": "Povinné střídání vnitřní a vnější dráhy při párovém rychlobruslení vyrovnává rozdílné délky oblouků.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 15.419,
+          "same_idea": false,
+          "ids": [
+            "1088"
+          ]
+        },
+        {
+          "id": "1120",
+          "idea": "idea-1120",
+          "point": "Ve fleretu a šavli rozhoduje při vzájemných zásazích také priorita šermířských akcí, zatímco kord pravidlo priority nepoužívá.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 15.372,
+          "same_idea": false,
+          "ids": [
+            "1120"
+          ]
+        },
+        {
+          "id": "1119",
+          "idea": "idea-1119",
+          "point": "Závodní chůze vyžaduje lidským okem viditelný nepřerušený kontakt se zemí a napnutou postupující nohu od došlapu do svislé polohy.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 14.978,
+          "same_idea": false,
+          "ids": [
+            "1119"
+          ]
+        },
+        {
+          "id": "1091",
+          "idea": "idea-1091",
+          "point": "Desetibojař získává body za absolutní výkon v každé disciplíně podle nelineárních tabulek, nikoli za umístění mezi soupeři.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mathematics"
+          ],
+          "score": 14.728,
+          "same_idea": false,
+          "ids": [
+            "1091"
+          ]
+        },
+        {
+          "id": "1089",
+          "idea": "idea-1089",
+          "point": "Ve sprintu se minutý terč trestá okruhem, zatímco v klasickém vytrvalostním biatlonovém závodě časovou přirážkou, takže formát mění cenu rizika.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "decision-making"
+          ],
+          "score": 14.524,
+          "same_idea": false,
+          "ids": [
+            "1089"
+          ]
+        },
+        {
+          "id": "1087",
+          "idea": "idea-1087",
+          "point": "Přechod na bodování každé výměny odstranil u běžných setů podmínku vlastního podání pro získání bodu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "incentives"
+          ],
+          "score": 13.955,
+          "same_idea": false,
+          "ids": [
+            "1087"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1152",
+      "candidates": [
+        {
+          "id": "381",
+          "idea": "idea-381",
+          "point": "Efekt relativního věku vzniká při ročníkovém třídění sportovců, kdy vývojová výhoda starších dětí může ovlivnit výběr i další přístup k tréninku.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "development",
+            "fairness"
+          ],
+          "score": 17.71,
+          "same_idea": false,
+          "ids": [
+            "381"
+          ]
+        },
+        {
+          "id": "1096",
+          "idea": "idea-1096",
+          "point": "Metoda DLS upravuje cíl přerušeného kriketového zápasu podle kombinace zbývajících nadhozů a neztracených branek, nikoli jen poměrem času.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "algorithms",
+            "fairness"
+          ],
+          "score": 15.813,
+          "same_idea": false,
+          "ids": [
+            "1096"
+          ]
+        },
+        {
+          "id": "1089",
+          "idea": "idea-1089",
+          "point": "Ve sprintu se minutý terč trestá okruhem, zatímco v klasickém vytrvalostním biatlonovém závodě časovou přirážkou, takže formát mění cenu rizika.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "decision-making"
+          ],
+          "score": 13.804,
+          "same_idea": false,
+          "ids": [
+            "1089"
+          ]
+        },
+        {
+          "id": "1087",
+          "idea": "idea-1087",
+          "point": "Přechod na bodování každé výměny odstranil u běžných setů podmínku vlastního podání pro získání bodu.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "incentives"
+          ],
+          "score": 13.738,
+          "same_idea": false,
+          "ids": [
+            "1087"
+          ]
+        },
+        {
+          "id": "1040",
+          "idea": "idea-1040",
+          "point": "Cyklista v závětří soupeře či spoluhráče čelí nižšímu odporu vzduchu, takže střídání na čele rozděluje energetickou cenu vedení skupiny.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation",
+            "resources"
+          ],
+          "score": 13.376,
+          "same_idea": false,
+          "ids": [
+            "1040"
+          ]
+        },
+        {
+          "id": "399",
+          "idea": "idea-399",
+          "point": "U Giffenova statku může zlevnění snížit poptávané množství, pokud u velmi omezeného rozpočtu převáží důchodový účinek nad substitucí.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "resources",
+            "decision-making"
+          ],
+          "score": 12.774,
+          "same_idea": false,
+          "ids": [
+            "399"
+          ]
+        },
+        {
+          "id": "1127",
+          "idea": "idea-1127",
+          "point": "Kormidelník závodní veslařské posádky nevesluje, ale řídí směr, vydává pokyny a koordinuje závodní strategii a výkon ostatních.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 12.547,
+          "same_idea": false,
+          "ids": [
+            "1127"
+          ]
+        },
+        {
+          "id": "640",
+          "idea": "idea-640",
+          "point": "Negativní informace a zkušenosti často působí na hodnocení a paměť silněji než srovnatelné pozitivní podněty.",
+          "type": "principle",
+          "tags": [
+            "cognitive-biases",
+            "perception",
+            "decision-making"
+          ],
+          "score": 12.009,
+          "same_idea": false,
+          "ids": [
+            "640"
+          ]
+        },
+        {
+          "id": "978",
+          "idea": "idea-978",
+          "point": "Libero na volejbalovém mistrovství světa 1998 vyčlenilo obrannou specializaci s omezením útočných a blokařských činností.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 11.466,
+          "same_idea": false,
+          "ids": [
+            "978"
+          ]
+        },
+        {
+          "id": "412",
+          "idea": "idea-412",
+          "point": "Tie-break nahrazuje pokračování setu rozhodováním po bodech; běžná varianta k sedmi bodům stále vyžaduje dvoubodový náskok, takže nemá pevný maximální počet výměn.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "institutions",
+            "patterns"
+          ],
+          "score": 11.373,
+          "same_idea": false,
+          "ids": [
+            "412"
+          ]
+        },
+        {
+          "id": "982",
+          "idea": "idea-982",
+          "point": "Motýlkový přenos paží původně patřil do závodů na prsa a teprve oddělení stylů vytvořilo samostatnou disciplínu.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation"
+          ],
+          "score": 10.86,
+          "same_idea": false,
+          "ids": [
+            "982"
+          ]
+        },
+        {
+          "id": "1071",
+          "idea": "idea-1071",
+          "point": "Boklövova V-technika ve skoku na lyžích přinášela výhodu v letu navzdory původním srážkám za styl a pomohla změnit soutěžní normu.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "innovation",
+            "incentives"
+          ],
+          "score": 10.86,
+          "same_idea": false,
+          "ids": [
+            "1071"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1153",
+      "candidates": [
+        {
+          "id": "1120",
+          "idea": "idea-1120",
+          "point": "Ve fleretu a šavli rozhoduje při vzájemných zásazích také priorita šermířských akcí, zatímco kord pravidlo priority nepoužívá.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "fairness"
+          ],
+          "score": 29.027,
+          "same_idea": false,
+          "ids": [
+            "1120"
+          ]
+        },
+        {
+          "id": "1125",
+          "idea": "idea-1125",
+          "point": "Při získání podání od soupeře volejbalové družstvo rotuje o jednu pozici po směru hodinových ručiček a tím se mění i přední a zadní role hráčů.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 19.214,
+          "same_idea": false,
+          "ids": [
+            "1125"
+          ]
+        },
+        {
+          "id": "234",
+          "idea": "idea-234",
+          "point": "Vítězství Deep Blue nad Kasparovem ukázalo sílu specializovaného výpočtu v šachu bez nutnosti obecné lidské inteligence.",
+          "type": "event",
+          "tags": [
+            "artificial-intelligence",
+            "algorithms",
+            "limits"
+          ],
+          "score": 17.337,
+          "same_idea": false,
+          "ids": [
+            "234"
+          ]
+        },
+        {
+          "id": "554",
+          "idea": "idea-554",
+          "point": "Rozdílná gravitační síla na různých částech tělesa může v blízkosti černé díry způsobit jeho extrémní protažení.",
+          "type": "principle",
+          "tags": [
+            "black-holes",
+            "mechanics",
+            "limits"
+          ],
+          "score": 14.887,
+          "same_idea": false,
+          "ids": [
+            "554"
+          ]
+        },
+        {
+          "id": "1118",
+          "idea": "idea-1118",
+          "point": "Platnost štafetové předávky určuje poloha celého kolíku v předávacím území od prvního dotyku přebírajícího po úplné převzetí.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 13.621,
+          "same_idea": false,
+          "ids": [
+            "1118"
+          ]
+        },
+        {
+          "id": "410",
+          "idea": "idea-410",
+          "point": "Ve vysoké nadmořské výšce nižší odpor vzduchu může pomoci sprintům, zatímco nižší parciální tlak kyslíku omezuje zejména vytrvalostní výkon.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "mechanics",
+            "limits"
+          ],
+          "score": 13.479,
+          "same_idea": false,
+          "ids": [
+            "410"
+          ]
+        },
+        {
+          "id": "184",
+          "idea": "idea-184",
+          "point": "Z pouhého popisu toho, co je, nelze bez dalšího normativního předpokladu odvodit, co má být.",
+          "type": "principle",
+          "tags": [
+            "ethics",
+            "logic",
+            "limits"
+          ],
+          "score": 13.077,
+          "same_idea": false,
+          "ids": [
+            "184"
+          ]
+        },
+        {
+          "id": "614",
+          "idea": "idea-614",
+          "point": "Při pádu v odporujícím prostředí může odpor vyrovnat tíhu, takže další zrychlování ustane.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "limits"
+          ],
+          "score": 11.973,
+          "same_idea": false,
+          "ids": [
+            "614"
+          ]
+        },
+        {
+          "id": "1086",
+          "idea": "idea-1086",
+          "point": "Zákaz chycení míče úmyslně kopnutého spoluhráčem zavedený roku 1992 omezil zdržování a zvýšil nároky na brankářovu hru nohama.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "change"
+          ],
+          "score": 11.973,
+          "same_idea": false,
+          "ids": [
+            "1086"
+          ]
+        },
+        {
+          "id": "978",
+          "idea": "idea-978",
+          "point": "Libero na volejbalovém mistrovství světa 1998 vyčlenilo obrannou specializaci s omezením útočných a blokařských činností.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "cooperation"
+          ],
+          "score": 11.82,
+          "same_idea": false,
+          "ids": [
+            "978"
+          ]
+        },
+        {
+          "id": "990",
+          "idea": "idea-990",
+          "point": "Změna ofsajdu v roce 1925 snížila počet soupeřů potřebných mezi útočníkem a brankovou čárou ze tří na dva.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "change"
+          ],
+          "score": 11.451,
+          "same_idea": false,
+          "ids": [
+            "990"
+          ]
+        },
+        {
+          "id": "1027",
+          "idea": "idea-1027",
+          "point": "V pasti likvidity u dolní meze krátkých sazeb slábne běžná stimulace jejich dalším snižováním, což neznamená neúčinnost všech nástrojů měnové politiky.",
+          "type": "principle",
+          "tags": [
+            "macroeconomics",
+            "finance",
+            "limits"
+          ],
+          "score": 11.133,
+          "same_idea": false,
+          "ids": [
+            "1027"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1154",
+      "candidates": [
+        {
+          "id": "476",
+          "idea": "idea-476",
+          "point": "Pigouovské zdanění má promítnout náklady škodící třetím osobám do rozhodování původce externality.",
+          "type": "theory",
+          "tags": [
+            "microeconomics",
+            "ecology",
+            "incentives"
+          ],
+          "score": 25.611,
+          "same_idea": false,
+          "ids": [
+            "476"
+          ]
+        },
+        {
+          "id": "1028",
+          "idea": "idea-1028",
+          "point": "Cenová diskriminace využívá rozdílnou ochotu skupin platit za stejný statek a její udržení vyžaduje omezit přesun levnější nabídky mezi skupinami.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "incentives"
+          ],
+          "score": 25.314,
+          "same_idea": false,
+          "ids": [
+            "1028"
+          ]
+        },
+        {
+          "id": "752",
+          "idea": "idea-752",
+          "point": "Akerlofův trh s ojetinami ukazuje, jak rozdílné informace o kvalitě mohou vytlačovat kvalitní nabídky z trhu.",
+          "type": "theory",
+          "tags": [
+            "microeconomics",
+            "privacy",
+            "incentives"
+          ],
+          "score": 17.719,
+          "same_idea": false,
+          "ids": [
+            "752"
+          ]
+        },
+        {
+          "id": "50",
+          "idea": "idea-8",
+          "point": "Smithova neviditelná ruka vysvětluje, jak může sledování vlastního zájmu za určitých podmínek přispět ke společnému prospěchu.",
+          "type": "theory",
+          "tags": [
+            "microeconomics",
+            "cooperation",
+            "adam-smith"
+          ],
+          "score": 17.561,
+          "same_idea": false,
+          "ids": [
+            "8",
+            "50",
+            "105"
+          ]
+        },
+        {
+          "id": "943",
+          "idea": "idea-943",
+          "point": "Morální hazard nastává, když ochrana před částí následků oslabuje pobídku předcházet riziku a toto jednání nelze plně kontrolovat.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "incentives",
+            "uncertainty"
+          ],
+          "score": 15.995,
+          "same_idea": false,
+          "ids": [
+            "943"
+          ]
+        },
+        {
+          "id": "867",
+          "idea": "idea-867",
+          "point": "Velikost koalice potřebné k udržení vládce mění výhodnost soukromých odměn podporovatelům oproti veřejným službám.",
+          "type": "theory",
+          "tags": [
+            "political-science",
+            "institutions",
+            "incentives"
+          ],
+          "score": 15.258,
+          "same_idea": false,
+          "ids": [
+            "867"
+          ]
+        },
+        {
+          "id": "709",
+          "idea": "idea-709",
+          "point": "Veblenova demonstrativní spotřeba využívá drahé a viditelné statky jako signál společenského postavení.",
+          "type": "theory",
+          "tags": [
+            "microeconomics",
+            "sociology",
+            "identity"
+          ],
+          "score": 14.468,
+          "same_idea": false,
+          "ids": [
+            "709"
+          ]
+        },
+        {
+          "id": "1060",
+          "idea": "idea-1060",
+          "point": "Pavučinový model ukazuje, že výroba reagující se zpožděním na předchozí cenu může vytvářet střídání přebytků a nedostatků i bez opakovaných vnějších šoků.",
+          "type": "theory",
+          "tags": [
+            "microeconomics",
+            "uncertainty"
+          ],
+          "score": 14.319,
+          "same_idea": false,
+          "ids": [
+            "1060"
+          ]
+        },
+        {
+          "id": "475",
+          "idea": "idea-475",
+          "point": "Lafferova křivka rozlišuje výši daňové sazby od celkového výnosu a nepředepisuje univerzální optimální sazbu.",
+          "type": "theory",
+          "tags": [
+            "macroeconomics",
+            "incentives",
+            "resources"
+          ],
+          "score": 13.962,
+          "same_idea": false,
+          "ids": [
+            "475"
+          ]
+        },
+        {
+          "id": "481",
+          "idea": "idea-481",
+          "point": "Užitek další jednotky stejného statku při rostoucí spotřebě zpravidla klesá.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "resources"
+          ],
+          "score": 13.084,
+          "same_idea": false,
+          "ids": [
+            "481"
+          ]
+        },
+        {
+          "id": "157",
+          "idea": "idea-157",
+          "point": "Smithova dělba práce zvyšuje produktivitu specializací, nácvikem a omezením přechodů mezi úkony.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "organizations",
+            "adam-smith"
+          ],
+          "score": 12.379,
+          "same_idea": false,
+          "ids": [
+            "157"
+          ]
+        },
+        {
+          "id": "92",
+          "idea": "idea-92",
+          "point": "Obchod může prospívat oběma stranám, když se specializují podle relativních nákladů i při rozdílné celkové výkonnosti.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "cooperation",
+            "resources"
+          ],
+          "score": 12.247,
+          "same_idea": false,
+          "ids": [
+            "92"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1155",
+      "candidates": [
+        {
+          "id": "399",
+          "idea": "idea-399",
+          "point": "U Giffenova statku může zlevnění snížit poptávané množství, pokud u velmi omezeného rozpočtu převáží důchodový účinek nad substitucí.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "resources",
+            "decision-making"
+          ],
+          "score": 18.257,
+          "same_idea": false,
+          "ids": [
+            "399"
+          ]
+        },
+        {
+          "id": "1040",
+          "idea": "idea-1040",
+          "point": "Cyklista v závětří soupeře či spoluhráče čelí nižšímu odporu vzduchu, takže střídání na čele rozděluje energetickou cenu vedení skupiny.",
+          "type": "principle",
+          "tags": [
+            "sport",
+            "cooperation",
+            "resources"
+          ],
+          "score": 13.025,
+          "same_idea": false,
+          "ids": [
+            "1040"
+          ]
+        },
+        {
+          "id": "472",
+          "idea": "idea-472",
+          "point": "Paradox vody a diamantů rozlišuje celkovou užitečnost statku od užitku jeho další dostupné jednotky.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "resources",
+            "decision-making"
+          ],
+          "score": 12.65,
+          "same_idea": false,
+          "ids": [
+            "472"
+          ]
+        },
+        {
+          "id": "331",
+          "idea": "idea-331",
+          "point": "Gadamerovo splývání horizontů označuje proměnu porozumění při setkání vlastních historických předpokladů s nárokem textu či druhého člověka.",
+          "type": "theory",
+          "tags": [
+            "modern-philosophy",
+            "communication",
+            "perceived-reality"
+          ],
+          "score": 11.889,
+          "same_idea": false,
+          "ids": [
+            "331"
+          ]
+        },
+        {
+          "id": "810",
+          "idea": "idea-810",
+          "point": "Olson vysvětluje obtížnou mobilizaci velkých skupin společným prospěchem dostupným i lidem, kteří k němu nepřispějí.",
+          "type": "theory",
+          "tags": [
+            "institutions",
+            "organizations",
+            "cooperation"
+          ],
+          "score": 11.629,
+          "same_idea": false,
+          "ids": [
+            "810"
+          ]
+        },
+        {
+          "id": "1028",
+          "idea": "idea-1028",
+          "point": "Cenová diskriminace využívá rozdílnou ochotu skupin platit za stejný statek a její udržení vyžaduje omezit přesun levnější nabídky mezi skupinami.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "incentives"
+          ],
+          "score": 10.935,
+          "same_idea": false,
+          "ids": [
+            "1028"
+          ]
+        },
+        {
+          "id": "943",
+          "idea": "idea-943",
+          "point": "Morální hazard nastává, když ochrana před částí následků oslabuje pobídku předcházet riziku a toto jednání nelze plně kontrolovat.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "incentives",
+            "uncertainty"
+          ],
+          "score": 10.703,
+          "same_idea": false,
+          "ids": [
+            "943"
+          ]
+        },
+        {
+          "id": "889",
+          "idea": "idea-889",
+          "point": "Plně homomorfní šifrování umožňuje počítat nad šifrovanými vstupy a práce z roku 2026 zrychlila konkrétní kryptografické jádro.",
+          "type": "discovery",
+          "tags": [
+            "cryptography",
+            "artificial-intelligence",
+            "privacy"
+          ],
+          "score": 10.425,
+          "same_idea": false,
+          "ids": [
+            "889"
+          ]
+        },
+        {
+          "id": "463",
+          "idea": "idea-463",
+          "point": "Michelangelo proměnil dříve odmítnutý mramorový blok ve sochu Davida.",
+          "type": "work",
+          "tags": [
+            "sculpture",
+            "resources",
+            "innovation"
+          ],
+          "score": 10.312,
+          "same_idea": false,
+          "ids": [
+            "463"
+          ]
+        },
+        {
+          "id": "825",
+          "idea": "idea-825",
+          "point": "Molekuly mýdla propojují vodomilnou a tukomilnou část a umožňují odnést mastnotu ve strukturách rozpustných ve vodním prostředí.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "public-health",
+            "resources"
+          ],
+          "score": 10.173,
+          "same_idea": false,
+          "ids": [
+            "825"
+          ]
+        },
+        {
+          "id": "1052",
+          "idea": "idea-1052",
+          "point": "Participativní rozpočet zapojuje obyvatele do určování priorit veřejných výdajů, přičemž rozsah rozhodování závisí na pravidlech a vyčleněných penězích.",
+          "type": "principle",
+          "tags": [
+            "democracy",
+            "institutions",
+            "resources"
+          ],
+          "score": 10.173,
+          "same_idea": false,
+          "ids": [
+            "1052"
+          ]
+        },
+        {
+          "id": "502",
+          "idea": "idea-502",
+          "point": "Jenner využil souvislost kravských neštovic s ochranou před pravými neštovicemi k rozvoji očkování.",
+          "type": "discovery",
+          "tags": [
+            "public-health",
+            "microbiology",
+            "innovation"
+          ],
+          "score": 10.145,
+          "same_idea": false,
+          "ids": [
+            "502"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1156",
+      "candidates": [
+        {
+          "id": "306",
+          "idea": "idea-306",
+          "point": "Zimbabwská hyperinflace ukazuje rozpad kupní síly peněz při hospodářské a měnové krizi.",
+          "type": "event",
+          "tags": [
+            "economic-history",
+            "macroeconomics",
+            "uncertainty"
+          ],
+          "score": 17.997,
+          "same_idea": false,
+          "ids": [
+            "306"
+          ]
+        },
+        {
+          "id": "302",
+          "idea": "idea-302",
+          "point": "Důkaz věty o čtyřech barvách využil počítačovou kontrolu rozsáhlého konečného souboru případů.",
+          "type": "discovery",
+          "tags": [
+            "combinatorics",
+            "algorithms",
+            "knowledge-evidence"
+          ],
+          "score": 13.973,
+          "same_idea": false,
+          "ids": [
+            "302"
+          ]
+        },
+        {
+          "id": "1061",
+          "idea": "idea-1061",
+          "point": "Surovinový boom může reálným zhodnocením měny a přesunem zdrojů oslabit ostatní obchodovatelná odvětví, což se označuje jako holandská nemoc.",
+          "type": "theory",
+          "tags": [
+            "macroeconomics",
+            "economic-history",
+            "resources"
+          ],
+          "score": 12.774,
+          "same_idea": false,
+          "ids": [
+            "1061"
+          ]
+        },
+        {
+          "id": "401",
+          "idea": "idea-401",
+          "point": "Krátké přerušení mezi verzemi scény může skrýt i velkou změnu potlačením místních pohybových vodítek; cílená pozornost její rozpoznání usnadňuje.",
+          "type": "discovery",
+          "tags": [
+            "perception",
+            "knowledge-evidence"
+          ],
+          "score": 12.632,
+          "same_idea": false,
+          "ids": [
+            "401"
+          ]
+        },
+        {
+          "id": "60",
+          "idea": "idea-60",
+          "point": "Monetaristický pohled spojuje dlouhodobou inflaci s růstem množství peněz rychlejším než reálná produkce.",
+          "type": "theory",
+          "tags": [
+            "macroeconomics",
+            "incentives"
+          ],
+          "score": 12.571,
+          "same_idea": false,
+          "ids": [
+            "60"
+          ]
+        },
+        {
+          "id": "753",
+          "idea": "idea-753",
+          "point": "Baumolova nákladová nemoc vysvětluje růst relativních nákladů práce v oborech s pomalým zvyšováním produktivity.",
+          "type": "principle",
+          "tags": [
+            "macroeconomics",
+            "resources",
+            "change"
+          ],
+          "score": 12.571,
+          "same_idea": false,
+          "ids": [
+            "753"
+          ]
+        },
+        {
+          "id": "303",
+          "idea": "idea-303",
+          "point": "V mnoha přirozených číselných souborech se první číslice nevyskytují rovnoměrně, což popisuje Benfordův zákon.",
+          "type": "principle",
+          "tags": [
+            "statistics",
+            "patterns",
+            "knowledge-evidence"
+          ],
+          "score": 12.357,
+          "same_idea": false,
+          "ids": [
+            "303"
+          ]
+        },
+        {
+          "id": "376",
+          "idea": "idea-376",
+          "point": "Roční studie u lidí s obezitou neprokázala významně větší úbytek hmotnosti přidáním osmihodinového jídelního okna ke kalorickému omezení.",
+          "type": "discovery",
+          "tags": [
+            "nutrition",
+            "wellbeing",
+            "knowledge-evidence"
+          ],
+          "score": 12.066,
+          "same_idea": false,
+          "ids": [
+            "376"
+          ]
+        },
+        {
+          "id": "157",
+          "idea": "idea-157",
+          "point": "Smithova dělba práce zvyšuje produktivitu specializací, nácvikem a omezením přechodů mezi úkony.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "organizations",
+            "adam-smith"
+          ],
+          "score": 10.949,
+          "same_idea": false,
+          "ids": [
+            "157"
+          ]
+        },
+        {
+          "id": "229",
+          "idea": "idea-229",
+          "point": "Cantor rozlišil různé velikosti nekonečných množin a ukázal, že některé nelze očíslovat přirozenými čísly.",
+          "type": "principle",
+          "tags": [
+            "analysis",
+            "logic",
+            "limits"
+          ],
+          "score": 10.664,
+          "same_idea": false,
+          "ids": [
+            "229"
+          ]
+        },
+        {
+          "id": "70",
+          "idea": "idea-70",
+          "point": "Při nuceném stejném kurzu lidé utrácejí méně hodnotné peníze a hodnotnější si ponechávají.",
+          "type": "principle",
+          "tags": [
+            "macroeconomics",
+            "incentives"
+          ],
+          "score": 10.426,
+          "same_idea": false,
+          "ids": [
+            "70"
+          ]
+        },
+        {
+          "id": "305",
+          "idea": "idea-305",
+          "point": "Big Mac index porovnává ceny podobného výrobku jako zjednodušené vodítko kupní síly měn.",
+          "type": "principle",
+          "tags": [
+            "macroeconomics",
+            "perceived-reality"
+          ],
+          "score": 10.426,
+          "same_idea": false,
+          "ids": [
+            "305"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1157",
+      "candidates": [
+        {
+          "id": "1",
+          "idea": "idea-1",
+          "point": "Když všichni současně omezí spotřebu a více spoří, pokles příjmů může snížit celkové úspory společnosti.",
+          "type": "principle",
+          "tags": [
+            "macroeconomics",
+            "resources",
+            "keynes"
+          ],
+          "score": 15.489,
+          "same_idea": false,
+          "ids": [
+            "1",
+            "81"
+          ]
+        },
+        {
+          "id": "20",
+          "idea": "idea-20",
+          "point": "Výmarská hyperinflace znehodnotila německé peníze a narušila úspory i každodenní hospodářský život.",
+          "type": "event",
+          "tags": [
+            "economic-history",
+            "macroeconomics",
+            "uncertainty"
+          ],
+          "score": 13.116,
+          "same_idea": false,
+          "ids": [
+            "20"
+          ]
+        },
+        {
+          "id": "360",
+          "idea": "idea-360",
+          "point": "Kant roku 1784 rozlišuje služební užití rozumu v přidělené roli od svobodného veřejného rozvažování určeného čtenářské obci.",
+          "type": "theory",
+          "tags": [
+            "modern-philosophy",
+            "political-philosophy",
+            "freedom"
+          ],
+          "score": 12.663,
+          "same_idea": false,
+          "ids": [
+            "360"
+          ]
+        },
+        {
+          "id": "1068",
+          "idea": "idea-1068",
+          "point": "DNS ukládá odpovědi do mezipaměti s časovou platností TTL, takže různé resolvery mohou po změně dočasně vracet různé adresy.",
+          "type": "principle",
+          "tags": [
+            "networks",
+            "resilience"
+          ],
+          "score": 12.594,
+          "same_idea": false,
+          "ids": [
+            "1068"
+          ]
+        },
+        {
+          "id": "283",
+          "idea": "idea-283",
+          "point": "Švýcarský systém kombinuje zastupitelskou politiku s referendy a občanskými iniciativami.",
+          "type": "principle",
+          "tags": [
+            "democracy",
+            "decision-making"
+          ],
+          "score": 12.476,
+          "same_idea": false,
+          "ids": [
+            "283"
+          ]
+        },
+        {
+          "id": "487",
+          "idea": "idea-487",
+          "point": "Sametová revoluce vedla masovým občanským tlakem k pádu komunistické vlády v Československu.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "democracy",
+            "freedom"
+          ],
+          "score": 11.713,
+          "same_idea": false,
+          "ids": [
+            "487"
+          ]
+        },
+        {
+          "id": "498",
+          "idea": "idea-498",
+          "point": "Jednoduchá lokální pravidla Conwayovy Hry života vytvářejí složité a pohyblivé globální struktury.",
+          "type": "principle",
+          "tags": [
+            "algorithms",
+            "combinatorics",
+            "patterns"
+          ],
+          "score": 11.283,
+          "same_idea": false,
+          "ids": [
+            "498"
+          ]
+        },
+        {
+          "id": "432",
+          "idea": "idea-432",
+          "point": "Úsporné dvouciferné ukládání roku vytvořilo riziko chyb při přechodu do roku 2000 a vyvolalo rozsáhlé opravy systémů.",
+          "type": "event",
+          "tags": [
+            "programming",
+            "computer-history",
+            "resilience"
+          ],
+          "score": 11.065,
+          "same_idea": false,
+          "ids": [
+            "432"
+          ]
+        },
+        {
+          "id": "530",
+          "idea": "idea-530",
+          "point": "Římské nájemní domy a požární sbory ukazují rizika i správní řešení života v hustě obydleném městě.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "architecture",
+            "resilience",
+            "roman-empire"
+          ],
+          "score": 11.065,
+          "same_idea": false,
+          "ids": [
+            "530"
+          ]
+        },
+        {
+          "id": "30",
+          "idea": "idea-30",
+          "point": "Nákladem volby je také hodnota nejlepší možnosti, které se kvůli ní vzdáme.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "decision-making",
+            "resources"
+          ],
+          "score": 10.585,
+          "same_idea": false,
+          "ids": [
+            "30"
+          ]
+        },
+        {
+          "id": "186",
+          "idea": "idea-186",
+          "point": "Rawlsův závoj nevědomosti vybírá pravidla společnosti bez znalosti vlastního budoucího postavení.",
+          "type": "theory",
+          "tags": [
+            "political-philosophy",
+            "fairness",
+            "decision-making"
+          ],
+          "score": 10.432,
+          "same_idea": false,
+          "ids": [
+            "186"
+          ]
+        },
+        {
+          "id": "475",
+          "idea": "idea-475",
+          "point": "Lafferova křivka rozlišuje výši daňové sazby od celkového výnosu a nepředepisuje univerzální optimální sazbu.",
+          "type": "theory",
+          "tags": [
+            "macroeconomics",
+            "incentives",
+            "resources"
+          ],
+          "score": 10.426,
+          "same_idea": false,
+          "ids": [
+            "475"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1158",
+      "candidates": [
+        {
+          "id": "1032",
+          "idea": "idea-1032",
+          "point": "Klasická dokreslovačka kombinuje namalovanou část prostředí s hranou akcí a nahrazuje tak stavbu celého prostoru před kamerou.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "painting",
+            "perceived-reality"
+          ],
+          "score": 20.607,
+          "same_idea": false,
+          "ids": [
+            "1032"
+          ]
+        },
+        {
+          "id": "1105",
+          "idea": "idea-1105",
+          "point": "Světlo vytváří v halogenidech stříbra zárodky latentního obrazu, které vývojka zesílí na kovové stříbro; ustalovač odstraní zbývající halogenidy.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "optics",
+            "preservation"
+          ],
+          "score": 18.258,
+          "same_idea": false,
+          "ids": [
+            "1105"
+          ]
+        },
+        {
+          "id": "731",
+          "idea": "idea-731",
+          "point": "Dolly zoom kombinuje pohyb kamery se změnou ohniska a mění perspektivu pozadí při podobné velikosti hlavní postavy.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "optics",
+            "perception"
+          ],
+          "score": 16.209,
+          "same_idea": false,
+          "ids": [
+            "731"
+          ]
+        },
+        {
+          "id": "785",
+          "idea": "idea-785",
+          "point": "Kubrick pro scény při svíčkách využil mimořádně světelné objektivy a přizpůsobenou kamerovou techniku.",
+          "type": "work",
+          "tags": [
+            "film-technique",
+            "optics",
+            "innovation"
+          ],
+          "score": 15.724,
+          "same_idea": false,
+          "ids": [
+            "785"
+          ]
+        },
+        {
+          "id": "461",
+          "idea": "idea-461",
+          "point": "Chroma key odděluje předem zvolenou barvu pozadí a umožňuje spojovat postavu s jiným obrazem.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "optics",
+            "innovation"
+          ],
+          "score": 14.757,
+          "same_idea": false,
+          "ids": [
+            "461"
+          ]
+        },
+        {
+          "id": "1100",
+          "idea": "idea-1100",
+          "point": "Třípásový Technicolor pořizoval tři oddělené černobílé barevné výtažky, ze kterých se připravovaly matrice pro přenos barviv do výsledné kopie.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "innovation"
+          ],
+          "score": 14.104,
+          "same_idea": false,
+          "ids": [
+            "1100"
+          ]
+        },
+        {
+          "id": "1065",
+          "idea": "idea-1065",
+          "point": "Dělený střih posouvá přechod zvuku vůči přechodu obrazu a umožňuje slyšet další scénu před jejím obrazem či doznívat předchozí scénu přes nový záběr.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "sound",
+            "communication"
+          ],
+          "score": 13.873,
+          "same_idea": false,
+          "ids": [
+            "1065"
+          ]
+        },
+        {
+          "id": "1099",
+          "idea": "idea-1099",
+          "point": "Vynucená perspektiva využívá různé vzdálenosti a měřítka dekorací k tomu, aby herci běžné výšky působili v jednom záběru různě velcí.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "optics",
+            "perceived-reality"
+          ],
+          "score": 13.511,
+          "same_idea": false,
+          "ids": [
+            "1099"
+          ]
+        },
+        {
+          "id": "448",
+          "idea": "idea-448",
+          "point": "Namodralý vzhled žil nevypovídá o modré krvi, ale o průchodu a odrazu světla v kůži.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "medicine",
+            "perception"
+          ],
+          "score": 12.997,
+          "same_idea": false,
+          "ids": [
+            "448"
+          ]
+        },
+        {
+          "id": "845",
+          "idea": "idea-845",
+          "point": "Příliv amerického stříbra do Evropy přispěl k růstu cen a ukázal vztah mezi množstvím peněz a jejich kupní silou.",
+          "type": "principle",
+          "tags": [
+            "economic-history",
+            "macroeconomics",
+            "change"
+          ],
+          "score": 12.334,
+          "same_idea": false,
+          "ids": [
+            "845"
+          ]
+        },
+        {
+          "id": "280",
+          "idea": "idea-280",
+          "point": "Omezené fungování mechanického žraloka přispělo v Čelistech k napětí založenému na jeho nepřítomném či částečném zobrazení.",
+          "type": "work",
+          "tags": [
+            "film-technique",
+            "resources"
+          ],
+          "score": 11.928,
+          "same_idea": false,
+          "ids": [
+            "280"
+          ]
+        },
+        {
+          "id": "892",
+          "idea": "idea-892",
+          "point": "Pravidlo osy zachovává při střihu prostorovou orientaci postav a směr pohledů tím, že kamera zůstává na stejné straně děje.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "geometry",
+            "perception"
+          ],
+          "score": 11.928,
+          "same_idea": false,
+          "ids": [
+            "892"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1159",
+      "candidates": [
+        {
+          "id": "1032",
+          "idea": "idea-1032",
+          "point": "Klasická dokreslovačka kombinuje namalovanou část prostředí s hranou akcí a nahrazuje tak stavbu celého prostoru před kamerou.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "painting",
+            "perceived-reality"
+          ],
+          "score": 21.829,
+          "same_idea": false,
+          "ids": [
+            "1032"
+          ]
+        },
+        {
+          "id": "404",
+          "idea": "idea-404",
+          "point": "ADR nahrazuje nebo doplňuje dialog novou studiovou nahrávkou synchronizovanou s obrazem a hereckým výkonem z natáčení.",
+          "type": "principle",
+          "tags": [
+            "sound",
+            "film-technique",
+            "preservation"
+          ],
+          "score": 17.441,
+          "same_idea": false,
+          "ids": [
+            "404"
+          ]
+        },
+        {
+          "id": "1105",
+          "idea": "idea-1105",
+          "point": "Světlo vytváří v halogenidech stříbra zárodky latentního obrazu, které vývojka zesílí na kovové stříbro; ustalovač odstraní zbývající halogenidy.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "optics",
+            "preservation"
+          ],
+          "score": 16.91,
+          "same_idea": false,
+          "ids": [
+            "1105"
+          ]
+        },
+        {
+          "id": "1099",
+          "idea": "idea-1099",
+          "point": "Vynucená perspektiva využívá různé vzdálenosti a měřítka dekorací k tomu, aby herci běžné výšky působili v jednom záběru různě velcí.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "optics",
+            "perceived-reality"
+          ],
+          "score": 16.767,
+          "same_idea": false,
+          "ids": [
+            "1099"
+          ]
+        },
+        {
+          "id": "341",
+          "idea": "idea-341",
+          "point": "Obraz Doriana Graye odděluje nezměněný krásný zevnějšek od portrétu nesoucího mravní rozklad, aby vystavil rozpor společenského zdání a odpovědnosti.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "ethics",
+            "perceived-reality"
+          ],
+          "score": 16.24,
+          "same_idea": false,
+          "ids": [
+            "341"
+          ]
+        },
+        {
+          "id": "1031",
+          "idea": "idea-1031",
+          "point": "Němé filmy nemají jedinou univerzální správnou snímkovou rychlost a promítání odlišnou rychlostí mění tempo pohybu i délku díla.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "art-conservation",
+            "preservation"
+          ],
+          "score": 14.22,
+          "same_idea": false,
+          "ids": [
+            "1031"
+          ]
+        },
+        {
+          "id": "1128",
+          "idea": "idea-1128",
+          "point": "Zadní projekce promítá předem natočené pozadí zezadu na průsvitné plátno za herci a spojuje je s ním již při snímání kamerou.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "perceived-reality"
+          ],
+          "score": 14.139,
+          "same_idea": false,
+          "ids": [
+            "1128"
+          ]
+        },
+        {
+          "id": "920",
+          "idea": "idea-920",
+          "point": "Nitrocelulózový film podléhá chemickému rozkladu a snadno hoří, takže uchování filmů vyžaduje zvláštní péči o samotný nosič.",
+          "type": "principle",
+          "tags": [
+            "cinema",
+            "art-conservation",
+            "preservation"
+          ],
+          "score": 13.901,
+          "same_idea": false,
+          "ids": [
+            "920"
+          ]
+        },
+        {
+          "id": "683",
+          "idea": "idea-683",
+          "point": "Italský neorealismus využíval prostředí mimo studio a neprofesionální herce k odlišnému dojmu každodenní skutečnosti.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "perceived-reality"
+          ],
+          "score": 13.307,
+          "same_idea": false,
+          "ids": [
+            "683"
+          ]
+        },
+        {
+          "id": "405",
+          "idea": "idea-405",
+          "point": "Buffonova jehla protíná rovnoběžné čáry s pravděpodobností 2l/(pí·d) pro l nejvýše d při rovnoměrné nezávislé poloze a orientaci, což umožňuje odhad pí.",
+          "type": "principle",
+          "tags": [
+            "probability",
+            "geometry",
+            "patterns"
+          ],
+          "score": 13.001,
+          "same_idea": false,
+          "ids": [
+            "405"
+          ]
+        },
+        {
+          "id": "307",
+          "idea": "idea-307",
+          "point": "Kintsugi opravuje keramiku tak, že viditelně přiznává spoj a začleňuje poškození do podoby předmětu.",
+          "type": "principle",
+          "tags": [
+            "art-conservation",
+            "perceived-reality",
+            "preservation"
+          ],
+          "score": 12.753,
+          "same_idea": false,
+          "ids": [
+            "307"
+          ]
+        },
+        {
+          "id": "1065",
+          "idea": "idea-1065",
+          "point": "Dělený střih posouvá přechod zvuku vůči přechodu obrazu a umožňuje slyšet další scénu před jejím obrazem či doznívat předchozí scénu přes nový záběr.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "sound",
+            "communication"
+          ],
+          "score": 12.615,
+          "same_idea": false,
+          "ids": [
+            "1065"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1160",
+      "candidates": [
+        {
+          "id": "920",
+          "idea": "idea-920",
+          "point": "Nitrocelulózový film podléhá chemickému rozkladu a snadno hoří, takže uchování filmů vyžaduje zvláštní péči o samotný nosič.",
+          "type": "principle",
+          "tags": [
+            "cinema",
+            "art-conservation",
+            "preservation"
+          ],
+          "score": 20.628,
+          "same_idea": false,
+          "ids": [
+            "920"
+          ]
+        },
+        {
+          "id": "608",
+          "idea": "idea-608",
+          "point": "Bachtinův dialogismus a polyfonie chápou promluvy a románové hlasy jako vzájemně odpovídající, ale neredukovatelné na jedinou autoritu.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "identity"
+          ],
+          "score": 19.904,
+          "same_idea": false,
+          "ids": [
+            "608"
+          ]
+        },
+        {
+          "id": "734",
+          "idea": "idea-734",
+          "point": "Autorskoprávní spor o Nosferatu vedl k příkazu zničit kopie, ale dochované exempláře umožnily přežití filmu.",
+          "type": "event",
+          "tags": [
+            "cinema",
+            "law",
+            "preservation"
+          ],
+          "score": 18.358,
+          "same_idea": false,
+          "ids": [
+            "734"
+          ]
+        },
+        {
+          "id": "249",
+          "idea": "idea-249",
+          "point": "Japonské ukiyo-e ovlivnilo evropské malíře kompozicí, plochou barvou a neobvyklými výřezy.",
+          "type": "event",
+          "tags": [
+            "painting",
+            "communication",
+            "change"
+          ],
+          "score": 16.613,
+          "same_idea": false,
+          "ids": [
+            "249"
+          ]
+        },
+        {
+          "id": "456",
+          "idea": "idea-456",
+          "point": "Čaroděj ze země Oz využívá přechod ze sépiového zobrazení do barevného Technicoloru k vypravěčskému oddělení všedního světa a fantazie.",
+          "type": "work",
+          "tags": [
+            "cinema",
+            "perception",
+            "communication"
+          ],
+          "score": 16.206,
+          "same_idea": false,
+          "ids": [
+            "456"
+          ]
+        },
+        {
+          "id": "733",
+          "idea": "idea-733",
+          "point": "Bechdelův test používá jednoduché podmínky ženského dialogu jako omezené vodítko reprezentace, nikoli úplné měřítko kvality filmu.",
+          "type": "principle",
+          "tags": [
+            "cinema",
+            "sociology",
+            "fairness"
+          ],
+          "score": 15.08,
+          "same_idea": false,
+          "ids": [
+            "733"
+          ]
+        },
+        {
+          "id": "334",
+          "idea": "idea-334",
+          "point": "Ve vzorcích Ryugu dopravených sondou Hayabusa2 byl nalezen uracil, což dokládá mimozemskou organickou chemii, nikoli přítomnost RNA či organismů.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 14.833,
+          "same_idea": false,
+          "ids": [
+            "334"
+          ]
+        },
+        {
+          "id": "258",
+          "idea": "idea-258",
+          "point": "Rašomon staví proti sobě neslučitelné výpovědi o jedné události a zpochybňuje snadnou jistotu svědectví.",
+          "type": "work",
+          "tags": [
+            "cinema",
+            "knowledge-evidence",
+            "perceived-reality"
+          ],
+          "score": 14.705,
+          "same_idea": false,
+          "ids": [
+            "258"
+          ]
+        },
+        {
+          "id": "315",
+          "idea": "idea-315",
+          "point": "Chappeho optický telegraf předával kódované polohy ramen mezi viditelnými stanicemi, takže urychloval státní komunikaci, ale závisel na dohlednosti.",
+          "type": "principle",
+          "tags": [
+            "modern-history",
+            "communication",
+            "innovation"
+          ],
+          "score": 14.481,
+          "same_idea": false,
+          "ids": [
+            "315"
+          ]
+        },
+        {
+          "id": "454",
+          "idea": "idea-454",
+          "point": "Godzilla spojila příběh monstra s japonskou zkušeností jaderného ničení a obavami z radioaktivity.",
+          "type": "work",
+          "tags": [
+            "cinema",
+            "military-history",
+            "communication"
+          ],
+          "score": 14.477,
+          "same_idea": false,
+          "ids": [
+            "454"
+          ]
+        },
+        {
+          "id": "331",
+          "idea": "idea-331",
+          "point": "Gadamerovo splývání horizontů označuje proměnu porozumění při setkání vlastních historických předpokladů s nárokem textu či druhého člověka.",
+          "type": "theory",
+          "tags": [
+            "modern-philosophy",
+            "communication",
+            "perceived-reality"
+          ],
+          "score": 13.96,
+          "same_idea": false,
+          "ids": [
+            "331"
+          ]
+        },
+        {
+          "id": "1000",
+          "idea": "idea-1000",
+          "point": "Leitmotivy v Prstenu Nibelungově propojují hudbu s postavami, předměty a idejemi a jejich proměny vytvářejí vztahy napříč dějem.",
+          "type": "work",
+          "tags": [
+            "music",
+            "narratology",
+            "communication"
+          ],
+          "score": 13.872,
+          "same_idea": false,
+          "ids": [
+            "1000"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "1161",
+      "candidates": [
+        {
+          "id": "830",
+          "idea": "idea-830",
+          "point": "Zipfovo rozdělení popisuje přibližně nepřímý vztah mezi četností slova a jeho pořadím podle četnosti.",
+          "type": "principle",
+          "tags": [
+            "linguistics",
+            "statistics",
+            "patterns"
+          ],
+          "score": 14.782,
+          "same_idea": false,
+          "ids": [
+            "830"
+          ]
+        },
+        {
+          "id": "678",
+          "idea": "idea-678",
+          "point": "Ibn Chaldúnova asabíja spojuje vzestup a úpadek vládnoucích skupin se silou jejich soudržnosti.",
+          "type": "theory",
+          "tags": [
+            "sociology",
+            "political-science",
+            "cooperation"
+          ],
+          "score": 13.96,
+          "same_idea": false,
+          "ids": [
+            "678"
+          ]
+        },
+        {
+          "id": "509",
+          "idea": "idea-509",
+          "point": "Někteří živočichové využívají zemské magnetické pole jako smyslové vodítko pro orientaci.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "perception",
+            "patterns"
+          ],
+          "score": 13.159,
+          "same_idea": false,
+          "ids": [
+            "509"
+          ]
+        },
+        {
+          "id": "397",
+          "idea": "idea-397",
+          "point": "Proměnlivé slapové deformace Io při oběhu v gravitačně vázané soustavě Jupiterových měsíců přeměňují mechanickou energii na teplo pohánějící vulkanismus.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "mechanics",
+            "jupiter"
+          ],
+          "score": 11.692,
+          "same_idea": false,
+          "ids": [
+            "397"
+          ]
+        },
+        {
+          "id": "763",
+          "idea": "idea-763",
+          "point": "Transpozony ukázaly, že části genetické informace se mohou v genomu přesouvat a měnit jeho fungování.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "change",
+            "patterns"
+          ],
+          "score": 11.613,
+          "same_idea": false,
+          "ids": [
+            "763"
+          ]
+        },
+        {
+          "id": "498",
+          "idea": "idea-498",
+          "point": "Jednoduchá lokální pravidla Conwayovy Hry života vytvářejí složité a pohyblivé globální struktury.",
+          "type": "principle",
+          "tags": [
+            "algorithms",
+            "combinatorics",
+            "patterns"
+          ],
+          "score": 11.604,
+          "same_idea": false,
+          "ids": [
+            "498"
+          ]
+        },
+        {
+          "id": "664",
+          "idea": "idea-664",
+          "point": "Americký Civil Rights Act zakázal zásadní formy diskriminace a poskytl nástroje k prosazování občanské rovnosti.",
+          "type": "event",
+          "tags": [
+            "human-rights",
+            "fairness"
+          ],
+          "score": 11.351,
+          "same_idea": false,
+          "ids": [
+            "664"
+          ]
+        },
+        {
+          "id": "496",
+          "idea": "idea-496",
+          "point": "Deterministické chaotické systémy mohou být dlouhodobě obtížně předvídatelné kvůli citlivosti na počáteční podmínky.",
+          "type": "principle",
+          "tags": [
+            "analysis",
+            "uncertainty",
+            "patterns"
+          ],
+          "score": 11.045,
+          "same_idea": false,
+          "ids": [
+            "496"
+          ]
+        },
+        {
+          "id": "882",
+          "idea": "idea-882",
+          "point": "LHCb v roce 2025 pozoroval porušení kombinované symetrie CP také v rozpadech baryonů.",
+          "type": "discovery",
+          "tags": [
+            "particle-physics",
+            "patterns",
+            "knowledge-evidence"
+          ],
+          "score": 11.045,
+          "same_idea": false,
+          "ids": [
+            "882"
+          ]
+        },
+        {
+          "id": "726",
+          "idea": "idea-726",
+          "point": "Theofrastos systematicky popisoval a srovnával rostliny a pomáhal vytvářet botaniku jako samostatné zkoumání.",
+          "type": "discovery",
+          "tags": [
+            "botany",
+            "history-of-science",
+            "patterns"
+          ],
+          "score": 10.228,
+          "same_idea": false,
+          "ids": [
+            "726"
+          ]
+        },
+        {
+          "id": "872",
+          "idea": "idea-872",
+          "point": "Goffmanovo řízení dojmu rozlišuje veřejný výkon pro publikum od zákulisí, kde jej lidé připravují nebo odkládají.",
+          "type": "theory",
+          "tags": [
+            "sociology",
+            "social-psychology",
+            "identity"
+          ],
+          "score": 9.88,
+          "same_idea": false,
+          "ids": [
+            "872"
+          ]
+        },
+        {
+          "id": "649",
+          "idea": "idea-649",
+          "point": "Na kulové ploše nelze vytvořit všude nenulové spojité tečné vektorové pole bez víru či nulového místa.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "limits",
+            "patterns"
+          ],
+          "score": 9.876,
+          "same_idea": false,
+          "ids": [
+            "649"
+          ]
+        }
+      ]
+    }
+  ],
+  "semantic_approval": "required",
+  "snapshot": "59174e499050b4da3f6c55e453e95bd0941ad5117226068cf68c75be12e7b219",
+  "drafts_hash": "0ee96f5873e363255754cab9f1e703abf7e6acb538796562f6f404a6a993f360"
+}

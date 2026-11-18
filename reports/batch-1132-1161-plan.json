@@ -1,0 +1,546 @@
+{
+  "snapshot": "59174e499050b4da3f6c55e453e95bd0941ad5117226068cf68c75be12e7b219",
+  "catalog_reviewed": "59174e499050b4da3f6c55e453e95bd0941ad5117226068cf68c75be12e7b219",
+  "proposals": [
+    {
+      "id": "1132",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1132",
+        "point": "Svíticí tyčinka převádí energii chemické reakce na excitaci barviva a následné světlo bez elektrického napájení.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "633"
+      ],
+      "reason": "Biologická luciferáza v 633 je jiný reakční systém; zde jde o přenos energie na barvivo v chemické tyčince.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1133",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1133",
+        "point": "Přerušení chemické vazby energii vyžaduje, zatímco vznik vazby ji uvolňuje; teplo reakce určuje celková bilance obou dějů.",
+        "tags": [
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1080"
+      ],
+      "reason": "1080 učí ochlazování při rozpouštění soli; nový text rozlišuje energii štěpení a vzniku kovalentních vazeb.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1134",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1134",
+        "point": "Polaritu celé molekuly určuje nejen polarita jejích vazeb, ale také geometrie, která může vazebné dipóly navzájem vyrušit.",
+        "tags": [
+          "chemistry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "825"
+      ],
+      "reason": "825 vysvětluje amfifilní mýdlo a odnášení mastnoty; zde jde o vektorové rušení vazebných dipólů geometrií.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1135",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1135",
+        "point": "Mol vyjadřuje přesně stanovený počet určených částic, takže stejné látkové množství různých látek nemusí mít stejnou hmotnost.",
+        "tags": [
+          "chemistry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "10"
+      ],
+      "reason": "Periodická soustava v 10 třídí prvky podle vlastností; nový poznatek je počítání částic jednotkou mol a vztah k hmotnosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1136",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1136",
+        "point": "Izotopy téhož prvku mají stejný počet protonů a odlišný počet neutronů; odlišná hmotnost z nich nedělá různé prvky.",
+        "tags": [
+          "chemistry",
+          "identity"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "208"
+      ],
+      "reason": "208 učí datování rozpadem uhlíku; zde je určujícím poznatkem odlišení izotopu, prvku a iontu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1137",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1137",
+        "point": "Pevný chlorid sodný obsahuje ionty, ale elektrický proud dobře vede až po jejich uvolnění k pohybu v tavenině nebo roztoku.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1084"
+      ],
+      "reason": "1084 popisuje výrobu hliníku elektrolýzou; zde se vysvětluje nutnost pohyblivých nositelů náboje v iontové látce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1138",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1138",
+        "point": "Limitující reaktant omezuje teoretické množství produktu podle stechiometrického poměru, i když další výchozí látka zůstává v přebytku.",
+        "tags": [
+          "chemistry",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1116"
+      ],
+      "reason": "1116 určuje neznámé množství titrací; nový článek určuje strop výtěžku při nerovnoměrném zásobení reaktanty.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1139",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1139",
+        "point": "Chemická rovnováha je dynamický stav se stejnými rychlostmi přímé a zpětné reakce, nikoli se stejnými koncentracemi látek.",
+        "tags": [
+          "chemistry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1079"
+      ],
+      "reason": "1079 vysvětluje katalyzátor a 1114 posun tlakem; zde je hlavním poznatkem pokračování obou dějů při stálém složení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1140",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1140",
+        "point": "Síla kyseliny popisuje její ionizaci ve vodě, zatímco koncentrace udává množství rozpuštěné kyseliny; jde o dvě různé vlastnosti.",
+        "tags": [
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1072"
+      ],
+      "reason": "1072 vysvětluje pufrační kapacitu; nový text rozlišuje sílu kyseliny od její koncentrace, bez opakování pufru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1141",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1141",
+        "point": "Smícháním vody s ethanolem může vzniknout menší objem než součet výchozích objemů, protože se změní mezimolekulární uspořádání.",
+        "tags": [
+          "chemistry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1074"
+      ],
+      "reason": "1074 popisuje azeotrop a meze destilace; zde jde o neaditivitu objemu při mísení, nikoli složení páry.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1142",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1142",
+        "point": "Nepřilnavost PTFE souvisí s fluorovaným povrchem o nízké povrchové energii, k němuž se jiné látky obtížně přichycují.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1076"
+      ],
+      "reason": "1076 učí síťování kaučuku a pružnost; zde jde o chemii rozhraní a nízkou přilnavost fluorovaného polymeru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1143",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1143",
+        "point": "Jódové hodiny mění barvu náhle po spotřebování látky, která průběžně odstraňuje vznikající jód, a tím odhalují skrytou kinetiku.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1104"
+      ],
+      "reason": "1104 je detekce škrobu jódovým komplexem; zde je pointou časové zpoždění dané soupeřícími reakcemi a vyčerpáním thiosíranu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1144",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1144",
+        "point": "Pat v šachu ukončí partii remízou, když hráč na tahu nemá legální tah, přestože jeho král není v šachu.",
+        "tags": [
+          "sport",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "234"
+      ],
+      "reason": "234 učí výsledek utkání stroje s Kasparovem; nový text vysvětluje právní rozdíl patu a matu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1145",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1145",
+        "point": "Braní mimochodem dovoluje pěšci okamžitě po soupeřově dvojkroku sebrat tohoto pěšce, jako by postoupil jen o jedno pole.",
+        "tags": [
+          "sport",
+          "decision-making"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "234"
+      ],
+      "reason": "Jde o zvláštní legální tah a jeho jednorázové časové okno, nikoli výpočetní sílu stroje ani pat v nové dávce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1146",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1146",
+        "point": "Při nuceném postupu v baseballu lze běžce vyautovat obsazením povinné následující mety s míčem; bez nucení zpravidla vyžaduje aut dotyk běžce.",
+        "tags": [
+          "sport",
+          "decision-making"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "409"
+      ],
+      "reason": "409 popisuje vznik basketbalu; baseballový vztah obsazených met a nuceného postupu nemá v katalogu blízký mechanismus.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1147",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1147",
+        "point": "Tenisové podání tečující síť a dopadající správně se v běžném režimu opakuje, ale opakování druhého podání neobnovuje již ztracené první.",
+        "tags": [
+          "sport",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "412"
+      ],
+      "reason": "412 vysvětluje tie-break a 1094 lucky loser; tento text řeší podání let a zachování předchozí chyby.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1148",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1148",
+        "point": "V badmintonové dvouhře určuje sudé či liché skóre podávajícího pravé či levé podací pole a příjemce stojí úhlopříčně naproti.",
+        "tags": [
+          "sport",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "988"
+      ],
+      "reason": "988 vysvětluje aerodynamiku míčku; nový poznatek je vazba podacího postavení na vlastní skóre.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1149",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1149",
+        "point": "Pravidla FIBA řeší řadu situací drženého míče střídavým vhazováním podle šipky, nikoli novým rozskokem při každém sporu.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "977"
+      ],
+      "reason": "977 řeší časový limit útoku; nový mechanismus přiděluje míč oběma týmům při situacích pro rozskok.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1150",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1150",
+        "point": "Při shodné výšce rozhoduje ve skoku do výšky nejprve méně pokusů na poslední překonané výšce a poté méně nezdarů do této výšky.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "378 vysvětluje Fosburyho techniku; nový článek porovnává soutěžní zápisy při shodném nejlepším výkonu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1151",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1151",
+        "point": "V handicapové golfové soutěži se čisté skóre upraví o přidělené handicapové rány, takže vítězem nemusí být hráč s nejméně skutečnými ranami.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1091"
+      ],
+      "reason": "1091 převádí absolutní výkony desetiboje na body; handicap golfu upravuje výsledek podle rozdílné výkonnosti hráčů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1152",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1152",
+        "point": "Ragbyová výhoda umožňuje neprovinivšímu se týmu pokračovat po přestupku, ale bez skutečného zisku se rozhodčí může vrátit k původnímu provinění.",
+        "tags": [
+          "sport",
+          "decision-making"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1121"
+      ],
+      "reason": "1121 vymezuje zakázanou přihrávku vpřed; zde je pointou odložené přerušení a podmínka skutečné výhody.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1153",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1153",
+        "point": "Šermíř, který oběma nohama překročí zadní hranici planše, dostává zásah proti sobě i bez dotyku soupeřovy zbraně.",
+        "tags": [
+          "sport",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1120"
+      ],
+      "reason": "1120 učí prioritu šermířských akcí; zde jde o samostatné prostorové omezení ústupu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1154",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1154",
+        "point": "Ekonomické břemeno daně se rozděluje podle relativní pružnosti nabídky a poptávky, nikoli jen podle toho, kdo daň odvádí.",
+        "tags": [
+          "microeconomics",
+          "incentives"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "476"
+      ],
+      "reason": "476 vysvětluje externality a smysl Pigouovy daně; nový text rozlišuje zákonného plátce a skutečné rozdělení břemene.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1155",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1155",
+        "point": "Čistý veřejný statek je současně nerivalitní a obtížně vylučitelný; samotné veřejné financování ani bezplatnost tuto definici nezajišťuje.",
+        "tags": [
+          "microeconomics",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "112"
+      ],
+      "reason": "112 řeší vyčerpávání společného zdroje; čistý veřejný statek se naopak jedním uživatelem nespotřebovává.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1156",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1156",
+        "point": "Reálný HDP odděluje změnu objemu produkce od cenových změn, takže růst nominálního HDP sám nedokazuje větší výrobu.",
+        "tags": [
+          "macroeconomics",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "60"
+      ],
+      "reason": "60 vysvětluje monetaristický pohled na inflaci; nový článek řeší měření produkce očištěné od cen, nikoli příčiny inflace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1157",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1157",
+        "point": "Automatické stabilizátory tlumí pokles disponibilních příjmů změnami daní a dávek podle stávajících pravidel bez nového rozhodnutí vlády.",
+        "tags": [
+          "macroeconomics",
+          "resilience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "40"
+      ],
+      "reason": "40 doporučuje aktivní veřejné výdaje v propadu; zde je nový mechanismus předem nastavené automatické reakce příjmů a transferů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1158",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1158",
+        "point": "Viržování barví celou světlou plochu filmového obrazu, zatímco tónování mění především jeho tmavé stříbrné části.",
+        "tags": [
+          "film-technique",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1100"
+      ],
+      "reason": "1100 vysvětluje záznam barevných výtažků Technicoloru; tento text popisuje dodatečné obarvení monochromatického obrazu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1159",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1159",
+        "point": "Dělená předsádková čočka umožňuje zaostřit blízký motiv v části obrazu při zachování vzdáleného zaostření v jeho druhé části.",
+        "tags": [
+          "film-technique",
+          "perceived-reality"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "256"
+      ],
+      "reason": "256 řeší hloubku ostrosti celého prostoru a 1129 přesun roviny ostrosti; dělená předsádka vytváří dvě odlišné oblasti zaostření současně.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1160",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1160",
+        "point": "Japonský benši živě vyprávěl a přednášel dialogy k němému filmu, takže promítání získávalo další autorský hlas mimo samotnou kopii.",
+        "tags": [
+          "cinema",
+          "communication"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "681"
+      ],
+      "reason": "681 je vznik kolektivního kina; zde je pointou specifická živá vypravěčská a dialogová interpretace při japonské projekci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1161",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1161",
+        "point": "Schellingův model ukazuje, že i mírná preference některých podobných sousedů může prostřednictvím řetězce stěhování vytvořit silnou segregaci.",
+        "tags": [
+          "sociology",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "642"
+      ],
+      "reason": "642 vysvětluje zvýhodňování vlastní skupiny v experimentu; nový model ukazuje emergentní prostorovou segregaci i bez přání žít zcela odděleně.",
+      "verdict": "accept"
+    }
+  ]
+}

@@ -40147,5 +40147,1057 @@
       "mood": "neutral",
       "palette": "blue_gold"
     }
+  },
+  {
+    "id": "1132",
+    "title": "Světlo, které se rozsvítí zlomením tyčinky",
+    "content": "<p>Svíticí tyčinku nemusíte zapojit do zásuvky ani předem nasvítit. Ohnutím porušíte vnitřní ampulku a spustíte reakci oddělených složek.</p><p>V běžných chemických tyčinkách reaguje peroxid vodíku s oxalátovým esterem. Uvolněná energie se předává barvivu, jehož molekuly přejdou do excitovaného stavu. Při návratu do nižšího energetického stavu vyzáří světlo. Různá barviva umožňují různé barvy.</p><p>Jde o chemiluminiscenci: zdrojem světla je probíhající chemická přeměna. Tyčinka tedy nesvítí proto, že by obsahovala rozžhavené vlákno nebo uskladněné sluneční světlo. Jak se reagující látky spotřebovávají, světelný výkon slábne. <strong>Světlo tu oznamuje, že uvnitř pokračuje chemie.</strong></p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: The glow stick reaction",
+        "url": "https://edu.rsc.org/exhibition-chemistry/the-glow-stick-reaction/3010386.article"
+      },
+      {
+        "label": "ACS: Chemistry That Glows",
+        "url": "https://www.acs.org/education/activities/chemistry-that-glows.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A bent chemical light stick with a bright solid green core, no external glow",
+      "scene_type": "object",
+      "primary_subject": "bent_light_stick",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "plastic_tube",
+        "angled_joint",
+        "pale_end_caps"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "playful",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1133",
+    "title": "Roztržení vazby samo o sobě energii neuvolní",
+    "content": "<p>Palivo při hoření vydává teplo, a tak se nabízí představa, že energii získáme rozbitím jeho vazeb. Samotné oddělení spojených atomů však energii vyžaduje.</p><p>Energie se naopak uvolňuje, když mezi atomy vznikají vazby. Při reakci je proto třeba porovnat obě strany: kolik energie stojí rozrušení původních vazeb a kolik se uvolní vytvořením nových. Pokud druhý příspěvek převáží, může být celkový děj exotermický.</p><p>Například reakce vodíku s kyslíkem potřebuje narušit vazby výchozích molekul, ale vznik vazeb v molekulách vody poskytne větší energetický zisk. <strong>Rozhoduje rozdíl mezi výchozím a konečným uspořádáním.</strong> Tabulkové průměrné vazebné energie dávají užitečný odhad této bilance, nikoli vždy její přesnou hodnotu.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax: Strengths of Ionic and Covalent Bonds",
+        "url": "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds"
+      },
+      {
+        "label": "Morsch: Bond Breaking and Bond Formation",
+        "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Intermediate_Physical_Organic_(Morsch)/04%3A_Reagents_and_Reaction_Mechanisms/4.04%3A_Bond_Breaking_and_Bond_Formation"
+      }
+    ],
+    "illustration": {
+      "concept": "One struck match with a broad simple flame accompanies the energy balance of combustion",
+      "scene_type": "object",
+      "primary_subject": "burning_match",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "wooden_match_stem",
+        "orange_flame",
+        "burnt_match_head"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dramatic",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1134",
+    "title": "Polární vazby ještě nedělají polární molekulu",
+    "content": "<p>Oxid uhličitý má polární vazby, přesto se jeho molekula jako celek nechová jako trvalý dipól. Nestačí se podívat na to, které atomy jsou spojené; záleží i na jejich rozmístění.</p><p>Kyslík přitahuje vazebné elektrony silněji než uhlík. V každé vazbě C–O tak vzniká nerovnoměrné rozložení náboje. Molekula CO₂ je však přímá a její dvě stejné vazby míří opačně. Jejich dipólové příspěvky se vyruší.</p><p>Voda má jinou geometrii: dva vodíky s kyslíkem tvoří zalomený tvar. Příspěvky vazeb O–H se proto úplně neodečtou a molekula má výsledný dipólový moment. <strong>Vlastnost celku určuje také geometrie částí.</strong> Počet polárních vazeb sám nestačí k rozhodnutí, zda je polární i celá molekula.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax: Molecular Structure and Polarity",
+        "url": "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity"
+      },
+      {
+        "label": "OpenStax: Covalent Bonding",
+        "url": "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding"
+      }
+    ],
+    "illustration": {
+      "concept": "A bent water molecule ball-and-stick model with one oxygen and two hydrogen atoms",
+      "scene_type": "object",
+      "primary_subject": "bent_water_molecule",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "oxygen_sphere",
+        "two_hydrogen_spheres",
+        "bent_molecular_bonds"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1135",
+    "title": "Mol je chemikův způsob počítání částic",
+    "content": "<p>Stejný počet zrnek máku a fazolí nemusí vážit stejně. Podobně mohou mít dva vzorky stejný počet molekul a přitom výrazně odlišnou hmotnost.</p><p>Chemie k počítání používá látkové množství a jeho jednotku mol. Jeden mol obsahuje přesně 6,02214076 × 10²³ určených částic. Mohou to být atomy, molekuly, ionty nebo jiné jasně vymezené skupiny; vždy musíme říci, co počítáme.</p><p>Mol vody tedy znamená tolik molekul vody, zatímco mol atomů vodíku tolik jednotlivých atomů. Hmotnost jednoho molu dané látky udává její molární hmotnost. U vody činí přibližně 18 gramů. <strong>Mol není jiný název pro gram.</strong> Propojuje svět částic s množstvím, které lze odvážit v laboratoři, aniž bychom každou molekulu jednotlivě hledali.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "BIPM: The mole",
+        "url": "https://www.bipm.org/en/si-base-units/mole"
+      },
+      {
+        "label": "OpenStax: Formula Mass and the Mole Concept",
+        "url": "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+      }
+    ],
+    "illustration": {
+      "concept": "A laboratory balance weighing a small water sample in one beaker",
+      "scene_type": "object",
+      "primary_subject": "laboratory_balance",
+      "secondary_subjects": [
+        "water_beaker"
+      ],
+      "visual_keywords": [
+        "balance_pan",
+        "glass_beaker",
+        "water_sample"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1136",
+    "title": "Těžší uhlík zůstává uhlíkem",
+    "content": "<p>Atom uhlíku může mít dvanáct i třináct nukleonů. V obou případech jde o stejný prvek, protože jeho totožnost neurčuje samotná hmotnost.</p><p>Rozhodující je počet protonů v jádře. Uhlík jich má šest; uhlík-12 k nim přidává šest neutronů, uhlík-13 sedm. Takovým variantám jednoho prvku říkáme izotopy. Číslo za názvem sčítá protony a neutrony, nikoli elektrony.</p><p>Izotop není totéž co iont. Iont vznikne změnou počtu elektronů a nese elektrický náboj; změna počtu neutronů se týká jádra. Některé izotopy jsou stabilní, jiné radioaktivní. <strong>Jiný počet neutronů tedy automaticky neznamená radioaktivitu.</strong> Označení prvku odpovídá na jinou otázku než údaj o jeho konkrétní izotopové podobě.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "DOE: Isotopes",
+        "url": "https://www.energy.gov/science/doe-explainsisotopes"
+      },
+      {
+        "label": "OpenStax: Atomic Structure and Symbolism",
+        "url": "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+      }
+    ],
+    "illustration": {
+      "concept": "Two simple sample vials with meaningful isotope labels 12C and 13C, no other text",
+      "scene_type": "object",
+      "primary_subject": "carbon_isotope_vials",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "two_sample_vials",
+        "solid_graphite_chunks",
+        "carbon_isotope_labels"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1137",
+    "title": "Krystal soli má náboje, ale proud jím snadno neprojde",
+    "content": "<p>V krystalu kuchyňské soli už jsou kladné i záporné ionty. Přesto pevný chlorid sodný běžně nevede elektrický proud tak jako jeho vodný roztok.</p><p>V pevném krystalu drží ionty na místech pravidelné mřížky. Mohou kmitat, ale nemohou se volně přesouvat celým vzorkem a přenášet tak náboj. Rozpuštěním se mřížka rozruší a ionty se mohou pohybovat roztokem. Pohyblivé jsou také v roztavené soli.</p><p>Přítomnost nabitých částic tedy sama nestačí: pro vedení proudu potřebujeme jejich usměrněný pohyb. Rozpuštěný cukr nedává stejný výsledek, protože převážně zůstává v podobě neutrálních molekul. <strong>O vodivosti nerozhoduje jen to, co látka obsahuje, ale i to, zda se nositelé náboje mohou přemísťovat.</strong></p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax: The Solid State of Matter",
+        "url": "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter"
+      },
+      {
+        "label": "OpenStax: Electrolytes",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes"
+      }
+    ],
+    "illustration": {
+      "concept": "A small mound of large pale cubic salt crystals",
+      "scene_type": "object",
+      "primary_subject": "salt_crystals",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "cubic_salt_crystals",
+        "pale_crystal_faces",
+        "compact_crystal_pile"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "1138",
+    "title": "Reakci může zastavit látka, které je příliš málo",
+    "content": "<p>Máte dost jedné suroviny, ale výrobku už nepřibývá. V chemické reakci může být důvodem vyčerpání druhé látky, kterou nelze nahradit přebytkem té první.</p><p>Vyčíslená rovnice určuje poměr, v němž se reaktanty spotřebovávají. Při vzniku vody připadá na dvě molekuly vodíku jedna molekula kyslíku. Z modelové zásoby čtyř molekul vodíku a jedné kyslíku proto mohou vzniknout nejvýše dvě molekuly vody; část vodíku zůstane.</p><p>Kyslík je v tomto příkladu limitující reaktant. Jeho množství spolu s reakčním poměrem určuje teoretický výtěžek. Skutečně získaného produktu může být méně třeba kvůli vedlejším reakcím nebo ztrátám při oddělování. <strong>Největší zásoba nemusí určovat výrobní strop.</strong> Rozhoduje, která potřebná složka dojde jako první vzhledem k předepsanému poměru.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax: Reaction Yields",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields"
+      },
+      {
+        "label": "OpenStax: Reaction Stoichiometry",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry"
+      }
+    ],
+    "illustration": {
+      "concept": "A single water droplet accompanies the water-formation stoichiometry example",
+      "scene_type": "object",
+      "primary_subject": "water_droplet",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "blue_water_drop",
+        "rounded_drop_base",
+        "pointed_drop_tip"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1139",
+    "title": "Rovnovážná reakce se nezastavila",
+    "content": "<p>Složení uzavřené reakční směsi se už nemění. Na úrovni molekul přesto mohou dál probíhat přeměny oběma směry.</p><p>Při dynamické chemické rovnováze je rychlost přímé reakce stejná jako rychlost zpětné. Za stejný čas se tedy určité množství látky vytvoří i spotřebuje. Pozorovaná koncentrace zůstává stálá, aniž by jednotlivé molekuly musely zůstat stejné.</p><p>Rovnost rychlostí neznamená rovnost koncentrací. Rovnovážná směs může obsahovat převážně produkty, převážně výchozí látky nebo významné množství obou. Poměr závisí na konkrétní reakci a podmínkách. <strong>Stálý výsledek může udržovat nepřetržitý pohyb.</strong> Z neměnné barvy či složení proto samotným pohledem nepoznáme, že ve směsi veškerá chemická aktivita ustala.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax: Chemical Equilibria",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria"
+      },
+      {
+        "label": "OpenStax: Equilibrium Constants",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants"
+      }
+    ],
+    "illustration": {
+      "concept": "A sealed laboratory flask containing a brown reaction mixture, no arrows or labels",
+      "scene_type": "object",
+      "primary_subject": "sealed_reaction_flask",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "stoppered_flask",
+        "brown_reaction_mixture",
+        "closed_glass_vessel"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1140",
+    "title": "Silná kyselina může být velmi zředěná",
+    "content": "<p>Označení silná kyselina neříká, kolik kyseliny je v lahvi. Silná a koncentrovaná popisují dvě různé vlastnosti, které se v běžné řeči snadno zamění.</p><p>Síla kyseliny souvisí s mírou, v jaké ve vodě předává proton molekulám vody. Silná kyselina je v běžném zředěném vodném roztoku prakticky úplně ionizovaná. U slabé kyseliny zůstává významná část v původní molekulární podobě.</p><p>Koncentrace naproti tomu udává, kolik rozpuštěné látky připadá na určité množství roztoku. Můžeme tedy mít zředěný roztok silné kyseliny chlorovodíkové i koncentrovanější roztok slabé kyseliny octové. <strong>Slovo slabá není údaj o množství ani univerzální záruka neškodnosti.</strong> Pro chování roztoku potřebujeme znát sílu i koncentraci, nikoli pouze jeden z těchto údajů.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: Acid strength",
+        "url": "https://edu.rsc.org/resources/chemical-misconceptions-ii-acid-strength/1105.article"
+      },
+      {
+        "label": "OpenStax: Relative Strengths of Acids and Bases",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      }
+    ],
+    "illustration": {
+      "concept": "A stoppered laboratory acid reagent bottle with a small familiar corrosive pictogram",
+      "scene_type": "object",
+      "primary_subject": "acid_reagent_bottle",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "stoppered_reagent_bottle",
+        "corrosion_pictogram",
+        "acid_solution"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1141",
+    "title": "Dvě kapaliny mohou po smíchání zabrat méně místa",
+    "content": "<p>Sto mililitrů vody a sto mililitrů ethanolu nemusí dát dvě stě mililitrů směsi. Kapalina přitom nikam nezmizela; změnil se prostor, který společně zaujímá.</p><p>Molekuly v čistých kapalinách nejsou naskládané bez mezer v neměnných řadách. Po smíchání se změní jejich vzájemné interakce i uspořádání, včetně sítě vodíkových vazeb. U směsi vody a ethanolu se to může projevit objemovou kontrakcí.</p><p>Při porovnání je nutné hlídat stejnou teplotu, protože i tepelná roztažnost mění odečtený objem. Hmotnosti složek se v uzavřené soustavě sčítají, jejich výchozí objemy však obecně nemusí. <strong>Objem není součet pevných osobních prostorů jednotlivých molekul.</strong> Proto se přesný roztok připravuje doplněním na konečný objem, nikoli vždy prostým sečtením nalitých kapalin.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "UC Davis: Change in Volume, H-Bonding",
+        "url": "https://chem.libretexts.org/Courses/University_of_California_Davis/UCDemos/Change_in_Volume_H-Bonding_(Ethanol_and_Water)"
+      },
+      {
+        "label": "RSC: Mixing ethanol and water",
+        "url": "https://edu.rsc.org/download?ac=12032"
+      }
+    ],
+    "illustration": {
+      "concept": "Two clear liquids being poured together into one graduated cylinder, minimal marks without numbers",
+      "scene_type": "process",
+      "primary_subject": "mixing_cylinder",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "graduated_cylinder",
+        "two_pouring_beakers",
+        "meeting_liquid_streams"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dynamic",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1142",
+    "title": "Proč se jídlo k teflonu tak obtížně přichytí",
+    "content": "<p>Nepřilnavý povlak pánve není jen obyčejný plast vyleštěný do hladka. U PTFE hraje podstatnou roli chemická podoba jeho povrchu.</p><p>Polytetrafluorethylen má uhlíkový řetězec obklopený atomy fluoru. Tento fluorovaný povrch vykazuje nízkou povrchovou energii: jiné látky se po něm obtížně rozlévají a vytvářejí s ním jen slabou přilnavost. S tím souvisí jeho známé nepřilnavé chování.</p><p>Stejná vlastnost ovšem komplikuje přichycení samotného povlaku k podkladu. Výroba proto používá vhodnou přípravu povrchu a systémy vrstev; nestačí kapalný polymer jednoduše nalít na hladký kov. <strong>Materiál, který odolává přilepení jídla, klade nároky i na vlastní upevnění.</strong> Nepřilnavost je vlastnost chemického rozhraní, nejen otázka viditelné hladkosti.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "3M: Categorizing Surface Energy",
+        "url": "https://www.3m.com/3M/en_US/bonding-and-assembly-us/resources/science-of-adhesion/categorizing-surface-energy/"
+      },
+      {
+        "label": "ACS: Fluorine-carbon bonds in Teflon",
+        "url": "https://www.acs.org/content/dam/acsorg/education/resources/highschool/chemmatters/documents/2026-february-tg.pdf"
+      },
+      {
+        "label": "Chemours: Primers and Thinners",
+        "url": "https://www.teflon.com/en/products/coatings/primers-thinners"
+      }
+    ],
+    "illustration": {
+      "concept": "A tilted nonstick frying pan with a fried egg sliding freely on its pale blue surface",
+      "scene_type": "object",
+      "primary_subject": "nonstick_frying_pan",
+      "secondary_subjects": [
+        "fried_egg"
+      ],
+      "visual_keywords": [
+        "frying_pan",
+        "fried_egg",
+        "sliding_food"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "playful",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1143",
+    "title": "Roztok změní barvu až po chemickém odpočítávání",
+    "content": "<p>Smícháte dva roztoky a chvíli se zdánlivě nic neděje. Potom směs náhle ztmavne, přestože jste do ní už nic nepřidali.</p><p>U jedné varianty jódových hodin vzniká jód oxidací jodidových iontů peroxidem vodíku. Současně jej však rychlá reakce s thiosíranem mění zpět na jodid. Dokud zbývá thiosíran, vznikající jód se průběžně odstraňuje a charakteristické zbarvení se nerozvine.</p><p>Po spotřebování této zásoby může jód přetrvat a vytvořit se škrobem modročerný komplex. Barva se objeví prudce, ačkoli předchozí chemické děje probíhaly celou dobu. Změnou množství thiosíranu lze upravit délku čekání. <strong>Viditelný začátek není vždy začátkem reakce.</strong> Někdy pouze oznamuje, že se vyčerpal jiný, dosud skrytý účastník.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: Iodine clock reaction",
+        "url": "https://edu.rsc.org/experiments/iodine-clock-reaction-demonstration-method/744.article"
+      },
+      {
+        "label": "Indiana University: Kinetics of the Iodine Clock Reaction",
+        "url": "https://iu.pressbooks.pub/iuegenchemlabs/chapter/kinetics-of-the-iodine-clock-reaction/"
+      }
+    ],
+    "illustration": {
+      "concept": "A simple flask of deep blue solution beside a large stopwatch, no numerals",
+      "scene_type": "object",
+      "primary_subject": "blue_clock_reaction_flask",
+      "secondary_subjects": [
+        "stopwatch"
+      ],
+      "visual_keywords": [
+        "blue_solution_flask",
+        "stopwatch_face",
+        "clock_hand"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "mysterious",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1144",
+    "title": "Král je v bezpečí, a přesto partie končí",
+    "content": "<p>Soupeři zbyl skoro jen král a vítězství vypadá na dosah. Jediný neopatrný tah však může proměnit vyhranou pozici v okamžitou remízu.</p><p>Pat nastane, když hráč na tahu nemá žádný legální tah a jeho král přitom není napaden. Žádnou figurou nelze platně pohnout a král nesmí vstoupit na ohrožené pole. Pravidla FIDE takovou pozici ukončují remízou.</p><p>Mat se liší právě přítomností šachu: král je napaden a neexistuje legální způsob obrany. Samotné uvěznění bezpečného krále k vítězství nestačí. Pat proto může být poslední záchranou výrazně slabší strany. <strong>V šachu není nemožnost táhnout automaticky prohrou.</strong> Při převaze je třeba soupeřova krále skutečně zmatovat, nikoli mu pouze odebrat všechny možnosti pohybu.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "FIDE: Laws of Chess, 5.2.1",
+        "url": "https://handbook.fide.com/chapter/E012023"
+      },
+      {
+        "label": "Chess.com: Stalemate",
+        "url": "https://www.chess.com/terms/stalemate-chess"
+      }
+    ],
+    "illustration": {
+      "concept": "A lone light-colored chess king, an accompanying object rather than a full legal board position",
+      "scene_type": "object",
+      "primary_subject": "chess_king",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "chess_king_cross",
+        "pale_chess_piece",
+        "wide_round_base"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_warm"
+    }
+  },
+  {
+    "id": "1145",
+    "title": "Pěšec může sebrat figuru z vedlejšího pole",
+    "content": "<p>Dva pěšci stojí bok po boku, ale jeden může druhého okamžitě sebrat diagonálním tahem na prázdné pole. Výjimka z běžného obrazu braní se nazývá en passant neboli braní mimochodem.</p><p>Možnost vznikne, když soupeř právě posunul pěšce z výchozího pole o dvě pole a skončil vedle vašeho pěšce. Ten jej smí sebrat, jako by soupeř postoupil pouze o jedno pole. Přesune se na pole, přes které soupeř přešel, zatímco soupeřův pěšec se odstraní z vedlejšího pole.</p><p>Právo platí jen v bezprostředně následujícím tahu. Pokud zahrajete něco jiného, pro tuto situaci zanikne. I braní mimochodem musí být legální: nesmí ponechat vlastního krále v šachu. <strong>Ne každé právo na šachovnici je vidět pouze z rozmístění figur.</strong> Zde záleží také na tom, co se stalo v předchozím tahu.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "FIDE: Laws of Chess, 3.7.3",
+        "url": "https://handbook.fide.com/chapter/E012023"
+      },
+      {
+        "label": "Chess.com: En Passant",
+        "url": "https://www.chess.com/terms/en-passant"
+      }
+    ],
+    "illustration": {
+      "concept": "Two opposing chess pawns standing side by side, without a full board or move diagram",
+      "scene_type": "object",
+      "primary_subject": "adjacent_chess_pawns",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "opposing_chess_pawns",
+        "rounded_pawn_heads",
+        "adjacent_piece_bases"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1146",
+    "title": "V baseballu někdy stačí dotknout se mety",
+    "content": "<p>Běžec se ještě nedostal k druhé metě, obránce na ni s míčem došlápne a rozhodčí hlásí aut. Jindy by stejný dotyk mety nestačil a obránce by musel zasáhnout přímo běžce.</p><p>Rozdíl vytváří nucený postup. Je-li první meta obsazená a pálkař se po odpalu stane běžcem, předchozí běžec musí uvolnit první metu a postoupit na druhou. Obrana jej může vyautovat dotykem této povinné mety s míčem pod kontrolou ještě před jeho příchodem.</p><p>Jestliže však první meta volná je a na druhé stojí běžec, nový pálkař jej sám nenutí běžet na třetí. Při jeho dobrovolném postupu zpravidla nestačí pouze obsadit třetí metu: je nutný dotyk běžce míčem nebo rukavicí s míčem. <strong>Stejná meta může představovat jiný druh souboje podle toho, zda na ni běžec musí.</strong></p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "MLB: Force Play",
+        "url": "https://www.mlb.com/glossary/rules/force-play"
+      },
+      {
+        "label": "MLB: Official Baseball Rules 2026",
+        "url": "https://mktg.mlbstatic.com/mlb/official-information/2026-official-baseball-rules.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A baseball fielder glove holding a ball firmly above a base touched by the fielder shoe",
+      "scene_type": "interaction",
+      "primary_subject": "baseball_glove",
+      "secondary_subjects": [
+        "baseball_base",
+        "fielder_shoe"
+      ],
+      "visual_keywords": [
+        "baseball_in_glove",
+        "shoe_on_base",
+        "base_corner"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dynamic",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1147",
+    "title": "Dotyk sítě nemusí tenisové podání zkazit",
+    "content": "<p>Míček při podání zavadí o síť a dopadne do správného pole. V běžném tenisovém režimu se nepočítá jako chyba, ale podání se opakuje.</p><p>Pravidlo service let chrání právě tuto situaci. Když se míček po teči sítě dostane mimo správné pole, jde naopak o chybu podání. Samotný zvuk sítě tedy k rozhodnutí nestačí; záleží i na následném dopadu.</p><p>Důležitý je také počet zbývajících pokusů. Pokud hráč první podání už pokazil a síť správně tečuje až druhým, opakuje pouze druhé podání. Předchozí chyba se nemaže. Některé schválené alternativní formáty používají pravidlo bez opakování po teči sítě. <strong>Let vrací konkrétní pokus, nikoli celý servisní začátek bodu.</strong> Bez této drobnosti by se počet šancí podávajícího zásadně změnil.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "ITF: Rules of Tennis 2026, rule 22",
+        "url": "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf"
+      },
+      {
+        "label": "USTA: Tennis Serving Rules",
+        "url": "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-serving-rules.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A bright tennis ball grazing the top white band of a short tennis net segment",
+      "scene_type": "interaction",
+      "primary_subject": "tennis_net_contact",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "tennis_ball",
+        "white_net_tape",
+        "short_net_segment"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dynamic",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1148",
+    "title": "V badmintonu vybírá podací pole vlastní skóre",
+    "content": "<p>Podávající v badmintonové dvouhře nestřídá pravou a levou stranu jen podle svého přání. Správné podací pole mu určuje jeho aktuální počet bodů.</p><p>Při nule nebo sudém skóre podává z pravého podacího pole. Při lichém skóre z levého. Příjemce stojí v úhlopříčně protilehlém poli, takže podání musí spojit odpovídající dvojici míst na obou stranách sítě.</p><p>Vyhraje-li podávající výměnu, připíše si bod a podává z druhého pole. Vyhraje-li příjemce, získá podání a zvolí stranu podle svého nového skóre, nikoli podle počtu bodů soupeře. <strong>Vodítkem je vždy skóre toho, kdo právě podává.</strong> Po vrácení podání už se hráči při výměně mohou pohybovat po svém hřišti; počáteční postavení není trvalým omezením jejich pohybu.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "BWF: Laws of Badminton, 10",
+        "url": "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf"
+      },
+      {
+        "label": "BWF: Simplified Rules",
+        "url": "https://system.bwfbadminton.com/documents/folder_1_81/Regulations/Simplified-Rules/Simplified%20Rules%20of%20Badminton%20-%20Dec%202015.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A badminton shuttlecock above the clean diagonal line of a simplified court corner",
+      "scene_type": "object",
+      "primary_subject": "badminton_shuttlecock",
+      "secondary_subjects": [
+        "court_corner"
+      ],
+      "visual_keywords": [
+        "shuttlecock_skirt",
+        "court_boundary_lines",
+        "shuttlecock_base"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dynamic",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1149",
+    "title": "Basketbalová šipka nahrazuje další rozskok",
+    "content": "<p>Dva basketbalisté sevřou míč tak pevně, že jej ani jeden nezíská bez nepřiměřené síly. Podle pravidel FIBA nemusí následovat nový výskok obou soupeřů pro míč.</p><p>Řadu situací pro rozskok řeší střídavé držení. Směr šipky u stolku ukazuje, který tým má právo na následující odpovídající vhazování. První takové právo získá tým, který nezískal první kontrolu živého míče po úvodním rozskoku.</p><p>Po dokončení příslušného vhazování se šipka otočí ve prospěch soupeře. Neotáčí se tedy po každém běžném získání míče nebo po koši. <strong>Ukazuje uložené právo pro určitý způsob navázání hry.</strong> Tento postup patří ke konkrétnímu souboru pravidel: nelze předpokládat, že všechny basketbalové ligy řeší držený míč stejně.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "FIBA: Official Basketball Rules 2024",
+        "url": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2024-v10a.pdf"
+      },
+      {
+        "label": "FIBA: Official Interpretations 2024",
+        "url": "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2024-obri-v10a.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A tabletop basketball possession arrow with one clear direction and a small basketball beside it",
+      "scene_type": "object",
+      "primary_subject": "possession_arrow",
+      "secondary_subjects": [
+        "basketball"
+      ],
+      "visual_keywords": [
+        "red_direction_arrow",
+        "tabletop_arrow_display",
+        "basketball"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1150",
+    "title": "Stejná výška nemusí znamenat stejné pořadí",
+    "content": "<p>Dva výškaři překonají stejnou laťku a na vyšší už neuspějí. O jejich pořadí může rozhodnout něco, co se stalo několik pokusů před koncem.</p><p>Nejprve se porovnává počet pokusů potřebných na poslední úspěšně překonané výšce. Kdo ji zvládl na první pokus, má přednost před tím, kdo potřeboval druhý. Pokud je tento údaj shodný, porovnává se celkový počet nezdařených pokusů do této výšky včetně.</p><p>Neúspěchy na další výšce, kterou už nepřekonal nikdo z nich, se do tohoto druhého srovnání nepřičítají. Přetrvávající rovnost se řeší podle pravidel pro dané umístění a případné rozeskakování. <strong>Výsledkem není jen nejvyšší číslo, ale i cesta k němu.</strong> Proto má soutěžní zápis s jednotlivými pokusy význam i tehdy, když všichni sledují především výšku laťky.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics: High Jump",
+        "url": "https://worldathletics.org/disciplines/jumps/high-jump"
+      },
+      {
+        "label": "World Athletics: Technical Rules 2026, 26.8",
+        "url": "https://worldathletics.org/download/download?filename=e7faf2e8-0385-4686-bbd0-acdb5d958e8f.pdf&urlslug=Competition+and+Technical+Rules+%E2%80%93+2026+Edition"
+      }
+    ],
+    "illustration": {
+      "concept": "A high-jump crossbar on two simple uprights above a broad landing mat",
+      "scene_type": "object",
+      "primary_subject": "high_jump_crossbar",
+      "secondary_subjects": [
+        "landing_mat"
+      ],
+      "visual_keywords": [
+        "high_jump_bar",
+        "two_uprights",
+        "landing_mat"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1151",
+    "title": "Golf může vyhrát i hráč s více ranami",
+    "content": "<p>Jeden golfista potřebuje na kolo méně ran než druhý, přesto v handicapové soutěži nemusí zvítězit. Rozhodující totiž může být čisté skóre po stanovené úpravě.</p><p>Hrubé skóre zachycuje skutečný výsledek v ranách včetně případných trestných ran. V handicapové hře na rány se z něj odečítají přidělené handicapové rány. Tento systém umožňuje porovnávat hráče různé výkonnosti v jedné soutěži.</p><p>V jednoduchém modelovém příkladu dá hrubých 90 ran při deseti přidělených ranách čistých 80. Výsledek 85 s přídělem dvou ran dává čistých 83. První hráč tak může mít lepší čistý výsledek, i když skutečně zahrál více ran. <strong>Hrubé a čisté pořadí odpovídají na jinou otázku.</strong> Přidělené rány pro konkrétní soutěž navíc nelze automaticky ztotožnit s pouhým číslem handicapového indexu.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "R&A: The Competition",
+        "url": "https://www.randa.org/en/rog/the-rules-of-golf/rule-3"
+      },
+      {
+        "label": "USGA: Rules of Handicapping 2024",
+        "url": "https://www.usga.org/content/dam/usga/pdf/2024-revision/2024-Rules-of-Handicapping-USGA.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A golf scorecard with a few large blank grid cells and pencil beside a golf ball",
+      "scene_type": "object",
+      "primary_subject": "golf_scorecard",
+      "secondary_subjects": [
+        "golf_ball",
+        "pencil"
+      ],
+      "visual_keywords": [
+        "scorecard_grid",
+        "pencil",
+        "golf_ball"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1152",
+    "title": "Rozhodčí vidí přestupek, ale nechá ragby pokračovat",
+    "content": "<p>Soupeř poruší pravidla a váš tým právě míří do nebezpečného útoku. Okamžitá píšťalka by vám mohla uškodit více než samotný přestupek.</p><p>Ragbyová výhoda dovoluje rozhodčímu nechat hru pokračovat, může-li neprovinivší se tým získat jasný a skutečný prospěch. Ten může být územní, například postup do výhodnější pozice, nebo taktický, tedy možnost hrát podle vlastního záměru.</p><p>Pouhá naděje na zisk nestačí. Jestliže se očekávaná výhoda nedostaví, rozhodčí může hru vrátit k původnímu provinění. Pokud už byla výhoda získána, pokračuje se dál; existují také situace, kdy pravidla její použití nepřipouštějí. <strong>Odložené přerušení není přehlédnutím chyby.</strong> Umožňuje posoudit její skutečný dopad, aby trestání soupeře zbytečně neodměnilo jeho vlastní přestupek.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Rugby: Advantage",
+        "url": "https://passport.world.rugby/laws-of-the-game/laws-by-number/7-advantage/"
+      },
+      {
+        "label": "World Rugby: Definitions",
+        "url": "https://passport.world.rugby/laws-of-the-game/definitions"
+      }
+    ],
+    "illustration": {
+      "concept": "An anonymous rugby referee moving with play and extending one arm horizontally to signal advantage",
+      "scene_type": "portrait",
+      "primary_subject": "rugby_referee",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "extended_referee_arm",
+        "running_referee",
+        "referee_jersey"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dynamic",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1153",
+    "title": "Šermíř může dostat zásah bez dotyku čepele",
+    "content": "<p>Ustupující šermíř se soupeřově zbrani vyhne, přesto rozhodčí přizná zásah proti němu. Důvod nemusí být v čepeli, ale za jeho patami.</p><p>Planš má zadní hranici. Překročí-li ji závodník při vlastním ústupu oběma nohama, pravidla proti němu přiznají zásah. Nestačí tedy donekonečna couvat mimo soutěžní prostor a spoléhat na to, že soupeř nedosáhne.</p><p>Koncové dva metry planše jsou výrazně označené, aby se blížící hranice dala poznat. Vstup do této varovné části sám o sobě ještě není trestným překročením zadního konce. Ani jednu nohu za čarou nelze zaměnit s podmínkou obou nohou.</p><p><strong>Obrana musí zachovat nejen odstup od zbraně, ale i vlastní místo na planši.</strong> Prostorové pravidlo tím omezuje ústup nezávisle na tom, komu by jinak náležela priorita útoku.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "FIE: Technical Rules, August 2026",
+        "url": "https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf"
+      },
+      {
+        "label": "British Fencing: Technical Rules, t.34",
+        "url": "https://www.britishfencing.com/uploads/files/92877-technical_rules_ang.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "An anonymous masked fencer retreating with both shoes beyond the clearly marked rear end of a short piste segment",
+      "scene_type": "interaction",
+      "primary_subject": "retreating_fencer",
+      "secondary_subjects": [
+        "piste_rear_line"
+      ],
+      "visual_keywords": [
+        "fencing_mask",
+        "rear_piste_line",
+        "shoes_beyond_boundary"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dramatic",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1154",
+    "title": "Kdo odvádí daň, nemusí nést celé její břemeno",
+    "content": "<p>Stát uloží prodejci odvádět daň z každého kusu zboží. To ještě neříká, zda její ekonomickou cenu ponese převážně prodejce, nebo zákazník.</p><p>Část daně se může promítnout do vyšší ceny pro kupující a část do nižší částky, která po odvodu zůstane prodávajícím. Rozdělení závisí na relativní pružnosti nabídky a poptávky: tedy na tom, jak snadno obě strany mění nakupované či prodávané množství při změně ceny.</p><p>V běžném konkurenčním modelu nese větší část břemene méně pružná strana. Kdo má méně možností odejít k náhradě nebo omezit svou účast, hůře se dani vyhne. <strong>Právní povinnost poslat peníze a ekonomický dopad nejsou totéž.</strong> Samotné přepsání jména plátce v zákoně proto ještě nezaručí odpovídající přesun skutečného břemene.</p>",
+    "category": "ekonomie",
+    "sources": [
+      {
+        "label": "OpenStax: Elasticity and Pricing",
+        "url": "https://openstax.org/books/principles-economics-3e/pages/5-3-elasticity-and-pricing"
+      },
+      {
+        "label": "Fullerton a Metcalf: Tax Incidence",
+        "url": "https://www.nber.org/papers/w8829"
+      }
+    ],
+    "illustration": {
+      "concept": "Two hands hold different portions of a single divided coin, a simple metaphor for sharing the tax burden",
+      "scene_type": "interaction",
+      "primary_subject": "divided_coin",
+      "secondary_subjects": [
+        "two_hands"
+      ],
+      "visual_keywords": [
+        "split_coin",
+        "two_hands",
+        "unequal_coin_portions"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1155",
+    "title": "Veřejný statek není totéž co věc zdarma",
+    "content": "<p>Volně přístupná lavička může být obsazená a bezplatný oběd někdo sní. Ani jedno proto automaticky nesplňuje ekonomickou definici čistého veřejného statku.</p><p>Ta vyžaduje dvě vlastnosti současně. Nerivalita znamená, že užitek jednoho člověka neubírá stejnou možnost ostatním. Obtížná vylučitelnost znamená, že nelze snadno zabránit v užívání lidem, kteří nezaplatili.</p><p>Klasickým příkladem je národní obrana. Ochrana jednoho obyvatele zpravidla nespotřebuje ochranu pro dalšího a nelze ji jednoduše vypnout jen pro neplatiče. Naproti tomu ryby v otevřeném lovišti se ulovením spotřebují, ačkoli přístup může být těžké omezit. <strong>Veřejnost vlastnictví sama neurčuje povahu statku.</strong> Rozhoduje způsob užívání a možnost vyloučení, nikoli pouze to, kdo službu financuje.</p>",
+    "category": "ekonomie",
+    "sources": [
+      {
+        "label": "OpenStax: Public Goods",
+        "url": "https://openstax.org/books/principles-economics-3e/pages/13-3-public-goods"
+      },
+      {
+        "label": "IMF: What Are Global Public Goods?",
+        "url": "https://www.imf.org/-/media/files/publications/fandd/article/2021/december/b2b-global-public-goods-chin.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "One streetlamp casts one broad solid light shape over two simple house silhouettes",
+      "scene_type": "environment",
+      "primary_subject": "shared_streetlamp",
+      "secondary_subjects": [
+        "two_houses"
+      ],
+      "visual_keywords": [
+        "streetlamp",
+        "two_houses",
+        "shared_light_cone"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1156",
+    "title": "Vyšší HDP ještě nemusí znamenat více výroby",
+    "content": "<p>Ekonomika může vykázat více korun vyrobené hodnoty, přestože množství výrobků a služeb nevzrostlo. K takovému výsledku stačí růst cen.</p><p>Nominální hrubý domácí produkt oceňuje produkci běžnými cenami daného období. Reálný HDP se snaží cenové změny oddělit, aby zachytil změnu objemu produkce. Nejde tedy o dvě různé zásoby výrobků, ale o odlišný způsob jejich měření.</p><p>V modelové ekonomice vyrábějící jen stejné bochníky chleba se při nezměněném počtu a dvojnásobné ceně nominální hodnota zdvojnásobí. Reálný objem však zůstane stejný. Skutečné statistiky musí pracovat s mnoha výrobky, službami i změnami jejich složení. <strong>Růst peněžního součtu je nutné rozdělit na ceny a množství.</strong> Teprve potom lze posoudit, zda hospodářství skutečně vyrobilo více.</p>",
+    "category": "ekonomie",
+    "sources": [
+      {
+        "label": "OpenStax: Adjusting Nominal Values to Real Values",
+        "url": "https://openstax.org/books/principles-economics-3e/pages/19-2-adjusting-nominal-values-to-real-values"
+      },
+      {
+        "label": "BEA: Gross Domestic Product",
+        "url": "https://www.bea.gov/data/gdp/gross-domestic-product"
+      }
+    ],
+    "illustration": {
+      "concept": "A few bread loaves beside one simple price tag without numbers, accompanying the bread-economy example",
+      "scene_type": "object",
+      "primary_subject": "bread_loaves",
+      "secondary_subjects": [
+        "price_tag"
+      ],
+      "visual_keywords": [
+        "bread_loaves",
+        "bread_cross_section",
+        "blank_price_tag"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1157",
+    "title": "Rozpočet může tlumit krizi i bez nového hlasování",
+    "content": "<p>Když lidem klesnou příjmy nebo přijdou o práci, část propadu mohou zachytit už existující daňová a dávková pravidla. Vláda kvůli tomu nemusí pokaždé schvalovat nový záchranný balíček.</p><p>Při poklesu příjmů se zpravidla sníží vybraná daň z příjmů. Větší nezaměstnanost může zvýšit výplaty podpor lidem, kteří splňují podmínky. Disponibilní příjmy tak neklesnou o celou ztracenou hrubou částku a propad spotřeby se může zmírnit.</p><p>Těmto mechanismům říkáme automatické stabilizátory. V oživení mohou působit opačně: daňové příjmy rostou a některé podpory klesají. Jejich síla závisí na uspořádání systému. <strong>Automatický neznamená náhodný, ale předem zabudovaný do pravidel.</strong> Neodstraní každou krizi, mohou však reagovat bez čekání na nové politické rozhodnutí.</p>",
+    "category": "ekonomie",
+    "sources": [
+      {
+        "label": "IMF: Fiscal Policy",
+        "url": "https://www.imf.org/external/pubs/ft/fandd/basics/36-fiscal-policy.htm"
+      },
+      {
+        "label": "OpenStax: Automatic Stabilizers",
+        "url": "https://openstax.org/books/principles-economics-3e/pages/30-5-automatic-stabilizers"
+      }
+    ],
+    "illustration": {
+      "concept": "A broad spring supporting a small household silhouette, a concise metaphor for automatic economic cushioning",
+      "scene_type": "object",
+      "primary_subject": "household_on_spring",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "household_silhouette",
+        "support_spring",
+        "spring_platform"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1158",
+    "title": "Němý film mohl mít modrou noc a jantarový den",
+    "content": "<p>Černobíle natočený film nemusel divák vidět jen v odstínech šedi. Jednotlivé scény mohly na plátně získat modrou, jantarovou nebo jinou barevnou podobu.</p><p>Při viržování se barvila filmová podložka či želatinová vrstva, takže zvolený odstín procházel zejména světlými plochami obrazu; tmavé části jej překrývaly. Tónování naproti tomu chemicky měnilo nebo nahrazovalo obrazové stříbro a zabarvovalo především tmavé části.</p><p>Oba postupy se daly kombinovat. Barva mohla podporovat náladu, oddělovat scény nebo naznačovat denní dobu, aniž šlo o věrný záznam barev původní scény. <strong>Barevná kopie a barevný záznam nejsou totéž.</strong> Při restaurování proto záleží i na dochovaném zabarvení materiálu: pouhý převod na šedou může odstranit část původního výrazu.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "NFSA: Restoring tinted films",
+        "url": "https://www.nfsa.gov.au/stories/articles/dying-light-1"
+      },
+      {
+        "label": "BFI: The 10 best film colour systems",
+        "url": "https://www.bfi.org.uk/lists/10-best-film-colour-systems"
+      }
+    ],
+    "illustration": {
+      "concept": "A short strip of silent film with the same simple window scene tinted blue in one frame and amber in the next",
+      "scene_type": "object",
+      "primary_subject": "tinted_film_strip",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "blue_film_frame",
+        "amber_film_frame",
+        "film_perforations"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "mysterious",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1159",
+    "title": "Půl čočky dokáže udržet ostré dva vzdálené světy",
+    "content": "<p>Tvář těsně u kamery a člověk daleko za ní mohou být ostré současně, zatímco prostor mezi nimi už ne. Takový obraz nemusí vzniknout mimořádně velkou hloubkou ostrosti.</p><p>Dělená dioptrická předsádka zakrývá přídavnou čočkou jen část zorného pole objektivu. Tato část umožní zaostřit bližší motiv. Druhá část zůstane bez přídavné optické mohutnosti a objektiv v ní dál zobrazuje ostře vzdálenější rovinu.</p><p>Výsledkem jsou dvě oblasti s odlišným zaostřením v jediném záběru. Mezi nimi může být patrný přechod, který filmaři schovávají do vhodného rozhraní kompozice. <strong>Nejde o souvisle ostrý prostor od popředí do dálky.</strong> Divák však může zároveň sledovat dva významné motivy, aniž by kamera musela postupně přeostřovat z jednoho na druhý.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "Schneider-Kreuznach: Split Diopter",
+        "url": "https://schneiderkreuznach.com/application/files/5717/0142/0920/Fact_Sheet_Diopter_Split_GEN2_Schneider-Kreuznach.pdf"
+      },
+      {
+        "label": "Tiffen: Split Field Diopter",
+        "url": "https://tiffen.com/products/138mm-split-field-diopter"
+      }
+    ],
+    "illustration": {
+      "concept": "A cinema split-field diopter filter, circular rim with transparent pale cyan glass covering precisely one half",
+      "scene_type": "object",
+      "primary_subject": "split_field_diopter",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "semicircular_glass",
+        "circular_filter_ring",
+        "uncovered_filter_half"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1160",
+    "title": "Němý film v Japonsku doprovázel živý vypravěč",
+    "content": "<p>Na plátně se pohybují němé postavy, ale v sále promlouvají různými hlasy. V japonské tradici je mohl všechny ztvárňovat jediný člověk stojící vedle plátna.</p><p>Benši, v mezinárodním přepisu benshi, vysvětloval děj, přednášel dialogy a dodával komentář. Nebyl pouhou náhradou mezititulků: jeho tempo, hlasové rozlišení postav a výklad spoluutvářely zážitek z konkrétního představení.</p><p>Někteří vypravěči se stali hvězdami, na které publikum chodilo podobně jako na samotné filmy. Stejná kopie tak mohla s jiným benšim vyznít jinak. Hudební doprovod a vypravěč navíc mohli působit společně. <strong>Filmové představení nebylo vždy uzavřené uvnitř filmového pásu.</strong> Živý hlas do něj vstupoval jako další interpretační vrstva, která se při pouhém sledování dochované kopie ztrácí.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "Japan Society: A Brief History of Benshi",
+        "url": "https://japansociety.org/news/a-brief-history-of-benshi-silent-film-narrators/"
+      },
+      {
+        "label": "Waseda University: The Art of the Benshi",
+        "url": "https://www.waseda.jp/culture/news-en/2026/11/11/37469/"
+      }
+    ],
+    "illustration": {
+      "concept": "An anonymous Japanese silent-film narrator speaking beside a projection screen with one simple actor silhouette",
+      "scene_type": "interaction",
+      "primary_subject": "benshi_narrator",
+      "secondary_subjects": [
+        "projection_screen"
+      ],
+      "visual_keywords": [
+        "speaking_narrator",
+        "projection_screen",
+        "silent_actor_silhouette"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "dynamic",
+      "palette": "monochrome_warm"
+    }
+  },
+  {
+    "id": "1161",
+    "title": "Oddělené čtvrti mohou vzniknout i bez přání úplného odloučení",
+    "content": "<p>Každý obyvatel snese různorodé sousedství, ale nechce být mezi sousedy téměř sám svého typu. Přesto může řetězec jednotlivých stěhování vytvořit město rozdělené do výrazně oddělených oblastí.</p><p>Thomas Schelling tento rozdíl mezi místním přáním a společným výsledkem zkoumal jednoduchým modelem. Obyvatelé dvou typů se přesouvají z míst, kde jejich okolí nesplňuje zvolenou podmínku. Každý přesun však změní také sousedství ostatních a může spustit další stěhování.</p><p>I relativně mírná preference tak za určitých podmínek vede k silné segregaci, kterou nikdo výslovně nepožadoval. Model není úplným vysvětlením skutečných měst: působí v nich také příjmy, diskriminace a instituce. <strong>Výsledek mnoha voleb nemusí odpovídat záměru žádného jednotlivce.</strong> Vzniká i zpětnou vazbou mezi jejich rozhodnutími.</p>",
+    "category": "spolecnost",
+    "sources": [
+      {
+        "label": "Royal Swedish Academy: Prize in Economic Sciences 2005",
+        "url": "https://www.nobelprize.org/uploads/2018/06/popular-economicsciences2005.pdf"
+      },
+      {
+        "label": "PNAS: Understanding the social context of the Schelling segregation model",
+        "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC2393808/"
+      }
+    ],
+    "illustration": {
+      "concept": "A small coherent neighborhood of six broad houses clustered into two color groups, no arrows or labels",
+      "scene_type": "environment",
+      "primary_subject": "segregated_neighborhood",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "purple_house_cluster",
+        "coral_house_cluster",
+        "neighborhood_street"
+      ],
+      "composition_hints": [
+        "dominant_central_object",
+        "balanced_transparent_margins",
+        "optically_centered_both_axes"
+      ],
+      "mood": "contemplative",
+      "palette": "violet_coral"
+    }
   }
 ]

@@ -10179,6 +10179,276 @@
       "status": "verified",
       "reviewer": "Codex editorial review 2026-11-17",
       "reviewed_at": "2026-11-17"
+    },
+    "1132": {
+      "version": 1,
+      "source_hash": "13e395cd8d0b11b7dde7eb3ff4048783f2497572669bcb982ca348166b918d2b",
+      "knowledge_hash": "310717b0aa40b0bdbdccba932805ac37ebffdf0f1005629258ea7970e51a4d05",
+      "tags_hash": "7e3db29f6c16529a2d7200bae25442ad17ab1a593891456690853dd2982abeb5",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1133": {
+      "version": 1,
+      "source_hash": "e43529f6c0192ad4dce3b95db7f06094241993a71f19bdd6ac171d6be5631b29",
+      "knowledge_hash": "c397bdcd65340616a6de44cf3b92e9d66235c08d369224a1440386df8727620b",
+      "tags_hash": "3ababb28fa83bd2170be3c8d970b7ca78f770cf4f49d6206bdbd1c9046e3c10e",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1134": {
+      "version": 1,
+      "source_hash": "0aa0917145e6f1f58ab22220481736869de082eb9bfda6fd6f2a16e474403572",
+      "knowledge_hash": "ab0fbfd5f4ec856d11d32db8086e6185defb3af20c3e7fc8e47414883caf6d0f",
+      "tags_hash": "2108b50ce580cbf355ed738822d8c2e933a5904470a31140ba426fae574986cc",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1135": {
+      "version": 1,
+      "source_hash": "190466409d568a7e66bdae9ce6a147bf07c1f8ca25873f0caeb03334d3ae755f",
+      "knowledge_hash": "73a70fca406d9c46b55b53da94287959b03e47e98c4887ca1924d5c7f40861c3",
+      "tags_hash": "2108b50ce580cbf355ed738822d8c2e933a5904470a31140ba426fae574986cc",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1136": {
+      "version": 1,
+      "source_hash": "25db0bb86394fc965d8907dbe2c47cab0160d6b305b4f53b88255b2a43e27583",
+      "knowledge_hash": "ce21566fc4dfbe53cf6b51939d3cc8069289561ad5a2ced2138371245e447e03",
+      "tags_hash": "a212627c60db1ffc96b607ea08f103475407f2e4b58509a502606b280f637712",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1137": {
+      "version": 1,
+      "source_hash": "a444c60a05f6540ba96018069c0d7a79ef8d8d42568486dad41f89a66a00d079",
+      "knowledge_hash": "681c8ab69af4060266002326d4e8bbd0f9d2290e84a3de46f9647fb2634a9e73",
+      "tags_hash": "7e3db29f6c16529a2d7200bae25442ad17ab1a593891456690853dd2982abeb5",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1138": {
+      "version": 1,
+      "source_hash": "a06ce5758a701fe6f3116a4b7b0ef367c267f91503fea7e21ec96eb09fe61527",
+      "knowledge_hash": "05e00b680b972c41ef9803e6460828d58a023b14ae245217c5fb70b59b9ed35b",
+      "tags_hash": "2758fca0d71e5385cc49d0297bb490fae24324b26dec7bda7c09924a1a5f2975",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1139": {
+      "version": 1,
+      "source_hash": "f10938e8c48b870bb2be2ce85378dca33ebcfaf2096d7bb04b1f4e4bac1dcd2b",
+      "knowledge_hash": "0147c11609298f63179e0a2b9136954b4813815ca3482533bad3a991f8e17bbd",
+      "tags_hash": "2108b50ce580cbf355ed738822d8c2e933a5904470a31140ba426fae574986cc",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1140": {
+      "version": 1,
+      "source_hash": "61646a48074c5057436650929ff288b7f78dee94b96f005140ef2a7fb75fac12",
+      "knowledge_hash": "cbd754c1b05a095e0ae0a9cac0c5e5f482211b1435ba2222e26961879078df15",
+      "tags_hash": "3ababb28fa83bd2170be3c8d970b7ca78f770cf4f49d6206bdbd1c9046e3c10e",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1141": {
+      "version": 1,
+      "source_hash": "c0e8cc023a67cd7ea1c32efb9f374a5f54048899c3795bdb64674d0ebcda56cc",
+      "knowledge_hash": "a34fee6c154c2b2546d839d98946d6a0175d7d519580ef92dce0803285a29e82",
+      "tags_hash": "2108b50ce580cbf355ed738822d8c2e933a5904470a31140ba426fae574986cc",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1142": {
+      "version": 1,
+      "source_hash": "6e1bc84ce3d08de787e507b3d9298ede3208a54da32868a2704fe0c3db45f1f8",
+      "knowledge_hash": "332f9904c2e684e55ff40c642a23aebcf3afb6cdb5a44751929caddcd4b600f2",
+      "tags_hash": "79d9942e35f0187d09dead94ab3df4d048e221d19843e7d0ba1012fb60f505f0",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1143": {
+      "version": 1,
+      "source_hash": "67521deb02993e4b911b6b698eaa321f5f2421775dc213bb3a0d49c786f49687",
+      "knowledge_hash": "89843dcce4e6e5b99f64f6cb432c2dbbda72a47939f748105356d53b52339a19",
+      "tags_hash": "7e3db29f6c16529a2d7200bae25442ad17ab1a593891456690853dd2982abeb5",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1144": {
+      "version": 1,
+      "source_hash": "405de2343b5bdc17ef88798303cd25651909061874a8ba3001df365c3b8ee04f",
+      "knowledge_hash": "5d9e81a366d68d0f963b4a3b16209d45284869ada95b8b3590d3751c626813c1",
+      "tags_hash": "3df121d8922ee45d0433b5a2e25d1a7ea75854d8c7cfb2c8b2f2d9df71c183ae",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1145": {
+      "version": 1,
+      "source_hash": "3f814550f52409206da52fbe5d6f81442c2c8ebd9a8389c5d98e298993d78820",
+      "knowledge_hash": "ca9ed8f37b54b3c932b9fb7611e57208f226579a00705e1c595ab5e9f2f55bf5",
+      "tags_hash": "4bc03053503b6148ee4601e1c1990e70f870c5099492bdebf4f879c29cda75ea",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1146": {
+      "version": 1,
+      "source_hash": "ef16849472e8715a3cdb5d5b06d7e229624c255c1ac107bb94c97ca3409dd2f9",
+      "knowledge_hash": "1365700dafde7777302a8ef23efee8718c5d8dd8c468e1118f13d4af687b229f",
+      "tags_hash": "4bc03053503b6148ee4601e1c1990e70f870c5099492bdebf4f879c29cda75ea",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1147": {
+      "version": 1,
+      "source_hash": "31894a45c1566b02ec62db11d85769a2cc192f0ab95a846e1b7f6e95aacf251b",
+      "knowledge_hash": "a822694220ee706cd93395dcade220a0c7d74ce7c9cb43d2e419f3cc7086c47a",
+      "tags_hash": "1fab08220cb05083fbceaeed7f1a553aeaa87790d1cccbed553644a7b636521d",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1148": {
+      "version": 1,
+      "source_hash": "f1553d10eb01d73c92dff280f7a560548d0a1a0b87f9a98223a4074bddbfd09a",
+      "knowledge_hash": "8094494314b57e4ba8f5b46e9a555de9eb4f5c62927791e889324ce67ea7e6d7",
+      "tags_hash": "1fab08220cb05083fbceaeed7f1a553aeaa87790d1cccbed553644a7b636521d",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1149": {
+      "version": 1,
+      "source_hash": "9ff8c74008fc92ba837996fc8bd61feb7633bb9b3de76c597c20adeaeff6368f",
+      "knowledge_hash": "adcc9ca89fdb113d5fd0b72c325c87a8cba59f51b910215cb278e9ec796f3b27",
+      "tags_hash": "aa7f5c0e7d3ba76d0667336f79b8729731ceaa3ffabfa7a31eaeeafd7a6526b2",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1150": {
+      "version": 1,
+      "source_hash": "60dc1ec2f3a280cd38be3684060e6eb161446760a764cec56869b73c7eb80c61",
+      "knowledge_hash": "ede6bccb59e805e49cdf4e6674dc4e785f93e645a7d1d56a57e199b1860de22f",
+      "tags_hash": "aa7f5c0e7d3ba76d0667336f79b8729731ceaa3ffabfa7a31eaeeafd7a6526b2",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1151": {
+      "version": 1,
+      "source_hash": "357f0e7a05c333156cde3d9e1766bdd841ed5a8bc443efedd86513c69a160a49",
+      "knowledge_hash": "143c8fc9e0d27f18d87a276129a9710c3a61df95b058127f5ffb8a5a86ea2e39",
+      "tags_hash": "aa7f5c0e7d3ba76d0667336f79b8729731ceaa3ffabfa7a31eaeeafd7a6526b2",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1152": {
+      "version": 1,
+      "source_hash": "fe0e968b7bcedc5aa413a360fb19d93539b147a437c29cbc4f03a0582ba12d06",
+      "knowledge_hash": "a2f892a317f1c642fb0cc81ab57bbfa09543fb3fd3393adfd2a2887b13743f46",
+      "tags_hash": "4bc03053503b6148ee4601e1c1990e70f870c5099492bdebf4f879c29cda75ea",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1153": {
+      "version": 1,
+      "source_hash": "2988fbede5b919634353434fcba6715cc6d4b7ba1755b193412e8a734b584152",
+      "knowledge_hash": "eb14d0255b1341a32e58acc39472e1e7313d4d44111812dbb7bcf6a3599211c9",
+      "tags_hash": "3df121d8922ee45d0433b5a2e25d1a7ea75854d8c7cfb2c8b2f2d9df71c183ae",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1154": {
+      "version": 1,
+      "source_hash": "0442e0aba71986cc44a6ab6b5894f38851f5f2f53b82f6975e19ca2e261287a3",
+      "knowledge_hash": "2ec41a5ffde25f6da13a521761eeac98157d60e5d3215adc10402445d15dd24c",
+      "tags_hash": "11006b65f03c58d7712ac8fd3b2384fc661f0ff504b357aec86c8f2ce4f5a23d",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1155": {
+      "version": 1,
+      "source_hash": "df8ec4d5549fd0d40535547c68a8c1dbfeca3c725b4d594c27e3470a31dab091",
+      "knowledge_hash": "03e1060993b555d0a5e73af325159f25e26fb10e0e1e8a775d0c60bc621811a1",
+      "tags_hash": "b7a9e94ef1aec158189b5ea310beb522d247036d0d1a2d2ec364d19692efc129",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1156": {
+      "version": 1,
+      "source_hash": "4298010e9c902205edaf0c528d3e8a1734c0dfe1ac2a6f82a90ccc282049a2f1",
+      "knowledge_hash": "764da13079996c823878849f8e3fd41c3264e48e5e87ce0d916918a92dc97b76",
+      "tags_hash": "74028e0a7c46df7530e1030744f0e37555753ce8f1411df632985034b362419e",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1157": {
+      "version": 1,
+      "source_hash": "7d2b23f9ad619660d523003f926a597e53f9acc6fa9bf7f977aba01251decb88",
+      "knowledge_hash": "228369a979d3a483038e25cc2f6c349eeb3594b018ba5f306df90c57c6d87d30",
+      "tags_hash": "4ecfb90f3ab0fdde18cfaac1537d7bb5223690af08f35e915869b48e1ae59d7b",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1158": {
+      "version": 1,
+      "source_hash": "d546a7c9c9f9ba70bb18d9447d2f1146d0394861bea9a4160bedb0ad8029dd48",
+      "knowledge_hash": "c778ec6c340138e3f7bd9acc899d9247d9aae02041a65079ea05d9f01bc2e3aa",
+      "tags_hash": "65d4ec2c2071eb5212846ea51fa8b80d614706ae809f411dd8dce8a04fb966e6",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1159": {
+      "version": 1,
+      "source_hash": "0a947870b501046a0f33d699977c339d763bb9acfdd8b9fcea60ac73c1edeea3",
+      "knowledge_hash": "8a35f72d65939532890cca684415b2da91cf157f969aac58e9eb312fc457fc81",
+      "tags_hash": "4eb4bc546ff474a917be5ede2d30abe87061c282249ba79c52cb3515333f8831",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1160": {
+      "version": 1,
+      "source_hash": "c6d773bb59b9fe87e5e6a15aa6e034f741d941c419d980ae745d52e6278baed8",
+      "knowledge_hash": "551430c71123f01c403b3e5f28ea0d974903a9abb0827daa4ea88e0d6a5851ef",
+      "tags_hash": "21c3f08f5c40e5cff1901e61d3d0ba2902958a39a01e18f627a1ed97a1f63166",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
+    },
+    "1161": {
+      "version": 1,
+      "source_hash": "20ad7ec943897b40d99f443b9f465f2f99916cb293d463a27ec1207ff510685b",
+      "knowledge_hash": "ad050dce4eceec1aee531e4f3b472fdd21dda2a0f5de582e22487b6733a76add",
+      "tags_hash": "653fa6d433922932e2072f3596306243ee40279de066fba32d320ac957b4304c",
+      "status": "verified",
+      "reviewer": "editor",
+      "reviewed_at": "2026-11-17"
     }
   }
 }

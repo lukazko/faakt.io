@@ -1,0 +1,14 @@
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+const browser=await chromium.launch({headless:true});const page=await browser.newPage({viewport:{width:390,height:844}});
+await page.goto('http://127.0.0.1:5188/faakt.io/?order=id&post=1132',{waitUntil:'networkidle',timeout:180000});
+await page.waitForFunction(()=>document.querySelector('.is-active h1,.is-active h2')?.textContent.includes('Světlo, které se rozsvítí'));
+await page.screenshot({path:'reports/batch-1132-1161-review/ordered-feed.png'});
+await page.goto('http://127.0.0.1:5188/faakt.io/dev/illustrations-ai/',{waitUntil:'domcontentloaded',timeout:180000});
+await page.waitForFunction(()=>document.querySelectorAll('.gallery article').length===1161);
+const entries=await page.locator('.gallery article').evaluateAll(as=>as.slice(-30).map(a=>({id:'#'+a.querySelector('.copy').textContent.match(/#(\d+)/)[1],title:a.querySelector('h2').textContent,src:a.querySelector('img').getAttribute('src'),category:a.querySelector('.category-badge')?.textContent??a.querySelector('.copy div')?.textContent})));
+if(entries.some(e=>!e.title||!e.src.includes(e.id.replace('#',''))))throw Error('Incomplete gallery entry');
+await page.locator('.gallery article').last().scrollIntoViewIfNeeded();
+await page.screenshot({path:'reports/batch-1132-1161-review/gallery.png'});
+fs.writeFileSync('reports/batch-1132-1161-gallery-validation.json',JSON.stringify({orderedFeedFirst:'1132',galleryEntries:entries},null,2)+'\n');
+await browser.close();console.log('Verified ordered feed link and all 30 new gallery titles/assets.');
