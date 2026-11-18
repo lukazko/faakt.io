@@ -1,5 +1,17 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1192–1221 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 221 příspěvků a 1 178 různých poznatků**. Dávka přidala sedm příspěvků do Filozofie a po dvou do Historie, Biologie, Umění, Literatury, Fyziky, Chemie, Vesmíru, Kinematografie a Sportu. Po jednom přibylo ve Společnosti, Ekonomii, Psychologii, Matematice a Technologiích. Každý nový příspěvek má dva zdroje. Plán, finální texty a redakční schválení jsou v `reports/batch-1192-1221-*`.
+
+Nová ID mají průhledné RGBA WebP 640×360 propojené s produkčními kartami a galerií. Dávka zabírá 682 100 B. Přesné prompty vestavěného generátoru, otisky, alfa hranice a poznámky k jednotlivým motivům obsahuje `static/illustrations-ai/manifest.json`. U 1196 byly kvůli dobovému oděvu zvoleny ruce u náboje kola, u 1198 prosté nádoby a u 1199 nečitelné rytiny místo kresby připomínající klínové písmo. U 1206 doprovází celní spor přepravní bedna s razítkem, protože generátor první obraz sochy odmítl.
+
+Všechny obrázky byly zkontrolovány při 160×90 a 320×180 na základním gradientu i s CardGlow. Úzký výřez měděné trubky u 1211 zůstává čitelný. Široké kompozice u 1197, 1202 a 1218 mají na mobilní kartě podobnou viditelnou mezeru k úvodu jako vyšší motivy. Některé motivy mají kvůli rozpoznatelnosti členitější kresbu, například konstrukce výstavního paláce u 1202.
+
+Významový index ověřil všech 1 221 položek. Náhled deterministického repairu navrhl 105 úprav. U 1192 a 1217 doporučil portrétní scénu. Původní metadata zůstala, protože zvolené obrázky zobrazují malovanou desku a postavu v prostoru dveří. Prošlo 13 projektových testů i produkční sestavení. Statický výstup obsahuje všech 30 stránek a shodné WebP soubory. Sestavení hlásí upozornění na velikost balíčku galerie.
+
+V Edge při 390×844 byl u všech 30 nových karet ověřen celý úvod, obrázek, otočení, úplný text a oba zdrojové odkazy. Vybrané karty prošly také při 390×500 a 1440×1000. V galerii se načetlo všech 30 nových obrázků se správnými titulky. Řazený feed otevřel ID 1192 a po posunu zobrazil ID 1193. [Běžící lokální feed od ID 1192](http://127.0.0.1:5191/faakt.io/?order=id&post=1192).
+
 ## Dávka 1162–1191: filozofie, zdravé stárnutí, vynálezy a dějiny
 
 Aplikace obsahuje **1 191 příspěvků a 1 148 různých poznatků**. Dávka pokrývá předsokratiky (4), Sókrata (4), zdravé stárnutí (5), vynálezy (5), římské impérium (4), husitské války (4) a společenské reformy 19. století (4). Redakční plán, finální návrhy a schválení jsou v `reports/batch-1162-1191-*`.

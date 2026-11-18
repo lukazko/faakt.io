@@ -1,0 +1,351 @@
+{
+  "snapshot": "443c05e95369821505ba4bd260cdd1dc78bf52254863f0739088d418791288ca",
+  "catalog_reviewed": "443c05e95369821505ba4bd260cdd1dc78bf52254863f0739088d418791288ca",
+  "drafts_hash": "0dbdc642fabb17d4f059ce6774b3f3b706ab20e3446b94e82ecdf6d3fb5fd6a7",
+  "decisions": [
+    {
+      "id": "1192",
+      "verdict": "accept",
+      "compared_ids": [
+        "242"
+      ],
+      "reason": "Pozdější zkreslení očitého svědectví v článku 242 je odlišné od Aristotelovy otázky, co dělá z představy vzpomínku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1193",
+      "verdict": "accept",
+      "compared_ids": [
+        "165",
+        "328",
+        "717"
+      ],
+      "reason": "Parmenidés odmítá vznik z nebytí, Russell řeší určité popisy bez označovaného předmětu a Gettier náhodně pravdivý úsudek. Sofista vysvětluje nepravdivé připsání vlastnosti reálnému člověku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1194",
+      "verdict": "accept",
+      "compared_ids": [
+        "327"
+      ],
+      "reason": "Ústava zdůvodňuje, kdo má vládnout, zatímco Politika zajímá spojování dvou rozdílných povah v obci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1195",
+      "verdict": "accept",
+      "compared_ids": [
+        "18"
+      ],
+      "reason": "Článek o wu wei řeší způsob jednání, zatímco křivý strom ukazuje, co chrání zdánlivá neužitečnost.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1196",
+      "verdict": "accept",
+      "compared_ids": [
+        "264"
+      ],
+      "reason": "Platón řeší nemožnost vést s hotovým textem rozhovor, kdežto kolář nedokáže předat konkrétní praktický cit ani vlastnímu synovi.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1197",
+      "verdict": "accept",
+      "compared_ids": [
+        "648"
+      ],
+      "reason": "Článek 648 se ptá, proč se obdarovaný cítí povinen oplácet, Seneca posuzuje hodnotu samotného darování z hlediska dárce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1198",
+      "verdict": "accept",
+      "compared_ids": [
+        "168"
+      ],
+      "reason": "Menciův zárodek soucitu vysvětluje původ ctnosti, kdežto podobenství o dvou pokrmech zkoumá hierarchii hodnot při střetu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1199",
+      "verdict": "accept",
+      "compared_ids": [
+        "268",
+        "29"
+      ],
+      "reason": "Starší článek o Ašókovi vysvětluje mravní obsah ediktů po válce, Rosettská deska slouží k rozluštění písma. Kandahárský kámen dokládá jazykové přizpůsobení panovnického sdělení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1200",
+      "verdict": "accept",
+      "compared_ids": [
+        "192"
+      ],
+      "reason": "Antikythérský mechanismus počítá astronomické cykly, Vitruviův přístroj zaznamenává přírůstek uražené dráhy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1201",
+      "verdict": "accept",
+      "compared_ids": [
+        "500",
+        "38"
+      ],
+      "reason": "Měření pí pomocí mnohoúhelníků a vztlak v kapalině jsou jiné postupy než objevování poměrů objemů pomocí myšlenkové páky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1202",
+      "verdict": "accept",
+      "compared_ids": [
+        "43"
+      ],
+      "reason": "Sagrada Família představuje kontinuitu stavby přes generace, palác pro výstavu měl vzniknout rychlou montáží standardizovaných dílů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1203",
+      "verdict": "accept",
+      "compared_ids": [
+        "903"
+      ],
+      "reason": "Skokan lesní chrání tkáně při zamrznutí, kdežto skleněnka skrývá krvinky při odpočinku a tím zvyšuje průhlednost.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1204",
+      "verdict": "accept",
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "Klapací brusle mění délku kontaktu při odrazu, kdežto u datla měření testuje tlumení nárazu mezi částmi hlavy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1205",
+      "verdict": "accept",
+      "compared_ids": [
+        "249",
+        "1014"
+      ],
+      "reason": "Japonismus v článku 249 řeší evropskou recepci a dřevořez v článku 1014 způsob přenosu barvy. Nový článek sleduje použití dvou pigmentů v konkrétním tisku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1206",
+      "verdict": "accept",
+      "compared_ids": [
+        "698"
+      ],
+      "reason": "Duchampův readymade řeší výběr běžného předmětu tvůrcem, Brâncușiho soud řeší status ručně vytvořené, abstraktní sochy v sazebníku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1207",
+      "verdict": "accept",
+      "compared_ids": [
+        "15",
+        "790"
+      ],
+      "reason": "Brod zachraňoval cizí rukopisy před zničením a Austenová své knihy vydávala anonymně. Svazečky jsou příkladem toho, jak básnířka sama uchovávala vlastní opisy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1208",
+      "verdict": "accept",
+      "compared_ids": [
+        "365",
+        "734"
+      ],
+      "reason": "Werther se soustředí na hrdinův hlas, Nosferatu na spor o filmovou adaptaci. Dracula proměňuje spojování různých záznamů v nástroj postav.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1209",
+      "verdict": "accept",
+      "compared_ids": [
+        "283",
+        "287"
+      ],
+      "reason": "Referenda přenášejí díl rozhodování na voliče a dělba moci řeší vztah institucí. Zde jde o rovnost a společnou odpovědnost uvnitř vlády.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1210",
+      "verdict": "accept",
+      "compared_ids": [
+        "714"
+      ],
+      "reason": "Efekt koktejlové party vybírá mezi zvuky v pozornosti posluchače, v galerii se mění jejich fyzikální cesta.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1211",
+      "verdict": "accept",
+      "compared_ids": [
+        "297",
+        "614"
+      ],
+      "reason": "Obecná indukce vysvětluje vznik napětí a mezní rychlost odpor vzduchu. Vodivá trubka názorně ukazuje, že samotné indukované proudy vytvářejí brzdnou sílu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1212",
+      "verdict": "accept",
+      "compared_ids": [
+        "825",
+        "1079"
+      ],
+      "reason": "Mýdlo odnáší mastnotu a obecný katalyzátor vysvětluje rychlost reakce. Prací proteáza odstraňuje jiný druh špíny rozštěpením samotného materiálu skvrny.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1213",
+      "verdict": "accept",
+      "compared_ids": [
+        "396",
+        "939"
+      ],
+      "reason": "Články o pevném okenním skle a zbytkovém napětí Rupertovy kapky vysvětlují jiné vlastnosti než volbu chemického složení kvůli malé roztažnosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1214",
+      "verdict": "accept",
+      "compared_ids": [
+        "335"
+      ],
+      "reason": "Tranzitní spektroskopie hledá atmosférický oxid uhličitý u exoplanety, zde jde o řešení konkrétní nejednoznačnosti mezi vodou a hydroxylem v minerálním prostředí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1215",
+      "verdict": "accept",
+      "compared_ids": [
+        "139",
+        "397"
+      ],
+      "reason": "Klasifikace Pluta ani přílivový ohřev Io nevysvětlují pohyb pevného ledu a vznik plošných vzorů v Plutově pánvi.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1216",
+      "verdict": "accept",
+      "compared_ids": [
+        "400"
+      ],
+      "reason": "Měnové trilema omezuje celostátní politiku, v novém článku rozhodují přímé provozní náklady prodejce na úpravu cen.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1217",
+      "verdict": "accept",
+      "compared_ids": [
+        "242",
+        "402"
+      ],
+      "reason": "Změna výpovědi sugestivní otázkou a dočasné hledání známého slova jsou jiné jevy než vliv hranice mezi situacemi na dostupnost čerstvé informace.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1218",
+      "verdict": "accept",
+      "compared_ids": [
+        "1064",
+        "1128"
+      ],
+      "reason": "Anamorfóza opticky stlačuje jediný obraz a zadní projekce kombinuje herce s pozadím při natáčení. Cinerama skládá divácký obraz ze tří pásů při projekci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1219",
+      "verdict": "accept",
+      "compared_ids": [
+        "1129"
+      ],
+      "reason": "Přeostření mění rovinu ostrosti, zatímco kruhová clona fyzicky či opticky zakrývá části obrazového pole.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1220",
+      "verdict": "accept",
+      "compared_ids": [
+        "983"
+      ],
+      "reason": "Standardizace délky maratonu má stejnou olympijskou kulisu, ale nezabývá se přesunem plaveckých soutěží do účelově postaveného bazénu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1221",
+      "verdict": "accept",
+      "compared_ids": [
+        "1118"
+      ],
+      "reason": "Atletická předávka závisí na předání kolíku v zóně, short track předává úsek přímým kontaktem a může využít účinný odraz.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}
