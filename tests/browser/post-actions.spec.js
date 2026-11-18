@@ -114,6 +114,29 @@ test('flip surfaces stay rendered until the rotation finishes', async ({ page })
 	}
 });
 
+test('front share button uses the front face for backface culling', async ({ page, browserName }) => {
+	const card = page.locator('.is-active');
+	const share = card.locator('.card-front .share-btn');
+	await expect(card.locator('.card-front')).toHaveCSS('backface-visibility', 'hidden');
+	await expect(share).toHaveCSS('backface-visibility', 'visible');
+	await expect(share).toHaveCSS('z-index', 'auto');
+	await expect(share.locator('span')).toHaveCSS('background-image', 'none');
+
+	// Windows WebKit can mirror the entire face when its angle is overridden
+	// for a screenshot. The CSS assertions above also run in WebKit.
+	if (browserName === 'webkit') return;
+	for (const angle of [45, 135]) {
+		const stage = `
+			.is-active .card-stage { transition: none; animation: none; transform: rotateY(${angle}deg); }
+			.is-active .card-back { visibility: visible; }
+		`;
+		const normal = await page.screenshot({ style: stage });
+		const withoutShare = await page.screenshot({ style: `${stage}
+			.is-active .card-front .share-btn { opacity: 0; }` });
+		expect(normal.equals(withoutShare), `Share button paint at ${angle}°`).toBe(angle > 90);
+	}
+});
+
 for (const reducedMotion of ['no-preference', 'reduce']) {
 	test(`outgoing face stays hidden after repeated flips (${reducedMotion})`, async ({ page }) => {
 		await page.emulateMedia({ reducedMotion });
