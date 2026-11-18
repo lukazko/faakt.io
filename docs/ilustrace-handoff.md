@@ -1,5 +1,15 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1162–1191: filozofie, zdravé stárnutí, vynálezy a dějiny
+
+Aplikace obsahuje **1 191 příspěvků a 1 148 různých poznatků**. Dávka pokrývá předsokratiky (4), Sókrata (4), zdravé stárnutí (5), vynálezy (5), římské impérium (4), husitské války (4) a společenské reformy 19. století (4). Redakční plán, finální návrhy a schválení jsou v `reports/batch-1162-1191-*`.
+
+Každé nové ID má průhledný RGBA WebP 640×360. Soubor je pod stejným ID dostupný v produkční kartě i v galerii, kde se zobrazují také titulek a kategorie. Dávka zabírá 691 048 B. Manifest uchovává přesné prompty, otisky, alfa hranice a poznámky k motivům. Vestavěný generátor pracoval s průhledným pozadím. U 1181 byl při kontrole nahrazen obraz s nepodloženým přepisem bronzové desky vyobrazením její zadní strany. Motivy 1177 a 1178 zjednodušují skener a diskové kotouče.
+
+Všechny motivy byly prohlédnuty při 160×90 a 320×180 na základním gradientu i na pozadí CardGlow. Stávající palety a renderer včetně automatického měření okrajů zůstávají v použití. Kontrola významového indexu ověřila všech 1 191 položek a prošlo 13 projektových testů. Náhled opravy metadat navrhl 103 úprav. U nového ID 1169 nabídl portrét, zatímco skutečný obraz zobrazuje postavu při komické scéně v koši. Náhled zůstal bez zápisu.
+
+Produkční build obsahuje všech 30 nových stránek a totožné obrazové soubory. V Edge při 390×844 prošlo všech 30 karet včetně úplného úvodu, načtení obrázku, otočení, úplného textu a zobrazení obou zdrojových odkazů. Ověřeno také 390×500, plocha 1440×1000, záznamy galerie a řazený feed. Naměřená viditelná mezera mezi kresbou a úvodem je 18.5–23.5 CSS px. [Lokální test od ID 1162](http://127.0.0.1:5191/faakt.io/?order=id&post=1162).
+
 ## Dávka 1132–1161: vyrovnání nejmenších kategorií
 
 Aktuálně **1161 příspěvků, 1118 různých poznatků a 15 kategorií**. Všech 1131 původních objektů článků i záznamů obrazového manifestu je zachováno. Verze aplikace a oba údaje lockfile zůstávají **1.5.2**.
