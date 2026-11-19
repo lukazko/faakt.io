@@ -1,0 +1,573 @@
+{
+  "snapshot": "443c05e95369821505ba4bd260cdd1dc78bf52254863f0739088d418791288ca",
+  "catalog_reviewed": "443c05e95369821505ba4bd260cdd1dc78bf52254863f0739088d418791288ca",
+  "proposals": [
+    {
+      "id": "1192",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1192",
+        "point": "Aristotelés rozlišuje pouhou přítomnost mentálního obrazu od vzpomínky, v níž obraz vztahujeme k dřívějšímu zážitku.",
+        "tags": [
+          "aristotle",
+          "epistemology",
+          "learning-memory"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "242"
+      ],
+      "reason": "Pozdější zkreslení očitého svědectví v článku 242 je odlišné od Aristotelovy otázky, co dělá z představy vzpomínku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1193",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1193",
+        "point": "Platónův Sofista vysvětluje smysluplnou nepravdu jako výpověď, která o skutečném předmětu říká něco jiného, než co o něm platí.",
+        "tags": [
+          "plato",
+          "philosophy-of-language"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "165",
+        "328",
+        "717"
+      ],
+      "reason": "Parmenidés odmítá vznik z nebytí, Russell řeší určité popisy bez označovaného předmětu a Gettier náhodně pravdivý úsudek. Sofista vysvětluje nepravdivé připsání vlastnosti reálnému člověku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1194",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1194",
+        "point": "Platónův Politikos přirovnává správu obce k tkaní, protože má spojovat odvážné a umírněné povahy do jednoho celku.",
+        "tags": [
+          "plato",
+          "political-philosophy",
+          "cooperation"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "327"
+      ],
+      "reason": "Ústava zdůvodňuje, kdo má vládnout, zatímco Politika zajímá spojování dvou rozdílných povah v obci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1195",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1195",
+        "point": "Čuang-c’ na příkladu křivého stromu ukazuje, že neupotřebitelnost podle jednoho měřítka může chránit před využitím a otevřít jinou možnost.",
+        "tags": [
+          "taoism",
+          "resources"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "18"
+      ],
+      "reason": "Článek o wu wei řeší způsob jednání, zatímco křivý strom ukazuje, co chrání zdánlivá neužitečnost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1196",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1196",
+        "point": "Čuang-cův kolář používá řemeslný cit jako příklad dovednosti, kterou nelze beze zbytku předat slovním popisem.",
+        "tags": [
+          "taoism",
+          "epistemology",
+          "communication"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "264"
+      ],
+      "reason": "Platón řeší nemožnost vést s hotovým textem rozhovor, kdežto kolář nedokáže předat konkrétní praktický cit ani vlastnímu synovi.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1197",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1197",
+        "point": "Seneca odlišuje předaný předmět od dobrodiní, jehož mravní hodnotu odvozuje od úmyslu dárce.",
+        "tags": [
+          "seneca",
+          "ethics"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "648"
+      ],
+      "reason": "Článek 648 se ptá, proč se obdarovaný cítí povinen oplácet, Seneca posuzuje hodnotu samotného darování z hlediska dárce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1198",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1198",
+        "point": "Mencius přirovnáním ryby a medvědí tlapy vysvětluje volbu mezi dvěma ceněnými věcmi a vztahuje ji k přednosti správného jednání před přežitím.",
+        "tags": [
+          "confucianism",
+          "ethics",
+          "decision-making"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "168"
+      ],
+      "reason": "Menciův zárodek soucitu vysvětluje původ ctnosti, kdežto podobenství o dvou pokrmech zkoumá hierarchii hodnot při střetu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1199",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1199",
+        "point": "Ašókův dvojjazyčný nápis z Kandaháru podává panovníkovo sdělení v řečtině a aramejštině a dokládá přizpůsobení různým jazykovým prostředím.",
+        "tags": [
+          "ancient-history",
+          "india",
+          "writing-systems"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "268",
+        "29"
+      ],
+      "reason": "Starší článek o Ašókovi vysvětluje mravní obsah ediktů po válce, Rosettská deska slouží k rozluštění písma. Kandahárský kámen dokládá jazykové přizpůsobení panovnického sdělení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1200",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1200",
+        "point": "Vitruviův popis odometru převádí otáčky kola přes soukolí na počitatelné oblázky, z nichž lze odečíst uraženou vzdálenost.",
+        "tags": [
+          "history-of-science",
+          "mechanics",
+          "roman-empire"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "192"
+      ],
+      "reason": "Antikythérský mechanismus počítá astronomické cykly, Vitruviův přístroj zaznamenává přírůstek uražené dráhy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1201",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1201",
+        "point": "Archimédés používal myšlenkovou rovnováhu geometrických řezů k nalezení vztahů mezi objemy a výsledek pak ověřoval geometrickým důkazem.",
+        "tags": [
+          "archimedes",
+          "geometry",
+          "history-of-science"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "500",
+        "38"
+      ],
+      "reason": "Měření pí pomocí mnohoúhelníků a vztlak v kapalině jsou jiné postupy než objevování poměrů objemů pomocí myšlenkové páky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1202",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1202",
+        "point": "Křišťálový palác pro výstavu roku 1851 vznikl rychlou montáží velkého množství opakujících se železných a skleněných dílů.",
+        "tags": [
+          "modern-history",
+          "architecture",
+          "innovation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "43"
+      ],
+      "reason": "Sagrada Família představuje kontinuitu stavby přes generace, palác pro výstavu měl vzniknout rychlou montáží standardizovaných dílů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1203",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1203",
+        "point": "Skleněnky ve spánku ukládají velkou část červených krvinek do jater, takže mají v ostatních tkáních méně buněk rozptylujících a pohlcujících světlo.",
+        "tags": [
+          "zoology",
+          "optics"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "903"
+      ],
+      "reason": "Skokan lesní chrání tkáně při zamrznutí, kdežto skleněnka skrývá krvinky při odpočinku a tím zvyšuje průhlednost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1204",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1204",
+        "point": "Měření klovajících datlů ukázala, že hlava během úderu působí jako tuhé kladivo a mezi zobákem a lebkou významně netlumí zpomalení.",
+        "tags": [
+          "zoology",
+          "mechanics"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "Klapací brusle mění délku kontaktu při odrazu, kdežto u datla měření testuje tlumení nárazu mezi částmi hlavy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1205",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1205",
+        "point": "Rozbor Hokusaiovy Velké vlny ukázal, jak se v různých částech dřevořezu uplatňují pruská modř a indigo.",
+        "tags": [
+          "painting",
+          "art-conservation"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "249",
+        "1014"
+      ],
+      "reason": "Japonismus v článku 249 řeší evropskou recepci a dřevořez v článku 1014 způsob přenosu barvy. Nový článek sleduje použití dvou pigmentů v konkrétním tisku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1206",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1206",
+        "point": "Americký celní spor o Brâncușiho Ptáka v prostoru ukázal, že abstraktní socha může být pro účely cla uměním i bez realistické podobnosti s předlohou.",
+        "tags": [
+          "sculpture",
+          "law"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "698"
+      ],
+      "reason": "Duchampův readymade řeší výběr běžného předmětu tvůrcem, Brâncușiho soud řeší status ručně vytvořené, abstraktní sochy v sazebníku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1207",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1207",
+        "point": "Emily Dickinsonová si verše zapisovala také do svazečků vlastnoručně sešitých z přeložených listů, které dokládají její práci s rukopisy mimo tisk.",
+        "tags": [
+          "literature",
+          "preservation"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "15",
+        "790"
+      ],
+      "reason": "Brod zachraňoval cizí rukopisy před zničením a Austenová své knihy vydávala anonymně. Svazečky jsou příkladem toho, jak básnířka sama uchovávala vlastní opisy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1208",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1208",
+        "point": "Dracula skládá děj z různých záznamů a v příběhu se jejich sjednocení Minou stává podmínkou sdíleného vyšetřování.",
+        "tags": [
+          "narratology",
+          "communication"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "365",
+        "734"
+      ],
+      "reason": "Werther se soustředí na hrdinův hlas, Nosferatu na spor o filmovou adaptaci. Dracula proměňuje spojování různých záznamů v nástroj postav.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1209",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1209",
+        "point": "Švýcarská sedmičlenná spolková rada rozhoduje jako kolegium a její předsednictví nepřidává prezidentovi nadřízené postavení vůči ostatním radním.",
+        "tags": [
+          "institutions",
+          "political-science",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "283",
+        "287"
+      ],
+      "reason": "Referenda přenášejí díl rozhodování na voliče a dělba moci řeší vztah institucí. Zde jde o rovnost a společnou odpovědnost uvnitř vlády.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1210",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1210",
+        "point": "V šeptající galerii se zvuk může šířit podél zakřivené stěny a být zřetelný u ní i ve značné vzdálenosti od mluvčího.",
+        "tags": [
+          "mechanics",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "714"
+      ],
+      "reason": "Efekt koktejlové party vybírá mezi zvuky v pozornosti posluchače, v galerii se mění jejich fyzikální cesta.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1211",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1211",
+        "point": "Padající magnet vyvolává ve vodivé trubce vířivé proudy, jejichž magnetické působení jeho pád brzdí.",
+        "tags": [
+          "electromagnetism",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "297",
+        "614"
+      ],
+      "reason": "Obecná indukce vysvětluje vznik napětí a mezní rychlost odpor vzduchu. Vodivá trubka názorně ukazuje, že samotné indukované proudy vytvářejí brzdnou sílu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1212",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1212",
+        "point": "Prací proteázy štěpí velké bílkoviny ve skvrnách na menší části, které se mohou snáze uvolnit z vláken.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "825",
+        "1079"
+      ],
+      "reason": "Mýdlo odnáší mastnotu a obecný katalyzátor vysvětluje rychlost reakce. Prací proteáza odstraňuje jiný druh špíny rozštěpením samotného materiálu skvrny.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1213",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1213",
+        "point": "Přídavek sloučenin boru do borosilikátového skla umožňuje získat materiál s malou tepelnou roztažností a vyšší odolností proti teplotním skokům.",
+        "tags": [
+          "chemistry",
+          "materials",
+          "thermodynamics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "396",
+        "939"
+      ],
+      "reason": "Články o pevném okenním skle a zbytkovém napětí Rupertovy kapky vysvětlují jiné vlastnosti než volbu chemického složení kvůli malé roztažnosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1214",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1214",
+        "point": "SOFIA rozlišila molekulární vodu na osvětleném povrchu Měsíce pomocí pásu kolem 6,1 mikrometru, kde ji lze odlišit od samotného hydroxylu.",
+        "tags": [
+          "moon",
+          "astronomy",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "335"
+      ],
+      "reason": "Tranzitní spektroskopie hledá atmosférický oxid uhličitý u exoplanety, zde jde o řešení konkrétní nejednoznačnosti mezi vodou a hydroxylem v minerálním prostředí.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1215",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1215",
+        "point": "Modely vysvětlují mnohoúhelníky na Plutově rovině Sputnik Planitia prouděním měkkého pevného dusíkového ledu mezi teplejší hloubkou a studeným povrchem.",
+        "tags": [
+          "solar-system",
+          "thermodynamics"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "139",
+        "397"
+      ],
+      "reason": "Klasifikace Pluta ani přílivový ohřev Io nevysvětlují pohyb pevného ledu a vznik plošných vzorů v Plutově pánvi.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1216",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1216",
+        "point": "Náklady na fyzickou i organizační změnu cen mohou vést podnik k tomu, že ceník ponechá beze změny i při změně podmínek.",
+        "tags": [
+          "microeconomics",
+          "incentives"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "400"
+      ],
+      "reason": "Měnové trilema omezuje celostátní politiku, v novém článku rozhodují přímé provozní náklady prodejce na úpravu cen.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1217",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1217",
+        "point": "Přechod mezi místnostmi může při některých úlohách zhoršit vybavení nedávné informace, ale samotné překročení prahu jev spolehlivě nevyvolává.",
+        "tags": [
+          "learning-memory",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "242",
+        "402"
+      ],
+      "reason": "Změna výpovědi sugestivní otázkou a dočasné hledání známého slova jsou jiné jevy než vliv hranice mezi situacemi na dostupnost čerstvé informace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1218",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1218",
+        "point": "Původní Cinerama skládala široký obraz ze tří synchronně promítaných pásů na zakřivené plátno, což přinášelo dojem obklopení i viditelné spoje.",
+        "tags": [
+          "film-technique",
+          "perception"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "1064",
+        "1128"
+      ],
+      "reason": "Anamorfóza opticky stlačuje jediný obraz a zadní projekce kombinuje herce s pozadím při natáčení. Cinerama skládá divácký obraz ze tří pásů při projekci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1219",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1219",
+        "point": "Kruhová clona v němém filmu postupným zvětšením nebo zmenšením viditelné části obrazu směruje pozornost nebo odděluje scény.",
+        "tags": [
+          "film-technique",
+          "perception"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "1129"
+      ],
+      "reason": "Přeostření mění rovinu ostrosti, zatímco kruhová clona fyzicky či opticky zakrývá části obrazového pole.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1220",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1220",
+        "point": "Londýnské hry roku 1908 měly přímo uvnitř stadionu stometrový plavecký bazén, který dokládá tehdejší proměnu olympijských podmínek pro plavání.",
+        "tags": [
+          "sport",
+          "modern-history",
+          "architecture"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "983"
+      ],
+      "reason": "Standardizace délky maratonu má stejnou olympijskou kulisu, ale nezabývá se přesunem plaveckých soutěží do účelově postaveného bazénu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1221",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1221",
+        "point": "Štafeta v short tracku předává úsek dotykem a závodníci ho obvykle provádějí odtlačením spoluhráče vpřed, aby mu pomohli získat rychlost.",
+        "tags": [
+          "sport",
+          "cooperation",
+          "mechanics"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "1118"
+      ],
+      "reason": "Atletická předávka závisí na předání kolíku v zóně, short track předává úsek přímým kontaktem a může využít účinný odraz.",
+      "verdict": "accept"
+    }
+  ]
+}

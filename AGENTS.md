@@ -10,9 +10,19 @@ Read [CLAUDE.md](CLAUDE.md) for project conventions; despite its filename, it do
 
 Skills are stored in this repository under `skills/`. Open the relevant `SKILL.md` and resolve its relative file links from that skill's directory.
 
-## Rychlý povel pro ilustrace
+## Projektové prompty
 
-Povel **„další ilustrace“** spouští [faakt-illustrations](skills/faakt-illustrations/SKILL.md). Pokud chybí počet, zeptej se „Pro kolik dalších příspěvků chceš vygenerovat ilustrace?“ a počkej na odpověď. Potom bez dalšího potvrzování zpracuj zadaný počet dosud chybějících ilustrací vzestupně podle ID. Každé spuštění vybírá z aktuálních souborů, takže navazuje i v nové konverzaci.
+Když uživatel pošle některý z povelů níže, otevři uvedený soubor z aktuálního checkoutu a proveď jeho instrukce. Zbytek zprávy ber jako argumenty. Stejně fungují textové aliasy bez lomítka.
+
+| Povel v chatu | Prompt | Textový alias |
+| --- | --- | --- |
+| `/release-notes` | [Release notes](prompts/release-notes.md) | `release-notes` |
+| `/build-dev` | [Vývojový server](prompts/build-dev.md) | `build-dev` |
+| `/build-prod` | [Produkční náhled](prompts/build-prod.md) | `build-prod` |
+| `/dalsi-ilustrace [počet]` | [Další ilustrace](prompts/dalsi-ilustrace.md) | `další ilustrace` |
+| `/generovani-postu [počet a téma]` | [Nové příspěvky](prompts/generovani-postu.md) | `přidej nové posty` |
+
+Prompty ukládej do `prompts/`, jejich spustitelné pomocné skripty do `scripts/`. Pro nativní nabídku Codexu zaregistruje `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/register-codex-prompts.ps1` místní odkazy. Po znovunačtení klienta mají příkazy v nabídce tvar `/prompts:release-notes` a stejný prefix pro ostatní názvy.
 
 ## Přidání nových postů do aplikace
 

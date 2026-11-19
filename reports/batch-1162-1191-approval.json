@@ -1,0 +1,369 @@
+{
+  "snapshot": "c3e985a081fc23591928696df92e7381deb69d5601e02413d09fc88ce7094569",
+  "catalog_reviewed": "c3e985a081fc23591928696df92e7381deb69d5601e02413d09fc88ce7094569",
+  "drafts_hash": "100630997ddfeb23220be53c5bd7b25bc0544bbf77df029b7f70ec4661fe015b",
+  "decisions": [
+    {
+      "id": "1162",
+      "verdict": "accept",
+      "compared_ids": [
+        "180",
+        "409"
+      ],
+      "reason": "180 rozebírá lidské zobrazování bohů. 409 vysvětluje vznik pravidel basketbalu. Nový text sleduje Xenofanovo měřítko veřejných zásluh.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1163",
+      "verdict": "accept",
+      "compared_ids": [
+        "165",
+        "166",
+        "181",
+        "777"
+      ],
+      "reason": "165 popírá proměnu pravého jsoucna, 166 má čtyři stálé kořeny, 777 odvozuje proměnu z hustoty vzduchu a 181 vysvětluje povahu Slunce. Tady jsou v každé směsi zastoupeny různé druhy složek, jejichž zastoupení určuje její vlastnosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1164",
+      "verdict": "accept",
+      "compared_ids": [
+        "16",
+        "24",
+        "85",
+        "668"
+      ],
+      "reason": "16 sleduje číselné poměry a 24 tvar oběžné dráhy. 85 zavádí Slunce do středu soustavy. Filoláův model popisuje zvláštní středový oheň a pohyblivou Zemi v antickém kosmu. Článek 668 vykládá Aristarchův pozdější model s centrálním Sluncem, zatímco Filoláos obíhá jiný střed.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1165",
+      "verdict": "accept",
+      "compared_ids": [
+        "26",
+        "166"
+      ],
+      "reason": "26 sleduje proměnu na obrazu řeky a 166 mísení základních kořenů. Nový námět vysvětluje stabilitu celku vznikající díky protisměrnému napětí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1166",
+      "verdict": "accept",
+      "compared_ids": [
+        "2",
+        "161",
+        "284",
+        "325"
+      ],
+      "reason": "2 studuje poslušnost v psychologickém experimentu, 161 úřednickou bezmyšlenkovitost, 284 trestní odpovědnost a 325 oplácení křivdy. Nové téma je konkrétní Sókratovo odmítnutí zadržet Leóna a jeho využití v obhajobě.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1167",
+      "verdict": "accept",
+      "compared_ids": [
+        "27",
+        "66",
+        "542"
+      ],
+      "reason": "27 a 66 vykládají nevědomost a metodu otázek. 542 se týká fungování formace. Tady jde o Alkibiadovo konkrétní svědectví a ocenění za statečnost.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1168",
+      "verdict": "accept",
+      "compared_ids": [
+        "27",
+        "66",
+        "536"
+      ],
+      "reason": "27 a 66 popisují Sókratův postoj k vědění a jeho metodu. 536 řeší možnost vykládat výsledky delfských věšteb. Nový text popisuje osobní znamení, které Sókrata pouze odrazuje.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1169",
+      "verdict": "accept",
+      "compared_ids": [
+        "27",
+        "66",
+        "385"
+      ],
+      "reason": "27 a 66 vykládají vlastní metodu a 385 obecně odlišuje historii od básnictví. Nový text porovnává konkrétní Aristofanovu jevištní karikaturu a Platónovu obhajobu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1170",
+      "verdict": "accept",
+      "compared_ids": [
+        "884"
+      ],
+      "reason": "884 měří glykemii po jídle u diabetu druhého typu. Studie LIFE sleduje několikaletý vývoj ztráty pohyblivosti podle testu chůze.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1171",
+      "verdict": "accept",
+      "compared_ids": [
+        "802"
+      ],
+      "reason": "802 vykládá skladatelskou práci při ztrátě sluchu. ACHIEVE zkoumá odpověď kognitivních testů na sluchovou péči v různě ohrožených skupinách.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1172",
+      "verdict": "accept",
+      "compared_ids": [
+        "369"
+      ],
+      "reason": "369 sleduje veřejnou debatu o pesticidech. Nový text používá kohortní data k posouzení zdravotního přínosu zanechání kouření v různém věku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1173",
+      "verdict": "accept",
+      "compared_ids": [
+        "376",
+        "510",
+        "886"
+      ],
+      "reason": "Tyto články sledují hmotnost, ochranu konců chromozomů a energetický příjem po delším spánku. CALERIE zde slouží k rozlišení změny biomarkeru od dosažené délky života.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1174",
+      "verdict": "accept",
+      "compared_ids": [
+        "884"
+      ],
+      "reason": "884 sleduje glykemii po chůzi. Nový článek zkoumá výskyt pádů u žen od 80 let po individuálním tréninku síly a rovnováhy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1175",
+      "verdict": "accept",
+      "compared_ids": [
+        "389"
+      ],
+      "reason": "389 popisuje výrobu tvaru odléváním. Zde jde o opakované rozpojitelné zaklesnutí součástí v jezdci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1176",
+      "verdict": "accept",
+      "compared_ids": [
+        "23"
+      ],
+      "reason": "23 popisuje dvojici stejně velkých sil. Tento námět sleduje automatickou aktivaci zachycovacího mechanismu po odlehčení lana.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1177",
+      "verdict": "accept",
+      "compared_ids": [
+        "117",
+        "230"
+      ],
+      "reason": "117 pojednává o propojení webových dokumentů a 230 o měření informace. Nový text se týká standardizovaného označení sortimentu a jeho prvního komerčního použití.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1178",
+      "verdict": "accept",
+      "compared_ids": [
+        "147",
+        "428"
+      ],
+      "reason": "147 a 428 sledují způsoby programování a úzké hrdlo přenosu. Nový text vysvětluje přímý přístup úložné jednotky k záznamu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1179",
+      "verdict": "accept",
+      "compared_ids": [
+        "269",
+        "1048"
+      ],
+      "reason": "269 sleduje šíření papíru a 1048 tisk z plochy. Nový text vysvětluje přenos inkoustu kuličkou z malého zásobníku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1180",
+      "verdict": "accept",
+      "compared_ids": [
+        "530",
+        "528"
+      ],
+      "reason": "530 popisuje městské požáry v Římě a jeho vzniklý sbor, 528 zaběhlou komunikační síť. Tento článek zkoumá zamítnutí sdružení v provincii z politických důvodů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1181",
+      "verdict": "accept",
+      "compared_ids": [
+        "519",
+        "992"
+      ],
+      "reason": "519 řeší reformu držby římské půdy a 992 právní odměny za službu. Ve Veleii sloužila půda jako zajištění půjček, z jejichž úroku plynula podpora dětí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1182",
+      "verdict": "accept",
+      "compared_ids": [
+        "525",
+        "547"
+      ],
+      "reason": "525 sleduje zpřístupnění raného práva a 547 strukturu tetrarchie. Nový text čte dobový dokument jako doklad toho, které práce a služby Řím oceňoval a v jakých jednotkách.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1183",
+      "verdict": "accept",
+      "compared_ids": [
+        "529",
+        "993"
+      ],
+      "reason": "529 vykládá odvodňování Říma; 993 odvozuje údaje o obchodu z vrstvené skládky. Portus popisuje konkrétní rozšíření přístavu a jeho geometrii.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1184",
+      "verdict": "accept",
+      "compared_ids": [
+        "268"
+      ],
+      "reason": "268 zkoumá mravní vládnutí v Ašókových ediktech. Nový text rekonstruuje čtyři konkrétní požadavky společného husitského programu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1185",
+      "verdict": "accept",
+      "compared_ids": [
+        "287",
+        "804"
+      ],
+      "reason": "287 řeší dělbu mocí v obecném uspořádání a 804 fungování islandského shromáždění. Čáslavský text se týká mimořádného sboru nahrazujícího výkon moci sporného krále.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1186",
+      "verdict": "accept",
+      "compared_ids": [
+        "482"
+      ],
+      "reason": "482 zkoumá suverenitu po vestfálském míru. Chebská dohoda určuje pramenné měřítko pro teologický spor ještě před jeho jednáním.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1187",
+      "verdict": "accept",
+      "compared_ids": [
+        "482"
+      ],
+      "reason": "482 se týká státní suverenity, zatímco kompaktáta podmíněně uznávají konkrétní přijímací praxi. V dávce článek o artikulech zaznamenává původní požadavky a Cheb pravidla jednání.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1188",
+      "verdict": "accept",
+      "compared_ids": [
+        "112",
+        "810"
+      ],
+      "reason": "112 a 810 sledují správu společných zdrojů a černé pasažérství. Zde je mechanismem rozdělení přebytku podle nákupů členů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1189",
+      "verdict": "accept",
+      "compared_ids": [
+        "261",
+        "359",
+        "364",
+        "491"
+      ],
+      "reason": "261 a 491 pokrývají volební reformy a aktivismus, 359 vzdělávání a 364 americkou nezávislost. Nový text vysvětluje přepsání ustavujícího politického dokumentu jako způsob odůvodnění práv.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1190",
+      "verdict": "accept",
+      "compared_ids": [
+        "284",
+        "666"
+      ],
+      "reason": "284 posuzuje odpovědnost jednotlivců a 666 dohled ombudsmana nad správou. Tady jde o vznik státní inspekce vymezených továren za účelem kontroly dětské práce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1191",
+      "verdict": "accept",
+      "compared_ids": [
+        "205"
+      ],
+      "reason": "205 sleduje dezinfekci rukou a měřený pokles úmrtnosti porodnic. Nightingaleová staví úpravu pacientova prostředí do středu běžné práce pečující osoby.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

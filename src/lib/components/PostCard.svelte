@@ -440,7 +440,7 @@
 	/* Během pohybu řídí viditelnost skutečný úhel a backface-visibility.
 	   Pojistné skrytí přijde až na konci, aby časovač nepřepnul obsah
 	   na dosud viditelné ploše při navázání z náznaku nebo obrácení směru. */
-	.post-card.flipped .card-front .action-btn,
+	.post-card.flipped .card-front .action-btn:not(.share-btn),
 	.post-card:not(.flipped) .card-back .action-btn {
 		visibility: hidden;
 		transition: background 0.2s, transform 0.15s,
@@ -487,25 +487,29 @@
 		font: inherit;
 		font-size: 14px;
 		font-weight: 500;
+		/* The front face rotates and hides this button with the rest of its footer. */
+		z-index: auto;
+		transition: none;
+		-webkit-backface-visibility: visible;
+		backface-visibility: visible;
 	}
 
-	.card-front .share-btn span {
-		background: linear-gradient(135deg, var(--share-start), var(--share-end));
-		-webkit-background-clip: text;
-		background-clip: text;
-		-webkit-text-fill-color: transparent;
+	.card-front .share-btn:active {
+		transform: none;
 	}
 
 	.card-front .share-btn:active,
 	.card-front .share-btn:focus-visible {
 		--share-start: var(--text);
 		--share-end: var(--text);
+		color: var(--text);
 	}
 
 	@media (hover: hover) {
 		.card-front .share-btn:hover {
 			--share-start: var(--text);
 			--share-end: var(--text);
+			color: var(--text);
 		}
 	}
 
@@ -861,7 +865,7 @@
 		/* Bez animace není co otáčet — tlačítko odvrácené strany zmizí hned */
 		.post-card.flipped .card-front,
 		.post-card:not(.flipped) .card-back,
-		.post-card.flipped .card-front .action-btn,
+		.post-card.flipped .card-front .action-btn:not(.share-btn),
 		.post-card:not(.flipped) .card-back .action-btn {
 			transition-delay: 0s;
 		}

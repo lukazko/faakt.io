@@ -1,0 +1,1295 @@
+[
+  {
+    "id": "1072",
+    "title": "Roztok, který se brání změně pH",
+    "content": "<p>Kapka kyseliny dokáže změnit pH čisté vody mnohem výrazněji než pH vhodně připraveného pufru. Takový roztok má totiž chemickou zásobu, která změnu tlumí.</p><p>Pufr může tvořit slabá kyselina a její konjugovaná zásada. Zásaditá složka zachytává přidané vodíkové ionty, kyselá složka zase reaguje s přidanou zásadou. Poměr obou forem se změní, ale malé přídavky nemusí způsobit velký posun pH.</p><p>Nejde o neprůstřelnou ochranu. Jakmile se potřebná složka výrazně spotřebuje, pufrační kapacita nestačí a další přídavek pH prudce posune. <strong>Pufr změnu brzdí, nezakazuje ji.</strong> Proto chemik sleduje nejen požadované pH, ale také množství látek, které mohou odchylku pohltit.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax: Buffers",
+        "url": "https://openstax.org/books/chemistry-atoms-first-2e/pages/14-6-buffers"
+      },
+      {
+        "label": "Purdue University: Buffer Components",
+        "url": "https://www.purdue.edu/science/K12/LabPages/bufferspart3.html"
+      }
+    ],
+    "illustration": {
+      "concept": "buffer beaker receiving one drop. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "buffer_beaker_receiving_one_drop",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "buffer_beaker",
+        "falling_drop",
+        "liquid_surface"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "knowledge": {
+      "idea": "idea-1072",
+      "point": "Pufr spotřebovává malé přídavky kyseliny či zásady pomocí konjugovaného páru, ale po vyčerpání jeho kapacity se pH výrazně změní.",
+      "tags": [
+        "chemistry",
+        "limits"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1073",
+    "title": "Černý inkoust se může rozběhnout do barev",
+    "content": "<p>Černá tečka z fixu může na papíře odhalit několik barev. Rozpouštědlo ji neodbarví: její jednotlivé složky se vydají různě rychle na cestu.</p><p>Chromatografie pracuje s pohyblivou a nepohyblivou fází. Rozpuštěné látky se mezi ně rozdělují podle svých vlastností. Složka, která se více zdržuje u nepohyblivé fáze, postupuje pomaleji než ta, kterou snáze unáší rozpouštědlo.</p><p>Na papíře tak z původní skvrny vzniknou oddělené barevné oblasti. Barva přitom není podmínkou metody: v laboratoři lze vhodným detektorem sledovat i bezbarvé látky. <strong>Směs se rozliší díky rozdílnému chování jejích složek.</strong> Samotná shodná poloha skvrn však ještě není neomylným důkazem totožnosti látky.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: Chromatography",
+        "url": "https://edu.rsc.org/resources/chromatography/11333.article"
+      },
+      {
+        "label": "RSC: Teaching chromatography",
+        "url": "https://edu.rsc.org/cpd/how-to-teach-chromatography-at-post-16/4019097.article"
+      }
+    ],
+    "illustration": {
+      "concept": "paper strip with separated ink spots. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "paper_strip_with_separated_ink_spots",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "paper_chromatogram",
+        "colored_ink_spots",
+        "vertical_strip"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1073",
+      "point": "Chromatografie odděluje složky směsi podle jejich rozdílného rozdělování mezi pohyblivou a nepohyblivou fázi.",
+      "tags": [
+        "chemistry",
+        "knowledge-evidence"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1074",
+    "title": "Proč opakovaná destilace nedá čistý líh",
+    "content": "<p>Když se směs vody a ethanolu vaří, pára může obsahovat vyšší podíl ethanolu než kapalina. Z toho ale neplyne, že opakováním destilace vždy získáme naprosto čistý líh.</p><p>Při běžném atmosférickém tlaku tato dvojice vytváří azeotrop. V jeho složení má vznikající pára stejný poměr složek jako vroucí kapalina. Oddělení založené na jejich rozdílném zastoupení v páře tím narazí na mez.</p><p>U směsi obohacované od nižšího obsahu ethanolu se běžná frakční destilace k této hranici přibližuje, ale nepřekročí ji k čistému ethanolu. Pro další odstranění vody je třeba jiný vhodný postup. <strong>Více opakování nepřemůže princip, na kterém metoda stojí.</strong> Složení azeotropu navíc závisí na tlaku, nejde o neměnnou vlastnost za všech podmínek.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Chemguide: Non-ideal mixtures",
+        "url": "https://www.chemguide.co.uk/physical/phaseeqia/nonideal.html"
+      },
+      {
+        "label": "Lisa Nichols: Separation Theory",
+        "url": "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Organic_Chemistry_Lab_Techniques_(Nichols)/05%3A_Distillation/5.02%3A_Simple_Distillation/5.2B%3A_Separation_Theory"
+      }
+    ],
+    "illustration": {
+      "concept": "simple distillation flask and condenser. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "simple_distillation_flask_and_condenser",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "distillation_flask",
+        "glass_condenser",
+        "vapor_path"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1074",
+      "point": "Azeotrop ethanolu a vody má při daném tlaku stejné složení páry a kapaliny, což omezuje oddělení běžnou frakční destilací.",
+      "tags": [
+        "chemistry",
+        "limits"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1075",
+    "title": "Diamant a tuha: stejné atomy, jiné vazby",
+    "content": "<p>Tuhou v tužce snadno zanecháš stopu na papíře, diamantem lze rýt do mnoha materiálů. Přitom obě látky tvoří uhlík.</p><p>Rozdíl spočívá v propojení atomů. V diamantu se každý uhlíkový atom váže ke čtyřem sousedům v pevné prostorové síti. V grafitu je spojen se třemi sousedy v plochých vrstvách; mezi vrstvami působí mnohem slabší vazebné síly.</p><p>Vrstvy grafitu proto mohou po sobě klouzat a oddělovat se. Jeho elektronová struktura mu také umožňuje vést elektrický proud, zatímco čistý diamant je elektrický izolant. <strong>Chemické složení samo neříká, jak se materiál bude chovat.</strong> Záleží i na uspořádání a vazbách. Tyto různé strukturní formy stejného prvku označujeme jako alotropy.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Open University: Covalent structures",
+        "url": "https://www.open.edu/openlearn/mod/oucontent/view.php?id=9265&section=1.4.3"
+      },
+      {
+        "label": "OpenStax: The Solid State of Matter",
+        "url": "https://openstax.org/books/chemistry-atoms-first-2e/pages/10-5-the-solid-state-of-matter"
+      }
+    ],
+    "illustration": {
+      "concept": "diamond beside graphite pencil tip. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "diamond_beside_graphite_pencil_tip",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "faceted_diamond",
+        "graphite_tip",
+        "contrasting_carbon"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "knowledge": {
+      "idea": "idea-1075",
+      "point": "Diamant a grafit mají rozdílné vlastnosti kvůli odlišnému propojení uhlíkových atomů v prostorové síti a vrstvách.",
+      "tags": [
+        "chemistry",
+        "materials"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1076",
+    "title": "Síra proměnila kaučuk v odolnější pryž",
+    "content": "<p>Přírodní kaučuk může být za tepla lepivý a snadno se trvale deformovat. Přidání síry při vhodném zpracování z něj pomohlo vytvořit mnohem použitelnější materiál.</p><p>Vulkanizace propojuje dlouhé polymerní řetězce příčnými vazbami. U sirné vulkanizace mezi nimi vznikají sirné můstky. Řetězce se pak nemohou tak snadno posouvat jeden vůči druhému, ale vhodně řídká síť jim stále dovoluje pružně měnit tvar.</p><p>Po uvolnění síly se materiál lépe vrací zpět. Hustota a povaha vazeb ovlivňují jeho výsledné chování; příliš silné síťování může vést až k tvrdému materiálu. <strong>Nejde tedy jen o příměs přimíchanou do hmoty.</strong> Změní se chemické propojení, které drží polymerní řetězce pohromadě.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Kruželák et al.: Vulcanisation systems",
+        "url": "https://www.chempap.org/?id=7&paper=8743"
+      },
+      {
+        "label": "RSC: Polymer Chemistry",
+        "url": "https://books.rsc.org/books/monograph/662/chapter/356886/Polymer-Chemistry"
+      }
+    ],
+    "illustration": {
+      "concept": "rubber tire with simple crosslinked cutaway. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "rubber_tire_with_simple_crosslinked_cutaway",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "rubber_tire",
+        "crosslinked_rubber",
+        "cutaway"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "knowledge": {
+      "idea": "idea-1076",
+      "point": "Vulkanizace vytváří mezi polymerními řetězci kaučuku příčné vazby, které omezují jejich vzájemný posun a mění mechanické vlastnosti.",
+      "tags": [
+        "chemistry",
+        "materials",
+        "innovation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1077",
+    "title": "Nylonové vlákno roste na hranici dvou kapalin",
+    "content": "<p>Z rozhraní dvou kapalin lze vytahovat nové nylonové vlákno. Vypadá to jako kouzelnický trik, ale vlákno právě vzniká chemickou reakcí.</p><p>Při známé laboratorní ukázce jsou dva reagující monomery rozpuštěné v kapalinách, které se nemísí. Setkávají se na jejich hranici a vytvářejí tenkou polymerní vrstvu. Když ji experimentátor vytahuje, odkryje nové rozhraní a na něm může pokračovat vznik dalšího polymeru.</p><p>Malé molekuly se spojují do dlouhých řetězců polyamidu. Vytahovaná hmota tedy není pouze předem rozpuštěné vlákno, které by se v kapalině schovávalo. <strong>Místo setkání reagujících látek určuje místo vzniku materiálu.</strong> Jde o laboratorní demonstraci mezifázové polymerizace, ne o úplný popis průmyslové výroby každého nylonu.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: Making nylon",
+        "url": "https://edu.rsc.org/download?ac=522709"
+      },
+      {
+        "label": "Penn State: The Nylon Rope Trick",
+        "url": "https://zeus.plmsc.psu.edu/~manias/MatSE259/lecture3.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "nylon thread lifted from two liquid layers. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "nylon_thread_lifted_from_two_liquid_layers",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "nylon_thread",
+        "liquid_interface",
+        "lifting_tweezers"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1077",
+      "point": "Při mezifázové přípravě nylonu reagují monomery z oddělených kapalin na jejich rozhraní a vznikající polymer lze vytahovat jako vlákno.",
+      "tags": [
+        "chemistry",
+        "materials"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1078",
+    "title": "Rez potřebuje víc než samotný vzduch",
+    "content": "<p>Železný hřebík ve vlhku postupně pokryje rez. Samotná přítomnost kyslíku však k běžnému rezivění nestačí: důležitá je také voda.</p><p>Na povrchu probíhají propojené elektrochemické děje. Železo odevzdává elektrony a vznikají jeho ionty, zatímco kyslík se za účasti vody redukuje. Následné reakce vytvářejí směs korozních produktů, které známe jako rez.</p><p>Rezavá vrstva bývá porézní a odlupuje se, takže nezastaví přístup okolí k dalšímu kovu. Rozpuštěné soli mohou korozi usnadnit zvýšením vodivosti vodní vrstvy. <strong>Oxidace tedy nemusí vytvořit ochranný obal.</strong> Záleží na vlastnostech produktů: přilnavá pasivační vrstva jiných kovů se chová jinak než běžná rez železa.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: What causes iron to rust?",
+        "url": "https://edu.rsc.org/experiments/what-causes-iron-to-rust/434.article"
+      },
+      {
+        "label": "OpenStax: Corrosion",
+        "url": "https://openstax.org/books/chemistry-atoms-first/pages/16-6-corrosion"
+      }
+    ],
+    "illustration": {
+      "concept": "iron nail with flaking orange rust. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "iron_nail_with_flaking_orange_rust",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "iron_nail",
+        "orange_rust",
+        "flaking_surface"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1078",
+      "point": "Běžné rezivění železa vyžaduje vodu i kyslík a jeho porézní produkty nechrání kov tak jako přilnavá pasivační vrstva.",
+      "tags": [
+        "chemistry",
+        "preservation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1079",
+    "title": "Katalyzátor urychlí děj, ale nepřidá výtěžek rovnováhy",
+    "content": "<p>Peroxid vodíku se může rozkládat na vodu a kyslík, aniž je děj na první pohled prudký. Přidání vhodného katalyzátoru však uvolňování bublinek výrazně urychlí.</p><p>Katalyzátor umožňuje jinou reakční cestu s nižší energetickou bariérou. V průběhu mechanismu může reagovat, ale v celkové bilanci se obnovuje. Proto není další běžně spotřebovávanou surovinou jako výchozí látky.</p><p>U vratné reakce urychluje i opačný směr. Při stejné teplotě proto nezmění rovnovážné složení: pomůže k němu dojít rychleji. <strong>Rychlost reakce a poloha rovnováhy jsou dvě různé otázky.</strong> Katalyzátor může být pro praktickou výrobu zásadní, ale sám neposune termodynamickou hranici výtěžku.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: Peroxide decomposition and catalysts",
+        "url": "https://edu.rsc.org/experiments/hydrogen-peroxide-decomposition-using-different-catalysts/831.article"
+      },
+      {
+        "label": "OpenStax: Catalysis",
+        "url": "https://openstax.org/books/chemistry-2e/pages/12-7-catalysis"
+      }
+    ],
+    "illustration": {
+      "concept": "peroxide beaker releasing oxygen bubbles. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "peroxide_beaker_releasing_oxygen_bubbles",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "peroxide_beaker",
+        "oxygen_bubbles",
+        "catalyst_grains"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1079",
+      "point": "Katalyzátor nabízí rychlejší reakční cestu a urychluje dosažení rovnováhy, aniž mění její polohu při stejné teplotě.",
+      "tags": [
+        "chemistry",
+        "limits"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1080",
+    "title": "Chladivý sáček nepotřebuje led",
+    "content": "<p>Jednorázový chladivý sáček může před použitím ležet při pokojové teplotě. Po stisknutí začne chladit, přestože v něm nebyl žádný led.</p><p>Některé takové sáčky obsahují odděleně vodu a dusičnan amonný. Porušením vnitřního obalu se látky spojí a sůl se rozpouští. Celkový děj je endotermický: vyžaduje přísun tepla, které odebírá roztoku a jeho okolí.</p><p>Při rozpouštění se narušuje krystalová mřížka a ionty obklopují molekuly vody. O výsledném zahřátí či ochlazení rozhoduje energetická bilance těchto dějů. Ne každá sůl proto vodu ochladí a ne každý chladivý sáček používá stejnou náplň. <strong>Chlad může vzniknout i rozpouštěním, nikoli jen táním ledu.</strong></p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "UW–Madison: Chemical Cold Pack",
+        "url": "https://demolab.chem.wisc.edu/thermochemistry-chemical-cold-pack/"
+      },
+      {
+        "label": "ACS: Temperature Changes in Dissolving",
+        "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson9.html"
+      }
+    ],
+    "illustration": {
+      "concept": "instant cold pack with inner water pouch. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "instant_cold_pack_with_inner_water_pouch",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "cold_pack",
+        "water_pouch",
+        "flexible_bag"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1080",
+      "point": "Rozpouštění dusičnanu amonného ve vodě může odebírat teplo okolí, což využívají některé jednorázové chladivé sáčky.",
+      "tags": [
+        "chemistry",
+        "thermodynamics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1081",
+    "title": "Otevřením lahve změníš podmínky pro bubliny",
+    "content": "<p>Po otevření perlivé vody začnou unikat bublinky. Neobjevily se z ničeho: oxid uhličitý už byl v nápoji rozpuštěný.</p><p>Ve výrobě se plyn rozpouští za zvýšeného tlaku. Podle Henryho zákona roste při dané teplotě rovnovážná koncentrace rozpuštěného plynu s jeho parciálním tlakem nad kapalinou, v oblasti platnosti tohoto přiblížení.</p><p>Otevřením lahve tlak oxidu uhličitého nad nápojem prudce klesne. Kapalina ho pak obsahuje více, než odpovídá novým rovnovážným podmínkám, a část plynu uniká. K vzniku bublinek pomáhají místa na stěně nebo drobné nečistoty. <strong>Uzávěr tedy udržuje podmínky, které drží plyn v roztoku.</strong> Chlad navíc při stejném tlaku rozpouštění oxidu uhličitého podporuje.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "ACS: Can Gases Dissolve in Water?",
+        "url": "https://www.acs.org/middleschoolchemistry/lessonplans/chapter5/lesson8.html"
+      },
+      {
+        "label": "OpenStax: Solubility and Henry's law",
+        "url": "https://openstax.org/books/chemistry-2e/pages/11-3-solubility"
+      }
+    ],
+    "illustration": {
+      "concept": "opened sparkling water bottle with bubbles. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "opened_sparkling_water_bottle_with_bubbles",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "open_bottle",
+        "rising_bubbles",
+        "sparkling_water"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1081",
+      "point": "Pokles tlaku oxidu uhličitého nad nápojem po otevření lahve snižuje jeho rovnovážnou rozpustnost a podporuje unikání plynu.",
+      "tags": [
+        "chemistry",
+        "change"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1082",
+    "title": "Molekula, která uchopí kov na několika místech",
+    "content": "<p>Některé molekuly dokážou kovový ion uchopit na několika místech zároveň. V chemii takové vazbě říkáme chelatace, podle řeckého označení klepeta.</p><p>Chelatační ligand poskytuje více donorových atomů, které se vážou ke stejnému kovovému centru. Tím vznikají kruhy zahrnující kov i část ligandu. Známá EDTA může v plně deprotonované podobě využít dva atomy dusíku a čtyři atomy kyslíku.</p><p>Kov se tím neztratí ani nepřestane být chemickým prvkem. Změní se však forma, v níž je přítomen, a tím i některé jeho reakce. To lze využít například při analytickém stanovení kovových iontů. <strong>Rozpuštěný kov nemusí být v roztoku volný.</strong> Síla komplexu a jeho zastoupení přitom závisejí na konkrétním kovu, ligandu a podmínkách včetně pH.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Purdue University: EDTA",
+        "url": "https://www.chem.purdue.edu/gchelp/cchem/polys.html"
+      },
+      {
+        "label": "OpenStax: Coordination Chemistry",
+        "url": "https://openstax.org/books/chemistry-2e/pages/19-2-coordination-chemistry-of-transition-metals"
+      }
+    ],
+    "illustration": {
+      "concept": "metal sphere held by a single looping ligand. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "metal_sphere_held_by_a_single_looping_ligand",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "central_metal_sphere",
+        "looping_ligand",
+        "multiple_contacts"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "knowledge": {
+      "idea": "idea-1082",
+      "point": "Chelatační ligand se váže k témuž kovovému centru více donorovými atomy a tvoří kruhy; EDTA tak může kovový ion uzavřít do komplexu.",
+      "tags": [
+        "chemistry",
+        "materials"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1083",
+    "title": "Sodík se v plameni prozradí žlutě",
+    "content": "<p>Ne každá žlutá záře patří hořícímu uhlíku. I malé množství sodné soli může v plameni vytvořit výrazné žluté světlo.</p><p>Při plamenové zkoušce se vzorek zahřeje a vznikající atomy přijímají energii. Jejich elektrony mohou přejít do vyšších energetických stavů; při návratu se energie vyzáří na charakteristických vlnových délkách. Právě ty pomáhají rozlišit přítomné prvky.</p><p>Sodík dává žlutou barvu, draslík typicky fialovou. Zkouška je rychlá, ale má omezení: ne všechny kovy dávají výraznou barvu a silný sodíkový signál může slabší odstíny překrýt. <strong>Barva je vodítkem k analýze, nikoli univerzálním chemickým průkazem.</strong> Ve směsi je třeba výsledek ověřit vhodnou další metodou.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC: Flame colours",
+        "url": "https://edu.rsc.org/resources/flame-colours-a-demonstration/760.article"
+      },
+      {
+        "label": "RSC: How to carry out flame tests",
+        "url": "https://edu.rsc.org/infographics/how-to-carry-out-flame-tests/4024075.article"
+      }
+    ],
+    "illustration": {
+      "concept": "single burner with bright yellow flame. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "single_burner_with_bright_yellow_flame",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "yellow_flame",
+        "burner",
+        "wire_loop"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1083",
+      "point": "Plamenová zkouška pomáhá rozpoznat některé kovy podle světla emitovaného excitovanými atomy, ale příměsi mohou výsledek překrýt.",
+      "tags": [
+        "chemistry",
+        "knowledge-evidence"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1084",
+    "title": "Elektrický proud pomohl získat hliník z rudy",
+    "content": "<p>Hliníku je v zemské kůře dost, ale získat z jeho sloučenin čistý kov bývalo náročné. Dostupnost prvku v rudě totiž není totéž jako snadnost jeho výroby.</p><p>Zlom přinesl Hallův–Héroultův proces. Oxid hlinitý se rozpouští v roztaveném kryolitu a elektrický proud umožňuje redukovat hlinité ionty na kov na katodě. Kryolit poskytuje vhodné prostředí a dovoluje pracovat při nižší teplotě než tavenina samotného oxidu hlinitého.</p><p>Nejde o vodný roztok: v něm by při pokusu o běžné vylučování hliníku přednostně reagovala voda. <strong>Správně zvolené prostředí je součástí vynálezu.</strong> Výroba proto nestojí jen na připojení proudu, ale i na chemii a provozu roztaveného elektrolytu.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "ACS: Hall–Héroult Process",
+        "url": "https://www.acs.org/education/whatischemistry/landmarks/aluminumprocess.html"
+      },
+      {
+        "label": "OpenStax: Electrolysis",
+        "url": "https://openstax.org/books/chemistry-2e/pages/17-7-electrolysis"
+      }
+    ],
+    "illustration": {
+      "concept": "aluminium electrolysis pot with glowing melt. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "aluminium_electrolysis_pot_with_glowing_melt",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "electrolysis_pot",
+        "molten_electrolyte",
+        "electrodes"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1084",
+      "point": "Hallův–Héroultův proces vyrábí hliník elektrolýzou oxidu hlinitého rozpuštěného v roztaveném kryolitu, nikoli elektrolýzou vodného roztoku.",
+      "tags": [
+        "chemistry",
+        "innovation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1085",
+    "title": "Sádra tvrdne tím, že si vezme vodu",
+    "content": "<p>Sádrová kaše po rozmíchání s vodou ztuhne, i když se voda ještě nestihla všechna odpařit. Tuhnutí totiž není pouhé vysychání.</p><p>Pálená sádra obsahuje hemihydrát síranu vápenatého. Při smíchání s vodou se obnovuje dihydrát, tedy sádrovec. Vznikající krystaly postupně prorůstají a vytvářejí pevnou strukturu, přičemž hydratace uvolňuje teplo.</p><p>Voda má proto dvojí roli: část se zabuduje do krystalické látky, přebytečná část může později vysychat. Množství vody i způsob zpracování ovlivňují vlastnosti odlitku. <strong>Pevnost může vzniknout tím, že materiál s vodou zreaguje.</strong> Je proto chybné vysvětlovat každý přechod mokré směsi v pevnou hmotu jen odchodem kapaliny do vzduchu.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Canadian Conservation Institute: Plaster of Paris",
+        "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-plaster-paris.html"
+      },
+      {
+        "label": "Gurgul et al.: Hemihydrate to dihydrate",
+        "url": "https://onlinelibrary.wiley.com/doi/full/10.1107/S1600577519001929"
+      }
+    ],
+    "illustration": {
+      "concept": "plaster bowl and small white cast. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "plaster_bowl_and_small_white_cast",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "plaster_bowl",
+        "white_cast",
+        "mixing_spatula"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_warm"
+    },
+    "knowledge": {
+      "idea": "idea-1085",
+      "point": "Tuhnutí pálené sádry zahrnuje hydrataci hemihydrátu síranu vápenatého na dihydrát a růst propojených krystalů.",
+      "tags": [
+        "chemistry",
+        "materials"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1086",
+    "title": "Malá změna pravidla rozehrála brankáře",
+    "content": "<p>Brankář býval bezpečnou zastávkou, kam mohl spoluhráč opakovaně vracet míč. V roce 1992 pravidla omezila možnost takto přerušovat hru chycením malé domů.</p><p>Brankář nesmí rukama zahrát míč, který mu spoluhráč úmyslně kopl. Rozhodující není, zda letí dozadu: podstatný je úmyslný kop spoluhráče směrem k brankáři. Běžná hlavička má jiné podmínky, ale trik obcházející pravidlo není dovolenou zkratkou.</p><p>Brankář tak musí častěji rozehrávat nohou, rozhodovat se pod tlakem a spolupracovat s obranou bez snadného ukrytí míče do rukou. <strong>Pravidlo změnilo dovednost, kterou hra od jeho role vyžaduje.</strong> Smyslem změny bylo omezit zdržování a udržet míč ve hře, ne zakázat samotné přihrávky brankáři.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "IFAB: Fouls and misconduct",
+        "url": "https://www.theifab.com/laws/latest/fouls-and-misconduct/"
+      },
+      {
+        "label": "The Royal Gazette: zpráva z 3. července 1992",
+        "url": "https://www.royalgazette.com/other/sport/article/20110208/fifa-refs-instructor-to-explain-back-pass-rule/"
+      }
+    ],
+    "illustration": {
+      "concept": "goalkeeper controlling backpass with foot. A simple accompanying motif for the article.",
+      "scene_type": "interaction",
+      "primary_subject": "goalkeeper_controlling_backpass_with_foot",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "goalkeeper_boot",
+        "football",
+        "gloved_hands"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "knowledge": {
+      "idea": "idea-1086",
+      "point": "Zákaz chycení míče úmyslně kopnutého spoluhráčem zavedený roku 1992 omezil zdržování a zvýšil nároky na brankářovu hru nohama.",
+      "tags": [
+        "sport",
+        "change"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1087",
+    "title": "Ve volejbalu se kdysi hrálo i bez bodu",
+    "content": "<p>Volejbalová výměna mohla kdysi skončit bez změny skóre. Pokud ji vyhrál přijímající tým, obvykle získal jen právo podávat.</p><p>Systém zvaný side-out tak spojoval bod s vlastním podáním. Bodování každé výměny, schválené FIVB v roce 1998, tuto podmínku odstranilo: vítěz rozehry získá bod bez ohledu na to, kdo podával.</p><p>Změnila se tím cena každé chyby i tempo růstu skóre. Převzetí podání už není pouze přípravou na možnost bodovat. Běžné sety se v novém systému hrají do 25 bodů, rozhodující pátý do 15, vždy s potřebným dvoubodovým náskokem. <strong>Vyhraná výměna a získaný bod dnes znamenají totéž.</strong> Ani tento systém však nezaručuje pevnou maximální délku setu, pokud se týmy stále střídají v zisku bodů.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "FIVB: The Game",
+        "url": "https://www.fivb.com/volleyball/the-game/"
+      },
+      {
+        "label": "FIVB: Basic Rules",
+        "url": "https://www.fivb.com/volleyball/the-game/basic-rules/"
+      }
+    ],
+    "illustration": {
+      "concept": "volleyball above net with score tiles. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "volleyball_above_net_with_score_tiles",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "volleyball",
+        "net",
+        "score_tiles"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1087",
+      "point": "Přechod na bodování každé výměny odstranil u běžných setů podmínku vlastního podání pro získání bodu.",
+      "tags": [
+        "sport",
+        "incentives"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1088",
+    "title": "Proč si rychlobruslaři vyměňují dráhy",
+    "content": "<p>Dva rychlobruslaři v páru nejedou celou dobu ve své původní dráze. Na protilehlé rovince si pravidelně vyměňují vnitřní a vnější pozici.</p><p>Důvodem je geometrie oválu. Vnější oblouk je delší než vnitřní, takže bez střídání by jeden závodník systematicky projížděl kratší cestu. Pravidla párového rychlobruslení proto předepisují změny drah, které tuto výhodu vyrovnávají.</p><p>Překřížení se musí načasovat bezpečně. Při souběhu má přednost závodník přijíždějící z vnější dráhy; druhý ho nesmí zablokovat. <strong>Krátká výměna drah je součástí férového měření výkonu.</strong> Nejde o taktický souboj o vnitřek jako v short tracku, kde více závodníků sdílí jednu závodní dráhu.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "ISU: Why skaters switch lanes",
+        "url": "https://www.isu-skating.com/en/speed-skating/news/explained-why-speed-skaters-switch-lanes/"
+      },
+      {
+        "label": "ISU: Speed Skating Sports Rules 2026",
+        "url": "https://isu-d8g8b4b7ece7aphs.a03.azurefd.net/isudamcontainer/CMS/Corporate-Site/Governance/Isu-Regulations/2026-Speed-Skating-Sports-Rules-20260514-FINAL-as-of-12-June-2026--1--1780932044-4787.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "two speed skaters crossing lanes. A simple accompanying motif for the article.",
+      "scene_type": "interaction",
+      "primary_subject": "two_speed_skaters_crossing_lanes",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "two_speed_skaters",
+        "crossing_paths",
+        "long_blades"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1088",
+      "point": "Povinné střídání vnitřní a vnější dráhy při párovém rychlobruslení vyrovnává rozdílné délky oblouků.",
+      "tags": [
+        "sport",
+        "fairness"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1089",
+    "title": "Biatlonová chyba nemusí mít stejnou cenu",
+    "content": "<p>Minutý terč v biatlonu nemusí vždy znamenat stejný trest. Záleží na tom, v jakém formátu závodník právě startuje.</p><p>Ve sprintu po chybě následuje trestný okruh dlouhý 150 metrů. Jeho skutečná časová cena závisí na tom, jak rychle ho biatlonista projede. V klasickém vytrvalostním závodě se za každou netrefenou ránu místo okruhu přičítá minuta k času.</p><p>Změní se tím poměr mezi rychlým během, časem stráveným na střelnici a přesností. Úspora několika sekund střelbou nemusí vyvážit cenu další chyby, zvlášť při minutové přirážce. <strong>Stejná střelecká dovednost se hodnotí v různých soutěžních podmínkách.</strong> Kratší varianty vytrvalostního závodu mohou mít jinou časovou přirážku, proto nelze minutový trest zobecnit na celý sport.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "IBU: Competition formats",
+        "url": "https://www.biathlonworld.com/discover-biathlon/how-it-works/competition-formats"
+      },
+      {
+        "label": "IBU: Rules overview",
+        "url": "https://www.biathlonworld.com/fr/discover-biathlon/how-it-works/rules-overview"
+      }
+    ],
+    "illustration": {
+      "concept": "biathlon target with one unhit black disc. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "biathlon_target_with_one_unhit_black_disc",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "biathlon_target",
+        "white_discs",
+        "one_black_disc"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "knowledge": {
+      "idea": "idea-1089",
+      "point": "Ve sprintu se minutý terč trestá okruhem, zatímco v klasickém vytrvalostním biatlonovém závodě časovou přirážkou, takže formát mění cenu rizika.",
+      "tags": [
+        "sport",
+        "decision-making"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1090",
+    "title": "Koště v curlingu ovlivní i kámen, kterého se nedotkne",
+    "content": "<p>Curlingový kámen už opustil ruku, ale spoluhráči stále mohou ovlivnit jeho cestu. Koště přitom nesmí použít jako hůl, která by kámen postrčila.</p><p>Zametají led před jeho pohybem. Tím mění podmínky na povrchu, po kterém kámen klouže, a mohou prodloužit dojezd nebo omezit jeho stáčení. Hráči proto průběžně vyhodnocují rychlost i linii a podle toho volí intenzitu a načasování zametání.</p><p>Nejde o pouhý úklid překážek. Práce s koštětem je součástí koordinované hry po odhodu, i když přímý kontakt s kamenem chybí. <strong>Dráhu lze řídit změnou cesty před objektem.</strong> Účinek ale není libovolný a soutěžní pravidla omezují vybavení i používané techniky zametání.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Curling: What is curling?",
+        "url": "https://worldcurling.org/about/curling/"
+      },
+      {
+        "label": "USA Curling: Introduction",
+        "url": "https://www.usacurling.org/intro-to-curling"
+      }
+    ],
+    "illustration": {
+      "concept": "curling stone with brush sweeping ahead. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "curling_stone_with_brush_sweeping_ahead",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "curling_stone",
+        "sweeping_brush",
+        "ice_contact"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1090",
+      "point": "Zametání upravuje led před curlingovým kamenem a pomáhá řídit jeho dojezd i míru stáčení bez přímého doteku kamene.",
+      "tags": [
+        "sport",
+        "mechanics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1091",
+    "title": "Desetiboj není součtem deseti pořadí",
+    "content": "<p>Desetibojař může být nejlepší v jedné disciplíně a přesto v celé soutěži výrazně zaostávat. Body se totiž nepřidělují za pořadí v jednotlivých závodech.</p><p>Naměřený čas, výška nebo vzdálenost se převádějí podle stanovených tabulek. Běhy potřebují jiné vzorce než skoky a hody. Výsledné body se sčítají, takže výkon může mít stejnou bodovou cenu i v závodě se zcela jinak silnými soupeři.</p><p>Tabulky jsou nelineární: stejné zlepšení o centimetr či desetinu sekundy nemusí přinést pokaždé stejný přírůstek bodů. Současný systém používá progresivní vztahy. <strong>O vítězi rozhoduje součet převedených výkonů, ne počet dílčích vítězství.</strong> Společná stupnice dovoluje porovnat deset různých měření, ale její konstrukce současně spoluurčuje, jak se vyplatí rozvíjet jednotlivé disciplíny.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics: Decathlon",
+        "url": "https://worldathletics.org/disciplines/combinedevents/decathlon"
+      },
+      {
+        "label": "IAAF: Scoring Tables for Combined Events",
+        "url": "https://0092469e90.clvaw-cdnwnd.com/ca11286dfd7cc4a4d81cd9baa1a60473/200000700-722d4722d7/tabela_pontos_combinadas_iaaf.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "decathlon scorecard with running and jumping symbols. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "decathlon_scorecard_with_running_and_jumping_symbols",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "scorecard",
+        "running_symbol",
+        "jumping_symbol"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1091",
+      "point": "Desetibojař získává body za absolutní výkon v každé disciplíně podle nelineárních tabulek, nikoli za umístění mezi soupeři.",
+      "tags": [
+        "sport",
+        "mathematics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1092",
+    "title": "Náskok ze skoku se promění v čekání na startu",
+    "content": "<p>V severské kombinaci může nejlepší skokan vyrazit na běžeckou trať jako první. Soupeři přitom nečekají náhodně dlouho: jejich ztráta je vypočítaná ze skoku.</p><p>Gundersenova metoda převádí rozdíly bodů ze skokanské části na časové rozestupy. V tradičním individuálním formátu odpovídá jeden bod čtyřem sekundám. Ztráta deseti bodů tedy znamená start o 40 sekund později.</p><p>Závodník, který náskok soupeře na trati smaže, vyrovná tím i jeho výhodu ze skoku. První v cíli proto vyhrává celou soutěž, nikoli nutně samotnou běžeckou část. <strong>Výsledek první disciplíny je zabudovaný do startu druhé.</strong> Severská kombinace ale používá i další formáty; například Compact neurčuje rozestupy stejným přímým převodem všech bodových rozdílů.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "FIS: Individual competition formats",
+        "url": "https://www.fis-ski.com/nordic-combined/news/2025-26/nordic-combined-101-individual-competition-formats"
+      },
+      {
+        "label": "FIS: Official Gundersen result, 2015",
+        "url": "https://medias3.fis-ski.com/pdf/2015/NK/4171/2015NK4171RL.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "nordic skier waiting behind start gate. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "nordic_skier_waiting_behind_start_gate",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "nordic_skier",
+        "start_gate",
+        "ski_poles"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1092",
+      "point": "Gundersenova metoda převádí rozdíly skokanských bodů na časové rozestupy pro následný běh, takže cílové pořadí určí vítěze celé soutěže.",
+      "tags": [
+        "sport",
+        "information-theory"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1093",
+    "title": "Tyč není jen dlouhý žebřík",
+    "content": "<p>Ohnutá tyč pod skokanem vypadá, jako by ho sama vystřelila k laťce. Energii však nezískala zadarmo: závodník ji přinesl hlavně rozběhem a vlastním pohybem.</p><p>Po zasunutí do skokanské skříňky se pružná tyč prohne. Část mechanické energie se dočasně uloží do její deformace. Při narovnávání se může znovu předávat soustavě a pomáhat zvedat tělo do výšky.</p><p>Skokan přitom není pasivní závaží: pracuje pažemi, otáčí tělo a správně načasuje další fáze skoku. Moderní pružné materiály umožnily jinou techniku než tuhé dřevěné či kovové tyče. <strong>Tyč energii přesměruje a dočasně uchová, nevytvoří ji.</strong> Samotný ohyb proto bez rychlosti, síly a koordinace rekordní výšku nezajistí.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics: Pole Vault",
+        "url": "https://worldathletics.org/disciplines/field-events/pole-vault"
+      },
+      {
+        "label": "Biomechanics: Stored Elastic Energy in the Bending Pole",
+        "url": "https://www.mdpi.com/2673-7078/6/1/28"
+      }
+    ],
+    "illustration": {
+      "concept": "pole vaulter on a bent fiberglass pole. A simple accompanying motif for the article.",
+      "scene_type": "interaction",
+      "primary_subject": "pole_vaulter_on_a_bent_fiberglass_pole",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "pole_vaulter",
+        "bent_pole",
+        "raised_body"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "knowledge": {
+      "idea": "idea-1093",
+      "point": "Pružná tyč při skoku dočasně ukládá energii rozběhu a odrazu do ohybu a vrací ji při narovnání, zatímco závodník dál aktivně pracuje.",
+      "tags": [
+        "sport",
+        "mechanics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1094",
+    "title": "Prohra v kvalifikaci nemusí ukončit turnaj",
+    "content": "<p>Tenista prohraje v kvalifikaci a přesto se objeví v hlavním pavouku turnaje. Nemusí jít o chybu v losu: může nastoupit jako lucky loser.</p><p>Tento náhradník obsazuje místo uvolněné odstoupením jiného hráče. Typicky jde o hráče poraženého v závěrečné fázi kvalifikace. Zařazení ale řídí konkrétní pravidla soutěže, včetně pořadí oprávněných náhradníků a požadavků na jejich přihlášení a připravenost.</p><p>Porážka se tím nepřepisuje na vítězství. Organizátor pouze doplní vzniklou mezeru v hlavní soutěži, aby nemusel celé kvalifikační kolo opakovat. <strong>Vyřazení a možnost dodatečného přijetí jsou dvě oddělené věci.</strong> Označení šťastný poražený tedy neznamená automatický nárok ani volnou vstupenku pro libovolného přítomného hráče.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "LTA: Grand Slam entry and lucky losers",
+        "url": "https://prod.lta.org.uk/fan-zone/how-do-tennis-players-get-into-grand-slam-tournaments/"
+      },
+      {
+        "label": "Wimbledon: Official Grand Slam Rule Book 2025",
+        "url": "https://www.wimbledon.com/pdf/Grand_Slam_Rulebook_2025.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "tennis racket beside reopened tournament gate. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "tennis_racket_beside_reopened_tournament_gate",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "tennis_racket",
+        "open_gate",
+        "court_entry"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    },
+    "knowledge": {
+      "idea": "idea-1094",
+      "point": "Lucky loser může po prohře v tenisové kvalifikaci obsadit uvolněné místo v hlavní soutěži podle pravidel pro náhradníky.",
+      "tags": [
+        "sport",
+        "institutions"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1095",
+    "title": "Běžkař se může odrážet i bez stoupacího vosku",
+    "content": "<p>Běžkař se může odrazit, aniž by mu stoupací vosk přidržel skluznici proti pohybu dozadu. Při bruslení totiž využívá jiný směr a způsob odrazu než při klasickém střídavém běhu.</p><p>Lyže klade šikmo ke směru jízdy a zatěžuje její hranu. Tlakem do strany a dozadu získává oporu ve sněhu, která umožňuje zrychlit vpřed. Hmotnost přenáší na druhou lyži a navazuje dalším skluzem; k pohonu přispívají také hole.</p><p>Proto mají bruslařské lyže skluznou plochu bez stoupací zóny potřebné pro klasický odraz. U klasických lyží přitom přilnavost nemusí zajišťovat jen vosk, ale také pás nebo jiná úprava.</p><p><strong>Opora nemusí mířit proti pohybu stejně jako krok pěšího.</strong> Bruslení přidává výraznou boční složku: pro rozbor účinného pohonu nestačí měřit jen sílu, důležitá je i orientace lyže a směr pohybu těla.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "Canadian Museum of Nordic Sport: Skate technique history",
+        "url": "https://nordicskimuseum.sixmilesourdough.com/evolution/hidden-parent/race-technique-evolution/the-history-of-the-skate-technique/"
+      },
+      {
+        "label": "Lindinger: Biomechanics in cross-country skiing",
+        "url": "https://jyx.jyu.fi/bitstream/handle/123456789/64605/1/978-951-39-7797-9_vaitos29062019.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "cross country skier pushing skis diagonally. A simple accompanying motif for the article.",
+      "scene_type": "interaction",
+      "primary_subject": "cross_country_skier_pushing_skis_diagonally",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "cross_country_skier",
+        "diagonal_skis",
+        "sideways_push"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "knowledge": {
+      "idea": "idea-1095",
+      "point": "Bruslařská technika běhu na lyžích získává pohon šikmým odrazem z hrany a přenosem hmotnosti, takže nevyžaduje stoupací vosk jako klasický odraz.",
+      "tags": [
+        "sport",
+        "mechanics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1096",
+    "title": "Déšť v kriketu mění víc než počet míčů",
+    "content": "<p>Déšť může v kriketu zkrátit jednomu týmu čas na pálce. Pouhé snížení cílového skóre ve stejném poměru jako počet zbývajících míčů by ale přehlíželo důležitý rozdíl.</p><p>Útočící tým má dva omezené zdroje: zbývající nadhozy a neztracené branky, tedy možnosti pokračovat v pálkařské směně. Družstvo s mnoha vyřazenými pálkaři nemá stejný bodovací potenciál jako tým s téměř neporušenou sestavou při stejném počtu nadhozů.</p><p>Metoda Duckworth–Lewis–Stern proto upravuje cíl podle kombinace obou zdrojů před přerušením a po něm. <strong>Ztracený čas nemá za všech okolností stejnou sportovní hodnotu.</strong> Výpočet je pravidly zavedený model očekávaných možností, nikoli předpověď přesného počtu bodů, které by konkrétní hráči skutečně získali.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "ICC: Duckworth/Lewis calculations explained",
+        "url": "https://www.icc-cricket.com/news/icc-media-information-duckworthlewis-calculations-explained"
+      },
+      {
+        "label": "ECB: Duckworth–Lewis–Stern methodology",
+        "url": "https://resources.ecb.co.uk/ecb/document/2025/03/03/b086cf26-f1d4-4ab1-aa68-a7bcfbef32a2/Duckworth-Lewis-Stern-Methodology.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "cricket bat and wicket under small rain cloud. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "cricket_bat_and_wicket_under_small_rain_cloud",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "cricket_bat",
+        "wicket",
+        "rain_cloud"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1096",
+      "point": "Metoda DLS upravuje cíl přerušeného kriketového zápasu podle kombinace zbývajících nadhozů a neztracených branek, nikoli jen poměrem času.",
+      "tags": [
+        "sport",
+        "algorithms",
+        "fairness"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1097",
+    "title": "Proč musí filmová klapka opravdu klapnout",
+    "content": "<p>Filmová klapka není jen tabulka se jménem scény. Její krátké cvaknutí řeší praktický problém, když kamera a zvukový rekordér pořizují oddělené záznamy.</p><p>Obraz zachytí okamžik, kdy se ramena klapky dotknou. Zvuková stopa obsahuje výrazný krátký impulz. Střihač obě události zarovná a získá společný časový bod, od kterého může sladit řeč i další dění.</p><p>Údaje na tabulce navíc pomáhají určit scénu a pokus, aby se nespojily různé záběry. Klapnutí ale samo neopraví dlouhodobý rozchod záznamů způsobený nesprávnými rychlostmi či hodinami. <strong>Jedna událost pozorovatelná dvěma způsoby propojí dva nezávislé záznamy.</strong> Proto má i v digitálním natáčení klapka užitečnou úlohu vedle časového kódu a dalších nástrojů synchronizace.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "Aalto University: CinemaSense, Clapperboard",
+        "url": "https://elokuvantaju.uiah.fi/english/study_material/production/klaffi.jsp"
+      },
+      {
+        "label": "Nashville Film Institute: Clapperboard",
+        "url": "https://www.nfi.edu/clapperboard/2/"
+      }
+    ],
+    "illustration": {
+      "concept": "open film clapperboard. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "open_film_clapperboard",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "clapperboard",
+        "hinged_sticks",
+        "diagonal_stripes"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "monochrome_cool"
+    },
+    "knowledge": {
+      "idea": "idea-1097",
+      "point": "Viditelný dotyk ramen klapky a krátký zvukový impulz dávají střihači společný bod pro synchronizaci odděleně pořízeného obrazu a zvuku.",
+      "tags": [
+        "film-technique",
+        "sound"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1098",
+    "title": "Zvuk se ve filmu dá přečíst světlem",
+    "content": "<p>Na filmovém pásu nemusí být zachycené jen obrázky. Vedle nich může běžet úzký pruh, jehož proměny nesou zvuk.</p><p>Analogová optická stopa zaznamenává signál změnami průsvitnosti nebo šířky světlé plochy. Při projekci jí prochází světlo na fotodetektor. Kolísání světla se převede na elektrický signál, který po zesílení rozezní reproduktor.</p><p>Zvuk tak nemusí doprovázet kopii na samostatné desce: jeho záznam cestuje na stejném nosiči jako obraz. Obrazové okénko a zvuková čtečka ovšem nejsou v projektoru na stejném místě, takže stopa musí mít odpovídající posun. <strong>Film může nést zvuk jako obrazec určený ke čtení světlem.</strong> Viditelné proužky přitom samy o sobě nejsou kresbou pohybu vzduchu, ale jeho technicky zpracovaným záznamem.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "UCL: Image = Sound",
+        "url": "https://www.ucl.ac.uk/mathematical-physical-sciences/image-sound-alchemy-issue-3"
+      },
+      {
+        "label": "Museum of the Moving Image: Sound in Silent Cinema",
+        "url": "https://scienceandfilm.org/articles/sound-in-silent-cinema/"
+      }
+    ],
+    "illustration": {
+      "concept": "film strip with visible optical soundtrack. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "film_strip_with_visible_optical_soundtrack",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "film_strip",
+        "optical_track",
+        "translucent_sound_pattern"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1098",
+      "point": "Analogová optická zvuková stopa kóduje signál změnami průsvitnosti či šířky pruhu na filmu a při projekci se snímá světlem a fotodetektorem.",
+      "tags": [
+        "film-technique",
+        "sound"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1099",
+    "title": "Hobita může zmenšit vzdálenost od kamery",
+    "content": "<p>Herec nemusí být malý, aby vedle druhého působil jako hobit. Kamera dokáže skrýt, že stojí mnohem dál, než se divákovi zdá.</p><p>Vynucená perspektiva využívá vztah mezi vzdáleností objektu a jeho velikostí v obraze. Vhodně umístění herci a části dekorace mohou z jediného pohledu vypadat, že sdílejí stejný prostor, přestože jsou rozmístění v různých hloubkách.</p><p>Tvůrci Pána prstenů používali tento postup například při společných scénách hobitů a Gandalfa. U pohyblivých záběrů bylo třeba vztahy udržovat koordinovaným pohybem kamery a plošin s herci. <strong>Měřítko postavy může vzniknout uspořádáním před objektivem.</strong> Neznamená to však, že všechny velikostní triky trilogie vznikly touto jedinou technikou.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "American Cinematographer: Imagining Middle-earth",
+        "url": "https://theasc.com/article/lord-of-the-rings-fellowship-of-the-rings-vfx/"
+      },
+      {
+        "label": "American Cinematographer: Peter Jackson interview",
+        "url": "https://theasc.com/article/peter-jackson-lord-of-the-rings-interview/"
+      }
+    ],
+    "illustration": {
+      "concept": "two equal height actors at different camera distances. A simple accompanying motif for the article.",
+      "scene_type": "interaction",
+      "primary_subject": "two_equal_height_actors_at_different_camera_distances",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "equal_height_actors",
+        "different_depths",
+        "camera_viewpoint"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1099",
+      "point": "Vynucená perspektiva využívá různé vzdálenosti a měřítka dekorací k tomu, aby herci běžné výšky působili v jednom záběru různě velcí.",
+      "tags": [
+        "film-technique",
+        "optics",
+        "perceived-reality"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1100",
+    "title": "Tři černobílé pásy dokázaly zachytit barvy",
+    "content": "<p>Slavné barvy třípásového Technicoloru nezačínaly třemi barevnými negativy. Kamera pořizovala tři černobílé záznamy různých barevných složek téže scény.</p><p>Optická soustava rozdělovala světlo přes filtry na záznamy červené, zelené a modré složky. Z těchto výtažků se připravily reliéfní matrice, které přenášely odpovídající barviva do společné filmové kopie. Přesné sesazení bylo nezbytné, aby se kontury nerozcházely.</p><p>Barevná informace tedy nespočívala v barvě samotných tří negativů, ale v tom, kterou část světla každý zaznamenal. <strong>Černobílý záznam může uchovat jednu složku barevného obrazu.</strong> Pozdější označení Technicolor na filmu ovšem nemusí znamenat třípásovou kameru: barvotisk se používal také pro materiál natočený na jediný barevný negativ.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "George Eastman Museum: Three-strip camera",
+        "url": "https://www.eastman.org/technicolor/technology/three-strip-camera"
+      },
+      {
+        "label": "George Eastman Museum: Dye-transfer printing",
+        "url": "https://www.eastman.org/technicolor/technology/dye-transfer-printing"
+      }
+    ],
+    "illustration": {
+      "concept": "three monochrome film strips with color filters. A simple accompanying motif for the article.",
+      "scene_type": "process",
+      "primary_subject": "three_monochrome_film_strips_with_color_filters",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "three_film_strips",
+        "color_filters",
+        "monochrome_records"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    },
+    "knowledge": {
+      "idea": "idea-1100",
+      "point": "Třípásový Technicolor pořizoval tři oddělené černobílé barevné výtažky, ze kterých se připravovaly matrice pro přenos barviv do výsledné kopie.",
+      "tags": [
+        "film-technique",
+        "innovation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1101",
+    "title": "Střih, při kterém je časový skok vidět",
+    "content": "<p>Postava sedí na stejném místě, ale mezi dvěma okamžiky náhle změní polohu. Obraz přitom zůstane podobně rámovaný a střih svůj zásah neskrývá.</p><p>Tak funguje jump cut, tedy skokový střih. Ze souvislého dění lze vynechat část času a spojit blízké obrazové situace. Změna je natolik viditelná, že divák vnímá poskočení místo plynulého pokračování pohybu.</p><p>Postup může zkrátit čekání, dodat tempu nervozitu nebo upozornit na samotné vyprávění. Proslavily ho mimo jiné filmy francouzské nové vlny. <strong>Střih nemusí být neviditelný, aby byl účelný.</strong> Jeho vhodnost závisí na záměru: v jinak plynule natočené scéně může nechtěné poskočení rušit, zatímco záměrná série takových skoků vytváří vlastní rytmus.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "Adobe: Jump cuts",
+        "url": "https://www.adobe.com/uk/creativecloud/video/discover/jump-cut.html"
+      },
+      {
+        "label": "Adobe: Cuts in film",
+        "url": "https://www.adobe.com/creativecloud/video/post-production/cuts-in-film"
+      }
+    ],
+    "illustration": {
+      "concept": "two film frames with actor in shifted positions. A simple accompanying motif for the article.",
+      "scene_type": "object",
+      "primary_subject": "two_film_frames_with_actor_in_shifted_positions",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "two_frames",
+        "same_actor",
+        "shifted_pose"
+      ],
+      "composition_hints": [
+        "center_complete_motif_horizontally_and_vertically",
+        "balanced_transparent_margins",
+        "large_readable_silhouette"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1101",
+      "point": "Jump cut spojuje podobně rámované záběry s vynechaným úsekem děje, takže pohyb či poloha postavy viditelně poskočí.",
+      "tags": [
+        "film-technique",
+        "narratology"
+      ],
+      "type": "principle"
+    }
+  }
+]

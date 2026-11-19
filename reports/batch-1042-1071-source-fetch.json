@@ -1,0 +1,422 @@
+﻿[
+    {
+        "id":  "1042",
+        "source":  0,
+        "url":  "https://ww1.nam.ac.uk/1331/news/christmas-truce/",
+        "chars":  3423,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1042",
+        "source":  1,
+        "url":  "https://www.nam.ac.uk/explore/christmas-ww1",
+        "chars":  8113,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1043",
+        "source":  0,
+        "url":  "https://museum.novascotia.ca/stories/explosion-narrows-1917-halifax-harbour-explosion",
+        "chars":  9298,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1043",
+        "source":  1,
+        "url":  "https://archives.novascotia.ca/halifax-explosion/",
+        "chars":  1,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1044",
+        "source":  0,
+        "url":  "https://plato.stanford.edu/entries/spinoza/",
+        "chars":  92919,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1044",
+        "source":  1,
+        "url":  "https://iep.utm.edu/spinoza/",
+        "chars":  72402,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1045",
+        "source":  0,
+        "url":  "https://plato.stanford.edu/entries/pascal-wager/",
+        "chars":  66743,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1045",
+        "source":  1,
+        "url":  "https://iep.utm.edu/pasc-wag/",
+        "chars":  22724,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1046",
+        "source":  0,
+        "url":  "https://pubmed.ncbi.nlm.nih.gov/25201684/",
+        "chars":  155,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1046",
+        "source":  1,
+        "url":  "https://pubmed.ncbi.nlm.nih.gov/28082614/",
+        "chars":  155,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1047",
+        "source":  0,
+        "url":  "https://www.oumnh.ox.ac.uk/node/4964346",
+        "chars":  5241,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1047",
+        "source":  1,
+        "url":  "https://www.rspb.org.uk/birds-and-wildlife/cuckoo",
+        "chars":  5828,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1048",
+        "source":  0,
+        "url":  "https://www.metmuseum.org/perspectives/materials-and-techniques-printmaking-lithograph",
+        "status":  "failed",
+        "error":  "HTTP Error 429: Too Many Requests"
+    },
+    {
+        "id":  "1048",
+        "source":  1,
+        "url":  "https://www.moma.org/collection/terms/lithography",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1049",
+        "source":  0,
+        "url":  "https://www.sfmoma.org/exhibition/alexander-calder/",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1049",
+        "source":  1,
+        "url":  "https://www.nga.gov/artists/2047-alexander-calder",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1050",
+        "source":  0,
+        "url":  "https://chs.harvard.edu/primary-source/sophocles-oedipus-tyrannus-sb/",
+        "chars":  82782,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1050",
+        "source":  1,
+        "url":  "https://www.britannica.com/art/dramatic-irony",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1051",
+        "source":  0,
+        "url":  "https://www.poetryfoundation.org/poems/44477/ode-on-a-grecian-urn",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1051",
+        "source":  1,
+        "url":  "https://www.poetryfoundation.org/articles/145240/john-keats-ode-on-a-grecian-urn",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1052",
+        "source":  0,
+        "url":  "https://documents1.worldbank.org/curated/en/778301468019774995/pdf/401440v10ER0P01sclosed0March0302008.pdf",
+        "status":  "failed",
+        "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)\u003e"
+    },
+    {
+        "id":  "1052",
+        "source":  1,
+        "url":  "https://www.padeco.co.jp/en/projects/detail.html?cmid=573\u0026pdid=25020",
+        "chars":  819,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1053",
+        "source":  0,
+        "url":  "https://ks.echr.coe.int/documents/d/echr-ks/guide_art_4_protocol_7_eng",
+        "chars":  98196,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1053",
+        "source":  1,
+        "url":  "https://ks.echr.coe.int/en/web/echr-ks/article-4-protocol-7",
+        "chars":  3873,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1054",
+        "source":  0,
+        "url":  "https://openstax.org/books/university-physics-volume-1/pages/17-6-beats",
+        "chars":  7142,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1054",
+        "source":  1,
+        "url":  "https://openstax.org/books/physics/pages/14-4-sound-interference-and-resonance",
+        "chars":  25156,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1055",
+        "source":  0,
+        "url":  "https://openstax.org/books/university-physics-volume-1/pages/11-4-precession-of-a-gyroscope",
+        "chars":  11152,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1055",
+        "source":  1,
+        "url":  "https://farside.ph.utexas.edu/teaching/336k/lectures/node70.html",
+        "status":  "failed",
+        "error":  "\u003curlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1002)\u003e"
+    },
+    {
+        "id":  "1056",
+        "source":  0,
+        "url":  "https://www.acs.org/education/activities/red-cabbage-indicator.html",
+        "chars":  1,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1056",
+        "source":  1,
+        "url":  "https://pubmed.ncbi.nlm.nih.gov/24991694/",
+        "chars":  155,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1057",
+        "source":  0,
+        "url":  "https://openstax.org/books/chemistry/pages/17-6-corrosion",
+        "chars":  10135,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1057",
+        "source":  1,
+        "url":  "https://psu.pb.unizin.org/chem112masp18/chapter/17-6-corrosion/",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1058",
+        "source":  0,
+        "url":  "https://science.nasa.gov/uranus/facts/",
+        "chars":  13558,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1058",
+        "source":  1,
+        "url":  "https://www.ssec.wisc.edu/planetary/uranus/science/",
+        "chars":  12903,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1059",
+        "source":  0,
+        "url":  "https://science.nasa.gov/missions/hubble/nasas-hubble-watches-jupiters-great-red-spot-behave-like-a-stress-ball/",
+        "chars":  17521,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1059",
+        "source":  1,
+        "url":  "https://science.nasa.gov/asset/hubble/jupiters-great-red-spot-2/",
+        "chars":  11671,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1060",
+        "source":  0,
+        "url":  "https://user.mendelu.cz/marik/frvs/cobweb.pdf",
+        "status":  "failed",
+        "error":  "Remote end closed connection without response"
+    },
+    {
+        "id":  "1060",
+        "source":  1,
+        "url":  "https://www.sciencedirect.com/science/article/abs/pii/S0167268121005436",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1061",
+        "source":  0,
+        "url":  "https://www.imf.org/en/publications/fandd/issues/series/back-to-basics/dutch-disease",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1061",
+        "source":  1,
+        "url":  "https://documents.worldbank.org/en/publication/documents-reports/documentdetail/518791586875176017",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1062",
+        "source":  0,
+        "url":  "https://pubmed.ncbi.nlm.nih.gov/16210542/",
+        "chars":  155,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1062",
+        "source":  1,
+        "url":  "https://ruccs.rutgers.edu/images/personal-zenon-pylyshyn/class-info/Consciousness_2014/Johansson_ChoiceBlindness_Science2005.pdf",
+        "chars":  29025,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1063",
+        "source":  0,
+        "url":  "https://web.mit.edu/curhan/www/docs/Articles/biases/13_J_Experimental_Social_Psychology_279_%28Ross%29.pdf",
+        "chars":  67708,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1063",
+        "source":  1,
+        "url":  "https://www.sciencedirect.com/science/article/pii/0022103185900204",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1064",
+        "source":  0,
+        "url":  "https://www.arri.com/resource/blob/41434/9093dd51fa56328b70f56a718bac0e22/2018-10-26-alexa-lf-and-anamorphic-lenses-pdf-data.pdf",
+        "chars":  37236,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1064",
+        "source":  1,
+        "url":  "https://www.arri.com/resource/blob/388830/8e291fd59589918e30d20677af9f0290/arri-alexa-35-anamorphic-formats-in-post-production-workflow-guideline-data.pdf",
+        "chars":  34280,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1065",
+        "source":  0,
+        "url":  "https://resources.avid.com/supportfiles/attach/interplay_central/ipc_help/InterplayCentral_Help/UG_Sequences.15.55.html",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    },
+    {
+        "id":  "1065",
+        "source":  1,
+        "url":  "https://ptgmedia.pearsoncmg.com/images/9780321990198/samplepages/9780321990198.pdf",
+        "chars":  134039,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1066",
+        "source":  0,
+        "url":  "https://mathworld.wolfram.com/PicksTheorem.html",
+        "chars":  3464,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1066",
+        "source":  1,
+        "url":  "https://math.nyu.edu/Archimedes/Stomachion/Pick.html",
+        "chars":  1974,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1067",
+        "source":  0,
+        "url":  "https://mathworld.wolfram.com/CircleDivisionbyLines.html",
+        "chars":  3569,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1067",
+        "source":  1,
+        "url":  "https://mathworld.wolfram.com/PlaneDivisionbyLines.html",
+        "chars":  2172,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1068",
+        "source":  0,
+        "url":  "https://www.rfc-editor.org/rfc/rfc1035.html",
+        "chars":  99033,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1068",
+        "source":  1,
+        "url":  "https://www.rfc-editor.org/rfc/rfc8767.html",
+        "chars":  27358,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1069",
+        "source":  0,
+        "url":  "https://www.ti.com/lit/ab/scea094/scea094.pdf",
+        "chars":  3939,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1069",
+        "source":  1,
+        "url":  "https://docs.arduino.cc/built-in-examples/digital/Debounce/",
+        "chars":  1,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1070",
+        "source":  0,
+        "url":  "https://assets.fiba.basketball/image/upload/documents-corporate-others-90th-anniversary-book-single-page.pdf",
+        "chars":  99966,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1070",
+        "source":  1,
+        "url":  "https://pmc.ncbi.nlm.nih.gov/articles/PMC7712598/",
+        "chars":  22786,
+        "status":  "downloaded"
+    },
+    {
+        "id":  "1071",
+        "source":  0,
+        "url":  "https://www.ushnorrbotten.se/sv/fodelse/jan-boklov-uppfinnaren-av-v-stilen/",
+        "status":  "failed",
+        "error":  "\u003curlopen error [Errno 11001] getaddrinfo failed\u003e"
+    },
+    {
+        "id":  "1071",
+        "source":  1,
+        "url":  "https://www.tandfonline.com/doi/full/10.1080/17430437.2025.2596505",
+        "status":  "failed",
+        "error":  "HTTP Error 403: Forbidden"
+    }
+]

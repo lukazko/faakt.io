@@ -1,0 +1,426 @@
+{
+  "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+  "catalog_reviewed": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+  "drafts_hash": "193b8e7850294fec85110dfc1a566b204c8dd88ae845797a60fa1cffc613dd2e",
+  "decisions": [
+    {
+      "id": "1007",
+      "verdict": "accept",
+      "compared_ids": [
+        "296",
+        "667"
+      ],
+      "reason": "296 vysvětluje relativistické opravy GPS a 667 měření obvodu Země ze stínů; nový text popíše historické uchování referenčního času na moři a převod rozdílu na délku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1008",
+      "verdict": "accept",
+      "compared_ids": [
+        "897",
+        "530"
+      ],
+      "reason": "897 řeší financování kanalizace po zápachu a 530 římské nájemní domy a hasiče; zde jde o konkrétní stavební pravidla obnovy Londýna roku 1667 a mýtus o zavedení cihel.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1009",
+      "verdict": "accept",
+      "compared_ids": [
+        "329",
+        "185"
+      ],
+      "reason": "329 rozlišuje dva významy svobody a 185 univerzalizaci mravních pravidel; nový poznatek je Millovo měřítko oprávněného donucení podle újmy druhým.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1010",
+      "verdict": "accept",
+      "compared_ids": [
+        "878",
+        "426"
+      ],
+      "reason": "878 řeší odpovědnost při příčinné určenosti a 426 přetížení počtem možností; zde jde o logický problém symetrické volby už mezi dvěma shodnými alternativami.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1011",
+      "verdict": "accept",
+      "compared_ids": [
+        "509"
+      ],
+      "reason": "509 vysvětluje magnetický kompas při migraci; elektrické vyhledávání blízké kořisti zobákem je jiný smyslový mechanismus a funkce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1012",
+      "verdict": "accept",
+      "compared_ids": [
+        "903",
+        "955"
+      ],
+      "reason": "903 řeší toleranci zamrznutí a 955 transport kyslíku u ledovek; vydra předchází ztrátě tepla izolací vzduchem v srsti, nikoli tolerancí ledu či krevní adaptací.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1013",
+      "verdict": "accept",
+      "compared_ids": [
+        "252",
+        "470"
+      ],
+      "reason": "252 vysvětluje název impresionismu a 470 Mondrianovu geometrickou redukci; zde je pointou práce s oddělenými barevnými body a optickým mísením.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1014",
+      "verdict": "accept",
+      "compared_ids": [
+        "390",
+        "249"
+      ],
+      "reason": "390 popisuje hlubotisk vyhlazováním zdrsněné desky a 249 kulturní vliv ukiyo-e; dřevořez nově vysvětluje opačný vztah vyřezané plochy a tisknoucího reliéfu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1015",
+      "verdict": "accept",
+      "compared_ids": [
+        "908",
+        "592"
+      ],
+      "reason": "908 řeší selektivní zamlčení detektivního vypravěče a 592 teorii autorovy autority; zde je děj formálně ukryt v parazitním komentáři k samostatné básni, nikoli jen v nespolehlivém líčení události.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1016",
+      "verdict": "accept",
+      "compared_ids": [
+        "338",
+        "342"
+      ],
+      "reason": "338 řeší odpovědnost stvořitele za opuštěného tvora a 342 řízení lidských tužeb pro stabilitu; nový text rozebere jazyk a vzpomínání obětí systému odběrů orgánů a postupné odhalení jejich situace.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1017",
+      "verdict": "accept",
+      "compared_ids": [
+        "793",
+        "842"
+      ],
+      "reason": "793 popisuje politicky jednotný čas rozlehlé země a 842 data začátku roku; zde jde o koordinované zavedení více časových pásem železniční sítí před federálním zákonem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1018",
+      "verdict": "accept",
+      "compared_ids": [
+        "874",
+        "992"
+      ],
+      "reason": "874 řeší plošné udělení římského občanství a 992 jeho získání službou; nově se odlišuje úřední záznam faktu narození od právního přiznání občanství.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1019",
+      "verdict": "accept",
+      "compared_ids": [
+        "38",
+        "443"
+      ],
+      "reason": "38 vysvětluje vztlak vytlačenou kapalinou a 443 hustotu vody a ledu; nový mechanismus je smáčení a kapilární zdvih proti gravitaci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1020",
+      "verdict": "accept",
+      "compared_ids": [
+        "1002",
+        "749"
+      ],
+      "reason": "1002 řeší energii přeměny skupenství a 749 izolaci kapky vrstvou páry; zde se rozlišují tři přenosové cesty a jejich omezení vakuem a odrazivými stěnami.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1021",
+      "verdict": "accept",
+      "compared_ids": [
+        "444",
+        "824"
+      ],
+      "reason": "444 řeší dráždivou reakci po narušení cibule a 824 tepelný rozklad dřeva; zde jde o reakce cukrů s aminoskupinami, nikoli jakoukoli změnu teplem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1022",
+      "verdict": "accept",
+      "compared_ids": [
+        "825",
+        "1006"
+      ],
+      "reason": "825 vysvětluje tvorbu micel a odnos mastnoty a 1006 velikostní selekci v zeolitu; nový text řeší chemické vysrážení mýdla ionty tvrdé vody.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1023",
+      "verdict": "accept",
+      "compared_ids": [
+        "1006",
+        "913"
+      ],
+      "reason": "1006 vysvětluje pravidelné molekulové síto a 913 superkritickou extrakci; aktivní uhlí nově ukáže kapacitně omezené zachycení látek na povrchu, nikoli průchod podle rozměru nebo rozpouštění v CO2.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1024",
+      "verdict": "accept",
+      "compared_ids": [
+        "292",
+        "836"
+      ],
+      "reason": "292 řeší přenos momentu a vzdalování Měsíce, 836 zdánlivou velikost při zatmění; zde proměnlivý směr pohledu odhaluje část odvrácených okrajů navzdory synchronní rotaci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1025",
+      "verdict": "accept",
+      "compared_ids": [
+        "941",
+        "288"
+      ],
+      "reason": "941 řeší výměnu drah měsíců a 288 ochranný zánik sondy; zde je novým poznatkem částicová a extrémně tenká podoba hlavních prstenců.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1026",
+      "verdict": "accept",
+      "compared_ids": [
+        "295",
+        "851"
+      ],
+      "reason": "295 řeší molekulární rozptyl na Zemi a 851 barevné osvětlení stínů; marťanský prach má jiné směrové rozptylové působení a vytváří modrou oblast právě kolem zapadajícího Slunce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1027",
+      "verdict": "accept",
+      "compared_ids": [
+        "40",
+        "60"
+      ],
+      "reason": "40 doporučuje rozpočtové výdaje a 60 řeší dlouhodobou inflaci; nový mechanismus je omezení krátké nominální sazby a rozdíl mezi běžnou a nekonvenční měnovou stimulací.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1028",
+      "verdict": "accept",
+      "compared_ids": [
+        "481",
+        "752"
+      ],
+      "reason": "481 řeší užitek další jednotky a 752 neznámou kvalitu a nepříznivý výběr; zde rozdílné ceny stejného statku zachycují rozdílnou ochotu platit a potřebují segmentaci zákazníků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1029",
+      "verdict": "accept",
+      "compared_ids": [
+        "401",
+        "918"
+      ],
+      "reason": "401 vyžaduje porovnání změněných scén s přerušením a 918 rychlé zpracování dvou cílů; zde může uniknout souvisle viditelný nečekaný objekt kvůli úkolu zaměřenému jinam.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1030",
+      "verdict": "accept",
+      "compared_ids": [
+        "242",
+        "945"
+      ],
+      "reason": "242 řeší změnu obsahu vzpomínky sugescí a 945 lepší uložení samostatně vytvořené odpovědi; zde se zachovaný obsah mylně připisuje vlastní tvorbě kvůli ztrátě zdroje.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1031",
+      "verdict": "accept",
+      "compared_ids": [
+        "852",
+        "920"
+      ],
+      "reason": "852 vysvětluje aliasing a 920 chemické stárnutí nosiče; zde promítací rychlost mění celé časové měřítko filmu a archiv musí respektovat proměnlivou historickou praxi.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1032",
+      "verdict": "accept",
+      "compared_ids": [
+        "461",
+        "784"
+      ],
+      "reason": "461 odděluje barvu pro klíčování a 784 rozebírá Zemanův výtvarný styl; zde malba nahrazuje část fyzického prostoru a skládá se s hranou akcí pomocí maskovaných oblastí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1033",
+      "verdict": "accept",
+      "compared_ids": [
+        "223",
+        "228"
+      ],
+      "reason": "223 je identita komplexní exponenciály a 228 podmínka Eulerova tahu; nový vztah V-E+F=2 spočítá topologickou vlastnost povrchu konvexního mnohostěnu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1034",
+      "verdict": "accept",
+      "compared_ids": [
+        "405",
+        "303"
+      ],
+      "reason": "405 má předem určené rovnoměrné vzorkování a 303 empirické rozdělení číslic; zde různé definice náhodné tětivy vedou k různým správným pravděpodobnostem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1035",
+      "verdict": "accept",
+      "compared_ids": [
+        "694",
+        "500"
+      ],
+      "reason": "694 hledá nejkratší cestu v grafu a 500 odhaduje pí mnohoúhelníky; brachistochrona optimalizuje dobu dynamického sestupu mezi body a odlišuje čas od délky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1036",
+      "verdict": "accept",
+      "compared_ids": [
+        "799",
+        "952"
+      ],
+      "reason": "799 uvolňuje nedostupné objekty a 952 pojmenovává data obsahem; wear leveling vyrovnává fyzické cykly mazání flash a omezuje předčasné opotřebení bloků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1037",
+      "verdict": "accept",
+      "compared_ids": [
+        "408",
+        "742"
+      ],
+      "reason": "408 koordinuje potvrzení mezi účastníky a 742 odděluje relační model od fyzického uložení; WAL řeší lokální pořadí zápisu a pozdější checkpoint bez kopírování celé této koordinace.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1038",
+      "verdict": "accept",
+      "compared_ids": [
+        "657",
+        "796"
+      ],
+      "reason": "657 počítá se zbytky a 796 opravuje chybné bity; zde jsou všechny bity správné, ale číselný význam závisí na dohodnutém pořadí bajtů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1039",
+      "verdict": "accept",
+      "compared_ids": [
+        "947",
+        "852"
+      ],
+      "reason": "947 během expozice tvoří umělý filmový prostor a 852 popisuje aliasing; cílový systém skládá časový záznam jediné čáry pro měření pořadí závodníků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1040",
+      "verdict": "accept",
+      "compared_ids": [
+        "988",
+        "989"
+      ],
+      "reason": "988 vysvětluje brzdění samostatného badmintonového míčku a 989 povolení přehazovaček; zde proudové ovlivnění více jezdců vede k taktické spolupráci a střídání.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1041",
+      "verdict": "accept",
+      "compared_ids": [
+        "382",
+        "412"
+      ],
+      "reason": "382 rozebírá náhodné strategie jednotlivé penalty a 412 tenisový formát konce setu; nový text doloží konkrétní vznik a zavádění fotbalového rozstřelu proti dřívějšímu losování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

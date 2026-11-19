@@ -1,0 +1,1264 @@
+[
+  {
+    "id": "1102",
+    "title": "Tlak dokáže obrátit přirozený tok vody",
+    "content": "<p>Slanou vodu není nutné všechnu odpařit, abychom z ní získali sladkou. Lze ji také protlačit přes membránu, která propouští vodu mnohem snáze než rozpuštěné soli.</p><p>Při běžné osmóze přechází voda přes vhodnou polopropustnou membránu směrem ke koncentrovanějšímu roztoku. Rozdíl chemických potenciálů tak může vytvářet osmotický tlak.</p><p>Reverzní osmóza tento tok obrací: na koncentrovanější straně se vyvine dostatečný vnější tlak. Voda prochází na druhou stranu, zatímco většina solí zůstává v postupně koncentrovanější solance.</p><p>Membrána není kouzelné síto zachycující úplně všechno a potřebuje vhodnou údržbu i předúpravu vody. <strong>Rozhodující je spojení selektivního materiálu s tlakem.</strong> Bez dodané energie by proces proti přirozenému směru nepracoval.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "FDA – Reverse Osmosis",
+        "url": "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/reverse-osmosis"
+      },
+      {
+        "label": "USGS – Desalination",
+        "url": "https://www.usgs.gov/water-science-school/science/desalination"
+      }
+    ],
+    "illustration": {
+      "concept": "A compact membrane cartridge with a single emerging clean water drop.",
+      "scene_type": "object",
+      "primary_subject": "reverse_osmosis_membrane",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "cartridge",
+        "water_drop",
+        "selective_membrane"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1102",
+      "point": "Reverzní osmóza využívá tlak větší než osmotický k přenosu vody přes selektivní membránu z koncentrovanějšího roztoku.",
+      "tags": [
+        "chemistry",
+        "resources"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1103",
+    "title": "Vápenná malta tvrdne i díky vzduchu",
+    "content": "<p>Čerstvá vápenná malta nepotřebuje jen ztratit přebytečnou vodu. U vzdušného vápna se na tvrdnutí podílí také plyn, který k ní přichází z okolního vzduchu.</p><p>Hydroxid vápenatý reaguje s oxidem uhličitým a vzniká uhličitan vápenatý a voda. Tomuto ději se říká karbonatace. Pojivo se chemicky mění a postupně spojuje zrna kameniva do pevnějšího celku.</p><p>Reakce potřebuje přístup oxidu uhličitého a vhodnou vlhkost. Rychlé oschnutí povrchu proto samo nedokazuje, že je malta vyzrálá v celé hloubce.</p><p>Tento popis platí pro vzdušné vápno; hydraulická vápna mají navíc složky tvrdnoucí reakcí s vodou. <strong>Stejné slovo malta tak může skrývat různé chemické způsoby tvrdnutí.</strong> Vysychání a vznik pevného pojiva nejsou totožný proces.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "SPAB – Lime",
+        "url": "https://www.spab.org.uk/advice/lime"
+      },
+      {
+        "label": "Historic England – Structural conservation of ruins",
+        "url": "https://historicengland.org.uk/education/training-skills/training/webinars/recordings/structural-conservation-ruins-masonry-walls-pt1/"
+      }
+    ],
+    "illustration": {
+      "concept": "A mason trowel laying pale lime mortar between two broad brick shapes.",
+      "scene_type": "interaction",
+      "primary_subject": "lime_mortar_joint",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "trowel",
+        "mortar_joint",
+        "brick"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1103",
+      "point": "Vzdušné vápno v maltě reaguje s oxidem uhličitým na uhličitan vápenatý; tvrdnutí proto není jen vysychání.",
+      "tags": [
+        "chemistry",
+        "materials",
+        "preservation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1104",
+    "title": "Kapka jódu odhalí skrytý škrob",
+    "content": "<p>Na rozříznuté bramboře může hnědý jódový roztok zanechat téměř černou skvrnu. Stejná zkouška s roztokem samotné glukózy takový výsledek nedá.</p><p>Škrob obsahuje amylózu, jejíž řetězce mohou vytvářet šroubovice. Jódové částice se v tomto uspořádání sdružují do komplexu s výrazným modročerným zbarvením. Nejde tedy o původní barvu brambory ani o obecný účinek každého cukru.</p><p>Zkouška využívá chemické rozpoznání určité struktury. Jodidové ionty samotné charakteristické zbarvení nevyvolají; záleží na přítomných formách jódu i škrobu.</p><p><strong>Barva zde funguje jako stopa konkrétního spojení látek.</strong> Pozitivní výsledek pomáhá zjistit přítomnost škrobu, ale bez standardizovaného měření z pouhé tmavosti skvrny nevyčteme přesný obsah v potravině.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "RSC – The iodine-starch reaction",
+        "url": "https://www.rsc.org/suppdata/cc/b8/b820151j/b820151j.pdf"
+      },
+      {
+        "label": "University of Edinburgh – Iodine solution",
+        "url": "https://www.ssc.education.ed.ac.uk/BSL/chemistry/iodinesolutiond.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A single potato half with a dark blue-black iodine spot on the pale cut surface.",
+      "scene_type": "object",
+      "primary_subject": "iodine_starch_potato",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "potato_half",
+        "blue_black_spot",
+        "cut_surface"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1104",
+      "point": "Modročerné zbarvení při jódové zkoušce vzniká komplexem jódových částic s helikální amylózou, nikoli pouhou přítomností libovolného cukru.",
+      "tags": [
+        "chemistry",
+        "knowledge-evidence"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1105",
+    "title": "Fotografie je nejprve neviditelná",
+    "content": "<p>Po stisknutí spouště už film nese obraz, který ještě není vidět. Černobílá fotografie potřebuje chemický krok, aby nepatrnou světelnou stopu proměnila ve výrazný záznam.</p><p>Citlivá vrstva obsahuje krystalky halogenidů stříbra. Expozice v nich vytváří drobné zárodky kovového stříbra, tedy latentní obraz. Vývojka pak přednostně redukuje zasažená zrna a chemicky tento rozdíl zesílí.</p><p>Tmavé části negativu tvoří kovové stříbro. Následný ustalovač odstraní zbývající halogenidy, aby na další světlo nereagovaly stejně jako před zpracováním.</p><p>Vývojka tedy není jen kapalina, která smyje neprůhledný povlak. <strong>Zviditelní rozdíl založený světlem.</strong> Expozice a vyvolání mají odlišné úlohy: první informaci zapíše v nepatrném měřítku, druhé ji převede do pozorovatelného obrazu.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Mees – The Theory of the Photographic Process",
+        "url": "https://www.processreversal.org/public/text/Mees_theory_phorographic_process.pdf"
+      },
+      {
+        "label": "ILFORD – Beginners guide to processing film",
+        "url": "https://www.ilfordphoto.com/beginners-guide-processing-film/"
+      }
+    ],
+    "illustration": {
+      "concept": "A pale photographic print with a dark tree silhouette emerging in a shallow developing tray.",
+      "scene_type": "object",
+      "primary_subject": "photographic_developing_tray",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "developing_tray",
+        "photographic_print",
+        "tree_silhouette"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1105",
+      "point": "Světlo vytváří v halogenidech stříbra zárodky latentního obrazu, které vývojka zesílí na kovové stříbro; ustalovač odstraní zbývající halogenidy.",
+      "tags": [
+        "chemistry",
+        "optics",
+        "preservation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1106",
+    "title": "Prášek, který promění vodu v gel",
+    "content": "<p>Do nádoby s vodou nasypeme trochu bílého prášku a místo volně tekoucí kapaliny získáme gel. Materiál používaný v savých výrobcích přitom vodu chemicky nemění na novou pevnou látku.</p><p>Zesíťovaný polyakrylát sodný vytváří polymerní síť s nabitými skupinami a pohyblivými ionty. Rozdíl mezi prostředím uvnitř a vně sítě podporuje vstup vody. Síť bobtná, ale příčné vazby jí brání jednoduše se rozptýlit jako běžně rozpustný polymer.</p><p>Nasákavost závisí na složení kapaliny. V destilované vodě je větší než ve slaném roztoku; přidání soli k hotovému gelu může část vody znovu uvolnit.</p><p><strong>Údaj o nasákavosti proto potřebuje dodat, co se vlastně vsakovalo.</strong> Velkolepý pokus s čistou vodou nelze bez dalšího převést na stejně velkou kapacitu při skutečném použití.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Purdue University – Superabsorbent materials",
+        "url": "https://chemed.chem.purdue.edu/demos/demosheets/25.5.html"
+      },
+      {
+        "label": "RSC – Superabsorbent polymer notes",
+        "url": "https://edu.rsc.org/download?ac=540234"
+      }
+    ],
+    "illustration": {
+      "concept": "A transparent measuring cup holding a single swollen pale blue gel mound.",
+      "scene_type": "object",
+      "primary_subject": "swollen_absorbent_gel",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "gel_mound",
+        "measuring_cup",
+        "swollen_polymer"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1106",
+      "point": "Zesíťovaný polyakrylát sodný bobtná příjmem vody do polymerní sítě a jeho nasákavost klesá s rostoucí koncentrací rozpuštěných solí.",
+      "tags": [
+        "chemistry",
+        "materials"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1107",
+    "title": "Kovový povlak může vyrůst z roztoku",
+    "content": "<p>Předmět může získat kovový povrch, aniž jej ponoříme do roztaveného kovu. Potřebné atomy se mohou ukládat přímo z roztoku pomocí elektrického proudu.</p><p>Při pokovování mědí obsahuje lázeň měďnaté ionty. Vodivý předmět se připojí jako katoda, tedy záporná elektroda. Ionty na jeho povrchu přijímají elektrony a vzniká kovová měď.</p><p>Použije-li se měděná anoda, může se na ní měď naopak rozpouštět a doplňovat ionty do lázně. Kov se tak řízeně přenáší z jednoho místa na druhé. Kvalitu povlaku ovlivňuje čistota povrchu, složení lázně i nastavení proudu.</p><p><strong>Povlak není usazený barevný prášek.</strong> Vzniká elektrochemickou reakcí na rozhraní předmětu a roztoku. Právě umístění této reakce dovoluje vytvořit tenkou kovovou vrstvu tam, kde ji potřebujeme.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "University of Washington – Electroplating copper",
+        "url": "https://chem.washington.edu/lecture-demos/electroplating-copper-stainless-steel"
+      },
+      {
+        "label": "University of Iowa – Electroplating copper",
+        "url": "https://instructional-resources.physics.uiowa.edu/5e3020-electroplating-copper"
+      }
+    ],
+    "illustration": {
+      "concept": "A spoon partly immersed in a blue electroplating bath, its exposed bowl coated copper.",
+      "scene_type": "interaction",
+      "primary_subject": "copper_plating_spoon",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "spoon",
+        "copper_coating",
+        "blue_bath"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1107",
+      "point": "Při galvanickém pokovování se na vodivém předmětu připojeném jako katoda redukují kovové ionty a vytvářejí povrchovou vrstvu.",
+      "tags": [
+        "chemistry",
+        "innovation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1108",
+    "title": "Změkčovač vodu nescedí, vymění ionty",
+    "content": "<p>Čirá voda může být tvrdá, i když v ní nejsou žádná viditelná zrnka. Běžný iontoměnič proto nefunguje jako jemnější cedník, ale jako místo výměny rozpuštěných iontů.</p><p>Tvrdost souvisí zejména s vápenatými a hořečnatými ionty. Pryskyřice ve změkčovači je zachycuje a místo nich do vody uvolňuje sodné nebo draselné ionty.</p><p>Když se dostupná místa zaplní, kapacita změkčování se vyčerpá. Koncentrovaná solanka umožní pryskyřici regenerovat: ionty tvrdosti odejdou do odpadní vody a obnoví se původní forma iontoměniče.</p><p><strong>Měkčí voda tedy není automaticky voda bez rozpuštěných solí.</strong> Část iontů byla nahrazena jinými, nikoli všechny odstraněny. Změkčení, odsolení a dezinfekce představují různé cíle, které jeden přístroj nemusí současně splňovat.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "EPA – Cation exchange water softeners",
+        "url": "https://www.epa.gov/watersense/cation-exchange-water-softeners"
+      },
+      {
+        "label": "Minnesota Department of Health – Home water softening",
+        "url": "https://www.web.health.state.mn.us/communities/environment/water/factsheet/softening.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A compact cutaway water-softening cylinder filled with a few large amber resin beads.",
+      "scene_type": "object",
+      "primary_subject": "ion_exchange_resin",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "resin_beads",
+        "cylinder",
+        "water_softener"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1108",
+      "point": "Iontoměnič změkčuje vodu výměnou vápenatých a hořečnatých iontů za sodné či draselné a po vyčerpání potřebuje regeneraci solankou.",
+      "tags": [
+        "chemistry",
+        "resources"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1109",
+    "title": "Krystaly cukru rostou z přesyceného roztoku",
+    "content": "<p>Sladký sirup může po čase obrůst velkými krystaly. Cukr v něm nezmizel ani se neproměnil v jinou sloučeninu: jen opustil rozpuštěný stav.</p><p>V teplé vodě lze rozpustit více sacharózy než ve stejném množství studené vody. Při ochlazení dostatečně koncentrovaného roztoku může vzniknout přesycení. Podobně je lze vyvolat odpařováním rozpouštědla.</p><p>Na vhodném zárodku se molekuly začnou řadit do krystalické struktury. Malý krystal na špejli tak může růst připojováním dalších molekul ze svého okolí. Přesycení přitom nezaručuje, že se velké krystaly objeví okamžitě.</p><p><strong>Rozpuštěná látka není totéž co zničená látka.</strong> Změnou podmínek ji lze z roztoku znovu získat. Při pěstování cukrových krystalů proto řídíme rozpustnost a růst struktury, nikoli výrobu nového druhu cukru.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Australian National University – How to make rock candy",
+        "url": "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/how-make-rock-candy"
+      },
+      {
+        "label": "IUCr – Crystals: a handbook for school teachers",
+        "url": "https://www.iucr.org/what-we-do/education/pamphlets/crystals-handbook-school-teachers"
+      }
+    ],
+    "illustration": {
+      "concept": "One wooden stick covered in a few large amber sugar crystals above a small jar.",
+      "scene_type": "object",
+      "primary_subject": "sugar_crystal_stick",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "sugar_crystals",
+        "wooden_stick",
+        "jar"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1109",
+      "point": "Ochladnutí nebo odpařování může cukerný roztok přesytit a umožnit růst krystalů na zárodku bez chemické přeměny cukru.",
+      "tags": [
+        "chemistry",
+        "patterns"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1110",
+    "title": "Kyselina a alkohol mohou vytvořit novou vůni",
+    "content": "<p>Z dvojice látek s vlastními pachy může vzniknout sloučenina vonící úplně jinak. Řada menších esterů má ovocnou vůni a vzniká reakcí alkoholu s karboxylovou kyselinou.</p><p>Při takzvané Fischerově esterifikaci se vytváří ester a voda. Například ethanol s kyselinou octovou poskytuje ethyl-acetát. Kyselý katalyzátor usnadňuje reakční cestu.</p><p>Reakce je vratná: ester se za vhodných podmínek může s vodou opět štěpit. Výchozí směs se proto běžně nepřemění celá na produkt jen tím, že ji necháme dostatečně dlouho reagovat. Pomoci může přebytek jedné složky nebo odstraňování produktu.</p><p><strong>Nová vůně není pouhé překrytí starých pachů.</strong> Vznikly molekuly s jiným propojením atomů. Skutečná vůně ovoce je však zpravidla směsí mnoha sloučenin, nikoli jediným esterem uzavřeným v plodu.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax – Reactions of alcohols",
+        "url": "https://openstax.org/books/organic-chemistry/pages/17-6-reactions-of-alcohols"
+      },
+      {
+        "label": "Purdue University – The carbonyl group",
+        "url": "https://chemed.chem.purdue.edu/genchem/topicreview/bp/2organic/carbonylframe.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A small stoppered scent flask beside one simple pear silhouette.",
+      "scene_type": "object",
+      "primary_subject": "ester_scent_flask",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "scent_flask",
+        "pear",
+        "rounded_glass"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1110",
+      "point": "Při Fischerově esterifikaci vzniká z karboxylové kyseliny a alkoholu ester a voda, přičemž vratná reakce omezuje výtěžek.",
+      "tags": [
+        "chemistry",
+        "change"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1111",
+    "title": "Mýdlo vzniká rozštěpením tuku",
+    "content": "<p>Olej a mýdlo mají společný chemický příběh, přestože při mytí vystupují proti sobě. Z tuku lze působením silné zásady vytvořit samotné mýdlové látky.</p><p>Běžné tuky obsahují triglyceridy: glycerol spojený esterovými vazbami se třemi zbytky mastných kyselin. Při zmýdelnění se tyto vazby štěpí a vzniká glycerol a soli mastných kyselin.</p><p>Právě tyto soli tvoří mýdlo. Hydroxid sodný poskytuje sodné soli, hydroxid draselný draselné. Nejde o prosté vmíchání čisticího prášku do oleje; mění se chemická totožnost původních molekul.</p><p><strong>Zásada je při reakci spotřebovávanou surovinou.</strong> Není jen pomocníkem, který lze v libovolném množství přidat a zapomenout na něj. Vlastnosti výsledku závisejí na druhu tuku, poměru výchozích látek i jejich skutečném zreagování.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Open University – Make your own soap",
+        "url": "https://www.open.edu/openlearn/science-maths-technology/science/chemistry/diy-make-your-own-soap"
+      },
+      {
+        "label": "University of Washington – Saponification",
+        "url": "https://chem.washington.edu/lecture-demos/saponification"
+      }
+    ],
+    "illustration": {
+      "concept": "A pale rectangular soap bar lifting from a simple mould.",
+      "scene_type": "object",
+      "primary_subject": "soap_mould",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "soap_bar",
+        "mould",
+        "clean_rectangle"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1111",
+      "point": "Zmýdelnění štěpí esterové vazby triglyceridů zásadou a vytváří glycerol a soli mastných kyselin, které tvoří mýdlo.",
+      "tags": [
+        "chemistry",
+        "change"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1112",
+    "title": "Jód umí přejít z krystalu rovnou do páry",
+    "content": "<p>Nad tmavými krystalky jódu se mohou objevit fialové páry. Na chladnější stěně se z nich znovu ukládá pevná látka, aniž mezi tím musíme vidět kapalinu.</p><p>Přímý přechod z pevného skupenství do plynného se nazývá sublimace. Opačný přechod z páry na pevnou látku je desublimace. Molekuly jódu při tomto ději nemění chemickou totožnost, mění se jejich uspořádání a vzdálenosti.</p><p>Z oblíbené demonstrace ale nelze vyvozovat, že jód vůbec neumí tát. Za vhodných podmínek existuje také jako kapalina. Vznik páry nad pevným vzorkem sám existenci kapalné fáze nevylučuje.</p><p><strong>Látka nemusí při každém zahřívání projít všemi skupenstvími v řadě.</strong> Viditelný průběh závisí na teplotě, tlaku a uspořádání pokusu. Jedna ukázka změny skupenství není úplnou mapou všech možností látky.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "University of Michigan – Sublimation of iodine",
+        "url": "https://lsa.umich.edu/content/dam/chem-assets/chem-docs/teaching%20lab%20docs/Sublimation%20of%20Iodine.pdf"
+      },
+      {
+        "label": "University of Waterloo – Sublimation misconception",
+        "url": "https://uwaterloo.ca/centre-advanced-science-education/news/sublimation-iodine-rise-and-fall-misconception"
+      }
+    ],
+    "illustration": {
+      "concept": "A simple flask holding dark iodine crystals and a small contained violet vapor plume beneath a cold watch glass.",
+      "scene_type": "object",
+      "primary_subject": "iodine_sublimation_flask",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "iodine_crystals",
+        "violet_vapor",
+        "watch_glass"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1112",
+      "point": "Pevný jód může sublimovat a jeho pára se na chladném povrchu ukládá jako krystaly, ale za vhodných podmínek jód také taje.",
+      "tags": [
+        "chemistry",
+        "thermodynamics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1113",
+    "title": "Proč sůl dovolí vodě zůstat kapalnou pod nulou",
+    "content": "<p>Slaná voda může zůstat kapalná při teplotě, při které by čistá voda byla v rovnováze s ledem. Proto se sůl používá při odstraňování náledí, i když sama není topným tělesem.</p><p>Rozpuštěná sůl snižuje rovnovážný bod tuhnutí vody. V tenké vrstvě kapaliny na ledu tak vzniká solanka, pro kterou platí jiné podmínky tuhnutí než pro čistou vodu.</p><p>Led může v těchto podmínkách dál tát a na tání odebírat teplo okolí. Účinek však není neomezený: záleží na druhu a množství soli i na teplotě. Sypání další soli proto neznamená, že led musí zmizet za libovolného mrazu.</p><p><strong>Nejde o stejné podchlazení jako u čisté kapalné vody čekající na vznik krystalu.</strong> Tady se změnilo složení roztoku, a tím i jeho rovnovážný bod tuhnutí. Sůl mění podmínky, při kterých vedle sebe kapalina a led mohou přetrvávat.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "NOAA – Please pass the salt",
+        "url": "https://oceanservice.noaa.gov/education/dyw-pass-salt.html"
+      },
+      {
+        "label": "NSIDC – Science of sea ice",
+        "url": "https://nsidc.org/learn/parts-cryosphere/sea-ice/science-sea-ice"
+      }
+    ],
+    "illustration": {
+      "concept": "One partly melting ice cube with a few coarse salt grains on top and a small puddle.",
+      "scene_type": "object",
+      "primary_subject": "salted_ice_cube",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "ice_cube",
+        "salt_grains",
+        "melt_puddle"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1113",
+      "point": "Rozpuštěná sůl snižuje rovnovážný bod tuhnutí vody, takže tání ledu v solance může probíhat i pod nulou, v mezích závislých na složení.",
+      "tags": [
+        "chemistry",
+        "thermodynamics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1114",
+    "title": "Stlačení plynu může změnit jeho chemické složení",
+    "content": "<p>Plyn lze stlačením nejen zahustit, ale i přimět ke změně poměru molekul. U vhodné vratné reakce tlak zasáhne také do chemické rovnováhy.</p><p>Příkladem je hnědý oxid dusičitý NO₂ a téměř bezbarvý tetraoxid didusíku N₂O₄. Dvě molekuly NO₂ se mohou spojit v jednu N₂O₄ a zase se rozdělit.</p><p>Zmenšíme-li při stálé teplotě objem rovnovážné směsi, zvýhodníme směr k menšímu počtu plynných částic. V tomto případě vzroste podíl N₂O₄. Neznamená to, že hnědý plyn vždy okamžitě celý zmizí.</p><p><strong>Rovnováha reaguje na změnu podmínek, ne na přání pozorovatele.</strong> Pokud mají obě strany jiné plynné reakce stejný počet částic, obdobná změna objemu její rovnovážné složení takto neposune.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax – Le Châtelier’s principle",
+        "url": "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle"
+      },
+      {
+        "label": "ASTA – Nitrogen dioxide equilibrium demonstrations",
+        "url": "https://asta.edu.au/resource/laboratory-notes-generation-and-collection-of-nitrogen-dioxide-no2-gas-for-equilibrium-demonstrations/"
+      }
+    ],
+    "illustration": {
+      "concept": "A large laboratory gas syringe with a broad amber-brown gas chamber and visible plunger.",
+      "scene_type": "object",
+      "primary_subject": "nitrogen_dioxide_syringe",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "gas_syringe",
+        "amber_gas",
+        "plunger"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1114",
+      "point": "Zmenšení objemu plynné rovnovážné směsi při stálé teplotě zvýhodní stranu s menším počtem plynných částic, pokud se jejich počty liší.",
+      "tags": [
+        "chemistry",
+        "change"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1115",
+    "title": "Černé stříbro není pokryté běžnou rzí",
+    "content": "<p>Stříbrná lžička může ztmavnout, přestože ji nikdo nepolil černou barvou. Tenký povlak vzniká reakcí kovu se stopovými látkami z okolního prostředí.</p><p>Hlavní složkou tmavého povlaku je sulfid stříbrný. Vznik podporují sloučeniny síry, například sirovodík přítomný ve vzduchu. Není to tatáž směs produktů, kterou označujeme jako rez na železe.</p><p>Rychlost tmavnutí závisí na prostředí. Zdrojem sirných sloučenin mohou být i některé materiály v blízkosti předmětu. Proto se muzejní péče soustředí nejen na odstranění povlaku, ale i na omezení dalšího působení škodlivin.</p><p><strong>Leštění nevrací čas beze ztrát.</strong> Při mechanickém čištění se odnáší povlak a může ubývat také podkladové stříbro. U jemně zdobených nebo postříbřených předmětů tak opakované obnovování lesku postupně mění samotný povrch.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "Canadian Conservation Institute – How silver tarnishes",
+        "url": "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/metal-objects/understanding-silver-tarnish.html"
+      },
+      {
+        "label": "Canadian Conservation Institute – Silver care",
+        "url": "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-silver.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A silver spoon with one broad dark tarnished patch across the bowl.",
+      "scene_type": "object",
+      "primary_subject": "tarnished_silver_spoon",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "silver_spoon",
+        "dark_tarnish",
+        "smooth_handle"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1115",
+      "point": "Tmavý povlak stříbra tvoří hlavně sulfid stříbrný vznikající působením sloučenin síry a jeho opakované leštění odnáší i materiál povrchu.",
+      "tags": [
+        "chemistry",
+        "preservation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1116",
+    "title": "Kolik kyseliny je v roztoku, prozradí spotřeba zásady",
+    "content": "<p>Dva čiré vzorky mohou obsahovat velmi rozdílné množství kyseliny. K jeho zjištění může posloužit přesné měření, kolik známé zásady každý vzorek spotřebuje.</p><p>Při titraci přidáváme roztok o známé koncentraci a měříme jeho objem. Z reakčního poměru vypočteme, kolik látky ve vzorku zreagovalo. U jednosytné kyseliny reagující s hydroxidem může být tento poměr jedna ku jedné.</p><p>Ekvivalenční bod nastává při odpovídajícím stechiometrickém množství činidla. Barevná změna indikátoru označuje pozorovaný konec titrace; vhodnou volbou indikátoru se snažíme dostat co nejblíže skutečné ekvivalenci.</p><p><strong>Barva je signál, výsledek stojí na množství.</strong> Bez známé koncentrace činidla a odměřeného objemu bychom nezískali totéž číslo. A ekvivalenční bod nemusí mít vždy pH sedm: záleží na tom, jaká kyselina a zásada spolu reagují.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax – Quantitative chemical analysis",
+        "url": "https://openstax.org/books/chemistry-2e/pages/4-5-quantitative-chemical-analysis"
+      },
+      {
+        "label": "OpenStax – Acid-base titrations",
+        "url": "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
+      }
+    ],
+    "illustration": {
+      "concept": "A burette releasing one drop into a broad conical flask with pale pink solution.",
+      "scene_type": "object",
+      "primary_subject": "titration_burette",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "burette",
+        "conical_flask",
+        "pink_solution"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1116",
+      "point": "Titrace určuje množství analytu ze známé koncentrace a spotřebovaného objemu činidla podle stechiometrie; barevný konec jen indikuje blízkost ekvivalence.",
+      "tags": [
+        "chemistry",
+        "knowledge-evidence"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1117",
+    "title": "Bubliny v těstě může vyrobit chemická reakce",
+    "content": "<p>Nakypřené těsto nemusí čekat na práci kvasinek. Bubliny v něm může vytvořit reakce jedlé sody s kyselou složkou, například z jogurtu.</p><p>Jedlá soda je hydrogenuhličitan sodný. Při reakci s kyselinou vzniká oxid uhličitý, voda a příslušná sůl. Plynové bubliny zachycené v těstě přispívají k jeho zvětšení a pórovité struktuře pečiva.</p><p>Kypřicí prášek proto není jen jiné jméno pro sodu. Obsahuje také kyselou složku, se kterou může hydrogenuhličitan po navlhčení reagovat. Konkrétní výrobek může část plynu uvolňovat až při zahřívání.</p><p><strong>Záměna sody a prášku mění chemické složení receptu.</strong> Nejde jen o jinak silný bílý prášek. Množství kyselé složky a načasování vzniku plynu ovlivní, co se v těstě skutečně odehraje, ještě než hotové pečivo ochutnáme.</p>",
+    "category": "chemie",
+    "sources": [
+      {
+        "label": "OpenStax – Properties of carbonates",
+        "url": "https://openstax.org/books/chemistry-2e/pages/18-6-occurrence-preparation-and-properties-of-carbonates"
+      },
+      {
+        "label": "NC State – Baking soda and baking powder",
+        "url": "https://news.ncsu.edu/2014/05/baking-soda-powder/"
+      }
+    ],
+    "illustration": {
+      "concept": "A single golden muffin cut open to show a few large gas pockets in the crumb.",
+      "scene_type": "object",
+      "primary_subject": "risen_muffin",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "muffin",
+        "cut_crumb",
+        "air_pockets"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1117",
+      "point": "Jedlá soda s kyselinou uvolňuje oxid uhličitý zachycovaný v těstě, zatímco kypřicí prášek obsahuje sodu i kyselou složku.",
+      "tags": [
+        "chemistry",
+        "change"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1118",
+    "title": "Ve štafetě rozhoduje místo kolíku",
+    "content": "<p>Běžci mohou vypadat, že si kolík předali na správném místě, a přesto být diskvalifikováni. Při kontrole totiž nerozhoduje jen poloha jejich nohou.</p><p>Pravidla vyžadují předání kolíku uvnitř předávacího území. Předávka začíná prvním dotykem přebírajícího běžce a končí okamžikem, kdy kolík drží už jen on. Pro posouzení území je rozhodující celý kolík.</p><p>Nestačí tedy, že se oba závodníci nacházejí poblíž čáry nebo že přebírající doběhl do území těsně po prvním kontaktu. Správně musí proběhnout celý přenos mezi rukama.</p><p><strong>Štafeta měří i schopnost spojit dva výkony do jednoho pohybu.</strong> Nácvik předávky proto řeší rychlost obou běžců, načasování ruky a dostatečnou rezervu před hranicí. Samotný součet jejich nejlepších sprintů platnou předávku nezajistí.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics – Technical Rules 2026, TR24",
+        "url": "https://worldathletics.org/download/download?filename=acdec6c6-1261-4c7f-96d2-92f712707e99.pdf&urlslug=Competition+and+Technical+Rules+%E2%80%93+2026+Edition"
+      },
+      {
+        "label": "Australian Athletics – Relay changeovers",
+        "url": "https://coachathletics.com.au/coaching-education/relay-changeovers-guide-push-pass"
+      }
+    ],
+    "illustration": {
+      "concept": "Close view of two runners hands transferring one gold baton.",
+      "scene_type": "interaction",
+      "primary_subject": "relay_baton_handover",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "baton",
+        "two_hands",
+        "relay_handover"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1118",
+      "point": "Platnost štafetové předávky určuje poloha celého kolíku v předávacím území od prvního dotyku přebírajícího po úplné převzetí.",
+      "tags": [
+        "sport",
+        "cooperation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1119",
+    "title": "Závodní chůze není jen pomalejší běh",
+    "content": "<p>Závodní chodec může postupovat překvapivě rychle, ale nesmí si jednoduše vybrat pomalý běžecký krok. Disciplínu vymezují dvě konkrétní podmínky pohybu.</p><p>První požaduje kontakt se zemí tak, aby nebyla lidským okem viditelná jeho ztráta. Druhá se týká postupující nohy: od prvního kontaktu s podložkou do svislé polohy pod tělem musí být napnutá v koleni.</p><p>Chodec tak nemá jen povinnost dotýkat se střídavě chodidly země. Také způsob přenesení těla přes opěrnou nohu podléhá pravidlům a rozhodčí jej sledují samostatně.</p><p><strong>Označení chůze tu znamená pravidlově vymezenou techniku.</strong> Zpomalený záznam může ukázat podrobnosti, které při běžném pozorování nejsou patrné; samotná definice kontaktu však výslovně pracuje s viditelností lidským okem, nikoli s libovolně jemným rozdělením videa.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics – Technical Rules 2026, TR54",
+        "url": "https://worldathletics.org/download/download?filename=acdec6c6-1261-4c7f-96d2-92f712707e99.pdf&urlslug=Competition+and+Technical+Rules+%E2%80%93+2026+Edition"
+      },
+      {
+        "label": "World Athletics – Straightened leg rule",
+        "url": "https://worldathletics.org/news/series/race-walking-technique-rules-straight-leg"
+      }
+    ],
+    "illustration": {
+      "concept": "A race walker in side view with front heel on the ground and straight front knee.",
+      "scene_type": "object",
+      "primary_subject": "race_walker",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "straight_knee",
+        "heel_contact",
+        "race_walker"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1119",
+      "point": "Závodní chůze vyžaduje lidským okem viditelný nepřerušený kontakt se zemí a napnutou postupující nohu od došlapu do svislé polohy.",
+      "tags": [
+        "sport",
+        "fairness"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1120",
+    "title": "Dvě rozsvícené šermířské kontrolky nemusí dát dva body",
+    "content": "<p>Při šermu se rozsvítí obě kontrolky, ale bod dostane jen jeden závodník. Elektronický přístroj zaznamenal zásahy; nerozhodl tím ještě celý souboj.</p><p>Ve fleretu a šavli se u vzájemných zásahů posuzuje také priorita akcí. Řádně zahájený útok má přednost a soupeř jej může například odrazit a odpovědět odvetou. Rozhodčí proto sleduje sled šermířských činností, nejen konečné dotyky čepelí.</p><p>Přístroj sám tuto posloupnost nevyloží. Dvě světla tak nejsou automatickým důkazem remízy ani toho, že oba získali bod.</p><p><strong>Kord pracuje jinak: pravidlo priority nepoužívá.</strong> Za příslušných podmínek může přiznat zásah oběma. Název šerm proto zahrnuje disciplíny, v nichž podobná viditelná situace vede k odlišnému výsledku podle konkrétní zbraně a jejích pravidel.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "USA Fencing – Basics of competition",
+        "url": "https://www.usafencing.org/basics-of-competition"
+      },
+      {
+        "label": "Sport Singapore – Fencing competition types",
+        "url": "https://www.activesgcircle.gov.sg/learn/fencing/fencing-competition-types-foil-sabre-and-epee"
+      }
+    ],
+    "illustration": {
+      "concept": "Two anonymous masked fencers with foils crossed in a clear parry.",
+      "scene_type": "interaction",
+      "primary_subject": "fencing_parry",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "fencing_masks",
+        "crossed_foils",
+        "parry"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1120",
+      "point": "Ve fleretu a šavli rozhoduje při vzájemných zásazích také priorita šermířských akcí, zatímco kord pravidlo priority nepoužívá.",
+      "tags": [
+        "sport",
+        "fairness"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1121",
+    "title": "Ragby postupuje vpřed přihrávkami dozadu",
+    "content": "<p>Ragbista běží k soupeřově brankové čáře a míč posílá spoluhráči vedle sebe nebo za sebe. Tým získává území dopředu, přesto si rukama nesmí jednoduše přihrávat vpřed.</p><p>Pravidlová definice dopředné přihrávky sleduje, zda se paže přihrávajícího pohybují vpřed. Útok proto spojuje postup s míčem a příčné či zpětné přihrávky mezi hráči, kteří nabíhají do dalších prostorů.</p><p>Příjemce může po převzetí sám pokračovat dopředu a později znovu přihrát. Zákaz tak vytváří jinou geometrii spolupráce než hry, kde lze míč rukou poslat čekajícímu útočníkovi daleko před sebe.</p><p><strong>Omezení přihrávky není zákazem postupu.</strong> Určuje, jakou společnou cestou se k němu mužstvo dostane. Kopání má vlastní pravidla; zákaz hodu vpřed proto nelze bez dalšího vztáhnout na každý pohyb míče v ragby.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Rugby – Definitions",
+        "url": "https://passport.world.rugby/laws-of-the-game/definitions"
+      },
+      {
+        "label": "World Rugby – Open play",
+        "url": "https://www.world.rugby/the-game/beginners-guide/open-play?lang=en"
+      }
+    ],
+    "illustration": {
+      "concept": "A rugby player turning the torso to pass an oval ball backward toward a trailing teammate.",
+      "scene_type": "interaction",
+      "primary_subject": "rugby_pass",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "oval_ball",
+        "backward_pass",
+        "trailing_teammate"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1121",
+      "point": "Ragby zakazuje přihrávku rukama vpřed a vymezuje ji dopředným pohybem paží přihrávajícího, takže útok kombinuje běh s příčnými či zpětnými přihrávkami.",
+      "tags": [
+        "sport",
+        "cooperation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1122",
+    "title": "Koš může platit, i když míč obránce odrazí",
+    "content": "<p>Obránce vyskočí, srazí míč pryč od koše a rozhodčí přesto přizná útočníkům body. Ne každý zásah do letící střely je v basketbalu dovoleným blokem.</p><p>Pravidla NBA zakazují dotek míče při sestupném letu, pokud je celý nad úrovní obroučky a má možnost skórovat. Zákaz chrání závěrečnou část dráhy střely před pozdním odražením.</p><p>Dopustí-li se tohoto porušení obránce, přiznají se body podle původní hodnoty pokusu, i když míč sítí neprošel. Vysoký výskok tedy nedává neomezené právo odstranit míč ze vzduchu.</p><p><strong>Rozhoduje také okamžik zásahu a stav střely.</strong> Goaltending souvisí s dalšími pravidly zásahů do koše a míče u obroučky; jejich podrobnosti nejsou ve všech soutěžích stejné. Popsaná situace vychází z pravidel NBA, nikoli z představy, že každý blok nad košem je automaticky zakázaný.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "NBA – Official playing rules 2025–26, Rule 11",
+        "url": "https://cdn.nba.com/manage/2026/01/Official-2025-26-NBA-Playing-Rules.pdf"
+      },
+      {
+        "label": "NBA – Basket interference and goaltending",
+        "url": "https://official.nba.com/rule-no-11-basket-interference-goaltending/"
+      }
+    ],
+    "illustration": {
+      "concept": "Close view of a basketball descending above a rim with a defenders hand reaching toward it.",
+      "scene_type": "interaction",
+      "primary_subject": "basketball_goaltending",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "basketball",
+        "rim",
+        "reaching_hand"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1122",
+      "point": "Pravidla NBA chrání sestupující střelu s možností skórovat před zásahem nad úrovní obroučky a při obranném porušení přiznávají body.",
+      "tags": [
+        "sport",
+        "fairness"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1123",
+    "title": "Kladkový luk je v plném nátahu lehčí na držení",
+    "content": "<p>Lukostřelec natáhne kladkový luk a v závěru může cítit menší odpor než uprostřed pohybu. Tětiva zůstává napnutá, ale síla potřebná k jejímu držení už klesla.</p><p>Na koncích ramen pracují excentrické kladky propojené lanky a tětivou. Jejich proměnlivá geometrie mění průběh nátahové síly. Po překonání maxima přichází odlehčení označované jako let-off.</p><p>Pro ilustraci: pokles o 75 procent by znamenal držet při plném nátahu čtvrtinu maximální síly. To je popis konkrétního poměru, nikoli povinná hodnota všech kladkových luků.</p><p><strong>Odlehčení při míření neznamená energii zadarmo.</strong> Střelec musel energii uložit při natahování ramen. Konstrukce pouze mění, kdy a s jakým odporem práci vykonává, a dovoluje při plném nátahu udržovat tětivu menší silou.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Archery – Compound",
+        "url": "https://www.worldarchery.sport/sport/equipment/compound"
+      },
+      {
+        "label": "World Archery – Archery glossary",
+        "url": "https://extranet.worldarchery.sport/documents/index.php/Coaches/Resources/ARCHERY_GLOSSARY.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A single compound bow in side view with two clearly eccentric cams and a taut string.",
+      "scene_type": "object",
+      "primary_subject": "compound_bow",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "compound_bow",
+        "eccentric_cams",
+        "bowstring"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1123",
+      "point": "Excentrické kladky mění průběh nátahové síly luku tak, že po překonání maxima může při plném nátahu klesnout síla potřebná k držení tětivy.",
+      "tags": [
+        "sport",
+        "mechanics"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1124",
+    "title": "Podání ve stolním tenisu začíná ještě před úderem",
+    "content": "<p>Podání ve stolním tenisu není libovolné vypuštění míčku proti pálce. Pravidla určují jeho cestu ještě před okamžikem, kdy se jej raketa dotkne.</p><p>Míček začíná volně na otevřené dlani nehybné volné ruky. Podávající jej vyhodí téměř svisle vzhůru, bez udělení rotace, nejméně 16 centimetrů nad místo vypuštění. Udeřit do něj smí při pádu.</p><p>Od začátku podání do úderu nesmí být míček skryt před příjemcem a musí zůstat nad úrovní hrací plochy a za koncovou čárou. Rotaci může hráč dodat samotným úderem, nikoli ji tajně připravit už v nadhozu.</p><p><strong>Správné podání tedy není určeno jen místem dopadu.</strong> Kontrolovatelná příprava má soupeři umožnit sledovat vznikající úder. Krátké zvednutí míčku přímo z prstů není rovnocennou náhradou předepsaného nadhozu.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "ITTF – Statutes 2026, 2.6 Service",
+        "url": "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_tc.pdf"
+      },
+      {
+        "label": "HiTT Malta – Official table tennis rules",
+        "url": "https://hittmalta.mt/tt-game-info/"
+      }
+    ],
+    "illustration": {
+      "concept": "Close view of an open flat palm under a freely rising table tennis ball, paddle held aside.",
+      "scene_type": "interaction",
+      "primary_subject": "table_tennis_toss",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "open_palm",
+        "white_ball",
+        "red_paddle"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1124",
+      "point": "Stolní tenis vyžaduje podání z otevřené dlaně, téměř svislý nadhoz bez udělené rotace nejméně 16 cm a viditelnost míčku pro příjemce.",
+      "tags": [
+        "sport",
+        "fairness"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1125",
+    "title": "Volejbalová rotace hlídá víc než pořadí podání",
+    "content": "<p>Volejbalový tým vyhraje výměnu při soupeřově podání a hráči se přesunou o jednu pozici. Když však vyhraje výměnu při vlastním podání, stejný přesun nenásleduje.</p><p>Rotace při získání podání od soupeře probíhá po směru hodinových ručiček. Hráč z pravé přední pozice se dostává na pravou zadní a jde podávat. Pořadí sestavy tak určuje, kdo se postupně dostane na řadu.</p><p>Rotace zároveň mění zařazení hráčů do přední a zadní řady. Tyto role mají význam například pro blokování a útočné údery zadních hráčů. Neznamená to ovšem, že každý musí po celou rozehru stát na jednom nakresleném místě.</p><p><strong>Herní specializace se odehrává uvnitř rotující sestavy.</strong> Nahrávač a útočníci mohou zaujímat taktické postavení, ale nemohou si prostě zvolit trvale stejné pořadí podávání bez ohledu na průběh zápasu.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "FIVB – Official rules 2025–2028, 7.6 Rotation",
+        "url": "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN.pdf"
+      },
+      {
+        "label": "FIVB – The game: rotation",
+        "url": "https://www.fivb.com/volleyball/the-game/"
+      }
+    ],
+    "illustration": {
+      "concept": "A simple overhead volleyball half-court with six large player discs and one curved clockwise arrow.",
+      "scene_type": "diagram",
+      "primary_subject": "volleyball_rotation",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "half_court",
+        "six_player_discs",
+        "clockwise_arrow"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1125",
+      "point": "Při získání podání od soupeře volejbalové družstvo rotuje o jednu pozici po směru hodinových ručiček a tím se mění i přední a zadní role hráčů.",
+      "tags": [
+        "sport",
+        "cooperation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1126",
+    "title": "Polohový závod a štafeta začínají jiným způsobem",
+    "content": "<p>Polohový závod kombinuje čtyři plavecké způsoby, ale jeho štafetová verze je neřadí stejně jako závod jednotlivce. Rozdíl poznáme hned na startu.</p><p>Jednotlivec plave v pořadí motýlek, znak, prsa a volný způsob. V polohové štafetě nastupují čtyři plavci: znak, prsa, motýlek a volný způsob. Každému připadá čtvrtina celkové vzdálenosti.</p><p>Znak má start z vody, zatímco ostatní způsoby začínají skokem. Jeho zařazení na první úsek štafety tak umožňuje využít obvyklý znakový start bez předchozího střídání z bloku.</p><p><strong>Stejný seznam technik nemusí znamenat stejné pořadí závodu.</strong> A volný způsob v polohovce neznamená možnost zopakovat libovolný z předchozích tří: pravidla zde vylučují znak, prsa i motýlek. Závěrečný úsek se proto běžně plave kraulem.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Aquatics – Competition regulations February 2026",
+        "url": "https://resources.fina.org/fina/document/2026/02/18/e6815ecc-06d9-4f0b-98e9-4c441cf5e6a3/2026-02-18_World-Aquatics_CR-Final.pdf"
+      },
+      {
+        "label": "World Aquatics – Swimming reference card March 2026",
+        "url": "https://resources.fina.org/fina/document/2026/03/16/5140bd13-c39f-4159-a896-3ff2350a33f2/Swimming-Reference-Card-13.03.2026.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "One backstroke swimmer holding the pool start grips with feet braced against the wall.",
+      "scene_type": "object",
+      "primary_subject": "backstroke_relay_start",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "backstroke_start",
+        "pool_wall",
+        "start_grips"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1126",
+      "point": "Individuální polohový závod řadí motýlek, znak, prsa a volný způsob, zatímco polohová štafeta začíná znakem kvůli jeho startu z vody.",
+      "tags": [
+        "sport",
+        "patterns"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1127",
+    "title": "Kormidelník pomáhá zrychlit loď bez jediného záběru",
+    "content": "<p>V závodní veslařské lodi může sedět člen posádky, který nezabere veslem ani jednou. Kormidelník přesto přímo ovlivňuje, jak rychle a bezpečně se loď dostane do cíle.</p><p>Řídí její směr, sleduje situaci před lodí a vydává pokyny ostatním. Během závodu pomáhá uskutečňovat strategii, načasovat změny úsilí a udržet posádku soustředěnou na společný výkon.</p><p>Jeho práce není jen hlasité povzbuzování. Nepřesný směr prodlouží trasu a nevhodné zásahy do řízení mohou narušit plynulost. Užitečný pokyn musí přijít srozumitelně a ve správném okamžiku.</p><p><strong>Člen týmu nemusí vykonávat stejný pohyb, aby se podílel na výsledku.</strong> Kormidelník odděluje sledování trati a koordinaci od samotných záběrů. Tato role existuje u lodí s kormidelníkem; nelze ji automaticky připsat každé veslařské disciplíně.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "British Rowing – Coxing",
+        "url": "https://www.britishrowing.org/knowledge/courses-qualifications/coxing/"
+      },
+      {
+        "label": "Rowing Canada – What does a coxswain do?",
+        "url": "https://rowingcanada.org/uploads/2024/12/RCA_LearnToRow2_EN_finaPDF.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A cropped stern of a rowing shell with a forward-facing coxswain giving a clear hand signal to one rower.",
+      "scene_type": "interaction",
+      "primary_subject": "rowing_coxswain",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "coxswain",
+        "rowing_shell",
+        "rower"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1127",
+      "point": "Kormidelník závodní veslařské posádky nevesluje, ale řídí směr, vydává pokyny a koordinuje závodní strategii a výkon ostatních.",
+      "tags": [
+        "sport",
+        "cooperation"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1128",
+    "title": "Herec může jet krajinou, aniž opustí ateliér",
+    "content": "<p>Herec drží volant a za okny ubíhá silnice, ale automobil může stát v ateliéru. Pohyb okolí už někdo natočil předem a při scéně jej znovu promítá.</p><p>Při zadní projekci stojí za herci průsvitné plátno. Projektor na ně vrhá obraz z opačné strany, zatímco kamera snímá herce a promítané pozadí společně. Vzniká tak složený prostor už během natáčení.</p><p>Představitelé mohou odehrát dialog bez skutečné jízdy na vzdáleném místě. Úspěch triku závisí na sladění směru pohledu, perspektivy a osvětlení; promítané pozadí může působit odlišně než skutečné popředí.</p><p><strong>Nejde o odstranění zelené barvy v postprodukci.</strong> Pozadí při záběru fyzicky svítí na plátně. Zdánlivě obyčejná cesta autem tak může spojovat dva různé okamžiky: dřívější záznam krajiny a současnou hereckou akci.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "University of West Georgia – Glossary of film terms",
+        "url": "https://www.westga.edu/academics/university-college/writing/glossary_of_film_terms.php"
+      },
+      {
+        "label": "Brooklyn College – Film glossary",
+        "url": "https://userhome.brooklyn.cuny.edu/anthro/jbeatty/COURSES/glossary.htm"
+      }
+    ],
+    "illustration": {
+      "concept": "A stationary car cabin in front of a simple rear-projection screen showing a road, projector behind the screen.",
+      "scene_type": "object",
+      "primary_subject": "rear_projection_car",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "car_cabin",
+        "projection_screen",
+        "projector"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "teal_amber"
+    },
+    "knowledge": {
+      "idea": "idea-1128",
+      "point": "Zadní projekce promítá předem natočené pozadí zezadu na průsvitné plátno za herci a spojuje je s ním již při snímání kamerou.",
+      "tags": [
+        "film-technique",
+        "perceived-reality"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1129",
+    "title": "Kamera může předat slovo pouhým přeostřením",
+    "content": "<p>V popředí leží klíč a za ním stojí člověk. Kamera se nemusí pohnout ani střihnout, aby divák přestal sledovat předmět a soustředil se na jeho majitele.</p><p>Při přeostření se během jediného záběru přesune rovina ostrého zobrazení. Nejprve je zřetelný klíč a postava rozostřená, potom se vztah obrátí. Prostor zůstává stejný, mění se však to, co lze snadno rozeznat.</p><p>Postup se označuje jako rack focus nebo focus pull. Funguje výrazně zejména tehdy, když malá hloubka ostrosti dovolí jednotlivé plány oddělit. Na rozdíl od současně ostrého popředí i pozadí vede pozornost postupně.</p><p><strong>Ostrost se tím stává vypravěčským prostředkem.</strong> Může odhalit přítomnou postavu nebo předat důraz detailu bez nového záběru. Přeostření samo nemění ohniskovou vzdálenost jako zoom ani nevyžaduje změnu stanoviště kamery.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "University of West Georgia – Racking focus",
+        "url": "https://www.westga.edu/academics/university-college/writing/glossary_of_film_terms.php"
+      },
+      {
+        "label": "Pitzer College – Language of film key terms",
+        "url": "https://pzacad.pitzer.edu/~mma/teaching/MS50/MS50_keyterms.html"
+      }
+    ],
+    "illustration": {
+      "concept": "A large cinema lens with a hand turning the focus ring.",
+      "scene_type": "interaction",
+      "primary_subject": "focus_pull_lens",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "cinema_lens",
+        "focus_ring",
+        "hand"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "terracotta_cream"
+    },
+    "knowledge": {
+      "idea": "idea-1129",
+      "point": "Přeostření během souvislého záběru přesune rovinu ostrého zobrazení mezi různě vzdálenými motivy a tím řídí divákovu pozornost bez střihu.",
+      "tags": [
+        "film-technique",
+        "perception"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1130",
+    "title": "Slyší filmovou hudbu také postava?",
+    "content": "<p>V jedné scéně hraje píseň z rádia, v jiné podobná hudba doprovází film jen pro diváka. Stejný druh zvuku může mít v příběhu úplně jiné postavení.</p><p>Diegetický zvuk je připsán zdroji uvnitř světa vyprávění. Patří sem dialog, zavrzání dveří i hudba z rádia. Zdroj přitom nemusí být vidět: postava může slyšet automobil za oknem, který kamera neukazuje.</p><p>Nediegetický hudební doprovod naopak není představen jako zvuk vznikající v prostoru postav. Rozlišení se týká jeho funkce v příběhu, nikoli místa, kde vznikla zvuková nahrávka.</p><p><strong>I dodatečně vyrobené kroky mohou být diegetické.</strong> Byly sice nahrány ve studiu, ale film je připisuje chodícímu člověku. Otázka, odkud zvuk pochází ve fikci, je tedy jiná než otázka, jak jej filmaři technicky pořídili.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "Contemporary World Cinema – Sound",
+        "url": "https://ecampusontario.pressbooks.pub/contemporaryworldcinema/chapter/sound/"
+      },
+      {
+        "label": "Kellogg Community College – Film terms",
+        "url": "https://academic.kellogg.edu/marklinl/Film/FilmHandouts/GlossaryOfFilmTerms.htm"
+      }
+    ],
+    "illustration": {
+      "concept": "A single tabletop radio with two broad sound arcs, no text.",
+      "scene_type": "object",
+      "primary_subject": "radio_in_film_scene",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "tabletop_radio",
+        "speaker",
+        "sound_arcs"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "indigo_cyan"
+    },
+    "knowledge": {
+      "idea": "idea-1130",
+      "point": "Diegetický zvuk je ve vyprávění připsán zdroji uvnitř světa příběhu, i když zdroj není v obraze a zvuk vznikl dodatečně.",
+      "tags": [
+        "sound",
+        "narratology"
+      ],
+      "type": "principle"
+    }
+  },
+  {
+    "id": "1131",
+    "title": "Dva různé světy může spojit stejný tvar",
+    "content": "<p>Na konci záběru vidíme kulatý talíř, po střihu podobně velký Měsíc. Místo se změnilo, ale oko zachytí společný tvar, který přechod propojí.</p><p>Grafický střih neboli graphic match spojuje dva následné záběry výraznou podobností kompozice. Může jít o tvar, barvu nebo rozmístění prvků v obraze. Společný rys zůstává rozpoznatelný, i když předměty patří do různých prostředí.</p><p>Talíř a Měsíc jsou ilustrativní příklad: žádný z nich se nemusí v příběhu proměnit v druhý. Vizuální vazbu vytváří výběr a spojení obrazů, nikoli nutně souvislý děj mezi nimi.</p><p><strong>Střih tak může spojovat podobností místo návaznosti akce.</strong> Umožní překlenout čas nebo vzdálenost a přitom ponechat divákovi výraznou obrazovou oporu. Konkrétní význam podobnosti však vždy závisí na okolním vyprávění.</p>",
+    "category": "kinematografie",
+    "sources": [
+      {
+        "label": "University of West Georgia – Graphic match",
+        "url": "https://www.westga.edu/academics/university-college/writing/glossary_of_film_terms.php"
+      },
+      {
+        "label": "Kellogg Community College – Graphic match",
+        "url": "https://academic.kellogg.edu/marklinl/Film/FilmHandouts/GlossaryOfFilmTerms.htm"
+      }
+    ],
+    "illustration": {
+      "concept": "Two adjacent film frames: a pale round plate in the first, a similarly placed pale full moon in the second.",
+      "scene_type": "diagram",
+      "primary_subject": "graphic_match_frames",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "paired_film_frames",
+        "round_plate",
+        "full_moon"
+      ],
+      "composition_hints": [
+        "dominant_central_motif",
+        "balanced_transparent_margins"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    },
+    "knowledge": {
+      "idea": "idea-1131",
+      "point": "Grafický střih spojuje po sobě jdoucí záběry výraznou podobností tvaru, barvy či kompozice, i když zobrazují různé časy a místa.",
+      "tags": [
+        "film-technique",
+        "narratology"
+      ],
+      "type": "principle"
+    }
+  }
+]

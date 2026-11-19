@@ -1,0 +1,687 @@
+{
+  "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+  "catalog_reviewed": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+  "proposals": [
+    {
+      "id": "1007",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1007",
+        "point": "Harrisonův námořní časoměřič H4 umožnil udržet referenční čas během plavby a určit zeměpisnou délku porovnáním s místním časem.",
+        "tags": [
+          "history-of-science",
+          "innovation"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "296",
+        "667"
+      ],
+      "reason": "296 vysvětluje relativistické opravy GPS a 667 měření obvodu Země ze stínů; nový text popíše historické uchování referenčního času na moři a převod rozdílu na délku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1008",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1008",
+        "point": "Obnova Londýna po požáru roku 1666 podřídila novou zástavbu pravidlům pro zděné fasády a šířku ulic, aniž by cihly byly ve městě novinkou.",
+        "tags": [
+          "modern-history",
+          "architecture",
+          "resilience"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "897",
+        "530"
+      ],
+      "reason": "897 řeší financování kanalizace po zápachu a 530 římské nájemní domy a hasiče; zde jde o konkrétní stavební pravidla obnovy Londýna roku 1667 a mýtus o zavedení cihel.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1009",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1009",
+        "point": "Millův princip újmy rozlišuje zásah kvůli ochraně druhých od donucování dospělého jen pro jeho vlastní dobro či kvůli pohoršení okolí.",
+        "tags": [
+          "political-philosophy",
+          "freedom"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "329",
+        "185"
+      ],
+      "reason": "329 rozlišuje dva významy svobody a 185 univerzalizaci mravních pravidel; nový poznatek je Millovo měřítko oprávněného donucení podle újmy druhým.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1010",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1010",
+        "point": "Buridanův osel vystavuje teorii volby problému dvou stejně přitažlivých možností, mezi nimiž chybí důvod k přednosti jedné.",
+        "tags": [
+          "metaphysics",
+          "decision-making"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "878",
+        "426"
+      ],
+      "reason": "878 řeší odpovědnost při příčinné určenosti a 426 přetížení počtem možností; zde jde o logický problém symetrické volby už mezi dvěma shodnými alternativami.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1011",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1011",
+        "point": "Ptakopysk při ponoření zavírá oči a kořist lokalizuje i pomocí elektrických a mechanických receptorů svého zobáku.",
+        "tags": [
+          "zoology",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "509"
+      ],
+      "reason": "509 vysvětluje magnetický kompas při migraci; elektrické vyhledávání blízké kořisti zobákem je jiný smyslový mechanismus a funkce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1012",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1012",
+        "point": "Mořská vydra se proti chladu izoluje vzduchem zadržovaným v udržované husté srsti, takže znečištění srsti olejem ohrožuje její tepelnou bilanci.",
+        "tags": [
+          "zoology",
+          "ecology",
+          "resilience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "903",
+        "955"
+      ],
+      "reason": "903 řeší toleranci zamrznutí a 955 transport kyslíku u ledovek; vydra předchází ztrátě tepla izolací vzduchem v srsti, nikoli tolerancí ledu či krevní adaptací.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1013",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1013",
+        "point": "Seuratův pointilismus klade vedle sebe oddělené barevné body a využívá jejich optické působení při pohledu z odstupu místo úplného smíchání na paletě.",
+        "tags": [
+          "painting",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "252",
+        "470"
+      ],
+      "reason": "252 vysvětluje název impresionismu a 470 Mondrianovu geometrickou redukci; zde je pointou práce s oddělenými barevnými body a optickým mísením.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1014",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1014",
+        "point": "Dřevořez tiskne barvu z ponechaného vyvýšeného povrchu štočku, zatímco vyřezané prohlubně zůstávají na papíře světlé.",
+        "tags": [
+          "painting",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "390",
+        "249"
+      ],
+      "reason": "390 popisuje hlubotisk vyhlazováním zdrsněné desky a 249 kulturní vliv ukiyo-e; dřevořez nově vysvětluje opačný vztah vyřezané plochy a tisknoucího reliéfu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1015",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1015",
+        "point": "Nabokovův Bledý oheň přesouvá románový děj do komentáře, v němž si vykladač přivlastňuje báseň pro svůj vlastní příběh.",
+        "tags": [
+          "narratology",
+          "perceived-reality"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "908",
+        "592"
+      ],
+      "reason": "908 řeší selektivní zamlčení detektivního vypravěče a 592 teorii autorovy autority; zde je děj formálně ukryt v parazitním komentáři k samostatné básni, nikoli jen v nespolehlivém líčení události.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1016",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1016",
+        "point": "Ishigurův román Neopouštěj mě odkrývá systém obětování klonů skrze vzpomínky jeho obětí, jejichž běžný jazyk a vztahy normalizují nepřijatelné uspořádání.",
+        "tags": [
+          "literature",
+          "identity",
+          "fairness"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "338",
+        "342"
+      ],
+      "reason": "338 řeší odpovědnost stvořitele za opuštěného tvora a 342 řízení lidských tužeb pro stabilitu; nový text rozebere jazyk a vzpomínání obětí systému odběrů orgánů a postupné odhalení jejich situace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1017",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1017",
+        "point": "Severoamerické železnice roku 1883 koordinovaně přijaly pásmový čas, aby nahradily neslučitelné místní časy při sestavování jízdních řádů.",
+        "tags": [
+          "institutions",
+          "cooperation",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "793",
+        "842"
+      ],
+      "reason": "793 popisuje politicky jednotný čas rozlehlé země a 842 data začátku roku; zde jde o koordinované zavedení více časových pásem železniční sítí před federálním zákonem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1018",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1018",
+        "point": "Registrace narození vytváří úřední doklad o narození a příbuzenství, který pomáhá prokazovat nároky, ale sama automaticky neurčuje státní občanství.",
+        "tags": [
+          "institutions",
+          "human-rights",
+          "identity"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "874",
+        "992"
+      ],
+      "reason": "874 řeší plošné udělení římského občanství a 992 jeho získání službou; nově se odlišuje úřední záznam faktu narození od právního přiznání občanství.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1019",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1019",
+        "point": "Kapilární vzlínání vzniká působením smáčení a povrchového napětí proti gravitaci a v užší smáčené trubičce dosáhne kapalina výše.",
+        "tags": [
+          "mechanics",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "38",
+        "443"
+      ],
+      "reason": "38 vysvětluje vztlak vytlačenou kapalinou a 443 hustotu vody a ledu; nový mechanismus je smáčení a kapilární zdvih proti gravitaci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1020",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1020",
+        "point": "Vakuová termoska omezuje přenos tepla vedením a prouděním mezi stěnami, zatímco odrazivý povrch omezuje přenos zářením.",
+        "tags": [
+          "thermodynamics",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1002",
+        "749"
+      ],
+      "reason": "1002 řeší energii přeměny skupenství a 749 izolaci kapky vrstvou páry; zde se rozlišují tři přenosové cesty a jejich omezení vakuem a odrazivými stěnami.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1021",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1021",
+        "point": "Maillardovy reakce propojují redukující cukry s aminoskupinami a vytvářejí při úpravě jídla hnědé a aromatické produkty odlišným postupem než samotná karamelizace cukru.",
+        "tags": [
+          "chemistry",
+          "nutrition"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "444",
+        "824"
+      ],
+      "reason": "444 řeší dráždivou reakci po narušení cibule a 824 tepelný rozklad dřeva; zde jde o reakce cukrů s aminoskupinami, nikoli jakoukoli změnu teplem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1022",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1022",
+        "point": "Ionty vápníku a hořčíku v tvrdé vodě tvoří s mýdlem špatně rozpustné soli, čímž spotřebují část mýdla a omezí pěnění.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "825",
+        "1006"
+      ],
+      "reason": "825 vysvětluje tvorbu micel a odnos mastnoty a 1006 velikostní selekci v zeolitu; nový text řeší chemické vysrážení mýdla ionty tvrdé vody.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1023",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1023",
+        "point": "Aktivní uhlí odstraňuje některé látky adsorpcí na rozsáhlém vnitřním povrchu, jehož kapacita je omezená a účinnost závisí na kontaminantu.",
+        "tags": [
+          "chemistry",
+          "materials",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1006",
+        "913"
+      ],
+      "reason": "1006 vysvětluje pravidelné molekulové síto a 913 superkritickou extrakci; aktivní uhlí nově ukáže kapacitně omezené zachycení látek na povrchu, nikoli průchod podle rozměru nebo rozpouštění v CO2.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1024",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1024",
+        "point": "Librace mění úhel pohledu na synchronně rotující Měsíc, takže lze ze Země postupně pozorovat přibližně 59 procent jeho povrchu.",
+        "tags": [
+          "solar-system",
+          "moon",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "292",
+        "836"
+      ],
+      "reason": "292 řeší přenos momentu a vzdalování Měsíce, 836 zdánlivou velikost při zatmění; zde proměnlivý směr pohledu odhaluje část odvrácených okrajů navzdory synchronní rotaci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1025",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1025",
+        "point": "Hlavní Saturnovy prstence jsou velmi tenkým souborem samostatně obíhajících ledových částic, nikoli pevným diskem.",
+        "tags": [
+          "solar-system",
+          "saturn",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "941",
+        "288"
+      ],
+      "reason": "941 řeší výměnu drah měsíců a 288 ochranný zánik sondy; zde je novým poznatkem částicová a extrémně tenká podoba hlavních prstenců.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1026",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1026",
+        "point": "Prach v atmosféře Marsu rozptyluje světlo tak, že při západu zůstává modrá složka výrazná blízko směru ke Slunci.",
+        "tags": [
+          "solar-system",
+          "mars",
+          "optics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "295",
+        "851"
+      ],
+      "reason": "295 řeší molekulární rozptyl na Zemi a 851 barevné osvětlení stínů; marťanský prach má jiné směrové rozptylové působení a vytváří modrou oblast právě kolem zapadajícího Slunce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1027",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1027",
+        "point": "V pasti likvidity u dolní meze krátkých sazeb slábne běžná stimulace jejich dalším snižováním, což neznamená neúčinnost všech nástrojů měnové politiky.",
+        "tags": [
+          "macroeconomics",
+          "finance",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "40",
+        "60"
+      ],
+      "reason": "40 doporučuje rozpočtové výdaje a 60 řeší dlouhodobou inflaci; nový mechanismus je omezení krátké nominální sazby a rozdíl mezi běžnou a nekonvenční měnovou stimulací.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1028",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1028",
+        "point": "Cenová diskriminace využívá rozdílnou ochotu skupin platit za stejný statek a její udržení vyžaduje omezit přesun levnější nabídky mezi skupinami.",
+        "tags": [
+          "microeconomics",
+          "incentives"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "481",
+        "752"
+      ],
+      "reason": "481 řeší užitek další jednotky a 752 neznámou kvalitu a nepříznivý výběr; zde rozdílné ceny stejného statku zachycují rozdílnou ochotu platit a potřebují segmentaci zákazníků.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1029",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1029",
+        "point": "Nepozornostní slepota umožňuje přehlédnout nečekaný viditelný objekt při soustředění na jiný úkol i bez přerušení obrazu.",
+        "tags": [
+          "perception",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "401",
+        "918"
+      ],
+      "reason": "401 vyžaduje porovnání změněných scén s přerušením a 918 rychlé zpracování dvou cílů; zde může uniknout souvisle viditelný nečekaný objekt kvůli úkolu zaměřenému jinam.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1030",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1030",
+        "point": "Kryptomnézie vzniká, když se vybaví dříve převzatý obsah bez vzpomínky na jeho původ a člověk jej mylně pokládá za vlastní nový nápad.",
+        "tags": [
+          "learning-memory",
+          "identity"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "242",
+        "945"
+      ],
+      "reason": "242 řeší změnu obsahu vzpomínky sugescí a 945 lepší uložení samostatně vytvořené odpovědi; zde se zachovaný obsah mylně připisuje vlastní tvorbě kvůli ztrátě zdroje.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1031",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1031",
+        "point": "Němé filmy nemají jedinou univerzální správnou snímkovou rychlost a promítání odlišnou rychlostí mění tempo pohybu i délku díla.",
+        "tags": [
+          "film-technique",
+          "art-conservation",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "852",
+        "920"
+      ],
+      "reason": "852 vysvětluje aliasing a 920 chemické stárnutí nosiče; zde promítací rychlost mění celé časové měřítko filmu a archiv musí respektovat proměnlivou historickou praxi.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1032",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1032",
+        "point": "Klasická dokreslovačka kombinuje namalovanou část prostředí s hranou akcí a nahrazuje tak stavbu celého prostoru před kamerou.",
+        "tags": [
+          "film-technique",
+          "painting",
+          "perceived-reality"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "461",
+        "784"
+      ],
+      "reason": "461 odděluje barvu pro klíčování a 784 rozebírá Zemanův výtvarný styl; zde malba nahrazuje část fyzického prostoru a skládá se s hranou akcí pomocí maskovaných oblastí.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1033",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1033",
+        "point": "Pro konvexní mnohostěn dává počet vrcholů minus počet hran plus počet stěn vždy dvě bez ohledu na délky a úhly.",
+        "tags": [
+          "geometry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "223",
+        "228"
+      ],
+      "reason": "223 je identita komplexní exponenciály a 228 podmínka Eulerova tahu; nový vztah V-E+F=2 spočítá topologickou vlastnost povrchu konvexního mnohostěnu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1034",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1034",
+        "point": "Bertrandův paradox ukazuje, že náhodný výběr tětivy nemá jedinou pravděpodobnost bez určení způsobu jejího vzorkování.",
+        "tags": [
+          "probability",
+          "uncertainty"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "405",
+        "303"
+      ],
+      "reason": "405 má předem určené rovnoměrné vzorkování a 303 empirické rozdělení číslic; zde různé definice náhodné tětivy vedou k různým správným pravděpodobnostem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1035",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1035",
+        "point": "Nejrychlejší bez tření probíhající sestup částice v homogenní gravitaci mezi vhodnými dvěma body vede po cykloidě a nemusí být nejkratší spojnicí.",
+        "tags": [
+          "analysis",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "694",
+        "500"
+      ],
+      "reason": "694 hledá nejkratší cestu v grafu a 500 odhaduje pí mnohoúhelníky; brachistochrona optimalizuje dobu dynamického sestupu mezi body a odlišuje čas od délky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1036",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1036",
+        "point": "Wear leveling rozkládá přepisování mezi bloky flash paměti, aby se často měněná data neopotřebovávala stále na stejném fyzickém místě.",
+        "tags": [
+          "computing",
+          "resources",
+          "resilience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "799",
+        "952"
+      ],
+      "reason": "799 uvolňuje nedostupné objekty a 952 pojmenovává data obsahem; wear leveling vyrovnává fyzické cykly mazání flash a omezuje předčasné opotřebení bloků.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1037",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1037",
+        "point": "Write-ahead log zaznamenává změny databáze před jejich přenesením do hlavního souboru a odlišuje potvrzení transakce od pozdějšího checkpointu.",
+        "tags": [
+          "programming",
+          "resilience",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "408",
+        "742"
+      ],
+      "reason": "408 koordinuje potvrzení mezi účastníky a 742 odděluje relační model od fyzického uložení; WAL řeší lokální pořadí zápisu a pozdější checkpoint bez kopírování celé této koordinace.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1038",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1038",
+        "point": "Endianness určuje pořadí bajtů vícebajtové hodnoty, takže stejná sekvence může bez společné dohody označovat různá čísla.",
+        "tags": [
+          "programming",
+          "communication"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "657",
+        "796"
+      ],
+      "reason": "657 počítá se zbytky a 796 opravuje chybné bity; zde jsou všechny bity správné, ale číselný význam závisí na dohodnutém pořadí bajtů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1039",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1039",
+        "point": "Cílová kamera sestavuje obraz z opakovaných úzkých záznamů cílové čáry, takže jeho vodorovná osa zachycuje čas místo vzdálenosti podél dráhy.",
+        "tags": [
+          "sport",
+          "innovation",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "947",
+        "852"
+      ],
+      "reason": "947 během expozice tvoří umělý filmový prostor a 852 popisuje aliasing; cílový systém skládá časový záznam jediné čáry pro měření pořadí závodníků.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1040",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1040",
+        "point": "Cyklista v závětří soupeře či spoluhráče čelí nižšímu odporu vzduchu, takže střídání na čele rozděluje energetickou cenu vedení skupiny.",
+        "tags": [
+          "sport",
+          "cooperation",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "988",
+        "989"
+      ],
+      "reason": "988 vysvětluje brzdění samostatného badmintonového míčku a 989 povolení přehazovaček; zde proudové ovlivnění více jezdců vede k taktické spolupráci a střídání.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1041",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1041",
+        "point": "Přijetí penaltových rozstřelů IFAB roku 1970 dalo nerozhodným vyřazovacím zápasům řešení na hřišti místo některých dřívějších losů či opakování.",
+        "tags": [
+          "sport",
+          "institutions",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "382",
+        "412"
+      ],
+      "reason": "382 rozebírá náhodné strategie jednotlivé penalty a 412 tenisový formát konce setu; nový text doloží konkrétní vznik a zavádění fotbalového rozstřelu proti dřívějšímu losování.",
+      "verdict": "accept"
+    }
+  ]
+}

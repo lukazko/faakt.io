@@ -1,6 +1,6 @@
 import {readFileSync,writeFileSync} from 'node:fs';
 import {createHash} from 'node:crypto';
-import {STYLE} from '../skills/faakt-illustrations/scripts/prompt.mjs';
+import {STYLE} from '../scripts/illustrations/prompt.mjs';
 const posts=JSON.parse(readFileSync('reports/new-posts-897-926.json','utf8'));
 const jobs=posts.map(p=>{
  const m=p.illustration, metadata={};

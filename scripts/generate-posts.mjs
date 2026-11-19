@@ -24,7 +24,8 @@ export function canonical(value) {
 }
 
 export function getPrompt(proposals, tags) {
-	const instructions = fs.readFileSync(path.join(ROOT, 'docs/generovani-postu-handoff.md'), 'utf8');
+	const instructions = fs.readFileSync(path.join(ROOT, 'prompts/generovani-postu.md'), 'utf8')
+		.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n\s*/, '');
 	const used = new Set(proposals.flatMap(p => p.knowledge.tags));
 	const definitions = tags.filter(t => used.has(t.id));
 	return instructions + '\n\nSCHVÁLENÝ PLÁN PRO TUTO DÁVKU:\n'

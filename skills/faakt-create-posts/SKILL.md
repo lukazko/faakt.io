@@ -24,7 +24,7 @@ Neukončuj běžný požadavek jen JSONem, metadaty, uloženými obrázky nebo s
 
 ## Zdroje a zadání
 
-- Přečti projektové konvence v [CLAUDE.md](../../CLAUDE.md) a přesné redakční zadání v [generovani-postu-handoff.md](../../docs/generovani-postu-handoff.md), včetně ukázkového JSON. Oba dokumenty platí společně s tímto skillem.
+- Přečti projektové konvence v [CLAUDE.md](../../CLAUDE.md) a přesné redakční zadání v [generovani-postu.md](../../prompts/generovani-postu.md), včetně ukázkového JSON. Oba dokumenty platí společně s tímto skillem.
 - **Úplná databáze existujících postů je [static/data/posts.json](../../static/data/posts.json).** Nepoužívej zálohy ani kopie v build adresářích. Databázi vždy načti z aktuálního pracovního stromu.
 - Zdroj platných kategorií je [src/lib/categories.js](../../src/lib/categories.js). Při rozporu mezi kódem a dokumentací rozpor vyřeš před odevzdáním.
 - Počet převezmi ze zadání; pokud chybí a nelze jej odvodit z kontextu, vyžádej si jej. Neuvedené tematické omezení znamená výběr napříč kategoriemi. První volné ID odvoď z nejvyššího číselného ID v celé databázi, nikoli z počtu záznamů či poslední pozice. ID jsou řetězce bez úvodních nul (například `1`, `99`, `1000`); mezery v číslování nezaplňuj. Zadané ID musíš ověřit proti databázi.
@@ -52,7 +52,7 @@ Před výběrem námětů přečti [známé obsahové duplicity](references/dupl
 
 ## Kategorie
 
-Použij přesně jeden slug z těchto 14 hodnot:
+Použij přesně jeden slug z těchto 15 hodnot:
 
 | Slug | Kategorie |
 |---|---|
@@ -74,7 +74,7 @@ Použij přesně jeden slug z těchto 14 hodnot:
 
 Biologie zahrnuje organismy, evoluci, genetiku, fyziologii i léčbu, nemoci, prevenci a životosprávu. Fyzika zahrnuje fyzikální zákony, skupenství, záření, jaderné a geofyzikální procesy. Chemie zahrnuje chemické prvky, složení látek, reakce a separace. Vesmír zahrnuje astronomii a kosmický výzkum. Technologie zahrnují informatiku a technické vynálezy. Společnost zahrnuje také sociologii, instituce a právo. Jazyk a znaky patří jako podobor do Filozofie. Rozhoduje hlavní obsah celého příspěvku; přesahy zachycují řízené tagy. Společnost používá slug `spolecnost` bez aliasu pro staré URL. Vesmír používá slug `vesmir` bez aliasu `astronomie`. Slugy odpovídají aktuálním názvům bez diakritiky; při přejmenování se staré slugy ani aliasy neudržují. Platné slugy určuje `src/lib/categories.js`.
 
-Při jedné zadané kategorii zůstaň v ní. U smíšené dávky bez tematického omezení vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 14. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
+Při jedné zadané kategorii zůstaň v ní. U smíšené dávky bez tematického omezení vyvažuj kategorie podle velikosti dávky; při dostatečném počtu pokryj všech 15. Orientačně 30 % mohou tvořit starověcí myslitelé z řeckého, římského, čínského či indického prostředí. Rozmanitost ani tento poměr nikdy neospravedlňují opakování myšlenky.
 
 ## Struktura a psaní
 

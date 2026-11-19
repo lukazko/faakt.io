@@ -1,0 +1,38 @@
+import fs from 'node:fs';
+import { createHash } from 'node:crypto';
+import { chromium } from 'playwright';
+const prefix='reports/batch-1042-1071';
+const base='http://127.0.0.1:5184/faakt.io/';
+const posts=JSON.parse(fs.readFileSync('static/data/posts.json','utf8'));
+const drafts=JSON.parse(fs.readFileSync(prefix+'-drafts.json','utf8'));
+const sha=x=>createHash('sha256').update(x).digest('hex');
+for(const p of drafts){
+  if(!fs.existsSync(`build/post/${p.id}/index.html`))throw Error('Missing static page '+p.id);
+  if(sha(fs.readFileSync(`build/illustrations-ai/${p.id}.webp`))!==sha(fs.readFileSync(`static/illustrations-ai/${p.id}.webp`)))throw Error('Stale built asset '+p.id);
+}
+if(!fs.existsSync('build/.nojekyll'))throw Error('Missing .nojekyll');
+const response=await fetch(base+'data/posts.json');
+if(!response.ok)throw Error('Preview HTTP '+response.status);
+const served=await response.json();
+if(JSON.stringify(served)!==JSON.stringify(posts))throw Error('Preview serves a different checkout or stale data');
+const browser=await chromium.launch({headless:true});
+const page=await browser.newPage({viewport:{width:390,height:844}});
+const errors=[];page.on('pageerror',e=>errors.push(String(e)));
+await page.goto(base+'post/1042/',{waitUntil:'networkidle',timeout:90000});
+const front=page.locator('.is-active .card-front');
+await front.locator('img').evaluate(im=>im.decode());
+if((await front.locator('h2').textContent()).trim()!==drafts[0].title)throw Error('Wrong initial card');
+await page.screenshot({path:prefix+'-review/production-preview.png'});
+await front.locator('.flip-btn').click();
+const back=page.locator('.is-active .card-back');
+await back.locator('.source-toggle').click();
+const links=await back.locator('a[target="_blank"]').evaluateAll(xs=>xs.map(x=>x.href));
+for(const s of drafts[0].sources)if(!links.includes(s.url))throw Error('Missing production source');
+if(errors.length)throw Error(errors.join('\n'));
+await browser.close();
+const file=prefix+'-final-validation.json';
+const summary=JSON.parse(fs.readFileSync(file,'utf8'));
+summary.build='passed: 30 new static pages and identical built WebP assets, .nojekyll present';
+summary.preview={url:base+'post/1042/',http:response.status,records:served.length,first_card_verified:true,flip_and_sources_verified:true,runtime_errors:errors};
+fs.writeFileSync(file,JSON.stringify(summary,null,2)+'\n');
+console.log(JSON.stringify(summary));

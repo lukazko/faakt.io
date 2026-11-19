@@ -1,0 +1,557 @@
+{
+  "snapshot": "1a4844bd30a7171db2722df072c5af25f7f6e99a8f5da87ecee03f7295a4965a",
+  "catalog_reviewed": "1a4844bd30a7171db2722df072c5af25f7f6e99a8f5da87ecee03f7295a4965a",
+  "proposals": [
+    {
+      "id": "1072",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1072",
+        "point": "Pufr spotřebovává malé přídavky kyseliny či zásady pomocí konjugovaného páru, ale po vyčerpání jeho kapacity se pH výrazně změní.",
+        "tags": [
+          "chemistry",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1056"
+      ],
+      "reason": "Indikátor pH pouze ukazuje; pufr změnu chemicky tlumí.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1073",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1073",
+        "point": "Chromatografie odděluje složky směsi podle jejich rozdílného rozdělování mezi pohyblivou a nepohyblivou fázi.",
+        "tags": [
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1006"
+      ],
+      "reason": "Rozdílná migrace mezi dvěma fázemi, nikoli selekce velikostí póru zeolitu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1074",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1074",
+        "point": "Azeotrop ethanolu a vody má při daném tlaku stejné složení páry a kapaliny, což omezuje oddělení běžnou frakční destilací.",
+        "tags": [
+          "chemistry",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "913"
+      ],
+      "reason": "Rovnost složení dvou fází omezuje destilaci; nejde o extrakci superkritickým rozpouštědlem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1075",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1075",
+        "point": "Diamant a grafit mají rozdílné vlastnosti kvůli odlišnému propojení uhlíkových atomů v prostorové síti a vrstvách.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1005"
+      ],
+      "reason": "Různá síť vazeb v alotropech, nikoli zrcadlové uspořádání téže molekuly.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1076",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1076",
+        "point": "Vulkanizace vytváří mezi polymerními řetězci kaučuku příčné vazby, které omezují jejich vzájemný posun a mění mechanické vlastnosti.",
+        "tags": [
+          "chemistry",
+          "materials",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "824"
+      ],
+      "reason": "Síťování existujících polymerů, nikoli tepelný rozklad materiálu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1077",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1077",
+        "point": "Při mezifázové přípravě nylonu reagují monomery z oddělených kapalin na jejich rozhraní a vznikající polymer lze vytahovat jako vlákno.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "825"
+      ],
+      "reason": "Vznik kovalentního polymeru na rozhraní, nikoli uspořádání molekul mýdla kolem tuku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1078",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1078",
+        "point": "Běžné rezivění železa vyžaduje vodu i kyslík a jeho porézní produkty nechrání kov tak jako přilnavá pasivační vrstva.",
+        "tags": [
+          "chemistry",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1004",
+        "1057"
+      ],
+      "reason": "Podmínky a postup oxidace železa, oproti ochranné pasivaci či obětované anodě.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1079",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1079",
+        "point": "Katalyzátor nabízí rychlejší reakční cestu a urychluje dosažení rovnováhy, aniž mění její polohu při stejné teplotě.",
+        "tags": [
+          "chemistry",
+          "limits"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "715"
+      ],
+      "reason": "Obecné odlišení kinetiky od rovnovážného složení, nikoli průmyslové vázání dusíku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1080",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1080",
+        "point": "Rozpouštění dusičnanu amonného ve vodě může odebírat teplo okolí, což využívají některé jednorázové chladivé sáčky.",
+        "tags": [
+          "chemistry",
+          "thermodynamics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "395"
+      ],
+      "reason": "Pohlcení tepla při rozpouštění soli, nikoli podchlazení vody před krystalizací.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1081",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1081",
+        "point": "Pokles tlaku oxidu uhličitého nad nápojem po otevření lahve snižuje jeho rovnovážnou rozpustnost a podporuje unikání plynu.",
+        "tags": [
+          "chemistry",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "912"
+      ],
+      "reason": "Rozpuštěný plyn a jeho parciální tlak, nikoli koexistence tří fází čisté vody.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1082",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1082",
+        "point": "Chelatační ligand se váže k témuž kovovému centru více donorovými atomy a tvoří kruhy; EDTA tak může kovový ion uzavřít do komplexu.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1022"
+      ],
+      "reason": "Rozpustný koordinační komplex místo srážení iontů tvrdé vody mýdlem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1083",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1083",
+        "point": "Plamenová zkouška pomáhá rozpoznat některé kovy podle světla emitovaného excitovanými atomy, ale příměsi mohou výsledek překrýt.",
+        "tags": [
+          "chemistry",
+          "knowledge-evidence"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "837"
+      ],
+      "reason": "Pozemská kvalitativní analýza solí a omezení směsí, nikoli objev helia ve slunečním spektru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1084",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1084",
+        "point": "Hallův–Héroultův proces vyrábí hliník elektrolýzou oxidu hlinitého rozpuštěného v roztaveném kryolitu, nikoli elektrolýzou vodného roztoku.",
+        "tags": [
+          "chemistry",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1004"
+      ],
+      "reason": "Redukce rudy v tavenině, nikoli pasivace již vyrobeného kovu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1085",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1085",
+        "point": "Tuhnutí pálené sádry zahrnuje hydrataci hemihydrátu síranu vápenatého na dihydrát a růst propojených krystalů.",
+        "tags": [
+          "chemistry",
+          "materials"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "389"
+      ],
+      "reason": "Chemická hydratace a krystalizace pojiva, nikoli náhrada voskového modelu roztaveným kovem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1086",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1086",
+        "point": "Zákaz chycení míče úmyslně kopnutého spoluhráčem zavedený roku 1992 omezil zdržování a zvýšil nároky na brankářovu hru nohama.",
+        "tags": [
+          "sport",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "990",
+        "977"
+      ],
+      "reason": "Omezení konkrétního způsobu vracení míče, nikoli ofsajd či časový limit zakončení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1087",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1087",
+        "point": "Přechod na bodování každé výměny odstranil u běžných setů podmínku vlastního podání pro získání bodu.",
+        "tags": [
+          "sport",
+          "incentives"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "978",
+        "412"
+      ],
+      "reason": "Kdo může získat bod za výměnu, nikoli role libera ani rozhodovací tenisový tie-break.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1088",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1088",
+        "point": "Povinné střídání vnitřní a vnější dráhy při párovém rychlobruslení vyrovnává rozdílné délky oblouků.",
+        "tags": [
+          "sport",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "411"
+      ],
+      "reason": "Geometrická rovnost vzdálenosti obou závodníků, nikoli mechanismus klapací brusle.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1089",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1089",
+        "point": "Ve sprintu se minutý terč trestá okruhem, zatímco v klasickém vytrvalostním biatlonovém závodě časovou přirážkou, takže formát mění cenu rizika.",
+        "tags": [
+          "sport",
+          "decision-making"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "382"
+      ],
+      "reason": "Odlišné následky střelecké chyby podle formátu, nikoli nepředvídatelnost smíšené volby při penaltě.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1090",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1090",
+        "point": "Zametání upravuje led před curlingovým kamenem a pomáhá řídit jeho dojezd i míru stáčení bez přímého doteku kamene.",
+        "tags": [
+          "sport",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1040"
+      ],
+      "reason": "Úprava třecího povrchu před pohybujícím se kamenem, nikoli snížení odporu vzduchu za cyklistou.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1091",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1091",
+        "point": "Desetibojař získává body za absolutní výkon v každé disciplíně podle nelineárních tabulek, nikoli za umístění mezi soupeři.",
+        "tags": [
+          "sport",
+          "mathematics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1070"
+      ],
+      "reason": "Převod nesouměřitelných měření na součet bodů, nikoli prostorová odměna za vzdálenou střelu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1092",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1092",
+        "point": "Gundersenova metoda převádí rozdíly skokanských bodů na časové rozestupy pro následný běh, takže cílové pořadí určí vítěze celé soutěže.",
+        "tags": [
+          "sport",
+          "information-theory"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1039"
+      ],
+      "reason": "Zakódování výsledku první části do startovního času druhé, nikoli měření cílového času kamerou.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1093",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1093",
+        "point": "Pružná tyč při skoku dočasně ukládá energii rozběhu a odrazu do ohybu a vrací ji při narovnání, zatímco závodník dál aktivně pracuje.",
+        "tags": [
+          "sport",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "Uložení a návrat pružné energie náčiním, nikoli technika přechodu výškařské laťky zády.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1094",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1094",
+        "point": "Lucky loser může po prohře v tenisové kvalifikaci obsadit uvolněné místo v hlavní soutěži podle pravidel pro náhradníky.",
+        "tags": [
+          "sport",
+          "institutions"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "412"
+      ],
+      "reason": "Podmíněné doplnění pavouku náhradníkem, nikoli rozhodování vyrovnaného setu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1095",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1095",
+        "point": "Bruslařská technika běhu na lyžích získává pohon šikmým odrazem z hrany a přenosem hmotnosti, takže nevyžaduje stoupací vosk jako klasický odraz.",
+        "tags": [
+          "sport",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "982",
+        "1071",
+        "411"
+      ],
+      "reason": "Šikmý odraz přes hranu, přenos hmotnosti a absence stoupacího vosku jsou mechanicky odlišné od návratu paží nad vodou u motýlku, aerodynamiky V-stylu i kloubu klapací brusle. Námět byl zúžen z institucionálního dělení technik, aby neopakoval pointu 982.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1096",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1096",
+        "point": "Metoda DLS upravuje cíl přerušeného kriketového zápasu podle kombinace zbývajících nadhozů a neztracených branek, nikoli jen poměrem času.",
+        "tags": [
+          "sport",
+          "algorithms",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "896"
+      ],
+      "reason": "Odhad zbývajícího bodovacího potenciálu při přerušení, nikoli algoritmus párování dárců.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1097",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1097",
+        "point": "Viditelný dotyk ramen klapky a krátký zvukový impulz dávají střihači společný bod pro synchronizaci odděleně pořízeného obrazu a zvuku.",
+        "tags": [
+          "film-technique",
+          "sound"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "404"
+      ],
+      "reason": "Sladění dvou původních záznamů, nikoli nové nahrání dialogu v postsynchronu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1098",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1098",
+        "point": "Analogová optická zvuková stopa kóduje signál změnami průsvitnosti či šířky pruhu na filmu a při projekci se snímá světlem a fotodetektorem.",
+        "tags": [
+          "film-technique",
+          "sound"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "149",
+        "460"
+      ],
+      "reason": "Fyzické kódování a snímání stopy na filmu, nikoli nástup mluveného filmu či potlačení šumu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1099",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1099",
+        "point": "Vynucená perspektiva využívá různé vzdálenosti a měřítka dekorací k tomu, aby herci běžné výšky působili v jednom záběru různě velcí.",
+        "tags": [
+          "film-technique",
+          "optics",
+          "perceived-reality"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "731",
+        "1032"
+      ],
+      "reason": "Iluze velikosti prostorovým umístěním před kamerou, nikoli změna ohniska při jízdě či namalovaná část scény.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1100",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1100",
+        "point": "Třípásový Technicolor pořizoval tři oddělené černobílé barevné výtažky, ze kterých se připravovaly matrice pro přenos barviv do výsledné kopie.",
+        "tags": [
+          "film-technique",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "456"
+      ],
+      "reason": "Fyzické oddělení barevných výtažků a přenos barviv, nikoli vypravěčská funkce přechodu ze sépie do barev v Čaroději ze země Oz.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1101",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1101",
+        "point": "Jump cut spojuje podobně rámované záběry s vynechaným úsekem děje, takže pohyb či poloha postavy viditelně poskočí.",
+        "tags": [
+          "film-technique",
+          "narratology"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "782",
+        "1065"
+      ],
+      "reason": "Záměrně viditelná časová elipsa v podobném obrazu, nikoli maskování střihu či přesah zvuku.",
+      "verdict": "accept"
+    }
+  ]
+}

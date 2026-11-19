@@ -1,0 +1,594 @@
+{
+  "snapshot": "c3e985a081fc23591928696df92e7381deb69d5601e02413d09fc88ce7094569",
+  "catalog_reviewed": "c3e985a081fc23591928696df92e7381deb69d5601e02413d09fc88ce7094569",
+  "proposals": [
+    {
+      "id": "1162",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1162",
+        "point": "Xenofanés kritizoval štědré pocty atletickým vítězům a poměřoval jejich výkon veřejným přínosem moudrosti.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "180",
+        "409"
+      ],
+      "reason": "180 rozebírá lidské zobrazování bohů. 409 vysvětluje vznik pravidel basketbalu. Nový text sleduje Xenofanovo měřítko veřejných zásluh.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1163",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1163",
+        "point": "Anaxagorás vysvětloval zdánlivý vznik látek změnou poměrů složek přítomných už v původní směsi.",
+        "tags": [
+          "ancient-philosophy",
+          "metaphysics"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "165",
+        "166",
+        "181",
+        "777"
+      ],
+      "reason": "165 popírá proměnu pravého jsoucna, 166 má čtyři stálé kořeny, 777 odvozuje proměnu z hustoty vzduchu a 181 vysvětluje povahu Slunce. Tady jsou v každé směsi zastoupeny různé druhy složek, jejichž zastoupení určuje její vlastnosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1164",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1164",
+        "point": "Filoláův kosmos přisoudil Zemi oběžnou dráhu kolem ústředního ohně odlišného od Slunce.",
+        "tags": [
+          "ancient-philosophy",
+          "cosmology"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "16",
+        "24",
+        "85"
+      ],
+      "reason": "16 sleduje číselné poměry a 24 tvar oběžné dráhy. 85 zavádí Slunce do středu soustavy. Filoláův model popisuje zvláštní středový oheň a pohyblivou Zemi v antickém kosmu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1165",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1165",
+        "point": "Hérakleitův obraz luku a lyry spojuje soudržnost celku s protisměrným napětím.",
+        "tags": [
+          "ancient-philosophy",
+          "metaphysics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "26",
+        "166"
+      ],
+      "reason": "26 sleduje proměnu na obrazu řeky a 166 mísení základních kořenů. Nový námět vysvětluje stabilitu celku vznikající díky protisměrnému napětí.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1166",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1166",
+        "point": "Platón líčí Sókratovo odmítnutí podílet se na zatčení Leóna pod vládou třiceti oligarchů.",
+        "tags": [
+          "socrates",
+          "ethics",
+          "ancient-athens"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "2",
+        "161",
+        "284",
+        "325"
+      ],
+      "reason": "2 studuje poslušnost v psychologickém experimentu, 161 úřednickou bezmyšlenkovitost, 284 trestní odpovědnost a 325 oplácení křivdy. Nové téma je konkrétní Sókratovo odmítnutí zadržet Leóna a jeho využití v obhajobě.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1167",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1167",
+        "point": "V Platónově Hostině Alkibiadés připisuje Sókratovi záchranu svého života při tažení u Poteidaie.",
+        "tags": [
+          "socrates",
+          "ancient-athens",
+          "military-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "27",
+        "66",
+        "542"
+      ],
+      "reason": "27 a 66 vykládají nevědomost a metodu otázek. 542 se týká fungování formace. Tady jde o Alkibiadovo konkrétní svědectví a ocenění za statečnost.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1168",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1168",
+        "point": "Sókratovo božské znamení má v Platónově Obranně zápornou funkci, protože ho od jednání zrazuje a samo mu žádné jednání nepřikazuje.",
+        "tags": [
+          "socrates",
+          "ancient-philosophy",
+          "decision-making"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "27",
+        "66",
+        "536"
+      ],
+      "reason": "27 a 66 popisují Sókratův postoj k vědění a jeho metodu. 536 řeší možnost vykládat výsledky delfských věšteb. Nový text popisuje osobní znamení, které Sókrata pouze odrazuje.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1169",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1169",
+        "point": "Aristofanovy Oblaky vytvořily komický obraz Sókrata jako badatele a učitele, který Platónův Sókratés u soudu připomíná mezi zdroji své pověsti.",
+        "tags": [
+          "socrates",
+          "ancient-athens",
+          "literature"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "27",
+        "66",
+        "385"
+      ],
+      "reason": "27 a 66 vykládají vlastní metodu a 385 obecně odlišuje historii od básnictví. Nový text porovnává konkrétní Aristofanovu jevištní karikaturu a Platónovu obhajobu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1170",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1170",
+        "point": "V randomizované studii LIFE program pohybu snížil výskyt nové neschopnosti ujít 400 metrů.",
+        "tags": [
+          "exercise",
+          "public-health"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "884"
+      ],
+      "reason": "884 měří glykemii po jídle u diabetu druhého typu. Studie LIFE sleduje několikaletý vývoj ztráty pohyblivosti podle testu chůze.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1171",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1171",
+        "point": "Ve studii ACHIEVE se příznivý kognitivní výsledek sluchové intervence objevil ve skupině s vyšším výchozím rizikem, nikoli v celém souboru.",
+        "tags": [
+          "medicine",
+          "neuroscience"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "802"
+      ],
+      "reason": "802 vykládá skladatelskou práci při ztrátě sluchu. ACHIEVE zkoumá odpověď kognitivních testů na sluchovou péči v různě ohrožených skupinách.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1172",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1172",
+        "point": "Analýza čtyř kohort našla souvislost mezi zanecháním kouření a nižší nadúmrtností i u lidí, kteří přestali v pozdějším věku.",
+        "tags": [
+          "public-health",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "369"
+      ],
+      "reason": "369 sleduje veřejnou debatu o pesticidech. Nový text používá kohortní data k posouzení zdravotního přínosu zanechání kouření v různém věku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1173",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1173",
+        "point": "Ve studii CALERIE se po omezení energetického příjmu změnil ukazatel DunedinPACE, což samo neprokazuje prodloužení života.",
+        "tags": [
+          "nutrition",
+          "genetics",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "376",
+        "510",
+        "886"
+      ],
+      "reason": "Tyto články sledují hmotnost, ochranu konců chromozomů a energetický příjem po delším spánku. CALERIE zde slouží k rozlišení změny biomarkeru od dosažené délky života.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1174",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1174",
+        "point": "Individuálně přizpůsobený domácí trénink síly a rovnováhy snížil počet pádů u žen od 80 let ve studii z Nového Zélandu.",
+        "tags": [
+          "exercise",
+          "public-health"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "884"
+      ],
+      "reason": "884 sleduje glykemii po chůzi. Nový článek zkoumá výskyt pádů u žen od 80 let po individuálním tréninku síly a rovnováhy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1175",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1175",
+        "point": "Sundbackův zip spojuje dvě řady tvarovaných zoubků jezdcem, který je k sobě postupně navádí.",
+        "tags": [
+          "innovation",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "389"
+      ],
+      "reason": "389 popisuje výrobu tvaru odléváním. Zde jde o opakované rozpojitelné zaklesnutí součástí v jezdci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1176",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1176",
+        "point": "Otisův bezpečnostní mechanismus využíval uvolnění tahu lana k záběru pojistek do ozubených vodítek.",
+        "tags": [
+          "innovation",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "23"
+      ],
+      "reason": "23 popisuje dvojici stejně velkých sil. Tento námět sleduje automatickou aktivaci zachycovacího mechanismu po odlehčení lana.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1177",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1177",
+        "point": "První komerční načtení standardního UPC v roce 1974 ukázalo, jak jednotný kód spojuje výrobek s údaji pokladního systému.",
+        "tags": [
+          "innovation",
+          "computing",
+          "organizations"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "117",
+        "230"
+      ],
+      "reason": "117 pojednává o propojení webových dokumentů a 230 o měření informace. Nový text se týká standardizovaného označení sortimentu a jeho prvního komerčního použití.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1178",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1178",
+        "point": "Disk IBM 350 systému RAMAC umožnil rychlý přímý přístup k jednotlivým záznamům, které by se na pásce hledaly postupným převíjením.",
+        "tags": [
+          "computer-history",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "147",
+        "428"
+      ],
+      "reason": "147 a 428 sledují způsoby programování a úzké hrdlo přenosu. Nový text vysvětluje přímý přístup úložné jednotky k záznamu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1179",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1179",
+        "point": "Volně otočná kulička v hrotu Bíróova pera přenáší inkoust ze zásobníku na papír.",
+        "tags": [
+          "innovation",
+          "mechanics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "269",
+        "1048"
+      ],
+      "reason": "269 sleduje šíření papíru a 1048 tisk z plochy. Nový text vysvětluje přenos inkoustu kuličkou z malého zásobníku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1180",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1180",
+        "point": "Traianus odmítl Pliniův návrh na hasičský sbor v Nikomédii z obavy, že se promění ve spolek prosazující vlastní zájmy.",
+        "tags": [
+          "roman-empire",
+          "organizations",
+          "power"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "530",
+        "528"
+      ],
+      "reason": "530 popisuje městské požáry v Římě a jeho vzniklý sbor, 528 zaběhlou komunikační síť. Tento článek zkoumá zamítnutí sdružení v provincii z politických důvodů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1181",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1181",
+        "point": "Traianův program alimenta ve Veleii financoval příspěvky na děti z úroků půjček zajištěných půdou.",
+        "tags": [
+          "roman-empire",
+          "finance",
+          "institutions"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "519",
+        "992"
+      ],
+      "reason": "519 řeší reformu držby římské půdy a 992 právní odměny za službu. Ve Veleii sloužila půda jako zajištění půjček, z jejichž úroku plynula podpora dětí.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1182",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1182",
+        "point": "Diokleciánův edikt o maximálních cenách stanovil vedle cen zboží také horní meze některých mezd a služeb.",
+        "tags": [
+          "roman-empire",
+          "law",
+          "economic-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "525",
+        "547"
+      ],
+      "reason": "525 sleduje zpřístupnění raného práva a 547 strukturu tetrarchie. Nový text čte dobový dokument jako doklad toho, které práce a služby Řím oceňoval a v jakých jednotkách.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1183",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1183",
+        "point": "Traianova vnitřní šestiúhelníková nádrž rozšířila přístavní komplex Portus o další místa pro vykládku a napojení na sklady.",
+        "tags": [
+          "roman-empire",
+          "architecture",
+          "economic-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "529",
+        "993"
+      ],
+      "reason": "529 vykládá odvodňování Říma; 993 odvozuje údaje o obchodu z vrstvené skládky. Portus popisuje konkrétní rozšíření přístavu a jeho geometrii.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1184",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1184",
+        "point": "Čtyři artikuly formulovaly společný husitský program zahrnující kázání, přijímání pod obojí, církevní majetek a veřejné hříchy.",
+        "tags": [
+          "medieval-history",
+          "political-philosophy",
+          "institutions"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "268"
+      ],
+      "reason": "268 zkoumá mravní vládnutí v Ašókových ediktech. Nový text rekonstruuje čtyři konkrétní požadavky společného husitského programu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1185",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1185",
+        "point": "Čáslavský sněm v roce 1421 odmítl Zikmundův nárok a svěřil dočasnou správu země dvacetičlennému sboru.",
+        "tags": [
+          "medieval-history",
+          "institutions",
+          "power"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "287",
+        "804"
+      ],
+      "reason": "287 řeší dělbu mocí v obecném uspořádání a 804 fungování islandského shromáždění. Čáslavský text se týká mimořádného sboru nahrazujícího výkon moci sporného krále.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1186",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1186",
+        "point": "Dohoda z Chebu roku 1432 stanovila přijatelné měřítko pro posouzení husitských požadavků při jednání s basilejským koncilem.",
+        "tags": [
+          "medieval-history",
+          "institutions",
+          "communication"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "482"
+      ],
+      "reason": "482 zkoumá suverenitu po vestfálském míru. Chebská dohoda určuje pramenné měřítko pro teologický spor ještě před jeho jednáním.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1187",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1187",
+        "point": "Vyhlášení kompaktát v Jihlavě roku 1436 umožnilo podmíněné přijímání pod obojí a završilo dlouhá jednání o soužití s církví.",
+        "tags": [
+          "medieval-history",
+          "institutions",
+          "law"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "482"
+      ],
+      "reason": "482 se týká státní suverenity, zatímco kompaktáta podmíněně uznávají konkrétní přijímací praxi. V dávce článek o artikulech zaznamenává původní požadavky a Cheb pravidla jednání.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1188",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1188",
+        "point": "Rochdalské družstvo rozdělovalo část přebytku podle hodnoty členských nákupů, takže odměna sledovala využívání družstva.",
+        "tags": [
+          "economic-history",
+          "cooperation",
+          "incentives"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "112",
+        "810"
+      ],
+      "reason": "112 a 810 sledují správu společných zdrojů a černé pasažérství. Zde je mechanismem rozdělení přebytku podle nákupů členů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1189",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1189",
+        "point": "Deklarace ze Seneca Falls převzala formu americké Deklarace nezávislosti, aby její zásadu rovnosti výslovně vztáhla na ženy.",
+        "tags": [
+          "modern-history",
+          "human-rights",
+          "writing-systems"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "261",
+        "359",
+        "364",
+        "491"
+      ],
+      "reason": "261 a 491 pokrývají volební reformy a aktivismus, 359 vzdělávání a 364 americkou nezávislost. Nový text vysvětluje přepsání ustavujícího politického dokumentu jako způsob odůvodnění práv.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1190",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1190",
+        "point": "Britský Factory Act z roku 1833 spojil omezení dětské práce ve vymezených textilkách se státní inspekcí.",
+        "tags": [
+          "modern-history",
+          "law",
+          "institutions"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "284",
+        "666"
+      ],
+      "reason": "284 posuzuje odpovědnost jednotlivců a 666 dohled ombudsmana nad správou. Tady jde o vznik státní inspekce vymezených továren za účelem kontroly dětské práce.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1191",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1191",
+        "point": "Florence Nightingaleová vymezila ošetřování jako péči o prostředí nemocného včetně větrání, světla a čistoty.",
+        "tags": [
+          "modern-history",
+          "public-health"
+        ],
+        "type": "practice"
+      },
+      "compared_ids": [
+        "205"
+      ],
+      "reason": "205 sleduje dezinfekci rukou a měřený pokles úmrtnosti porodnic. Nightingaleová staví úpravu pacientova prostředí do středu běžné práce pečující osoby.",
+      "verdict": "accept"
+    }
+  ]
+}

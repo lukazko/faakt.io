@@ -1,0 +1,1939 @@
+[
+  {
+    "id": "1007",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "591",
+          "idea": "idea-591",
+          "point": "Genette rozlišuje čas příběhu a vyprávění pomocí pořadí, trvání a četnosti popisovaných událostí.",
+          "type": "theory",
+          "tags": [
+            "narratology",
+            "communication",
+            "patterns"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "591"
+          ]
+        },
+        {
+          "id": "162",
+          "idea": "idea-162",
+          "point": "Odmocninu ze dvou nelze vyjádřit podílem dvou celých čísel, což lze ukázat sporem pomocí sudosti.",
+          "type": "principle",
+          "tags": [
+            "number-theory",
+            "logic",
+            "limits"
+          ],
+          "score": 4.527,
+          "same_idea": false,
+          "ids": [
+            "162"
+          ]
+        },
+        {
+          "id": "202",
+          "idea": "idea-202",
+          "point": "Rozpoznatelnost Velké čínské zdi z vesmíru omezuje její šířka a kontrast, nikoli samotná celková délka.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "geoscience",
+            "china",
+            "perceived-reality"
+          ],
+          "score": 4.527,
+          "same_idea": false,
+          "ids": [
+            "202"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1008",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "788",
+          "idea": "idea-788",
+          "point": "Dochování Beowulfa záviselo na přežití jediného středověkého rukopisu, který později poškodil požár.",
+          "type": "event",
+          "tags": [
+            "literature",
+            "preservation"
+          ],
+          "score": 10.584,
+          "same_idea": false,
+          "ids": [
+            "788"
+          ]
+        },
+        {
+          "id": "22",
+          "idea": "idea-22",
+          "point": "Rentgenová difrakční data Rosalind Franklinové pomohla odhalit strukturu DNA, ale její podíl byl dlouho podceňován.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "history-of-science",
+            "knowledge-evidence"
+          ],
+          "score": 4.362,
+          "same_idea": false,
+          "ids": [
+            "22"
+          ]
+        },
+        {
+          "id": "29",
+          "idea": "idea-29",
+          "point": "Rosettská deska se souběžnými texty umožnila rozluštění egyptských hieroglyfů.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "writing-systems",
+            "knowledge-evidence"
+          ],
+          "score": 4.362,
+          "same_idea": false,
+          "ids": [
+            "29",
+            "69",
+            "104"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1009",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "7",
+          "idea": "idea-7",
+          "point": "Pražská defenestrace roku 1618 zahájila konflikt, který se rozrostl ve třicetiletou válku.",
+          "type": "event",
+          "tags": [
+            "modern-history",
+            "military-history",
+            "power"
+          ],
+          "score": 3.217,
+          "same_idea": false,
+          "ids": [
+            "7"
+          ]
+        },
+        {
+          "id": "35",
+          "idea": "idea-35",
+          "point": "Athénská demokracie přiznávala politické rozhodování jen mužským občanům a vylučovala většinu obyvatel.",
+          "type": "principle",
+          "tags": [
+            "ancient-history",
+            "democracy",
+            "fairness",
+            "ancient-athens"
+          ],
+          "score": 3.217,
+          "same_idea": false,
+          "ids": [
+            "35"
+          ]
+        },
+        {
+          "id": "86",
+          "idea": "idea-86",
+          "point": "Stoické rozlišení vlastního úsudku od neovladatelných okolností hledá duševní klid v práci s vlastními reakcemi.",
+          "type": "theory",
+          "tags": [
+            "stoicism",
+            "freedom",
+            "resilience"
+          ],
+          "score": 3.217,
+          "same_idea": false,
+          "ids": [
+            "86",
+            "90"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1010",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "21",
+          "idea": "idea-21",
+          "point": "První výrazná informace nebo číslo ovlivňuje pozdější odhady i tehdy, když pro ně není dobrým vodítkem.",
+          "type": "principle",
+          "tags": [
+            "cognitive-biases",
+            "decision-making"
+          ],
+          "score": 8.393,
+          "same_idea": false,
+          "ids": [
+            "21"
+          ]
+        },
+        {
+          "id": "30",
+          "idea": "idea-30",
+          "point": "Nákladem volby je také hodnota nejlepší možnosti, které se kvůli ní vzdáme.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "decision-making",
+            "resources"
+          ],
+          "score": 8.393,
+          "same_idea": false,
+          "ids": [
+            "30"
+          ]
+        },
+        {
+          "id": "186",
+          "idea": "idea-186",
+          "point": "Rawlsův závoj nevědomosti vybírá pravidla společnosti bez znalosti vlastního budoucího postavení.",
+          "type": "theory",
+          "tags": [
+            "political-philosophy",
+            "fairness",
+            "decision-making"
+          ],
+          "score": 8.393,
+          "same_idea": false,
+          "ids": [
+            "186"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1011",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "2",
+          "idea": "idea-2",
+          "point": "Milgramův experiment ukázal, že autorita může přimět běžné lidi pokračovat v jednání, které ubližuje druhým.",
+          "type": "principle",
+          "tags": [
+            "social-psychology",
+            "power"
+          ],
+          "score": 3.069,
+          "same_idea": false,
+          "ids": [
+            "2",
+            "51",
+            "106"
+          ]
+        },
+        {
+          "id": "12",
+          "idea": "idea-12",
+          "point": "Heisenbergův princip omezuje současnou určitost polohy a hybnosti jako vlastnost kvantového stavu, nikoli chybu přístrojů.",
+          "type": "principle",
+          "tags": [
+            "quantum-physics",
+            "limits"
+          ],
+          "score": 3.069,
+          "same_idea": false,
+          "ids": [
+            "12",
+            "95"
+          ]
+        },
+        {
+          "id": "30",
+          "idea": "idea-30",
+          "point": "Nákladem volby je také hodnota nejlepší možnosti, které se kvůli ní vzdáme.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "decision-making",
+            "resources"
+          ],
+          "score": 3.069,
+          "same_idea": false,
+          "ids": [
+            "30"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1012",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "749",
+          "idea": "idea-749",
+          "point": "Pára vznikající pod kapkou na velmi horkém povrchu ji může dočasně izolovat a prodloužit její životnost.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "perceived-reality"
+          ],
+          "score": 8.819,
+          "same_idea": false,
+          "ids": [
+            "749"
+          ]
+        },
+        {
+          "id": "257",
+          "idea": "idea-257",
+          "point": "Toy Story využil možnosti i omezení rané počítačové animace prostřednictvím světa hraček.",
+          "type": "work",
+          "tags": [
+            "animation",
+            "computer-history",
+            "innovation"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "257"
+          ]
+        },
+        {
+          "id": "113",
+          "idea": "idea-113",
+          "point": "Marie Curieová získala Nobelovy ceny ve fyzice a chemii za výzkum radioaktivity a radioaktivních prvků.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "particle-physics",
+            "knowledge-evidence"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "113"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1013",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "211",
+          "idea": "idea-211",
+          "point": "Dvouštěrbinový pokus spojuje interferenci s dostupností informace o dráze částice.",
+          "type": "principle",
+          "tags": [
+            "quantum-physics",
+            "optics",
+            "knowledge-evidence"
+          ],
+          "score": 4.725,
+          "same_idea": false,
+          "ids": [
+            "211"
+          ]
+        },
+        {
+          "id": "228",
+          "idea": "idea-228",
+          "point": "Euler převedl královecké mosty na graf a rozhodl průchod podle počtu hran u jednotlivých vrcholů.",
+          "type": "discovery",
+          "tags": [
+            "combinatorics",
+            "algorithms",
+            "patterns"
+          ],
+          "score": 4.725,
+          "same_idea": false,
+          "ids": [
+            "228"
+          ]
+        },
+        {
+          "id": "309",
+          "idea": "idea-309",
+          "point": "Využití camery obscury u Vermeera je diskutovanou hypotézou, nikoli přímo doloženým vysvětlením všech jeho obrazů.",
+          "type": "open-question",
+          "tags": [
+            "painting",
+            "optics",
+            "knowledge-evidence"
+          ],
+          "score": 4.725,
+          "same_idea": false,
+          "ids": [
+            "309"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1014",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "249",
+          "idea": "idea-249",
+          "point": "Japonské ukiyo-e ovlivnilo evropské malíře kompozicí, plochou barvou a neobvyklými výřezy.",
+          "type": "event",
+          "tags": [
+            "painting",
+            "communication",
+            "change"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "249"
+          ]
+        },
+        {
+          "id": "737",
+          "idea": "idea-737",
+          "point": "Komenského Orbis pictus propojuje obraz a slovo při výuce a poznávání světa.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "learning-memory",
+            "innovation"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "737"
+          ]
+        },
+        {
+          "id": "372",
+          "idea": "idea-372",
+          "point": "Aditivní výroba skládá díl po vrstvách podle digitálního modelu, což umožňuje nové geometrie, ale nezaručuje stejné vlastnosti ve všech směrech.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "innovation"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "372"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1015",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "438",
+          "idea": "idea-438",
+          "point": "CAPTCHA využívá rozdílné schopnosti lidí a programů k omezování automatizovaného zneužití služeb.",
+          "type": "principle",
+          "tags": [
+            "computer-security",
+            "artificial-intelligence",
+            "limits"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "438"
+          ]
+        },
+        {
+          "id": "468",
+          "idea": "idea-468",
+          "point": "Banksyho skartování obrazu při aukci se samo proměnilo v součást uměleckého díla a jeho tržního příběhu.",
+          "type": "event",
+          "tags": [
+            "painting",
+            "finance",
+            "perceived-reality"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "468"
+          ]
+        },
+        {
+          "id": "626",
+          "idea": "idea-626",
+          "point": "Čekání na Godota staví lidské hledání smyslu a očekávání do situace bez slíbeného vyústění.",
+          "type": "work",
+          "tags": [
+            "literature",
+            "existentialism",
+            "uncertainty"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "626"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1016",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": []
+    }
+  },
+  {
+    "id": "1017",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "201",
+          "idea": "idea-201",
+          "point": "Erupce Krakatoy měla ničivé místní účinky a ovlivnila ovzduší i pozorování oblohy na vzdálených místech.",
+          "type": "event",
+          "tags": [
+            "geoscience",
+            "modern-history",
+            "change"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "201"
+          ]
+        },
+        {
+          "id": "384",
+          "idea": "idea-384",
+          "point": "Sutton Hoo uchovalo tvar raně středověké pohřební lodi v půdě a železných spojích, ale bohatá výbava sama neurčuje totožnost pohřbeného.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "medieval-history",
+            "knowledge-evidence"
+          ],
+          "score": 4.975,
+          "same_idea": false,
+          "ids": [
+            "384"
+          ]
+        },
+        {
+          "id": "691",
+          "idea": "idea-691",
+          "point": "Slizovka může bez centrálního mozku vytvářet účinné spojovací sítě pomocí lokálních procesů růstu a ústupu.",
+          "type": "principle",
+          "tags": [
+            "biology",
+            "algorithms",
+            "resources"
+          ],
+          "score": 4.975,
+          "same_idea": false,
+          "ids": [
+            "691"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1018",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "874",
+          "idea": "idea-874",
+          "point": "Caracallův edikt rozšířil římské občanství téměř na všechny svobodné obyvatele říše, nikoli na otroky.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "law",
+            "fairness",
+            "roman-empire"
+          ],
+          "score": 8.163,
+          "same_idea": false,
+          "ids": [
+            "874"
+          ]
+        },
+        {
+          "id": "902",
+          "idea": "idea-902",
+          "point": "Někteří mořští plži uchovávají chloroplasty pozřených řas funkční ve vlastních buňkách, aniž by tím přestali být živočichy.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "botany"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "902"
+          ]
+        },
+        {
+          "id": "962",
+          "idea": "idea-962",
+          "point": "Passkey váže podpis přihlašovací výzvy na doménu služby, takže napodobenina webu nemůže běžně využít její přihlašovací klíč.",
+          "type": "principle",
+          "tags": [
+            "computer-security",
+            "cryptography",
+            "privacy"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "962"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1019",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "931",
+          "idea": "idea-931",
+          "point": "Protiproud vody a krve v rybích žábrách udržuje podél výměnné plochy rozdíl umožňující přestup kyslíku do krve.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "resources"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "931"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1020",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "62",
+          "idea": "idea-62",
+          "point": "Růst entropie v izolované soustavě poskytuje fyzikální rozlišení směru běžných nevratných dějů.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "change"
+          ],
+          "score": 9.097,
+          "same_idea": false,
+          "ids": [
+            "62"
+          ]
+        },
+        {
+          "id": "136",
+          "idea": "idea-136",
+          "point": "Tepelná roztažnost mění délku kovových konstrukcí, takže se mění i výška Eiffelovy věže.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "materials",
+            "change"
+          ],
+          "score": 9.097,
+          "same_idea": false,
+          "ids": [
+            "136"
+          ]
+        },
+        {
+          "id": "216",
+          "idea": "idea-216",
+          "point": "Absolutní nuly nelze dosáhnout konečnou posloupností běžných chladicích kroků.",
+          "type": "principle",
+          "tags": [
+            "thermodynamics",
+            "limits"
+          ],
+          "score": 9.097,
+          "same_idea": false,
+          "ids": [
+            "216"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1021",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "203",
+          "idea": "idea-203",
+          "point": "Velká část uhlíku v rostoucím stromu pochází z oxidu uhličitého ve vzduchu, nikoli přímo z půdy.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "chemistry",
+            "resources"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "203"
+          ]
+        },
+        {
+          "id": "716",
+          "idea": "idea-716",
+          "point": "Millerův–Ureyho pokus ukázal, že některé organické stavební látky mohou vznikat z jednodušších látek bez živých organismů.",
+          "type": "discovery",
+          "tags": [
+            "chemistry",
+            "evolution",
+            "knowledge-evidence"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "716"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1022",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "825",
+          "idea": "idea-825",
+          "point": "Molekuly mýdla propojují vodomilnou a tukomilnou část a umožňují odnést mastnotu ve strukturách rozpustných ve vodním prostředí.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "public-health",
+            "resources"
+          ],
+          "score": 9.942,
+          "same_idea": false,
+          "ids": [
+            "825"
+          ]
+        },
+        {
+          "id": "26",
+          "idea": "idea-26",
+          "point": "Hérakleitův obraz řeky chápe svět jako nepřetržitou proměnu, v níž nelze zachovat úplně stejný stav.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "change"
+          ],
+          "score": 3.719,
+          "same_idea": false,
+          "ids": [
+            "26",
+            "67",
+            "98"
+          ]
+        },
+        {
+          "id": "38",
+          "idea": "idea-38",
+          "point": "Vztlaková síla odpovídá tíze vytlačené kapaliny a umožňuje porovnávat objem a hustotu těles.",
+          "type": "principle",
+          "tags": [
+            "mechanics",
+            "resources",
+            "archimedes"
+          ],
+          "score": 3.719,
+          "same_idea": false,
+          "ids": [
+            "38",
+            "110"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1023",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "824",
+          "idea": "idea-824",
+          "point": "Pyrolýza rozkládá organický materiál teplem při omezeném přístupu kyslíku místo běžného plného hoření.",
+          "type": "principle",
+          "tags": [
+            "chemistry",
+            "thermodynamics",
+            "change"
+          ],
+          "score": 8.748,
+          "same_idea": false,
+          "ids": [
+            "824"
+          ]
+        },
+        {
+          "id": "1003",
+          "idea": "idea-1003",
+          "point": "Polarizační brýle potlačují odlesky výběrem směru kmitání elektrického pole, protože odražené světlo bývá částečně polarizované.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "perception"
+          ],
+          "score": 8.748,
+          "same_idea": false,
+          "ids": [
+            "1003"
+          ]
+        },
+        {
+          "id": "397",
+          "idea": "idea-397",
+          "point": "Proměnlivé slapové deformace Io při oběhu v gravitačně vázané soustavě Jupiterových měsíců přeměňují mechanickou energii na teplo pohánějící vulkanismus.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "mechanics",
+            "jupiter"
+          ],
+          "score": 7.314,
+          "same_idea": false,
+          "ids": [
+            "397"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1024",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "115",
+          "idea": "idea-115",
+          "point": "Apollo 11 uskutečnilo první přistání lidí na Měsíci a návrat posádky na Zemi.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "innovation",
+            "moon"
+          ],
+          "score": 9.157,
+          "same_idea": false,
+          "ids": [
+            "115"
+          ]
+        },
+        {
+          "id": "292",
+          "idea": "idea-292",
+          "point": "Slapové působení přenáší část rotačního momentu Země do měsíční dráhy a Měsíc se postupně vzdaluje.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "mechanics",
+            "change",
+            "moon"
+          ],
+          "score": 9.157,
+          "same_idea": false,
+          "ids": [
+            "292"
+          ]
+        },
+        {
+          "id": "578",
+          "idea": "idea-578",
+          "point": "Cyklus saros přibližně opakuje geometrii zatmění díky sladění několika měsíčních period.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "patterns",
+            "moon"
+          ],
+          "score": 9.157,
+          "same_idea": false,
+          "ids": [
+            "578"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1025",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "288",
+          "idea": "idea-288",
+          "point": "Řízený zánik sondy Cassini měl zabránit pozdější kontaminaci prostředí Saturnových měsíců.",
+          "type": "event",
+          "tags": [
+            "spaceflight",
+            "ecology",
+            "saturn"
+          ],
+          "score": 14.501,
+          "same_idea": false,
+          "ids": [
+            "288"
+          ]
+        },
+        {
+          "id": "915",
+          "idea": "idea-915",
+          "point": "Výtrysky Enceladu vynášejí materiál podpovrchového oceánu nad ledovou kůru a umožnily jeho zkoumání průlety sondy.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "saturn",
+            "knowledge-evidence"
+          ],
+          "score": 13.367,
+          "same_idea": false,
+          "ids": [
+            "915"
+          ]
+        },
+        {
+          "id": "580",
+          "idea": "idea-580",
+          "point": "Titan má povrchové kapalné uhlovodíky a metanový cyklus připomínající v jiné chemii pozemský oběh vody.",
+          "type": "discovery",
+          "tags": [
+            "solar-system",
+            "chemistry",
+            "saturn"
+          ],
+          "score": 9.975,
+          "same_idea": false,
+          "ids": [
+            "580"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1026",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "289",
+          "idea": "idea-289",
+          "point": "Ingenuity předvedla řízený motorový let v řídké atmosféře jiné planety.",
+          "type": "discovery",
+          "tags": [
+            "spaceflight",
+            "mechanics",
+            "innovation",
+            "mars"
+          ],
+          "score": 10.818,
+          "same_idea": false,
+          "ids": [
+            "289"
+          ]
+        },
+        {
+          "id": "577",
+          "idea": "idea-577",
+          "point": "Směr kometárních ohonů určují především účinky Slunce, nikoli prosté zaostávání za pohybující se kometou.",
+          "type": "principle",
+          "tags": [
+            "solar-system",
+            "electromagnetism",
+            "sun"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "577"
+          ]
+        },
+        {
+          "id": "74",
+          "idea": "idea-24",
+          "point": "Kepler nahradil přesné kruhové dráhy planet elipsami a popsal jejich pohyb třemi zákony.",
+          "type": "discovery",
+          "tags": [
+            "astronomy",
+            "history-of-science",
+            "patterns"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "24",
+            "74"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1027",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "475",
+          "idea": "idea-475",
+          "point": "Lafferova křivka rozlišuje výši daňové sazby od celkového výnosu a nepředepisuje univerzální optimální sazbu.",
+          "type": "theory",
+          "tags": [
+            "macroeconomics",
+            "incentives",
+            "resources"
+          ],
+          "score": 11.063,
+          "same_idea": false,
+          "ids": [
+            "475"
+          ]
+        },
+        {
+          "id": "449",
+          "idea": "idea-449",
+          "point": "Mucholapka reaguje na více doteků v určitém časovém okně a tím omezuje zbytečné zavírání pasti.",
+          "type": "principle",
+          "tags": [
+            "botany",
+            "neuroscience",
+            "decision-making"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "449"
+          ]
+        },
+        {
+          "id": "400",
+          "idea": "idea-400",
+          "point": "Měnové trilema říká, že nelze současně plně udržovat pevný kurz, volný pohyb kapitálu a nezávislou měnovou politiku.",
+          "type": "theory",
+          "tags": [
+            "macroeconomics",
+            "finance",
+            "limits"
+          ],
+          "score": 5.531,
+          "same_idea": false,
+          "ids": [
+            "400"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1028",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "8",
+          "idea": "idea-8",
+          "point": "Smithova neviditelná ruka vysvětluje, jak může sledování vlastního zájmu za určitých podmínek přispět ke společnému prospěchu.",
+          "type": "theory",
+          "tags": [
+            "microeconomics",
+            "cooperation",
+            "adam-smith"
+          ],
+          "score": 8.45,
+          "same_idea": false,
+          "ids": [
+            "8",
+            "50",
+            "105"
+          ]
+        },
+        {
+          "id": "30",
+          "idea": "idea-30",
+          "point": "Nákladem volby je také hodnota nejlepší možnosti, které se kvůli ní vzdáme.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "decision-making",
+            "resources"
+          ],
+          "score": 8.45,
+          "same_idea": false,
+          "ids": [
+            "30"
+          ]
+        },
+        {
+          "id": "92",
+          "idea": "idea-92",
+          "point": "Obchod může prospívat oběma stranám, když se specializují podle relativních nákladů i při rozdílné celkové výkonnosti.",
+          "type": "principle",
+          "tags": [
+            "microeconomics",
+            "cooperation",
+            "resources"
+          ],
+          "score": 8.45,
+          "same_idea": false,
+          "ids": [
+            "92"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1029",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "401",
+          "idea": "idea-401",
+          "point": "Krátké přerušení mezi verzemi scény může skrýt i velkou změnu potlačením místních pohybových vodítek; cílená pozornost její rozpoznání usnadňuje.",
+          "type": "discovery",
+          "tags": [
+            "perception",
+            "knowledge-evidence"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "401"
+          ]
+        },
+        {
+          "id": "58",
+          "idea": "idea-18",
+          "point": "Wu wei doporučuje jednat v souladu s povahou situace bez násilného vynucování výsledku.",
+          "type": "theory",
+          "tags": [
+            "taoism",
+            "resilience",
+            "laozi"
+          ],
+          "score": 5.531,
+          "same_idea": false,
+          "ids": [
+            "18",
+            "58",
+            "99"
+          ]
+        },
+        {
+          "id": "751",
+          "idea": "idea-751",
+          "point": "Pauli navrhl neutrino jako tehdy nepozorovanou částici, aby zachoval fyzikální bilanci při beta rozpadu.",
+          "type": "theory",
+          "tags": [
+            "particle-physics",
+            "knowledge-evidence"
+          ],
+          "score": 5.531,
+          "same_idea": false,
+          "ids": [
+            "751"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1030",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "962",
+          "idea": "idea-962",
+          "point": "Passkey váže podpis přihlašovací výzvy na doménu služby, takže napodobenina webu nemůže běžně využít její přihlašovací klíč.",
+          "type": "principle",
+          "tags": [
+            "computer-security",
+            "cryptography",
+            "privacy"
+          ],
+          "score": 8.377,
+          "same_idea": false,
+          "ids": [
+            "962"
+          ]
+        },
+        {
+          "id": "164",
+          "idea": "idea-164",
+          "point": "Anaximandrovo apeiron chápe původ věcí jako neurčený základ přesahující jednotlivé známé látky.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "metaphysics",
+            "patterns"
+          ],
+          "score": 4.22,
+          "same_idea": false,
+          "ids": [
+            "164"
+          ]
+        },
+        {
+          "id": "204",
+          "idea": "idea-204",
+          "point": "Endosymbiotická teorie vysvětluje mitochondrie a chloroplasty jako potomky dříve samostatných mikroorganismů.",
+          "type": "theory",
+          "tags": [
+            "evolution",
+            "genetics",
+            "cooperation"
+          ],
+          "score": 4.22,
+          "same_idea": false,
+          "ids": [
+            "204"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1031",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "827",
+          "idea": "idea-827",
+          "point": "Muybridgeovy sekvenční fotografie rozlišily fáze koňského pohybu, které běžné lidské pozorování spolehlivě nerozezná.",
+          "type": "discovery",
+          "tags": [
+            "cinema",
+            "zoology",
+            "knowledge-evidence"
+          ],
+          "score": 17.038,
+          "same_idea": false,
+          "ids": [
+            "827"
+          ]
+        },
+        {
+          "id": "457",
+          "idea": "idea-457",
+          "point": "Stereoskopický film vytváří dojem hloubky tím, že každému oku předkládá odlišný obrazový pohled.",
+          "type": "principle",
+          "tags": [
+            "optics",
+            "cinema",
+            "perception"
+          ],
+          "score": 12.417,
+          "same_idea": false,
+          "ids": [
+            "457"
+          ]
+        },
+        {
+          "id": "681",
+          "idea": "idea-681",
+          "point": "Veřejná promítání bratří Lumièrů pomohla vytvořit kino jako kolektivní způsob sledování pohyblivého obrazu.",
+          "type": "event",
+          "tags": [
+            "cinema",
+            "modern-history",
+            "innovation"
+          ],
+          "score": 12.417,
+          "same_idea": false,
+          "ids": [
+            "681"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1032",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "242",
+          "idea": "idea-242",
+          "point": "Paměť je rekonstruktivní a pozdější informace či formulace otázky mohou změnit výpověď o původní události.",
+          "type": "principle",
+          "tags": [
+            "learning-memory",
+            "knowledge-evidence"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "242"
+          ]
+        },
+        {
+          "id": "396",
+          "idea": "idea-396",
+          "point": "Běžné okenní sklo je za pokojové teploty amorfní pevná látka a nerovnoměrná tloušťka historických tabulí nedokládá jejich stékání během staletí.",
+          "type": "principle",
+          "tags": [
+            "materials",
+            "chemistry",
+            "knowledge-evidence"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "396"
+          ]
+        },
+        {
+          "id": "791",
+          "idea": "idea-791",
+          "point": "Rychlý úder strašíka vyvolává kavitaci, jejíž kolaps zesiluje účinek útoku na kořist.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "mechanics",
+            "limits"
+          ],
+          "score": 5.309,
+          "same_idea": false,
+          "ids": [
+            "791"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1033",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "228",
+          "idea": "idea-228",
+          "point": "Euler převedl královecké mosty na graf a rozhodl průchod podle počtu hran u jednotlivých vrcholů.",
+          "type": "discovery",
+          "tags": [
+            "combinatorics",
+            "algorithms",
+            "patterns"
+          ],
+          "score": 15.857,
+          "same_idea": false,
+          "ids": [
+            "228"
+          ]
+        },
+        {
+          "id": "771",
+          "idea": "idea-771",
+          "point": "Plótínova emanace popisuje závislost mnohosti skutečnosti na jednotném prvním principu.",
+          "type": "theory",
+          "tags": [
+            "metaphysics",
+            "ancient-philosophy",
+            "patterns"
+          ],
+          "score": 9.53,
+          "same_idea": false,
+          "ids": [
+            "771"
+          ]
+        },
+        {
+          "id": "223",
+          "idea": "idea-223",
+          "point": "Eulerova identita propojuje exponenciálu, komplexní čísla a základní matematické konstanty jediným vztahem.",
+          "type": "principle",
+          "tags": [
+            "analysis",
+            "number-theory",
+            "patterns"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "223"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1034",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "405",
+          "idea": "idea-405",
+          "point": "Buffonova jehla protíná rovnoběžné čáry s pravděpodobností 2l/(pí·d) pro l nejvýše d při rovnoměrné nezávislé poloze a orientaci, což umožňuje odhad pí.",
+          "type": "principle",
+          "tags": [
+            "probability",
+            "geometry",
+            "patterns"
+          ],
+          "score": 8.577,
+          "same_idea": false,
+          "ids": [
+            "405"
+          ]
+        },
+        {
+          "id": "328",
+          "idea": "idea-328",
+          "point": "Russellova teorie deskripcí rozkládá určitý popis na existenci, jedinečnost a vlastnost, takže věta nemusí odkazovat na neexistující předmět.",
+          "type": "theory",
+          "tags": [
+            "philosophy-of-language",
+            "logic",
+            "knowledge-evidence"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "328"
+          ]
+        },
+        {
+          "id": "425",
+          "idea": "idea-425",
+          "point": "Obecné a vágní popisy osobnosti mohou lidé pokládat za překvapivě přesné osobní charakteristiky.",
+          "type": "principle",
+          "tags": [
+            "cognitive-biases",
+            "identity",
+            "knowledge-evidence"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "425"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1035",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "792",
+          "idea": "idea-792",
+          "point": "Bombardovací brouk se brání prudkou řízenou chemickou reakcí vytvářející horký vystřikovaný obsah.",
+          "type": "principle",
+          "tags": [
+            "zoology",
+            "chemistry",
+            "resilience"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "792"
+          ]
+        },
+        {
+          "id": "76",
+          "idea": "idea-76",
+          "point": "Zenónův Achilles ukazuje zdánlivý rozpor mezi nekonečným dělením dráhy a možností dokončit pohyb.",
+          "type": "theory",
+          "tags": [
+            "ancient-philosophy",
+            "analysis",
+            "limits"
+          ],
+          "score": 4.842,
+          "same_idea": false,
+          "ids": [
+            "76"
+          ]
+        },
+        {
+          "id": "149",
+          "idea": "idea-149",
+          "point": "Jazzový zpěvák se stal mezníkem nástupu synchronizované mluvené a zpívané složky v komerčním filmu.",
+          "type": "event",
+          "tags": [
+            "sound",
+            "change"
+          ],
+          "score": 4.842,
+          "same_idea": false,
+          "ids": [
+            "149"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1036",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "906",
+          "idea": "idea-906",
+          "point": "Whitereadové Ghost převádí dutinu obytného pokoje do hmotného odlitku s otisky vnitřních ploch obrácenými ven.",
+          "type": "work",
+          "tags": [
+            "sculpture",
+            "perceived-reality"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "906"
+          ]
+        },
+        {
+          "id": "199",
+          "idea": "idea-199",
+          "point": "Úpadek alexandrijské knihovny byl postupný a nelze jej spolehlivě shrnout jediným slavným požárem.",
+          "type": "event",
+          "tags": [
+            "ancient-history",
+            "preservation",
+            "knowledge-evidence"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "199"
+          ]
+        },
+        {
+          "id": "225",
+          "idea": "idea-225",
+          "point": "Möbiova páska má jedinou souvislou stranu a hranu díky spojení pásu s půlotáčkou.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "perceived-reality"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "225"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1037",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "887",
+          "idea": "idea-887",
+          "point": "Výsledek z roku 2025 překonal klasickou mez hledání nejkratších cest tím, že úloha nevyžaduje úplné seřazení všech vzdáleností.",
+          "type": "discovery",
+          "tags": [
+            "complexity",
+            "innovation"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "887"
+          ]
+        },
+        {
+          "id": "370",
+          "idea": "idea-370",
+          "point": "Federované učení sdružuje lokální aktualizace modelu místo centrálního sběru tréninkových dat, ale samotné toto uspořádání nezaručuje úplné soukromí.",
+          "type": "principle",
+          "tags": [
+            "artificial-intelligence",
+            "privacy"
+          ],
+          "score": 5.531,
+          "same_idea": false,
+          "ids": [
+            "370"
+          ]
+        },
+        {
+          "id": "408",
+          "idea": "idea-408",
+          "point": "Dvoufázové potvrzení odděluje přípravu všech účastníků od konečného rozhodnutí o transakci, ale při poruše může ponechat připravené účastníky čekat se zámky.",
+          "type": "principle",
+          "tags": [
+            "programming",
+            "networks",
+            "cooperation"
+          ],
+          "score": 5.531,
+          "same_idea": false,
+          "ids": [
+            "408"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1038",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "15",
+          "idea": "idea-15",
+          "point": "Max Brod neuposlechl Kafkovo přání zničit rukopisy, a zachoval tak mimo jiné román Proces.",
+          "type": "event",
+          "tags": [
+            "literature",
+            "preservation",
+            "kafka"
+          ],
+          "score": 4.041,
+          "same_idea": false,
+          "ids": [
+            "15",
+            "25",
+            "45"
+          ]
+        },
+        {
+          "id": "197",
+          "idea": "idea-197",
+          "point": "Göbekli Tepe zpochybnilo jednoduchou představu, že monumentální svatyně musely vzniknout až po rozvoji zemědělství.",
+          "type": "discovery",
+          "tags": [
+            "archaeology",
+            "change",
+            "knowledge-evidence"
+          ],
+          "score": 4.041,
+          "same_idea": false,
+          "ids": [
+            "197"
+          ]
+        },
+        {
+          "id": "277",
+          "idea": "idea-277",
+          "point": "Nejvyšší vrchol závisí na zvoleném měřítku: vzdálenost od středu Země dává jiné pořadí než výška nad mořem.",
+          "type": "principle",
+          "tags": [
+            "geoscience",
+            "geometry",
+            "perceived-reality"
+          ],
+          "score": 4.041,
+          "same_idea": false,
+          "ids": [
+            "277"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1039",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "892",
+          "idea": "idea-892",
+          "point": "Pravidlo osy zachovává při střihu prostorovou orientaci postav a směr pohledů tím, že kamera zůstává na stejné straně děje.",
+          "type": "principle",
+          "tags": [
+            "film-technique",
+            "geometry",
+            "perception"
+          ],
+          "score": 9.893,
+          "same_idea": false,
+          "ids": [
+            "892"
+          ]
+        },
+        {
+          "id": "379",
+          "idea": "idea-379",
+          "point": "Maraton olympiády 1904 zahrnoval Lorzovu jízdu autem a Hicksovo nebezpečné povzbuzování, což odhaluje proměnlivost tehdejších soutěžních standardů.",
+          "type": "event",
+          "tags": [
+            "sport",
+            "modern-history",
+            "fairness"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "379"
+          ]
+        },
+        {
+          "id": "225",
+          "idea": "idea-225",
+          "point": "Möbiova páska má jedinou souvislou stranu a hranu díky spojení pásu s půlotáčkou.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "perceived-reality"
+          ],
+          "score": 5.531,
+          "same_idea": false,
+          "ids": [
+            "225"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1040",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "18",
+          "idea": "idea-18",
+          "point": "Wu wei doporučuje jednat v souladu s povahou situace bez násilného vynucování výsledku.",
+          "type": "theory",
+          "tags": [
+            "taoism",
+            "resilience",
+            "laozi"
+          ],
+          "score": 4.289,
+          "same_idea": false,
+          "ids": [
+            "18",
+            "58",
+            "99"
+          ]
+        },
+        {
+          "id": "154",
+          "idea": "idea-154",
+          "point": "Ochladíme-li rtuť pod kritickou teplotu, elektrický odpor přejde do supravodivého stavu.",
+          "type": "discovery",
+          "tags": [
+            "materials",
+            "quantum-physics",
+            "limits"
+          ],
+          "score": 4.289,
+          "same_idea": false,
+          "ids": [
+            "154"
+          ]
+        },
+        {
+          "id": "267",
+          "idea": "idea-267",
+          "point": "Sun-c’ považuje podrobení protivníka bez vyčerpávajícího boje za vyšší strategický úspěch než samotné vítězství v bitvě.",
+          "type": "theory",
+          "tags": [
+            "asian-philosophy",
+            "military-history",
+            "resources",
+            "china"
+          ],
+          "score": 4.289,
+          "same_idea": false,
+          "ids": [
+            "267"
+          ]
+        }
+      ]
+    }
+  },
+  {
+    "id": "1041",
+    "results": {
+      "snapshot": "f0c60951330b0a5f53dd52bee54030fa198d9545f7464c9fa1ad86843f488478",
+      "searched_records": 1006,
+      "warning": "Candidate ranking, not a semantic originality verdict",
+      "results": [
+        {
+          "id": "382",
+          "idea": "idea-382",
+          "point": "Smíšená strategie při penaltě záměrně střídá volby s vhodnými pravděpodobnostmi, aby soupeř nemohl využít předvídatelný vzorec.",
+          "type": "theory",
+          "tags": [
+            "sport",
+            "game-theory",
+            "uncertainty"
+          ],
+          "score": 6.223,
+          "same_idea": false,
+          "ids": [
+            "382"
+          ]
+        },
+        {
+          "id": "209",
+          "idea": "idea-209",
+          "point": "CRISPR využívá mechanismus bakteriální obrany k cíleným zásahům do genetické informace.",
+          "type": "discovery",
+          "tags": [
+            "genetics",
+            "microbiology",
+            "innovation"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "209"
+          ]
+        },
+        {
+          "id": "225",
+          "idea": "idea-225",
+          "point": "Möbiova páska má jedinou souvislou stranu a hranu díky spojení pásu s půlotáčkou.",
+          "type": "principle",
+          "tags": [
+            "geometry",
+            "perceived-reality"
+          ],
+          "score": 5.818,
+          "same_idea": false,
+          "ids": [
+            "225"
+          ]
+        }
+      ]
+    }
+  }
+]

@@ -1,0 +1,703 @@
+{
+  "base": "http://127.0.0.1:5188/faakt.io/",
+  "rows": [
+    {
+      "id": "1132",
+      "title": "Světlo, které se rozsvítí zlomením tyčinky",
+      "src": "/faakt.io/illustrations-ai/1132.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 174.921875,
+          "bottom": 354.328125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99461805555552,
+        "alphaBottom": 262,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/exhibition-chemistry/the-glow-stick-reaction/3010386.article",
+        "https://www.acs.org/education/activities/chemistry-that-glows.html"
+      ]
+    },
+    {
+      "id": "1133",
+      "title": "Roztržení vazby samo o sobě energii neuvolní",
+      "src": "/faakt.io/illustrations-ai/1133.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.4765625,
+        "alphaBottom": 345,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/7-5-strengths-of-ionic-and-covalent-bonds",
+        "https://chem.libretexts.org/Bookshelves/Organic_Chemistry/Intermediate_Physical_Organic_(Morsch)/04%3A_Reagents_and_Reaction_Mechanisms/4.04%3A_Bond_Breaking_and_Bond_Formation"
+      ]
+    },
+    {
+      "id": "1134",
+      "title": "Polární vazby ještě nedělají polární molekulu",
+      "src": "/faakt.io/illustrations-ai/1134.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 201.8359375,
+          "bottom": 381.2578125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984027777777783,
+        "alphaBottom": 316,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/7-6-molecular-structure-and-polarity",
+        "https://openstax.org/books/chemistry-2e/pages/7-2-covalent-bonding"
+      ]
+    },
+    {
+      "id": "1135",
+      "title": "Mol je chemikův způsob počítání částic",
+      "src": "/faakt.io/illustrations-ai/1135.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 20.47968750000001,
+        "alphaBottom": 347,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.bipm.org/en/si-base-units/mole",
+        "https://openstax.org/books/chemistry-2e/pages/3-1-formula-mass-and-the-mole-concept"
+      ]
+    },
+    {
+      "id": "1136",
+      "title": "Těžší uhlík zůstává uhlíkem",
+      "src": "/faakt.io/illustrations-ai/1136.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 181.4296875,
+          "bottom": 360.8515625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984461805555554,
+        "alphaBottom": 326,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.energy.gov/science/doe-explainsisotopes",
+        "https://openstax.org/books/chemistry-2e/pages/2-3-atomic-structure-and-symbolism"
+      ]
+    },
+    {
+      "id": "1137",
+      "title": "Krystal soli má náboje, ale proud jím snadno neprojde",
+      "src": "/faakt.io/illustrations-ai/1137.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 196.859375,
+          "bottom": 376.265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98906249999999,
+        "alphaBottom": 306,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/10-5-the-solid-state-of-matter",
+        "https://openstax.org/books/chemistry-2e/pages/11-2-electrolytes"
+      ]
+    },
+    {
+      "id": "1138",
+      "title": "Reakci může zastavit látka, které je příliš málo",
+      "src": "/faakt.io/illustrations-ai/1138.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/4-4-reaction-yields",
+        "https://openstax.org/books/chemistry-2e/pages/4-3-reaction-stoichiometry"
+      ]
+    },
+    {
+      "id": "1139",
+      "title": "Rovnovážná reakce se nezastavila",
+      "src": "/faakt.io/illustrations-ai/1139.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 184.9140625,
+          "bottom": 364.3359375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995703124999977,
+        "alphaBottom": 333,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/13-1-chemical-equilibria",
+        "https://openstax.org/books/chemistry-2e/pages/13-2-equilibrium-constants"
+      ]
+    },
+    {
+      "id": "1140",
+      "title": "Silná kyselina může být velmi zředěná",
+      "src": "/faakt.io/illustrations-ai/1140.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 210.8046875,
+          "bottom": 390.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99730902777776,
+        "alphaBottom": 334,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/resources/chemical-misconceptions-ii-acid-strength/1105.article",
+        "https://openstax.org/books/chemistry-2e/pages/14-3-relative-strengths-of-acids-and-bases"
+      ]
+    },
+    {
+      "id": "1141",
+      "title": "Dvě kapaliny mohou po smíchání zabrat méně místa",
+      "src": "/faakt.io/illustrations-ai/1141.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 23.470312499999977,
+        "alphaBottom": 341,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://chem.libretexts.org/Courses/University_of_California_Davis/UCDemos/Change_in_Volume_H-Bonding_(Ethanol_and_Water)",
+        "https://edu.rsc.org/download?ac=12032"
+      ]
+    },
+    {
+      "id": "1142",
+      "title": "Proč se jídlo k teflonu tak obtížně přichytí",
+      "src": "/faakt.io/illustrations-ai/1142.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 23.96875,
+        "alphaBottom": 340,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.3m.com/3M/en_US/bonding-and-assembly-us/resources/science-of-adhesion/categorizing-surface-energy/",
+        "https://www.acs.org/content/dam/acsorg/education/resources/highschool/chemmatters/documents/2026-february-tg.pdf",
+        "https://www.teflon.com/en/products/coatings/primers-thinners"
+      ]
+    },
+    {
+      "id": "1143",
+      "title": "Roztok změní barvu až po chemickém odpočítávání",
+      "src": "/faakt.io/illustrations-ai/1143.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 208.8125,
+          "bottom": 388.25
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 330,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://edu.rsc.org/experiments/iodine-clock-reaction-demonstration-method/744.article",
+        "https://iu.pressbooks.pub/iuegenchemlabs/chapter/kinetics-of-the-iodine-clock-reaction/"
+      ]
+    },
+    {
+      "id": "1144",
+      "title": "Král je v bezpečí, a přesto partie končí",
+      "src": "/faakt.io/illustrations-ai/1144.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.3046875,
+          "bottom": 391.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98650173611111,
+        "alphaBottom": 337,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://handbook.fide.com/chapter/E012023",
+        "https://www.chess.com/terms/stalemate-chess"
+      ]
+    },
+    {
+      "id": "1145",
+      "title": "Pěšec může sebrat figuru z vedlejšího pole",
+      "src": "/faakt.io/illustrations-ai/1145.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 198.84457397460938,
+          "bottom": 378.2508239746094
+        },
+        "frameGap": 14,
+        "visibleGap": 18.996485053168385,
+        "alphaBottom": 311,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://handbook.fide.com/chapter/E012023",
+        "https://www.chess.com/terms/en-passant"
+      ]
+    },
+    {
+      "id": "1146",
+      "title": "V baseballu někdy stačí dotknout se mety",
+      "src": "/faakt.io/illustrations-ai/1146.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 211.8046875,
+          "bottom": 391.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984895833333326,
+        "alphaBottom": 336,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.mlb.com/glossary/rules/force-play",
+        "https://mktg.mlbstatic.com/mlb/official-information/2026-official-baseball-rules.pdf"
+      ]
+    },
+    {
+      "id": "1147",
+      "title": "Dotyk sítě nemusí tenisové podání zkazit",
+      "src": "/faakt.io/illustrations-ai/1147.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 190.3671875,
+          "bottom": 369.7890625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99396701388889,
+        "alphaBottom": 293,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.itftennis.com/media/7221/2026-rules-of-tennis-english.pdf",
+        "https://www.usta.com/en/home/improve/tips-and-instruction/national/tennis-serving-rules.html"
+      ]
+    },
+    {
+      "id": "1148",
+      "title": "V badmintonu vybírá podací pole vlastní skóre",
+      "src": "/faakt.io/illustrations-ai/1148.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 211.296875,
+          "bottom": 390.734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 335,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://system.bwfbadminton.com/documents/folder_1_81/Statutes/CHAPTER-4---RULES-OF-THE-GAME/SECTION%204.1-%20Laws%20of%20Badminton.pdf",
+        "https://system.bwfbadminton.com/documents/folder_1_81/Regulations/Simplified-Rules/Simplified%20Rules%20of%20Badminton%20-%20Dec%202015.pdf"
+      ]
+    },
+    {
+      "id": "1149",
+      "title": "Basketbalová šipka nahrazuje další rozskok",
+      "src": "/faakt.io/illustrations-ai/1149.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 205.8203125,
+          "bottom": 385.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99687499999999,
+        "alphaBottom": 324,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2024-v10a.pdf",
+        "https://assets.fiba.basketball/image/upload/documents-corporate-fiba-official-rules-2024-obri-v10a.pdf"
+      ]
+    },
+    {
+      "id": "1150",
+      "title": "Stejná výška nemusí znamenat stejné pořadí",
+      "src": "/faakt.io/illustrations-ai/1150.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 199.34375,
+          "bottom": 378.75
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99730902777776,
+        "alphaBottom": 311,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://worldathletics.org/disciplines/jumps/high-jump",
+        "https://worldathletics.org/download/download?filename=e7faf2e8-0385-4686-bbd0-acdb5d958e8f.pdf&urlslug=Competition+and+Technical+Rules+%E2%80%93+2026+Edition"
+      ]
+    },
+    {
+      "id": "1151",
+      "title": "Golf může vyhrát i hráč s více ranami",
+      "src": "/faakt.io/illustrations-ai/1151.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.3203125,
+          "bottom": 386.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986067708333337,
+        "alphaBottom": 327,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.randa.org/en/rog/the-rules-of-golf/rule-3",
+        "https://www.usga.org/content/dam/usga/pdf/2024-revision/2024-Rules-of-Handicapping-USGA.pdf"
+      ]
+    },
+    {
+      "id": "1152",
+      "title": "Rozhodčí vidí přestupek, ale nechá ragby pokračovat",
+      "src": "/faakt.io/illustrations-ai/1152.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.81951904296875,
+          "bottom": 387.24139404296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986861165364587,
+        "alphaBottom": 327,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://passport.world.rugby/laws-of-the-game/laws-by-number/7-advantage/",
+        "https://passport.world.rugby/laws-of-the-game/definitions"
+      ]
+    },
+    {
+      "id": "1153",
+      "title": "Šermíř může dostat zásah bez dotyku čepele",
+      "src": "/faakt.io/illustrations-ai/1153.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.3046875,
+          "bottom": 388.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99249131944441,
+        "alphaBottom": 331,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://static.fie.org/uploads/40/204126-Technical%20rules%20August%202026%20ang.pdf",
+        "https://www.britishfencing.com/uploads/files/92877-technical_rules_ang.pdf"
+      ]
+    },
+    {
+      "id": "1154",
+      "title": "Kdo odvádí daň, nemusí nést celé její břemeno",
+      "src": "/faakt.io/illustrations-ai/1154.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 19.482812500000023,
+        "alphaBottom": 349,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/principles-economics-3e/pages/5-3-elasticity-and-pricing",
+        "https://www.nber.org/papers/w8829"
+      ]
+    },
+    {
+      "id": "1155",
+      "title": "Veřejný statek není totéž co věc zdarma",
+      "src": "/faakt.io/illustrations-ai/1155.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 210.3046875,
+          "bottom": 389.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995703124999977,
+        "alphaBottom": 333,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/principles-economics-3e/pages/13-3-public-goods",
+        "https://www.imf.org/-/media/files/publications/fandd/article/2021/december/b2b-global-public-goods-chin.pdf"
+      ]
+    },
+    {
+      "id": "1156",
+      "title": "Vyšší HDP ještě nemusí znamenat více výroby",
+      "src": "/faakt.io/illustrations-ai/1156.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.40625,
+          "top": 196.859375,
+          "bottom": 376.265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98906249999999,
+        "alphaBottom": 306,
+        "hookHeight": 76.59375,
+        "hookScrollHeight": 77
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/principles-economics-3e/pages/19-2-adjusting-nominal-values-to-real-values",
+        "https://www.bea.gov/data/gdp/gross-domestic-product"
+      ]
+    },
+    {
+      "id": "1157",
+      "title": "Rozpočet může tlumit krizi i bez nového hlasování",
+      "src": "/faakt.io/illustrations-ai/1157.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 23.96875,
+        "alphaBottom": 340,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.imf.org/external/pubs/ft/fandd/basics/36-fiscal-policy.htm",
+        "https://openstax.org/books/principles-economics-3e/pages/30-5-automatic-stabilizers"
+      ]
+    },
+    {
+      "id": "1158",
+      "title": "Němý film mohl mít modrou noc a jantarový den",
+      "src": "/faakt.io/illustrations-ai/1158.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 205.3203125,
+          "bottom": 384.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995269097222263,
+        "alphaBottom": 323,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.nfsa.gov.au/stories/articles/dying-light-1",
+        "https://www.bfi.org.uk/lists/10-best-film-colour-systems"
+      ]
+    },
+    {
+      "id": "1159",
+      "title": "Půl čočky dokáže udržet ostré dva vzdálené světy",
+      "src": "/faakt.io/illustrations-ai/1159.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://schneiderkreuznach.com/application/files/5717/0142/0920/Fact_Sheet_Diopter_Split_GEN2_Schneider-Kreuznach.pdf",
+        "https://tiffen.com/products/138mm-split-field-diopter"
+      ]
+    },
+    {
+      "id": "1160",
+      "title": "Němý film v Japonsku doprovázel živý vypravěč",
+      "src": "/faakt.io/illustrations-ai/1160.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://japansociety.org/news/a-brief-history-of-benshi-silent-film-narrators/",
+        "https://www.waseda.jp/culture/news-en/2026/11/11/37469/"
+      ]
+    },
+    {
+      "id": "1161",
+      "title": "Oddělené čtvrti mohou vzniknout i bez přání úplného odloučení",
+      "src": "/faakt.io/illustrations-ai/1161.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 200.83514404296875,
+          "bottom": 380.25701904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995628526475684,
+        "alphaBottom": 313,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.nobelprize.org/uploads/2018/06/popular-economicsciences2005.pdf",
+        "https://pmc.ncbi.nlm.nih.gov/articles/PMC2393808/"
+      ]
+    }
+  ],
+  "low": {
+    "textBottom": 400.078125,
+    "mainBottom": 400,
+    "buttonTop": 408,
+    "scrollTop": 1
+  },
+  "errors": []
+}

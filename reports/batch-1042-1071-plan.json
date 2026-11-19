@@ -1,0 +1,561 @@
+{
+  "snapshot": "81321a1d35e39a23619d4f5bca3ac04d4a19aecbab6968f68a97e38aa58299b4",
+  "catalog_reviewed": "81321a1d35e39a23619d4f5bca3ac04d4a19aecbab6968f68a97e38aa58299b4",
+  "proposals": [
+    {
+      "id": "1042",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1042",
+        "point": "Vánoční příměří roku 1914 tvořila místní neoficiální zastavení bojů, nikoli dohodnutý mír na celé západní frontě.",
+        "tags": [
+          "military-history",
+          "cooperation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "285"
+      ],
+      "reason": "Místní iniciativa vojáků a dočasná fraternizace, oproti mezistátní dohodě v raketové krizi.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1043",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1043",
+        "point": "Srážka lodí v Halifaxu roku 1917 zapálila muniční náklad Mont-Blancu a následný výbuch zasáhl město i přístav.",
+        "tags": [
+          "modern-history",
+          "military-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "927"
+      ],
+      "reason": "Výbuch vojenského nákladu po srážce lodí, nikoli záplava způsobená prasknutím zásobníku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1044",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1044",
+        "point": "Spinozův conatus označuje snahu každé věci setrvat ve svém bytí a tvoří základ jeho výkladu lidské touhy a emocí.",
+        "tags": [
+          "modern-philosophy",
+          "metaphysics"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "901"
+      ],
+      "reason": "Ontologický základ touhy u Spinozy, nikoli Nozickův test hodnoty skutečnosti proti příjemným prožitkům.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1045",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1045",
+        "point": "Pascalova sázka nabízí praktický důvod pro náboženskou víru pomocí očekávaného užitku, ale sama nedokazuje existenci Boha.",
+        "tags": [
+          "modern-philosophy",
+          "decision-making",
+          "uncertainty"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "901"
+      ],
+      "reason": "Prudenciální argument s nekonečným užitkem a námitkou více bohů, nikoli hedonismus stroje na zážitky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1046",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1046",
+        "point": "Stříkouni aktivně mění průběh vodního výstřiku podle vzdálenosti cíle, aby proud soustředil úder při zásahu kořisti.",
+        "tags": [
+          "zoology",
+          "mechanics"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "446"
+      ],
+      "reason": "Řízení hydrodynamiky loveckého proudu, nikoli obecná schopnost ryb pamatovat si naučené úkoly.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1047",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1047",
+        "point": "Kukačka obecná svěřuje odchov hostitelským ptákům a její mládě může vytlačit jejich vejce či mláďata z hnízda.",
+        "tags": [
+          "zoology",
+          "evolution"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "642"
+      ],
+      "reason": "Mezidruhový hnízdní parazitismus, nikoli sociálně psychologické zvýhodňování vlastní skupiny.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1048",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1048",
+        "point": "Litografie odděluje tisknoucí a netisknoucí místa chemickým vztahem mastnoty a vody na téměř rovné tiskové ploše.",
+        "tags": [
+          "painting",
+          "chemistry",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1014"
+      ],
+      "reason": "Planografický chemický výběr barvy, oproti mechanicky vyvýšeným tisknoucím místům dřevořezu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1049",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1049",
+        "point": "Calderovy závěsné mobily využívají vyvážené pohyblivé části, takže proudění vzduchu proměňuje samotnou kompozici sochy.",
+        "tags": [
+          "sculpture",
+          "change"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "465"
+      ],
+      "reason": "Skutečný fyzický pohyb vyvážené sochy, oproti opakování spotřebních obrazů v pop artu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1050",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1050",
+        "point": "Dramatická ironie v Králi Oidipovi staví divákovu znalost hrdinovy totožnosti proti hrdinovu vlastnímu pátrání.",
+        "tags": [
+          "narratology",
+          "knowledge-evidence"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "768"
+      ],
+      "reason": "Asymetrie informací mezi divákem a postavou, nikoli obecný účinek tragédie označovaný katarze.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1051",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1051",
+        "point": "Keatsova Óda na řeckou urnu nechává zobrazené postavy navždy před naplněním děje a staví trvání umění proti pomíjivému prožitku.",
+        "tags": [
+          "literature",
+          "preservation"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "907"
+      ],
+      "reason": "Zastavený děj a cena neměnnosti ve specifické básni, oproti černé stránce jako knižnímu vyjádření smutku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1052",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1052",
+        "point": "Participativní rozpočet zapojuje obyvatele do určování priorit veřejných výdajů, přičemž rozsah rozhodování závisí na pravidlech a vyčleněných penězích.",
+        "tags": [
+          "democracy",
+          "institutions",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "112"
+      ],
+      "reason": "Spolurozhodování o veřejném rozpočtu, nikoli správa vyčerpatelného společného přírodního zdroje.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1053",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1053",
+        "point": "Článek 4 Protokolu č. 7 chrání před opakováním trestního řízení za stejný skutek v témže státě po konečném rozhodnutí, s vymezenými výjimkami obnovy.",
+        "tags": [
+          "human-rights",
+          "fairness"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "393"
+      ],
+      "reason": "Zákaz opakování po konečném rozhodnutí, oproti důkaznímu břemeni před rozhodnutím o vině.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1054",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1054",
+        "point": "Rázy vznikají skládáním dvou blízkých frekvencí a jejich četnost odpovídá absolutnímu rozdílu těchto frekvencí.",
+        "tags": [
+          "mechanics",
+          "music",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "821"
+      ],
+      "reason": "Časové kolísání amplitudy dvou blízkých tónů, nikoli rozklad složitého tónu na frekvenční složky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1055",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1055",
+        "point": "U rychle rotujícího podepřeného setrvačníku může gravitační moment měnit především směr momentu hybnosti a vyvolat precesi osy.",
+        "tags": [
+          "mechanics",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "616"
+      ],
+      "reason": "Změna směru momentu hybnosti vnějším momentem, nikoli zrychlení při zmenšení momentu setrvačnosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1056",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1056",
+        "point": "Antokyanová barviva červeného zelí mění při změně pH své chemické formy a tím i barvu, takže výluh funguje jako orientační indikátor.",
+        "tags": [
+          "chemistry",
+          "botany"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "860"
+      ],
+      "reason": "Vratné změny chemické formy podle pH, oproti dlouhodobému rozkladu malířských pigmentů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1057",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1057",
+        "point": "Zinek elektricky spojený s ocelí ve vhodném elektrolytu přednostně oxiduje a může chránit ocel i při místním poškození povlaku.",
+        "tags": [
+          "chemistry",
+          "materials",
+          "preservation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1004"
+      ],
+      "reason": "Obětovaná anoda spotřebovává jiný kov, oproti bariérové pasivační vrstvě na samotném hliníku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1058",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1058",
+        "point": "Extrémní sklon rotační osy Uranu spolu s jeho 84letým oběhem vytváří dlouhá roční období a mnohaleté polární osvětlení či tmu.",
+        "tags": [
+          "solar-system",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "914"
+      ],
+      "reason": "Sklon osy a sezónní osvětlení, oproti rozdílu hvězdného a slunečního dne Venuše.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1059",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1059",
+        "point": "Velká rudá skvrna je proměnlivá atmosférická anticyklona a časosběrná pozorování Hubbleova dalekohledu ukázala oscilace jejího rozměru.",
+        "tags": [
+          "solar-system",
+          "jupiter",
+          "change"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "613"
+      ],
+      "reason": "Konkrétní pozorované proměny rozměru jovianské bouře, nikoli výklad Coriolisovy síly a směru pozemských cyklon.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1060",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1060",
+        "point": "Pavučinový model ukazuje, že výroba reagující se zpožděním na předchozí cenu může vytvářet střídání přebytků a nedostatků i bez opakovaných vnějších šoků.",
+        "tags": [
+          "microeconomics",
+          "uncertainty"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "479"
+      ],
+      "reason": "Dynamika nabídky s výrobním zpožděním a jednoduchým očekáváním, nikoli změna chování po změně hospodářské politiky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1061",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1061",
+        "point": "Surovinový boom může reálným zhodnocením měny a přesunem zdrojů oslabit ostatní obchodovatelná odvětví, což se označuje jako holandská nemoc.",
+        "tags": [
+          "macroeconomics",
+          "economic-history",
+          "resources"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "845"
+      ],
+      "reason": "Relativní konkurenceschopnost odvětví přes reálný kurz a přesun zdrojů, nikoli samotný růst cen z přílivu stříbra.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1062",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1062",
+        "point": "Při slepotě k volbě mohou lidé přehlédnout záměnu vybrané možnosti a dodatečně zdůvodňovat možnost, kterou původně nezvolili.",
+        "tags": [
+          "learning-memory",
+          "decision-making",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "401",
+        "639"
+      ],
+      "reason": "Dodatečné zdůvodňování podstrčeného výsledku vlastní volby u běžných účastníků, nikoli pouhá slepota ke změně či neurochirurgické odpojení hemisfér.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1063",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1063",
+        "point": "Efekt falešného konsenzu znamená, že lidé odhadují své vlastní volby jako běžnější než lidé, kteří volí jinak.",
+        "tags": [
+          "social-psychology",
+          "cognitive-biases"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "241"
+      ],
+      "reason": "Odhad četnosti vlastního postoje, nikoli přizpůsobení veřejné odpovědi jednomyslné skupině.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1064",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1064",
+        "point": "Anamorfotický objektiv stlačuje obraz v jednom směru a odpovídající roztažení při zobrazení obnoví správné proporce širokého záběru.",
+        "tags": [
+          "film-technique",
+          "optics"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "457",
+        "890"
+      ],
+      "reason": "Směrově odlišné optické zvětšení a následná inverze, nikoli stereoobraz pro dvě oči ani obraz závislý na šikmém stanovišti diváka.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1065",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1065",
+        "point": "Dělený střih posouvá přechod zvuku vůči přechodu obrazu a umožňuje slyšet další scénu před jejím obrazem či doznívat předchozí scénu přes nový záběr.",
+        "tags": [
+          "film-technique",
+          "sound",
+          "communication"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "892",
+        "404"
+      ],
+      "reason": "Časový přesah existující zvukové stopy přes hranici záběru, nikoli prostorové pravidlo osy nebo nové nahrávání dialogu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1066",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1066",
+        "point": "Pickova věta určuje obsah jednoduchého mřížového mnohoúhelníku jako počet vnitřních bodů plus polovinu hraničních bodů minus jedna.",
+        "tags": [
+          "geometry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1033"
+      ],
+      "reason": "Metrický obsah rovinného mřížového mnohoúhelníku, nikoli topologický vztah vrcholů hran a stěn mnohostěnu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1067",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1067",
+        "point": "Maximum částí kruhu vytvořených n přímými řezy bez přesouvání dílů je 1+n(n+1)/2 při vhodně zvolených průsečících.",
+        "tags": [
+          "combinatorics",
+          "geometry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1034"
+      ],
+      "reason": "Maximalizace počtu oblastí pomocí průsečíků, nikoli pravděpodobnost délky náhodné tětivy.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1068",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1068",
+        "point": "DNS ukládá odpovědi do mezipaměti s časovou platností TTL, takže různé resolvery mohou po změně dočasně vracet různé adresy.",
+        "tags": [
+          "networks",
+          "resilience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "952"
+      ],
+      "reason": "Časově omezená cache překladu názvu, nikoli adresa objektu odvozená z jeho obsahu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1069",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1069",
+        "point": "Mechanické kontakty mohou při stisku odskakovat a debounce obvod nebo program odlišuje skutečný stisk od krátkých zákmitů.",
+        "tags": [
+          "programming",
+          "resilience"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1036"
+      ],
+      "reason": "Časové filtrování mechanických zákmitů vstupu, nikoli rozkládání opotřebení flash paměti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1070",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1070",
+        "point": "Tříbodová čára přijatá NBA pro sezonu 1979–80 změnila bodovou odměnu střel podle vzdálenosti a tím i jejich strategickou hodnotu.",
+        "tags": [
+          "sport",
+          "incentives",
+          "change"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "977"
+      ],
+      "reason": "Prostorově odlišené bodování střely, oproti časové povinnosti útok zakončit.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1071",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1071",
+        "point": "Boklövova V-technika ve skoku na lyžích přinášela výhodu v letu navzdory původním srážkám za styl a pomohla změnit soutěžní normu.",
+        "tags": [
+          "sport",
+          "innovation",
+          "incentives"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "378"
+      ],
+      "reason": "Konflikt účinnějšího letu se subjektivním bodováním stylu, nikoli pouze nová poloha těla při překonávání laťky.",
+      "verdict": "accept"
+    }
+  ]
+}

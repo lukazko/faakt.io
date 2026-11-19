@@ -8,7 +8,7 @@ paths=json.loads((root/'reports/illustrations-867-896-generated.json').read_text
 for item in paths:
     target=root/f"static/illustrations-ai/{item['id']}.webp"
     if not target.exists():
-        subprocess.run(['python',str(root/'skills/faakt-illustrations/scripts/fit-image.py'),'--input',item['path'],'--output',str(target)],check=True)
+        subprocess.run(['python',str(root/'scripts/illustrations/fit-image.py'),'--input',item['path'],'--output',str(target)],check=True)
 ids=[int(x['id']) for x in paths if (root/f"static/illustrations-ai/{x['id']}.webp").exists()]
 for start in range(867,897,10):
     group=[i for i in ids if start<=i<start+10]

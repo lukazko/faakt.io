@@ -8,6 +8,7 @@ const config = {
 	preprocess: vitePreprocess(),
 
 	kit: {
+		outDir: process.env.FAAKT_KIT_OUT_DIR ?? '.svelte-kit',
 		adapter: adapter({
 			pages: outputDirectory,
 			assets: outputDirectory,

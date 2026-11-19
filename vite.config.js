@@ -7,6 +7,9 @@ const buildId = new Date().toISOString().replace(/[-:TZ.]/g, '').slice(0, 14);
 
 export default defineConfig({
 	plugins: [illustrationLayoutPlugin(), sveltekit()],
+	server: {
+		watch: { ignored: ['**/.local-preview', '**/.local-preview/**'] }
+	},
 	define: {
 		__APP_VERSION__: JSON.stringify(packageJson.version),
 		__APP_BUILD_ID__: JSON.stringify(buildId)

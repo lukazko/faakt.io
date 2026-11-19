@@ -1,0 +1,702 @@
+{
+  "base": "http://127.0.0.1:5187/faakt.io/",
+  "rows": [
+    {
+      "id": "1102",
+      "title": "Tlak dokáže obrátit přirozený tok vody",
+      "src": "/faakt.io/illustrations-ai/1102.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 182.8984375,
+          "bottom": 362.3203125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.985503472222263,
+        "alphaBottom": 278,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.fda.gov/inspections-compliance-enforcement-and-criminal-investigations/inspection-technical-guides/reverse-osmosis",
+        "https://www.usgs.gov/water-science-school/science/desalination"
+      ]
+    },
+    {
+      "id": "1103",
+      "title": "Vápenná malta tvrdne i díky vzduchu",
+      "src": "/faakt.io/illustrations-ai/1103.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.3203125,
+          "bottom": 386.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986067708333337,
+        "alphaBottom": 327,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.spab.org.uk/advice/lime",
+        "https://historicengland.org.uk/education/training-skills/training/webinars/recordings/structural-conservation-ruins-masonry-walls-pt1/"
+      ]
+    },
+    {
+      "id": "1104",
+      "title": "Kapka jódu odhalí skrytý škrob",
+      "src": "/faakt.io/illustrations-ai/1104.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 182.4296875,
+          "bottom": 361.8515625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98767361111112,
+        "alphaBottom": 328,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.rsc.org/suppdata/cc/b8/b820151j/b820151j.pdf",
+        "https://www.ssc.education.ed.ac.uk/BSL/chemistry/iodinesolutiond.html"
+      ]
+    },
+    {
+      "id": "1105",
+      "title": "Fotografie je nejprve neviditelná",
+      "src": "/faakt.io/illustrations-ai/1105.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 165.96875,
+          "bottom": 345.40625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 295,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.processreversal.org/public/text/Mees_theory_phorographic_process.pdf",
+        "https://www.ilfordphoto.com/beginners-guide-processing-film/"
+      ]
+    },
+    {
+      "id": "1106",
+      "title": "Prášek, který promění vodu v gel",
+      "src": "/faakt.io/illustrations-ai/1106.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 170.953125,
+          "bottom": 350.390625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 305,
+        "hookHeight": 127.65625,
+        "hookScrollHeight": 128
+      },
+      "flipped": true,
+      "sources": [
+        "https://chemed.chem.purdue.edu/demos/demosheets/25.5.html",
+        "https://edu.rsc.org/download?ac=540234"
+      ]
+    },
+    {
+      "id": "1107",
+      "title": "Kovový povlak může vyrůst z roztoku",
+      "src": "/faakt.io/illustrations-ai/1107.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.975000000000023,
+        "alphaBottom": 344,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://chem.washington.edu/lecture-demos/electroplating-copper-stainless-steel",
+        "https://instructional-resources.physics.uiowa.edu/5e3020-electroplating-copper"
+      ]
+    },
+    {
+      "id": "1108",
+      "title": "Změkčovač vodu nescedí, vymění ionty",
+      "src": "/faakt.io/illustrations-ai/1108.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.975000000000023,
+        "alphaBottom": 344,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.epa.gov/watersense/cation-exchange-water-softeners",
+        "https://www.web.health.state.mn.us/communities/environment/water/factsheet/softening.html"
+      ]
+    },
+    {
+      "id": "1109",
+      "title": "Krystaly cukru rostou z přesyceného roztoku",
+      "src": "/faakt.io/illustrations-ai/1109.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 206.8203125,
+          "bottom": 386.2421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984461805555554,
+        "alphaBottom": 326,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://science.anu.edu.au/engagement/science-lab-experiments-home-school/how-make-rock-candy",
+        "https://www.iucr.org/what-we-do/education/pamphlets/crystals-handbook-school-teachers"
+      ]
+    },
+    {
+      "id": "1110",
+      "title": "Kyselina a alkohol mohou vytvořit novou vůni",
+      "src": "/faakt.io/illustrations-ai/1110.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 211.296875,
+          "bottom": 390.734375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.9921875,
+        "alphaBottom": 335,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/organic-chemistry/pages/17-6-reactions-of-alcohols",
+        "https://chemed.chem.purdue.edu/genchem/topicreview/bp/2organic/carbonylframe.html"
+      ]
+    },
+    {
+      "id": "1111",
+      "title": "Mýdlo vzniká rozštěpením tuku",
+      "src": "/faakt.io/illustrations-ai/1111.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 184.4140625,
+          "bottom": 363.8359375
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994097222222194,
+        "alphaBottom": 332,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.open.edu/openlearn/science-maths-technology/science/chemistry/diy-make-your-own-soap",
+        "https://chem.washington.edu/lecture-demos/saponification"
+      ]
+    },
+    {
+      "id": "1112",
+      "title": "Jód umí přejít z krystalu rovnou do páry",
+      "src": "/faakt.io/illustrations-ai/1112.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 210.3046875,
+          "bottom": 389.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995703124999977,
+        "alphaBottom": 333,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://lsa.umich.edu/content/dam/chem-assets/chem-docs/teaching%20lab%20docs/Sublimation%20of%20Iodine.pdf",
+        "https://uwaterloo.ca/centre-advanced-science-education/news/sublimation-iodine-rise-and-fall-misconception"
+      ]
+    },
+    {
+      "id": "1113",
+      "title": "Proč sůl dovolí vodě zůstat kapalnou pod nulou",
+      "src": "/faakt.io/illustrations-ai/1113.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 210.3046875,
+          "bottom": 389.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995703124999977,
+        "alphaBottom": 333,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://oceanservice.noaa.gov/education/dyw-pass-salt.html",
+        "https://nsidc.org/learn/parts-cryosphere/sea-ice/science-sea-ice"
+      ]
+    },
+    {
+      "id": "1114",
+      "title": "Stlačení plynu může změnit jeho chemické složení",
+      "src": "/faakt.io/illustrations-ai/1114.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 167.9453125,
+          "bottom": 347.3671875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98420138888889,
+        "alphaBottom": 248,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/13-3-shifting-equilibria-le-chateliers-principle",
+        "https://asta.edu.au/resource/laboratory-notes-generation-and-collection-of-nitrogen-dioxide-no2-gas-for-equilibrium-demonstrations/"
+      ]
+    },
+    {
+      "id": "1115",
+      "title": "Černé stříbro není pokryté běžnou rzí",
+      "src": "/faakt.io/illustrations-ai/1115.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 202.8359375,
+          "bottom": 382.2578125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98723958333335,
+        "alphaBottom": 318,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.canada.ca/en/conservation-institute/services/preventive-conservation/guidelines-collections/metal-objects/understanding-silver-tarnish.html",
+        "https://www.canada.ca/en/conservation-institute/services/conservation-preservation-publications/canadian-conservation-institute-notes/care-silver.html"
+      ]
+    },
+    {
+      "id": "1116",
+      "title": "Kolik kyseliny je v roztoku, prozradí spotřeba zásady",
+      "src": "/faakt.io/illustrations-ai/1116.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.984375,
+        "alphaBottom": 350,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/4-5-quantitative-chemical-analysis",
+        "https://openstax.org/books/chemistry-2e/pages/14-7-acid-base-titrations"
+      ]
+    },
+    {
+      "id": "1117",
+      "title": "Bubliny v těstě může vyrobit chemická reakce",
+      "src": "/faakt.io/illustrations-ai/1117.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 210.3046875,
+          "bottom": 389.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.995703124999977,
+        "alphaBottom": 333,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://openstax.org/books/chemistry-2e/pages/18-6-occurrence-preparation-and-properties-of-carbonates",
+        "https://news.ncsu.edu/2014/05/baking-soda-powder/"
+      ]
+    },
+    {
+      "id": "1118",
+      "title": "Ve štafetě rozhoduje místo kolíku",
+      "src": "/faakt.io/illustrations-ai/1118.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 162.99139404296875,
+          "bottom": 342.41326904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986730957031227,
+        "alphaBottom": 288,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://worldathletics.org/download/download?filename=acdec6c6-1261-4c7f-96d2-92f712707e99.pdf&urlslug=Competition+and+Technical+Rules+%E2%80%93+2026+Edition",
+        "https://coachathletics.com.au/coaching-education/relay-changeovers-guide-push-pass"
+      ]
+    },
+    {
+      "id": "1119",
+      "title": "Závodní chůze není jen pomalejší běh",
+      "src": "/faakt.io/illustrations-ai/1119.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 19.981250000000045,
+        "alphaBottom": 348,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://worldathletics.org/download/download?filename=acdec6c6-1261-4c7f-96d2-92f712707e99.pdf&urlslug=Competition+and+Technical+Rules+%E2%80%93+2026+Edition",
+        "https://worldathletics.org/news/series/race-walking-technique-rules-straight-leg"
+      ]
+    },
+    {
+      "id": "1120",
+      "title": "Dvě rozsvícené šermířské kontrolky nemusí dát dva body",
+      "src": "/faakt.io/illustrations-ai/1120.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.3203125,
+          "bottom": 386.7421875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.986067708333337,
+        "alphaBottom": 327,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.usafencing.org/basics-of-competition",
+        "https://www.activesgcircle.gov.sg/learn/fencing/fencing-competition-types-foil-sabre-and-epee"
+      ]
+    },
+    {
+      "id": "1121",
+      "title": "Ragby postupuje vpřed přihrávkami dozadu",
+      "src": "/faakt.io/illustrations-ai/1121.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 21.4765625,
+        "alphaBottom": 345,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://passport.world.rugby/laws-of-the-game/definitions",
+        "https://www.world.rugby/the-game/beginners-guide/open-play?lang=en"
+      ]
+    },
+    {
+      "id": "1122",
+      "title": "Koš může platit, i když míč obránce odrazí",
+      "src": "/faakt.io/illustrations-ai/1122.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.3046875,
+          "bottom": 388.7265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99249131944441,
+        "alphaBottom": 331,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://cdn.nba.com/manage/2026/01/Official-2025-26-NBA-Playing-Rules.pdf",
+        "https://official.nba.com/rule-no-11-basket-interference-goaltending/"
+      ]
+    },
+    {
+      "id": "1123",
+      "title": "Kladkový luk je v plném nátahu lehčí na držení",
+      "src": "/faakt.io/illustrations-ai/1123.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.worldarchery.sport/sport/equipment/compound",
+        "https://extranet.worldarchery.sport/documents/index.php/Coaches/Resources/ARCHERY_GLOSSARY.pdf"
+      ]
+    },
+    {
+      "id": "1124",
+      "title": "Podání ve stolním tenisu začíná ještě před úderem",
+      "src": "/faakt.io/illustrations-ai/1124.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 211.30389404296875,
+          "bottom": 390.72576904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99810248480901,
+        "alphaBottom": 334,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://db.ittf.com/sites/default/files/public/2026-02/2026_Statutes_v1_consolidated_tc.pdf",
+        "https://hittmalta.mt/tt-game-info/"
+      ]
+    },
+    {
+      "id": "1125",
+      "title": "Volejbalová rotace hlídá víc než pořadí podání",
+      "src": "/faakt.io/illustrations-ai/1125.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 210.8046875,
+          "bottom": 390.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99730902777776,
+        "alphaBottom": 334,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.fivb.com/wp-content/uploads/2025/01/FIVB-Volleyball_Rules2025_2028-EN.pdf",
+        "https://www.fivb.com/volleyball/the-game/"
+      ]
+    },
+    {
+      "id": "1126",
+      "title": "Polohový závod a štafeta začínají jiným způsobem",
+      "src": "/faakt.io/illustrations-ai/1126.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 207.31951904296875,
+          "bottom": 386.74139404296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.985255262586804,
+        "alphaBottom": 326,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://resources.fina.org/fina/document/2026/02/18/e6815ecc-06d9-4f0b-98e9-4c441cf5e6a3/2026-02-18_World-Aquatics_CR-Final.pdf",
+        "https://resources.fina.org/fina/document/2026/03/16/5140bd13-c39f-4159-a896-3ff2350a33f2/Swimming-Reference-Card-13.03.2026.pdf"
+      ]
+    },
+    {
+      "id": "1127",
+      "title": "Kormidelník pomáhá zrychlit loď bez jediného záběru",
+      "src": "/faakt.io/illustrations-ai/1127.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 209.8046875,
+          "bottom": 389.2265625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.994097222222194,
+        "alphaBottom": 332,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.britishrowing.org/knowledge/courses-qualifications/coxing/",
+        "https://rowingcanada.org/uploads/2024/12/RCA_LearnToRow2_EN_finaPDF.pdf"
+      ]
+    },
+    {
+      "id": "1128",
+      "title": "Herec může jet krajinou, aniž opustí ateliér",
+      "src": "/faakt.io/illustrations-ai/1128.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 202.8359375,
+          "bottom": 382.2578125
+        },
+        "frameGap": 14,
+        "visibleGap": 18.98723958333335,
+        "alphaBottom": 318,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.westga.edu/academics/university-college/writing/glossary_of_film_terms.php",
+        "https://userhome.brooklyn.cuny.edu/anthro/jbeatty/COURSES/glossary.htm"
+      ]
+    },
+    {
+      "id": "1129",
+      "title": "Kamera může předat slovo pouhým přeostřením",
+      "src": "/faakt.io/illustrations-ai/1129.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.4375,
+          "top": 218.78125,
+          "bottom": 398.21875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.485937499999977,
+        "alphaBottom": 351,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.westga.edu/academics/university-college/writing/glossary_of_film_terms.php",
+        "https://pzacad.pitzer.edu/~mma/teaching/MS50/MS50_keyterms.html"
+      ]
+    },
+    {
+      "id": "1130",
+      "title": "Slyší filmovou hudbu také postava?",
+      "src": "/faakt.io/illustrations-ai/1130.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 212.30389404296875,
+          "bottom": 391.72576904296875
+        },
+        "frameGap": 14,
+        "visibleGap": 18.985689290364576,
+        "alphaBottom": 336,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://ecampusontario.pressbooks.pub/contemporaryworldcinema/chapter/sound/",
+        "https://academic.kellogg.edu/marklinl/Film/FilmHandouts/GlossaryOfFilmTerms.htm"
+      ]
+    },
+    {
+      "id": "1131",
+      "title": "Dva různé světy může spojit stejný tvar",
+      "src": "/faakt.io/illustrations-ai/1131.webp",
+      "metrics": {
+        "image": {
+          "width": 319,
+          "height": 179.421875,
+          "top": 190.3671875,
+          "bottom": 369.7890625
+        },
+        "frameGap": 14,
+        "visibleGap": 18.99396701388889,
+        "alphaBottom": 293,
+        "hookHeight": 102.125,
+        "hookScrollHeight": 102
+      },
+      "flipped": true,
+      "sources": [
+        "https://www.westga.edu/academics/university-college/writing/glossary_of_film_terms.php",
+        "https://academic.kellogg.edu/marklinl/Film/FilmHandouts/GlossaryOfFilmTerms.htm"
+      ]
+    }
+  ],
+  "low": {
+    "textBottom": 399.5625,
+    "mainBottom": 400,
+    "buttonTop": 408,
+    "scrollTop": 43
+  },
+  "errors": []
+}
