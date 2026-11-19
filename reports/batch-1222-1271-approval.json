@@ -1,0 +1,557 @@
+{
+  "snapshot": "cc07b75343426ece8c1227f7e4f989edd9569c1ebeb0d3ed82ea666c54c03189",
+  "drafts_hash": "4bdfe4da5a3c576d3dddce3896774fa48b9f5529f106ea06adddeae04f55b9e2",
+  "catalog_reviewed": "cc07b75343426ece8c1227f7e4f989edd9569c1ebeb0d3ed82ea666c54c03189",
+  "decisions": [
+    {
+      "id": "1222",
+      "verdict": "accept",
+      "compared_ids": [
+        "270"
+      ],
+      "reason": "Vindolanda zachovala každodenní korespondenci vojenské posádky. Amarna ukazuje společný jazyk mezistátní diplomacie v pozdní době bronzové.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1223",
+      "verdict": "accept",
+      "compared_ids": [
+        "1190"
+      ],
+      "reason": "Britský zákon upravuje kontrolu dětské práce státem. Turínský papyrus zachycuje kolektivní zastavení práce kvůli dlužným přídělům.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1224",
+      "verdict": "accept",
+      "compared_ids": [
+        "658"
+      ],
+      "reason": "Versailles řeší poválečné sankce poraženému státu. Nový článek sleduje dochování téže dohody v písemných verzích obou smluvních stran.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1225",
+      "verdict": "accept",
+      "compared_ids": [
+        "271"
+      ],
+      "reason": "Roanoke pojednává o neuzavřeném osudu kolonie. Zde jde o konkrétní nálezy vraků za pomoci inuitských vyprávění.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1226",
+      "verdict": "accept",
+      "compared_ids": [
+        "768"
+      ],
+      "reason": "Aristotelova katarze zkoumá účinek strachu a soucitu. Platónův argument se soustředí na škodlivé posilování návyku podléhat žalu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1227",
+      "verdict": "accept",
+      "compared_ids": [
+        "726"
+      ],
+      "reason": "Theofrastův soupis se věnuje rostlinám a jejich pozorování. Aristotelův metodologický argument obhajuje poznávací hodnotu zkoumání nevzhledných živočichů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1228",
+      "verdict": "accept",
+      "compared_ids": [
+        "752"
+      ],
+      "reason": "Akerlof vysvětluje vytlačování kvalitního zboží z trhu. Ciceronova otázka se týká morální povinnosti prozradit očekávanou změnu nabídky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1229",
+      "verdict": "accept",
+      "compared_ids": [
+        "35"
+      ],
+      "reason": "Athény jsou v původním článku příkladem vyloučení většiny obyvatel. Nový článek vysvětluje obecné Aristotelovo kritérium občanství pro různá zřízení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1230",
+      "verdict": "accept",
+      "compared_ids": [
+        "1012"
+      ],
+      "reason": "Původní článek se zabývá tepelnou ochranou vydří srsti. Zde lov ježovek přenáší účinek predátora na rostlinnou složku společenstva.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1231",
+      "verdict": "accept",
+      "compared_ids": [
+        "410"
+      ],
+      "reason": "Původní článek řeší vliv nadmořské výšky na lidský sportovní výkon. Zde se dokládá odlišná vazebná schopnost hemoglobinu husy indické.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1232",
+      "verdict": "accept",
+      "compared_ids": [
+        "449"
+      ],
+      "reason": "Mucholapka vyhodnocuje dotyk před sklapnutím pasti. Tořič se pachovou nápodobou samice dostává k přenosu pylu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1233",
+      "verdict": "accept",
+      "compared_ids": [
+        "1011"
+      ],
+      "reason": "Ptakopysk rozpoznává elektrické a mechanické projevy kořisti. Hvězdici nízké prostorové rozlišení zraku pomáhá najít rozsáhlý útes.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1234",
+      "verdict": "accept",
+      "compared_ids": [
+        "860"
+      ],
+      "reason": "Starý článek vysvětluje změny barev starých obrazů obecně. Nový se soustředí na reprodukovatelné mapování skrytého tvaru závěsu v jednom obraze a doklady o původní kompozici.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1235",
+      "verdict": "accept",
+      "compared_ids": [
+        "467"
+      ],
+      "reason": "Klimt používá kov přímo na ploše malby. Nový článek vysvětluje skladbu skleněné mozaikové kostky s kovem chráněným mezi vrstvami.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1236",
+      "verdict": "accept",
+      "compared_ids": [
+        "159"
+      ],
+      "reason": "Leonardův postup na suché omítce vysvětluje degradaci nástěnné malby. Zde jde o voskové pojivo antických pohřebních portrétů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1237",
+      "verdict": "accept",
+      "compared_ids": [
+        "699"
+      ],
+      "reason": "Lineární perspektiva používá úběžníky na obrazové ploše. Donatellův příklad vysvětluje fyzické odstupňování hloubky podél skutečného povrchu reliéfu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1238",
+      "verdict": "accept",
+      "compared_ids": [
+        "936"
+      ],
+      "reason": "Johnson promítá neuspořádanou paměť do volného pořadí částí knihy. U Prousta konkrétní vjem zpřístupní minulost bez předchozího záměru vzpomínat.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1239",
+      "verdict": "accept",
+      "compared_ids": [
+        "254"
+      ],
+      "reason": "První folio zachovává texty, které by mohly zaniknout. Orlando pomocí formálních znaků životopisu paroduje jeho nárok na věrné zachycení života.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1240",
+      "verdict": "accept",
+      "compared_ids": [
+        "956"
+      ],
+      "reason": "Amis převrací časovou posloupnost a účel činů. Bierce nechává rozsáhlý subjektivní děj proběhnout ve zlomku objektivního času.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1241",
+      "verdict": "accept",
+      "compared_ids": [
+        "686"
+      ],
+      "reason": "Babylonská knihovna řeší rozlišení smyslu v úplném souboru textů. Alef řeší převod současné zkušenosti do postupně vyslovovaného sdělení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1242",
+      "verdict": "accept",
+      "compared_ids": [
+        "909"
+      ],
+      "reason": "Athénský los obsazoval veřejné funkce a poroty. V Irsku šlo o výběr pestré poradní skupiny podle demografických hledisek, bez převodu zákonodárné pravomoci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1243",
+      "verdict": "accept",
+      "compared_ids": [
+        "662"
+      ],
+      "reason": "Původní text popisuje vznik a účinek veta v Radě bezpečnosti. Nový vysvětluje samostatnou možnost mimořádného jednání Valného shromáždění.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1244",
+      "verdict": "accept",
+      "compared_ids": [
+        "666"
+      ],
+      "reason": "Ombudsman zkoumá jednání veřejné správy. Petice je zvláštní přístup občana k příslušnému výboru Evropského parlamentu s odlišnými předpoklady a výsledky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1245",
+      "verdict": "accept",
+      "compared_ids": [
+        "807"
+      ],
+      "reason": "Cavendish měří vzájemnou gravitaci koulí. Torricelli používá rovnováhu rtuťového sloupce s okolním atmosférickým tlakem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1246",
+      "verdict": "accept",
+      "compared_ids": [
+        "851"
+      ],
+      "reason": "Barevný stín závisí na okolním osvětlení a vnímaném kontrastu. U bubliny spektrum mění interference dvou odrazů z tenké blány.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1247",
+      "verdict": "accept",
+      "compared_ids": [
+        "614"
+      ],
+      "reason": "Mezní rychlost vzniká rovnováhou odporu a tíhy. Rychlost výtoku vyplývá z převodu energie odpovídající výškovému rozdílu v ideálním modelu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1248",
+      "verdict": "accept",
+      "compared_ids": [
+        "912"
+      ],
+      "reason": "Trojný bod popisuje rovnováhu tří fází jedné látky. Mlha u suchého ledu spojuje sublimaci oxidu uhličitého s kondenzací jiné látky, vody.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1249",
+      "verdict": "accept",
+      "compared_ids": [
+        "940"
+      ],
+      "reason": "Ve ferrofluidu se částice v poli podílejí na změně tvaru kapaliny. V poháru ovlivňují částice spektrum procházejícího a odraženého světla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1250",
+      "verdict": "accept",
+      "compared_ids": [
+        "1134"
+      ],
+      "reason": "Původní text vysvětluje výsledný elektrický dipól geometrickou orientací vazeb. Zde jde o magnetické chování v důsledku dvou nepárových elektronů O₂.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1251",
+      "verdict": "accept",
+      "compared_ids": [
+        "1059"
+      ],
+      "reason": "Jupiterova skvrna je pozorovaná měnící se anticyklona. Saturnův šestiúhelník je přetrvávající vlnový vzor v polárním tryskovém proudění.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1252",
+      "verdict": "accept",
+      "compared_ids": [
+        "914"
+      ],
+      "reason": "Stávající článek porovnává sluneční den a vlastní rotaci Venuše. Nový porovnává relativní oběhy Země a Venuše a návrat jejich geometrie.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1253",
+      "verdict": "accept",
+      "compared_ids": [
+        "293"
+      ],
+      "reason": "ʻOumuamua sluneční soustavu jen protíná. U Tritonu dává orientace vázané oběžné dráhy vodítko k dřívějšímu zachycení Neptunem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1254",
+      "verdict": "accept",
+      "compared_ids": [
+        "92"
+      ],
+      "reason": "Ricardo vysvětluje výhody obchodu relativními náklady. Leontief přímo zkoumá kapitálovou a pracovní náročnost vývozu oproti náhradě dovozu a testuje jinou teorii.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1255",
+      "verdict": "accept",
+      "compared_ids": [
+        "399"
+      ],
+      "reason": "Giffenův statek řeší reakci poptávaného množství na cenu. Engelův zákon řeší podíl potravin v rozpočtu při změně příjmu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1256",
+      "verdict": "accept",
+      "compared_ids": [
+        "1027"
+      ],
+      "reason": "Past likvidity omezuje účinek snižování krátkých sazeb. Bankovní paniku může rozběhnout koordinace očekávání klientů při splatnosti závazků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1257",
+      "verdict": "accept",
+      "compared_ids": [
+        "401"
+      ],
+      "reason": "Slepota ke změně je selhání detekovat rozdíl mezi dvěma obrazy. Rozšíření hranic je systematický směr chyby při vybavování rámování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1258",
+      "verdict": "accept",
+      "compared_ids": [
+        "945"
+      ],
+      "reason": "V generačním efektu účastník odvozuje dosud nepředložené slovo. Efekt produkce porovnává vyslovení s tichým čtením stejného již předloženého slova.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1259",
+      "verdict": "accept",
+      "compared_ids": [
+        "642"
+      ],
+      "reason": "Tajfel sleduje rozdělování odměn mezi nahodilé skupiny. Nový článek se zabývá rozpoznáváním známých a neznámých tváří v paměťové zkoušce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1260",
+      "verdict": "accept",
+      "compared_ids": [
+        "461"
+      ],
+      "reason": "Digitální klíčování popsané v původním textu vybírá pixely v postprodukci. Sodíkový postup zaznamenával samostatnou masku souběžně s barevným negativem fyzickým rozdělením světla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1261",
+      "verdict": "accept",
+      "compared_ids": [
+        "1031"
+      ],
+      "reason": "Němý film se má uvést při správném tempu dochovaného materiálu. Showscan měnil rychlost snímání i projekce zároveň, aby při nezměněné délce zvýšil časové rozlišení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1262",
+      "verdict": "accept",
+      "compared_ids": [
+        "1065"
+      ],
+      "reason": "Dělený střih posouvá zvuk a obraz v čase. Pillow Talk skládá dvě různá místa vedle sebe do jednoho společného obrazu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1263",
+      "verdict": "accept",
+      "compared_ids": [
+        "949"
+      ],
+      "reason": "Reuleauxův útvar má invariant šířky. Cevova věta je podmínka souběhu tří spojnic vyjádřená poměry úseků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1264",
+      "verdict": "accept",
+      "compared_ids": [
+        "1066"
+      ],
+      "reason": "Pick počítá obsah z mřížových bodů. Van Aubel popisuje rovnost délek a kolmost mezi středy čtverců pro obecnou čtveřici vrcholů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1265",
+      "verdict": "accept",
+      "compared_ids": [
+        "1067"
+      ],
+      "reason": "Počet řezů určuje maximum počtu oblastí. Josephova úloha hledá poslední pozici v pevném pořadí vyřazování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1266",
+      "verdict": "accept",
+      "compared_ids": [
+        "795"
+      ],
+      "reason": "Engelbart ukazuje myš jako ovladač v systému NLS. Zde jde o mechanismus odhadu posunu z časové řady obrazů povrchu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1267",
+      "verdict": "accept",
+      "compared_ids": [
+        "575"
+      ],
+      "reason": "Jansky z rušení identifikuje kosmický zdroj. Kroucená dvojlinka a diferenční vstup omezují rušení společné oběma vodičům.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1268",
+      "verdict": "accept",
+      "compared_ids": [
+        "1093"
+      ],
+      "reason": "Skokanská tyč dočasně uchovává mechanickou energii. Voštinový panel zvyšuje ohybovou tuhost oddálením lehkých nosných plášťů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1269",
+      "verdict": "accept",
+      "compared_ids": [
+        "1040"
+      ],
+      "reason": "Jízda v háku vysvětluje aerodynamickou úsporu. Keirin má samotný přechod od předepsaného řízení tempa k volnému sprintu zakotvený v pravidlech.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1270",
+      "verdict": "accept",
+      "compared_ids": [
+        "380"
+      ],
+      "reason": "Bannisterův pokus je individuální čas podpořený vodiči. Stíhačka staví soupeře na protilehlá místa a průběh či ukončení jízdy závisí i na jejich dojetí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1271",
+      "verdict": "accept",
+      "compared_ids": [
+        "1090"
+      ],
+      "reason": "U curlingu mění spoluhráči povrch před vypuštěným kamenem. Ve skeletonu ovládá saně přímo ležící jezdec zatížením a polohou těla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

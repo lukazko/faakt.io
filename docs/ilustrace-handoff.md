@@ -1,5 +1,15 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1222–1271 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 271 příspěvků, 1 228 různých poznatků a 15 kategorií**. Přibyly čtyři příspěvky v každé z kategorií Historie, Filozofie, Biologie, Umění a Literatura. V každé ze zbývajících deseti kategorií přibyly tři. Plán, úplné návrhy se dvěma odkazy na příspěvek a redakční schválení jsou v `reports/batch-1222-1271-*`.
+
+Všech 50 nových příspěvků má průhledný RGBA WebP 640×360 v kartě i galerii. Nové obrázky mají dohromady 1 115 306 B a každý má průhledné rohy a méně než 100 kB. Manifest obsahuje odeslané prompty, otisky souborů a metadat, alfa hranice a poznámky k motivům. U pěti příspěvků byl po kontrole zvolen čitelnější nebo věcně přesnější motiv. U 1234 je zelená látka bez obdélníkového výřezu, u 1253 Neptun s Tritonem bez zavádějících šipek, u 1260 dobová kamera bez promítaného paprsku, u 1264 jeden čtverec přiložený ke straně čtyřúhelníku a u 1270 jeden závodník na startu. Některé motivy mají více ploch či jemnější modelaci, například pohřební portrét u 1236.
+
+Všechny ilustrace byly prohlédnuty při 160×90 a 320×180 na základním gradientu i s CardGlow. Chromium při 390×844 ověřilo všech 50 karet včetně obrázku, celého úvodu, otočení, úplného textu a rozbalení obou zdrojů. Galerie zobrazila odpovídající titulky a načetla všechny nové obrázky. Vybrané karty byly ověřeny také při 390×500 a 1440×1000. Viditelná mezera od kresby k úvodu při 390×844 je 19–24 CSS px. [Lokální feed od ID 1222](http://127.0.0.1:5173/faakt.io/?order=id&post=1222).
+
+Významový index ověřil všech 1 271 záznamů. Deterministický náhled navrhl změny scén u 1236 a 1259. Zůstaly u objektu, protože zobrazují namalovanou desku a skupinu kartiček s tvářemi. Prošlo 13 projektových testů, 17 samostatných testů významového indexu a produkční sestavení. Výstup obsahuje všech 50 nových statických stránek a shodné obrazové soubory. Sestavení hlásí stávající upozornění Svelte na přístupnost a na velikost balíčku vývojové galerie.
+
 ## Dávka 1192–1221 napříč všemi kategoriemi
 
 Aplikace obsahuje **1 221 příspěvků a 1 178 různých poznatků**. Dávka přidala sedm příspěvků do Filozofie a po dvou do Historie, Biologie, Umění, Literatury, Fyziky, Chemie, Vesmíru, Kinematografie a Sportu. Po jednom přibylo ve Společnosti, Ekonomii, Psychologii, Matematice a Technologiích. Každý nový příspěvek má dva zdroje. Plán, finální texty a redakční schválení jsou v `reports/batch-1192-1221-*`.
