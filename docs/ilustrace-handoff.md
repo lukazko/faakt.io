@@ -1,5 +1,15 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1272–1301 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 301 příspěvků, 1 258 různých poznatků a 15 kategorií**. Nová dávka zahrnuje osm příspěvků o starověké filozofii a 22 z ostatních kategorií. Každý příspěvek má dva ověřené zdroje. Plán, úplné návrhy a redakční schválení jsou v `reports/batch-1272-1301-*`.
+
+Všech 30 ilustrací vzniklo ve vestavěném ImageGen s požadavkem na průhledné pozadí. Nástroj neumožňoval nastavit rozměry ani kvalitu generování. Finální RGBA WebP 640×360 mají průhledné rohy a velikost 11 740–41 554 B, dohromady 631 382 B. Manifest galerie uchovává skutečné prompty, otisky SHA-256 metadat a souborů, alfa okraje a poznámky z kontroly. Po první kontrole byl u 1285 upřesněn portrét Clarissy Dallowayové a u 1297 nahrazen zalomený čtyřúhelník vepsaným obdélníkem, který článek používá jako příklad Ptolemaiovy věty.
+
+Obrázky byly zkontrolovány při 160×90 a 320×180 na základním gradientu i s CardGlow. Chromium při 390×844 ověřilo u všech 30 karet obrázek, celý úvod, otočení, úplný text a rozbalení zdrojů. Vzdálenost dolního okraje viditelné kresby od úvodu byla 18,5–23,5 CSS px. Vybrané karty prošly kontrolou také při 390×500 a 1440×1000. Galerie načetla všech 30 nových obrázků pod odpovídajícími titulky. [První nová karta v lokálním náhledu](http://127.0.0.1:5173/faakt.io/post/1272/).
+
+Významový index ověřil všech 1 301 záznamů. Deterministický náhled navrhl zařadit Fresnelovu čočku u 1300 jako scénu s prostředím. Ilustrace zůstala označená jako samostatný objekt, protože zobrazuje jen čočku. Prošlo 13 projektových testů, 17 samostatných testů významového indexu a produkční sestavení. Ve výstupu je všech 30 nových statických stránek a shodné obrazové soubory. Při sestavení se zobrazila stávající upozornění na přístupnost v komponentách karty a na velikost balíčku galerie.
+
 ## Dávka 1222–1271 napříč všemi kategoriemi
 
 Aplikace obsahuje **1 271 příspěvků, 1 228 různých poznatků a 15 kategorií**. Přibyly čtyři příspěvky v každé z kategorií Historie, Filozofie, Biologie, Umění a Literatura. V každé ze zbývajících deseti kategorií přibyly tři. Plán, úplné návrhy se dvěma odkazy na příspěvek a redakční schválení jsou v `reports/batch-1222-1271-*`.

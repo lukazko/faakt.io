@@ -1,0 +1,367 @@
+{
+  "snapshot": "f543618152a9d0be42ffe3ef0e1f9267cec071c2b9e6ea0d51ec2ca37c866473",
+  "catalog_reviewed": "f543618152a9d0be42ffe3ef0e1f9267cec071c2b9e6ea0d51ec2ca37c866473",
+  "drafts_hash": "c5d8550e1a6913b1f44ac2f2ee85dc71da2b25d02aba2550eb22411feefd907b",
+  "decisions": [
+    {
+      "id": "1272",
+      "verdict": "accept",
+      "compared_ids": [
+        "17",
+        "66"
+      ],
+      "reason": "Text 17 určuje ctnost mezi krajnostmi a 66 popisuje metodu otázek obecně. Zde se střetávají dva konkrétní testy vytrvalosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1273",
+      "verdict": "accept",
+      "compared_ids": [
+        "323"
+      ],
+      "reason": "Epikúros v 323 třídí touhy na tři druhy, zatímco zde jde o střet dvou měřítek dobrého života.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1274",
+      "verdict": "accept",
+      "compared_ids": [
+        "17",
+        "876"
+      ],
+      "reason": "17 řeší míru ctnostného jednání a 876 jednání proti úsudku. Nový text řeší mravní úlohu pocitu studu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1275",
+      "verdict": "accept",
+      "compared_ids": [
+        "264",
+        "759"
+      ],
+      "reason": "264 rozebírá omezení psaného média a 759 časování opakování. Nový text se zabývá chováním a pozorností při poslechu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1276",
+      "verdict": "accept",
+      "compared_ids": [
+        "264",
+        "776"
+      ],
+      "reason": "776 řeší soulad jmen a odpovídajících povinností, 264 omezení písma. Zde se porovnávají dvě doplňující se činnosti při učení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1277",
+      "verdict": "accept",
+      "compared_ids": [
+        "170",
+        "187"
+      ],
+      "reason": "170 popisuje nestranný ohled a 187 vyvratitelnost. Nový text sleduje trojí zkoušku učení o osudu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1278",
+      "verdict": "accept",
+      "compared_ids": [
+        "28",
+        "178"
+      ],
+      "reason": "28 vykládá čtyři pravdy a 178 váhu protichůdných tvrzení. Zde rozhoduje praktická relevance otázky před zahájením praxe.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1279",
+      "verdict": "accept",
+      "compared_ids": [
+        "28",
+        "1195"
+      ],
+      "reason": "28 líčí původ utrpení, 1195 přehodnocuje užitečnost stromu. Nový text se týká vztahu k učení po dosažení jeho účelu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1280",
+      "verdict": "accept",
+      "compared_ids": [
+        "384",
+        "1225"
+      ],
+      "reason": "384 čte otisk pohřební lodi a 1225 rekonstruuje hledání vraků. Zde jde o dobře doložený průběh ztroskotání při vyplutí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1281",
+      "verdict": "accept",
+      "compared_ids": [
+        "205",
+        "898"
+      ],
+      "reason": "205 srovnává porodnická oddělení a 898 situaci zásobování města. Zde mají hlavní roli prostorové údaje a údaje o užívání vody.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1282",
+      "verdict": "accept",
+      "compared_ids": [
+        "792"
+      ],
+      "reason": "792 popisuje přípravu horkého obranného sekretu brouka. Ropušník využívá vlastní krev, odlišnou část těla a jiný účinek na predátora.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1283",
+      "verdict": "accept",
+      "compared_ids": [
+        "1231"
+      ],
+      "reason": "1231 zkoumá vazbu kyslíku a výškový let dospělých hus. Zde prostředí ovlivňuje vývoj pohlaví před vylíhnutím.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1284",
+      "verdict": "accept",
+      "compared_ids": [
+        "469",
+        "859"
+      ],
+      "reason": "859 zmiňuje sfumato vedlejším způsobem, protože jeho hlavní poznatek se týká směru namalovaného pohledu. Nový text se samostatně věnuje modelaci objemu a rentgenově zkoumaným vrstvám, na rozdíl od dramatického kontrastu v 469.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1285",
+      "verdict": "accept",
+      "compared_ids": [
+        "1238",
+        "1239",
+        "1241"
+      ],
+      "reason": "1239 paroduje životopis a rozšiřuje trvání života, 1238 spouští vzpomínku chutí a 1241 řeší současnost a pořadí jazykového popisu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1286",
+      "verdict": "accept",
+      "compared_ids": [
+        "688"
+      ],
+      "reason": "Švejk z 688 odhaluje absurditu doslovnou poslušností. Bartleby zpochybňuje očekávání opakovaným odmítáním.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1287",
+      "verdict": "accept",
+      "compared_ids": [
+        "394",
+        "662"
+      ],
+      "reason": "394 vymezuje úroveň výkonu pravomocí, 662 právo veta v Radě bezpečnosti. Zde jde o dvě měřítka téhož hlasování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1288",
+      "verdict": "accept",
+      "compared_ids": [
+        "617",
+        "1001",
+        "1026"
+      ],
+      "reason": "617 vysvětluje zrcadlový odraz, 1001 vedení světla a 1026 rozptyl na prachu. Zde jde o postupný lom v teplotně rozvrstveném vzduchu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1289",
+      "verdict": "accept",
+      "compared_ids": [
+        "615",
+        "1210"
+      ],
+      "reason": "615 řeší růst amplitudy kmitání konstrukce a 1210 vedení zvuku. Zde se zviditelní prostorové uzly stojatého kmitání.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1290",
+      "verdict": "accept",
+      "compared_ids": [
+        "1056",
+        "1085"
+      ],
+      "reason": "1056 vysvětluje barvu barviv podle pH a 1085 pevnost sádry. Zde je barevná změna příznakem hydratace konkrétní soli.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1291",
+      "verdict": "accept",
+      "compared_ids": [
+        "395",
+        "1080",
+        "1109"
+      ],
+      "reason": "395 a 1109 řeší přetrvání kapaliny a růst krystalů. Zde je předmětem článku získání tepla krystalizací a opakované nabití ohřívače, na rozdíl od rozpouštění u 1080.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1292",
+      "verdict": "accept",
+      "compared_ids": [
+        "397",
+        "1253"
+      ],
+      "reason": "397 zkoumá teplo uvnitř Io a 1253 směr dráhy Tritonu. Zde se z průletu sondy odhaduje hmotnost a následně hustota.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1293",
+      "verdict": "accept",
+      "compared_ids": [
+        "915",
+        "1215"
+      ],
+      "reason": "915 řeší výtrysky z Enceladu, 1215 konvekci na Plutu. Zde se porovnávají odlišné typy zvrásněného terénu na Mirandě.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1294",
+      "verdict": "accept",
+      "compared_ids": [
+        "1028",
+        "1161"
+      ],
+      "reason": "1028 porovnává ceny podle ochoty platit a 1161 sousedské preference a segregaci. Nový text vysvětluje strategický výběr polohy prodejců.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1295",
+      "verdict": "accept",
+      "compared_ids": [
+        "714",
+        "919"
+      ],
+      "reason": "714 rozděluje pozornost mezi hlasy, 919 slučuje zrak a sluch. Zde se doplňuje chybějící zvuk z čistě sluchového kontextu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1296",
+      "verdict": "accept",
+      "compared_ids": [
+        "731",
+        "782",
+        "1129"
+      ],
+      "reason": "731 mění perspektivu kombinací jízdy a optiky, 782 skrývá střih a 1129 posouvá ostrost. Zde se mechanicky oddělují pohyby kamery a těla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1297",
+      "verdict": "accept",
+      "compared_ids": [
+        "1264"
+      ],
+      "reason": "1264 konstruuje vnější čtverce a porovnává jejich středy. Zde jde o vztah délek daný společnou kružnicí vrcholů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1298",
+      "verdict": "accept",
+      "compared_ids": [
+        "950",
+        "1263"
+      ],
+      "reason": "950 řeší nemožnost za stanovených konstrukčních podmínek, 1263 souběh spojnic. Morleyova věta zaručuje rovnost stran jinak utvořeného trojúhelníku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1299",
+      "verdict": "accept",
+      "compared_ids": [
+        "297",
+        "1211"
+      ],
+      "reason": "297 popisuje elektromagnetickou indukci a 1211 změnu energie pohybu v teplo. Zde jde o návrat části energie do akumulátoru.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1300",
+      "verdict": "accept",
+      "compared_ids": [
+        "544",
+        "1001"
+      ],
+      "reason": "544 líčí starověký maják, 1001 využívá úplný odraz v optickém vlákně. Zde je hlavním tématem konstrukce odstupňované čočky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1301",
+      "verdict": "accept",
+      "compared_ids": [
+        "983",
+        "984",
+        "985"
+      ],
+      "reason": "983 řeší standardizaci vzdálenosti, 984 přístup žen a 985 Zátopkovu trojici zlatých medailí. Bikilův příběh porovnává dvě vítězství a použitou výbavu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}
