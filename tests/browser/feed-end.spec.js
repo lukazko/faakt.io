@@ -21,7 +21,9 @@ for (const category of [null, 'historie']) {
 				await expect(end).not.toContainText('Teď už víš úplně všechno.');
 				await page.getByRole('button', { name: 'Nee, dej mi víc!' }).click();
 				await expect(page.locator('.card-wrapper')).toHaveCount(count);
-				await expect(page.locator('.is-active')).toHaveCount(1);
+				// The new cards render before the feed scrolls to the first new card.
+				await expect(page.locator('.loading-overlay')).toBeHidden();
+				await expect(page.locator('.card-wrapper').nth(20).locator('.is-active')).toHaveCount(1);
 				await feed.evaluate(el => { el.scrollTop = el.scrollHeight; });
 			}
 			if (category) {

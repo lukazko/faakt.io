@@ -15,6 +15,8 @@ for (const index of [5, 23, 42]) {
 			await feed.evaluate(el => { el.style.scrollBehavior = 'auto'; el.scrollTop = el.scrollHeight; });
 			await page.getByRole('button', { name: 'Nee, dej mi víc!' }).click();
 			await expect(page.locator('.card-wrapper')).toHaveCount(Math.min((batch + 1) * 20, 45));
+			// Po vykreslení karet feed ještě v dalším snímku posouvá na první novou kartu.
+			await expect(page.locator('.loading-overlay')).toBeHidden();
 		}
 		await feed.evaluate((el, index) => {
 			el.style.scrollBehavior = 'auto';
