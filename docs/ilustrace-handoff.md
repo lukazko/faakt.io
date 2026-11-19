@@ -1,5 +1,15 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1302–1331 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 331 příspěvků, 1 288 různých poznatků a 15 kategorií**. Dávka přidává osm textů ze starověké filozofie a 22 z ostatních kategorií. Každý příspěvek má dva nebo tři zdroje. Plán, hotové texty a redakční rozhodnutí jsou v `reports/batch-1302-1331-*`.
+
+Všech 30 nových ilustrací vzniklo ve vestavěném ImageGen s průhledným pozadím. Nástroj nenabízel nastavení rozměrů ani kvality generování. Finální RGBA WebP 640×360 mají průhledné rohy, nejméně 35 % zcela průhledné plochy a velikost 9 052–48 194 B, dohromady 739 348 B. Manifest uchovává odeslané prompty, původní metadata a jejich otisky, hashe obrázků a výsledek kontroly. U 1311 vznikla po kontrole mapa ústí Mississippi bez původního anachronického parníku. U 1328 doprovází text samostatný rovnostranný trojúhelník. První verze naznačovala nesprávné umístění trojúhelníku uvnitř výchozího útvaru. Některé historické scény používají více barevných ploch a vnitřních detailů, jejich hlavní motiv je čitelný v obou testovaných velikostech.
+
+Ilustrace prošly kontrolou při 160×90 a 320×180 na základním gradientu i se září CardGlow. Na všech 30 kartách v Chromium při 390×844 se ověřil titulek, celý úvod, vykreslená ilustrace, otočení na úplný text a rozbalení odkazů. Viditelná mezera od kresby k úvodu měřila 18,0–24,0 CSS px. Vybrané karty prošly také kontrolou při 390×500 a 1440×1000. [První nová karta v lokálním náhledu](http://127.0.0.1:5173/faakt.io/?order=id&post=1302).
+
+Významový index ověřil všech 1 331 záznamů. Deterministický náhled oprav navrhl stejné změny jako před přidáním dávky. Prošlo 13 projektových testů, 138 prohlížečových regresí a produkční sestavení. V sestavení je všech 30 nových statických stránek a shodné WebP soubory. V galerii bylo ověřeno dekódování všech 30 obrázků pod odpovídajícími titulky. Sestavení hlásí dřívější upozornění na přístupnost komponent karty a velikost balíčku galerie.
+
 ## Dávka 1272–1301 napříč všemi kategoriemi
 
 Aplikace obsahuje **1 301 příspěvků, 1 258 různých poznatků a 15 kategorií**. Nová dávka zahrnuje osm příspěvků o starověké filozofii a 22 z ostatních kategorií. Každý příspěvek má dva ověřené zdroje. Plán, úplné návrhy a redakční schválení jsou v `reports/batch-1272-1301-*`.
