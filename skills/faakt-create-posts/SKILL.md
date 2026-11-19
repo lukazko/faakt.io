@@ -24,7 +24,7 @@ Neukončuj běžný požadavek jen JSONem, metadaty, uloženými obrázky nebo s
 
 ## Zdroje a zadání
 
-- Přečti projektové konvence v [CLAUDE.md](../../CLAUDE.md) a přesné redakční zadání v [generovani-postu-handoff.md](../../docs/generovani-postu-handoff.md), včetně ukázkového JSON. Oba dokumenty platí společně s tímto skillem.
+- Přečti projektové konvence v [CLAUDE.md](../../CLAUDE.md) a přesné redakční zadání v [generovani-postu.md](../../prompts/generovani-postu.md), včetně ukázkového JSON. Oba dokumenty platí společně s tímto skillem.
 - **Úplná databáze existujících postů je [static/data/posts.json](../../static/data/posts.json).** Nepoužívej zálohy ani kopie v build adresářích. Databázi vždy načti z aktuálního pracovního stromu.
 - Zdroj platných kategorií je [src/lib/categories.js](../../src/lib/categories.js). Při rozporu mezi kódem a dokumentací rozpor vyřeš před odevzdáním.
 - Počet převezmi ze zadání; pokud chybí a nelze jej odvodit z kontextu, vyžádej si jej. Neuvedené tematické omezení znamená výběr napříč kategoriemi. První volné ID odvoď z nejvyššího číselného ID v celé databázi, nikoli z počtu záznamů či poslední pozice. ID jsou řetězce bez úvodních nul (například `1`, `99`, `1000`); mezery v číslování nezaplňuj. Zadané ID musíš ověřit proti databázi.

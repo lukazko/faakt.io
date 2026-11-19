@@ -61,7 +61,7 @@ export function illustrationLayoutPlugin() {
 			const layouts = await scanIllustrations(directory, cache);
 			return `export const illustrationLayouts = ${JSON.stringify(layouts)};`;
 		},
-		configureServer(server) {
+		async configureServer(server) {
 			// New and replaced illustrations update a running dev server as well.
 			server.watcher.on('all', (event, file) => {
 				if (!['add', 'change', 'unlink'].includes(event) || path.dirname(path.resolve(file)) !== directory || !/^[1-9]\d*\.webp$/.test(path.basename(file))) return;
@@ -70,6 +70,9 @@ export function illustrationLayoutPlugin() {
 				if (module) server.moduleGraph.invalidateModule(module);
 				server.ws.send({ type: 'full-reload' });
 			});
+
+			// Warm the cache before listening so a cold scan cannot time out Vite's SSR loader.
+			await scanIllustrations(directory, cache);
 		}
 	};
 }

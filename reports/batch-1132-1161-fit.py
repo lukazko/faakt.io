@@ -6,7 +6,7 @@ entries=json.loads(Path(str(pre)+'-images.json').read_text(encoding='utf-8'))
 results=[]
 for e in entries:
  dest=Path(f"static/illustrations-ai/{e['id']}.webp")
- if not dest.exists():subprocess.run(['python','skills/faakt-illustrations/scripts/fit-image.py','--input',e['path'],'--output',str(dest)],check=True,capture_output=True)
+ if not dest.exists():subprocess.run(['python','scripts/illustrations/fit-image.py','--input',e['path'],'--output',str(dest)],check=True,capture_output=True)
  im=Image.open(dest).convert('RGBA');a=im.getchannel('A')
  assert im.size==(640,360)
  corners=[a.getpixel(xy) for xy in [(0,0),(639,0),(0,359),(639,359)]]

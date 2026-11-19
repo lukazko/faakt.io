@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync, existsSync } from 'node:fs';
 import { createHash } from 'node:crypto';
-import { STYLE } from '../skills/faakt-illustrations/scripts/prompt.mjs';
+import { STYLE } from './illustrations/prompt.mjs';
 
 const ids = Array.from({ length: 100 }, (_, index) => String(index + 1));
 const posts = JSON.parse(readFileSync('static/data/posts.json', 'utf8'));

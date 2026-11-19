@@ -1,3 +1,10 @@
+---
+description: Přidá nové ověřené příspěvky do faakt.io včetně ilustrací a místního testu.
+argument-hint: [počet a případné téma]
+---
+
+Při spuštění z chatu použij počet a téma z argumentů jako zadání dávky.
+
 # Zadání pro AI agenta: nové příspěvky faakt.io
 
 Jsi editor obsahu aplikace faakt.io. Vytváříš nové, čtivé příspěvky v češtině založené výhradně na ověřitelných skutečnostech. Při práci v repozitáři standardně dokonči celý postup: obsah, vložení do databáze, skutečné ilustrace, zapojení do karet a galerie, kontroly a běžící aplikaci pro lokální test. Podrobný postup a podmínky dokončení určuje [faakt-create-posts](../skills/faakt-create-posts/SKILL.md). Na ilustrace ani lokální spuštění se znovu neptej; jsou součástí běžného požadavku na nové posty. Výslovné zadání pouze návrhů, textů nebo JSON má přednost. Veřejné nasazení není součástí lokálního testu.
@@ -8,9 +15,9 @@ Přenositelný postup pro libovolného AI agenta je v [skills/faakt-create-posts
 
 Potřebuješ znát počet příspěvků; pokud chybí a nelze jej odvodit ze zadání, vyžádej si jej. Není-li kategorie omezena, vybírej napříč kategoriemi. První volné ID odvoď jako nejvyšší číselné ID v celé aktuální databázi plus jedna, nikoli z počtu záznamů či pořadí v souboru. ID jsou řetězce bez úvodních nul (například `1`, `99`, `1000`). Zadané počáteční ID ověř proti databázi; neodhaduj jeho dostupnost a nezaplňuj mezery v číslování.
 
-**Nový příspěvek nesmí znovu pokrýt hlavní myšlenku již existujícího článku.** Jiný titulek, autor, příklad ani kategorie z něj nedělají nový poznatek. Použij ověřený významový index podle [docs/post-knowledge.md](post-knowledge.md): spusť `python scripts/post-knowledge.py status`, přečti celý stránkovaný kompaktní `catalog`, vyhledej kandidáty přes `search` a celé blízké články otevři přes `show`. Celé nezměněné články s platně ověřenými metadaty není nutné opakovaně číst. Chybějící nebo zastaralé záznamy zkontroluj z plného textu přes `review-batch`.
+**Nový příspěvek nesmí znovu pokrýt hlavní myšlenku již existujícího článku.** Jiný titulek, autor, příklad ani kategorie z něj nedělají nový poznatek. Použij ověřený významový index podle [docs/post-knowledge.md](../docs/post-knowledge.md): spusť `python scripts/post-knowledge.py status`, přečti celý stránkovaný kompaktní `catalog`, vyhledej kandidáty přes `search` a celé blízké články otevři přes `show`. Celé nezměněné články s platně ověřenými metadaty není nutné opakovaně číst. Chybějící nebo zastaralé záznamy zkontroluj z plného textu přes `review-batch`.
 
-Povinná brána originality je popsána ve skillu v části „Povinná brána originality“ a v [post-knowledge.md](post-knowledge.md). Přečti také [známé duplicity](../skills/faakt-create-posts/references/duplicity.md). Pro každý námět nejprve připrav pracovní `knowledge`, blízká přečtená ID a konkrétní rozdíl v poznatku; plán ověř pomocí `check-plan`. Po napsání znovu porovnej celé hotové texty, jejich pointy a ostatní návrhy, ověř zdroje a použij `check-drafts`. Zápis přes `append` vyžaduje aktuální otisky katalogu a návrhů i doložené finální rozhodnutí. Automatické skóre podobnosti ani nové `idea` nejsou sémantický verdikt.
+Povinná brána originality je popsána ve skillu v části „Povinná brána originality“ a v [post-knowledge.md](../docs/post-knowledge.md). Přečti také [známé duplicity](../skills/faakt-create-posts/references/duplicity.md). Pro každý námět nejprve připrav pracovní `knowledge`, blízká přečtená ID a konkrétní rozdíl v poznatku; plán ověř pomocí `check-plan`. Po napsání znovu porovnej celé hotové texty, jejich pointy a ostatní návrhy, ověř zdroje a použij `check-drafts`. Zápis přes `append` vyžaduje aktuální otisky katalogu a návrhů i doložené finální rozhodnutí. Automatické skóre podobnosti ani nové `idea` nejsou sémantický verdikt.
 
 ## Významová metadata pracovního návrhu
 

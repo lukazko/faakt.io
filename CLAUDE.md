@@ -97,7 +97,7 @@ Hook se vždy zobrazuje celý a nesmí končit výpustkou (`…` ani `...`) kvů
 9. **Hook na přední straně karty**: první odstavec (`<p>`) nového příspěvku má 2–3 smysluplné věty, nikoli jedinou větu. Zobrazuje se na přední straně karty, která s jednovětým úvodem působí příliš prázdně. Úvodní otázku či překvapivé tvrzení rozveď konkrétním kontextem nebo napětím; nepřidávej výplň jen kvůli délce. Další odstavce mohou mít 1–3 věty.
 
 ## Zadání pro externí AI agenty
-- Přenositelný prompt pro tvorbu nových příspěvků je v `docs/generovani-postu-handoff.md`.
+- Přenositelný prompt pro tvorbu nových příspěvků je v `prompts/generovani-postu.md`.
 - **Při každé změně datové struktury příspěvků, způsobu jejich generování nebo redakčních pravidel obsahu aktualizuj tento soubor ve stejné změně.** Udržuj v souladu ukázkový JSON, datové typy a povolené hodnoty včetně kategorií a ilustračních metadat.
 - Nové příspěvky obsahují `illustration` se všemi poli a pravidly uvedenými v zadání; metadata musí vycházet z titulku i celého obsahu.
 

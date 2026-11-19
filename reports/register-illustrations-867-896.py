@@ -61,7 +61,7 @@ for post in posts:
         fix=read(f'reports/illustration-{id}-correction.json')
         original_target=root/f'reports/illustration-{id}-original.webp'
         if not original_target.exists():
-            subprocess.run(['python',str(root/'skills/faakt-illustrations/scripts/fit-image.py'),'--input',fix['originalPath'],'--output',str(original_target)],check=True)
+            subprocess.run(['python',str(root/'scripts/illustrations/fit-image.py'),'--input',fix['originalPath'],'--output',str(original_target)],check=True)
         item['preparedOriginalPrompt']=prompt
         item['previousVersion']={'image':str(original_target.relative_to(root)).replace('\\','/'),'generationSource':fix['originalPath'],'generationSourceSha256':sha(fix['originalPath']),'prompt':prompt,'promptHash':job['promptHash'],'imageSha256':sha(original_target),'review':{'status':'rejected-background' if id=='868' else 'rejected-semantics','reason':fix['reason']}}
         prompt=fix['prompt']

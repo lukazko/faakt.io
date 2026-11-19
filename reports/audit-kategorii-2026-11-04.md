@@ -22,4 +22,4 @@ Biologie zahrnuje organismy, evoluci, genetiku, fyziologii, nemoci, prevenci, l�
 
 Historie používá modrou barvu `#60a5fa`, odlišenou od oranžových prvků aplikace. Neznámé kategoriové filtry se normalizují na smíšený feed. Přesahy mezi obory zachycují existující řízené tagy.
 
-Podrobný přehled finálních kategorií a ID přeřazených příspěvků je v `category-migration-2026-11-04.json`. Při přerozdělení se měnila pouze pole `category`; obsah příspěvků, zdroje a ilustrační metadata zůstaly zachovány. Aktuální redakční pravidla jsou v `CLAUDE.md` a `docs/generovani-postu-handoff.md`.
+Podrobný přehled finálních kategorií a ID přeřazených příspěvků je v `category-migration-2026-11-04.json`. Při přerozdělení se měnila pouze pole `category`; obsah příspěvků, zdroje a ilustrační metadata zůstaly zachovány. Aktuální redakční pravidla jsou v `CLAUDE.md` a `prompts/generovani-postu.md`.

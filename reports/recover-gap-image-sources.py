@@ -1,7 +1,7 @@
 import contextlib,hashlib,importlib.util,io,json,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
-spec=importlib.util.spec_from_file_location('fit',ROOT/'skills/faakt-illustrations/scripts/fit-image.py')
+spec=importlib.util.spec_from_file_location('fit',ROOT/'scripts/illustrations/fit-image.py')
 fit=importlib.util.module_from_spec(spec);spec.loader.exec_module(fit)
 cfg=json.loads((ROOT/'reports/posts-gap-image-inputs.json').read_text())
 records=[json.loads(p.read_text()) for p in (ROOT/'reports').glob('gap-image-*.json')]
