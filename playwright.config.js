@@ -15,7 +15,8 @@ export default defineConfig({
 	projects: [
 		{ name: 'android-chromium', use: { ...devices['Pixel 7'] } },
 		{ name: 'iphone-webkit', use: { ...devices['iPhone 13'] } },
-		{ name: 'desktop-chromium', use: { ...devices['Desktop Chrome'] } }
+		{ name: 'desktop-chromium', use: { ...devices['Desktop Chrome'] } },
+		...(process.env.TEST_FIREFOX ? [{ name: 'desktop-firefox', use: { ...devices['Desktop Firefox'] } }] : [])
 	],
 	webServer: {
 		timeout: 180_000,

@@ -137,6 +137,31 @@ test('front share button uses the front face for backface culling', async ({ pag
 	}
 });
 
+test('more options stays on its own face during the return flip', async ({ page, browserName }) => {
+	const card = page.locator('.is-active');
+	for (const side of ['front', 'back']) {
+		const controls = card.locator(`.card-${side} .more-controls`);
+		await expect(controls).toHaveCSS('z-index', 'auto');
+		await expect(controls.locator('.more-btn')).toHaveCSS('backface-visibility', 'visible');
+		await expect(controls.locator('.more-btn')).toHaveCSS('z-index', 'auto');
+	}
+
+	if (browserName === 'webkit') return; // See the front-share screenshot test.
+	await flip(page);
+	await card.locator('.back-scroll').press('Escape');
+	await expect(card).not.toHaveClass(/flipped/);
+	const fixedAngle = await page.addStyleTag({ content: `
+		.is-active .card-stage { transition: none; animation: none; transform: rotateY(135deg); }
+		.is-active .card-back { transition: none; visibility: visible; }
+	` });
+	const normal = await page.screenshot();
+	const withoutFront = await page.screenshot({ style: '.is-active .card-front .more-btn { opacity: 0; }' });
+	const withoutBack = await page.screenshot({ style: '.is-active .card-back .more-btn { opacity: 0; }' });
+	expect(normal.equals(withoutFront)).toBe(true);
+	expect(normal.equals(withoutBack)).toBe(false);
+	await fixedAngle.evaluate(style => style.remove());
+});
+
 for (const reducedMotion of ['no-preference', 'reduce']) {
 	test(`outgoing face stays hidden after repeated flips (${reducedMotion})`, async ({ page }) => {
 		await page.emulateMedia({ reducedMotion });
