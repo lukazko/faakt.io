@@ -17,6 +17,7 @@ test('progress reaches 100% on load more and updates for the next batch', async 
 	await expect(page.locator('.dev-post-badge')).toContainText('konec');
 	await page.getByRole('button', { name: 'Nee, dej mi víc!' }).click();
 	await expect(page.locator('.card-front')).toHaveCount(40);
+	await expect(page.locator('.loading-overlay')).toBeHidden();
 	await expect.poll(() => progress.evaluate(el => el.style.width)).toBe('50%');
 	await page.locator('.feed-container').evaluate(el => { el.scrollTop = 0; });
 	await expect.poll(() => progress.evaluate(el => el.style.width)).toBe('0%');
