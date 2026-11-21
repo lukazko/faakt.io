@@ -1,5 +1,19 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1362–1401 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 401 příspěvků a 1 358 různých poznatků**. Dávka pokrývá všech 15 kategorií a odkazuje na 80 zdrojů. Plán, úplné texty a závěrečná rozhodnutí o originalitě jsou v `reports/batch-1362-1401-*`.
+
+Všech 40 ilustrací vzniklo ve vestavěném ImageGenu s průhledným pozadím a je zapojených do produkčních karet a galerie. Finální RGBA WebP mají 640×360 px, průhledné rohy a nejméně 36,6 % zcela průhledné plochy. Velikost je 8 776–46 814 B, celkem 873 416 B. Nástroj nenabízel nastavení rozměrů ani kvality generování. Manifest uchovává skutečné prompty, metadata a otisky výsledných souborů.
+
+Motivy byly prohlédnuty při 160×90 a 320×180 px na základním gradientu i s CardGlow. U 1372 byly lépe rozlišeny dvě měřicí tyče, u 1375 upraven vzhled dokladu amerického ministerstva financí a u 1390 zobrazena pouze šestibodová strana kostky. Deterministický náhled navrhl u 1393 scénu typu proces. Ilustrace zachycuje statické porovnání pozic v řadě, proto zůstává diagramem.
+
+Chromium při 390×844 ověřilo všech 40 karet včetně celého úvodu, vykreslené ilustrace, otočení a rozbalení obou zdrojů. Viditelná mezera od kresby k úvodu byla 19,0–24,0 CSS px. Vybrané karty prošly kontrolou při 390×500 a 1440×1000. V galerii se načetlo všech 40 ilustrací se správnými titulky. [Lokální feed od ID 1362](http://127.0.0.1:5173/faakt.io/?order=id&post=1362).
+
+Významový index ověřil 1 401 záznamů. Prošlo 13 projektových testů, 17 testů významového indexu a produkční sestavení. Statický výstup obsahuje všech 40 nových stránek a obrazové soubory se shodnými otisky. Sestavení hlásí upozornění Svelte na přístupnost karet a Vite na velikost balíčku galerie.
+
+V prvním běhu prohlížečových regresí prošlo 134 ze 138 případů. Čtyři překročily časový limit při načítání karty nebo čekání na animaci. Opakovaná kontrola stejných scénářů v obou profilech Chromia prošla ve všech osmi případech.
+
 ## Dávka 1332–1361: záhady, medicína, umění a sportovní rekordy
 
 Aplikace obsahuje **1 361 příspěvků a 1 318 různých poznatků**. Nová dávka má po šesti textech o historických záhadách, neobvyklých zdravotních stavech a fobiích, intimním životě výtvarných umělců, nepřekonaných sportovních rekordech a otevřených otázkách fyziky a astronomie. Plán, texty a kontrola originality jsou v `reports/batch-1332-1361-*`. Texty odkazují celkem na 62 zdrojů.
