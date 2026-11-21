@@ -1,5 +1,17 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1332–1361: záhady, medicína, umění a sportovní rekordy
+
+Aplikace obsahuje **1 361 příspěvků a 1 318 různých poznatků**. Nová dávka má po šesti textech o historických záhadách, neobvyklých zdravotních stavech a fobiích, intimním životě výtvarných umělců, nepřekonaných sportovních rekordech a otevřených otázkách fyziky a astronomie. Plán, texty a kontrola originality jsou v `reports/batch-1332-1361-*`. Texty odkazují celkem na 62 zdrojů.
+
+Všech 30 ilustrací vzniklo ve vestavěném ImageGen a má průhledný WebP 640×360 v kartě i galerii. Mají průhledné rohy, nejméně 49,6 % zcela průhledné plochy a velikost 6 512–44 962 B, celkem 673 664 B. Manifest uchovává odeslané prompty, otisky metadat i souborů a průběh oprav. U 1350, 1352 a 1353 byly po kontrole upřesněny postavy atletů. Nástroj nenabízel nastavení rozměrů ani kvality generování.
+
+Motivy byly prohlédnuty při 160×90 a 320×180 na základním gradientu i se září CardGlow. U 1337 je kvůli rozpoznatelnosti brigantiny podrobněji vykresleno lanoví. U 1357 a 1358 ilustrují spektrální pás a sprška částic princip měření. V galerii se načetlo všech 30 obrázků se správnými titulky.
+
+Chromium při 390×844 ověřilo u všech 30 karet titulek, celý úvod, ilustraci, otočení a rozbalení všech zdrojů. Viditelná mezera mezi kresbou a úvodem byla 18,5–22,5 CSS px. Vybrané karty prošly také kontrolou při 390×500 a 1440×1000. Při nízkém okně je celý úvod dostupný posunem uvnitř karty. [Lokální feed od ID 1332](http://127.0.0.1:5173/faakt.io/?order=id&post=1332).
+
+Významový index ověřil všech 1 361 záznamů. Deterministický náhled navrhl u 1341 a 1348 portrétní scénu. Zvolená interakce odpovídá vztahu postavy k talíři či zrcadlu, takže metadata zůstala v této podobě. Prošlo 13 projektových testů, 17 testů významového indexu a produkční sestavení. Statický výstup obsahuje všech 30 nových stránek a shodné WebP soubory. Při sestavení se zobrazila stávající upozornění Svelte a upozornění na velikost balíčku galerie.
+
 ## Dávka 1302–1331 napříč všemi kategoriemi
 
 Aplikace obsahuje **1 331 příspěvků, 1 288 různých poznatků a 15 kategorií**. Dávka přidává osm textů ze starověké filozofie a 22 z ostatních kategorií. Každý příspěvek má dva nebo tři zdroje. Plán, hotové texty a redakční rozhodnutí jsou v `reports/batch-1302-1331-*`.

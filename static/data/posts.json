@@ -46737,5 +46737,973 @@
       "mood": "dynamic",
       "palette": "blue_gold"
     }
+  },
+  {
+    "id": "1332",
+    "title": "Třináct děl zmizelo. V Gardnerově muzeu zůstaly prázdné rámy",
+    "content": "<p>V bostonském muzeu visí zlaté rámy, v nichž návštěvníci žádný obraz neuvidí. Připomínají noc 18. března 1990, kdy ze sbírky Isabelly Stewart Gardnerové zmizelo třináct děl.</p><p>Zloději odnesli Vermeerův <em>Koncert</em>, Rembrandtovu <em>Bouři na Galilejském jezeře</em>, několik Degasových prací na papíře i dva předměty, které obrazy vůbec nebyly. Chybí mezi nimi stará čínská bronzová nádoba a ozdobný orel z napoleonské zástavy.</p><p>Muzeum vrátilo prázdné rámy na místa, kde předtím visely obrazy. Návštěvník díky nim vidí, jak krádež zasáhla konkrétní místnost. Návrat děl muzeum stále spojuje s veřejnou výzvou k jejich nalezení.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Gardnerovo muzeum – odcizená díla",
+        "url": "https://www.gardnermuseum.org/about/theft"
+      },
+      {
+        "label": "FBI – případ Gardnerova muzea",
+        "url": "https://www.fbi.gov/history/cases-and-criminals/isabella-stewart-gardner-museum-heist"
+      }
+    ],
+    "illustration": {
+      "concept": "A pair of visibly empty ornate gilt picture frames as an emblem of the Boston museum’s missing works.",
+      "scene_type": "object",
+      "primary_subject": "open_gilt_picture_frames",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "open_frame_centers",
+        "baroque_rectangles",
+        "gold_corner_molding"
+      ],
+      "composition_hints": [
+        "one_large_frame_and_one_smaller_frame"
+      ],
+      "mood": "mysterious",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1333",
+    "title": "Bankovky prozradily únos. Muže jménem Cooper ne",
+    "content": "<p>V roce 1971 zmizel po únosu amerického dopravního letadla muž, který se představil jako Dan Cooper. O devět let později se v písku u řeky Columbia našla část peněz, které dostal jako výkupné.</p><p>FBI porovnala sériová čísla a potvrdila, že 5 800 dolarů patřilo k původnímu výkupnému ve výši 200 000 dolarů. Nález tak měl jednoznačnou vazbu na únos, ačkoli z něj vyšetřovatelé nedokázali vyčíst, kudy se peníze k řece dostaly.</p><p>V tisku se mezitím pro neznámého muže vžilo označení D. B. Cooper. FBI v roce 2016 ukončila aktivní vyšetřování. Jeho totožnost ani osud se nepodařilo prokázat.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "FBI – únos letu 305 a nález bankovek",
+        "url": "https://www.fbi.gov/history/cases-and-criminals/db-cooper-hijacking"
+      },
+      {
+        "label": "FBI – stav vyšetřování z roku 2016",
+        "url": "https://www.fbi.gov/contact-us/field-offices/seattle/news/press-releases/update-on-investigation-of-1971-hijacking-by-d.b.-cooper"
+      }
+    ],
+    "illustration": {
+      "concept": "A crumbling bundle of old US banknotes half buried in a small patch of river sand, evidence from the Cooper case.",
+      "scene_type": "object",
+      "primary_subject": "weathered_banknote_bundle",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "paper_fragments",
+        "layered_bill_edges",
+        "pale_river_sand"
+      ],
+      "composition_hints": [
+        "bundle_peeking_out_of_sand"
+      ],
+      "mood": "mysterious",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1334",
+    "title": "Tři vězni zmizeli z Alcatrazu. Za břehem se jejich stopa ztrácí",
+    "content": "<p>Při ranní kontrole v červnu 1962 chyběli v celách věznice Alcatraz Frank Morris a bratři John a Clarence Anglinovi. Vyšetřovatelé brzy zjistili, že trojice uprchla. Otázkou zůstalo, jak daleko se dostala.</p><p>Alcatraz leží v Sanfranciském zálivu. Počátek pátrání se datuje k 12. červnu 1962. Pátrání ve vodě a na pobřeží přineslo mimo jiné pádlo a vodotěsný balíček s dopisy souvisejícími s uprchlíky. Tyto předměty napověděly, že se útěk dostal za zdi věznice, nepodaly však zprávu o osudu mužů.</p><p>FBI v roce 1979 případ předala službě U.S. Marshals. Mezi doloženým útěkem a jistotou, že ho vězni přežili, tak dodnes zůstává mezera.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "FBI – vyšetřování útěku z Alcatrazu",
+        "url": "https://www.fbi.gov/history/cases-and-criminals/alcatraz-escape"
+      },
+      {
+        "label": "U.S. Marshals – karta Johna Anglina",
+        "url": "https://www.usmarshals.gov/what-we-do/fugitive-apprehension/profiled-fugitives/john-william-anglin"
+      }
+    ],
+    "illustration": {
+      "concept": "Alcatraz island seen at a distance, compact prison silhouette above cold water in the San Francisco Bay.",
+      "scene_type": "environment",
+      "primary_subject": "alcatraz_island",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "rocky_island",
+        "low_prison_block",
+        "bay_water"
+      ],
+      "composition_hints": [
+        "island_above_two_broad_water_strokes"
+      ],
+      "mood": "mysterious",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "1335",
+    "title": "Tři děti odešly na pláž v Glenelgu a už se nevrátily",
+    "content": "<p>Jane, Arnna a Grant Beaumontovi strávili v lednu 1966 dopoledne u pláže v australském Glenelgu. Domů se nevrátili. Jejich zmizení se stalo jedním z nejdéle vyšetřovaných případů v Jižní Austrálii.</p><p>Jane bylo devět let, Arnně sedm a Grantovi čtyři. Pátrání začalo ještě téhož dne, 26. ledna. V následujících desetiletích se podle svědectví prověřovala různá místa, včetně pozemku někdejší továrny na předměstí Adelaide.</p><p>Na místě odborníci zkoumali podloží georadarem a měřením elektrického odporu půdy. Následoval výkop, který po dětech nepřinesl stopu. Průzkum umožnil prověřit jedno konkrétní místo. Osud sourozenců zůstává nejasný.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "NFSA – archiv případu Beaumontových",
+        "url": "https://www.nfsa.gov.au/collection/item/disappearance-beaumont-children"
+      },
+      {
+        "label": "Flinders University – terénní průzkum",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/38522323/"
+      },
+      {
+        "label": "ABC Australia – dokončení dalšího výkopu",
+        "url": "https://www.abc.net.au/news/2025-03-01/dig-for-beaumont-childrens-remains-concludes/104997388"
+      }
+    ],
+    "illustration": {
+      "concept": "Three sets of small footprints at the edge of a flat warm beach with a single shallow wave, a symbolic view of the Glenelg disappearance.",
+      "scene_type": "environment",
+      "primary_subject": "small_beach_footprints",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "three_footprint_trails",
+        "shallow_wave",
+        "flat_sand"
+      ],
+      "composition_hints": [
+        "footprints_approaching_the_waterline"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1336",
+    "title": "Zuby neznámé ženy z Isdalu prozradily část její minulosti",
+    "content": "<p>V listopadu 1970 bylo v norském údolí Isdalen u Bergenu nalezeno tělo neznámé ženy. Vyšetřovatelé zjistili, že v hotelech používala různá jména. Po desítkách let se objevil nový zdroj informací, její vlastní zuby.</p><p>Poměry izotopů v zubní sklovině se utvářejí v době, kdy zub roste. Mohou odrážet mimo jiné vodu a stravu v místě, kde člověk vyrůstal. Různé zuby tak mohou uchovat stopy z různých částí dětství.</p><p>Analýza skloviny pomohla zúžit pravděpodobnou oblast ženina původu v Evropě. Místa se stejnými izotopovými hodnotami však mohou ležet daleko od sebe. Chemická stopa proto nabídla směr dalšího pátrání, zatímco jméno ženy zůstalo neznámé.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Univerzita v Oslu – izotopy ze zubů ženy z Isdalu",
+        "url": "https://www.forskning.no/partner-universitetet-i-oslo-kriminalitet/tennene-til-isdalskvinnen-gir-nye-spor/1253079"
+      },
+      {
+        "label": "Švédský ústav soudního lékařství – zkoumání stáří vzorků",
+        "url": "https://www.rmv.se/aktuellt/rattsmedicinalverkets-forskning-lockade-norsk-tv-rattsmedicinalverket-c14-isdalskvinnan-bombpulsen/"
+      }
+    ],
+    "illustration": {
+      "concept": "An isolated ivory molar next to the corner of an archival case envelope, emblem of isotope work in the Isdal case.",
+      "scene_type": "object",
+      "primary_subject": "ivory_molar",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "rounded_crown",
+        "paired_roots",
+        "blank_archive_paper"
+      ],
+      "composition_hints": [
+        "tooth_dominates_over_small_paper_corner"
+      ],
+      "mood": "mysterious",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1337",
+    "title": "Mary Celeste našli plout bez jediného člověka",
+    "content": "<p>V prosinci 1872 narazila posádka lodi <em>Dei Gratia</em> v Atlantiku na opuštěnou brigantinu <em>Mary Celeste</em>. Loď zůstala na hladině, ale záchranný člun a všichni lidé na palubě zmizeli.</p><p>Na cestu z New Yorku do Janova vyplulo deset lidí včetně kapitána Benjamina Briggse, jeho ženy a malé dcery. Při nálezu byla v podpalubí voda, přesto brigantina unesla i převážnou část nákladu. Nálezci ji dokázali dopravit do Gibraltaru.</p><p>Při řízení o odměně za záchranu lodi se prověřovalo i podezření na zločin. Vyšetřování nepřineslo důkaz, který by rozhodl, proč lidé opustili palubu a co se s nimi stalo.</p>",
+    "category": "historie",
+    "sources": [
+      {
+        "label": "Smithsonian – nález lodi a vyšetřování",
+        "url": "https://www.smithsonianmag.com/history/abandoned-ship-the-mary-celeste-174488104/"
+      },
+      {
+        "label": "New Bedford Whaling Museum – dopisy kapitána Briggse a zachránců",
+        "url": "https://www.whalingmuseum.org/wp-content/uploads/2021/11/Old-Dartmouth-Historical-Sketches_No.74.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A small nineteenth-century sailing brigantine adrift with two masts and an empty visible deck.",
+      "scene_type": "environment",
+      "primary_subject": "mary_celeste_brigantine",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "two_masts",
+        "furled_sail_details",
+        "empty_deck"
+      ],
+      "composition_hints": [
+        "sailing_ship_over_a_single_broad_wave"
+      ],
+      "mood": "mysterious",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1338",
+    "title": "Nemoc, při níž kost roste i mimo kostru",
+    "content": "<p>Kost normálně vyrůstá tam, kde ji tělo potřebuje jako oporu. U vzácného dědičného onemocnění <em>fibrodysplasia ossificans progressiva</em> se však nová kost tvoří i ve svalech a dalších měkkých tkáních.</p><p>Na nemoc může upozornit už narození, protože pro ni bývají typické zkrácené a vychýlené palce u nohou. Později se mohou objevovat bolestivé otoky a postupně vznikat ložiska kostní tkáně. Některá přemostí kloub a omezí jeho pohyb.</p><p>Příčinou jsou změny genu <strong>ACVR1</strong>, který se podílí na řízení tvorby kostí. U části nemocných mohou nové epizody spustit i poranění. Pohyblivost tak může ubývat, přestože kostní hmoty v těle přibývá.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "GeneReviews – klinický a genetický přehled FOP",
+        "url": "https://www.ncbi.nlm.nih.gov/books/NBK558090/"
+      },
+      {
+        "label": "MedlinePlus Genetics – FOP a gen ACVR1",
+        "url": "https://medlineplus.gov/genetics/condition/fibrodysplasia-ossificans-progressiva/"
+      }
+    ],
+    "illustration": {
+      "concept": "A simple joint cross section with one extra ivory bridge of bone extending outside the usual skeleton, no gore.",
+      "scene_type": "diagram",
+      "primary_subject": "joint_with_extra_bone_bridge",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "rounded_bone_ends",
+        "extra_ivory_bridge",
+        "soft_tissue_shape"
+      ],
+      "composition_hints": [
+        "bone_bridge_connects_two_bone_ends"
+      ],
+      "mood": "neutral",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1339",
+    "title": "Kopřivka, kterou spustí i obyčejná voda",
+    "content": "<p>Voda ze sprchy může u člověka s akvagenní kopřivkou vyvolat svědivé pupeny. Stejnou reakci může spustit pot nebo slzy. Rozhodující je dotyk vody s kůží.</p><p>Pupeny se obvykle objeví během desítek minut, často na trupu nebo pažích, a po ukončení kontaktu postupně mizí. Tato forma kopřivky je vzácná. Při jejím zkoumání lékaři sledují, jestli se výsev objeví po kontaktu s vodou i za podmínek, které pomáhají odlišit reakci na chlad nebo teplo.</p><p>Mechanismus akvagenní kopřivky se stále zkoumá. Jedna z hypotéz počítá s tím, že voda umožní kontakt složek kůže s buňkami, které spustí kopřivkovou reakci.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "BMJ Case Reports – akvagenní kopřivka",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39532327/"
+      },
+      {
+        "label": "Klinická kazuistika akvagenní kopřivky",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32940373/"
+      }
+    ],
+    "illustration": {
+      "concept": "A few water drops on a pale forearm with several small raised pink wheals in their vicinity.",
+      "scene_type": "object",
+      "primary_subject": "forearm_with_water_and_wheals",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "curved_forearm",
+        "clear_droplets",
+        "raised_pink_wheals"
+      ],
+      "composition_hints": [
+        "water_drops_touch_the_upper_forearm"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1340",
+    "title": "Když má blízký člověk známou tvář, ale působí jako dvojník",
+    "content": "<p>Člověk s Capgrasovým bludem může být přesvědčený, že jeho partnera nahradil dvojník. Obličej vypadá povědomě, ale osoba před ním podle něj není ta, kterou zná.</p><p>V malé studii z roku 1997 vědci měřili kožní vodivost při pohledu na fotografie. U pěti lidí s Capgrasovým bludem nenašli obvyklou silnější tělesnou reakci na známé tváře v porovnání s neznámými.</p><p>Výsledek podpořil hypotézu, že zrakové rozpoznání a tělesný pocit důvěrné známosti se mohou oddělit. Podobnost s blízkým člověkem pak může působit znepokojivě. Samotné měření však nevysvětluje, proč si člověk tento pocit vyloží právě jako důkaz záměny.</p>",
+    "category": "psychologie",
+    "sources": [
+      {
+        "label": "Ellis a kol. – kožní vodivost a známé tváře",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/9263474/"
+      },
+      {
+        "label": "Studie Capgrasova bludu a rozpoznávání",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32540160/"
+      }
+    ],
+    "illustration": {
+      "concept": "Two matching adult faces in profile facing each other, with the same features and subtly different muted colors, a metaphor for Capgras misidentification.",
+      "scene_type": "portrait",
+      "primary_subject": "matching_face_profiles",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "matching_nose_profiles",
+        "similar_silhouettes",
+        "subtle_value_difference"
+      ],
+      "composition_hints": [
+        "faces_face_each_other_at_close_range"
+      ],
+      "mood": "contemplative",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1341",
+    "title": "Emetofobie může změnit jídelníček i plány na cestu",
+    "content": "<p>Zvracení je nepříjemné téměř každému. Při emetofobii však může už jeho představa rozhodovat o tom, zda se člověk nají v restauraci, nastoupí do autobusu nebo půjde na večírek.</p><p>Strach se může týkat vlastního zvracení, pohledu na zvracejícího člověka nebo obojího. Výzkumníci popsali, že někteří lidé kvůli obavám omezují jídelníček, opakovaně kontrolují potraviny nebo vynechávají místa, odkud by se jim obtížně odcházelo.</p><p>Významnou roli může hrát i pozornost věnovaná pocitům v žaludku. Úzkost totiž sama může přispět k nevolnosti, kterou si člověk vyloží jako známku blížícího se zvracení. Obava tak zasahuje i situace, ve kterých k němu vůbec nedojde.</p>",
+    "category": "psychologie",
+    "sources": [
+      {
+        "label": "Metaanalýza výzkumu emetofobie",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/40700922/"
+      },
+      {
+        "label": "Studie projevů a dopadů emetofobie",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32755944/"
+      }
+    ],
+    "illustration": {
+      "concept": "A fully dressed adult sitting tensely before an untouched plate, hands drawn back from the table, representing food avoidance.",
+      "scene_type": "interaction",
+      "primary_subject": "person_before_untouched_meal",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "tense_shoulders",
+        "untouched_plate",
+        "drawn_back_hands"
+      ],
+      "composition_hints": [
+        "seated_figure_with_plate_in_same_scene"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1342",
+    "title": "Hlasitá rána při usínání může vzniknout bez zvuku v pokoji",
+    "content": "<p>Člověk právě usíná a najednou slyší výstřel nebo prudké prásknutí. Okolí přitom může zůstat úplně tiché. Tento prožitek se označuje jako syndrom explodující hlavy.</p><p>Rána bývá náhlá a krátká. Objevuje se nejčastěji při usínání, někdy i při probouzení, a může ji doprovázet záblesk nebo výrazné leknutí. Typická epizoda sama o sobě nebolí.</p><p>Syndrom patří mezi parasomnie, tedy neobvyklé prožitky nebo projevy spojené se spánkem. Přesný mechanismus není známý. Název vystihuje sílu úleku a zdánlivý původ zvuku uvnitř hlavy.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Cleveland Clinic – syndrom explodující hlavy",
+        "url": "https://my.clevelandclinic.org/health/diseases/21907-exploding-head-syndrome-ehs"
+      },
+      {
+        "label": "Sharpless a kol. – studie projevů syndromu",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/32862013/"
+      }
+    ],
+    "illustration": {
+      "concept": "A person jolting awake on a pillow, with a single small pale jagged sound symbol near the head.",
+      "scene_type": "portrait",
+      "primary_subject": "startled_sleeper",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "pillow_edge",
+        "wide_eye",
+        "one_sound_burst"
+      ],
+      "composition_hints": [
+        "head_and_pillow_with_small_adjacent_symbol"
+      ],
+      "mood": "dramatic",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1343",
+    "title": "Při syndromu Alenky se skutečné věci zdají malé nebo obrovské",
+    "content": "<p>Hrnek na stole se zdá najednou daleko menší, ačkoli se na něm nic nezměnilo. Při syndromu Alenky v říši divů může mozek na chvíli změnit vnímané měřítko skutečných předmětů.</p><p>Když se věci zdají menší, říká se tomu <strong>mikropsie</strong>. Opačným jevem je makropsie. Zkreslení se může týkat i vzdálenosti nebo vlastního těla, takže třeba běžně velká ruka najednou působí nezvykle mohutně.</p><p>Podobné epizody popsali lékaři mimo jiné v souvislosti s migrénou. Zkušenost připomíná výjevy z knihy Lewise Carrolla, podle níž dostal syndrom jméno. Vnímání se může změnit přímo při sledování obyčejných věcí, které fyzicky zůstávají stejné.</p>",
+    "category": "biologie",
+    "sources": [
+      {
+        "label": "Cleveland Clinic – syndrom Alenky v říši divů",
+        "url": "https://my.clevelandclinic.org/health/diseases/24491-alice-in-wonderland-syndrome-aiws"
+      },
+      {
+        "label": "Jan Dirk Blom – systematický přehled syndromu",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/27347442/"
+      }
+    ],
+    "illustration": {
+      "concept": "An everyday teacup appearing improbably tiny next to a normal adult hand on the same simple tabletop.",
+      "scene_type": "interaction",
+      "primary_subject": "tiny_teacup_by_hand",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "tiny_cup",
+        "ordinary_hand",
+        "flat_table_edge"
+      ],
+      "composition_hints": [
+        "hand_reaches_toward_a_visually_tiny_cup"
+      ],
+      "mood": "playful",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1344",
+    "title": "Milostný dopis z místa, kde tvořili Claudelová a Rodin",
+    "content": "<p>Camille Claudelová a Auguste Rodin měli v údolí Loiry místo pro tajná setkání. Jeden z dopisů zachovaných v Musée Rodin vede právě na zámek L’Islette, kde se jejich milostný život potkával s prací.</p><p>Claudelová byla nejprve Rodinovou žačkou. Stala se jeho spolupracovnicí i milenkou a zanechala vlastní rozsáhlé sochařské dílo. Na L’Islette vytvořila podobiznu mladé dívky známou jako <em>La Petite Châtelaine</em>. Rodin tam mezitím pracoval s modelem pro sochu Honorého de Balzaca.</p><p>Vedle soch se z jejich vztahu dochovalo jen několik desítek dopisů. Díky korespondenci lze spojit jedno konkrétní místo s jejich soukromými schůzkami i se vznikem samostatných děl.</p>",
+    "category": "umeni",
+    "sources": [
+      {
+        "label": "Musée Rodin – dopis Claudelové Rodinovi",
+        "url": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/letter-camille-claudel-auguste-rodin"
+      },
+      {
+        "label": "Musée Rodin – dopis Rodina Claudelové",
+        "url": "https://www.musee-rodin.fr/en/musee/collections/oeuvres/letter-auguste-rodin-camille-claudel"
+      }
+    ],
+    "illustration": {
+      "concept": "A folded handwritten letter with unreadable strokes and a small sculptor’s modelling tool laid beside it, evoking the sculptors’ private correspondence and work.",
+      "scene_type": "object",
+      "primary_subject": "folded_sculptors_letter",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "folded_paper",
+        "short_ink_strokes",
+        "small_modelling_tool"
+      ],
+      "composition_hints": [
+        "modelling_tool_resting_along_the_fold"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_warm"
+    }
+  },
+  {
+    "id": "1345",
+    "title": "Frida Kahlo namalovala Trockému milostné věnování",
+    "content": "<p>Na autoportrétu Fridy Kahlo z roku 1937 drží malířka v ruce kytici a list papíru. Na listu je věnování Lvu Trockému, s nímž v témže roce prožila krátký milostný poměr.</p><p>Trockij po odchodu do mexického exilu bydlel s manželkou Natalií Sedovovou v Modrém domě, který patřil ke světu Fridy Kahlo a Diega Rivery. Kahlo obraz věnovala Trockému k narozeninám a přímo do malby připsala, komu je určen.</p><p>Dnes je autoportrét ve sbírce washingtonského Národního muzea žen v umění. O adresátovi intimního obrazu můžeme mluvit tak přesně díky tomu, že věnování přežilo přímo na jeho povrchu.</p>",
+    "category": "umeni",
+    "sources": [
+      {
+        "label": "NMWA – výstava o autoportrétu Fridy Kahlo",
+        "url": "https://nmwa.org/whats-on/exhibitions/online/between-the-curtains-frida-kahlos-self-portrait/"
+      },
+      {
+        "label": "New Mexico Museum of Art – kontext autoportrétu",
+        "url": "https://www.nmartmuseum.org/content/uploads/2024/08/Carr-Okeeffe-Kahlo.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A flower bouquet held together with a small folded dedication card, an original still life referring to Kahlo's gift without reproducing the painting.",
+      "scene_type": "object",
+      "primary_subject": "flowers_and_dedication_card",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "bouquet_petals",
+        "pale_folded_card",
+        "tied_stems"
+      ],
+      "composition_hints": [
+        "card_tucked_in_between_the_flower_stems"
+      ],
+      "mood": "contemplative",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1346",
+    "title": "Dalí namaloval básníka, jehož žena se stala Dalího partnerkou",
+    "content": "<p>V létě 1929 přijela Gala do katalánského Cadaqués. Byla tehdy vdaná za básníka Paula Éluarda a právě tam poznala Salvadora Dalího, s nímž později spojila svůj život.</p><p>Dalí v témže roce namaloval Éluardův portrét. Básníkovu hlavu zasadil do surrealistické krajiny nad útesem. Obraz pak prošel i rodinou Éluardových, protože mezi jeho majitele patřila jejich dcera Cécile.</p><p>Zatímco Gala se stala Dalího partnerkou a později manželkou, portrét z roku 1929 zachoval stopu k setkání všech tří. Muzejní chronologie a datace obrazu umožňují spojit převrat v soukromém životě s konkrétním dílem.</p>",
+    "category": "umeni",
+    "sources": [
+      {
+        "label": "Nadace Gala–Salvador Dalí – výstava o Gale",
+        "url": "https://exhibitions.salvador-dali.org/en/the-awakening-of-the-myth-gala-dali/"
+      },
+      {
+        "label": "Katalog Dalího díla – portrét Paula Éluarda",
+        "url": "https://catalogues.salvador-dali.org/catalogues/es/heritageobject/112-6a32/"
+      }
+    ],
+    "illustration": {
+      "concept": "An original flat view of the Cadaques coast, white Catalan houses hugging a rocky headland, the setting of the first meeting.",
+      "scene_type": "environment",
+      "primary_subject": "cadaques_coastal_headland",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "catalan_white_houses",
+        "rocky_headland",
+        "mediterranean_water"
+      ],
+      "composition_hints": [
+        "village_cluster_hugs_one_broad_rocky_headland"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1347",
+    "title": "U Hockneyho bazénu stojí jeho bývalý partner",
+    "content": "<p>Na Hockneyho obraze z roku 1972 stojí u bazénu Peter Schlesinger a dívá se dolů na plavce. Obraz vznikl po jejich rozchodu a první nápad přinesla náhoda v malířově ateliéru.</p><p>Na podlaze se vedle sebe ocitly dvě fotografie. Jedna zachycovala člověka pod vodou, druhá stojící postavu se sklopenýma očima. Hockney v jejich sousedství uviděl možnou kompozici a na plátně dal stojící postavě podobu Schlesingera.</p><p><em>Portrét umělce (Bazén se dvěma postavami)</em> tak spojil osobu z Hockneyho soukromého života se scénou poskládanou z odlišných předloh. Pohled mezi postavami vznikl až tím, že se na obraze ocitly v témže prostoru.</p>",
+    "category": "umeni",
+    "sources": [
+      {
+        "label": "Nadace Davida Hockneyho – vznik obrazu roku 1972",
+        "url": "https://www.thedavidhockneyfoundation.org/chronology/1972"
+      },
+      {
+        "label": "Nadace Davida Hockneyho – časová osa vztahu",
+        "url": "https://www.thedavidhockneyfoundation.org/chronology"
+      }
+    ],
+    "illustration": {
+      "concept": "Two casually overlapping photo prints on transparent canvas, one showing water ripples and the other showing a generic clothed standing silhouette, no reproduction of the painting.",
+      "scene_type": "object",
+      "primary_subject": "overlapping_pool_snapshots",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "photo_paper_borders",
+        "abstract_pool_ripples",
+        "standing_silhouette"
+      ],
+      "composition_hints": [
+        "two_snapshots_overlap_at_one_corner"
+      ],
+      "mood": "contemplative",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1348",
+    "title": "Francis Bacon proměnil partnerův odraz v druhý portrét",
+    "content": "<p>George Dyer na Baconově obraze z roku 1968 sedí v otočném křesle. Vedle něj jako by seděl ještě jednou. Druhou podobu Bacon umístil do zrcadla a nechal ji deformovat.</p><p>Dyer byl Baconovým milencem a opakovaně mu stál modelem. V <em>Portrétu George Dyera v zrcadle</em> má namalovaný odraz vlastní výraz a tvar, takže obě figury působí jako dvě odlišná podání téhož člověka.</p><p>Zrcadlo zaujímá v téměř prázdném prostoru obrazově stejně důležité místo jako sedící postava. Obraz ukazuje, co Bacon mohl udělat s podobou člověka, kterého znal zblízka. Do jediného výjevu vložil dvě čtení téže tváře.</p>",
+    "category": "umeni",
+    "sources": [
+      {
+        "label": "Museo Thyssen-Bornemisza – Portrét George Dyera v zrcadle",
+        "url": "https://www.museothyssen.org/en/collection/artists/bacon-francis/portrait-george-dyer-mirror"
+      },
+      {
+        "label": "Pozůstalost Francise Bacona – George Dyer",
+        "url": "https://www.francis-bacon.com/life/family-friends-sitters/george-dyer"
+      }
+    ],
+    "illustration": {
+      "concept": "An anonymous fully clothed seated figure seen from behind beside a small standing studio mirror, original composition evoking a double portrait.",
+      "scene_type": "interaction",
+      "primary_subject": "seated_figure_and_studio_mirror",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "seated_silhouette",
+        "rounded_chair",
+        "freestanding_mirror"
+      ],
+      "composition_hints": [
+        "mirror_angled_toward_seated_figure"
+      ],
+      "mood": "dramatic",
+      "palette": "monochrome_warm"
+    }
+  },
+  {
+    "id": "1349",
+    "title": "Mapplethorpe použil na výjevy ze sadomasochistické scény studiové světlo",
+    "content": "<p>Robert Mapplethorpe v roce 1978 uzavřel své <em>X Portfolio</em> do černého pouzdra se zlatým písmenem. Uvnitř byly fotografie z newyorské sadomasochistické scény, do jejíhož prostředí sám patřil.</p><p>Fotograf pečlivě volil světlo a kompozici. Jeho snímky zachycovaly intimní praktiky s podobnou formální pozorností, jakou věnoval portrétu, květině nebo aktu. Muzeum LACMA vystavilo soubor v kontextu dalších dvou portfolií, věnovaných květinovým zátiším a mužským aktům.</p><p>Vedle sebe je vidět, nakolik stejný fotografický rukopis dokáže proměnit způsob, jakým se diváci dívají na velmi rozdílné náměty.</p>",
+    "category": "umeni",
+    "sources": [
+      {
+        "label": "Getty Museum – Robert Mapplethorpe: The Perfect Medium",
+        "url": "https://www.getty.edu/art/exhibitions/mapplethorpe/"
+      },
+      {
+        "label": "LACMA – Robert Mapplethorpe: XYZ",
+        "url": "https://www.lacma.org/press/robert-mapplethorpe-xyz"
+      }
+    ],
+    "illustration": {
+      "concept": "A closed dark graphite cloth photography portfolio with a few pale blank print edges resting beside it, no people, no explicit imagery and no letters.",
+      "scene_type": "object",
+      "primary_subject": "closed_archival_photo_portfolio",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "graphite_cloth_case",
+        "photographic_print_edges",
+        "subtle_brass_corner"
+      ],
+      "composition_hints": [
+        "case_overlaps_the_edges_of_two_prints"
+      ],
+      "mood": "contemplative",
+      "palette": "monochrome_cool"
+    }
+  },
+  {
+    "id": "1350",
+    "title": "Powellův rekord se zrodil v souboji dvou dálkařů o centimetry",
+    "content": "<p>Carl Lewis se v Tokiu roku 1991 dostal o centimetr za tehdejší světový rekord ve skoku dalekém. Pro rekord měl ale příliš silný vítr v zádech. V dalším kole přeletěl stejnou hranici ještě dál Mike Powell.</p><p>Lewisových 8,91 metru se do závodu počítalo. Pro uznání rekordu však musí vítr v zádech zůstat nejvýše na dvou metrech za sekundu. Powellův pokus v pátém kole měřil <strong>8,95 metru</strong> a podmínku splnil.</p><p>Powell vyhrál mistrovství světa a překonal 8,90 metru Boba Beamona z roku 1968. Lewis odpověděl dvěma dalšími dlouhými skoky, které už měly povolený vítr, ale Powellovu vzdálenost nepřekonal. Vítězný pokus zůstává světovým rekordem.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics – mistrovství světa v Tokiu 1991",
+        "url": "https://worldathletics.org/news/series/japan-major-athletics-events-1991-world-championships-tokyo"
+      },
+      {
+        "label": "World Athletics – profil a rekord Mikea Powella",
+        "url": "https://worldathletics.org/athletes/-/14248761"
+      }
+    ],
+    "illustration": {
+      "concept": "A long jumper suspended low over the sand pit with legs extended forward just before landing.",
+      "scene_type": "process",
+      "primary_subject": "long_jumper_over_sand",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "extended_legs",
+        "sand_pit_edge",
+        "focused_forward_pose"
+      ],
+      "composition_hints": [
+        "jumper_hovers_above_one_flat_sand_shape"
+      ],
+      "mood": "dynamic",
+      "palette": "teal_amber"
+    }
+  },
+  {
+    "id": "1351",
+    "title": "Železného oštěp doletěl v Jeně na 98,48 metru",
+    "content": "<p>Dne 25. května 1996 v německé Jeně přistál oštěp Jana Železného ve vzdálenosti 98,48 metru. Tím český atlet překonal i vlastní dosavadní světový rekord a zapsal výkon, který stále vede tabulky.</p><p>Železný zlepšil předchozí výkon 95,66 metru o 2,82 metru. Dostal se na pouhých 1,52 metru od stometrové hranice, kterou v současné rekordní řadě mužského oštěpu zatím nikdo nepřehodil.</p><p>Nejblíže se mu v oficiálních tabulkách přiblížil Němec Johannes Vetter, který roku 2020 hodil 97,76 metru. Mezi dvěma nejdelšími výkony tak zůstává rozdíl 72 centimetrů. Oba přitom dělí víc než dvě desetiletí.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics – profil Jana Železného",
+        "url": "https://worldathletics.org/athletes/czechia/jan-zelezn%C3%BD-14168038"
+      },
+      {
+        "label": "World Athletics – historické tabulky mužského oštěpu",
+        "url": "https://worldathletics.org/records/all-time-toplists/throws/javelin-throw/outdoor/men/senior?bestResultsOnly=false&regionType=world"
+      }
+    ],
+    "illustration": {
+      "concept": "A lone javelin at a strong rising diagonal in flight, with a broad pale shaft and small contrasting grip.",
+      "scene_type": "object",
+      "primary_subject": "flying_competition_javelin",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "long_tapering_shaft",
+        "wrapped_grip",
+        "pointed_tip"
+      ],
+      "composition_hints": [
+        "javelin_runs_from_lower_left_to_upper_right"
+      ],
+      "mood": "dynamic",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1352",
+    "title": "Sotomayor posunul vlastní rekord ve skoku do výšky na 2,45 metru",
+    "content": "<p>Javier Sotomayor v roce 1988 v Salamance skočil 2,43 metru a poprvé držel světový rekord. O pět let později se do stejného města vrátil a posunul laťku ještě o dva centimetry výš.</p><p>Mezitím v roce 1989 překonal v San Juanu 2,44 metru. V roce 1992 pak získal v Barceloně olympijské zlato. Jeho nejvyšší venkovní skok ale přišel až 27. července 1993, kdy v Salamance zdolal <strong>2,45 metru</strong>.</p><p>Světové tabulky ten výkon stále vedou jako rekord. Jediný atlet během pěti let posunul hranici třikrát a poslední z těch tří výšek dosud nikdo nepřekonal.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics – profil Javiera Sotomayora",
+        "url": "https://worldathletics.org/athletes/cuba/javier-sotomayor-14169305"
+      },
+      {
+        "label": "IAAF – vývoj světových rekordů",
+        "url": "https://media.aws.iaaf.org/misc/eBook/publication/contents/templates/Progression_of_world_athletics_records.pdf"
+      }
+    ],
+    "illustration": {
+      "concept": "A high jumper arcing backward cleanly above a single horizontal high-jump bar, face generic and body clearly above the bar.",
+      "scene_type": "process",
+      "primary_subject": "high_jumper_clearing_bar",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "arched_back",
+        "straight_crossbar",
+        "raised_legs"
+      ],
+      "composition_hints": [
+        "jumping_figure_overlaps_the_bar_in_depth"
+      ],
+      "mood": "dynamic",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1353",
+    "title": "Flo-Jo zaběhla světový rekord už ve čtvrtfinále",
+    "content": "<p>V červenci 1988 se Florence Griffithová-Joynerová rozběhla do čtvrtfinále americké olympijské kvalifikace v Indianapolis. Stovku doběhla za 10,49 sekundy. Čas z kvalifikace dodnes vede oficiální světové tabulky.</p><p>Závod se běžel 16. července a u výkonu je v tabulkách zapsán vítr 0,0 metru za sekundu. Historici atletiky tento údaj zpochybňují, rekord přesto zůstává uznaný.</p><p>O dva měsíce později získala v Soulu v běhu na 100 metrů olympijské zlato. Na stejných hrách stanovila také světový rekord na dvojnásobné trati.</p><p>Závod z Indianapolis zůstává jejím nejrychlejším oficiálním časem na stovce. Jediný kvalifikační běh se tak stal měřítkem pro všechny další generace sprinterek.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "World Athletics – profil Florence Griffithové-Joynerové",
+        "url": "https://worldathletics.org/athletes/-/14359548"
+      },
+      {
+        "label": "Olympedia – olympijská stovka a měření větru v kvalifikaci",
+        "url": "https://www.olympedia.org/results/63682"
+      }
+    ],
+    "illustration": {
+      "concept": "A lean female sprinter in a late-1980s racing kit breaking a simple finish ribbon, strong forward motion, generic face.",
+      "scene_type": "process",
+      "primary_subject": "sprinter_at_finish",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "forward_lean",
+        "finish_ribbon",
+        "track_stripe"
+      ],
+      "composition_hints": [
+        "runner_crosses_the_ribbon_at_the_center"
+      ],
+      "mood": "dynamic",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1354",
+    "title": "Chamberlainových sto bodů padlo bez jediného tříbodového koše",
+    "content": "<p>Dne 2. března 1962 nastřílel Wilt Chamberlain v zápase NBA proti New York Knicks 100 bodů. Tříbodovou čáru tehdy liga ještě neměla, takže mu každý koš ze hry přinesl dva body.</p><p>Chamberlain trefil 36 střel ze hry a proměnil 28 z 32 trestných hodů. Už do poločasu měl 41 bodů. Na konečných sto se dostal v závěru zápasu, který jeho Philadelphia Warriors vyhráli 169:147.</p><p>Hrálo se v Hershey v Pensylvánii, mimo běžnou domácí halu Warriors. Výsledkový zápis z tohoto večera stále stojí v čele ligových statistik za jediný zápas.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "NBA – Chamberlainův stobodový zápas",
+        "url": "https://www.nba.com/news/history-top-moments-wilt-chamberlain-scores-100"
+      },
+      {
+        "label": "NBA – nejvyšší výkony v jednom utkání",
+        "url": "https://www.nba.com/news/most-points-scored-by-a-player-in-an-nba-game"
+      }
+    ],
+    "illustration": {
+      "concept": "A vintage orange basketball passing downward through a simple hoop and off-white net, no numbers or scoreboard.",
+      "scene_type": "process",
+      "primary_subject": "basketball_dropping_through_hoop",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "vintage_ball_seams",
+        "hoop_rim",
+        "bright_net"
+      ],
+      "composition_hints": [
+        "ball_meets_the_mouth_of_the_net"
+      ],
+      "mood": "dynamic",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1355",
+    "title": "Bradmanovi chyběly čtyři body ke stovce. I tak drží rekord",
+    "content": "<p>Don Bradman potřeboval v poslední směně své kariéry v testovacím kriketu čtyři body, aby skončil s pálkařským průměrem rovných sto. Na londýnském hřišti The Oval byl v srpnu 1948 vyřazen s nulou.</p><p>Pálkařský průměr se počítá jako počet získaných bodů dělený počtem vyřazení. Bradman nasbíral v 52 testovacích zápasech celkem 6 996 bodů. Poslední směna zvětšila jmenovatel bez jediného bodu a výsledek se zastavil na <strong>99,94</strong>.</p><p>Stovka mu unikla, ale jeho kariérní průměr zůstává podle Mezinárodní kriketové rady nejvyšší v historii testovacího kriketu. Rozdíl mezi 99,94 a 100 je v jeho příběhu mnohem menší než odstup od ostatních pálkařů.</p>",
+    "category": "sport",
+    "sources": [
+      {
+        "label": "ICC – Don Bradman v síni slávy",
+        "url": "https://www.icc-cricket.com/hall-of-fame/hall-of-famers/hall-of-famer-donald-bradman"
+      },
+      {
+        "label": "ICC – Bradmanova poslední směna",
+        "url": "https://www.icc-cricket.com/news/my-fault-bradman-didnt-average-100-neil-harvey"
+      }
+    ],
+    "illustration": {
+      "concept": "A vintage pale wooden cricket bat beside three upright wicket stumps and a red cricket ball, compact still life.",
+      "scene_type": "object",
+      "primary_subject": "vintage_cricket_bat_and_wicket",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "willow_blade",
+        "three_stumps",
+        "red_seamed_ball"
+      ],
+      "composition_hints": [
+        "bat_leans_near_wicket_with_ball_at_its_base"
+      ],
+      "mood": "neutral",
+      "palette": "green_copper"
+    }
+  },
+  {
+    "id": "1356",
+    "title": "Proč je atmosféra Slunce teplejší než jeho povrch?",
+    "content": "<p>Viditelný povrch Slunce má teplotu kolem 5 500 stupňů Celsia. V jeho řídké vnější atmosféře, v koróně, ale teplota přesahuje milion stupňů. Právě tento skok astronomové potřebují vysvětlit.</p><p>Jedna skupina vysvětlení hledá energii v magnetických vlnách, které se šíří plazmatem. Další sleduje drobné přestavby magnetického pole, při nichž se může energie uvolnit do okolního plynu.</p><p>Sondy Parker Solar Probe a Solar Orbiter naměřily, že takzvané Alfvénovy vlny mohou předávat energii slunečnímu větru. To je konkrétní vodítko k tomu, jak se plazma ohřívá. Otevřenou otázkou zůstává, jak velkou část ohřevu samotné koróny vysvětlí jednotlivé procesy.</p>",
+    "category": "vesmir",
+    "sources": [
+      {
+        "label": "NASA – záhada horké sluneční koróny",
+        "url": "https://www.nasa.gov/science-research/heliophysics/nasas-parker-solar-probe-and-the-curious-case-of-the-hot-corona/"
+      },
+      {
+        "label": "Studie přenosu energie Alfvénovými vlnami",
+        "url": "https://pubmed.ncbi.nlm.nih.gov/39208109/"
+      }
+    ],
+    "illustration": {
+      "concept": "A cropped orange solar disk and broad bright tongues of its corona as a compact centered motif, with short strongly visible arcs.",
+      "scene_type": "object",
+      "primary_subject": "solar_disk_with_coronal_arcs",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "curved_solar_limb",
+        "bright_coronal_arcs",
+        "opaque_solar_disk"
+      ],
+      "composition_hints": [
+        "coronal_arcs_hug_the_solar_limb"
+      ],
+      "mood": "dramatic",
+      "palette": "terracotta_cream"
+    }
+  },
+  {
+    "id": "1357",
+    "title": "Výpočty raného vesmíru dávají příliš mnoho lithia",
+    "content": "<p>Model raného vesmíru umí předpovědět, kolik lehkých prvků vzniklo v prvních minutách po velkém třesku. U lithia-7 se ale výsledek rozchází s tím, co astronomové nacházejí ve starých hvězdách.</p><p>Zastoupení lithia se odhaduje ze světla hvězd chudých na těžší prvky. Atmosféry těchto hvězd obsahují přibližně třetinu lithia-7 očekávaného podle standardního výpočtu a parametrů odvozených z reliktního záření.</p><p>Hvězdy mohou část původního lithia během života ztratit z pozorovatelných vrstev. Výzkumníci proto zkoušejí zjistit, kolik rozporu připadá na vývoj hvězd a kolik na samotný výpočet vzniku prvků. Změřený rozdíl zatím nemá všeobecně přijaté vysvětlení.</p>",
+    "category": "vesmir",
+    "sources": [
+      {
+        "label": "Oswaldo D. Miranda – kosmologický problém lithia",
+        "url": "https://arxiv.org/abs/2508.09821"
+      },
+      {
+        "label": "Sbordone a kol. – lithium ve starých hvězdách",
+        "url": "https://arxiv.org/abs/1003.4510"
+      }
+    ],
+    "illustration": {
+      "concept": "A stylized stellar spectrum with one distinct deep notch referring to a lithium absorption line, restrained and no axes or text.",
+      "scene_type": "diagram",
+      "primary_subject": "stellar_lithium_absorption_band",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "continuous_color_band",
+        "one_absorption_notch",
+        "clean_edges"
+      ],
+      "composition_hints": [
+        "a_single_dark_notch_interrupts_the_broad_band"
+      ],
+      "mood": "neutral",
+      "palette": "violet_coral"
+    }
+  },
+  {
+    "id": "1358",
+    "title": "Částice Amaterasu přiletěla ze směru, kde se zdroj hledá těžko",
+    "content": "<p>V květnu 2021 zachytila síť detektorů Telescope Array v Utahu spršku částic. Vyvolal ji jediný mimořádně energetický přílet z vesmíru. Událost dostala jméno Amaterasu.</p><p>Vědci ze spršky zachycené 27. května odhadli energii příchozí částice na 244 exaelektronvoltů. Směr příletu ukazoval do oblasti s malým počtem blízkých galaxií. V přímém prodloužení dráhy tak nebyl zřejmý objekt, který by takovou částici mohl vyslat.</p><p>Pokud nesla elektrický náboj, mezilehlá magnetická pole mohla její dráhu ohnout. Zpětné modelování proto závisí na složení částice a na mapě polí, jež známe jen přibližně. Přílet se podařilo změřit, jeho zdroj zůstává otevřený.</p>",
+    "category": "vesmir",
+    "sources": [
+      {
+        "label": "Telescope Array – původní studie události Amaterasu",
+        "url": "https://arxiv.org/abs/2311.14231"
+      },
+      {
+        "label": "Unger a Farrarová – modelování možného původu částice",
+        "url": "https://arxiv.org/abs/2312.13273"
+      }
+    ],
+    "illustration": {
+      "concept": "A single narrow path from deep space opening into a compact particle air shower above several simple detector tiles, restrained symbolic science illustration.",
+      "scene_type": "diagram",
+      "primary_subject": "cosmic_ray_air_shower",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "one_incoming_track",
+        "short_secondary_tracks",
+        "flat_detector_tiles"
+      ],
+      "composition_hints": [
+        "branching_tracks_open_toward_the_detector_tiles"
+      ],
+      "mood": "dynamic",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1359",
+    "title": "Jak rychle se dnes rozpíná vesmír? Záleží, kterou cestou počítáme",
+    "content": "<p>Podle jednoho dobře prozkoumaného postupu vychází Hubbleova konstanta kolem 73 kilometrů za sekundu na megaparsek. Z reliktního záření a standardního kosmologického modelu vychází zhruba 67,4. Obě čísla mají popisovat současné rozpínání vesmíru.</p><p>Vyšší odhad týmu SH0ES stojí na měření vzdáleností pomocí proměnných hvězd a supernov. Nižší vychází z obrazu mladého vesmíru zachyceného družicí Planck, který se pomocí modelu přepočítá do současnosti.</p><p>Některé odhady s jinými typy hvězd vycházejí mezi těmito hodnotami nebo poblíž výsledku Plancku. Spor se proto týká toho, jak rozsáhlý nesoulad po dalších měřeních zůstane a zda ho vysvětlí kalibrace, nebo bude třeba upravit model vesmíru.</p>",
+    "category": "vesmir",
+    "sources": [
+      {
+        "label": "SH0ES – aktuální měření pomocí Webbova dalekohledu",
+        "url": "https://baas.aas.org/pub/2025n4i310p02/release/1"
+      },
+      {
+        "label": "Planck Collaboration – kosmologické parametry",
+        "url": "https://arxiv.org/abs/1807.06209"
+      },
+      {
+        "label": "Chicago–Carnegie Hubble Program – nezávislá měření",
+        "url": "https://arxiv.org/abs/2408.06153"
+      }
+    ],
+    "illustration": {
+      "concept": "Two short symbolic measuring rulers with visibly different final marks next to a compact stylized spiral galaxy, no letters or numbers.",
+      "scene_type": "diagram",
+      "primary_subject": "galaxy_with_two_measuring_scales",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "spiral_galaxy",
+        "two_ruler_edges",
+        "unequal_final_ticks"
+      ],
+      "composition_hints": [
+        "short_parallel_scales_rest_beneath_one_galaxy"
+      ],
+      "mood": "contemplative",
+      "palette": "blue_gold"
+    }
+  },
+  {
+    "id": "1360",
+    "title": "Jeden magnetar záblesk vysvětlil. Jiné zdroje dál matou astronomy",
+    "content": "<p>Některé rychlé rádiové záblesky trvají jen několik milisekund. V roce 2020 se jeden podařilo spojit s magnetarem v Mléčné dráze. Astronomové tím dostali potvrzení, že takový záblesk může vyvolat neutronová hvězda se silným magnetickým polem.</p><p>Jiný opakující se zdroj se podařilo lokalizovat do kulové hvězdokupy u galaxie M81. V takovém prostředí převládají staré hvězdy. To komplikuje jednoduchý scénář, v němž za všemi podobnými záblesky stojí mladé magnetary vzniklé při běžném kolapsu hmotné hvězdy.</p><p>I ve staré hvězdokupě mohou vzniknout kompaktní objekty jinými cestami. Silný signál tak může mít známý typ původce, přestože způsob jeho vzniku zůstává nejasný.</p>",
+    "category": "vesmir",
+    "sources": [
+      {
+        "label": "CHIME/FRB – záblesk z magnetaru v Mléčné dráze",
+        "url": "https://arxiv.org/abs/2005.10324"
+      },
+      {
+        "label": "Kirsten a kol. – opakující se zdroj v kulové hvězdokupě",
+        "url": "https://arxiv.org/abs/2105.11445"
+      }
+    ],
+    "illustration": {
+      "concept": "A tight globular star cluster drawn as a dense compact group of simple stellar dots, with one short radio pulse emerging from within.",
+      "scene_type": "object",
+      "primary_subject": "globular_cluster_radio_pulse",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "compact_star_cluster",
+        "bright_inner_star",
+        "short_radio_arc"
+      ],
+      "composition_hints": [
+        "one_short_pulse_overlaps_the_edge_of_the_cluster"
+      ],
+      "mood": "mysterious",
+      "palette": "indigo_cyan"
+    }
+  },
+  {
+    "id": "1361",
+    "title": "Kulový blesk se podařilo zachytit i spektrografem",
+    "content": "<p>Při bouřce v Číně zaznamenaly přístroje spolu s běžným bleskem také světelnou kouli. Záběr byl vzácný tím, že kromě pohybu útvaru zachytil i spektrum jeho světla.</p><p>V práci zveřejněné roku 2014 popsali autoři ve spektru mimo jiné čáry křemíku, železa a vápníku. Tyto prvky se běžně vyskytují v půdě. Jejich přítomnost je slučitelná s hypotézou, že část materiálu dodal zásah běžného blesku do země.</p><p>Záznam poskytl měřitelný údaj k jednomu konkrétnímu výskytu. Zůstává otevřené, zda stejný mechanismus vysvětluje i další pozorované světelné koule, které lidé při bouřkách označují jako kulový blesk.</p>",
+    "category": "fyzika",
+    "sources": [
+      {
+        "label": "Cen a kol. – optický záznam a spektrum kulového blesku",
+        "url": "https://doi.org/10.1103/PhysRevLett.112.035001"
+      },
+      {
+        "label": "American Physical Society – rozbor prvního spektra",
+        "url": "https://physics.aps.org/articles/v7/5"
+      }
+    ],
+    "illustration": {
+      "concept": "A glowing but cleanly bounded small ball of lightning floating just above a short flat patch of ground, no large flash or backdrop.",
+      "scene_type": "environment",
+      "primary_subject": "luminous_ball_above_ground",
+      "secondary_subjects": [],
+      "visual_keywords": [
+        "round_luminous_core",
+        "small_ground_strip",
+        "subtle_edge_gradient"
+      ],
+      "composition_hints": [
+        "sphere_hovers_over_a_single_ground_shape"
+      ],
+      "mood": "mysterious",
+      "palette": "teal_amber"
+    }
   }
 ]

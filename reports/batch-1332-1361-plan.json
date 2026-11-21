@@ -1,0 +1,571 @@
+{
+  "snapshot": "d08f18a1c1ec31f20b89ce049272440675785bde1ae4a4785041a49801befa24",
+  "catalog_reviewed": "d08f18a1c1ec31f20b89ce049272440675785bde1ae4a4785041a49801befa24",
+  "proposals": [
+    {
+      "id": "1332",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1332",
+        "point": "Po krádeži třinácti děl bostonské Gardnerovo muzeum ponechává prázdné rámy jako viditelnou připomínku dosud nenavrácených předmětů.",
+        "tags": [
+          "modern-history",
+          "art-conservation",
+          "uncertainty"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "803",
+        "120",
+        "464"
+      ],
+      "reason": "Gent nahradil chybějící díl kopií, Louvre i Munchova díla se vrátila. Gardnerova muzejní strategie je veřejně vystavit přetrvávající absenci.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1333",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1333",
+        "point": "Část výkupného z únosu letu 305 se našla devět let po zmizení únosce, ale bankovky dosud neurčily jeho identitu ani osud.",
+        "tags": [
+          "modern-history",
+          "uncertainty"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "271"
+      ],
+      "reason": "Roanoke řeší stopu v sídlišti. Zde sériová čísla výkupného potvrzují práci s konkrétní hmotnou stopou.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1334",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1334",
+        "point": "Po útěku tří vězňů z Alcatrazu v roce 1962 stopy v zálivu potvrdily pokus o překonání vody, ale hlavní otázku přežití neuzavřely.",
+        "tags": [
+          "modern-history",
+          "uncertainty"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "271"
+      ],
+      "reason": "Osadníci z Roanoke zmizeli z kolonie. Zde jde o důkaz přežití po doloženém útěku z věznice.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1335",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1335",
+        "point": "Pátrání po třech sourozencích Beaumontových zmizelých v Glenelgu roku 1966 pokračovalo i průzkumem podzemí, který na prověřeném místě jejich osud neobjasnil.",
+        "tags": [
+          "modern-history",
+          "knowledge-evidence"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "271",
+        "1225"
+      ],
+      "reason": "Roanoke je koloniální sídliště a Franklinovy vraky se našly. Zde pozemní průzkum testoval konkrétní stopu bez nálezu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1336",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1336",
+        "point": "Izotopy v zubech neznámé ženy nalezené u Bergenu nabídly vodítko k místům jejího dětství, zatímco její jméno zůstalo neznámé.",
+        "tags": [
+          "modern-history",
+          "identity",
+          "knowledge-evidence"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "384"
+      ],
+      "reason": "Sutton Hoo řeší historickou identifikaci podle pohřbu. Zde chemický záznam v zubech zužuje geografický původ.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1337",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1337",
+        "point": "Při nálezu plující Mary Celeste chyběl záchranný člun i všech deset lidí a následné řízení o záchranné odměně příčinu opuštění plavidla neobjasnilo.",
+        "tags": [
+          "modern-history",
+          "uncertainty"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "1225",
+        "271"
+      ],
+      "reason": "Franklin pojednává o hledání vraků a Roanoke o opuštěném sídlišti. Zde byl nalezen samotný trup stále na hladině a těžištěm je jeho opuštění.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1338",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1338",
+        "point": "Při fibrodysplasia ossificans progressiva vzniká kvůli variantám genu ACVR1 kost v měkkých tkáních a postupně může omezovat pohyb kloubů.",
+        "tags": [
+          "genetics",
+          "medicine"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "738"
+      ],
+      "reason": "Axolotl obnovuje ztracené tkáně, zde kost přibývá mimo skelet a omezuje pohyb.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1339",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1339",
+        "point": "U akvagenní kopřivky vyvolává kontakt kůže s vodou krátkodobé svědivé pupeny a mechanismus této reakce zůstává nejasný.",
+        "tags": [
+          "medicine",
+          "uncertainty"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "850"
+      ],
+      "reason": "Vrásnění prstů je běžná reakce nervového systému, zatímco zde jde o vzácný kopřivkový výsev.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1340",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1340",
+        "point": "Malá studie Capgrasova bludu ukázala oslabenou tělesnou reakci na známé tváře, což pomohlo rozlišit vzhled osoby od pocitu důvěrné známosti.",
+        "tags": [
+          "neuroscience",
+          "perception",
+          "identity"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "760"
+      ],
+      "reason": "Iluze gumové ruky je navozený pocit vlastnictví končetiny. Zde jde o emoční známost rozpoznané cizí tváře a bludné přesvědčení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1341",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1341",
+        "point": "Emetofobie může kvůli strachu z vlastního či cizího zvracení vést k dlouhodobému vyhýbání jídlu, cestování a společenským situacím.",
+        "tags": [
+          "medicine",
+          "wellbeing"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "129"
+      ],
+      "reason": "Malý Albert pojednává o experimentálním podmiňování. Zde jsou těžištěm spouštěče a každodenní důsledky specifické fobie.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1342",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1342",
+        "point": "Při syndromu explodující hlavy člověk při přechodu mezi spánkem a bděním vnímá náhlou hlasitou ránu bez vnějšího zdroje.",
+        "tags": [
+          "sleep",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "247"
+      ],
+      "reason": "Existující text o spánku pojednává o konsolidaci paměti, tento o sluchovém prožitku na hranici spánku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1343",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1343",
+        "point": "Při syndromu Alenky v říši divů se může zkreslit vnímaná velikost skutečných předmětů, například během epizod spojených s migrénou.",
+        "tags": [
+          "neuroscience",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "625",
+        "760"
+      ],
+      "reason": "Literární Alenka zkoumá jazykovou hru a gumová ruka vlastnictví těla. Zde jde o klinické zkreslení velikosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1344",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1344",
+        "point": "Dochovaná korespondence ze zámku L’Islette dokládá soukromé zázemí milostného i pracovního vztahu Claudelové a Rodina.",
+        "tags": [
+          "sculpture",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "466"
+      ],
+      "reason": "Myslitel sleduje osamostatnění části sochařského celku, zde dopis spojuje milostný vztah a práci dvou sochařů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1345",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1345",
+        "point": "Frida Kahlo roku 1937 věnovala Lvu Trockému autoportrét, v němž namalované osobní věnování připomíná jejich krátký milostný poměr.",
+        "tags": [
+          "painting",
+          "modern-history"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "859"
+      ],
+      "reason": "Text o pohledu portrétu řeší zrakový efekt, zatímco zde je nositelem poznatku doložený adresát a obsah malovaného věnování.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1346",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1346",
+        "point": "Gala při setkání s Dalím v roce 1929 přijela do Cadaqués s tehdejším manželem Paulem Éluardem, kterého Dalí v témže roce portrétoval.",
+        "tags": [
+          "painting",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "130"
+      ],
+      "reason": "Stávající článek o Dalím rozebírá měkké hodiny. Zde portrét jiného námětu zasazuje do okolností počátku vztahu s Galou.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1347",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1347",
+        "point": "Hockney po rozchodu s Peterem Schlesingerem využil dvojici nesouvisejících fotografií jako východisko pro bazénový obraz, v němž bývalý partner stojí na okraji.",
+        "tags": [
+          "painting",
+          "identity"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "859"
+      ],
+      "reason": "Text o zrakovém efektu portrétu je odlišný od prokazatelného původu kompozice z fotografií a dosazení bývalého partnera.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1348",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1348",
+        "point": "Francis Bacon namaloval svého milence George Dyera současně v křesle a ve zdeformovaném zrcadlovém odrazu v jediném obraze z roku 1968.",
+        "tags": [
+          "painting",
+          "identity"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "859"
+      ],
+      "reason": "Text o pohledu z portrétu vysvětluje obecný zrakový jev. Baconův dvojportrét ukazuje různé podoby jedné konkrétní osoby v témže obraze.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1349",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1349",
+        "point": "Robert Mapplethorpe v X Portfoliu z roku 1978 fotografoval newyorskou sadomasochistickou scénu s formální precizností, kterou používal i u jiných námětů.",
+        "tags": [
+          "arts",
+          "modern-history"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "255",
+        "905"
+      ],
+      "reason": "Joyceův případ je literární soudní spor, Atkinsová pracuje s kyanotypií. Tady jde o dokument intimní subkultury v konkrétním fotografickém souboru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1350",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1350",
+        "point": "Mike Powell v Tokiu roku 1991 skočil 8,95 metru a překonal Boba Beamona ve finále, v němž Carl Lewis překonal předchozí rekord s nepovolenou podporou větru.",
+        "tags": [
+          "sport",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "410"
+      ],
+      "reason": "Starší článek vysvětluje nadmořskou výšku a odpor vzduchu. Zde jde o konkrétní uznaný rekord a odlišení výkonu s příliš silným větrem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1351",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1351",
+        "point": "Jan Železný stanovil v Jeně roku 1996 současný světový rekord v hodu mužským oštěpem výkonem 98,48 metru.",
+        "tags": [
+          "sport",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "979"
+      ],
+      "reason": "Starý post vysvětluje změnu náčiní v roce 1986. Nový vypráví o Železného výkonu, pokusu a jeho nejbližších pronásledovatelích.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1352",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1352",
+        "point": "Javier Sotomayor v Salamance roku 1993 zvedl vlastní světový rekord ve skoku do výšky na 2,45 metru.",
+        "tags": [
+          "sport",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "378",
+        "1150"
+      ],
+      "reason": "Fosburyho post sleduje techniku a druhý text vysvětluje shodu výsledků. Tady jde o tři postupná zlepšení světové hranice jedním výškařem.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1353",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1353",
+        "point": "Florence Griffithová-Joynerová zaběhla oficiální světový rekord na sto metrů už ve čtvrtfinále americké olympijské kvalifikace roku 1988.",
+        "tags": [
+          "sport",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "410"
+      ],
+      "reason": "Stávající text vysvětluje fyzikální důsledky nadmořské výšky. Nový zaznamenává konkrétní závod, výkon a jeho uznané měření.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1354",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1354",
+        "point": "Wilt Chamberlain roku 1962 nastřílel v jediném utkání NBA 100 bodů kombinací 36 košů ze hry a 28 trestných hodů.",
+        "tags": [
+          "sport",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "977"
+      ],
+      "reason": "Časomíra v databázi vysvětluje chování týmů. Nový článek rozkládá konkrétní bodový rekord.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1355",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1355",
+        "point": "Don Bradman ukončil kariéru v testovacím kriketu s rekordním pálkařským průměrem 99,94, když v poslední směně nezískal ani bod.",
+        "tags": [
+          "sport",
+          "statistics"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "986"
+      ],
+      "reason": "Bodyline řeší nebezpečí konkrétní taktiky. Tento článek vysvětluje výpočet kariérního rekordu a závěr kariéry.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1356",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1356",
+        "point": "Sluneční koróna je mnohem teplejší než viditelný povrch Slunce a přesný podíl různých mechanismů na jejím ohřevu zůstává otevřený.",
+        "tags": [
+          "stars",
+          "thermodynamics",
+          "uncertainty",
+          "sun"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "836",
+        "221"
+      ],
+      "reason": "Zatmění zpřístupňuje korónu pohledu a Carringtonova bouře působí na Zemi. Zde jde o přenos energie ve sluneční atmosféře.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1357",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1357",
+        "point": "Výpočet nukleosyntézy raného vesmíru předpovídá více lithia-7, než se pozoruje na povrchu starých hvězd.",
+        "tags": [
+          "cosmology",
+          "stars",
+          "uncertainty"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "219",
+        "571"
+      ],
+      "reason": "Reliktní záření a hvězdný původ těžších prvků jsou jiné problémy než rozpor mezi výpočtem předhvězdné tvorby lithia a jeho naměřeným zastoupením.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1358",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1358",
+        "point": "Telescope Array zachytila částici s energií kolem 244 EeV ze směru s málo zřejmými kandidáty na její zdroj.",
+        "tags": [
+          "particle-physics",
+          "astronomy",
+          "uncertainty"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "808"
+      ],
+      "reason": "Hess prokázal kosmický původ záření jako třídy. Zde se řeší konkrétní zdroj extrémně energetické události.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1359",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1359",
+        "point": "Některé odhady nynější rychlosti rozpínání z blízkých vzdáleností jsou vyšší než odhad z reliktního záření za předpokladu standardního kosmologického modelu.",
+        "tags": [
+          "cosmology",
+          "uncertainty",
+          "knowledge-evidence"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "126",
+        "556",
+        "557",
+        "219"
+      ],
+      "reason": "Zákon rozpínání, zrychlování a základ žebříku jsou existující poznatky. Nový je konkrétní nesoulad odhadů dnešní hodnoty H0.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1360",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1360",
+        "point": "Magnetar v naší Galaxii prokazatelně vytvořil rychlý rádiový záblesk, zatímco opakující se zdroj v kulové hvězdokupě M81 komplikuje jednotné vysvětlení původu těchto zdrojů.",
+        "tags": [
+          "stars",
+          "uncertainty",
+          "knowledge-evidence"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "551",
+        "561",
+        "220"
+      ],
+      "reason": "Magnetary, pulsary a signál Wow jsou jednotlivé jiné poznatky. Zde jde o různé prostředí a scénáře vzniku pozorované třídy FRB.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1361",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1361",
+        "point": "Při jednom zdokumentovaném výskytu kulového blesku zachytil spektrograf prvky běžné v půdě, což je vodítko k původu tohoto případu.",
+        "tags": [
+          "electromagnetism",
+          "optics",
+          "uncertainty"
+        ],
+        "type": "open-question"
+      },
+      "compared_ids": [
+        "276",
+        "618"
+      ],
+      "reason": "Opakovaný zásah blesku a triboluminiscence jsou jiné mechanismy. Zde je podstatné vzácné terénní spektrum světelné koule.",
+      "verdict": "accept"
+    }
+  ]
+}
