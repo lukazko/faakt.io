@@ -1,0 +1,352 @@
+{
+  "snapshot": "d08f18a1c1ec31f20b89ce049272440675785bde1ae4a4785041a49801befa24",
+  "catalog_reviewed": "d08f18a1c1ec31f20b89ce049272440675785bde1ae4a4785041a49801befa24",
+  "drafts_hash": "7a4f1d09c51d00c68c7f79483cb9bdc59e4a80e9103285ae6467cd1b60000f0e",
+  "decisions": [
+    {
+      "id": "1332",
+      "verdict": "accept",
+      "compared_ids": [
+        "803",
+        "120",
+        "464"
+      ],
+      "reason": "Gent nahradil chybějící díl kopií, Louvre i Munchova díla se vrátila. Gardnerova muzejní strategie je veřejně vystavit přetrvávající absenci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1333",
+      "verdict": "accept",
+      "compared_ids": [
+        "271"
+      ],
+      "reason": "Roanoke řeší stopu v sídlišti. Zde sériová čísla výkupného potvrzují práci s konkrétní hmotnou stopou.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1334",
+      "verdict": "accept",
+      "compared_ids": [
+        "271"
+      ],
+      "reason": "Osadníci z Roanoke zmizeli z kolonie. Zde jde o důkaz přežití po doloženém útěku z věznice.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1335",
+      "verdict": "accept",
+      "compared_ids": [
+        "271",
+        "1225"
+      ],
+      "reason": "Roanoke je koloniální sídliště a Franklinovy vraky se našly. Zde pozemní průzkum testoval konkrétní stopu bez nálezu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1336",
+      "verdict": "accept",
+      "compared_ids": [
+        "384"
+      ],
+      "reason": "Sutton Hoo řeší historickou identifikaci podle pohřbu. Zde chemický záznam v zubech zužuje geografický původ.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1337",
+      "verdict": "accept",
+      "compared_ids": [
+        "1225",
+        "271"
+      ],
+      "reason": "Franklin pojednává o hledání vraků a Roanoke o opuštěném sídlišti. Zde byl nalezen samotný trup stále na hladině a těžištěm je jeho opuštění.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1338",
+      "verdict": "accept",
+      "compared_ids": [
+        "738"
+      ],
+      "reason": "Axolotl obnovuje ztracené tkáně, zde kost přibývá mimo skelet a omezuje pohyb.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1339",
+      "verdict": "accept",
+      "compared_ids": [
+        "850"
+      ],
+      "reason": "Vrásnění prstů je běžná reakce nervového systému, zatímco zde jde o vzácný kopřivkový výsev.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1340",
+      "verdict": "accept",
+      "compared_ids": [
+        "760"
+      ],
+      "reason": "Iluze gumové ruky je navozený pocit vlastnictví končetiny. Zde jde o emoční známost rozpoznané cizí tváře a bludné přesvědčení.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1341",
+      "verdict": "accept",
+      "compared_ids": [
+        "129"
+      ],
+      "reason": "Malý Albert pojednává o experimentálním podmiňování. Zde jsou těžištěm spouštěče a každodenní důsledky specifické fobie.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1342",
+      "verdict": "accept",
+      "compared_ids": [
+        "247"
+      ],
+      "reason": "Existující text o spánku pojednává o konsolidaci paměti, tento o sluchovém prožitku na hranici spánku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1343",
+      "verdict": "accept",
+      "compared_ids": [
+        "625",
+        "760"
+      ],
+      "reason": "Literární Alenka zkoumá jazykovou hru a gumová ruka vlastnictví těla. Zde jde o klinické zkreslení velikosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1344",
+      "verdict": "accept",
+      "compared_ids": [
+        "466"
+      ],
+      "reason": "Myslitel sleduje osamostatnění části sochařského celku, zde dopis spojuje milostný vztah a práci dvou sochařů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1345",
+      "verdict": "accept",
+      "compared_ids": [
+        "859"
+      ],
+      "reason": "Text o pohledu portrétu řeší zrakový efekt, zatímco zde je nositelem poznatku doložený adresát a obsah malovaného věnování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1346",
+      "verdict": "accept",
+      "compared_ids": [
+        "130"
+      ],
+      "reason": "Stávající článek o Dalím rozebírá měkké hodiny. Zde portrét jiného námětu zasazuje do okolností počátku vztahu s Galou.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1347",
+      "verdict": "accept",
+      "compared_ids": [
+        "859"
+      ],
+      "reason": "Text o zrakovém efektu portrétu je odlišný od prokazatelného původu kompozice z fotografií a dosazení bývalého partnera.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1348",
+      "verdict": "accept",
+      "compared_ids": [
+        "859"
+      ],
+      "reason": "Text o pohledu z portrétu vysvětluje obecný zrakový jev. Baconův dvojportrét ukazuje různé podoby jedné konkrétní osoby v témže obraze.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1349",
+      "verdict": "accept",
+      "compared_ids": [
+        "255",
+        "905"
+      ],
+      "reason": "Joyceův případ je literární soudní spor, Atkinsová pracuje s kyanotypií. Tady jde o dokument intimní subkultury v konkrétním fotografickém souboru.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1350",
+      "verdict": "accept",
+      "compared_ids": [
+        "410"
+      ],
+      "reason": "Starší článek vysvětluje nadmořskou výšku a odpor vzduchu. Zde jde o konkrétní uznaný rekord a odlišení výkonu s příliš silným větrem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1351",
+      "verdict": "accept",
+      "compared_ids": [
+        "979"
+      ],
+      "reason": "Starý post vysvětluje změnu náčiní v roce 1986. Nový vypráví o Železného výkonu, pokusu a jeho nejbližších pronásledovatelích.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1352",
+      "verdict": "accept",
+      "compared_ids": [
+        "378",
+        "1150"
+      ],
+      "reason": "Fosburyho post sleduje techniku a druhý text vysvětluje shodu výsledků. Tady jde o tři postupná zlepšení světové hranice jedním výškařem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1353",
+      "verdict": "accept",
+      "compared_ids": [
+        "410"
+      ],
+      "reason": "Stávající text vysvětluje fyzikální důsledky nadmořské výšky. Nový zaznamenává konkrétní závod, výkon a jeho uznané měření.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1354",
+      "verdict": "accept",
+      "compared_ids": [
+        "977"
+      ],
+      "reason": "Časomíra v databázi vysvětluje chování týmů. Nový článek rozkládá konkrétní bodový rekord.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1355",
+      "verdict": "accept",
+      "compared_ids": [
+        "986"
+      ],
+      "reason": "Bodyline řeší nebezpečí konkrétní taktiky. Tento článek vysvětluje výpočet kariérního rekordu a závěr kariéry.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1356",
+      "verdict": "accept",
+      "compared_ids": [
+        "836",
+        "221"
+      ],
+      "reason": "Zatmění zpřístupňuje korónu pohledu a Carringtonova bouře působí na Zemi. Zde jde o přenos energie ve sluneční atmosféře.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1357",
+      "verdict": "accept",
+      "compared_ids": [
+        "219",
+        "571"
+      ],
+      "reason": "Reliktní záření a hvězdný původ těžších prvků jsou jiné problémy než rozpor mezi výpočtem předhvězdné tvorby lithia a jeho naměřeným zastoupením.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1358",
+      "verdict": "accept",
+      "compared_ids": [
+        "808"
+      ],
+      "reason": "Hess prokázal kosmický původ záření jako třídy. Zde se řeší konkrétní zdroj extrémně energetické události.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1359",
+      "verdict": "accept",
+      "compared_ids": [
+        "126",
+        "556",
+        "557",
+        "219"
+      ],
+      "reason": "Zákon rozpínání, zrychlování a základ žebříku jsou existující poznatky. Nový je konkrétní nesoulad odhadů dnešní hodnoty H0.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1360",
+      "verdict": "accept",
+      "compared_ids": [
+        "551",
+        "561",
+        "220"
+      ],
+      "reason": "Magnetary, pulsary a signál Wow jsou jednotlivé jiné poznatky. Zde jde o různé prostředí a scénáře vzniku pozorované třídy FRB.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1361",
+      "verdict": "accept",
+      "compared_ids": [
+        "276",
+        "618"
+      ],
+      "reason": "Opakovaný zásah blesku a triboluminiscence jsou jiné mechanismy. Zde je podstatné vzácné terénní spektrum světelné koule.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

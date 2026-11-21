@@ -1,5 +1,63 @@
 # Ilustrace — aktuální stav
 
+## Dávka 1362–1401 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 401 příspěvků a 1 358 různých poznatků**. Dávka pokrývá všech 15 kategorií a odkazuje na 80 zdrojů. Plán, úplné texty a závěrečná rozhodnutí o originalitě jsou v `reports/batch-1362-1401-*`.
+
+Všech 40 ilustrací vzniklo ve vestavěném ImageGenu s průhledným pozadím a je zapojených do produkčních karet a galerie. Finální RGBA WebP mají 640×360 px, průhledné rohy a nejméně 36,6 % zcela průhledné plochy. Velikost je 8 776–46 814 B, celkem 873 416 B. Nástroj nenabízel nastavení rozměrů ani kvality generování. Manifest uchovává skutečné prompty, metadata a otisky výsledných souborů.
+
+Motivy byly prohlédnuty při 160×90 a 320×180 px na základním gradientu i s CardGlow. U 1372 byly lépe rozlišeny dvě měřicí tyče, u 1375 upraven vzhled dokladu amerického ministerstva financí a u 1390 zobrazena pouze šestibodová strana kostky. Deterministický náhled navrhl u 1393 scénu typu proces. Ilustrace zachycuje statické porovnání pozic v řadě, proto zůstává diagramem.
+
+Chromium při 390×844 ověřilo všech 40 karet včetně celého úvodu, vykreslené ilustrace, otočení a rozbalení obou zdrojů. Viditelná mezera od kresby k úvodu byla 19,0–24,0 CSS px. Vybrané karty prošly kontrolou při 390×500 a 1440×1000. V galerii se načetlo všech 40 ilustrací se správnými titulky. [Lokální feed od ID 1362](http://127.0.0.1:5173/faakt.io/?order=id&post=1362).
+
+Významový index ověřil 1 401 záznamů. Prošlo 13 projektových testů, 17 testů významového indexu a produkční sestavení. Statický výstup obsahuje všech 40 nových stránek a obrazové soubory se shodnými otisky. Sestavení hlásí upozornění Svelte na přístupnost karet a Vite na velikost balíčku galerie.
+
+V prvním běhu prohlížečových regresí prošlo 134 ze 138 případů. Čtyři překročily časový limit při načítání karty nebo čekání na animaci. Opakovaná kontrola stejných scénářů v obou profilech Chromia prošla ve všech osmi případech.
+
+## Dávka 1332–1361: záhady, medicína, umění a sportovní rekordy
+
+Aplikace obsahuje **1 361 příspěvků a 1 318 různých poznatků**. Nová dávka má po šesti textech o historických záhadách, neobvyklých zdravotních stavech a fobiích, intimním životě výtvarných umělců, nepřekonaných sportovních rekordech a otevřených otázkách fyziky a astronomie. Plán, texty a kontrola originality jsou v `reports/batch-1332-1361-*`. Texty odkazují celkem na 62 zdrojů.
+
+Příspěvek 1332 o krádeži děl z Gardnerova muzea patří v kartě i galerii do kategorie Umění.
+
+Všech 30 ilustrací vzniklo ve vestavěném ImageGen a má průhledný WebP 640×360 v kartě i galerii. Mají průhledné rohy, nejméně 49,6 % zcela průhledné plochy a velikost 6 512–44 962 B, celkem 673 664 B. Manifest uchovává odeslané prompty, otisky metadat i souborů a průběh oprav. U 1350, 1352 a 1353 byly po kontrole upřesněny postavy atletů. Nástroj nenabízel nastavení rozměrů ani kvality generování.
+
+Motivy byly prohlédnuty při 160×90 a 320×180 na základním gradientu i se září CardGlow. U 1337 je kvůli rozpoznatelnosti brigantiny podrobněji vykresleno lanoví. U 1357 a 1358 ilustrují spektrální pás a sprška částic princip měření. V galerii se načetlo všech 30 obrázků se správnými titulky.
+
+Chromium při 390×844 ověřilo u všech 30 karet titulek, celý úvod, ilustraci, otočení a rozbalení všech zdrojů. Viditelná mezera mezi kresbou a úvodem byla 18,5–22,5 CSS px. Vybrané karty prošly také kontrolou při 390×500 a 1440×1000. Při nízkém okně je celý úvod dostupný posunem uvnitř karty. [Lokální feed od ID 1332](http://127.0.0.1:5173/faakt.io/?order=id&post=1332).
+
+Významový index ověřil všech 1 361 záznamů. Deterministický náhled navrhl u 1341 a 1348 portrétní scénu. Zvolená interakce odpovídá vztahu postavy k talíři či zrcadlu, takže metadata zůstala v této podobě. Prošlo 13 projektových testů, 17 testů významového indexu a produkční sestavení. Statický výstup obsahuje všech 30 nových stránek a shodné WebP soubory. Při sestavení se zobrazila stávající upozornění Svelte a upozornění na velikost balíčku galerie.
+
+## Dávka 1302–1331 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 331 příspěvků, 1 288 různých poznatků a 15 kategorií**. Dávka přidává osm textů ze starověké filozofie a 22 z ostatních kategorií. Každý příspěvek má dva nebo tři zdroje. Plán, hotové texty a redakční rozhodnutí jsou v `reports/batch-1302-1331-*`.
+
+Všech 30 nových ilustrací vzniklo ve vestavěném ImageGen s průhledným pozadím. Nástroj nenabízel nastavení rozměrů ani kvality generování. Finální RGBA WebP 640×360 mají průhledné rohy, nejméně 35 % zcela průhledné plochy a velikost 9 052–48 194 B, dohromady 739 348 B. Manifest uchovává odeslané prompty, původní metadata a jejich otisky, hashe obrázků a výsledek kontroly. U 1311 vznikla po kontrole mapa ústí Mississippi bez původního anachronického parníku. U 1328 doprovází text samostatný rovnostranný trojúhelník. První verze naznačovala nesprávné umístění trojúhelníku uvnitř výchozího útvaru. Některé historické scény používají více barevných ploch a vnitřních detailů, jejich hlavní motiv je čitelný v obou testovaných velikostech.
+
+Ilustrace prošly kontrolou při 160×90 a 320×180 na základním gradientu i se září CardGlow. Na všech 30 kartách v Chromium při 390×844 se ověřil titulek, celý úvod, vykreslená ilustrace, otočení na úplný text a rozbalení odkazů. Viditelná mezera od kresby k úvodu měřila 18,0–24,0 CSS px. Vybrané karty prošly také kontrolou při 390×500 a 1440×1000. [První nová karta v lokálním náhledu](http://127.0.0.1:5173/faakt.io/?order=id&post=1302).
+
+Významový index ověřil všech 1 331 záznamů. Deterministický náhled oprav navrhl stejné změny jako před přidáním dávky. Prošlo 13 projektových testů, 138 prohlížečových regresí a produkční sestavení. V sestavení je všech 30 nových statických stránek a shodné WebP soubory. V galerii bylo ověřeno dekódování všech 30 obrázků pod odpovídajícími titulky. Sestavení hlásí dřívější upozornění na přístupnost komponent karty a velikost balíčku galerie.
+
+## Dávka 1272–1301 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 301 příspěvků, 1 258 různých poznatků a 15 kategorií**. Nová dávka zahrnuje osm příspěvků o starověké filozofii a 22 z ostatních kategorií. Každý příspěvek má dva ověřené zdroje. Plán, úplné návrhy a redakční schválení jsou v `reports/batch-1272-1301-*`.
+
+Všech 30 ilustrací vzniklo ve vestavěném ImageGen s požadavkem na průhledné pozadí. Nástroj neumožňoval nastavit rozměry ani kvalitu generování. Finální RGBA WebP 640×360 mají průhledné rohy a velikost 11 740–41 554 B, dohromady 631 382 B. Manifest galerie uchovává skutečné prompty, otisky SHA-256 metadat a souborů, alfa okraje a poznámky z kontroly. Po první kontrole byl u 1285 upřesněn portrét Clarissy Dallowayové a u 1297 nahrazen zalomený čtyřúhelník vepsaným obdélníkem, který článek používá jako příklad Ptolemaiovy věty.
+
+Obrázky byly zkontrolovány při 160×90 a 320×180 na základním gradientu i s CardGlow. Chromium při 390×844 ověřilo u všech 30 karet obrázek, celý úvod, otočení, úplný text a rozbalení zdrojů. Vzdálenost dolního okraje viditelné kresby od úvodu byla 18,5–23,5 CSS px. Vybrané karty prošly kontrolou také při 390×500 a 1440×1000. Galerie načetla všech 30 nových obrázků pod odpovídajícími titulky. [První nová karta v lokálním náhledu](http://127.0.0.1:5173/faakt.io/post/1272/).
+
+Významový index ověřil všech 1 301 záznamů. Deterministický náhled navrhl zařadit Fresnelovu čočku u 1300 jako scénu s prostředím. Ilustrace zůstala označená jako samostatný objekt, protože zobrazuje jen čočku. Prošlo 13 projektových testů, 17 samostatných testů významového indexu a produkční sestavení. Ve výstupu je všech 30 nových statických stránek a shodné obrazové soubory. Při sestavení se zobrazila stávající upozornění na přístupnost v komponentách karty a na velikost balíčku galerie.
+
+## Dávka 1222–1271 napříč všemi kategoriemi
+
+Aplikace obsahuje **1 271 příspěvků, 1 228 různých poznatků a 15 kategorií**. Přibyly čtyři příspěvky v každé z kategorií Historie, Filozofie, Biologie, Umění a Literatura. V každé ze zbývajících deseti kategorií přibyly tři. Plán, úplné návrhy se dvěma odkazy na příspěvek a redakční schválení jsou v `reports/batch-1222-1271-*`.
+
+Všech 50 nových příspěvků má průhledný RGBA WebP 640×360 v kartě i galerii. Nové obrázky mají dohromady 1 115 306 B a každý má průhledné rohy a méně než 100 kB. Manifest obsahuje odeslané prompty, otisky souborů a metadat, alfa hranice a poznámky k motivům. U pěti příspěvků byl po kontrole zvolen čitelnější nebo věcně přesnější motiv. U 1234 je zelená látka bez obdélníkového výřezu, u 1253 Neptun s Tritonem bez zavádějících šipek, u 1260 dobová kamera bez promítaného paprsku, u 1264 jeden čtverec přiložený ke straně čtyřúhelníku a u 1270 jeden závodník na startu. Některé motivy mají více ploch či jemnější modelaci, například pohřební portrét u 1236.
+
+Všechny ilustrace byly prohlédnuty při 160×90 a 320×180 na základním gradientu i s CardGlow. Chromium při 390×844 ověřilo všech 50 karet včetně obrázku, celého úvodu, otočení, úplného textu a rozbalení obou zdrojů. Galerie zobrazila odpovídající titulky a načetla všechny nové obrázky. Vybrané karty byly ověřeny také při 390×500 a 1440×1000. Viditelná mezera od kresby k úvodu při 390×844 je 19–24 CSS px. [Lokální feed od ID 1222](http://127.0.0.1:5173/faakt.io/?order=id&post=1222).
+
+Významový index ověřil všech 1 271 záznamů. Deterministický náhled navrhl změny scén u 1236 a 1259. Zůstaly u objektu, protože zobrazují namalovanou desku a skupinu kartiček s tvářemi. Prošlo 13 projektových testů, 17 samostatných testů významového indexu a produkční sestavení. Výstup obsahuje všech 50 nových statických stránek a shodné obrazové soubory. Sestavení hlásí stávající upozornění Svelte na přístupnost a na velikost balíčku vývojové galerie.
+
 ## Dávka 1192–1221 napříč všemi kategoriemi
 
 Aplikace obsahuje **1 221 příspěvků a 1 178 různých poznatků**. Dávka přidala sedm příspěvků do Filozofie a po dvou do Historie, Biologie, Umění, Literatury, Fyziky, Chemie, Vesmíru, Kinematografie a Sportu. Po jednom přibylo ve Společnosti, Ekonomii, Psychologii, Matematice a Technologiích. Každý nový příspěvek má dva zdroje. Plán, finální texty a redakční schválení jsou v `reports/batch-1192-1221-*`.

@@ -1,0 +1,388 @@
+{
+  "snapshot": "c1280e07ec5b84e919705182898621d56a057db1e89b4ddd97ff1f23a4caa4f1",
+  "catalog_reviewed": "c1280e07ec5b84e919705182898621d56a057db1e89b4ddd97ff1f23a4caa4f1",
+  "drafts_hash": "75b234620fd70a463851025d250eca4a68006d31871607c5af23548096d078d8",
+  "decisions": [
+    {
+      "id": "1302",
+      "verdict": "accept",
+      "compared_ids": [
+        "671",
+        "964",
+        "771"
+      ],
+      "reason": "Čtyři příčiny třídí vysvětlení, možnost a uskutečnění rozlišují stavy věcí a Plótínos vysvětluje původ mnohosti. Zde jde o Aristotelovo vysvětlení pohybu bez pohybu první příčiny.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1303",
+      "verdict": "accept",
+      "compared_ids": [
+        "717",
+        "718",
+        "1192",
+        "876"
+      ],
+      "reason": "Gettier řeší pravdivý úsudek z náhody, Menón získávání poznání a Aristotelés časovou povahu vzpomínky. Voliéra zkoumá záměnu při vybavování již osvojených znalostí. U Aristotelovy akrasie člověk kvůli vášni neuplatní lepší praktický úsudek. Zde člověk využije jinou správně osvojenou znalost a vysloví chybný výsledek.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1304",
+      "verdict": "accept",
+      "compared_ids": [
+        "1197",
+        "527",
+        "713"
+      ],
+      "reason": "Text o hrách sleduje vývoj instituce, Bandura učení pozorováním v pokusu a Senekovo dobrodiní motivaci dárce. Dopis řeší mravní dopad účasti v publiku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1305",
+      "verdict": "accept",
+      "compared_ids": [
+        "178",
+        "677",
+        "1288"
+      ],
+      "reason": "Skeptik odkládá soud, Ibn al-Hajsam zkoumá vstup světla do oka a přelud vysvětluje lom. Lucretius hájí smyslové svědectví při změně obrysu podle vzdálenosti.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1306",
+      "verdict": "accept",
+      "compared_ids": [
+        "720",
+        "1195",
+        "421",
+        "86"
+      ],
+      "reason": "Radost ryb řeší poznání druhého, křivý strom jiná měřítka užitečnosti a atribuční chyba hodnocení povahy. Zde text pracuje s hněvem, připisováním činu a obrazem prázdného já. Stoické rozlišení vnitřní a vnější kontroly je obecné. Čuang-c’ mění přesvědčení o přítomnosti aktéra u jinak stejného nárazu a na obrazu staví úvahu o vyhýbání se střetům.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1307",
+      "verdict": "accept",
+      "compared_ids": [
+        "169",
+        "16"
+      ],
+      "reason": "Předchozí Sün-c’ vykládá potřebu výchovy obecně a pythagorejci číselný řád souzvuků. Zde se řeší zvláštní úloha společného zpěvu, hudby a tance v řádu emocí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1308",
+      "verdict": "accept",
+      "compared_ids": [
+        "170",
+        "267",
+        "1277",
+        "324"
+      ],
+      "reason": "Nestranná péče řeší rozsah ohledu, Sun-c’ úspěšnost vojevůdce a kritika fatalismu kritéria pro nauku. Zde týž mravní soud zkouší změna rozsahu činu. Aristotelův soudce napravuje konkrétní nerovnováhu. Mohistická námitka odhaluje dvojí měřítko společenské chvály při srovnání velkého a malého činu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1309",
+      "verdict": "accept",
+      "compared_ids": [
+        "173",
+        "722",
+        "965"
+      ],
+      "reason": "Buddhistický vůz popírá samostatné já a Platónova duše má tři složky. Katha vykládá vedení smyslů pomocí mysli a rozlišování, s átmanem v roli pasažéra.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1310",
+      "verdict": "accept",
+      "compared_ids": [
+        "364",
+        "488"
+      ],
+      "reason": "Paine později požaduje nezávislost a Gándhí vyrábí zakázanou sůl. Boston řeší konkrétní konflikt o přímo dovezený čaj a britské právo jej danit.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1311",
+      "verdict": "accept",
+      "compared_ids": [
+        "127",
+        "661"
+      ],
+      "reason": "Kolumbův příběh řeší plavbu a kolonizaci a dělení Indie vznik hranic a přesuny obyvatel. Zde je předmětem doložené vyjednávání od jednoho přístavu ke koupi celého území.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1312",
+      "verdict": "accept",
+      "compared_ids": [
+        "826",
+        "1204"
+      ],
+      "reason": "Kočka mění rozložení těla za pádu a datlův zobák přenáší náraz. Gekoní štětiny vysvětlují suchou přilnavost velkým počtem těsných kontaktů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1313",
+      "verdict": "accept",
+      "compared_ids": [
+        "509",
+        "690"
+      ],
+      "reason": "Magnetorecepce poskytuje orientační vodítko a včelí tanec směruje ke zdroji potravy. Sloní pokus testuje rozlišení známého poplachu přeneseného půdou.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1314",
+      "verdict": "accept",
+      "compared_ids": [
+        "389",
+        "1206"
+      ],
+      "reason": "Ztracený vosk vysvětluje postup lití a celní spor řeší uznání abstraktní sochy. Zde je vosk s oděvem zvoleným povrchem vystaveného originálu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1315",
+      "verdict": "accept",
+      "compared_ids": [
+        "340",
+        "365",
+        "1208"
+      ],
+      "reason": "Ibsen popisuje odhalení manželských rolí, Werther dopisovou uzavřenost a Dracula sdílení záznamů. Zde tajné psaní přežívá uvnitř režimu vynuceného klidu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1316",
+      "verdict": "accept",
+      "compared_ids": [
+        "1051",
+        "875"
+      ],
+      "reason": "Keatsova urna zadržuje okamžik děje a římské sankce aktivně ničí památku. Shelleyho rozpadlá socha ponechává vladařovu chloubu bez říše, kterou ohlašuje.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1317",
+      "verdict": "accept",
+      "compared_ids": [
+        "744",
+        "248"
+      ],
+      "reason": "Notace je historická pomůcka k učení melodie a Lascaux řeší uchování malby. Úmluva chrání životaschopnost obnovovaných praktik a podíl jejich nositelů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1318",
+      "verdict": "accept",
+      "compared_ids": [
+        "395",
+        "1020"
+      ],
+      "reason": "Podchlazení řeší kapalnou fázi pod bodem mrazu a termoska omezení přenosu tepla. Přízemní mráz vysvětluje záporná radiační bilance povrchu při teplejším vzduchu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1319",
+      "verdict": "accept",
+      "compared_ids": [
+        "750",
+        "1134"
+      ],
+      "reason": "Faradayova klec stíní vnitřek přerozdělením v obalu a polarita molekuly vyplývá z geometrie vazeb. Zde indukované rozložení náboje vyvolává čistou přitažlivou sílu k neutrální stěně.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1320",
+      "verdict": "accept",
+      "compared_ids": [
+        "1056",
+        "1205",
+        "1107",
+        "1290"
+      ],
+      "reason": "Zelí mění formy s pH, u Hokusaiova tisku se identifikují dvě modři a pokovování redukuje ionty na elektrodě. Indigo využívá vratnou změnu rozpustnosti barviva k barvení vlákna. Skalice mění barvu přijetím či ztrátou krystalové vody. Indigo pro barvení mění oxidační stav, rozpustnost a tím způsob přenosu na vlákno.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1321",
+      "verdict": "accept",
+      "compared_ids": [
+        "1109",
+        "1291",
+        "1290"
+      ],
+      "reason": "Krystaly cukru a aktivace ohřívače využívají přesycené roztoky. Temperování řídí uspořádání stejného tuku do různých krystalických forem. Skalice mění stupeň hydratace, ale čokoláda získává různé struktury krystalů stejného kakaového másla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1322",
+      "verdict": "accept",
+      "compared_ids": [
+        "1251",
+        "1026",
+        "1112",
+        "1215"
+      ],
+      "reason": "Saturnův šestiúhelník vzniká prouděním a barvu západu na Marsu mění rozptyl na prachu. Zde prach spouští nerovnoměrný ohřev a následný přesun povrchového ledu. Laboratorní jód ukazuje přechod skupenství a na Plutu se pohybuje pevný led. Iapetus vysvětluje zesilující se rozdíl albeda díky migraci vody mezi různě ohřátými místy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1323",
+      "verdict": "accept",
+      "compared_ids": [
+        "762",
+        "64"
+      ],
+      "reason": "Gauss určil dráhu již pozorovaného tělesa a Halley předpověděl návrat známé komety. Neptun se hledal jako dosud nepozorované vysvětlení poruch jiné dráhy.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1324",
+      "verdict": "accept",
+      "compared_ids": [
+        "752",
+        "1154"
+      ],
+      "reason": "Trh ojetin řeší nepozorovanou kvalitu a daňová incidence rozděluje daňové břemeno. Zde předmět tvoří vyjednávací síla zaměstnavatele a pružnost nabídky práce vůči jeho mzdám.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1325",
+      "verdict": "accept",
+      "compared_ids": [
+        "870",
+        "752"
+      ],
+      "reason": "Slabé sociální vazby pomáhají přenášet informace a ojetiny ukazují nepříznivý výběr podle kvality. Párování řeší přetrvávání současné neobsazenosti na obou stranách trhu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1326",
+      "verdict": "accept",
+      "compared_ids": [
+        "41",
+        "643",
+        "425"
+      ],
+      "reason": "Potvrzování řídí výběr informací, dostupnost odhad četnosti jedné třídy a Barnum osobní hodnocení vágních výroků. Chapman zkoumá chybný odhad společného výskytu dvou znaků.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1327",
+      "verdict": "accept",
+      "compared_ids": [
+        "1032",
+        "1128",
+        "281"
+      ],
+      "reason": "Dokreslovačka přidává malbu, zadní projekce promítaný film a článek o Metropolis dokládá obnovu kopie. Zde se skutečná miniatura a živá akce skládají v optické dráze zrcadlem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1328",
+      "verdict": "accept",
+      "compared_ids": [
+        "1264",
+        "1298"
+      ],
+      "reason": "Van Aubel pracuje se čtverci a kolmostí spojnic, Morley s třetinami vnitřních úhlů. Napoleonův vztah se týká středů rovnostranných trojúhelníků přiložených ke stranám.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1329",
+      "verdict": "accept",
+      "compared_ids": [
+        "406",
+        "1067"
+      ],
+      "reason": "Domina vyžadují paritu počtu barev a kruhová úloha počítá oblasti vzniklé řezy. Zde se liché počty přesně skládají do postupně rostoucích čtverců.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1330",
+      "verdict": "accept",
+      "compared_ids": [
+        "796",
+        "1098",
+        "1178"
+      ],
+      "reason": "Hammingovy kódy opravují chyby, optický pás filmu nese analogovou stopu a RAMAC čte magnetický záznam. Zde digitální přechody vznikají z reliéfu dráhy optického disku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1331",
+      "verdict": "accept",
+      "compared_ids": [
+        "1071",
+        "1150",
+        "1092",
+        "1096"
+      ],
+      "reason": "Boklöv mění techniku letu, skok do výšky řeší rovnost výkonů a Gundersen převádí body na startovní odstup. Zde se bodově korigují rozdílné podmínky při skoku. Kriketový přepočet mění bodový cíl podle zbývajících sportovních zdrojů po přerušení. Ve skocích se k vykonanému výsledku přidává korekce podmínek konkrétního pokusu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}

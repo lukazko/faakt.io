@@ -1,0 +1,598 @@
+{
+  "snapshot": "f543618152a9d0be42ffe3ef0e1f9267cec071c2b9e6ea0d51ec2ca37c866473",
+  "catalog_reviewed": "f543618152a9d0be42ffe3ef0e1f9267cec071c2b9e6ea0d51ec2ca37c866473",
+  "proposals": [
+    {
+      "id": "1272",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1272",
+        "point": "Lachés navrhuje vytrvalost jako definici odvahy, ale Sókratés zkouší, zda obstojí případy rozumného i nerozumného riskování.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "plato"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "17",
+        "66"
+      ],
+      "reason": "Text 17 určuje ctnost mezi krajnostmi a 66 popisuje metodu otázek obecně. Zde se střetávají dva konkrétní testy vytrvalosti.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1273",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1273",
+        "point": "Platónův Sókratés v Gorgiovi přirovnává neomezené obnovování tužeb k plnění děravých nádob a staví proti němu možnost spokojenosti.",
+        "tags": [
+          "ancient-philosophy",
+          "ethics",
+          "plato"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "323"
+      ],
+      "reason": "Epikúros v 323 třídí touhy na tři druhy, zatímco zde jde o střet dvou měřítek dobrého života.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1274",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1274",
+        "point": "Aristotelés chápe stud jako cit, který může brzdit chyby mladých lidí, zatímco ctnostný charakter předchází jednání, za něž by se člověk styděl.",
+        "tags": [
+          "ethics",
+          "ancient-philosophy",
+          "aristotle"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "17",
+        "876"
+      ],
+      "reason": "17 řeší míru ctnostného jednání a 876 jednání proti úsudku. Nový text řeší mravní úlohu pocitu studu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1275",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1275",
+        "point": "Plútarchos doporučuje posluchači nejprve promyslet smysl řečníkových slov a usměrňovat vlastní ochotu vstupovat do řeči.",
+        "tags": [
+          "ancient-philosophy",
+          "communication",
+          "learning-memory"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "264",
+        "759"
+      ],
+      "reason": "264 rozebírá omezení psaného média a 759 časování opakování. Nový text se zabývá chováním a pozorností při poslechu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1276",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1276",
+        "point": "Konfucius v Hovorech spojuje učení s vlastním přemýšlením, protože každý z těchto postupů má bez druhého jiný nedostatek.",
+        "tags": [
+          "confucianism",
+          "confucius",
+          "learning-memory"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "264",
+        "776"
+      ],
+      "reason": "776 řeší soulad jmen a odpovídajících povinností, 264 omezení písma. Zde se porovnávají dvě doplňující se činnosti při učení.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1277",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1277",
+        "point": "Mohistická kritika fatalismu posuzuje nauku podle vzoru z minulosti, svědectví lidí a praktických důsledků pro správu a obyvatelstvo.",
+        "tags": [
+          "epistemology",
+          "ancient-philosophy",
+          "knowledge-evidence",
+          "china"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "170",
+        "187"
+      ],
+      "reason": "170 popisuje nestranný ohled a 187 vyvratitelnost. Nový text sleduje trojí zkoušku učení o osudu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1278",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1278",
+        "point": "Podobenství o otráveném šípu v rozpravě MN 63 ukazuje, proč zodpovězení některých metafyzických otázek nemá být podmínkou buddhistické praxe.",
+        "tags": [
+          "buddhism",
+          "epistemology",
+          "limits"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "28",
+        "178"
+      ],
+      "reason": "28 vykládá čtyři pravdy a 178 váhu protichůdných tvrzení. Zde rozhoduje praktická relevance otázky před zahájením praxe.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1279",
+      "category": "filozofie",
+      "knowledge": {
+        "idea": "idea-1279",
+        "point": "V buddhistickém přirovnání k voru slouží učení k překonání obtíží podobně jako plavidlo k přeplutí řeky, po němž přichází čas vor odložit.",
+        "tags": [
+          "buddhism",
+          "ethics",
+          "decision-making"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "28",
+        "1195"
+      ],
+      "reason": "28 líčí původ utrpení, 1195 přehodnocuje užitečnost stromu. Nový text se týká vztahu k učení po dosažení jeho účelu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1280",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1280",
+        "point": "Švédská loď Vasa se roku 1628 převrátila při první plavbě a voda do ní vnikla nízko položenými otevřenými dělovými porty.",
+        "tags": [
+          "archaeology",
+          "preservation"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "384",
+        "1225"
+      ],
+      "reason": "384 čte otisk pohřební lodi a 1225 rekonstruuje hledání vraků. Zde jde o dobře doložený průběh ztroskotání při vyplutí.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1281",
+      "category": "historie",
+      "knowledge": {
+        "idea": "idea-1281",
+        "point": "John Snow spojil úmrtí při londýnské epidemii cholery roku 1854 s užíváním konkrétní veřejné pumpy pomocí místních údajů a výpovědí.",
+        "tags": [
+          "public-health",
+          "modern-history",
+          "knowledge-evidence"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "205",
+        "898"
+      ],
+      "reason": "205 srovnává porodnická oddělení a 898 situaci zásobování města. Zde mají hlavní roli prostorové údaje a údaje o užívání vody.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1282",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1282",
+        "point": "Někteří ropušníci při obraně vystřikují krev z okolí očí a reakce útočníka závisí mimo jiné na tom, který predátor je napadl.",
+        "tags": [
+          "zoology",
+          "evolution"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "792"
+      ],
+      "reason": "792 popisuje přípravu horkého obranného sekretu brouka. Ropušník využívá vlastní krev, odlišnou část těla a jiný účinek na predátora.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1283",
+      "category": "biologie",
+      "knowledge": {
+        "idea": "idea-1283",
+        "point": "U mořských želv ovlivňuje pohlaví zárodku teplota během vývoje ve vejci, přičemž teplotní hranice závisí na populaci a druhu.",
+        "tags": [
+          "zoology",
+          "development",
+          "ecology"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1231"
+      ],
+      "reason": "1231 zkoumá vazbu kyslíku a výškový let dospělých hus. Zde prostředí ovlivňuje vývoj pohlaví před vylíhnutím.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1284",
+      "category": "umeni",
+      "knowledge": {
+        "idea": "idea-1284",
+        "point": "Sfumato v Leonardově malbě modeluje objem jemným přechodem mezi světlem a stínem, takže hranice tváře nemusí mít zřetelnou obrysovou čáru.",
+        "tags": [
+          "painting",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "469",
+        "859"
+      ],
+      "reason": "469 řeší intenzivní kontrast u Caravaggia a 859 vjem směru očí. Zde jde o malířské potlačení viditelné hranice.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1285",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1285",
+        "point": "Paní Dallowayová spojuje perspektivy postav v jediném londýnském dni a používá odbíjení hodin jako společný časový bod vedle osobních vzpomínek.",
+        "tags": [
+          "narratology",
+          "perception"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "1238",
+        "1239",
+        "1241"
+      ],
+      "reason": "1239 paroduje životopis a rozšiřuje trvání života, 1238 spouští vzpomínku chutí a 1241 řeší současnost a pořadí jazykového popisu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1286",
+      "category": "literatura",
+      "knowledge": {
+        "idea": "idea-1286",
+        "point": "Melvillův Bartleby v kanceláři postupně odmítá přidělenou práci zdvořilou formulací, která narušuje obvyklé zaměstnavatelovo vyjednávání a příkazy.",
+        "tags": [
+          "literature",
+          "identity",
+          "organizations"
+        ],
+        "type": "work"
+      },
+      "compared_ids": [
+        "688"
+      ],
+      "reason": "Švejk z 688 odhaluje absurditu doslovnou poslušností. Bartleby zpochybňuje očekávání opakovaným odmítáním.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1287",
+      "category": "spolecnost",
+      "knowledge": {
+        "idea": "idea-1287",
+        "point": "Standardní kvalifikovaná většina v Radě EU spojuje potřebný počet členských států se stanoveným podílem obyvatelstva, které zastupují.",
+        "tags": [
+          "institutions",
+          "law",
+          "cooperation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "394",
+        "662"
+      ],
+      "reason": "394 vymezuje úroveň výkonu pravomocí, 662 právo veta v Radě bezpečnosti. Zde jde o dvě měřítka téhož hlasování.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1288",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1288",
+        "point": "Při spodním přeludu nad horkým povrchem zakřivuje změna hustoty vzduchu dráhu paprsků, takže se obraz oblohy může jevit pod obzorem.",
+        "tags": [
+          "optics",
+          "geoscience",
+          "perception"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "617",
+        "1001",
+        "1026"
+      ],
+      "reason": "617 vysvětluje zrcadlový odraz, 1001 vedení světla a 1026 rozptyl na prachu. Zde jde o postupný lom v teplotně rozvrstveném vzduchu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1289",
+      "category": "fyzika",
+      "knowledge": {
+        "idea": "idea-1289",
+        "point": "Písek rozkmitaný na Chladniho desce se hromadí podél uzlových čar, kde má deska v daném vlastním tvaru kmitání malou výchylku.",
+        "tags": [
+          "mechanics",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "615",
+        "1210"
+      ],
+      "reason": "615 řeší růst amplitudy kmitání konstrukce a 1210 vedení zvuku. Zde se zviditelní prostorové uzly stojatého kmitání.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1290",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1290",
+        "point": "Modré krystaly pentahydrátu síranu měďnatého při ztrátě krystalové vody přecházejí na světlejší bezvodou formu, kterou lze vodou opět hydratovat.",
+        "tags": [
+          "chemistry",
+          "materials",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1056",
+        "1085"
+      ],
+      "reason": "1056 vysvětluje barvu barviv podle pH a 1085 pevnost sádry. Zde je barevná změna příznakem hydratace konkrétní soli.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1291",
+      "category": "chemie",
+      "knowledge": {
+        "idea": "idea-1291",
+        "point": "Opakovaně použitelný ohřívač uvolňuje teplo při vyvolané krystalizaci přesyceného octanu sodného a obnovuje se rozpuštěním krystalů za tepla.",
+        "tags": [
+          "chemistry",
+          "thermodynamics",
+          "change"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "395",
+        "1080",
+        "1109"
+      ],
+      "reason": "395 a 1109 řeší přetrvání kapaliny a růst krystalů. Zde je předmětem článku získání tepla krystalizací a opakované nabití ohřívače, na rozdíl od rozpouštění u 1080.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1292",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1292",
+        "point": "Gravitační měření sondy Galileo spolu s odhadem objemu ukázalo, že průměrná hustota Jupiterova měsíce Amalthey je nižší než hustota vody.",
+        "tags": [
+          "solar-system",
+          "jupiter",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "397",
+        "1253"
+      ],
+      "reason": "397 zkoumá teplo uvnitř Io a 1253 směr dráhy Tritonu. Zde se z průletu sondy odhaduje hmotnost a následně hustota.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1293",
+      "category": "vesmir",
+      "knowledge": {
+        "idea": "idea-1293",
+        "point": "Snímky Voyageru 2 na měsíci Miranda ukázaly vedle staršího kráterového terénu rozsáhlé pásy hřbetů a příkopů označované jako koróny.",
+        "tags": [
+          "solar-system",
+          "geoscience",
+          "knowledge-evidence"
+        ],
+        "type": "discovery"
+      },
+      "compared_ids": [
+        "915",
+        "1215"
+      ],
+      "reason": "915 řeší výtrysky z Enceladu, 1215 konvekci na Plutu. Zde se porovnávají odlišné typy zvrásněného terénu na Mirandě.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1294",
+      "category": "ekonomie",
+      "knowledge": {
+        "idea": "idea-1294",
+        "point": "V jednodušší variantě Hotellingova modelu soupeři přesunem k sobě získávají výhodnější polohu vůči zákazníkům mezi nimi, i když by rozestup snížil jejich docházku.",
+        "tags": [
+          "microeconomics",
+          "incentives",
+          "game-theory"
+        ],
+        "type": "theory"
+      },
+      "compared_ids": [
+        "1028",
+        "1161"
+      ],
+      "reason": "1028 porovnává ceny podle ochoty platit a 1161 sousedské preference a segregaci. Nový text vysvětluje strategický výběr polohy prodejců.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1295",
+      "category": "psychologie",
+      "knowledge": {
+        "idea": "idea-1295",
+        "point": "Při fonémové restituci může posluchač slyšet hlásku, kterou v nahrávce nahradil rušivý zvuk, pokud okolní řeč chybějící zvuk podporuje.",
+        "tags": [
+          "perception",
+          "linguistics",
+          "communication"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "714",
+        "919"
+      ],
+      "reason": "714 rozděluje pozornost mezi hlasy, 919 slučuje zrak a sluch. Zde se doplňuje chybějící zvuk z čistě sluchového kontextu.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1296",
+      "category": "kinematografie",
+      "knowledge": {
+        "idea": "idea-1296",
+        "point": "Steadicam tlumí přenos kroků kameramana na kameru pomocí odpruženého ramene a vyváženého závěsu a umožňuje plynulejší chůzi v záběru.",
+        "tags": [
+          "film-technique",
+          "innovation"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "731",
+        "782",
+        "1129"
+      ],
+      "reason": "731 mění perspektivu kombinací jízdy a optiky, 782 skrývá střih a 1129 posouvá ostrost. Zde se mechanicky oddělují pohyby kamery a těla.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1297",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1297",
+        "point": "V tětivovém čtyřúhelníku je součin délek úhlopříček roven součtu součinů délek protilehlých stran.",
+        "tags": [
+          "geometry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "1264"
+      ],
+      "reason": "1264 konstruuje vnější čtverce a porovnává jejich středy. Zde jde o vztah délek daný společnou kružnicí vrcholů.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1298",
+      "category": "matematika",
+      "knowledge": {
+        "idea": "idea-1298",
+        "point": "Průsečíky sousedních třetinových přímek u každé strany trojúhelníku tvoří podle Morleyovy věty rovnostranný trojúhelník.",
+        "tags": [
+          "geometry",
+          "patterns"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "950",
+        "1263"
+      ],
+      "reason": "950 řeší nemožnost za stanovených konstrukčních podmínek, 1263 souběh spojnic. Morleyova věta zaručuje rovnost stran jinak utvořeného trojúhelníku.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1299",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1299",
+        "point": "Při rekuperačním brzdění pracuje trakční motor jako generátor, takže se část energie pohybu vozidla může vrátit do akumulátoru.",
+        "tags": [
+          "electromagnetism",
+          "mechanics",
+          "resources"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "297",
+        "1211"
+      ],
+      "reason": "297 popisuje elektromagnetickou indukci a 1211 změnu energie pohybu v teplo. Zde jde o návrat části energie do akumulátoru.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1300",
+      "category": "technologie",
+      "knowledge": {
+        "idea": "idea-1300",
+        "point": "Fresnelova majáková čočka ohýbá světlo v soustředných stupních a vytváří usměrněný svazek s menším množstvím skla než spojitá masivní čočka.",
+        "tags": [
+          "optics",
+          "innovation",
+          "architecture"
+        ],
+        "type": "principle"
+      },
+      "compared_ids": [
+        "544",
+        "1001"
+      ],
+      "reason": "544 líčí starověký maják, 1001 využívá úplný odraz v optickém vlákně. Zde je hlavním tématem konstrukce odstupňované čočky.",
+      "verdict": "accept"
+    },
+    {
+      "id": "1301",
+      "category": "sport",
+      "knowledge": {
+        "idea": "idea-1301",
+        "point": "Abebe Bikila vyhrál olympijský maraton v Římě roku 1960 bosý a o čtyři roky později obhájil vítězství v Tokiu v běžecké obuvi.",
+        "tags": [
+          "sport",
+          "modern-history"
+        ],
+        "type": "event"
+      },
+      "compared_ids": [
+        "983",
+        "984",
+        "985"
+      ],
+      "reason": "983 řeší standardizaci vzdálenosti, 984 přístup žen a 985 Zátopkovu trojici zlatých medailí. Bikilův příběh porovnává dvě vítězství a použitou výbavu.",
+      "verdict": "accept"
+    }
+  ]
+}

@@ -1,0 +1,457 @@
+{
+  "snapshot": "c4cbec48d87dd03096563c4efca782a250b299c3269e701f5f26a26d4371b52e",
+  "catalog_reviewed": "c4cbec48d87dd03096563c4efca782a250b299c3269e701f5f26a26d4371b52e",
+  "drafts_hash": "03a9173039767687996dc5b0910a50345c5dc18c11e84fb79a81bfe49282262e",
+  "decisions": [
+    {
+      "id": "1362",
+      "verdict": "accept",
+      "compared_ids": [
+        "327",
+        "537"
+      ],
+      "reason": "Vládci v 327 řeší motivaci k převzetí moci. Zde je tématem vznik konfliktu o půdu při rozšíření potřeb obce. Osady v 537 popisují skutečnou kolonizaci, zatímco zde Sókratés odvozuje válku z proměny modelové obce.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1363",
+      "verdict": "accept",
+      "compared_ids": [
+        "385"
+      ],
+      "reason": "Článek 385 odlišuje fikci od historie. Zde jde o vztah mezi epizodami uvnitř jednoho díla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1364",
+      "verdict": "accept",
+      "compared_ids": [
+        "1276"
+      ],
+      "reason": "Konfucius spojuje učení a vlastní myšlení. Seneca doporučuje soustředit četbu na omezený počet autorů a vracet se k nim.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1365",
+      "verdict": "accept",
+      "compared_ids": [
+        "178"
+      ],
+      "reason": "Skeptik článku 178 odkládá soud. Epikúros pozitivně připouští souběžné možné přírodní příčiny omezené pozorováním.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1366",
+      "verdict": "accept",
+      "compared_ids": [
+        "1195",
+        "1306"
+      ],
+      "reason": "Křivý strom ukazuje relativitu užitku. Straka ukazuje řetězec přehlédnutých rizik při upření pozornosti na zisk. Prázdný člun z téže kapitoly řeší připsání úmyslu a hněv.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1367",
+      "verdict": "accept",
+      "compared_ids": [
+        "776"
+      ],
+      "reason": "Oprava jmen v 776 zkoumá soulad označení a role. Příběh o ovci staví proti sobě loajalitu v rodině a ohlášení krádeže.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1368",
+      "verdict": "accept",
+      "compared_ids": [
+        "168"
+      ],
+      "reason": "Soucit u studny v 168 slouží jako důkaz mravního zárodku. Zde jde o výslovné pořadí lidu, státu a panovníka.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1369",
+      "verdict": "accept",
+      "compared_ids": [
+        "1277"
+      ],
+      "reason": "Článek 1277 řeší tři zkoušky pravdivosti nauky o osudu. Příměr k nástrojům zdůvodňuje potřebu veřejného modelu, podle něhož lze hodnotit správu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1370",
+      "verdict": "accept",
+      "compared_ids": [
+        "172"
+      ],
+      "reason": "Článek 172 rozebírá odstup od vlastního výsledku. Zde je důvodem pokračovat ve vlastní činnosti její příklad pro ostatní.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1371",
+      "verdict": "accept",
+      "compared_ids": [
+        "28"
+      ],
+      "reason": "Čtyři pravdy v 28 sledují původ utrpení. Rozprava MN 19 vysvětluje, jak opakovaná pozornost určitým myšlenkám vytváří sklon mysli.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1372",
+      "verdict": "accept",
+      "compared_ids": [
+        "224"
+      ],
+      "reason": "Článek 224 dokazuje nekonečnost prvočísel. Zde opakované dělení nalézá konkrétního největšího společného dělitele.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1373",
+      "verdict": "accept",
+      "compared_ids": [
+        "1051"
+      ],
+      "reason": "Keats vykládá nehybný výjev na urně. Sapfó sleduje bezprostřední rozpad řeči a tělesné vjemy lyrické mluvčí.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1374",
+      "verdict": "accept",
+      "compared_ids": [
+        "285"
+      ],
+      "reason": "Krizi v 285 vyřešila dohoda stran o vojenských ústupcích. U San Juanu rozhodlo výklad hranice předání sporu arbitráži.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1375",
+      "verdict": "accept",
+      "compared_ids": [
+        "1311"
+      ],
+      "reason": "Louisiana v 1311 začíná americkým zájmem o přístav. Zde je tématem rozdíl mezi dohodou, převzetím území a doloženou platbou Rusku.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1376",
+      "verdict": "accept",
+      "compared_ids": [
+        "278"
+      ],
+      "reason": "Plameňáky barví pigment z potravy. U sobů se v průběhu roku mění optická struktura odrazné vrstvy oka.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1377",
+      "verdict": "accept",
+      "compared_ids": [
+        "739",
+        "794"
+      ],
+      "reason": "Článek 739 zmiňuje spočítání kruhů pro odhad věku. Křížové datování přiřazuje konkrétním letokruhům kalendářní rok z překryvu vzorů. Synchronní kvetení bambusu je reprodukční cyklus, kdežto podobnost letokruhů vychází z podmínek růstu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1378",
+      "verdict": "accept",
+      "compared_ids": [
+        "1314"
+      ],
+      "reason": "Degasův příspěvek porovnává materiály originálu a odlitků. Rothkovy obrazy ilustrují proměnu vztahu mezi místem a objednaným dílem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1379",
+      "verdict": "accept",
+      "compared_ids": [
+        "33"
+      ],
+      "reason": "Článek 33 sleduje vznik fresky na stropě. Zde je tématem pozdější zakrývání postav na oltářní stěně.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1380",
+      "verdict": "accept",
+      "compared_ids": [
+        "255"
+      ],
+      "reason": "Článek 255 vysvětluje rozhodnutí o obscénnosti románu Odysseus. Zde jde o titulky jako formu jedné epizody.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1381",
+      "verdict": "accept",
+      "compared_ids": [
+        "121"
+      ],
+      "reason": "Článek 121 pojednává o napětí mezi rytířským ideálem a světem. Zde je tématem soupeřící pokračování, které pronikne do děje původního díla.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1382",
+      "verdict": "accept",
+      "compared_ids": [
+        "1017"
+      ],
+      "reason": "Železnice v 1017 koordinují hodiny pro přestupy. Samoa vynechala celý občanský den, aby sladila pracovní týden s obchodními partnery.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1383",
+      "verdict": "accept",
+      "compared_ids": [
+        "1317",
+        "665"
+      ],
+      "reason": "Úmluva UNESCO chrání živé praktiky. Montrealský protokol omezuje výrobu a spotřebu látek, které poškozují stratosférický ozon. Uhlí a ocel přecházejí pod společnou správu. Ozonový protokol nastavuje mezinárodní omezení látek a pravidla jejich zpřísňování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1384",
+      "verdict": "accept",
+      "compared_ids": [
+        "395"
+      ],
+      "reason": "Článek 395 učí o kapalném stavu pod nulou. Zde jde hlavně o závislost výsledku porovnání na definici cíle pokusu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1385",
+      "verdict": "accept",
+      "compared_ids": [
+        "154",
+        "940"
+      ],
+      "reason": "Článek 154 popisuje zánik elektrického odporu rtuti. Zde ukotvení magnetického toku stabilizuje polohu vůči dráze. Ferrofluid mění tvar působením pole a povrchového napětí. Zde pozici vzorku stabilizují připnuté magnetické víry.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1386",
+      "verdict": "accept",
+      "compared_ids": [
+        "1205"
+      ],
+      "reason": "Článek o Hokusaiovi zkoumá tisk s dvěma již existujícími barvivy. Zde vzniká nový pigment chemickou reakcí při pokusu o jinou barvu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1387",
+      "verdict": "accept",
+      "compared_ids": [
+        "1132"
+      ],
+      "reason": "Tyčinka vyzařuje díky chemické reakci. Optický zjasňovač využívá přeměnu dopadajícího ultrafialového záření na viditelné modré světlo.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1388",
+      "verdict": "accept",
+      "compared_ids": [
+        "941"
+      ],
+      "reason": "Janus s Epimetheem jsou oddělené měsíce, které mění dráhy. Selam je jedno obíhající těleso se dvěma dotýkajícími se laloky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1389",
+      "verdict": "accept",
+      "compared_ids": [
+        "335",
+        "968"
+      ],
+      "reason": "Webb u WASP-39 b zachytil výrazný signál CO₂ při tranzitu. Zde se rozbory rozcházejí už v tom, zda data z Venuše potvrzují fosfin. U WISE 0855 jde o změny spektra a oddělení oblačnosti od chemie. Zde je otázkou důkaz konkrétní látky v atmosféře Venuše.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1390",
+      "verdict": "accept",
+      "compared_ids": [
+        "1045",
+        "943"
+      ],
+      "reason": "Pascal počítá s malou kladnou pravděpodobností. Knight zkoumá, zda je vůbec odůvodněné pravděpodobnosti přiřazovat. Morální hazard vychází ze změny pobídek po pojištění. Knight rozlišuje, kdy je pravděpodobnost vůbec měřitelná.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1391",
+      "verdict": "accept",
+      "compared_ids": [
+        "811"
+      ],
+      "reason": "Gini měří nerovnost rozdělení příjmu. HHI používá součet druhých mocnin podílů k zachycení koncentrace firem na trhu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1392",
+      "verdict": "accept",
+      "compared_ids": [
+        "851"
+      ],
+      "reason": "Stíny v 851 využívají současné okolní osvětlení a kontrast. McColloughové následný vjem přetrvá po odebrání barevných podnětů a závisí na orientaci.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1393",
+      "verdict": "accept",
+      "compared_ids": [
+        "422",
+        "1258"
+      ],
+      "reason": "Pravidlo vrcholu a konce měří celkové hodnocení zážitku. Efekt sériové pozice měří pravděpodobnost vybavení jednotlivých slov podle místa v seznamu. Efekt produkce vychází z vyslovení položky. Zde se mění její pozice v seznamu a čas začátku vybavování.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1394",
+      "verdict": "accept",
+      "compared_ids": [
+        "1158",
+        "1105"
+      ],
+      "reason": "Viržování přidává barevný odstín a tónování stříbro mění. Bleach bypass zachovává stříbro vedle barviv v barevném materiálu. Černobílý proces využívá kovové stříbro jako hlavní obraz. Bleach bypass ho ponechává vedle barviv barevného filmu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1395",
+      "verdict": "accept",
+      "compared_ids": [
+        "257",
+        "948"
+      ],
+      "reason": "Toy Story vytváří modely a obrazy ve 3D. CAPS digitalizuje vybarvování a skládání záběrů z ručně kreslené animace. Multiplánová kamera pracuje s oddělenými fyzickými vrstvami. Zde je tématem digitální vybarvení a kompozice ručně kreslených podkladů.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1396",
+      "verdict": "accept",
+      "compared_ids": [
+        "1263"
+      ],
+      "reason": "Ceva zjišťuje souběh tří spojnic. Sylvesterova–Gallaiova věta zaručuje existenci přímky se dvěma body v dané konečné množině.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1397",
+      "verdict": "accept",
+      "compared_ids": [
+        "1100"
+      ],
+      "reason": "Technicolor odděluje spektrální složky ve filmové kameře. Stínicí maska televizoru vybírá, kam mají dopadat různé elektronové svazky.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1398",
+      "verdict": "accept",
+      "compared_ids": [
+        "1247"
+      ],
+      "reason": "Torricelli stanovuje rychlost volného výtoku. Trkač využívá změnu tlaku při přerušení proudu k vytlačení části vody výš.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1399",
+      "verdict": "accept",
+      "compared_ids": [
+        "1041"
+      ],
+      "reason": "Článek 1041 popisuje rozhodování fotbalové remízy. V goalballu tiché prostředí a ozvučený míč umožňují orientovat se při obraně sluchem.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1400",
+      "verdict": "accept",
+      "compared_ids": [
+        "1353"
+      ],
+      "reason": "Flo-Jo dosáhla individuálního rekordu v kvalifikaci. U Rudolphové jde o dvě individuální olympijská vítězství a rozhodující finiš štafety.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    },
+    {
+      "id": "1401",
+      "verdict": "accept",
+      "compared_ids": [
+        "1201"
+      ],
+      "reason": "Článek 1201 popisuje matematické úvahy v jednom ze spisů. Zde je tématem rentgenové mapování železa ve stopách překrytého inkoustu.",
+      "final_text_reviewed": true,
+      "within_batch_reviewed": true,
+      "sources_verified": true
+    }
+  ]
+}
