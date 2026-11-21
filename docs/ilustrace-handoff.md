@@ -4,6 +4,8 @@
 
 Aplikace obsahuje **1 361 příspěvků a 1 318 různých poznatků**. Nová dávka má po šesti textech o historických záhadách, neobvyklých zdravotních stavech a fobiích, intimním životě výtvarných umělců, nepřekonaných sportovních rekordech a otevřených otázkách fyziky a astronomie. Plán, texty a kontrola originality jsou v `reports/batch-1332-1361-*`. Texty odkazují celkem na 62 zdrojů.
 
+Příspěvek 1332 o krádeži děl z Gardnerova muzea patří v kartě i galerii do kategorie Umění.
+
 Všech 30 ilustrací vzniklo ve vestavěném ImageGen a má průhledný WebP 640×360 v kartě i galerii. Mají průhledné rohy, nejméně 49,6 % zcela průhledné plochy a velikost 6 512–44 962 B, celkem 673 664 B. Manifest uchovává odeslané prompty, otisky metadat i souborů a průběh oprav. U 1350, 1352 a 1353 byly po kontrole upřesněny postavy atletů. Nástroj nenabízel nastavení rozměrů ani kvality generování.
 
 Motivy byly prohlédnuty při 160×90 a 320×180 na základním gradientu i se září CardGlow. U 1337 je kvůli rozpoznatelnosti brigantiny podrobněji vykresleno lanoví. U 1357 a 1358 ilustrují spektrální pás a sprška částic princip měření. V galerii se načetlo všech 30 obrázků se správnými titulky.
