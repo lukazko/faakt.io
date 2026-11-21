@@ -354,8 +354,18 @@ for (const side of ['front', 'back']) {
 			await expect(page.getByRole('menu')).toHaveCount(0);
 			if (side === 'back') await flip(page);
 			await openMenu(page);
+			const report = page.getByRole('menuitem', { name: 'Nahlásit problém' });
+			const iconFits = await report.locator('svg').evaluate(icon => {
+				const { x, y, width, height } = icon.getBBox();
+				const viewBox = icon.viewBox.baseVal;
+				const stroke = parseFloat(getComputedStyle(icon).strokeWidth) / 2;
+				return x - stroke >= viewBox.x && y - stroke >= viewBox.y
+					&& x + width + stroke <= viewBox.x + viewBox.width
+					&& y + height + stroke <= viewBox.y + viewBox.height;
+			});
+			expect(iconFits).toBe(true);
 			const popupPromise = page.waitForEvent('popup');
-			await activate(page.getByRole('menuitem', { name: 'Nahlásit problém' }), page);
+			await activate(report, page);
 			const popup = await popupPromise;
 			await expect(popup).toHaveURL(/https:\/\/github.com\/lukazko\/faakt.io\/issues\/new\?/);
 			const url = new URL(popup.url());
